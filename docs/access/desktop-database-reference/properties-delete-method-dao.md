@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Properties.Delete method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Deletes the specified **Property** object from the **Properties** collection.
@@ -21,7 +20,7 @@ Deletes the specified **Property** object from the **Properties** collection.
 
 *expression* A variable that represents a **Properties** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -33,14 +32,14 @@ Deletes the specified **Property** object from the **Properties** collection.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>String</strong></p></td>
 <td><p>The name of the property to delete.</p></td>

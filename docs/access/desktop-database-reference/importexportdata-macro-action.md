@@ -19,7 +19,7 @@ f1_categories:
 You can use the **ImportExportData** action to import or export data between the current Access database (.mdb or .accdb) or Access project (.adp) and another database. For Microsoft Access databases, you can also link a table to the current Access database from another database. With a linked table, you have access to the table's data while the table itself remains in the other database.
 
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
+> This action will not be allowed if the database is not trusted. 
 
 ## Settings
 
@@ -39,13 +39,7 @@ The **ImportExportData** action has the following arguments.
 <tbody>
 <tr class="odd">
 <td><p><strong>Transfer Type</strong></p></td>
-<td><p>The type of transfer you want to make. Select <strong>Import</strong>, <strong>Export</strong>, or <strong>Link</strong> in the <strong>Transfer Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. The default is <strong>Import</strong>.</p>
-
-> [!NOTE]
-> The **Link** transfer type is not supported for Access projects (.adp).
-
-
-<p></p></td>
+<td><p>The type of transfer you want to make. Select <strong>Import</strong>, <strong>Export</strong>, or <strong>Link</strong> in the <strong>Transfer Type</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. The default is <strong>Import</strong>.</p><p><strong>NOTE</strong>: The <strong>Link</strong> transfer type is not supported for Access projects (.adp).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Database Type</strong></p></td>

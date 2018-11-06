@@ -14,16 +14,12 @@ f1_categories:
 
 # MinimizeWindow macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 If Access is configured to use overlapping windows instead of tabbed documents, you can use the **MinimizeWindow** action to reduce the active window to a small title bar at the bottom of the Access window.
 
-
 > [!NOTE]
-> <P>This action can't be applied to code windows in the Visual Basic Editor. For information about how to affect code windows, see the <STRONG>WindowState</STRONG> property topic.</P>
-
-
+> This action can't be applied to code windows in the Visual Basic Editor. For information about how to affect code windows, see the **WindowState** property topic.
 
 ## Setting
 
@@ -37,13 +33,13 @@ The **MinimizeWindow** action has the same effect as clicking the **Minimize** b
 
 **Tips**
 
-  - You may first need to use the **SelectObject** action if the window you want to minimize isn't the active window.
+- You may first need to use the **SelectObject** action if the window you want to minimize isn't the active window.
 
-  - To hide the Navigation Pane, use the **SelectObject** action with the In Navigation Pane argument set to **Yes** and then use the **MinimizeWindow** action. The object you select in the **SelectObject** action can be any object in the database.
+- To hide the Navigation Pane, use the **SelectObject** action with the In Navigation Pane argument set to **Yes** and then use the **MinimizeWindow** action. The object you select in the **SelectObject** action can be any object in the database.
 
-  - You can hide the active window by clicking **Manage This Window** on the **View** menu, and then clicking **Hide**. Instead of being reduced to an icon, the window becomes invisible. Use the **Unhide** command on the same menu to make the window reappear. You can use the **RunMenuCommand** action to carry out either of these commands from a macro.
+- You can hide the active window by clicking **Manage This Window** on the **View** menu, and then clicking **Hide**. Instead of being reduced to an icon, the window becomes invisible. Use the **Unhide** command on the same menu to make the window reappear. You can use the **RunMenuCommand** action to carry out either of these commands from a macro.
 
-  - You can also use the **SetValue** action to set a form's **Visible** property to hide or show the form's window.
+- You can also use the **SetValue** action to set a form's **Visible** property to hide or show the form's window.
 
 To run the **MinimizeWindow** action in a Visual Basic for Applications (VBA) module, use the **Minimize** method of the **DoCmd** object.
 

@@ -32,21 +32,12 @@ A unique index consists of one or more fields that logically arrange all records
 
 If both the **Unique** and **[Primary](index-primary-property-dao.md)** properties of an **Index** object are set to **True**, the index is unique and primary: It uniquely identifies all records in the table in a predefined, logical order. If the **Primary** property is set to **False**, the index is a secondary index. Secondary indexes (both key and nonkey) logically arrange records in a predefined order without serving as an identifier for records in the table.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>You don't have to create indexes for tables, but in large, unindexed tables, accessing a specific record can take a long time.</P>
-> <LI>
-> <P>Records retrieved from tables without indexes are returned in no particular sequence.</P>
-> <LI>
-> <P>The <STRONG><A href="field-attributes-property-dao.md">Attributes</A></STRONG> property of each <STRONG><A href="field-object-dao.md">Field</A></STRONG> object in the <STRONG>Index</STRONG> object determines the order of records and consequently determines the access techniques to use for that <STRONG>Index</STRONG> object.</P>
-> <LI>
-> <P>A unique index helps optimize finding records.</P>
-> <LI>
-> <P>Indexes don't affect the physical order of a base table indexes affect only how the records are accessed by the table-type <STRONG><A href="recordset-object-dao.md">Recordset</A></STRONG> object when a particular index is chosen or when the Microsoft Access database engine creates <STRONG>Recordset</STRONG> objects.</P></LI></UL>
-
-
+> - You don't have to create indexes for tables, but in large, unindexed tables, accessing a specific record can take a long time.
+> - Records retrieved from tables without indexes are returned in no particular sequence.
+> - The **[Attributes](field-attributes-property-dao.md)** property of each **[Field](field-object-dao.md)** object in the **Index** object determines the order of records and consequently determines the access techniques to use for that **Index** object.
+> - A unique index helps optimize finding records.
+> - Indexes don't affect the physical order of a base table; indexes affect only how the records are accessed by the table-type **[Recordset](recordset-object-dao.md)** object when a particular index is chosen or when the Microsoft Access database engine creates **Recordset** objects.
 
 ## Example
 

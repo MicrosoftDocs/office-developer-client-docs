@@ -14,15 +14,13 @@ f1_categories:
 
 # Initializing the Text Data Source driver
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 The same database driver is used for both Text Data sources and for HTML data sources.
 
 When you install the Text Data Source database driver, the Setup program writes a set of default values to the Microsoft Windows Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Text Data Source database driver.
 
-## Text Data Source Initialization Settings
+## Text data source initialization settings
 
 The **Access Connectivity Engine\\ISAM Formats\\Text folder** includes initialization settings for the Acetxt.dll driver, used for external access to text data files. Typical settings for the entries in this folder are shown in the following example.
 
@@ -97,7 +95,7 @@ The Microsoft Access database engine uses the Text folder entries as follows.
 </table>
 
 
-## Text Data Source ISAM Formats
+## Text data source ISAM formats
 
 The **Access Connectivity Engine\\ISAM Formats\\Text** folder contains the following entries.
 
@@ -179,13 +177,10 @@ The **Access Connectivity Engine\\ISAM Formats\\Text** folder contains the follo
 </table>
 
 
-
 > [!NOTE]
-> <P>When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</P>
+> When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
-
-
-## HTML Import ISAM Formats
+## HTML import ISAM formats
 
 The **Access Connectivity Engine\\ISAM Formats\\HTML Import** folder contains the following entries.
 
@@ -256,14 +251,10 @@ The **Access Connectivity Engine\\ISAM Formats\\HTML Import** folder contains th
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</P>
+> When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
-
-
-## HTML Export ISAM Formats
+## HTML export ISAM formats
 
 The **Access Connectivity Engine\\ISAM Formats\\HTML Export** folder contains the following entries.
 
@@ -329,14 +320,10 @@ The **Access Connectivity Engine\\ISAM Formats\\HTML Export** folder contains th
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.</P>
+> When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
-
-
-## Customizing the Schema.ini File for Text and HTML Data
+## Customizing the Schema.ini file for text and HTML data
 
 To read, import, or export text and HTML data, you need to create a Schema.ini file in addition to including the Text ISAM information in the .ini file. Schema.ini contains the specifics of a data source: how the text file is formatted, how it is read at import time, and what the default export format is for files. The following examples show the layout for a fixed-width file, Filename.txt:
 
@@ -363,6 +350,8 @@ To read, import, or export text and HTML data, you need to create a Schema.ini f
     Col5=columnname9 LongChar Width 10
 ```
 
+<br/>
+
 Similarly, the format for a delimited file is specified as follows:
 
 ```text
@@ -380,6 +369,8 @@ Similarly, the format for a delimited file is specified as follows:
     
     Col2=dateofbirth Date width 9
 ```
+
+<br/>
 
 If you are exporting data into a delimited text file, specify the format for that file as well:
 
@@ -416,6 +407,8 @@ If you are exporting data into a delimited text file, specify the format for tha
     
     TextDelimeter="
 ```
+
+<br/>
 
 The My Special Export example refers to a specific export option; you can specify any variation of export options at connect time. This last example also corresponds to a data source name (DSN) that can be optionally passed at connect time. All three format sections can be included in the same .ini file.
 
@@ -503,8 +496,6 @@ The Microsoft Access database engine uses the Schema.ini entries as follows.
 </tr>
 </tbody>
 </table>
-
-
 
 > [!NOTE]
 > When you change Schema.ini file settings, you must exit and then restart the database engine for the new settings to take effect.

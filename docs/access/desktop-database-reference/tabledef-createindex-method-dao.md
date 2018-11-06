@@ -14,7 +14,6 @@ f1_categories:
 
 # TableDef.CreateIndex method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013 
 
 Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only). .
@@ -25,7 +24,7 @@ Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspac
 
 *expression* A variable that represents a **TableDef** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -37,14 +36,14 @@ Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspac
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Name</p></td>
+<td><p><em>Name</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>A <strong>String</strong> that uniquely names the new <strong>Index</strong> object. See the <strong>Name</strong> property for details on valid <strong>Index</strong> names.</p></td>
@@ -53,7 +52,7 @@ Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspac
 </table>
 
 
-### Return value
+## Return value
 
 Index
 

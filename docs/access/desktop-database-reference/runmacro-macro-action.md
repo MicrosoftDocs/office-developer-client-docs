@@ -14,18 +14,17 @@ f1_categories:
 
 # RunMacro macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **RunMacro** action to run a macro. The macro can be in a macro group.
 
 You can use this action:
 
-  - To run a macro from within another macro.
+- To run a macro from within another macro.
 
-  - To run a macro based on a certain condition.
+- To run a macro based on a certain condition.
 
-  - To attach a macro to a custom menu command.
+- To attach a macro to a custom menu command.
 
 ## Setting
 
@@ -58,38 +57,24 @@ The **RunMacro** action has the following arguments.
 </tbody>
 </table>
 
-
 ## Remarks
 
 If you enter a macro group name for the **Macro Name** argument, Access runs the first macro in the macro group.
 
 This action is similar to clicking **Run Macro** on the **Database Tools** tab, selecting a macro, and clicking **OK**. However, this command runs the macro only once, whereas the **RunMacro** action can run a macro as many times as you want.
 
-
 > [!TIP]
-> <P>You can use the <STRONG>Repeat Count</STRONG> and <STRONG>Repeat Expression</STRONG> arguments to determine how many times the macro runs:</P>
-
-
-
-  - If you leave both arguments blank, the macro runs once.
-
-  - If you enter a number for **Repeat Count** but leave **Repeat Expression** blank, the macro runs the specified number of times.
-
-  - If you leave **Repeat Count** blank but enter an expression for **Repeat Expression**, the macro runs until the expression evaluates to **False**.
-
-  - If you enter values for both arguments, the macro runs the number of times specified in **Repeat Count** or until **Repeat Expression** evaluates to **False**, whichever occurs first.
+> You can use the **Repeat Count** and **Repeat Expression** arguments to determine how many times the macro runs:
+> - If you leave both arguments blank, the macro runs once.
+> - If you enter a number for **Repeat Count** but leave **Repeat Expression** blank, the macro runs the specified number of times.
+> - If you leave **Repeat Count** blank but enter an expression for **Repeat Expression**, the macro runs until the expression evaluates to **False**.
+> - If you enter values for both arguments, the macro runs the number of times specified in **Repeat Count** or until **Repeat Expression** evaluates to **False**, whichever occurs first.
 
 When you run a macro containing the **RunMacro** action, and it reaches the **RunMacro** action, Access runs the called macro. When the called macro has finished, Access returns to the original macro and runs the next action.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>You can call a macro in the same macro group or in another macro group.</P>
-> <LI>
-> <P>You can nest macros. That is, you can run macro A, which in turn calls macro B, and so on. In each case, when the called macro has finished, Access returns to the macro that called it and runs the next action in that macro.</P></LI></UL>
-
-
+> - You can call a macro in the same macro group or in another macro group.
+> - You can nest macros. That is, you can run macro A, which in turn calls macro B, and so on. In each case, when the called macro has finished, Access returns to the macro that called it and runs the next action in that macro.
 
 To run the **RunMacro** action in a Visual Basic for Applications (VBA) module, use the **RunMacro** method of the **DoCmd** object.
 

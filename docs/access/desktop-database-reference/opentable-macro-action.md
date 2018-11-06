@@ -14,7 +14,6 @@ f1_categories:
 
 # OpenTable macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **OpenTable** action to open a table in Datasheet view, Design view, or Print Preview. You can also select a data entry mode for the table.
@@ -50,16 +49,12 @@ The **OpenTable** action has the following arguments.
 </tbody>
 </table>
 
-
 ## Remarks
 
 This action is similar to double-clicking the table in the Navigation Pane, or right-clicking the table in the Navigation Pane and selecting a view.
 
-
 > [!TIP]
-> <P>You can drag a table from the Navigation Pane to a macro action row. This automatically creates an <STRONG>OpenTable</STRONG> action that opens the table in Datasheet view.</P>
-
-
+> You can drag a table from the Navigation Pane to a macro action row. This automatically creates an **OpenTable** action that opens the table in Datasheet view.
 
 To run the **OpenTable** action in a Visual Basic for Applications (VBA) module, use the **OpenTable** method of the **DoCmd** object.
 

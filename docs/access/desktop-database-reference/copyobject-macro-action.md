@@ -14,16 +14,12 @@ f1_categories:
 
 # CopyObject macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **CopyObject** action to copy the specified database object to a different Access database or to the same database or Access project under a new name. For example, you can copy or back up an existing object in another database or quickly create a similar object with a few changes.
 
-
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -43,12 +39,7 @@ The **CopyObject** action has the following arguments.
 <tbody>
 <tr class="odd">
 <td><p><strong>Destination Database</strong></p></td>
-<td><p>A valid path and file name for the destination database. Enter the path and file name in the <strong>Destination Database</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. Leave this argument blank if you want to select the current database.</p>
-
-> [!NOTE]
-> This argument is only available in the Access database environment. When using this action in an Access project environment (.adp), the Destination Database argument must be blank.
-
-
+<td><p>A valid path and file name for the destination database. Enter the path and file name in the <strong>Destination Database</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. Leave this argument blank if you want to select the current database.</p><p><strong>NOTE</strong>: This argument is only available in the Access database environment. When using this action in an Access project environment (.adp), the Destination Database argument must be blank.</p>
 <p>If you run a macro containing the <strong>CopyObject</strong> action in a library database and leave this argument blank, Microsoft Office Access 2007 will copy the object into the library database.</p></td>
 </tr>
 <tr class="even">
@@ -75,17 +66,14 @@ If you leave the **Source Object Type** and **Source Object Name** arguments bla
 
 The **CopyObject** action is similar to performing the following steps manually:
 
-1.  Select an object in the Navigation Pane.
+1. Select an object in the Navigation Pane.
 
-2.  On the Home tab, in the Clipboard group, click Copy.
+2. On the Home tab, in the Clipboard group, click Copy.
 
-3.  On the same tab, click **Paste**.The **Paste As** dialog box appears so that you can give the object a new name. The **CopyObject** action performs all of these steps automatically.
-
+3. On the same tab, click **Paste**.The **Paste As** dialog box appears so that you can give the object a new name. The **CopyObject** action performs all of these steps automatically.
 
 > [!NOTE]
 > When copying data access pages, the **CopyObject** action copies only the link to the associated .htm file, not the file itself.
-
-
 
 The path and file name of the destination database must exist before the macro runs the **CopyObject** action. If they don't exist, Access displays an error message.
 
@@ -95,11 +83,11 @@ You can also manually copy an object selected in the Navigation Pane, or an obje
 
 To manually copy an object to a different Access database:
 
-1.  On the **External Data** tab, in the **Export** group, click **More** and then click **Access Database**.
+1. On the **External Data** tab, in the **Export** group, click **More** and then click **Access Database**.
 
-2.  In the **Export - Access Database** dialog box, enter the file name of the destination database.-or-Click **Browse** to display the **File Save** dialog box, locate the destination database, and then click **Save**.
+2. In the **Export - Access Database** dialog box, enter the file name of the destination database.-or-Click **Browse** to display the **File Save** dialog box, locate the destination database, and then click **Save**.
 
-3.  In the **Export - Access Database** dialog box, click **OK**. The **Export** dialog box appears.
+3. In the **Export - Access Database** dialog box, click **OK**. The **Export** dialog box appears.
 
-4.  In the **Export** dialog box, enter a name for the object in the destination database. Choose any applicable options, such as **Export Definition and Data** or **Definition Only** for tables. When you are finished, click **OK**.
+4. In the **Export** dialog box, enter a name for the object in the destination database. Choose any applicable options, such as **Export Definition and Data** or **Definition Only** for tables. When you are finished, click **OK**.
 

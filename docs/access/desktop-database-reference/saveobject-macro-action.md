@@ -14,16 +14,12 @@ f1_categories:
 
 # SaveObject macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **SaveObject** action to save either a specified Access object or the active object if none is specified. You can also save the active object with a new name in some cases (this functions the same as the **Save As** command on the **Quick Access Toolbar**).
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -57,27 +53,16 @@ The **SaveObject** action has the following arguments.
 
 The **SaveObject** action works on all database objects that the user can explicitly open and save. The specified object must be open for the **SaveObject** action to have any effect on the object. This action has the same effect as selecting an object and then saving it by clicking **Save** on the **Quick Access Toolbar**. Leaving the **Object Type** argument blank and entering a new name in the **Object Name** argument has the same effect as clicking **Save As** on the **Quick Access Toolbar**, and entering a new name for the active object. Using the **SaveObject** action enables you to specify an object to save and to perform a **Save As** command from a macro.
 
-
 > [!NOTE]
-> <P>You can't use the <STRONG>SaveObject</STRONG> action to save any of the following with a new name:</P>
-
-
-
-  - A form in Form view or Datasheet view.
-
-  - A report in Print Preview.
-
-  - A module.
-
-  - A server view in Datasheet view or Print Preview.
-
-  - A data access page in Page view.
-
-  - A table in Datasheet view or Print Preview.
-
-  - A query in Datasheet view or Print Preview.
-
-  - A stored procedure in Datasheet view or Print Preview.
+> You can't use the **SaveObject** action to save any of the following with a new name:
+> - A form in Form view or Datasheet view
+> - A report in Print Preview
+> - A module
+> - A server view in Datasheet view or Print Preview
+> - A data access page in Page view
+> - A table in Datasheet view or Print Preview
+> - A query in Datasheet view or Print Preview
+> - A stored procedure in Datasheet view or Print Preview
 
 The **SaveObject** action, whether it's carried out in a macro run in the current database or in a library database, always saves the specified object or the active object in the database in which the object was created.
 

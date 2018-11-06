@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Prompt dynamic property (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Specifies whether the OLE DB provider should prompt the user for initialization information.
@@ -25,11 +24,8 @@ Sets and returns a [ConnectPromptEnum](connectpromptenum.md) value.
 
 Dynamic properties of a [Connection](connection-object-ado.md) object are lost when the **Connection** is closed. The **Prompt** property must be reset before re-opening the **Connection** to use a value other than the default.
 
-
 > [!NOTE]
-> <P>Do not specify that the provider should prompt the user in scenarios in which the user will not be able to respond to the dialog box. For example, the user will not be able to respond if the application is running on a server system instead of on the user's client, or if the application is running on a system with no user logged on. In these cases, the application will wait indefinitely for a response and seem to lock up.</P>
-
-
+> Do not specify that the provider should prompt the user in scenarios in which the user will not be able to respond to the dialog box. For example, the user will not be able to respond if the application is running on a server system instead of on the user's client, or if the application is running on a system with no user logged on. In these cases, the application will wait indefinitely for a response and seem to lock up.
 
 **Usage**
 

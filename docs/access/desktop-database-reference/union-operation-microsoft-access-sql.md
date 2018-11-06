@@ -16,7 +16,6 @@ f1_categories:
 
 # UNION operation (Microsoft Access SQL)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Creates a union query, which combines the results of two or more independent queries or tables.
@@ -64,15 +63,9 @@ All queries in a UNION operation must request the same number of fields; however
 
 Use aliases only in the first SELECT statement because they are ignored in any others. In the ORDER BY clause, refer to fields by what they are called in the first SELECT statement.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>You can use a <A href="https://msdn.microsoft.com/library/ff837271(v=office.15)">GROUP BY</A> or <A href="https://msdn.microsoft.com/library/ff193795(v=office.15)">HAVING</A> clause in each <EM>query</EM> argument to group the returned data.</P>
-> <LI>
-> <P>You can use an <A href="https://msdn.microsoft.com/library/ff198293(v=office.15)">ORDER BY</A> clause at the end of the last <EM>query</EM> argument to display the returned data in a specified order.</P></LI></UL>
-
-
+> - You can use a [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) or [HAVING](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/having-clause-microsoft-access-sql) clause in each *query* argument to group the returned data.
+> - You can use an [ORDER BY](https://docs.microsoft.com/office/vba/access/concepts/structured-query-language/order-by-clause-microsoft-access-sql) clause at the end of the last *query* argument to display the returned data in a specified order.
 
 ## Example
 

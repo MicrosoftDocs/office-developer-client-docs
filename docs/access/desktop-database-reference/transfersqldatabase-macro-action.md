@@ -14,16 +14,12 @@ f1_categories:
 
 # TransferSQLDatabase macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 In an Access project, you can use the **TransferSQLDatabase** action to transfer a Microsoft SQL Server 7.0 or later database to another SQL Server 7.0 or later database. For more information about transferring a database, see the SQL Server documentation.
 
-
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
-
-
+> This action will not be allowed if the database is not trusted.
 
 ## Setting
 
@@ -77,17 +73,12 @@ The **TransferSQLDatabase** action, by default, copies data, data definitions, d
 
 There are requirements for transferring a database:
 
-  - You must be a member of the sysadmin role on the destination server (No special role is required on the source server).
+- You must be a member of the sysadmin role on the destination server (No special role is required on the source server).
 
-<!-- end list -->
+- The current SQL server connected to the Access project and the destination server you are transferring the database to must be SQL Server version 7.0 or later.
 
-  - The current SQL server connected to the Access project and the destination server you are transferring the database to must be SQL Server version 7.0 or later.
-
-
-> [!NOTE]
-> <P>Linked servers are not transferred during a database transfer operation.</P>
-
-
+  > [!NOTE]
+  > Linked servers are not transferred during a database transfer operation.
 
 To run the **TransferSQLDatabase** action in a Visual Basic for Applications (VBA) module, use the **TransferSQLDatabase** method of the **DoCmd** object.
 

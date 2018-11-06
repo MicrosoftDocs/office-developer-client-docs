@@ -10,16 +10,12 @@ mtps_version: v=office.15
 
 # SendEmail macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
-The **SendEmail** action sends an e-mail message.
-
+The **SendEmail** action sends an email message.
 
 > [!NOTE]
-> <P>The <STRONG>SendEmail</STRONG> action is available only in Data Macros.</P>
-
-
+> The **SendEmail** action is available only in Data Macros.
 
 ## Setting
 

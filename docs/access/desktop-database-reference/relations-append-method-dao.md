@@ -14,7 +14,6 @@ f1_categories:
 
 # Relations.Append method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Adds a new **Relation** to the **Relations** collection.
@@ -25,7 +24,7 @@ Adds a new **Relation** to the **Relations** collection.
 
 *expression* A variable that represents a **Relations** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -37,14 +36,14 @@ Adds a new **Relation** to the **Relations** collection.
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Object</p></td>
+<td><p><em>Object</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Object</strong></p></td>
 <td><p>An object variable that represents the field being appended to the collection.</p></td>

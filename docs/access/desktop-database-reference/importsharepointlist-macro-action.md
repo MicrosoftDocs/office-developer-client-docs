@@ -19,7 +19,7 @@ f1_categories:
 You can use the **ImportSharePointList** action to import or link data from a Microsoft SharePoint Foundation site.
 
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 

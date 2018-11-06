@@ -1,6 +1,6 @@
 ﻿---
 title: Properties collection (DAO)
-TOCTitle: Properties Collection
+TOCTitle: Properties collection
 ms:assetid: cd07184a-a261-29c9-542f-bc2eff6f4af6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834455(v=office.15)
 ms:contentKeyID: 48547753
@@ -9,7 +9,6 @@ mtps_version: v=office.15
 ---
 
 # Properties collection (DAO)
-
 
 **Applies to**: Access 2013, Office 2013
 
@@ -23,29 +22,23 @@ In addition to the built-in properties, you can also create and add your own use
 
 You can use the **Delete** method to remove user-defined properties from the **Properties** collection, but you can't remove built-in properties.
 
-
 > [!NOTE]
-> <P>A user-defined <STRONG>Property</STRONG> object is associated only with the specific instance of an object. The property isn't defined for all instances of objects of the selected type.</P>
-
-
+> A user-defined **Property** object is associated only with the specific instance of an object. The property isn't defined for all instances of objects of the selected type.
 
 To refer to a built-in **Property** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:
 
-object.**Properties**(0)
+- object.**Properties**(0)
 
-object.**Properties**("name")
+- object.**Properties**("name")
 
-object.**Properties**\!\[name\]
+- object.**Properties**\!\[name\]
 
 For a built-in property, you can also use this syntax:
 
-object.name
-
+- object.name
 
 > [!NOTE]
-> <P>For a user-defined property, you must use the full object.<STRONG>Properties</STRONG>("name") syntax.</P>
-
-
+> For a user-defined property, you must use the full object.**Properties**("name") syntax.
 
 With the same syntax forms, you can also refer to the **Value** property of a **Property** object. The context of the reference will determine whether you are referring to the **Property** object itself or the **Value** property of the **Property** object.
 

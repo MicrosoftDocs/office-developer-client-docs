@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.Clone method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers to the original **Recordset2** object.
@@ -21,7 +20,7 @@ Creates a duplicate **[Recordset](recordset-object-dao.md)** object that refers 
 
 *expression* A variable that represents a **Recordset2** object.
 
-### Return value
+## Return value
 
 Recordset
 
@@ -33,15 +32,9 @@ You can use the **Clone** method when you want to perform an operation on a reco
 
 Using the **[Close](connection-close-method-dao.md)** method on either the original or duplicate object doesn't affect the other object. For example, using **Close** on the original recordset doesn't close the clone.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>Closing a clone recordset within a pending transaction will cause an implicit <STRONG>Rollback</STRONG> operation.</P>
-> <LI>
-> <P>When you clone a table-type <STRONG>Recordset</STRONG> object in a Microsoft Access workspace, the <STRONG><A href="recordset2-index-property-dao.md">Index</A></STRONG> property setting is not cloned on the new copy of the recordset. You must copy the <STRONG>Index</STRONG> property setting manually.</P></LI></UL>
-
-
+> - Closing a clone recordset within a pending transaction will cause an implicit **Rollback** operation.
+> - When you clone a table-type **Recordset** object in a Microsoft Access workspace, the **[Index](recordset2-index-property-dao.md)** property setting is not cloned on the new copy of the recordset. You must copy the **Index** property setting manually.
 
 ## Example
 

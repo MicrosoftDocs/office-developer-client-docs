@@ -1,6 +1,6 @@
 ﻿---
-title: Working with Multidimensional Data
-TOCTitle: Working with Multidimensional Data
+title: Working with multidimensional data
+TOCTitle: Working with multidimensional data
 ms:assetid: a0c9ac73-04da-cfdd-8787-15c8a53ff819
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249740(v=office.15)
 ms:contentKeyID: 48546717
@@ -9,7 +9,6 @@ mtps_version: v=office.15
 ---
 
 # Working with multidimensional data
-
 
 **Applies to**: Access 2013, Office 2013
 
@@ -23,35 +22,27 @@ A *cell* is an object positioned at the intersection of axis coordinates. Each c
 
 For example, a cube has the following six dimensions (note that this cube schema differs slightly from the example given in [Overview of Multidimensional Schemas and Data](overview-of-multidimensional-schemas-and-data.md)):
 
-  - Salesperson
-
-  - Geography (natural hierarchy) — Continents, Countries, States, and so on
-
-  - Quarters — Quarters, Months, Days
-
-  - Years
-
-  - Measures — Sales, PercentChange, BudgetedSales
-
-  - Products
-
+- Salesperson
+- Geography (natural hierarchy) — Continents, Countries, States, and so on
+- Quarters — Quarters, Months, Days
+- Years
+- Measures — Sales, PercentChange, BudgetedSales
+- Products
 
 > [!NOTE]
-> <P>The cell values in the example can be viewed as ordered pairs of axis position ordinals where the first digit represents the x-axis position and the second digit the y-axis position.</P>
-
-
+> The cell values in the example can be viewed as ordered pairs of axis position ordinals where the first digit represents the x-axis position and the second digit the y-axis position.
 
 The characteristics of this cellset are as follows:
 
-  - Axis dimensions: Quarters, Salesperson, Geography
+- Axis dimensions: Quarters, Salesperson, Geography
 
-  - Filter dimensions: Measures, Years, Products
+- Filter dimensions: Measures, Years, Products
 
-  - Two axes: COLUMN (x, or Axis 0) and ROW (y, or Axis 1)
+- Two axes: COLUMN (x, or Axis 0) and ROW (y, or Axis 1)
 
-  - x-axis: two nested dimensions, Salesperson and Geography
+- x-axis: two nested dimensions, Salesperson and Geography
 
-  - y-axis: Quarters dimension
+- y-axis: Quarters dimension
 
 The x-axis has two nested dimensions: Salesperson and Geography. From Geography, four members are selected: Seattle, Boston, USA-South, and Japan. Two members are selected from Salesperson: Valentine and Nash. This yields a total of eight positions on this axis (8 = 4\*2).
 

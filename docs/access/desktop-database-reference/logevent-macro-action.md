@@ -10,16 +10,12 @@ mtps_version: v=office.15
 
 # LogEvent macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 The **LogEvent** action writes information to the **USysApplicationLog** system table.
 
-
 > [!NOTE]
-> <P>The <STRONG>LogEvent</STRONG> action is available only in Data Macros.</P>
-
-
+> The **LogEvent** action is available only in Data Macros.
 
 ## Setting
 
@@ -46,7 +42,6 @@ The **LogEvent** action has the following arguments.
 </tr>
 </tbody>
 </table>
-
 
 ## Remarks
 

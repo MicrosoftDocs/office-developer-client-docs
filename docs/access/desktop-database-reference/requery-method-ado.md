@@ -10,10 +10,7 @@ mtps_version: v=office.15
 
 # Requery method (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
-
-
 
 Updates the data in a [Recordset](recordset-object-ado.md) object by re-executing the query on which the object is based.
 
@@ -21,17 +18,14 @@ Updates the data in a [Recordset](recordset-object-ado.md) object by re-executin
 
 *recordset*.Requery *Options*
 
-## Parameter
+## Parameters
 
-  - *Options*
-
-  - Optional. A bitmask that contains [ExecuteOptionEnum](executeoptionenum.md) and [CommandTypeEnum](commandtypeenum.md) values affecting this operation.
-
+|Name |Description|
+|:----|:----------|
+|*Options* |Optional. A bitmask that contains [ExecuteOptionEnum](executeoptionenum.md) and [CommandTypeEnum](commandtypeenum.md) values affecting this operation.|
 
 > [!NOTE]
-> <P>If <EM>Options</EM> is set to <STRONG>adAsyncExecute</STRONG>, this operation will execute asynchronously and a <A href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</A> event will be issued when it concludes.</P>
-
-
+> If *Options* is set to **adAsyncExecute**, this operation will execute asynchronously and a [RecordsetChangeComplete](willchangerecordset-and-recordsetchangecomplete-events-ado.md) event will be issued when it concludes.
 
 The **ExecuteOpenEnum** values of **adExecuteNoRecords** or **adExecuteStream** should not be used with **Requery**.
 

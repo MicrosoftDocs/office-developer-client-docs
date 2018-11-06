@@ -19,7 +19,7 @@ f1_categories:
 You can use the **EMailDatabaseObject** action to include the specified Microsoft Access datasheet, form, report, module, or data access page in an electronic mail message, where it can be viewed and forwarded.
 
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
+> This action will not be allowed if the database is not trusted. 
 
 ## Settings
 
@@ -107,7 +107,7 @@ To run the **EMailDatabaseObject** action in a Visual Basic for Applications (VB
 
 **Link provided by** Luke Chung, [FMS, Inc.](https://www.fmsinc.com/), the founder and president of FMS, Inc., a leading provider of custom database solutions and developer tools.
 
-  - [Features and Limits of Using the SendObject Method to Send](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
+- [Features and Limits of Using the SendObject Method to Send](https://www.fmsinc.com/microsoftaccess/email/sendobject.html)
 
 
 

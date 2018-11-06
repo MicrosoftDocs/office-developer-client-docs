@@ -10,16 +10,11 @@ mtps_version: v=office.15
 
 # Step 6: Changes are sent to the server (RDS Tutorial)
 
-
 **Applies to**: Access 2013, Office 2013
 
 If the **Recordset** object is edited, any changes (that is, rows that are added, changed, or deleted) can be sent back to the server.
 
-
-> [!NOTE]
-> <P>The default behavior of RDS can be invoked implicitly with ADO objects and the Microsoft OLE DB Remoting Provider. Queries can return <STRONG>Recordset</STRONG>s, and edited <STRONG>Recordset</STRONG>s can update the data source. This tutorial does not invoke RDS with ADO objects, but this is how it would look if it did:</P>
-
-
+The default behavior of RDS can be invoked implicitly with ADO objects and the Microsoft OLE DB Remoting Provider. Queries can return **Recordsets**, and edited **Recordsets** can update the data source. This tutorial does not invoke RDS with ADO objects, but this is how it would look if it did:
 
 ```vb 
  

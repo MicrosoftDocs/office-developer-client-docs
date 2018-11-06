@@ -14,14 +14,12 @@ f1_categories:
 
 # DeleteObject macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **DeleteObject** action to delete a specified database object.
 
-
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -50,12 +48,8 @@ The **DeleteObject** action has the following arguments.
 </tbody>
 </table>
 
-
-
 > [!WARNING]
 > If you leave the **Object Type** and **Object Name** boxes blank, Access deletes the object selected in the Navigation Pane without displaying a warning message when it encounters the **DeleteObject** action.
-
-
 
 ## Remarks
 

@@ -14,16 +14,12 @@ f1_categories:
 
 # PrintOut macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **PrintOut** action to print the active object in the open database. You can print datasheets, reports, forms, data access pages, and modules.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -73,11 +69,8 @@ The **PrintOut** action has the following arguments.
 
 This action is similar to selecting an object, clicking the **File** tab and then clicking **Print**. With this action, however, no **Print** dialog box appears.
 
-
 > [!TIP]
-> <P>If you have particular print settings you use frequently, create a macro containing a <STRONG>PrintOut</STRONG> action with these settings in its arguments.</P>
-
-
+> If you have particular print settings you use frequently, create a macro containing a **PrintOut** action with these settings in its arguments.
 
 The arguments for this action correspond to options in the **Print** dialog box. However, unlike the **FindRecord** action and **Find and Replace** dialog box, the argument settings aren't shared with the **Print** dialog box options.
 

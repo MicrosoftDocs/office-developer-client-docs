@@ -14,7 +14,6 @@ f1_categories:
 
 # Property.Value property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets or returns the value of an object. Read/write **Variant**.
@@ -35,8 +34,7 @@ The **Value** property is the default property of the **Field**, **Parameter**, 
 
 Trying to set or return the **Value** property in an inappropriate context (for example, the **Value** property of a **Field** object in the **Fields** collection of a **TableDef** object) will cause a trappable error.
 
-
 > [!NOTE]
-> <P>When reading decimal values from a Microsoft SQL Server database, they will be formatted using scientific notation through a Microsoft Access workspace, but will appear as normal decimal values through an ODBCDirect workspace.</P>
+> When reading decimal values from a Microsoft SQL Server database, they will be formatted using scientific notation through a Microsoft Access workspace, but will appear as normal decimal values through an ODBCDirect workspace.
 
 

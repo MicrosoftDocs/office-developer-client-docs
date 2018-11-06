@@ -14,16 +14,12 @@ f1_categories:
 
 # OpenVisualBasicModule macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **OpenVisualBasicModule** action to open a specified Visual Basic for Applications (VBA) module at a specified procedure. This can be a Sub procedure, a Function procedure, or an event procedure.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -52,11 +48,8 @@ The **OpenVisualBasicModule** action has the following arguments.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>You must enter a valid name in either the <STRONG>Module Name</STRONG> or <STRONG>Procedure Name</STRONG> argument.</P>
-
+> You must enter a valid name in either the **Module Name** or **Procedure Name** argument.
 
 
 ## Remarks
@@ -69,11 +62,8 @@ To open a private procedure, the module containing it must be open.
 
 This action has the same effect as right-clicking a module in the Navigation Pane and then clicking **Design View**. This action also enables you to specify a procedure name and to search the standard modules in a database for procedures.
 
-
 > [!TIP]
-> <P>You can select a module in the Navigation Pane and drag it to a macro action row. This automatically creates an <STRONG>OpenVisualBasicModule</STRONG> action that opens the module to the Declarations section.</P>
-
-
+> You can select a module in the Navigation Pane and drag it to a macro action row. This automatically creates an **OpenVisualBasicModule** action that opens the module to the Declarations section.
 
 To run the **OpenVisualBasicModule** action in a VBA module, use the **OpenModule** method of the **DoCmd** object.
 

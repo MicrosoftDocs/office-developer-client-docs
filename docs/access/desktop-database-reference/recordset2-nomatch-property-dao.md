@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.NoMatch property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Indicates whether a particular record was found by using the **[Seek](recordset2-seek-method-dao.md)** method or one of the **[Find](recordset2-findfirst-method-dao.md)** methods (Microsoft Access workspaces only).
@@ -29,11 +28,8 @@ To locate a record, use the **Seek** method on a table-type **Recordset** object
 
 If the **Seek** or **Find** method is unsuccessful and the **NoMatch** property is **True**, the current record will no longer be valid. Be sure to obtain the current record's bookmark before using the **Seek** method or a **Find** method if you'll need to return to that record.
 
-
 > [!NOTE]
-> <P>Using any of the <STRONG><A href="recordset-movefirst-method-dao.md">Move</A></STRONG> methods on a <STRONG>Recordset</STRONG> object won't affect its <STRONG>NoMatch</STRONG> property setting.</P>
-
-
+> Using any of the **[Move](recordset-movefirst-method-dao.md)** methods on a **Recordset** object won't affect its **NoMatch** property setting.
 
 ## Example
 

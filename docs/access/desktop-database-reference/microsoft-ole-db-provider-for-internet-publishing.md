@@ -14,7 +14,7 @@ mtps_version: v=office.15
 
 The Microsoft OLE DB Provider for Internet Publishing allows ADO to access resources served by Microsoft FrontPage or Microsoft Internet Information Server. Resources include web source files such as HTML files, or Windows 2000 web folders.
 
-## Connection String Parameters
+## Connection string parameters
 
 To connect to this provider, set the *Provider* argument of the [ConnectionString](connectionstring-property-ado.md) property to:
 
@@ -25,7 +25,7 @@ MSDAIPP.DSO
 
 This value can also be set or read using the [Provider](provider-property-ado.md) property.
 
-## Typical Connection String
+## Typical connection string
 
 A typical connection string for this provider is:
 
@@ -77,8 +77,6 @@ The string consists of these keywords:
 
 If you set the *ResourceURL* value from the "URL=" in the connection string to an invalid value, by default the Internet Publishing Provider raises a dialog box to prompt for a valid value. This is undesirable behavior for a component in the middle tier of an application, because it suspends program execution until the dialog box is cleared and the client appears to freeze because it has not received a response from the component.
 
-
 > [!NOTE]
-> <P>If MSDAIPP.DSO is explicitly specified as the value of the provider, either with the <EM>Provider</EM> connection string keyword or the <STRONG>Provider</STRONG> property, you cannot use "URL=" in the connection string. If you do, an error will occur. Instead, simply specify the URL as shown in the topic <A href="the-ole-db-provider-for-internet-publishing.md">Using ADO with the OLE DB Provider for Internet Publishing</A>.</P>
-
+> If MSDAIPP.DSO is explicitly specified as the value of the provider, either with the *Provider* connection string keyword or the **Provider** property, you cannot use "URL=" in the connection string. If you do, an error will occur. Instead, simply specify the URL as shown in the topic [Using ADO with the OLE DB Provider for Internet Publishing](the-ole-db-provider-for-internet-publishing.md).
 

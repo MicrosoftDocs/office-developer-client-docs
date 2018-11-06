@@ -14,7 +14,6 @@ f1_categories:
 
 # SetLocalVar macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 The **SetLocalVar** action creates a temporary variable and set it to a specific value.
@@ -50,7 +49,6 @@ The **SetLocalVar** action has the following arguments.
 </tbody>
 </table>
 
-
 ## Remarks
 
 Variables created by the **SetLocalVar** action can be used only in the macro in which they are defined. Use the **[SetTempVar](settempvar-macro-action.md)** action to define a variable that can be used in another macro, in an event procedure, or on a form or report.
@@ -59,8 +57,6 @@ Once a temporary variable has been created, you can refer to it in an expression
 
 `=[LocalVars]![TotalAmount]`
 
-
 > [!NOTE]
-> <P>In a Data Macro, you do not have to use the LocalVars collection to refer to a variable. For example, if you created a temporary variable in a Data Macro named TotalAmount, you could use the variable as the control source for a text box by using the following syntax<BR>=[TotalAmount]</P>
-
+> In a Data Macro, you do not have to use the LocalVars collection to refer to a variable. For example, if you created a temporary variable in a Data Macro named TotalAmount, you could use the variable as the control source for a text box by using the following syntax: `=[TotalAmount]`.
 

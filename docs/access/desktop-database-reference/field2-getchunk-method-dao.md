@@ -1,6 +1,6 @@
 ﻿---
 title: Field2.GetChunk method (DAO)
-TOCTitle: GetChunk Method
+TOCTitle: GetChunk method
 ms:assetid: 5d3a66c0-8216-d701-0a91-b79fbbc822b8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194600(v=office.15)
 ms:contentKeyID: 48545101
@@ -9,7 +9,6 @@ mtps_version: v=office.15
 ---
 
 # Field2.GetChunk method (DAO)
-
 
 **Applies to**: Access 2013, Office 2013
 
@@ -21,7 +20,7 @@ Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** 
 
 *expression* A variable that represents a **Field2** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -33,20 +32,20 @@ Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** 
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>The number of bytes to skip before copying begins.</p></td>
 </tr>
 <tr class="even">
-<td><p>Bytes</p></td>
+<td><p><em>Bytes</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>The number of bytes you want to return.</p></td>
@@ -55,7 +54,7 @@ Returns all or a portion of the contents of a **Memo** or **Long BinaryField2** 
 </table>
 
 
-### Return value
+## Return value
 
 Variant
 

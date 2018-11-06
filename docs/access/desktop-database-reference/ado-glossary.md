@@ -258,7 +258,7 @@ The logical layer in a distributed system between a user interface or web client
 
 **MIME (Multi-purpose Internet Mail Extension)**
 
-An Internet protocol originally developed to allow exchange of electronic mail messages with rich content across heterogeneous network, machine, and e-mail environments. In practice, MIME has also been adopted and extended by non-mail applications.
+An Internet protocol originally developed to allow exchange of electronic mail messages with rich content across heterogeneous network, machine, and email environments. In practice, MIME has also been adopted and extended by non-mail applications.
 
 MIME is a standard that allows binary data to be published and read on the Internet. The header of a file with binary data contains the MIME type of the data; this informs client programs (web browsers and mail packages, for instance) that they will need to handle the data in a different way than they handle straight text. For example, the header of a web document containing a JPEG graphic contains the MIME type specific to the JPEG file format. This allows a browser to display the file with its JPEG viewer, if one is present.
 

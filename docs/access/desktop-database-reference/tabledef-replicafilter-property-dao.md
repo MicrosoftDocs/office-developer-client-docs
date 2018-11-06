@@ -14,7 +14,6 @@ f1_categories:
 
 # TableDef.ReplicaFilter property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets or returns a value on a **[TableDef](tabledef-object-dao.md)** object within a partial replica that indicates which subset of records is replicated to that table from a full replica. (Microsoft Access workspaces only).
@@ -73,11 +72,8 @@ If your application changes replica filters, you should follow these steps:
 
 To remove a filter, set the **ReplicaFilter** property to **False**. If you remove all filters and invoke the **PopulatePartial** method, no records will appear in any replicated tables in the partial replica.
 
-
 > [!NOTE]
-> <P>If a replica filter has changed, and the <STRONG>Synchronize</STRONG> method is invoked without first invoking <STRONG>PopulatePartial</STRONG>, a trappable error occurs.</P>
-
-
+> If a replica filter has changed, and the **Synchronize** method is invoked without first invoking **PopulatePartial**, a trappable error occurs.
 
 ## Example
 

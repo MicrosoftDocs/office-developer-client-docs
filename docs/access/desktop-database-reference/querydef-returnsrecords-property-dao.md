@@ -14,9 +14,7 @@ f1_categories:
 
 # QueryDef.ReturnsRecords property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Sets or returns a value that indicates whether an SQL pass-through query to an external database returns records (Microsoft Access workspaces only).
 
@@ -30,11 +28,8 @@ Sets or returns a value that indicates whether an SQL pass-through query to an e
 
 Not all SQL pass-through queries to external databases return records. For example, an SQL UPDATE statement updates records without returning records, while an SQL SELECT statement does return records. If the query returns records, set the **ReturnsRecords** property to **True**; if the query doesn't return records, set the **ReturnsRecords** property to **False**.
 
-
 > [!NOTE]
-> <P>You must set the <STRONG><A href="querydef-connect-property-dao.md">Connect</A></STRONG> property before you set the <STRONG>ReturnsRecords</STRONG> property.</P>
-
-
+> You must set the **[Connect](querydef-connect-property-dao.md)** property before you set the **ReturnsRecords** property.
 
 ## Example
 

@@ -14,7 +14,6 @@ f1_categories:
 
 # Field.GetChunk method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Returns all or a portion of the contents of a **Memo** or **Long Binary** **[Field](field-object-dao.md)** object in the **[Fields](fields-collection-dao.md)** collection of a **[Recordset](recordset-object-dao.md)** object.
@@ -25,7 +24,7 @@ Returns all or a portion of the contents of a **Memo** or **Long Binary** **[Fie
 
 *expression* A variable that represents a **Field** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -37,20 +36,20 @@ Returns all or a portion of the contents of a **Memo** or **Long Binary** **[Fie
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Offset</p></td>
+<td><p><em>Offset</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>The number of bytes to skip before copying begins.</p></td>
 </tr>
 <tr class="even">
-<td><p>Bytes</p></td>
+<td><p><em>Bytes</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>The number of bytes you want to return.</p></td>
@@ -59,7 +58,7 @@ Returns all or a portion of the contents of a **Memo** or **Long Binary** **[Fie
 </table>
 
 
-### Return value
+## Return value
 
 Variant
 
@@ -71,11 +70,8 @@ If offset is 0, **GetChunk** begins copying from the first byte of the field.
 
 If numbytes is greater than the number of bytes in the field, **GetChunk** returns the actual number of remaining bytes in the field.
 
-
 > [!NOTE]
 > Use a **Memo** field for text, and put binary data only in **Long Binary** fields. Doing otherwise will cause undesirable results.
-
-
 
 ## Example
 

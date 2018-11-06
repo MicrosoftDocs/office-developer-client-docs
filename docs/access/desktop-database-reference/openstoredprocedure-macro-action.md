@@ -14,16 +14,12 @@ f1_categories:
 
 # OpenStoredProcedure macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 In an Access project, you can use the **OpenStoredProcedure** action to open a stored procedure in Datasheet view, stored procedure Design view, or Print Preview. This action runs the named stored procedure when opened in Datasheet view. You can select the data entry mode for the stored procedure and restrict the records that the stored procedure displays.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 
@@ -56,24 +52,15 @@ The **OpenStoredProcedure** action has the following arguments.
 </tbody>
 </table>
 
-
 ## Remarks
 
 This action is similar to double-clicking the stored procedure in the Navigation Pane, or right-clicking the stored procedure in the Navigation Pane and selecting the command you want.
 
 Switching to Design view while the stored procedure is open removes the **Data Mode** argument setting for the stored procedure. This setting is not in effect, even if the user returns to Datasheet view.
 
-
 > [!TIP]
-> <P></P>
-> <UL>
-> <LI>
-> <P>You can drag a stored procedure from the Navigation Pane to a macro action row. This automatically creates an <STRONG>OpenStoredProcedure</STRONG> action that opens the stored procedure in Datasheet view.</P>
-> <LI>
-> <P>If you do not want to display the system messages that normally appear when a stored procedure is run (indicating it is a stored procedure and showing how many records will be affected), you can use the <STRONG>SetWarning</STRONG> action to suppress the display of these messages.</P></LI></UL>
-> <P></P>
-
-
+> - You can drag a stored procedure from the Navigation Pane to a macro action row. This automatically creates an **OpenStoredProcedure** action that opens the stored procedure in Datasheet view.
+> - If you do not want to display the system messages that normally appear when a stored procedure is run (indicating it is a stored procedure and showing how many records will be affected), you can use the **SetWarning** action to suppress the display of these messages.
 
 To run the **OpenStoredProcedure** action in a Visual Basic for Applications (VBA) module, use the **OpenStoredProcedure** method of the **DoCmd** object.
 

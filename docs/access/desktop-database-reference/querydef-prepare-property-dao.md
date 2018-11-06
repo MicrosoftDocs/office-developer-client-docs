@@ -14,7 +14,6 @@ f1_categories:
 
 # QueryDef.Prepare property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 ## Syntax
@@ -31,11 +30,8 @@ Creating a stored procedure can slow down the initial operation, but increases p
 
 If **Prepare** is set to **dbQPrepare**, this can be overridden when the query is executed by setting the **[Execute](querydef-execute-method-dao.md)** method's options argument to **dbExecDirect**.
 
-
 > [!NOTE]
-> <P>The ODBC <STRONG>SQLPrepare</STRONG> API is called as soon as the DAO <STRONG><A href="querydef-sql-property-dao.md">SQL</A></STRONG> property is set. Therefore, if you want to improve performance using the <STRONG>dbQUnprepare</STRONG> option, you must set the <STRONG>Prepare</STRONG> property before setting the <STRONG>SQL</STRONG> property.</P>
-
-
+> The ODBC **SQLPrepare** API is called as soon as the DAO **[SQL](querydef-sql-property-dao.md)** property is set. Therefore, if you want to improve performance using the **dbQUnprepare** option, you must set the **Prepare** property before setting the **SQL** property.
 
 ## Example
 

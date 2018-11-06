@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # QueryDef.Connect property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets or returns a value that provides information about the source of database used in a pass-through query. Read-only **String**.
@@ -152,12 +151,8 @@ For data in Microsoft Exchange, the required MAPILEVEL key should be set to a fu
 
 On a **QueryDef** object in a Microsoft Access workspace, you can use the **Connect** property with the ReturnsRecords property to create an ODBC SQL pass-through query. The databasetype of the connection string is "ODBC;", and the remainder of the string contains information specific to the ODBC driver used to access the remote data. For more information, see the documentation for the specific driver.
 
-
 > [!NOTE]
-> <UL>
-> <LI>
-> <P>You must set the <STRONG>Connect</STRONG> property before you set the <STRONG>ReturnsRecords</STRONG> property.</P>
-> <LI>
-> <P>You must have access permissions to the computer that contains the database server you're trying to access.</P></LI></UL>
+> - You must set the **Connect** property before you set the **ReturnsRecords** property.
+> - You must have access permissions to the computer that contains the database server you're trying to access.
 
 

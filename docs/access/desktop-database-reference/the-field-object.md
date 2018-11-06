@@ -1,6 +1,6 @@
 ﻿---
-title: The Field Object (Access desktop database reference)
-TOCTitle: The Field Object
+title: The Field object (Access desktop database reference)
+TOCTitle: The Field object
 ms:assetid: 55531e04-d74f-6394-df64-1660e5d572ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249284(v=office.15)
 ms:contentKeyID: 48544926
@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Field object
 
-
 **Applies to**: Access 2013, Office 2013
 
 Each **Field** object usually corresponds to a column in a database table. However, a **Field** can also represent a pointer to another **Recordset**, called a chapter. Exceptions, such as chapter columns, will be covered later in this guide.
@@ -19,33 +18,33 @@ Use the **Value** property of **Field** objects to set or return data for the cu
 
 With the collections, methods, and properties of a **Field** object, you can do the following:
 
-  - Return the name of a field by using the **Name** property.
+- Return the name of a field by using the **Name** property.
 
-  - View or change the data in the field by using the **Value** property. **Value** is the default property of the **Field** object.
+- View or change the data in the field by using the **Value** property. **Value** is the default property of the **Field** object.
 
-  - Return the basic characteristics of a field by using the **Type**, **Precision**, and **NumericScale** properties.
+- Return the basic characteristics of a field by using the **Type**, **Precision**, and **NumericScale** properties.
 
-  - Return the declared size of a field by using the **DefinedSize** property.
+- Return the declared size of a field by using the **DefinedSize** property.
 
-  - Return the actual size of the data in a given field by using the **ActualSize** property.
+- Return the actual size of the data in a given field by using the **ActualSize** property.
 
-  - Determine what types of functionality are supported for a given field by using the **Attributes** property and **Properties** collection.
+- Determine what types of functionality are supported for a given field by using the **Attributes** property and **Properties** collection.
 
-  - Manipulate the values of fields containing long binary or long character data by using the **AppendChunk** and **GetChunk** methods.
+- Manipulate the values of fields containing long binary or long character data by using the **AppendChunk** and **GetChunk** methods.
 
-Resolve discrepancies in field values during batch updating by using the **OriginalValue** and **UnderlyingValue** properties, if the provider supports batch updates.
+- Resolve discrepancies in field values during batch updating by using the **OriginalValue** and **UnderlyingValue** properties, if the provider supports batch updates.
 
-## Describing a Field
+## Describing a field
 
 The topics that follow will discuss properties of the [Field](field-object-ado.md) object that represent information that describes the **Field** object itself — that is, metadata about the field. This information can be used to determine much about the schema of the **Recordset**. These properties include **Type**, **DefinedSize** and **ActualSize**, **Name**, and **NumericScale** and **Precision**.
 
-## Discovering the Data Type
+## Discovering the data type
 
 The **Type** property indicates the data type of the field. The data type enumerated constants that are supported by ADO are described in [DataTypeEnum](datatypeenum.md) in the *ADO programmer's reference*.
 
 For floating point numeric types such **adNumeric**, you can obtain more information. The **NumericScale** property indicates how many digits to the right of the decimal point will be used to represent values for the **Field**. The **Precision** property specifies the maximum number of digits used to represent values for the **Field**.
 
-## Determining Field Size
+## Determining field size
 
 Use the **DefinedSize** property to determine the data capacity of a **Field** object.
 
@@ -53,19 +52,16 @@ Use the **ActualSize** property to return the actual length of a **Field** objec
 
 The **DefinedSize** and **ActualSize** properties have different purposes. For example, consider a **Field** object with a declared type of **adVarChar** and a **DefinedSize** property value of 50, containing a single character. The **ActualSize** property value it returns is the length in bytes of the single character.
 
-## Determining Field Contents
+## Determining field contents
 
 The identifier of the column from the data source is represented by the **Name** property of the **Field**. The **Value** property of the **Field** object returns or sets the actual data content of the field. This is the default property.
 
 To change the data in a field, set the **Value** property equal to a new value of the correct type. Your cursor type must support updates to change the contents of a field. Database validation is not done here in batch mode, so you will need to check for errors when you call **UpdateBatch** in such a case. Some providers also support the ADO **Field** object's **UnderlyingValue** and **OriginalValue** properties to assist you with resolving conflicts when you attempt to perform batch updates. For details about how to resolve such conflicts, see [Chapter 4: Editing Data](chapter-4-editing-data.md).
 
-
 > [!NOTE]
-> <P><STRONG>Recordset Field</STRONG> values cannot be set when appending new <STRONG>Fields</STRONG> to a <STRONG>Recordset</STRONG>. Rather, new <STRONG>Fields</STRONG> can be appended to a closed <STRONG>Recordset</STRONG>. Then the <STRONG>Recordset</STRONG> must be opened, and only then can values be assigned to these <STRONG>Fields</STRONG>.</P>
+> **Recordset Field** values cannot be set when appending new **Fields** to a **Recordset**. Rather, new **Fields** can be appended to a closed **Recordset**. Then the **Recordset** must be opened, and only then can values be assigned to these **Fields**.
 
-
-
-## Getting More Field Information
+## Getting more field information
 
 ADO objects have two types of properties: built-in and dynamic. To this point, only the built-in properties of the **Field** object have been discussed.
 
@@ -77,13 +73,13 @@ You cannot delete either kind of property.
 
 A dynamic **Property** object has four built-in properties of its own:
 
-  - The **Name** property is a string that identifies the property.
+- The **Name** property is a string that identifies the property.
 
-  - The **Type** property is an integer that specifies the property data type.
+- The **Type** property is an integer that specifies the property data type.
 
-  - The **Value** property is a variant that contains the property setting. **Value** is the default property for a **Property** object.
+- The **Value** property is a variant that contains the property setting. **Value** is the default property for a **Property** object.
 
-  - The **Attributes** property is a **Long** value that indicates characteristics of the property specific to the provider.
+- The **Attributes** property is a **Long** value that indicates characteristics of the property specific to the provider.
 
 The **Properties** collection for the **Field** object contains additional metadata about the field. The contents of this collection vary depending upon the provider. The following code example examines the **Properties** collection of the sample **Recordset** introduced at the beginning of this chapter. It first looks at the contents of the collection. This code uses the [OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md), so the **Properties** collection contains information relevant to that provider.
 
@@ -102,7 +98,7 @@ The **Properties** collection for the **Field** object contains additional metad
 'EndFieldProps 
 ```
 
-## Dealing with Binary Data
+## Dealing with binary data
 
 Use the [AppendChunk](appendchunk-method-ado.md) method on a **Field** object to fill it with long binary or character data. In situations where system memory is limited, you can use the **AppendChunk** method to manipulate long values in portions rather than in their entirety.
 

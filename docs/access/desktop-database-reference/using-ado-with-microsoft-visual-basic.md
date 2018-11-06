@@ -10,52 +10,47 @@ mtps_version: v=office.15
 
 # Using ADO with Microsoft Visual Basic
 
-
 **Applies to**: Access 2013, Office 2013
 
 Setting up an ADO project and writing ADO code is similar whether you use Visual Basic or Visual Basic for Applications. This topic addresses using ADO with both Visual Basic and Visual Basic for Applications and notes any differences.
 
-## Referencing the ADO Library
+## Referencing the ADO library
 
 The ADO library must be referenced by your project.
 
-**To reference ADO from Microsoft Visual Basic**
+### To reference ADO from Microsoft Visual Basic
 
-1.  In Visual Basic, from the **Project** menu, select **References...**.
+1. In Visual Basic, from the **Project** menu, select **References...**.
 
-2.  Select **Microsoft ActiveX Data Objects x.x Library** from the list. Verify that at least the following libraries are also selected:
-    
-    - Visual Basic for Applications
-    
-    - Visual Basic runtime objects and procedures
-    
-    - Visual Basic objects and procedures
-    
-    - OLE Automation
+2. Select **Microsoft ActiveX Data Objects x.x Library** from the list. Verify that at least the following libraries are also selected:
+   
+   - Visual Basic for Applications
+   - Visual Basic runtime objects and procedures
+   - Visual Basic objects and procedures
+   - OLE Automation
 
-3.  Click **OK**.
+3. Click **OK**.
 
 You can use ADO just as easily with Visual Basic for Applications, using Microsoft Access, for example.
 
-**To reference ADO from Microsoft Access**
+### To reference ADO from Microsoft Access
 
-1.  In Microsoft Access, select or create a module from the **Modules** tab in the **Database** window.
+1. In Microsoft Access, select or create a module from the **Modules** tab in the **Database** window.
 
-2.  From the **Tools** menu, select **References...**.
+2. From the **Tools** menu, select **References...**.
 
-3.  Select **Microsoft ActiveX Data Objects x.x Library** from the list. Verify that at least the following libraries are also selected:
+3. Select **Microsoft ActiveX Data Objects x.x Library** from the list. Verify that at least the following libraries are also selected:
     
-    - Visual Basic for Applications
-    
-    - Microsoft Access 11.0 Object Library (or later)
+   - Visual Basic for Applications
+   - Microsoft Access 11.0 Object Library (or later)
 
-4.  Click **OK**.
+4. Click **OK**.
 
-## Creating ADO Objects in Visual Basic
+## Creating ADO objects in Visual Basic
 
 To create an automation variable and an instance of an object for that variable, you can use two methods: **Dim** or **CreateObject**.
 
-## Dim
+### Dim
 
 You can use the **New** keyword with **Dim** to declare and instantiate ADO objects in one step:
 
@@ -72,18 +67,16 @@ Dim conn As ADODB.Connection
 Set conn = New ADODB.Connection 
 ```
 
-
 > [!NOTE]
-> <P>It is not required to explicitly use the ADODB progid with the <STRONG>Dim</STRONG> statement, assuming you have properly referenced the ADO library in your project. However, using it ensures that you won't have naming conflicts with other libraries.</P>
+> It is not required to explicitly use the ADODB progid with the **Dim** statement, assuming you have properly referenced the ADO library in your project. However, using it ensures that you won't have naming conflicts with other libraries.
+> 
+> For example, if you include references to both ADO and DAO in the same project, you should include a qualifier to specify which object model to use when instantiating **Recordset** objects, as in the following code:  
+> 
+> `Dim adoRS As ADODB.Recordset`  
+>   
+> `Dim daoRS As DAO.Recordset`
 
-
-
-For example, if you include references to both ADO and DAO in the same project, you should include a qualifier to specify which object model to use when instantiating **Recordset** objects, as in the following code:  
-Dim adoRS As ADODB.Recordset  
-  
-Dim daoRS As DAO.Recordset
-
-## CreateObject
+### CreateObject
 
 With the **CreateObject** method, the declaration and object instantiation must be two discrete steps:
 
@@ -104,11 +97,11 @@ You could also accomplish this by specifically creating a reference to the ADO v
 
 Instantiating objects with the **CreateObject** method is typically slower than using the **Dim** statement.
 
-## Handling Events
+## Handling events
 
-In order to handle ADO events in Microsoft Visual Basic, you must declare a module-level variable using the **WithEvents** keyword. The variable can be declared only as part of a class module and must be declared at the module level. For a more complete discussion of handling ADO events, see [Chapter 7: Handling ADO Events](chapter-7-handling-ado-events.md).
+To handle ADO events in Microsoft Visual Basic, you must declare a module-level variable using the **WithEvents** keyword. The variable can be declared only as part of a class module and must be declared at the module level. For a more complete discussion of handling ADO events, see [Chapter 7: Handling ADO events](chapter-7-handling-ado-events.md).
 
-## Visual Basic Examples
+## Visual Basic examples
 
 Many Visual Basic examples are included with the ADO documentation. For more information, see [ADO code examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
 

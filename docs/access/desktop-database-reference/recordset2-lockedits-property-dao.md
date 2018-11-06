@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset2.LockEdits property (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Sets or returns a value indicating the type of locking that is in effect while editing.
@@ -57,11 +56,8 @@ If you set the **LockEdits** property to **False** and later use the **Update** 
 
 When working with Microsoft Access database engine-connected ODBC data sources, the **LockEdits** property is always set to **False**, or optimistic locking. The Microsoft Access database engine has no control over the locking mechanisms used in external database servers.
 
-
 > [!NOTE]
-> <P>You can preset the value of <STRONG>LockEdits</STRONG> when you first open the <STRONG>Recordset</STRONG> by setting the lockedits argument of the <STRONG><A href="connection-openrecordset-method-dao.md">OpenRecordset</A></STRONG> method. Setting the lockedits argument to <STRONG>dbPessimistic</STRONG> will set the <STRONG>LockEdits</STRONG> property to <STRONG>True</STRONG>, and setting lockedits to any other value will set the <STRONG>LockEdits</STRONG> property to <STRONG>False</STRONG>.</P>
-
-
+> You can preset the value of **LockEdits** when you first open the **Recordset** by setting the lockedits argument of the **[OpenRecordset](connection-openrecordset-method-dao.md)** method. Setting the lockedits argument to **dbPessimistic** will set the **LockEdits** property to **True**, and setting lockedits to any other value will set the **LockEdits** property to **False**.
 
 ## Example
 

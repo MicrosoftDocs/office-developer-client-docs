@@ -10,9 +10,7 @@ mtps_version: v=office.15
 
 # Fields.Append method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
-
 
 Adds a new **[Field](field-object-dao.md)** to the **[Fields](fields-collection-dao.md)** collection.
 
@@ -22,7 +20,7 @@ Adds a new **[Field](field-object-dao.md)** to the **[Fields](fields-collection-
 
 *expression* A variable that represents a **Fields** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -34,14 +32,14 @@ Adds a new **[Field](field-object-dao.md)** to the **[Fields](fields-collection-
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Object</p></td>
+<td><p><em>Object</em></p></td>
 <td><p>Required</p></td>
 <td><p><strong>Object</strong></p></td>
 <td><p>An object variable that represents the field being appended to the collection.</p></td>

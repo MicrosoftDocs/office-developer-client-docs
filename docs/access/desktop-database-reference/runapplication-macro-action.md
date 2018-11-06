@@ -14,7 +14,6 @@ f1_categories:
 
 # RunApplication macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 <table>
@@ -30,14 +29,10 @@ f1_categories:
 </tbody>
 </table>
 
-
 You can use the **RunApplication** action to run a Microsoft Windows-based or MS-DOS-based application, such as Microsoft Excel, Microsoft Word, or Microsoft PowerPoint, from within Microsoft Access. For example, you may want to paste Excel spreadsheet data into your Access database.
 
-
 > [!NOTE]
-> <P>This action will not be allowed if the database is not trusted. For more information about enabling macros, see the links in the See Also section of this article.</P>
-
-
+> This action will not be allowed if the database is not trusted. 
 
 ## Setting
 

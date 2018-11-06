@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # ReadyState property (RDS)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Indicates the progress of a [DataControl](datacontrol-object-rds.md) object as it retrieves data into its [Recordset](recordset-object-ado.md) object.
@@ -46,12 +45,8 @@ Sets or returns one of the following values.
 </tbody>
 </table>
 
-
-
 > [!NOTE]
-> <P>Each client-side executable file that uses these constants must provide declarations for them. You can cut and paste the constant declarations you want from the file Adcvbs.inc, located in the C:\Program Files\Common Files\System\MSADC folder.</P>
-
-
+> Each client-side executable file that uses these constants must provide declarations for them. You can cut and paste the constant declarations you want from the file Adcvbs.inc, located in the C:\Program Files\Common Files\System\MSADC folder.
 
 ## Remarks
 

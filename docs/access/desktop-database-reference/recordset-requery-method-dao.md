@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Recordset.Requery method (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-executing the query on which the object is based.
@@ -21,7 +20,7 @@ Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-exec
 
 *expression* A variable that represents a **Recordset** object.
 
-### Parameters
+## Parameters
 
 <table>
 <colgroup>
@@ -33,14 +32,14 @@ Updates the data in a **[Recordset](recordset-object-dao.md)** object by re-exec
 <thead>
 <tr class="header">
 <th><p>Name</p></th>
-<th><p>Required/Optional</p></th>
-<th><p>Data Type</p></th>
+<th><p>Required/optional</p></th>
+<th><p>Data type</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>NewQueryDef</p></td>
+<td><p><em>NewQueryDef</em></p></td>
 <td><p>Optional</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Represents the <strong>Name</strong> property value of a <strong><a href="querydef-object-dao.md">QueryDef</a></strong> object</p></td>
