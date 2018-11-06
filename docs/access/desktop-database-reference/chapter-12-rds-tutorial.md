@@ -1,5 +1,5 @@
 ﻿---
-title: 'Chapter 12: RDS tutorial'
+title: 'Chapter 12: Remote Data Service (RDS) tutorial'
 TOCTitle: 'Chapter 12: RDS tutorial'
 ms:assetid: fa44a5e8-e4df-dfdd-d7a1-a870ec3cabdd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250277(v=office.15)
@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Chapter 12: RDS tutorial
+# Chapter 12: Remote Data Service (RDS) tutorial
 
 **Applies to**: Access 2013, Office 2013
 
@@ -229,7 +229,7 @@ End Sub
 
 ## Appendix A: RDS tutorial (VBScript)
 
-This is the RDS tutorial, written in Microsoft Visual Basic Scripting Edition. For a description of the purpose of this tutorial, see the [RDS tutorial](chapter-12-rds-tutorial.md).
+This is the RDS tutorial, written in Microsoft Visual Basic Scripting Edition. For a description of the purpose of this tutorial, see the introduction to this topic.
 
 In this tutorial, [RDS.DataControl](datacontrol-object-rds.md) and [RDS.DataSpace](dataspace-object-rds.md) are created at design time; that is, they are defined with object tags. Alternatively, they could be created at run time with the **Server.CreateObject** method. 
 
@@ -294,7 +294,7 @@ Sub RDSTutorial2A()
 ... 
 ```
 
-Skip to the following step (see the [tutorial](chapter-12-rds-tutorial.md) for the steps in-between).
+Skip to the following step.
 
 ### Step 4: Server returns the Recordset
 
