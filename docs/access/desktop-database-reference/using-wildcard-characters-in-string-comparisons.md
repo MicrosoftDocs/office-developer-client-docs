@@ -1,6 +1,6 @@
 ﻿---
-title: Using Wildcard Characters in String Comparisons
-TOCTitle: Using Wildcard Characters in String Comparisons
+title: Using wildcard characters in string comparisons
+TOCTitle: Using wildcard characters in string comparisons
 ms:assetid: 37dda2b8-c710-4f73-bb2a-76a1348c42fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192499(v=office.15)
 ms:contentKeyID: 48544205
@@ -8,8 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 ---
 
-# Using Wildcard characters in string comparisons
-
+# Using wildcard characters in string comparisons
 
 **Applies to**: Access 2013, Office 2013
 
@@ -59,11 +58,11 @@ It is important to note that the ANSI SQL wildcards (%) and (\_) are only availa
 
 Other important rules for pattern matching include the following:
 
-  - An exclamation mark (\!) at the beginning of *charlist* means that a match is made if any character except those in *charlist* are found in *expression*. When used outside brackets, the exclamation mark matches itself.
+- An exclamation mark (\!) at the beginning of *charlist* means that a match is made if any character except those in *charlist* are found in *expression*. When used outside brackets, the exclamation mark matches itself.
 
-  - You can use the hyphen (-) either at the beginning (after an exclamation mark if one is used) or at the end of *charlist* to match itself. In any other location, the hyphen identifies a range of ANSI characters.
+- You can use the hyphen (-) either at the beginning (after an exclamation mark if one is used) or at the end of *charlist* to match itself. In any other location, the hyphen identifies a range of ANSI characters.
 
-  - When you specify a range of characters, the characters must appear in ascending sort order (A-Z or 0-100). \[A-Z\] is a valid pattern, but \[Z-A\] is not.
+- When you specify a range of characters, the characters must appear in ascending sort order (A-Z or 0-100). \[A-Z\] is a valid pattern, but \[Z-A\] is not.
 
-  - The character sequence \[ \] is ignored; it is considered to be a zero-length string ("").
+- The character sequence \[ \] is ignored; it is considered to be a zero-length string ("").
 
