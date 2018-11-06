@@ -79,7 +79,7 @@ The following new properties are included in this release.
 <td><p>Indicates the type of <strong>Record</strong> object.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj250128(v=office.15)">Size</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size</a></p></td>
 <td><p>Indicates the size of the stream in number of bytes.</p></td>
 </tr>
 <tr class="odd">

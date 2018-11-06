@@ -16,17 +16,17 @@ mtps_version: v=office.15
 
 This section addresses three kinds of providers: data providers, service providers, and service components. Providers fall into two categories: those providing data and those providing services. A *data provider* owns its own data and exposes it in tabular form to your application. A *service provider* encapsulates a service by producing and consuming data, augmenting features in your ADO applications. A service provider may also be further defined as a *service component*, which must work in conjunction with other service providers or components.
 
-## Data Providers
+## Data providers
 
 ADO is powerful and flexible because it can connect to any of several different data providers and still expose the same programming model, regardless of the specific features of any given provider.
 
 However, because each data provider is unique, how your application interacts with ADO will vary slightly by data provider. The differences usually fall into one of three categories:
 
-  - Connection parameters in the [ConnectionString](connectionstring-property-ado.md) property.
+- Connection parameters in the [ConnectionString](connectionstring-property-ado.md) property.
 
-  - [Command](command-object-ado.md) object usage.
+- [Command](command-object-ado.md) object usage.
 
-  - Provider-specific [Recordset](recordset-object-ado.md) behavior.
+- Provider-specific [Recordset](recordset-object-ado.md) behavior.
 
 Details for each of the data providers currently available from Microsoft are listed as follows.
 
@@ -74,29 +74,29 @@ Details for each of the data providers currently available from Microsoft are li
 </table>
 
 
-## Provider-Specific Dynamic Properties
+## Provider-specific dynamic properties
 
 The [Properties](properties-collection-ado.md) collections of the [Connection](connection-object-ado.md), [Command](command-object-ado.md), and [Recordset](recordset-object-ado.md) objects include dynamic properties specific to the provider. These properties provide information about functionality specific to the provider beyond the built-in properties that ADO supports.
 
 After establishing the connection and creating these objects, use the [Refresh](refresh-method-ado.md) method on the object's **Properties** collection to obtain the provider-specific properties. Refer to the provider documentation and the OLE DB Programmer's Reference for detailed information about these dynamic properties.
 
-## Service Providers
+## Service providers
 
 To use a service provider, you must supply a keyword. You should also be aware of the provider-specific dynamic properties associated with each service provider. Provider-specific details are listed for each of the service providers currently available from Microsoft:
 
-  - [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
+- [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
 
-  - [Microsoft OLE DB Persistence Provider](microsoft-ole-db-persistence-provider-ado-service-provider.md)
+- [Microsoft OLE DB Persistence Provider](microsoft-ole-db-persistence-provider-ado-service-provider.md)
 
-  - [Microsoft OLE DB Remoting Provider](microsoft-ole-db-remoting-provider-ado-service-provider.md)
+- [Microsoft OLE DB Remoting Provider](microsoft-ole-db-remoting-provider-ado-service-provider.md)
 
-## Service Components
+## Service components
 
 The [Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) service component supplements the cursor support functions of data providers. It also requires a keyword and has dynamic properties.
 
-For more information about providers, see the documentation for Microsoft OLE DB in the Microsoft Data Access Components SDK or visit the [Data Platform Developer Center](https://msdn.microsoft.com/data/default.aspx).
+For more information about providers, see the documentation for Microsoft OLE DB in the Microsoft Data Access Components SDK or visit the [Data Platform Developer Center](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
 
-## Provider Commands
+## Provider commands
 
 For each provider listed here, if your applications allow users to enter SQL statements as the provider commands, you must always validate the user input and be vigilant of possible hacker attacks using potentially dangerous SQL statement, such as, , as part of the user input.
 

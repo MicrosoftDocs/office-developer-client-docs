@@ -29,7 +29,7 @@ mtps_version: v=office.15
 
 - [Cancel method](cancel-method-ado.md)
 - [CreateParameter method](createparameter-method-ado.md)
-- [Execute method (ADO Command)](https://msdn.microsoft.com/library/jj248785\(v=office.15\))
+- [Execute method (ADO Command)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
 
 ## Events
 

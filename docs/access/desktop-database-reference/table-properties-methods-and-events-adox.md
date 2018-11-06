@@ -20,7 +20,7 @@ mtps_version: v=office.15
 - [Keys collection](keys-collection-adox.md)
 - [Name property](name-property-adox.md)
 - [ParentCatalog property](parentcatalog-property-adox.md)
-- [Type property (Table)](https://msdn.microsoft.com/library/jj250042\(v=office.15\))
+- [Type property (Table)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
 
 
 ## Methods

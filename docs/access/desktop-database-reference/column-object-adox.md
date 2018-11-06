@@ -25,7 +25,7 @@ With the properties and collections of a **Column** object, you can:
 
   - Identify the column with the [Name](name-property-adox.md) property.
 
-  - Specify the data type of the column with the [Type](https://msdn.microsoft.com/library/jj249169\(v=office.15\)) property.
+  - Specify the data type of the column with the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) property.
 
   - Determine if the column is fixed-length, or if it can contain null values with the [Attributes](attributes-property-adox.md) property.
 

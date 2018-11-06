@@ -18,7 +18,7 @@ mtps_version: v=office.15
 - [DeleteRule property](deleterule-property-adox.md)
 - [Name property](name-property-adox.md)
 - [RelatedTable property](relatedtable-property-adox.md)
-- [Type property (Key)](https://msdn.microsoft.com/library/jj248879\(v=office.15\))
+- [Type property (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
 - [UpdateRule property](updaterule-property-adox.md)
 
 ## Methods

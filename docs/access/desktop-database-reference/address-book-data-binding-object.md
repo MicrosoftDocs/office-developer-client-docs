@@ -90,7 +90,7 @@ The following table describes the parameters specific to the **RDS.DataControl**
 <td><p>Provides the necessary connection information for the <strong>RDS.DataControl</strong> to connect to SQL Server.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248989(v=office.15)">SQL</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Sets or returns the query string used to retrieve the <a href="recordset-object-ado.md">Recordset</a>.</p></td>
 </tr>
 </tbody>

@@ -103,15 +103,15 @@ mtps_version: v=office.15
 <td><p>Indicates the sort sequence for the column (index columns only).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj249169(v=office.15)">Type (Column)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Type (Column)</a></p></td>
 <td><p>Indicates the data type of a column.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://msdn.microsoft.com/library/jj248879(v=office.15)">Type (Key)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Type (Key)</a></p></td>
 <td><p>Indicates the data type of the Key.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://msdn.microsoft.com/library/jj250042(v=office.15)">Type (Table)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Type (Table)</a></p></td>
 <td><p>Indicates the type of a table.</p></td>
 </tr>
 <tr class="odd">

@@ -27,6 +27,8 @@ You can use the **Count** property to determine the number of items in a specifi
 
 ## See also
 
-- [Properties collection](https://msdn.microsoft.com/library/ff196448\(v=office.15\))
-- [Properties members](https://msdn.microsoft.com/library/ff836991\(v=office.15\))
+- [Properties collection](properties-collection-dao.md)
+- [Properties members](properties-members-dao.md)
+- [Properties object (Access VBA)](https://docs.microsoft.com/office/vba/api/Access.Properties)
+- [Properties members (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
 

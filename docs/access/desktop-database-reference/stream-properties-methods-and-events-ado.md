@@ -19,7 +19,7 @@ mtps_version: v=office.15
 - [LineSeparator property](lineseparator-property-ado.md)
 - [Mode property](mode-property-ado.md)
 - [Position property](position-property-ado.md)
-- [Size property (ADO Stream)](https://msdn.microsoft.com/library/jj250128\(v=office.15\))
+- [Size property (ADO Stream)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [State property](state-property-ado.md)
 - [Type property (ADO Stream)](type-property-ado-stream.md)
 
