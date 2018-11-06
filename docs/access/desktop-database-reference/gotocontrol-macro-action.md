@@ -36,12 +36,7 @@ The **GoToControl** action has the following argument.
 <tr class="odd">
 <td><p><strong>Control Name</strong></p></td>
 <td><p>The name of the field or control where you want the focus. Enter the field or control name in the <strong>Control Name</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane. This is a required argument.</p>
-
-> [!NOTE]
-> Enter only the name of the field or control in the **Control Name** argument, not the fully qualified identifier, such as Forms!Products![Product ID].
-
-
-<p></p></td>
+<p><strong>NOTE</strong>: Enter only the name of the field or control in the <strong>Control Name</strong> argument, not the fully qualified identifier, such as Forms!Products![Product ID].</p></td>
 </tr>
 </tbody>
 </table>

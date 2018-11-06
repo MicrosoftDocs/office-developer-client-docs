@@ -10,7 +10,6 @@ mtps_version: v=office.15
 
 # Parameter members (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 A Parameter object represents a value supplied to a query. The parameter is associated with a QueryDef object created from a parameter query.
@@ -31,12 +30,7 @@ A Parameter object represents a value supplied to a query. The parameter is asso
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="parameter-direction-property-dao.md">Direction</a></strong></p></td>
-<td><p></p>
-
-> [!NOTE]
-> ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
-
-
+<td><p><strong>NOTE</strong>: ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.</p>
 <p>Sets or returns a value that indicates whether a <strong><a href="parameter-object-dao.md">Parameter</a></strong> object represents an input parameter, an output parameter, both, or the return value from the procedure (ODBCDirect workspaces only).</p></td>
 </tr>
 <tr class="even">

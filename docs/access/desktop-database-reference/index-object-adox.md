@@ -22,19 +22,19 @@ The following code creates a new **Index**:
 
 With the properties and collections of an **Index** object, you can:
 
-  - Identify the index with the [Name](name-property-adox.md) property.
+- Identify the index with the [Name](name-property-adox.md) property.
 
-  - Access the database columns of the index with the [Columns](columns-collection-adox.md) collection.
+- Access the database columns of the index with the [Columns](columns-collection-adox.md) collection.
 
-  - Specify whether the index keys must be unique with the [Unique](unique-property-adox.md) property.
+- Specify whether the index keys must be unique with the [Unique](unique-property-adox.md) property.
 
-  - Specify whether the index is the primary key for a table with the [PrimaryKey](primarykey-property-adox.md) property.
+- Specify whether the index is the primary key for a table with the [PrimaryKey](primarykey-property-adox.md) property.
 
-  - Specify whether records that have null values in their index fields have index entries with the [IndexNulls](indexnulls-property-adox.md) property.
+- Specify whether records that have null values in their index fields have index entries with the [IndexNulls](indexnulls-property-adox.md) property.
 
-  - Specify whether the index is clustered with the [Clustered](clustered-property-adox.md) property.
+- Specify whether the index is clustered with the [Clustered](clustered-property-adox.md) property.
 
-  - Access provider-specific index properties with the [Properties](properties-collection-ado.md) collection.
+- Access provider-specific index properties with the [Properties](properties-collection-ado.md) collection.
 
 
 > [!NOTE]

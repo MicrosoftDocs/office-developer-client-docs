@@ -14,7 +14,6 @@ f1_categories:
 
 # GoToPage macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 You can use the **GoToPage** action to move the focus in the active form to the first control on a specified page. You can use this action if you have created a form with page breaks that contains groups of related information. For example, you might have an Employees form with personal information on one page, office information on another page, and sales information on a third page. You can use the **GoToPage** action to move to the desired page. You can also present multiple pages of information on a single form by using tab controls.
@@ -51,7 +50,7 @@ The **GoToPage** action has the following arguments.
 </table>
 
 > [!NOTE]
-> >The **Right** and **Down** arguments are measured in inches or centimeters, depending on the regional settings in Windows Control Panel.
+> The **Right** and **Down** arguments are measured in inches or centimeters, depending on the regional settings in Windows Control Panel.
 
 ## Remarks
 
@@ -61,9 +60,9 @@ You can use the **Right** and **Down** arguments for forms with pages larger tha
 
 You can't use the **GoToPage** action in the following cases:
 
-  - To move the focus to a page on a hidden form.
+- To move the focus to a page on a hidden form.
 
-  - To move the focus from one page to another within the tab control.
+- To move the focus from one page to another within the tab control.
 
 To run the **GoToPage** action in a Visual Basic for Applications (VBA) module, use the **GoToPage** method of the **DoCmd** object.
 

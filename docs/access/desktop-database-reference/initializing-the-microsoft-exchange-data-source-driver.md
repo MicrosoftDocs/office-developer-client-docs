@@ -18,7 +18,7 @@ f1_categories:
 
 When you install the Microsoft Exchange Data Source driver, the Setup program writes a set of default values to the Microsoft Windows Registry in the Engines and ISAM Formats subkeys. You should not modify these settings directly; use the setup program for your application to add, remove, or change these settings. The following sections describe initialization and ISAM Format settings for the Microsoft Exchange Data Source driver.
 
-## Microsoft Exchange Data Source Initialization Settings
+## Microsoft Exchange Data Source initialization settings
 
 The **Access Connectivity Engine\\Engines\\Exchange** folder includes initialization settings for the Aceexch.dll driver, used for external access to Microsoft Outlook and Microsoft Exchange folders. The only entry in this folder is the following:
 
@@ -28,7 +28,7 @@ The Microsoft Access database engine uses this setting to indicate the location 
 
 The results of using the Outlook ISAM format and of using the Exchange client ISAM format are similar. The only difference is that the two different clients use different names for the same columns. The two ISAM formats have been created so that the Microsoft Access database engine can return the column names in the particular style that the user desires.
 
-## Microsoft Outlook Client ISAM Formats
+## Microsoft Outlook client ISAM formats
 
 The **Access Connectivity Engine\\ISAM Formats\\Outlook 9.0** folder contains the following entries.
 
@@ -96,7 +96,7 @@ The **Access Connectivity Engine\\ISAM Formats\\Outlook 9.0** folder contains th
 
 
 
-## Microsoft Exchange Client ISAM Formats
+## Microsoft Exchange client ISAM formats
 
 The **Access Connectivity Engine\\ISAM Formats\\Exchange 4.0** folder contains the following entries.
 
@@ -164,7 +164,7 @@ The **Access Connectivity Engine\\ISAM Formats\\Exchange 4.0** folder contains t
 
 
 
-## Customizing the Schema.ini File for Outlook and Exchange Data
+## Customizing the Schema.ini file for Outlook and Exchange data
 
 The Schema.ini file is used by the Outlook and Exchange ISAM in much the same way that it is used by the Text ISAM. Schema.ini contains the specifics of a data source: how the data is formatted, and the names of columns that should be accessed.
 
