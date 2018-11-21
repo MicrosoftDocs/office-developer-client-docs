@@ -741,7 +741,7 @@ Use the following procedure to insert a **Cell** element into a **Shape** elemen
   ```vb
   ' Insert a new Cell element in the shape that adds an arbitrary local
   ' ThemeIndex value. This code assumes that the shape does not
-  ' alrady have a local ThemeIndex cell.
+  ' already have a local ThemeIndex cell.
   startEndShapeXML.Add(New XElement("Cell", _
       New XAttribute("N", "ThemeIndex"),
       New XAttribute("V", "25"),

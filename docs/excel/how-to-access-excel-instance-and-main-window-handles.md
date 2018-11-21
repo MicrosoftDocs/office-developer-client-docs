@@ -61,7 +61,7 @@ BOOL GetHwnd(HWND * pHwnd)
   //
   // xlGetHwnd only returns the LoWord of Excel hWnd
   // so all the windows have to be enumerated to see
-  // which match the LoWord retuned by xlGetHwnd.
+  // which match the LoWord returned by xlGetHwnd.
   //
   if (Excel4(xlGetHwnd, &x, 0) == xlretSuccess)
   {

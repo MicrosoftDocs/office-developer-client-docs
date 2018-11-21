@@ -29,7 +29,7 @@ Replaces part of a text string with a different text string.
 | _text_ <br/> |Required  <br/> |**String** <br/> | The text or the reference to a cell containing text for which you want to substitute characters.  <br/> |
 | _old_text_ <br/> |Required  <br/> |**String** <br/> | The text you want to replace.  <br/> |
 | _new_text_ <br/> |Required  <br/> |**String** <br/> | The text you want to use to replace  _old_text_.  <br/> |
-| _start_num_opt_ <br/> |Optional  <br/> |**Numeric** <br/> |Specifies which occurences of old_text to replace.  <br/> |
+| _start_num_opt_ <br/> |Optional  <br/> |**Numeric** <br/> |Specifies which occurrences of old_text to replace.  <br/> |
 | _ignore_case_opt_ <br/> |Optional  <br/> |**Boolean** <br/> |FALSE if case-sensitive; otherwise, TRUE. The default is FALSE.  <br/> |
    
 ### Return value
