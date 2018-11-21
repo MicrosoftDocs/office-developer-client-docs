@@ -1,4 +1,4 @@
-﻿---
+---
 title: Refresh method example (VB)
 TOCTitle: Refresh method example (VB)
 ms:assetid: d5094e57-e85e-7c65-cd28-ac04692608d0
@@ -53,7 +53,7 @@ Public Sub Main()
  cmdByRoyalty.CommandType = adCmdStoredProc 
  cmdByRoyalty.Parameters.Refresh 
  
- ' Get paramater value, execute the command 
+ ' Get parameter value, execute the command 
  ' and store the results in a recordset 
  strRoyalty = InputBox("Enter royalty:") 
  If strRoyalty = "" Then 
