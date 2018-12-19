@@ -327,7 +327,7 @@ Some solutions can receive and respond to DPI changes. Some have a workaround if
 		<td rowspan="2"><a href="#com-add-ins">COM Add-in</a></td>
 		<td>Top and its descendants</td>
 		<td>Yes</td>
-		<td>See <a href="#com-add-in">COM Add-in guidance</a>.</td>
+		<td>See <a href="#com-add-ins">COM Add-in guidance</a>.</td>
 	</tr>
 <tr>
 		<td>Child parented to Office window</td>
@@ -351,10 +351,10 @@ Some solutions can receive and respond to DPI changes. Some have a workaround if
 		<td>See <a href="#web-add-ins">Office web add-in guidance</a>.</td>
 	</tr>
 	<tr>
-		<td><a href="#ribbon-extensions">Ribbon extension</a></td>
+		<td><a href="#ribbon-extensibility">Ribbon extension</a></td>
 		<td>NA</td>
 		<td>NA</td>
-		<td>See <a href="#ribbon-extensions">Ribbon extension guidance</a>.</td>
+		<td>See <a href="#ribbon-extensibility">Ribbon extension guidance</a>.</td>
 	</tr>
 	<tr>
 		<td><a href="#ole">OLE server or client</a></td>
