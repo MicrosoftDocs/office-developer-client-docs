@@ -241,8 +241,7 @@ inline DpiAwarenessContextBlock::~DpiAwarenessContextBlock()
       SetThreadDpiAwarenessContext(m_contextReversalType);
 }
 ```
-
-## Top-level window management
+<h2 id="top-level-window-management">Top-level window management</h2>
 
 When Office applications start, a call is made to [SetThreadDpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) as DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE. In this context, DPI changes are sent to the HWND of any top-level windows in the process that are running as Per Monitor DPI aware. Top-level windows are the Office application window, and any additional top-level windows created by your solution. When an Office application is moved to a new display, it gets notified so that it can dynamically scale and draw correctly in the DPI of the new display. Your Office solution can create top-level windows that are in any DPI awareness mode. Your top-level windows can also respond to DPI changes by listening to Windows messages for the changes.
 
@@ -303,21 +302,10 @@ Some solutions can receive and respond to DPI changes. Some have a workaround if
 	</thead>
 <tbody>
 	<tr>
-		<td rowspan="2">VSTO Add-in</td>
+		<td rowspan="2"><a href="#vsto-add-ins">VSTO Add-in</a></td>
 		<td>Top and its descendants</td>
 		<td>Yes</td>
-		<td>See TBD</td>
-	</tr>
-<tr>
-		<td>Child parented to Office window</td>
-		<td>No</td>
-		<td>See Configure Office to optimize for compatibility.</td>
-</tr>
-	<tr>
-		<td rowspan="2">Custom task pane</td>
-		<td>Top and its descendants</td>
-		<td>Yes</td>
-		<td>See [top-level window guidance]($top-level-window-guidance).</td>
+		<td>See <a href="#vsto-add-ins">VSTO add-in guidance</a>.</td>
 	</tr>
 <tr>
 		<td>Child parented to Office window</td>
@@ -325,52 +313,63 @@ Some solutions can receive and respond to DPI changes. Some have a workaround if
 		<td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
 </tr>
 	<tr>
-		<td rowspan="2">COM Add-in</td>
+		<td rowspan="2"><a href="#custom-task-panes">Custom task pane</a></td>
 		<td>Top and its descendants</td>
 		<td>Yes</td>
-		<td>See COM Add-in guidance.</td>
+		<td>See <a href="#top-level-window-management">top-level window guidance</a>.</td>
 	</tr>
 <tr>
 		<td>Child parented to Office window</td>
 		<td>No</td>
-		<td>See Configure Office to optimize for compatibility.</td>
+		<td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
 </tr>
 	<tr>
-		<td rowspan="2">ActiveX control</td>
+		<td rowspan="2"><a href="#com-add-ins">COM Add-in</a></td>
 		<td>Top and its descendants</td>
 		<td>Yes</td>
-		<td>See ActiveX control guidance.</td>
+		<td>See <a href="#com-add-in">COM Add-in guidance</a>.</td>
+	</tr>
+<tr>
+		<td>Child parented to Office window</td>
+		<td>No</td>
+		<td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
+</tr>
+	<tr>
+		<td rowspan="2"><a href="#activex-controls">ActiveX control</a></td>
+		<td>Top and its descendants</td>
+		<td>Yes</td>
+		<td>See <a href="#activex-controls">ActiveX control guidance</a>.</td>
 	</tr>
 	<tr>
 		<td>Child parented to Office window</td>
 		<td>Yes</td>
 	</tr>
 	<tr>
-		<td>Web Add-in</td>
+		<td><a href="#web-add-ins">Web Add-in</a></td>
 		<td>NA</td>
 		<td>Yes</td>
-		<td>See Office web add-in guidance</td>
+		<td>See <a href="#web-add-ins">Office web add-in guidance</a>.</td>
 	</tr>
 	<tr>
-		<td>Ribbon extension</td>
+		<td><a href="#ribbon-extensions">Ribbon extension</a></td>
 		<td>NA</td>
 		<td>NA</td>
-		<td>See Ribbon extension guidance</td>
+		<td>See <a href="#ribbon-extensions">Ribbon extension guidance</a>.</td>
 	</tr>
 	<tr>
-		<td>OLE server or client</td>
+		<td><a href="#ole">OLE server or client</a></td>
 		<td>NA</td>
 		<td>NA</td>
-		<td>See OLE server/client guidance.</td>
+		<td>See <a href="#ole">OLE server/client guidance</a>.</td>
 	</tr>
 </tbody>
 </table>
 
-### VSTO add-in 
+<h3 id="vsto-add-ins">VSTO add-in</h3>
 
 If your VSTO add-in creates child windows that are parented to any Office windows, be sure they match the DPI awareness of their parent window. You can use the [GetWindowdpiAwarenessContext](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) function to get the DPI awareness of the parent window. Your child windows will not get any DPI change notifications. If your solution is not rendering correctly, users will need to put Office into compatibility mode.
 
-For any top-level windows your VSTO add-in creates, you can set them to any DPI awareness mode. The following sample code shows how to set up the desired DPI awareness, and how to respond to DPI changes. You will also need to adjust your app.config, as described in the High DPI support in Windows Forms article. 
+For any top-level windows your VSTO add-in creates, you can set them to any DPI awareness mode. The following sample code shows how to set up the desired DPI awareness, and how to respond to DPI changes. You will also need to adjust your app.config, as described in the [High DPI support in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms) article. 
 
 ``` c#
 using System;
@@ -486,30 +485,30 @@ namespace SharedModule
 }
 ```
 
-### Custom task pane
+<h3 id="custom-task-panes">Custom task panes</h3>
 
 A custom task pane is created as a child window by Office. When running on Windows Fall Creators Update (1709), your custom task pane will run using the same DPI awareness mode as Office. When running on Windows April 2018 Update (1803) and later, your custom task pane will run using System DPI awareness mode. 
 
-Because custom task panes are child windows, they cannot receive DPI notifications. If they are drawing incorrectly, the user will need to use Office DPI compatibility mode.
-If your custom task pane creates top-level windows, those windows can run in any DPI awareness mode and receive DPI change notifications. For more information, see the Top-level window management section in this article.
+Because custom task panes are child windows, they cannot receive DPI notifications. If they are drawing incorrectly, the user will need to use [Office DPI compatibility mode](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+If your custom task pane creates top-level windows, those windows can run in any DPI awareness mode and receive DPI change notifications. For more information, see the [Top-level window management](#Top-level-window-management) section in this article.
 
-### COM add-in
+<h3 id="com-add-ins">COM add-ins</h3>
 
-COM add-ins that create top-level windows can receive DPI notifications. You should create a context block to set the thread to the DPI awareness that you want for your window, then create your window. There’s a lot to handling the DPI notifications correctly, so be sure to read [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) for more details.
+COM add-ins that create top-level windows can receive DPI notifications. You should create a [context block](#Build-a-context-block-for-incoming-thread-calls) to set the thread to the DPI awareness that you want for your window, then create your window. There’s a lot to handling the DPI notifications correctly, so be sure to read [High DPI Desktop Application Development on Windows](https://docs.microsoft.com/en-us/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) for more details.
 
-The WM_DPICHANGED message is sent when the DPI for a window has changed.  In unmanaged code, this message is handled by the Window Procedure for the HWND.  Sample DPI change handler code can be found in the WM_DPICHANGED article. 
+The [WM_DPICHANGED](https://msdn.microsoft.com/en-us/library/windows/desktop/dn312083(v=vs.85).aspx) message is sent when the DPI for a window has changed.  In unmanaged code, this message is handled by the [Window Procedure](https://msdn.microsoft.com/en-us/library/windows/desktop/ms633570(v=vs.85).aspx) for the HWND.  Sample DPI change handler code can be found in the [WM_DPICHANGED](https://msdn.microsoft.com/en-us/library/windows/desktop/dn312083(v=vs.85).aspx) article. 
 
-COM add-ins that show child windows that are parented to a window in Office cannot receive DPI notifications. If they are drawing incorrectly, the user will need to use Office DPI compatibility mode.
+COM add-ins that show child windows that are parented to a window in Office cannot receive DPI notifications. If they are drawing incorrectly, the user will need to use [Office DPI compatibility mode](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
-### ActiveX controls
+<h3 id="activex-controls">ActiveX controls</h3>
 
 How to support DPI scaling in ActiveX controls depends on whether the control is windowed or windowless.
 
 #### Windowed ActiveX controls
 
-Windowed ActiveX controls receive a WM_SIZE message each time the control is resized.  When this event is triggered, the event handler code can call the GetDpiForWindow function using the HWND of the control to get the DPI, calculate the scale factor differences, and adjust as needed. 
+Windowed ActiveX controls receive a WM_SIZE message each time the control is resized.  When this event is triggered, the event handler code can call the [GetDpiForWindow](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) function using the HWND of the control to get the DPI, calculate the scale factor differences, and adjust as needed. 
 
-The following example enables an MFC-based ActiveX control to respond to the OnSize event. 
+The following example enables an MFC-based ActiveX control to respond to the **OnSize** event. 
 
 ``` c++
 void ChangeWindowFontDPI(HWND hWnd, UINT dpi) 
@@ -566,17 +565,17 @@ m_currentDPI = ::GetDpiForWindow(this->GetSafeHwnd());
 
 Windowless ActiveX controls are not guaranteed have an HWND.  When an ActiveX control is inserted onto a document canvas, it is put into design mode.  In Office applications, the hosting container will return 0 for the call to hDC->GetWindow() in the ::OnDraw event when the control is in design mode.  A reliable DPI cannot be retrieved in this case. 
 
-However, when the control is in runtime mode, Office will return the HWND where the control is to be drawn.  In this case, the control developer can call GetDpiForWindow and get the current DPI and scale fonts, controls, and so on. 
+However, when the control is in runtime mode, Office will return the HWND where the control is to be drawn.  In this case, the control developer can call [GetDpiForWindow](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) and get the current DPI and scale fonts, controls, and so on. 
 
-### Custom ribbon extensibility
+<h3 id="ribbon-extensibility">Custom ribbon extensibility</h3>
 
-Any callbacks from Office for custom ribbon controls will be in a DPI thread awareness of System DPI aware.  If your solution is expecting a different DPI thread awareness, you should implement a context block to set the thread awareness as expected. For more information, see Build a context block.
+Any callbacks from Office for custom ribbon controls will be in a DPI thread awareness of System DPI aware.  If your solution is expecting a different DPI thread awareness, you should implement a context block to set the thread awareness as expected. For more information, see [Build a context block](#Build-a-context-block-for-incoming-thread-calls).
 
-### OLE clients and servers
+<h3 id="ole">OLE clients and servers</h3>
 
-When an OLE server is hosted within an OLE client container, you currently can’t provide current or supported DPI information. This can cause problems because some combinations of parent to child window mixed modes are not supported by the current Windows architecture. If Word or Excel detect that there are multiple monitors with different DPI scales, they will not support in-place activation. Your OLE server will activate out-of-place. If you are experiencing issues with OLE server interactions, the user will need to use Office DPI compatibility mode.
+When an OLE server is hosted within an OLE client container, you currently can’t provide current or supported DPI information. This can cause problems because some combinations of parent to child window mixed modes are not supported by the current Windows architecture. If Word or Excel detect that there are multiple monitors with different DPI scales, they will not support in-place activation. Your OLE server will activate out-of-place. If you are experiencing issues with OLE server interactions, the user will need to use [Office DPI compatibility mode](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
-### Office Web Add-ins
+<h3 id="web-add-ins">Office Web Add-ins</h3>
 
 Office Add-ins built using the Office JavaScript API run inside a browser control. You can handle DPI scaling using the same techniques used in any web app design. Many online resources are available to help design a web page for high resolution screens.
 
@@ -587,7 +586,7 @@ After you have updated your application to support DPI scaling, you should valid
 You might also find these additional techniques helpful:
 
 - With a laptop, you can set the primary monitor to an external monitor, then undock the laptop. This will force the primary monitor to change to the laptop display.
-- Use the open source WinSpy++ tool to help debug. You can use it to see the DPI awareness setting of any window.
+- Use the open source [WinSpy++ tool](https://github.com/BissetJ/winspy/releases) to help debug. You can use it to see the DPI awareness setting of any window.
 - You can use remote desktop to test multiple monitors on a remote computer by selecting Use all my monitors for the remote session on the Display tab, as shown in the following screenshot.
 
 ![Remote Desktop Connection app showing the display tab and selecting Use all my monitors for the remote session.](./media/remote-desktop-use-all-monitors.png)
