@@ -251,3 +251,117 @@ If you create child windows that are parented to your top-level window, you can 
 ## Child window management
 
 When working with ActiveX controls and custom task panes, Office creates the child window for your solution. You can create additional child windows, but you have to be aware of the parent window DPI awareness. Office runs in Per Monitor DPI awareness mode, which means any child windows in your solution will not get DPI change notifications. Only Per Monitor v2 mode supports sending DPI changes to child windows (Office does not support Per Monitor v2). However, for ActiveX controls, there is a workaround. For more information, see the ActiveX controls section later in this article.
+
+> [!NOTE]
+> If your child window creates a top-level window, you can use any DPI awareness mode for the new top-level window. For more information about managing top-level windows, see the Top-level window management section in this article.
+
+You will see two different DPI modes applied to your child window, depending on which version of Windows 10 Office is running on.
+
+### Office DPI behavior on Windows Fall Creators Update (1709)
+
+Because Office apps use Per Monitor awareness mode, your solution’s child windows will also be created in Per Monitor DPI awareness mode. This means Windows expects your solution to update when drawing in a new DPI.  Because your window cannot get DPI change notifications, your solution’s UI might be incorrect. 
+
+![Diagram showing child windows running in Per Monitor DPI aware context on Windows Fall Creators Update (1709).](./media/office-dpi-behavior-on-windows-fall-creators-update.png)
+
+### Office DPI behavior on Windows April 2018 Update (1803)
+
+With Windows April 2018 (1803) update and later, The Office DPI hosting behavior uses mixed-mode DPI scaling for some scenarios. This allows System DPI Aware windows to be parented to Office windows set to Per Monitor DPI aware. This helps to ensure improved compatibility when the DPI changes when the windows are bitmap stretched. The windows might still be blurry from the bitmap stretching.
+
+![Diagram showing child windows running in System DPI Aware context on Windows April 2018 Update (1803).](./media/office-dpi-behavior-on-windows-april-2018-update.png)
+
+When you create new child windows, be sure they match the DPI awareness of their parent window. You can use the GetWindowdpiAwarenessContext function to get the DPI awareness of the parent window. For more information about DPI awareness consistency, see the “Forced reset of process-wide DPI awareness” section in High DPI Desktop Application Development on Windows.
+
+> [!NOTE]
+> You can’t rely on the Process DPI Awareness as it might return PROCESS_SYSTEM_DPI_AWARE even when the application main thread DPI awareness context is DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE. Use the GetThreadDpiAwarenessContext function to get the thread DPI awareness context.
+
+## Office and Windows DPI compatibility settings
+
+When users encounter add-ins or solutions that are not rendering correctly, some compatibility settings can help correct the problem.
+
+### Configure Office to optimize for compatibility
+
+Office has a setting to optimize for compatibility when moving to different DPI scales on different screens. The compatibility mode disables DPI scaling so that everything in Office is bitmap stretched when moved to a display using different DPI scaling. 
+
+The compatibility mode forces Office to run in System DPI aware mode. This causes application windows to bitmap stretch and can have a side effect of a blurry appearance. Your Office solution cannot control this setting because the user chooses it. Using the display compatibility mode solves most drawing problems. For more information, see Office support for high definition displays. 
+
+### Configure Windows to fix blurry apps
+
+Windows 10 (Version 1803) and later has a setting to fix apps so they’re not blurry. This is another setting to try if your solution is not rendering correctly. Your Office solution cannot control this setting because the user chooses it. For more information, see Fix apps that appear blurry in Windows 10.
+
+## How to support DPI scaling in your solution
+
+Some solutions can receive and respond to DPI changes. Some have a workaround if they cannot receive notifications. The following table lists the details for each solution type.
+
+<table>
+	<thead>
+        <tr>
+		    <th>Solution Type</th>
+		    <th>Window type</th>
+		    <th>Can respond to DPI scaling</th>
+		    <th>More details</th>
+        </tr>
+	</thead>
+<tbody>
+	<tr>
+		<td rowspan="2">VSTO Add-in</td>
+		<td>Top and its descendants</td>
+		<td>Yes</td>
+		<td>See TBD</td>
+	</tr>
+<tr>
+		<td>Child parented to Office window</td>
+		<td>No</td>
+		<td>See Office compatibility guidance.</td>
+</tr>
+	<tr>
+		<td rowspan="2">Cust task pane</td>
+		<td>Child parented to Office window</td>
+		<td>No</td>
+		<td>See Office compatibility guidance.</td>
+	</tr>
+<tr>
+		<td>Top and its descendants</td>
+		<td>Yes</td>
+		<td>See top-level window guidance.</td>
+</tr>
+	<tr>
+		<td rowspan="2">COM Add-in</td>
+		<td>Top and its descendants</td>
+		<td>Yes</td>
+		<td>See COM Add-in guidance.</td>
+	</tr>
+<tr>
+		<td>Child parented to Office window</td>
+		<td>No</td>
+		<td>See Office compatibility guidance.</td>
+</tr>
+	<tr>
+		<td rowspan="2">ActiveX control</td>
+		<td>Top and its descendants</td>
+		<td>Yes</td>
+		<td>See ActiveX control guidance.</td>
+	</tr>
+	<tr>
+		<td>Child parented to Office window</td>
+		<td>Yes</td>
+	</tr>
+	<tr>
+		<td>Web Add-in</td>
+		<td>NA</td>
+		<td>Yes</td>
+		<td>See Office web add-in guidance</td>
+	</tr>
+	<tr>
+		<td>Ribbon extension</td>
+		<td>NA</td>
+		<td>NA</td>
+		<td>See Ribbon extension guidance</td>
+	</tr>
+	<tr>
+		<td>OLE server or client</td>
+		<td>NA</td>
+		<td>NA</td>
+		<td>See OLE server/client guidance.</td>
+	</tr>
+</tbody>
+</table>
