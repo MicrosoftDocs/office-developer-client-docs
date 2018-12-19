@@ -23,6 +23,8 @@
      - name: Office shared
        href: shared/office-shared.md
        items:
+       - name: Handle high DPI and DPI scaling in your Office solution
+         href: shared/handle-high-dpi-and-dpi-scaling-in-your-office-solution.md
        - name: Compatibility between the 32-bit and 64-bit versions of Office
          href: shared/compatibility-between-the-32-bit-and-64-bit-versions-of-office.md
        - name: Integrating IM applications with Office
