@@ -252,7 +252,7 @@ If you create child windows that are parented to your top-level window, you can 
 When working with ActiveX controls and custom task panes, Office creates the child window for your solution. You can create additional child windows, but you have to be aware of the parent window DPI awareness. Office runs in Per Monitor DPI awareness mode, which means any child windows in your solution will not get DPI change notifications. Only Per Monitor v2 mode supports sending DPI changes to child windows (Office does not support Per Monitor v2). However, for ActiveX controls, there is a workaround. For more information, see the [ActiveX controls](#activex-controls) section later in this article.
 
 > [!NOTE]
-> If your child window creates a top-level window, you can use any DPI awareness mode for the new top-level window. For more information about managing top-level windows, see the [Top-level window management](top-level-window-management) section in this article.
+> If your child window creates a top-level window, you can use any DPI awareness mode for the new top-level window. For more information about managing top-level windows, see the [Top-level window management](#top-level-window-management) section in this article.
 
 You will see two different DPI modes applied to your child window, depending on which version of Windows 10 Office is running on.
 
