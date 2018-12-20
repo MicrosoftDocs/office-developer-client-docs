@@ -73,7 +73,7 @@ Your solution will interact with its host Office app, so you will have incoming 
 
 The following example code shows how to construct your own context block.
 
-``` c#
+```csharp
 public struct DPI_AWARENESS_CONTEXT
         {
             private IntPtr value;
@@ -199,7 +199,7 @@ class DPIContextBlock : IDisposable
 
 #### Native code context block
 
-``` c++
+```cpp
 #include <winuser.h>
 /* DpiAwarenessContextBlock can be used to simplify setting and resetting the DPI_AWARENESS_CONTEXT of
 the current thread.  When the object is constructed, the DPI_AWARENESS_CONTEXT is set, and when the object is
@@ -371,7 +371,7 @@ If your VSTO add-in creates child windows that are parented to any Office window
 
 For any top-level windows your VSTO add-in creates, you can set them to any DPI awareness mode. The following sample code shows how to set up the desired DPI awareness, and how to respond to DPI changes. You will also need to adjust your app.config, as described in the [High DPI support in Windows Forms](https://docs.microsoft.com/en-us/dotnet/framework/winforms/high-dpi-support-in-windows-forms) article. 
 
-``` c#
+```csharp
 using System;
 using System.Diagnostics;
 using System.Drawing;
@@ -510,7 +510,7 @@ Windowed ActiveX controls receive a WM_SIZE message each time the control is res
 
 The following example enables an MFC-based ActiveX control to respond to the **OnSize** event. 
 
-``` c++
+```cpp
 void ChangeWindowFontDPI(HWND hWnd, UINT dpi) 
 { 
 LOGFONT fontInfo1 = { 0 }; 
