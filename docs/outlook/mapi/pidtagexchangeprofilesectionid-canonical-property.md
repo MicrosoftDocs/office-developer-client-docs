@@ -33,7 +33,7 @@ Contains a dynamically generated GUID used to determine an account when you are 
    
 ## Remarks
 
-Microsoft Outlook 2010 and Microsoft Outlook 2013 support multiple Exchange accounts instead of one single Exchange account. To accommodate multiple Exchange accounts, the MAPI profile layout was changed. In Microsoft Office Outlook 2007 and earlier, profiles contained a fixed profile section dedicated to Exchange settings such as server name, user name, and Offline Folder file (.ost). location. These settings were identified by using a unique identifier, the **pbGlobalProfileSectionGuid** property. The section used for Exchange settings is called the Exchange Global Profile Section. For more information about the Exchange Global Profile in Outlook 2007, see [How To Open the Global Profile Section](https://support.microsoft.com/kb/188482).
+Microsoft Outlook 2010 and Microsoft Outlook 2013 support multiple Exchange accounts instead of one single Exchange account. To accommodate multiple Exchange accounts, the MAPI profile layout was changed. In Microsoft Office Outlook 2007 and earlier, profiles contained a fixed profile section dedicated to Exchange settings such as server name, user name, and Offline Folder file (.ost). location. These settings were identified by using a unique identifier, the **pbGlobalProfileSectionGuid** property. The section used for Exchange settings is called the Exchange Global Profile Section. 
   
 A fixed profile section location is no longer sufficient to accommodate multiple Exchange accounts. Instead, for each Exchange account in your profile, a section exists that is dedicated to settings for that account. The new section used for Exchange settings is identified by the unique identifier **emsmdbUID**.
   
