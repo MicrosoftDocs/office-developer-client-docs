@@ -18,7 +18,7 @@ The following code shows how to create a new Microsoft Jet database with the [Cr
 
 ```vb 
  
-' BeginCreateDatabseVB 
+' BeginCreateDatabaseVB 
 Sub CreateDatabase() 
  On Error GoTo CreateDatabaseError 
  
