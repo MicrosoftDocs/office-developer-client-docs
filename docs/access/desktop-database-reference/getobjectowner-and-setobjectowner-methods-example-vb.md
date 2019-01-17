@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetObjectOwner and SetObjectOwner methods example (VB)
 TOCTitle: GetObjectOwner and SetObjectOwner methods example (VB)
 ms:assetid: 0a30cce1-7626-8db3-4af4-84098c284db0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248833(v=office.15)
 ms:contentKeyID: 48543146
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # GetObjectOwner and SetObjectOwner methods example (VB)

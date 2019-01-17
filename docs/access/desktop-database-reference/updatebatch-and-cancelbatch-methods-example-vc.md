@@ -1,4 +1,4 @@
-﻿---
+---
 title: UpdateBatch and CancelBatch methods example (VC++)
 TOCTitle: UpdateBatch and CancelBatch methods example (VC++)
 ms:assetid: 49eb3cc7-16af-6e2b-911f-ddcf643cf699
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249227(v=office.15)
 ms:contentKeyID: 48544651
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # UpdateBatch and CancelBatch methods example (VC++)

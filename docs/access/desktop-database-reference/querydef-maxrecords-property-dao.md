@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.MaxRecords property (DAO)
 TOCTitle: MaxRecords Property
 ms:assetid: 7492cde9-be30-3473-dabc-9602465910d1
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053583
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.MaxRecords property (DAO)

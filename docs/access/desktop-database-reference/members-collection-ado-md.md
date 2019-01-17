@@ -1,4 +1,4 @@
-﻿---
+---
 title: Members collection (ADO MD)
 TOCTitle: Members collection (ADO MD)
 ms:assetid: 1389c554-e4f1-107d-22c6-7fe851d53d23
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248910(v=office.15)
 ms:contentKeyID: 48543371
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Members collection (ADO MD)

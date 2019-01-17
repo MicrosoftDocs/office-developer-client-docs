@@ -1,4 +1,4 @@
-﻿---
+---
 title: Errors members (DAO)
 TOCTitle: Errors Members
 ms:assetid: 7e7eb080-16dc-c873-af80-6286222cd5b3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
 ms:contentKeyID: 48545879
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Errors members (DAO)

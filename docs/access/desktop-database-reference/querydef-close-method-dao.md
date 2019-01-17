@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.Close method (DAO)
 TOCTitle: Close Method
 ms:assetid: b2b63462-453d-9e2b-0bb3-69a4a7a6ecef
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052976
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.Close method (DAO)

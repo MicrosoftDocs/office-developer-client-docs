@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.RecordStatus property (DAO)
 TOCTitle: RecordStatus Property
 ms:assetid: 6fbd6909-6191-d7be-9a3a-1e9908dacc2b
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1102617
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.RecordStatus property (DAO)

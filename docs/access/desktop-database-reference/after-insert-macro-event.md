@@ -1,4 +1,4 @@
-﻿---
+---
 title: After Insert macro event
 TOCTitle: After Insert macro event
 ms:assetid: 78013896-ee07-6979-96f7-fa0f3490419e
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm3180
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # After Insert macro event

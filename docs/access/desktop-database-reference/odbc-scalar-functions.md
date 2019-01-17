@@ -1,4 +1,4 @@
-﻿---
+---
 title: ODBC scalar functions
 TOCTitle: ODBC scalar functions
 ms:assetid: dc1096bf-8241-036a-14c6-b19afae45454
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ODBC scalar functions

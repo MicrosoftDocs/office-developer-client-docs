@@ -1,4 +1,4 @@
-﻿---
+---
 title: Open method (ADO Record)
 TOCTitle: Open method (ADO Record)
 ms:assetid: ba71c5c7-326e-d3b6-0e74-e8343ee6896f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249896(v=office.15)
 ms:contentKeyID: 48547371
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Open method (ADO Record)

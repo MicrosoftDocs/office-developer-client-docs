@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete method (ADOX Collections)
 TOCTitle: Delete method (ADOX Collections)
 ms:assetid: bcf9b8dd-cc7a-c1f9-fd93-58694766c4d9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249909(v=office.15)
 ms:contentKeyID: 48547423
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Delete method (ADOX Collections)

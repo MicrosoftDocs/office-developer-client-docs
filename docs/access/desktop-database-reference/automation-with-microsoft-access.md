@@ -1,4 +1,4 @@
-﻿---
+---
 title: Automation with Microsoft Access
 TOCTitle: Automation with Microsoft Access
 description: Microsoft Access is a COM component that supports Automation, formerly called OLE Automation.
@@ -11,6 +11,7 @@ f1_keywords:
 - vbaac10.chm13783
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Automation with Microsoft Access

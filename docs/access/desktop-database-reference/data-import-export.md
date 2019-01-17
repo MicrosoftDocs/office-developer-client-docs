@@ -1,4 +1,4 @@
-﻿---
+---
 title: Data import/export (Access desktop database reference)
 TOCTitle: Data import/export
 ms:assetid: 30b43148-8915-4204-87cc-09621f4d628a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)
 ms:contentKeyID: 52071871
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Data import/export

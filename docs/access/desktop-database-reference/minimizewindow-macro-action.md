@@ -1,4 +1,4 @@
-﻿---
+---
 title: MinimizeWindow macro action
 TOCTitle: MinimizeWindow macro action
 ms:assetid: 3a92b654-15ce-1ed1-63e0-eed927dbe26c
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm174420
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # MinimizeWindow macro action

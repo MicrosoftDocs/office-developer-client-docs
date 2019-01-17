@@ -1,4 +1,4 @@
-﻿---
+---
 title: Prepared property (ADO)
 TOCTitle: Prepared property (ADO)
 ms:assetid: 33becda2-faab-5000-8904-6ffd8c5805f2
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231161
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Prepared property (ADO)

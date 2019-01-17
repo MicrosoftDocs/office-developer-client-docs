@@ -1,4 +1,4 @@
-﻿---
+---
 title: Set form, report, and control properties
 TOCTitle: Set form, report, and control properties
 description: Each form, report, section, and control has property settings that you can change to alter the look or behavior of that particular item in Access 2013.
@@ -11,6 +11,7 @@ f1_keywords:
 - vbaac10.chm12286
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Set form, report, and control properties

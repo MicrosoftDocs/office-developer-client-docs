@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.StillExecuting property (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 98e85d37-de50-afe1-dcca-01623546e0ad
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053584
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.StillExecuting property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CommandTypeEnum (Access desktop database reference)
 TOCTitle: CommandTypeEnum
 ms:assetid: 9ad8f155-88a0-00eb-2855-1e1a2a677437
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249700(v=office.15)
 ms:contentKeyID: 48546549
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CommandTypeEnum

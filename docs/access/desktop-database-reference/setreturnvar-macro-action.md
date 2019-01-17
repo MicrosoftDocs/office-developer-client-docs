@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetReturnVar macro action
 TOCTitle: SetReturnVar macro action
 ms:assetid: 53719857-00bb-4f33-b5d2-93aff92d736e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193989(v=office.15)
 ms:contentKeyID: 48544870
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # SetReturnVar macro action

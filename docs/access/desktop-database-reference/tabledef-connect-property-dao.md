@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.Connect property (DAO)
 TOCTitle: Connect Property
 ms:assetid: 4fbb324c-a358-8fad-60f2-fb8005cf74d9
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # TableDef.Connect property (DAO)

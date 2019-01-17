@@ -1,4 +1,4 @@
-﻿---
+---
 title: CancelEvent macro action
 TOCTitle: CancelEvent macro action
 ms:assetid: d9d3ea99-c9fb-2524-c570-e3ee6d20af98
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm78430
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # CancelEvent macro action

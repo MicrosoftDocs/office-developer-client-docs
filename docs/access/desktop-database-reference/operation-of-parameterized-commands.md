@@ -1,4 +1,4 @@
-﻿---
+---
 title: Operation of parameterized commands
 TOCTitle: Operation of parameterized commands
 ms:assetid: 71edbd16-21db-7afa-356b-d8e7afb92b3a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249456(v=office.15)
 ms:contentKeyID: 48545596
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Operation of parameterized commands

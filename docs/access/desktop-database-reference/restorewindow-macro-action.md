@@ -1,4 +1,4 @@
-﻿---
+---
 title: RestoreWindow macro action
 TOCTitle: RestoreWindow macro action
 ms:assetid: 507a6452-2be0-a523-1201-0108d2b9d23c
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm11103
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RestoreWindow macro action

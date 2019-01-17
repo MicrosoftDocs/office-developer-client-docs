@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActualSize property (ADO)
 TOCTitle: ActualSize property (ADO)
 ms:assetid: 020a414d-e6aa-5fb9-9b77-bd9d10124f8a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248787(v=office.15)
 ms:contentKeyID: 48542949
 ms.date: 10/16/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ActualSize property (ADO)

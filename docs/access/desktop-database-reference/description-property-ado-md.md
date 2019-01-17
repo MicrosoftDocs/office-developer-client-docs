@@ -1,4 +1,4 @@
-﻿---
+---
 title: Description property (ADO MD)
 TOCTitle: Description property (ADO MD)
 ms:assetid: 06d5e1d0-6ed7-fe14-3723-3790e225482a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248816(v=office.15)
 ms:contentKeyID: 48543055
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Description property (ADO MD)

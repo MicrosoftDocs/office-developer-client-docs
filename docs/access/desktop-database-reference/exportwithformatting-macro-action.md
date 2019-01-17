@@ -1,4 +1,4 @@
-﻿---
+---
 title: ExportWithFormatting macro action
 TOCTitle: ExportWithFormatting macro action
 ms:assetid: 8926dfa3-bf11-30ab-0f85-46f0a4961784
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm159503
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # ExportWithFormatting macro action

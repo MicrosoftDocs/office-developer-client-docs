@@ -1,4 +1,4 @@
-﻿---
+---
 title: CREATE TABLE statement (Microsoft Access SQL)
 TOCTitle: CREATE TABLE statement (Microsoft Access SQL)
 ms:assetid: fc45d36e-6e43-c030-5016-cca8bb1379fe
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277563
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # CREATE TABLE statement (Microsoft Access SQL)

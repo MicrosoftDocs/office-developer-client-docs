@@ -1,4 +1,4 @@
-﻿---
+---
 title: Description, HelpContext, HelpFile properties example (VB)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)
 ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15)
 ms:contentKeyID: 48544304
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)

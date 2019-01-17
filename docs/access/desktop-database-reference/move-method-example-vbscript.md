@@ -1,4 +1,4 @@
-﻿---
+---
 title: Move method example (VBScript)
 TOCTitle: Move method example (VBScript)
 ms:assetid: 42f2eb08-47cf-f422-6176-badd414d0bfc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249198(v=office.15)
 ms:contentKeyID: 48544489
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Move method example (VBScript)

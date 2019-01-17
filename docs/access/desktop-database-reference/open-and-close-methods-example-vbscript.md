@@ -1,4 +1,4 @@
-﻿---
+---
 title: Open and Close methods example (VBScript)
 TOCTitle: Open and Close methods example (VBScript)
 ms:assetid: 7b9d9443-9693-8738-7c93-52f9efc895ff
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249513(v=office.15)
 ms:contentKeyID: 48545816
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Open and Close methods example (VBScript)

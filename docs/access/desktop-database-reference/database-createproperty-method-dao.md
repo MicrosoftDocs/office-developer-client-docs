@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.CreateProperty method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: f2039be9-5fd8-f673-dfbf-0a71540cdc98
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836607(v=office.15)
 ms:contentKeyID: 48548638
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Database.CreateProperty method (DAO)

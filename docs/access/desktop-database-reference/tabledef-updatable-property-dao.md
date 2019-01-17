@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.Updatable property (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 0b1ae7e5-416d-06f0-5d74-989c6db67ff2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845128(v=office.15)
 ms:contentKeyID: 48543168
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # TableDef.Updatable property (DAO)

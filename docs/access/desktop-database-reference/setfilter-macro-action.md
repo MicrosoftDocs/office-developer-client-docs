@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetFilter macro action
 TOCTitle: SetFilter macro action
 ms:assetid: dee699e2-0840-1612-23ce-199ef8d30566
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm122943
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SetFilter macro action

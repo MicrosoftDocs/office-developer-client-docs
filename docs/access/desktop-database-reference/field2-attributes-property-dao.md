@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.Attributes property (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052896
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.Attributes property (DAO)

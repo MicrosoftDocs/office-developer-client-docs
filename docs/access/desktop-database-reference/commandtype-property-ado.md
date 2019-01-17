@@ -1,4 +1,4 @@
-﻿---
+---
 title: CommandType property (ADO)
 TOCTitle: CommandType property (ADO)
 ms:assetid: c8d4fc1c-502b-11f3-af9d-605a03b6f056
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231125
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # CommandType property (ADO)

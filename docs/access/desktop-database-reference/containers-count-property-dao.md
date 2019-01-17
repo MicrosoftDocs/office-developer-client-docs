@@ -1,4 +1,4 @@
-﻿---
+---
 title: Containers.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 3b0bf865-a4d5-82bb-c1a9-9957f110db4c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192657(v=office.15)
 ms:contentKeyID: 48544276
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Containers.Count property (DAO)

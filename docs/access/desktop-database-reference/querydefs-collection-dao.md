@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDefs collection (DAO)
 TOCTitle: QueryDefs Collection
 ms:assetid: 6178c3a6-8301-16bf-4657-0fb113de0a36
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194892(v=office.15)
 ms:contentKeyID: 48545215
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # QueryDefs collection (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Indexes collection (ADOX) reference
 TOCTitle: Indexes collection (ADOX)
 ms:assetid: 2eaf8405-7907-4fa4-92bc-ed7b0c829b42
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249075(v=office.15)
 ms:contentKeyID: 48543990
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Indexes collection (ADOX) reference

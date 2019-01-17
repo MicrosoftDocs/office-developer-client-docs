@@ -1,4 +1,4 @@
-﻿---
+---
 title: Visual C++ Extensions for ADO
 TOCTitle: Visual C++ Extensions for ADO
 ms:assetid: 38048ae0-1dae-9e5e-c569-04011df8b5aa
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249134(v=office.15)
 ms:contentKeyID: 48544212
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Visual C++ Extensions for ADO

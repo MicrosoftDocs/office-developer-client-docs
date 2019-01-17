@@ -1,4 +1,4 @@
-﻿---
+---
 title: Columns and Tables Append Methods, Name property example (VC++)
 TOCTitle: Columns and Tables Append Methods, Name property example (VC++)
 ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
 ms:contentKeyID: 48545322
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Columns and Tables Append Methods, Name property example (VC++)

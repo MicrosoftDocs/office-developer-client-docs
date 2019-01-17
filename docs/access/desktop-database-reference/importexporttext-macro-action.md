@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImportExportText macro action
 TOCTitle: ImportExportText macro action
 ms:assetid: 366fa095-6f09-7c22-e734-bfa585cfe79e
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm168097
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ImportExportText macro action

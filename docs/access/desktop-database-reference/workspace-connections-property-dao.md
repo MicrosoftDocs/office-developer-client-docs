@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace.Connections property (DAO)
 TOCTitle: Connections Property
 ms:assetid: 7b4f905c-4bc1-8fa7-b608-516edfef3d8f
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053556
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Workspace.Connections property (DAO)

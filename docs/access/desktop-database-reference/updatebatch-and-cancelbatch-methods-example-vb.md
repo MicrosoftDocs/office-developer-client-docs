@@ -1,4 +1,4 @@
-﻿---
+---
 title: UpdateBatch and CancelBatch methods example (VB)
 TOCTitle: UpdateBatch and CancelBatch methods example (VB)
 ms:assetid: 7efb80a1-3ec8-0747-5562-6a6c372b949b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249536(v=office.15)
 ms:contentKeyID: 48545893
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # UpdateBatch and CancelBatch methods example (VB)

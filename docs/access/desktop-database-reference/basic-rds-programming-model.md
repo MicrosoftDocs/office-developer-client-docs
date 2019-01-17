@@ -1,4 +1,4 @@
-﻿---
+---
 title: Basic RDS programming model
 TOCTitle: Basic RDS programming model
 ms:assetid: a8dd22b0-ac9b-b5c3-4e31-d2990d36230a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249781(v=office.15)
 ms:contentKeyID: 48546911
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Basic RDS programming model

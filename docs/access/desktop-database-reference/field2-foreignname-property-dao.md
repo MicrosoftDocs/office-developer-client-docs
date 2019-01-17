@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.ForeignName property (DAO)
 TOCTitle: ForeignName Property
 ms:assetid: 76da233a-efb4-63cd-a2a2-d18d9e2fb2fb
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052932
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.ForeignName property (DAO)

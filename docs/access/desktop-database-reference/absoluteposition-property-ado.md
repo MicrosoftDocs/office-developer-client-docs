@@ -1,4 +1,4 @@
-﻿---
+---
 title: AbsolutePosition property (ADO)
 TOCTitle: AbsolutePosition property (ADO)
 ms:assetid: 500be001-9fa1-177b-f19d-acf003a0cdc2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249259(v=office.15)
 ms:contentKeyID: 48544787
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # AbsolutePosition property (ADO)

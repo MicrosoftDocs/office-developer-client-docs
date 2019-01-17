@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveConnection property (ADO)
 TOCTitle: ActiveConnection property (ADO)
 ms:assetid: 5501b2d7-b62c-5fff-1edd-2b7efb3f8c4a
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231115
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ActiveConnection property (ADO)

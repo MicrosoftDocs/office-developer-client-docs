@@ -1,4 +1,4 @@
-﻿---
+---
 title: Forward-only cursors
 TOCTitle: Forward-only cursors
 ms:assetid: 27541bac-077b-bfe6-d9d8-713e4a945125
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249035(v=office.15)
 ms:contentKeyID: 48543834
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Forward-only cursors

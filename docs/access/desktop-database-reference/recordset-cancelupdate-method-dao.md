@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.CancelUpdate method (DAO)
 TOCTitle: CancelUpdate method
 ms:assetid: efc4f60b-876f-5e11-37fd-0fbbf225b15b
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053072
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.CancelUpdate method (DAO)

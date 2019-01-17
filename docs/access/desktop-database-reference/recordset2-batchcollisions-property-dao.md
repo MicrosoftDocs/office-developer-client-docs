@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.BatchCollisions property (DAO)
 TOCTitle: BatchCollisions Property
 ms:assetid: 07d6c25f-baf5-f7d6-d225-0447e0f78fe6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101180
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.BatchCollisions property (DAO)

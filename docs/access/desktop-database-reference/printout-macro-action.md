@@ -1,4 +1,4 @@
-﻿---
+---
 title: PrintOut macro action
 TOCTitle: PrintOut macro action
 ms:assetid: 13688158-1cf1-4b2e-d90a-271c8890e413
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # PrintOut macro action

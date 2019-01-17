@@ -1,4 +1,4 @@
-﻿---
+---
 title: BOF, EOF, and Bookmark properties example (VB)
 TOCTitle: BOF, EOF, and Bookmark properties example (VB)
 ms:assetid: 30d4b424-b3d8-292f-7553-bb15b094eef8
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249085(v=office.15)
 ms:contentKeyID: 48544037
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # BOF, EOF, and Bookmark properties example (VB)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CONSTRAINT clause (Microsoft Access SQL)
 TOCTitle: CONSTRAINT clause (Microsoft Access SQL)
 ms:assetid: f8e89a91-a69e-1811-42a7-921692110bcb
@@ -12,6 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # CONSTRAINT clause (Microsoft Access SQL)

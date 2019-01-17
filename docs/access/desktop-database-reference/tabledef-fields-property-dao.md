@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.Fields property (DAO)
 TOCTitle: Fields Property
 ms:assetid: ca85be33-c872-309d-b1f0-d1ffb6951547
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052902
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TableDef.Fields property (DAO)

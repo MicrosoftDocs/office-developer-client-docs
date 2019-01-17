@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetObjectOwner method (ADOX)
 TOCTitle: GetObjectOwner method (ADOX)
 ms:assetid: 716dd49a-8663-3f7a-32a3-0be353aea506
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249451(v=office.15)
 ms:contentKeyID: 48545585
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # GetObjectOwner method (ADOX)

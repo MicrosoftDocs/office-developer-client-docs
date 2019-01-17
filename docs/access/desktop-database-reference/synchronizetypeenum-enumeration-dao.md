@@ -1,4 +1,4 @@
-﻿---
+---
 title: SynchronizeTypeEnum enumeration (DAO)
 TOCTitle: SynchronizeTypeEnum Enumeration
 ms:assetid: f9546171-283d-e9bd-5178-41bd4f41c9a6
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837004(v=office.15)
 ms:contentKeyID: 48548812
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # SynchronizeTypeEnum enumeration (DAO)

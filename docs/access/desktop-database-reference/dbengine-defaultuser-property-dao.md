@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.DefaultUser property (DAO)
 TOCTitle: DefaultUser Property
 ms:assetid: 41ee0211-0794-6026-7341-3698a0b2c588
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053071
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.DefaultUser property (DAO)

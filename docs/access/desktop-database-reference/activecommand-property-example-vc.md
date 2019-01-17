@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveCommand property example (VC++)
 TOCTitle: ActiveCommand property example (VC++)
 ms:assetid: 35ebe533-73bb-0fe5-ef94-973e124b25cd
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249118(v=office.15)
 ms:contentKeyID: 48544157
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ActiveCommand property example (VC++)

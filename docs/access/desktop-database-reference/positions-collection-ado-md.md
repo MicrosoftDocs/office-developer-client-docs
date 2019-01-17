@@ -1,4 +1,4 @@
-﻿---
+---
 title: Positions collection (ADO MD)
 TOCTitle: Positions collection (ADO MD)
 ms:assetid: a1e6333a-26a5-047a-1311-1a4060c73145
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249746(v=office.15)
 ms:contentKeyID: 48546742
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Positions collection (ADO MD)

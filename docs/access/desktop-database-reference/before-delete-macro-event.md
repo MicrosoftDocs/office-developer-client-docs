@@ -1,4 +1,4 @@
-﻿---
+---
 title: Before Delete macro event
 TOCTitle: Before Delete macro event
 ms:assetid: 1a8d3457-5c59-d13e-ada9-6ecd33dfd5b3
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm186077
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Before Delete macro event

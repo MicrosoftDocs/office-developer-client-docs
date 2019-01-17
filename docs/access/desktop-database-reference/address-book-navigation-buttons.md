@@ -1,4 +1,4 @@
-﻿---
+---
 title: Address Book navigation buttons
 TOCTitle: Address Book navigation buttons
 ms:assetid: 4ec32c08-5b35-8dce-23ec-0daa4db551cf
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249253(v=office.15)
 ms:contentKeyID: 48544765
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Address Book navigation buttons

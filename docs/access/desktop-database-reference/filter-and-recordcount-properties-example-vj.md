@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filter and RecordCount properties example (VJ++)
 TOCTitle: Filter and RecordCount properties example (VJ++)
 ms:assetid: cf062f99-f935-6bf3-a245-fa345ead78db
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250025(v=office.15)
 ms:contentKeyID: 48547798
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filter and RecordCount properties example (VJ++)

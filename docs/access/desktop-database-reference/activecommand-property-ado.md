@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveCommand property (ADO)
 TOCTitle: ActiveCommand property (ADO)
 ms:assetid: 41c19008-cbf7-ade9-b4ab-e908a16784ac
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249190(v=office.15)
 ms:contentKeyID: 48544459
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ActiveCommand property (ADO)

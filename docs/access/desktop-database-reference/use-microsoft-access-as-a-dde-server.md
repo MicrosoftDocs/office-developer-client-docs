@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use Microsoft Access as a DDE server
 TOCTitle: Use Microsoft Access as a DDE Server
 description: Microsoft Access supports dynamic data exchange (DDE) as either a destination (client) application or a source (server) application.  
@@ -11,6 +11,7 @@ f1_keywords:
 - vbaac10.chm5186349
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Use Microsoft Access as a DDE server

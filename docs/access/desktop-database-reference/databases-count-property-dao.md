@@ -1,4 +1,4 @@
-﻿---
+---
 title: Databases.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 7c542b17-9806-e00e-8cbd-58d6d17e98c4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196364(v=office.15)
 ms:contentKeyID: 48545831
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Databases.Count property (DAO)

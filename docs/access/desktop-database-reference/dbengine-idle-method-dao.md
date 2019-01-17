@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.Idle method (DAO)
 TOCTitle: Idle Method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.Idle method (DAO)

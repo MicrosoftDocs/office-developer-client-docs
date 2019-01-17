@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageCount property (ADO)
 TOCTitle: PageCount property (ADO)
 ms:assetid: 9cd8bf5c-b1e7-a453-4629-9cba7e408f53
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249712(v=office.15)
 ms:contentKeyID: 48546609
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # PageCount property (ADO)

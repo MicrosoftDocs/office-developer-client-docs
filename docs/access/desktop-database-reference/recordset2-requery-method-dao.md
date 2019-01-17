@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.Requery method (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052940
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.Requery method (DAO)

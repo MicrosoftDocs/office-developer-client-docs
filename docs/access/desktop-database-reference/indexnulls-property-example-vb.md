@@ -1,4 +1,4 @@
-﻿---
+---
 title: IndexNulls property example (VB)
 TOCTitle: IndexNulls property example (VB)
 ms:assetid: 69b5661c-931e-3a1c-d60e-96a0f93b9494
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249414(v=office.15)
 ms:contentKeyID: 48545417
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # IndexNulls property example (VB)

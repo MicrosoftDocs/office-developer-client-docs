@@ -1,4 +1,4 @@
-﻿---
+---
 title: ShowToolbar macro action
 TOCTitle: ShowToolbar macro action
 ms:assetid: 9e53009b-1e5e-1bee-3bcc-f82dc1b0dc48
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm27417
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ShowToolbar macro action

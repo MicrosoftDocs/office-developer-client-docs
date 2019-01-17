@@ -1,4 +1,4 @@
-﻿---
+---
 title: CursorType, LockType, and EditMode properties example (VB)
 TOCTitle: CursorType, LockType, and EditMode properties example (VB)
 ms:assetid: efe3f976-b095-c0ce-376a-693b07ec8e9d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250221(v=office.15)
 ms:contentKeyID: 48548595
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CursorType, LockType, and EditMode properties example (VB)

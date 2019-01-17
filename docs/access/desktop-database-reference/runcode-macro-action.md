@@ -1,4 +1,4 @@
-﻿---
+---
 title: RunCode macro action
 TOCTitle: RunCode macro action
 ms:assetid: cb0625be-4b5d-4927-9b0e-59a6e411b5bb
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm98700
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RunCode macro action

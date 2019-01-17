@@ -1,4 +1,4 @@
-﻿---
+---
 title: Relation.PartialReplica property (DAO)
 TOCTitle: PartialReplica Property
 ms:assetid: 3cb15639-371e-06e3-e2ba-30466ce09a72
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053557
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Relation.PartialReplica property (DAO)

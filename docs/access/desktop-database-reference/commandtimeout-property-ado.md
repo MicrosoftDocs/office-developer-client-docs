@@ -1,4 +1,4 @@
-﻿---
+---
 title: CommandTimeout property (ADO)
 TOCTitle: CommandTimeout property (ADO)
 ms:assetid: a0b6209c-9feb-08ae-002a-15d1d20734a8
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231124
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # CommandTimeout property (ADO)

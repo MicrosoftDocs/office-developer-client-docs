@@ -3,8 +3,8 @@ title: "Access"
 description: Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Access.
 ms.date: 10/16/2018
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
+localization_priority: Priority
 ---
 
 # Access

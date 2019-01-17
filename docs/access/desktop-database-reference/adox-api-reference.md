@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADOX API reference (Access desktop database reference)
 TOCTitle: ADOX API reference
 ms:assetid: 70965aa3-992d-c68f-a6e2-a48325561dfd
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249446(v=office.15)
 ms:contentKeyID: 48545561
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADOX API reference

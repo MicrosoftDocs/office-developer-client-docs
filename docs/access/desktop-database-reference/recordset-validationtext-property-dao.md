@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.ValidationText property (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 32a5ab9a-becc-b39a-f6da-d44142235c78
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052928
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.ValidationText property (DAO)

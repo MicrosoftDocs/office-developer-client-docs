@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.TableDefs property (DAO)
 TOCTitle: TableDefs Property
 ms:assetid: 022d20d2-36f5-7711-c6fb-3a0f2cfb76d3
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053033
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.TableDefs property (DAO)

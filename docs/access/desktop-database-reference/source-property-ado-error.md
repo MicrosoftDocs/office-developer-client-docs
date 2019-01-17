@@ -1,4 +1,4 @@
-﻿---
+---
 title: Source property (ADO Error)
 TOCTitle: Source property (ADO Error)
 ms:assetid: ffc6c77f-1494-d63a-d832-416faa4c6f07
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250316(v=office.15)
 ms:contentKeyID: 48548969
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Source property (ADO Error)

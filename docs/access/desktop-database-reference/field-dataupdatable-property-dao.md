@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field.DataUpdatable property (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: 08ca57b6-2d7c-36b4-7d51-b76ac5467163
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052988
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field.DataUpdatable property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.Transactions property (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 317334dc-0ed4-ccaa-cd04-4b8f5a0c32b2
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052879
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.Transactions property (DAO)

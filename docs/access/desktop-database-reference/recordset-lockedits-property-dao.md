@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.LockEdits property (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: baa11b24-a330-eaa4-bd03-b8b9739d209e
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052877
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.LockEdits property (DAO)

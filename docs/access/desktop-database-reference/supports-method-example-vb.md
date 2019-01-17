@@ -1,4 +1,4 @@
-﻿---
+---
 title: Supports method example (VB)
 TOCTitle: Supports method example (VB)
 ms:assetid: 6ebeac50-59d1-41d0-b5ef-2be868182cc2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249438(v=office.15)
 ms:contentKeyID: 48545518
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Supports method example (VB)

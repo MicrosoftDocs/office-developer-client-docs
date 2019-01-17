@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.ValidationText property (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 3997e385-dbeb-8b2b-9090-f3b8a2ab9cef
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192638(v=office.15)
 ms:contentKeyID: 48544251
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2.ValidationText property (DAO)

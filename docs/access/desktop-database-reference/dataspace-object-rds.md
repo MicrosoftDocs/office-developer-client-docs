@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSpace object (RDS)
 TOCTitle: DataSpace object (RDS)
 ms:assetid: 7db181d5-422b-49fe-b6af-a20f5da520ff
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249527(v=office.15)
 ms:contentKeyID: 48545862
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DataSpace object (RDS)

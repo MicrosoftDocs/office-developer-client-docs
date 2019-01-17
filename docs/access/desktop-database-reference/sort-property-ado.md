@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sort property (ADO)
 TOCTitle: Sort property (ADO)
 ms:assetid: f2a39b7f-8b96-cd1a-8248-71f8b867454a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250230(v=office.15)
 ms:contentKeyID: 48548652
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Sort property (ADO)

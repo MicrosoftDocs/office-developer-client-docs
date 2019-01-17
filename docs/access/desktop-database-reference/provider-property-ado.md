@@ -1,4 +1,4 @@
-﻿---
+---
 title: Provider property (ADO)
 TOCTitle: Provider property (ADO)
 ms:assetid: 1b795f51-93d7-431c-b1fe-0db95f69a56a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248953(v=office.15)
 ms:contentKeyID: 48543543
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Provider property (ADO)

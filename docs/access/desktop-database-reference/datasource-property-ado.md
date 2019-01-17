@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataSource property (ADO)
 TOCTitle: DataSource property (ADO)
 ms:assetid: 5c5d6c9b-b7d4-45a5-0f6a-a5580a74361e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249325(v=office.15)
 ms:contentKeyID: 48545087
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DataSource property (ADO)

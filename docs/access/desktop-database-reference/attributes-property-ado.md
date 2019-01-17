@@ -1,4 +1,4 @@
-﻿---
+---
 title: Attributes property (ADO)
 TOCTitle: Attributes property (ADO)
 ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231117
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Attributes property (ADO)

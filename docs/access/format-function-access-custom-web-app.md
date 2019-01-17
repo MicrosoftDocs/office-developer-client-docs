@@ -7,9 +7,9 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: "Returns a value formatted according to a specified pattern."
+localization_priority: Priority
 ---
 
 # Format Function (Access custom web app)

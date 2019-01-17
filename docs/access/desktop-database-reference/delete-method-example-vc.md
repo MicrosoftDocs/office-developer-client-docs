@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete method example (VC++)
 TOCTitle: Delete method example (VC++)
 ms:assetid: 605daa2f-aaf3-7928-9523-6bc58e8bd61a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249350(v=office.15)
 ms:contentKeyID: 48545176
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Delete method example (VC++)

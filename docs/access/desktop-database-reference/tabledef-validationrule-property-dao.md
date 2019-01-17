@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.ValidationRule property (DAO)
 TOCTitle: ValidationRule Property
 ms:assetid: 7dcd6f2c-45bc-a50b-727d-589371d5803f
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052925
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TableDef.ValidationRule property (DAO)

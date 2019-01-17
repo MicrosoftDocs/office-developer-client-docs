@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADCPROP_UPDATERESYNC_ENUM
 TOCTitle: ADCPROP_UPDATERESYNC_ENUM
 ms:assetid: 890210c4-2290-ddb2-8814-022093c318de
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249600(v=office.15)
 ms:contentKeyID: 48546145
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADCPROP\_UPDATERESYNC\_ENUM

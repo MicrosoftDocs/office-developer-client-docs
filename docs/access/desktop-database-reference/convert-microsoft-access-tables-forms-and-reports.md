@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert Microsoft Access tables, forms, and reports
 TOCTitle: Convert Microsoft Access tables, forms, and reports
 description: Changes introduced by Microsoft Access 2002 might affect the behavior of your version 1.x or 2.0 applications.
@@ -11,6 +11,7 @@ f1_keywords:
 - vbaac10.chm5187104
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Convert Microsoft Access tables, forms, and reports

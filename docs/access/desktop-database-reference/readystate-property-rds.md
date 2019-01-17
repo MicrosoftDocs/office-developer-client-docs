@@ -1,4 +1,4 @@
-﻿---
+---
 title: ReadyState property (RDS)
 TOCTitle: ReadyState property (RDS)
 ms:assetid: e7b62205-a604-ef43-2f5d-9b51b46d2b5a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250175(v=office.15)
 ms:contentKeyID: 48548412
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ReadyState property (RDS)

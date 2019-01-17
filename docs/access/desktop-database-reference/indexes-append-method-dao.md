@@ -1,4 +1,4 @@
-﻿---
+---
 title: Indexes.Append method (DAO)
 TOCTitle: Append Method
 ms:assetid: 60dce80f-505b-e988-3ac1-8ecaae3d3d09
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194835(v=office.15)
 ms:contentKeyID: 48545191
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Indexes.Append method (DAO)

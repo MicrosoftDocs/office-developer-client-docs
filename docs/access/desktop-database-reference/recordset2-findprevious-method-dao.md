@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.FindPrevious method (DAO)
 TOCTitle: FindPrevious Method
 ms:assetid: ec35faf4-20f2-a83f-54e4-ac1f66c3c2be
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836294(v=office.15)
 ms:contentKeyID: 48548509
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2.FindPrevious method (DAO)

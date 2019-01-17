@@ -1,4 +1,4 @@
-﻿---
+---
 title: KeyTypeEnum (Access desktop database reference)
 TOCTitle: KeyTypeEnum
 ms:assetid: 333fe365-ff74-9a12-63a7-f3e3f5eff7f4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249103(v=office.15)
 ms:contentKeyID: 48544099
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # KeyTypeEnum

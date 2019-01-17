@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connection.QueryDefs property (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: b7a8bee1-fd24-32c6-ccba-abf25b879c9e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822426(v=office.15)
 ms:contentKeyID: 48547304
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Connection.QueryDefs property (DAO)

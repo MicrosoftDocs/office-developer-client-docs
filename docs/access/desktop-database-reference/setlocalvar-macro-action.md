@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetLocalVar macro action
 TOCTitle: SetLocalVar macro action
 ms:assetid: 8a6af395-0f76-72e2-37f3-2cff22a38b3c
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm176660
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # SetLocalVar macro action

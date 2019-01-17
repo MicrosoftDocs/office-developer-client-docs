@@ -1,4 +1,4 @@
-﻿---
+---
 title: Properties collection (ADO)
 TOCTitle: Properties collection (ADO)
 ms:assetid: 4d662790-1252-c930-e6f9-edf6a38636af
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231104
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Properties collection (ADO)

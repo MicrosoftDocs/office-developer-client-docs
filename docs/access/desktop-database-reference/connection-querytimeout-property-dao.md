@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connection.QueryTimeout property (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: 97853412-d5ae-7a71-ccaa-595c68919654
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052905
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Connection.QueryTimeout property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Keys collection (ADOX)
 TOCTitle: Keys collection (ADOX)
 ms:assetid: 0d480c01-1b36-28b9-9135-51958f313995
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248854(v=office.15)
 ms:contentKeyID: 48543215
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Keys collection (ADOX)

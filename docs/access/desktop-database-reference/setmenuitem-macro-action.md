@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetMenuItem macro action
 TOCTitle: SetMenuItem macro action
 ms:assetid: 503b3635-e721-1b99-3249-626e5dccdb8a
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm16614
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SetMenuItem macro action

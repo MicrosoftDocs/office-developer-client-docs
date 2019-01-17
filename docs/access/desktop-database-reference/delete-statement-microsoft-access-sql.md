@@ -1,4 +1,4 @@
-﻿---
+---
 title: DELETE statement (Microsoft Access SQL)
 TOCTitle: DELETE statement (Microsoft Access SQL)
 ms:assetid: 64c235bc-5b1a-0a33-714a-9933ba7a81e5
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277573
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # DELETE statement (Microsoft Access SQL)

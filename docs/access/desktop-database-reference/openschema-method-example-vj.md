@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenSchema method example (VJ++)
 TOCTitle: OpenSchema method example (VJ++)
 ms:assetid: a76f2c21-d535-a1f5-c541-adaab21c87d0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249773(v=office.15)
 ms:contentKeyID: 48546877
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # OpenSchema method example (VJ++)

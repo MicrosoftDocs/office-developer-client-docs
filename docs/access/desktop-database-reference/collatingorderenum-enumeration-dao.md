@@ -1,4 +1,4 @@
-﻿---
+---
 title: CollatingOrderEnum enumeration (DAO)
 TOCTitle: CollatingOrderEnum enumeration
 ms:assetid: 4a82ca02-172b-e796-58d8-f263287ef52a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
 ms:contentKeyID: 48544667
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CollatingOrderEnum enumeration (DAO)

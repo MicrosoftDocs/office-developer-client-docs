@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.FillCache method (DAO)
 TOCTitle: FillCache Method
 ms:assetid: 28a70997-a8d4-73e6-171a-61286e3d3485
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052942
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.FillCache method (DAO)

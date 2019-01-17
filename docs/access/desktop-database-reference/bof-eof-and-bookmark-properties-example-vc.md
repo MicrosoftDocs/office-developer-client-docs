@@ -1,4 +1,4 @@
-﻿---
+---
 title: BOF, EOF, and Bookmark properties example (VC++)
 TOCTitle: BOF, EOF, and Bookmark properties example (VC++)
 ms:assetid: d3cf9ace-07d7-6f92-983c-49c8d4216e20
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
 ms:contentKeyID: 48547914
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # BOF, EOF, and Bookmark properties example (VC++)

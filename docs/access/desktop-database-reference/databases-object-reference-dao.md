@@ -1,4 +1,4 @@
-﻿---
+---
 title: Databases object reference (DAO)
 TOCTitle: Databases Object
 ms:assetid: e9728dde-303c-44fd-ba8c-0e5773cfd0e7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125983(v=office.15)
 ms:contentKeyID: 52074854
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Databases object reference (DAO)

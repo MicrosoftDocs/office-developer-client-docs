@@ -1,4 +1,4 @@
-﻿---
+---
 title: Securing RDS Applications
 TOCTitle: Securing RDS Applications
 ms:assetid: 15f41cbb-d6e0-aca8-9c3a-97516d82c302
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248922(v=office.15)
 ms:contentKeyID: 48543423
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Securing RDS Applications

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.OpenRecordset method (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: a243bc79-cac4-fe12-768d-d3d017954e78
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052939
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Database.OpenRecordset method (DAO)

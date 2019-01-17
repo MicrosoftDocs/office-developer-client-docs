@@ -1,4 +1,4 @@
-﻿---
+---
 title: Update and CancelUpdate methods example (VB)
 TOCTitle: Update and CancelUpdate methods example (VB)
 ms:assetid: 8ba504b0-d3b9-41de-f8a5-09da3456ee6e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249614(v=office.15)
 ms:contentKeyID: 48546223
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Update and CancelUpdate methods example (VB)

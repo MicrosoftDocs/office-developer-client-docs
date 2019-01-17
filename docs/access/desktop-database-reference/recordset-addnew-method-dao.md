@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.AddNew method (DAO)
 TOCTitle: AddNew Method
 ms:assetid: 18cb35f6-8652-fb20-2460-3d13fae39d23
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052883
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.AddNew method (DAO)

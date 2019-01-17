@@ -1,4 +1,4 @@
-﻿---
+---
 title: EventStatusEnum (Access desktop database reference)
 TOCTitle: EventStatusEnum
 ms:assetid: ae1711bc-2af5-04fd-7d8c-222d8afc9d3d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249821(v=office.15)
 ms:contentKeyID: 48547059
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # EventStatusEnum

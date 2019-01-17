@@ -1,4 +1,4 @@
-﻿---
+---
 title: StartNewWorkflow macro action
 TOCTitle: StartNewWorkflow macro action
 ms:assetid: b3e81a11-b816-0eef-fc70-6d6da7a5a845
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm198223
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # StartNewWorkflow macro action

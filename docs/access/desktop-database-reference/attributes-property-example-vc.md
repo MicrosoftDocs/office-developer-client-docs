@@ -1,4 +1,4 @@
-﻿---
+---
 title: Attributes property example (VC++)
 TOCTitle: Attributes property example (VC++)
 ms:assetid: 031e063b-8fe6-85d8-05a7-e801ceeffa04
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248799(v=office.15)
 ms:contentKeyID: 48542976
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Attributes property example (VC++)

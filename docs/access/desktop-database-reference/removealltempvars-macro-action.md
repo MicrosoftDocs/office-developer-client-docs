@@ -1,4 +1,4 @@
-﻿---
+---
 title: RemoveAllTempVars macro action
 TOCTitle: RemoveAllTempVars macro action
 ms:assetid: 409fd836-4a53-cefd-4264-8cee0fa8ac52
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm117413
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RemoveAllTempVars macro action

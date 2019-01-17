@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADO NumericScale and Precision properties example (VC++)
 TOCTitle: NumericScale and Precision properties example (VC++)
 ms:assetid: f0bc84c6-5563-509c-9b4e-3fb45c70a04e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250225(v=office.15)
 ms:contentKeyID: 48548611
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADO NumericScale and Precision properties example (VC++)

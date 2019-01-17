@@ -1,4 +1,4 @@
-﻿---
+---
 title: Documents.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 3fc0b1e6-f7be-cd43-711f-5cf5763fe7f6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053325
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Documents.Count property (DAO)

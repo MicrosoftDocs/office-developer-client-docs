@@ -1,4 +1,4 @@
-﻿---
+---
 title: Read, ReadText, Write, and WriteText methods example (VB)
 TOCTitle: Read, ReadText, Write, and WriteText methods example (VB)
 ms:assetid: 13e0bb73-0077-2a15-9ea3-4fd7b3b34787
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248911(v=office.15)
 ms:contentKeyID: 48543377
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Read, ReadText, Write, and WriteText methods example (VB)

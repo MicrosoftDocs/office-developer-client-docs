@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.FindPrevious method (DAO)
 TOCTitle: FindPrevious Method
 ms:assetid: 62f26b0b-f3f1-a6fe-e84d-f93623e1f7f9
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052885
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.FindPrevious method (DAO)

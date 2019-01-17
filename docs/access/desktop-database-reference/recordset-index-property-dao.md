@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Index property (DAO)
 TOCTitle: Index Property
 ms:assetid: 54626de0-eb51-31f2-bf24-e29cbfbbaa02
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052906
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.Index property (DAO)

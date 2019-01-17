@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index.Unique property (DAO)
 TOCTitle: Unique Property
 ms:assetid: a4486da5-8a1a-b4fc-0e07-e65cd2e726f6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052990
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Index.Unique property (DAO)

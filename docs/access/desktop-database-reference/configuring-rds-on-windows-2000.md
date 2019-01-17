@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuring RDS on Windows 2000
 TOCTitle: Configuring RDS on Windows 2000
 ms:assetid: eb2d4c1d-8b3b-07ac-258f-edb0b1a3daba
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250193(v=office.15)
 ms:contentKeyID: 48548482
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Configuring RDS on Windows 2000

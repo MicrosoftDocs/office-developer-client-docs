@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADO/WFC programming
 TOCTitle: ADO/WFC programming
 ms:assetid: fc438cc2-00b9-9590-6e0d-a865001ccf2f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250293(v=office.15)
 ms:contentKeyID: 48548887
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADO/WFC programming

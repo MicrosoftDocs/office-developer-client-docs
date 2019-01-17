@@ -1,4 +1,4 @@
-﻿---
+---
 title: InternetTimeout property (RDS)
 TOCTitle: InternetTimeout property (RDS)
 ms:assetid: 66fc6e87-3d23-ce2c-18f5-0fc83ac43801
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249401(v=office.15)
 ms:contentKeyID: 48545353
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # InternetTimeout property (RDS)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Catalog object (ADO MD)
 TOCTitle: Catalog object (ADO MD)
 ms:assetid: 708c4082-3589-7f3b-5ea3-f3705f3d3ff1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
 ms:contentKeyID: 48545559
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Catalog object (ADO MD)

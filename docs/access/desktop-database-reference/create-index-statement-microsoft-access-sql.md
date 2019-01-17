@@ -1,4 +1,4 @@
-﻿---
+---
 title: CREATE INDEX statement (Microsoft Access SQL)
 TOCTitle: CREATE INDEX statement (Microsoft Access SQL)
 ms:assetid: c5919ef4-a08d-df06-7078-5331adbcb45c
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # CREATE INDEX statement (Microsoft Access SQL)

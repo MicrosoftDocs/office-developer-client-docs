@@ -1,4 +1,4 @@
-﻿---
+---
 title: ForEachRecord data block
 TOCTitle: ForEachRecord data block
 ms:assetid: be369196-230e-1f92-e36b-667048eef2be
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822743(v=office.15)
 ms:contentKeyID: 48547455
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ForEachRecord data block

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft OLE DB Persistence Provider (ADO Service Provider)
 TOCTitle: Microsoft OLE DB Persistence Provider (ADO Service Provider)
 ms:assetid: 22e41769-36eb-5a88-05ed-870938657624
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249007(v=office.15)
 ms:contentKeyID: 48543719
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Microsoft OLE DB Persistence Provider (ADO Service Provider)

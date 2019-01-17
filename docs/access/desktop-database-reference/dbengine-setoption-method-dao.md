@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.SetOption method (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.SetOption method (DAO)

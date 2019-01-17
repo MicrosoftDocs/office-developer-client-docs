@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field-related error information
 TOCTitle: Field-related error information
 ms:assetid: 81a2c5a4-ab09-53d8-b270-e889b00a0c1a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249559(v=office.15)
 ms:contentKeyID: 48545958
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Field-related error information

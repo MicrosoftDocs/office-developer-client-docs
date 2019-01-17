@@ -1,4 +1,4 @@
-﻿---
+---
 title: Understanding the Customization File
 TOCTitle: Understanding the Customization File
 ms:assetid: 98fd5ec1-d5bd-cdd2-5eb5-9a1682fbed79
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249686(v=office.15)
 ms:contentKeyID: 48546507
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Understanding the Customization File

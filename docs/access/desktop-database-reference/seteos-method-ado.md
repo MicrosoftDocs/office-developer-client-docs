@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetEOS method (ADO)
 TOCTitle: SetEOS method (ADO)
 ms:assetid: d438eecf-7ab3-a07d-b6d5-8816db4aae7c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250063(v=office.15)
 ms:contentKeyID: 48547933
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # SetEOS method (ADO)

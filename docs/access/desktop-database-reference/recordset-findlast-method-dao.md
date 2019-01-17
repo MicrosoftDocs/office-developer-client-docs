@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.FindLast method (DAO)
 TOCTitle: FindLast Method
 ms:assetid: 65236519-3474-a760-99bc-2e8f6bfeee7a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195128(v=office.15)
 ms:contentKeyID: 48545311
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset.FindLast method (DAO)

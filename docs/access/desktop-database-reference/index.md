@@ -1,4 +1,4 @@
-﻿---
+---
 title: Access desktop database reference
 TOCTitle: Access desktop database reference
 ms:assetid: a78bbd98-4c73-4945-b334-0de891563305
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142571(v=office.15)
 ms:contentKeyID: 52073808
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Access desktop database reference

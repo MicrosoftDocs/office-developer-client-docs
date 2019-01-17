@@ -1,4 +1,4 @@
-﻿---
+---
 title: OriginalValue property (ADO)
 TOCTitle: OriginalValue property (ADO)
 ms:assetid: 02ffc728-4692-d439-e2a6-2f02cca53a71
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248798(v=office.15)
 ms:contentKeyID: 48542974
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # OriginalValue property (ADO)

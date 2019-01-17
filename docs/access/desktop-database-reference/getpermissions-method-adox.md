@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetPermissions method (ADOX)
 TOCTitle: GetPermissions method (ADOX)
 ms:assetid: 98a2b2b6-a8af-15ee-b052-622a6f0661b9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249683(v=office.15)
 ms:contentKeyID: 48546496
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # GetPermissions method (ADOX)

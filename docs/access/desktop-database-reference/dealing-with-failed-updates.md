@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dealing with failed updates
 TOCTitle: Dealing with failed updates
 ms:assetid: f6f4914d-59b3-f3f2-b986-218e07ce5a1d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250258(v=office.15)
 ms:contentKeyID: 48548752
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Dealing with failed updates

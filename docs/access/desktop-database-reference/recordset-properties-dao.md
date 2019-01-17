@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset properties (DAO)
 TOCTitle: Properties
 ms:assetid: 37114a17-3737-4995-b35d-dd64c75b5ed2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124336(v=office.15)
 ms:contentKeyID: 52071970
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Recordset properties (DAO)

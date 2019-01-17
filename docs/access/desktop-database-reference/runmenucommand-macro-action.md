@@ -1,4 +1,4 @@
-﻿---
+---
 title: RunMenuCommand macro action
 TOCTitle: RunMenuCommand macro action
 ms:assetid: cc4a4f72-0c73-91b7-8cec-6cbcda7e5b1c
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm6446
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RunMenuCommand macro action

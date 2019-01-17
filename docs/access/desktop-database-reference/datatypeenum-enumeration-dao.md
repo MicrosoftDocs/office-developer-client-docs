@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataTypeEnum enumeration (DAO)
 TOCTitle: DataTypeEnum Enumeration
 ms:assetid: 59ead483-52fc-53cd-02e6-084814f961ac
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194420(v=office.15)
 ms:contentKeyID: 48545028
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # DataTypeEnum enumeration (DAO)

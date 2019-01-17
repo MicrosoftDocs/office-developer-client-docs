@@ -1,4 +1,4 @@
-﻿---
+---
 title: DateCreated and DateModified properties example (VB)
 TOCTitle: DateCreated and DateModified properties example (VB)
 ms:assetid: 5afdb5a9-394f-c38f-83a4-ae7017673c5e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249316(v=office.15)
 ms:contentKeyID: 48545063
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DateCreated and DateModified properties example (VB)

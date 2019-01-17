@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetPermissions and SetPermissions methods example (VB)
 TOCTitle: GetPermissions and SetPermissions methods example (VB)
 ms:assetid: 930d9b58-2fc8-efa9-edfe-05ef9039a74d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249649(v=office.15)
 ms:contentKeyID: 48546390
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # GetPermissions and SetPermissions methods example (VB)

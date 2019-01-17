@@ -1,4 +1,4 @@
-﻿---
+---
 title: SaveObject macro action
 TOCTitle: SaveObject macro action
 ms:assetid: 85716dfc-f76f-ca47-cc40-f8f88162f85a
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm116962
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SaveObject macro action

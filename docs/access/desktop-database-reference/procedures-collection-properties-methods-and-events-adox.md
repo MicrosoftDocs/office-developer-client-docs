@@ -1,4 +1,4 @@
-﻿---
+---
 title: Procedures collection properties, methods, and events (ADOX)
 TOCTitle: Procedures collection properties, methods, and events (ADOX)
 ms:assetid: 648777e6-87aa-e568-ba9a-f6f8070f6ee1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249387(v=office.15)
 ms:contentKeyID: 48545292
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Procedures collection properties, methods, and events (ADOX)

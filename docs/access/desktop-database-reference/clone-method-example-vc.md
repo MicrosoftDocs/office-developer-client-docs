@@ -1,4 +1,4 @@
-﻿---
+---
 title: Clone method example (VC++)
 TOCTitle: Clone method example (VC++)
 ms:assetid: 18929a3a-cbc0-b25a-ac8c-24f5a98f0f0e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248933(v=office.15)
 ms:contentKeyID: 48543473
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Clone method example (VC++)

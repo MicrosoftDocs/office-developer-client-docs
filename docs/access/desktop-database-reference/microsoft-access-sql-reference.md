@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft Access SQL reference
 TOCTitle: Microsoft Access SQL reference
 ms:assetid: 1a7e0990-f7d9-4da7-b44b-2daab77e95ec
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123881(v=office.15)
 ms:contentKeyID: 52071521
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Microsoft Access SQL reference

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TRANSFORM statement (Microsoft Access SQL)
 TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277581
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # TRANSFORM statement (Microsoft Access SQL)

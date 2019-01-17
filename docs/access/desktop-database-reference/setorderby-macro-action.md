@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetOrderBy macro action
 TOCTitle: SetOrderBy macro action
 ms:assetid: 78f65ce9-b56f-f476-3bd6-f3307bc22a08
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm98639
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SetOrderBy macro action

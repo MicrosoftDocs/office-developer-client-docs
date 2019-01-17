@@ -3,9 +3,9 @@ title: "Custom numeric formats for the Format function (Access custom web app)"
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer 
-localization_priority: Normal
 ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4
 description: "Learn how to control how a number is displayed by creating a user-defined number format."
+localization_priority: Priority
 ---
 
 # Custom numeric formats for the Format function (Access custom web app)

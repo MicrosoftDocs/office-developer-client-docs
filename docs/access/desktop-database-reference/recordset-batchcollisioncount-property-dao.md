@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.BatchCollisionCount property (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 9d166463-8313-c0f5-8389-5d5ad933eb33
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101181
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.BatchCollisionCount property (DAO)

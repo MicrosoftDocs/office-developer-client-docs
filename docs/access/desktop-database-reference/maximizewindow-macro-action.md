@@ -1,4 +1,4 @@
-﻿---
+---
 title: MaximizeWindow macro action
 TOCTitle: MaximizeWindow macro action
 ms:assetid: 79c9e430-07a7-02b2-ff5a-c6b9ec32c5b6
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm196948
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # MaximizeWindow macro action

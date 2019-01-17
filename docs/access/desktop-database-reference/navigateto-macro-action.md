@@ -1,4 +1,4 @@
-﻿---
+---
 title: NavigateTo macro action
 TOCTitle: NavigateTo macro action
 ms:assetid: 6594d614-3ea6-7851-b70e-1661d24f8ba0
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm119055
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # NavigateTo macro action

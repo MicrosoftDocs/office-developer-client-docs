@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Clone method (DAO)
 TOCTitle: Clone Method
 ms:assetid: 50cbc011-7e72-4dee-488d-96e681618e8e
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052909
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.Clone method (DAO)

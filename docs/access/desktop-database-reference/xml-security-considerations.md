@@ -1,4 +1,4 @@
-﻿---
+---
 title: XML Security Considerations
 TOCTitle: XML Security Considerations
 ms:assetid: ef2c7f59-f5a2-98d1-37c6-42cb35b26a40
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250214(v=office.15)
 ms:contentKeyID: 48548575
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # XML security considerations

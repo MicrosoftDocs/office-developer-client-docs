@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace.DefaultCursorDriver property (DAO)
 TOCTitle: DefaultCursorDriver Property
 ms:assetid: 15a8356d-7ae0-3c8e-fbb7-2d8ad6d9a582
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053582
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Workspace.DefaultCursorDriver property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete method example (VJ++)
 TOCTitle: Delete method example (VJ++)
 ms:assetid: 052238ed-86e1-c104-2be6-4bbf45474db5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248810(v=office.15)
 ms:contentKeyID: 48543026
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Delete method example (VJ++)

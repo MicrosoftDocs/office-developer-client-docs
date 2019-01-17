@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.Type property (DAO)
 TOCTitle: Type Property
 ms:assetid: 9bec543e-7f59-ea59-dc79-41d0e08b5ab6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052880
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.Type property (DAO)

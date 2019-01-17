@@ -1,4 +1,4 @@
-﻿---
+---
 title: RDS events (Access desktop database reference)
 TOCTitle: RDS events
 ms:assetid: cf125916-d50d-9fb4-fecc-95675129d8c1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250028(v=office.15)
 ms:contentKeyID: 48547803
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # RDS events

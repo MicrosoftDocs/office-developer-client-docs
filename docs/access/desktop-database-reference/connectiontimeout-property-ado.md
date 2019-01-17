@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionTimeout property (ADO)
 TOCTitle: ConnectionTimeout property (ADO)
 ms:assetid: efc39fd8-afce-5ac0-2fff-cbb55c1a444d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250218(v=office.15)
 ms:contentKeyID: 48548589
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ConnectionTimeout property (ADO)

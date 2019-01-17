@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 6f84ca11-4e7c-9573-5261-b67b91ba30dc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195585(v=office.15)
 ms:contentKeyID: 48545536
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Field2.Name property (DAO)

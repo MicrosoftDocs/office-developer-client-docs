@@ -1,4 +1,4 @@
-﻿---
+---
 title: RunMacro macro action
 TOCTitle: RunMacro macro action
 ms:assetid: 25966f20-8160-0821-b88a-ed08b7786fdc
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm43195
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RunMacro macro action

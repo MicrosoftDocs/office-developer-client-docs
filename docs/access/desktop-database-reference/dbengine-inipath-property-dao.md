@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.IniPath property (DAO)
 TOCTitle: IniPath Property
 ms:assetid: b18cace5-4e53-d011-6373-f4ac64556fd4
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053070
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.IniPath property (DAO)

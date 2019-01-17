@@ -1,4 +1,4 @@
-﻿---
+---
 title: Command property (ADOX)
 TOCTitle: Command property (ADOX)
 ms:assetid: 96b5fc97-f426-8540-fce0-2319ac8524a5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249671(v=office.15)
 ms:contentKeyID: 48546457
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Command property (ADOX)

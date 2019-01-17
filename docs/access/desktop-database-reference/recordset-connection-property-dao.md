@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Connection property (DAO)
 TOCTitle: Connection Property
 ms:assetid: 3d757283-761c-dc79-bb1e-5e607edbb0db
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053579
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.Connection property (DAO)

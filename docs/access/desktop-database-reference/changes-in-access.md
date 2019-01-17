@@ -1,4 +1,4 @@
-﻿---
+---
 title: Changes in Access (Access desktop database reference)
 TOCTitle: Changes in Access
 description: Access does not include support for Access Data Projects (ADPs). Access introduces a new application type that enables you to create a web-based Access app.
@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ618413(v=office.15)
 ms:contentKeyID: 49106417
 ms.date: 10/16/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Changes in Access

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Bookmark property (DAO)
 TOCTitle: Bookmark Property
 ms:assetid: c4b1c2d9-668e-e365-544c-efb4ae4efcc9
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052887
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.Bookmark property (DAO)

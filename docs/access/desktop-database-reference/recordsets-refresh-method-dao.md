@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordsets.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e437bbe8-a30d-aab6-d54a-20f01b569bf0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835781(v=office.15)
 ms:contentKeyID: 48548335
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordsets.Refresh method (DAO)

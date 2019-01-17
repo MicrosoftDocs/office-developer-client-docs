@@ -1,4 +1,4 @@
-﻿---
+---
 title: SearchDirectionEnum
 TOCTitle: SearchDirectionEnum
 ms:assetid: d491000b-47d0-bb28-95ed-7526dbb7c5e9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250064(v=office.15)
 ms:contentKeyID: 48547943
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # SearchDirectionEnum

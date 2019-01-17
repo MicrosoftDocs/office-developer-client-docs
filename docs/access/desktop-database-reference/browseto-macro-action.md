@@ -1,4 +1,4 @@
-﻿---
+---
 title: BrowseTo macro action
 TOCTitle: BrowseTo macro action
 ms:assetid: b25e1cc6-c4ed-abd6-0285-94fc7dae0bdf
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm35083
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # BrowseTo macro action

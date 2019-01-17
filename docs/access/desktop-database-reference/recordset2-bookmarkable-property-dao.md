@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.Bookmarkable property (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 9c93d04d-ca10-acf5-122a-58625ed93424
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052888
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.Bookmarkable property (DAO)

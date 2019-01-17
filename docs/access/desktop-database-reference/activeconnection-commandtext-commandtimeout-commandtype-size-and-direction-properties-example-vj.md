@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveConnection, CommandText, CommandTimeout properties example (VJ++)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)
 ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)
 ms:contentKeyID: 48545936
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)

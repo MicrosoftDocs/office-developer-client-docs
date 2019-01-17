@@ -1,4 +1,4 @@
-﻿---
+---
 title: Property.Value property (DAO)
 TOCTitle: Value Property
 ms:assetid: 26e47b3a-4f70-27b5-2498-b44ce4dfc99f
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052994
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Property.Value property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Appendix C: Programming with ADO'
 TOCTitle: 'Appendix C: Programming with ADO'
 ms:assetid: ace228ce-a372-5f22-c854-03ba7330ba7a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249808(v=office.15)
 ms:contentKeyID: 48547024
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Appendix C: Programming with ADO

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 6bfdf1e3-b396-ba30-0453-92624a433624
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195490(v=office.15)
 ms:contentKeyID: 48545464
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Workspace.Name property (DAO)

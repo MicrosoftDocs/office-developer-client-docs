@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2 properties (DAO)
 TOCTitle: Properties
 ms:assetid: 58b44dfc-3fa7-4c69-80cf-04f231c49899
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124918(v=office.15)
 ms:contentKeyID: 52072538
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Field2 properties (DAO)

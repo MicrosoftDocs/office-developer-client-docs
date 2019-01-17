@@ -1,4 +1,4 @@
-﻿---
+---
 title: Source property example (VB)
 TOCTitle: Source property example (VB)
 ms:assetid: 7ebc5028-8a2c-51ab-a397-8a50642fabd5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249532(v=office.15)
 ms:contentKeyID: 48545885
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Source property example (VB)

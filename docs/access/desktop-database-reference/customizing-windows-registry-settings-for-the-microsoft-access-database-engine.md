@@ -1,4 +1,4 @@
-﻿---
+---
 title: Customizing Windows registry settings for the Microsoft Access database engine
 TOCTitle: Customizing Windows registry settings for the Microsoft Access database engine
 ms:assetid: ca7e958a-ea26-d67d-45b9-10aeb1eac96b
@@ -10,6 +10,7 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Customizing Windows registry settings for the Microsoft Access database engine

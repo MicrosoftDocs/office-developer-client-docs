@@ -1,4 +1,4 @@
-﻿---
+---
 title: Error.Number property (DAO)
 TOCTitle: Number Property
 ms:assetid: 2fb94dca-f990-04f8-bbd2-9919d28de75a
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053363
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Error.Number property (DAO)

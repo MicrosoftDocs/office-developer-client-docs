@@ -1,4 +1,4 @@
-﻿---
+---
 title: Data providers (Access desktop database reference)
 TOCTitle: Data Providers
 ms:assetid: c1e36245-4ece-4986-db30-dc4be3daa794
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249946(v=office.15)
 ms:contentKeyID: 48547540
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Data providers

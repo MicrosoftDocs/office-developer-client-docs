@@ -1,4 +1,4 @@
-﻿---
+---
 title: NumericScale property (ADO)
 TOCTitle: NumericScale property (ADO)
 ms:assetid: 51b232d2-5bfd-521c-f4e9-65655ecc7c70
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249263(v=office.15)
 ms:contentKeyID: 48544824
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # NumericScale property (ADO)

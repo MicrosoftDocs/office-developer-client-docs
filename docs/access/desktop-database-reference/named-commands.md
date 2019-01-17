@@ -1,4 +1,4 @@
-﻿---
+---
 title: Named commands
 TOCTitle: Named commands
 ms:assetid: 1a4d77e0-1736-83ea-a3c6-f5398c0b01e1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248948(v=office.15)
 ms:contentKeyID: 48543518
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Named commands

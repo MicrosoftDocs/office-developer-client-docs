@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field.GetChunk method (DAO)
 TOCTitle: GetChunk Method
 ms:assetid: b8984e79-54f7-8052-85a3-d12033daf7a1
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052871
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field.GetChunk method (DAO)

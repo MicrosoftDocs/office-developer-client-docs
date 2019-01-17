@@ -1,4 +1,4 @@
-﻿---
+---
 title: UNION operation (Microsoft Access SQL)
 TOCTitle: UNION operation (Microsoft Access SQL)
 ms:assetid: a5139921-51e5-7d96-74e3-11c3fd5f7eaa
@@ -12,6 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # UNION operation (Microsoft Access SQL)

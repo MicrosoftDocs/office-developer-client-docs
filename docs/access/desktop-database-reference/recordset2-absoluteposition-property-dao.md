@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.AbsolutePosition property (DAO)
 TOCTitle: AbsolutePosition Property
 ms:assetid: 91ca203f-0c80-67f4-e180-415b6af05030
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053074
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.AbsolutePosition property (DAO)

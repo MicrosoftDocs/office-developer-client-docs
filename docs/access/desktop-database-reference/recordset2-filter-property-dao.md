@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.Filter property (DAO)
 TOCTitle: Filter Property
 ms:assetid: 5b3b4e18-8af4-5acd-a129-513ba2d913d1
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053062
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.Filter property (DAO)

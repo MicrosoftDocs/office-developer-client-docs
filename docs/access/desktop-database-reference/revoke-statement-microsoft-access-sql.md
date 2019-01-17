@@ -1,4 +1,4 @@
-﻿---
+---
 title: REVOKE statement (Microsoft Access SQL)
 TOCTitle: REVOKE statement (Microsoft Access SQL)
 ms:assetid: 69399fd6-c4e8-f2e2-e5f4-48ae779323f5
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277479
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # REVOKE statement (Microsoft Access SQL)

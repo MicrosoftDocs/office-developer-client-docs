@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.NewPassword method (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052943
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.NewPassword method (DAO)

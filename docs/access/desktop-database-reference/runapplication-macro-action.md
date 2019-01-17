@@ -1,4 +1,4 @@
-﻿---
+---
 title: RunApplication macro action
 TOCTitle: RunApplication macro action
 ms:assetid: 29967e6e-c441-b115-3ee6-2299b8a3bc25
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm93359
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RunApplication macro action
