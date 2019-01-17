@@ -1,4 +1,4 @@
-﻿---
+---
 title: Scoping variables appropriately in event handlers
 TOCTitle: Scoping variables appropriately in event handlers
 ms:assetid: 95b71535-abfd-43f1-a471-2026b522eac1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb646475(v=office.15)
 ms:contentKeyID: 55119788
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Scoping variables appropriately in event handlers

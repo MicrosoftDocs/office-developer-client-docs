@@ -1,4 +1,4 @@
-﻿---
+---
 title: Calendar
 TOCTitle: Calendar
 ms:assetid: 9a8c8012-b0fd-4ebc-a5e2-da7853657f29
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184628(v=office.15)
 ms:contentKeyID: 55119816
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Calendar

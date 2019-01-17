@@ -1,4 +1,4 @@
-﻿---
+---
 title: Display selected items in the active Explorer
 TOCTitle: Display selected items in the active Explorer
 ms:assetid: 31bb217b-8b45-4b50-942e-b6c2a7f13c83
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn292517(v=office.15)
 ms:contentKeyID: 55119844
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Display selected items in the active Explorer

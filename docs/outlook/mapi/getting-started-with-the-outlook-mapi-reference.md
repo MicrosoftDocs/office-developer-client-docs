@@ -3,9 +3,9 @@ title: "Getting started with the Outlook MAPI reference"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: a191f5e0-2a60-4d01-9010-892360b3bfa6
 description: "The Microsoft Outlook Messaging API (MAPI) Reference describes how to create MAPI solutions that work with Microsoft Outlook 2013 and Outlook 2016."
+localization_priority: Priority
 ---
 
 # Getting started with the Outlook MAPI reference

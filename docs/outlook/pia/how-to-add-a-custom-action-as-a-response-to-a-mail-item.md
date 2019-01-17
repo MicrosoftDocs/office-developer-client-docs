@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add a custom action as a response to a mail item
 TOCTitle: Add a custom action as a response to a mail item
 ms:assetid: 99e8ba6b-9c47-4b10-968b-436b08d199ec
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424474(v=office.15)
 ms:contentKeyID: 55119870
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Add a custom action as a response to a mail item

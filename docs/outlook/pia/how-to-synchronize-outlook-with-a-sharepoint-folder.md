@@ -1,4 +1,4 @@
-﻿---
+---
 title: Synchronize Outlook with a SharePoint folder
 TOCTitle: Synchronize Outlook with a SharePoint folder
 ms:assetid: fecb04ab-39c6-43e1-9a21-12ecb29d94fb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424483(v=office.15)
 ms:contentKeyID: 55119853
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Synchronize Outlook with a SharePoint folder

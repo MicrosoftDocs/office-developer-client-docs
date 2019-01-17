@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enumerate the entries in the Global Address List
 TOCTitle: Enumerate the entries in the Global Address List
 ms:assetid: f3dfe312-fe91-475d-8435-1c7a0bb2b725
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Enumerate the entries in the Global Address List

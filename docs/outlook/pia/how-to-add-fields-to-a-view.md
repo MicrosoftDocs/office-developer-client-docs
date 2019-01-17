@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add fields to a view
 TOCTitle: Add fields to a view
 ms:assetid: ea371f27-ea65-47ef-ae44-ef843a78ab6f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424481(v=office.15)
 ms:contentKeyID: 55119934
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Add fields to a view

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recipients
 TOCTitle: Recipients
 ms:assetid: 38aac7a2-b3ef-4a57-8ae2-f4f6312657ed
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184602(v=office.15)
 ms:contentKeyID: 55119897
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recipients

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a Contact item
 TOCTitle: Create a Contact item
 ms:assetid: b316294a-7f70-4e54-9375-4dc515e9fd11
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184633(v=office.15)
 ms:contentKeyID: 55119823
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a Contact item

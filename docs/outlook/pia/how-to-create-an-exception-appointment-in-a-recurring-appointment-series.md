@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create an exception appointment in a recurring appointment series
 TOCTitle: Create an exception appointment in a recurring appointment series
 ms:assetid: b7cd0975-4f44-453a-b878-ec55feeedc4e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184635(v=office.15)
 ms:contentKeyID: 55119813
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create an exception appointment in a recurring appointment series

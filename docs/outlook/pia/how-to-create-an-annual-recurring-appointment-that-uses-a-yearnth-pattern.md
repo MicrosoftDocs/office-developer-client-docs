@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create an annual recurring appointment that uses a YearNth pattern
 TOCTitle: Create an annual recurring appointment that uses a YearNth pattern
 ms:assetid: 5fb2ad0b-248c-417d-8868-52e0550d970f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184611(v=office.15)
 ms:contentKeyID: 55119811
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create an annual recurring appointment that uses a YearNth pattern

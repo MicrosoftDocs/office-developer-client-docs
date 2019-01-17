@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a rule to assign categories to mail items based on multiple words in the subject
 TOCTitle: Create a rule to assign categories to mail items based on multiple words in the subject
 ms:assetid: 6e1fa40c-edf3-407c-9e90-99f634fa8e24
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424472(v=office.15)
 ms:contentKeyID: 55119918
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a rule to assign categories to mail items based on multiple words in the subject

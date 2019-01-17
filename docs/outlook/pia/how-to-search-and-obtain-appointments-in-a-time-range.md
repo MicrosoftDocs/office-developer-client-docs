@@ -1,4 +1,4 @@
-﻿---
+---
 title: Search and obtain appointments in a time range
 TOCTitle: Search and obtain appointments in a time range
 ms:assetid: ce5205ad-6967-4f21-8a9d-503b731dbd40
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg619398(v=office.15)
 ms:contentKeyID: 55119927
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Search and obtain appointments in a time range

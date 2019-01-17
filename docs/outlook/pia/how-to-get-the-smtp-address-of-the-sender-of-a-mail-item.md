@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get the SMTP address of the sender of a mail item
 TOCTitle: Get the SMTP address of the sender of a mail item
 ms:assetid: 86e0c0aa-1696-4415-b25f-f9c1c29d88a9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184624(v=office.15)
 ms:contentKeyID: 55119869
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Get the SMTP address of the sender of a mail item

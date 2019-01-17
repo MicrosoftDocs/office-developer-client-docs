@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using a trusted Application object provided by Office Developer Tools for Visual Studio
 TOCTitle: Using a trusted application object provided by Office Developer Tools for Visual Studio
 ms:assetid: 3778122f-f60e-48e7-8e72-f3aef168bae2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb622502(v=office.15)
 ms:contentKeyID: 55119787
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Using a trusted Application object provided by Office Developer Tools for Visual Studio

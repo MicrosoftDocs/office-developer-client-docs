@@ -1,4 +1,4 @@
-﻿---
+---
 title: Assign a task to a recipient
 TOCTitle: Assign a task to a recipient
 ms:assetid: c6be97a7-de3f-43e5-9111-534d0f04e986
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184639(v=office.15)
 ms:contentKeyID: 55119929
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Assign a task to a recipient

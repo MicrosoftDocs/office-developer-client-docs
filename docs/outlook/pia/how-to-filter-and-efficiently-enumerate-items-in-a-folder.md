@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filter and efficiently enumerate items in a folder
 TOCTitle: Filter and efficiently enumerate items in a folder
 ms:assetid: efee7704-b7d9-4586-a72e-4e960ec1ffdb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612664(v=office.15)
 ms:contentKeyID: 55119884
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filter and efficiently enumerate items in a folder

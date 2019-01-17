@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get information about multiple accounts
 TOCTitle: Get information about multiple accounts
 ms:assetid: 363f4058-3069-4ddc-b3ff-113a4dfd58c4
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Get information about multiple accounts

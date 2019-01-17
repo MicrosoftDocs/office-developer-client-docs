@@ -4,9 +4,9 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: "The Application interface includes methods help retrieve, manipulate, and update OneNote information and content. The methods are in four general categories:"
+localization_priority: Priority
 ---
 
 # Application interface (OneNote)

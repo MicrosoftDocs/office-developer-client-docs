@@ -1,4 +1,4 @@
-﻿---
+---
 title: Methods and properties in the Outlook PIA
 TOCTitle: Methods and properties in the Outlook PIA
 ms:assetid: ec7742de-ead6-41dd-90a3-1280fdf09d54
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612528(v=office.15)
 ms:contentKeyID: 55119780
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Methods and properties in the Outlook PIA

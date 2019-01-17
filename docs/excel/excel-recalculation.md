@@ -7,9 +7,9 @@ ms.topic: overview
 keywords:
 - forced calculation [excel 2007],selective recalculation [Excel 2007],functions [Excel 2007], volatile,calculation modes,recalculated cells [Excel 2007],dependence [Excel 2007],specified worksheet calculation [Excel 2007],recalculation [Excel 2007],workbook tree rebuild [Excel 2007],range calculation [Excel 2007],Excel recalculation,volatile functions [Excel 2007],functions [Excel 2007], non-volatile,active worksheet calculation [Excel 2007],dirty cells [Excel 2007],non-volatile functions [Excel 2007],forced recalculation [Excel 2007]
  
-localization_priority: Normal
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+localization_priority: Priority
 ---
 
 # Excel Recalculation

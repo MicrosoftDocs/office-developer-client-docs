@@ -6,9 +6,9 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - dlls [excel 2007], creating,creating DLLs [Excel 2007]
-localization_priority: Normal
 ms.assetid: 5d69d06d-a126-4c47-82ad-17112674c8a3
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+localization_priority: Priority
 ---
 
 # Developing DLLs

@@ -3,9 +3,9 @@ title: "Excel"
 ms.date: 10/03/2018
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Excel."
+localization_priority: Priority
 ---
 
 # Excel

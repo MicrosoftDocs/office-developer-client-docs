@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a recurring appointment that has a weekly pattern
 TOCTitle: Create a recurring appointment that has a weekly pattern
 ms:assetid: 20b46b26-e278-451b-9e35-36683205d164
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184595(v=office.15)
 ms:contentKeyID: 55119810
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a recurring appointment that has a weekly pattern

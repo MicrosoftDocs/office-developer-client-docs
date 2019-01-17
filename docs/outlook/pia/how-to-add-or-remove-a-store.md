@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add or remove a store
 TOCTitle: Add or remove a store
 ms:assetid: db2930ec-ef99-4e31-86c5-820e8368e05f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612380(v=office.15)
 ms:contentKeyID: 55119895
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Add or remove a store

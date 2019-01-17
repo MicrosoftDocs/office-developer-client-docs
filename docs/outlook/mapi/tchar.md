@@ -7,13 +7,13 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_name:
 - MAPI.TCHAR
 api_type:
 - COM
 ms.assetid: 7a92060b-4c30-4eba-993f-36f5f9231a4b
 description: "Last modified: July 23, 2011"
+localization_priority: Priority
 ---
 
 # TCHAR

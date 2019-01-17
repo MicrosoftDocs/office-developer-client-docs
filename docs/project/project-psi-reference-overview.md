@@ -39,9 +39,9 @@ f1_keywords:
 - WssInterop
 keywords:
 - web service, calendar,Authentication, Web service,ResourcePlan, Web service,StatusReports, Web service,PSI, namespaces,Event handlers, Project Server,Web service, Notifications,QueueSystem, Web service,Project 2013, platform,LoginWindows, Web service,Web service, Statusing,Web service, Resource,WinProj, Web service,WssInterop, Web service,Web service, Winproj,Event handlers,LookupTable, Web service,PWA, Web service,Web service, Security,Notifications, Web service,Web service, TimeSheet,Web service, QueueSystem,PSI, Web services,Web service, Events,PSI, programming,Web service, LookupTable,Version, Web service,CustomFields, Web service,Web service, PWA,PSI,Resource, Web service,Web service, ResourcePlan,TimeSheet, Web service,Web service, Rules,PSI, managed code reference,Security, Web service,Web service, CustomFields,URL, for the PSI,Web service, WssInterop,Web service, Admin,Web reference, PSI,Web service, CubeAdmin,View, Web service,Calendar, Web service,Web service, View,Admin, Web service,LoginForms, Web service,Web service, LoginForms,PSI, URLs,ObjectLinkProvider, Web service,Archive, Web service,CubeAdmin, Web service,Rules, Web service,Web service, Authentication,Web services, PSI,Project Server, events,Events, Web service,Web service, Project,Statusing, Web service,Web service, ObjectLinkProvider,Project Server Interface,Web methods, PSI,Web service, StatusReports,Web service, Archive,Project, Web service,Web service, LoginWindows
-localization_priority: Normal
 ms.assetid: d3c33089-0cbe-48c3-bfc0-0be819ca4d73
 description: "The Project Server Interface (PSI) is the API to use for developing applications that integrate with Project Server 2013 on-premises."
+localization_priority: Priority
 ---
 
 # Project PSI reference overview

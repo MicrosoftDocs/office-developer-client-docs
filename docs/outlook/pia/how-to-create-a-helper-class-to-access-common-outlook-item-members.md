@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a Helper class to access common Outlook item members
 TOCTitle: Create a Helper class to access common Outlook item members
 ms:assetid: 344ff07d-e448-4418-910d-930e60f7381f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn292518(v=office.15)
 ms:contentKeyID: 55119845
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a Helper class to access common Outlook item members

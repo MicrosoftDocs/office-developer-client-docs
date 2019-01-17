@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify different recipient types for an appointment item
 TOCTitle: Specify different recipient types for an appointment item
 ms:assetid: 83aedc8f-adc0-453d-8e71-1bb9aacc7993
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Specify different recipient types for an appointment item

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Introduction to interoperability between COM and .NET
 TOCTitle: Introduction to interoperability between COM and .NET
 ms:assetid: 6b2d099a-ec6f-4099-aaf6-e61003fe5a32
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610378(v=office.15)
 ms:contentKeyID: 55119776
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Introduction to interoperability between COM and .NET

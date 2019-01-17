@@ -1,4 +1,4 @@
-﻿---
+---
 title: Rules
 TOCTitle: Rules
 ms:assetid: dea67b05-d223-4917-8dc6-9c48ef1481ce
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424480(v=office.15)
 ms:contentKeyID: 55119908
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Rules

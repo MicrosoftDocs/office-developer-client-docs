@@ -1,4 +1,4 @@
-﻿---
+---
 title: Relating the Outlook PIA with the object model
 TOCTitle: Relating the Outlook PIA with the object model
 ms:assetid: 2875c324-cead-4250-b81b-3b7458a9f09e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb609695(v=office.15)
 ms:contentKeyID: 55119779
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Relating the Outlook PIA with the object model

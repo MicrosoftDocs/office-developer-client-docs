@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save a calendar to disk
 TOCTitle: Save a calendar to disk
 ms:assetid: f1b57bd0-c972-4b86-8870-f26290f28050
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb647583(v=office.15)
 ms:contentKeyID: 55119827
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Save a calendar to disk

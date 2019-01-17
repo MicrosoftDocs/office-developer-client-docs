@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enumerate and add categories
 TOCTitle: Enumerate and add categories
 ms:assetid: 17a94a01-c463-4332-851e-7d280c66d8c2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424467(v=office.15)
 ms:contentKeyID: 55119829
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Enumerate and add categories

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find a specific appointment in a recurring appointment series
 TOCTitle: Find a specific appointment in a recurring appointment series
 ms:assetid: 01f55f04-7245-4325-a354-50a6eb270a31
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Find a specific appointment in a recurring appointment series

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a reminder for an appointment item
 TOCTitle: Create a reminder for an appointment item
 ms:assetid: 85e772f0-65ac-4abc-8286-9099882a2400
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184623(v=office.15)
 ms:contentKeyID: 55119814
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a reminder for an appointment item

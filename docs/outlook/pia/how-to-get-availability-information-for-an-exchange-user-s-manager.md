@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get availability information for an Exchange user's manager
 TOCTitle: Get availability information for an Exchange user's manager
 ms:assetid: b59dd875-50c2-4f24-ba91-24429abf1b72
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb646996(v=office.15)
 ms:contentKeyID: 55119849
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get availability information for an Exchange user's manager

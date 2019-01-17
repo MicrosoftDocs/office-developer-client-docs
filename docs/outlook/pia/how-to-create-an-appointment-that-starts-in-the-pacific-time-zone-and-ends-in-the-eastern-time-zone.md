@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create an appointment that starts in the Pacific Time Zone and ends in the Eastern Time Zone
 TOCTitle: Create an appointment that starts in the Pacific Time Zone and ends in the Eastern Time Zone
 ms:assetid: ba19532b-df31-4384-8816-e64e6eecbe53
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623388(v=office.15)
 ms:contentKeyID: 55119808
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create an appointment that starts in the Pacific Time Zone and ends in the Eastern Time Zone

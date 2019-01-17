@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get and enumerate selected conversations
 TOCTitle: Get and enumerate selected conversations
 ms:assetid: 835312ea-2b29-49a5-b128-f69cf8d4427c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184621(v=office.15)
 ms:contentKeyID: 55119833
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get and enumerate selected conversations

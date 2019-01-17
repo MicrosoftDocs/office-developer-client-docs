@@ -1,4 +1,4 @@
-﻿---
+---
 title: Outlook Primary Interop Assembly reference
 TOCTitle: '@NoTitle'
 ms:assetid: 54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3
@@ -15,6 +15,7 @@ f1_keywords:
 - primary interop assembly [Outlook 2010]
 - PIA [Outlook 2010]
 - reference [Outlook 2010], primary interop assembly
+localization_priority: Normal
 ---
 
 # Outlook Primary Interop Assembly reference

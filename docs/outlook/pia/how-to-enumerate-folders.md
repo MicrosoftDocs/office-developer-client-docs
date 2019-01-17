@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enumerate folders
 TOCTitle: Enumerate folders
 ms:assetid: 564730f9-3da3-4eff-b207-64ac4fec632d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184607(v=office.15)
 ms:contentKeyID: 55119855
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Enumerate folders

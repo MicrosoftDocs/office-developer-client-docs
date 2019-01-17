@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filter and display multivalued properties when enumerating items in a folder
 TOCTitle: Filter and display multivalued properties when enumerating items in a folder
 ms:assetid: 62dd2120-5c85-44b3-89ec-c4ca85aa2964
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184613(v=office.15)
 ms:contentKeyID: 55119887
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filter and display multivalued properties when enumerating items in a folder

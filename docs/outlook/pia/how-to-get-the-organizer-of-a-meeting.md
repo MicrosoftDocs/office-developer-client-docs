@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get the organizer of a meeting
 TOCTitle: Get the organizer of a meeting
 ms:assetid: 6a33db84-573b-4d1b-a91a-903f30630ec9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184615(v=office.15)
 ms:contentKeyID: 55119872
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get the organizer of a meeting

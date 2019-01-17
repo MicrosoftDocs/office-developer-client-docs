@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get a default folder and enumerate its subfolders
 TOCTitle: Get a default folder and enumerate its subfolders
 ms:assetid: 587e8392-cb03-442c-9058-1282f36dabdb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184610(v=office.15)
 ms:contentKeyID: 55119857
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get a default folder and enumerate its subfolders

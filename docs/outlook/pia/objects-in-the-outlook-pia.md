@@ -1,4 +1,4 @@
-﻿---
+---
 title: Objects in the Outlook PIA
 TOCTitle: Objects in the Outlook PIA
 ms:assetid: 1be732a6-d6da-4fa0-beaa-accf35db12d6
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609459(v=office.15)
 ms:contentKeyID: 55119778
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Objects in the Outlook PIA

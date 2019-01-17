@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use the Select Names dialog box to obtain and assign recipients to an appointment
 TOCTitle: Use the Select Names dialog box to obtain and assign recipients to an appointment
 ms:assetid: b9bcb341-1912-425c-8d75-ed5be233145a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184636(v=office.15)
 ms:contentKeyID: 55119878
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Use the Select Names dialog box to obtain and assign recipients to an appointment

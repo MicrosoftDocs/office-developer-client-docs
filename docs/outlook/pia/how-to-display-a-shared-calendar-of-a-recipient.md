@@ -1,4 +1,4 @@
-﻿---
+---
 title: Display a shared calendar of a recipient
 TOCTitle: Display a shared calendar of a recipient
 ms:assetid: 3dcfec17-c836-4bd0-a177-33c911a94b1f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184606(v=office.15)
 ms:contentKeyID: 55119825
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Display a shared calendar of a recipient
