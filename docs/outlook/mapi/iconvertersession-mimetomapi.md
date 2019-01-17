@@ -66,6 +66,9 @@ CCSF_INCLUDE_BCC
 CCSF_USE_RTF
   
 > The HTML body of the MIME stream should be converted to Rich Text Format (RTF) in the MAPI message.
+
+CCSF_GLOBAL_MESSAGE
+> The converter should handle the MIME stream as an international message (EAI/RFC6530). Not supported on Outlook 2013.
     
 ## Return value
 
