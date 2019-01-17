@@ -1,4 +1,4 @@
-﻿---
+---
 title: Seek method and Index property example (VB)
 TOCTitle: Seek method and Index property example (VB)
 ms:assetid: c3ddb72c-2b19-53c8-9779-2c503486e44e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249957(v=office.15)
 ms:contentKeyID: 48547577
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Seek method and Index property example (VB)

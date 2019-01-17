@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cancel method example (VB)
 TOCTitle: Cancel method example (VB)
 ms:assetid: 80851036-3627-87c2-60ca-65629136bf28
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249547(v=office.15)
 ms:contentKeyID: 48545926
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Cancel method example (VB)

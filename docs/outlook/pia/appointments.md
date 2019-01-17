@@ -1,4 +1,4 @@
-﻿---
+---
 title: Appointments
 TOCTitle: Appointments
 ms:assetid: 989a94a8-c1dc-4c5d-ab2b-2cc29a08f8a3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184627(v=office.15)
 ms:contentKeyID: 55119805
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Appointments

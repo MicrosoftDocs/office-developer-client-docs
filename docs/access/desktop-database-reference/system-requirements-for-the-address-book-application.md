@@ -1,4 +1,4 @@
-﻿---
+---
 title: System requirements for the Address Book application
 TOCTitle: System requirements for the Address Book application
 ms:assetid: 4e9dac80-1e9c-d06e-2836-3194c77af192
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249251(v=office.15)
 ms:contentKeyID: 48544757
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # System requirements for the Address Book application

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Item property (ADO)
 TOCTitle: Item property (ADO)
 ms:assetid: 793c305f-0e5b-a529-e21f-b7ab0843ed49
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249499(v=office.15)
 ms:contentKeyID: 48545767
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Item property (ADO)

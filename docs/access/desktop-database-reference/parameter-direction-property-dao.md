@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parameter.Direction property (DAO)
 TOCTitle: Direction Property
 ms:assetid: b78c87ff-1181-21ef-7126-92d309751005
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053586
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Parameter.Direction property (DAO)

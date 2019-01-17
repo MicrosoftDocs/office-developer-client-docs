@@ -7,10 +7,10 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
 ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 
 description: "Learn about the new file format in Visio 2013, explore some high-level concepts for working with the Visio 2013 file format programmatically, and create a simple console application that examines a Visio 2013 file."
+localization_priority: Priority
 ---
 
 # Introduction to the Visio file format (.vsdx)

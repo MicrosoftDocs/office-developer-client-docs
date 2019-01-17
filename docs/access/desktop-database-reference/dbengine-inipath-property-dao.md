@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.IniPath property (DAO)
 TOCTitle: IniPath Property
 ms:assetid: b18cace5-4e53-d011-6373-f4ac64556fd4
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053070
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.IniPath property (DAO)
@@ -27,7 +28,7 @@ Sets or returns information about the Windows Registry key that contains values 
 
 ## Remarks
 
-You can configure the Microsoft Access databse engine with the Windows Registry. You can use the Registry to set options, such as installable ISAM DLLs.
+You can configure the Microsoft Access database engine with the Windows Registry. You can use the Registry to set options, such as installable ISAM DLLs.
 
 For this option to have any effect, you must set the **IniPath** property before your application invokes any other DAO code. The scope of this setting is limited to your application and can't be changed without restarting your application.
 

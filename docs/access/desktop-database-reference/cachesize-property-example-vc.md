@@ -1,4 +1,4 @@
-﻿---
+---
 title: CacheSize property example (VC++)
 TOCTitle: CacheSize property example (VC++)
 ms:assetid: bd5bc7ae-c1fa-361b-9b26-a216655e3cbd
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249914(v=office.15)
 ms:contentKeyID: 48547435
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CacheSize property example (VC++)

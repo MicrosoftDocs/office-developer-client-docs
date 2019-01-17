@@ -1,4 +1,4 @@
-﻿---
+---
 title: TRANSACTION statement (Microsoft Access SQL)
 TOCTitle: TRANSACTION statement (Microsoft Access SQL)
 ms:assetid: 481e807d-94e4-f201-adac-d25ee89d9220
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277472
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # TRANSACTION statement (Microsoft Access SQL)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: ClearMacroError macro action
 TOCTitle: ClearMacroError macro action
 ms:assetid: 1091747e-e957-38c6-6454-5169f091323e
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm109100
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ClearMacroError macro action

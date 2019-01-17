@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database properties (DAO)
 TOCTitle: Properties
 ms:assetid: eda1187b-7e05-4642-a3d3-a8769d5a8a7a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn179959(v=office.15)
 ms:contentKeyID: 52074929
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Database properties (DAO)

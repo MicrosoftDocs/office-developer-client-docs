@@ -1,4 +1,4 @@
-﻿---
+---
 title: Apply a custom ribbon to a form or report
 TOCTitle: Apply a custom ribbon to a form or report
 description: How to apply customized ribbons when loading a form or report in Access 2013.
@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
 ms.date: 10/16/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Apply a custom ribbon to a form or report

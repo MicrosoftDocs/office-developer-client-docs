@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get information about the current user's manager
 TOCTitle: Get information about the current user's manager
 ms:assetid: 3a77fa51-e2e3-4544-849f-4267b1762270
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184603(v=office.15)
 ms:contentKeyID: 55119846
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get information about the current user's manager

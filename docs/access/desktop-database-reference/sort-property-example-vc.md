@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sort property example (VC++)
 TOCTitle: Sort property example (VC++)
 ms:assetid: 0f32b7ac-1902-1753-0c03-b38ba8c10c9c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248862(v=office.15)
 ms:contentKeyID: 48543259
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Sort property example (VC++)

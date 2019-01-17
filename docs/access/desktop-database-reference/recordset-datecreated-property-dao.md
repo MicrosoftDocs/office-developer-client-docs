@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.DateCreated property (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: bd63ac73-2218-b62c-a785-de08c4625dff
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff822732(v=office.15)
 ms:contentKeyID: 48547436
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset.DateCreated property (DAO)

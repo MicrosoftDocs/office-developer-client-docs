@@ -1,4 +1,4 @@
-﻿---
+---
 title: Registering business objects on the client for use with DCOM
 TOCTitle: Registering business objects on the client for use with DCOM
 ms:assetid: f98c419f-a8c0-b087-bb98-ab760154e99b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250269(v=office.15)
 ms:contentKeyID: 48548818
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Registering business objects on the client for use with DCOM

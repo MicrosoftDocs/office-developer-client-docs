@@ -1,4 +1,4 @@
-﻿---
+---
 title: INSERT INTO statement (Microsoft Access SQL)
 TOCTitle: INSERT INTO statement (Microsoft Access SQL)
 ms:assetid: d3e44258-79f2-caba-8629-bde03f898f2d
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277575
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # INSERT INTO statement (Microsoft Access SQL)

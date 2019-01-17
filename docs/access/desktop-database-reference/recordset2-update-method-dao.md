@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.Update method (DAO)
 TOCTitle: Update Method
 ms:assetid: 1b47606a-e79c-23f1-b120-46d1429bc167
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052882
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.Update method (DAO)

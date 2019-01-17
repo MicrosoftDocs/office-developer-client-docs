@@ -1,4 +1,4 @@
-﻿---
+---
 title: Catalog ActiveConnection property example (VB)
 TOCTitle: Catalog ActiveConnection property example (VB)
 ms:assetid: 12a34091-e451-dbd1-e7f3-f794b84ee5b0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248901(v=office.15)
 ms:contentKeyID: 48543348
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Catalog ActiveConnection property example (VB)

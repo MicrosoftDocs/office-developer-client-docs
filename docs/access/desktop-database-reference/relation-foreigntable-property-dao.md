@@ -1,4 +1,4 @@
-﻿---
+---
 title: Relation.ForeignTable property (DAO)
 TOCTitle: ForeignTable Property
 ms:assetid: 3f896433-2962-1c7c-f5a2-4e030ba8d4a0
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052989
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Relation.ForeignTable property (DAO)

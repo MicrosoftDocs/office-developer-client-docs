@@ -1,4 +1,4 @@
-﻿---
+---
 title: Views
 TOCTitle: Views
 ms:assetid: d419ed4f-8a38-4872-a008-fe2fa27bf4f9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424479(v=office.15)
 ms:contentKeyID: 55119931
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 

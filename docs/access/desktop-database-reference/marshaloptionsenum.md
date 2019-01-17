@@ -1,4 +1,4 @@
-﻿---
+---
 title: MarshalOptionsEnum (Access desktop database reference)
 TOCTitle: MarshalOptionsEnum
 ms:assetid: 5361884b-a0fe-c480-1b9f-18e53be77f86
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249272(v=office.15)
 ms:contentKeyID: 48544867
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # MarshalOptionsEnum

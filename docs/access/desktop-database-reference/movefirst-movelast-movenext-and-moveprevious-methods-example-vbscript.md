@@ -1,4 +1,4 @@
-﻿---
+---
 title: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)
 TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)
 ms:assetid: e1780013-5e11-aa8a-1be5-4d6d4273e72a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250148(v=office.15)
 ms:contentKeyID: 48548261
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VBScript)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.Edit method (DAO)
 TOCTitle: Edit method
 ms:assetid: 34c51eee-274d-3511-b5e2-cb74e4925ec8
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052869
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.Edit method (DAO)

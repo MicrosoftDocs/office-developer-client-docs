@@ -1,4 +1,4 @@
-﻿---
+---
 title: MarshalOptions property (ADO)
 TOCTitle: MarshalOptions property (ADO)
 ms:assetid: dc9c4e94-0725-210d-8251-079054541142
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250118(v=office.15)
 ms:contentKeyID: 48548143
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # MarshalOptions property (ADO)

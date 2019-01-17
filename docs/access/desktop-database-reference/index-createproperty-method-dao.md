@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index.CreateProperty method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 712bccd2-c8a8-cc96-6f77-6d93d92320d9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
 ms:contentKeyID: 48545578
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Index.CreateProperty method (DAO)

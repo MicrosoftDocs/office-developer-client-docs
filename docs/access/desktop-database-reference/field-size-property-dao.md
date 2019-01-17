@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field.Size property (DAO)
 TOCTitle: Size Property
 ms:assetid: 15e25201-87b6-f62f-ff18-259414a47891
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052878
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field.Size property (DAO)

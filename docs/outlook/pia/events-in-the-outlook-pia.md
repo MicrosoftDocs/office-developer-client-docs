@@ -1,4 +1,4 @@
-﻿---
+---
 title: Events in the Outlook PIA
 TOCTitle: Events in the Outlook PIA
 ms:assetid: 1f9eafb3-6645-4e27-81fa-5d73bf94ae40
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb644571(v=office.15)
 ms:contentKeyID: 55119782
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Events in the Outlook PIA

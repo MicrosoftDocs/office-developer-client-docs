@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Pages (Access desktop database reference)
 TOCTitle: Using Pages
 ms:assetid: 516fb7c2-c7a2-385b-83e7-2091c7283ea2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249261(v=office.15)
 ms:contentKeyID: 48544817
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Using pages

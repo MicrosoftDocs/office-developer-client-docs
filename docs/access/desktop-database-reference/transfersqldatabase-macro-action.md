@@ -1,4 +1,4 @@
-﻿---
+---
 title: TransferSQLDatabase macro action
 TOCTitle: TransferSQLDatabase macro action
 ms:assetid: 8cb95e22-f1f0-6c70-7dcb-3a3e9aafdc57
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm111536
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TransferSQLDatabase macro action

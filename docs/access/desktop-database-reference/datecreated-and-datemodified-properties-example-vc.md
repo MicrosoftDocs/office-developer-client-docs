@@ -1,4 +1,4 @@
-﻿---
+---
 title: DateCreated and DateModified properties example (VC++)
 TOCTitle: DateCreated and DateModified properties example (VC++)
 ms:assetid: 1c92e8f5-2fed-55dc-2cdd-51dfa16ecd84
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248962(v=office.15)
 ms:contentKeyID: 48543573
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DateCreated and DateModified properties example (VC++)

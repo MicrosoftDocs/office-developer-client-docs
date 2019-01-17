@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tables collection properties, methods, and events (ADOX)
 TOCTitle: Tables collection properties, methods, and events (ADOX)
 ms:assetid: 0459dc60-3084-7bf3-bd83-c0dc197fd24d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248806(v=office.15)
 ms:contentKeyID: 48543009
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Tables collection properties, methods, and events (ADOX)

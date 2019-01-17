@@ -1,4 +1,4 @@
-﻿---
+---
 title: DeleteRule property example (VB)
 TOCTitle: DeleteRule property example (VB)
 ms:assetid: 354e00b6-cecb-1132-6923-fc9e8853fa0e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249114(v=office.15)
 ms:contentKeyID: 48544142
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DeleteRule property example (VB)

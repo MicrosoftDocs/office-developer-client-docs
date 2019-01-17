@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.Recordsets property (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: e2ee02bc-d53a-2bec-2c5b-227979b92332
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835730(v=office.15)
 ms:contentKeyID: 48548302
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Database.Recordsets property (DAO)

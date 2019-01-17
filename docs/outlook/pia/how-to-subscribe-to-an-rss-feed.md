@@ -1,4 +1,4 @@
-﻿---
+---
 title: Subscribe to an RSS feed
 TOCTitle: Subscribe to an RSS feed
 ms:assetid: 7ecefbcd-1a34-48e8-afac-7d54e79fd159
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424473(v=office.15)
 ms:contentKeyID: 55119852
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Subscribe to an RSS feed

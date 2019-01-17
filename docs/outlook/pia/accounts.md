@@ -1,4 +1,4 @@
-﻿---
+---
 title: Accounts
 TOCTitle: Accounts
 ms:assetid: 28df6dbd-4d24-42f3-91c1-fd8b3a4ea722
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/ff184597(v=office.15)
 ms:contentKeyID: 55119790
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Accounts 

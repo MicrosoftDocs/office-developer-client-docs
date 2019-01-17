@@ -1,4 +1,4 @@
-﻿---
+---
 title: Status property example (Field) (VB)
 TOCTitle: Status property example (Field) (VB)
 ms:assetid: 1dc2807f-f469-de97-1280-4b1984b271b4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248969(v=office.15)
 ms:contentKeyID: 48543601
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Status property example (Field) (VB)

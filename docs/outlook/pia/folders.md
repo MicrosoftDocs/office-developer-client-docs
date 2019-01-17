@@ -1,4 +1,4 @@
-﻿---
+---
 title: Folders
 TOCTitle: Folders
 ms:assetid: b72b5705-d77a-4cad-873d-457b9fb6553e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184634(v=office.15)
 ms:contentKeyID: 55119856
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Folders

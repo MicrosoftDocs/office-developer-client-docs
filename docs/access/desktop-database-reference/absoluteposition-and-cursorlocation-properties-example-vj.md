@@ -1,4 +1,4 @@
-﻿---
+---
 title: AbsolutePosition and CursorLocation properties example (VJ++)
 TOCTitle: AbsolutePosition and CursorLocation properties example (VJ++)
 ms:assetid: 38872022-8a65-680f-20af-086e4d9d7b6a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249137(v=office.15)
 ms:contentKeyID: 48544223
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # AbsolutePosition and CursorLocation properties example (VJ++)

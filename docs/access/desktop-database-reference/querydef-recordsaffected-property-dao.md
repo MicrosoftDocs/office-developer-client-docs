@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.RecordsAffected property (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 29a864b5-305c-d33f-b2ca-fc9a08baaa5c
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053082
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.RecordsAffected property (DAO)

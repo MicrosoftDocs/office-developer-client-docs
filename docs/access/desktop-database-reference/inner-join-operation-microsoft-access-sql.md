@@ -1,4 +1,4 @@
-﻿---
+---
 title: INNER JOIN operation (Microsoft Access SQL)
 TOCTitle: INNER JOIN operation (Microsoft Access SQL)
 ms:assetid: 8d16c74c-02c6-12b7-b180-3e7744ef65f3
@@ -12,6 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # INNER JOIN operation (Microsoft Access SQL)

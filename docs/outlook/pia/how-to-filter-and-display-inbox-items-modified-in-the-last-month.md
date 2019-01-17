@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filter and display Inbox items modified in the last month
 TOCTitle: Filter and display Inbox items modified in the last month
 ms:assetid: ef6004dc-0b5a-4d1f-8937-1384d1dfc1ca
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424482(v=office.15)
 ms:contentKeyID: 55119886
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filter and display Inbox items modified in the last month

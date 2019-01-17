@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.LockEdits property (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: 77055f44-f8e9-ac64-ecc3-144ddb4a4558
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196045(v=office.15)
 ms:contentKeyID: 48545716
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2.LockEdits property (DAO)

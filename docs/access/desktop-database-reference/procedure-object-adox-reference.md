@@ -1,4 +1,4 @@
-﻿---
+---
 title: Procedure object (ADOX) reference
 TOCTitle: Procedure object (ADOX)
 ms:assetid: 79805348-61b7-4d3f-a076-c12db788ba97
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249500(v=office.15)
 ms:contentKeyID: 48545769
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Procedure object (ADOX) reference

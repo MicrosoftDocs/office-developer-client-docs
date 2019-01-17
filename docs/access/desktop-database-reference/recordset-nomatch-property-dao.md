@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.NoMatch property (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 47d03575-f570-89b5-a20f-a3bd8b8b5c6d
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052889
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.NoMatch property (DAO)

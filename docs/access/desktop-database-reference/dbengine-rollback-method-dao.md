@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.Rollback method (DAO)
 TOCTitle: Rollback Method
 ms:assetid: da7e2fe0-c837-7b1e-d35c-98e6cb0a7bbe
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053424
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.Rollback method (DAO)

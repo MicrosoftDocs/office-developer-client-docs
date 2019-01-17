@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuring DataFactory for Safe or Unrestricted Modes
 TOCTitle: Configuring DataFactory for Safe or Unrestricted Modes
 ms:assetid: 1516068f-1b02-3236-f6a9-9fdeff098e52
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248915(v=office.15)
 ms:contentKeyID: 48543400
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Configuring DataFactory for Safe or Unrestricted Modes

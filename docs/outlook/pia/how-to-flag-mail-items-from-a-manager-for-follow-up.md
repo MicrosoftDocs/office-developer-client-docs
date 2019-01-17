@@ -1,4 +1,4 @@
-﻿---
+---
 title: Flag mail items from a manager for follow-up
 TOCTitle: Flag mail items from a manager for follow-up
 ms:assetid: 5f7f3678-0f63-451e-ba08-cd973525aa1b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424470(v=office.15)
 ms:contentKeyID: 55119898
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Flag mail items from a manager for follow-up

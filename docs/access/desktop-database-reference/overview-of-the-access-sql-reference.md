@@ -1,4 +1,4 @@
-﻿---
+---
 title: Overview of the Access SQL reference
 TOCTitle: Overview of the Access SQL reference
 ms:assetid: cbe45ec3-0f13-43cb-b18a-90481d89078f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161402(v=office.15)
 ms:contentKeyID: 52074368
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Overview of the Access SQL reference

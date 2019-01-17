@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.LastUpdated property (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 45043329-2a0a-e9ec-ba19-746910617f85
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052874
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.LastUpdated property (DAO)

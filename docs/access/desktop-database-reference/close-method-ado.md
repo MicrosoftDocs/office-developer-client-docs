@@ -1,4 +1,4 @@
-﻿---
+---
 title: Close Method - ActiveX Data Objects (ADO)
 TOCTitle: Close method (ADO)
 ms:assetid: 26a7cced-ebeb-70be-f5de-96a35711bc37
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249029(v=office.15)
 ms:contentKeyID: 48543818
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Close method (ADO)

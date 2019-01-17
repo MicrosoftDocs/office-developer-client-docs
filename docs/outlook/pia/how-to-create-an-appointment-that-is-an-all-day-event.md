@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create an appointment that is an all-day event
 TOCTitle: Create an appointment that is an all-day event
 ms:assetid: a0d3baeb-6ed5-41b6-bef5-d6c1bb56fee3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184629(v=office.15)
 ms:contentKeyID: 55119806
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create an appointment that is an all-day event

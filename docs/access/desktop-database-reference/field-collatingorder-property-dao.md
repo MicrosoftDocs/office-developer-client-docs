@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field.CollatingOrder property (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052897
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field.CollatingOrder property (DAO)

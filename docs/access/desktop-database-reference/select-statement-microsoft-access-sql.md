@@ -1,4 +1,4 @@
-﻿---
+---
 title: SELECT statement (Microsoft Access SQL)
 TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
@@ -8,6 +8,7 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
+localization_priority: Priority
 ---
 
 # SELECT statement (Microsoft Access SQL)

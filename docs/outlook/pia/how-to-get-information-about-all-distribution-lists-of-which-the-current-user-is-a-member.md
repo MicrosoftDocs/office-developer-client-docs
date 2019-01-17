@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get information about all distribution lists of which the current user is a member
 TOCTitle: Get information about all distribution lists of which the current user is a member
 ms:assetid: c5be6aa8-8d85-463e-a377-2a4d57e2106b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184638(v=office.15)
 ms:contentKeyID: 55119836
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get information about all distribution lists of which the current user is a member

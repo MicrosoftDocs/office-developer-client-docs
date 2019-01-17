@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enabling a DLL to run on DCOM
 TOCTitle: Enabling a DLL to run on DCOM
 ms:assetid: b405f767-91f0-c869-d34e-7a953de49106
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249859(v=office.15)
 ms:contentKeyID: 48547211
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Enabling a DLL to run on DCOM

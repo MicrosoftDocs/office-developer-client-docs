@@ -1,4 +1,4 @@
-﻿---
+---
 title: Status property (ADO Field)
 TOCTitle: Status property (ADO Field)
 ms:assetid: 7a7b45e8-2934-2e8e-77fa-a4f38272548d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249507(v=office.15)
 ms:contentKeyID: 48545795
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Status property (ADO Field)

@@ -2,9 +2,9 @@
 title: "Compatibility between the 32-bit and 64-bit versions of Office"
 ms.date: 04/27/2016
 ms.audience: ITPro
-localization_priority: Normal
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: "Find out how the 32-bit version of Office is compatible with the 64-bit version of Office."
+localization_priority: Priority
 ---
 
 # Compatibility between the 32-bit and 64-bit versions of Office

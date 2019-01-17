@@ -1,4 +1,4 @@
-﻿---
+---
 title: XactAttributeEnum (Access desktop database reference)
 TOCTitle: XactAttributeEnum
 ms:assetid: 9206698b-7cfa-1229-2701-f2b6949e54fc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249643(v=office.15)
 ms:contentKeyID: 48546366
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # XactAttributeEnum

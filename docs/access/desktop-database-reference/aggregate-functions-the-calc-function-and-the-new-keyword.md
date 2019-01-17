@@ -1,4 +1,4 @@
-﻿---
+---
 title: Aggregate functions, the CALC function, and the NEW keyword
 TOCTitle: Aggregate functions, the CALC function, and the NEW keyword
 ms:assetid: c91fef19-bf41-8d04-f195-5470fb18393f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249977(v=office.15)
 ms:contentKeyID: 48547669
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Aggregate functions, the CALC function, and the NEW keyword

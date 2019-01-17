@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a Contact item from a vCard file and save the item in a folder
 TOCTitle: Create a Contact item from a vCard file and save the item in a folder
 ms:assetid: b207b584-ffcf-4ac5-ab1f-4f91d43000e1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb646856(v=office.15)
 ms:contentKeyID: 55119826
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a Contact item from a vCard file and save the item in a folder

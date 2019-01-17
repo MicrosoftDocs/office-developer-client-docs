@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get a folder based on its folder path
 TOCTitle: Get a folder based on its folder path
 ms:assetid: 613f2209-667c-48f0-82cf-86e3c9a24cb4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184612(v=office.15)
 ms:contentKeyID: 55119858
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get a folder based on its folder path

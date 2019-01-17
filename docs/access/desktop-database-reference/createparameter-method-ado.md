@@ -1,4 +1,4 @@
-﻿---
+---
 title: CreateParameter method (ADO)
 TOCTitle: CreateParameter method (ADO)
 ms:assetid: cf080a0b-75d2-dcdf-2715-10af147358e9
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231042
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # CreateParameter method (ADO)

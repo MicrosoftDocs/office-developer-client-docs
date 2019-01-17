@@ -3,9 +3,9 @@ title: "Outlook MAPI Reference"
 manager: soliver
 ms.date: 04/04/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 3d980b86-7001-4869-9780-121c6bfc7275
 description: "MAPI provides the messaging architecture for Microsoft Outlook 2013 and Outlook 2016."
+localization_priority: Priority
 ---
 
 # Outlook MAPI Reference

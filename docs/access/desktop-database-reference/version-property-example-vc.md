@@ -1,4 +1,4 @@
-﻿---
+---
 title: Version property example (VC++)
 TOCTitle: Version property example (VC++)
 ms:assetid: deda3998-52cd-0068-7f8c-e58c71802226
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250130(v=office.15)
 ms:contentKeyID: 48548201
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Version property example (VC++)

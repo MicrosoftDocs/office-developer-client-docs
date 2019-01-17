@@ -1,4 +1,4 @@
-﻿---
+---
 title: RepaintObject macro action
 TOCTitle: RepaintObject macro action
 ms:assetid: e8fa7d0b-578c-5071-2bd5-b772b48637a5
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm195788
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RepaintObject macro action

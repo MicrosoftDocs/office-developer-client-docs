@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.CreateField method (DAO)
 TOCTitle: CreateField Method
 ms:assetid: a83d797f-ea42-4a07-dd9e-b254755f0891
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052971
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # TableDef.CreateField method (DAO)

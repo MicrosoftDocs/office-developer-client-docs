@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a recurring task
 TOCTitle: Create a recurring task
 ms:assetid: bbca8527-79af-4c00-aae7-a1fd381e707c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623455(v=office.15)
 ms:contentKeyID: 55119932
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a recurring task

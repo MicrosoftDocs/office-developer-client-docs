@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Appendix B: ADO errors'
 TOCTitle: 'Appendix B: ADO errors'
 ms:assetid: b6a0e8a6-e629-b500-50cf-b7d4c45941d0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249877(v=office.15)
 ms:contentKeyID: 48547280
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Appendix B: ADO errors

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
 TOCTitle: WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)
 ms:assetid: 82e51071-12b2-e97e-07b4-27ffceda831e
@@ -12,6 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Size property (ADO)
 TOCTitle: Size property (ADO)
 ms:assetid: 24596b5c-b1cc-e97e-68b6-8ff53baf150b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249017(v=office.15)
 ms:contentKeyID: 48543753
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Size property (ADO)

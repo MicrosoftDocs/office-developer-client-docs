@@ -1,4 +1,4 @@
-﻿---
+---
 title: Configuring RDS (Access desktop database reference)
 TOCTitle: Configuring RDS
 ms:assetid: afd76de4-337b-5f6c-7d3e-af019802441d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249838(v=office.15)
 ms:contentKeyID: 48547106
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Configuring RDS

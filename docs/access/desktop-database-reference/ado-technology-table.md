@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADO technology table
 TOCTitle: ADO technology table
 ms:assetid: 3aaf5036-ff18-7e80-c131-9459ce78eec4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249146(v=office.15)
 ms:contentKeyID: 48544268
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADO technology table

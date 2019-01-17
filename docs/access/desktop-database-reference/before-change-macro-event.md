@@ -1,4 +1,4 @@
-﻿---
+---
 title: Before Change macro event
 TOCTitle: Before Change macro event
 ms:assetid: da456d55-a773-abeb-1fac-ef58e3331cb5
@@ -12,6 +12,7 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Before Change macro event

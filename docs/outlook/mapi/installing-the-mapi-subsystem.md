@@ -3,13 +3,13 @@ title: "Installing the MAPI Subsystem"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 29fb4c44-1a59-457e-813b-a982bd72891c
 description: "Last modified: March 09, 2015"
  
  
+localization_priority: Priority
 ---
 
 # Installing the MAPI Subsystem

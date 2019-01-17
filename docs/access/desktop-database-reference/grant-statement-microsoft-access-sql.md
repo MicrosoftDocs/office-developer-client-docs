@@ -1,4 +1,4 @@
-﻿---
+---
 title: GRANT statement (Microsoft Access SQL)
 TOCTitle: GRANT statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277478
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # GRANT statement (Microsoft Access SQL)

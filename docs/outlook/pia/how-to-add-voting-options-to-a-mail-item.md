@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add voting options to a mail item
 TOCTitle: Add voting options to a mail item
 ms:assetid: 0fb209a8-178d-411e-9551-0a72e041fd65
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424466(v=office.15)
 ms:contentKeyID: 55119867
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Add voting options to a mail item

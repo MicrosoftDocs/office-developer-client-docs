@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create method example (VB)
 TOCTitle: Create method example (VB)
 ms:assetid: 3e6a4f3d-3b25-2dfb-5ef3-6a4c5326b78f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249171(v=office.15)
 ms:contentKeyID: 48544372
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create method example (VB)
@@ -17,7 +18,7 @@ The following code shows how to create a new Microsoft Jet database with the [Cr
 
 ```vb 
  
-' BeginCreateDatabseVB 
+' BeginCreateDatabaseVB 
 Sub CreateDatabase() 
  On Error GoTo CreateDatabaseError 
  

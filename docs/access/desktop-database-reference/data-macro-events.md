@@ -1,4 +1,4 @@
-﻿---
+---
 title: Data macro events (Access desktop database reference)
 TOCTitle: Data macro events
 ms:assetid: 4b36bcff-f733-442f-9098-cc5e4ee69ca3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124692(v=office.15)
 ms:contentKeyID: 52072314
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Data macro events

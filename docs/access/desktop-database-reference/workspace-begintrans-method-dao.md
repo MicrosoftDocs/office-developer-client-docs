@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace.BeginTrans method (DAO)
 TOCTitle: BeginTrans Method
 ms:assetid: aa7c3bf8-fb08-9360-5998-4bf3f721ecbb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821457(v=office.15)
 ms:contentKeyID: 48546948
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Workspace.BeginTrans method (DAO)

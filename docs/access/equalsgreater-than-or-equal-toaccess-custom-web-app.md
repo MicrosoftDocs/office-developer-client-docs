@@ -4,9 +4,9 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
 ms.assetid: cceb8dcb-5ce1-4c32-b057-6201b62a646f
 description: "Compares two expressions for greater than or equal."
+localization_priority: Priority
 ---
 
 # Greater Than or Equal To (Access custom web app)

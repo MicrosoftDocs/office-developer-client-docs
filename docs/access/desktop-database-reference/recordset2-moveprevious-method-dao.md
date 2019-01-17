@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.MovePrevious method (DAO)
 TOCTitle: MovePrevious Method
 ms:assetid: 8c433810-4b19-e7c1-3cee-a0bc50b23e8a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197336(v=office.15)
 ms:contentKeyID: 48546235
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2.MovePrevious method (DAO)

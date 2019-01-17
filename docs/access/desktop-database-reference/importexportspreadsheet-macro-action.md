@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImportExportSpreadsheet macro action
 TOCTitle: ImportExportSpreadsheet macro action
 ms:assetid: 526aef41-8329-5335-9d16-4d332542a297
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm31446
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # ImportExportSpreadsheet macro action

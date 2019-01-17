@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create method example (VC++)
 TOCTitle: Create method example (VC++)
 ms:assetid: 8a826d78-7219-27de-8560-7cd4b8284751
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249609(v=office.15)
 ms:contentKeyID: 48546195
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create method example (VC++)

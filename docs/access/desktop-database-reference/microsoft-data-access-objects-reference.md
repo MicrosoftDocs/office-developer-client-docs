@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft Data Access Objects reference
 TOCTitle: Microsoft Data Access Objects reference
 ms:assetid: 4893b994-9697-4f30-aeef-c8ed98b73b7d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124645(v=office.15)
 ms:contentKeyID: 52072268
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Microsoft Data Access Objects reference

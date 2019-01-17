@@ -1,4 +1,4 @@
-﻿---
+---
 title: Item property example (VJ++)
 TOCTitle: Item property example (VJ++)
 ms:assetid: be6f14f1-5d3e-6b13-00fc-cfea12e89dcf
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249923(v=office.15)
 ms:contentKeyID: 48547461
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Item property example (VJ++)

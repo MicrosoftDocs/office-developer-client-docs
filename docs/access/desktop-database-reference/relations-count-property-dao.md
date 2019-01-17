@@ -1,4 +1,4 @@
-﻿---
+---
 title: Relations.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 7cb3885f-6896-8402-8b18-12769473f051
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196377(v=office.15)
 ms:contentKeyID: 48545843
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Relations.Count property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Status property example (VC++)
 TOCTitle: Status property example (VC++)
 ms:assetid: 72cb738d-8404-f9f3-3d79-9eb2541a608b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249464(v=office.15)
 ms:contentKeyID: 48545618
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Status property example (VC++)

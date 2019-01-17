@@ -1,4 +1,4 @@
-﻿---
+---
 title: AbsolutePosition and CursorLocation properties example (JScript)
 TOCTitle: AbsolutePosition and CursorLocation properties example (JScript)
 ms:assetid: dc98dbcc-ad00-91cb-1cf0-ee6c9150a391
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250117(v=office.15)
 ms:contentKeyID: 48548142
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # AbsolutePosition and CursorLocation properties example (JScript)

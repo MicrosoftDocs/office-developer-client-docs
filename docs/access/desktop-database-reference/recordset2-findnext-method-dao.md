@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.FindNext method (DAO)
 TOCTitle: FindNext Method
 ms:assetid: dc1d9fdf-36ae-cb23-4949-f7b98cb5d4e2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835354(v=office.15)
 ms:contentKeyID: 48548121
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2.FindNext method (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.MovePrevious method (DAO)
 TOCTitle: MovePrevious Method
 ms:assetid: 82a3bc3e-5221-9a1a-1350-47bc6759edeb
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052872
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.MovePrevious method (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Modify the layout of an electronic business card
 TOCTitle: Modify the layout of an electronic business card
 ms:assetid: f387c4a7-59c5-4b6a-b33a-1bfa7d499bbf
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184653(v=office.15)
 ms:contentKeyID: 55119838
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Modify the layout of an electronic business card

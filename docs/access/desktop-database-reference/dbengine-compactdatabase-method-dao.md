@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.CompactDatabase method (DAO)
 TOCTitle: CompactDatabase Method
 ms:assetid: 03f3a156-005a-4b71-81b0-598f326f7d42
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052936
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # DBEngine.CompactDatabase method (DAO)

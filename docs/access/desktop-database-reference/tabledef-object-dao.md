@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef object (DAO)
 TOCTitle: TableDef Object
 ms:assetid: 715146b6-c62a-abff-28ee-e6bbe3c08adf
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195790(v=office.15)
 ms:contentKeyID: 48545582
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # TableDef object (DAO)

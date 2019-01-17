@@ -1,4 +1,4 @@
-﻿---
+---
 title: Select a folder and display folder information
 TOCTitle: Select a folder and display folder information
 ms:assetid: 737b19bc-1efd-4ddb-86d0-72b3ab8eaf8c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184616(v=office.15)
 ms:contentKeyID: 55119859
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Select a folder and display folder information

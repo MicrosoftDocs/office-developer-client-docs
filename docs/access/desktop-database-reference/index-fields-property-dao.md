@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index.Fields property (DAO)
 TOCTitle: Fields Property
 ms:assetid: c79adede-361f-c0eb-13a1-18625bd9141f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823154(v=office.15)
 ms:contentKeyID: 48547640
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Index.Fields property (DAO)

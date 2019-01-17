@@ -1,4 +1,4 @@
-﻿---
+---
 title: Container.Documents property (DAO)
 TOCTitle: Documents Property
 ms:assetid: d2effd76-a300-c0dd-201a-86c9d04e3a62
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053175
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Container.Documents property (DAO)

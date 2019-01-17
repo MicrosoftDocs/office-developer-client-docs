@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataControl properties, methods, and events (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: 93590783-2102-534c-6639-212ae9d63fe0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249652(v=office.15)
 ms:contentKeyID: 48546397
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DataControl properties, methods, and events (RDS)

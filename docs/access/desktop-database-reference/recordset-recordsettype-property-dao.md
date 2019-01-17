@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.RecordsetType property (DAO)
 TOCTitle: RecordsetType Property
 ms:assetid: a66d4043-08cc-ead1-f9ff-efc7d7ea21bf
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm13361
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.RecordsetType property (DAO)

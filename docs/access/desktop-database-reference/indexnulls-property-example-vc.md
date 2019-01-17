@@ -1,4 +1,4 @@
-﻿---
+---
 title: IndexNulls property example (VC++)
 TOCTitle: IndexNulls property example (VC++)
 ms:assetid: 05d1f8b3-ae70-cca5-d60d-af55f5f7c13a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248813(v=office.15)
 ms:contentKeyID: 48543039
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # IndexNulls property example (VC++)

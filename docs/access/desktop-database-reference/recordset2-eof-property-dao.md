@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.EOF property (DAO)
 TOCTitle: EOF Property
 ms:assetid: 9d4e1ee2-e866-3ebf-e08b-b31b0cb47ed9
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052886
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.EOF property (DAO)

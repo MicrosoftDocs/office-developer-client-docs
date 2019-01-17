@@ -1,4 +1,4 @@
-﻿---
+---
 title: Import appointment XML data into Outlook appointment objects
 TOCTitle: Import appointment XML data into Outlook appointment objects
 ms:assetid: 166a648a-1c48-4984-8889-a7614cc277b1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff462092(v=office.15)
 ms:contentKeyID: 55119821
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Import appointment XML data into Outlook appointment objects

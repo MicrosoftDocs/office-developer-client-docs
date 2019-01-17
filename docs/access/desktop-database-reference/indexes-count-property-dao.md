@@ -1,4 +1,4 @@
-﻿---
+---
 title: Indexes.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 195ede10-f91e-50c6-6af4-b318c476b9ea
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845647(v=office.15)
 ms:contentKeyID: 48543499
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Indexes.Count property (DAO)

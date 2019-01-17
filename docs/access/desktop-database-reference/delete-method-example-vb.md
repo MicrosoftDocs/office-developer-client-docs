@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete method example (VB)
 TOCTitle: Delete method example (VB)
 ms:assetid: cea540c1-8c42-4d50-9363-cde3329da7a5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250023(v=office.15)
 ms:contentKeyID: 48547791
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Delete method example (VB)

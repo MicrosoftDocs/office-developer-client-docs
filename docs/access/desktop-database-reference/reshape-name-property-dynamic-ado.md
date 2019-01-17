@@ -1,4 +1,4 @@
-﻿---
+---
 title: Reshape Name dynamic property (ADO)
 TOCTitle: Reshape Name dynamic property (ADO)
 ms:assetid: 59ef99c8-da40-5cf6-b987-d47ea1433f45
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249307(v=office.15)
 ms:contentKeyID: 48545030
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Reshape Name dynamic property (ADO)

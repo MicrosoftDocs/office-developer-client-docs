@@ -1,4 +1,4 @@
-﻿---
+---
 title: SQL reserved words (Access desktop database reference)
 TOCTitle: SQL reserved words
 ms:assetid: 1a074927-64df-d645-99ce-95d9826c5a46
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277591
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # SQL reserved words

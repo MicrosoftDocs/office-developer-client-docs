@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parameter properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3689904e-be91-ce15-1784-72f862033828
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249125(v=office.15)
 ms:contentKeyID: 48544173
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Parameter properties, methods, and events (ADO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DeleteRecord method (ADO)
 TOCTitle: DeleteRecord method (ADO)
 ms:assetid: ba71187f-e580-bba8-f41b-bedfa0bc2b04
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249895(v=office.15)
 ms:contentKeyID: 48547370
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DeleteRecord method (ADO)

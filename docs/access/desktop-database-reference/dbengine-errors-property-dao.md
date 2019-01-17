@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.Errors property (DAO)
 TOCTitle: Errors Property
 ms:assetid: 594a8752-1f15-0690-b01c-9254951f16f6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053176
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.Errors property (DAO)

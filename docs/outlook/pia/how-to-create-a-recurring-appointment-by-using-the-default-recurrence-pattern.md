@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a recurring appointment by using the default recurrence pattern
 TOCTitle: Create a recurring appointment by using the default recurrence pattern
 ms:assetid: 157bf1ae-2efe-4783-99ea-606722dde204
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184589(v=office.15)
 ms:contentKeyID: 55119809
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a recurring appointment by using the default recurrence pattern

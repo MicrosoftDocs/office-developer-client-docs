@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add a folder to the folder list
 TOCTitle: Add a folder to the folder list
 ms:assetid: f636a190-d966-4421-9977-0ead2bff5eee
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184655(v=office.15)
 ms:contentKeyID: 55119850
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Add a folder to the folder list

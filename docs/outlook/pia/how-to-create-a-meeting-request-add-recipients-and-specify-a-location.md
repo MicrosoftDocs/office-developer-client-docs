@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a meeting request, add recipients, and specify a location
 TOCTitle: Create a meeting request, add recipients, and specify a location
 ms:assetid: 3053c27e-34d9-440e-9b66-06de940c2813
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644964(v=office.15)
 ms:contentKeyID: 55119873
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Create a meeting request, add recipients, and specify a location

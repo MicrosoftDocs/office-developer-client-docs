@@ -1,4 +1,4 @@
-﻿---
+---
 title: CreateRecordset method example (VB)
 TOCTitle: CreateRecordset method example (VB)
 ms:assetid: c1c05c91-0c74-1f30-7ead-6b52f0b4906c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249943(v=office.15)
 ms:contentKeyID: 48547536
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CreateRecordset method example (VB)

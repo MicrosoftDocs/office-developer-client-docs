@@ -5,11 +5,11 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 807d1b76-ccc1-4cbe-bbe3-5d5cadffbef4
 description: "Documents the MAPI programming elements."
+localization_priority: Priority
 ---
 
 # MAPI Reference

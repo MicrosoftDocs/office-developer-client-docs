@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.Containers property (DAO)
 TOCTitle: Containers Property
 ms:assetid: d6b13bae-461c-fe5e-692b-0e04fcd5df2a
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053173
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.Containers property (DAO)

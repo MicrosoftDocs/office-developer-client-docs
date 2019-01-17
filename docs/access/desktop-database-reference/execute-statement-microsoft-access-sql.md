@@ -1,4 +1,4 @@
-﻿---
+---
 title: EXECUTE statement (Microsoft Access SQL)
 TOCTitle: EXECUTE statement (Microsoft Access SQL)
 ms:assetid: 9ec4d9ee-db2a-0319-3ccf-c035d67a1496
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277471
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # EXECUTE statement (Microsoft Access SQL)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.CollatingOrder property (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: 7f6c35bf-e5f9-8423-608e-bc072ca09141
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196459(v=office.15)
 ms:contentKeyID: 48545901
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Database.CollatingOrder property (DAO)

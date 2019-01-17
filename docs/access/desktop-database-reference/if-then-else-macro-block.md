@@ -1,4 +1,4 @@
-﻿---
+---
 title: If...Then...Else macro block
 TOCTitle: If...Then...Else macro block
 ms:assetid: 0c4a4b7a-4fdb-9dbc-a94e-939a2ff1c0e5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
 ms:contentKeyID: 48543188
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # If...Then...Else macro block

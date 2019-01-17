@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a mail item by using a message template
 TOCTitle: Create a mail item by using a message template
 ms:assetid: 7d1ffc3b-d1a7-46d1-adb9-ac41e67f626a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623026(v=office.15)
 ms:contentKeyID: 55119862
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a mail item by using a message template

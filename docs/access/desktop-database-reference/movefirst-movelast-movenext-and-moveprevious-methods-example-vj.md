@@ -1,4 +1,4 @@
-﻿---
+---
 title: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VJ++)
 TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VJ++)
 ms:assetid: 6dffcfa5-9a63-e289-28c6-9d9ff2a7b2ff
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249435(v=office.15)
 ms:contentKeyID: 48545507
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # MoveFirst, MoveLast, MoveNext, and MovePrevious methods example (VJ++)

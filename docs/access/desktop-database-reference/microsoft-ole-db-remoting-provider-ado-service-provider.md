@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft OLE DB Remoting Provider (ADO Service Provider)
 TOCTitle: Microsoft OLE DB Remoting Provider (ADO Service Provider)
 ms:assetid: f39bd83d-8c2c-302e-16e3-0fae50f89fbc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250238(v=office.15)
 ms:contentKeyID: 48548673
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Microsoft OLE DB Remoting Provider (ADO Service Provider)

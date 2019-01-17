@@ -1,4 +1,4 @@
-﻿---
+---
 title: DisplayHourglassPointer macro action
 TOCTitle: DisplayHourglassPointer macro action
 ms:assetid: 2c93039a-f75c-abeb-1dfa-e632a5bdf6f2
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm117200
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DisplayHourglassPointer macro action

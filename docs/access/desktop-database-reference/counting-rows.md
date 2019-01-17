@@ -1,4 +1,4 @@
-﻿---
+---
 title: Counting rows (Access desktop database reference)
 TOCTitle: Counting rows
 ms:assetid: ff684c5e-7f41-0dae-beea-f5c71f79bd84
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250312(v=office.15)
 ms:contentKeyID: 48548963
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Counting rows

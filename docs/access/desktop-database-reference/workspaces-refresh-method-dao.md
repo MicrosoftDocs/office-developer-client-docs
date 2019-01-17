@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspaces.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e22c8c45-c3e1-b587-a36e-d9fff3f39695
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052977
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Workspaces.Refresh method (DAO)

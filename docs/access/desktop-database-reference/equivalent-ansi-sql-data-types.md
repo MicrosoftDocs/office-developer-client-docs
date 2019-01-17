@@ -1,4 +1,4 @@
-﻿---
+---
 title: Equivalent ANSI SQL data types
 TOCTitle: Equivalent ANSI SQL data types
 ms:assetid: 720abf59-f9ef-4e14-4223-c873f604ad58
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277587
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Equivalent ANSI SQL data types

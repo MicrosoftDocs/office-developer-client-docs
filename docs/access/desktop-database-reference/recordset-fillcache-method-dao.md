@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.FillCache method (DAO)
 TOCTitle: FillCache Method
 ms:assetid: d171b939-b904-c6bd-6217-68bc2814e282
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834751(v=office.15)
 ms:contentKeyID: 48547861
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset.FillCache method (DAO)

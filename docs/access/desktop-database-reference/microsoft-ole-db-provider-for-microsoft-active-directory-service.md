@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft OLE DB Provider for Microsoft Active Directory Service
 TOCTitle: Microsoft OLE DB Provider for Microsoft Active Directory Service
 ms:assetid: 92d1c967-aa61-f3b5-1c0a-301ef236894c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249647(v=office.15)
 ms:contentKeyID: 48546385
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Microsoft OLE DB Provider for Microsoft Active Directory Service

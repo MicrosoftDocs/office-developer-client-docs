@@ -1,4 +1,4 @@
-﻿---
+---
 title: Keys Append Method, Key Type, RelatedColumn properties example (VC++)
 TOCTitle: Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)
 ms:assetid: d0784eb5-94aa-ef62-c26f-3d0980485990
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250041(v=office.15)
 ms:contentKeyID: 48547840
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VC++)

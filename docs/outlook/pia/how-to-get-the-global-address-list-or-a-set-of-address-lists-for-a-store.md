@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get the Global Address List or a set of address lists for a store
 TOCTitle: Get the Global Address List or a set of address lists for a store
 ms:assetid: a361ac58-25c6-4ce1-97b0-403ad67ee7a4
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Get the Global Address List or a set of address lists for a store

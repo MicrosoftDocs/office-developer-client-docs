@@ -1,4 +1,4 @@
-﻿---
+---
 title: Open and display the contents of an iCalendar file
 TOCTitle: Open and display the contents of an iCalendar file
 ms:assetid: 2066e404-7aaf-4fd2-bf5c-9604e3fc2681
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644609(v=office.15)
 ms:contentKeyID: 55119818
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Open and display the contents of an iCalendar file

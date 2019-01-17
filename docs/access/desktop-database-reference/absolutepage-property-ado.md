@@ -1,4 +1,4 @@
-﻿---
+---
 title: AbsolutePage property (ADO)
 TOCTitle: AbsolutePage property (ADO)
 ms:assetid: b6e5daac-cc21-0aa6-9119-a973595762bb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249881(v=office.15)
 ms:contentKeyID: 48547288
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # AbsolutePage property (ADO)

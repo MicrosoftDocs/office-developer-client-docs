@@ -1,4 +1,4 @@
-﻿---
+---
 title: Convert DAO code to ADO
 TOCTitle: Convert DAO code to ADO
 ms:assetid: 4720906b-d6b1-aa6d-3b18-ff828d16acae
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm5267115
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Convert DAO code to ADO

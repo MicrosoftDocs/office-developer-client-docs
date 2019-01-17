@@ -1,4 +1,4 @@
-﻿---
+---
 title: SingleStep macro action
 TOCTitle: SingleStep macro action
 ms:assetid: 2836fe1d-fb9b-6b42-acfd-c52e468161d4
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm47687
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SingleStep macro action

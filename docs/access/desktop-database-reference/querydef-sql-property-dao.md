@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.SQL property (DAO)
 TOCTitle: SQL property
 ms:assetid: 16446789-c8be-bff0-eddd-b5f6a8530128
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053054
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # QueryDef.SQL property (DAO)

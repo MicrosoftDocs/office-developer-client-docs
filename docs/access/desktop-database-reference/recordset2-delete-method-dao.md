@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.Delete method (DAO)
 TOCTitle: Delete Method
 ms:assetid: 01fd8e20-d491-385e-2b6d-0d1423f66e51
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff844759(v=office.15)
 ms:contentKeyID: 48542947
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2.Delete method (DAO)

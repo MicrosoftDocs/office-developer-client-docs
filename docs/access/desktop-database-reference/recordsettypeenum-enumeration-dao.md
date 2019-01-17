@@ -1,4 +1,4 @@
-﻿---
+---
 title: RecordsetTypeEnum enumeration (DAO)
 TOCTitle: RecordsetTypeEnum Enumeration
 ms:assetid: 674020f3-bcf3-884d-1c6a-7db794a6606a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195231(v=office.15)
 ms:contentKeyID: 48545357
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # RecordsetTypeEnum enumeration (DAO)

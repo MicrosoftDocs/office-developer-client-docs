@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.RefreshLink method (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052980
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TableDef.RefreshLink method (DAO)

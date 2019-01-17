@@ -1,4 +1,4 @@
-﻿---
+---
 title: IsolationLevel and Mode properties example (VC++)
 TOCTitle: IsolationLevel and Mode properties example (VC++)
 ms:assetid: 851d0dee-6583-d2e2-d598-5a404becc03d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249579(v=office.15)
 ms:contentKeyID: 48546050
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # IsolationLevel and Mode properties example (VC++)

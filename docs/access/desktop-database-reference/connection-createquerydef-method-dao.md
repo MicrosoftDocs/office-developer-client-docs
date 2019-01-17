@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connection.CreateQueryDef method (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053067
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Connection.CreateQueryDef method (DAO)

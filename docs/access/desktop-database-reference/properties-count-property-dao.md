@@ -1,4 +1,4 @@
-﻿---
+---
 title: Properties.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 2aa1ea3c-f1c7-3450-8da6-8323a0509859
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm10050
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Properties.Count property (DAO)

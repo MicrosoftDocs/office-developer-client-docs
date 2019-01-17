@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ensuring sufficient TempDB space
 TOCTitle: Ensuring sufficient TempDB space
 ms:assetid: 2729c118-ec8b-1fcb-4a90-56b57823b24c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249034(v=office.15)
 ms:contentKeyID: 48543830
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Ensuring sufficient TempDB space

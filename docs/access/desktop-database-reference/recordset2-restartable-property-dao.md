@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.Restartable property (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 9b1c40f8-5a33-2527-a7b6-bef4cb991d7e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198019(v=office.15)
 ms:contentKeyID: 48546560
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2.Restartable property (DAO)

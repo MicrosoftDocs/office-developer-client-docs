@@ -1,4 +1,4 @@
-﻿---
+---
 title: Value property example (VC++)
 TOCTitle: Value property example (VC++)
 ms:assetid: d8a496f9-5864-ffd8-ca99-5a2f10dcdcb4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250092(v=office.15)
 ms:contentKeyID: 48548040
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Value property example (VC++)

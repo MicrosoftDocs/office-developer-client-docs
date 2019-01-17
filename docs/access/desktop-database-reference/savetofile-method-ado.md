@@ -1,4 +1,4 @@
-﻿---
+---
 title: SaveToFile method (ADO)
 TOCTitle: SaveToFile method (ADO)
 ms:assetid: db0fd95e-8ef3-af87-5346-8f8713153ca7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250104(v=office.15)
 ms:contentKeyID: 48548097
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # SaveToFile method (ADO)

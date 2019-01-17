@@ -1,4 +1,4 @@
-﻿---
+---
 title: NextRecordset method (ADO)
 TOCTitle: NextRecordset method (ADO)
 ms:assetid: d2776dd5-d521-c57f-dbe5-e02ee238104d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250051(v=office.15)
 ms:contentKeyID: 48547887
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # NextRecordset method (ADO)

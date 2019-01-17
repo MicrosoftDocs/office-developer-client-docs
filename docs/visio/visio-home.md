@@ -4,9 +4,9 @@ manager: soliver
 ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: f5310aa0-75f5-4c33-897e-8cae5de2100a
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Visio."
+localization_priority: Priority
 ---
 
 # Visio

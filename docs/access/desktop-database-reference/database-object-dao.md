@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database object (DAO)
 TOCTitle: Database Object
 ms:assetid: 6cf2ddf8-3957-a15e-5eeb-85f81c1e415e
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm0
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Database object (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MemberTypeEnum (Access desktop database reference)
 TOCTitle: MemberTypeEnum
 ms:assetid: 3b6f9fff-fe54-b917-9404-927e3a627e0b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249150(v=office.15)
 ms:contentKeyID: 48544286
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # MemberTypeEnum

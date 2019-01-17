@@ -1,4 +1,4 @@
-﻿---
+---
 title: Initializing the Microsoft Excel driver
 TOCTitle: Initializing the Microsoft Excel driver
 ms:assetid: 06c7f823-8e74-0811-cc00-e6b32075ef11
@@ -10,6 +10,7 @@ f1_keywords:
 - acmain11.chm1032159
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Initializing the Microsoft Excel driver

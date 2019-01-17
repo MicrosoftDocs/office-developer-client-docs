@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fields collection properties, methods, and events
 TOCTitle: Fields collection properties, methods, and events
 ms:assetid: 9b471249-e5d1-990d-fb7c-d830848d65ff
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249706(v=office.15)
 ms:contentKeyID: 48546566
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Fields collection properties, methods, and events

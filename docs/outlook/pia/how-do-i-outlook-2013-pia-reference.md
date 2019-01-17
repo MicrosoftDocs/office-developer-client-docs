@@ -1,4 +1,4 @@
-﻿---
+---
 title: How do I... (Outlook 2013 PIA reference)
 TOCTitle: How do I...
 ms:assetid: ff647d52-bd32-4945-afa4-5b97d9a0d7dd
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb612741(v=office.15)
 ms:contentKeyID: 55119792
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # How do I... (Outlook 2013 PIA reference)

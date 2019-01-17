@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filter recurring appointments and search for a string in the subject
 TOCTitle: Filter recurring appointments and search for a string in the subject
 ms:assetid: 997186aa-5264-4b19-bed6-51c38831c03d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb611267(v=office.15)
 ms:contentKeyID: 55119891
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filter recurring appointments and search for a string in the subject

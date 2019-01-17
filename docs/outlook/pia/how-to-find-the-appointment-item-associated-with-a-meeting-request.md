@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find the appointment item associated with a meeting request
 TOCTitle: Find the appointment item associated with a meeting request
 ms:assetid: ff356fcf-0980-4567-8570-4bbcb14381e7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184658(v=office.15)
 ms:contentKeyID: 55119875
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Find the appointment item associated with a meeting request

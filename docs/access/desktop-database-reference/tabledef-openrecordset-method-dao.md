@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.OpenRecordset method (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: f4c9c89c-3348-d3c9-ce76-dd11e5ee11a7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
 ms:contentKeyID: 48548696
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # TableDef.OpenRecordset method (DAO)

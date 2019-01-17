@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft OLE DB Provider for ODBC
 TOCTitle: Microsoft OLE DB Provider for ODBC
 ms:assetid: c507567e-5ad1-b32a-f6ad-5ba2c39aa4c2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249964(v=office.15)
 ms:contentKeyID: 48547602
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Microsoft OLE DB Provider for ODBC

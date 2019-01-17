@@ -1,4 +1,4 @@
-﻿---
+---
 title: Type property example (Field) (VC++)
 TOCTitle: Type property example (Field) (VC++)
 ms:assetid: d157407d-e7c9-897e-a0d1-e6396fb78690
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250045(v=office.15)
 ms:contentKeyID: 48547858
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Type property example (Field) (VC++)

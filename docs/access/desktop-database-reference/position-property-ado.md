@@ -1,4 +1,4 @@
-﻿---
+---
 title: Position property (ADO)
 TOCTitle: Position property (ADO)
 ms:assetid: a07c9197-673b-ddf2-fca9-b0b54fbd67b4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249738(v=office.15)
 ms:contentKeyID: 48546709
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Position property (ADO)

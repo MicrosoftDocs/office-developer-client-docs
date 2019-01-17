@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fields collection (DAO)
 TOCTitle: Fields Collection
 ms:assetid: 4be3ba07-20c1-d958-c1b8-7dd8b4731f60
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193530(v=office.15)
 ms:contentKeyID: 48544702
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Fields collection (DAO)

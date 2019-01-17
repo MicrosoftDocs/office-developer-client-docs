@@ -1,4 +1,4 @@
-﻿---
+---
 title: XML Recordset persistence scenario
 TOCTitle: XML Recordset persistence scenario
 ms:assetid: 08f464da-10ba-b649-7571-766a40da2e04
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248825(v=office.15)
 ms:contentKeyID: 48543107
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # XML Recordset persistence scenario

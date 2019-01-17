@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.DefaultValue property (DAO)
 TOCTitle: DefaultValue Property
 ms:assetid: 709c9580-520e-46ce-7d70-e409872184bb
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053121
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.DefaultValue property (DAO)

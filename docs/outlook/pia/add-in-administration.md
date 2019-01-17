@@ -1,4 +1,4 @@
-﻿---
+---
 title: Add-in administration
 TOCTitle: Add-in administration
 ms:assetid: 08d383c0-18b2-4ce6-bd6b-16c4bb26801b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff522354(v=office.15)
 ms:contentKeyID: 55119803
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Add-in administration

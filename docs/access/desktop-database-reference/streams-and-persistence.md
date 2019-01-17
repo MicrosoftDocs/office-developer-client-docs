@@ -1,4 +1,4 @@
-﻿---
+---
 title: Streams and Persistence
 TOCTitle: Streams and Persistence
 ms:assetid: 564fc098-52bf-77d7-9d48-75186483e3fe
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249289(v=office.15)
 ms:contentKeyID: 48544949
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Streams and persistence

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Shape Append clause
 TOCTitle: Shape Append clause
 ms:assetid: 8f29afc3-fb93-4439-b67b-cad0eed0bda9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249633(v=office.15)
 ms:contentKeyID: 48546301
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Shape Append clause

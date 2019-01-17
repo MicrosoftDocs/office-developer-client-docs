@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.MakeReplica method (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053371
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.MakeReplica method (DAO)

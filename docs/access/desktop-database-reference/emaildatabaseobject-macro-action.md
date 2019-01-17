@@ -1,4 +1,4 @@
-﻿---
+---
 title: EMailDatabaseObject macro action
 TOCTitle: EMailDatabaseObject macro action
 ms:assetid: 7fd80596-5c08-dab9-5343-c0edc38a1af9
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm24439
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # EMailDatabaseObject macro action

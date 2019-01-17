@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fields collection (ADO)
 TOCTitle: Fields collection (ADO)
 ms:assetid: 029aa738-8726-54a6-1813-b152813948bc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248791(v=office.15)
 ms:contentKeyID: 48542962
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Fields collection (ADO)

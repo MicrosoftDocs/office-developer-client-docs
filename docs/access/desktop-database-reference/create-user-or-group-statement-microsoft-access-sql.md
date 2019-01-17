@@ -1,4 +1,4 @@
-﻿---
+---
 title: CREATE USER or GROUP statement (Microsoft Access SQL)
 TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
 ms:contentKeyID: 48545229
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CREATE USER or GROUP statement (Microsoft Access SQL)

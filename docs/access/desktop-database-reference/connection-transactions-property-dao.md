@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connection.Transactions property (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 8bd72db7-68f6-6974-1ee6-a0a267ce2a94
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197326(v=office.15)
 ms:contentKeyID: 48546225
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Connection.Transactions property (DAO)

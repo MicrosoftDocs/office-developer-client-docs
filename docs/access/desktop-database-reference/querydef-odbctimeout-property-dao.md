@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.ODBCTimeout property (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053052
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.ODBCTimeout property (DAO)

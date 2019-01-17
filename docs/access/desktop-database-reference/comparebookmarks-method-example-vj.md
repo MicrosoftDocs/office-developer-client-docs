@@ -1,4 +1,4 @@
-﻿---
+---
 title: CompareBookmarks method example (VJ++)
 TOCTitle: CompareBookmarks method example (VJ++)
 ms:assetid: f36f77ec-e51a-41dc-961f-0ec3166155bd
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250236(v=office.15)
 ms:contentKeyID: 48548671
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CompareBookmarks method example (VJ++)

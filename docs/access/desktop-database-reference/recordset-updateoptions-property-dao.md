@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.UpdateOptions property (DAO)
 TOCTitle: UpdateOptions Property
 ms:assetid: 14ab955d-1c5a-dc76-8dbf-dbca49816bc8
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101185
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.UpdateOptions property (DAO)

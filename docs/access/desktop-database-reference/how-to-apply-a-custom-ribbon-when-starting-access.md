@@ -1,4 +1,4 @@
-﻿---
+---
 title: Apply a custom ribbon when starting Access
 TOCTitle: Apply a custom ribbon when starting Access
 description: How to apply customized ribbons when opening a database in Access 2013. 
@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198313(v=office.15)
 ms:contentKeyID: 48546659
 ms.date: 10/16/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Apply a custom ribbon when starting Access

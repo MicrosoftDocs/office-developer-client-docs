@@ -1,4 +1,4 @@
-﻿---
+---
 title: Error properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 8a1180b3-e8bf-c13d-a295-9caad7dad259
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249607(v=office.15)
 ms:contentKeyID: 48546183
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Error properties, methods, and events (ADO)

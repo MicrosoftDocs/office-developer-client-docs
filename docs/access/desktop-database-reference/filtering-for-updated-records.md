@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filtering for updated records
 TOCTitle: Filtering for updated records
 ms:assetid: 0dc22b0a-3501-078d-788c-40aa97f2e644
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248857(v=office.15)
 ms:contentKeyID: 48543229
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filtering for updated records

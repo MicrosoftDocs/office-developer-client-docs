@@ -9,9 +9,9 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251816
  
-localization_priority: Normal
 ms.assetid: 81ebd41f-a6a7-af63-b6cf-dd3d5c371a61
 description: ""
+localization_priority: Priority
 ---
 
 # Change the Name and View the ID of a Shape

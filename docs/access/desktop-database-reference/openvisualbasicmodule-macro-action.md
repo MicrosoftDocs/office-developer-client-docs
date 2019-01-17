@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenVisualBasicModule macro action
 TOCTitle: OpenVisualBasicModule macro action
 ms:assetid: 26eb31c8-3c65-b17d-46cd-c8967434a7a0
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm50916
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OpenVisualBasicModule macro action

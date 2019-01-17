@@ -1,4 +1,4 @@
-﻿---
+---
 title: Depth property (ADO MD)
 TOCTitle: Depth property (ADO MD)
 ms:assetid: efd2b776-a156-b60c-22f1-a6c0925e6bcf
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250219(v=office.15)
 ms:contentKeyID: 48548593
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Depth property (ADO MD)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 66b751ee-cf8a-a1f2-c646-6124e5f18cd0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195226(v=office.15)
 ms:contentKeyID: 48545348
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # TableDef.Name property (DAO)

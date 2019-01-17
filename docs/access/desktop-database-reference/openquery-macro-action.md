@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenQuery macro action
 TOCTitle: OpenQuery macro action
 ms:assetid: 64bfce73-aeaf-9a78-895c-492e5da43ded
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm89069
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OpenQuery macro action

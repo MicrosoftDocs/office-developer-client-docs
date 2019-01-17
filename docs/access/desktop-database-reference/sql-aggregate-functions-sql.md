@@ -1,4 +1,4 @@
-﻿---
+---
 title: SQL aggregate functions (SQL)
 TOCTitle: SQL aggregate functions (SQL)
 ms:assetid: 8866cd71-0216-25b4-6a6a-02cb7acad9a2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197054(v=office.15)
 ms:contentKeyID: 48546136
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # SQL aggregate functions (SQL)

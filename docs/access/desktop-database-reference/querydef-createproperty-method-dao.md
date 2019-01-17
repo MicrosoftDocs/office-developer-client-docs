@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.CreateProperty method (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: e107b7d0-5556-7b87-f131-95f518893e4c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835663(v=office.15)
 ms:contentKeyID: 48548250
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # QueryDef.CreateProperty method (DAO)

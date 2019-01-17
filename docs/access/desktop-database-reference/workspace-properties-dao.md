@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace properties (DAO)
 TOCTitle: Properties
 ms:assetid: 5b18557d-5531-4149-b773-89fa58cf73ff
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124967(v=office.15)
 ms:contentKeyID: 52072587
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Workspace properties (DAO)

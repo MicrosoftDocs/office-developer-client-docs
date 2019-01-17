@@ -1,4 +1,4 @@
-﻿---
+---
 title: Share Free/Busy schedule within a specified period in a calendar
 TOCTitle: Share Free/Busy schedule within a specified period in a calendar
 ms:assetid: 1d038f56-80dd-42fd-809b-f5b3a47cd5ee
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609503(v=office.15)
 ms:contentKeyID: 55119824
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Share Free/Busy schedule within a specified period in a calendar

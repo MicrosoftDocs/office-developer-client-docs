@@ -1,4 +1,4 @@
-﻿---
+---
 title: FindRecord macro action
 TOCTitle: FindRecord macro action
 ms:assetid: 379e3dda-cb7d-a294-29b1-c6ce9a62ba8a
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm7496
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # FindRecord macro action

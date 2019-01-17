@@ -1,4 +1,4 @@
-﻿---
+---
 title: Open method (ADO Recordset)
 TOCTitle: Open method (ADO Recordset)
 ms:assetid: 87ef19a4-28e1-dec7-ed33-4ae500b9c460
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249591(v=office.15)
 ms:contentKeyID: 48546119
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Open method (ADO Recordset)

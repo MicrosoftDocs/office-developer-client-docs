@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.ReplicaFilter property (DAO)
 TOCTitle: ReplicaFilter Property
 ms:assetid: f44273de-2b6a-750f-cb7c-12c3ac2da503
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1055548
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TableDef.ReplicaFilter property (DAO)

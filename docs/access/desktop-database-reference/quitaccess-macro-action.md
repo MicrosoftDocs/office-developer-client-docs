@@ -1,4 +1,4 @@
-﻿---
+---
 title: QuitAccess macro action
 TOCTitle: QuitAccess macro action
 ms:assetid: af063f65-d3b1-fa9a-4bc1-04b0d21d62b9
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm96777
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QuitAccess macro action

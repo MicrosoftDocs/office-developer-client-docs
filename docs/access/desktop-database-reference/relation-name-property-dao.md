@@ -1,4 +1,4 @@
-﻿---
+---
 title: Relation.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 7ad17dcd-9fe2-a4b0-2fab-c5b13e66fedc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196187(v=office.15)
 ms:contentKeyID: 48545802
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Relation.Name property (DAO)

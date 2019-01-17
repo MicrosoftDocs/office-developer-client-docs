@@ -7,9 +7,9 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
 ms.assetid: 047e9641-003e-4cae-a6d7-88f3c3c64384
 description: "This part of the Visio 2013 ShapeSheet reference contains the following sections:"
+localization_priority: Priority
 ---
 
 # Reference (Visio ShapeSheet)

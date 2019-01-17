@@ -1,4 +1,4 @@
-﻿---
+---
 title: Exchange users
 TOCTitle: Exchange users
 ms:assetid: 01802032-fd60-400b-ad83-1f4eefe596bd
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184585(v=office.15)
 ms:contentKeyID: 55119835
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Exchange users

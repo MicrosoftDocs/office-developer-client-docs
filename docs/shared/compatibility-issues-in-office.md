@@ -3,9 +3,9 @@ title: "Compatibility issues in Office"
 manager: scotv
 ms.date: 04/12/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: dd279238-ae75-4ad9-b9e5-364924090485
 description: "Get more information about issues displayed in the telemetry log about possible compatibility issues in Office products."
+localization_priority: Priority
 ---
 
 # Compatibility issues in Office

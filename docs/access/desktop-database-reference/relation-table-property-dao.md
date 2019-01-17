@@ -1,4 +1,4 @@
-﻿---
+---
 title: Relation.Table property (DAO)
 TOCTitle: Table Property
 ms:assetid: cc4f64ef-c4e9-1a14-9263-5f8220d89840
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053068
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Relation.Table property (DAO)

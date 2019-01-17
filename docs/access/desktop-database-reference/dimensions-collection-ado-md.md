@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dimensions collection (ADO MD)
 TOCTitle: Dimensions collection (ADO MD)
 ms:assetid: 05aad447-e44c-3fe0-0995-c72539b2f896
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248812(v=office.15)
 ms:contentKeyID: 48543035
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Dimensions collection (ADO MD)

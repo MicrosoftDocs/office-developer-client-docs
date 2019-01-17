@@ -1,4 +1,4 @@
-﻿---
+---
 title: IsolationLevel property (ADO)
 TOCTitle: IsolationLevel property (ADO)
 ms:assetid: 19461be5-c94b-4b61-ce08-7abdf702c3dc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248939(v=office.15)
 ms:contentKeyID: 48543493
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # IsolationLevel property (ADO)

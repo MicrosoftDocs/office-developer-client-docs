@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.VisibleValue property (DAO)
 TOCTitle: VisibleValue Property
 ms:assetid: 1e023a1a-fd49-7570-42bd-2f4c06ac5e5e
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101184
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.VisibleValue property (DAO)

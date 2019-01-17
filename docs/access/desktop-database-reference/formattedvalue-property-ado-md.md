@@ -1,4 +1,4 @@
-﻿---
+---
 title: FormattedValue property (ADO MD)
 TOCTitle: FormattedValue property (ADO MD)
 ms:assetid: ea7962f2-b08b-52c9-34e5-c5490c72662f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250189(v=office.15)
 ms:contentKeyID: 48548464
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # FormattedValue property (ADO MD)

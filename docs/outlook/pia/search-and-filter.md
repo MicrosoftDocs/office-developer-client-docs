@@ -1,4 +1,4 @@
-﻿---
+---
 title: Search and filter
 TOCTitle: Search and filter
 ms:assetid: 57eeac70-115f-45d3-bcf3-90d2dc664e1c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184609(v=office.15)
 ms:contentKeyID: 55119882
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Search and filter

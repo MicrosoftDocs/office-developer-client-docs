@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connection.Database property (DAO)
 TOCTitle: Database Property
 ms:assetid: cf871353-0ea4-f995-6e0e-812af443daf9
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053581
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Connection.Database property (DAO)

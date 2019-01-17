@@ -1,4 +1,4 @@
-﻿---
+---
 title: Access solution-specific data stored as a hidden message in a folder
 TOCTitle: Access solution-specific data stored as a hidden message in a folder
 ms:assetid: bacf0562-1026-4c3b-87b0-4eaad5033592
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623414(v=office.15)
 ms:contentKeyID: 55119861
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Access solution-specific data stored as a hidden message in a folder

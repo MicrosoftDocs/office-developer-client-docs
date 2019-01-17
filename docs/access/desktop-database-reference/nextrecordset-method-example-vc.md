@@ -1,4 +1,4 @@
-﻿---
+---
 title: NextRecordset method example (VC++)
 TOCTitle: NextRecordset method example (VC++)
 ms:assetid: e11feba0-07d2-3c6a-c5cd-b8712a02a6a1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250143(v=office.15)
 ms:contentKeyID: 48548252
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # NextRecordset method example (VC++)

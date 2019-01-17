@@ -1,4 +1,4 @@
-﻿---
+---
 title: Caption property (ADO MD)
 TOCTitle: Caption property (ADO MD)
 ms:assetid: c93aaeda-2733-ade8-befe-beba25503152
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249980(v=office.15)
 ms:contentKeyID: 48547675
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Caption property (ADO MD)

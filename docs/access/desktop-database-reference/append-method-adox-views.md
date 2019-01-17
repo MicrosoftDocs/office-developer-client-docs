@@ -1,4 +1,4 @@
-﻿---
+---
 title: Append method (ADOX Views)
 TOCTitle: Append method (ADOX Views)
 ms:assetid: 202f1d0a-dc5d-84e5-daf3-3212e5bc6088
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248985(v=office.15)
 ms:contentKeyID: 48543655
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Append method (ADOX Views)

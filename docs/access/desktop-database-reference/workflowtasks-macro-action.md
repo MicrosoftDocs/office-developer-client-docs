@@ -1,4 +1,4 @@
-﻿---
+---
 title: WorkflowTasks macro action
 TOCTitle: WorkflowTasks macro action
 ms:assetid: 4b299681-b45b-f6d1-2cfe-ebf01712bfc1
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm8454
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # WorkflowTasks macro action

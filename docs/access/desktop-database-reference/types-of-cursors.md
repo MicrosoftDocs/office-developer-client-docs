@@ -1,4 +1,4 @@
-﻿---
+---
 title: Types of Cursors (Access desktop database reference)
 TOCTitle: Types of Cursors
 ms:assetid: 589f3755-3cf5-9470-bd66-8e8afa218fc5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249299(v=office.15)
 ms:contentKeyID: 48544996
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Types of cursors

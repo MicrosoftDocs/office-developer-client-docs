@@ -1,4 +1,4 @@
-﻿---
+---
 title: SQL subqueries (Microsoft Access SQL)
 TOCTitle: SQL subqueries (Microsoft Access SQL)
 ms:assetid: 3b6c0a5d-ab24-e1cf-0175-3f8e68c2dfbf
@@ -12,6 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # SQL subqueries (Microsoft Access SQL)

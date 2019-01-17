@@ -1,4 +1,4 @@
-﻿---
+---
 title: The OLE DB Provider for Internet Publishing
 TOCTitle: The OLE DB Provider for Internet Publishing
 ms:assetid: 864e5ece-0f50-5d88-4c40-f951b2a2eded
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249583(v=office.15)
 ms:contentKeyID: 48546082
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # OLE DB Provider for Internet Publishing

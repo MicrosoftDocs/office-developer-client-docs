@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetDisplayedCategories macro action
 TOCTitle: SetDisplayedCategories macro action
 ms:assetid: e8bf39a6-c639-2232-7b21-3b0badf37e4b
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm20026
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SetDisplayedCategories macro action

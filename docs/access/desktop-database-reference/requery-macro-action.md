@@ -1,4 +1,4 @@
-﻿---
+---
 title: Requery macro action
 TOCTitle: Requery macro action
 ms:assetid: 6dbdcae5-81b6-9925-4cad-64b178c23060
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm30402
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Requery macro action

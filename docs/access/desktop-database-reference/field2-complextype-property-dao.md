@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.ComplexType property (DAO)
 TOCTitle: ComplexType Property
 ms:assetid: 9b4ebabf-22de-0ab8-73ea-10c496eedf97
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101189
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.ComplexType property (DAO)

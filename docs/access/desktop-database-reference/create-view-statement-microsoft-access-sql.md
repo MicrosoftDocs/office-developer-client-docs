@@ -1,4 +1,4 @@
-﻿---
+---
 title: CREATE VIEW statement (Microsoft Access SQL)
 TOCTitle: CREATE VIEW statement (Microsoft Access SQL)
 ms:assetid: ecaabd75-3081-fd35-830d-5a59b0a51922
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836312(v=office.15)
 ms:contentKeyID: 48548519
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # CREATE VIEW statement (Microsoft Access SQL)

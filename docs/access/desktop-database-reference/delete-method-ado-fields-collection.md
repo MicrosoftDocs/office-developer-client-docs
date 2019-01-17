@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete method (ADO Fields Collection)
 TOCTitle: Delete method (ADO Fields Collection)
 ms:assetid: adc66365-703f-4491-fc5b-dbc9bca2ac53
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
 ms:contentKeyID: 48547047
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Delete method (ADO Fields Collection)

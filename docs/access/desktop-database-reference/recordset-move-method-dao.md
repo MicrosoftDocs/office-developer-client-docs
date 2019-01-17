@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Move method (DAO)
 TOCTitle: Move Method
 ms:assetid: 21ca5ab5-ff71-1ae8-21b3-8991d5f795cf
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052941
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.Move method (DAO)

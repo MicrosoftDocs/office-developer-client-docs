@@ -1,4 +1,4 @@
-﻿---
+---
 title: Group macro statement
 TOCTitle: Group macro statement
 ms:assetid: 42aa4afa-ab5d-9dcc-2182-786f025e316d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192918(v=office.15)
 ms:contentKeyID: 48544481
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Group macro statement

@@ -1,4 +1,4 @@
-﻿---
+---
 title: AddMenu macro action
 TOCTitle: AddMenu macro action
 ms:assetid: 4eb2afa0-ed1f-41b1-d27f-b3ce7a73d2bb
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm37891
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # AddMenu macro action

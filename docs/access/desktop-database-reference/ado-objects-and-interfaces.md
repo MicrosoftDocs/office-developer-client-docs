@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADO objects and interfaces
 TOCTitle: ADO objects and interfaces
 ms:assetid: bebf4a80-8b6e-c43c-4138-897055cc60d3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249927(v=office.15)
 ms:contentKeyID: 48547471
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADO objects and interfaces

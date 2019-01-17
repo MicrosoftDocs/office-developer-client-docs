@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetProperty macro action
 TOCTitle: SetProperty macro action
 ms:assetid: 58d2eac3-35b2-e9f8-47e0-62c9b52f2c24
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm139044
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SetProperty macro action

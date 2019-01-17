@@ -1,4 +1,4 @@
-﻿---
+---
 title: NumericScale and Precision properties example (VJ++)
 TOCTitle: NumericScale and Precision properties example (VJ++)
 ms:assetid: 9b6fc40c-b740-ede0-d69d-546eb5d40c95
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249707(v=office.15)
 ms:contentKeyID: 48546574
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # NumericScale and Precision properties example (VJ++)

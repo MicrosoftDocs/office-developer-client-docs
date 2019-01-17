@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef properties (DAO)
 TOCTitle: Properties
 ms:assetid: ac31add4-4819-42de-801a-d7862eb04619
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142653(v=office.15)
 ms:contentKeyID: 52073890
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # TableDef properties (DAO)

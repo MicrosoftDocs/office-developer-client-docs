@@ -1,4 +1,4 @@
-﻿---
+---
 title: Deadlocks with read repeatable isolation level
 TOCTitle: Deadlocks with read repeatable isolation level
 ms:assetid: 3d5f3293-33bb-cf6d-362a-278f9ec1bd3c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249165(v=office.15)
 ms:contentKeyID: 48544342
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Deadlocks with read repeatable isolation level

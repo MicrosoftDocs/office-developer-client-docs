@@ -1,4 +1,4 @@
-﻿---
+---
 title: XML Persistence Format
 TOCTitle: XML Persistence Format
 ms:assetid: 499f335c-ee1f-c803-e3a8-034b8decf1ae
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249226(v=office.15)
 ms:contentKeyID: 48544643
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # XML persistence format

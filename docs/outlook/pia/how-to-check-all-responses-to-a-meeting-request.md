@@ -1,4 +1,4 @@
-﻿---
+---
 title: Check all responses to a meeting request
 TOCTitle: Check all responses to a meeting request
 ms:assetid: ebe10e5a-7f04-447a-bfc1-aa8a726cb0b3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184650(v=office.15)
 ms:contentKeyID: 55119881
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Check all responses to a meeting request

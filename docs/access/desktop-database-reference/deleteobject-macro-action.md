@@ -1,4 +1,4 @@
-﻿---
+---
 title: DeleteObject macro action
 TOCTitle: DeleteObject macro action
 ms:assetid: a8deb2a7-4e73-8696-b8c1-3a3939d813f7
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm152112
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DeleteObject macro action

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PROCEDURE clause (Microsoft Access SQL)
 TOCTitle: PROCEDURE clause (Microsoft Access SQL)
 ms:assetid: a718802c-9260-88d5-ec29-d5e5594927b0
@@ -12,6 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # PROCEDURE clause (Microsoft Access SQL)

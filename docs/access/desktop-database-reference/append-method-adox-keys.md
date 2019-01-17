@@ -1,4 +1,4 @@
-﻿---
+---
 title: Append method (ADOX Keys)
 TOCTitle: Append method (ADOX Keys)
 ms:assetid: 14d6e8d7-5c9e-a422-47d6-ebfd9dd7a120
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248913(v=office.15)
 ms:contentKeyID: 48543396
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Append method (ADOX Keys)

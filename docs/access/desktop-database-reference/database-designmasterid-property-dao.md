@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.DesignMasterID property (DAO)
 TOCTitle: DesignMasterID Property
 ms:assetid: c0545561-d44f-5479-8ae0-e3955db91761
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053417
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.DesignMasterID property (DAO)

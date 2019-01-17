@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index members (DAO)
 TOCTitle: Index Members
 ms:assetid: e261c5fa-ca7d-0d63-1c29-48e9231b39d1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835712(v=office.15)
 ms:contentKeyID: 48548290
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Index members (DAO)

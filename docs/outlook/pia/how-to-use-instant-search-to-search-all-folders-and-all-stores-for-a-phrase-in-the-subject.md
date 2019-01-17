@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use instant search to search all folders and all stores for a phrase in the subject
 TOCTitle: Use instant search to search all folders and all stores for a phrase in the subject
 ms:assetid: d3152bfa-6e7d-4b68-8c7e-e2e155a92b49
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424478(v=office.15)
 ms:contentKeyID: 55119923
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Use instant search to search all folders and all stores for a phrase in the subject

@@ -1,4 +1,4 @@
-﻿---
+---
 title: GoToRecord macro action
 TOCTitle: GoToRecord macro action
 ms:assetid: 76f936de-739b-63be-9b28-5b0e111408e6
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm58124
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # GoToRecord macro action

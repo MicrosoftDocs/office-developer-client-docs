@@ -1,4 +1,4 @@
-﻿---
+---
 title: RecordOpenOptionsEnum
 TOCTitle: RecordOpenOptionsEnum
 ms:assetid: 44a69719-0789-a084-fb96-21468e270205
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249207(v=office.15)
 ms:contentKeyID: 48544534
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # RecordOpenOptionsEnum

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.Indexes property (DAO)
 TOCTitle: Indexes Property
 ms:assetid: b168ff75-0a5f-2bc0-9180-2add520a12c6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052903
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TableDef.Indexes property (DAO)

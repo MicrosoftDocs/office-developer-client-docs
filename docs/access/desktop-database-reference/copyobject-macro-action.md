@@ -1,4 +1,4 @@
-﻿---
+---
 title: CopyObject macro action
 TOCTitle: CopyObject macro action
 ms:assetid: 746f61df-d5db-284a-0897-75820c2be11f
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm12836
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # CopyObject macro action

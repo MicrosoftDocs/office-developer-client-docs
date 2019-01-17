@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.EditMode property (DAO)
 TOCTitle: EditMode Property
 ms:assetid: fd61ea2b-e7d7-195f-4114-87e54eba2451
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053080
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.EditMode property (DAO)

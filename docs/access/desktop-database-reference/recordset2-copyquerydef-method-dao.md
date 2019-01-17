@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.CopyQueryDef method (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: 36689ac0-f8a6-1f3e-4170-799141373777
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053073
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.CopyQueryDef method (DAO)

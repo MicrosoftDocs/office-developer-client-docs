@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.Cancel method (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 91e61012-c01c-4c24-185c-bdadb7f33a58
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1055470
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.Cancel method (DAO)

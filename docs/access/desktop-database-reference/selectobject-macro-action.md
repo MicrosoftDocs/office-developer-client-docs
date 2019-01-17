@@ -1,4 +1,4 @@
-﻿---
+---
 title: SelectObject macro action
 TOCTitle: SelectObject macro action
 ms:assetid: a90539a0-c5a0-e997-9c25-e0972d28f2a6
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm41840
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SelectObject macro action

@@ -6,11 +6,11 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - api function reference [excel 2007],functions [Excel 2007],reference [Excel 2007],Excel 2007 XLL Software Development Kit, reference
-localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2f6df879-7546-4ac0-a4e3-6b009aee9463
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+localization_priority: Priority
 ---
 
 # Excel XLL SDK API Function Reference

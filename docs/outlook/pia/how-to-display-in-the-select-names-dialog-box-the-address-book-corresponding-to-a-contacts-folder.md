@@ -1,4 +1,4 @@
-﻿---
+---
 title: Display in the Select Names dialog box the address book corresponding to a Contacts folder
 TOCTitle: Display in the Select Names dialog box the address book corresponding to a Contacts folder
 ms:assetid: 6cbfc843-51b5-4841-bbb1-14b93a35ba78
@@ -9,6 +9,7 @@ mtps_version: v=office.15
 
 
 
+localization_priority: Normal
 ---
 
 # Display in the Select Names dialog box the address book corresponding to a Contacts folder

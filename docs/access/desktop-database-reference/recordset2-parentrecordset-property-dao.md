@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.ParentRecordset property (DAO)
 TOCTitle: ParentRecordset Property
 ms:assetid: 816cc92e-e530-6ca6-65b0-3165221835a6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101188
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.ParentRecordset property (DAO)

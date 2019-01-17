@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a task item
 TOCTitle: Create a task item
 ms:assetid: d458dd31-2771-4a3c-a713-13c7e4e02a74
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184644(v=office.15)
 ms:contentKeyID: 55119894
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a task item

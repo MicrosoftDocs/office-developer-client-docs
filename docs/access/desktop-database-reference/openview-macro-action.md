@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenView macro action
 TOCTitle: OpenView macro action
 ms:assetid: 4d3b7e6d-4b81-4fbe-7222-24d745350321
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm50135
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OpenView macro action

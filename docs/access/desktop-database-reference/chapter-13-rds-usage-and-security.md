@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Chapter 13: RDS usage and security'
 TOCTitle: 'Chapter 13: RDS usage and security'
 ms:assetid: 78add8bb-f01a-2efb-33f0-430deebefe8f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249495(v=office.15)
 ms:contentKeyID: 48545756
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Chapter 13: RDS usage and security

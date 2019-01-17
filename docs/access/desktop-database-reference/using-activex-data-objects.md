@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use ActiveX Data Objects
 TOCTitle: Use ActiveX Data Objects
 description: Microsoft Access provides three object models to use in the creation, maintaining, and managing of your Access databases and their related data by using Visual Basic.
@@ -11,6 +11,7 @@ f1_keywords:
 - vbaac10.chm5285627
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Use ActiveX Data Objects

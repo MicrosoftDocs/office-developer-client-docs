@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filter property (ADO)
 TOCTitle: Filter property (ADO)
 ms:assetid: 5abc528a-a6ee-34de-5d44-a3249194b0a0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249314(v=office.15)
 ms:contentKeyID: 48545053
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filter property (ADO)

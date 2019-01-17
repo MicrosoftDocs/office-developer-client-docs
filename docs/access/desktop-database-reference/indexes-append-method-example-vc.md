@@ -1,4 +1,4 @@
-﻿---
+---
 title: Indexes Append method example (VC++)
 TOCTitle: Indexes Append method example (VC++)
 ms:assetid: fd7a020e-19bd-db14-bcdf-d34b23002e44
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250302(v=office.15)
 ms:contentKeyID: 48548918
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Indexes Append method example (VC++)

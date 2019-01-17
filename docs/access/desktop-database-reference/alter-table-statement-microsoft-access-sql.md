@@ -1,4 +1,4 @@
-﻿---
+---
 title: ALTER TABLE statement (Microsoft Access SQL)
 TOCTitle: ALTER TABLE statement (Microsoft Access SQL)
 ms:assetid: 78e6c92c-e88c-e55f-6b89-435360c166a6
@@ -12,6 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # ALTER TABLE statement (Microsoft Access SQL)

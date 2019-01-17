@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.Parameters property (DAO)
 TOCTitle: Parameters Property
 ms:assetid: 0a83f4b8-24b6-8d61-1c15-d16919272e57
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053177
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.Parameters property (DAO)

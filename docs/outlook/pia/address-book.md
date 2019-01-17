@@ -1,4 +1,4 @@
-﻿---
+---
 title: Address book
 TOCTitle: Address book
 ms:assetid: 1677a3d3-3994-49b6-ba31-e41f2a2e1e2f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184590(v=office.15)
 ms:contentKeyID: 55119798
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Address book

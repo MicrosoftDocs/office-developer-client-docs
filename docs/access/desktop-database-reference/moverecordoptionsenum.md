@@ -1,4 +1,4 @@
-﻿---
+---
 title: MoveRecordOptionsEnum
 TOCTitle: MoveRecordOptionsEnum
 ms:assetid: 2785bca0-777c-a802-51d7-6f5cf0fb4210
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249039(v=office.15)
 ms:contentKeyID: 48543842
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # MoveRecordOptionsEnum

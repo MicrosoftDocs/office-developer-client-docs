@@ -1,4 +1,4 @@
-﻿---
+---
 title: StopAllMacros macro action
 TOCTitle: StopAllMacros macro action
 ms:assetid: 6afbf906-03b8-6e68-bbc9-7a4b141cf1c5
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm104968
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # StopAllMacros macro action

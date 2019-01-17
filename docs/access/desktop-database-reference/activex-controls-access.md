@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveX controls (Access)
 TOCTitle: ActiveX controls
 ms:assetid: 5491e95e-4c96-4f13-8c1c-63ccbd982835
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124841(v=office.15)
 ms:contentKeyID: 52072462
 ms.date: 10/16/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # ActiveX controls (Access) 

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Bookmark property (ADO)
 TOCTitle: Bookmark property (ADO)
 ms:assetid: 101b2ce1-21d8-aa79-e530-20f9d1c73fc8
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248870(v=office.15)
 ms:contentKeyID: 48543287
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Bookmark property (ADO)

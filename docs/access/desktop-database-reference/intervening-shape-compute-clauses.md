@@ -1,4 +1,4 @@
-﻿---
+---
 title: Intervening Shape COMPUTE clauses
 TOCTitle: Intervening Shape COMPUTE clauses
 ms:assetid: 3e9dcef2-776c-0365-4a92-68e325f7dbb5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249174(v=office.15)
 ms:contentKeyID: 48544380
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Intervening Shape COMPUTE clauses

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Understanding Recordset Structure
 TOCTitle: Understanding Recordset Structure
 ms:assetid: 2668d8a2-3c2b-785c-88ed-eeff0d46b47a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249027(v=office.15)
 ms:contentKeyID: 48543808
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Understanding Recordset structure

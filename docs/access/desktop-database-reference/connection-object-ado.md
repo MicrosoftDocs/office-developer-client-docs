@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connection object (ADO)
 TOCTitle: Connection object (ADO)
 ms:assetid: c16023aa-0321-2513-ee71-255d6ffba03d
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231105
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Connection object (ADO)

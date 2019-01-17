@@ -1,4 +1,4 @@
-﻿---
+---
 title: Send a mail item with an electronic business card
 TOCTitle: Send a mail item with an electronic business card
 ms:assetid: f8aae7f2-85fc-4ed0-9f59-282ede702357
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb624312(v=office.15)
 ms:contentKeyID: 55119839
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Send a mail item with an electronic business card

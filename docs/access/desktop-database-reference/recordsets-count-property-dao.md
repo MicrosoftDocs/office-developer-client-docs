@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordsets.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 4362aa16-c8e9-e517-887e-c4532bd1eef9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192940(v=office.15)
 ms:contentKeyID: 48544500
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordsets.Count property (DAO)

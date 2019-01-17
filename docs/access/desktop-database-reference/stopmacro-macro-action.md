@@ -1,4 +1,4 @@
-﻿---
+---
 title: StopMacro macro action
 TOCTitle: StopMacro macro action
 ms:assetid: 6bbf9026-4536-43f2-aa43-3f2ecea01005
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195473(v=office.15)
 ms:contentKeyID: 48545455
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # StopMacro macro action

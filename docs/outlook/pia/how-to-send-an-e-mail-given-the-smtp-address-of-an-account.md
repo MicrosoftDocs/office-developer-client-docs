@@ -1,4 +1,4 @@
-﻿---
+---
 title: Send an email given the SMTP address of an account
 TOCTitle: Send an email given the SMTP address of an account
 ms:assetid: 4ff4aaac-54ba-45c7-8b2e-aeba35af1e56
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff462095(v=office.15)
 ms:contentKeyID: 55119865
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Send an email given the SMTP address of an account

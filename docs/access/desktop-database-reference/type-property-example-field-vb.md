@@ -1,4 +1,4 @@
-﻿---
+---
 title: Type property example (Field) (VB)
 TOCTitle: Type property example (Field) (VB)
 ms:assetid: ff9e26a8-898d-ec89-5093-69c66dbb05ba
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250314(v=office.15)
 ms:contentKeyID: 48548966
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Type property example (Field) (VB)

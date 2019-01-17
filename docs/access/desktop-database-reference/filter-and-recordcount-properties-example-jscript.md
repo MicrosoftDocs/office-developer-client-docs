@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filter and RecordCount properties example (JScript)
 TOCTitle: Filter and RecordCount properties example (JScript)
 ms:assetid: a33e3d13-4184-69f9-4ff2-111106e653cf
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249755(v=office.15)
 ms:contentKeyID: 48546780
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filter and RecordCount properties example (JScript)

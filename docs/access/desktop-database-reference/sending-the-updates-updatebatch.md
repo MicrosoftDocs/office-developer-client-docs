@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Sending the updates: UpdateBatch'
 TOCTitle: 'Sending the updates: UpdateBatch'
 ms:assetid: a840b9a7-7ccd-9c31-7951-8921dadf381e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249778(v=office.15)
 ms:contentKeyID: 48546898
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Sending the updates: UpdateBatch

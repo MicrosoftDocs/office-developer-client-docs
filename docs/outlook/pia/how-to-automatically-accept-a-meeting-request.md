@@ -1,4 +1,4 @@
-﻿---
+---
 title: Automatically accept a meeting request
 TOCTitle: Automatically accept a meeting request
 ms:assetid: 3c729bcf-4c85-4efa-af79-2c94d55c2042
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184604(v=office.15)
 ms:contentKeyID: 55119874
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Automatically accept a meeting request

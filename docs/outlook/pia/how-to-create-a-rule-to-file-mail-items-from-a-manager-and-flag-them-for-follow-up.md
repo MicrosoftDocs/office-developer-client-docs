@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a rule to file mail items from a manager and flag them for follow-up
 TOCTitle: Create a rule to file mail items from a manager and flag them for follow-up
 ms:assetid: c50578c2-15de-4d5f-87d9-d6162034f083
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424477(v=office.15)
 ms:contentKeyID: 55119880
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create a rule to file mail items from a manager and flag them for follow-up

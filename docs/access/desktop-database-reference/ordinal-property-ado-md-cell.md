@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ordinal property (ADO MD Cell)
 TOCTitle: Ordinal property (ADO MD Cell)
 ms:assetid: be705823-6c5e-0c8f-f780-87df19423a72
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249924(v=office.15)
 ms:contentKeyID: 48547462
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Ordinal property (ADO MD Cell)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Records and provider-supplied fields
 TOCTitle: Records and provider-supplied fields
 ms:assetid: cde72d6a-b9b0-9636-581d-68239a3f522d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250022(v=office.15)
 ms:contentKeyID: 48547776
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Records and provider-supplied fields

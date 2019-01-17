@@ -1,4 +1,4 @@
-﻿---
+---
 title: PARAMETERS declaration (Microsoft Access SQL)
 TOCTitle: PARAMETERS declaration (Microsoft Access SQL)
 ms:assetid: 0dcaad68-6a5f-93dc-e62a-b82b36e1e69c
@@ -12,6 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # PARAMETERS declaration (Microsoft Access SQL)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetObjectOwner and SetObjectOwner methods example (VC++)
 TOCTitle: GetObjectOwner and SetObjectOwner methods example (VC++)
 ms:assetid: af38cc5c-4475-20fa-edcd-a439e1ffbf99
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249835(v=office.15)
 ms:contentKeyID: 48547096
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # GetObjectOwner and SetObjectOwner methods example (VC++)

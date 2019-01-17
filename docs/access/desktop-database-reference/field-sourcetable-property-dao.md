@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field.SourceTable property (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 9564ea1c-eafd-0b72-fd68-d88fcc3ea189
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052900
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field.SourceTable property (DAO)

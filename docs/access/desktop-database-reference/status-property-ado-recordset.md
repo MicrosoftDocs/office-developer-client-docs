@@ -1,4 +1,4 @@
-﻿---
+---
 title: Status property (ADO Recordset)
 TOCTitle: Status property (ADO Recordset)
 ms:assetid: bf3ccb36-c985-5fae-4f76-c48a0e20e6f7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249930(v=office.15)
 ms:contentKeyID: 48547482
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Status property (ADO Recordset)

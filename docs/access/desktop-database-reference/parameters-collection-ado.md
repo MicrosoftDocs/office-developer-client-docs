@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parameters collection (ADO)
 TOCTitle: Parameters collection (ADO)
 ms:assetid: 554387c3-3572-5391-3b24-c7d3443844cd
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231103
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Parameters collection (ADO)

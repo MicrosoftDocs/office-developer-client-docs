@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenReport macro action
 TOCTitle: OpenReport macro action
 ms:assetid: cd35faf2-190d-ac48-cf59-81c1599eb764
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm188079
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OpenReport macro action

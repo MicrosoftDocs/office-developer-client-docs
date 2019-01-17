@@ -3,9 +3,9 @@ title: "Word"
 manager: kelbow
 ms.date: 12/13/2017
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 9eeb591e-b040-4a53-beef-f69913543fb4
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Word."
+localization_priority: Priority
 ---
 
 # Word

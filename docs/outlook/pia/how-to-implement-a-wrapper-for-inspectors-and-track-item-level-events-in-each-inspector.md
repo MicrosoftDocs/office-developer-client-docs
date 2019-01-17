@@ -1,4 +1,4 @@
-﻿---
+---
 title: Implement a wrapper for inspectors and track item-level events in each inspector
 TOCTitle: Implement a wrapper for inspectors and track item-level events in each inspector
 ms:assetid: 8021dd2b-c36c-492b-b281-783e85140ad8
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184620(v=office.15)
 ms:contentKeyID: 55119854
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Implement a wrapper for inspectors and track item-level events in each inspector

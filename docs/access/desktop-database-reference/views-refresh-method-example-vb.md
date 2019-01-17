@@ -1,4 +1,4 @@
-﻿---
+---
 title: Views Refresh method example (VB)
 TOCTitle: Views Refresh method example (VB)
 ms:assetid: 607b78d6-1b26-d643-9f97-f47b5f5cffc5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249352(v=office.15)
 ms:contentKeyID: 48545182
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Views Refresh method example (VB)

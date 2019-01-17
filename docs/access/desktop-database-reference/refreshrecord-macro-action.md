@@ -1,4 +1,4 @@
-﻿---
+---
 title: RefreshRecord macro action
 TOCTitle: RefreshRecord macro action
 ms:assetid: 68c90d7d-f59c-9e83-bc30-8f37cf5a3696
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm62122
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RefreshRecord macro action

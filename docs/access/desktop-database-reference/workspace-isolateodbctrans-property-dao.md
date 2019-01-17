@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace.IsolateODBCTrans property (DAO)
 TOCTitle: IsolateODBCTrans Property
 ms:assetid: f7a48358-870b-cad3-d4ef-e46b50428e12
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053083
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Workspace.IsolateODBCTrans property (DAO)

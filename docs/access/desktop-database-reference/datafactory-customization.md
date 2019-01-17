@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataFactory customization
 TOCTitle: DataFactory customization
 ms:assetid: 43cd7416-1f05-87ee-22f0-6cf0d2d1b39f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249205(v=office.15)
 ms:contentKeyID: 48544511
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DataFactory customization

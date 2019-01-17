@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.ConflictTable property (DAO)
 TOCTitle: ConflictTable Property
 ms:assetid: 0db8b975-eb6d-19c6-cfb7-6ce01230ebe4
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053356
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TableDef.ConflictTable property (DAO)

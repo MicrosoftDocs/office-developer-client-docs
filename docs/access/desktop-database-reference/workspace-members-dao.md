@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace members (DAO)
 TOCTitle: Workspace Members
 ms:assetid: 13ac7d41-1b25-20d2-5c85-0f21bfd38328
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845437(v=office.15)
 ms:contentKeyID: 48543374
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Workspace members (DAO)

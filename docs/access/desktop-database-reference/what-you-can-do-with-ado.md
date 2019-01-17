@@ -1,4 +1,4 @@
-﻿---
+---
 title: What You Can Do With ADO
 TOCTitle: What You Can Do With ADO
 ms:assetid: 98246cb0-aec6-6a77-c953-85895ad83a5d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249681(v=office.15)
 ms:contentKeyID: 48546483
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # What you can do with ADO

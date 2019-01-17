@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2 members (DAO)
 TOCTitle: Recordset2 Members
 ms:assetid: 6ef57191-9da4-7904-d55c-60b59b895a50
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195572(v=office.15)
 ms:contentKeyID: 48545523
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2 members (DAO)

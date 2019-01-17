@@ -1,4 +1,4 @@
-﻿---
+---
 title: WriteText method (ADO)
 TOCTitle: WriteText method (ADO)
 ms:assetid: 1ca2d9d5-11f4-d088-6fc3-53240208bb09
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248963(v=office.15)
 ms:contentKeyID: 48543574
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # WriteText method (ADO)

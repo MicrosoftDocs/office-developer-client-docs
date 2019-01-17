@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef object (DAO)
 TOCTitle: QueryDef Object
 ms:assetid: 0b3d901c-345d-42a2-f5f1-fb09cc562e27
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845129(v=office.15)
 ms:contentKeyID: 48543169
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # QueryDef object (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connections.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: e44b49bd-6645-a2e5-691e-afddfaf294b5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835932(v=office.15)
 ms:contentKeyID: 48548337
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Connections.Refresh method (DAO)
