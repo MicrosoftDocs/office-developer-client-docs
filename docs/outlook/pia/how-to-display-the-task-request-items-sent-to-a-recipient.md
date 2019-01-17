@@ -1,4 +1,4 @@
-﻿---
+---
 title: Display the task request items sent to a recipient
 TOCTitle: Display the task request items sent to a recipient
 ms:assetid: 167c3d52-67b5-467c-a7b6-e8cc96002b63
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184591(v=office.15)
 ms:contentKeyID: 55119930
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Display the task request items sent to a recipient

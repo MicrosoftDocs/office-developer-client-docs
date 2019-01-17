@@ -1,4 +1,4 @@
-﻿---
+---
 title: Enumerate items in a table view
 TOCTitle: Enumerate items in a table view
 ms:assetid: c7d9a667-cfec-49c1-af7a-4c8063991588
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184640(v=office.15)
 ms:contentKeyID: 55119900
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Enumerate items in a table view

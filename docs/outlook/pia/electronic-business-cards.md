@@ -1,4 +1,4 @@
-﻿---
+---
 title: Electronic business cards
 TOCTitle: Electronic business cards
 ms:assetid: 3d4658bf-103f-4984-b4bf-e9dfc92b2e54
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184605(v=office.15)
 ms:contentKeyID: 55119834
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Electronic business cards

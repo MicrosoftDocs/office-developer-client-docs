@@ -1,4 +1,4 @@
-﻿---
+---
 title: Execute a rule instantly
 TOCTitle: Execute a rule instantly
 ms:assetid: b41031d5-aa81-40e2-ae78-b45a2f79eb5d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424476(v=office.15)
 ms:contentKeyID: 55119919
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Execute a rule instantly

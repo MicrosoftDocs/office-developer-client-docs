@@ -1,4 +1,4 @@
-﻿---
+---
 title: Specify different recipient types for a mail item
 TOCTitle: Specify different recipient types for a mail item
 ms:assetid: 2a3ace9f-627c-4fdd-b182-afc1b53af85b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184598(v=office.15)
 ms:contentKeyID: 55119871
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Specify different recipient types for a mail item

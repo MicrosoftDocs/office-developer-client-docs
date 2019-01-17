@@ -1,4 +1,4 @@
-﻿---
+---
 title: Send a mail item by using a Hotmail account
 TOCTitle: Send a mail item by using a Hotmail account
 ms:assetid: f25853a7-67c0-46a3-a298-5cdf72ebc53f
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Send a mail item by using a Hotmail account

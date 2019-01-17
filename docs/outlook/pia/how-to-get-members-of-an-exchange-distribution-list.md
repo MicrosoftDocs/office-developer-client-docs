@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get members of an Exchange distribution list
 TOCTitle: Get members of an Exchange distribution list
 ms:assetid: 75b38e40-772c-400b-8df9-e3e385b87f9c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb645998(v=office.15)
 ms:contentKeyID: 55119837
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Get members of an Exchange distribution list

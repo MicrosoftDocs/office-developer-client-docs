@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get information about direct reports of the current user's manager
 TOCTitle: Get information about direct reports of the current user's manager
 ms:assetid: 768bf573-1b10-4776-8947-a7f8dc3ebde0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184617(v=office.15)
 ms:contentKeyID: 55119842
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get information about direct reports of the current user's manager

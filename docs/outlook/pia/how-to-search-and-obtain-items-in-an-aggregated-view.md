@@ -1,4 +1,4 @@
-﻿---
+---
 title: Search and obtain items in an aggregated view
 TOCTitle: Search and obtain items in an aggregated view
 ms:assetid: 1a875dc8-dd52-4e9c-b292-5f6ba3d7a940
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184592(v=office.15)
 ms:contentKeyID: 55119925
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Search and obtain items in an aggregated view

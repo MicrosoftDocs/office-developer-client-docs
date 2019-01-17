@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get information about stores in a profile
 TOCTitle: Get information about stores in a profile
 ms:assetid: e88222d2-e1b7-4393-aac4-5ce9d24d5d5b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184648(v=office.15)
 ms:contentKeyID: 55119893
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get information about stores in a profile

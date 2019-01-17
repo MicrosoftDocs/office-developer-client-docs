@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connecting to custom event handlers
 TOCTitle: Connecting to custom event handlers
 ms:assetid: 6e894c16-0fe9-4b86-b798-547b86f44cd8
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb610520(v=office.15)
 ms:contentKeyID: 55119783
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Connecting to custom event handlers

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get the default message class of a folder
 TOCTitle: Get the default message class of a folder
 ms:assetid: 1c5faefd-b180-4114-a955-3fc524210317
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184594(v=office.15)
 ms:contentKeyID: 55119860
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get the default message class of a folder

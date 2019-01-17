@@ -1,4 +1,4 @@
-﻿---
+---
 title: Determine whether Outlook is a Click-to-Run application on a computer
 TOCTitle: Determine whether Outlook is a Click-to-Run application on a computer
 ms:assetid: 1b8573be-8ea8-4973-869d-87fda57ce525
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff522355(v=office.15)
 ms:contentKeyID: 55119804
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Determine whether Outlook is a Click-to-Run application on a computer

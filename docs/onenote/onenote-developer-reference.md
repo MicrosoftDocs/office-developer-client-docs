@@ -3,9 +3,9 @@ title: OneNote developer reference
 manager: soliver
 ms.date: 05/16/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: "This reference contains conceptual overviews and programmatic references to guide you in developing solutions for OneNote 2013 desktop client applications."
+localization_priority: Priority
 ---
 
 # OneNote developer reference

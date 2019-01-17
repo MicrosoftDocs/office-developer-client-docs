@@ -1,4 +1,4 @@
-﻿---
+---
 title: Search attachments of items in a folder for an exact phrase
 TOCTitle: Search attachments of items in a folder for an exact phrase
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609825(v=office.15)
 ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Search attachments of items in a folder for an exact phrase

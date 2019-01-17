@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use SetColumns to efficiently enumerate items in a folder
 TOCTitle: Use SetColumns to efficiently enumerate items in a folder
 ms:assetid: cd7c7758-8a9c-4f1c-a49c-9305d75be341
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184641(v=office.15)
 ms:contentKeyID: 55119921
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Use SetColumns to efficiently enumerate items in a folder

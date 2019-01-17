@@ -3,9 +3,9 @@ title: "Integrating IM applications with Office"
 manager: soliver
 ms.date: 07/25/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: "This article describes how to configure an instant message (IM) client application so that it integrates with the social features in Office 2013, including displaying presence and sending instant messages from the contact card."
+localization_priority: Priority
 ---
 
 # Integrating IM applications with Office

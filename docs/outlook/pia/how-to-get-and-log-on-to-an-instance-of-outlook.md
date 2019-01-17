@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get and sign in to an instance of Outlook
 TOCTitle: Get and sign in to an instance of Outlook
 ms:assetid: 7f5057dc-4232-4dc7-b597-16ff5f7bcd7d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff462097(v=office.15)
 ms:contentKeyID: 55119926
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Get and sign in to an instance of Outlook

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Tasks
 TOCTitle: Tasks
 ms:assetid: f691b618-9cbd-4c7a-ad5c-c28ae12da907
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184656(v=office.15)
 ms:contentKeyID: 55119928
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Tasks

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Respond to a task request item
 TOCTitle: Respond to a task request item
 ms:assetid: 573c98ef-4d15-4fd1-bccd-25a22c9a63f0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184608(v=office.15)
 ms:contentKeyID: 55119896
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Respond to a task request item

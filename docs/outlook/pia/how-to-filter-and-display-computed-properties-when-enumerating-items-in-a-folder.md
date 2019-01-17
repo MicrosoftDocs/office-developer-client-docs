@@ -1,4 +1,4 @@
-﻿---
+---
 title: Filter and display computed properties when enumerating items in a folder
 TOCTitle: Filter and display computed properties when enumerating items in a folder
 ms:assetid: b068e625-ff12-444d-a30d-51a3acba3043
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184632(v=office.15)
 ms:contentKeyID: 55119922
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Filter and display computed properties when enumerating items in a folder

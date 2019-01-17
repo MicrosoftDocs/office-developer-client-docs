@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get and display items in a conversation
 TOCTitle: Get and display items in a conversation
 ms:assetid: 8f30a7cb-0949-46d7-bc51-2d93dbb22bf8
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184625(v=office.15)
 ms:contentKeyID: 55119832
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get and display items in a conversation

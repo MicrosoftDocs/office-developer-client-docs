@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get the email address of a recipient
 TOCTitle: Get the email address of a recipient
 ms:assetid: e585811b-a298-496f-ba79-df7d46526169
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184647(v=office.15)
 ms:contentKeyID: 55119879
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get the email address of a recipient

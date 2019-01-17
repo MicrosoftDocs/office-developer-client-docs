@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create a sendable item for a specific account based on the current folder
 TOCTitle: Create a sendable item for a specific account based on the current folder
 ms:assetid: 665ebdc5-2912-4d85-ac40-835c9ef9a439
@@ -7,6 +7,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Create a sendable item for a specific account based on the current folder

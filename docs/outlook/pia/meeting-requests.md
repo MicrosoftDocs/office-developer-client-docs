@@ -1,4 +1,4 @@
-﻿---
+---
 title: Meeting requests
 TOCTitle: Meeting requests
 ms:assetid: e400d270-d30f-465a-8199-4466192b971d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184646(v=office.15)
 ms:contentKeyID: 55119868
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Meeting requests

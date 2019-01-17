@@ -1,4 +1,4 @@
-﻿---
+---
 title: Use arrays to efficiently enumerate items in a folder
 TOCTitle: Use arrays to efficiently enumerate items in a folder
 ms:assetid: 05a73225-ad0d-4d52-90b6-448d220348df
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184588(v=office.15)
 ms:contentKeyID: 55119885
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Use arrays to efficiently enumerate items in a folder

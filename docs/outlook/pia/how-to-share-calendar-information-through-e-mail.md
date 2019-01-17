@@ -1,4 +1,4 @@
-﻿---
+---
 title: Share calendar information through email
 TOCTitle: Share calendar information through email
 ms:assetid: 3382010c-0a16-4dca-a99e-669e9178354e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb609881(v=office.15)
 ms:contentKeyID: 55119817
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Share calendar information through email

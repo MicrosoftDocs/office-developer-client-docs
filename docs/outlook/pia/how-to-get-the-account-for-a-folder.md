@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get the account for a folder
 TOCTitle: Get the account for a folder
 ms:assetid: 3706be15-f746-4d0d-9ffe-d6f46b2004dc
@@ -7,6 +7,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Get the account for a folder

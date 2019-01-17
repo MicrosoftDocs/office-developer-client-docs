@@ -1,4 +1,4 @@
-﻿---
+---
 title: Systematically releasing objects
 TOCTitle: Systematically releasing objects
 ms:assetid: d4cd1d8e-aae6-483b-a4d8-1656171e838d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623945(v=office.15)
 ms:contentKeyID: 55119785
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Systematically releasing objects

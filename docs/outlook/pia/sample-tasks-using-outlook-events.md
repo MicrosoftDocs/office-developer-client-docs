@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sample tasks using Outlook events
 TOCTitle: Sample tasks using Outlook events
 ms:assetid: efa18d44-43f3-4dd2-8390-fe228ed88971
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184651(v=office.15)
 ms:contentKeyID: 55119848
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Sample tasks using Outlook events

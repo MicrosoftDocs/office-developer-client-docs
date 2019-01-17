@@ -1,4 +1,4 @@
-﻿---
+---
 title: Get information about the current user
 TOCTitle: Get information about the current user
 ms:assetid: 3802523a-3ccf-4cca-a348-abe2645a0d9c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184601(v=office.15)
 ms:contentKeyID: 55119840
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Get information about the current user

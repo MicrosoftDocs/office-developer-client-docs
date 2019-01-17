@@ -9,9 +9,9 @@ ms.topic: overview
 keywords:
 - states [excel 2007],commands [Excel 2007],worksheet functions [Excel 2007],macro-sheet functions [Excel 2007],Excel states
  
-localization_priority: Normal
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+localization_priority: Priority
 ---
 
 # Excel Commands, Functions, and States

@@ -3,9 +3,9 @@ title: "Accessing Project Online enterprise custom fields"
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38
 description: "Project Online is an Office 365 service that companies can extend to meet business needs. One extension area is Enterprise Custom Fields (ECFs). ECFs are typed value fields that can be added to projects, resources, and tasks. The following table lists ECFs that associate with projects, resources, and tasks, and provides an example of a value for an instance of that ECF:"
+localization_priority: Priority
 ---
 
 # Accessing Project Online enterprise custom fields

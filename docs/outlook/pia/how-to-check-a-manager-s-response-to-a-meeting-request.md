@@ -1,4 +1,4 @@
-﻿---
+---
 title: Check a manager's response to a meeting request
 TOCTitle: Check a manager's response to a meeting request
 ms:assetid: 7bdb2163-17e3-47b4-95e5-e051b90506c6
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184618(v=office.15)
 ms:contentKeyID: 55119847
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Check a manager's response to a meeting request

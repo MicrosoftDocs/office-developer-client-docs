@@ -1,4 +1,4 @@
-﻿---
+---
 title: Display the Select Names dialog box to resolve recipients
 TOCTitle: Display the Select Names dialog box to resolve recipients
 ms:assetid: 841dd4cd-6d69-46d5-8c83-e28c95b631a9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb646055(v=office.15)
 ms:contentKeyID: 55119876
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Display the Select Names dialog box to resolve recipients

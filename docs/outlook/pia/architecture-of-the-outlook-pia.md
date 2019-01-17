@@ -1,4 +1,4 @@
-﻿---
+---
 title: Architecture of the Outlook PIA
 TOCTitle: Architecture of the Outlook PIA
 ms:assetid: 89577d14-e6e2-4270-8e72-b0adba378667
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb646255(v=office.15)
 ms:contentKeyID: 55119777
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Architecture of the Outlook PIA

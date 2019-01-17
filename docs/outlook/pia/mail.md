@@ -1,4 +1,4 @@
-﻿---
+---
 title: Mail
 TOCTitle: Mail
 ms:assetid: 7eddd53c-a598-4dc1-b555-fd3af1236402
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184619(v=office.15)
 ms:contentKeyID: 55119864
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Mail

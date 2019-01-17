@@ -1,4 +1,4 @@
-﻿---
+---
 title: Group sharing
 TOCTitle: Group sharing
 ms:assetid: ac13adbf-51ff-4ff8-ba27-1bd86501bd7f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424475(v=office.15)
 ms:contentKeyID: 55119851
 ms.date: 07/24/2014
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Group sharing

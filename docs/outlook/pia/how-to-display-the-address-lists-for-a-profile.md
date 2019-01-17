@@ -1,4 +1,4 @@
-﻿---
+---
 title: Display the address lists for a profile
 TOCTitle: Display the address lists for a profile
 ms:assetid: ced8230b-110b-4ccb-a699-588798144154
@@ -8,6 +8,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
+localization_priority: Normal
 ---
 
 # Display the address lists for a profile
