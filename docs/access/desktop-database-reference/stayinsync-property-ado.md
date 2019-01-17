@@ -1,4 +1,4 @@
-﻿---
+---
 title: StayInSync property (ADO)
 TOCTitle: StayInSync property (ADO)
 ms:assetid: 02c95c10-4032-14e1-e506-f334a8787142
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248792(v=office.15)
 ms:contentKeyID: 48542966
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # StayInSync property (ADO)

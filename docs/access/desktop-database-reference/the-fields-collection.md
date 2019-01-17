@@ -1,4 +1,4 @@
-﻿---
+---
 title: The Fields Collection
 TOCTitle: The Fields Collection
 ms:assetid: 3bda8e5d-eceb-9605-c4d7-c1f4cc00ce6b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249154(v=office.15)
 ms:contentKeyID: 48544297
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Fields collection

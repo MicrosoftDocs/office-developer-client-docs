@@ -1,4 +1,4 @@
-﻿---
+---
 title: Handling errors in other languages
 TOCTitle: Handling errors in other languages
 ms:assetid: 74497220-dcbf-2f1d-8fde-166e0df22cac
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249475(v=office.15)
 ms:contentKeyID: 48545656
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Handling errors in other languages

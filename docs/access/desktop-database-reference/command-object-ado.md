@@ -1,4 +1,4 @@
-﻿---
+---
 title: Command object (ADO)
 TOCTitle: Command object (ADO)
 ms:assetid: 64f4ef03-f858-c004-b891-0c96d13a5e6e
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231106
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Command object (ADO)

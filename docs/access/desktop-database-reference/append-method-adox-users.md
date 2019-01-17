@@ -1,4 +1,4 @@
-﻿---
+---
 title: Append method (ADOX Users)
 TOCTitle: Append method (ADOX Users)
 ms:assetid: b7a1128b-c6e7-2071-c914-913b6bd245ae
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249884(v=office.15)
 ms:contentKeyID: 48547302
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Append method (ADOX Users)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Detecting and resolving conflicts
 TOCTitle: Detecting and resolving conflicts
 ms:assetid: 8299745b-e595-21d5-26c1-a078d00a1c0c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249566(v=office.15)
 ms:contentKeyID: 48545983
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Detecting and resolving conflicts

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CacheSize property example (JScript)
 TOCTitle: CacheSize property example (JScript)
 ms:assetid: bee835cb-8d26-b8b7-4958-39261809b86c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249928(v=office.15)
 ms:contentKeyID: 48547473
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CacheSize property example (JScript)

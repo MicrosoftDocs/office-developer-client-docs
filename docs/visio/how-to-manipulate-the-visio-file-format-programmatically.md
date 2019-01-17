@@ -7,10 +7,10 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 
 description: ""
+localization_priority: Priority
 ---
 
 # Manipulate the Visio file format programmatically

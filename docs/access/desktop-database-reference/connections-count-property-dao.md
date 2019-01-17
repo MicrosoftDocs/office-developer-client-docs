@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connections.Count property (DAO)
 TOCTitle: Count Property
 ms:assetid: 9b2f0aaa-785a-7fe7-15c3-aea37fdacd12
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff198023(v=office.15)
 ms:contentKeyID: 48546563
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Connections.Count property (DAO)

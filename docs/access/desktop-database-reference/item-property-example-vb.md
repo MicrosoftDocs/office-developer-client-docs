@@ -1,4 +1,4 @@
-﻿---
+---
 title: Item property example (VB)
 TOCTitle: Item property example (VB)
 ms:assetid: e8d17560-8a0d-7045-d8dc-728a85037c0d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250179(v=office.15)
 ms:contentKeyID: 48548430
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Item property example (VB)

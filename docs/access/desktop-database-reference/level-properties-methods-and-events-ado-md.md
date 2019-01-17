@@ -1,4 +1,4 @@
-﻿---
+---
 title: Level properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 68fd04d9-f0e7-4425-7388-802337a6c1da
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249413(v=office.15)
 ms:contentKeyID: 48545401
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Level properties, methods, and events (ADO MD)

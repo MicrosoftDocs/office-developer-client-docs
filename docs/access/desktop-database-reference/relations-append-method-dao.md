@@ -1,4 +1,4 @@
-﻿---
+---
 title: Relations.Append method (DAO)
 TOCTitle: Append Method
 ms:assetid: dafcc7b8-b30d-2ba2-631d-eca0f882fc2d
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052904
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Relations.Append method (DAO)

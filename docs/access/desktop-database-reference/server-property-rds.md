@@ -1,4 +1,4 @@
-﻿---
+---
 title: Server property (RDS)
 TOCTitle: Server property (RDS)
 ms:assetid: 17519dbe-a43a-1d0d-22c1-dc0def2f63ab
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248926(v=office.15)
 ms:contentKeyID: 48543448
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Server property (RDS)

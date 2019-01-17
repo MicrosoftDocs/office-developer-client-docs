@@ -1,4 +1,4 @@
-﻿---
+---
 title: RenameObject macro action
 TOCTitle: RenameObject macro action
 ms:assetid: fee04eb0-23c0-5d57-b903-e1ae54f2d25e
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm165893
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RenameObject macro action

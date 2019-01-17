@@ -1,4 +1,4 @@
-﻿---
+---
 title: Clone method example (VBScript)
 TOCTitle: Clone method example (VBScript)
 ms:assetid: b9d49eb9-8da8-dfd2-1c59-35ac70969850
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249893(v=office.15)
 ms:contentKeyID: 48547357
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Clone method example (VBScript)

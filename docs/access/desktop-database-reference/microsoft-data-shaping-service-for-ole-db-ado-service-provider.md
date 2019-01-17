@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft Data Shaping Service for OLE DB (ADO Service Provider)
 TOCTitle: Microsoft Data Shaping Service for OLE DB (ADO Service Provider)
 ms:assetid: 6e6e5f39-6f43-7c7b-5812-796096d1d31b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249436(v=office.15)
 ms:contentKeyID: 48545511
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Microsoft Data Shaping Service for OLE DB (ADO Service Provider)

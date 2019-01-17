@@ -1,4 +1,4 @@
-﻿---
+---
 title: PageSize property (ADO)
 TOCTitle: PageSize property (ADO)
 ms:assetid: da56edd8-8947-aeff-2ef5-a8535c66575b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250099(v=office.15)
 ms:contentKeyID: 48548079
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # PageSize property (ADO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.Synchronize method (DAO)
 TOCTitle: Synchronize Method
 ms:assetid: 5e716a4a-2430-8106-5c34-a02dd28bc4f6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053357
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.Synchronize method (DAO)

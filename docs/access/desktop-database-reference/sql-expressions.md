@@ -1,4 +1,4 @@
-﻿---
+---
 title: SQL expressions (Access desktop database reference)
 TOCTitle: SQL expressions
 ms:assetid: 91722f18-8589-d9fc-79ef-0be4ab11f822
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197629(v=office.15)
 ms:contentKeyID: 48546349
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # SQL expressions

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine methods (DAO)
 TOCTitle: Methods
 ms:assetid: 8a32c55b-2b72-45be-b907-2efb345677f2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125212(v=office.15)
 ms:contentKeyID: 52073337
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DBEngine methods (DAO)

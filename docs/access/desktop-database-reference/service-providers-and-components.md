@@ -1,4 +1,4 @@
-﻿---
+---
 title: Service providers and components
 TOCTitle: Service Providers and Components
 ms:assetid: e42d9c84-525a-4aca-01b2-88e3f2b0717f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250163(v=office.15)
 ms:contentKeyID: 48548333
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Service providers and components

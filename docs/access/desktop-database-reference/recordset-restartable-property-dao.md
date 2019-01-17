@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Restartable property (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 00def49d-ea7e-6cd5-2f4a-914a1ddcdd51
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052926
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.Restartable property (DAO)

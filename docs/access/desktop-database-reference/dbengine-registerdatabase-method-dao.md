@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.RegisterDatabase method (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052938
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.RegisterDatabase method (DAO)

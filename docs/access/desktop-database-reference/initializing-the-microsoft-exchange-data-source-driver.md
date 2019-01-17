@@ -1,4 +1,4 @@
-﻿---
+---
 title: Initializing the Microsoft Exchange Data Source driver
 TOCTitle: Initializing the Microsoft Exchange Data Source driver
 ms:assetid: cf87a746-f846-1a01-f4ec-20a25e335193
@@ -10,6 +10,7 @@ f1_keywords:
 - acmain11.chm1032667
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Initializing the Microsoft Exchange Data Source driver

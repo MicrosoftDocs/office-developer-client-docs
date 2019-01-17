@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using Visual C++ Extensions
 TOCTitle: Using Visual C++ Extensions
 ms:assetid: 0fb1014c-7ab6-6add-d09f-e5e48b2b32cb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248866(v=office.15)
 ms:contentKeyID: 48543270
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Using Visual C++ Extensions

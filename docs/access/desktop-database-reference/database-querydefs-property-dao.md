@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.QueryDefs property (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: f589eb3c-658f-9bd1-423a-5a641f19b9fa
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053179
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.QueryDefs property (DAO)

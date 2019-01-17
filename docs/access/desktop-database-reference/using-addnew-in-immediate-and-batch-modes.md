@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using AddNew in Immediate and Batch Modes
 TOCTitle: Using AddNew in Immediate and Batch Modes
 ms:assetid: 1dc32284-9514-083d-ce56-58abbafa7bb7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248970(v=office.15)
 ms:contentKeyID: 48543602
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Using AddNew in Immediate and Batch modes

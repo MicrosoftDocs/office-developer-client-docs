@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetField macro action
 TOCTitle: SetField macro action
 ms:assetid: 66bd26e3-e8c3-b9a1-2f16-f29adc44a345
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195227(v=office.15)
 ms:contentKeyID: 48545349
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # SetField macro action

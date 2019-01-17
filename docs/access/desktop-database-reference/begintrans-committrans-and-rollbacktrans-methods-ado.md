@@ -1,4 +1,4 @@
-﻿---
+---
 title: BeginTrans, CommitTrans, and RollbackTrans methods (ADO)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods (ADO)
 ms:assetid: 9a0415f0-9424-8d1c-4779-92e932292d46
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249694(v=office.15)
 ms:contentKeyID: 48546529
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # BeginTrans, CommitTrans, and RollbackTrans methods (ADO)

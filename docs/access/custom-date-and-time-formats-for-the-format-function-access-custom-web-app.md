@@ -3,9 +3,9 @@ title: "Custom date and time formats for the Format function (Access custom web 
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
-localization_priority: Normal
 ms.assetid: f7d15fe6-bdad-4f1f-aa18-12a21fc111c4
 description: "Learn how to control how a date or time is displayed by creating a custom formatting."
+localization_priority: Priority
 ---
 
 # Custom date and time formats for the Format function (Access custom web app)

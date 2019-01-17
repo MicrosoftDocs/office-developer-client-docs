@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetString method example (VC++)
 TOCTitle: GetString method example (VC++)
 ms:assetid: 2f82bfcb-5bb1-275f-e53b-155a8a155980
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249078(v=office.15)
 ms:contentKeyID: 48544007
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # GetString method example (VC++)

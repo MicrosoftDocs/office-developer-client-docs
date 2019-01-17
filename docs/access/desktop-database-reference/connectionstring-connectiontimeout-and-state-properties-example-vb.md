@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConnectionString, ConnectionTimeout, and State properties example (VB)
 TOCTitle: ConnectionString, ConnectionTimeout, and State properties example (VB)
 ms:assetid: abdd0262-8647-d545-60e0-13f99337df06
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249796(v=office.15)
 ms:contentKeyID: 48546984
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ConnectionString, ConnectionTimeout, and State properties example (VB)

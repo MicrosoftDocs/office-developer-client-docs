@@ -7,9 +7,9 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
 ms.assetid: ca06502c-884c-c1ad-d2c9-31f2b2b30ae5
 description: "This reference contains conceptual overviews, programming tasks, samples, and references to guide you in developing solutions based on Visio 2013."
+localization_priority: Priority
 ---
 
 # Visio ShapeSheet reference

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field.ValidateOnSet property (DAO)
 TOCTitle: ValidateOnSet Property
 ms:assetid: 00245a8a-a78f-b0a8-3eb3-11dd27873984
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052929
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field.ValidateOnSet property (DAO)

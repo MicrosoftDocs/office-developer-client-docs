@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveCommand property example (VB)
 TOCTitle: ActiveCommand property example (VB)
 ms:assetid: 831032cb-d557-aa98-5637-07bad65f924a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249569(v=office.15)
 ms:contentKeyID: 48545999
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ActiveCommand property example (VB)

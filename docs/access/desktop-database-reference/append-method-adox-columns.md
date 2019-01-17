@@ -1,4 +1,4 @@
-﻿---
+---
 title: Append method (ADOX Columns)
 TOCTitle: Append method (ADOX Columns)
 ms:assetid: e256a478-abc0-f15b-fc29-1b52e354144a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250152(v=office.15)
 ms:contentKeyID: 48548285
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Append method (ADOX Columns)

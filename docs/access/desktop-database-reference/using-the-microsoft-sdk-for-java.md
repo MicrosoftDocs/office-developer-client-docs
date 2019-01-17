@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using the Microsoft SDK for Java
 TOCTitle: Using the Microsoft SDK for Java
 ms:assetid: 35a1adb2-06d6-ff45-f151-f1f60ff9bfe2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249116(v=office.15)
 ms:contentKeyID: 48544152
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Using the Microsoft SDK for Java

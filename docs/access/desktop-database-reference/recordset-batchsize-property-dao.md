@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.BatchSize property (DAO)
 TOCTitle: BatchSize Property
 ms:assetid: f03dc505-682f-4b60-62f2-1bd088d873c4
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101179
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.BatchSize property (DAO)

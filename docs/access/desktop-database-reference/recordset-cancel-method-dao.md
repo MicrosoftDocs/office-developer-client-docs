@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Cancel method (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 89acfbf1-b937-dc19-ada1-6f8f50489147
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197080(v=office.15)
 ms:contentKeyID: 48546169
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset.Cancel method (DAO)

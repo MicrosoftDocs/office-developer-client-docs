@@ -1,4 +1,4 @@
-﻿---
+---
 title: Transaction Processing
 TOCTitle: Transaction Processing
 ms:assetid: 7cacf3bb-e523-8739-f9ff-c8663c9ddfeb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249523(v=office.15)
 ms:contentKeyID: 48545842
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Transaction processing

@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenTable macro action
 TOCTitle: OpenTable macro action
 ms:assetid: 4220ad3a-d064-0034-2806-ec1a447cebac
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm149011
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OpenTable macro action

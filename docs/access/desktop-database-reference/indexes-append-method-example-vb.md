@@ -1,4 +1,4 @@
-﻿---
+---
 title: Indexes Append method example (VB)
 TOCTitle: Indexes Append method example (VB)
 ms:assetid: 71b18a5b-d000-5184-afac-c5d26b7f17e8
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249454(v=office.15)
 ms:contentKeyID: 48545591
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Indexes Append method example (VB)

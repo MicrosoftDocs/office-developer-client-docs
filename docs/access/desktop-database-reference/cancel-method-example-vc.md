@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cancel method example (VC++)
 TOCTitle: Cancel method example (VC++)
 ms:assetid: bb5edaeb-0361-3b83-7483-bb43c5cb083f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249900(v=office.15)
 ms:contentKeyID: 48547393
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Cancel method example (VC++)

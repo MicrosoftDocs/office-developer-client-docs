@@ -1,4 +1,4 @@
-﻿---
+---
 title: MaxRecords property (ADO)
 TOCTitle: MaxRecords property (ADO)
 ms:assetid: 424b2d41-073a-3fbe-30aa-99fac94f9a81
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249195(v=office.15)
 ms:contentKeyID: 48544475
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # MaxRecords property (ADO)

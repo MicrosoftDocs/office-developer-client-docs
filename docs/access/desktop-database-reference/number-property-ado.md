@@ -1,4 +1,4 @@
-﻿---
+---
 title: Number property (ADO)
 TOCTitle: Number property (ADO)
 ms:assetid: b5103af5-356b-ec74-cd62-86e59467d491
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249868(v=office.15)
 ms:contentKeyID: 48547243
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Number property (ADO)

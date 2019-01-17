@@ -1,4 +1,4 @@
-﻿---
+---
 title: Persisting records in XML format
 TOCTitle: Persisting records in XML format
 ms:assetid: 8071e244-60c7-759c-094c-152add5d72e4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249545(v=office.15)
 ms:contentKeyID: 48545924
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Persisting records in XML format

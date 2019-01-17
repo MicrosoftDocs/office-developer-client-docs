@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.Version property (DAO)
 TOCTitle: Version Property
 ms:assetid: b2807dc1-604f-4423-289a-ff38a3d9f31b
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052986
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.Version property (DAO)

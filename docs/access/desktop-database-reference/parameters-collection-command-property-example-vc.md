@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parameters Collection, Command property example (VC++)
 TOCTitle: Parameters Collection, Command property example (VC++)
 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
 ms:contentKeyID: 48545237
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Parameters Collection, Command property example (VC++)

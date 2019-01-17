@@ -1,4 +1,4 @@
-﻿---
+---
 title: AddNew method example (VC++)
 TOCTitle: AddNew method example (VC++)
 ms:assetid: 137cdc3e-2def-36e4-b71d-625fdf0147c1
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248909(v=office.15)
 ms:contentKeyID: 48543370
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # AddNew method example (VC++)

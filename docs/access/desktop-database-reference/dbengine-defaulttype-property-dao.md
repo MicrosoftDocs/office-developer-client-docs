@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.DefaultType property (DAO)
 TOCTitle: DefaultType Property
 ms:assetid: b4371f3e-1ce0-1d0f-93a8-0c5329b510ab
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053580
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.DefaultType property (DAO)

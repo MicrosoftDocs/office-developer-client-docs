@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Updatable property (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 2d4bdcef-1b10-b542-ce0f-6172c271131b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192110(v=office.15)
 ms:contentKeyID: 48543968
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset.Updatable property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: The Limits of a Recordset
 TOCTitle: The Limits of a Recordset
 ms:assetid: 51e27c95-e0c3-7fdc-ac11-891553620376
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249266(v=office.15)
 ms:contentKeyID: 48544833
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Limits of a Recordset

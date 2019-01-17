@@ -1,4 +1,4 @@
-﻿---
+---
 title: Resync method (ADO)
 TOCTitle: Resync method (ADO)
 ms:assetid: f594a200-56e6-fcf5-9b0a-900c56377f24
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250251(v=office.15)
 ms:contentKeyID: 48548717
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Resync method (ADO)

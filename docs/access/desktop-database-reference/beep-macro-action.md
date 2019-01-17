@@ -1,4 +1,4 @@
-﻿---
+---
 title: Beep macro action (Access desktop database reference)
 TOCTitle: Beep macro action
 ms:assetid: 5ca1600f-7934-3b3d-19fd-f305cda0e5d8
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm11853
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Beep macro action

@@ -1,4 +1,4 @@
-﻿---
+---
 title: VBScript ADO Programming
 TOCTitle: VBScript ADO Programming
 ms:assetid: 24be1c70-8813-ed98-c3e5-fb33a68e7b41
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249019(v=office.15)
 ms:contentKeyID: 48543764
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # VBScript ADO programming

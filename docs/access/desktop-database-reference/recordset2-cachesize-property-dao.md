@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.CacheSize property (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: d8d195cc-6696-0583-31eb-b9988f8b7c6f
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052927
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.CacheSize property (DAO)

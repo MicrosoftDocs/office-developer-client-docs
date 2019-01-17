@@ -1,4 +1,4 @@
-﻿---
+---
 title: Locating the current record
 TOCTitle: Locating the current record
 ms:assetid: b47fa9d6-0381-3d95-fb85-6bf1dd1071c9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249865(v=office.15)
 ms:contentKeyID: 48547228
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Locating the current record

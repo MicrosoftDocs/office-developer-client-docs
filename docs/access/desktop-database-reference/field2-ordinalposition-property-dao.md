@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.OrdinalPosition property (DAO)
 TOCTitle: OrdinalPosition Property
 ms:assetid: 55d89611-ad07-990d-fc33-f81d59472430
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052899
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.OrdinalPosition property (DAO)

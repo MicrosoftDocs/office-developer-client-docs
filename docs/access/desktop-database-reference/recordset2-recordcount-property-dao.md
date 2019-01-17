@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.RecordCount property (DAO)
 TOCTitle: RecordCount Property
 ms:assetid: 77852966-11e9-1773-6e58-53927b84c03b
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052890
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.RecordCount property (DAO)

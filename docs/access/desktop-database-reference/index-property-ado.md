@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index property (ADO)
 TOCTitle: Index property (ADO)
 ms:assetid: 4cc00521-dcb4-19b2-2174-6e0e9bd42e62
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249241(v=office.15)
 ms:contentKeyID: 48544715
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Index property (ADO)

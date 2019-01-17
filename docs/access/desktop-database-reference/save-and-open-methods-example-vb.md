@@ -1,4 +1,4 @@
-﻿---
+---
 title: Save and Open methods example (VB)
 TOCTitle: Save and Open methods example (VB)
 ms:assetid: aecb56b4-3ccd-d8f1-84a9-fd5a40aeca5f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249828(v=office.15)
 ms:contentKeyID: 48547081
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Save and Open methods example (VB)

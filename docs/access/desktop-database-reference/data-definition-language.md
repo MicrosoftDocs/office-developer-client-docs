@@ -1,4 +1,4 @@
-﻿---
+---
 title: Data definition language (Microsoft Access SQL)
 TOCTitle: Data definition language
 ms:assetid: da5e4922-ff35-4f3d-ae67-046b4532ae68
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125729(v=office.15)
 ms:contentKeyID: 52074602
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Data definition language (Microsoft Access SQL)

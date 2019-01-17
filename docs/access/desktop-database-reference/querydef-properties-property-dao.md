@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.Properties property (DAO)
 TOCTitle: Properties Property
 ms:assetid: 91d724bf-8e63-a517-c5be-2b8b382608e0
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053178
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.Properties property (DAO)

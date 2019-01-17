@@ -1,4 +1,4 @@
-﻿---
+---
 title: AddNew method example (JScript)
 TOCTitle: AddNew method example (JScript)
 ms:assetid: b6f7e98d-d34d-dc2a-bdcb-65452f3fe5e9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249882(v=office.15)
 ms:contentKeyID: 48547290
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # AddNew method example (JScript)

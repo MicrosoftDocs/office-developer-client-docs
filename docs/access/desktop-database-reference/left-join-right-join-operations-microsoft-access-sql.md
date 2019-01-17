@@ -1,4 +1,4 @@
-﻿---
+---
 title: LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)
 TOCTitle: LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)
 ms:assetid: 9c10525f-98b1-fd4f-8b40-07a32c5c6502
@@ -8,6 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 dev_langs:
 - sql
+localization_priority: Priority
 ---
 
 # LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)

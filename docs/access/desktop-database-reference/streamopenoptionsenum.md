@@ -1,4 +1,4 @@
-﻿---
+---
 title: StreamOpenOptionsEnum
 TOCTitle: StreamOpenOptionsEnum
 ms:assetid: d4bbd6be-41f1-cdf2-9d8f-b77ce83fb88e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250069(v=office.15)
 ms:contentKeyID: 48547951
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # StreamOpenOptionsEnum

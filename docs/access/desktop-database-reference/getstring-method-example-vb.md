@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetString method example (VB)
 TOCTitle: GetString method example (VB)
 ms:assetid: fa954e48-0810-9d71-4e24-f3ae2839105a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250280(v=office.15)
 ms:contentKeyID: 48548849
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # GetString method example (VB)

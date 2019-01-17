@@ -1,4 +1,4 @@
-﻿---
+---
 title: GoToPage macro action
 TOCTitle: GoToPage macro action
 ms:assetid: 611aadff-83b7-e74d-4093-93fb5ce6e3ab
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm129285
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # GoToPage macro action

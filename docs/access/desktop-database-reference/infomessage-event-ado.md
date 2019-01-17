@@ -1,4 +1,4 @@
-﻿---
+---
 title: InfoMessage event (ADO)
 TOCTitle: InfoMessage event (ADO)
 ms:assetid: 5d4f487f-96c8-4cf6-60ab-583510d3096f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249328(v=office.15)
 ms:contentKeyID: 48545109
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # InfoMessage event (ADO)

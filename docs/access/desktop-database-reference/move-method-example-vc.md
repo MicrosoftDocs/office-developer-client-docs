@@ -1,4 +1,4 @@
-﻿---
+---
 title: Move method example (VC++)
 TOCTitle: Move method example (VC++)
 ms:assetid: 96949c7b-aa40-3b6f-f36e-fed90c4fc45f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249669(v=office.15)
 ms:contentKeyID: 48546451
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Move method example (VC++)

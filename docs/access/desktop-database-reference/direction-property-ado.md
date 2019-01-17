@@ -1,4 +1,4 @@
-﻿---
+---
 title: Direction property (ADO)
 TOCTitle: Direction property (ADO)
 ms:assetid: 51a94abb-7ce9-9adb-2b76-5391eb9f6863
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249262(v=office.15)
 ms:contentKeyID: 48544823
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Direction property (ADO)

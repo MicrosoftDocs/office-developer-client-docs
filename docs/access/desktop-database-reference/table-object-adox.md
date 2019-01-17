@@ -1,4 +1,4 @@
-﻿---
+---
 title: Table object (ADOX)
 TOCTitle: Table object (ADOX)
 ms:assetid: 53a3e2f9-4ec0-8fed-d482-4f995921587b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249273(v=office.15)
 ms:contentKeyID: 48544874
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Table object (ADOX)

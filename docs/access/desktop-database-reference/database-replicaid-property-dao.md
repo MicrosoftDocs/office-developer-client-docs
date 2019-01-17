@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.ReplicaID property (DAO)
 TOCTitle: ReplicaID Property
 ms:assetid: cf2ca8a1-d13f-30e0-2ca1-dd32ac736c56
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053375
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.ReplicaID property (DAO)

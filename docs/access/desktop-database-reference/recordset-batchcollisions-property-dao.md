@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.BatchCollisions property (DAO)
 TOCTitle: BatchCollisions Property
 ms:assetid: 53e5572b-770c-9ea5-31a5-984abdf66faa
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194079(v=office.15)
 ms:contentKeyID: 48544881
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset.BatchCollisions property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SendKeys macro action
 TOCTitle: SendKeys macro action
 ms:assetid: 3b06fcfc-ea64-c780-b5fc-6fc72853f524
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm183441
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SendKeys macro action

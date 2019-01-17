@@ -1,4 +1,4 @@
-﻿---
+---
 title: CommandText property (ADO)
 TOCTitle: CommandText property (ADO)
 ms:assetid: 0debec1c-068f-0aea-fce8-e61aa39c5907
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231123
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # CommandText property (ADO)

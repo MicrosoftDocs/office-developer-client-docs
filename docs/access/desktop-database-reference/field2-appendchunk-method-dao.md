@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.AppendChunk method (DAO)
 TOCTitle: AppendChunk Method
 ms:assetid: 540cd02d-1fc6-81d1-ac08-1e3df72a7208
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052867
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.AppendChunk method (DAO)

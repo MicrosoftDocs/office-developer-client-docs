@@ -1,4 +1,4 @@
-﻿---
+---
 title: Record properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c38c915c-da8f-ce52-cf36-7463829d2278
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
 ms:contentKeyID: 48547573
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Record properties, methods, and events (ADO)

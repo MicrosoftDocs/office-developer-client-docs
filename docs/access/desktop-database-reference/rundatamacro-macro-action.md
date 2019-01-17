@@ -1,4 +1,4 @@
-﻿---
+---
 title: RunDataMacro macro action
 TOCTitle: RunDataMacro macro action
 ms:assetid: fe4ac2f4-7851-7797-ce91-5f2dd3ba4d22
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm168493
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RunDataMacro macro action

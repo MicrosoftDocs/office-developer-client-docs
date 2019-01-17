@@ -1,4 +1,4 @@
-﻿---
+---
 title: Name property (ADO)
 TOCTitle: Name property (ADO)
 ms:assetid: 4b19bd08-ac3c-86f0-471d-06a37a0d4f89
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249234(v=office.15)
 ms:contentKeyID: 48544683
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Name property (ADO)

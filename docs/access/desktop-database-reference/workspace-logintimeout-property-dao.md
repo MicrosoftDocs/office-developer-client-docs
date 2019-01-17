@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace.LoginTimeout property (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 5f03b166-abbc-20de-1a01-3869a9f2907d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
 ms:contentKeyID: 48545151
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Workspace.LoginTimeout property (DAO)

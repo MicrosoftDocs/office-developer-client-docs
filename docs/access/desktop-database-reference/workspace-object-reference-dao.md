@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace object reference (DAO)
 TOCTitle: Workspace
 ms:assetid: 25abb11e-6045-4c74-b59e-127e4011b21a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124071(v=office.15)
 ms:contentKeyID: 52071708
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Workspace object reference (DAO)

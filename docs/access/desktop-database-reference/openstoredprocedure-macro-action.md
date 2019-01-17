@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenStoredProcedure macro action
 TOCTitle: OpenStoredProcedure macro action
 ms:assetid: b14dbb82-7c8a-0ace-e251-46599551a490
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm187628
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OpenStoredProcedure macro action

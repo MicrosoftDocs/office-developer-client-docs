@@ -1,4 +1,4 @@
-﻿---
+---
 title: Initializing the Text Data Source driver
 TOCTitle: Initializing the Text Data Source driver
 ms:assetid: cba0864e-5f94-bf43-4708-b1981e3acaff
@@ -10,6 +10,7 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Initializing the Text Data Source driver

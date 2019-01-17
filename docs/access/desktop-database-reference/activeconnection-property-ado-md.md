@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveConnection property (ADO MD)
 TOCTitle: ActiveConnection property (ADO MD)
 ms:assetid: d09f0f91-5e1d-01ed-4d83-eaf58ff718a2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250043(v=office.15)
 ms:contentKeyID: 48547845
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ActiveConnection property (ADO MD)

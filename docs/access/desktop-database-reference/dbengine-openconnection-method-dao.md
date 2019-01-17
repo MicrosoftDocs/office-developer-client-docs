@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.OpenConnection method (DAO)
 TOCTitle: OpenConnection Method
 ms:assetid: 778a581f-be42-94ee-e5c6-4cbc1843450d
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053574
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.OpenConnection method (DAO)

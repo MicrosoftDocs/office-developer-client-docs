@@ -1,4 +1,4 @@
-﻿---
+---
 title: Container properties (DAO)
 TOCTitle: Properties
 ms:assetid: 78edc02d-68a9-4e9c-84ff-f77cf6ff2754
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161089(v=office.15)
 ms:contentKeyID: 52073051
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Container properties (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.OriginalValue property (DAO)
 TOCTitle: OriginalValue Property
 ms:assetid: 10fed55e-c938-2ae6-8fd2-996745a63da3
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101183
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.OriginalValue property (DAO)

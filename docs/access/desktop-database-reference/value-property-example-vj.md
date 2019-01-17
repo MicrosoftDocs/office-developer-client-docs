@@ -1,4 +1,4 @@
-﻿---
+---
 title: Value property example (VJ++)
 TOCTitle: Value property example (VJ++)
 ms:assetid: 1894c483-f5b0-c83e-35fb-c975ca867fc9
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248934(v=office.15)
 ms:contentKeyID: 48543474
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Value property example (VJ++)

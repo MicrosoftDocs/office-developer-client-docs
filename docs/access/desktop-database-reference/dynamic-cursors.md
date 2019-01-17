@@ -1,4 +1,4 @@
-﻿---
+---
 title: Dynamic cursors (Access desktop database reference)
 TOCTitle: Dynamic cursors
 ms:assetid: ae599d86-6b89-6103-fda1-c899a6138e1d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249823(v=office.15)
 ms:contentKeyID: 48547068
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Dynamic cursors

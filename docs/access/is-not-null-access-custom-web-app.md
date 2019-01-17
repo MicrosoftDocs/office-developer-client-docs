@@ -7,9 +7,9 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
 ms.assetid: b941a0c7-9753-4920-bb6d-cbba94ba9422
 description: "Determines whether a specified expression is NULL."
+localization_priority: Priority
 ---
 
 # IS [NOT] NULL (Access custom web app)

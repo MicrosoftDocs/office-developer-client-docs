@@ -1,4 +1,4 @@
-﻿---
+---
 title: Internet Information Services error codes
 TOCTitle: Internet Information Services error codes
 ms:assetid: 1ed57b89-b471-88e5-e5af-85323dec18d3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248978(v=office.15)
 ms:contentKeyID: 48543625
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Internet Information Services error codes

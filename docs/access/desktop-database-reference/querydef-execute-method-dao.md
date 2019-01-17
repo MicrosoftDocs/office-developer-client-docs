@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.Execute method (DAO)
 TOCTitle: Execute Method
 ms:assetid: ad9e859e-c6fe-496c-a1f2-a000cf4bebcc
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052884
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # QueryDef.Execute method (DAO)

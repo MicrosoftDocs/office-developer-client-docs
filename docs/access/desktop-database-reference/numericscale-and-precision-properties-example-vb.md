@@ -1,4 +1,4 @@
-﻿---
+---
 title: NumericScale and Precision properties example (VB)
 TOCTitle: NumericScale and Precision properties example (VB)
 ms:assetid: 728a76a3-1f80-935b-b6c7-94255ffe0160
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249462(v=office.15)
 ms:contentKeyID: 48545610
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # NumericScale and Precision properties example (VB)

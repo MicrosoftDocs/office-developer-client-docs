@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveCommand property example (VJ++)
 TOCTitle: ActiveCommand property example (VJ++)
 ms:assetid: e7ec73de-1097-ea57-9bdd-27c56263c943
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250176(v=office.15)
 ms:contentKeyID: 48548415
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ActiveCommand property example (VJ++)

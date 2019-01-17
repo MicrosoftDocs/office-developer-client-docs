@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 2a80b994-a135-cd61-3906-17dfa0580110
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192067(v=office.15)
 ms:contentKeyID: 48543910
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset.Name property (DAO)

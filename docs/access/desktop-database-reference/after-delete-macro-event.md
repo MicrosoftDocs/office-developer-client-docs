@@ -1,4 +1,4 @@
-﻿---
+---
 title: After Delete macro event
 TOCTitle: After Delete macro event
 ms:assetid: ecf9e6d4-345f-9b78-eb36-bd526e5df09b
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm15155
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # After Delete macro event

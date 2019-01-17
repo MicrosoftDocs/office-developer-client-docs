@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index.Primary property (DAO)
 TOCTitle: Primary property
 ms:assetid: 90eda1cb-cf7f-9682-9b74-81c27a37af16
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Index.Primary property (DAO)

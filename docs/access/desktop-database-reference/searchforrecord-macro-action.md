@@ -1,4 +1,4 @@
-﻿---
+---
 title: SearchForRecord macro action
 TOCTitle: SearchForRecord macro action
 ms:assetid: a3483c41-adb5-5923-55f4-1a3c4f60cb2f
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm118713
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SearchForRecord macro action

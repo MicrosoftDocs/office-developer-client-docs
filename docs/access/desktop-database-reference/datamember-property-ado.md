@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataMember property (ADO)
 TOCTitle: DataMember property (ADO)
 ms:assetid: f89e1d42-7993-764b-4e8a-2f449903f792
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250263(v=office.15)
 ms:contentKeyID: 48548787
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DataMember property (ADO)

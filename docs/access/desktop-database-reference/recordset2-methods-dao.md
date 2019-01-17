@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2 methods (DAO)
 TOCTitle: Methods
 ms:assetid: 58d1d78a-3e00-456a-970c-87c61bd05faa
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124920(v=office.15)
 ms:contentKeyID: 52072540
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2 methods (DAO)

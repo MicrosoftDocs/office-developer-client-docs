@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.LoginTimeout property (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 81d14153-79c5-7860-b6a8-4079d2d7acf7
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052923
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.LoginTimeout property (DAO)

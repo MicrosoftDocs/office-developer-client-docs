@@ -1,4 +1,4 @@
-﻿---
+---
 title: Status property example (Recordset) (VB)
 TOCTitle: Status property example (Recordset) (VB)
 ms:assetid: 97ddd465-88ed-81dd-3714-1841f1c87611
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249677(v=office.15)
 ms:contentKeyID: 48546476
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Status property example (Recordset) (VB)

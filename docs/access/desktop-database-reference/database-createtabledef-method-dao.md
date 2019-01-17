@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.CreateTableDef method (DAO)
 TOCTitle: CreateTableDef Method
 ms:assetid: d919b44e-ffae-dc4a-f1cc-d01df49987a3
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052968
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Database.CreateTableDef method (DAO)

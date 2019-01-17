@@ -1,4 +1,4 @@
-﻿---
+---
 title: Charset property (ADO)
 TOCTitle: Charset property (ADO)
 ms:assetid: 454f664e-6d62-eec9-487d-882c2f9503b0
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249213(v=office.15)
 ms:contentKeyID: 48544551
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Charset property (ADO)

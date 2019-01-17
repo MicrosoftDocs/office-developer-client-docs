@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field Object - ActiveX Data Objects (ADO)
 TOCTitle: Field object (ADO)
 ms:assetid: 1dbd535e-48ad-a5c8-a1b2-6776c1e3e19d
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248968(v=office.15)
 ms:contentKeyID: 48543600
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Field object (ADO)

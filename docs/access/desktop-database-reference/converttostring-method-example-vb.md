@@ -1,4 +1,4 @@
-﻿---
+---
 title: ConvertToString method example (VB)
 TOCTitle: ConvertToString method example (VB)
 ms:assetid: a75f9d56-7043-34b0-ab78-e146c4a69e15
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249772(v=office.15)
 ms:contentKeyID: 48546875
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ConvertToString method example (VB)

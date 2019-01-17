@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.NextRecordset method (DAO)
 TOCTitle: NextRecordset Method
 ms:assetid: 33288131-d4f3-0159-1736-f401346087f3
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053575
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.NextRecordset method (DAO)

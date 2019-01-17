@@ -1,4 +1,4 @@
-﻿---
+---
 title: Procedures Refresh method example (VB)
 TOCTitle: Procedures Refresh method example (VB)
 ms:assetid: fd6d71cf-7a6b-49d7-220b-dd5b815a92ab
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250300(v=office.15)
 ms:contentKeyID: 48548916
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Procedures Refresh method example (VB)

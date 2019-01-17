@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.FindFirst method (DAO)
 TOCTitle: FindFirst Method
 ms:assetid: 2a18e81a-a9e5-cc1a-50b2-40c1f1b7fa06
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192064(v=office.15)
 ms:contentKeyID: 48543902
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Recordset2.FindFirst method (DAO)

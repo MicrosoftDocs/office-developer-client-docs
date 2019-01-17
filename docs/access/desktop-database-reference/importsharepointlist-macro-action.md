@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImportSharePointList macro action
 TOCTitle: ImportSharePointList macro action
 ms:assetid: 6a633d7d-d81d-0e2e-6c1c-706a552c1bf2
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm152234
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ImportSharePointList macro action

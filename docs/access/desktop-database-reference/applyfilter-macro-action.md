@@ -1,4 +1,4 @@
-﻿---
+---
 title: ApplyFilter macro action
 TOCTitle: ApplyFilter macro action
 ms:assetid: c63988c4-4506-cc51-98f7-478d1f3fe668
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm79035
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ApplyFilter macro action

@@ -1,4 +1,4 @@
-﻿---
+---
 title: WillConnect event (ADO)
 TOCTitle: WillConnect event (ADO)
 ms:assetid: 8b0e9955-4e7a-7af8-ce6c-7a4ba569a5bb
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249611(v=office.15)
 ms:contentKeyID: 48546208
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # WillConnect event (ADO)

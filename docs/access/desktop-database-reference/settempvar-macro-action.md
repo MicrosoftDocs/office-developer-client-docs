@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetTempVar macro action
 TOCTitle: SetTempVar macro action
 ms:assetid: 9c3b7bee-02c5-efbf-1276-4c4a1f7802d9
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm150219
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SetTempVar macro action

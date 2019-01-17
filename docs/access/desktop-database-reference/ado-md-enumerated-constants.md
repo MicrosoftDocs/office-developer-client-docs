@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADO MD enumerated constants
 TOCTitle: ADO MD enumerated constants
 ms:assetid: c08de798-2e55-6c1e-fddf-7b3b1e239a49
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249937(v=office.15)
 ms:contentKeyID: 48547512
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADO MD enumerated constants

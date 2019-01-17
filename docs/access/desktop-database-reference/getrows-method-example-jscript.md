@@ -1,4 +1,4 @@
-﻿---
+---
 title: GetRows method example (JScript)
 TOCTitle: GetRows method example (JScript)
 ms:assetid: 72d7e2d9-1e19-e993-0b0e-5310405c9b75
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249466(v=office.15)
 ms:contentKeyID: 48545620
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # GetRows method example (JScript)

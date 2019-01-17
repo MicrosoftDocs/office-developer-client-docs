@@ -1,4 +1,4 @@
-﻿---
+---
 title: Delete method (ADO Recordset)
 TOCTitle: Delete method (ADO Recordset)
 ms:assetid: 62c39b4d-223e-7b48-6780-6cd272e3114e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249374(v=office.15)
 ms:contentKeyID: 48545246
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Delete method (ADO Recordset)

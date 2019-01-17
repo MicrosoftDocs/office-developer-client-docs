@@ -1,4 +1,4 @@
-﻿---
+---
 title: OriginalValue and UnderlyingValue properties example (VB)
 TOCTitle: OriginalValue and UnderlyingValue properties example (VB)
 ms:assetid: de88d99d-7f2e-8418-b40f-0375b1d90a8e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250127(v=office.15)
 ms:contentKeyID: 48548189
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # OriginalValue and UnderlyingValue properties example (VB)

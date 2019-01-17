@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parameter properties (DAO)
 TOCTitle: Properties
 ms:assetid: 036746ac-c914-48ee-9a5c-f8597e0d4c58
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123518(v=office.15)
 ms:contentKeyID: 52071161
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Parameter properties (DAO)

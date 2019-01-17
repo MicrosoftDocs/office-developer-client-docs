@@ -1,4 +1,4 @@
-﻿---
+---
 title: ImportExportData macro action
 TOCTitle: ImportExportData macro action
 ms:assetid: 2cbde873-8a3d-b15c-4aab-405cddf44cea
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm51789
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ImportExportData macro action

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Type property example (Property) (VB)
 TOCTitle: Type property example (Property) (VB)
 ms:assetid: b3fecd24-e15a-3216-e2c8-0f4ce5655b9c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249858(v=office.15)
 ms:contentKeyID: 48547209
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Type property example (Property) (VB)

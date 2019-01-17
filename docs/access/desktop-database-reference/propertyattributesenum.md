@@ -1,4 +1,4 @@
-﻿---
+---
 title: PropertyAttributesEnum
 TOCTitle: PropertyAttributesEnum
 ms:assetid: cbe93f65-a3ee-4741-1ac7-1c98ac53cdde
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250012(v=office.15)
 ms:contentKeyID: 48547726
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # PropertyAttributesEnum

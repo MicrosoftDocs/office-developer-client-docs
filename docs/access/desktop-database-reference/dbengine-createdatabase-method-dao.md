@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.CreateDatabase method (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: d5821a4b-483a-b8fa-e929-5f036057d8c4
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052972
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.CreateDatabase method (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Property.Inherited property (DAO)
 TOCTitle: Inherited Property
 ms:assetid: 10e624db-2301-b9be-beca-6e8caccf7274
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052991
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Property.Inherited property (DAO)

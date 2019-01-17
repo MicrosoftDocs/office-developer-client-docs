@@ -1,4 +1,4 @@
-﻿---
+---
 title: DROP statement (Microsoft Access SQL)
 TOCTitle: DROP statement (Microsoft Access SQL)
 ms:assetid: a8c79c35-22da-2e6d-88b5-620eb481bb61
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821409(v=office.15)
 ms:contentKeyID: 48546907
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # DROP statement (Microsoft Access SQL)

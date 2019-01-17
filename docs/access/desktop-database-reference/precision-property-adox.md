@@ -1,4 +1,4 @@
-﻿---
+---
 title: Precision property (ADOX)
 TOCTitle: Precision property (ADOX)
 ms:assetid: 5d8ca497-572a-52e0-18aa-f82deaea0813
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249330(v=office.15)
 ms:contentKeyID: 48545117
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Precision property (ADOX)

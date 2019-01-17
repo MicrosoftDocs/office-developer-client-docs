@@ -1,4 +1,4 @@
-﻿---
+---
 title: SQL data types (Access desktop database reference)
 TOCTitle: SQL data types
 ms:assetid: 4fc2dc8c-7825-8fbb-ff91-a0f39ef90115
@@ -10,6 +10,7 @@ f1_keywords:
 - jetsql40.chm5277590
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # SQL data types

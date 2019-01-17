@@ -1,4 +1,4 @@
-﻿---
+---
 title: 'Chapter 14: ADO MD fundamentals'
 TOCTitle: 'Chapter 14: ADO MD fundamentals'
 ms:assetid: 129baa54-0bc1-985d-4bfd-25a1c1c3018e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248899(v=office.15)
 ms:contentKeyID: 48543346
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Chapter 14: ADO MD fundamentals

@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.OpenDatabase method (DAO)
 TOCTitle: OpenDatabase Method
 ms:assetid: 49fca321-5955-3e69-64ea-da191536eadb
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052979
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # DBEngine.OpenDatabase method (DAO)

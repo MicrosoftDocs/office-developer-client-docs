@@ -1,4 +1,4 @@
-﻿---
+---
 title: Find method example (VC++)
 TOCTitle: Find method example (VC++)
 ms:assetid: dc6adb54-48ef-475e-7b52-435ac0fc63ff
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250114(v=office.15)
 ms:contentKeyID: 48548137
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Find method example (VC++)

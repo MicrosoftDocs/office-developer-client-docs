@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.GetRows method (DAO)
 TOCTitle: GetRows method
 ms:assetid: 59f6e4f0-e7b1-db60-31c7-3338b66d3345
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.GetRows method (DAO)

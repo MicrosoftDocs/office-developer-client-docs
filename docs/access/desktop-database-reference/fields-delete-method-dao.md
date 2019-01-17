@@ -1,4 +1,4 @@
-﻿---
+---
 title: Fields.Delete method (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052868
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Fields.Delete method (DAO)

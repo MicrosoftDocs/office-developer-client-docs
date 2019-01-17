@@ -1,4 +1,4 @@
-﻿---
+---
 title: View an ActiveX control About box
 TOCTitle: View an ActiveX control About box
 description: Steps to view the About box.
@@ -11,6 +11,7 @@ f1_keywords:
 - vbaac10.chm4039
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # View an ActiveX control About box

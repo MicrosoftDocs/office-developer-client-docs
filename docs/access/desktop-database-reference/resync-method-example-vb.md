@@ -1,4 +1,4 @@
-﻿---
+---
 title: Resync method example (VB)
 TOCTitle: Resync method example (VB)
 ms:assetid: 831341e9-1aef-cd51-bc49-d3d70fd61471
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249571(v=office.15)
 ms:contentKeyID: 48546001
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Resync method example (VB)

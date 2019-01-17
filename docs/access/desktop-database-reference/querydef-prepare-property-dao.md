@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.Prepare property (DAO)
 TOCTitle: Prepare Property
 ms:assetid: d5a285c4-bd00-028b-b785-f1890db29bab
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101187
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.Prepare property (DAO)

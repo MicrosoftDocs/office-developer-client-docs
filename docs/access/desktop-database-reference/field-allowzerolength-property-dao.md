@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field.AllowZeroLength property (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: 5103a905-9258-e088-0210-857372f41c3c
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052962
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field.AllowZeroLength property (DAO)

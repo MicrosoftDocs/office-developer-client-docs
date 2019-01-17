@@ -1,4 +1,4 @@
-﻿---
+---
 title: ParentCatalog property example (VB)
 TOCTitle: ParentCatalog property example (VB)
 ms:assetid: 3bd01153-40b5-1a45-67e2-eb8154c3fe33
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249152(v=office.15)
 ms:contentKeyID: 48544295
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ParentCatalog property example (VB)

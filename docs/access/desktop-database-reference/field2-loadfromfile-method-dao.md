@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.LoadFromFile method (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101190
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Field2.LoadFromFile method (DAO)

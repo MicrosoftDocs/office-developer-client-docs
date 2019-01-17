@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field2.SaveToFile method (DAO)
 TOCTitle: SaveToFile Method
 ms:assetid: 250f9596-1a03-471d-96f9-718cd57dc94f
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101191
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Field2.SaveToFile method (DAO)

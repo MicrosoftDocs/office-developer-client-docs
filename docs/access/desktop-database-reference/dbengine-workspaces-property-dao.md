@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.Workspaces property (DAO)
 TOCTitle: Workspaces Property
 ms:assetid: 7b4b2a61-b61a-c442-3000-d2fb1419bfd5
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053035
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.Workspaces property (DAO)

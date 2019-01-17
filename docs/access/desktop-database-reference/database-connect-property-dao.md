@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.Connect property (DAO)
 TOCTitle: Connect Property
 ms:assetid: c3e511a6-baef-3758-cfb1-3459b0b19cf3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823048(v=office.15)
 ms:contentKeyID: 48547578
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Database.Connect property (DAO)

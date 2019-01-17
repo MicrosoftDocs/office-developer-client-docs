@@ -1,4 +1,4 @@
-﻿---
+---
 title: RunSavedImportExport macro action
 TOCTitle: RunSavedImportExport macro action
 ms:assetid: b2449c51-ee20-6e50-87f3-a45adc0b0dde
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm3022
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RunSavedImportExport macro action

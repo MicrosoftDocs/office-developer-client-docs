@@ -1,4 +1,4 @@
-﻿---
+---
 title: Connection.Updatable property (DAO)
 TOCTitle: Updatable Property
 ms:assetid: dc3c021e-f6df-c256-b655-8d36317e0b68
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052881
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Connection.Updatable property (DAO)

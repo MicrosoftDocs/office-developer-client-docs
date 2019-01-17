@@ -1,4 +1,4 @@
-﻿---
+---
 title: LockNavigationPane macro action
 TOCTitle: LockNavigationPane macro action
 ms:assetid: abf7a989-c7cf-3efa-8df4-3c5b075d0e5f
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm172454
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # LockNavigationPane macro action

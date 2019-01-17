@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADO MD API reference
 TOCTitle: ADO MD API reference
 ms:assetid: 897193ef-5b7c-78b2-cd88-92d19247fbaf
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249602(v=office.15)
 ms:contentKeyID: 48546163
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADO MD API reference

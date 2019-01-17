@@ -1,4 +1,4 @@
-﻿---
+---
 title: CopyRecord, CopyTo, and SaveToFile methods example (VB)
 TOCTitle: CopyRecord, CopyTo, and SaveToFile methods example (VB)
 ms:assetid: 97f9bdc5-acde-ef74-f96a-d2daeb252911
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249679(v=office.15)
 ms:contentKeyID: 48546479
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CopyRecord, CopyTo, and SaveToFile methods example (VB)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: CompareBookmarks method example (VC++)
 TOCTitle: CompareBookmarks method example (VC++)
 ms:assetid: 41d092dc-da36-7e44-3c25-cc68bffc6f16
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249191(v=office.15)
 ms:contentKeyID: 48544460
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # CompareBookmarks method example (VC++)

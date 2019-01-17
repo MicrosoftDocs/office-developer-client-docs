@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft OLE DB Provider for SQL Server
 TOCTitle: Microsoft OLE DB Provider for SQL Server
 ms:assetid: 0ffdea03-1a76-499b-f649-423f6b3c13d7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248868(v=office.15)
 ms:contentKeyID: 48543282
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Microsoft OLE DB Provider for SQL Server

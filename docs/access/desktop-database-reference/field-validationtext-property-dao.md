@@ -1,4 +1,4 @@
-﻿---
+---
 title: Field.ValidationText property (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6d9ec790-a9d2-84d7-ccba-57d738491e36
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195540(v=office.15)
 ms:contentKeyID: 48545494
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Field.ValidationText property (DAO)

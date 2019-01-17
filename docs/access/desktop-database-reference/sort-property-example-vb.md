@@ -1,4 +1,4 @@
-﻿---
+---
 title: Sort property example (VB)
 TOCTitle: Sort property example (VB)
 ms:assetid: 6f981e5e-7ee8-e1e7-bea9-7c2081400391
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249440(v=office.15)
 ms:contentKeyID: 48545539
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Sort property example (VB)

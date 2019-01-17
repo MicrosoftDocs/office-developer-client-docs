@@ -1,4 +1,4 @@
-﻿---
+---
 title: Create method (ADOX)
 TOCTitle: Create method (ADOX)
 ms:assetid: d4072ee7-a0b9-7780-7be0-1d64b42b437c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250060(v=office.15)
 ms:contentKeyID: 48547924
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Create method (ADOX)

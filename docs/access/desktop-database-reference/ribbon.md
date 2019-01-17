@@ -1,4 +1,4 @@
-﻿---
+---
 title: Ribbon (Access desktop database reference)
 TOCTitle: Ribbon
 ms:assetid: 7314847b-73d2-48d2-87c2-80ddf696f026
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn160996(v=office.15)
 ms:contentKeyID: 52072960
 ms.date: 10/16/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Ribbon

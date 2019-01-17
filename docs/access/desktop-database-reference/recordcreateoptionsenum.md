@@ -1,4 +1,4 @@
-﻿---
+---
 title: RecordCreateOptionsEnum
 TOCTitle: RecordCreateOptionsEnum
 ms:assetid: 153dc8ff-680c-1482-d386-4c4b33ffc589
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248917(v=office.15)
 ms:contentKeyID: 48543405
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # RecordCreateOptionsEnum

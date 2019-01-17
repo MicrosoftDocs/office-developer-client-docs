@@ -1,4 +1,4 @@
-﻿---
+---
 title: DataFactory object (RDSServer)
 TOCTitle: DataFactory object (RDSServer)
 ms:assetid: 1de76cdd-34dc-8547-29aa-48ad6067bdea
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248971(v=office.15)
 ms:contentKeyID: 48543605
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DataFactory object (RDSServer)

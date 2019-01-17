@@ -1,4 +1,4 @@
-﻿---
+---
 title: Shape commands in general
 TOCTitle: Shape commands in general
 ms:assetid: ad555aa7-bc64-b495-a98d-e927061a5809
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249814(v=office.15)
 ms:contentKeyID: 48547039
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Shape commands in general

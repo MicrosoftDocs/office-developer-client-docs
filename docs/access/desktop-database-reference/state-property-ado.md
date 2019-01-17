@@ -1,4 +1,4 @@
-﻿---
+---
 title: State property (ADO)
 TOCTitle: State property (ADO)
 ms:assetid: ade0a50c-e2d8-23ac-4ea9-b012fedcd5db
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231176
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # State property (ADO)

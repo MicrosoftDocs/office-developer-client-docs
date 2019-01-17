@@ -1,4 +1,4 @@
-﻿---
+---
 title: Columns and Tables Append Methods, Name property example (VB)
 TOCTitle: Columns and Tables Append Methods, Name property example (VB)
 ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
 ms:contentKeyID: 48544238
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Columns and Tables Append Methods, Name property example (VB)

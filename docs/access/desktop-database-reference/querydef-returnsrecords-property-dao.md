@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef.ReturnsRecords property (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053005
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # QueryDef.ReturnsRecords property (DAO)

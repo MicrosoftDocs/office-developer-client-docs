@@ -1,4 +1,4 @@
-﻿---
+---
 title: Refresh method (ADO)
 TOCTitle: Refresh method (ADO)
 ms:assetid: f1c8829f-9c7d-12b6-7470-727ff38d663e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250227(v=office.15)
 ms:contentKeyID: 48548631
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Refresh method (ADO)

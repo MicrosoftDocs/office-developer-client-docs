@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADOX code examples in Microsoft Visual Basic
 TOCTitle: ADOX code examples in Microsoft Visual Basic
 ms:assetid: 685ae6cf-4b56-f7af-3210-ab0142a30855
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249407(v=office.15)
 ms:contentKeyID: 48545383
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADOX code examples in Microsoft Visual Basic

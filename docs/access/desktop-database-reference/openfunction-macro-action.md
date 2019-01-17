@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenFunction macro action
 TOCTitle: OpenFunction macro action
 ms:assetid: 0446dbb9-c342-9225-27ba-b8a6892030e1
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm89179
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OpenFunction macro action

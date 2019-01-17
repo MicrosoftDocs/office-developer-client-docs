@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Seek method (DAO)
 TOCTitle: Seek Method
 ms:assetid: ef83d909-c962-b016-7d33-36eacdc25c2c
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053061
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.Seek method (DAO)

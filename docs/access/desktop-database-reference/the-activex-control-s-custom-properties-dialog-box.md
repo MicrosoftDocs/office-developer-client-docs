@@ -1,4 +1,4 @@
-﻿---
+---
 title: ActiveX control custom properties dialog box
 TOCTitle: ActiveX control custom properties dialog box
 description: This custom properties dialog box provides an alternative to the list of properties in the Microsoft Access property sheet for setting ActiveX control properties in Design view.
@@ -11,6 +11,7 @@ f1_keywords:
 - vbaac10.chm4040
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # ActiveX control custom properties dialog box

@@ -1,4 +1,4 @@
-﻿---
+---
 title: MoveFirst, MoveLast, MoveNext, and MovePrevious methods (ADO)
 TOCTitle: MoveFirst, MoveLast, MoveNext, and MovePrevious methods (ADO)
 ms:assetid: d04ce41c-77c9-df42-115a-65c50a38518a
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250039(v=office.15)
 ms:contentKeyID: 48547836
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # MoveFirst, MoveLast, MoveNext, and MovePrevious methods (ADO)

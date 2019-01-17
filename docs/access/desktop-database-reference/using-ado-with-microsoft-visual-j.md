@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using ADO with Microsoft Visual J++
 TOCTitle: Using ADO with Microsoft Visual J++
 ms:assetid: 88630e80-92f0-9a9f-b23a-da7344ce45c8
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249596(v=office.15)
 ms:contentKeyID: 48546135
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Using ADO with Microsoft Visual J++

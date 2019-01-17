@@ -1,4 +1,4 @@
-﻿---
+---
 title: Editing existing records
 TOCTitle: Editing existing records
 ms:assetid: 86b961e0-e0a5-85a2-1138-7ab2e696ec11
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249585(v=office.15)
 ms:contentKeyID: 48546089
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Editing existing records

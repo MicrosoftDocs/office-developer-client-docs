@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.CacheStart property (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 03814312-660a-d8e9-8a7b-bc14d66e05ab
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053171
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.CacheStart property (DAO)

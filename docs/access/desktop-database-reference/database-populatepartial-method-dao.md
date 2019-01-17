@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.PopulatePartial method (DAO)
 TOCTitle: PopulatePartial Method
 ms:assetid: fa3227a2-c961-6a98-32b3-5b6e5329a21d
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1101186
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.PopulatePartial method (DAO)

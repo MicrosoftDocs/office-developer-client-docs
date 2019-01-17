@@ -1,4 +1,4 @@
-﻿---
+---
 title: Document.Name property (DAO)
 TOCTitle: Name Property
 ms:assetid: 7810a441-2d85-fa9e-a27f-9db464cb9cce
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053001
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Document.Name property (DAO)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SetWarnings macro action
 TOCTitle: SetWarnings macro action
 ms:assetid: ff95b919-b1ee-c0a0-851d-71894851bb1d
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm165020
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # SetWarnings macro action

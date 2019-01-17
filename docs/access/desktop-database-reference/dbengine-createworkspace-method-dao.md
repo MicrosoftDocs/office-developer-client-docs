@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine.CreateWorkspace method (DAO)
 TOCTitle: CreateWorkspace Method
 ms:assetid: a7d73771-9420-0448-99e6-d6c4aa78683a
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052966
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # DBEngine.CreateWorkspace method (DAO)

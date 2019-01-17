@@ -1,4 +1,4 @@
-﻿---
+---
 title: FindNextRecord macro action
 TOCTitle: FindNextRecord macro action
 ms:assetid: 57fb6457-9098-4e81-c693-78ccd262ce0b
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm89832
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # FindNextRecord macro action

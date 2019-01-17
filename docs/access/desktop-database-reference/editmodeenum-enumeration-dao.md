@@ -1,4 +1,4 @@
-﻿---
+---
 title: EditModeEnum enumeration (DAO)
 TOCTitle: EditModeEnum Enumeration
 ms:assetid: 738ab5b7-75dc-2e45-45f2-eb64cc7e9527
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
 ms:contentKeyID: 48545641
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # EditModeEnum enumeration (DAO)

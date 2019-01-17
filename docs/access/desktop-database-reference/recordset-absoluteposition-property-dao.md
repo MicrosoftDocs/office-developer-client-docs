@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.AbsolutePosition property (DAO)
 TOCTitle: AbsolutePosition Property
 ms:assetid: c35c0c07-f789-524b-0a3d-dfd18fa6eebc
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff823038(v=office.15)
 ms:contentKeyID: 48547569
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Recordset.AbsolutePosition property (DAO)

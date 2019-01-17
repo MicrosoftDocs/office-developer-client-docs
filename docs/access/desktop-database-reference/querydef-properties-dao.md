@@ -1,4 +1,4 @@
-﻿---
+---
 title: QueryDef properties (DAO)
 TOCTitle: Properties
 ms:assetid: 6b5687aa-1a67-4c3a-b9b4-ae90ada81326
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142365(v=office.15)
 ms:contentKeyID: 52072842
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # QueryDef properties (DAO)

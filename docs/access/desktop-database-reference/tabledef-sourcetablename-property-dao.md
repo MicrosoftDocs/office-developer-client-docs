@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.SourceTableName property (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052901
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TableDef.SourceTableName property (DAO)

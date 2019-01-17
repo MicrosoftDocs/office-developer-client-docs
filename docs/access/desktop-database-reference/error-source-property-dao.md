@@ -1,4 +1,4 @@
-﻿---
+---
 title: Error.Source property (DAO)
 TOCTitle: Source Property
 ms:assetid: 3c101cac-278e-025e-55a4-8a9d1ee7db3c
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053360
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Error.Source property (DAO)

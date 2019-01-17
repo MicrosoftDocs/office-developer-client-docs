@@ -1,4 +1,4 @@
-﻿---
+---
 title: Using ADO with Microsoft Visual Basic
 TOCTitle: Using ADO with Microsoft Visual Basic
 ms:assetid: 5e0fb2ec-42aa-e181-386f-099607ac7400
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249338(v=office.15)
 ms:contentKeyID: 48545130
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Using ADO with Microsoft Visual Basic

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Microsoft OLE DB Provider for Microsoft Jet
 TOCTitle: Microsoft OLE DB Provider for Microsoft Jet
 ms:assetid: 4a210d72-8c90-aa7c-4621-1a555a30a2d2
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249228(v=office.15)
 ms:contentKeyID: 48544660
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Microsoft OLE DB Provider for Microsoft Jet

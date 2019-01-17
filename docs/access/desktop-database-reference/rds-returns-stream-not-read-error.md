@@ -1,4 +1,4 @@
-﻿---
+---
 title: RDS returns "Stream Not Read" error
 TOCTitle: RDS returns "Stream Not Read" error
 ms:assetid: 325f7b9d-8e71-bc2c-94e3-b4b4a1a2dc58
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249097(v=office.15)
 ms:contentKeyID: 48544075
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # RDS returns \"Stream Not Read\" error

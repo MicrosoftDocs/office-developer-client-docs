@@ -1,4 +1,4 @@
-﻿---
+---
 title: Error.Description property (DAO)
 TOCTitle: Description Property
 ms:assetid: 47a84bec-3258-f2c7-e1af-239da39844dc
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053358
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Error.Description property (DAO)

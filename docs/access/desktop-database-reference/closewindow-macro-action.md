@@ -1,4 +1,4 @@
-﻿---
+---
 title: CloseWindow macro action
 TOCTitle: CloseWindow macro action
 ms:assetid: ba96bc26-7f3f-fd3d-8d3a-e18bfe90cdf0
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm64319
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # CloseWindow macro action

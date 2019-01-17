@@ -1,4 +1,4 @@
-﻿---
+---
 title: Properties object reference (DAO)
 TOCTitle: Properties Object
 ms:assetid: dbd58d66-9566-41cd-82e2-bfc0c8778867
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125748(v=office.15)
 ms:contentKeyID: 52074621
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Properties object reference (DAO)

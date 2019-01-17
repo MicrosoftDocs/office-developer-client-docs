@@ -1,4 +1,4 @@
-﻿---
+---
 title: RecordTypeEnum (Access desktop database reference)
 TOCTitle: RecordTypeEnum
 ms:assetid: 7edd6508-1507-4649-f1aa-03f1873ef09c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249534(v=office.15)
 ms:contentKeyID: 48545890
 ms.date: 10/18/2018
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # RecordTypeEnum

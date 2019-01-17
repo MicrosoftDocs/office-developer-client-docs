@@ -1,4 +1,4 @@
-﻿---
+---
 title: RecordType property (ADO)
 TOCTitle: RecordType property (ADO)
 ms:assetid: a42001a6-7312-162d-dd71-c82f8c9d527f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249762(v=office.15)
 ms:contentKeyID: 48546806
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # RecordType property (ADO)

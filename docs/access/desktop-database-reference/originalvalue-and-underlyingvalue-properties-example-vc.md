@@ -1,4 +1,4 @@
-﻿---
+---
 title: OriginalValue and UnderlyingValue properties example (VC++)
 TOCTitle: OriginalValue and UnderlyingValue properties example (VC++)
 ms:assetid: b51a05f7-e85f-a5e4-e9ae-ec7461eaaf6e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249869(v=office.15)
 ms:contentKeyID: 48547246
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # OriginalValue and UnderlyingValue properties example (VC++)

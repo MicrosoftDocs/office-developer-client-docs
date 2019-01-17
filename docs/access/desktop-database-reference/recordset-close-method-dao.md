@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Close method (DAO)
 TOCTitle: Close Method
 ms:assetid: e76a81c6-ca0d-e310-c1dc-cbc5d6f6248b
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836011(v=office.15)
 ms:contentKeyID: 48548404
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Recordset.Close method (DAO)

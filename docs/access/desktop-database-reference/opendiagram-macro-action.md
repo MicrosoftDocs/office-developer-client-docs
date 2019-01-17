@@ -1,4 +1,4 @@
-﻿---
+---
 title: OpenDiagram macro action
 TOCTitle: OpenDiagram macro action
 ms:assetid: 408e7224-02bb-335a-b1b9-cbccbf6e36ec
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm154095
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OpenDiagram macro action

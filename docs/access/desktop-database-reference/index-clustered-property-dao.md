@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index.Clustered property (DAO)
 TOCTitle: Clustered Property
 ms:assetid: dd0876a9-b7fe-c8c8-e675-5ed758ce5bd3
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052930
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Index.Clustered property (DAO)

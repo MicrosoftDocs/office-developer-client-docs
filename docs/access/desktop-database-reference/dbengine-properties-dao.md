@@ -1,4 +1,4 @@
-﻿---
+---
 title: DBEngine properties (DAO)
 TOCTitle: Properties
 ms:assetid: 0aca1067-759b-41f4-9c17-affc7315a625
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn123648(v=office.15)
 ms:contentKeyID: 52071290
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # DBEngine properties (DAO)

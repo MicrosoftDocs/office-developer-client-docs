@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.Sort property (DAO)
 TOCTitle: Sort Property
 ms:assetid: 9be9bf62-f713-537e-4df0-3a54d485a523
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053063
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # Recordset.Sort property (DAO)

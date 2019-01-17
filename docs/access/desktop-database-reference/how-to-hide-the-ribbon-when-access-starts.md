@@ -1,4 +1,4 @@
-﻿---
+---
 title: Hide the ribbon when Access starts
 TOCTitle: Hide the ribbon when Access starts
 description: How to load a customized ribbon that hides all of the built-in tabs in Access 2013.
@@ -7,6 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
 ms.date: 10/16/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Hide the ribbon when Access starts

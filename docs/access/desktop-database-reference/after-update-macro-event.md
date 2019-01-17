@@ -1,4 +1,4 @@
-﻿---
+---
 title: After Update macro event
 TOCTitle: After Update macro event
 ms:assetid: 5213793b-8301-0f18-3a12-4e3764c879ac
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm85126
 f1_categories:
 - Office.Version=v15
+localization_priority: Priority
 ---
 
 # After Update macro event

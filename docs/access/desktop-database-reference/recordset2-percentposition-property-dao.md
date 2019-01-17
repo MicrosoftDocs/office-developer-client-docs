@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset2.PercentPosition property (DAO)
 TOCTitle: PercentPosition Property
 ms:assetid: 830a7d26-6817-233f-ce24-80b572c1c100
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052973
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset2.PercentPosition property (DAO)

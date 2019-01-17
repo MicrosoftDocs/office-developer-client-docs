@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.Relations property (DAO)
 TOCTitle: Relations Property
 ms:assetid: 7b2f9cfb-72f2-4641-8af9-3a4d1cd887ce
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052922
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.Relations property (DAO)

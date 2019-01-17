@@ -1,4 +1,4 @@
-﻿---
+---
 title: Update and CancelUpdate methods example (VC++)
 TOCTitle: Update and CancelUpdate methods example (VC++)
 ms:assetid: 3660dafd-940e-f5ac-169e-15faf960742e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249123(v=office.15)
 ms:contentKeyID: 48544167
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Update and CancelUpdate methods example (VC++)

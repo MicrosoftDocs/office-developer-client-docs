@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index.Required property (DAO)
 TOCTitle: Required Property
 ms:assetid: ec8fafc4-8155-c48e-b3c8-2d9be425175a
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052963
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Index.Required property (DAO)

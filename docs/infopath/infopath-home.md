@@ -4,9 +4,9 @@ manager: soliver
 ms.date: 09/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
 ms.assetid: 13aa6de0-3687-4f46-a1b6-a6e3aabf5981
 description: "Find how-to content, technical articles, references, and blog posts for developing solutions and customizing InfoPath."
+localization_priority: Priority
 ---
 
 # InfoPath

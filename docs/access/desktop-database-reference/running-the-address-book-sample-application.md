@@ -1,4 +1,4 @@
-﻿---
+---
 title: Running the Address Book sample application
 TOCTitle: Running the Address Book sample application
 ms:assetid: 5080e601-0aac-93c8-58fe-3ff6b1f6f12c
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249260(v=office.15)
 ms:contentKeyID: 48544798
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Running the Address Book sample application

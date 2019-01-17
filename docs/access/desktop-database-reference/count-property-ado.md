@@ -1,4 +1,4 @@
-﻿---
+---
 title: Count property (ADO)
 TOCTitle: Count property (ADO)
 ms:assetid: b59f9581-ffd1-471d-44fa-3c1bb812e140
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249871(v=office.15)
 ms:contentKeyID: 48547253
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Count property (ADO)

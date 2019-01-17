@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cancel method (ADO)
 TOCTitle: Cancel method (ADO)
 ms:assetid: 747edc04-a5cc-3631-2d0b-82e7e41a76b7
@@ -10,6 +10,7 @@ f1_keywords:
 - ado210.chm1231032
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Cancel method (ADO)

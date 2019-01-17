@@ -1,4 +1,4 @@
-﻿---
+---
 title: Parameters.Refresh method (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 47db1602-e223-985d-881c-b73e2d26acb7
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff193228(v=office.15)
 ms:contentKeyID: 48544607
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Parameters.Refresh method (DAO)

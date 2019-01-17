@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.EOF property (DAO)
 TOCTitle: EOF Property
 ms:assetid: aa82c6f9-89da-1061-437c-8ffb000744b6
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff821459(v=office.15)
 ms:contentKeyID: 48546950
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Recordset.EOF property (DAO)

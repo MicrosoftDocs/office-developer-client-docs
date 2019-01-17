@@ -1,4 +1,4 @@
-﻿---
+---
 title: Refresh method (RDS)
 TOCTitle: Refresh method (RDS)
 ms:assetid: 968baa7c-9128-7155-a1eb-d77aedda6601
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249668(v=office.15)
 ms:contentKeyID: 48546450
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Refresh method (RDS)

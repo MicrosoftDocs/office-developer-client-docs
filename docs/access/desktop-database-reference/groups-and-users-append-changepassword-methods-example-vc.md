@@ -1,4 +1,4 @@
-﻿---
+---
 title: Groups and Users Append, ChangePassword methods example (VC++)
 TOCTitle: Groups and Users Append, ChangePassword methods example (VC++)
 ms:assetid: 4eaaed4f-f5bf-38d0-b984-8e3f344923c5
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249252(v=office.15)
 ms:contentKeyID: 48544759
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Groups and Users Append, ChangePassword methods example (VC++)

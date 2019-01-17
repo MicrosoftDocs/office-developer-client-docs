@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace.Databases property (DAO)
 TOCTitle: Databases Property
 ms:assetid: cd9950e7-f6f9-86d1-208e-18c0e5dcc9aa
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053174
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Workspace.Databases property (DAO)

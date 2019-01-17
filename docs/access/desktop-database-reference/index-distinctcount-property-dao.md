@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index.DistinctCount property (DAO)
 TOCTitle: DistinctCount Property
 ms:assetid: 24cb7247-76b4-1fce-c3c4-892f16634eff
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1053119
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Index.DistinctCount property (DAO)

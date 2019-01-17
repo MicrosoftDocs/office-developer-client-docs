@@ -1,4 +1,4 @@
-﻿---
+---
 title: Cancel method example (VJ++)
 TOCTitle: Cancel method example (VJ++)
 ms:assetid: 319a7894-9e79-a55a-0007-bd5a581ea58f
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249089(v=office.15)
 ms:contentKeyID: 48544058
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Cancel method example (VJ++)

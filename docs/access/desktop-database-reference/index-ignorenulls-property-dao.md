@@ -1,4 +1,4 @@
-﻿---
+---
 title: Index.IgnoreNulls property (DAO)
 TOCTitle: IgnoreNulls Property
 ms:assetid: f49f17b8-d7c1-18ab-07a8-e1be61488519
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052931
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Index.IgnoreNulls property (DAO)

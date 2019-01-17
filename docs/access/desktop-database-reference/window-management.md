@@ -1,4 +1,4 @@
-﻿---
+---
 title: Window management (Access desktop database reference)
 TOCTitle: Window management
 ms:assetid: 3efd1e2a-8bc9-4d8b-b4b4-039fc2d7689e
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124489(v=office.15)
 ms:contentKeyID: 52072113
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Window management

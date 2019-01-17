@@ -1,4 +1,4 @@
-﻿---
+---
 title: ADO code examples in Microsoft Visual J++
 TOCTitle: ADO code examples in Microsoft Visual J++
 ms:assetid: c924a813-0375-3e8e-f9e3-ff5ca51db218
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ADO code examples in Microsoft Visual J++

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Recordset.LastModified property (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052898
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Recordset.LastModified property (DAO)

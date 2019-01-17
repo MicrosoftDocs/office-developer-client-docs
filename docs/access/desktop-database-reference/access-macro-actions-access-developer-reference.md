@@ -1,4 +1,4 @@
-﻿---
+---
 title: Access macro actions (Access Developer Reference)
 TOCTitle: Access macro actions
 ms:assetid: bea73e66-2fd7-41a0-af62-c246c088a2ea
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161227(v=office.15)
 ms:contentKeyID: 52074194
 ms.date: 10/17/2018
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Access macro actions (Access Developer Reference)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: Workspace.OpenDatabase method (DAO)
 TOCTitle: OpenDatabase Method
 ms:assetid: dbb93908-ec3e-f3ee-c4ea-cca48340b4d3
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff835343(v=office.15)
 ms:contentKeyID: 48548108
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Priority
 ---
 
 # Workspace.OpenDatabase method (DAO)

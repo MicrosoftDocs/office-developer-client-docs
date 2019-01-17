@@ -1,4 +1,4 @@
-﻿---
+---
 title: Database.CreateRelation method (DAO)
 TOCTitle: CreateRelation Method
 ms:assetid: e240c7e3-c293-5e19-afcc-34d9a5549c64
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052969
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # Database.CreateRelation method (DAO)

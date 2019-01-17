@@ -1,4 +1,4 @@
-﻿---
+---
 title: OriginalValue and UnderlyingValue properties example (VJ++)
 TOCTitle: OriginalValue and UnderlyingValue properties example (VJ++)
 ms:assetid: 622d0356-e33d-4378-df5e-8f15fa91d260
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249368(v=office.15)
 ms:contentKeyID: 48545233
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # OriginalValue and UnderlyingValue properties example (VJ++)

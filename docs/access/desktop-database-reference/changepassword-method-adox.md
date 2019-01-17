@@ -1,4 +1,4 @@
-﻿---
+---
 title: ChangePassword method (ADOX)
 TOCTitle: ChangePassword method (ADOX)
 ms:assetid: 999826a5-3e6b-b6da-b8f6-d61b9a50ceca
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249690(v=office.15)
 ms:contentKeyID: 48546519
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # ChangePassword method (ADOX)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: OnError macro action
 TOCTitle: OnError macro action
 ms:assetid: 5c6073c4-2c0f-0ed2-83b0-477636e2d81c
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm62274
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # OnError macro action

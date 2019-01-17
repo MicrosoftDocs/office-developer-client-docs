@@ -1,4 +1,4 @@
-﻿---
+---
 title: RunSQL macro action
 TOCTitle: RunSQL macro action
 ms:assetid: 3692142d-f8a8-e194-0b38-051167f46319
@@ -10,6 +10,7 @@ f1_keywords:
 - vbaac10.chm12983
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # RunSQL macro action

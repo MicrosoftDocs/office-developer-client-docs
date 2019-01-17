@@ -1,4 +1,4 @@
-﻿---
+---
 title: Container object reference (DAO)
 TOCTitle: Container Object
 ms:assetid: 494630ce-f71e-4876-990d-088cd8b6e8c4
@@ -6,6 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124656(v=office.15)
 ms:contentKeyID: 52072279
 ms.date: 09/18/2015
 mtps_version: v=office.15
+localization_priority: Normal
 ---
 
 # Container object reference (DAO)

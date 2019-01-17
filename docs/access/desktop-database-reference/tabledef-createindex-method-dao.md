@@ -1,4 +1,4 @@
-﻿---
+---
 title: TableDef.CreateIndex method (DAO)
 TOCTitle: CreateIndex Method
 ms:assetid: 857b25c1-01fa-b926-0c74-7105e71b7505
@@ -10,6 +10,7 @@ f1_keywords:
 - dao360.chm1052970
 f1_categories:
 - Office.Version=v15
+localization_priority: Normal
 ---
 
 # TableDef.CreateIndex method (DAO)
