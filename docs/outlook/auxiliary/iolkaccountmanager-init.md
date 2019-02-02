@@ -38,7 +38,9 @@ _dwFlags_
    - **ACCT_INIT_NO_STORES_CHECK** —Prevents an account (such as an IMAP account) from synchronizing with an associated store. 
     
    - **ACCT_INIT_NOSYNCH_MAPI_ACCTS** —Prevents MAPI services from synchronizing with accounts. 
-    
+   
+   - **ACCT_INIT_NO_NOTIFICATIONS** —Prevents the Account Manager from intercepting broadcast messages intended for other applications. 
+   
    - **OLK_ACCOUNT_NO_FLAGS** —Synchronizes MAPI services with accounts. 
     
 ## Return values
