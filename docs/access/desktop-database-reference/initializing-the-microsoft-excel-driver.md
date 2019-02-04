@@ -138,8 +138,8 @@ The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the follo
 </tbody>
 </table>
 
-
-
+## Using the TypeGuessRows setting for Excel Driver
+When you use Microsoft Excel Driver, you can use the **TypeGuessRows** registry value to configure how many rows are to be checked for the data type. The **TypeGuessRows** value is located under the following registry subkey:
 > [!NOTE]
 > When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
