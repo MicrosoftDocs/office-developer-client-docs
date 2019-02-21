@@ -147,21 +147,21 @@ For an MSI installation of Office
 
 - For 32-bit Office on 32-bit Windows or 64-bit Office on 64-bit Windows:
     
-**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
 
 - For 32-bit Office on 64-bit Windows:
 
-**HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
     
 For a Click-to-Run installation of Office
 
 - For 32-bit Office on 32-bit Windows or 64-bit Office on 64-bit Windows:
     
-**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
 
 - For 32-bit Office on 64-bit Windows:
     
-**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Wow6432Node\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Wow6432Node\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
 
 The default number of rows to be checked is **8** (eight). When you set the **TypeGuessRows** value to **0** (zero), Excel Driver checks the first 16,384 rows for the data type. If you want to check more than 16,384 rows, set **TypeGuessRows** to a value that is based on your desired range. To check all rows, set **TypeGuessRows** to 1,048,576 (the maximum number of rows that are allowed in Excel).
  
