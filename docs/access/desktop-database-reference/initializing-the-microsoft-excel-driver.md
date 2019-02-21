@@ -138,8 +138,88 @@ The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the follo
 </tbody>
 </table>
 
+## Using the TypeGuessRows setting for Excel Driver
+When you use Microsoft Excel Driver, you can use the **TypeGuessRows** registry value to configure how many rows are to be checked for the data type. The **TypeGuessRows** value is located under the following registry subkey:
 
+# [Office 2016](#tab/office-2016)
 
+For an MSI installation of Office
+
+- For 32-bit Office on 32-bit Windows or 64-bit Office on 64-bit Windows:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
+
+- For 32-bit Office on 64-bit Windows:
+
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
+    
+For a Click-to-Run installation of Office
+
+- For 32-bit Office on 32-bit Windows or 64-bit Office on 64-bit Windows:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
+
+- For 32-bit Office on 64-bit Windows:
+    
+  **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\ClickToRun\REGISTRY\MACHINE\Software\Wow6432Node\Microsoft\Office\16.0\Access Connectivity Engine\Engines\Excel**
+
+The default number of rows to be checked is **8** (eight). When you set the **TypeGuessRows** value to **0** (zero), Excel Driver checks the first 16,384 rows for the data type. If you want to check more than 16,384 rows, set **TypeGuessRows** to a value that is based on your desired range. To check all rows, set **TypeGuessRows** to 1,048,576 (the maximum number of rows that are allowed in Excel).
+ 
+The data type is determined by the maximum number of kinds of data that is found. If there is a tie, the data type is determined in the following order:
+
+- Number
+- Currency
+- Date
+- Text
+- Boolean
+
+If data is encountered that doesn’t match the guessed data type for the column, that data is returned as a **Null** value. During an import, if a column has mixed data types, the whole column is cast to the data type that’s set by the **ImportMixedTypes** setting.
+
+# [Office 2013](#tab/office-2013)
+
+For 32-bit Office on 32-bit Windows or 64-bit Office on 64-bit Windows:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
+
+For 32-bit Office on 64-bit Windows:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
+
+The default number of rows to be checked is **8** (eight). When you set the **TypeGuessRows** value to **0** (zero), Excel Driver checks the first 16,384 rows for the data type. If you want to check more than 16,384 rows, set **TypeGuessRows** to a value that is based on your desired range. To check all rows, set **TypeGuessRows** to 1,048,576 (the maximum number of rows that are allowed in Excel).
+ 
+The data type is determined by the maximum number of kinds of data that is found. If there is a tie, the data type is determined in the following order:
+
+- Number
+- Currency
+- Date
+- Text
+- Boolean
+
+If data is encountered that doesn’t match the guessed data type for the column, that data is returned as a **Null** value. During an import, if a column has mixed data types, the whole column is cast to the data type that’s set by the **ImportMixedTypes** setting.
+
+# [Office 2010](#tab/office-2010)
+
+For 32-bit Office on 32-bit Windows or 64-bit Office on 64-bit Windows:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
+
+For 32-bit Office on 64-bit Windows:
+
+**HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Office\15.0\Access Connectivity Engine\Engines\Excel**
+
+The default number of rows to be checked is **8** (eight). When you set the **TypeGuessRows** value to **0** (zero), Excel Driver checks the first 16,384 rows for the data type. If you want to check more than 16,384 rows, set **TypeGuessRows** to a value that is based on your desired range. To check all rows, set **TypeGuessRows** to 1,048,576 (the maximum number of rows that are allowed in Excel).
+ 
+The data type is determined by the maximum number of kinds of data that is found. If there is a tie, the data type is determined in the following order:
+
+- Number
+- Currency
+- Date
+- Text
+- Boolean
+
+If data is encountered that doesn’t match the guessed data type for the column, that data is returned as a **Null** value. During an import, if a column has mixed data types, the whole column is cast to the data type that’s set by the **ImportMixedTypes** setting.
+
+---
 > [!NOTE]
 > When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
