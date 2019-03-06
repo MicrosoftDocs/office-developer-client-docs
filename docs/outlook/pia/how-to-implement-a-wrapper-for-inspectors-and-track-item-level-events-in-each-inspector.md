@@ -103,7 +103,7 @@ class OutlookInspector
     // wrapped ContactItem
     private Outlook.ContactItem m_Contact;
     // wrapped TaskItem      
-    private Outlook.ContactItem m_Task;             
+    private Outlook.TaskItem m_Task;             
 
     // OutlookInspector constructor
     public OutlookInspector(Outlook.Inspector inspector)
