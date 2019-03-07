@@ -34,7 +34,7 @@
       "shared/**/*.md": "GitHub",      
       "visio/**/*.md": "GitHub",
       "word/**/*.md": "GitHub"
-      
+    }
     },
     "feedback_product_url": {
       "azure-data-studio/**/*.md": "https://github.com/microsoft/azuredatastudio/issues/"
