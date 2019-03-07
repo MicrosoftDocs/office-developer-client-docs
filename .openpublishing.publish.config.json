@@ -17,28 +17,6 @@
       "template_folder": "_themes"
     }
   ],
-  "globalMetadata": {
-    "feedback_system": "GitHub",
-    "feedback_github_repo": "MicrosoftDocs/office-developer-client-docs"
-  },
-  "fileMetadata": {
-
-    "feedback_system": {
-      "access/**/*.md": "GitHub",
-      "excel/**/*.md": "GitHub",
-      "infopath/**/*.md": "GitHub",
-      "integration/**/*.md": "GitHub",      
-      "onenote/**/*.md": "GitHub",      
-      "outlook/**/*.md": "GitHub",      
-      "project/**/*.md": "GitHub",      
-      "shared/**/*.md": "GitHub",      
-      "visio/**/*.md": "GitHub",
-      "word/**/*.md": "GitHub"
-    }
-    },
-    "feedback_product_url": {
-      "azure-data-studio/**/*.md": "https://github.com/microsoft/azuredatastudio/issues/"
-    },
   "notification_subscribers": [],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],
