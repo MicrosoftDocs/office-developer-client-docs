@@ -1,5 +1,9 @@
 {
   "redirections": [
+    {
+      "source_path": "docs/shared/handle-high-dpi-and-dpi-scaling-in-your-office-solution.md",
+      "redirect_url": "/office/client-developer/ddpi/handle-high-dpi-and-dpi-scaling-in-your-office-solution"
+    },
   {
     "source_path": "docs/access/desktop-database-reference/adding-data-to-a-recordset-ado.md",
     "redirect_url": "/office/client-developer/access/desktop-database-reference/adding-data-to-a-recordset"
