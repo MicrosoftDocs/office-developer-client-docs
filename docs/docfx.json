@@ -82,7 +82,7 @@
         "access/**/*.md": "None",
         "excel/**/*.md": "None",
         "infopath/**/*.md": "None",
-	      "integration/**/*.md": "None",
+        "integration/**/*.md": "None",
         "onenote/**/*.md": "None",
         "outlook/**/*.md": "None",
         "project/**/*.md": "None",
