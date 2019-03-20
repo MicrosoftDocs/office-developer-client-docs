@@ -78,7 +78,17 @@
         "visio/**.md": "visio"
       },
       "feedback_system": {
-        "ddpi/**/*.md": "GitHub"
+        "ddpi/**/*.md": "GitHub",
+        "access/**/*.md": "None",
+        "excel/**/*.md": "None",
+        "infopath/**/*.md": "None",
+	      "integration/**/*.md": "None",
+        "onenote/**/*.md": "None",
+        "outlook/**/*.md": "None",
+        "project/**/*.md": "None",
+        "shared/**/*.md": "None",
+        "visio/**/*.md": "None",
+        "word/**/*.md": "None"
       }
     },
     "template": [],
