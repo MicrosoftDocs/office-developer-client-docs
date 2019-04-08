@@ -138,8 +138,6 @@ The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the follo
 </tbody>
 </table>
 
-> [!NOTE]
-> When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
 ## Using the TypeGuessRows setting for Excel Driver
 When you use Microsoft Excel Driver, you can use the **TypeGuessRows** registry value to configure how many rows are to be checked for the data type. The **TypeGuessRows** value is located under the following registry subkey:
@@ -223,7 +221,10 @@ The data type is determined by the maximum number of kinds of data that is found
 If data is encountered that doesn’t match the guessed data type for the column, that data is returned as a **Null** value. During an import, if a column has mixed data types, the whole column is cast to the data type that’s set by the **ImportMixedTypes** setting.
 
 ---
+> [!NOTE]
+> When you change Windows Registry settings, you must exit and then restart the database engine for the new settings to take effect.
 
 ## See also
 
 - [Using the TypeGuessRows setting for Excel Driver](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+

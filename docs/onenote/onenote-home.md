@@ -18,17 +18,11 @@ Find how-to content, technical articles, reference content, and blog posts for d
 > [!NOTE]
 > Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).  
   
-### Viewed most
+## Contents
   
 - [OneNote developer reference](onenote-developer-reference.md)
-  
-### Office Add-ins
-  
-- [Get started with OneNote add-ins](https://docs.microsoft.com/office/dev/add-ins/quickstarts/onenote-quickstart)
-  
-- [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
-  
-### Other resources
+   
+## Other resources
   
 - [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
