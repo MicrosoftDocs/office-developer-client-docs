@@ -4395,7 +4395,7 @@
                     - name: Troubleshooting form templates at design time
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
                 - name: Class library reference for InfoPath form templates
-                  href: https://msdn.microsoft.com/library/office/ee526341.aspx
+                  href: https://docs.microsoft.com/en-us/previous-versions/office/infopath-form/ee526341(v=office.15)
             - name: InfoPath developer reference for external automation
               href: infopath/external-automation/infopath-developer-reference-for-external-automation.md
               items:
@@ -4416,7 +4416,7 @@
                   - name: Automating InfoPath from an external application
                     href: infopath/external-automation/automating-infopath-from-an-external-application.md
                 - name: Class library reference for InfoPath external automation
-                  href: https://msdn.microsoft.com/library/office/ff663147.aspx          
+                  href: https://docs.microsoft.com/en-us/previous-versions/office/project-class/ee767707(v=office.15)          
      - name: OneNote
        href: onenote/onenote-home.md
        items:
@@ -10215,7 +10215,7 @@
                  - name: Class library and web service reference
                    href: https://docs.microsoft.com/dotnet/api/index?view=office-project-server
                  - name: JavaScript API reference
-                   href: https://msdn.microsoft.com/library/office/jj712612.aspx
+                   href: https://docs.microsoft.com/en-us/previous-versions/office/project-javascript-api/jj712612(v=office.15)
      - name: Publisher
        href: publisher-home.md
        items: 
