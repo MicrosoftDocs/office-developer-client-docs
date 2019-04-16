@@ -4019,11 +4019,13 @@
         - name: Excel Primary Interop Assembly reference
           href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
         - name: Excel XLL SDK
-          href: excel/welcome-to-the-excel-software-development-kit.md
           items:
+          - name: Overview
+            href: excel/welcome-to-the-excel-software-development-kit.md          
           - name: Getting started
-            href: excel/getting-started-with-the-excel-xll-sdk.md
             items:
+            - name: Overview
+              href: excel/getting-started-with-the-excel-xll-sdk.md            
             - name: Programming with the C API in Excel
               href: excel/programming-with-the-c-api-in-excel.md
             - name: What's new in the C API for Excel
@@ -4031,11 +4033,13 @@
             - name: Known issues
               href: excel/known-issues-in-excel-xll-development.md
           - name: Developing Excel XLLs
-            href: excel/developing-excel-xlls.md
             items:
+            - name: Overview
+              href: excel/developing-excel-xlls.md            
             - name: Excel programming concepts
-              href: excel/excel-programming-concepts.md
               items:
+              - name: Overview
+                href: excel/excel-programming-concepts.md
               - name: Excel commands, functions, and states
                 href: excel/excel-commands-functions-and-states.md
               - name: Excel worksheet and expression evaluation
@@ -4047,8 +4051,9 @@
               - name: Excel recalculation
                 href: excel/excel-recalculation.md
             - name: Working with DLLs
-              href: excel/working-with-dlls.md
               items:
+              - name: Overview
+                href: excel/working-with-dlls.md              
               - name: Developing DLLs
                 href: excel/developing-dlls.md
               - name: Access DLLs in Excel
@@ -4068,8 +4073,9 @@
             - name: Evaluating names and other worksheet formula expressions
               href: excel/evaluating-names-and-other-worksheet-formula-expressions.md
             - name: Multithreading and memory management
-              href: excel/multithreading-and-memory-management.md
               items:
+              - name: Overview
+                href: excel/multithreading-and-memory-management.md
               - name: Memory management in Excel
                 href: excel/memory-management-in-excel.md
               - name: Multithreading and memory contention in Excel
@@ -4091,11 +4097,13 @@
           - name: Developing Excel cluster connectors
             href: excel/developing-excel-cluster-connectors.md
           - name: API function reference
-            href: excel/excel-xll-sdk-api-function-reference.md
             items:
+            - name: Overview
+              href: excel/excel-xll-sdk-api-function-reference.md
             - name: Add-in Manager and XLL interface functions
-              href: excel/add-in-manager-and-xll-interface-functions.md
               items:
+              - name: Overview
+                href: excel/add-in-manager-and-xll-interface-functions.md              
               - name: xlAddInManagerInfo/xlAddInManagerInfo12
                 href: excel/xladdinmanagerinfo-xladdinmanagerinfo12.md
               - name: xlAutoAdd
@@ -4111,15 +4119,17 @@
               - name: xlAutoRemove
                 href: excel/xlautoremove.md
             - name: C API callback functions Excel4, Excel12
-              href: excel/c-api-callback-functions-excel4-excel12.md
               items:
+              - name: Overview
+                href: excel/c-api-callback-functions-excel4-excel12.md              
               - name: Excel4/Excel12
                 href: excel/excel4-excel12.md
               - name: Excel4v/Excel12v
                 href: excel/excel4v-excel12v.md
             - name: Essential and useful C API XLM functions
-              href: excel/essential-and-useful-c-api-xlm-functions.md
               items:
+              - name: Overview
+                href: excel/essential-and-useful-c-api-xlm-functions.md              
               - name: xlfCaller
                 href: excel/xlfcaller.md
               - name: xlfEvaluate
@@ -4141,8 +4151,9 @@
               - name: xlfSetName
                 href: excel/xlfsetname.md
             - name: C API functions that can be called only from a DLL or XLL
-              href: excel/c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md
               items:
+              - name: Overview
+                href: excel/c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md              
               - name: xlAbort
                 href: excel/xlabort.md
               - name: xlAsyncReturn
@@ -4182,8 +4193,9 @@
               - name: xlUDF
                 href: excel/xludf.md
             - name: Functions in the Framework library
-              href: excel/functions-in-the-framework-library.md
               items:
+              - name: Overview
+                href: excel/functions-in-the-framework-library.md              
               - name: debugPrintf
                 href: excel/debugprintf.md
               - name: Excel/Excel12f
@@ -4225,8 +4237,9 @@
               - name: XLOper12ToXLOper
                 href: excel/xloper12toxloper.md
             - name: Functions in the Generic DLL
-              href: excel/functions-in-the-generic-dll.md
               items:
+              - name: Overview
+                href: excel/functions-in-the-generic-dll.md              
               - name: DIALOGMsgProc
                 href: excel/dialogmsgproc.md
               - name: ExcelCursorProc
@@ -4250,8 +4263,9 @@
               - name: FuncFib
                 href: excel/funcfib.md
             - name: Excel cluster connector functions
-              href: excel/excel-cluster-connector-functions.md
               items:
+              - name: Overview
+                href: excel/excel-cluster-connector-functions.md              
               - name: CallUDF
                 href: excel/calludf.md
               - name: CancelOutstandingRequests
@@ -4264,7 +4278,7 @@
                 href: excel/pingsession.md
               - name: ShowOptions
                 href: excel/showoptions.md 
-        - name: Tips for optimizing performance obstructions
+        - name: Tips for optimizing performance obstructions (VBA)
           href: https://docs.microsoft.com/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
      - name: Infopath
        href: infopath/infopath-home.md
