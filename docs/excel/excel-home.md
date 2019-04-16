@@ -1,5 +1,5 @@
 ---
-title: "Excel"
+title: "Develop solutions and customize Excel"
 ms.date: 10/03/2018
 ms.audience: Developer
 ms.topic: overview
@@ -8,7 +8,7 @@ description: "Find how-to content, sample code, SDK and API documentation, VBA r
 localization_priority: Priority
 ---
 
-# Excel
+# Develop solutions and customize Excel
 
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Excel.
   
