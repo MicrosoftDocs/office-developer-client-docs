@@ -613,7 +613,7 @@ Add the following code to the **using** block in the **Main** method of the **Pr
 // Query the XML for the shape to get the Text element, and
 // return the first Text element node.
 IEnumerable<XElement> textElements = from element in startEndShapeXML.Elements()
-                               where element.Name.LocalName = "Text"
+                               where element.Name.LocalName == "Text"
                                select element;
 XElement textElement = textElements.ElementAt(0);
 // Change the shape text, leaving the <cp> element alone.
@@ -626,7 +626,7 @@ textElement.LastNode.ReplaceWith("Start process");
 ' return the first Text element node.
 Dim textElements As IEnumerable(Of XElement) =
     From element In startEndShapeXML.Elements()
-    Where element.Name.LocalName = "Text"
+    Where element.Name.LocalName == "Text"
     Select element
 Dim textElement As XElement = textElements.ElementAt(0)
 ' Change the shape text, leaving the <cp> element alone.
