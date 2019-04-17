@@ -1640,8 +1640,9 @@
             - name: Overview
               href: access/desktop-database-reference/microsoft-activex-data-objects-reference.md
             - name: ADO programmer's guide
-              href: access/desktop-database-reference/ado-programmer-s-guide.md
               items:
+              - name: Overview
+                href: access/desktop-database-reference/ado-programmer-s-guide.md              
               - name: Introduction to ADO
                 href: access/desktop-database-reference/introduction-to-ado-programming.md
                 items:
@@ -2145,8 +2146,9 @@
                   href: access/desktop-database-reference/appendix-d-ado-samples.md
                   items:
             - name: ADO programmer's reference
-              href: access/desktop-database-reference/ado-programmer-s-reference-topics.md
               items:
+              - name: Overview
+                href: access/desktop-database-reference/ado-programmer-s-reference-topics.md              
               - name: ADO API reference
                 href: access/desktop-database-reference/ado-api-reference.md
                 items:
@@ -5207,8 +5209,9 @@
                 - name: Use relative time to access Free/Busy data
                   href: outlook/auxiliary/how-to-use-relative-time-to-access-free-busy-data.md
             - name: Reference
-              href: outlook/auxiliary/reference-outlook-auxiliary-reference.md
               items:
+              - name: Overview
+                href: outlook/auxiliary/reference-outlook-auxiliary-reference.md              
               - name: Account Management API reference
                 href: outlook/auxiliary/account-management-api-reference.md
                 items:
@@ -5544,8 +5547,7 @@
               - name: API elements deprecated in this edition
                 href: outlook/mapi/api-elements-deprecated-in-this-edition.md
             - name: Samples
-              href: outlook/mapi/mapi-samples.md
-              items:
+              items:            
               - name: Overview
                 href: outlook/mapi/mapi-samples.md            
               - name: MFCMAPI as a code sample
@@ -6215,7 +6217,6 @@
                   - name: View folders
                     href: outlook/mapi/mapi-view-folders.md
                 - name: Messages
-                  href: outlook/mapi/mapi-messages.md
                   items:
                   - name: Overview
                     href: outlook/mapi/mapi-messages.md                
@@ -6860,8 +6861,9 @@
                   - name: Loading message store providers
                     href: outlook/mapi/loading-message-store-providers.md
             - name: Reference
-              href: outlook/mapi/mapi-reference.md
               items:
+              - name: Overview
+                href: outlook/mapi/mapi-reference.md              
               - name: Interfaces
                 href: outlook/mapi/mapi-interfaces.md
                 items:
@@ -10485,9 +10487,9 @@
          href: visio/visio-home.md
        - name: Visio VBA reference
          href: https://docs.microsoft.com/office/vba/api/overview/visio
-       - name: Visio Save as Web reference
+       - name: Visio Save as Web reference (VBA)
          href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference
-       - name: Visio Viewer reference
+       - name: Visio Viewer reference (VBA)
          href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference
        - name: Visio ShapeSheet reference
          items:
