@@ -82,6 +82,7 @@ public struct DPI_AWARENESS_CONTEXT
             {
                 this.value = value;
             }
+
             public static implicit operator DPI_AWARENESS_CONTEXT(IntPtr value)
             {
                 return new DPI_AWARENESS_CONTEXT(value);
@@ -92,28 +93,11 @@ public struct DPI_AWARENESS_CONTEXT
                 return context.value;
             }
 
-            public static DPI_AWARENESS_CONTEXT operator -(DPI_AWARENESS_CONTEXT context, long value)
-            {
-                return (IntPtr)(context.value.ToInt64() - value);
-            }
-            public static DPI_AWARENESS_CONTEXT operator -(DPI_AWARENESS_CONTEXT context, int value)
-            {
-                return (IntPtr)(context.value.ToInt32() - value);
-            }
-
-            public static bool operator ==(DPI_AWARENESS_CONTEXT context1, DPI_AWARENESS_CONTEXT context2)
-            {
-                return context1.value == context2;
-            }
-            public static bool operator !=(DPI_AWARENESS_CONTEXT context1, DPI_AWARENESS_CONTEXT context2)
-            {
-                return context1.value != context2;
-            }
-
             public static bool operator ==(IntPtr context1, DPI_AWARENESS_CONTEXT context2)
             {
                 return AreDpiAwarenessContextsEqual(context1, context2);
             }
+
             public static bool operator !=(IntPtr context1, DPI_AWARENESS_CONTEXT context2)
             {
                 return !AreDpiAwarenessContextsEqual(context1, context2);
@@ -128,36 +112,15 @@ public struct DPI_AWARENESS_CONTEXT
             {
                 return base.GetHashCode();
             }
-
-            public override string ToString()
-            {
-                if (this.value == DPI_AWARENESS_CONTEXT_UNAWARE)
-                {
-                    return "Unaware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_SYSTEM_AWARE)
-                {
-                    return "System Aware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE)
-                {
-                    return "Per Monitor Aware";
-                }
-                if (this.value == DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2)
-                {
-                    return "Per Monitor Aware V2";
-                }
-                return "Unknown";
-            }
         }
 
         private static DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_HANDLE = IntPtr.Zero;
 
         public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_INVALID = IntPtr.Zero;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_UNAWARE = DPI_AWARENESS_CONTEXT_HANDLE - 1;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_SYSTEM_AWARE = DPI_AWARENESS_CONTEXT_HANDLE - 2;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE = DPI_AWARENESS_CONTEXT_HANDLE - 3;
-        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 = DPI_AWARENESS_CONTEXT_HANDLE - 4;
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_UNAWARE = new IntPtr(-1);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_SYSTEM_AWARE = new IntPtr(-2);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE = new IntPtr(-3);
+        public static readonly DPI_AWARENESS_CONTEXT DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 = new IntPtr(-4);
 
         public static DPI_AWARENESS_CONTEXT[] DpiAwarenessContexts =
         {
