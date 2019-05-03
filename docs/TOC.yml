@@ -10472,7 +10472,7 @@
                      - name: ProjectData - OData service reference
                        href: https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)
                  - name: Class library and web service reference
-                   href: https://docs.microsoft.com/dotnet/api/index?view=office-project-server
+                   href: https://docs.microsoft.com/en-us/previous-versions/office/project-class/ee767707(v=office.15)
                  - name: JavaScript API reference
                    href: https://docs.microsoft.com/en-us/previous-versions/office/project-javascript-api/jj712612(v=office.15)
      - name: Publisher
