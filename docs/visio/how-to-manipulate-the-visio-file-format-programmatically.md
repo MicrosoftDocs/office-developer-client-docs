@@ -298,7 +298,7 @@ The console application produces output similar to the following (some of the ou
   
 More often than not, you need to select one **PackagePart** without having to iterate over all of them. You can get a **PackagePart** object from a **Package** by using its relationship to the **Package** or another **PackagePart**. A relationship in the Visio 2013 file format is a discrete entity that describes how a document part relates to the file package or how two document parts relate to each other. For example, the Visio 2013 file package itself has a relationship to its Visio Document part, and the Visio Document part has a relationship to the Windows part. These relationships are represented as instances of the [PackageRelationship](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationship.aspx) or [PackageRelationshipCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackageRelationshipCollection.aspx) classes. 
   
-The **Package** class exposes several methods for getting the relationships that it contains as **PackageRelationship** or **PackageRelationshipCollection** objects. You can use the [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) method to instantiate a **PackageRelationshipCollection** object that contains **PackageRelationship** objects of a single specific type. Of course, using the **Package.GetRelationshipsByType** method requires that you already know the relationship type that you need. Relationship types are strings in XML namespace format. For example, the relationship type of the Visio Document part is https://schemas.microsoft.com/visio/2010/relationships/document. 
+The **Package** class exposes several methods for getting the relationships that it contains as **PackageRelationship** or **PackageRelationshipCollection** objects. You can use the [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) method to instantiate a **PackageRelationshipCollection** object that contains **PackageRelationship** objects of a single specific type. Of course, using the **Package.GetRelationshipsByType** method requires that you already know the relationship type that you need. Relationship types are strings in XML namespace format. For example, the relationship type of the Visio Document part is http://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Once you know the relationship of a **PackagePart** to the **Package** or to another **PackagePart** (that is, you have a **PackageRelationship** object that references the **PackagePart** that you want), you can use that relationship to get the URI of that **PackagePart**. You then pass the URI to the **Package.GetPart** method to return the **PackagePart**.
   
@@ -361,14 +361,14 @@ Use the following procedure to get a **PackagePart** (the Visio Document part) b
     ```cs
     // Get a reference to the Visio Document part contained in the file package.
     PackagePart documentPart = GetPackagePart(visioPackage, 
-        "https://schemas.microsoft.com/visio/2010/relationships/document");
+        "http://schemas.microsoft.com/visio/2010/relationships/document");
     
     ```
 
     ```vb
     ' Get a reference to the Visio Document part contained in the file package.
     Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
-        "https://schemas.microsoft.com/visio/2010/relationships/document")
+        "http://schemas.microsoft.com/visio/2010/relationships/document")
     
     ```
 
@@ -433,9 +433,9 @@ Use the following code to get a **PackagePart** from the **Package** by using it
     // Get a reference to the collection of pages in the document, 
     // and then to the first page in the document.
     PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
-        "https://schemas.microsoft.com/visio/2010/relationships/pages");
+        "http://schemas.microsoft.com/visio/2010/relationships/pages");
     PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
-        "https://schemas.microsoft.com/visio/2010/relationships/page");
+        "http://schemas.microsoft.com/visio/2010/relationships/page");
     
     ```
 
@@ -443,9 +443,9 @@ Use the following code to get a **PackagePart** from the **Package** by using it
     ' Get a reference to the collection of pages in the document,
     ' and then to the first page in the document.
     Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
-        "https://schemas.microsoft.com/visio/2010/relationships/pages") 
+        "http://schemas.microsoft.com/visio/2010/relationships/pages") 
     Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
-        "https://schemas.microsoft.com/visio/2010/relationships/page") 
+        "http://schemas.microsoft.com/visio/2010/relationships/page") 
     ```
 
 Before you can make changes to the XML included in a document part, you need to first load the XML document into an object that allows you to read the XML, using the [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) class or [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx) class. Both classes expose methods for tasks such as selecting XML elements contained within the XML documents; creating, reading, and writing attributes; and inserting new XML elements into a document. 
@@ -1001,7 +1001,7 @@ Use the following procedure to create a new Ribbon Extensibility part in the Vis
         // This code adds a new CUSTOM tab to the ribbon for this
         // document. The tab has one group that contains one button.
         XNamespace customUINS = 
-            "https://schemas.microsoft.com/office/2006/01/customui";
+            "http://schemas.microsoft.com/office/2006/01/customui";
         XDocument customUIXDoc = new XDocument(
             new XDeclaration("1.0", "utf-8", "true"),
             new XElement(customUINS + "customUI",
@@ -1035,7 +1035,7 @@ Use the following procedure to create a new Ribbon Extensibility part in the Vis
         ' This code adds a new CUSTOM tab to the ribbon for this
         ' document. The tab has one group that contains one button.
         Dim customUINS As XNamespace = _
-            "https://schemas.microsoft.com/office/2006/01/customui"
+            "http://schemas.microsoft.com/office/2006/01/customui"
         Dim customUIXML = New XDocument( _
             New XDeclaration("1.0", "utf-8", "true"), _
             New XElement(customUINS + "customUI", _
@@ -1127,7 +1127,7 @@ Use the following procedure to create a new Ribbon Extensibility part in the Vis
     CreateNewPackagePart(visioPackage, customUIXML, 
         new Uri("/customUI/customUI1.xml", UriKind.Relative),
         "application/xml",
-        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
+        "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
     ```
 
     ```vb
@@ -1136,7 +1136,7 @@ Use the following procedure to create a new Ribbon Extensibility part in the Vis
     CreateNewPackagePart(visioPackage, customUIXML, _
         New Uri("/customUI/customUI1.xml", UriKind.Relative), _
         "application/xml", _
-        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
+        "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
     ```
 
 4. Choose the F5 key to debug the solution. When the program has completed running, choose any key to exit.
@@ -1153,7 +1153,7 @@ The XML created by the  `CreateCustomUI` method looks like the following.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<customUI xmlns="https://schemas.microsoft.com/office/2006/01/customui">
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="customTab" label="CUSTOM">
