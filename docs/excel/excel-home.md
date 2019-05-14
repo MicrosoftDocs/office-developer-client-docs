@@ -26,6 +26,8 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Get started with Excel add-ins](https://docs.microsoft.com/office/dev/add-ins/excel/excel-add-ins-get-started-overview)
   
 - [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+
+- [Javascript Custom Functions](https://docs.microsoft.com/office/dev/add-ins/excel/custom-functions-overview)
   
 ### Code samples
   
