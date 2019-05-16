@@ -1,6 +1,6 @@
 ---
 title: "Develop solutions and customize Excel"
-ms.date: 10/03/2018
+ms.date: 05/17/2019
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
@@ -26,6 +26,8 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Get started with Excel add-ins](https://docs.microsoft.com/office/dev/add-ins/excel/excel-add-ins-get-started-overview)
   
 - [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+
+- [JavaScript custom functions](https://docs.microsoft.com/office/dev/add-ins/excel/custom-functions-overview)
   
 ### Code samples
   
