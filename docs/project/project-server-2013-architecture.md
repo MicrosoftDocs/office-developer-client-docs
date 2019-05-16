@@ -1,7 +1,7 @@
 ---
 title: "Project Server architecture"
 manager: soliver
-ms.date: 09/17/2015
+ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: "Project Server 2013 integrates project management functionality throughout a SharePoint farm and enables the use of Project Online with a client-side object model (CSOM) and an OData interface for the Reporting data."
@@ -221,7 +221,7 @@ Logical entities such as Resource or Project can span multiple tables, and all t
   
 Project Server data for each instance of Project Web App is stored in a separate Project database with a different name. Client applications that have direct access to Project Server can directly read the reporting tables and views. For remote access, client applications can use the OData interface and the REST interface to get data for reports. Clients should use only the CSOM or the PSI to access the draft, published, and archive tables and views. The Reporting Data Service (RDS, which is not shown in Figure 3) updates the reporting data from published data in nearly real time. The Project database can be located on a separate server.
   
-Schemas are documented only for the reporting tables and views. For an on-premises Project Server installation, you can add reporting tables and views for entities that are not defined in the Project database schema. You can also create separate databases for custom on-premises applications. Modification is not supported for the draft, published, and archive tables and views. Because the Project database is not directly accessible in Project Online, reporting tables and views cannot be modified. However, if you have a SQL Azure account, you can create separate databases for custom use with Project Online.
+Schemas are documented only for the reporting tables and views. For an on-premises Project Server installation, you can add reporting tables and views for entities that are not defined in the Project database schema. You can also create separate databases for custom on-premises applications. Modification is not supported for the draft, published, and archive tables and views. If your custom application or report requires custom SQL objects (for example, tables and views), we recommend that you create these in a custom database. Because the Project database is not directly accessible in Project Online, reporting tables and views cannot be modified. However, if you have a SQL Azure account, you can create separate databases for custom use with Project Online.
   
 ### Event receivers
 <a name="pj15_Architecture_EventHandlers"> </a>
