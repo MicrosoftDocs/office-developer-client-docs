@@ -1,6 +1,6 @@
 ---
 title: "Develop solutions and customize Excel"
-ms.date: 10/03/2018
+ms.date: 05/17/2019
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
