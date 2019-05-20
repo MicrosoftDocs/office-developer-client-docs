@@ -288,7 +288,7 @@ In general, use the object model or the PIA if your solution customizes the Outl
 ![Process Outlook events](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
 ![Automate Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)-->
 
-### Additional scenarios supported by the object model or PIA since Outlook 2007
+### Scenarios supported by the object model or PIA since Outlook 2007
 
 In addition to the baseline scenarios, if your Outlook solution supports any of the scenarios shown in the following list, and your solution is intended to run on Outlook 2007 or a later version but not earlier versions, you can use the object model or the PIA as well. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) interface in the Visual Studio automation object model, and the [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) interface in the Office object model, which you can integrate with the Outlook object model). 
 
@@ -320,7 +320,7 @@ In addition to the baseline scenarios, if your Outlook solution supports any of 
 ![Store private data for solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
 -->
 
-### More scenarios supported by the object model or PIA since Outlook 2010
+### Scenarios supported by the object model or PIA since Outlook 2010
 
 If your Outlook solution is intended to run on Outlook 2010 and not earlier versions, you can choose to use the object model or the PIA to support the scenarios shown in this next section. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility), and [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) interfaces that are in the Office object model, which you can integrate with the Outlook object model). 
    
@@ -342,7 +342,7 @@ If your Outlook solution is intended to run on Outlook 2010 and not earlier vers
 ![Organize solution-specific folders](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
 -->
 
-### Additional scenarios supported by the object model or PIA since Outlook 2013
+### Scenarios supported by the object model or PIA since Outlook 2013
 
 If your solution is intended to run on Outlook 2013 and not any earlier version, you can use the object model or the PIA to support the scenarios shown in the following resources.
 
