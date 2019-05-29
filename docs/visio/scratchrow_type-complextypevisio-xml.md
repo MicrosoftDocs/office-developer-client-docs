@@ -1,5 +1,5 @@
 ---
-title: "ScratchRow_Type complexType ('Visio XML')"
+title: "ScratchRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 35ed6fc0-d737-a931-fddb-7bbb770c8d37
 
 ---
 
-# ScratchRow_Type complexType ('Visio XML')
+# ScratchRow_Type complexType (Visio XML)
 
 ## Type information
 

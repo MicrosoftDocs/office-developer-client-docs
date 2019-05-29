@@ -1,5 +1,5 @@
 ---
-title: "EventList element (VisioDocument_Type complexType) ('Visio XML')"
+title: "EventList element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
 description: "Contains an EventItem element for each event to which an object should respond."
 ---
 
-# EventList element (VisioDocument_Type complexType) ('Visio XML')
+# EventList element (VisioDocument_Type complexType) (Visio XML)
 
 Contains an **EventItem** element for each event to which an object should respond. 
   

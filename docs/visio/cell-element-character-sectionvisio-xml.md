@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Character Section) ('Visio XML')"
+title: "Cell element (Character Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: "Specifies a formatting attribute for a shape's text run, such as font, color, style, case, position relative to the baseline, or point size."
 ---
 
-# Cell element (Character Section) ('Visio XML')
+# Cell element (Character Section) (Visio XML)
 
 Specifies a formatting attribute for a shape's text run, such as font, color, style, case, position relative to the baseline, or point size.
   

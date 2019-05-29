@@ -1,5 +1,5 @@
 ---
-title: "FooterCenter_Type complexType ('Visio XML')"
+title: "FooterCenter_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: e0812437-f6ca-6ab6-734d-a5f44376ac7c
 
 ---
 
-# FooterCenter_Type complexType ('Visio XML')
+# FooterCenter_Type complexType (Visio XML)
 
 ## Type information
 

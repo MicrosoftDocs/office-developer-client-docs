@@ -1,5 +1,5 @@
 ---
-title: "Cell element (RelLineTo Row) ('Visio XML')"
+title: "Cell element (RelLineTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 44d369f0-ab37-75ca-727e-b421d6f95ba7
 description: "Contains x-or y-coordinates of the ending vertex of a straight line segment relative to a shape's width and height."
 ---
 
-# Cell element (RelLineTo Row) ('Visio XML')
+# Cell element (RelLineTo Row) (Visio XML)
 
 Contains x-or y-coordinates of the ending vertex of a straight line segment relative to a shape's width and height.
   

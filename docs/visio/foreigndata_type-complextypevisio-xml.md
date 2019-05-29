@@ -1,5 +1,5 @@
 ---
-title: "ForeignData_Type complexType ('Visio XML')"
+title: "ForeignData_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 21b394a6-6f95-fc17-482c-4cb648a0d9bb
 
 ---
 
-# ForeignData_Type complexType ('Visio XML')
+# ForeignData_Type complexType (Visio XML)
 
 ## Type information
 

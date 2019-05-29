@@ -1,5 +1,5 @@
 ---
-title: "Row element (Layer Section) ('Visio XML')"
+title: "Row element (Layer Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9b884be2-3eed-0864-6a6c-877b43d9065f
 description: "Contains elements that define a single layer and its properties for a page."
 ---
 
-# Row element (Layer Section) ('Visio XML')
+# Row element (Layer Section) (Visio XML)
 
 Contains elements that define a single layer and its properties for a page.
   

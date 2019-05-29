@@ -1,5 +1,5 @@
 ---
-title: "RelCubBezTo_Type complexType ('Visio XML')"
+title: "RelCubBezTo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 004dc563-d089-230f-0055-038b72eebbed
 
 ---
 
-# RelCubBezTo_Type complexType ('Visio XML')
+# RelCubBezTo_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "TabsRow_Type complexType ('Visio XML')"
+title: "TabsRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 8b9258a0-05fa-b0b0-90ed-dc1c4faa288a
 
 ---
 
-# TabsRow_Type complexType ('Visio XML')
+# TabsRow_Type complexType (Visio XML)
 
 ## Type information
 

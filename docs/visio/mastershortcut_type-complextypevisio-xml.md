@@ -1,5 +1,5 @@
 ---
-title: "MasterShortcut_Type complexType ('Visio XML')"
+title: "MasterShortcut_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 0192c733-09b8-d9ce-1d88-b4d97e2e1a36
 
 ---
 
-# MasterShortcut_Type complexType ('Visio XML')
+# MasterShortcut_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "Colors_Type complexType ('Visio XML')"
+title: "Colors_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 09f997b5-1f3c-ddff-41f2-af84960266ff
 
 ---
 
-# Colors_Type complexType ('Visio XML')
+# Colors_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "Geometry_Type complexType ('Visio XML')"
+title: "Geometry_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 115a1499-ae55-f85c-676c-e78f478c4703
 
 ---
 
-# Geometry_Type complexType ('Visio XML')
+# Geometry_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "InfiniteLine_Type complexType ('Visio XML')"
+title: "InfiniteLine_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 4463d388-f5dd-4c43-71d4-82ba216d8d39
 
 ---
 
-# InfiniteLine_Type complexType ('Visio XML')
+# InfiniteLine_Type complexType (Visio XML)
 
 ## Type information
 

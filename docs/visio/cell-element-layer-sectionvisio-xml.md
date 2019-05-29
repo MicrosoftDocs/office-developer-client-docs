@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Layer Section) ('Visio XML')"
+title: "Cell element (Layer Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f9896839-ca36-b82b-7412-e57195d4b8e2
 description: "Specifies one property for a layer or its properties for a page."
 ---
 
-# Cell element (Layer Section) ('Visio XML')
+# Cell element (Layer Section) (Visio XML)
 
 Specifies one property for a layer or its properties for a page.
   

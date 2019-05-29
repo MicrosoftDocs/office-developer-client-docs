@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Connection Row) ('Visio XML')"
+title: "Cell element (Connection Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 7cafaa31-c56b-ebb0-3bfb-c339cc93038e
 description: "Contains the x- or y-coordinates, horizontal or vertical direction, or type for a single connection point on a shape."
 ---
 
-# Cell element (Connection Row) ('Visio XML')
+# Cell element (Connection Row) (Visio XML)
 
 Contains the x- or y-coordinates, horizontal or vertical direction, or type for a single connection point on a shape.
   

@@ -1,5 +1,5 @@
 ---
-title: "Connect element (Connects_Type complexType) ('Visio XML')"
+title: "Connect element (Connects_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
 description: "Represents a connection between two shapes in a drawing, such as a line and a box in an organization chart."
 ---
 
-# Connect element (Connects_Type complexType) ('Visio XML')
+# Connect element (Connects_Type complexType) (Visio XML)
 
 Represents a connection between two shapes in a drawing, such as a line and a box in an organization chart.
   

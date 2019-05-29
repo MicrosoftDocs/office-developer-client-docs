@@ -1,5 +1,5 @@
 ---
-title: "AttachedToolbars_Type complexType ('Visio XML')"
+title: "AttachedToolbars_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 60f6df7a-7953-0087-cca3-779199bb9174
 
 ---
 
-# AttachedToolbars_Type complexType ('Visio XML')
+# AttachedToolbars_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "Schema map ('Visio XML')"
+title: "Schema map (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
 description: "This topic shows the XML schema definition for the Visio 2013 file format."
 ---
 
-# Schema map ('Visio XML')
+# Schema map (Visio XML)
 
 This topic shows the XML schema definition for the Visio 2013 file format.
   

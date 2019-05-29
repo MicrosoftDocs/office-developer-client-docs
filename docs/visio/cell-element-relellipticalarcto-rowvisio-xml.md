@@ -1,5 +1,5 @@
 ---
-title: "Cell element (RelEllipticalArcTo Row) ('Visio XML')"
+title: "Cell element (RelEllipticalArcTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
 description: "Contains x- or y-coordinates of an elliptical arc's endpoint relative to the shape's width and height, x- or y-coordinates of the control points on the arc relative to the shape's width and height, angle from the x-axis to the ellipse's major axis, or ratio between the ellipse's major and minor axes."
 ---
 
-# Cell element (RelEllipticalArcTo Row) ('Visio XML')
+# Cell element (RelEllipticalArcTo Row) (Visio XML)
 
 Contains x- or y-coordinates of an elliptical arc's endpoint relative to the shape's width and height, x- or y-coordinates of the control points on the arc relative to the shape's width and height, angle from the x-axis to the ellipse's major axis, or ratio between the ellipse's major and minor axes.
   

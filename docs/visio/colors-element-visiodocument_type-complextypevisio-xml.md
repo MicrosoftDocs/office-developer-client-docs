@@ -1,5 +1,5 @@
 ---
-title: "Colors element (VisioDocument_Type complexType) ('Visio XML')"
+title: "Colors element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3f439c2d-78be-5f2e-fa5a-f3feb83a0234
 description: "Contains the document's color table."
 ---
 
-# Colors element (VisioDocument_Type complexType) ('Visio XML')
+# Colors element (VisioDocument_Type complexType) (Visio XML)
 
 Contains the document's color table.
   

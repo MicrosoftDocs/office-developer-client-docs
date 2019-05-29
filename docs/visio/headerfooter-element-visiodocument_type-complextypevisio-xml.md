@@ -1,5 +1,5 @@
 ---
-title: "HeaderFooter element (VisioDocument_Type complexType) ('Visio XML')"
+title: "HeaderFooter element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 026926cf-3d0b-984c-897e-9d28346b7ba7
 description: "Contains elements for a document's header and footer."
 ---
 
-# HeaderFooter element (VisioDocument_Type complexType) ('Visio XML')
+# HeaderFooter element (VisioDocument_Type complexType) (Visio XML)
 
 Contains elements for a document's header and footer.
   

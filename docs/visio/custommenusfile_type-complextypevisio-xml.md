@@ -1,5 +1,5 @@
 ---
-title: "CustomMenusFile_Type complexType ('Visio XML')"
+title: "CustomMenusFile_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c129e2d5-1ba1-2248-6d5b-587c35dc0a0c
 
 ---
 
-# CustomMenusFile_Type complexType ('Visio XML')
+# CustomMenusFile_Type complexType (Visio XML)
 
 ## Type information
 

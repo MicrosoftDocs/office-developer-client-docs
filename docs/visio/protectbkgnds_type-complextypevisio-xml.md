@@ -1,5 +1,5 @@
 ---
-title: "ProtectBkgnds_Type complexType ('Visio XML')"
+title: "ProtectBkgnds_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bf2cbdaa-2840-8d0b-da5f-4989bc8cb7d8
 
 ---
 
-# ProtectBkgnds_Type complexType ('Visio XML')
+# ProtectBkgnds_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "RuleFilter element (Rule_Type complexType) ('Visio XML')"
+title: "RuleFilter element (Rule_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: b05497e6-722f-9203-e03c-0f14a712cddb
 description: "Specifies the logical expression that determines whether the validation rule should be applied to a target object."
 ---
 
-# RuleFilter element (Rule_Type complexType) ('Visio XML')
+# RuleFilter element (Rule_Type complexType) (Visio XML)
 
 Specifies the logical expression that determines whether the validation rule should be applied to a target object.
   

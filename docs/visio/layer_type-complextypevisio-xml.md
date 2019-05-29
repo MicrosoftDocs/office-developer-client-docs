@@ -1,5 +1,5 @@
 ---
-title: "Layer_Type complexType ('Visio XML')"
+title: "Layer_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f92ac1cc-fad2-dab9-5507-838c006ed633
 
 ---
 
-# Layer_Type complexType ('Visio XML')
+# Layer_Type complexType (Visio XML)
 
 ## Type information
 

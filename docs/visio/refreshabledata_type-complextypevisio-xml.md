@@ -1,5 +1,5 @@
 ---
-title: "RefreshableData_Type complexType ('Visio XML')"
+title: "RefreshableData_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d715737a-1daa-4c61-e1c6-c997b1b71302
 
 ---
 
-# RefreshableData_Type complexType ('Visio XML')
+# RefreshableData_Type complexType (Visio XML)
 
 ## Type information
 

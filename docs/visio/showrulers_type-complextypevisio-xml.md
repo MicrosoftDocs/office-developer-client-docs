@@ -1,5 +1,5 @@
 ---
-title: "ShowRulers_Type complexType ('Visio XML')"
+title: "ShowRulers_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 7b6da8c6-36ba-ac1e-f766-9b151be1a187
 
 ---
 
-# ShowRulers_Type complexType ('Visio XML')
+# ShowRulers_Type complexType (Visio XML)
 
 ## Type information
 

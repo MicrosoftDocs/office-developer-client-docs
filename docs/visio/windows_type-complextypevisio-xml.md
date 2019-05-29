@@ -1,5 +1,5 @@
 ---
-title: "Windows_Type complexType ('Visio XML')"
+title: "Windows_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2e8257df-4af0-aab1-a979-df9fa8a56f20
 
 ---
 
-# Windows_Type complexType ('Visio XML')
+# Windows_Type complexType (Visio XML)
 
 ## Type information
 

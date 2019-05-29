@@ -1,5 +1,5 @@
 ---
-title: "RefreshableData element (PublishSettings_Type complexType) ('Visio XML')"
+title: "RefreshableData element (PublishSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
 description: "Specifies whether a recordset is refreshable using Visio Services in Microsoft SharePoint Server 2013."
 ---
 
-# RefreshableData element (PublishSettings_Type complexType) ('Visio XML')
+# RefreshableData element (PublishSettings_Type complexType) (Visio XML)
 
 Specifies whether a recordset is refreshable using Visio Services in Microsoft SharePoint Server 2013.
   

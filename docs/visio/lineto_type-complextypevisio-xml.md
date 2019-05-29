@@ -1,5 +1,5 @@
 ---
-title: "LineTo_Type complexType ('Visio XML')"
+title: "LineTo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 15859b84-5486-bb8c-e67e-5d0baaf59ee5
 
 ---
 
-# LineTo_Type complexType ('Visio XML')
+# LineTo_Type complexType (Visio XML)
 
 ## Type information
 

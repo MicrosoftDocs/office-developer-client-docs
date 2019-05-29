@@ -1,5 +1,5 @@
 ---
-title: "PropertyRow_Type complexType ('Visio XML')"
+title: "PropertyRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 813d6dee-b113-c0c9-3f53-c5bfd05b92f2
 
 ---
 
-# PropertyRow_Type complexType ('Visio XML')
+# PropertyRow_Type complexType (Visio XML)
 
 ## Type information
 

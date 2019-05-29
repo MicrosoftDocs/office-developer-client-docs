@@ -1,5 +1,5 @@
 ---
-title: "Row element (Geometry Section) ('Visio XML')"
+title: "Row element (Geometry Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: "Contains rows that list the coordinates of the vertices for the lines and arcs that make up the shape."
 ---
 
-# Row element (Geometry Section) ('Visio XML')
+# Row element (Geometry Section) (Visio XML)
 
 Contains rows that list the coordinates of the vertices for the lines and arcs that make up the shape.
   

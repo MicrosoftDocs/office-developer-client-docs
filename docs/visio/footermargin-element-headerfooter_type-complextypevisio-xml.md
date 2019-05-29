@@ -1,5 +1,5 @@
 ---
-title: "FooterMargin element (HeaderFooter_Type complexType) ('Visio XML')"
+title: "FooterMargin element (HeaderFooter_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 047f42cf-4202-50bd-40b4-a71052e2dfb3
 description: "Specifies the margin of a document's footer."
 ---
 
-# FooterMargin element (HeaderFooter_Type complexType) ('Visio XML')
+# FooterMargin element (HeaderFooter_Type complexType) (Visio XML)
 
 Specifies the margin of a document's footer.
   

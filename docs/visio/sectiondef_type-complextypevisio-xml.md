@@ -1,5 +1,5 @@
 ---
-title: "SectionDef_Type complexType ('Visio XML')"
+title: "SectionDef_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 5ab57bf2-0d9f-4a3a-4882-c77d7c781cbd
 
 ---
 
-# SectionDef_Type complexType ('Visio XML')
+# SectionDef_Type complexType (Visio XML)
 
 ## Type information
 

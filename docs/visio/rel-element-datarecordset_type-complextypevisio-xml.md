@@ -1,5 +1,5 @@
 ---
-title: "Rel element (DataRecordSet_Type complexType) ('Visio XML')"
+title: "Rel element (DataRecordSet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9148c73f-970d-61f8-b5da-e3bc748a6541
 description: "Specifies a relationship to a part with the associated recordset and data binding information."
 ---
 
-# Rel element (DataRecordSet_Type complexType) ('Visio XML')
+# Rel element (DataRecordSet_Type complexType) (Visio XML)
 
 Specifies a relationship to a part with the associated recordset and data binding information.
   

@@ -1,5 +1,5 @@
 ---
-title: "Row element (Scratch Section) ('Visio XML')"
+title: "Row element (Scratch Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bdbaf263-ae57-2807-f100-8d590ab92927
 description: "A work area for entering and testing formulas that can be referred to by other cells."
 ---
 
-# Row element (Scratch Section) ('Visio XML')
+# Row element (Scratch Section) (Visio XML)
 
 A work area for entering and testing formulas that can be referred to by other cells.
   

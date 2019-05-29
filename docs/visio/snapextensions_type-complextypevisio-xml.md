@@ -1,5 +1,5 @@
 ---
-title: "SnapExtensions_Type complexType ('Visio XML')"
+title: "SnapExtensions_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: cabfd202-9e68-5433-bb4f-b235399c528e
 
 ---
 
-# SnapExtensions_Type complexType ('Visio XML')
+# SnapExtensions_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "DataConnections element ('Visio XML')"
+title: "DataConnections element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
 description: "Contains the DataConnection elements for the document."
 ---
 
-# DataConnections element ('Visio XML')
+# DataConnections element (Visio XML)
 
 Contains the **DataConnection** elements for the document. 
   

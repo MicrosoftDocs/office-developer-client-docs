@@ -1,5 +1,5 @@
 ---
-title: "DataRecordSets element ('Visio XML')"
+title: "DataRecordSets element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
 description: "Contains all the DataRecordset elements in the document."
 ---
 
-# DataRecordSets element ('Visio XML')
+# DataRecordSets element (Visio XML)
 
 Contains all the **DataRecordset** elements in the document. 
   

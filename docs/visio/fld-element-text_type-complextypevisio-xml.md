@@ -1,5 +1,5 @@
 ---
-title: "fld element (Text_Type complexType) ('Visio XML')"
+title: "fld element (Text_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 92d90240-012b-9598-c893-6e7085813aa5
 description: "Indicates a text-field insertion point for the corresponding Field element."
 ---
 
-# fld element (Text_Type complexType) ('Visio XML')
+# fld element (Text_Type complexType) (Visio XML)
 
 Indicates a text-field insertion point for the corresponding **Field** element. 
   

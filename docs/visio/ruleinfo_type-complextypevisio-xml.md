@@ -1,5 +1,5 @@
 ---
-title: "RuleInfo_Type complexType ('Visio XML')"
+title: "RuleInfo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9ec3a334-dd0e-acc1-2b4e-026568b6f265
 
 ---
 
-# RuleInfo_Type complexType ('Visio XML')
+# RuleInfo_Type complexType (Visio XML)
 
 ## Type information
 

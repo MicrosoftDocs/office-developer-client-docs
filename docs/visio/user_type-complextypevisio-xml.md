@@ -1,5 +1,5 @@
 ---
-title: "User_Type complexType ('Visio XML')"
+title: "User_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d3970d90-6beb-1f59-256f-ace6a9865b59
 
 ---
 
-# User_Type complexType ('Visio XML')
+# User_Type complexType (Visio XML)
 
 ## Type information
 

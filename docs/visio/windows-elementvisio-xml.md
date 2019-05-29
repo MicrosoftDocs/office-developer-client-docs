@@ -1,5 +1,5 @@
 ---
-title: "Windows element ('Visio XML')"
+title: "Windows element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1880734a-f086-ce6c-5a93-47851bcdd99d
 description: "Contains the Window elements for a document."
 ---
 
-# Windows element ('Visio XML')
+# Windows element (Visio XML)
 
 Contains the **Window** elements for a document. 
   

@@ -1,5 +1,5 @@
 ---
-title: "RowMap element (DataRecordSet_Type complexType) ('Visio XML')"
+title: "RowMap element (DataRecordSet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
 description: "Maps a data-recordset row to a shape."
 ---
 
-# RowMap element (DataRecordSet_Type complexType) ('Visio XML')
+# RowMap element (DataRecordSet_Type complexType) (Visio XML)
 
 Maps a data-recordset row to a shape.
   

@@ -1,5 +1,5 @@
 ---
-title: "ActionTag_Type complexType ('Visio XML')"
+title: "ActionTag_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.assetid: 1bcc17e7-d59d-d392-f299-78d7665202fc
 ---
 
-# ActionTag_Type complexType ('Visio XML')
+# ActionTag_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "RowKeyValue element (PrimaryKey_Type complexType) ('Visio XML')"
+title: "RowKeyValue element (PrimaryKey_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9077ad4b-c539-c0c8-d268-9a009990abdd
 description: "Specifies the value of a primary key for an individual row of a recordset."
 ---
 
-# RowKeyValue element (PrimaryKey_Type complexType) ('Visio XML')
+# RowKeyValue element (PrimaryKey_Type complexType) (Visio XML)
 
 Specifies the value of a primary key for an individual row of a recordset.
   

@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Shape Data Section) ('Visio XML')"
+title: "Cell element (Shape Data Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 98643832-7861-385d-3a52-0060ea413e2e
 description: "Specifies one property of the shape data."
 ---
 
-# Cell element (Shape Data Section) ('Visio XML')
+# Cell element (Shape Data Section) (Visio XML)
 
 Specifies one property of the shape data.
   

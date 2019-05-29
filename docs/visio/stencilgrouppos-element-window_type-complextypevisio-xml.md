@@ -1,5 +1,5 @@
 ---
-title: "StencilGroupPos element (Window_Type complexType) ('Visio XML')"
+title: "StencilGroupPos element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 7440a59b-1c7c-6477-32e7-35188fbd2b39
 description: "Contains an integer that specifies the relative position of a stencil within a group in a window."
 ---
 
-# StencilGroupPos element (Window_Type complexType) ('Visio XML')
+# StencilGroupPos element (Window_Type complexType) (Visio XML)
 
 Contains an integer that specifies the relative position of a stencil within a group in a window.
   

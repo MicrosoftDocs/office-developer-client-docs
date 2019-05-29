@@ -1,5 +1,5 @@
 ---
-title: "DynamicGridEnabled_Type complexType ('Visio XML')"
+title: "DynamicGridEnabled_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2a2a1d47-f065-932a-e90e-7a7c56c7dfe6
 
 ---
 
-# DynamicGridEnabled_Type complexType ('Visio XML')
+# DynamicGridEnabled_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "Shapes element (ShapeSheet_Type complexType) ('Visio XML')"
+title: "Shapes element (ShapeSheet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 85aa7df3-d9bd-acb3-61b3-2bd5fa256435
 description: "Contains a collection of Shape elements."
 ---
 
-# Shapes element (ShapeSheet_Type complexType) ('Visio XML')
+# Shapes element (ShapeSheet_Type complexType) (Visio XML)
 
 Contains a collection of Shape elements.
   

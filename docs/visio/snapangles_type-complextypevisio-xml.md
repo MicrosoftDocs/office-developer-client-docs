@@ -1,5 +1,5 @@
 ---
-title: "SnapAngles_Type complexType ('Visio XML')"
+title: "SnapAngles_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1110a656-d8cd-19d0-1af0-31a6675bf89b
 
 ---
 
-# SnapAngles_Type complexType ('Visio XML')
+# SnapAngles_Type complexType (Visio XML)
 
 ## Type information
 

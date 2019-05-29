@@ -1,5 +1,5 @@
 ---
-title: "NURBSTo_Type complexType ('Visio XML')"
+title: "NURBSTo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f7ae8a1d-5bb7-a92f-79d6-5a358d879c32
 
 ---
 
-# NURBSTo_Type complexType ('Visio XML')
+# NURBSTo_Type complexType (Visio XML)
 
 ## Type information
 

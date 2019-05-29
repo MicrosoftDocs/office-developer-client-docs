@@ -1,5 +1,5 @@
 ---
-title: "Paragraph_Type complexType ('Visio XML')"
+title: "Paragraph_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 23409c92-5e66-1e11-54a0-677d18e4e03a
 
 ---
 
-# Paragraph_Type complexType ('Visio XML')
+# Paragraph_Type complexType (Visio XML)
 
 ## Type information
 

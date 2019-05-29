@@ -1,5 +1,5 @@
 ---
-title: "ShowPageBreaks_Type complexType ('Visio XML')"
+title: "ShowPageBreaks_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c3b17b40-c955-0cdc-08d7-48773485ca53
 
 ---
 
-# ShowPageBreaks_Type complexType ('Visio XML')
+# ShowPageBreaks_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "DataRecordSet_Type complexType ('Visio XML')"
+title: "DataRecordSet_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 59544910-6bd5-2c89-71b3-5c8ee91a1dea
 
 ---
 
-# DataRecordSet_Type complexType ('Visio XML')
+# DataRecordSet_Type complexType (Visio XML)
 
 ## Type information
 

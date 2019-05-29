@@ -1,5 +1,5 @@
 ---
-title: "HeaderFooterFont_Type complexType ('Visio XML')"
+title: "HeaderFooterFont_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1e4134be-fb18-768e-b477-f9f40f72548d
 
 ---
 
-# HeaderFooterFont_Type complexType ('Visio XML')
+# HeaderFooterFont_Type complexType (Visio XML)
 
 ## Type information
 

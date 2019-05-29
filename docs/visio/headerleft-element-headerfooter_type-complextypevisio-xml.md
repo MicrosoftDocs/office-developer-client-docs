@@ -1,5 +1,5 @@
 ---
-title: "HeaderLeft element (HeaderFooter_Type complexType) ('Visio XML')"
+title: "HeaderLeft element (HeaderFooter_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1702e2fb-ed52-1ff6-e539-fcd656199797
 description: "Contains the text string that appears in the left portion of a document's header."
 ---
 
-# HeaderLeft element (HeaderFooter_Type complexType) ('Visio XML')
+# HeaderLeft element (HeaderFooter_Type complexType) (Visio XML)
 
 Contains the text string that appears in the left portion of a document's header.
   

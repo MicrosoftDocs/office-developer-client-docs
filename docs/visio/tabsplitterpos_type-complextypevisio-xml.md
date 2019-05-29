@@ -1,5 +1,5 @@
 ---
-title: "TabSplitterPos_Type complexType ('Visio XML')"
+title: "TabSplitterPos_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2140a17e-682f-7bc8-be79-e9860372f4ef
 
 ---
 
-# TabSplitterPos_Type complexType ('Visio XML')
+# TabSplitterPos_Type complexType (Visio XML)
 
 ## Type information
 

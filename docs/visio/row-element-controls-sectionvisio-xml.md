@@ -1,5 +1,5 @@
 ---
-title: "Row element (Controls Section) ('Visio XML')"
+title: "Row element (Controls Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bb61870d-3f93-59e3-6671-e545c3a85718
 description: "Contains the cells for a particular control handle defined for a shape."
 ---
 
-# Row element (Controls Section) ('Visio XML')
+# Row element (Controls Section) (Visio XML)
 
 Contains the cells for a particular control handle defined for a shape.
   

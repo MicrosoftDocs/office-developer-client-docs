@@ -1,5 +1,5 @@
 ---
-title: "ShowGuides_Type complexType ('Visio XML')"
+title: "ShowGuides_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 89940edd-f095-540c-fadb-9937b0866d5b
 
 ---
 
-# ShowGuides_Type complexType ('Visio XML')
+# ShowGuides_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "Cell element (InfiniteLine Row) ('Visio XML')"
+title: "Cell element (InfiniteLine Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: e14b8246-0064-3a54-7bd6-ad28180f9ea6
 description: "Contains the x- or y-coordinates of two points on an infinite line."
 ---
 
-# Cell element (InfiniteLine Row) ('Visio XML')
+# Cell element (InfiniteLine Row) (Visio XML)
 
 Contains the x- or y-coordinates of two points on an infinite line.
   

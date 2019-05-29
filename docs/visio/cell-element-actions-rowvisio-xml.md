@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Actions Row) ('Visio XML')"
+title: "Cell element (Actions Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 5ae2b4db-03f4-1b8a-1274-7eb1521f2f59
 description: "Specifies one property of an action associated with a custom command on a shortcut or action tag menu."
 ---
 
-# Cell element (Actions Row) ('Visio XML')
+# Cell element (Actions Row) (Visio XML)
 
 Specifies one property of an action associated with a custom command on a shortcut or action tag menu.
   

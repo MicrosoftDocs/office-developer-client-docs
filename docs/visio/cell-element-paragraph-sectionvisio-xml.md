@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Paragraph Section) ('Visio XML')"
+title: "Cell element (Paragraph Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: de0d3aac-1a0f-1bdf-da94-e6699a55d08e
 description: "Specifies a paragraph formatting attribute for the shape's text, such as indents, line spacing, bullets, or horizontal alignment of paragraphs."
 ---
 
-# Cell element (Paragraph Section) ('Visio XML')
+# Cell element (Paragraph Section) (Visio XML)
 
 Specifies a paragraph formatting attribute for the shape's text, such as indents, line spacing, bullets, or horizontal alignment of paragraphs.
   

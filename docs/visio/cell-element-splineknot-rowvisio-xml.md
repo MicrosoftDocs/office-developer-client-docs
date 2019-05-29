@@ -1,5 +1,5 @@
 ---
-title: "Cell element (SplineKnot Row) ('Visio XML')"
+title: "Cell element (SplineKnot Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 61faf0d6-c0a2-9350-8712-7a450591afad
 description: "Contains x- or y-coordinates for a spline's control point or a spline's knot."
 ---
 
-# Cell element (SplineKnot Row) ('Visio XML')
+# Cell element (SplineKnot Row) (Visio XML)
 
 Contains x- or y-coordinates for a spline's control point or a spline's knot.
   

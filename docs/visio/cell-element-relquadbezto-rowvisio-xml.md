@@ -1,5 +1,5 @@
 ---
-title: "Cell element (RelQuadBezTo Row) ('Visio XML')"
+title: "Cell element (RelQuadBezTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 8b3aea70-a69f-a85e-83d8-c0fa2ee68836
 description: "Contains the x- or y-coordinates of the endpoint of a quadratic Bézier curve relative to the shape's width and height or the x- or y-coordinates of the control point of the curve relative shape's width and height."
 ---
 
-# Cell element (RelQuadBezTo Row) ('Visio XML')
+# Cell element (RelQuadBezTo Row) (Visio XML)
 
 Contains the x- or y-coordinates of the endpoint of a quadratic Bézier curve relative to the shape's width and height or the x- or y-coordinates of the control point of the curve relative shape's width and height.
   

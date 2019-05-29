@@ -1,5 +1,5 @@
 ---
-title: "CustomToolbarsFile element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "CustomToolbarsFile element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c9789239-a919-97f6-8109-126bb1038be6
 description: "Contains the name of the Microsoft Visio user interface (.vsu) file that defines custom toolbars and status bars for a document."
 ---
 
-# CustomToolbarsFile element (DocumentSettings_Type complexType) ('Visio XML')
+# CustomToolbarsFile element (DocumentSettings_Type complexType) (Visio XML)
 
 Contains the name of the Microsoft Visio user interface (.vsu) file that defines custom toolbars and status bars for a document.
   

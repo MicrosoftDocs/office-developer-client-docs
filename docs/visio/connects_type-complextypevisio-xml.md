@@ -1,5 +1,5 @@
 ---
-title: "Connects_Type complexType ('Visio XML')"
+title: "Connects_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 68a85d32-9bf2-2f7c-2797-85ddd593fc37
 
 ---
 
-# Connects_Type complexType ('Visio XML')
+# Connects_Type complexType (Visio XML)
 
 ## Type information
 

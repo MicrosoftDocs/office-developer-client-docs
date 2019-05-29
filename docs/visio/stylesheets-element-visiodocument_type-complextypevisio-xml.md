@@ -1,5 +1,5 @@
 ---
-title: "StyleSheets element (VisioDocument_Type complexType) ('Visio XML')"
+title: "StyleSheets element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: da26de4b-3e5b-326b-de46-e8c542b74f02
 description: "Contains a collection of StyleSheet elements for the document."
 ---
 
-# StyleSheets element (VisioDocument_Type complexType) ('Visio XML')
+# StyleSheets element (VisioDocument_Type complexType) (Visio XML)
 
 Contains a collection of StyleSheet elements for the document.
   

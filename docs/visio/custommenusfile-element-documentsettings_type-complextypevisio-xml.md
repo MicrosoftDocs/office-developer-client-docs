@@ -1,5 +1,5 @@
 ---
-title: "CustomMenusFile element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "CustomMenusFile element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
 description: "Contains the name of the Microsoft Visio user interface (.vsu) file that defines custom menus and accelerators for a document."
 ---
 
-# CustomMenusFile element (DocumentSettings_Type complexType) ('Visio XML')
+# CustomMenusFile element (DocumentSettings_Type complexType) (Visio XML)
 
 Contains the name of the Microsoft Visio user interface (.vsu) file that defines custom menus and accelerators for a document.
   

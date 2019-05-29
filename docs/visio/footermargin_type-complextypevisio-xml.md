@@ -1,5 +1,5 @@
 ---
-title: "FooterMargin_Type complexType ('Visio XML')"
+title: "FooterMargin_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: db8d1e5b-cd29-f9ff-994a-25c28672db81
 
 ---
 
-# FooterMargin_Type complexType ('Visio XML')
+# FooterMargin_Type complexType (Visio XML)
 
 ## Type information
 

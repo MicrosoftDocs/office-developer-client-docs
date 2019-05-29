@@ -1,5 +1,5 @@
 ---
-title: "PrimaryKey_Type complexType ('Visio XML')"
+title: "PrimaryKey_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3396f11b-f06e-03d9-fc9d-a23e9cfccabd
 
 ---
 
-# PrimaryKey_Type complexType ('Visio XML')
+# PrimaryKey_Type complexType (Visio XML)
 
 ## Type information
 

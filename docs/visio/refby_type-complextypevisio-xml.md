@@ -1,5 +1,5 @@
 ---
-title: "RefBy_Type complexType ('Visio XML')"
+title: "RefBy_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: e2990281-6410-5a35-2b28-3a8b33246c73
 
 ---
 
-# RefBy_Type complexType ('Visio XML')
+# RefBy_Type complexType (Visio XML)
 
 ## Type information
 

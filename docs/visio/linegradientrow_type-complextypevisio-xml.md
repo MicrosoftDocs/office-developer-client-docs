@@ -1,5 +1,5 @@
 ---
-title: "LineGradientRow_Type complexType ('Visio XML')"
+title: "LineGradientRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6b35d58b-ec6f-9b99-01fb-c665630e65d7
 
 ---
 
-# LineGradientRow_Type complexType ('Visio XML')
+# LineGradientRow_Type complexType (Visio XML)
 
 ## Type information
 

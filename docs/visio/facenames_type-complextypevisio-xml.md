@@ -1,5 +1,5 @@
 ---
-title: "FaceNames_Type complexType ('Visio XML')"
+title: "FaceNames_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 234bbe07-004e-0604-144c-376d7b06994b
 
 ---
 
-# FaceNames_Type complexType ('Visio XML')
+# FaceNames_Type complexType (Visio XML)
 
 ## Type information
 

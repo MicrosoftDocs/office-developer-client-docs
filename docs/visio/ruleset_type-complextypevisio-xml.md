@@ -1,5 +1,5 @@
 ---
-title: "RuleSet_Type complexType ('Visio XML')"
+title: "RuleSet_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2fc66419-f299-8573-ec72-0ea5ff39a896
 
 ---
 
-# RuleSet_Type complexType ('Visio XML')
+# RuleSet_Type complexType (Visio XML)
 
 ## Type information
 

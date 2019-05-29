@@ -1,5 +1,5 @@
 ---
-title: "SplineStart_Type complexType ('Visio XML')"
+title: "SplineStart_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 4395e39c-51bb-b232-bd8a-c5e53ae95169
 
 ---
 
-# SplineStart_Type complexType ('Visio XML')
+# SplineStart_Type complexType (Visio XML)
 
 ## Type information
 

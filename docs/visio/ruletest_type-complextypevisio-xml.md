@@ -1,5 +1,5 @@
 ---
-title: "RuleTest_Type complexType ('Visio XML')"
+title: "RuleTest_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3cacaf05-a84b-b597-0b2c-2f12c4c50376
 
 ---
 
-# RuleTest_Type complexType ('Visio XML')
+# RuleTest_Type complexType (Visio XML)
 
 ## Type information
 

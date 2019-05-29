@@ -1,5 +1,5 @@
 ---
-title: "Cell element (User-defined Cells Section) ('Visio XML')"
+title: "Cell element (User-defined Cells Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: ab7a11a0-a413-d4fe-ddf1-0d2e967dc21d
 description: "One property of a user-specified piece of information that can be referred to by other cells and add-on tools."
 ---
 
-# Cell element (User-defined Cells Section) ('Visio XML')
+# Cell element (User-defined Cells Section) (Visio XML)
 
 One property of a user-specified piece of information that can be referred to by other cells and add-on tools.
   

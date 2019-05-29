@@ -1,5 +1,5 @@
 ---
-title: "DataColumns element (DataRecordSet_Type complexType) ('Visio XML')"
+title: "DataColumns element (DataRecordSet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 34e25349-d0fa-b3a0-425b-778184e9f58f
 description: "Contains all the DataColumn elements in a data recordset."
 ---
 
-# DataColumns element (DataRecordSet_Type complexType) ('Visio XML')
+# DataColumns element (DataRecordSet_Type complexType) (Visio XML)
 
 Contains all the **DataColumn** elements in a data recordset. 
   

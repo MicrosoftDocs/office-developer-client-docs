@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Field Section) ('Visio XML')"
+title: "Cell element (Field Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1a51a5ca-6b68-d2d8-befb-2b1d9cda1b8e
 description: "Displays functions and formulas inserted in the shape's text by using the Field dialog box."
 ---
 
-# Cell element (Field Section) ('Visio XML')
+# Cell element (Field Section) (Visio XML)
 
 Displays functions and formulas inserted in the shape's text by using the Field dialog box.
   

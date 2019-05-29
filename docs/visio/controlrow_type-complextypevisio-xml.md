@@ -1,5 +1,5 @@
 ---
-title: "ControlRow_Type complexType ('Visio XML')"
+title: "ControlRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 7f9ee251-e685-e56c-3c8a-cb727ad62064
 
 ---
 
-# ControlRow_Type complexType ('Visio XML')
+# ControlRow_Type complexType (Visio XML)
 
 ## Type information
 

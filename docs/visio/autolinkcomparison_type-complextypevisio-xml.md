@@ -1,5 +1,5 @@
 ---
-title: "AutoLinkComparison_Type complexType ('Visio XML')"
+title: "AutoLinkComparison_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 319b4bfb-a798-4f6c-52be-45708ac40869
 
 ---
 
-# AutoLinkComparison_Type complexType ('Visio XML')
+# AutoLinkComparison_Type complexType (Visio XML)
 
 ## Type information
 

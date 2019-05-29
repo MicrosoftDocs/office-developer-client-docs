@@ -1,5 +1,5 @@
 ---
-title: "ShowGrid_Type complexType ('Visio XML')"
+title: "ShowGrid_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: fb49da3a-0664-53bb-44c0-06d68a9f44c6
 
 ---
 
-# ShowGrid_Type complexType ('Visio XML')
+# ShowGrid_Type complexType (Visio XML)
 
 ## Type information
 

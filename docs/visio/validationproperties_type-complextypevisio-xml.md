@@ -1,5 +1,5 @@
 ---
-title: "ValidationProperties_Type complexType ('Visio XML')"
+title: "ValidationProperties_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3b0d1209-4636-ea9c-acf7-895c3300492a
 
 ---
 
-# ValidationProperties_Type complexType ('Visio XML')
+# ValidationProperties_Type complexType (Visio XML)
 
 ## Type information
 

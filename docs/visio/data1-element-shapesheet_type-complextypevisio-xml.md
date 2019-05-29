@@ -1,5 +1,5 @@
 ---
-title: "Data1 element (ShapeSheet_Type complexType) ('Visio XML')"
+title: "Data1 element (ShapeSheet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d72dc0e4-4e0f-dd3f-a51a-8486f9ec548e
 description: "Contains an arbitrary string value that is used to supply additional information about a shape."
 ---
 
-# Data1 element (ShapeSheet_Type complexType) ('Visio XML')
+# Data1 element (ShapeSheet_Type complexType) (Visio XML)
 
 Contains an arbitrary string value that is used to supply additional information about a shape.
   

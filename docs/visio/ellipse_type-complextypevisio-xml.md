@@ -1,5 +1,5 @@
 ---
-title: "Ellipse_Type complexType ('Visio XML')"
+title: "Ellipse_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c67dc78e-6639-e32f-4909-945001659d30
 
 ---
 
-# Ellipse_Type complexType ('Visio XML')
+# Ellipse_Type complexType (Visio XML)
 
 ## Type information
 

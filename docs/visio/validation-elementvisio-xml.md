@@ -1,5 +1,5 @@
 ---
-title: "Validation element ('Visio XML')"
+title: "Validation element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: "Stores information about diagram validation for the document."
 ---
 
-# Validation element ('Visio XML')
+# Validation element (Visio XML)
 
 Stores information about diagram validation for the document.
   

@@ -1,5 +1,5 @@
 ---
-title: "DataConnection element (DataConnections_Type complexType) ('Visio XML')"
+title: "DataConnection element (DataConnections_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6aab8be3-b236-029b-1df3-b6860d4f4586
 description: "Abstracts communication between one or more DataRecordset elements and a non-XML data source."
 ---
 
-# DataConnection element (DataConnections_Type complexType) ('Visio XML')
+# DataConnection element (DataConnections_Type complexType) (Visio XML)
 
 Abstracts communication between one or more **DataRecordset** elements and a non-XML data source. 
   

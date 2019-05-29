@@ -1,5 +1,5 @@
 ---
-title: "Window_Type complexType ('Visio XML')"
+title: "Window_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c514ce79-0920-4f1b-5332-0bdef146e802
 
 ---
 
-# Window_Type complexType ('Visio XML')
+# Window_Type complexType (Visio XML)
 
 ## Type information
 

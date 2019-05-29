@@ -1,5 +1,5 @@
 ---
-title: "PublishedPage element (PublishSettings_Type complexType) ('Visio XML')"
+title: "PublishedPage element (PublishSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
 description: "Specifies whether a drawing page is viewable in the browser using Visio Services in Microsoft SharePoint Server 2013."
 ---
 
-# PublishedPage element (PublishSettings_Type complexType) ('Visio XML')
+# PublishedPage element (PublishSettings_Type complexType) (Visio XML)
 
 Specifies whether a drawing page is viewable in the browser using Visio Services in Microsoft SharePoint Server 2013.
   

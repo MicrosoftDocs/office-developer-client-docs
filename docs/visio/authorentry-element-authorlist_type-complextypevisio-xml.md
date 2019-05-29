@@ -1,5 +1,5 @@
 ---
-title: "AuthorEntry element (AuthorList_Type complexType) ('Visio XML')"
+title: "AuthorEntry element (AuthorList_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 21ca601b-27f0-b30b-a99e-56359bdf594c
 description: "Specifies properties used to identify the author of a comment in a drawing."
 ---
 
-# AuthorEntry element (AuthorList_Type complexType) ('Visio XML')
+# AuthorEntry element (AuthorList_Type complexType) (Visio XML)
 
 Specifies properties used to identify the author of a comment in a drawing.
   

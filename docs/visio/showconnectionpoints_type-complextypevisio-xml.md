@@ -1,5 +1,5 @@
 ---
-title: "ShowConnectionPoints_Type complexType ('Visio XML')"
+title: "ShowConnectionPoints_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6b370158-374d-a2a8-e494-0e79fe0bc968
 
 ---
 
-# ShowConnectionPoints_Type complexType ('Visio XML')
+# ShowConnectionPoints_Type complexType (Visio XML)
 
 ## Type information
 

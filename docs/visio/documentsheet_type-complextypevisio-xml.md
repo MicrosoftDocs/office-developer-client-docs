@@ -1,5 +1,5 @@
 ---
-title: "DocumentSheet_Type complexType ('Visio XML')"
+title: "DocumentSheet_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 57af2ed5-7d89-9538-e51b-0bc70f067b40
 
 ---
 
-# DocumentSheet_Type complexType ('Visio XML')
+# DocumentSheet_Type complexType (Visio XML)
 
 ## Type information
 

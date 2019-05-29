@@ -1,5 +1,5 @@
 ---
-title: "Trigger_Type complexType ('Visio XML')"
+title: "Trigger_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 50de80d5-c846-1bdc-55e0-c688fe3d364c
 
 ---
 
-# Trigger_Type complexType ('Visio XML')
+# Trigger_Type complexType (Visio XML)
 
 ## Type information
 

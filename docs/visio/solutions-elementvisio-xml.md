@@ -1,5 +1,5 @@
 ---
-title: "Solutions element ('Visio XML')"
+title: "Solutions element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: "Specifies the properties of the solutions stored in the document."
 ---
 
-# Solutions element ('Visio XML')
+# Solutions element (Visio XML)
 
 Specifies the properties of the solutions stored in the document.
   

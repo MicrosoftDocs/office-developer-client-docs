@@ -1,5 +1,5 @@
 ---
-title: "Icon_Type complexType ('Visio XML')"
+title: "Icon_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1f9fcddf-2cdc-e266-dc3a-c58e644e81e8
 
 ---
 
-# Icon_Type complexType ('Visio XML')
+# Icon_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "PolylineTo_Type complexType ('Visio XML')"
+title: "PolylineTo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: e0b87cc0-397d-7640-34ea-2a725d8f0999
 
 ---
 
-# PolylineTo_Type complexType ('Visio XML')
+# PolylineTo_Type complexType (Visio XML)
 
 ## Type information
 

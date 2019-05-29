@@ -1,5 +1,5 @@
 ---
-title: "ShowConnectionPoints element (Window_Type complexType) ('Visio XML')"
+title: "ShowConnectionPoints element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1f71dece-9b55-c36b-4424-f130c8d8916c
 description: "Specifies whether connection points are shown in a window."
 ---
 
-# ShowConnectionPoints element (Window_Type complexType) ('Visio XML')
+# ShowConnectionPoints element (Window_Type complexType) (Visio XML)
 
 Specifies whether connection points are shown in a window.
   

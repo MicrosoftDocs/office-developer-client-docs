@@ -1,5 +1,5 @@
 ---
-title: "CommentEntry element (CommentList_Type complexType) ('Visio XML')"
+title: "CommentEntry element (CommentList_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: b0653622-fa94-4889-68c2-94f3e7a83119
 description: "Specifies properties used to identify a comment in a drawing."
 ---
 
-# CommentEntry element (CommentList_Type complexType) ('Visio XML')
+# CommentEntry element (CommentList_Type complexType) (Visio XML)
 
 Specifies properties used to identify a comment in a drawing.
   

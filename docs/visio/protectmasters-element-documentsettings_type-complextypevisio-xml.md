@@ -1,5 +1,5 @@
 ---
-title: "ProtectMasters element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "ProtectMasters element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: edc46630-c320-6b4e-4747-961075dd5fd7
 description: "Specifies whether the user is prevented from creating, editing, or deleting master shapes. The user can still create new shapes from a master shape, regardless of this setting."
 ---
 
-# ProtectMasters element (DocumentSettings_Type complexType) ('Visio XML')
+# ProtectMasters element (DocumentSettings_Type complexType) (Visio XML)
 
 Specifies whether the user is prevented from creating, editing, or deleting master shapes. The user can still create new shapes from a master shape, regardless of this setting. 
   

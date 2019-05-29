@@ -1,5 +1,5 @@
 ---
-title: "StyleSheet_Type complexType ('Visio XML')"
+title: "StyleSheet_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 06a02d07-920e-7d47-d63a-da3596cf20f6
 
 ---
 
-# StyleSheet_Type complexType ('Visio XML')
+# StyleSheet_Type complexType (Visio XML)
 
 ## Type information
 

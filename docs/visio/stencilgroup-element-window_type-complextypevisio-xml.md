@@ -1,5 +1,5 @@
 ---
-title: "StencilGroup element (Window_Type complexType) ('Visio XML')"
+title: "StencilGroup element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
 description: "Specifies the group of merged stencil windows of which the window is a member."
 ---
 
-# StencilGroup element (Window_Type complexType) ('Visio XML')
+# StencilGroup element (Window_Type complexType) (Visio XML)
 
 Specifies the group of merged stencil windows of which the window is a member.
   

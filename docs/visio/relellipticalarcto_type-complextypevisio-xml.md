@@ -1,5 +1,5 @@
 ---
-title: "RelEllipticalArcTo_Type complexType ('Visio XML')"
+title: "RelEllipticalArcTo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 45b2ff30-bca1-fbaa-cc9f-fe9b52b631c4
 
 ---
 
-# RelEllipticalArcTo_Type complexType ('Visio XML')
+# RelEllipticalArcTo_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "Comments element (Comments_Type complexType) ('Visio XML')"
+title: "Comments element (Comments_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f72ced69-0d49-18cd-f1e6-d0b2cb39b4c0
 description: "Specifies properties used to identify the authors and comments in a drawing."
 ---
 
-# Comments element (Comments_Type complexType) ('Visio XML')
+# Comments element (Comments_Type complexType) (Visio XML)
 
 Specifies properties used to identify the authors and comments in a drawing.
   

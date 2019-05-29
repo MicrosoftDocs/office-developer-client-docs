@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Action Tag Section) ('Visio XML')"
+title: "Cell element (Action Tag Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6210ff71-fbcd-2c97-6dde-1e334891e08d
 description: "Defines one property for an action tag on a shape or page."
 ---
 
-# Cell element (Action Tag Section) ('Visio XML')
+# Cell element (Action Tag Section) (Visio XML)
 
 Defines one property for an action tag on a shape or page.
   

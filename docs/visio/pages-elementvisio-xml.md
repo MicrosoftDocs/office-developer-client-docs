@@ -1,5 +1,5 @@
 ---
-title: "Pages element ('Visio XML')"
+title: "Pages element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: "Contains the Page elements for the document."
 ---
 
-# Pages element ('Visio XML')
+# Pages element (Visio XML)
 
 Contains the Page elements for the document.
   

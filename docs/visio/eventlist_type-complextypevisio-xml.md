@@ -1,5 +1,5 @@
 ---
-title: "EventList_Type complexType ('Visio XML')"
+title: "EventList_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 0e7a6e5e-5ce4-1e21-c1e8-dafd22bd367f
 
 ---
 
-# EventList_Type complexType ('Visio XML')
+# EventList_Type complexType (Visio XML)
 
 ## Type information
 

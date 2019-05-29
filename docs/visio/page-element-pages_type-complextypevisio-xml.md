@@ -1,5 +1,5 @@
 ---
-title: "Page element (Pages_Type complexType) ('Visio XML')"
+title: "Page element (Pages_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6e4ac41f-3855-05d8-e659-02c265b8750c
 description: "Contains elements that define a page in the document."
 ---
 
-# Page element (Pages_Type complexType) ('Visio XML')
+# Page element (Pages_Type complexType) (Visio XML)
 
 Contains elements that define a page in the document.
   

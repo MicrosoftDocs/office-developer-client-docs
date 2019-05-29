@@ -1,5 +1,5 @@
 ---
-title: "RuleSetFlags element (RuleSet_Type complexType) ('Visio XML')"
+title: "RuleSetFlags element (RuleSet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c18d3a84-2088-13f7-7b14-1f4c129537b4
 description: "Specifies rule-set properties."
 ---
 
-# RuleSetFlags element (RuleSet_Type complexType) ('Visio XML')
+# RuleSetFlags element (RuleSet_Type complexType) (Visio XML)
 
 Specifies rule-set properties.
   

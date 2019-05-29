@@ -1,5 +1,5 @@
 ---
-title: "Shapes_Type complexType ('Visio XML')"
+title: "Shapes_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 7ef84fa3-6fb8-c570-a5ee-3c1c9dddb86c
 
 ---
 
-# Shapes_Type complexType ('Visio XML')
+# Shapes_Type complexType (Visio XML)
 
 ## Type information
 

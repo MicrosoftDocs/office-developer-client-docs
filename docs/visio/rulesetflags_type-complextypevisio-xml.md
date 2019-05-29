@@ -1,5 +1,5 @@
 ---
-title: "RuleSetFlags_Type complexType ('Visio XML')"
+title: "RuleSetFlags_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bacc4fbd-1530-033d-b323-1fac944af1ad
 
 ---
 
-# RuleSetFlags_Type complexType ('Visio XML')
+# RuleSetFlags_Type complexType (Visio XML)
 
 ## Type information
 

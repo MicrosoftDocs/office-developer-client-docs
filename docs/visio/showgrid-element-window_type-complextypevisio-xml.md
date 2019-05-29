@@ -1,5 +1,5 @@
 ---
-title: "ShowGrid element (Window_Type complexType) ('Visio XML')"
+title: "ShowGrid element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d0f6d0ee-ae3b-f871-11fd-dc5b955c1bf3
 description: "Specifies whether a grid is shown in the drawing window."
 ---
 
-# ShowGrid element (Window_Type complexType) ('Visio XML')
+# ShowGrid element (Window_Type complexType) (Visio XML)
 
 Specifies whether a grid is shown in the drawing window.
   

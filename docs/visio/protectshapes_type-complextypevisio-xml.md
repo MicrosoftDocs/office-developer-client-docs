@@ -1,5 +1,5 @@
 ---
-title: "ProtectShapes_Type complexType ('Visio XML')"
+title: "ProtectShapes_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: aaf16c99-5c87-0a58-39b3-8f8b045760f3
 
 ---
 
-# ProtectShapes_Type complexType ('Visio XML')
+# ProtectShapes_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "ShowGuides element (Window_Type complexType) ('Visio XML')"
+title: "ShowGuides element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: b81bc46b-6eff-c11f-f583-85959a47c313
 description: "Specifies whether guides are shown in the drawing window."
 ---
 
-# ShowGuides element (Window_Type complexType) ('Visio XML')
+# ShowGuides element (Window_Type complexType) (Visio XML)
 
 Specifies whether guides are shown in the drawing window.
   

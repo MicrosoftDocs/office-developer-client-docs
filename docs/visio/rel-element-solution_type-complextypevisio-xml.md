@@ -1,5 +1,5 @@
 ---
-title: "Rel element (Solution_Type complexType) ('Visio XML')"
+title: "Rel element (Solution_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 8438fe4b-f5f7-d4e4-58b7-7ebdc1da197a
 description: "Specifies a relationship to a part with the solution XML associated with this solution."
 ---
 
-# Rel element (Solution_Type complexType) ('Visio XML')
+# Rel element (Solution_Type complexType) (Visio XML)
 
 Specifies a relationship to a part with the solution XML associated with this solution.
   

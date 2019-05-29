@@ -1,5 +1,5 @@
 ---
-title: "SnapAngles element (Window_Type complexType) ('Visio XML')"
+title: "SnapAngles element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 5997f374-303a-92b6-6dd3-87ef81104af4
 description: "Contains a collection of SnapAngle elements."
 ---
 
-# SnapAngles element (Window_Type complexType) ('Visio XML')
+# SnapAngles element (Window_Type complexType) (Visio XML)
 
 Contains a collection of **SnapAngle** elements. 
   

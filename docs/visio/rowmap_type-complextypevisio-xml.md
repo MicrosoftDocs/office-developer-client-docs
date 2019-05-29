@@ -1,5 +1,5 @@
 ---
-title: "RowMap_Type complexType ('Visio XML')"
+title: "RowMap_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2abe0572-53bb-20fc-333f-2b69b07e99be
 
 ---
 
-# RowMap_Type complexType ('Visio XML')
+# RowMap_Type complexType (Visio XML)
 
 ## Type information
 

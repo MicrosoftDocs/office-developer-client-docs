@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Scratch Section) ('Visio XML')"
+title: "Cell element (Scratch Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: af17b1c5-51ee-f46f-79d0-4f33369b66f1
 description: "Specifies a work area for entering and testing formulas that can be referred to by other cells."
 ---
 
-# Cell element (Scratch Section) ('Visio XML')
+# Cell element (Scratch Section) (Visio XML)
 
 Specifies a work area for entering and testing formulas that can be referred to by other cells.
   

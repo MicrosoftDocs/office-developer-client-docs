@@ -1,5 +1,5 @@
 ---
-title: "AttachedToolbars element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "AttachedToolbars element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
 description: "A MIME (Multipurpose Internet Mail Extensions) encoded Microsoft Visio user interface (VSU) file representing custom toolbars."
 ---
 
-# AttachedToolbars element (DocumentSettings_Type complexType) ('Visio XML')
+# AttachedToolbars element (DocumentSettings_Type complexType) (Visio XML)
 
 A MIME (Multipurpose Internet Mail Extensions) encoded Microsoft Visio user interface (VSU) file representing custom toolbars.
   

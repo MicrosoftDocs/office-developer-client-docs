@@ -1,5 +1,5 @@
 ---
-title: "PageSheet element (Page_Type complexType) ('Visio XML')"
+title: "PageSheet element (Page_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 99a6549b-099b-1546-cc30-db0010fe3ce1
 description: "Specifies the properties of the drawing page associated with the drawing page."
 ---
 
-# PageSheet element (Page_Type complexType) ('Visio XML')
+# PageSheet element (Page_Type complexType) (Visio XML)
 
 Specifies the properties of the drawing page associated with the drawing page.
   

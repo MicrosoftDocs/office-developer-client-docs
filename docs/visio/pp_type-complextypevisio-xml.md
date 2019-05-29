@@ -1,5 +1,5 @@
 ---
-title: "pp_Type complexType ('Visio XML')"
+title: "pp_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9259b546-4a4d-81d9-4e0d-cff693d28a56
 
 ---
 
-# pp_Type complexType ('Visio XML')
+# pp_Type complexType (Visio XML)
 
 ## Type information
 

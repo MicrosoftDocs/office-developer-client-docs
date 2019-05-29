@@ -1,5 +1,5 @@
 ---
-title: "FunctionDef_Type complexType ('Visio XML')"
+title: "FunctionDef_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bec3a1ce-edf4-fab5-b3f3-28123b4504a3
 
 ---
 
-# FunctionDef_Type complexType ('Visio XML')
+# FunctionDef_Type complexType (Visio XML)
 
 ## Type information
 

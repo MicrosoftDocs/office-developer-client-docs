@@ -1,5 +1,5 @@
 ---
-title: "RuleInfo element (Issue_Type complexType) ('Visio XML')"
+title: "RuleInfo element (Issue_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: aec47b43-adbe-3344-fbac-29554f244c99
 description: "Specifies information about the validation rule that the parent validation issue pertains to."
 ---
 
-# RuleInfo element (Issue_Type complexType) ('Visio XML')
+# RuleInfo element (Issue_Type complexType) (Visio XML)
 
 Specifies information about the validation rule that the parent validation issue pertains to.
   

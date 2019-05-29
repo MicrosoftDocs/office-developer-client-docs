@@ -1,5 +1,5 @@
 ---
-title: "ActionsRow_Type complexType ('Visio XML')"
+title: "ActionsRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -11,7 +11,7 @@ localization_priority: Normal
 ms.assetid: 32777219-850b-9526-425f-bcb017c45093
 ---
 
-# ActionsRow_Type complexType ('Visio XML')
+# ActionsRow_Type complexType (Visio XML)
 
 ## Type information
 

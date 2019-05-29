@@ -1,5 +1,5 @@
 ---
-title: "Rel element (Page_Type complexType) ('Visio XML')"
+title: "Rel element (Page_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d61b1b97-c360-4d9d-217f-e6f45f760e42
 description: "Specifies a relationship to a part with the corresponding page XML."
 ---
 
-# Rel element (Page_Type complexType) ('Visio XML')
+# Rel element (Page_Type complexType) (Visio XML)
 
 Specifies a relationship to a part with the corresponding page XML.
   

@@ -1,5 +1,5 @@
 ---
-title: "Control_Type complexType ('Visio XML')"
+title: "Control_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9eba241a-e64d-6bac-6d8e-a049e4febe96
 
 ---
 
-# Control_Type complexType ('Visio XML')
+# Control_Type complexType (Visio XML)
 
 ## Type information
 

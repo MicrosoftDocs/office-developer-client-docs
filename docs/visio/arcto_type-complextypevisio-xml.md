@@ -1,5 +1,5 @@
 ---
-title: "ArcTo_Type complexType ('Visio XML')"
+title: "ArcTo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c30c80eb-6327-ebc3-7ea4-8b2fc7525cc0
 
 ---
 
-# ArcTo_Type complexType ('Visio XML')
+# ArcTo_Type complexType (Visio XML)
 
 ## Type information
 

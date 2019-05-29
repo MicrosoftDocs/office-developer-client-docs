@@ -1,5 +1,5 @@
 ---
-title: "StencilGroup_Type complexType ('Visio XML')"
+title: "StencilGroup_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 22f9b845-719c-25e1-1ef2-af84b1b2ad82
 
 ---
 
-# StencilGroup_Type complexType ('Visio XML')
+# StencilGroup_Type complexType (Visio XML)
 
 ## Type information
 

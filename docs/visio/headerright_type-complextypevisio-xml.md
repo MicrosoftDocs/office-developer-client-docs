@@ -1,5 +1,5 @@
 ---
-title: "HeaderRight_Type complexType ('Visio XML')"
+title: "HeaderRight_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1dad5c83-84a5-5e37-f022-36f1af12b466
 
 ---
 
-# HeaderRight_Type complexType ('Visio XML')
+# HeaderRight_Type complexType (Visio XML)
 
 ## Type information
 

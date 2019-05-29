@@ -1,5 +1,5 @@
 ---
-title: "SnapSettings element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "SnapSettings element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6e86e943-bd29-0a7b-3d6a-d91281f98777
 description: "Specifies the objects that shapes snap to when snap is active in the window."
 ---
 
-# SnapSettings element (DocumentSettings_Type complexType) ('Visio XML')
+# SnapSettings element (DocumentSettings_Type complexType) (Visio XML)
 
 Specifies the objects that shapes snap to when snap is active in the window.
   

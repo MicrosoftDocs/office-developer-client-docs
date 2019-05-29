@@ -1,5 +1,5 @@
 ---
-title: "Section element (Sheet_Type complexType) ('Visio XML')"
+title: "Section element (Sheet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: "Specifies a collection of related properties."
 ---
 
-# Section element (Sheet_Type complexType) ('Visio XML')
+# Section element (Sheet_Type complexType) (Visio XML)
 
 Specifies a collection of related properties.
   

@@ -1,5 +1,5 @@
 ---
-title: "PageContents_Type complexType ('Visio XML')"
+title: "PageContents_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d611c03f-6a4f-9de2-6714-87131cddce85
 
 ---
 
-# PageContents_Type complexType ('Visio XML')
+# PageContents_Type complexType (Visio XML)
 
 ## Type information
 

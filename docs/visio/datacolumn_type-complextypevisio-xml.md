@@ -1,5 +1,5 @@
 ---
-title: "DataColumn_Type complexType ('Visio XML')"
+title: "DataColumn_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bee50623-cdf7-b9d7-867a-70c86922cbac
 
 ---
 
-# DataColumn_Type complexType ('Visio XML')
+# DataColumn_Type complexType (Visio XML)
 
 ## Type information
 

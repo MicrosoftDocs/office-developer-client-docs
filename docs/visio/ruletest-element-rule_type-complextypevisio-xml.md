@@ -1,5 +1,5 @@
 ---
-title: "RuleTest element (Rule_Type complexType) ('Visio XML')"
+title: "RuleTest element (Rule_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 0cb95b34-3ce0-07a5-5d57-8ac9b0570b9a
 description: "Specifies the logical expression that determines whether the target object satisfies the validation rule."
 ---
 
-# RuleTest element (Rule_Type complexType) ('Visio XML')
+# RuleTest element (Rule_Type complexType) (Visio XML)
 
 Specifies the logical expression that determines whether the target object satisfies the validation rule.
   

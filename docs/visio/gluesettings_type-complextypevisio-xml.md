@@ -1,5 +1,5 @@
 ---
-title: "GlueSettings_Type complexType ('Visio XML')"
+title: "GlueSettings_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3c0d81a3-1b71-0de3-97e7-024564e62972
 
 ---
 
-# GlueSettings_Type complexType ('Visio XML')
+# GlueSettings_Type complexType (Visio XML)
 
 ## Type information
 

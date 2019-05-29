@@ -1,5 +1,5 @@
 ---
-title: "GlueSettings element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "GlueSettings element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: a5675dea-3b78-9fc2-c1c0-51fefe45c6e3
 description: "Specifies the objects that shapes glue to when glue is enabled in the document."
 ---
 
-# GlueSettings element (DocumentSettings_Type complexType) ('Visio XML')
+# GlueSettings element (DocumentSettings_Type complexType) (Visio XML)
 
 Specifies the objects that shapes glue to when glue is enabled in the document.
   

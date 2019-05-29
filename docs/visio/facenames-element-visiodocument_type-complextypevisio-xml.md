@@ -1,5 +1,5 @@
 ---
-title: "FaceNames element (VisioDocument_Type complexType) ('Visio XML')"
+title: "FaceNames element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 61e30f57-abd6-9378-45ed-51236ab3d3ee
 description: "Contains a collection of FaceName elements."
 ---
 
-# FaceNames element (VisioDocument_Type complexType) ('Visio XML')
+# FaceNames element (VisioDocument_Type complexType) (Visio XML)
 
 Contains a collection of **FaceName** elements. 
   

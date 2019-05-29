@@ -1,5 +1,5 @@
 ---
-title: "RefBy element (Cell_Type complexType) ('Visio XML')"
+title: "RefBy element (Cell_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: ea2a63d3-d319-4420-1929-013dc832b308
 description: "Specifies a reference to a page in the drawing."
 ---
 
-# RefBy element (Cell_Type complexType) ('Visio XML')
+# RefBy element (Cell_Type complexType) (Visio XML)
 
 Specifies a reference to a page in the drawing.
   

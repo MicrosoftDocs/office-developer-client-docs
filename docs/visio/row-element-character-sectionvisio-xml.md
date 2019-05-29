@@ -1,5 +1,5 @@
 ---
-title: "Row element (Character Section) ('Visio XML')"
+title: "Row element (Character Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 764a8e77-5308-e6ce-8763-dc6e6090da9d
 description: "Shows the formatting attributes for a text run of the shape, such as font, color, text style, case, position relative to the baseline, and point size."
 ---
 
-# Row element (Character Section) ('Visio XML')
+# Row element (Character Section) (Visio XML)
 
 Shows the formatting attributes for a text run of the shape, such as font, color, text style, case, position relative to the baseline, and point size.
   

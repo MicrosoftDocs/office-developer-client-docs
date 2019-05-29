@@ -1,5 +1,5 @@
 ---
-title: "Cell element (PolyLineTo Row) ('Visio XML')"
+title: "Cell element (PolyLineTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: a62fbb51-e2a7-cdae-3516-5ce9ba30f26d
 description: "Contains x- or y-coordinates of the last point of a polyline or a polyline formula."
 ---
 
-# Cell element (PolyLineTo Row) ('Visio XML')
+# Cell element (PolyLineTo Row) (Visio XML)
 
 Contains x- or y-coordinates of the last point of a polyline or a polyline formula.
   

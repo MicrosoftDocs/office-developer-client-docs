@@ -1,5 +1,5 @@
 ---
-title: "Rel_Type complexType ('Visio XML')"
+title: "Rel_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2a068773-ce82-831a-9569-01b7b14a63d3
 
 ---
 
-# Rel_Type complexType ('Visio XML')
+# Rel_Type complexType (Visio XML)
 
 ## Type information
 

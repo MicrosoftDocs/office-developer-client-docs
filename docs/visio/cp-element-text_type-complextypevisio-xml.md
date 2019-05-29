@@ -1,5 +1,5 @@
 ---
-title: "cp element (Text_Type complexType) ('Visio XML')"
+title: "cp element (Text_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
 description: "Marks the beginning of a character properties run that is formatted according to the corresponding Char element. The run is defined to the end of the text or until the next tag."
 ---
 
-# cp element (Text_Type complexType) ('Visio XML')
+# cp element (Text_Type complexType) (Visio XML)
 
 Marks the beginning of a character properties run that is formatted according to the corresponding Char element. The run is defined to the end of the text or until the next tag.
   

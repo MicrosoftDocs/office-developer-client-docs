@@ -1,5 +1,5 @@
 ---
-title: "TabSplitterPos element (Window_Type complexType) ('Visio XML')"
+title: "TabSplitterPos element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: eca75ec6-3677-54ef-74ec-4a440a089e5d
 description: "Specifies the width of the page tab control of a drawing window (as a fraction of the total width of the drawing window)."
 ---
 
-# TabSplitterPos element (Window_Type complexType) ('Visio XML')
+# TabSplitterPos element (Window_Type complexType) (Visio XML)
 
 Specifies the width of the page tab control of a drawing window (as a fraction of the total width of the drawing window).
   

@@ -1,5 +1,5 @@
 ---
-title: "fld_Type complexType ('Visio XML')"
+title: "fld_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f680eb55-2dbb-a7b9-0879-6e91576983f3
 
 ---
 
-# fld_Type complexType ('Visio XML')
+# fld_Type complexType (Visio XML)
 
 ## Type information
 

@@ -1,5 +1,5 @@
 ---
-title: "Issue element (Issues_Type complexType) ('Visio XML')"
+title: "Issue element (Issues_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 5c4d07bf-4edc-e241-7827-017f96c11957
 description: "Represents a single validation issue in the document."
 ---
 
-# Issue element (Issues_Type complexType) ('Visio XML')
+# Issue element (Issues_Type complexType) (Visio XML)
 
 Represents a single validation issue in the document.
   

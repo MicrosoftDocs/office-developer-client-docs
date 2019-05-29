@@ -1,5 +1,5 @@
 ---
-title: "MasterContents element ('Visio XML')"
+title: "MasterContents element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 71e75e9a-1392-b40b-1d51-167cd28b2c53
 description: "Specifies information about the shapes in a master in a drawing."
 ---
 
-# MasterContents element ('Visio XML')
+# MasterContents element (Visio XML)
 
 Specifies information about the shapes in a master in a drawing. 
   

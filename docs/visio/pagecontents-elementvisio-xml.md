@@ -1,5 +1,5 @@
 ---
-title: "PageContents element ('Visio XML')"
+title: "PageContents element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 818793d6-608e-5f23-eca2-55ce6667050b
 description: "Specifies the information about the shapes in a master or drawing page of a drawing."
 ---
 
-# PageContents element ('Visio XML')
+# PageContents element (Visio XML)
 
 Specifies the information about the shapes in a master or drawing page of a drawing.
   

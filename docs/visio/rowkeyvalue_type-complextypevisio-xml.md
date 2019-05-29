@@ -1,5 +1,5 @@
 ---
-title: "RowKeyValue_Type complexType ('Visio XML')"
+title: "RowKeyValue_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: e4c971f4-e3e3-11be-6b3f-45565e56cb23
 
 ---
 
-# RowKeyValue_Type complexType ('Visio XML')
+# RowKeyValue_Type complexType (Visio XML)
 
 ## Type information
 

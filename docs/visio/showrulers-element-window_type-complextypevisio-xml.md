@@ -1,5 +1,5 @@
 ---
-title: "ShowRulers element (Window_Type complexType) ('Visio XML')"
+title: "ShowRulers element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bb5667b9-22d6-5913-a170-626f8c93e2f9
 description: "Specifies whether rulers are shown in the drawing window."
 ---
 
-# ShowRulers element (Window_Type complexType) ('Visio XML')
+# ShowRulers element (Window_Type complexType) (Visio XML)
 
 Specifies whether rulers are shown in the drawing window.
   

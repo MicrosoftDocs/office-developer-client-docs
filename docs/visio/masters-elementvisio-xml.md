@@ -1,5 +1,5 @@
 ---
-title: "Masters element ('Visio XML')"
+title: "Masters element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: eb90df82-58b6-5d0b-6b7d-826c5c27c755
 description: "Contains the Master elements for the document."
 ---
 
-# Masters element ('Visio XML')
+# Masters element (Visio XML)
 
 Contains the Master elements for the document.
   

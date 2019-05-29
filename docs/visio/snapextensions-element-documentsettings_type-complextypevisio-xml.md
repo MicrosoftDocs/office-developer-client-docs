@@ -1,5 +1,5 @@
 ---
-title: "SnapExtensions element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "SnapExtensions element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d55b6676-125f-7cf1-509d-21dee548f5a1
 description: "Specifies whether a specific snap extension setting is enabled or disabled for the active window."
 ---
 
-# SnapExtensions element (DocumentSettings_Type complexType) ('Visio XML')
+# SnapExtensions element (DocumentSettings_Type complexType) (Visio XML)
 
 Specifies whether a specific snap extension setting is enabled or disabled for the active window. 
   

@@ -1,5 +1,5 @@
 ---
-title: "Icon element (Master_Type complexType) ('Visio XML')"
+title: "Icon element (Master_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 80061e7d-dbcb-f7a1-b63a-052eee4ec7d7
 description: "Specifies a MIME (Multipurpose Internet Mail Extensions) encoded binary icon (in .ico format) for a Master element in a document."
 ---
 
-# Icon element (Master_Type complexType) ('Visio XML')
+# Icon element (Master_Type complexType) (Visio XML)
 
 Specifies a MIME (Multipurpose Internet Mail Extensions) encoded binary icon (in .ico format) for a Master element in a document.
   

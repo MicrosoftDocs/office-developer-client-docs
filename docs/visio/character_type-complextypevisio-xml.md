@@ -1,5 +1,5 @@
 ---
-title: "Character_Type complexType ('Visio XML')"
+title: "Character_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 94a2aab3-6220-0cc5-ddc8-77a785821985
 
 ---
 
-# Character_Type complexType ('Visio XML')
+# Character_Type complexType (Visio XML)
 
 ## Type information
 

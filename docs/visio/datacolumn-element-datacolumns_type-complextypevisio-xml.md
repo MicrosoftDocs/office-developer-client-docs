@@ -1,5 +1,5 @@
 ---
-title: "DataColumn element (DataColumns_Type complexType) ('Visio XML')"
+title: "DataColumn element (DataColumns_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: "Defines how a data column appears in the External Data window in the Visio user interface and qualifies the data in the column by defining its data type and formatting."
 ---
 
-# DataColumn element (DataColumns_Type complexType) ('Visio XML')
+# DataColumn element (DataColumns_Type complexType) (Visio XML)
 
 Defines how a data column appears in the **External Data** window in the Visio user interface and qualifies the data in the column by defining its data type and formatting. 
   

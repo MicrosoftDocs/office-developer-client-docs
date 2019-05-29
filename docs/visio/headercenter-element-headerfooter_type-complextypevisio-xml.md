@@ -1,5 +1,5 @@
 ---
-title: "HeaderCenter element (HeaderFooter_Type complexType) ('Visio XML')"
+title: "HeaderCenter element (HeaderFooter_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bd026cb1-6d35-f9dc-e9dc-f95c0a6f2ff0
 description: "Contains the text string that appears in the center portion of a document's header."
 ---
 
-# HeaderCenter element (HeaderFooter_Type complexType) ('Visio XML')
+# HeaderCenter element (HeaderFooter_Type complexType) (Visio XML)
 
 Contains the text string that appears in the center portion of a document's header.
   

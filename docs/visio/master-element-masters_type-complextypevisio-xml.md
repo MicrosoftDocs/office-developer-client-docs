@@ -1,5 +1,5 @@
 ---
-title: "Master element (Masters_Type complexType) ('Visio XML')"
+title: "Master element (Masters_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c102fd71-c621-2bde-9fbb-8e9203fdf31e
 description: "Contains elements that define a master for the document."
 ---
 
-# Master element (Masters_Type complexType) ('Visio XML')
+# Master element (Masters_Type complexType) (Visio XML)
 
 Contains elements that define a master for the document.
   

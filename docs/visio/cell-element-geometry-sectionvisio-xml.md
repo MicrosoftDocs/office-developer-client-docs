@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Geometry Section) ('Visio XML')"
+title: "Cell element (Geometry Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 82dcad38-d5fa-4892-91d9-1f3f25f1e600
 description: "Defines properties that determine formatting and behavioral properties with respect to the lines and arcs that make up the Geometry Section."
 ---
 
-# Cell element (Geometry Section) ('Visio XML')
+# Cell element (Geometry Section) (Visio XML)
 
 Defines properties that determine formatting and behavioral properties with respect to the lines and arcs that make up the Geometry Section.
   

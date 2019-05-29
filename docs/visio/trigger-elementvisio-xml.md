@@ -1,5 +1,5 @@
 ---
-title: "Trigger element ('Visio XML')"
+title: "Trigger element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d897d2d1-25ba-48d7-b87e-d3c533d88c15
 description: "Provides instructions to Microsoft Visio to recalculate a relationship between document parts in a Visio file."
 ---
 
-# Trigger element ('Visio XML')
+# Trigger element (Visio XML)
 
 Provides instructions to Microsoft Visio to recalculate a relationship between document parts in a Visio file.
   

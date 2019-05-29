@@ -1,5 +1,5 @@
 ---
-title: "Extensions_Type complexType ('Visio XML')"
+title: "Extensions_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 5f516e1a-e789-8085-1cc3-70514910eb26
 
 ---
 
-# Extensions_Type complexType ('Visio XML')
+# Extensions_Type complexType (Visio XML)
 
 ## Type information
 

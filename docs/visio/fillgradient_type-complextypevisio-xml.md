@@ -1,5 +1,5 @@
 ---
-title: "FillGradient_Type complexType ('Visio XML')"
+title: "FillGradient_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 82545cdc-890d-1b2f-9c8f-4740f32d0ed7
 
 ---
 
-# FillGradient_Type complexType ('Visio XML')
+# FillGradient_Type complexType (Visio XML)
 
 ## Type information
 

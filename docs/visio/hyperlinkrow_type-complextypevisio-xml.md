@@ -1,5 +1,5 @@
 ---
-title: "HyperlinkRow_Type complexType ('Visio XML')"
+title: "HyperlinkRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f8ded1a6-3bbd-0d59-c9f0-ab84341888cd
 
 ---
 
-# HyperlinkRow_Type complexType ('Visio XML')
+# HyperlinkRow_Type complexType (Visio XML)
 
 ## Type information
 

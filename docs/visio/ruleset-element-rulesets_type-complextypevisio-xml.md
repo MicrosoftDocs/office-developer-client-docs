@@ -1,5 +1,5 @@
 ---
-title: "RuleSet element (RuleSets_Type complexType) ('Visio XML')"
+title: "RuleSet element (RuleSets_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 5ca63b8a-782e-211f-be7a-8e177b61d8fc
 description: "Represents one set of diagram-validation rules."
 ---
 
-# RuleSet element (RuleSets_Type complexType) ('Visio XML')
+# RuleSet element (RuleSets_Type complexType) (Visio XML)
 
 Represents one set of diagram-validation rules.
   

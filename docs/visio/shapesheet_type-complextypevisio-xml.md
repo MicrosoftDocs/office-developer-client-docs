@@ -1,5 +1,5 @@
 ---
-title: "ShapeSheet_Type complexType ('Visio XML')"
+title: "ShapeSheet_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: fb394861-34d7-b7dd-1298-0c68a008528d
 
 ---
 
-# ShapeSheet_Type complexType ('Visio XML')
+# ShapeSheet_Type complexType (Visio XML)
 
 ## Type information
 

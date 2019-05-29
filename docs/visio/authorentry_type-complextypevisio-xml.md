@@ -1,5 +1,5 @@
 ---
-title: "AuthorEntry_Type complexType ('Visio XML')"
+title: "AuthorEntry_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6ea7b946-ecd3-1524-5e36-a2c35cb11d7a
 
 ---
 
-# AuthorEntry_Type complexType ('Visio XML')
+# AuthorEntry_Type complexType (Visio XML)
 
 ## Type information
 

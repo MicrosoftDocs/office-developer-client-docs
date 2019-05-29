@@ -1,5 +1,5 @@
 ---
-title: "DataRecordSet element (DataRecordSets_Type complexType) ('Visio XML')"
+title: "DataRecordSet element (DataRecordSets_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
 description: "Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio."
 ---
 
-# DataRecordSet element (DataRecordSets_Type complexType) ('Visio XML')
+# DataRecordSet element (DataRecordSets_Type complexType) (Visio XML)
 
 Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio.
   

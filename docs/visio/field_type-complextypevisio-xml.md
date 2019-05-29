@@ -1,5 +1,5 @@
 ---
-title: "Field_Type complexType ('Visio XML')"
+title: "Field_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c346fb8d-f247-4a14-19cd-9368ec86ce3f
 
 ---
 
-# Field_Type complexType ('Visio XML')
+# Field_Type complexType (Visio XML)
 
 ## Type information
 

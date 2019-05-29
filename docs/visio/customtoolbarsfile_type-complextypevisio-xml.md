@@ -1,5 +1,5 @@
 ---
-title: "CustomToolbarsFile_Type complexType ('Visio XML')"
+title: "CustomToolbarsFile_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d06324d4-3d7f-dbf3-efea-f569d25dd5d5
 
 ---
 
-# CustomToolbarsFile_Type complexType ('Visio XML')
+# CustomToolbarsFile_Type complexType (Visio XML)
 
 ## Type information
 

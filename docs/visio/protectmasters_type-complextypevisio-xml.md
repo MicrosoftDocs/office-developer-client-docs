@@ -1,5 +1,5 @@
 ---
-title: "ProtectMasters_Type complexType ('Visio XML')"
+title: "ProtectMasters_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d6669409-a37d-9f8e-ae40-d67a7cad3026
 
 ---
 
-# ProtectMasters_Type complexType ('Visio XML')
+# ProtectMasters_Type complexType (Visio XML)
 
 ## Type information
 

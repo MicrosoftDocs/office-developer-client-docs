@@ -1,5 +1,5 @@
 ---
-title: "PublishSettings_Type complexType ('Visio XML')"
+title: "PublishSettings_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: cf14299e-8d21-0eed-bbd7-ad33d4f03533
 
 ---
 
-# PublishSettings_Type complexType ('Visio XML')
+# PublishSettings_Type complexType (Visio XML)
 
 ## Type information
 
