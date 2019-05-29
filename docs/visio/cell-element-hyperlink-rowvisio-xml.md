@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Hyperlink Row) ('Visio XML')"
+title: "Cell element (Hyperlink Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d2089db4-39eb-06d3-d2f8-9465baef5c75
 description: "Contains the information for a single hyperlink associated with a shape. A shape will contain one Hyperlink row for each hyperlink."
 ---
 
-# Cell element (Hyperlink Row) ('Visio XML')
+# Cell element (Hyperlink Row) (Visio XML)
 
 Contains the information for a single hyperlink associated with a shape. A shape will contain one **Hyperlink** row for each hyperlink. 
   
@@ -21,7 +21,7 @@ Contains the information for a single hyperlink associated with a shape. A shape
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

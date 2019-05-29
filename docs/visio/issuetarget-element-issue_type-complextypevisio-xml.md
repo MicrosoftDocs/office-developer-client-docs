@@ -1,5 +1,5 @@
 ---
-title: "IssueTarget element (Issue_Type complexType) ('Visio XML')"
+title: "IssueTarget element (Issue_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: bd9a5d5f-16fe-29b4-5af0-913b14d2be16
 description: "Depending on the target of the parent validation issue, specifies either the page, or both the page and the shape, associated with the parent validation issue. If the target of the parent validation issue is a document, IssueTarget specifes neither a page nor a shape."
 ---
 
-# IssueTarget element (Issue_Type complexType) ('Visio XML')
+# IssueTarget element (Issue_Type complexType) (Visio XML)
 
 Depending on the target of the parent validation issue, specifies either the page, or both the page and the shape, associated with the parent validation issue. If the target of the parent validation issue is a document, **IssueTarget** specifes neither a page nor a shape. 
   
@@ -21,7 +21,7 @@ Depending on the target of the parent validation issue, specifies either the pag
 |||
 |:-----|:-----|
 |**Element type** <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |validation.xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "VisioDocument_Type complexType ('Visio XML')"
+title: "VisioDocument_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 5003f98e-4fed-73f8-be55-5b068d9cbffe
 
 ---
 
-# VisioDocument_Type complexType ('Visio XML')
+# VisioDocument_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

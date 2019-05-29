@@ -1,5 +1,5 @@
 ---
-title: "PolylineTo_Type complexType ('Visio XML')"
+title: "PolylineTo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: e0b87cc0-397d-7640-34ea-2a725d8f0999
 
 ---
 
-# PolylineTo_Type complexType ('Visio XML')
+# PolylineTo_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |GeometryRow_Type  <br/> |
    

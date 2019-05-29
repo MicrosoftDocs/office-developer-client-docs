@@ -1,5 +1,5 @@
 ---
-title: "MoveTo_Type complexType ('Visio XML')"
+title: "MoveTo_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 4cd3e605-9ac1-14f5-f4e1-992c9100b1b2
 
 ---
 
-# MoveTo_Type complexType ('Visio XML')
+# MoveTo_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |GeometryRow_Type  <br/> |
    

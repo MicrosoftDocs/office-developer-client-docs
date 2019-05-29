@@ -1,5 +1,5 @@
 ---
-title: "PageSheet element (Master_Type complexType) ('Visio XML')"
+title: "PageSheet element (Master_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 824fbeb0-1a2f-35a0-50e3-c57143dc21ab
 description: "Specifies the properties of the drawing page associated with the master."
 ---
 
-# PageSheet element (Master_Type complexType) ('Visio XML')
+# PageSheet element (Master_Type complexType) (Visio XML)
 
 Specifies the properties of the drawing page associated with the master.
   
@@ -21,7 +21,7 @@ Specifies the properties of the drawing page associated with the master.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |masters.xml  <br/> |
    

@@ -176,7 +176,7 @@ To view this example in the macro designer, use the following steps.
 
 ```xml
     <?xml version="1.0" encoding="UTF-16" standalone="no"?> 
-    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterDelete"> 
         <Statements> 
           <Comment>Initialize a variable and assign the old</Comment> 

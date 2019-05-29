@@ -1,5 +1,5 @@
 ---
-title: "AuthorList element (Comments_Type complexType) ('Visio XML')"
+title: "AuthorList element (Comments_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
 description: "Specifies the authors of comments in a drawing."
 ---
 
-# AuthorList element (Comments_Type complexType) ('Visio XML')
+# AuthorList element (Comments_Type complexType) (Visio XML)
 
 Specifies the authors of comments in a drawing.
   
@@ -21,7 +21,7 @@ Specifies the authors of comments in a drawing.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |comments.xml  <br/> |
    

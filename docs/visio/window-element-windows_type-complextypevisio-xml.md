@@ -1,5 +1,5 @@
 ---
-title: "Window element (Windows_Type complexType) ('Visio XML')"
+title: "Window element (Windows_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: "Represents an open window in a Microsoft Visio instance. This element contains information necessary to exactly re-create a user interface window in the application workspace when the file is initially opened by Visio."
 ---
 
-# Window element (Windows_Type complexType) ('Visio XML')
+# Window element (Windows_Type complexType) (Visio XML)
 
 Represents an open window in a Microsoft Visio instance. This element contains information necessary to exactly re-create a user interface window in the application workspace when the file is initially opened by Visio.
   
@@ -21,7 +21,7 @@ Represents an open window in a Microsoft Visio instance. This element contains i
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |windows.xml  <br/> |
    

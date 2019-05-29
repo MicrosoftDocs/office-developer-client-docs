@@ -28,7 +28,7 @@ Contains the persisted message value that indicates that the message should not 
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Property name:  <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|Property name:  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Secure messaging  <br/> |
    

@@ -21,7 +21,7 @@ Defines the weather element.
 |||
 |:-----|:-----|
 |**Element type** <br/> ||
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Schema file** <br/> |getweatherinfo.xsd  <br/> |
    
 ## Definition

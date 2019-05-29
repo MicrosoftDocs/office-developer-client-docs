@@ -1,5 +1,5 @@
 ---
-title: "DataColumns_Type complexType ('Visio XML')"
+title: "DataColumns_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: ad003c9e-5e72-2df0-f9c5-dea20a220ab5
 
 ---
 
-# DataColumns_Type complexType ('Visio XML')
+# DataColumns_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "ProtectBkgnds element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "ProtectBkgnds element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 99b7d89e-b482-ef19-1683-667095f8114a
 description: "Specifies whether the user is prevented from deleting or editing background pages."
 ---
 
-# ProtectBkgnds element (DocumentSettings_Type complexType) ('Visio XML')
+# ProtectBkgnds element (DocumentSettings_Type complexType) (Visio XML)
 
 Specifies whether the user is prevented from deleting or editing background pages.
   
@@ -21,7 +21,7 @@ Specifies whether the user is prevented from deleting or editing background page
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

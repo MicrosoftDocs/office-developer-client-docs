@@ -1,5 +1,5 @@
 ---
-title: "Cell element (LineTo Row) ('Visio XML')"
+title: "Cell element (LineTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 64f2494d-2de7-6bc5-0db4-91b952bdcb5e
 description: "Contains x-or y-coordinates of the ending vertex of a straight line segment."
 ---
 
-# Cell element (LineTo Row) ('Visio XML')
+# Cell element (LineTo Row) (Visio XML)
 
 Contains x-or y-coordinates of the ending vertex of a straight line segment.
   
@@ -21,7 +21,7 @@ Contains x-or y-coordinates of the ending vertex of a straight line segment.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

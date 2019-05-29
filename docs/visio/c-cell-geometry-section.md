@@ -19,7 +19,7 @@ description: "Represents different information in different rows. This table des
 
 Represents different information in different rows. This table describes the C cell based on the row in which it's located.
   
-|**Row**|**Description**|
+|Row|Description|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The angle of an arc's major axis relative to the  *x*  -axis of its parent.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The first knot of the nonuniform rational B-spline (NURBS).  <br/> |

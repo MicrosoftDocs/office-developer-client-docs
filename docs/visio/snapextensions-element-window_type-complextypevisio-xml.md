@@ -1,5 +1,5 @@
 ---
-title: "SnapExtensions element (Window_Type complexType) ('Visio XML')"
+title: "SnapExtensions element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 7a12ae10-6aa4-c845-5ede-1c14c6dac80f
 description: "Specifies whether a specific snap extension setting is enabled or disabled for the active window. The value can be a sum of the values in the following table."
 ---
 
-# SnapExtensions element (Window_Type complexType) ('Visio XML')
+# SnapExtensions element (Window_Type complexType) (Visio XML)
 
 Specifies whether a specific snap extension setting is enabled or disabled for the active window. The value can be a sum of the values in the following table.
   
@@ -21,7 +21,7 @@ Specifies whether a specific snap extension setting is enabled or disabled for t
 |||
 |:-----|:-----|
 |**Element type** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |windows.xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "Cell element (NURBSTo Row) ('Visio XML')"
+title: "Cell element (NURBSTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: e76bae8f-b9de-39ef-1f56-b00a6cd2ba6c
 description: "Contains the x- or y-coordinates, position of the second to last knot, position of the last weight, position of the first knot, position of the first weight, or the formula for a nonuniform rational B-spline (NURBS)."
 ---
 
-# Cell element (NURBSTo Row) ('Visio XML')
+# Cell element (NURBSTo Row) (Visio XML)
 
 Contains the x- or y-coordinates, position of the second to last knot, position of the last weight, position of the first knot, position of the first weight, or the formula for a nonuniform rational B-spline (NURBS).
   
@@ -21,7 +21,7 @@ Contains the x- or y-coordinates, position of the second to last knot, position 
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

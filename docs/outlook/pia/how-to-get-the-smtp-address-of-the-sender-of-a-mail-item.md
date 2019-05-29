@@ -30,7 +30,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private string GetSenderSMTPAddress(Outlook.MailItem mail)
 {
     string PR_SMTP_ADDRESS =
-        @"https://schemas.microsoft.com/mapi/proptag/0x39FE001E";
+        @"http://schemas.microsoft.com/mapi/proptag/0x39FE001E";
     if (mail == null)
     {
         throw new ArgumentNullException();

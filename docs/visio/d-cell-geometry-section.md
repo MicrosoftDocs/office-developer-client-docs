@@ -19,7 +19,7 @@ description: "Represents different information in different rows. This table des
 
 Represents different information in different rows. This table describes the D cell based on the row in which it's located.
   
-|**Row**|**Description**|
+|Row|Description|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The ratio of an arc's major axis to its minor axis. Despite the usual meaning of these words, the "major" axis does not have to be greater than the "minor" axis, so this ratio does not have to be greater than 1. Setting this cell to a value less than or equal to 0 or greater than 1000 can lead to unpredictable results.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The first weight of the nonuniform rational B-spline (NURBS).  <br/> |

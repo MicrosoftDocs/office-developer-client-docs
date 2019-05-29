@@ -19,7 +19,7 @@ description: "Represents different information in different rows. This table des
 
 Represents different information in different rows. This table describes the B cell based on the row in which it's located.
   
-|**Row**|**Description**|
+|Row|Description|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The  *y*  -coordinate of an arc's control point.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The last weight of the nonuniform rational B-spline (NURBS).  <br/> |

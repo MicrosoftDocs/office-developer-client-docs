@@ -1,5 +1,5 @@
 ---
-title: "FaceName element (FaceNames_Type complexType) ('Visio XML')"
+title: "FaceName element (FaceNames_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: b1783f05-ced1-917f-8298-eca4ecfa3912
 description: "Contains information about a font."
 ---
 
-# FaceName element (FaceNames_Type complexType) ('Visio XML')
+# FaceName element (FaceNames_Type complexType) (Visio XML)
 
 Contains information about a font.
   
@@ -21,7 +21,7 @@ Contains information about a font.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

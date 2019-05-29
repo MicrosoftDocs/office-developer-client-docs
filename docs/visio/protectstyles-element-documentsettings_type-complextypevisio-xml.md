@@ -1,5 +1,5 @@
 ---
-title: "ProtectStyles element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "ProtectStyles element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 041c1b07-7ad4-f786-c6dc-32a41d4d5e04
 description: "Specifies whether the user is prevented from creating or editing styles."
 ---
 
-# ProtectStyles element (DocumentSettings_Type complexType) ('Visio XML')
+# ProtectStyles element (DocumentSettings_Type complexType) (Visio XML)
 
 Specifies whether the user is prevented from creating or editing styles.
   
@@ -21,7 +21,7 @@ Specifies whether the user is prevented from creating or editing styles.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

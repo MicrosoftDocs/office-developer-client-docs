@@ -1,5 +1,5 @@
 ---
-title: "RowDef_Type complexType ('Visio XML')"
+title: "RowDef_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 64897258-dd7e-a730-d4f5-d9c217308491
 
 ---
 
-# RowDef_Type complexType ('Visio XML')
+# RowDef_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

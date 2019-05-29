@@ -180,7 +180,7 @@ To view this example in the macro designer, use the following steps.
 
 
 ```xml
-<DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+<DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
   <DataMacro Event="BeforeChange"> 
     <Statements> 
       <Comment>Check to ensure that if the bug is resloved that the user has selected a resolution </Comment> 

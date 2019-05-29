@@ -1,5 +1,5 @@
 ---
-title: "VisioDocument element ('Visio XML')"
+title: "VisioDocument element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f5954685-3a2d-7848-388f-5dd7e536551c
 description: "The root element of a Microsoft Visio document."
 ---
 
-# VisioDocument element ('Visio XML')
+# VisioDocument element (Visio XML)
 
 The root element of a Microsoft Visio document.
   
@@ -21,7 +21,7 @@ The root element of a Microsoft Visio document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

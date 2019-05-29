@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Controls Row) ('Visio XML')"
+title: "Cell element (Controls Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3c04d243-002c-bb00-a4be-0bcb8e156402
 description: "Contains a property for a particular control handle defined for a shape."
 ---
 
-# Cell element (Controls Row) ('Visio XML')
+# Cell element (Controls Row) (Visio XML)
 
 Contains a property for a particular control handle defined for a shape.
   
@@ -21,7 +21,7 @@ Contains a property for a particular control handle defined for a shape.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

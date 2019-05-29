@@ -77,7 +77,7 @@ namespace AsyncUpdate
     }
     // The namespace prefixes defined in this attribute must remain 
     // synchronized with those in the form definition file (.xsf).
-    [InfoPathNamespace("xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
+    [InfoPathNamespace("xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-02-11T23-29-59'")]
     public class AsyncUpdate
     {
         private XDocument thisXDocument;

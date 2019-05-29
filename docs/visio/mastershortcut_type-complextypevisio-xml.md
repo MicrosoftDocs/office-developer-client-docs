@@ -1,5 +1,5 @@
 ---
-title: "MasterShortcut_Type complexType ('Visio XML')"
+title: "MasterShortcut_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 0192c733-09b8-d9ce-1d88-b4d97e2e1a36
 
 ---
 
-# MasterShortcut_Type complexType ('Visio XML')
+# MasterShortcut_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "PrimaryKey element (DataRecordSet_Type complexType) ('Visio XML')"
+title: "PrimaryKey element (DataRecordSet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: "Identifies one or more primary-key columns in the data recordset."
 ---
 
-# PrimaryKey element (DataRecordSet_Type complexType) ('Visio XML')
+# PrimaryKey element (DataRecordSet_Type complexType) (Visio XML)
 
 Identifies one or more primary-key columns in the data recordset.
   
@@ -21,7 +21,7 @@ Identifies one or more primary-key columns in the data recordset.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |recordsets.xml  <br/> |
    

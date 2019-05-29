@@ -1,5 +1,5 @@
 ---
-title: "Cell element (ArcTo Row) ('Visio XML')"
+title: "Cell element (ArcTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 69f1a0cc-90fe-4b49-653c-bba4a1a2b1b2
 description: "Contains the x coordinate, y coordinate, or bow of a circular arc."
 ---
 
-# Cell element (ArcTo Row) ('Visio XML')
+# Cell element (ArcTo Row) (Visio XML)
 
 Contains the x coordinate, y coordinate, or bow of a circular arc.
   
@@ -21,7 +21,7 @@ Contains the x coordinate, y coordinate, or bow of a circular arc.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "DocumentSheet element (VisioDocument_Type complexType) ('Visio XML')"
+title: "DocumentSheet element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9b8673e1-b913-52db-2d1d-b3e8f4b8f952
 description: "Specifies a DocumentSheet structure."
 ---
 
-# DocumentSheet element (VisioDocument_Type complexType) ('Visio XML')
+# DocumentSheet element (VisioDocument_Type complexType) (Visio XML)
 
 Specifies a DocumentSheet structure.
   
@@ -21,7 +21,7 @@ Specifies a DocumentSheet structure.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

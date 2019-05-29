@@ -1,5 +1,5 @@
 ---
-title: "Solution element (Solutions_Type complexType) ('Visio XML')"
+title: "Solution element (Solutions_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 46bf34be-761e-9d44-ab06-83d4c8932cab
 description: "Specifies one instance of solution XML stored in the drawing."
 ---
 
-# Solution element (Solutions_Type complexType) ('Visio XML')
+# Solution element (Solutions_Type complexType) (Visio XML)
 
 Specifies one instance of solution XML stored in the drawing.
   
@@ -21,7 +21,7 @@ Specifies one instance of solution XML stored in the drawing.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |solutions.xml  <br/> |
    

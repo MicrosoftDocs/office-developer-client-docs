@@ -1,5 +1,5 @@
 ---
-title: "RefreshConflict_Type complexType ('Visio XML')"
+title: "RefreshConflict_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: aec7677f-a761-804c-6a12-731df86481a8
 
 ---
 
-# RefreshConflict_Type complexType ('Visio XML')
+# RefreshConflict_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

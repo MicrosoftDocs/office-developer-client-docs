@@ -1,5 +1,5 @@
 ---
-title: "Validation element ('Visio XML')"
+title: "Validation element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: "Stores information about diagram validation for the document."
 ---
 
-# Validation element ('Visio XML')
+# Validation element (Visio XML)
 
 Stores information about diagram validation for the document.
   
@@ -21,7 +21,7 @@ Stores information about diagram validation for the document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |validation.xml  <br/> |
    

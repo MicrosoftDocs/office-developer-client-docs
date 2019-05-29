@@ -1,5 +1,5 @@
 ---
-title: "StencilGroupPos_Type complexType ('Visio XML')"
+title: "StencilGroupPos_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 9cfece8d-00e8-5ed6-89ab-a87a29ac5e31
 
 ---
 
-# StencilGroupPos_Type complexType ('Visio XML')
+# StencilGroupPos_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |xsd:int  <br/> |
    

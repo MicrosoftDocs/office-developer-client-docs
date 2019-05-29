@@ -37,7 +37,7 @@ private string GetDefaultMessageClass(Outlook.Folder folder)
     try
     {
         const string PR_DEF_POST_MSGCLASS =
-            @"https://schemas.microsoft.com/mapi/proptag/0x36E5001E";
+            @"http://schemas.microsoft.com/mapi/proptag/0x36E5001E";
         string messageClass =
             folder.PropertyAccessor.GetProperty(
             PR_DEF_POST_MSGCLASS).ToString();

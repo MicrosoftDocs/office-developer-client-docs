@@ -1,5 +1,5 @@
 ---
-title: "DocumentSettings element (VisioDocument_Type complexType) ('Visio XML')"
+title: "DocumentSettings element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
 description: "Contains elements that specify document settings."
 ---
 
-# DocumentSettings element (VisioDocument_Type complexType) ('Visio XML')
+# DocumentSettings element (VisioDocument_Type complexType) (Visio XML)
 
 Contains elements that specify document settings.
   
@@ -21,7 +21,7 @@ Contains elements that specify document settings.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

@@ -80,7 +80,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void CreateMeetingRequestsView()
 {
     const string PR_MESSAGE_CLASS =
-        "https://schemas.microsoft.com/mapi/proptag/0x001A001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x001A001E";
     Outlook.Views views =
         Application.Session.GetDefaultFolder(
         Outlook.OlDefaultFolders.olFolderInbox).Views;

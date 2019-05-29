@@ -1,5 +1,5 @@
 ---
-title: "MasterShortcut element (Masters_Type complexType) ('Visio XML')"
+title: "MasterShortcut element (Masters_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 62f0e093-5385-e552-f91a-02a65eb0e6e1
 description: "Specifies a master shortcut defined in the document."
 ---
 
-# MasterShortcut element (Masters_Type complexType) ('Visio XML')
+# MasterShortcut element (Masters_Type complexType) (Visio XML)
 
 Specifies a master shortcut defined in the document.
   
@@ -21,7 +21,7 @@ Specifies a master shortcut defined in the document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml  <br/> |
    

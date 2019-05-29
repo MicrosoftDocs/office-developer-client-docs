@@ -20,7 +20,7 @@ Defines the parameters about the current weather conditions of a location.
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Schema file** <br/> |getweatherinfo.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

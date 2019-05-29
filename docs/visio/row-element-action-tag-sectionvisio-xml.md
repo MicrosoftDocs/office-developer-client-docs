@@ -1,5 +1,5 @@
 ---
-title: "Row element (Action Tag Section) ('Visio XML')"
+title: "Row element (Action Tag Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 54c3315f-770f-6995-d0d8-ab66e4fe10d9
 description: "Defines an action tag on a shape or page."
 ---
 
-# Row element (Action Tag Section) ('Visio XML')
+# Row element (Action Tag Section) (Visio XML)
 
 Defines an action tag on a shape or page.
   
@@ -21,7 +21,7 @@ Defines an action tag on a shape or page.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ActionTagRow_Type](actiontagrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    

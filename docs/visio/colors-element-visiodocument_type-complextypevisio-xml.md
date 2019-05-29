@@ -1,5 +1,5 @@
 ---
-title: "Colors element (VisioDocument_Type complexType) ('Visio XML')"
+title: "Colors element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3f439c2d-78be-5f2e-fa5a-f3feb83a0234
 description: "Contains the document's color table."
 ---
 
-# Colors element (VisioDocument_Type complexType) ('Visio XML')
+# Colors element (VisioDocument_Type complexType) (Visio XML)
 
 Contains the document's color table.
   
@@ -21,7 +21,7 @@ Contains the document's color table.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

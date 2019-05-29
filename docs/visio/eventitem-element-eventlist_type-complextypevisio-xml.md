@@ -1,5 +1,5 @@
 ---
-title: "EventItem element (EventList_Type complexType) ('Visio XML')"
+title: "EventItem element (EventList_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6b347117-a1c1-d090-0d71-ea8528ac70c6
 description: "Encapsulates an event code."
 ---
 
-# EventItem element (EventList_Type complexType) ('Visio XML')
+# EventItem element (EventList_Type complexType) (Visio XML)
 
 Encapsulates an event code.
   
@@ -21,7 +21,7 @@ Encapsulates an event code.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

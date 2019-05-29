@@ -1,5 +1,5 @@
 ---
-title: "Pages element ('Visio XML')"
+title: "Pages element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: "Contains the Page elements for the document."
 ---
 
-# Pages element ('Visio XML')
+# Pages element (Visio XML)
 
 Contains the Page elements for the document.
   
@@ -21,7 +21,7 @@ Contains the Page elements for the document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |pages.xml  <br/> |
    

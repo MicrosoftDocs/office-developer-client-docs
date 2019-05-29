@@ -136,7 +136,7 @@ private void GetToDoItems()
         as Outlook.Folder;
     // DASL filter for IsMarkedAsTask
     string filter = "@SQL=" + "\"" +
-        "https://schemas.microsoft.com/mapi/proptag/0x0E2B0003"
+        "http://schemas.microsoft.com/mapi/proptag/0x0E2B0003"
         + "\"" + " = 1";
     Outlook.Table table =
         folder.GetTable(filter,
@@ -146,7 +146,7 @@ private void GetToDoItems()
     table.Columns.Add("TaskCompletedDate");
     // Use GUID/ID to represent TaskSubject
     table.Columns.Add(
-        "https://schemas.microsoft.com/mapi/id/" +
+        "http://schemas.microsoft.com/mapi/id/" +
         "{00062008-0000-0000-C000-000000000046}/85A4001E");
     while (!table.EndOfTable)
     {

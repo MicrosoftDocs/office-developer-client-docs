@@ -1,5 +1,5 @@
 ---
-title: "SplineKnot_Type complexType ('Visio XML')"
+title: "SplineKnot_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 114d5460-c5fd-0e31-def4-f943b93bd1ae
 
 ---
 
-# SplineKnot_Type complexType ('Visio XML')
+# SplineKnot_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |GeometryRow_Type  <br/> |
    

@@ -66,7 +66,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void TableMultiValuedProperties()
 {
     const string categoriesProperty =
-        "https://schemas.microsoft.com/mapi/string/"
+        "http://schemas.microsoft.com/mapi/string/"
         + "{00020329-0000-0000-C000-000000000046}/Keywords";
     // Inbox
     Outlook.Folder folder =

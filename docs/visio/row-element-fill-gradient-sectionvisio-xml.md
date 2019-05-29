@@ -1,5 +1,5 @@
 ---
-title: "Row element (Fill Gradient Section) ('Visio XML')"
+title: "Row element (Fill Gradient Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f216afb5-4393-6e1c-54c2-3c184a26d934
 description: "Contains the color, transparency, and position of a gradient stop for a fill gradient."
 ---
 
-# Row element (Fill Gradient Section) ('Visio XML')
+# Row element (Fill Gradient Section) (Visio XML)
 
 Contains the color, transparency, and position of a gradient stop for a fill gradient.
   
@@ -21,7 +21,7 @@ Contains the color, transparency, and position of a gradient stop for a fill gra
 |||
 |:-----|:-----|
 |**Element type** <br/> |[FillGradientRow_Type](fillgradientrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

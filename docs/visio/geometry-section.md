@@ -24,7 +24,7 @@ The geometry of a shape can be expressed in multiple **Geometry** sections. Mult
 
 The **Geometry** section contains the following row types. For details, see the row topics. 
   
-|**Row**|**Description**|
+|Row|Description|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> |Move to a coordinate.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> |Draw a line to a coordinate.  <br/> |

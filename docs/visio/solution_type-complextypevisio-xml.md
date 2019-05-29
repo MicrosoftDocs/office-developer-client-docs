@@ -1,5 +1,5 @@
 ---
-title: "Solution_Type complexType ('Visio XML')"
+title: "Solution_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: e41f5028-7173-986e-d381-5c02d05e4407
 
 ---
 
-# Solution_Type complexType ('Visio XML')
+# Solution_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "Validation_Type complexType ('Visio XML')"
+title: "Validation_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 1bc106ec-879a-0a4b-8c04-a5734eb0097a
 
 ---
 
-# Validation_Type complexType ('Visio XML')
+# Validation_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

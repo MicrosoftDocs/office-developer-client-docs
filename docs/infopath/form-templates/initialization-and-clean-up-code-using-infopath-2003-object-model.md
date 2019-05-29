@@ -35,7 +35,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
+        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
     public partial class FormCode
     {
         private XDocument thisXDocument;
@@ -65,7 +65,7 @@ Namespace Template1
     ' The namespace prefixes defined in this attribute must remain synchronized with
     ' those in the form definition file (.xsf).
     <InfoPathNamespace( _
-        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
+        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
     Public Class FormCode
         Private thisXDocument As XDocument
         Private thisApplication As Application
@@ -162,7 +162,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
+        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
     public partial class Template1
     {
         private XDocument    thisXDocument;
@@ -197,7 +197,7 @@ Namespace Template1
         ' The namespace prefixes defined in this attribute must remain synchronized with
         ' those in the form definition file (.xsf).
         <InfoPathNamespace( _
-            "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
+            "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
         Public Class Template1
             Private thisXDocument As XDocument
             Private thisApplication As Application

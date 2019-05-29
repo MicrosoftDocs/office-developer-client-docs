@@ -1,5 +1,5 @@
 ---
-title: "Row element (Tabs Section) ('Visio XML')"
+title: "Row element (Tabs Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
 description: "Contains cells for shapes or styles that control tab stop position and alignment."
 ---
 
-# Row element (Tabs Section) ('Visio XML')
+# Row element (Tabs Section) (Visio XML)
 
 Contains cells for shapes or styles that control tab stop position and alignment.
   
@@ -21,7 +21,7 @@ Contains cells for shapes or styles that control tab stop position and alignment
 |||
 |:-----|:-----|
 |**Element type** <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "Colors_Type complexType ('Visio XML')"
+title: "Colors_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 09f997b5-1f3c-ddff-41f2-af84960266ff
 
 ---
 
-# Colors_Type complexType ('Visio XML')
+# Colors_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "Rel element (Master_Type complexType) ('Visio XML')"
+title: "Rel element (Master_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 151cdd13-d00b-249c-7ebd-1ae9c4042b03
 description: "Specifies a relationship to a part with the corresponding master XML."
 ---
 
-# Rel element (Master_Type complexType) ('Visio XML')
+# Rel element (Master_Type complexType) (Visio XML)
 
 Specifies a relationship to a part with the corresponding master XML.
   
@@ -21,7 +21,7 @@ Specifies a relationship to a part with the corresponding master XML.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |pages.xml, masters.xml, recordsets.xml, page#.xml, master#.xml  <br/> |
    

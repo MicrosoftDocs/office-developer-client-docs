@@ -1,5 +1,5 @@
 ---
-title: "Elements ('Visio XML')"
+title: "Elements (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
 description: "This topic lists the elements in the Visio 2013 file format XML schema."
 ---
 
-# Elements ('Visio XML')
+# Elements (Visio XML)
 
 This topic lists the elements in the Visio 2013 file format XML schema.
   
