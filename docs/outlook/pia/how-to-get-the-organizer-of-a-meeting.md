@@ -35,7 +35,7 @@ private Outlook.AddressEntry GetMeetingOrganizer(Outlook.AppointmentItem appt)
         throw new ArgumentNullException();
     }
     string PR_SENT_REPRESENTING_ENTRYID =
-        @"https://schemas.microsoft.com/mapi/proptag/0x00410102";
+        @"http://schemas.microsoft.com/mapi/proptag/0x00410102";
     string organizerEntryID =
         appt.PropertyAccessor.BinaryToString(
             appt.PropertyAccessor.GetProperty(

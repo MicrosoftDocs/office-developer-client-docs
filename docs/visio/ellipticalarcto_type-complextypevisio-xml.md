@@ -18,7 +18,7 @@ ms.assetid: dc10f727-5243-2fdb-4042-3dfdfcd8504c
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |GeometryRow_Type  <br/> |
    

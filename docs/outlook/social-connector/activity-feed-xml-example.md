@@ -42,7 +42,7 @@ The following example shows the **activityFeed** XML of four activities: two pro
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<activityFeed xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<activityFeed xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <network>Contoso</network>
   <activities>
     <activityDetails>

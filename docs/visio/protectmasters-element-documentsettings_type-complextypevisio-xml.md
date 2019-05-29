@@ -23,7 +23,7 @@ The range of possible values for this element is either '0' or '1'. A value of '
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

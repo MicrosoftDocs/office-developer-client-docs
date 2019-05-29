@@ -21,7 +21,7 @@ Specifies the location to report weather on.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Schema file** <br/> |getweatherlocation.xsd  <br/> |
    
 ## Definition

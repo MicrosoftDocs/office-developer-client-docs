@@ -93,7 +93,7 @@ The following XML code is an excerpt of the ChangeSectionName.xml file that the 
   
 ```XML
 <?xml version="1.0" ?> 
-    <one:Notebooks xmlns:one="https://schemas.microsoft.com/office/onenote/12/2004/onenote"> 
+    <one:Notebooks xmlns:one="http://schemas.microsoft.com/office/onenote/12/2004/onenote"> 
         <one:Notebook name="My Notebook" nickname="My Notebook" ID="{0B8E7305-AC2C-4BCB-8651-1CDA55AAE14C}{1}{B0}"> 
             <one:Section name="My Renamed Section" ID="{5F4E2908-44BA-4C02-91FE-49FC665E9A33}{1}{B0}" path="C:\My Section.one" /> 
         </one:Notebook> 
@@ -122,7 +122,7 @@ The following C# example shows a complete console application that searches for 
     {
         
         // OneNote 2013 Schema namespace.
-        string strNamespace = "https://schemas.microsoft.com/office/onenote/2013/onenote";
+        string strNamespace = "http://schemas.microsoft.com/office/onenote/2013/onenote";
         string outputXML;
         Application onApplication = new Application();
         onApplication.GetHierarchy(null, HierarchyScope.hsSections, out outputXML);
@@ -258,7 +258,7 @@ static void UpdatePageContent()
         OneNote.Application onApplication = new OneNote.Application();
         String strImportXML;
         strImportXML = "<?xml version=\"1.0\"?>" +
-            "<one:Page xmlns:one=\"https://schemas.microsoft.com/office/onenote/12/2004/onenote\" 
+            "<one:Page xmlns:one=\"http://schemas.microsoft.com/office/onenote/12/2004/onenote\" 
             ID=\"{3428B7BB-EF39-4B9C-A167-3FAE20630C37}{1}{B0}\">" +
             "    <one:PageSettings RTL=\"false\" color=\"automatic\">" +
             "        <one:PageSize>" +

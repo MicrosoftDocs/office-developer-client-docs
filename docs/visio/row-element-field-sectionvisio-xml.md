@@ -21,7 +21,7 @@ Displays functions and formulas inserted in the shape's text by using the Field 
 |||
 |:-----|:-----|
 |**Element type** <br/> |[FieldRow_Type](fieldrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

@@ -21,7 +21,7 @@ Includes a **RuleSet** element for each validation rule set in the document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |validation.xml  <br/> |
    

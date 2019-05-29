@@ -21,7 +21,7 @@ Represents a connection between two shapes in a drawing, such as a line and a bo
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    

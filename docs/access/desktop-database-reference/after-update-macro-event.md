@@ -173,7 +173,7 @@ To view this example in the macro designer, use the following steps:
 <!-- end list -->
 
 ```xml
-    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterUpdate"> 
         <Statements> 
           <ConditionalBlock> 

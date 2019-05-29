@@ -21,7 +21,7 @@ Identifies one or more primary-key columns in the data recordset.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |recordsets.xml  <br/> |
    

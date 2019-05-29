@@ -21,7 +21,7 @@ Contains the cells for a particular control handle defined for a shape.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

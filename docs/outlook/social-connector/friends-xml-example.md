@@ -22,7 +22,7 @@ The following example shows the **friends** XML for two persons on the social ne
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<friends xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<friends xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <person>
     <userID>4667647</userID>
     <firstName>Melissa</firstName>

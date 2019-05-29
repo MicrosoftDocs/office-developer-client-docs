@@ -23,8 +23,8 @@ All XML that is returned by OSC providers in OSC provider extensibility methods 
 -->
 <xs:schema
     xmlns:xs="https://www.w3.org/2001/XMLSchema"
-    targetNamespace="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
-    xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    targetNamespace="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
+    xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd"
     elementFormDefault="qualified">
   <!-- Root element for the activity feed -->
   <xs:element name="activityFeed" type="activityFeedType" />

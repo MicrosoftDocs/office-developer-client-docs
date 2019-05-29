@@ -18,7 +18,7 @@ ms.assetid: 6b35d58b-ec6f-9b99-01fb-c665630e65d7
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |IndexedRow_Type  <br/> |
    

@@ -60,7 +60,7 @@ The following example shows the **capabilities** XML of an OSC provider.
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
-<capabilities xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<capabilities xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <getFriends>true</getFriends>
   <cacheFriends>true</cacheFriends>
   <followPerson>true</followPerson>
