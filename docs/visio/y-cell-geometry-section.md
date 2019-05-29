@@ -19,7 +19,7 @@ description: "Represents a y -coordinate on a shape in local coordinates. This t
 
 Represents a  *y*  -coordinate on a shape in local coordinates. This table describes the Y cell based on the row in which it's located. 
   
-|**Row**|**Description**|
+|Row|Description|
 |:-----|:-----|
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | If the MoveTo row is the first row in the section, the Y cell represents the  *y*  -coordinate of the first vertex of a path. If the MoveTo row appears between two rows, the Y cell represents the  *y*  -coordinate of the first vertex after the break in the path.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | The  *y*  -coordinate of the ending vertex of a straight line segment.  <br/> |

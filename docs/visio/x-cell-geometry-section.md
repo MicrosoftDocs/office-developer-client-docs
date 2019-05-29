@@ -19,7 +19,7 @@ description: "Represents an x -coordinate on a shape in local coordinates. This 
 
 Represents an  *x*  -coordinate on a shape in local coordinates. This table describes the X cell based on the row in which it's located. 
   
-|**Row**|**Description**|
+|Row|Description|
 |:-----|:-----|
 |[MoveTo](moveto-row-geometry-section.md) <br/> | If the MoveTo row is the first row in the section, the X cell represents the  *x*  -coordinate of the first vertex of a path. If the MoveTo row appears between two rows, the X cell represents the  *x*  -coordinate of the first vertex after the break in the path.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | The  *x*  -coordinate of the ending vertex of a straight line segment.  <br/> |
