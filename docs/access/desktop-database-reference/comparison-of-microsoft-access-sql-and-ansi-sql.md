@@ -4,7 +4,7 @@ TOCTitle: Comparison of Microsoft Access SQL and ANSI SQL
 ms:assetid: 0686f98f-10fe-0e02-e9d1-84ff3e755b57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
-ms.date: 09/18/2015
+ms.date: 06/13/2019
 mtps_version: v=office.15
 localization_priority: Normal
 ---
@@ -19,7 +19,7 @@ Microsoft Access database engine SQL is generally ANSI-89 Level 1 compliant. How
 
 - Microsoft Access SQL and ANSI SQL each have different reserved words and data types. For more information, see [Microsoft Access Database Engine SQL Reserved Words](sql-reserved-words.md) and [Equivalent ANSI SQL Data Types](equivalent-ansi-sql-data-types.md). Using the Microsoft Access Database Engine OLE DB Provider there are additional reserved words.
 
-- **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
+- **[Between…And](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/between-and-operator)**
     
   *expr1* \[NOT\] **Between** *value1* **And** *value2*
     
