@@ -157,3 +157,47 @@ This example creates a new table with two text fields and an **Integer** field. 
      
     End Sub
 ```
+
+<br/>
+
+This example creates a new table with all of the differnt field types. The AutoNumber field is the primary key.
+
+```vb
+    Sub CreateTableX4()
+        On Error Resume Next
+        Application.CurrentDb.Execute "Drop Table [~~Kitchen Sink];"
+        On Error GoTo 0
+        
+        'This example uses ADODB instead of the DAO shown in the previous
+        'ones because DAO does not support the DECIMAL and GUID data types
+        Dim con As ADODB.Connection
+        Set con = CurrentProject.Connection
+        con.Execute "" _
+            & "CREATE TABLE [~~Kitchen Sink](" _
+                & " [Auto]          COUNTER" _
+                & ",[Byte]          BYTE" _
+                & ",[Integer]       SMALLINT" _
+                & ",[Long]          INTEGER" _
+                & ",[Single]        REAL" _
+                & ",[Double]        FLOAT" _
+                & ",[Decimal]       DECIMAL(18,5)" _
+                & ",[Currency]      MONEY" _
+                & ",[ShortText]     CHAR" _
+                & ",[LongText]      MEMO" _
+                & ",[DateTime]      DATETIME" _
+                & ",[YesNo]         BIT" _
+                & ",[OleObject]     IMAGE" _
+                & ",[ReplicationID] UNIQUEIDENTIFIER" _
+                & ",CONSTRAINT [PrimaryKey] PRIMARY KEY ([Auto])" _
+            & ");"
+        Set con = Nothing
+    
+        'Add a Hyperlink Field
+        Dim AllDefs As DAO.TableDefs, TblDef As DAO.TableDef, Fld As DAO.Field
+        Set AllDefs = Application.CurrentDb.TableDefs
+        Set TblDef = AllDefs("~~Kitchen Sink")
+        Set Fld = TblDef.CreateField("Hyperlink", dbMemo)
+        Fld.Attributes = dbHyperlinkField + dbVariableField
+        TblDef.Fields.Append Fld
+    End Sub
+```
