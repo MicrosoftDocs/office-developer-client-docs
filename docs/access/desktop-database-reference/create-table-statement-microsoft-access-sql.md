@@ -160,12 +160,12 @@ This example creates a new table with two text fields and an **Integer** field. 
 
 <br/>
 
-This example creates a new table with all of the differnt field types. The AutoNumber field is the primary key.
+This example creates a new table called `~~Kitsch'n Sync` which demonstrates all of the differnt field and index types. The AutoNumber field is the primary key.
 
 ```vb
     Sub CreateTableX6()
         On Error Resume Next
-        Application.CurrentDb.Execute "Drop Table [~~Kitchen Sink];"
+        Application.CurrentDb.Execute "Drop Table [~~Kitsch'n Sync];"
         On Error GoTo 0
         
         'This example uses ADODB instead of the DAO shown in the previous
@@ -173,7 +173,7 @@ This example creates a new table with all of the differnt field types. The AutoN
         Dim con As ADODB.Connection
         Set con = CurrentProject.Connection
         con.Execute "" _
-            & "CREATE TABLE [~~Kitchen Sink](" _
+            & "CREATE TABLE [~~Kitsch'n Sync](" _
                 & " [Auto]                  COUNTER" _
                 & ",[Byte]                  BYTE" _
                 & ",[Integer]               SMALLINT" _
@@ -195,21 +195,21 @@ This example creates a new table with all of the differnt field types. The AutoN
                 & ",CONSTRAINT [PrimaryKey] PRIMARY KEY ([Auto])" _
                 & ",CONSTRAINT [Unique Index] UNIQUE ([Byte],[Integer],[Long])" _
             & ");"
-        con.Execute "CREATE INDEX [Single-Field Index] ON [~~Kitchen Sink]([Indexed]);"
-        con.Execute "CREATE INDEX [Multi-Field Index] ON [~~Kitchen Sink]([Auto],[Required]);"
-        con.Execute "CREATE INDEX [IgnoreNulls Index] ON [~~Kitchen Sink]([Single],[Double]) WITH IGNORE NULL;"
-        con.Execute "CREATE UNIQUE INDEX [Combined Index] ON [~~Kitchen Sink]([ShortText],[LongText]) WITH IGNORE NULL;"
+        con.Execute "CREATE INDEX [Single-Field Index] ON [~~Kitsch'n Sync]([Indexed]);"
+        con.Execute "CREATE INDEX [Multi-Field Index] ON [~~Kitsch'n Sync]([Auto],[Required]);"
+        con.Execute "CREATE INDEX [IgnoreNulls Index] ON [~~Kitsch'n Sync]([Single],[Double]) WITH IGNORE NULL;"
+        con.Execute "CREATE UNIQUE INDEX [Combined Index] ON [~~Kitsch'n Sync]([ShortText],[LongText]) WITH IGNORE NULL;"
         Set con = Nothing
     
         'Add a Hyperlink Field
         Dim AllDefs As DAO.TableDefs, TblDef As DAO.TableDef, Fld As DAO.Field
         Set AllDefs = Application.CurrentDb.TableDefs
-        Set TblDef = AllDefs("~~Kitchen Sink")
+        Set TblDef = AllDefs("~~Kitsch'n Sync")
         Set Fld = TblDef.CreateField("Hyperlink", dbMemo)
         Fld.Attributes = dbHyperlinkField + dbVariableField
         Fld.OrdinalPosition = 10
         TblDef.Fields.Append Fld
         
-        DoCmd.RunSQL "ALTER TABLE [~~Kitchen Sink] DROP COLUMN [PlaceHolder1];"
+        DoCmd.RunSQL "ALTER TABLE [~~Kitsch'n Sync] DROP COLUMN [PlaceHolder1];"
     End Sub
 ```
