@@ -163,7 +163,7 @@ This example creates a new table with two text fields and an **Integer** field. 
 This example creates a new table with all of the differnt field types. The AutoNumber field is the primary key.
 
 ```vb
-    Sub CreateTableX4()
+    Sub CreateTableX6()
         On Error Resume Next
         Application.CurrentDb.Execute "Drop Table [~~Kitchen Sink];"
         On Error GoTo 0
@@ -174,22 +174,31 @@ This example creates a new table with all of the differnt field types. The AutoN
         Set con = CurrentProject.Connection
         con.Execute "" _
             & "CREATE TABLE [~~Kitchen Sink](" _
-                & " [Auto]          COUNTER" _
-                & ",[Byte]          BYTE" _
-                & ",[Integer]       SMALLINT" _
-                & ",[Long]          INTEGER" _
-                & ",[Single]        REAL" _
-                & ",[Double]        FLOAT" _
-                & ",[Decimal]       DECIMAL(18,5)" _
-                & ",[Currency]      MONEY" _
-                & ",[ShortText]     CHAR" _
-                & ",[LongText]      MEMO" _
-                & ",[DateTime]      DATETIME" _
-                & ",[YesNo]         BIT" _
-                & ",[OleObject]     IMAGE" _
-                & ",[ReplicationID] UNIQUEIDENTIFIER" _
+                & " [Auto]                  COUNTER" _
+                & ",[Byte]                  BYTE" _
+                & ",[Integer]               SMALLINT" _
+                & ",[Long]                  INTEGER" _
+                & ",[Single]                REAL" _
+                & ",[Double]                FLOAT" _
+                & ",[Decimal]               DECIMAL(18,5)" _
+                & ",[Currency]              MONEY" _
+                & ",[ShortText]             CHAR" _
+                & ",[LongText]              MEMO" _
+                & ",[PlaceHolder1]          MEMO" _
+                & ",[DateTime]              DATETIME" _
+                & ",[YesNo]                 BIT" _
+                & ",[OleObject]             IMAGE" _
+                & ",[ReplicationID]         UNIQUEIDENTIFIER" _
+                & ",[Required]              INTEGER NOT NULL" _
+                & ",[Unicode Compression]   MEMO WITH COMP" _
+                & ",[Indexed]               INTEGER" _
                 & ",CONSTRAINT [PrimaryKey] PRIMARY KEY ([Auto])" _
+                & ",CONSTRAINT [Unique Index] UNIQUE ([Byte],[Integer],[Long])" _
             & ");"
+        con.Execute "CREATE INDEX [Single-Field Index] ON [~~Kitchen Sink]([Indexed]);"
+        con.Execute "CREATE INDEX [Multi-Field Index] ON [~~Kitchen Sink]([Auto],[Required]);"
+        con.Execute "CREATE INDEX [IgnoreNulls Index] ON [~~Kitchen Sink]([Single],[Double]) WITH IGNORE NULL;"
+        con.Execute "CREATE UNIQUE INDEX [Combined Index] ON [~~Kitchen Sink]([ShortText],[LongText]) WITH IGNORE NULL;"
         Set con = Nothing
     
         'Add a Hyperlink Field
@@ -198,6 +207,9 @@ This example creates a new table with all of the differnt field types. The AutoN
         Set TblDef = AllDefs("~~Kitchen Sink")
         Set Fld = TblDef.CreateField("Hyperlink", dbMemo)
         Fld.Attributes = dbHyperlinkField + dbVariableField
+        Fld.OrdinalPosition = 10
         TblDef.Fields.Append Fld
+        
+        DoCmd.RunSQL "ALTER TABLE [~~Kitchen Sink] DROP COLUMN [PlaceHolder1];"
     End Sub
 ```
