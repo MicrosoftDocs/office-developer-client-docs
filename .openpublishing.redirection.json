@@ -4,425 +4,445 @@
       "source_path": "docs/shared/handle-high-dpi-and-dpi-scaling-in-your-office-solution.md",
       "redirect_url": "/office/client-developer/ddpi/handle-high-dpi-and-dpi-scaling-in-your-office-solution"
     },
-  {
-    "source_path": "docs/access/desktop-database-reference/adding-data-to-a-recordset-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adding-data-to-a-recordset"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adding-records-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adding-records"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-programmer-s-guide-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-programmer-s-guide"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/appendix-a-providers-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/appendix-a-providers"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/appendix-b-ado-errors-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/appendix-b-ado-errors"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/appendix-c-programming-with-ado-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/appendix-c-programming-with-ado"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/appendix-d-ado-samples-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/appendix-d-ado-samples"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/batch-mode-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/batch-mode"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-10-records-and-streams-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-10-records-and-streams"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-11-rds-fundamentals-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-11-rds-fundamentals"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-12-rds-tutorial-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-13-rds-usage-and-security-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-13-rds-usage-and-security"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-14-ado-md-fundamentals-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-14-ado-md-fundamentals"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-15-adox-fundamentals-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-15-adox-fundamentals"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-1-ado-fundamentals-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-1-ado-fundamentals"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-2-getting-data-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-2-getting-data"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-3-examining-data-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-3-examining-data"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-4-editing-data-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-4-editing-data"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-5-updating-and-persisting-data-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-5-updating-and-persisting-data"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-6-error-handlinge-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-6-error-handling"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-7-handling-ado-events-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-7-handling-ado-events"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-8-understanding-cursors-and-locks-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-8-understanding-cursors-and-locks"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/chapter-9-data-shaping-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-9-data-shaping"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/datafactory-customization-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/datafactory-customization"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/data-shaping-summary.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/data-shaping"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/data-shaping-summary-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/data-shaping"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/handling-errors-in-other-languages-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/handling-errors-in-other-languages"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/hellodata-a-simple-ado-application-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/hellodata-a-simple-ado-application"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/internet-publishing-scenario-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/introduction-to-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/introduction-to-ado-programming"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/locating-the-current-record-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/locating-the-current-record"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/navigating-through-the-data-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/navigating-through-the-data"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ole-db-providers-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ole-db-providers"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/persisting-data-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/persisting-data"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/persisting-records-in-xml-format-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/persisting-records-in-xml-format"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/section-i-activex-data-objects-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/section-i-activex-data-objects"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/section-iii-ado-multidimensional-ado-md-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/section-iii-ado-multidimensional-ado-md"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/section-ii-remote-data-service-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/section-ii-remote-data-service"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/section-v-appendixes-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/section-v-appendixes"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/shape-append-clause-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/shape-append-clause"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/shape-commands-in-general-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/shape-commands-in-general"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/troubleshooting-rds-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/troubleshooting-rds"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/types-of-cursors-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/types-of-cursors"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/understanding-recordset-structure-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/understanding-recordset-structure"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/updating-data-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/updating-data"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/using-ado-for-internet-publishing-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/using-ado-for-internet-publishing"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/using-ado-with-microsoft-visual-c-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/using-ado-with-microsoft-visual-c"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/using-ado-with-microsoft-visual-j-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/using-ado-with-microsoft-visual-j"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/using-ado-with-scripting-languages-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/using-ado-with-scripting-languages"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/using-related-technologies-with-rds-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/using-related-technologies-with-rds"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/using-the-command-object-reference-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/using-the-command-object-access"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/using-the-connection-object-reference-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/using-the-connection-object-access"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/what-is-a-lock-ado.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/what-is-a-lock"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/xml-recordset-persistence-scenario-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-api-reference-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-api-reference"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-objects-and-interfaces-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-objects-and-interfaces"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-collections-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-collections"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-properties-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-properties"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-dynamic-properties-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-dynamic-properties"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-methods-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-methods"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-events-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-events"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-enumerated-constants-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-enumerated-constants"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-code-examples-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-jscript-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-jscript"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/rds-api-reference-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-api-reference"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/rds-objects-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-objects"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/rds-properties-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-properties"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/rds-methods-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-methods"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/rds-events-access.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-events"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-md-api-reference-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-api-reference"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-md-objects-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-objects"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-md-collections-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-collections"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-md-properties-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-properties"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-md-methods-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-methods"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/ado-md-enumerated-constants-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-enumerated-constants"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-api-reference-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-api-reference"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-objects-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-objects"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-collections-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-collections"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-properties-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-properties"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-methods-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-methods"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-enumerated-constants-reference.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-enumerated-constants"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-code-example-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c-topics.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-1-set-up-the-application.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-2-get-the-data.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-3-send-the-data.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-4-receive-and-display-the-data.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-1-set-up-the-visual-basic-project.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-2-initialize-the-main-list-box.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-3-populate-the-fields-list-box.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-4-populate-the-details-text-box.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-2-invoke-the-server-program-rds-tutorial.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-3-server-obtains-a-recordset-rds-tutorial.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-4-server-returns-the-recordset-rds-tutorial.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-5-datacontrol-is-made-usable-rds-tutorial.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/step-6-changes-are-sent-to-the-server-rds-tutorial.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/rds-tutorial-vbscript.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  },
-  {
-    "source_path": "docs/access/desktop-database-reference/rds-tutorial-visual-j.md",
-    "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
-  }
-]
+    {
+      "source_path": "docs/access/desktop-database-reference/adding-data-to-a-recordset-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adding-data-to-a-recordset"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adding-records-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adding-records"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-programmer-s-guide-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-programmer-s-guide"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/appendix-a-providers-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/appendix-a-providers"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/appendix-b-ado-errors-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/appendix-b-ado-errors"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/appendix-c-programming-with-ado-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/appendix-c-programming-with-ado"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/appendix-d-ado-samples-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/appendix-d-ado-samples"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/batch-mode-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/batch-mode"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-10-records-and-streams-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-10-records-and-streams"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-11-rds-fundamentals-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-11-rds-fundamentals"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-12-rds-tutorial-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-13-rds-usage-and-security-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-13-rds-usage-and-security"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-14-ado-md-fundamentals-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-14-ado-md-fundamentals"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-15-adox-fundamentals-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-15-adox-fundamentals"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-1-ado-fundamentals-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-1-ado-fundamentals"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-2-getting-data-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-2-getting-data"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-3-examining-data-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-3-examining-data"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-4-editing-data-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-4-editing-data"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-5-updating-and-persisting-data-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-5-updating-and-persisting-data"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-6-error-handlinge-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-6-error-handling"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-7-handling-ado-events-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-7-handling-ado-events"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-8-understanding-cursors-and-locks-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-8-understanding-cursors-and-locks"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/chapter-9-data-shaping-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-9-data-shaping"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/datafactory-customization-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/datafactory-customization"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/data-shaping-summary.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/data-shaping"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/data-shaping-summary-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/data-shaping"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/handling-errors-in-other-languages-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/handling-errors-in-other-languages"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/hellodata-a-simple-ado-application-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/hellodata-a-simple-ado-application"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/internet-publishing-scenario-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/introduction-to-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/introduction-to-ado-programming"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/locating-the-current-record-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/locating-the-current-record"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/navigating-through-the-data-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/navigating-through-the-data"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ole-db-providers-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ole-db-providers"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/persisting-data-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/persisting-data"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/persisting-records-in-xml-format-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/persisting-records-in-xml-format"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/section-i-activex-data-objects-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/section-i-activex-data-objects"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/section-iii-ado-multidimensional-ado-md-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/section-iii-ado-multidimensional-ado-md"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/section-ii-remote-data-service-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/section-ii-remote-data-service"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/section-iv-ado-extensions-for-data-definition-language-and-security-adox"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/section-v-appendixes-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/section-v-appendixes"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/shape-append-clause-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/shape-append-clause"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/shape-commands-in-general-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/shape-commands-in-general"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/troubleshooting-rds-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/troubleshooting-rds"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/types-of-cursors-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/types-of-cursors"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/understanding-recordset-structure-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/understanding-recordset-structure"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/updating-data-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/updating-data"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/using-ado-for-internet-publishing-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/using-ado-for-internet-publishing"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/using-ado-with-microsoft-visual-c-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/using-ado-with-microsoft-visual-c"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/using-ado-with-microsoft-visual-j-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/using-ado-with-microsoft-visual-j"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/using-ado-with-scripting-languages-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/using-ado-with-scripting-languages"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/using-related-technologies-with-rds-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/using-related-technologies-with-rds"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/using-the-command-object-reference-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/using-the-command-object-access"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/using-the-connection-object-reference-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/using-the-connection-object-access"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/what-is-a-lock-ado.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/what-is-a-lock"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/xml-recordset-persistence-scenario-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-api-reference-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-api-reference"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-objects-and-interfaces-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-objects-and-interfaces"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-collections-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-collections"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-properties-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-properties"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-dynamic-properties-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-dynamic-properties"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-methods-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-methods"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-events-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-events"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-enumerated-constants-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-enumerated-constants"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-code-examples-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-basic-scripting-edition"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-c"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-visual-j"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-code-examples-in-microsoft-jscript-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-code-examples-in-microsoft-jscript"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/rds-api-reference-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-api-reference"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/rds-objects-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-objects"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/rds-properties-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-properties"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/rds-methods-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-methods"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/rds-events-access.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/rds-events"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-md-api-reference-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-api-reference"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-md-objects-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-objects"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-md-collections-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-collections"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-md-properties-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-properties"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-md-methods-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-methods"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/ado-md-enumerated-constants-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/ado-md-enumerated-constants"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-api-reference-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-api-reference"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-objects-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-objects"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-collections-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-collections"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-properties-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-properties"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-methods-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-methods"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-enumerated-constants-reference.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-enumerated-constants"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-code-example-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-basic"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c-topics.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/adox-code-examples-in-microsoft-visual-c"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-1-set-up-the-application.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-2-get-the-data.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-3-send-the-data.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-4-receive-and-display-the-data.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/xml-recordset-persistence-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-1-set-up-the-visual-basic-project.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-2-initialize-the-main-list-box.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-3-populate-the-fields-list-box.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-4-populate-the-details-text-box.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/internet-publishing-scenario"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-1-specify-a-server-program-rds-tutorial.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-2-invoke-the-server-program-rds-tutorial.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-3-server-obtains-a-recordset-rds-tutorial.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-4-server-returns-the-recordset-rds-tutorial.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-5-datacontrol-is-made-usable-rds-tutorial.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/step-6-changes-are-sent-to-the-server-rds-tutorial.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/rds-tutorial-vbscript.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/access/desktop-database-reference/rds-tutorial-visual-j.md",
+      "redirect_url": "/office/client-developer/access/desktop-database-reference/chapter-12-rds-tutorial"
+    },
+    {
+      "source_path": "docs/outlook/auxiliary/index.md",
+      "redirect_url": "reference-outlook-auxiliary-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/outlook/pia/index.md",
+      "redirect_url": "welcome-to-the-outlook-primary-interop-assembly-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/outlook/social-connector/index.md",
+      "redirect_url": "outlook-social-connector-provider-reference-0",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/outlook/weather/index.md",
+      "redirect_url": "outlook-weather-information-xml-schema",
+      "redirect_document_id": false
+    }
+  ]
 }
