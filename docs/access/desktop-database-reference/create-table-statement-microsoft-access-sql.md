@@ -4,7 +4,7 @@ TOCTitle: CREATE TABLE statement (Microsoft Access SQL)
 ms:assetid: fc45d36e-6e43-c030-5016-cca8bb1379fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837200(v=office.15)
 ms:contentKeyID: 48548888
-ms.date: 10/18/2018
+ms.date: 09/03/2019
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277563
@@ -160,7 +160,7 @@ This example creates a new table with two text fields and an **Integer** field. 
 
 <br/>
 
-This example creates a new table called `~~Kitsch'n Sync` which demonstrates all the different field and index types. The AutoNumber field is the primary key.
+This example creates a new table called `~~Kitsch'n Sync` that demonstrates all the different field and index types. The AutoNumber field is the primary key.
 
 ```vb
     Sub CreateTableX6()
