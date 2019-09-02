@@ -160,7 +160,7 @@ This example creates a new table with two text fields and an **Integer** field. 
 
 <br/>
 
-This example creates a new table called `~~Kitsch'n Sync` which demonstrates all of the differnt field and index types. The AutoNumber field is the primary key.
+This example creates a new table called `~~Kitsch'n Sync` which demonstrates all the different field and index types. The AutoNumber field is the primary key.
 
 ```vb
     Sub CreateTableX6()
