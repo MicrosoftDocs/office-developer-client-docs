@@ -4,7 +4,7 @@ TOCTitle: CREATE TABLE statement (Microsoft Access SQL)
 ms:assetid: fc45d36e-6e43-c030-5016-cca8bb1379fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837200(v=office.15)
 ms:contentKeyID: 48548888
-ms.date: 10/18/2018
+ms.date: 09/03/2019
 mtps_version: v=office.15
 f1_keywords:
 - jetsql40.chm5277563
@@ -155,5 +155,61 @@ This example creates a new table with two text fields and an **Integer** field. 
      
         dbs.Close 
      
+    End Sub
+```
+
+<br/>
+
+This example creates a new table called `~~Kitsch'n Sync` that demonstrates all the different field and index types. The AutoNumber field is the primary key.
+
+```vb
+    Sub CreateTableX6()
+        On Error Resume Next
+        Application.CurrentDb.Execute "Drop Table [~~Kitsch'n Sync];"
+        On Error GoTo 0
+        
+        'This example uses ADODB instead of the DAO shown in the previous
+        'ones because DAO does not support the DECIMAL and GUID data types
+        Dim con As ADODB.Connection
+        Set con = CurrentProject.Connection
+        con.Execute "" _
+            & "CREATE TABLE [~~Kitsch'n Sync](" _
+                & " [Auto]                  COUNTER" _
+                & ",[Byte]                  BYTE" _
+                & ",[Integer]               SMALLINT" _
+                & ",[Long]                  INTEGER" _
+                & ",[Single]                REAL" _
+                & ",[Double]                FLOAT" _
+                & ",[Decimal]               DECIMAL(18,5)" _
+                & ",[Currency]              MONEY" _
+                & ",[ShortText]             CHAR" _
+                & ",[LongText]              MEMO" _
+                & ",[PlaceHolder1]          MEMO" _
+                & ",[DateTime]              DATETIME" _
+                & ",[YesNo]                 BIT" _
+                & ",[OleObject]             IMAGE" _
+                & ",[ReplicationID]         UNIQUEIDENTIFIER" _
+                & ",[Required]              INTEGER NOT NULL" _
+                & ",[Unicode Compression]   MEMO WITH COMP" _
+                & ",[Indexed]               INTEGER" _
+                & ",CONSTRAINT [PrimaryKey] PRIMARY KEY ([Auto])" _
+                & ",CONSTRAINT [Unique Index] UNIQUE ([Byte],[Integer],[Long])" _
+            & ");"
+        con.Execute "CREATE INDEX [Single-Field Index] ON [~~Kitsch'n Sync]([Indexed]);"
+        con.Execute "CREATE INDEX [Multi-Field Index] ON [~~Kitsch'n Sync]([Auto],[Required]);"
+        con.Execute "CREATE INDEX [IgnoreNulls Index] ON [~~Kitsch'n Sync]([Single],[Double]) WITH IGNORE NULL;"
+        con.Execute "CREATE UNIQUE INDEX [Combined Index] ON [~~Kitsch'n Sync]([ShortText],[LongText]) WITH IGNORE NULL;"
+        Set con = Nothing
+    
+        'Add a Hyperlink Field
+        Dim AllDefs As DAO.TableDefs, TblDef As DAO.TableDef, Fld As DAO.Field
+        Set AllDefs = Application.CurrentDb.TableDefs
+        Set TblDef = AllDefs("~~Kitsch'n Sync")
+        Set Fld = TblDef.CreateField("Hyperlink", dbMemo)
+        Fld.Attributes = dbHyperlinkField + dbVariableField
+        Fld.OrdinalPosition = 10
+        TblDef.Fields.Append Fld
+        
+        DoCmd.RunSQL "ALTER TABLE [~~Kitsch'n Sync] DROP COLUMN [PlaceHolder1];"
     End Sub
 ```
