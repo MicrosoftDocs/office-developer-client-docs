@@ -1,28 +1,24 @@
 ---
-title: "Commonly Used Property Sets"
+title: "Commonly used property sets"
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 09/03/2019
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d
-description: "Last modified: March 09, 2015"
+description: "This topic lists commonly used sets of named properties."
  
  
 ---
 
-# Commonly Used Property Sets
+# Commonly used property sets
 
-  
-  
 **Applies to**: Outlook 2013 | Outlook 2016 
   
 This topic lists commonly used sets of named properties.
   
-## Commonly Used Property Sets
-
 The following table lists each property set with its GUID and functional area.
   
-|**Area**|**Property Set Name and GUID Value**|
+|Area|Property set name and GUID value|
 |:-----|:-----|
 |Calendar  <br/> |PSETID_Appointment{00062002-0000-0000-C000-000000000046}  <br/> |
 |Calendar  <br/> |PSETID_Meeting{6ED8DA90-450B-101B-98DA-00AA003F1305}  <br/> |
