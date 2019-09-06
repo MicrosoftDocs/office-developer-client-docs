@@ -4,7 +4,7 @@ TOCTitle: OpenRecordset Method
 ms:assetid: a243bc79-cac4-fe12-768d-d3d017954e78
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820966(v=office.15)
 ms:contentKeyID: 48546753
-ms.date: 06/04/2019
+ms.date: 09/04/2019
 mtps_version: v=office.15
 f1_keywords:
 - dao360.chm1052939
@@ -110,7 +110,7 @@ The following example shows how to open a Recordset that is based on a parameter
     Set dbs = CurrentDb
     
     'Get the parameter query
-    Set qfd = dbs.QueryDefs("qryMyParameterQuery")
+    Set qdf = dbs.QueryDefs("qryMyParameterQuery")
     
     'Supply the parameter value
     qdf.Parameters("EnterStartDate") = Date
