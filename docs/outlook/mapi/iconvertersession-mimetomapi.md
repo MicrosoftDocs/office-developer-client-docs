@@ -3,7 +3,7 @@ title: "IConverterSessionMIMEToMAPI"
  
  
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 09/06/2019
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee190ba7-9e71-97e4-7bf1-7b97adc73eed
-description: "Last modified: March 09, 2015"
+description: "Last modified: September 06, 2019"
 ---
 
 # IConverterSession::MIMEToMAPI
@@ -41,7 +41,7 @@ HRESULT IConverterSession:: MIMEToMAPI (
     
  _pmsg_
   
-> [out] Pointer to the message to load. See mapidefs.h for the type definition of **LPMESSAGE**.
+> [in] Pointer to the message to load. The caller must supply a message for the API to fill out, so the object must go [in]. See mapidefs.h for the type definition of **LPMESSAGE**.
     
  _pszSrcSrv_
   
