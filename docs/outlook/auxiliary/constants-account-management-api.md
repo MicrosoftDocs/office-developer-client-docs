@@ -32,6 +32,7 @@ This topic contains constant definitions, class identifiers, and interface ident
 |E_OLK_PARAM_NOT_SUPPORTED  <br/> |0x800C8003  <br/> |
 |E_OLK_PROP_READ_ONLY  <br/> |0x800C800D  <br/> |
 |E_OLK_REGISTRY  <br/> |0x800C8001  <br/> |
+|OLK_ACCOUNT_NO_FLAGS  <br/> |0x00000004  <br/> |
 |The following constants beginning with ENCRYPT_ are used by the [PROP_SMTP_SECURE_CONNECTION](prop_smtp_secure_connection.md) property to specify the type of encrypted connection.  <br/> ||
 |ENCRYPT_CONN_AUTO  <br/> |3  <br/> |
 |ENCRYPT_CONN_NO_SECURITY  <br/> |0  <br/> |
