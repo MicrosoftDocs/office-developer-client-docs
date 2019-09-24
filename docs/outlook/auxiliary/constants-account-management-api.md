@@ -44,7 +44,6 @@ This topic contains constant definitions, class identifiers, and interface ident
 |NOTIFY_ACCT_DELETED  <br/> |3  <br/> |
 |NOTIFY_ACCT_ORDER_CHANGED  <br/> |4  <br/> |
 |NOTIFY_ACCT_PREDELETED  <br/> |5  <br/> |
-|OLK_ACCOUNT_NO_FLAGS  <br/> |0  <br/> |
 |S_OK  <br/> | *As defined in the Windows SDK header file winerror.h.*  <br/> |
 |S_FALSE  <br/> | *As defined in the Windows SDK header file winerror.h.*  <br/> |
 |SECURE_FLAG  <br/> |0x8000  <br/> |
