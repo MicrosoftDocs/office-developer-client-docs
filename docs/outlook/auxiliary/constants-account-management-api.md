@@ -19,6 +19,7 @@ This topic contains constant definitions, class identifiers, and interface ident
 |:-----|:-----|
 |ACCT_INIT_NOSYNCH_MAPI_ACCTS  <br/> |0x00000001  <br/> |
 |ACCT_INIT_NO_STORES_CHECK  <br/> |0x00000002  <br/> |
+|ACCT_INIT_NO_NOTIFICATIONS <br/> |0x00000004 <br/> |
 |ACCTUI_NO_WARNING  <br/> |0x0100  <br/> |
 |ACCTUI_SHOW_ACCTWIZARD  <br/> |0x0400  <br/> |
 |ACCTUI_SHOW_DATA_TAB  <br/> |0x0200  <br/> |
