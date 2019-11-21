@@ -4,23 +4,23 @@ manager: soliver
 ms.date: 07/25/2016
 ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
-description: "This article describes how to configure an instant message (IM) client application so that it integrates with the social features in Office 2013, including displaying presence and sending instant messages from the contact card."
+description: "This article describes how to configure an instant message (IM) client application so that it integrates with the social features in Office 2013 and higher, including displaying presence and sending instant messages from the contact card."
 localization_priority: Priority
 ---
 
 # Integrating IM applications with Office
 
-This article describes how to configure an instant message (IM) client application so that it integrates with the social features in Office 2013, including displaying presence and sending instant messages from the contact card.
+This article describes how to configure an instant message (IM) client application so that it integrates with the social features in Office 2013, Office 2016, Office 2019, and Office 365, including displaying presence and sending instant messages from the contact card.
   
 If you have any questions or comments about this technical article or the processes that it describes, you can contact Microsoft directly by sending an email to [docthis@microsoft.com](mailto:docthis@microsoft.com).
   
 ## Introduction
 <a name="off15_IMIntegration_Intro"> </a>
 
-Office 2013 provides rich integration with IM client applications, including Lync 2013. This integration provides users with IM capabilities from within Word 2013, Excel 2013, PowerPoint 2013, Outlook 2013, Visio 2013, Project 2013, and OneNote 2013 as well as providing presence integration on SharePoint 2013 pages. Users can see the photo, name, presence status, and contact data for people in their contacts list. They can start an IM session, video call, or phone call directly from the contact card (the UI element in Office 2013 that surfaces contact information and communication options). Office 2013 makes it easy to stay connected to your contacts without taking you outside of your email or documents. 
+Office 2013 (and later versions) provides rich integration with IM client applications, including Lync 2013 and Teams. This integration provides users with IM capabilities from within Word, Excel, PowerPoint, Outlook, Visio, Project, and OneNote as well as providing presence integration on SharePoint pages. Users can see the photo, name, presence status, and contact data for people in their contacts list. They can start an IM session, video call, or phone call directly from the contact card (the UI element in Office that surfaces contact information and communication options). Office makes it easy to stay connected to your contacts without taking you outside of your email or documents. 
   
 > [!NOTE]
-> This article uses the term IM client application to refer specifically to the application installed on a user's computer that communicates to the IM service. For example, Lync 2013 is considered an IM client application. This article does not provide details about how the IM client application communicates to the IM service or about the IM service itself. 
+> This article uses the term IM client application to refer specifically to the application installed on a user's computer that communicates to the IM service. For example, Lync 2013 and Teams are considered an IM client applications. This article does not provide details about how the IM client application communicates to the IM service or about the IM service itself. 
   
 You can customize an IM client application so that it communicates with Office. Specifically, you can modify your IM application so that it displays the following information within the Office UI:
   
@@ -52,7 +52,7 @@ You can customize an IM client application so that it communicates with Office. 
 
 ![The People Card in Office 2013](media/ocom15_peoplecard.png "The People Card in Office 2013")
   
-To enable this integration with Office, an IM client application must implement a set of interfaces that Office provides to connect to it. The APIs for this integration are included in the [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) namespace that is contained in the Microsoft.Office.UC.dll file, which is installed with versions of Office 2013 that include Lync / Skype for Business. The **UCCollaborationLib** namespace includes the interfaces that you must implement to integrate with Office. 
+To enable this integration with Office, an IM client application must implement a set of interfaces that Office provides to connect to it. The APIs for this integration are included in the [UCCollborationLib](https://msdn.microsoft.com/en-au/library/uccollaborationlib.aspx) namespace that is contained in the Microsoft.Office.UC.dll file, which is installed with versions of Office 2013 and above that include Lync / Skype for Business. The **UCCollaborationLib** namespace includes the interfaces that you must implement to integrate with Office. 
   
 > [!IMPORTANT] 
 > The type library for the required interfaces is embedded in Lync 2013/Skype for Business. For third-party integrators, this works only when both Lync 2013 and Skype for Business are installed on the target machine. If you are integrating using Office Standard, you need to extract the type library and install it on the target machine. The [Lync 2013 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=36824) includes the Microsoft.Office.UC.dll file. 
@@ -68,7 +68,7 @@ To enable this integration with Office, an IM client application must implement 
 ## How Office integrates with an IM client application
 <a name="off15_IMIntegration_How"> </a>
 
-When an Office 2013 application starts, it goes through the following process to integrate with the default IM client application:
+When an Office 2013 (or higher) application starts, it goes through the following process to integrate with the default IM client application:
   
 1. It checks the registry to discover the default IM client application and then connects to it.
     
@@ -80,7 +80,7 @@ When an Office 2013 application starts, it goes through the following process to
     
 5. It gets presence information for the local user's contacts.
     
-6. When the IM client application shuts down, the Office 2013 application silently disconnects.
+6. When the IM client application shuts down, the Office application silently disconnects.
     
 ### Discovering the IM application
 
@@ -171,12 +171,12 @@ The Office application gets contact presence, including the local user, by doing
 ### Disconnecting from the IM application
 <a name="off15_IMIntegration_HowConnect"> </a>
 
-When the Office 2013 application detects the **OnShuttingDown** event from the IM application, it disconnects silently. However, if the Office application shuts down before the IM application, the Office application does not guarantee that the connection is cleaned up. The IM application must handle client connection leaks. 
+When the Office application detects the **OnShuttingDown** event from the IM application, it disconnects silently. However, if the Office application shuts down before the IM application, the Office application does not guarantee that the connection is cleaned up. The IM application must handle client connection leaks. 
   
 ## Setting registry keys and entries
 <a name="off15_IMIntegration_SetRegistry"> </a>
 
-As mentioned previously, the IM-capable Office 2013 applications look for specific keys, entries, and values in the registry to discover the IM client application to connect to. These registry values provide the Office application with the process name and CLSID of the class that acts as the entry point to the IM client application's object model (that is, the class that implements the **IUCOfficeIntegration** interface). The Office application co-creates that class and connects as a client to the out-of-process COM server in the IM client application. 
+As mentioned previously, the IM-capable Office applications look for specific keys, entries, and values in the registry to discover the IM client application to connect to. These registry values provide the Office application with the process name and CLSID of the class that acts as the entry point to the IM client application's object model (that is, the class that implements the **IUCOfficeIntegration** interface). The Office application co-creates that class and connects as a client to the out-of-process COM server in the IM client application. 
   
 Use Table 1 to identify the keys, entries, and values that must be written in the registry to integrate an IM client application with Office.
   
@@ -300,10 +300,10 @@ public object GetInterface(string _version, OIInterface _interface)
 
 ```
 
-The **GetSupportedFeatures** method returns information about the IM features that the IM client application supports. It takes a string for its only parameter,  _version_. When the Office application calls the **GetSupportFeatures** method, the method returns a value from the [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) enumeration. The returned value specifies the capabilities of the IM client, where each capability of the IM client application is indicated to the Office application by adding a flag to the value. 
+The **GetSupportedFeatures** method returns information about the IM features that the IM client application supports. It takes a string for its only parameter,  _version_. When the Office application calls the **GetSupportedFeatures** method, the method returns a value from the [UCCollaborationLib.OIFeature](https://msdn.microsoft.com/library/UCCollaborationLib.OIFeature) enumeration. The returned value specifies the capabilities of the IM client, where each capability of the IM client application is indicated to the Office application by adding a flag to the value. 
   
 > [!NOTE]
->  Office 2013 applications ignore the following constants in the **OIFeature** enumeration: 
+>  Office 2013 (and higher) applications ignore the following constants in the **OIFeature** enumeration: 
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
 > - **oiFeaturePhoneNormalization**
