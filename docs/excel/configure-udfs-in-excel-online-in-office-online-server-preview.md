@@ -1,7 +1,7 @@
 ---
 title: "Configure UDFs in Excel Online in Office Online Server"
-manager: soliver
-ms.date: 03/18/2016
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
@@ -75,14 +75,13 @@ Use the following Windows PowerShell cmdlets to work with UDFs:
     
 ## UDF sample
 
-The following files provide a sample workbook that uses a UDF and the UDF binary:
+The following sample file provide a sample workbook that uses a UDF and the UDF binary:
   
 - [BooleanDataType.xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx): a sample workbook that uses a UDF  
-- [EcsUdfsCommonSet.dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll): the UDF binary 
     
 ## See also
 
 - [Configure Excel Online administrative settings](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-serverr)
     
 
