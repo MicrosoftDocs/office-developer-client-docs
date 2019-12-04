@@ -1,7 +1,7 @@
 ---
 title: "Updates for developers in Project"
 manager: lindalu
-ms.date: 12/03/19
+ms.date: 12/03/2019
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
