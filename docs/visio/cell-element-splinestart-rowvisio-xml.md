@@ -1,5 +1,5 @@
 ---
-title: "Cell element (SplineStart Row) ('Visio XML')"
+title: "Cell element (SplineStart Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 021536b9-6724-4b8a-35c2-966e456e5232
 description: "Contains x- or y-coordinates for a spline's second control point, its second knot, its first knot, the last knot, or the degree of the spline."
 ---
 
-# Cell element (SplineStart Row) ('Visio XML')
+# Cell element (SplineStart Row) (Visio XML)
 
 Contains x- or y-coordinates for a spline's second control point, its second knot, its first knot, the last knot, or the degree of the spline.
   
@@ -21,7 +21,7 @@ Contains x- or y-coordinates for a spline's second control point, its second kno
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

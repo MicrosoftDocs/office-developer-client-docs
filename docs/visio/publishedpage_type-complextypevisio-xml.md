@@ -1,5 +1,5 @@
 ---
-title: "PublishedPage_Type complexType ('Visio XML')"
+title: "PublishedPage_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 39bf8983-ff70-3c81-e65b-1db5666b9969
 
 ---
 
-# PublishedPage_Type complexType ('Visio XML')
+# PublishedPage_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

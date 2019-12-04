@@ -1,5 +1,5 @@
 ---
-title: "Cell element ('Visio XML')"
+title: "Cell element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: "Specifies cell elements that can be contained within a DocumentSheet, StyleSheet, PageSheet, or ShapeSheet."
 ---
 
-# Cell element ('Visio XML')
+# Cell element (Visio XML)
 
 Specifies cell elements that can be contained within a DocumentSheet, StyleSheet, PageSheet, or ShapeSheet.
   
@@ -21,7 +21,7 @@ Specifies cell elements that can be contained within a DocumentSheet, StyleSheet
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml, pages.xml, masters.xml, master#.xml, page#.xml  <br/> |
    

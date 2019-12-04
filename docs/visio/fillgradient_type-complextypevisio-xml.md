@@ -1,5 +1,5 @@
 ---
-title: "FillGradient_Type complexType ('Visio XML')"
+title: "FillGradient_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 82545cdc-890d-1b2f-9c8f-4740f32d0ed7
 
 ---
 
-# FillGradient_Type complexType ('Visio XML')
+# FillGradient_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |Section_Type  <br/> |
    

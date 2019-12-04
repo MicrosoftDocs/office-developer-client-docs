@@ -1,5 +1,5 @@
 ---
-title: "Types ('Visio XML')"
+title: "Types (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
 description: "This topic lists the types in the Visio 2013 file format XML schema."
 ---
 
-# Types ('Visio XML')
+# Types (Visio XML)
 
 This topic lists the types in the Visio 2013 file format XML schema.
   

@@ -1,5 +1,5 @@
 ---
-title: "PropertyRow_Type complexType ('Visio XML')"
+title: "PropertyRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 813d6dee-b113-c0c9-3f53-c5bfd05b92f2
 
 ---
 
-# PropertyRow_Type complexType ('Visio XML')
+# PropertyRow_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |NamedRow_Type  <br/> |
    

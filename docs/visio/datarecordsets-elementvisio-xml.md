@@ -1,5 +1,5 @@
 ---
-title: "DataRecordSets element ('Visio XML')"
+title: "DataRecordSets element (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
 description: "Contains all the DataRecordset elements in the document."
 ---
 
-# DataRecordSets element ('Visio XML')
+# DataRecordSets element (Visio XML)
 
 Contains all the **DataRecordset** elements in the document. 
   
@@ -21,7 +21,7 @@ Contains all the **DataRecordset** elements in the document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |recordsets.xml  <br/> |
    

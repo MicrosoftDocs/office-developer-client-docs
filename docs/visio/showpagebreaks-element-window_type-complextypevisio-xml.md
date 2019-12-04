@@ -1,5 +1,5 @@
 ---
-title: "ShowPageBreaks element (Window_Type complexType) ('Visio XML')"
+title: "ShowPageBreaks element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1a8c29d9-31d9-dd77-09c5-6e9eaf870552
 description: "Specifies whether page breaks are shown in a window."
 ---
 
-# ShowPageBreaks element (Window_Type complexType) ('Visio XML')
+# ShowPageBreaks element (Window_Type complexType) (Visio XML)
 
 Specifies whether page breaks are shown in a window.
   
@@ -21,7 +21,7 @@ Specifies whether page breaks are shown in a window.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ShowPageBreaks_Type](showpagebreaks_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |windows.xml  <br/> |
    

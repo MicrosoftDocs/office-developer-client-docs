@@ -1,5 +1,5 @@
 ---
-title: "ActionsRow_Type complexType ('Visio XML')"
+title: "ActionsRow_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -11,13 +11,13 @@ localization_priority: Normal
 ms.assetid: 32777219-850b-9526-425f-bcb017c45093
 ---
 
-# ActionsRow_Type complexType ('Visio XML')
+# ActionsRow_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |NamedIndexedRow_Type  <br/> |
    

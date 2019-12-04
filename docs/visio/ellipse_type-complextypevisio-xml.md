@@ -1,5 +1,5 @@
 ---
-title: "Ellipse_Type complexType ('Visio XML')"
+title: "Ellipse_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: c67dc78e-6639-e32f-4909-945001659d30
 
 ---
 
-# Ellipse_Type complexType ('Visio XML')
+# Ellipse_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |GeometryRow_Type  <br/> |
    

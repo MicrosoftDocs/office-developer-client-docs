@@ -4,7 +4,7 @@ TOCTitle: OpenRecordset Method
 ms:assetid: a243bc79-cac4-fe12-768d-d3d017954e78
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820966(v=office.15)
 ms:contentKeyID: 48546753
-ms.date: 09/18/2015
+ms.date: 09/04/2019
 mtps_version: v=office.15
 f1_keywords:
 - dao360.chm1052939
@@ -21,7 +21,7 @@ Creates a new **[Recordset](recordset-object-dao.md)** object and appends it to 
 
 ## Syntax
 
-*expression* .OpenRecordset(_**Name**_, _**Type**_, _**Options**_, _**LockEdit**_)
+*expression*.**OpenRecordset** (_Name_, _Type_, _Options_, _LockEdit_)
 
 *expression* A variable that represents a **Database** object.
 
@@ -110,7 +110,7 @@ The following example shows how to open a Recordset that is based on a parameter
     Set dbs = CurrentDb
     
     'Get the parameter query
-    Set qfd = dbs.QueryDefs("qryMyParameterQuery")
+    Set qdf = dbs.QueryDefs("qryMyParameterQuery")
     
     'Supply the parameter value
     qdf.Parameters("EnterStartDate") = Date
@@ -168,7 +168,7 @@ The following sample shows how to use the Filter property to determine the recor
     
     'Create the first filtered Recordset, returning customer records
     'for those visited between 30-60 days ago.
-    Set rest = dbs.OpenRecordset(_ 
+    Set rst = dbs.OpenRecordset(_ 
         "SELECT * FROM Customers WHERE LastVisitDate BETWEEN Date()-60 " & _
         "AND Date()-30 ORDER BY LastVisitDate DESC")
     

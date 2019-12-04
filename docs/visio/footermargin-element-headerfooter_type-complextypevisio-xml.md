@@ -1,5 +1,5 @@
 ---
-title: "FooterMargin element (HeaderFooter_Type complexType) ('Visio XML')"
+title: "FooterMargin element (HeaderFooter_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 047f42cf-4202-50bd-40b4-a71052e2dfb3
 description: "Specifies the margin of a document's footer."
 ---
 
-# FooterMargin element (HeaderFooter_Type complexType) ('Visio XML')
+# FooterMargin element (HeaderFooter_Type complexType) (Visio XML)
 
 Specifies the margin of a document's footer.
   
@@ -21,7 +21,7 @@ Specifies the margin of a document's footer.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: "EventItem_Type complexType ('Visio XML')"
+title: "EventItem_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: f157db03-e7d0-d39f-cbde-2a22f45b40ed
 
 ---
 
-# EventItem_Type complexType ('Visio XML')
+# EventItem_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |None  <br/> |
    

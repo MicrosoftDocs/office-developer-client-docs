@@ -1,5 +1,5 @@
 ---
-title: "Row element (Actions Section) ('Visio XML')"
+title: "Row element (Actions Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 5141589b-10f3-f908-56d2-206244f449fb
 description: "Contains rows that describe menu items on a shortcut or action tag menu of a shape or page."
 ---
 
-# Row element (Actions Section) ('Visio XML')
+# Row element (Actions Section) (Visio XML)
 
 Contains rows that describe menu items on a shortcut or action tag menu of a shape or page.
   
@@ -21,7 +21,7 @@ Contains rows that describe menu items on a shortcut or action tag menu of a sha
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    

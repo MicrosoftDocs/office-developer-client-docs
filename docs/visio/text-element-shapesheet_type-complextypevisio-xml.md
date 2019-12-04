@@ -1,5 +1,5 @@
 ---
-title: "Text element (ShapeSheet_Type complexType) ('Visio XML')"
+title: "Text element (ShapeSheet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 46211968-9ad8-07da-f725-3ad136b7a8a1
 description: "Contains the text of a shape."
 ---
 
-# Text element (ShapeSheet_Type complexType) ('Visio XML')
+# Text element (ShapeSheet_Type complexType) (Visio XML)
 
 Contains the text of a shape.
   
@@ -21,7 +21,7 @@ Contains the text of a shape.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    

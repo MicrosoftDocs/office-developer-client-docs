@@ -1,5 +1,5 @@
 ---
-title: "RuleSets element (Validation_Type complexType) ('Visio XML')"
+title: "RuleSets element (Validation_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 7a0201e6-9a93-83ae-8a0a-47630ed291ce
 description: "Includes a RuleSet element for each validation rule set in the document."
 ---
 
-# RuleSets element (Validation_Type complexType) ('Visio XML')
+# RuleSets element (Validation_Type complexType) (Visio XML)
 
 Includes a **RuleSet** element for each validation rule set in the document. 
   
@@ -21,7 +21,7 @@ Includes a **RuleSet** element for each validation rule set in the document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |validation.xml  <br/> |
    

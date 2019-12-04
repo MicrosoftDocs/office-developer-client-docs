@@ -35,7 +35,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void DisplaySharePointUrl()
 {
     const string PROP_SYNC_URL = 
-        "https://schemas.microsoft.com/mapi/id/{00062040-0000-0000-C000-000000000046}/8A24001E";
+        "http://schemas.microsoft.com/mapi/id/{00062040-0000-0000-C000-000000000046}/8A24001E";
 
     Outlook.Folder folder = Application.ActiveExplorer().CurrentFolder as Outlook.Folder;
     Outlook.Table table = folder.GetTable(Type.Missing, Outlook.OlTableContents.olHiddenItems);

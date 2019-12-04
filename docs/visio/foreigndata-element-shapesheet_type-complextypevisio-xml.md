@@ -1,5 +1,5 @@
 ---
-title: "ForeignData element (ShapeSheet_Type complexType) ('Visio XML')"
+title: "ForeignData element (ShapeSheet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 59db25bc-0283-6f56-0aa9-9be98a3e9041
 description: "Contains a MIME (Multipurpose Internet Mail Extensions) encoded BLOB of picture data, such as Windows metafile, bitmap, or OLE data."
 ---
 
-# ForeignData element (ShapeSheet_Type complexType) ('Visio XML')
+# ForeignData element (ShapeSheet_Type complexType) (Visio XML)
 
 Contains a MIME (Multipurpose Internet Mail Extensions) encoded BLOB of picture data, such as Windows metafile, bitmap, or OLE data.
   
@@ -21,7 +21,7 @@ Contains a MIME (Multipurpose Internet Mail Extensions) encoded BLOB of picture 
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    

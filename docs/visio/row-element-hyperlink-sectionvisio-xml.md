@@ -1,5 +1,5 @@
 ---
-title: "Row element (Hyperlink Section) ('Visio XML')"
+title: "Row element (Hyperlink Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
 description: "Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website."
 ---
 
-# Row element (Hyperlink Section) ('Visio XML')
+# Row element (Hyperlink Section) (Visio XML)
 
 Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website.
   
@@ -21,7 +21,7 @@ Contains elements for creating multiple jumps between a shape or drawing page an
 |||
 |:-----|:-----|
 |**Element type** <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

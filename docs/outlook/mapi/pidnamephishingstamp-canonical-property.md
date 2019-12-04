@@ -28,7 +28,7 @@ Contains the message value that identifies and marks messages that are likely to
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Property name:  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|Property name:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Data type:  <br/> |PT_LONG  <br/> |
 |Area:  <br/> |Secure messaging  <br/> |
    

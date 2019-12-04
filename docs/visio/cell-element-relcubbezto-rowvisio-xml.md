@@ -1,5 +1,5 @@
 ---
-title: "Cell element (RelCubBezTo Row) ('Visio XML')"
+title: "Cell element (RelCubBezTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: daa5c527-65fe-a1e4-ab3e-24e77bdb522b
 description: "Contains the x- or y-coordinates of the endpoint of a cubic Bézier curve relative to the shape's width and height, the x- or y-coordinates of the control point of the beginning of the curve relative shape's width and height, or the x- or y-coordinates of the control point of the ending of the curve relative shape's width and height."
 ---
 
-# Cell element (RelCubBezTo Row) ('Visio XML')
+# Cell element (RelCubBezTo Row) (Visio XML)
 
 Contains the x- or y-coordinates of the endpoint of a cubic Bézier curve relative to the shape's width and height, the x- or y-coordinates of the control point of the beginning of the curve relative shape's width and height, or the x- or y-coordinates of the control point of the ending of the curve relative shape's width and height.
   
@@ -21,7 +21,7 @@ Contains the x- or y-coordinates of the endpoint of a cubic Bézier curve relati
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

@@ -17,7 +17,7 @@ This example searches for the exact search string "office" in attachments to ite
 
 This code sample uses a DAV Searching and Locating (DASL) syntax to specify a query. To construct the filter, the code sample first checks whether Instant Search is enabled in the default store to determine whether to use the **ci\_phrasematch** keyword for an exact phrase match to "office" in any attachment. The sample then applies the filter to the [GetTable](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_MAPIFolder_GetTable_System_Object_System_Object_) method on the Inbox and obtains the results in a [Table](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.table?redirectedfrom=MSDN&view=outlook-pia) object. The code sample then displays the subject of each of the returned items in the **Table**.
 
-The code sample specifies the **Attachments** property of an item using the namespace representation, https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. The syntax for using the **ci\_phrasematch** keyword is:
+The code sample specifies the **Attachments** property of an item using the namespace representation, http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. The syntax for using the **ci\_phrasematch** keyword is:
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 
@@ -37,7 +37,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 Private Sub DemoSearchAttachments()
     Dim filter As String
     Const PR_SEARCH_ATTACHMENTS As String = _
-        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
+        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E"
     If (Application.Session.DefaultStore.IsInstantSearchEnabled) Then
         filter = "@SQL=" & Chr(34) _
             & PR_SEARCH_ATTACHMENTS & Chr(34) _
@@ -60,7 +60,7 @@ private void DemoSearchAttachments()
 {
     string filter;
     const string PR_SEARCH_ATTACHMENTS =
-        "https://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x0EA5001E";
     if (Application.Session.DefaultStore.IsInstantSearchEnabled)
     {
         filter = "@SQL=" + "\""

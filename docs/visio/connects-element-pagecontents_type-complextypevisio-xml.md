@@ -1,5 +1,5 @@
 ---
-title: "Connects element (PageContents_Type complexType) ('Visio XML')"
+title: "Connects element (PageContents_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: "Contains a Connect element for each connection between two shapes in a drawing."
 ---
 
-# Connects element (PageContents_Type complexType) ('Visio XML')
+# Connects element (PageContents_Type complexType) (Visio XML)
 
 Contains a **Connect** element for each connection between two shapes in a drawing. 
   
@@ -21,7 +21,7 @@ Contains a **Connect** element for each connection between two shapes in a drawi
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    

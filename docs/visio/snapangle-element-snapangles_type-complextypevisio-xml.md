@@ -1,5 +1,5 @@
 ---
-title: "SnapAngle element (SnapAngles_Type complexType) ('Visio XML')"
+title: "SnapAngle element (SnapAngles_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d4f93fc5-80fb-3195-d25b-9a407de7848e
 description: "Contains a floating point number that specifies a snap angle in degrees."
 ---
 
-# SnapAngle element (SnapAngles_Type complexType) ('Visio XML')
+# SnapAngle element (SnapAngles_Type complexType) (Visio XML)
 
 Contains a floating point number that specifies a snap angle in degrees.
   
@@ -21,7 +21,7 @@ Contains a floating point number that specifies a snap angle in degrees.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml, windows.xml  <br/> |
    

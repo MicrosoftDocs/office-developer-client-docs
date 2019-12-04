@@ -1,5 +1,5 @@
 ---
-title: "Row element (User-defined Cells Section) ('Visio XML')"
+title: "Row element (User-defined Cells Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 9fc27888-2809-aa29-4dbb-7e4f8a0c4758
 description: "A user-specified piece of information that can be referred to by other cells and add-on tools."
 ---
 
-# Row element (User-defined Cells Section) ('Visio XML')
+# Row element (User-defined Cells Section) (Visio XML)
 
 A user-specified piece of information that can be referred to by other cells and add-on tools.
   
@@ -21,7 +21,7 @@ A user-specified piece of information that can be referred to by other cells and
 |||
 |:-----|:-----|
 |**Element type** <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml, masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    

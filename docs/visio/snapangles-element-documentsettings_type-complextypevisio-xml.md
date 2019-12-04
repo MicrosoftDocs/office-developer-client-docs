@@ -1,5 +1,5 @@
 ---
-title: "SnapAngles element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "SnapAngles element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 803ddfc1-b7d3-736f-2d85-7b8780ef9278
 description: "Contains a collection of SnapAngle elements."
 ---
 
-# SnapAngles element (DocumentSettings_Type complexType) ('Visio XML')
+# SnapAngles element (DocumentSettings_Type complexType) (Visio XML)
 
 Contains a collection of **SnapAngle** elements. 
   
@@ -21,7 +21,7 @@ Contains a collection of **SnapAngle** elements.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

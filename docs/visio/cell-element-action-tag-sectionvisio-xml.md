@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Action Tag Section) ('Visio XML')"
+title: "Cell element (Action Tag Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 6210ff71-fbcd-2c97-6dde-1e334891e08d
 description: "Defines one property for an action tag on a shape or page."
 ---
 
-# Cell element (Action Tag Section) ('Visio XML')
+# Cell element (Action Tag Section) (Visio XML)
 
 Defines one property for an action tag on a shape or page.
   
@@ -21,7 +21,7 @@ Defines one property for an action tag on a shape or page.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |masters.xml, master#.xml, pages.xml, page#.xml  <br/> |
    

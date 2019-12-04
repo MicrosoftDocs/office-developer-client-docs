@@ -34,7 +34,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 ```vb
 Private Sub DemoTableColumns()
     Const PR_HAS_ATTACH As String = _
-        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
+        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
     ' Obtain Inbox
     Dim folder As Outlook.Folder = _
         CType(Application.Session.GetDefaultFolder( _
@@ -77,7 +77,7 @@ End Sub
 private void DemoTableColumns()
 {
     const string PR_HAS_ATTACH =
-        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
+        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
     // Obtain Inbox
     Outlook.Folder folder =
         Application.Session.GetDefaultFolder(

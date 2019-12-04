@@ -1,5 +1,5 @@
 ---
-title: "pp element (Text_Type complexType) ('Visio XML')"
+title: "pp element (Text_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f5444543-fcd9-91cc-e7f8-cf860caa9fcc
 description: "Specifies the beginning of a paragraph properties run. The run is defined to the end of the text or until the next tag."
 ---
 
-# pp element (Text_Type complexType) ('Visio XML')
+# pp element (Text_Type complexType) (Visio XML)
 
 Specifies the beginning of a paragraph properties run. The run is defined to the end of the text or until the next tag.
   
@@ -21,7 +21,7 @@ Specifies the beginning of a paragraph properties run. The run is defined to the
 |||
 |:-----|:-----|
 |**Element type** <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    

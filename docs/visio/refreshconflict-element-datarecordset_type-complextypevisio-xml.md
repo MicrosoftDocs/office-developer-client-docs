@@ -1,5 +1,5 @@
 ---
-title: "RefreshConflict element (DataRecordSet_Type complexType) ('Visio XML')"
+title: "RefreshConflict element (DataRecordSet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
 description: "Indicates a row in the data recordset linked to a shape that is in conflict after the data recordset is refreshed."
 ---
 
-# RefreshConflict element (DataRecordSet_Type complexType) ('Visio XML')
+# RefreshConflict element (DataRecordSet_Type complexType) (Visio XML)
 
 Indicates a row in the data recordset linked to a shape that is in conflict after the data recordset is refreshed.
   
@@ -21,7 +21,7 @@ Indicates a row in the data recordset linked to a shape that is in conflict afte
 |||
 |:-----|:-----|
 |**Element type** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |recordsets.xml  <br/> |
    

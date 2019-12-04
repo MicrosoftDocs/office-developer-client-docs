@@ -54,7 +54,7 @@ void DisplayGlobalAddressListForStore()
 public Outlook.AddressList GetGlobalAddressList(Outlook.Store store)
 {
     string  PR_EMSMDB_SECTION_UID = 
-        @"https://schemas.microsoft.com/mapi/proptag/0x3D150102";
+        @"http://schemas.microsoft.com/mapi/proptag/0x3D150102";
     if (store == null)
     {
         throw new ArgumentNullException();
@@ -85,6 +85,7 @@ The second code example contains the EnumerateAddressListsForStore method and Ge
 
 GetAddressLists enumerates each address list defined for the session, uses the PropertyAccessor object and the MAPI named property https://schemas.microsoft.com/mapi/proptag/0x3D150102 to obtain the PR\_EMSMDB\_SECTION\_UID property of an address list, and the PR\_EMSMDB\_SECTION\_UID property of a current store. GetGlobalAddressList identifies an address list as associated with a store if their PR\_EMSMDB\_SECTION\_UID properties match, and returns a set of address lists for the current store. EnumerateAddressListsForStore then uses the [AddressListType](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.addresslist.addresslisttype?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_AddressList_AddressListType) and [ResolutionOrder](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.addresslist.resolutionorder?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_AddressList_ResolutionOrder) properties of the **AddressList** object to display the type and resolution order for each returned address list.
 
+
 ```csharp
 private void EnumerateAddressListsForStore()
 {
@@ -107,7 +108,7 @@ public List<Outlook.AddressList> GetAddressLists(Outlook.Store store)
     List<Outlook.AddressList> addrLists = 
         new List<Microsoft.Office.Interop.Outlook.AddressList>();
     string PR_EMSMDB_SECTION_UID =
-        @"https://schemas.microsoft.com/mapi/proptag/0x3D150102";
+        @"http://schemas.microsoft.com/mapi/proptag/0x3D150102";
     if (store == null)
     {
         throw new ArgumentNullException();

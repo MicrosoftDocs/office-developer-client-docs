@@ -1,5 +1,5 @@
 ---
-title: "RefBy element (Trigger_Type complexType) ('Visio XML')"
+title: "RefBy element (Trigger_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
 description: "Specifies a reference to a page in the drawing."
 ---
 
-# RefBy element (Trigger_Type complexType) ('Visio XML')
+# RefBy element (Trigger_Type complexType) (Visio XML)
 
 Specifies a reference to a page in the drawing.
   
@@ -21,7 +21,7 @@ Specifies a reference to a page in the drawing.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> ||
    

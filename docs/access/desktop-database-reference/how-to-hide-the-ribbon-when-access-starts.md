@@ -56,7 +56,7 @@ The following table lists the ribbon customization settings to store in the **US
 |Column name|Value|
 |:----------|:----|
 |**RibbonName**|HideTheRibbon|
-|**RibbonXML**|`<CustomUI xmlns="https://schemas.microsoft.com/office/2006/01/CustomUI"> <ribbon startFromScratch="true"/></CustomUI>`|
+|**RibbonXML**|`<CustomUI xmlns="http://schemas.microsoft.com/office/2006/01/CustomUI"> <ribbon startFromScratch="true"/></CustomUI>`|
 
 
 ## Apply a custom ribbon when Access starts

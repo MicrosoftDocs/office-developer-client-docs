@@ -44,7 +44,7 @@ Private Function GetWorkHoursXML() As String
         Dim pa As Outlook.PropertyAccessor = storage.PropertyAccessor
         ' PropertyAccessor will return a byte array for this property
         Dim rawXmlBytes As Byte() = CType(pa.GetProperty( _
-            "https://schemas.microsoft.com/mapi/proptag/0x7C080102"), _
+            "http://schemas.microsoft.com/mapi/proptag/0x7C080102"), _
             Byte())
         ' Use Encoding to convert the array to a string
         Return System.Text.Encoding.ASCII.GetString(rawXmlBytes)
@@ -67,7 +67,7 @@ private string GetWorkHoursXML()
         Outlook.PropertyAccessor pa = storage.PropertyAccessor;
         // PropertyAccessor will return a byte array for this property
         byte[] rawXmlBytes = (byte[])pa.GetProperty(
-            "https://schemas.microsoft.com/mapi/proptag/0x7C080102");
+            "http://schemas.microsoft.com/mapi/proptag/0x7C080102");
         // Use Encoding to convert the array to a string
         return System.Text.Encoding.ASCII.GetString(rawXmlBytes);
     }

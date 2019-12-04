@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Tabs Section) ('Visio XML')"
+title: "Cell element (Tabs Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 4292d489-fb7c-9d5d-9bec-2a1a0772d8ba
 description: "Specifies a property that controls shape and style tab stop position or alignment."
 ---
 
-# Cell element (Tabs Section) ('Visio XML')
+# Cell element (Tabs Section) (Visio XML)
 
 Specifies a property that controls shape and style tab stop position or alignment. 
   
@@ -21,7 +21,7 @@ Specifies a property that controls shape and style tab stop position or alignmen
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml, master#.xml, page#.xml  <br/> |
    

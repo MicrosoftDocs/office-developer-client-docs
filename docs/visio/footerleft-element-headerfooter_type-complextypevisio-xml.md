@@ -1,5 +1,5 @@
 ---
-title: "FooterLeft element (HeaderFooter_Type complexType) ('Visio XML')"
+title: "FooterLeft element (HeaderFooter_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 994d29c1-deca-6036-fdb1-12da945b29f2
 description: "Contains the text string that appears in the left portion of a document's footer."
 ---
 
-# FooterLeft element (HeaderFooter_Type complexType) ('Visio XML')
+# FooterLeft element (HeaderFooter_Type complexType) (Visio XML)
 
 Contains the text string that appears in the left portion of a document's footer.
   
@@ -21,7 +21,7 @@ Contains the text string that appears in the left portion of a document's footer
 |||
 |:-----|:-----|
 |**Element type** <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

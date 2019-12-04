@@ -18,7 +18,7 @@ description: "Represents different information in different rows. This table des
 
 Represents different information in different rows. This table describes the A cell based on the row in which it's located.
   
-|**Row**|**Description**|
+|Row|Description|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | The distance from the arc's midpoint to the midpoint of its chord.  <br/> |
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The  *x*  -coordinate of the arc's control point, a point on the arc. The control point is best located about halfway between the beginning and ending vertices of the arc. Otherwise, the arc may grow to an extreme size in order to pass through the control point, with unpredictable results.  <br/> |

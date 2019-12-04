@@ -1,5 +1,5 @@
 ---
-title: "ProtectShapes element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "ProtectShapes element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: e3835fc6-0ae6-b8c3-b1d0-bf893d4a9470
 description: "Specifies whether the user is prevented from selecting shapes that have their LockSelect element set to 1."
 ---
 
-# ProtectShapes element (DocumentSettings_Type complexType) ('Visio XML')
+# ProtectShapes element (DocumentSettings_Type complexType) (Visio XML)
 
 Specifies whether the user is prevented from selecting shapes that have their **LockSelect** element set to 1. 
   
@@ -21,7 +21,7 @@ Specifies whether the user is prevented from selecting shapes that have their **
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ProtectShapes_Type](protectshapes_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

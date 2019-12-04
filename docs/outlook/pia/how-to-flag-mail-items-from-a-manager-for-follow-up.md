@@ -38,9 +38,9 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void DemoTaskFlagging()
 {
     const string PR_SENT_REPRESENTING_NAME =
-        "https://schemas.microsoft.com/mapi/proptag/0x0042001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x0042001E";
     const string PR_MESSAGE_CLASS =
-        "https://schemas.microsoft.com/mapi/proptag/0x001A001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x001A001E";
     Outlook.AddressEntry currentUser =
         Application.Session.CurrentUser.AddressEntry;
     if (currentUser.Type == "EX")

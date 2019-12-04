@@ -1,5 +1,5 @@
 ---
-title: "Row element (Connection Section) ('Visio XML')"
+title: "Row element (Connection Section) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 3f44fc18-4757-7aba-8778-a474ab93a78d
 description: "Contains the x- or y-coordinates, horizontal and vertical direction, and type for a single connection point on a shape."
 ---
 
-# Row element (Connection Section) ('Visio XML')
+# Row element (Connection Section) (Visio XML)
 
 Contains the x- or y-coordinates, horizontal and vertical direction, and type for a single connection point on a shape.
   
@@ -21,7 +21,7 @@ Contains the x- or y-coordinates, horizontal and vertical direction, and type fo
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

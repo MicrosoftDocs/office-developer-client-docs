@@ -1,5 +1,5 @@
 ---
-title: "SnapSettings element (Window_Type complexType) ('Visio XML')"
+title: "SnapSettings element (Window_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 7b87a244-b331-7e93-d304-239f8ca77061
 description: "Specifies the objects that shapes snap to when snap is active in the window."
 ---
 
-# SnapSettings element (Window_Type complexType) ('Visio XML')
+# SnapSettings element (Window_Type complexType) (Visio XML)
 
 Specifies the objects that shapes snap to when snap is active in the window.
   
@@ -21,7 +21,7 @@ Specifies the objects that shapes snap to when snap is active in the window.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |windows.xml  <br/> |
    

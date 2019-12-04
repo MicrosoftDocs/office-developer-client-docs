@@ -536,7 +536,7 @@ Although the groups and controls in each region look similar, a control for the 
     
    ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
         <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon"
                     Sequence="10001"
@@ -1136,7 +1136,7 @@ The following XML definition, for the added button on the **TASKS** tab on the r
   
 ```XML
     <?xml version="1.0" encoding="utf-8"?>
-    <Elements xmlns="https://schemas.microsoft.com/sharepoint/">
+    <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <CustomAction Id="21ea3aaf-79e5-4aac-9479-8eef14b4d9df.RibbonQuickStatusAction"
                     Location="CommandUI.Ribbon">
         <CommandUIExtension>
@@ -1180,7 +1180,7 @@ Following is the XML for the app manifest of the **QuickStatus** project, which 
 ```XML
     <?xml version="1.0" encoding="utf-8" ?>
     <!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
-    <App xmlns="https://schemas.microsoft.com/sharepoint/2012/app/manifest"
+    <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
         Name="QuickStatus"
         ProductID="{bbc497e7-1221-4d7b-a0ae-141a99546008}"
         Version="1.0.0.0"

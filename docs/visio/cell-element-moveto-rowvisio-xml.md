@@ -1,5 +1,5 @@
 ---
-title: "Cell element (MoveTo Row) ('Visio XML')"
+title: "Cell element (MoveTo Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: b3b2a08f-07a0-5f1c-4910-503229927816
 description: "Contains the x- or y-coordinates of the first vertex of a shape, or represents the x- or y-coordinates of the first vertex after a break in a path."
 ---
 
-# Cell element (MoveTo Row) ('Visio XML')
+# Cell element (MoveTo Row) (Visio XML)
 
 Contains the x- or y-coordinates of the first vertex of a shape, or represents the x- or y-coordinates of the first vertex after a break in a path.
   
@@ -21,7 +21,7 @@ Contains the x- or y-coordinates of the first vertex of a shape, or represents t
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

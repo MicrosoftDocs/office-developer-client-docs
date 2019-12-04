@@ -1,5 +1,5 @@
 ---
-title: "Issue element (Issues_Type complexType) ('Visio XML')"
+title: "Issue element (Issues_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 5c4d07bf-4edc-e241-7827-017f96c11957
 description: "Represents a single validation issue in the document."
 ---
 
-# Issue element (Issues_Type complexType) ('Visio XML')
+# Issue element (Issues_Type complexType) (Visio XML)
 
 Represents a single validation issue in the document.
   
@@ -21,7 +21,7 @@ Represents a single validation issue in the document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |validation.xml  <br/> |
    

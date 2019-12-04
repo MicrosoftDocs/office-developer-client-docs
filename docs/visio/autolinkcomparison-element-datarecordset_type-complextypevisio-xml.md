@@ -1,5 +1,5 @@
 ---
-title: "AutoLinkComparison element (DataRecordSet_Type complexType) ('Visio XML')"
+title: "AutoLinkComparison element (DataRecordSet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: af5eb7fd-89c6-49bf-4e45-431b63d6cd6a
 description: "Defines a rule that compares a column in the parent DataRecordset element with a shape data item from the last successful automatic linking action performed in the user interface."
 ---
 
-# AutoLinkComparison element (DataRecordSet_Type complexType) ('Visio XML')
+# AutoLinkComparison element (DataRecordSet_Type complexType) (Visio XML)
 
 Defines a rule that compares a column in the parent **DataRecordset** element with a shape data item from the last successful automatic linking action performed in the user interface. 
   
@@ -21,7 +21,7 @@ Defines a rule that compares a column in the parent **DataRecordset** element wi
 |||
 |:-----|:-----|
 |**Element type** <br/> |[AutoLinkComparison_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |recordsets.xml  <br/> |
    

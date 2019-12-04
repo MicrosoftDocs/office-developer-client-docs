@@ -1,5 +1,5 @@
 ---
-title: "CommentEntry_Type complexType ('Visio XML')"
+title: "CommentEntry_Type complexType (Visio XML)"
  
  
 manager: soliver
@@ -12,13 +12,13 @@ ms.assetid: 6d9e99b8-fcd6-f36b-960e-bcf3a23afe04
 
 ---
 
-# CommentEntry_Type complexType ('Visio XML')
+# CommentEntry_Type complexType (Visio XML)
 
 ## Type information
 
 |||
 |:-----|:-----|
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Extension base** <br/> |xsd:string  <br/> |
    

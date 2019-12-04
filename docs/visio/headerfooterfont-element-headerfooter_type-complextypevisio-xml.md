@@ -1,5 +1,5 @@
 ---
-title: "HeaderFooterFont element (HeaderFooter_Type complexType) ('Visio XML')"
+title: "HeaderFooterFont element (HeaderFooter_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: "Specifies the font used for the header and footer text."
 ---
 
-# HeaderFooterFont element (HeaderFooter_Type complexType) ('Visio XML')
+# HeaderFooterFont element (HeaderFooter_Type complexType) (Visio XML)
 
 Specifies the font used for the header and footer text.
   
@@ -21,7 +21,7 @@ Specifies the font used for the header and footer text.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

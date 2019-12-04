@@ -50,7 +50,7 @@ private void RemoveAttachmentsAndSaveToDisk(string path,
         string filter = "@SQL=" + "\""
             + "urn:schemas:httpmail:hasattachment"
             + "\"" + " = True" + " AND " + "\""
-            + "https://schemas.microsoft.com/mapi/proptag/0x001A001E"
+            + "http://schemas.microsoft.com/mapi/proptag/0x001A001E"
             + "\"" + " = 'IPM.Note'";
         attachItems = folder.Items.Restrict(filter);
         foreach (Outlook.MailItem mail in attachItems)

@@ -4,7 +4,7 @@ TOCTitle: Filter Property
 ms:assetid: feffa23b-c348-9718-ba4b-65db0f739789
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837300(v=office.15)
 ms:contentKeyID: 48548953
-ms.date: 09/18/2015
+ms.date: 06/04/2019
 mtps_version: v=office.15
 localization_priority: Priority
 ---
@@ -17,7 +17,7 @@ Sets or returns a value that determines the records included in a subsequently o
 
 ## Syntax
 
-*expression* .Filter
+*expression*.**Filter**
 
 *expression* An expression that returns a **Recordset** object.
 
@@ -51,7 +51,7 @@ The following sample shows how to use the Filter property to determine the recor
     
     'Create the first filtered Recordset, returning customer records
     'for those visited between 30-60 days ago.
-    Set rest = dbs.OpenRecordset(_ 
+    Set rst = dbs.OpenRecordset(_ 
         "SELECT * FROM Customers WHERE LastVisitDate BETWEEN Date()-60 " & _
         "AND Date()-30 ORDER BY LastVisitDate DESC")
     

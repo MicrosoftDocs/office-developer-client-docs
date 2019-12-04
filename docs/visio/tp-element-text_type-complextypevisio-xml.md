@@ -1,5 +1,5 @@
 ---
-title: "tp element (Text_Type complexType) ('Visio XML')"
+title: "tp element (Text_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
 description: "Specifies the beginning of a tabs properties run. The run is defined to the end of the text or until the next tag."
 ---
 
-# tp element (Text_Type complexType) ('Visio XML')
+# tp element (Text_Type complexType) (Visio XML)
 
 Specifies the beginning of a tabs properties run. The run is defined to the end of the text or until the next tag.
   
@@ -21,7 +21,7 @@ Specifies the beginning of a tabs properties run. The run is defined to the end 
 |||
 |:-----|:-----|
 |**Element type** <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    

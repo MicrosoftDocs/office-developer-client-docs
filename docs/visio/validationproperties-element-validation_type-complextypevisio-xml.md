@@ -1,5 +1,5 @@
 ---
-title: "ValidationProperties element (Validation_Type complexType) ('Visio XML')"
+title: "ValidationProperties element (Validation_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: a51a60c9-479b-7d7b-860f-bb46fc8b4d63
 description: "Encapsulates the properties that are related to the document's validation."
 ---
 
-# ValidationProperties element (Validation_Type complexType) ('Visio XML')
+# ValidationProperties element (Validation_Type complexType) (Visio XML)
 
 Encapsulates the properties that are related to the document's validation.
   
@@ -21,7 +21,7 @@ Encapsulates the properties that are related to the document's validation.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |validation.xml  <br/> |
    

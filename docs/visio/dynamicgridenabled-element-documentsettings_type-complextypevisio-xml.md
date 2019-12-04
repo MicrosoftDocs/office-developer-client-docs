@@ -1,5 +1,5 @@
 ---
-title: "DynamicGridEnabled element (DocumentSettings_Type complexType) ('Visio XML')"
+title: "DynamicGridEnabled element (DocumentSettings_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: "Specifies whether the dynamic grid feature is enabled for a document."
 ---
 
-# DynamicGridEnabled element (DocumentSettings_Type complexType) ('Visio XML')
+# DynamicGridEnabled element (DocumentSettings_Type complexType) (Visio XML)
 
 Specifies whether the dynamic grid feature is enabled for a document.
   
@@ -21,7 +21,7 @@ Specifies whether the dynamic grid feature is enabled for a document.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |windows.xml, document.xml  <br/> |
    

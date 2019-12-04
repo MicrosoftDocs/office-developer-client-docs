@@ -28,7 +28,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void GetSMTPAddressForRecipients(Outlook.MailItem mail)
 {
     const string PR_SMTP_ADDRESS =
-        "https://schemas.microsoft.com/mapi/proptag/0x39FE001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x39FE001E";
     Outlook.Recipients recips = mail.Recipients;
     foreach (Outlook.Recipient recip in recips)
     {

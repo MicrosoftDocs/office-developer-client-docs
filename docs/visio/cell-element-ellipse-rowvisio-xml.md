@@ -1,5 +1,5 @@
 ---
-title: "Cell element (Ellipse Row) ('Visio XML')"
+title: "Cell element (Ellipse Row) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 210e6731-7c94-90b1-c7c4-635df974fdb6
 description: "Contains the x- or y-coordinates of the ellipse's center point and two points on the ellipse."
 ---
 
-# Cell element (Ellipse Row) ('Visio XML')
+# Cell element (Ellipse Row) (Visio XML)
 
 Contains the x- or y-coordinates of the ellipse's center point and two points on the ellipse.
   
@@ -21,7 +21,7 @@ Contains the x- or y-coordinates of the ellipse's center point and two points on
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |master#.xml, page#.xml  <br/> |
    

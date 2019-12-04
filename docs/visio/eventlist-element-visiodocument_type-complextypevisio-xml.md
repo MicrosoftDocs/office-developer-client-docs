@@ -1,5 +1,5 @@
 ---
-title: "EventList element (VisioDocument_Type complexType) ('Visio XML')"
+title: "EventList element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
 description: "Contains an EventItem element for each event to which an object should respond."
 ---
 
-# EventList element (VisioDocument_Type complexType) ('Visio XML')
+# EventList element (VisioDocument_Type complexType) (Visio XML)
 
 Contains an **EventItem** element for each event to which an object should respond. 
   
@@ -21,7 +21,7 @@ Contains an **EventItem** element for each event to which an object should respo
 |||
 |:-----|:-----|
 |**Element type** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

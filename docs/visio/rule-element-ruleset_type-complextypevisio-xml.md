@@ -1,5 +1,5 @@
 ---
-title: "Rule element (RuleSet_Type complexType) ('Visio XML')"
+title: "Rule element (RuleSet_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: "Represents a single validation rule in a diagram validation rule set."
 ---
 
-# Rule element (RuleSet_Type complexType) ('Visio XML')
+# Rule element (RuleSet_Type complexType) (Visio XML)
 
 Represents a single validation rule in a diagram validation rule set.
   
@@ -21,7 +21,7 @@ Represents a single validation rule in a diagram validation rule set.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |validation.xml  <br/> |
    

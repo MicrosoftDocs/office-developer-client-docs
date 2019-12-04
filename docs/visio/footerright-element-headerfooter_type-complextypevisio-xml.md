@@ -1,5 +1,5 @@
 ---
-title: "FooterRight element (HeaderFooter_Type complexType) ('Visio XML')"
+title: "FooterRight element (HeaderFooter_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: ad752f2d-25c9-8890-885b-87266a8052b8
 description: "Contains the text string that appears in the right portion of a document's footer."
 ---
 
-# FooterRight element (HeaderFooter_Type complexType) ('Visio XML')
+# FooterRight element (HeaderFooter_Type complexType) (Visio XML)
 
 Contains the text string that appears in the right portion of a document's footer.
   
@@ -21,7 +21,7 @@ Contains the text string that appears in the right portion of a document's foote
 |||
 |:-----|:-----|
 |**Element type** <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

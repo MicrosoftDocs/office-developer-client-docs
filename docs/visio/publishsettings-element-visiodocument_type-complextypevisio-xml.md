@@ -1,5 +1,5 @@
 ---
-title: "PublishSettings element (VisioDocument_Type complexType) ('Visio XML')"
+title: "PublishSettings element (VisioDocument_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: d0a41494-ffad-c56c-2074-135b3d0bffb9
 description: "Specifies the settings that are used when the diagram is opened using Visio Services in Microsoft SharePoint Server 2013."
 ---
 
-# PublishSettings element (VisioDocument_Type complexType) ('Visio XML')
+# PublishSettings element (VisioDocument_Type complexType) (Visio XML)
 
 Specifies the settings that are used when the diagram is opened using Visio Services in Microsoft SharePoint Server 2013.
   
@@ -21,7 +21,7 @@ Specifies the settings that are used when the diagram is opened using Visio Serv
 |||
 |:-----|:-----|
 |**Element type** <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |document.xml  <br/> |
    

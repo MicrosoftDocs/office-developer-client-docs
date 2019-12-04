@@ -1,5 +1,5 @@
 ---
-title: "Shapes element (PageContents_Type complexType) ('Visio XML')"
+title: "Shapes element (PageContents_Type complexType) (Visio XML)"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 2f9d51d7-e2b7-bc68-dede-c79fb9dbcf60
 description: "Contains a collection of Shape elements."
 ---
 
-# Shapes element (PageContents_Type complexType) ('Visio XML')
+# Shapes element (PageContents_Type complexType) (Visio XML)
 
 Contains a collection of Shape elements.
   
@@ -21,7 +21,7 @@ Contains a collection of Shape elements.
 |||
 |:-----|:-----|
 |**Element type** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
-|**Namespace** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |page#.xml, master#.xml  <br/> |
    
