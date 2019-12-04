@@ -1,9 +1,9 @@
 ---
 title: "InfoPath developer reference for form templates"
 ms.author: mroberts
-author: mroberts
-manager: soliver
-ms.date: 11/16/2014
+author: lindalu
+manager: lindalu
+ms.date: 11/16/2019
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -22,13 +22,10 @@ Publish date of this reference: October 2012
   
 ## Related links
 
-[InfoPath Developer Center](https://msdn.microsoft.com/office/aa905434.aspx)
+[Microsoft Office Developer Center: Docs](https://developer.microsoft.com/en-us/office/docs)
   
-[Microsoft Office Developer Center](https://msdn.microsoft.com/office/default.aspx)
-  
-[Document Conventions in Office Developer Documentation](https://msdn.microsoft.com/office/aa905365.aspx)
-  
-[Microsoft Accessibility](https://www.microsoft.com/ENABLE/)
+
+[Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility/)
 
   
 

@@ -1,6 +1,6 @@
 ---
 title: "Compatibility between the 32-bit and 64-bit versions of Office"
-ms.date: 04/27/2016
+ms.date: 12/03/2019
 ms.audience: ITPro
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: "Find out how the 32-bit version of Office is compatible with the 64-bit version of Office."
@@ -63,7 +63,7 @@ The combination of VBA and type libraries gives you lots of functionality to cre
   
 > [!NOTE]
 > Microsoft provides a Win32API.txt file that contains 1,500 Declare statements and a tool to copy the **Declare** statement that you want into your code. However, these statements are for 32-bit systems and must be converted to 64-bit by using the information discussed later in this article. Existing **Declare** statements won't compile in 64-bit VBA until they've been marked as safe for 64-bit by using the **PtrSafe** attribute. You can find examples of this type of conversion at Excel MVP Jan Karel Pieterse's website at [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp). 
-> The [Office Code Compatibility Inspector user's guide](https://technet.microsoft.com/en-us/library/ee833946%28office.14%29.aspx) is a useful tool to inspect the syntax of API **Declare** statements for the **PtrSafe** attribute, if needed, and the appropriate return type. 
+> The [Office Code Compatibility Inspector user's guide](https://docs.microsoft.com/previous-versions/office/office-2010/ee833946(v=office.14)) is a useful tool to inspect the syntax of API **Declare** statements for the **PtrSafe** attribute, if needed, and the appropriate return type. 
   
 **Declare** statements resemble one of the following, depending on whether you are calling a subroutine (which has no return value) or a function (which does have a return value). 
   
@@ -215,7 +215,7 @@ No.
   
 #### When should I convert Long parameters to LongPtr?
   
-You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](https://msdn.microsoft.com/library/c8a590f2-3249-437f-a320-c7443d42b792.aspx) provides the following signature: 
+You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](https://docs.microsoft.com/windows/win32/api/winreg/nf-winreg-regopenkeyexa) provides the following signature: 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
@@ -237,7 +237,7 @@ The parameters are defined as:
 |samDesired [in]  <br/> |A mask that specifies the desired access rights to the key.  <br/> |
 |phkResult [out]  <br/> |A  *pointer*  to a variable that receives a handle to the opened key.  <br/> |
    
-In [Win32API_PtrSafe.txt](https://www.microsoft.com/downloads/details.aspx?displaylang=en&amp;FamilyID=035b72a5-eef9-4baf-8dbc-63fbd2dd982b), the **Declare** statement is defined as: 
+In [Win32API_PtrSafe.txt](https://docs.microsoft.com/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support), the **Declare** statement is defined as: 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
@@ -265,6 +265,4 @@ You should use these functions to retrieve pointers to strings, variables and ob
 ## See also
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
-- [Anatomy of a Declare Statement](https://msdn.microsoft.com/library/office/aa671659.aspx)
-    
-
+- [Anatomy of a Declare Statement](https://docs.microsoft.com/previous-versions/aa671659(v=vs.71))

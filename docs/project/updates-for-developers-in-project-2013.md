@@ -1,7 +1,7 @@
 ---
 title: "Updates for developers in Project"
-manager: soliver
-ms.date: 09/29/2015
+manager: lindalu
+ms.date: 12/03/19
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
@@ -226,31 +226,31 @@ For general information about events, see [Handling events in apps for SharePoin
 <a name="pj15_WhatsNew_Deprecated"> </a>
 
 > [!NOTE]
-> For information about features and APIs that are deprecated or removed in Project Server 2016 Preview, see [What's deprecated or removed in Project Server 2016 Preview](https://technet.microsoft.com/library/mt422816%28v=office.16%29.aspx). 
+> For information about features and APIs that are deprecated or removed in Project Server 2016 Preview, see [What's deprecated or removed in Project Server 2016 Preview](https://docs.microsoft.com/project/what-s-deprecated-or-removed-in-project-server-2016). 
   
 Deprecated features are still available in Project 2013 for some solutions, but should not be used for new development. Most of the following features and practices do not work with Project Online, or with the default on-premises installation of Project Server 2013 in SharePoint permission mode. Existing solutions that use these features may not work for an upgrade of Project Server 2010 to Project Server 2013. Although solutions that use deprecated features may continue to work in some cases, they are not fully supported for all Project 2013 installations.
   
-If your solutions use deprecated features, they should be tested thoroughly before deployment, and you should modify them to use supported features as soon as is practical. For information about configuring on-premises Project Server 2013 security for Project permission mode, see the  *SharePoint Permission Mode*  section in [What's new for IT pros in Project Server 2013](https://technet.microsoft.com/en-us/library/ff631142%28office.15%29.aspx).
+If your solutions use deprecated features, they should be tested thoroughly before deployment, and you should modify them to use supported features as soon as is practical. For information about configuring on-premises Project Server 2013 security for Project permission mode, see the  *SharePoint Permission Mode*  section in [What's new for IT pros in Project Server 2013](https://docs.microsoft.com/project/what-s-new-for-it-pros-in-project-server-2016).
   
-- **Extensions** [PSI extension scenarios](https://msdn.microsoft.com/library/office/ff843378%28v=office.14%29.aspx) are deprecated, and will not be supported in future releases. These on-premises Project Server 2013 scenarios enabled integration by using custom Windows Communication Foundation (WCF) services. 
+- **Extensions** [PSI extension scenarios](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff843378(v=office.14)) are deprecated, and will not be supported in future releases. These on-premises Project Server 2013 scenarios enabled integration by using custom Windows Communication Foundation (WCF) services. 
   
 - **Project PSI** The [Project class](https://docs.microsoft.com/office/client-developer/project/project-psi-reference-overview) of the PSI is deprecated. For all new development, use the [Project CSOM](client-side-object-model-csom-for-project-2013.md). Project Server 2013 apps that use the Project PSI will continue to work, but Project Online apps will need to replace any Project-class PSI methods with their equivalent CSOM methods.
   
-- **Resource Plan PSI** The [Resource Plan PSI](https://msdn.microsoft.com/library/office/websvcresourceplan_di_pj14mref.aspx) is deprecated. It will continue to be supported for Project 2013 development, but will not be supported in future releases. 
+- **Resource Plan PSI** The [Resource Plan PSI](https://docs.microsoft.com/previous-versions/office/project-class/gg240019(v=office.15)) is deprecated. It will continue to be supported for Project 2013 development, but will not be supported in future releases. 
   
 - **ASMX interface for the PSI** The PSI includes duplicate interfaces for developing on-premises Project Server extensions. The ASMX web services interface was introduced with the first implementation of the PSI in Office Project Server 2007. Project Server 2010 added the WCF services interface, where the object model essentially duplicates the ASMX web services. Although Project Server 2013 continues to support both ASMX and WCF, new solutions that require the PSI should use the WCF services. If possible, new solutions should be written using the CSOM. 
   
   The ASMX web services of the PSI are deprecated in Project Server 2013. To work in future Project Server versions, solutions that use the ASMX web services must be rewritten to use either the WCF services or the CSOM. For more information, see the  *Upgrading applications with the Project Server APIs*  section in [Project Server programmability](project-server-programmability.md).
   
-- **Object Link Provider (OLP)** In previous versions of Project Server, the **ObjectLinkProvider** service in the PSI (see [WebSvcObjectLinkProvider](https://msdn.microsoft.com/library/WebSvcObjectLinkProvider.aspx) ) provides a way to manage web object links between enterprise project tasks and specialized SharePoint lists in the project site for issues, risks, deliverables, and documents. In Project Server 2013, the OLP is deprecated. 
+- **Object Link Provider (OLP)** In previous versions of Project Server, the **ObjectLinkProvider** service in the PSI (see [WebSvcObjectLinkProvider](https://docs.microsoft.com/previous-versions/office/ms481347(v=office.14)) provides a way to manage web object links between enterprise project tasks and specialized SharePoint lists in the project site for issues, risks, deliverables, and documents. In Project Server 2013, the OLP is deprecated. 
   
-  You can use the **[RelatedItemManager](https://msdn.microsoft.com/library/microsoft.sharepoint.client.relateditemmanager.aspx)** class in the SharePoint CSOM to create, read, and delete web object links between items in the tasks list and the other lists in a project site. For example, to add a link from a task item to an issue, you can use the **[AddSingleLink](https://msdn.microsoft.com/library/office/microsoft.sharepoint.client.relateditemmanager.addsinglelink.aspx)** method or either of two similar methods, **AddSingleLinkFromUrl** or **AddSingleLinkToUrl**. The **RelatedItemManager** class also includes methods for deleting a web object link and reading related items. For the equivalent class in the JSOM (the JavaScript object model), see [SP.RelatedItemManager object (sp.js)](https://msdn.microsoft.com/library/jj838582.aspx).
+  You can use the **[RelatedItemManager](https://docs.microsoft.com/previous-versions/office/sharepoint-server/jj168020(v=office.15))** class in the SharePoint CSOM to create, read, and delete web object links between items in the tasks list and the other lists in a project site. For example, to add a link from a task item to an issue, you can use the **[AddSingleLink](https://docs.microsoft.com/previous-versions/office/sharepoint-server/jj166451(v=office.15))** method or either of two similar methods, **AddSingleLinkFromUrl** or **AddSingleLinkToUrl**. The **RelatedItemManager** class also includes methods for deleting a web object link and reading related items. For the equivalent class in the JSOM (the JavaScript object model), see [SP.RelatedItemManager object (sp.js)](https://docs.microsoft.com/previous-versions/office/sharepoint-visio/jj838582(v=office.15)).
   
-  We recommend that you use the SharePoint CSOM to create OLP-type apps for an on-premises installation of Project Server 2013 and for Project Online. The [Microsoft.SharePoint](https://msdn.microsoft.com/library/microsoft.sharepoint.aspx) namespace does not include a **RelatedItemManager** **** class. 
+  We recommend that you use the SharePoint CSOM to create OLP-type apps for an on-premises installation of Project Server 2013 and for Project Online. The [Microsoft.SharePoint](https://docs.microsoft.com/previous-versions/office/sharepoint-server/ms464984(v=office.15)) namespace does not include a **RelatedItemManager** **** class. 
   
 - **Custom permissions** Custom security permissions to access specific Project Server features or extensions were supported in Office Project Server 2007, where an SDK article explained how to create them by directly modifying the Published database. In Project Server 2010, custom permissions still work but are deprecated. In Project Server 2013, custom permissions do not work with the default SharePoint permission mode for on-premises installations. For the Project permission mode, custom permissions are supported. With Project Online, direct database access is not possible. 
   
-- **Impersonation** Impersonation in PSI-based apps, where the user of an app can assume the security permissions of a different Project Server user, is deprecated in Project Server 2013. As previously indicated, a default on-premises Project Server 2013 installation uses SharePoint permission mode, which does not allow impersonation in the Project Server security groups. For more information, see [Authentication, authorization, and security in SharePoint 2013](https://msdn.microsoft.com/library/ms457529%28office.15%29.aspx).
+- **Impersonation** Impersonation in PSI-based apps, where the user of an app can assume the security permissions of a different Project Server user, is deprecated in Project Server 2013. As previously indicated, a default on-premises Project Server 2013 installation uses SharePoint permission mode, which does not allow impersonation in the Project Server security groups. For more information, see [Authentication, authorization, and security in SharePoint 2013](https://docs.microsoft.com/sharepoint/dev/general-development/authentication-authorization-and-security-in-sharepoint).
   
   Statusing applications are typical extensions that might have used impersonation in previous versions of Project Server. Project Server 2010 introduced the **ReadStatusForResource** method and the **SubmitStatusForResource** method in the PSI, along with the **StatusBrokerPermission** global permission, which eliminated the need for impersonation to read and update status on behalf of another user. The CSOM in Project Server 2013 uses the underlying PSI to transparently enable statusing extensions, and can be used for either Project Online or on-premises installations. 
   
@@ -267,7 +267,7 @@ If your solutions use deprecated features, they should be tested thoroughly befo
 ## Comparing Project Server on-premises with Project Online
 <a name="pj15_WhatsNew_Comparing"> </a>
 
-To help you decide whether to use Project Server on-premises or Project Online, and what kinds of extensions you can develop in either case, Table 2 compares the extensible features of an on-premises installation of Project Server 2013 with Project Online. Table 2 does not include differences in deployment, administration, or usage. For more information about Project Online and Project Server 2013, see [Project 2013 for developers](https://msdn.microsoft.com/office/fp161502) and [Project Online](https://developer.microsoft.com/en-us/project).
+To help you decide whether to use Project Server on-premises or Project Online, and what kinds of extensions you can develop in either case, Table 2 compares the extensible features of an on-premises installation of Project Server 2013 with Project Online. Table 2 does not include differences in deployment, administration, or usage. For more information about Project Online and Project Server 2013, see [Project 2013 for developers](https://developer.microsoft.com/project/docs) and [Project Online](https://developer.microsoft.com/project).
   
 **Table 2. Extensibility of Project Server on-premises and Project Online**
 
@@ -290,7 +290,7 @@ The introduction of the CSOM enables programmatic access to Project Online for a
   
 Office Add-ins provide a new avenue for selling solutions and integrating Project Standard 2013 with web content and other Office 2013 products. You can also create new ways to integrate Project Professional 2013 with Project Server data and SharePoint lists through task pane Office Add-ins.
   
-For more information about developing apps, and using the programmability features and the CSOM of SharePoint Server 2013, see [SharePoint for developers](https://msdn.microsoft.com/sharepoint) and [Office for developers](https://msdn.microsoft.com/office).
+For more information about developing apps, and using the programmability features and the CSOM of SharePoint Server 2013, see [SharePoint for developers](https://docs.microsoft.com/sharepoint/dev/) and [Office for developers](https://developer.microsoft.com/office/docs).
   
 ## See also
 
@@ -303,7 +303,7 @@ For more information about developing apps, and using the programmability featur
 - [SharePoint for developers](https://msdn.microsoft.com/sharepoint)    
 - [Office for developers](https://msdn.microsoft.com/office)   
 - [Handling events in apps for SharePoint](https://msdn.microsoft.com/library/jj220048%28office.15%29.aspx)   
-- [Office Store](https://office.microsoft.com/en-us/store/)   
-- [Project Online](https://developer.microsoft.com/en-us/project)
+- [AppSource](https://appsource.microsoft.com/marketplace/apps?product=office)   
+- [Project Online](https://developer.microsoft.com/project)
     
 
