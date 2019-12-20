@@ -1,16 +1,17 @@
 ---
 title: "Developing a Project Online application using the client-side object model"
-manager: soliver
-ms.date: 11/08/2016
+manager: lindalu
+ms.date: 12/18/2019
 ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
-description: "This article describes Microsoft Project Online application development for desktop applications using the .NET Framework 4.0 and CSOM. "
+description: "This article describes Microsoft Project Online application development using the .NET Framework 4.0 and CSOM. "
 localization_priority: Priority
 ---
 
 # Developing a Project Online application using the client-side object model (CSOM)
 
->[!NOTE] This article describes Microsoft Project Online application development for desktop applications using CSOM. We recommend you explore how to develop applications using the [new Project for the web](https://developer.microsoft.com/en-us/office/blogs/developing-applications-and-reports-using-the-new-project/).
+>[!NOTE] 
+>This article describes Microsoft Project Online application development for using CSOM. We recommend you explore how to develop applications using the [new Project for the web](https://developer.microsoft.com/en-us/office/blogs/developing-applications-and-reports-using-the-new-project/).
   
 ## Background
 
@@ -634,6 +635,6 @@ Value: Red
 
 ## See also
 
-For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/en-us/project).
+For documentation and samples related to Project Online and application development using CSOM, see the [Project development Portal](https://developer.microsoft.com/project) on the Office Dev Center.
     
 
