@@ -82,6 +82,6 @@ The following sample file provide a sample workbook that uses a UDF and the UDF 
 ## See also
 
 - [Configure Excel Online administrative settings](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-serverr)
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
     
 
