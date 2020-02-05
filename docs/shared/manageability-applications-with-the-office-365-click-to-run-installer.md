@@ -1,7 +1,7 @@
 ---
 title: "Integrating manageability applications with Office 365 click-to-run installer"
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 10/22/2017
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
