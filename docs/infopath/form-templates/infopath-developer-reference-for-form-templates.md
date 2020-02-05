@@ -1,6 +1,6 @@
 ---
 title: "InfoPath developer reference for form templates"
-ms.author: mroberts
+ms.author: lindalu
 author: lindalu
 manager: lindalu
 ms.date: 11/16/2019
