@@ -1,6 +1,6 @@
 ---
 title: "Integrating manageability applications with Office 365 click-to-run installer"
-manager: kelbow
+manager: lindalu
 ms.date: 10/22/2017
 ms.audience: ITPro
 localization_priority: Normal
@@ -22,7 +22,7 @@ The Office 365 Click-to-Run installer provides a COM interface that allows IT Pr
 To use this interface, a manageability application invokes the COM interface and calls exposed APIs that communicate directly with the Click-to-Run installation service. 
   
 > [!NOTE]
-> The Office Click-to-Run installer can be run from the command-line with parameters that can control the behavior, as documented in [Office Deployment Tool for Click-to-Run](https://www.microsoft.com/en-us/download/details.aspx?id=49117). 
+> The Office Click-to-Run installer can be run from the command-line with parameters that can control the behavior, as documented in [Office Deployment Tool for Click-to-Run](https://www.microsoft.com/download/details.aspx?id=49117). 
   
 **Following is a conceptual diagram of the COM interface**
 
