@@ -1,6 +1,6 @@
 ---
 title: "Create a SharePoint-hosted Project Server add-in"
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
@@ -1218,7 +1218,7 @@ The **QuickStatus** app is a relatively simple example of how to write apps that
 
 - [Project Server programming tasks](project-programming-tasks.md)
 - [SharePoint Add-ins](https://msdn.microsoft.com/library/jj163230.aspx)
-- [Managing task updates in Project Web App](https://technet.microsoft.com/en-us/library/hh767481%28v=office.14%29.aspx)
+- [Managing task updates in Project Web App](https://technet.microsoft.com/library/hh767481%28v=office.14%29.aspx)
 - [Create custom actions to deploy with SharePoint Add-ins](https://msdn.microsoft.com/library/jj163954.aspx)
     
 
