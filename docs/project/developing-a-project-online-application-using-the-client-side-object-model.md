@@ -45,7 +45,7 @@ Start with a base system running Windows 10, and add the following items:
     
 - SharePoint Client Components SDK -- Project Online and Project Server sit on top of SharePoint, and SharePoint assemblies. The SharePoint Client Components are included in Visual Studio Professional and Enterprise editions. If you use Visual Studio Community edition, the latest version of the Office Developer Tools SDK is available at the following site: https://www.microsoft.com/en-us/download/details.aspx?id=35585.
     
-- A Project Online account -- This provides access to the hosting site. For more information about obtaining a Project Online account, see https://products.office.com/en-us/Project/project-online-portfolio-management.
+- A Project Online account -- This provides access to the hosting site. For more information about obtaining a Project Online account, see https://products.office.com/en-gb/project/project-portfolio-management.
     
 - Projects on the hosting site that are populated with information
     
