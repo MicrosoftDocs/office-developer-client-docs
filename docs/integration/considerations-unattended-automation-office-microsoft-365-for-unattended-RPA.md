@@ -10,8 +10,6 @@ description: "Considerations for unattended automation of Office in the Microsof
 
 # Considerations for unattended automation of Office in the Microsoft 365 for unattended RPA environment
 
-considerations-unattended-automation-office-microsoft-365-for-unattended-RPA
-
 Although Microsoft 365 for unattended RPA provides a license that enables the automation of Office with no user present, all current versions of Office were designed and tested to run as end-user products on a client workstation with a user present to interact with the application’s interface. Unexpected behaviors resulting from the use of applications without a user present are not defects. If you want to run Office in this configuration, you must be prepared to account for these unexpected behaviors in your application logic.
 
 This article outlines some of the considerations for unattended automation of Office to help you if you use this approach. However, note that usage of Office in this configuration is strictly “AS IS” and must account for these unexpected behaviors. The information provided here is not exhaustive and is not guaranteed to resolve all issues for all clients. We encourage you to test your solution thoroughly before you deploy.
