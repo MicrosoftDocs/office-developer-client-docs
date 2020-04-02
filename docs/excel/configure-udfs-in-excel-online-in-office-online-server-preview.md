@@ -37,7 +37,7 @@ Reference the location when you create a **New-OfficeWebAppsExcelUserDefinedFunc
   
 ## Enable UDFs on Office Online Server 
 
-When an adminstrator creates a new Office Web Apps Server farm by using the [New-OfficeWebAppsFarm](https://docs.microsoft.com/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) Windows PowerShell cmdlet, UDF assemblies are disabled by default. The default value of the **ExcelUdfsAllowed** flag is false. 
+When an administrator creates a new Office Web Apps Server farm by using the [New-OfficeWebAppsFarm](https://docs.microsoft.com/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) Windows PowerShell cmdlet, UDF assemblies are disabled by default. The default value of the **ExcelUdfsAllowed** flag is false. 
   
 To enable UDFs, run the following Windows PowerShell command on the Office Online Server, after the Office Web Apps Server farm has been created.
   
