@@ -57,7 +57,7 @@ CCSF_EMBEDDED_MESSAGE
     
 CCSF_SMTP
   
-> The MIME stream is for a Simple MAPI Transfer Protocol (SMTP) message.
+> The MIME stream is for a Simple Mail Transfer Protocol (SMTP) message.
     
 CCSF_INCLUDE_BCC
   
