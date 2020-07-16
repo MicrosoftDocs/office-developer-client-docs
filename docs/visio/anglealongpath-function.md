@@ -22,7 +22,7 @@ Version Added: Visio 2010
   
 ## Syntax
 
-ANGLEALONGPATH(** *section* **, ** *travel* ** ** *[,segment]* ** ) 
+ANGLEALONGPATH(***section***, ***travel*** ***[,segment]*** ) 
   
 ### Parameters
 

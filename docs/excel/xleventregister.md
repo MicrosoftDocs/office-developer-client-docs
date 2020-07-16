@@ -41,7 +41,7 @@ Starting in Excel 2010, Excel supports the following events:
    
 ## Property value/Return value
 
-If successful, returns **TRUE** (**xltypeBool**). If unsuccessful, returns **FALSE**.
+If successful, pxRes (**xltypeInt**) has a value > 0. If unsuccessful, pxRes ==0.
   
 ## See also
 

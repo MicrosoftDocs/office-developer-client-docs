@@ -17,7 +17,7 @@ Normalizes an angle's range to be 0 \<= result \< 2PI radians (0 \<= result \< 3
   
 ## Syntax
 
-ANG360(** *angle* ** ) 
+ANG360(***angle*** ) 
   
 ### Parameters
 

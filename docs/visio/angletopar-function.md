@@ -20,7 +20,7 @@ Returns a transformed angle in the destination shape's parent coordinate system.
   
 ## Syntax
 
-ANGLETOPAR(** *srcAngle* **, ** *srcRef* **, ** *dstRef* ** ) 
+ANGLETOPAR(***srcAngle***, ***srcRef***, ***dstRef*** ) 
   
 ### Parameters
 
