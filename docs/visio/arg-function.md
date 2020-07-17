@@ -18,7 +18,7 @@ Specifies an argument that the calling cell can pass to a custom function, as we
   
 ## Syntax
 
-ARG(** *argName* **,[ ** *defaultValue* ** ]) 
+ARG(***argName***,[ ***defaultValue*** ]) 
   
 ### Parameters
 
