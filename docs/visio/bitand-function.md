@@ -20,7 +20,7 @@ Returns a 16-bit binary number in which each bit is set to 1 only if the corresp
   
 ## Syntax
 
-BITAND(** *binarynumber1* **, ** *binarynumber2* ** ) 
+BITAND(***binarynumber1***, ***binarynumber2*** ) 
   
 ### Parameters
 
