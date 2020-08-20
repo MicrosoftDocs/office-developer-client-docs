@@ -481,7 +481,7 @@ RFC 3987 - International Resource Identifiers (IRIs)  
     
 ### I-4. URI Scheme Semantics
 
-The ms-infopath scheme defines a URI syntax for opening or creating a Microsoft Infopath document. The scheme defines two commands that serve as instructions regarding what should be done with the referenced document. The commands are 1) open-for-edit-cmd (ofe), which instructs Visio to open the document at the specified URI for editing; and 2) open-for-view-cmd (ofv), which instructs Visio to open the document at the specified URI in a read-only mode.
+The ms-infopath scheme defines a URI syntax for opening or creating a Microsoft Infopath document. The scheme defines two commands that serve as instructions regarding what should be done with the referenced document. The commands are 1) open-for-edit-cmd (ofe), which instructs Infopath to open the document at the specified URI for editing; and 2) open-for-view-cmd (ofv), which instructs Infopath to open the document at the specified URI in a read-only mode.
   
 ### I-5. Applications/Protocols that use the ms-infopath URI Scheme
 
