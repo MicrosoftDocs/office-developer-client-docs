@@ -1,28 +1,28 @@
 ---
-title: "Integrating manageability applications with Microsoft 365 Apps click-to-run installer"
+title: "Integrating manageability applications with Microsoft 365 Apps Click-to-Run installer"
 manager: lindalu
-ms.date: 10/22/2017
+ms.date: 09/28/2020
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: "Learn how to integrate the Microsoft 365 Apps Click-to-Run installer with a software management solution."
 ---
 
-# Integrating manageability applications with Microsoft 365 Apps click-to-run installer
+# Integrating manageability applications with Microsoft 365 Apps Click-to-Run installer
 
 Learn how to integrate the Microsoft 365 Apps Click-to-Run installer with a software management solution.
   
 The Microsoft 365 Apps Click-to-Run installer provides a COM interface that allows IT Professionals and software management solutions programmatic control over update management. This interface provides additional management capabilities beyond what is provided by the Office Deployment Tool.
   
 > [!NOTE]
-> This article applies to Office 2016 and later, Office 365. 
+> This article applies to Office apps that use the Click-to-Run installer. 
   
 ## Integrating with the Click-to-Run
 
 To use this interface, a manageability application invokes the COM interface and calls exposed APIs that communicate directly with the Click-to-Run installation service. 
   
 > [!NOTE]
-> The Office Click-to-Run installer can be run from the command-line with parameters that can control the behavior, as documented in [Office Deployment Tool for Click-to-Run](https://www.microsoft.com/download/details.aspx?id=49117). 
+> The Office Click-to-Run installer can be run from the command-line with parameters that can control the behavior, as documented in [Office Deployment Tool for Click-to-Run](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool). 
   
 **Following is a conceptual diagram of the COM interface**
 
@@ -239,7 +239,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
   "downloadsource=CLSIDofBITSInterface contentid=BITSServerContentIdentifier"
   ```
 
-- To download the content from the Microsoft CDN: Call the **download()** function without specifying the  _downloadsource_,  _contentid_, or  _updatebaseurl_ parameters. 
+- To download the content from the Office Content Delivery Network (CDN): Call the **download()** function without specifying the  _downloadsource_,  _contentid_, or  _updatebaseurl_ parameters. 
     
 - To download the content from a customized location: Call the **download()** function passing the following parameter: 
     
@@ -343,10 +343,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 ### Summary of IUpdateNotify2 interface
 
-> [!NOTE]
-> This summary is provided as a compliment info to [Integrating manageability applications with the Office 365 click-to-run installer](https://docs.microsoft.com/office/client-developer/shared/manageability-applications-with-the-office-365-click-to-run-installer). Once the public doc is updated, this doc can be considered as obsolete. 
-  
-From C2RTenant [16.0.8208.6352](https://oloop/BuildGroup/Details/tenantc2rclient#3519/1255278) (First publicly available build should be June fork build -- 8326.*) we have added a new **IUpdateNotify2** interface. Here is some basic info about this interface: 
+From version [16.0.8208.6352] we have added a new **IUpdateNotify2** interface. 
   
 - CLSID_UpdateNotifyObject2, {52C2F9C2-F1AC-4021-BF50-756A5FA8DDFE}
     
@@ -370,7 +367,7 @@ If you don't use any of the new methods, you don't need to change anything. All 
 
 The [Background Intelligent Transfer Service](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) (BITS) is a service provided by Microsoft to transfer files between a client and server. BITS is one of the channels that Office Click-To-Run installer can use to download content. By default, the Microsoft 365 Apps Click-To-Run installer uses the Windows' built in implementation of BITS to download the content from the CDN. 
   
-By providing a customized BITS implementation to the **download()** method of the **IUpdateNotify** interface, your manageability software can control where and how the client downloads the content. A customized BITS interface is useful when providing a custom content distribution channel other than the Click-to-Run built-in channels, such as the Office CDN, IIS servers, or file shares. 
+By providing a customized BITS implementation to the **download()** method of the **IUpdateNotify** interface, your manageability software can control where and how the client downloads the content. A customized BITS interface is useful when providing a custom content distribution channel other than the Click-to-Run built-in channels, such as the CDN, IIS servers, or file shares. 
   
 The minimum requirement for a customized BITS interface to work with Office C2R service is:
   
@@ -452,17 +449,17 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
   ```
 ## Automating content staging
 
-IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the update channels using the Office Deployment Tool or System Center Configuration Manager.
+IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the CDN or they can choose to control the deployment of updates available from the update channels using the Office Deployment Tool or Microsoft Endpoint Configuration Manager.
   
 The service supports the ability for management tools to recognize and automate the download of the content when updates are made available.
   
 **The following image is an overview of downloading a custom image**
 
-![A diagram of using the COM interface on  the Office Click-To-Run installer.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "A diagram of using the COM interface on  the Office Click-To-Run installer")
+![A diagram of using the COM interface on  the Office Click-To-Run installer.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "A diagram of using the COM interface on the Office Click-To-Run installer")
   
 ### Overview of downloading a custom image
   
-In the previous diagram, you see that a new Microsoft 365 Apps image is available on the Office Content Distribution Network (CDN). Along with the Microsoft 365 Apps image, an API is available which has the information needed to enable manageability software to directly create customized images replacing the need for using the Office Deployment Tool.
+In the previous diagram, you see that a new Microsoft 365 Apps image is available on the CDN. Along with the Microsoft 365 Apps image, an API is available which has the information needed to enable manageability software to directly create customized images replacing the need for using the Office Deployment Tool.
 
 An enterprise configures their WSUS to sync the Microsoft 365 Apps updates. These updates do not contain the actual image payload but does allow the manageability software to recognize when new content is available. The manageability software can then read the Microsoft 365 Apps Update metadata to understand what version of Office the update applies to.
 
@@ -482,22 +479,13 @@ No permissions are required to call this API.
 
 Optional query parameters
 
-| Name       | Description|
-|:-----------|:----------|
-| channel | Specifies the channel name |
-| | Optional – default to ‘SemiAnnual’ |
-| | Supported values https://docs.microsoft.com/en-us/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
-| version | Specifies the update version |
-| | Optional – defaults to the latest version available for the specified channel |
-| arch | Specifies client architecture |
-| | Optional – defaults to ‘x64’ |
-| | Supported values: x64, x86 |
-| lid | Specifies the language files to include |
-| | Optional – defaults to none |
-| | To specify multiple languages, include an lid query parameter for each language |
-| | Use the language identifier format, ex. ‘en-us’, ‘fr-fr’ |
-| alllanguages | Specifies to include all language files |
-| | Optional – defaults to false |
+|**Name**|**Description**|
+|:-----|:-----|
+| channel <br/>| Specifies the channel name  <br/> Optional – default to ‘SemiAnnual’ <br/> Supported values https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
+| version <br/>| Specifies the update version <br/> Optional – defaults to the latest version available for the specified channel |
+| arch <br/>| Specifies client architecture <br/> Optional – defaults to ‘x64’ <br/> Supported values: x64, x86 |
+| lid <br/>| Specifies the language files to include <br/> Optional – defaults to none <br/> To specify multiple languages, include an lid query parameter for each language <br/> Use the language identifier format, ex. ‘en-us’, ‘fr-fr’ |
+| alllanguages <br/>| Specifies to include all language files <br/> Optional – defaults to false |
 
 HTTP Response
 
@@ -520,7 +508,7 @@ Image creation tools may verify the integrity of the downloaded .dat files by co
   
 ```xml
 {
-  "url": "http://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114/office/data/16.0.1234.1001/stream.x64.x-none.dat",
+  "url": "https://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114/office/data/16.0.1234.1001/stream.x64.x-none.dat",
   "name": "stream.x64.x-none.dat",
   "relativePath": "/office/data/16.0.1234.1001/",
   "hashLocation": "s640.cab/stream.x64.x-none.hash",
@@ -566,7 +554,7 @@ http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Inside
 
 **Release History API**
   
-The Microsoft 365 Apps release history API is used to retrieve details for each of the updates published to the Microsoft Office CDN along with the channel names and other channel attributes.
+The Microsoft 365 Apps release history API is used to retrieve details for each of the updates published to the CDN along with the channel names and other channel attributes.
 
 HTTP Request
 
