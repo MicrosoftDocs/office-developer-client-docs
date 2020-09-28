@@ -1,7 +1,7 @@
 ---
 title: "Integrating manageability applications with Microsoft 365 Apps click-to-run installer"
 manager: lindalu
-ms.date: 10/22/2017
+ms.date: 09/28/2020
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
@@ -486,7 +486,7 @@ Optional query parameters
 |:-----------|:----------|
 | channel | Specifies the channel name |
 | | Optional – default to ‘SemiAnnual’ |
-| | Supported values https://docs.microsoft.com/en-us/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
+| | Supported values https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
 | version | Specifies the update version |
 | | Optional – defaults to the latest version available for the specified channel |
 | arch | Specifies client architecture |
