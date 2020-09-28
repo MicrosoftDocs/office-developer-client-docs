@@ -1,18 +1,18 @@
 ---
-title: "Integrating manageability applications with Office 365 click-to-run installer"
+title: "Integrating manageability applications with Microsoft 365 Apps click-to-run installer"
 manager: lindalu
 ms.date: 10/22/2017
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
-description: "Learn how to integrate the Office 365 Click-to-Run installer with a software management solution."
+description: "Learn how to integrate the Microsoft 365 Apps Click-to-Run installer with a software management solution."
 ---
 
-# Integrating manageability applications with Office 365 click-to-run installer
+# Integrating manageability applications with Microsoft 365 Apps click-to-run installer
 
-Learn how to integrate the Office 365 Click-to-Run installer with a software management solution.
+Learn how to integrate the Microsoft 365 Apps Click-to-Run installer with a software management solution.
   
-The Office 365 Click-to-Run installer provides a COM interface that allows IT Professionals and software management solutions programmatic control over update management. This interface provides additional management capabilities beyond what is provided by the Office Deployment Tool.
+The Microsoft 365 Apps Click-to-Run installer provides a COM interface that allows IT Professionals and software management solutions programmatic control over update management. This interface provides additional management capabilities beyond what is provided by the Office Deployment Tool.
   
 > [!NOTE]
 > This article applies to Office 2016 and later, Office 365. 
@@ -28,7 +28,7 @@ To use this interface, a manageability application invokes the COM interface and
 
 ![A diagram of using the COM interface on  the Office Click-To-Run installer.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "A diagram of using the COM interface on  the Office Click-To-Run installer")
   
-The Office 365 Click-to-Run installer implements a COM-based interface, **IUpdateNotify** registered to CLSID **CLSID_UpdateNotifyObject**.
+The Microsoft 365 Apps Click-to-Run installer implements a COM-based interface, **IUpdateNotify** registered to CLSID **CLSID_UpdateNotifyObject**.
   
 This interface can be invoked as follows:
   
@@ -368,7 +368,7 @@ If you don't use any of the new methods, you don't need to change anything. All 
   
 ## Implementing the BITS interface
 
-The [Background Intelligent Transfer Service](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) (BITS) is a service provided by Microsoft to transfer files between a client and server. BITS is one of the channels that Office Click-To-Run installer can use to download content. By default, the Office Click-To-Run installer uses the Windows' built in implementation of BITS to download the content from the CDN. 
+The [Background Intelligent Transfer Service](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) (BITS) is a service provided by Microsoft to transfer files between a client and server. BITS is one of the channels that Office Click-To-Run installer can use to download content. By default, the Microsoft 365 Apps Click-To-Run installer uses the Windows' built in implementation of BITS to download the content from the CDN. 
   
 By providing a customized BITS implementation to the **download()** method of the **IUpdateNotify** interface, your manageability software can control where and how the client downloads the content. A customized BITS interface is useful when providing a custom content distribution channel other than the Click-to-Run built-in channels, such as the Office CDN, IIS servers, or file shares. 
   
@@ -450,131 +450,6 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
   HRESULT _stdcall GetRemoteName([out] LPWSTR *ppName);
   
   ```
-
-<!--## Automating content staging
-
-IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) using the [Office 2016 Deployment Tool](https://www.microsoft.com/download/details.aspx?id=49117) or [System Center Configuration Manager](https://docs.microsoft.com/deployoffice/manage-office-365-proplus-updates-with-configuration-manager).
-  
-The service supports the ability for management tools to recognize and automate the download of the content when updates are made available.
-  
-**Following is a diagram showing the overview of downloading a custom image**
-
-![An overview of downloading Office updates from the CDN.](media/9afac230-6b22-4526-a800-0562708cc436.png "An overview of downloading Office updates from the CDN")
-  
-In the above diagram you see that a new Office 365 ProPlus image is available on the Office Content Distribution Network (CDN). Along with the Office 365 ProPlus image, an XML-formatted file list is also available which has the information needed to enable manageability software to directly create customized images replacing the need for using the Office Deployment Tool.
-  
-An enterprise configures their WSUS to sync the Office 365 Client Updates. These updates do not contain the actual image payload but does allow the manageability software to recognize when new content is available. The manageability software can then read the Client Update metadata to understand what version of Office the update applies to.
-  
-If the update is applicable, the manageability software can use the CDN content and the file list to create the custom image and store it onto the file share location that it is configured to use.
-  
-### Format of the XML file list
-
-There are two file lists available in a cab file on the CDN. One lists the files for the 32-bit version of Office and one for the 64-bit version of Office. The URL of the location of the Office File List (OFL.CAB) file is [https://officecdn.microsoft.com/pr/wsus/ofl.cab](https://officecdn.microsoft.com/pr/wsus/ofl.cab). The two file lists are called:
-  
-- O365Client_32bit.xml
-    
-- O365Client_64bit.xml
-    
-Within the XML for each of the file lists is an  `UpdateFiles` node which contains a version attribute.  `UpdateFiles version="1.4"`.
-  
-This version is incremented if changes are made to the file lists.
-  
-There are two parameters that need to be combined with the XML to make a custom image: 
-  
-- Replace  _%version%_ with the build version of Office. This can be derived from the Client Update metadata  `MoreInfoURL` field, see below. 
-    
-- Define  _baseURL_ by using the URL value associated with the branch the image is being created for. This can be derived from the Client Update metadata, see below. 
-    
-The steps for creating an image are:
-  
-1. Open the XML file list.
-    
-2. Replace occurrences of  _%version%_ with the applicable Office build version. The build version can be acquired from releasehistory.xml as described later in this article. 
-    
-3. Read the URL attribute for the target branch.
-    
-4. Remove language nodes for any languages not required in the custom image.
-    
-   > [!NOTE]
-   > Nodes with language='0' are language neutral and must be included in the image. 
-  
-5. Construct a local image of the CDN by iterating through the XML file list and copying the CDN files, while creating the folder structure as needed. 
-    
-   - If the  _rename_ attribute is provided, then rename the copied file to the value provided in the  _rename_ attribute. This used to create the top-level default v64.cab and v32.cab files. These are the renamed versions of the top-level build cab file and are used as the default installation version if the version is not specified. 
-    
-   - Use URL + relativePath + filename to construct the CDN location.
-    
-The following examples use the Monthly channel (as defined by the  `baseURL` node) and build version 16.0.4229.1004 from releasehistory.xml. 
-  
-```cpp
-baseURL branch="Monthly" URL="https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" /
-```
-
-- The following is a language neutral file needed for all languages. The name of the file is v64_16.0.4229.1004.cab and it should be copied from https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab and renamed to …/office/data/v64.cab.
-    
-  ```cpp
-  baseURL branch="Business" URL="https://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" /
-  File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/
-  
-  ```
-
-- The following is a file to be included in the en-US image as designated by the language LCID=1033. The name of the file is s641033.cab and it should be copied from https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab and not renamed.
-    
-  ```cpp
-  File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" /
-  ```
-
-### Hash verification of data files
-
-Image creation tools may verify the integrity of the downloaded .dat files by comparing a computed HASH value with the supplied HASH value associated with each of the .dat files. Below is an example of a .dat file from the Monthly channel with build version 16.0.4229.1004 and language set to Bulgarian.
-  
-```cpp
-File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="1026"
-```
-
-- The  _hashLocation_ attribute specifies the relative path location of the stream.x64.bg-bg.hash for the stream.x64.bg-bg.dat file. Construct the hash file location by concatenating URL + relativePath + hashLocation. In this example the stream.x64.bg-bg.hash location would be https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
-    
-- The  _hashAlgo_ attribute specifies what hashing algorithm was used. In this case the Sha256 algorithm was used. 
-    
-To validate the integrity of the stream.x64.bg-bg.dat file, open the stream.x64.bg-bg.hash and read the hash value from the first line of text in the hash file. Compare this to the has value that you computed using the specified hashing algorithm to verify that the values match. Use the following C# code to read the hash.
-  
-```cs
-string[] readHashes = System.IO.File.ReadAllLines(tmpFile, Encoding.Unicode);
-string readHash = readHashes.First();
-
-```
-
-### Office 365 Client Updates
-
-Office 365 Client Updates enable manageability software to treat the Office 365 Client Updates in a manner very similar to any other WU update with one exception; the client updates do not contain an actual payload. The Office 365 Client Updates should not be installed on any clients but rather used to trigger the workflows with the manageability software replacing the installation command with the COM based installation mechanism shown above.
-  
-**Office 365 Client Update workflow**
-
-![Workflow diagram for O365PP client updates.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Workflow diagram for O365PP client updates")
-  
-Each Office 365 Client Update that is published includes metadata about the update. This metadata includes a parameter called  _MoreInfoUrl_ which can be used to derive the following information: 
-  
--  _Ver_: Identifies the Office version associated with this update. For example 16.0.4229.1004.
-    
--  _Branch_: Identifies the Update Channel for this update. Values include InsiderFast, Insiders, Monthly, Targeted, Broad. Additional values may be added in the future.
-    
--  _Arch_: Identifies the processor architecture associated with this update.
-    
--  _xmlVer_: Identifies the version of the XML file lists to use to construct the base image for this update.
-    
--  _xmlPath_: Path to the OFL.CAB file that contains the XML file lists.
-    
--  _xmlFile_: The name of the file list that should be used for this update. The value will be  `O365Client_32bit` or  `O365Client_64bit` and will match the value in  _Arch_.
-    
-The following is an example of the  _MoreInfoURL_ parameter which refers to the Office 365 Client Update for the 32-bit version of Office with build version of 16.0.2342.2343 on the Current channel. 
-  
-```http
-https://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file lists for this update, specifically the O365Client_32bit.xml from within the OFL.CAB.
-https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=https://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml 
-
-```
-THE ABOVE SECTION APPEARS TO BE A DUPLICATE OF THE FOLLOWING SECTION; TEMPORARILY COMMENTING IT OUT.-->
-
 ## Automating content staging
 
 IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the update channels using the Office Deployment Tool or System Center Configuration Manager.
@@ -587,81 +462,80 @@ The service supports the ability for management tools to recognize and automate 
   
 ### Overview of downloading a custom image
   
-In the previous diagram, you see that a new Office 365 ProPlus image is available on the Office Content Distribution Network (CDN). Along with the Office 365 ProPlus image, an XML-formatted file list is also available which has the information needed to enable manageability software to directly create customized images replacing the need for using the Office Deployment Tool.
-  
-An enterprise configures their WSUS to sync the Office 365 Client Updates. These updates do not contain the actual image payload but does allow the manageability software to recognize when new content is available. The manageability software can then read the Client Update metadata to understand what version of Office the update applies to.
-  
+In the previous diagram, you see that a new Microsoft 365 Apps image is available on the Office Content Distribution Network (CDN). Along with the Microsoft 365 Apps image, an API is available which has the information needed to enable manageability software to directly create customized images replacing the need for using the Office Deployment Tool.
+
+An enterprise configures their WSUS to sync the Microsoft 365 Apps updates. These updates do not contain the actual image payload but does allow the manageability software to recognize when new content is available. The manageability software can then read the Microsoft 365 Apps Update metadata to understand what version of Office the update applies to.
+
 If the update is applicable, the manageability software can use the CDN content and the file list to create the custom image and store it onto the file share location that it is configured to use.
   
-### Format of the XML file list
+### Using the Microsoft 365 Apps file list API
 
-There are two file lists available in a cab file on the CDN. One lists the files for the 32-bit version of Office and one for the 64-bit version of Office. The URL of the location of the Office File List (OFL.CAB) file is [https://officecdn.microsoft.com/pr/wsus/ofl.cab](https://officecdn.microsoft.com/pr/wsus/ofl.cab). The two file lists are called:
-  
-- O365Client_32bit.xml
-    
-- O365Client_64bit.xml
-    
-Within the XML for each of the file lists is an <UpdateFiles> node which contains a version attribute.  `<UpdateFiles version="1.4">`. This version is incremented if changes are made to the file lists.
-  
-There are two parameters that need to be combined with the XML to make a custom image: 
-  
-- Replace  *%version%*  with the build version of Office. This can be derived from the Client Update metadata (explained in the next section). 
-    
-- Define  *baseURL*  by using the URL value associated with the branch the image is being created for. This is derived from the Client Update metadata, explained in the following section. 
-    
-The steps for creating an image are:
-  
-1. Open the XML file list.
-    
-2. Replace occurrences of  *%version%*  with the applicable Office build version. The build version can be acquired from releasehistory.xml as described later in this article. 
-    
-3. Read the URL attribute for the target branch.
-    
-4. Remove language nodes for any languages not required in the custom image.
-    
-   > [!NOTE]
-   > Nodes with language='0' are language neutral and must be included in the image. 
-  
-5. Construct a local image of the CDN by iterating through the XML file list and copying the CDN files, while creating the folder structure as needed. 
-    
-   - If the  *rename*  attribute is provided, then  *rename*  the copied file to the value provided in the rename attribute. This is used to create the top-level default v64.cab and v32.cab files. These are the renamed versions of the top-level build cab file and are used as the default installation version if the version is not specified. 
-    
-   - Use URL + relativePath + filename to construct the CDN location.
-    
-The following are examples that use the Monthly channel (as defined by the  `<baseURL>` node) and build version 16.0.4229.1004 from releasehistory.xml. 
-  
-```xml
-<baseURL branch="Monthly" URL="https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" />
+The Microsoft 365 Apps file list API is used to retrieve the names of the files needed for a particular Microsoft 365 Apps update.
+
+HTTP Request
+
+GET https://config.office.com/api/filelist
+
+Do not supply a request body for this method.
+
+No permissions are required to call this API.
+
+Optional query parameters
+
+| Name       | Description|
+|:-----------|:----------|
+| channel | Specifies the channel name |
+| | Optional – default to ‘SemiAnnual’ |
+| | Supported values https://docs.microsoft.com/en-us/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
+| version | Specifies the update version |
+| | Optional – defaults to the latest version available for the specified channel |
+| arch | Specifies client architecture |
+| | Optional – defaults to ‘x64’ |
+| | Supported values: x64, x86 |
+| lid | Specifies the language files to include |
+| | Optional – defaults to none |
+| | To specify multiple languages, include an lid query parameter for each language |
+| | Use the language identifier format, ex. ‘en-us’, ‘fr-fr’ |
+| alllanguages | Specifies to include all language files |
+| | Optional – defaults to false |
+
+HTTP Response
+
+If successful, this method returns a 200 OK response code and collection of file objects in the response body.
+
+To create an image, follow these steps:
+1.	Call the API, providing the appropriate query parameters for the channel, version and architecture of the update you are interested in.
+Note: File objects with the attribute "lcid": "0" are language neutral files and must be included in the image.
+2.	Construct a local image of the CDN by iterating through the file objects and copying the CDN files, while creating the folder structure as specified by the “relativePath” attribute defined for each of the file objects.
+
+The following example retrieves the file list for the Current Channel and version 16.0.4229.1004 for 64bit and includes the French and English language files:
+
+```http
+Get https://config.office.com/api/filelist?Channel=Current&Version=16.0.4229.1004&Arch=x64&Lid=fr-fr&Lid=en-US
 ```
-
-- The following is a language neutral file needed for all languages. The name of the file is v64_16.0.4229.1004.cab and it should be copied from `https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab` and renamed to `…/office/data/v64.cab`. 
-    
-  ```xml
-  <File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/>
-  
-  ```
-
-- The following is a file to be included in the en-US image as designated by the language LCID=1033. The name of the file is s641033.cab and it should be copied from `https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab` and not renamed.
-    
-  ```xml
-  <File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" />
-  ```
 
 ### Hash verification of .dat files
 
-Image creation tools may verify the integrity of the downloaded .dat files by comparing a computed HASH value with the supplied HASH value associated with each of the .dat files. Following is an example of a .dat file from the Monthly channel with build version 16.0.4229.1004 and language set to Bulgarian:
+Image creation tools may verify the integrity of the downloaded .dat files by comparing a computed hash value with the supplied hash value associated with each of the .dat files. Following is an example of a file object that specifies hashLocation and hashAlgorithm values:
   
 ```xml
-<File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="1026"/>
+{
+  "url": "http://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114/office/data/16.0.1234.1001/stream.x64.x-none.dat",
+  "name": "stream.x64.x-none.dat",
+  "relativePath": "/office/data/16.0.1234.1001/",
+  "hashLocation": "s640.cab/stream.x64.x-none.hash",
+  "hashAlgorithm": "Sha256",
+  "lcid": "0"
+},
 ```
 
-- The **hashLocation** attribute specifies the relative path location of the stream.x64.bg-bg.hash for the stream.x64.bg-bg.dat file. Construct the hash file location by concatenating URL + relativePath + hashLocation. In the following example, the stream.x64.bg-bg.hash location would be: 
+- The **hashLocation** attribute specifies the relative path location of .cab file that contains the hash value. Construct the hash file location by concatenating URL + relativePath + hashLocation. In the following example, the stream.x64.bg-bg.hash location would be: 
     
   ```http
   https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
   ```
 
-- The **hashAlgo** attribute specifies what hashing algorithm was used. In this case Sha256 was used. 
+- The **hashAlgorithm** attribute specifies what hashing algorithm was used. 
     
   To validate the integrity of the stream.x64.bg-bg.dat file, open the stream.x64.bg-bg.hash and read the HASH value which is the first line of text in the hash file. Compare this to the computed hash value (using the specified hashing algorithm) to verify the integrity of the downloaded .dat file.
     
@@ -672,134 +546,56 @@ Image creation tools may verify the integrity of the downloaded .dat files by co
     string readHash = readHashes.First();
   ```
 
-### Office 365 Client Updates
+### Microsoft 365 Apps Updates
 
-All Office 365 Client Updates are published to the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client).
+All Microsoft 365 Apps Updates are published to the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client).
   
-Office 365 Client Updates enable manageability software to treat the Office 365 Client Updates in a manner very similar to any other WU update with one exception; the client updates do not contain an actual payload. The Office 365 Client Updates should not be installed on any clients but rather used to trigger the workflows with the manageability software replacing the installation command with the COM based installation mechanism shown above. 
-  
+Microsoft 365 Apps Updates enable manageability software to treat Microsoft 365 Apps Updates in a manner very similar to any other WU update with one exception; the client updates do not contain an actual payload. The Microsoft 365 Apps Updates should not be installed on any clients but rather used to trigger the workflows with the manageability software replacing the installation command with the COM based installation mechanism shown above.
+
 **The following figure shows a diagram of the Office 365 Client Update workflow.**
 
 ![Workflow diagram for O365PP client updates.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Workflow diagram for O365PP client updates")
   
-Each Office 365 Client Update that is published includes metadata about the update. This metadata includes a parameter called  *MoreInfoUrl*  which can be used to derive the following information: 
-  
--  *Ver*: Identifies the Office version associated with this update. 
-    
--  *Branch*: Identifies the Update Channel for this update. Values include InsiderFast, Insiders, Monthly, Targeted, Broad. Additional values may be added in the future. 
-    
--  *Arch*: Identifies the processor architecture associated with this update. 
-    
--  *xmlVer*: The version of the XML file lists that should be used to construct the base image for this update. 
-    
--  *xmlPath*: Path to the OFL.CAB file which contains the XML file lists. 
-    
--  *mlFile*: The name of the file list that should be used for this update. The value will be O365Client_32bit or O365Client_64bit and will match the Arch. 
-    
-The following URL is an example of the  *MoreInfoURL*  parameter which refers to the Office 365 client update releases for the 32-bit version of Office with build version of 16.0.2342.2343 on the Current channel. 
-  
-https://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file lists for this update, specifically the O365Client_32bit.xml from within the OFL.CAB.
-  
-[Office 365 client update channel releases](https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=https://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml)
+Each Microsoft 365 Apps Update that is published includes metadata about the update. This metadata includes a parameter called MoreInfoUrl which can be used to derive the API call to the file list API for that specific update.
+
+In the following example, the file list API is embedded in the MoreInfoURL and starts with “ServicePath=”
+
+http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Insiders&Arch=64&XMLVer=1.6&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml& ServicePath=https://config.office.com/api/filelist?Channel=Insiders&Version=16.0.12527.21104&Arch=64&AllLanguages=True
   
 ### Additional metadata for automating content staging
 
-In addition to the metadata that is published which defines there are also additional XML files published to the CDN that can help provide additional information about the Office 365 clients that are available from the Office CDN.
+**Release History API**
   
-**SKUS.XML**
-  
-This XML file is contained within a signed CAB and published to the Office CDN at the following URL: [https://officecdn.microsoft.com/pr/wsus/skus.cab](https://officecdn.microsoft.com/pr/wsus/skus.cab).
-  
-The metadata published in this XML file is useful for determining which products are available for deployment and servicing from the Office CDN along with various options for each. 
-  
-```XML
-<?xml version="1.0" encoding="utf-8"?>
-<ReleaseInfo PublishedDate="08/07/2017 16:34">
-  <!-- Suite / App catalog -->
-  <Suite>
-    <SKU Name="Office 365 ProPlus" ProductID="O365ProPlusRetail" Default="True">
-      <Apps>
-        <App Name="Access" AppID="Access" />
-        <App Name="Excel" AppID="Excel" />
-        <App Name="OneDrive for Business (Groove)" AppID="Groove" />
-        <App Name="OneDrive for Business (Next Gen Sync Client)" AppID="OneDrive" />
-        <App Name="OneNote" AppID="OneNote" />
-        <App Name="Outlook" AppID="Outlook" />
-        <App Name="PowerPoint" AppID="PowerPoint" />
-        <App Name="Publisher" AppID="Publisher" />
-        <App Name="Skype for Business" AppID="Lync" />
-        <App Name="Word" AppID="Word" />
-      </Apps>
-      <Channels>
-        <Channel ID="Monthly"/>
-        <Channel ID="Insiders"/>
-        <Channel ID="Targeted"/>
-        <Channel ID="Broad"/>
-      </Channels>
-    </SKU>
+The Microsoft 365 Apps release history API is used to retrieve details for each of the updates published to the Microsoft Office CDN along with the channel names and other channel attributes.
+
+HTTP Request
+
+```http
+GET https://config.office.com/api/filelist/channels 
 ```
 
-**\<ReleaseInfo\>** root node contains the PublishedDate attribute which identifies the date which this file was published. 
+Do not supply a request body for this method.
+
+No permissions are required to call this API.
+
+HTTP Response
+
+If successful, this method returns a 200 OK response code and collection of file objects in the response body.
+
+**SKUs API**
   
-**\<SKU\>** node identifies an individual SKU. 
-  
-- The  *ProductID*  attribute identifies the ID that is passed as the ID attribute in the configuration.xml if using the ODT. For example, `<Product ID="O365ProPlusRetail">`. 
-    
-- The  *Default*  attribute, if set to True, identifies the recommended SKU. 
-    
-**\<App\>** nodes are used to define the individual Office apps that each SKU supports. 
-  
-- The  *Name*  attribute is the displayed application name. 
-    
-- The  *AppID*  attribute is the ID attribute passed in the configuration.xml for the **\<ExcludeApp\>** node if using the ODT. For example, `<ExcludeApp ID="Publisher" />`. 
-    
-**RELEASEHISTORY.XML**
-  
-This XML file is contained within a signed CAB and published to the Office CDN at the following location: [https://officecdn.microsoft.com/pr/wsus/releasehistory.cab](https://officecdn.microsoft.com/pr/wsus/releasehistory.cab). 
-  
-The metadata published in this XML file is useful for determining which channels are supported for servicing updates from the Office CDN along with information about the build history for each of the supported channels.
-  
-```XML
-<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="10/22/2017 00:48">
-  <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1709" LegacyVersion="16.0.8528.2139" Build="8528.2139" PubTime="2017-10-16T19:45:50.743Z" />
-    <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2107" Build="8431.2107" PubTime="2017-10-11T01:52:33.793Z" />
-    <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2079" Build="8431.2079" PubTime="2017-09-18T22:26:13.673Z" />
-    <Update Latest="False" Version="1707" LegacyVersion="16.0.8326.2107" Build="8326.2107" PubTime="2017-09-12T18:56:53.657Z" />
-    <Update Latest="False" Version="1707" LegacyVersion="16.0.8326.2096" Build="8326.2096" PubTime="2017-08-30T00:10:25.253Z" />
-    <Update Latest="False" Version="1707" LegacyVersion="16.0.8326.2076" Build="8326.2076" PubTime="2017-08-19T00:13:01.787Z" />
-    <Update Latest="False" Version="1707" LegacyVersion="16.0.8326.2073" Build="8326.2073" PubTime="2017-08-11T19:35:42.173Z" />
-  </UpdateChannel>
+The SKUs API returns information that is useful for determining which products are available for deployment and servicing from the Office CDN along with various options for each.
+
+HTTP Request
+
+```http
+GET https://config.office.com/api/filelist/skus 
 ```
 
-The **\<ReleaseHistory\>** root node contains the PublishedDate attribute which identifies the date which this file was published. 
-  
-The **\<UpdateChannel\>** node defines a supported channel. 
-  
-- The  *Name*  attribute defines the channel ID which is used to pass to the ODT in the configuration.xml as the Channel attribute. 
-    
-  Example: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Current">` 
-    
-  > [!NOTE] 
-  > This attribute has been deprecated and is used for backward compatibility only. Use the ID attribute in place of the Name attribute. 
-    
-- The  *ID*  attribute defines the channel ID which is used to pass to the ODT in the configuration.xml as the Channel attribute. 
-    
-  Example: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Deferred">` 
-    
-- The **DisplayName**  attribute is used as the display name. 
-    
-The **\<Update\>** node is used to define each update that has been published for that particular channel. 
-  
-- The **Latest**  attribute, if set to True, defines the release that is the latest release for that channel. 
-    
-- The **Version** attribute defines the version number for this particular update. 
-    
-- The **LegacyVersion** attribute defines the full version number for this particular update. 
-    
-- The **Build** attribute defines the build number for this particular update. 
-    
-- The **PubTime** attribute defines the date and time at which this update was published to the Office CDN. 
-    
+Do not supply a request body for this method.
 
+No permissions are required to call this API.
+
+HTTP Response
+
+If successful, this method returns a 200 OK response code and collection of file objects in the response body.
