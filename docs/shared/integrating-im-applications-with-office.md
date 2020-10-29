@@ -305,6 +305,10 @@ The **GetSupportedFeatures** method returns information about the IM features th
 > - **oiFeaturePictures** (2) 
 > - **oiFeatureFreeBusyIntegration**
 > - **oiFeaturePhoneNormalization**
+>
+>  Office 365 version 2011 (and higher) applications ignore following constants in the **OIFeature** enumeration: 
+> - **oiFeaturePictures** (2) 
+> - **oiFeaturePhoneNormalization**
   
 Use the following code example to implement the **GetSupportFeatures** method within the IM client application code. 
   
