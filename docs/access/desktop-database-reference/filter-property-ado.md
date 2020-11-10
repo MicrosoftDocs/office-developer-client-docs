@@ -1,4 +1,5 @@
 ---
+description: "Filter Property"
 title: Filter property (ADO)
 TOCTitle: Filter property (ADO)
 ms:assetid: 5abc528a-a6ee-34de-5d44-a3249194b0a0
