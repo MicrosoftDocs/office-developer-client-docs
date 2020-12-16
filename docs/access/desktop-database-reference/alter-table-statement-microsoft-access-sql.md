@@ -142,8 +142,8 @@ This example changes the Salary field from the data type **Money** to the data t
         ' on your computer. 
         Set dbs = OpenDatabase("Northwind.mdb") 
      
-        ' Add the Salary field to the Employees table  
-        ' and make it a Money data type. 
+        ' Modify the existing Salary field of the Employees table  
+        ' by changing it to a CHAR data type. 
         dbs.Execute "ALTER TABLE Employees " _ 
             & "ALTER COLUMN Salary CHAR(20);" 
      
