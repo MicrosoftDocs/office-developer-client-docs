@@ -79,7 +79,7 @@ In the preceding example, CategoryID is the joined field, but it is not included
 
 You can also link several ON clauses in a JOIN statement, using the following syntax:
 
-SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr* *table2*.*field1* AND ON *table1*.*field2* *compopr* *table2*.*field2*) OR ON *table1*.*field3* *compopr* *table2*.*field3*)\];
+SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr* *table2*.*field1* AND *table1*.*field2* *compopr* *table2*.*field2* OR *table1*.*field3* *compopr* *table2*.*field3*;
 
 You can also nest JOIN statements using the following syntax:
 
