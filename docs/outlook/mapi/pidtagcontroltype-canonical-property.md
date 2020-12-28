@@ -34,54 +34,54 @@ Contains a value indicating a control type for a control used in a dialog box.
 ## Remarks
 
 This property can have exactly one of the following values:
+    
+DTCT_LABEL (0x00000000)
   
-DTCT_BUTTON 
+> A dialog label.
+   
+DTCT_EDIT (0x00000001)
+  
+> A dialog edit text box.
+
+DTCT_LBX (0x00000002)
+  
+> A dialog list box.
+    
+DTCT_COMBOBOX (0x00000003)
+  
+> A dialog combo box.
+
+DTCT_DDLBX (0x00000004)
+  
+> A dialog drop-down list box.
+
+DTCT_CHECKBOX (0x00000005)
+  
+> A dialog check box.
+
+DTCT_GROUPBOX (0x00000006)
+  
+> A dialog group box.
+  
+DTCT_BUTTON (0x00000007)
   
 > A dialog button control.
     
-DTCT_CHECKBOX 
-  
-> A dialog check box.
-    
-DTCT_COMBOBOX 
-  
-> A dialog combo box.
-    
-DTCT_DDLBX 
-  
-> A dialog drop-down list box.
-    
-DTCT_EDIT 
-  
-> A dialog edit text box.
-    
-DTCT_GROUPBOX 
-  
-> A dialog group box.
-    
-DTCT_LABEL 
-  
-> A dialog label.
-    
-DTCT_LBX 
-  
-> A dialog list box.
-    
-DTCT_LISTBOX 
-  
-> A dialog list box.
-    
-DTCT_MVDDLBX 
-  
-> A multivalued list box populated by a multivalued property of type string.
-    
-DTCT_PAGE 
+DTCT_PAGE (0x00000008)
   
 > A dialog tabbed page.
     
-DTCT_RADIOBUTTON 
+DTCT_RADIOBUTTON (0x00000009)
   
 > A dialog radio button.
+    
+DTCT_MVLISTBOX (0x0000000B)
+  
+> A multivalued list box populated by a multivalued property of type string.
+    
+DTCT_MVDDLBX (0x0000000C)
+  
+> A multivalued drop-down list box populated by a multivalued property of type string.
     
 ## Related resources
 

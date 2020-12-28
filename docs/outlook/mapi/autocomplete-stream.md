@@ -134,6 +134,7 @@ Some properties have no Value Data and only have data in the union. The followin
 |:-----|:-----|
 |PT_I2  <br/> |short int  <br/> |
 |PT_LONG  <br/> |long  <br/> |
+|PT_ERROR  <br/> |long  <br/> |
 |PT_R4  <br/> |float  <br/> |
 |PT_DOUBLE  <br/> |double  <br/> |
 |PT_BOOLEAN  <br/> |short int  <br/> |
@@ -159,13 +160,6 @@ PT_CLSID
 |||
    
 PT_BINARY 
-  
-|**Value Data**|**Number of Bytes**|
-|:-----|:-----|
-|Number of bytes n  <br/> |4  <br/> |
-|Bytes to be interpreted as a byte array  <br/> |n  <br/> |
-   
-PT_ERROR
   
 |**Value Data**|**Number of Bytes**|
 |:-----|:-----|
