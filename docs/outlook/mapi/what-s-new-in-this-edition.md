@@ -62,17 +62,17 @@ Content has been added for the following features:
 
 ### Interface: IMAPIInitMonitor 
 
-#### IFACEMETHODIMP_(BOOL) IsInitialized()  
+**IFACEMETHODIMP_(BOOL) IsInitialized()**
 - Returns the current state of MAPI initialization 
 
-#### IFACEMETHODIMP Wait(DWORD timeout) 
+**IFACEMETHODIMP Wait(DWORD timeout)**
 - Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized.  INFINITE can be used to for an infinite wait. 
 
-#### IFACEMETHODIMP BeginWait(DWORD timeout, IMAPIWaitResult** ppResult) 
+**IFACEMETHODIMP BeginWait(DWORD timeout, IMAPIWaitResult ppResult)**
 - Start a wait for MAPI initialization or the specified number of milliseconds to elapse.   This return an IMAPIWaitResult interface which should have “End” called in order begin the wait.  This allows the caller to control which thread is blocked while we are waiting. 
 
 ### Interface IMAPIWaitResult
-#### IFACEMETHODIMP End() override 
+**IFACEMETHODIMP End() override**
 - Called to initiate the blocking wait on the thread where it is called, does not need to be the same thread that called “BeginWait”. 
 
     
