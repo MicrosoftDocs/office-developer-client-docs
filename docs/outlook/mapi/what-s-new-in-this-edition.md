@@ -1,13 +1,13 @@
 ---
 title: "What's New in This Edition"
 manager: soliver
-ms.date: 12/07/2015
+ms.date: 2/09/2020
 ms.audience: Developer
 localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44
-description: "Last modified: December 07, 2015"
+description: "Last modified: February 09, 2020"
  
  
 ---
@@ -51,6 +51,30 @@ Content has been added for the following features:
   - [Mapping of TNEF Attributes to MAPI Properties](mapping-of-tnef-attributes-to-mapi-properties.md)
     
   - [attConversationID and attParentID](attconversationid-and-attparentid.md)
+  
+## MAPI Initialization Monitor  
+
+- There are times when an application which consumes MAPI might want to know when the initialization is completed. For example, it have multiple threads which could initialize MAPI, or in response to MAPI being initialize the application would like perform some work, but does not want to always spin up the MAPI stack.  The initialization monitor provides this functionality through a function (exported from OLMAPI32.DLL) and a couple of simple interfaces described below. 
+
+### HRESULT STDAPICALLTYPE CreateMapiInitializationMonitor(IMAPIInitMonitor** ppInitMonitor) 
+
+- This is entry point exported from OLMAPI32.DLL this allows the caller to retrieve an interface to query the current initialization state, setup a callback for initialization completion or block the current thread until has completed.  The object returned from this API is reusable and thread safe and can be invoked from any thread, not just thread which retrieved it.  Also, unlike other objects exposed from MAPI, this object is valid as long as the DLL is loaded, it can be re-used across initialization sessions and can be consumed before or after MAPIInitialize has been called. Returns success or failure through an COM standard HRESULT, and assigns an out parameter to an instance of IMAPIInitMonitor. 
+
+### Interface: IMAPIInitMonitor 
+
+#### IFACEMETHODIMP_(BOOL) IsInitialized()  
+- Returns the current state of MAPI initialization 
+
+#### IFACEMETHODIMP Wait(DWORD timeout) 
+- Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized.  INFINITE can be used to for an infinite wait. 
+
+#### IFACEMETHODIMP BeginWait(DWORD timeout, IMAPIWaitResult** ppResult) 
+- Start a wait for MAPI initialization or the specified number of milliseconds to elapse.   This return an IMAPIWaitResult interface which should have “End” called in order begin the wait.  This allows the caller to control which thread is blocked while we are waiting. 
+
+### Interface IMAPIWaitResult
+#### IFACEMETHODIMP End() override 
+- Called to initiate the blocking wait on the thread where it is called, does not need to be the same thread that called “BeginWait”. 
+
     
 ## Previously Revised Content
 
