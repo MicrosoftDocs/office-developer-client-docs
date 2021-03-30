@@ -11,7 +11,8 @@ api_name:
 api_type:
 - COM
 ms.assetid: ad71ea65-394d-4be2-a9da-cd23099bc2cc
-description: "Last modified: March 30, 2021"
+description: 
+Last modified: "March 30, 2021"
 ---
 
 # IMAPIInitMonitor : IUnknown
@@ -20,6 +21,7 @@ description: "Last modified: March 30, 2021"
 
 There are times when an application which consumes MAPI might want to know when the initialization is completed. For example, it have multiple threads which could initialize MAPI, or in response to MAPI being initialize the application would like perform some work, but does not want to always spin up the MAPI stack.  The initialization monitor provides this functionality through a function (exported from OLMAPI32.DLL).
 
+| | |
 |:-----|:-----|
 |Inherits from:  <br/> |IUnknown  <br/> |
 |Implemented by:  <br/> | OLMAPI32.DLL <br/> |
@@ -28,6 +30,7 @@ There are times when an application which consumes MAPI might want to know when 
 
 ## Vtable order
 
+| | |
 |:-----|:-----|
 |[IMAPIInitMonitor::IsInitialized](imapiinitmonitor-isinitialized.md) <br/> |Returns the current state of MAPI initialization.  <br/> |
 |[IMAPIInitMonitor::Wait](imapiinitmonitor-wait.md) <br/> |Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized.  INFINITE can be used to for an infinite wait.  <br/> |
