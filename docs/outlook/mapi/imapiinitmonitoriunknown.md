@@ -36,7 +36,7 @@ There are times when an application which consumes MAPI might want to know when 
 |[IMAPIInitMonitor::Wait](imapiinitmonitor-wait.md) <br/> |Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized.  INFINITE can be used to for an infinite wait.  <br/> |
 |[IMAPIInitMonitor::BeginWait](imapiinitmonitor-beginwait.md) <br/> |Start a wait for MAPI initialization or the specified number of milliseconds to elapse. This return an IMAPIWaitResult interface which should have “End” called in order begin the wait.  This allows the caller to control which thread is blocked while we are waiting. <br/> |
 
-## HRESULT STDAPICALLTYPE CreateMapiInitializationMonitor(IMAPIInitMonitor** ppInitMonitor)
+#### HRESULT STDAPICALLTYPE CreateMapiInitializationMonitor(IMAPIInitMonitor** ppInitMonitor)
 
 This is entry point exported from OLMAPI32.DLL this allows the caller to retrieve an interface to query the current initialization state, setup a callback for initialization completion or block the current thread until has completed. The object returned from this API is reusable and thread safe and can be invoked from any thread, not just thread which retrieved it. Also, unlike other objects exposed from MAPI, this object is valid as long as the DLL is loaded, it can be re-used across initialization sessions and can be consumed before or after MAPIInitialize has been called. Returns success or failure through an COM standard HRESULT, and assigns an out parameter to an instance of IMAPIInitMonitor.
 
