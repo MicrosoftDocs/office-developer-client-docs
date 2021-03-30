@@ -10,9 +10,9 @@ api_name:
 - IMAPIWAITRESULT
 api_type:
 - COM
-ms.assetid: d7157f57-709d-4e53-973b-176954e2bb73
+ms.assetid: 32a9758a-395d-4526-9610-3e4eeaf78c96
 description: MAPI Initialization Monitor
-Last modified: March 30, 2021
+Last modified: "March 30, 2021"
 ---
 
 # CreateMAPIInitializationMonitor
