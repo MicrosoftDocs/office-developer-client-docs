@@ -11,7 +11,8 @@ api_name:
 api_type:
 - COM
 ms.assetid: d7157f57-709d-4e53-973b-176954e2bb73
-description: "Last modified: March 30, 2021"
+description: MAPI Initialization Monitor
+Last modified: March 30, 2021
 ---
 
 # CreateMAPIInitializationMonitor
@@ -28,6 +29,7 @@ This is entry point exported from OLMAPI32.DLL this allows the caller to retriev
   
 ## Quick info
 
+| | |
 |:-----|:-----|
 |Exported by:  <br/> |olmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |

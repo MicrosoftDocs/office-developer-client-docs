@@ -11,10 +11,11 @@ api_name:
 api_type:
 - COM
 ms.assetid: ed566cae-35a2-4716-817b-54d1ba6825c6
-description: "Last modified: March 30, 2021"
+description: 
+Last modified: March 30, 2021
 ---
 
-# IMAPIINITMONITOR::Wait
+# IMAPIINITMONITOR::BeginWait
   
 **Applies to**: Outlook 2013 | Outlook 2016 | 2019
   
