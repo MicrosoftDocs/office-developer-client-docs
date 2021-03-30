@@ -11,7 +11,8 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1af0bf93-6bcb-4235-ac30-0d00245ec636
-description: "Last modified: March 30, 2021"
+description: 
+Last modified: March 30, 2021
 ---
 
 # IMAPIINITMONITOR::IsInitialized
