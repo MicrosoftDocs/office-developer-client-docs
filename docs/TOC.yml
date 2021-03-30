@@ -7152,11 +7152,11 @@
                   href: outlook/mapi/imapiinitmonitoriunknown.md
                   items:
                   - name: IMAPIInitMonitor::IsInitialized
-                    href: outlook/mapi/ipstoverridereq-isinitialized.md
+                    href: outlook/mapi/imapiinitmonitor-isinitialized.md
                   - name: IMAPIInitMonitor::Wait
-                    href: outlook/mapi/ipstoverridereq-wait.md
+                    href: outlook/mapi/imapiinitmonitor-wait.md
                   - name: IMAPIInitMonitor::BeginWait
-                    href: outlook/mapi/ipstoverridereq-beginwait.md
+                    href: outlook/mapi/imapiinitmonitor-beginwait.md
                 - name: 'IMAPIMessageSite : IUnknown'
                   href: outlook/mapi/imapimessagesiteiunknown.md
                   items:
