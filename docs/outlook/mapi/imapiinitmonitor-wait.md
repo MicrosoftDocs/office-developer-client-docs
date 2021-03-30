@@ -11,8 +11,8 @@ api_name:
 api_type:
 - COM
 ms.assetid: ed566cae-35a2-4716-817b-54d1ba6825c6
-description: 
-Last modified: March 30, 2021
+description: IMAPIAMonitor::Wait
+Last modified: "March 30, 2021"
 ---
 
 # IMAPIINITMONITOR::Wait
