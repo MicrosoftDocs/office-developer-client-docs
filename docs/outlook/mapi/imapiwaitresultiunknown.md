@@ -11,7 +11,8 @@ api_name:
 api_type:
 - COM
 ms.assetid: d7157f57-709d-4e53-973b-176954e2bb73
-description: "Last modified: March 30, 2021"
+description: 
+Last modified: "March 30, 2021"
 ---
 
 # IMAPIWAITRESULT : IUnknown
@@ -21,7 +22,8 @@ description: "Last modified: March 30, 2021"
 IFACEMETHODIMP End() override
 
 Called to initiate the blocking wait on the thread where it is called, does not need to be the same thread that called “BeginWait”.
-  
+
+| | |
 |:-----|:-----|
 |Inherits from:  <br/> |IUnknown  <br/> |
 |Implemented by:  <br/> |  <br/> |
