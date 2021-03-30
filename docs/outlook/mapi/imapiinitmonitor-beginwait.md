@@ -10,7 +10,7 @@ api_name:
 - IMAPIINITMONITOR.BeginWait
 api_type:
 - COM
-ms.assetid: ed566cae-35a2-4716-817b-54d1ba6825c6
+ms.assetid: 71f565a9-651c-42b5-9102-91b728b681ae
 description: IMAPIInitMonitor::BeginWait"
 Last modified: "March 30, 2021"
 ---
