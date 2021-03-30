@@ -29,7 +29,7 @@ This is entry point exported from OLMAPI32.DLL this allows the caller to retriev
   
 ## Quick info
 
-| | |
+| identifier | result |
 |:-----|:-----|
 |Exported by:  <br/> |olmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |
