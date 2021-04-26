@@ -32,7 +32,7 @@ _timeout_
 ## Return value
 
 S_OK
-> MAPI has been initialized successfully
+> MAPI has been initialized successfully.
 
 HRESULT_FROM_WIN32(ERROR_TIMEOUT)
 > When given a non-infinite timeout this indicates MAPI was not initialized during that period.
