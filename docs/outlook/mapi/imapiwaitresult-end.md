@@ -50,15 +50,3 @@ This API behaves exactly the same as [IMAPInitMonitor::Wait](imapiinitmonitor-wa
 [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
 
 [IMAPIWaitResult](imapiwaitresultiunknown.md)
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
