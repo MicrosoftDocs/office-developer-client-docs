@@ -7481,8 +7481,9 @@
                     href: outlook/mapi/imapiviewcontext-setadvisesink.md
                 - name: 'IMAPIWaitResult : IUnknown'
                   href: outlook/mapi/imapiwaitresultiunknown.md
-                - name: 'IMAPIWaitResult : End'                  
-                  href: outlook/mapi/imapiwaitresult-end.md
+                  items:
+                  - name: 'IMAPIWaitResult::End'                  
+                    href: outlook/mapi/imapiwaitresult-end.md
                 - name: 'IMessage : IMAPIProp'
                   href: outlook/mapi/imessageimapiprop.md
                   items:
