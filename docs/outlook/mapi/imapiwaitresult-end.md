@@ -15,7 +15,7 @@ description: IMAPIWaitResult::End
 Last modified: "April 26, 2021"
 ---
 
-# IMAPIWaitResult::End
+# IMAPIWAITRESULT::End
   
 **Applies to**: Outlook 2013 | Outlook 2016 | 2019
 
@@ -39,7 +39,7 @@ HRESULT_FROM_WIN32(ERROR_TIMEOUT)
 > When given a non-infinite timeout this indicates MAPI was not initialized during that period.
 
 ## Remarks
-This API behaves exactly the same as [IMAPInitMonitor::Wait](imapiinitmonitor-wait.md)
+This API behaves exactly the same as [IMAPInitMonitor::Wait](imapiinitmonitor-wait.md).
   
 ## See also
 
