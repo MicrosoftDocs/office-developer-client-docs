@@ -17,7 +17,7 @@ A variable of this data type holds a binary value.
 
 ```cpp
 typedef struct { 
-    DWORDcb; 
+    DWORD cb; 
     BYTE * pb; 
 } ACCT_BIN; 
 
