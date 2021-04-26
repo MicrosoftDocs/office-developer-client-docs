@@ -30,6 +30,6 @@ Integer
   
 ## Remarks
 
-If the shape is not a list container, the LISTMEMBERCOUNT function returns -1.
+If the shape is not a list container, the LISTMEMBERCOUNT function returns 0.
   
 
