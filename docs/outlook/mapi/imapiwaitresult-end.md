@@ -19,7 +19,7 @@ Last modified: "April 26, 2021"
   
 **Applies to**: Outlook 2013 | Outlook 2016 | 2019
 
-Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized.  INFINITE can be used to for an infinite wait.
+Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized. INFINITE can be used to for an infinite wait.
 
 ```cpp
 HRESULT IMAPIWaitResult::End(DWORD timeout)
@@ -28,7 +28,7 @@ HRESULT IMAPIWaitResult::End(DWORD timeout)
 ## Parameters
 
 _timeout_
-> [in] The number of millisecond to wait for MAPI to be initialized, you can pass INFINITE to wait forever.
+> [in] The number of millisecond to wait for MAPI to be initialized, you can pass INFINITE (0xFFFFFFFF) to wait forever.
 
 ## Return value
 
@@ -39,7 +39,7 @@ HRESULT_FROM_WIN32(ERROR_TIMEOUT)
 > When given a non-infinite timeout this indicates MAPI was not initialized during that period.
 
 ## Remarks
-This API behaves exactly the same as [IMAPInitMonitor::Wait](imapiinitmonitor-wait.md)
+This API behaves exactly the same as [IMAPInitMonitor::Wait](imapiinitmonitor-wait.md).
   
 ## See also
 
@@ -50,15 +50,3 @@ This API behaves exactly the same as [IMAPInitMonitor::Wait](imapiinitmonitor-wa
 [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
 
 [IMAPIWaitResult](imapiwaitresultiunknown.md)
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
