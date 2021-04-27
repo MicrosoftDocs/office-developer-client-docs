@@ -15,7 +15,7 @@ description: IMAPIInitMonitor::BeginWait"
 Last modified: "April 26, 2021"
 ---
 
-# IMAPIINITMONITOR::BeginWait
+# IMAPIInitMonitor::BeginWait
   
 **Applies to**: Outlook 2016 | 2019
   
