@@ -1,7 +1,7 @@
 ---
 title: "CreateMAPIInitializationMonitor" 
 manager: lindalu
-ms.date: 04/26/2021
+ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -12,7 +12,7 @@ api_type:
 - COM
 ms.assetid: 32a9758a-395d-4526-9610-3e4eeaf78c96
 description: MAPI Initialization Monitor
-Last modified: "April 26, 2021"
+Last modified: "April 27, 2021"
 ---
 
 # CreateMAPIInitializationMonitor
