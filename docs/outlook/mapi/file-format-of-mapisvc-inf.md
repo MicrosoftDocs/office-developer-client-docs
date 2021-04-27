@@ -44,4 +44,7 @@ If your message service is a single provider service, store all of the message s
   
 Store only public configuration data in the MapiSvc.inf file. Information that is private or requires extra protection, such as passwords or other credentials, should not be included in this file. Instead, opt either not to store information of this type at all or keep it in the profile as secure properties. Secure properties have built-in protection features such as encryption.
   
+## Reference
+
+For more information about how to troubleshoot errors if MAPI blocks a Provider DLL, see [How to allow MAPI to load unregistered Provider DLLs](https://support.microsoft.com/topic/how-to-allow-mapi-to-load-unregistered-provider-dlls-18d9a1cd-d3d7-fa10-473e-5dfd62d38b0d).
 

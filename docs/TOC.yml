@@ -7148,6 +7148,15 @@
                   items:
                   - name: IMAPIGetSession::GetMAPISession
                     href: outlook/mapi/imapigetsession-getmapisession.md
+                - name: 'IMAPIInitMonitor : IUnknown'
+                  href: outlook/mapi/imapiinitmonitoriunknown.md
+                  items:
+                  - name: IMAPIInitMonitor::IsInitialized
+                    href: outlook/mapi/imapiinitmonitor-isinitialized.md
+                  - name: IMAPIInitMonitor::Wait
+                    href: outlook/mapi/imapiinitmonitor-wait.md
+                  - name: IMAPIInitMonitor::BeginWait
+                    href: outlook/mapi/imapiinitmonitor-beginwait.md
                 - name: 'IMAPIMessageSite : IUnknown'
                   href: outlook/mapi/imapimessagesiteiunknown.md
                   items:
@@ -7470,6 +7479,11 @@
                     href: outlook/mapi/imapiviewcontext-getviewstatus.md
                   - name: IMAPIViewContext::SetAdviseSink
                     href: outlook/mapi/imapiviewcontext-setadvisesink.md
+                - name: 'IMAPIWaitResult : IUnknown'
+                  href: outlook/mapi/imapiwaitresultiunknown.md
+                  items:
+                  - name: 'IMAPIWaitResult::End'                  
+                    href: outlook/mapi/imapiwaitresult-end.md
                 - name: 'IMessage : IMAPIProp'
                   href: outlook/mapi/imessageimapiprop.md
                   items:
@@ -7801,6 +7815,8 @@
                   href: outlook/mapi/closeimsgsession.md
                 - name: CreateIProp
                   href: outlook/mapi/createiprop.md
+                - name: CreateMAPIInitializationMonitor
+                  href: outlook/mapi/createmapiinitializationmonitor.md                 
                 - name: CreateTable
                   href: outlook/mapi/createtable.md
                 - name: DeinitMapiUtil
