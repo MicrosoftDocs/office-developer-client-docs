@@ -39,10 +39,4 @@ There are times when an application which consumes MAPI might want to know when 
 
 [IMAPIInitMonitor](imapiinitmonitoriunknown.md)
 
-[IMAPIInitMonitor::IsInitialized](imapiinitmonitor-isinitialized.md)
-
-[IMAPIInitMonitor::BeginWait](imapiinitmonitor-beginwait.md)
-
-[IMAPIInitMonitor::Wait](imapiinitmonitor-wait.md)
-
 [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
