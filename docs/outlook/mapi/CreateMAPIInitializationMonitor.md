@@ -40,15 +40,6 @@ This entry point exported from OLMAPI32.DLL allows the caller to retrieve an int
 |Called by:  <br/> |Client  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
 
-## Quick info
-
-| identifier | result |
-|:-----|:-----|
-|Exported by:  <br/> |olmapi32.dll  <br/> |
-|Called by:  <br/> |Client  <br/> |
-|Implemented by:  <br/> |Outlook  <br/> |
-
-
 ## Parameters
   
  _ppInitMonitor_
