@@ -30,7 +30,7 @@ HRESULT CreateMAPIInitializationMonitor(IMAPIInitMonitor** ppInitMonitor);
 ```
 #### HRESULT STDAPICALLTYPE CreateMapiInitializationMonitor(IMAPIInitMonitor ppInitMonitor)
 
-This is entry point exported from OLMAPI32.DLL this allows the caller to retrieve an interface to query the current initialization state, setup a callback for initialization completion or block the current thread until has completed. The object returned from this API is reusable and thread safe and can be invoked from any thread, not just thread which retrieved it. Also, unlike other objects exposed from MAPI, this object is valid as long as the DLL is loaded, it can be re-used across initialization sessions and can be consumed before or after MAPIInitialize has been called. Returns success or failure through an COM standard HRESULT, and assigns an out parameter to an instance of IMAPIInitMonitor.
+This entry point exported from OLMAPI32.DLL allows the caller to retrieve an interface to query the current initialization state, setup a callback for initialization completion or block the current thread until has completed. The object returned from this API is reusable and thread safe and can be invoked from any thread, not just thread which retrieved it. Also, unlike other objects exposed from MAPI, this object is valid as long as the DLL is loaded, it can be re-used across initialization sessions and can be consumed before or after MAPIInitialize has been called. Returns success or failure through an COM standard HRESULT, and assigns an out parameter to an instance of IMAPIInitMonitor.
   
 ## Quick info
 
@@ -52,12 +52,12 @@ This is entry point exported from OLMAPI32.DLL this allows the caller to retriev
 ## Parameters
   
  _ppInitMonitor_
-> [out] A pointer to recieve the newly created instance of the MAPI initialization monitor.
+> [out] A pointer to receive the newly created instance of the MAPI initialization monitor.
   
 ## Return values
 
 S_OK
-> A new instance of the initialization monitor was created successfullly.
+> A new instance of the initialization monitor was created successfully.
 
 E_OUTOFMEMORY
 > There was not enough memory to crate a new object.
