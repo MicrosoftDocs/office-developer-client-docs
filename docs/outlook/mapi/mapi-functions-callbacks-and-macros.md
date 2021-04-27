@@ -2,8 +2,8 @@
 title: "MAPI Functions, Callbacks, and Macros"
  
  
-manager: soliver
-ms.date: 12/07/2015
+manager: lindalu
+ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,14 +11,14 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: "Last modified: December 07, 2015"
+description: "Last modified: April 27, 2021"
 ---
 
 # MAPI Functions, Callbacks, and Macros
 
  
   
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
   
 The following alphabetic entries contain documentation for the MAPI functions, callbacks, and macros. 
   
@@ -28,7 +28,8 @@ The following alphabetic entries contain documentation for the MAPI functions, c
 |[BuildDisplayTable](builddisplaytable.md) <br/> |[CALLERRELEASE](callerrelease.md) <br/> |
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |[CheckParameters](checkparms.md) <br/> |
 |[CheckParms](checkparms.md) <br/> |[CloseIMsgSession](closeimsgsession.md) <br/> |
-|[CreateIProp](createiprop.md) <br/> |[CreateTable](createtable.md) <br/> |
+|[CreateIProp](createiprop.md) <br/> |[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md) <br/> |
+|[CreateTable](createtable.md) <br/> |  <br/>|
 |[DeinitMapiUtil](deinitmapiutil.md) <br/> |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |
 |[DISMISSMODELESS](dismissmodeless.md) <br/> |[EnableIdleRoutine](enableidleroutine.md) <br/> |
 |[FBadColumnSet](fbadcolumnset.md) <br/> |[FBadEntryList](fbadentrylist.md) <br/> |
