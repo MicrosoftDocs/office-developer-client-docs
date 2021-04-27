@@ -15,11 +15,11 @@ description: IMAPIWaitResult::End
 Last modified: "April 26, 2021"
 ---
 
-# IMAPIWAITRESULT::End
+# IMAPIWaitResult::End
   
 **Applies to**: Outlook 2013 | Outlook 2016 | 2019
 
-Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized.  INFINITE can be used to for an infinite wait.
+Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized. INFINITE can be used to for an infinite wait.
 
 ```cpp
 HRESULT IMAPIWaitResult::End(DWORD timeout)
@@ -28,7 +28,7 @@ HRESULT IMAPIWaitResult::End(DWORD timeout)
 ## Parameters
 
 _timeout_
-> [in] The number of millisecond to wait for MAPI to be initialized, you can pass INFINITE to wait forever.
+> [in] The number of millisecond to wait for MAPI to be initialized, you can pass INFINITE (0xFFFFFFFF) to wait forever.
 
 ## Return value
 

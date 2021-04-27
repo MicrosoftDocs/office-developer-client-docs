@@ -15,17 +15,17 @@ description: IMAPIWaitResult
 Last modified: "April 26, 2021"
 ---
 
-# IMAPIWAITRESULT : IUnknown
+# IMAPIWaitResult : IUnknown
   
 **Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
 
-This interface used by consumers of IMAPIInitMonitor to control where the wait happens, it allows them create the object on one thread move it another thread to perform the actual wait.
+This interface is used by consumers of IMAPIInitMonitor to control where the wait happens. It allows them create the object on one thread and move it another thread to perform the actual wait.
 
 ## Vtable order
 
 | function | description |
 |:-----|:-----|
-|[HRESULT IMAPIWaitResult::End()](imapiwaitresult-end.md)|Called to initiate the blocking wait on the thread where it is called, does not need to be the same thread that called *IMAPIInitMonitor::BeginWait*.|
+|[HRESULT IMAPIWaitResult::End()](imapiwaitresult-end.md)|Called to initiate the blocking wait on the thread where it is called, which does not need to be the same thread that called *IMAPIInitMonitor::BeginWait*.|
 
 | quick info | result |
 |:-----|:-----|

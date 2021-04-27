@@ -15,7 +15,7 @@ description: IMAPIInitMonitor::IsInitialized
 Last modified: "April 26, 2021"
 ---
 
-# IMAPIINITMONITOR::IsInitialized
+# IMAPIInitMonitor::IsInitialized
   
 **Applies to**: Outlook 2013 | Outlook 2016 | 2019
   

@@ -18,7 +18,7 @@ Last modified: "April 26, 2021"
 
 **Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
 
-There are times when an application which consumes MAPI might want to know when the initialization is completed. For example, it have multiple threads which could initialize MAPI, or in response to MAPI being initialize the application would like perform some work, but does not want to always spin up the MAPI stack.  The initialization monitor provides this functionality through a [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
+There are times when an application which consumes MAPI might want to know when the initialization is completed. For example, it has multiple threads which could initialize MAPI, or in response to MAPI being initialized the application would like perform some work, but does not want to always spin up the MAPI stack. The initialization monitor provides this functionality through a [CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md) object.
 
 | quick info | result |
 |:-----|:-----|
