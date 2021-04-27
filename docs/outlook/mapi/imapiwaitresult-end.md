@@ -1,7 +1,7 @@
 ---
 title: "IMAPIWaitResult::End" 
 manager: lindalu
-ms.date: 04/26/2021
+ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7463c9e8-d065-4cc3-ac01-d428b57bbc88
 description: IMAPIWaitResult::End
-Last modified: "April 26, 2021"
+Last modified: "April 27, 2021"
 ---
 
 # IMAPIWaitResult::End
   
-**Applies to**: Outlook 2013 | Outlook 2016 | 2019
+**Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
 
 Initiates a BLOCKING call on this thread, which will return either when the specified number of milliseconds have elapsed or MAPI has been initialized. INFINITE can be used to for an infinite wait.
 
@@ -47,6 +47,6 @@ This API behaves exactly the same as [IMAPInitMonitor::Wait](imapiinitmonitor-wa
 
 [IMAPIInitMonitor::BeginWait](imapiinitmonitor-beginwait.md)
 
-[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
-
 [IMAPIWaitResult](imapiwaitresultiunknown.md)
+
+[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)

@@ -1,7 +1,7 @@
 ---
 title: "imapiinitmonitor-isinitialized" 
 manager: lindalu
-ms.date: 04/26/2021
+ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1af0bf93-6bcb-4235-ac30-0d00245ec636
 description: IMAPIInitMonitor::IsInitialized
-Last modified: "April 26, 2021"
+Last modified: "April 27, 2021"
 ---
 
 # IMAPIInitMonitor::IsInitialized
   
-**Applies to**: Outlook 2013 | Outlook 2016 | 2019
+**Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
   
 Queries MAPI to determine if it currently initialized in the calling process.
 
