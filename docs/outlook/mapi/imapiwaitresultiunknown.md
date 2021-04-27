@@ -15,7 +15,7 @@ description: IMAPIWaitResult
 Last modified: "April 26, 2021"
 ---
 
-# IMAPIWAITRESULT : IUnknown
+# IMAPIWaitResult : IUnknown
   
 **Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
 
