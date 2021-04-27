@@ -1,7 +1,7 @@
 ---
 title: "IMAPIWaitResult : IUnknown" 
 manager: lindalu
-ms.date: 04/26/2021
+ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -12,7 +12,7 @@ api_type:
 - COM
 ms.assetid: d7157f57-709d-4e53-973b-176954e2bb73
 description: IMAPIWaitResult
-Last modified: "April 26, 2021"
+Last modified: "April 27, 2021"
 ---
 
 # IMAPIWaitResult : IUnknown
