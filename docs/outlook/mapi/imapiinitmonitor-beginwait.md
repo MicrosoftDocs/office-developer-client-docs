@@ -1,7 +1,7 @@
 ---
 title: "imapiinitmonitor-beginwait" 
 manager: lindalu
-ms.date: 04/26/2021
+ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -12,7 +12,7 @@ api_type:
 - COM
 ms.assetid: 71f565a9-651c-42b5-9102-91b728b681ae
 description: IMAPIInitMonitor::BeginWait"
-Last modified: "April 26, 2021"
+Last modified: "April 27, 2021"
 ---
 
 # IMAPIInitMonitor::BeginWait
@@ -50,6 +50,6 @@ This API provided the caller with an interface (which is thread-safe) which can 
 
 [IMAPIInitMonitor::Wait](imapiinitmonitor-wait.md)
 
-[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
-
 [IMAPIWaitResult](imapiwaitresultiunknown.md)
+
+[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md)
