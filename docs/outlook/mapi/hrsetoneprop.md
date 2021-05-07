@@ -31,7 +31,7 @@ Sets or changes the value of a single property on a property interface, that is,
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
 ```cpp
-HrSetOneProp(
+HRESULT HrSetOneProp(
   LPMAPIPROP pmp,
   LPSPropValue pprop
 );
