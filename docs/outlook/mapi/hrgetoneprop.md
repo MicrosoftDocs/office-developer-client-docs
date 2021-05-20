@@ -31,7 +31,7 @@ Retrieves the value of a single property from a property interface, that is, an 
 |Called by:  <br/> |Client applications and service providers  <br/> |
    
 ```cpp
-HrGetOneProp(
+HRESULT HrGetOneProp(
   LPMAPIPROP pmp,
   ULONG ulPropTag,
   LPSPropValue FAR * ppprop
