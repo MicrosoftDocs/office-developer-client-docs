@@ -93,10 +93,10 @@ The following Excel functions are volatile:
     
 Both the VBA and C API support ways to inform Excel that a user-defined function (UDF) should be handled as volatile. By using VBA, the UDF is declared as volatile as follows.
   
-```vb
+```vba
 Function MyUDF(MakeMeVolatile As Boolean) As Double
    ' Good practice to call this on the first line.
-   Application.Volatile (MakeMeVolatile)
+   Application.Volatile MakeMeVolatile
    MyUDF = Now
 End Function
 
