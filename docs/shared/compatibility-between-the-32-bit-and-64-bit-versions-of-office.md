@@ -1,6 +1,6 @@
 ---
 title: "Compatibility between the 32-bit and 64-bit versions of Office"
-ms.date: 12/03/2019
+ms.date: 07/04/2021
 ms.audience: ITPro
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: "Find out how the 32-bit version of Office is compatible with the 64-bit version of Office."
@@ -215,7 +215,7 @@ No.
   
 #### When should I convert Long parameters to LongPtr?
   
-You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](https://docs.microsoft.com/windows/win32/api/winreg/nf-winreg-regopenkeyexa) provides the following signature: 
+You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa.md) provides the following signature: 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
@@ -237,7 +237,7 @@ The parameters are defined as:
 |samDesired [in]  <br/> |A mask that specifies the desired access rights to the key.  <br/> |
 |phkResult [out]  <br/> |A  *pointer*  to a variable that receives a handle to the opened key.  <br/> |
    
-In [Win32API_PtrSafe.txt](https://docs.microsoft.com/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support), the **Declare** statement is defined as: 
+In [Win32API_PtrSafe.txt](/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support.md), the **Declare** statement is defined as: 
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
