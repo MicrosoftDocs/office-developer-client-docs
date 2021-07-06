@@ -146,7 +146,7 @@ The following example shows VBA code written for 32-bit that needs to be updated
   
 ```vb
 Declare Function SHBrowseForFolder Lib "shell32.dll" _
-  Alias "SHBrowseForFolderA" (lpBrowseInfo As BROWSEINFO) As Long
+  Alias "SHBrowseForFolderA" (lpBrowseInfo As BROWSEINFO) As LongPtr
   
 Public Type BROWSEINFO
   hOwner As Long
