@@ -19,7 +19,7 @@ Represents the password of the SMTP account.
 |:-----|:-----|
 |Identifier:  <br/> |0x0205  <br/> |
 |Property type:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
-|Property tag:  <br/> |0x2058001F  <br/> |
+|Property tag:  <br/> |0x0205801F  <br/> |
 |Access:  <br/> |Read-only  <br/> |
    
 ## See also
