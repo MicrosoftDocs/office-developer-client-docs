@@ -18,7 +18,7 @@ The 64-bit versions of Office enable you to move more data around for increased 
 Visual Basic for Applications 7.0 (VBA 7) is released in the 64-bit versions for Office, and it works with both 32-bit and 64-bit applications. The changes described in this article apply only to the 64-bit versions of Office. Using the 32-bit versions of Microsoft Office enable you to use solutions built in previous versions of Office without further modifications.
   
 > [!NOTE]
-> By default, when you install a 64-bit version of Office, you also install the 32-bit version is installed along with the 64-bit system. You must explicitly select the Microsoft Office 64-bit version installation option. 
+> By default, when you install a 64-bit version of Office you also install the 32-bit version alongside it. You must explicitly select the Microsoft Office 64-bit version installation option. 
   
 In VBA 7, you must update existing Windows API statements (**Declare** statements) to work with the 64-bit version. Additionally, you must update address pointers and display window handles in user-defined types that are used by these statements. This is discussed in more detail in this article as well as compatibility issues between the 32-bit and 64-bit versions and suggested solutions. 
   
