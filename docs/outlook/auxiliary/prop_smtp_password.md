@@ -1,7 +1,7 @@
 ---
 title: "PROP_SMTP_PASSWORD"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 09/14/2021
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
@@ -15,7 +15,7 @@ Represents the password of the SMTP account.
   
 ## Quick info
 
-|||
+|Item|Code|
 |:-----|:-----|
 |Identifier:  <br/> |0x0205  <br/> |
 |Property type:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
@@ -26,4 +26,3 @@ Represents the password of the SMTP account.
 
 - [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md) 
 - [Constants (Account management API)](constants-account-management-api.md)
-

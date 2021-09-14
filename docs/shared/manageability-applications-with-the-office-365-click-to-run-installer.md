@@ -22,7 +22,7 @@ The Microsoft 365 Apps Click-to-Run installer provides a COM interface that allo
 To use this interface, a manageability application invokes the COM interface and calls exposed APIs that communicate directly with the Click-to-Run installation service. 
   
 > [!NOTE]
-> The Office Click-to-Run installer can be run from the command-line with parameters that can control the behavior, as documented in [Office Deployment Tool for Click-to-Run](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool). 
+> The Office Click-to-Run installer can be run from the command-line with parameters that can control the behavior, as documented in [Office Deployment Tool for Click-to-Run](/DeployOffice/overview-office-deployment-tool.md). 
   
 **Following is a conceptual diagram of the COM interface**
 
@@ -132,7 +132,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
     
 #### Return results
 
-|||
+|**Result**|**Description**|
 |:-----|:-----|
 |**S_OK** <br/> |Action was successfully submitted to the Click-To-Run service for execution.  <br/> |
 |**E_ACCESSDENIED** <br/> |The caller is not running with elevated privileges.  <br/> |
@@ -169,7 +169,7 @@ HRESULT Cancel() // Cancel the download action.
 
 #### Return results
 
-|||
+|**Result**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |Action was successfully submitted to the Click-to-Run service for execution.  <br/> |
 |E_ILLEGAL_METHOD_CALL  <br/> |Action is not allowed at this time. See the [Remarks](#bk_CancelRemarks) section for more information  <br/> |
@@ -200,7 +200,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
     
 #### Return results
 
-|||
+|**Result**|**Description**|
 |:-----|:-----|
 |**S_OK** <br/> |Action was successfully submitted to the Click-To-Run service for execution.  <br/> |
 |**E_ACCESSDENIED** <br/> |The caller is not running with elevated privileges.  <br/> |
@@ -261,13 +261,13 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 #### Parameters
 
-|||
+|**Parameter**|**Description**|
 |:-----|:-----|
 | _pUpdateStatusReport_ <br/> |Pointer to an UPDATE_STATUS_REPORT structure.  <br/> |
    
 #### Return results
 
-|||
+|**Result**|**Description**|
 |:-----|:-----|
 |**S_OK** <br/> |The **Status** method always returns this result. Inspect the  `UPDATE_STATUS_RESULT` structure for the status of the current action.  <br/> |
    
@@ -365,7 +365,7 @@ If you don't use any of the new methods, you don't need to change anything. All 
   
 ## Implementing the BITS interface
 
-The [Background Intelligent Transfer Service](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) (BITS) is a service provided by Microsoft to transfer files between a client and server. BITS is one of the channels that Office Click-To-Run installer can use to download content. By default, the Microsoft 365 Apps Click-To-Run installer uses the Windows' built in implementation of BITS to download the content from the CDN. 
+The [Background Intelligent Transfer Service](/windows/win32/bits/background-intelligent-transfer-service-portal.md) (BITS) is a service provided by Microsoft to transfer files between a client and server. BITS is one of the channels that Office Click-To-Run installer can use to download content. By default, the Microsoft 365 Apps Click-To-Run installer uses the Windows' built in implementation of BITS to download the content from the CDN. 
   
 By providing a customized BITS implementation to the **download()** method of the **IUpdateNotify** interface, your manageability software can control where and how the client downloads the content. A customized BITS interface is useful when providing a custom content distribution channel other than the Click-to-Run built-in channels, such as the CDN, IIS servers, or file shares. 
   
@@ -487,7 +487,7 @@ Optional query parameters
 | lid <br/>| Specifies the language files to include <br/> Optional – defaults to none <br/> To specify multiple languages, include an lid query parameter for each language <br/> Use the language identifier format, ex. ‘en-us’, ‘fr-fr’ |
 | alllanguages <br/>| Specifies to include all language files <br/> Optional – defaults to false |
 
-HTTP Response
+**HTTP Response**
 
 If successful, this method returns a 200 OK response code and collection of file objects in the response body.
 
@@ -496,7 +496,7 @@ To create an image, follow these steps:
 Note: File objects with the attribute "lcid": "0" are language neutral files and must be included in the image.
 2.	Construct a local image of the CDN by iterating through the file objects and copying the CDN files, while creating the folder structure as specified by the “relativePath” attribute defined for each of the file objects.
 
-The following example retrieves the file list for the Current Channel and version 16.0.4229.1004 for 64bit and includes the French and English language files:
+The following example retrieves the file list for the Current Channel and version 16.0.4229.1004 for 64bit and includes the French and English language files.
 
 ```http
 Get https://config.office.com/api/filelist?Channel=Current&Version=16.0.4229.1004&Arch=x64&Lid=fr-fr&Lid=en-US
