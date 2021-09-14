@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagOrgEmailAddress Canonical Property
