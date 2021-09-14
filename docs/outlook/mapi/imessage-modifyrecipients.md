@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
-description: "Last modified: March 09, 2015"
 ---
 
 # IMessage::ModifyRecipients
