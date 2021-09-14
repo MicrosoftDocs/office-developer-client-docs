@@ -1,11 +1,10 @@
 ---
 title: "DeleteRecord Data Macro action (Access custom web app)"
-manager: kelbow
-ms.date: 09/05/2017
+manager: lindalu
+ms.date: 09/05/2021
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: f6b68a9a-e04a-476e-a407-b1779fea1953
-description: "You can use the DeleteRecord action to delete a record."
 ---
 
 # DeleteRecord Data Macro action (Access custom web app)
@@ -28,5 +27,3 @@ The **DeleteRecord** action has the following arguments.
 You can use the **LastCreateRecordIdentity** local variable to work with last record created in a **CreateRecord** data block. For example, use the following syntax to refer to the most recently created record: 
   
 `[LastCreateRecordIdentity]`
-
-
