@@ -1,10 +1,11 @@
 ---
 title: DBEngine.Idle method (DAO)
 TOCTitle: Idle Method
+description: Idle method
 ms:assetid: c90b565e-626e-139d-102a-0386601ce0c8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823202(v=office.15)
 ms:contentKeyID: 48547666
-ms.date: 09/18/2015
+ms.date: 09/14/2021
 mtps_version: v=office.15
 f1_keywords:
 - dao360.chm1052978
@@ -27,31 +28,9 @@ Suspends data processing, enabling the Microsoft Access database engine to compl
 
 ## Parameters
 
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Name</p></th>
-<th><p>Required/optional</p></th>
-<th><p>Data type</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><em>Action</em></p></td>
-<td><p>Optional</p></td>
-<td><p><strong>Variant</strong></p></td>
-<td><p>Specifies the action to take. Can be one of the <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> constants.</p></td>
-</tr>
-</tbody>
-</table>
-
+|**Name**|**Required/optional**|**Data type**|**Description**|
+|:----------|:----------|:----------|:----------|
+|*Action*|Optional|**Variant**|Specifies the action to take.|
 
 ## Remarks
 
@@ -118,4 +97,3 @@ Sub IdleOutput(rstTemp As Recordset, strTemp As String)
 End Sub 
  
 ```
-
