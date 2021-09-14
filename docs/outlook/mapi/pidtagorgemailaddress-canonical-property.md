@@ -20,7 +20,6 @@ ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
   
 Contains the email address of the originating email account.
   
-|||
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORG_EMAIL_ADDRESS, PR_ORG_EMAIL_ADDRESS_A, PR_ORG_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |TBD  <br/> |
