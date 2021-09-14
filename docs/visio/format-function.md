@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251424
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
 description: "Returns the result of expression as a string formatted according to formatpicture."
 ---

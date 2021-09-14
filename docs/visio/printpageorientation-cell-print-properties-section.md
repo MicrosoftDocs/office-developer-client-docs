@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033795
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
 description: "Determines whether the page prints using portrait or landscape orientation."
 ---

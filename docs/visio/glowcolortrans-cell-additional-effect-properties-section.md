@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6cf67cb-f9e6-43a5-918a-f9151821ab4d
 description: "Determines the transparency level for the color used for the stroke of the shape's glow, as a percentage."
 ---

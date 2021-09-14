@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40e45007-e5c3-118c-1460-af83b461b014
 description: "Specifies the group of merged stencil windows of which the window is a member."
 ---

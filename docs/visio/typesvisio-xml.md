@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
 description: "This topic lists the types in the Visio 2013 file format XML schema."
 ---

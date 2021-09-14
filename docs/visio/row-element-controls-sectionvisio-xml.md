@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb61870d-3f93-59e3-6671-e545c3a85718
 description: "Contains the cells for a particular control handle defined for a shape."
 ---

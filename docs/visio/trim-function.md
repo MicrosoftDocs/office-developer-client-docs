@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027318
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f2d84fd-27eb-4c2f-a2e1-43d20e0c78be
 description: "Removes all space from text, except for single spaces between words."
 ---

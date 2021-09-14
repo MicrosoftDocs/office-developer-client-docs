@@ -3,7 +3,7 @@ title: "Integrating manageability applications with Microsoft 365 Apps Click-to-
 manager: lindalu
 ms.date: 09/14/2021
 ms.audience: ITPro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: "Learn how to integrate the Microsoft 365 Apps Click-to-Run installer with a software management solution."
 ---

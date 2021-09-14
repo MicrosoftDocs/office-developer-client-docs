@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm560
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: "Determines the line pattern of the shape. The value entered in the LinePattern cell is a number that is an index into a collection of line patterns."
 ---

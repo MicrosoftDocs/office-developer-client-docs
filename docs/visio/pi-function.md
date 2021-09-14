@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251478
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14d4e6bf-0961-7041-cf4a-9132ffbceb37
 description: "Returns the mathematical constant pi , which is approximately 3.1415926535898."
 ---

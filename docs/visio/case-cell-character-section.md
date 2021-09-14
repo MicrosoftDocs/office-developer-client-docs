@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251250
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf063c05-5789-e037-700b-1e70df00e254
 
 description: "Determines the case of a shape's text. All capital (uppercase) letters (1) and initial capital letters (2) do not change the appearance of text that was entered in all capital letters. The text must be entered in lowercase letters for these options to show an effect."

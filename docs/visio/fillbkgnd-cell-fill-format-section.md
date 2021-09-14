@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm365
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 603d698f-a025-538c-8767-18e7716a9a5f
 description: "Determines the color used for the background (fill) of the shape's fill pattern."
 ---

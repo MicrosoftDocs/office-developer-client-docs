@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60084
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 551166d0-3aaa-0fd7-e742-cf3450ba90ed
 description: "Indicates the default shadow type for a page."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm65
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
 description: "Determines the amount of horizontal space between shapes on the drawing page when you lay out shapes by using the Configure Layout dialog box (on the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options)."
 ---

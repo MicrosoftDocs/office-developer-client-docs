@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm565
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6b461fe-56ac-4c0e-31cd-6b3c1075db6e
 description: "Determines the horizontal clearance between all connectors on the drawing page."
 ---

@@ -3,7 +3,7 @@ title: "Opening message text"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e37fc9d8-433b-41b4-84f2-42a952063f35

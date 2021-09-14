@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2035
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e6f6448-b52a-c1f3-613f-10ea34d5286e
 description: "Contains cells for a document that control preview quality, scope, and output format."
 ---

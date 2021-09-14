@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: "Specifies a formatting attribute for a shape's text run, such as font, color, style, case, position relative to the baseline, or point size."
 ---

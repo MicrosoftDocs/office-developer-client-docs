@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251500
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
 description: "Returns the square root of a number."
 ---

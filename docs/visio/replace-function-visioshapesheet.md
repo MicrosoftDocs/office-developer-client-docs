@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60108
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70c9fc1d-6e7b-479f-effd-0d4bc8ae0f72
 description: "Replaces part of a text string, based on the number of characters you specify, with a different text string."
 ---

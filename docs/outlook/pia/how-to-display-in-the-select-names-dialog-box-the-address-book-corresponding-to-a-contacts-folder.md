@@ -9,7 +9,7 @@ mtps_version: v=office.15
 
 
 
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Display in the Select Names dialog box the address book corresponding to a Contacts folder

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251381
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fdf442ea-2c86-8bd5-b95d-59ad0e4da719
 description: "Contains cells for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website."
 ---

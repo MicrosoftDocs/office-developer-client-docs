@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm930
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3f53a7d-7450-b2b0-b508-6044a87450d9
 description: "Determines the distance in page units that a shape's drop shadow is offset vertically from the shape."
 ---

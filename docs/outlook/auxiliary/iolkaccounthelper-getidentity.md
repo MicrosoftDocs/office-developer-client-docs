@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea8b8f02-959f-cd71-9cfe-5ebdf4bae2bc
 description: "Gets the profile name of an account."
 ---

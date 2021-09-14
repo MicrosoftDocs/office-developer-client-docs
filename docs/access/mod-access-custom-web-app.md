@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 561dd741-ebbb-4661-95ea-39d342c32891
 description: "Returns the remainder of one number divided by another."
 ---

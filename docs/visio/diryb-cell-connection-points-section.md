@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm240
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d951c57d-2c22-0289-35af-44e3c2877b2c
 
 description: "Determines the y -component for the required alignment vector of a matching connection point. It is also used to orient the attached leg of a dynamic connector. This cell takes a floating point value."

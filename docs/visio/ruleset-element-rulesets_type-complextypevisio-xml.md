@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ca63b8a-782e-211f-be7a-8e177b61d8fc
 description: "Represents one set of diagram-validation rules."
 ---

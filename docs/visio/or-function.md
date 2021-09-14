@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251476
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c2154fa-4190-0699-61f7-f2bdf87173ec
 description: "Returns TRUE (1) if any of the logical expressions passed as parameters are TRUE."
 ---

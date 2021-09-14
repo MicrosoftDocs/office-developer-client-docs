@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - offline solutions [infopath 2007],solutions [InfoPath 2007], offline,InfoPath 2007, offline solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: "The InfoPath object model provides the MachineOnlineState property of the Application class that enables your form code to check whether the user's computer is connected to the network. By checking the value of MachineOnlineState property, your form code can perform different actions depending on the state of the connection."
 ---

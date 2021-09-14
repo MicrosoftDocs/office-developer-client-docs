@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 68fef652-5db7-4273-a0ad-b196c5fa114b
 description: "Provides access to account information, supports notifications of account changes, protecting accounts from spam and managing message downloads for POP3 accounts."
 ---

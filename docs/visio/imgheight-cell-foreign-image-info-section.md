@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm445
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: decb86a4-b711-35e1-b9dc-744a84ee177c
 description: "Determines the height of the object's image within its border. The default formula is:"
 ---

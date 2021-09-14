@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - functions [excel 2007], add-in manager,functions [Excel 2007], XLL interface
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e22d425a-75b2-412c-a07f-fb1915d08615
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

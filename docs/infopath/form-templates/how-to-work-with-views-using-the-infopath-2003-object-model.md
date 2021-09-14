@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, views,views [InfoPath 2007], InfoPath 2003-compatible form templates
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: feb1bfcb-1cb1-4d5c-bc84-df86a33a5934
 description: "When working with an InfoPath form template, you can write code to access the form's views, and then perform a variety of actions on the data that the views contain. The InfoPath 2003-compatible object model supports access to a form's views through the use of the members of the ViewObject interface."
 ---

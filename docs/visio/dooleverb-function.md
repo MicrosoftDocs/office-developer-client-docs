@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251421
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d276c122-6326-75a7-220c-6a78e94e0db0
 description: "Executes a verb for the OLE object."
 ---

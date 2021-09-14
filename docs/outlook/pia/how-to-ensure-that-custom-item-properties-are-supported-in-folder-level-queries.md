@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb608929(v=office.15)
 ms:contentKeyID: 55119863
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Ensure that custom item properties are supported in folder-level queries

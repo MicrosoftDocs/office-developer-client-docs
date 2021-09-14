@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm620
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9742142-4d34-1ba9-480e-d1ecff4fc7cd
 description: "Locks the endpoint (EndX, EndY) of a 1-D shape to a specific location."
 ---

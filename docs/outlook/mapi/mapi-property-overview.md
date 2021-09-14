@@ -3,7 +3,7 @@ title: "MAPI Property Overview"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 02e5b23f-1bdb-4fbf-a27d-e3301a359573

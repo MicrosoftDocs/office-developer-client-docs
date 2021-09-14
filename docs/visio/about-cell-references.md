@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251827
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6a9aceb-90d7-fb53-eaf4-416a1ae2a98b
 description: "You can create interdependencies among formulas by means of ShapeSheet cell references. Cell references give you the power to calculate a value for one cell based on another cell's value. For example, a shape's Width cell might contain a formula that calculates the shape's width by referring to the value of its Height cell, so that when a user resizes the shape vertically, its width stays in proportion."
 ---

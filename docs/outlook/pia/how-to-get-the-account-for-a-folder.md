@@ -7,7 +7,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Get the account for a folder

@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94a16356-68ad-4c47-04f9-b7a81e99e61d
 description: "Returns an integer that matches the major version of the currently active Microsoft Visio application."
 ---

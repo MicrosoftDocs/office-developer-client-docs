@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b72124aa-2e85-057c-9343-a40af60b91a0
 description: "Returns an identifier that uniquely identifies an account within the profile in which the account is created."
 ---

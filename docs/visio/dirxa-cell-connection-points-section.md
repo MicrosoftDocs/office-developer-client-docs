@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251721
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 00d87b92-0da7-37d6-e7b5-23f350db0a9b
 
 description: "Determines the x -component for the required alignment vector of a matching connection point. The DirX / A cell is also used to orient the attached leg of a dynamic connector. This cell takes a floating point value."

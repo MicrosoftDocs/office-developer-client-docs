@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3020
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55942a42-5e88-2f6b-69f8-405ce406fcaf
 description: "Contains the x - and y -coordinates of two points on an infinite line."
 ---

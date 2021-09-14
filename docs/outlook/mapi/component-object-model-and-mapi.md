@@ -3,7 +3,7 @@ title: "Component Object Model and MAPI"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cca4c70d-b73a-4834-80b5-9cb5889f63cc

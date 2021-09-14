@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3362639a-8098-47ab-ba94-ee89e4920032
 description: "The friends element in the Microsoft Outlook Social Connector (OSC) provider XML schema allows an OSC provider to specify information for a list of persons associated with an Outlook user in the social network."
 ---

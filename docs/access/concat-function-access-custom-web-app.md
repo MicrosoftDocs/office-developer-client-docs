@@ -3,7 +3,7 @@ title: "Concat function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38ad6365-79df-4342-9b76-ca27b8ab8952
 description: "Returns a string that is the result of combining two or more string values."
 ---

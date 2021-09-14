@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251485
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
 description: "Returns a random floating point number from 0.0 to 1.0. It returns a different number each time the function is evaluated, which is once per minute according to the system clock."
 ---

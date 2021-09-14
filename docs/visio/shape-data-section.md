@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251338
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e113791-891f-6c2a-7981-a6a9a115622a
 description: "Contains one row for each item of shape data and cells for associating data with a shape."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251319
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4345b3e5-f522-e300-307c-4f8992a3ddce
 description: "Switches the display of control handles on and off for the selected shape."
 ---

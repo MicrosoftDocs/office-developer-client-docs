@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xlautoclose function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 147e46cd-d4d7-49eb-acdc-5a2ebc2fb6c2
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

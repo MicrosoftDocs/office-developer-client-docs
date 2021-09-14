@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm775
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1da84b3-fd15-12b9-9342-0412e818b3b9
 description: "Determines the value of the page unit in the current drawing scale. The drawing scale for the page is the ratio of the page unit shown in the PageScale cell to the drawing unit shown in the DrawingScale cell."
 ---

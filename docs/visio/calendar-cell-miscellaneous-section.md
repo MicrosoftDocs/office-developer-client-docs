@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60028
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7406b46d-b42d-187c-70e8-123c4da7e781
 description: "Determines the calendar that is used when a cell formula contains Date information."
 ---

@@ -3,7 +3,7 @@ title: "Administering Profiles and Message Services"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 89a2ac43-9601-47fc-b736-db48585fe879

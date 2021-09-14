@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73e3a261-6282-4051-aec5-9f24abf32ec0
 description: "Shows the color values for the fill gradient applied to the shape."
 ---

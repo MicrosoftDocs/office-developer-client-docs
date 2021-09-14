@@ -10,7 +10,7 @@ f1_keywords:
 - dao360.chm1052908
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Index.Primary property (DAO)

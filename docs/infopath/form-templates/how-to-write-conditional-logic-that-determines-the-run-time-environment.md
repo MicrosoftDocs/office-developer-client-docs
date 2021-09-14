@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - running in infopath [infopath 2007],run-time environment [InfoPath 2007],running in browser [InfoPath 2007],InfoPath 2007, determining run-time environment
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a43bbdc-666b-47ef-a5e3-cb477a4deb04
 description: "The Environment property of the Application class gets a reference to an Environment object, which can be used to determine which runtime environment (InfoPath, Web browser, or mobile browser) was used to open the form."
 ---

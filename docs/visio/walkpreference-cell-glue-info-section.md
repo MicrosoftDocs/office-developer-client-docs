@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1115
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08165195-7e4e-f3ab-fa76-fbcacb0a9c9c
 description: "Determines whether an endpoint of a 1-D shape moves to a horizontal or vertical connection point on the shape it is glued to, using dynamic glue, when the shape is moved to an ambiguous position. By default, both endpoints of the 1-D shape move to horizontal connection points."
 ---

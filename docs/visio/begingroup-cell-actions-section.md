@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60022
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ae7f629-fb9f-1a11-1194-b381d6c9de5b
 description: "Indicates whether a separator is inserted into the menu above this action."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm625
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9a640f4-0af0-317c-b77b-f32c651e87b4
 description: "Locks the formatting of a shape so it cannot be changed."
 ---

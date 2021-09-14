@@ -3,7 +3,7 @@ title: "attConversationID and attParentID"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bed36900-e44d-434b-a4f2-d10f2d6f70da

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm590
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47bb268f-acdd-7369-716c-bd51a32b8a49
 description: "Specifies whether shapes belonging to the layer are locked against being selected or edited."
 ---

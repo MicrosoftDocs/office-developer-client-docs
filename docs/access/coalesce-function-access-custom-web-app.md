@@ -3,7 +3,7 @@ title: "Coalesce function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92a7cc0a-1f9f-4969-8439-56a8d18e1347
 description: "Returns the first expression that is not NULL from a list of arguments."
 ---

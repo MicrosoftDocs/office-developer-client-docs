@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251441
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 943636a6-e135-a626-7924-11e238156548
 description: "Navigates to the specified address, which can be a file, UNC, or URL path."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3880511-dd27-4dc2-9e50-a49084ef8195
 description: "Indicates whether a shape can participate in a replacement operation (as either a target or a replacement shape)."
 ---

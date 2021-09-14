@@ -3,7 +3,7 @@ title: "Message Envelope"
 manager: lindalu
 ms.date: 09/14/2021
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 613956da-c49b-4836-9fde-4601510e8b89

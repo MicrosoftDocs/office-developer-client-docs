@@ -3,7 +3,7 @@ title: "Ceiling function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0245c820-6c60-47e2-8afa-3e56679454a3
 description: "Returns the smallest integer greater than, or equal to, the specified numeric expression."
 ---

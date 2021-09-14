@@ -3,7 +3,7 @@ title: "Structure of message store providers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edc46630-c320-6b4e-4747-961075dd5fd7
 description: "Specifies whether the user is prevented from creating, editing, or deleting master shapes. The user can still create new shapes from a master shape, regardless of this setting."
 ---

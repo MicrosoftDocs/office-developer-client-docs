@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - what's new [infopath 2007],developer features [InfoPath 2007],InfoPath 2007, what's new,new features [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: "InfoPath is designed to make it easy to build rich forms-based applications on the Microsoft SharePoint Server platform. Microsoft InfoPath 2013 in conjunction with Microsoft SharePoint Server 2013 and InfoPath Forms Services have many features for developers. InfoPath Forms Services, which is available in SharePoint Server 2013, enables you to deploy an InfoPath form template to a SharePoint Server so that users without the InfoPath rich client can open and fill out InfoPath forms in a Web browser."
 ---

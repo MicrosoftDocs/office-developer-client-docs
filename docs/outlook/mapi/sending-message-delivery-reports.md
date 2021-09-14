@@ -3,7 +3,7 @@ title: "Sending Message Delivery Reports"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: abb12ec5-f0b7-488a-a75d-446f4be53e96

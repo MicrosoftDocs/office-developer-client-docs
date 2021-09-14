@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60089
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08958abb-9d66-5a83-dac3-4cbfd1f6d85e
 
 description: "Represents the distance between the first line of the paragraph and the bullet."

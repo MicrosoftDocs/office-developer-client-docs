@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - dialogmsgproc function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253262
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7acfeef6-29e4-d5e0-116a-75b5c61c3b41
 description: "The REF function returns the error value #REF!."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ed3c997b-0a58-0432-c468-a24614b67f2e
 description: "Returns TRUE if the specified string is found in the shape's category list."
 ---

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f46e8aa3-d2c2-45a2-93fe-1c40107fbf16
 description: "Specifies whether to use Secure Socket Layer (SSL) protocol for the SMTP account."
 ---

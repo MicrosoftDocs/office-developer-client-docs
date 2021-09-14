@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - xloper12 memory [excel 2007],managing memory in Excel,Excel stack,strings [Excel 2007], managing memory,memory management in Excel,XLOPER memory [Excel 2007],memory [Excel 2007], management guidelines
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

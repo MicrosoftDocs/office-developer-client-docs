@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251626
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b58131f6-a566-d9ca-bad4-4f4b66e03aaf
 description: "Determines whether you snap to a group or to shapes within the group."
 ---

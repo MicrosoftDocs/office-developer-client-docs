@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm70007
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29bfe8ec-ca12-8fbf-b62b-ece3710dfe2e
 description: "Specifies how shapes are placed on the page when shapes are laid out in the Configure Layout dialog box (on the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options). Stores layout style and alignment values from VisCellIndices ."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251389
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9ed37ba-019c-b11e-c803-4669e6a248d1
 description: "Returns the absolute value of a number."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1040
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0c0fe52-6a9e-e40e-394e-83a851db55a4
 description: "Determines the x -coordinate of the text block's center of rotation in relation to the origin of the shape. The default formula is:"
 ---

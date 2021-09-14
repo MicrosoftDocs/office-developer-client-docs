@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1055
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e24a906-83ce-32d2-5d7b-ba6dd6eea2d3
 description: "Specifies a data type for the shape data value."
 ---

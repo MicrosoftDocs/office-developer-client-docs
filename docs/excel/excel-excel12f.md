@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - excel function [excel 2007],Excel12f function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

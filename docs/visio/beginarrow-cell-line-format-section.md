@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm51105
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ab4044e-2d77-1fbe-ef20-5d029bc064ba
 description: "Indicates whether a line has an arrowhead or other line end format at its first vertex. Enter a number from 0 to 45 or the USE function with the name of a custom line end, or use the Line dialog box."
 ---

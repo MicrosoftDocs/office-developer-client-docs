@@ -3,7 +3,7 @@ title: "DateAdd function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2
 description: "Returns a specified date with the specified number interval (positive or negative integer) added to a specified date part of that date."
 ---

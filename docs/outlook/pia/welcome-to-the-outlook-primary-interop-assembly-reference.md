@@ -15,7 +15,7 @@ f1_keywords:
 - primary interop assembly [Outlook 2010]
 - PIA [Outlook 2010]
 - reference [Outlook 2010], primary interop assembly
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Outlook Primary Interop Assembly reference

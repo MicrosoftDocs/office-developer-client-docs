@@ -3,7 +3,7 @@ title: "Disconnecting an Offline State Add-in"
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
 description: "Last modified: December 07, 2015"
 ---

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7eb20f21-0218-4a2c-9bbc-90218a1e87bc
 description: "You can use the ChangeView action to navigate between views in place."
 ---

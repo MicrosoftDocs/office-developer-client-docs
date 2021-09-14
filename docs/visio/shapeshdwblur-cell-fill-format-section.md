@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90ace659-d979-43e1-ac64-25af3ec5d666
 description: "Determines the size of the blur for a shape's shadow, in points (0.00 to 100.00)."
 ---

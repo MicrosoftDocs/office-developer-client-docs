@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1075
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d9717c1-4310-0d62-874f-4df77cd81627
 
 description: "Determines the code of an inserted field in versions of Visio earlier than Visio 2000."

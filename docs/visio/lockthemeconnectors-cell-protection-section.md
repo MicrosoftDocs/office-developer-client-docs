@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae7ddd55-7bcc-4bb6-bab7-97806122f166
 description: "Prevents the ConnectorsSchemeIndex cell in the Theme Properties row from being altered by applying a new theme or selecting a new connector scheme. Does not prevent users from manually editing this value in the ShapeSheet."
 ---

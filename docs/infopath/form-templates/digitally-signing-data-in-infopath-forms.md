@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b396d9f-9a47-3170-367f-5d1f0144f927
 description: "A digital signature is an electronic, encryption-based, secure stamp of authentication on a macro or document. A valid digital signature confirms that the data originated from the signer and has not been altered since it was signed. When documents or certain data in the documents are signed, the signature is computed and added to the document. This way, the signatures will always travel with the signed data."
 ---

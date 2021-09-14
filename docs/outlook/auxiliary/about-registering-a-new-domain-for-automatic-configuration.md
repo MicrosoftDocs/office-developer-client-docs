@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7ab8a50-dd30-4ba5-b6d8-e6d1f482e6f1
 description: "Outlook provides a way to specify a new message service domain for automatic configuration and allow the message service provider to configure the account."
 ---

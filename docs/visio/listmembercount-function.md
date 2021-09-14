@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d2276ac-f9fa-946c-aabf-45a5c6f8e1d0
 description: "Returns the number of member shapes in the list container shape."
 ---

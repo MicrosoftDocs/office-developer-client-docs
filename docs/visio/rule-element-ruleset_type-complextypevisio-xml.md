@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: "Represents a single validation rule in a diagram validation rule set."
 ---

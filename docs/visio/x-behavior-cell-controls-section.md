@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251285
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 82423d08-b6ce-0f23-8b61-354c3e5f323e
 
 description: "Controls the type of behavior the x -coordinate of the control handle will exhibit after the handle is moved."

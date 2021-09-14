@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60083
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10979706-6dfe-5241-e862-3f94716d14fa
 description: "Specifies the percentage to enlarge or reduce a shape's shadow."
 ---

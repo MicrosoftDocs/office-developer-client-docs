@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
 description: "This topic lists the elements in the Visio 2013 file format XML schema."
 ---

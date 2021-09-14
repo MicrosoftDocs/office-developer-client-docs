@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm745
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3afee07b-e91a-a91c-fba2-0e3251dd6385
 description: "Determines whether objects are placeable or routable in diagrams when you use the Configure Layout dialog box to lay out shapes."
 ---

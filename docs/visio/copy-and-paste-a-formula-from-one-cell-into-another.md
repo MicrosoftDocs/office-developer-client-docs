@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251809
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50492d89-b103-ce97-5c3d-de28412b648d
 description: ""
 ---

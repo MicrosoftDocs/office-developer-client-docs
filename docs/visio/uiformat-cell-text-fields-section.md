@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1080
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 
 description: "Determines the format of an inserted field in versions of Visio earlier than Visio 2000."

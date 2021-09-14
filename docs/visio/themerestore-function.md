@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca7e6621-f39b-64dd-3594-41d74da21a94
 description: "Stores the local formatting value of a shape when you apply a theme so that you can restore the local formatting if the user subsequently removes the theme."
 ---

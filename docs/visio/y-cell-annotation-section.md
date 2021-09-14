@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60095
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 527a4615-2013-a4b4-81cd-7f5d71c1803c
 
 description: "The y -coordinate of the comment marker in page coordinates."

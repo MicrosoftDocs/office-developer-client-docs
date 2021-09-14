@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56e0b544-8504-0fbb-5810-7cf94d775f7c
 description: "Determines the vertical position, relative to the origin of its parent, of a horizontal guide or guide point to which the shape's top border is aligned."
 ---

@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, form windows,form windows [InfoPath 2007], InfoPath 2003-compatible form templates
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 
 description: "When working programmatically with an InfoPath form, you can write code to access the form's windows, and then customize some of the items that they contain. The InfoPath 2003-compatible object model supports access to a form's windows through the use of the WindowObject interface in association with the WindowsCollection interface."

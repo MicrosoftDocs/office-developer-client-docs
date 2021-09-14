@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - tempnum12 function [excel 2007],TempNum function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b74d618-db3a-4d84-bd17-4fee7ae3b51e
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e823797e-dde9-6ee7-b5e4-9e57cef90b08
 description: "Contains an arbitrary string value that is used to supply additional information about a shape."
 ---

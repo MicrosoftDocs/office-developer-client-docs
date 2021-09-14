@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
 description: "This topic shows a function, ReadTimeZones, that calls the two functions, BinToTZDEFINITION and BinToTZREG, to read the time zone properties, PidLidAppointmentTimeZoneDefinitionStartDisplay and PidLidTimeZoneStruct, from an appointment."
 ---

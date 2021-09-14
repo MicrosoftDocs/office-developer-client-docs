@@ -3,7 +3,7 @@ title: "About Notification-Based Store Indexing"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3685890-117c-9acc-e19f-cf22a349a088
 description: "Last modified: July 23, 2011"
  

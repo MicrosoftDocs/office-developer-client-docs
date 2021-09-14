@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a395ca32-c315-4cd2-b93c-43c74fa017ba
 description: "Represents the server name of the SMTP account."
 ---

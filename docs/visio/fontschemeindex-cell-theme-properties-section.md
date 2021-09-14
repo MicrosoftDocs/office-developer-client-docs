@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b832d75b-dac2-495f-b86e-d7fc5a484cab
 description: "Determines the font scheme of a theme that is applied to the shape, as an integer."
 ---

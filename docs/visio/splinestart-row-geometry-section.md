@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3055
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
 description: "Contains x - and y -coordinates for a spline's second control point, its second knot, its first knot, the last knot, and the degree of the spline."
 ---

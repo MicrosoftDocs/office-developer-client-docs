@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - visual studio tools for applications, installing .net framework help,VSTA, installing .NET Framework Help,installing .NET Framework Help [InfoPath 2007],InfoPath 2007, installing .NET Framework Help
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 69b293ac-8ddf-4ba6-92c8-37ed51358232
 description: "Download and install a local copy of .NET Framework 2.0 SDK documentation and perform the steps required to integrate that documentation with the Visual Studio 2012 development environment."
 ---

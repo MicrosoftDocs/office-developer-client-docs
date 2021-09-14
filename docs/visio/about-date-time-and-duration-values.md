@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251852
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6951a92-f32a-5829-5e07-b277b7934df3
 description: "You can perform operations in formulas using date, time, and duration values. In Microsoft Visio, a date and time expression can be evaluated as a single value. A date and time expression is any expression commonly recognized as a date and/or time or a reference to a cell containing a date and/or time. This includes strings and numbers that look like a date and time, and date and time values returned from functions."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251509
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ef94ee0f-dbb8-a2e1-1805-8a6609830d2a
 description: "Returns a string converted to uppercase."
 ---

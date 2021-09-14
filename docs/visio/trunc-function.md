@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251508
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
 description: "Returns a number truncated to the specified number of digits."
 ---

@@ -3,7 +3,7 @@ title: "Receive Folder Tables"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5ff1a5e3-5b96-4f08-9b9b-aeb14304b23b

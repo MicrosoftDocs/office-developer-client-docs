@@ -3,7 +3,7 @@ title: "Synchronizing Text and Formatting"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d7e166f0-1214-4571-b9a8-366960772a7a

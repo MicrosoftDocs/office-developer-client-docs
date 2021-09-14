@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251487
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a95fd86d-ebc1-66b6-e7d9-9c8ea84d23ab
 description: "Returns the red component of a color."
 ---

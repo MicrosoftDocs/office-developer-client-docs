@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: "Specifies the font used for the header and footer text."
 ---

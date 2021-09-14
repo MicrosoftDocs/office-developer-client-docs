@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251230
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3399716-44de-f8cc-8b42-446284d2fbd4
 description: "Contains cells that control line attributes for a shape, such as pattern, weight, and color. They determine whether the line ends are formatted (for example, with an arrowhead), the size of line end formats, radius of the rounding circle applied to the line, and line cap style (round or square)."
 ---

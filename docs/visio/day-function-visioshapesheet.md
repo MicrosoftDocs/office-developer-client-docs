@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251415
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b0842ae-6893-2d7b-6cb2-8905198fae30
 description: "Returns an integer, 1 to 31, representing the day in datetime or expression. The DAY function uses the Gregorian calendar."
 ---

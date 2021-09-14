@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm695
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44995137-d241-937a-c097-0f9d79203cdf
 
 description: "Specifies whether to open the hyperlink in a new window."

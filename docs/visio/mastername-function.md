@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251581
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 519d79d4-9178-2231-c26d-aa7f31a43412
 description: "Returns a sheet's master name as a string, or returns the string 'no master' if the sheet doesn't have a master."
 ---

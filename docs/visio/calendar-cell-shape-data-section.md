@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60027
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
 
 description: "Determines the calendar that is used for shape data when the data type is Date."

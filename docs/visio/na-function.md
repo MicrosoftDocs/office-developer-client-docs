@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251468
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14268877-d791-91d1-cff6-657c01e63e0f
 description: "Returns the error value #NA!."
 ---

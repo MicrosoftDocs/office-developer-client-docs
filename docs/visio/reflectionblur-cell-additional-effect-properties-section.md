@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ece15159-6a33-4abd-8775-6fbe1cc43793
 description: "Determines the amount of blur for a reflection on a shape, in points between 0.0 and 100.0."
 ---

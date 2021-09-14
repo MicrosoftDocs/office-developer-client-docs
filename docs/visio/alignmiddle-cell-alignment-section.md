@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm40
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 444bf9e2-80e8-cbe5-6855-b445f16e7920
 description: "Determines the vertical position, relative to the origin of its parent, of a horizontal guide or guide point to which the shape's vertical center is aligned."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm885
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b647cbb5-2769-068d-bbda-2dc983c47ac9
 description: "Determines whether placeable shapes can be placed on top of a shape when laying out shapes in the Configure Layout dialog box (on the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options)."
 ---

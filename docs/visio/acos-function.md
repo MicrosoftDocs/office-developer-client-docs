@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251394
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75807d66-6483-2785-567c-d238067e1e52
 description: "Returns the arccosine of number, for example, the angle whose cosine is number ."
 ---

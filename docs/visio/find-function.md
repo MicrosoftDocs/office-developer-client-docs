@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60101
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c827ecd4-5593-6d4f-2746-d13b02b098fe
 description: "Finds one text string contained within another text string, and returns the starting position of the text string you are seeking relative to its position in the text string that contains it."
 ---

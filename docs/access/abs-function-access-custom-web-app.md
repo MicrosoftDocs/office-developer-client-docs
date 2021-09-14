@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c880a662-dc4b-4b37-bbd4-3cb681dc1d1c
 description: "Returns the absolute (positive) value of the specified numeric expression."
 ---

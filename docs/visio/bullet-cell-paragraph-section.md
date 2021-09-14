@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm130
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 124a5ee1-6dd1-d17d-6f0e-dbaa5d95d9cd
 
 description: "Determines the bullet style."

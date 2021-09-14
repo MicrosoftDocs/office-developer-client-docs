@@ -3,7 +3,7 @@ title: "Required Report Message Properties"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089

@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8cbafca3-7831-4231-8e61-38330b5ad61b
 description: "Before you can program against members of the SharePoint object model from code running in an InfoPath form template, you must reference the Microsoft.SharePoint.dll assembly in the Visual Studio 2012 project for your form. To do that, you must have access to the file system of a licensed copy of Microsoft SharePoint Server 2010 or a server that is running Microsoft SharePoint Foundation 2010 so that you can obtain a copy of the Microsoft.SharePoint.dll assembly."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm375
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dac82a4f-4508-541a-e118-7d79df987232
 description: "Determines the fill pattern for the shape. To specify a custom fill pattern, use the USE function in this cell."
 ---

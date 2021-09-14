@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - accessing excel handles,handles [Excel 2007], accessing,Excel instances, accessing,window handles [Excel 2007], accessing
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -3,7 +3,7 @@ title: "Security levels, email deployment, and remote form templates"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fc438ad-ae26-3632-3444-371537eaecb3
 description: "Microsoft InfoPath supports moving form templates from one location to another, sending them as an attachment to an email message, and creating Full Trust form templates that are digitally signed or installed."
 ---

@@ -7,7 +7,7 @@ ms.date: 02/09/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 802224ef-6eea-4929-824c-507da1c073a5
 description: "Office for iOS integrates with the iOS Document Picker by means of the Document Provider extension, which enables Office to open files stored by another document provider."
 ---

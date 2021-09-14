@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm70002
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84179718-d7a6-d503-08f2-213571bf108f
 
 ---

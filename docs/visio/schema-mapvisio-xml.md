@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ff1f2e1-bdfe-2766-3c0f-0f299cc256e9
 description: "This topic shows the XML schema definition for the Visio 2013 file format."
 ---

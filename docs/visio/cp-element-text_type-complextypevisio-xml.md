@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
 description: "Marks the beginning of a character properties run that is formatted according to the corresponding Char element. The run is defined to the end of the text or until the next tag."
 ---

@@ -3,7 +3,7 @@ title: "CreateRecord Data Block (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9dd73bae-a8d5-4d8b-b356-01ac72f7e5d9
 description: "You can use the CreateRecord data block to create a new record in the specified table."
 ---

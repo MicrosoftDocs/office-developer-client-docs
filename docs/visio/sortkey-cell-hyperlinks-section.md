@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60086
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: "A number that determines the order of hyperlinks that appear on a shortcut menu."
 ---

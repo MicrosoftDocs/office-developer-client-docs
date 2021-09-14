@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
 description: "Reports completion for rebasing of appointments."
 ---

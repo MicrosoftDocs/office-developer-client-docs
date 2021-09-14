@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251642
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfea4ef4-1b30-eb22-215d-3b9b73098da9
 description: "Determines whether the application lays out shapes based on an internal, invisible page grid when you configure the layout in the Configure Layout dialog box. (On the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options.)"
 ---

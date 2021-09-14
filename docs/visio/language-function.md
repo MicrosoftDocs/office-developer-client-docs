@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e372c670-e9a0-4352-b70a-3a054b036124
 description: "Allows comparison operations between different language representations. It is best used for converting Internet Engineering Task Force language tags (BCP 47) values to locale id (LCID) values."
 ---

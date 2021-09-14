@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251746
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11c69600-4e1f-4c52-ff35-b6a7cc6c734c
 
 description: "Represents the x -coordinate for a connection point in local coordinates."

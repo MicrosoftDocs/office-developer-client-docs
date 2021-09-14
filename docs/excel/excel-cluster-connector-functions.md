@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65927ef9-29f7-499a-a1c1-6f672c09bb6b
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

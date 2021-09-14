@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60051
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 815e0df8-5ebf-ef1b-d620-bce8abb69f1a
 description: "Indicates the language in which cell formulas were created."
 ---

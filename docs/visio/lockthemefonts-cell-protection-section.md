@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ce8b52c-b6c1-4764-b4ec-00c7efb8929d
 description: "Prevents the FontIndex cell in the Theme Properties row from being altered by applying a new theme. Does not prevent users from manually editing this value in the ShapeSheet."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1230
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02c139db-fe67-f550-1d07-8c8a9a4fb427
 description: "Determines the method by which the drawing is analyzed before creating the layout, and determines the type of layout."
 ---

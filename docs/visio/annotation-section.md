@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1024505
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 616c822e-1bb2-4980-7e45-0c2be77dd801
 description: "Contains information about comments inserted into a document page."
 ---

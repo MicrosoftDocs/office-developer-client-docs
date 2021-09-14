@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251254
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f2e362a-3ace-787d-6326-b5bf707f0727
 
 description: "Represents the distance the first line of each paragraph in the shape's text block is indented from the left indent of the paragraph. This value is independent of the scale of the drawing. If the drawing is scaled, the first line indent remains the same."

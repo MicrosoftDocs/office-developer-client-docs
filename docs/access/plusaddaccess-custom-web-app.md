@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ba40adb-420a-4e5f-8858-d706da6cb497
 description: "Adds two numbers. This addition arithmetic operator can also add a number, in days, to a date."
 ---

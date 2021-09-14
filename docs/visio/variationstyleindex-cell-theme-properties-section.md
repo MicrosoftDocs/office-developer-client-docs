@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 932195d5-2cb7-49f7-bc64-4ce00bf780b2
 description: "Determines the style index of the active theme variation on the page, as an integer."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251604
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcbc240a-e36d-b27f-02c3-fd1eac04114a
 description: "Returns the date and time a document was created, as a serial value."
 ---

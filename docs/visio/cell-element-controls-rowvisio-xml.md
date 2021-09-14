@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c04d243-002c-bb00-a4be-0bcb8e156402
 description: "Contains a property for a particular control handle defined for a shape."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251440
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f5c6097-eef5-5f58-e2ef-2c348e42dc9a
 description: "Returns the value of a color's hue component."
 ---

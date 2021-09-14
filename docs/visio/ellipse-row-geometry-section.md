@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3010
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 183fb303-4acb-a486-7b97-f11f7ae3978f
 description: "Contains the x - and y -coordinates of the ellipse's center point and two points on the ellipse."
 ---

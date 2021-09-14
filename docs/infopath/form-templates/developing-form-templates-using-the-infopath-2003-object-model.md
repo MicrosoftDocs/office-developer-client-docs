@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - form templates [infopath 2007], using infopath 2003 object model,InfoPath 2003-compatible form templates,InfoPath 2007, developing form templates using InfoPath 2003 object model,object models [InfoPath 2003], developing managed code form templates
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c74cbcd0-4fe6-4eb7-a05c-f61e1868c42b
 description: "Microsoft InfoPath continues to support form template projects created with Microsoft Office InfoPath 2003 Toolkit for Visual Studio .NET or Visual Studio 2005 Tools for the Microsoft Office System that have business logic written against members of the Microsoft.Office.Interop.InfoPath.SemiTrust namespace. The topics in this section refer to the types and members of this namespace as the InfoPath 2003-compatible object model or simply the InfoPath 2003 object model. InfoPath also supports form template projects created with Microsoft Office InfoPath 2007 that use the InfoPath 2003-compatible object model. In addition, you can use InfoPath to create new form template projects that use InfoPath 2003-compatible object model to retain backward compatibility for users of Office InfoPath 2007. All topics in this section are specific to creating and developing form templates that work with the InfoPath 2003-compatible object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253261
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ee4fb340-0c6b-1c9a-9d97-827081bea235
 description: "Returns the number of the page that contains the shape."
 ---

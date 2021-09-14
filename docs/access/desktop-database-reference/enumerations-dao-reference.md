@@ -7,7 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn125640(v=office.15)
 ms:contentKeyID: 52074514
 ms.date: 09/14/2021
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Enumerations (DAO reference)

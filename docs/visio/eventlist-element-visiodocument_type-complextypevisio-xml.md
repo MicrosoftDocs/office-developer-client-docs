@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40bb8c7c-89ef-22e1-5edf-e2423fc89660
 description: "Contains an EventItem element for each event to which an object should respond."
 ---

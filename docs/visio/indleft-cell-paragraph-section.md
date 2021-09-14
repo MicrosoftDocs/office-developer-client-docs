@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251255
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31a7d0d4-4666-ddef-c5eb-4d13803e6a2f
 
 description: "Represents the distance all lines of text in a paragraph are indented from the left margin of the text block. This value is independent of the scale of the drawing. If the drawing is scaled, the left indent remains the same."

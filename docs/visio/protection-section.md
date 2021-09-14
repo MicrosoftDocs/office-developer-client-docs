@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2115
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3fec776a-e9a7-6774-d824-e905d427b8b4
 description: "Shows the current lock settings set with the Protection command (Developer tab) plus a few additional locks that can be set only in a ShapeSheet window."
 ---

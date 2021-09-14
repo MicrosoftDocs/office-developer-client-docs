@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7440a59b-1c7c-6477-32e7-35188fbd2b39
 description: "Contains an integer that specifies the relative position of a stencil within a group in a window."
 ---

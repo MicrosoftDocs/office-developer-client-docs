@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251483
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6519c55-5f98-ed0d-95b1-5443d0d23c0b
 description: "Returns a number raised to the power of an exponent."
 ---

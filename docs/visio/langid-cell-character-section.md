@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033769
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c68289b8-ef45-9e1e-12ae-6613587e4990
 
 description: "Indicates the language in which the text was entered."

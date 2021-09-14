@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c2371c8-b0e0-4992-b7ac-3949eadf1ebe
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

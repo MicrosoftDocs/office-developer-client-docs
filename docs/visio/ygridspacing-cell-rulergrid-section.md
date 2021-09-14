@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1210
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30766e13-c90d-62fc-9c98-35ad7b0b4056
 description: "Specifies the distance between vertical lines in a fixed grid (YGridDensity = 0)."
 ---

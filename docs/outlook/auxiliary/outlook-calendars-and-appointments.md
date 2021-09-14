@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7919a255-2935-4cb0-bffa-9d431d77848a
 description: "This section provides conceptual information about Outlook calendars and appointments, including the Free/Busy API, meeting request updates, and rebasing calendars for daylight saving time."
 ---

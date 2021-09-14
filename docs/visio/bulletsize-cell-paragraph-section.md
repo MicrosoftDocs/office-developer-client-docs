@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033780
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ff5d07b-17e2-f6ca-1860-5d498a9ebf06
 
 description: "Specifies the size of a bullet."

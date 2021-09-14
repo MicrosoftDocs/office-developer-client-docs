@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm51095
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b265356-1602-4241-fbe1-4d5a55392a52
 description: "Determines the transparency level for a layer color."
 ---

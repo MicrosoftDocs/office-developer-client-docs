@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253247
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40008507-d9e4-9c0e-603f-d5e6da73a94b
 description: "Determines how a placeable shape flips, rotates, or both on the page when you are laying out shapes by using the Configure Layout dialog box (on the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options)."
 ---

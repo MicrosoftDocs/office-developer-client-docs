@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48ab98bd-2966-443c-b3db-befeb271550f
 description: "Determines the connector scheme of a theme that is applied to the shape, as an integer."
 ---

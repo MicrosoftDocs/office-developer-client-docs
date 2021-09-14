@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 97f08cde-d6e4-8935-1758-4018a3baf682
 description: "Gets the type and categories information for the specified account."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c893bfa-c2ca-48fa-8a3e-fd5ba3681a18
 description: "Subtracts two numbers. This arithmetic subtraction operator can also subtract a number, in days, from a date."
 ---

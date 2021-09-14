@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251884
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 25c9f817-d22b-28c9-1339-dc9f27d0dd41
 description: "References a cell and doesn't recalculate the formula when the referenced cell changes."
 ---

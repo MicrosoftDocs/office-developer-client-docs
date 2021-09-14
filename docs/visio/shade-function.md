@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b4fbcb8-1ae4-c9fb-6337-b72f49aedd91
 description: "Modifies the color by decreasing its luminosity by the amount (positive or negative) specified in the int parameter."
 ---

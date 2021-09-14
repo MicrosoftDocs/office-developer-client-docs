@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae99a0fa-76c4-4c07-9ae9-a7abce23394f
 description: "Returns part of a text expression."
 ---

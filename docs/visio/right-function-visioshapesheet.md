@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027314
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 910f0297-d588-2048-f308-03f3c2389bba
 description: "Returns the last character or characters in a text string, based on the number of characters you specify."
 ---

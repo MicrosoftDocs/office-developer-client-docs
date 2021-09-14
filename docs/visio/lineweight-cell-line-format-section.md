@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm585
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
 description: "Determines the line weight of a shape. Set the line weight by entering a number with a valid unit of measure."
 ---

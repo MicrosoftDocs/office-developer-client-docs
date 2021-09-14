@@ -3,7 +3,7 @@ title: "Ending a MAPI Session"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ca153737-75dc-426a-a410-7a7ab3264f23

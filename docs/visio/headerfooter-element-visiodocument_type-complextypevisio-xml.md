@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 026926cf-3d0b-984c-897e-9d28346b7ba7
 description: "Contains elements for a document's header and footer."
 ---

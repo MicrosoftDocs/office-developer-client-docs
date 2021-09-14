@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87499dab-977a-45bc-9f6a-8daa80a82abb
 description: "Determines the distance the object is raised from the ground in points when rotated in 3-D."
 ---

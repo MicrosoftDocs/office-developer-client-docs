@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0f6d0ee-ae3b-f871-11fd-dc5b955c1bf3
 description: "Specifies whether a grid is shown in the drawing window."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251494
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 407817fb-9e4a-d2ca-6125-2440d2a417c6
 description: "Returns the value of a color's saturation component."
 ---

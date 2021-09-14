@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df210364-fe20-8e33-a455-9902f04ec739
 description: "Deletes the specified account."
 ---

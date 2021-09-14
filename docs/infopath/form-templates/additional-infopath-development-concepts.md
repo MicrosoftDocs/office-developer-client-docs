@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 917e9a1d-df17-4732-8496-097c6b7bcd1f
 description: "This section provides information about additional InfoPath development concepts and tasks."
 ---

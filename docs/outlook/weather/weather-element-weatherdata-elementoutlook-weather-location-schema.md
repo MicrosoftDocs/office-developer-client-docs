@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
 description: "Specifies the location to report weather on."
 ---

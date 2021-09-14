@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d8a56746-4de4-4f24-af32-e85079c060b8
 description: "The Outlook Social Connector (OSC) calls the ISocialProvider::GetCapabilities method to determine the capabilities of the OSC provider for a social network."
 ---

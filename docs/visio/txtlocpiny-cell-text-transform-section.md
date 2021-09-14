@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251276
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f46cfcf-7eac-4a37-e782-39f4e7f8fc43
 description: "Determines the y -coordinate of the text block's center of rotation relative to the origin of the text block. The default formula is:"
 ---

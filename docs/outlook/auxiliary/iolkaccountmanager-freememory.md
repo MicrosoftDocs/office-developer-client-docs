@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acb67186-ab38-e918-5402-2526307a5bd0
 description: "Frees memory allocated by the IOlkAccountManager interface."
 ---

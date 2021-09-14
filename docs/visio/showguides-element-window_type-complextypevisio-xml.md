@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b81bc46b-6eff-c11f-f583-85959a47c313
 description: "Specifies whether guides are shown in the drawing window."
 ---

@@ -3,7 +3,7 @@ title: "MAPI client objects"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df

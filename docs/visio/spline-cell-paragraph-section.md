@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm970
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84f4e5f1-7c28-9e83-8644-28d117bb10a5
 
 description: "Determines the distance between one line of text and the next, expressed as a percentage, where 100% is the height of a text line."

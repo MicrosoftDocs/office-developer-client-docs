@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c603f9a5-f887-47ce-90bb-d41ec2d1a6a1
 description: "Determines the direction of the line gradient. A gradient can be linear, radial, rectangular, or follow a path."
 ---

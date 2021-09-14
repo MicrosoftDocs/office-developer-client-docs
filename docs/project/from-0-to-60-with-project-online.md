@@ -3,7 +3,7 @@ title: "From 0 to 60 with Project Online"
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b48958e-6dab-4121-871f-fb15f58f1b24
 description: "An application developer can customize a Project Online site (SharePoint hosted) using standalone applications and/or Project add-ins. A wealth of applications is possible that range from addressing needs of those involved in a project to PMO support functions, such as any of the following:"
 ---

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, common tasks,form templates [InfoPath 2007], common tasks for developing 2003-compatible
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 578a38a9-b8d8-42e2-b98b-5e5bb85ebe05
 description: "This topic is designed to help you quickly find the answers to common questions about developing form templates with form code that works against the Microsoft.Office.Interop.InfoPath.SemiTrust assembly."
 ---

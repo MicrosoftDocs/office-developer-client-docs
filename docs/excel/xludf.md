@@ -8,7 +8,7 @@ f1_keywords:
 - xlUDF
 keywords:
 - xludf function [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b608b356-ca5c-47bb-9de8-9b7e2b3924dd
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60072
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
 description: "Specifies the percentage of magnification of the drawing page on the printer page."
 ---

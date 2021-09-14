@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253219
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6e410ef-54d5-9c08-926b-97a2a9786622
 description: "Returns a background page name as a string."
 ---

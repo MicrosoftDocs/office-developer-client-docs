@@ -3,7 +3,7 @@ title: "Implementing a Container One-Off Table"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eabbde74-49a1-4eeb-a01d-67e45ae4b343

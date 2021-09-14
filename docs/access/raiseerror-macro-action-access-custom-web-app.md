@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e29bf64-300a-4094-82ff-664e79782d86
 description: "The RaiseError action displays a popup window that contains a specified error message."
 ---

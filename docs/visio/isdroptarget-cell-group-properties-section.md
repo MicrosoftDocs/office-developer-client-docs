@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm495
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8140fc7b-b99c-54bb-7af3-7de6fcdae7d3
 description: "Determines whether the group allows you to add a shape to it by dropping it on the group."
 ---

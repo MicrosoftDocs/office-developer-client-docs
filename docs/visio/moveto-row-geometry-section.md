@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3030
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c5b20257-676c-279d-f730-1b6fbbe98305
 description: "Contains the x - and y -coordinates of the first vertex of a shape, or represents the x - and y -coordinates of the first vertex after a break in a path."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1024510
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70b00dd9-78d6-eb0f-b5c1-686eb397cf4b
 description: "Contains identifying information about each document reviewer."
 ---

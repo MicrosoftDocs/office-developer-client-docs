@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 764a8e77-5308-e6ce-8763-dc6e6090da9d
 description: "Shows the formatting attributes for a text run of the shape, such as font, color, text style, case, position relative to the baseline, and point size."
 ---

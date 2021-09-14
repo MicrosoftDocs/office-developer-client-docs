@@ -3,7 +3,7 @@ title: "Autocomplete Stream"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: "Last modified: March 09, 2015"
  

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a900e174-d26a-4314-ae4f-d89e186350ce
 description: "Contains x -and y -coordinates of the ending vertex of a straight line segment relative to a shape's width and height."
 ---

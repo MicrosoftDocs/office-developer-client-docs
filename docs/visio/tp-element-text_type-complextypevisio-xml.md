@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
 description: "Specifies the beginning of a tabs properties run. The run is defined to the end of the text or until the next tag."
 ---

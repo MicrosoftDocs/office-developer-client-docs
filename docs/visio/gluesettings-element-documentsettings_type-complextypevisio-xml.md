@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5675dea-3b78-9fc2-c1c0-51fefe45c6e3
 description: "Specifies the objects that shapes glue to when glue is enabled in the document."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 39192535-b55b-4c49-b63f-edb542c7a2e5
 description: "Determines the amount of randomization of the shape's line from the shape's geometry when using a sketch effect, as a percentage of the length of a section. If the value of the SketchLineChange cell is set to 0%, the geometry of the shape's line matches the shape's geometry. If the value is 100%, the geometry of the shape's line does not follow the geometry of the shape."
 ---

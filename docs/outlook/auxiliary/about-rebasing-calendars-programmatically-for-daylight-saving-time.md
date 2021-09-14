@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38b342d9-ab10-04b6-5490-9a45f847a60f
 description: "In this topic, this period between the spring and fall is referred to as the DST period."
 ---

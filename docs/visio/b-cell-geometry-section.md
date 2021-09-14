@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251751
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0fb6a47-47d8-ab9c-854d-0b0bbfdfcc27
 
 description: "Represents different information in different rows. This table describes the B cell based on the row in which it's located."

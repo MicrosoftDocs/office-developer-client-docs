@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e07d97a4-9896-4b88-9e76-5a1b3f133094
 description: "Determines the perspective angle for a perspective rotation, in degrees (0 to 359.9)"
 ---

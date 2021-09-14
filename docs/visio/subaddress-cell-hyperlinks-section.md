@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm985
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 949448fd-0f85-b56a-945e-1da0e48609e8
 description: "Specifies a location within the target document to link to."
 ---

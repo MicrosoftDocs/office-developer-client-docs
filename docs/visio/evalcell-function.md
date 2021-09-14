@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4aa3a1c9-dec9-5eb0-5743-0534c0b3bb5f
 description: "Takes a reference to a cell that contains a custom function as well as one or more name-value pairs to pass to the custom function as arguments (optional). Returns the calculated result of the custom function given the specified arguments and values."
 ---

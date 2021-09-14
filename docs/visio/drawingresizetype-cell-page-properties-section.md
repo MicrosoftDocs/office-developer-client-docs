@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm80002
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99a5ca0e-5cb4-64cc-8af5-15ac6d02c77f
 description: "Determines whether the drawing page resizes automatically to fit the diagram."
 ---

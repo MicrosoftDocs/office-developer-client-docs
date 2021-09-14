@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 260ee328-e73f-48bc-7762-d592b7d42afc
 description: "Returns or sets the account name."
 ---

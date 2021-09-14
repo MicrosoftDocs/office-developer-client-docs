@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251345
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67fa5389-f0b9-a9db-8d19-9b16e256dfa3
 description: "Evaluates to a string that influences the order in which items in the Shape Data window are listed."
 ---

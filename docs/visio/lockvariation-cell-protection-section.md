@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 36acb95d-5d3b-4d8b-9b6c-effbc78c84c2
 description: "Determines whether the theme variation applied to the page or shape can be changed, as a Boolean."
 ---

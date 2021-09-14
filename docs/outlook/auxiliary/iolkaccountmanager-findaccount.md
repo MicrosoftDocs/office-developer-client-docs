@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
 description: "Finds an account by property value."
 ---

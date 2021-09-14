@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 keywords:
 - xlfgetdef
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 68f5edbd-9040-46d3-acd5-dd51ca82f6fa
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

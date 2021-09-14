@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm875
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ba68e05-f394-d7b7-390d-f0a9fdad011e
 description: "Determines how you select a group shape and its members."
 ---

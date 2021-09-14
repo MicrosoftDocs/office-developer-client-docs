@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - errors [infopath 2007], handling,FormErrorCollection [InfoPath 2007],InfoPath 2007, error handling,FormError [InfoPath 2007],error handling [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 132cb698-d9a5-4767-b3d1-5dd1343a1ff4
 description: "When creating custom applications, developers must often perform error handling that involves writing programming code to check for errors raised by the application or to create and raise custom errors. The InfoPath object model provided by the Microsoft.Office.InfoPath namespace supports error handling through the use of the FormError class in association with the FormErrorCollection class."
 ---

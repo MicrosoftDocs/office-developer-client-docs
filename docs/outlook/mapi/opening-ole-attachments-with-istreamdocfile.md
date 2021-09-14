@@ -3,7 +3,7 @@ title: "Opening OLE attachments with IStreamDocfile"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f91df63c-ff6d-4c63-a665-5bcfdabe7e0e

@@ -3,7 +3,7 @@ title: "Personal Form Libraries"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6ffcd93c-3737-4342-9cd0-2ca7c0fba52c

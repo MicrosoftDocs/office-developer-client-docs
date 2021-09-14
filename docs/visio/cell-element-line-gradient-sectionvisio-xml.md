@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8001249c-ea67-c5c0-3168-485400c43d8c
 description: "Contains the color, transparency, or position of a gradient stop for a line gradient."
 ---

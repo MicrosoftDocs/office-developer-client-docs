@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm200
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0e4c644-c646-9649-c697-82feb02f5e29
 description: "Adjusts the contrast of a bitmap image. Decrease the contrast of an image by entering a value between 0% and 49%, or increase the contrast by entering a value between 51% and 100%. The default value is 50%."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm110
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be51e18e-ea49-0788-1a17-866090afb9f4
 description: "Determines the vertical block size, the area in which each of your shapes must fit on the drawing page when you lay out shapes by using the Configure Layout dialog box (on the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options)."
 ---

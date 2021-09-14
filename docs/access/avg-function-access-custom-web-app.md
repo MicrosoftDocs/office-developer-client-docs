@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d432e823-a255-4860-9c8b-201b2e0476fd
 description: "Calculates the arithmetic mean of a set of values contained in a specified field."
 ---

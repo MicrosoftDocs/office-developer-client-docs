@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61faf0d6-c0a2-9350-8712-7a450591afad
 description: "Contains x- or y-coordinates for a spline's control point or a spline's knot."
 ---

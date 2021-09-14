@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aec47b43-adbe-3344-fbac-29554f244c99
 description: "Specifies information about the validation rule that the parent validation issue pertains to."
 ---

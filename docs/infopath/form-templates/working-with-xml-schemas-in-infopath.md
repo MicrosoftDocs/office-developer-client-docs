@@ -3,7 +3,7 @@ title: "Working with XML Schemas in InfoPath"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: "A form template that you create with Microsoft InfoPath uses an XML Schema (XSD) to perform structural and data validation on the XML that is input, edited, and output from an InfoPath form. Every form template created in the InfoPath form designer contains at least one XSD schema file (.xsd) that is used for validation at run time."
 ---

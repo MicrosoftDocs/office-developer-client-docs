@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xlfevaluate function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

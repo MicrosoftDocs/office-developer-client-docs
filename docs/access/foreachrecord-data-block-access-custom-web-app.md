@@ -4,7 +4,7 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ffa0de2-5abb-4375-9fb5-042ce3c21506
 description: "A ForEachRecord data block repeats a set of statements for each record in a domain."
 ---

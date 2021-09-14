@@ -3,7 +3,7 @@ title: "Registering Services and Service Providers in MapiSvc.inf"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a04acf17-4b2d-458e-9852-b6074acac096
 description: "Last modified: July 18, 2013"
  

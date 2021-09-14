@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
 description: "Registers a client with the account manager for notifications regarding all accounts."
 ---

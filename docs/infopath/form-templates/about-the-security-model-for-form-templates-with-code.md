@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2007, security,code access security [InfoPath 2007],security [InfoPath 2007], security model for managed code,security [InfoPath 2007], levels,CAS [InfoPath 2007],InfoPath 2003-compatible form templates, security,permissions [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e1c1c72-f98d-4871-9c57-82c315277aa1
 description: "InfoPath managed code form templates support the same security levels as script running in unmanaged form templates, and they also support additional code access security features that apply to managed code running under the common language runtime (CLR) of the .NET Framework."
 ---

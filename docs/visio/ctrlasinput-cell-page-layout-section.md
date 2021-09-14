@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1225
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6fd0aba-7c33-b77f-207b-ba704b3e0756
 description: "Determines which shape is the parent when using shapes with control handles. This cell sets the behavior for all the shapes on the drawing page."
 ---

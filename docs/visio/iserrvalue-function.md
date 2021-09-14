@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251453
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c7feec6f-f47a-60ee-b056-7b2dc51ed9a9
 description: "Returns TRUE if the value of cellreference is error type #VALUE, where an argument in the formula is the wrong type. The ISERRVALUE function is used in logical expressions that refer to another cell."
 ---

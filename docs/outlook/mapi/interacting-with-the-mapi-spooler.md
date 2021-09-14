@@ -3,7 +3,7 @@ title: "Interacting with the MAPI Spooler"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5cc1d0a8-ad23-4173-b220-b7c0169073fa

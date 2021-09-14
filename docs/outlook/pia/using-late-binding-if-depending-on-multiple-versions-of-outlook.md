@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/office/bb610234(v=office.15)
 ms:contentKeyID: 55119791
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Using late binding if depending on multiple versions of Outlook

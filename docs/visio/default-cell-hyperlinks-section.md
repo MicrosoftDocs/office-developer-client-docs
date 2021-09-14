@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251545
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0edea0ea-58dd-15da-6d4f-185d40133452
 
 description: "Determines the default hyperlink for a shape or page. Set the value of this cell to TRUE to set a hyperlink as the default."

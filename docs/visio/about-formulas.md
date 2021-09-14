@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251823
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec0de3e1-21dc-c5d6-2c2a-d5fef80d89bd
 description: "The key to controlling shape actions is to write formulas that define the behavior you want. You can edit a cell's formula to change the value of the cell and, as a result, change a particular shape's behavior. For example, the Height cell in the Shape Transform section contains a formula that you can change to alter the shape's height."
 ---

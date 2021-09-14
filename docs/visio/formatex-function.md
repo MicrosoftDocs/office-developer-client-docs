@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251590
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d375c971-fee2-baa3-dc4f-a26018e70e8a
 description: "Returns the result of expression evaluated in srcUnit as a string formatted according to format expressed in dstUnit."
 ---

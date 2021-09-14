@@ -3,7 +3,7 @@ title: "Special Folders in Message Stores"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9462070e-1472-4e12-ba4e-e4ac60022892

@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - convertxlref12toxlref function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

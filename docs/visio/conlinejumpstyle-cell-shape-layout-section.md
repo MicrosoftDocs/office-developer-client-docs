@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251655
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: baa05a50-97d0-3769-635e-0ea20317d59a
 description: "Determines the line jump style for line jumps on a dynamic connector."
 ---

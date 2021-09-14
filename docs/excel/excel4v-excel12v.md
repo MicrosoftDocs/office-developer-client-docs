@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - excel12v function [excel 2007],Excel4v function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60058
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc4c373c-f073-e3c9-3aaa-a4abf050cd20
 
 description: "Indicates the type of text field."

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54377ab4-8c69-4d7a-b9b7-278241823c8d
 description: "Returns a string that represents the social network user ID of the user who is currently logged on."
 ---

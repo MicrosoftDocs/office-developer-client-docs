@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251438
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9314c39-1d2e-a18f-c01b-8817286099dc
 description: "Returns a value representing an index in the document's color palette. It specifies a color by its hue, saturation, and luminosity components."
 ---

@@ -10,7 +10,7 @@ f1_keywords:
 - vbaac10.chm174420
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # MinimizeWindow macro action

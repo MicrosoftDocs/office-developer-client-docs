@@ -3,7 +3,7 @@ title: "Add a definition for a new user-defined field"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
 description: "Last modified: July 23, 2011"
 

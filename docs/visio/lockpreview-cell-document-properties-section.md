@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251742
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a2bb1a7-e688-d32f-f231-ac6916d838a6
 description: "Determines whether a preview is saved each time you save a drawing."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251355
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1b24e45-6f08-686b-b53d-e85fb9087a50
 description: "Determines whether other shapes can snap to shapes assigned to the layer. Shapes assigned to the layer can snap to other shapes, but other shapes can't snap to them."
 ---

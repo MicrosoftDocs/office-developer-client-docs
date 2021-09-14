@@ -12,7 +12,7 @@ dev_langs:
 - xml
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Before Change macro event

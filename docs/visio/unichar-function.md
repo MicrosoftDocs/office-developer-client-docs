@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60117
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
 description: "Returns the Unicode character from a number."
 ---

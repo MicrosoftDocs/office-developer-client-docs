@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251433
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db80f147-71a0-0b23-bc7e-fe1915dfdd21
 description: "Calculates a text block's correct angle of rotation for the indicated shape rotation to prevent the text from turning upside down."
 ---

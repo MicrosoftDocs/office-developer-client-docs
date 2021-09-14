@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fbb4b16-fe54-42d6-803a-c9980897166d
 description: "Determines the type of lighting used by the bevel effect."
 ---

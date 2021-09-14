@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60062
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f864c759-ed94-8ab7-d664-cc04b3ed743e
 description: "Specifies the margin on the right of the printed page."
 ---

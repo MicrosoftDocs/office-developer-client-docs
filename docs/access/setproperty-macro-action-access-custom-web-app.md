@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e97dd95-23f6-4f49-b3b9-2c7261b3a70d
 description: "You can use the SetProperty action to set a property for a control on a view."
 ---

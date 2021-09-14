@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d943560f-66d8-47c3-96d9-202c2548874f
 description: "Discards changes to the current record."
 ---

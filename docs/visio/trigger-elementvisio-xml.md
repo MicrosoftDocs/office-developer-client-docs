@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d897d2d1-25ba-48d7-b87e-d3c533d88c15
 description: "Provides instructions to Microsoft Visio to recalculate a relationship between document parts in a Visio file."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 905cd1cc-14d3-5d37-89c4-f8461a03dda2
 description: "Modifies the color by decreasing its luminosity by the specified percentage."
 ---

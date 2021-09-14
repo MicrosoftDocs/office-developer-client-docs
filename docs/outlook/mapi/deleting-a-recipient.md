@@ -3,7 +3,7 @@ title: "Deleting a Recipient"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f7495030-e3b8-4c7c-9e19-284ba820e846

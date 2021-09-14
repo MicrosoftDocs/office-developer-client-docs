@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: "Contains rows that list the coordinates of the vertices for the lines and arcs that make up the shape."
 ---

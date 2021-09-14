@@ -3,7 +3,7 @@ title: "MAPI Progress Objects"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e446004e-1ef2-4e58-b764-de7b4dcefaf1

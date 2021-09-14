@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1bc4900-d261-f692-386b-139ef6960212
 description: "Specifies the primary accountsendstamp for a message."
 ---

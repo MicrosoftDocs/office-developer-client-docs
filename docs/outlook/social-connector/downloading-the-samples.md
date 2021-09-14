@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf0d3edc-3280-4500-8fae-bb7f338bb7dd
 description: "This topic describes how to download the code samples that accompany this documentation."
 ---

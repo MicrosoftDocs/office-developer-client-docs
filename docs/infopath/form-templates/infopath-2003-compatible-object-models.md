@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, object model,InfoPath 2003-compatible object model,object models [InfoPath 2003], compatible with InfoPath 2007,object models [InfoPath 2007], InfoPath 2003 compatible
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e4511af6-d7e7-44ad-a50d-1b7ee04f8215
 description: "Microsoft InfoPath is written as a Component Object Model (COM) application and exposes its programmability interfaces for both external automation and form template script as COM interfaces."
 ---

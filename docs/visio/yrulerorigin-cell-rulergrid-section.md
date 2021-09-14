@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1220
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d21b64f-a559-76ef-06df-d24c048cc6ef
 description: "Specifies the zero point on the y-axis ruler for the page."
 ---

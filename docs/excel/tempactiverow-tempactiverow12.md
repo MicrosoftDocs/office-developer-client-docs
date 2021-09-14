@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - tempactiverow function [excel 2007],TempActiveRow12 function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cbb9181c-59b0-4133-a085-94a94ac3f229
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b10221d-30f8-48f5-81ed-0283fdfc3e5d
 description: "Determines the Quick Style line style that the shape inherits, as an integer from 0-6."
 ---

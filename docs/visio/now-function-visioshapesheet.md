@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251470
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96cac1f6-cc17-466f-23d8-a9006e7de05f
 description: "Returns the current date and time value."
 ---

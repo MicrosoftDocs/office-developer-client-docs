@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ec70417-5b23-45af-95a0-1b26f6791699
 description: "Contains a reference to the geometry of the path that an image is bounded by."
 ---

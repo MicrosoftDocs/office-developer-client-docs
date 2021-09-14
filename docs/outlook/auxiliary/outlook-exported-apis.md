@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0fd2123-7c7a-40f3-8249-af2c9e9f272c
 description: "This section provides reference content for the APIs that Outlook exports."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f62650d-36f8-4c6e-b79f-c9c397a5954d
 description: "Represents a randomization value used to determine the geometry of a sketch effect, as a positive integer. The value of the SketchSeed cell is randomly created when a sketch effect is applied to the shape."
 ---

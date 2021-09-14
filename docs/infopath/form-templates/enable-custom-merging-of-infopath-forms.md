@@ -3,7 +3,7 @@ title: "Enable Custom Merging of InfoPath Forms"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: "The Merge Forms feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form."
 ---

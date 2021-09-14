@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50110
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cafd7589-1c94-b9bc-b1a6-40f7c15fba71
 description: "Determines the appearance of a connector."
 ---

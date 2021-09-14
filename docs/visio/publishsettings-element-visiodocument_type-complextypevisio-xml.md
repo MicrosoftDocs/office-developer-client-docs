@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0a41494-ffad-c56c-2074-135b3d0bffb9
 description: "Specifies the settings that are used when the diagram is opened using Visio Services in Microsoft SharePoint Server 2013."
 ---

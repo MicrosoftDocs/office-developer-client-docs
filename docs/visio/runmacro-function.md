@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033809
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86b0f071-5e0b-56de-ff5b-63c114ad823a
 description: "Calls a macro in a Microsoft Visual Basic for Applications (VBA) project."
 ---

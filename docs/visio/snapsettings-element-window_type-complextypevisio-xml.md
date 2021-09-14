@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b87a244-b331-7e93-d304-239f8ca77061
 description: "Specifies the objects that shapes snap to when snap is active in the window."
 ---

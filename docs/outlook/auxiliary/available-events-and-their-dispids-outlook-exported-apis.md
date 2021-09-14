@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1fd848c7-038e-4e2f-8997-c8509b31df79
 description: "This section describes the dispatch identifiers for the events that Outlook makes available."
 ---

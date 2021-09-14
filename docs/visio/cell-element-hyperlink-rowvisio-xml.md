@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2089db4-39eb-06d3-d2f8-9465baef5c75
 description: "Contains the information for a single hyperlink associated with a shape. A shape will contain one Hyperlink row for each hyperlink."
 ---

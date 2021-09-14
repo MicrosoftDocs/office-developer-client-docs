@@ -3,7 +3,7 @@ title: "Create an ActiveX Control that can Bind to InfoPath Form Data"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: "You can host ActiveX controls in InfoPath forms that are designed to be opened in the InfoPath editor. These controls can be preexisting (with some constraints) or can be written specifically for InfoPath."
 ---

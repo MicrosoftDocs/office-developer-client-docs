@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1bae0af9-229d-e114-4feb-bf6d7a7d8b08
 description: "Modifies the color by increasing its luminosity by the specified percentage."
 ---

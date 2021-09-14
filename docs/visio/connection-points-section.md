@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2020
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0c9d25d-933c-1c46-2cdd-3fa6ba3e56af
 description: "Contains a row and cells for each connection point defined for the shape."
 ---

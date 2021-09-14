@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251406
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0803d5d3-d804-5ffe-604d-661b35d1fc01
 description: "Returns the ANSI character for a number."
 ---

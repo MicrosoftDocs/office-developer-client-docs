@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1028735
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9db8623-9fcf-7037-2d11-d509f463025d
 
 description: "The x -coordinate of the comment marker in page coordinates."

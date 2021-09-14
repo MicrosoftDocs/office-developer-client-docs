@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2007, additional resources
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6d29e3ed-80a2-4879-a2a5-3855992bec1d
 description: "Developers working on Microsoft InfoPath managed-code projects can find more information from the following resources."
 ---

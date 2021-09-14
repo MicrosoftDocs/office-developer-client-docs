@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm610
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae05de63-b527-66e6-2c79-056c9c92ec95
 description: "Locks an object from another program against being cropped with the Crop tool."
 ---

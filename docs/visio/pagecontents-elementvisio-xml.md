@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 818793d6-608e-5f23-eca2-55ce6667050b
 description: "Specifies the information about the shapes in a master or drawing page of a drawing."
 ---

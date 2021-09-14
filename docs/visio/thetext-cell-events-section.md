@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1005
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d63768e-afdb-4b3f-de49-f9ba69ae5391
 description: "An event cell that is evaluated when a shape's text or text composition changes."
 ---

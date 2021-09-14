@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60023
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a75ff1f3-2f4d-89e3-108b-e16a34f5184f
 
 description: "Represents the number of the font used to format the text when a custom bullet string is specified and the value in the Bullet cell is non-zero."

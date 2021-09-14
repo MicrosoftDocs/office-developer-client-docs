@@ -3,7 +3,7 @@ title: "MAPI Application Development"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: efc84e9c-7b1a-438a-9308-9a7e454c59b0

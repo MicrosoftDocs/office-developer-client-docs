@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e4ac41f-3855-05d8-e659-02c265b8750c
 description: "Contains elements that define a page in the document."
 ---

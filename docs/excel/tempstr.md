@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - tempstr function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b21b4868-babe-4255-9093-503172efa045
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

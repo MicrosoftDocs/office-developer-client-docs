@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, troubleshooting,troubleshooting form templates [InfoPath 2007],form templates [InfoPath 2007], troubleshooting,troubleshooting [InfoPath 2007], InfoPath 2003-compatible form templates
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e31f5ef-6692-40ea-b737-bfd1c3775b02
 description: "This section contains tips for solving common problems that you might encounter when creating managed code form template that use the InfoPath 2003-compatible object model."
 ---

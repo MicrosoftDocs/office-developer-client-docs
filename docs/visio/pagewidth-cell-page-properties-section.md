@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251372
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b98c5bf3-10c8-7299-2836-3906d6a9135d
 description: "Determines the width of the printed page in drawing units."
 ---

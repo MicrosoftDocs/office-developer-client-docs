@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a5195ae-7905-477a-7818-9eb3bff64af0
 description: "This topic shows the schema definition for the Outlook Weather Location XML Schema."
 ---

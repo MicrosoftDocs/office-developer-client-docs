@@ -8,7 +8,7 @@ f1_keywords:
 - xlfRegisterId
 keywords:
 - xlfregisterid function [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251463
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b945b7c2-153f-2fc3-b768-1e975254ddf5
 description: "Returns the smallest number from a list. Smallest means closest to negative infinity."
 ---

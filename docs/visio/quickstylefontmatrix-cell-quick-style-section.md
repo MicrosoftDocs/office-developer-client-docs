@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 304ee083-e9c8-45df-b411-ba5e7db4c086
 description: "Determines the style of the font for each Quick Style, as an integer from 1 to 6."
 ---

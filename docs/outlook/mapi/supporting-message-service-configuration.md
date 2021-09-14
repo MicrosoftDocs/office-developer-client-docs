@@ -3,7 +3,7 @@ title: "Supporting message service configuration"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae

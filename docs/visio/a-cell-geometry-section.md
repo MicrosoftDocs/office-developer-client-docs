@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm51215
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
 description: "Represents different information in different rows. This table describes the A cell based on the row in which it's located."
 ---

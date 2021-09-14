@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253223
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: abb27f90-21b4-08cd-6995-9520fbcebd78
 description: "Returns a currency value."
 ---

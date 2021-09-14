@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251629
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfddb829-6e13-7d74-b9b9-2cb5c0937bae
 description: "Determines the size of the arrowhead at the beginning of the line."
 ---

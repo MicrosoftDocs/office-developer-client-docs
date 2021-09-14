@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1026937
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 27042b62-7623-95d7-7e10-f589d74605c7
 
 description: "The y -offset of the action tag button relative to the point defined by the X and Y cells."

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ca7b15d-fa63-458a-8630-07633c5278b6
 description: "Repeats a text value a specified number of times."
 ---

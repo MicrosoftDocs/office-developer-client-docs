@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9a80ad3-6311-fe07-b6f7-9fd63424753b
 ---
 

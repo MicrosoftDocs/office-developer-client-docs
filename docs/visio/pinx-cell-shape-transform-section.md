@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm790
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd88fb8d-3ec3-476a-870d-6642b191496f
 description: "Represents the x -coordinate of the shape's pin (center of rotation) in relation to the origin of its parent."
 ---

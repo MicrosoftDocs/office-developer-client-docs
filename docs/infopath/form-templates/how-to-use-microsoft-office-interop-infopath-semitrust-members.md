@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer 
 keywords:
 - infopath 2003-compatible form templates, using infopath 2007 features
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d082f3a3-387a-4db1-bbad-495c326b8ee3
 description: "The object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace includes objects and members that provide new functionality that was added to Office InfoPath 2007 and InfoPath."
 ---

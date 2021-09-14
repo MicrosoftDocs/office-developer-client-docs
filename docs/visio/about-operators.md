@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251824
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 43128ea2-c0d9-c45f-31e6-768a80ae59b2
 description: "You can use operators in formulas to perform arithmetic operations (addition, subtraction, multiplication, and so on) or logical comparisons (greater than, less than, equal to, and so on). You also can control the order of evaluation in a formula by enclosing expressions in parentheses. Use the ampersand operator to combine (concatenate) character strings."
 ---

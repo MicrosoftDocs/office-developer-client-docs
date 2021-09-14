@@ -6,7 +6,7 @@ ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-t
 ms:contentKeyID: 55119889
 ms.date: 09/14/2021
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Search attachments of items in a folder for an exact phrase

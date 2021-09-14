@@ -3,7 +3,7 @@ title: "Profile Tables"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79

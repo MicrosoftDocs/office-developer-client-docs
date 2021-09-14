@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c53cfe28-603c-49c5-bce6-b4401c7c5091
 description: "Specifies whether to use authentication for the SMTP account."
 ---

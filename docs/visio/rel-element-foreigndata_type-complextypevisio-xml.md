@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ed604ef-e001-f379-92c3-391a18f22bb3
 description: "Specifies a relationship between a shape and a document part that contains the image data associated with the shape."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16c5933f-1fa1-a180-d821-099fd6bf6e13
 description: "Contains the text string that appears in the right portion of a document's header."
 ---

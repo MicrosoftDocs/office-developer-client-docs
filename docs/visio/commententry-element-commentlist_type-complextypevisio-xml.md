@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0653622-fa94-4889-68c2-94f3e7a83119
 description: "Specifies properties used to identify a comment in a drawing."
 ---

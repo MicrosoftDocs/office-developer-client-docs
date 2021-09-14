@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b533ea0-5d2e-44fc-a691-8fa2f310ff9f
 description: "Determines the angle of the line gradient for a linear gradient, from 0 to 359.9 degrees."
 ---

@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2007, object models,object models [InfoPath 2007],InfoPath 2007, development environments
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29415c5b-9a42-46f4-a9e8-6a7d5bb7bdbf
 description: "Microsoft InfoPath 2013 supports two kinds of programming models for developing business logic in form templates, and supports external automation from managed code."
 ---

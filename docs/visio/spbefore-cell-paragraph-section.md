@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm965
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a7d5b0a1-3657-8211-f0e0-eaed588fa0bc
 
 description: "Determines the amount of space inserted before each paragraph in the shape's text block, in addition to any space from the SpLine cell if it is the first paragraph in a text block, the TopMargin cell."

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251573
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aff1b5e6-beeb-bd30-ce29-8c6ad589566c
 description: "Returns an object's internal type as a number."
 ---

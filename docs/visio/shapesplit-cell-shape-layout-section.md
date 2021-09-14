@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60080
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 96b8c503-67b3-8623-d99b-0dad7b15c224
 description: "Indicates whether this shape can split shapes that are splittable."
 ---

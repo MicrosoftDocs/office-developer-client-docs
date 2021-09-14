@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251252
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a61b50fe-eacb-b3d4-0e4e-ab3e7c972ee9
 
 description: "Determines the size of the text in the shape's text block."

@@ -3,7 +3,7 @@ title: "Create, retrieve, update, and delete projects using Project Server JavaS
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b690938-05bc-46a3-a40e-30f081403767
 description: "Get the current ProjectContext instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project by using the Project Server JavaScript object model; and change a project's properties."
 ---

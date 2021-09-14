@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251203
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49816e46-fa83-3ee4-1451-9c85fbd0f519
 description: "Shows the current resize behavior setting for the shape."
 ---

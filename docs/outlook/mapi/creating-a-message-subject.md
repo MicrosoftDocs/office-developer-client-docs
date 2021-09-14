@@ -3,7 +3,7 @@ title: "Creating a Message Subject"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 70e18534-054f-49e7-9a5d-10db0db132d0

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251501
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc97cef7-59c3-5be1-34fe-a40b4b33d1d6
 description: "Returns the sum of a list of numbers."
 ---

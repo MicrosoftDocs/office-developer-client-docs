@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9eb74ae8-ff42-6e34-30e2-2080bf8b5754
 description: "Specifies one shape data entry for associating data with a shape."
 ---

@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm60119
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfdc1a63-c355-c759-bdfa-ce27e3ad10e7
 description: "The Style Explorer window provides shape developers with a quick way to determine which shape cells inherit from a given style, or the style from which a given cell inherits its value."
 ---

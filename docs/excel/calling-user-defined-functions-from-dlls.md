@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - udfs [excel 2007], calling from dlls,user-defined functions [Excel 2007], calling from DLLs,DLLs [Excel 2007], calling UDFs
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

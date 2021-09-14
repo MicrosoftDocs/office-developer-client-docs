@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251464
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a90cb16-7eef-8876-8e25-408787b16f58
 description: "Returns an integer from 0 to 59 that represents the minutes component of datetime or expression ."
 ---

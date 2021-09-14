@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - form templates [infopath 2007], accessing data using 2003 object model,InfoPath 2003-compatible form templates, accessing application data
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da604c72-c760-4aa3-9574-d59c392753df
 description: "The InfoPath 2003-compatible object model provides objects and collections that can be used to gain access to information about the InfoPath application, including information related to a form's underlying XML document and the form definition (.xsf) file. This data is accessed through the top-level object in the InfoPath object model hierarchy, which is instantiated by using the Application interface."
 ---

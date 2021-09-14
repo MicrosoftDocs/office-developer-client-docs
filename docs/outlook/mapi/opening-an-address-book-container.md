@@ -3,7 +3,7 @@ title: "Opening an address book container"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 89383b27-618c-4ccb-9e16-f66235c98bfe

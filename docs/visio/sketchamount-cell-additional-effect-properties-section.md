@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c7353b7-f28e-4004-bf13-6e9714fbed37
 description: "Determines the amount of distortion for a sketch effect, as an integer between 0 and 25."
 ---

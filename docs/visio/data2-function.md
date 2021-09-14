@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251598
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1edb72af-52ce-eb21-080d-2eb516300ff7
 description: "Returns the text from the Data 2 box in the Shape Name dialog box for a shape (on the Developer tab, click Shape Name ), as a string."
 ---

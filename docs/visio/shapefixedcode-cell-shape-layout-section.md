@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm880
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a1736a5c-421c-2bdb-b164-76a8cd06cc3d
 description: "Specifies placement behavior for a placeable shape."
 ---

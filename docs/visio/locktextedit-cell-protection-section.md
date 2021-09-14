@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm665
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: "Locks the text of a shape so that it cannot be edited."
 ---

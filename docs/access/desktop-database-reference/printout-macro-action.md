@@ -10,7 +10,7 @@ f1_keywords:
 - vbaac10.chm1697
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # PrintOut macro action

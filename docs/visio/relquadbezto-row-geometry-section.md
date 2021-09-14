@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ae57707-5a50-43f0-8c78-516790b5034e
 description: "Contains the x - and y -coordinates of the endpoint of a quadratic Bézier curve relative to the shape's width and height and the x - and y -coordinates of the control point of the curve relative shape's width and height."
 ---

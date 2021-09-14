@@ -3,7 +3,7 @@ title: "MAPI Objects and Properties"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0aebf536-dcfb-406d-86ac-65db98c78139

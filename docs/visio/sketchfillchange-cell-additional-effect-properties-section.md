@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 939f8f90-dee5-4175-b32a-e2964eb40681
 description: "Determines the amount of randomization of the shape's fill from the shape's geometry when using a sketch effect, as a percentage of the length of a section. If the value of the SketchFillChange cell is set to 0%, the bounding geometry of a shape's fill matches the shape's geometry. If the value is 100%, the bounding geometry of the shape's fill does not follow the geometry of the shape."
 ---

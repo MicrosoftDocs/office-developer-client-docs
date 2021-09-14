@@ -3,7 +3,7 @@ title: "PropertyDefinition stream structure"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: "Last modified: March 09, 2015"
  

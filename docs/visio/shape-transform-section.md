@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251193
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa6a95bc-4669-47fd-5055-a147ec55e78f
 description: "Contains general positioning information about a shape: for example, its width, height, angle, and center of rotation (pin); whether the shape has been flipped; and how the shape should behave when resized within a group."
 ---

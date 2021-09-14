@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm975
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b03b4415-0b1a-eb03-2b5e-373b39a0f07a
 description: "Determines whether the text is formatted as strikethrough."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60039
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
 
 description: "Determines whether the action tag appears when the user moves the pointer over the tag, when the shape is selected, or all the time."

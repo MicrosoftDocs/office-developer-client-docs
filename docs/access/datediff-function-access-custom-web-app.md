@@ -3,7 +3,7 @@ title: "DateDiff function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c58ee87-0f57-4643-be4d-62da815df705
 description: "Returns the count of the specified date part boundaries crossed between the specified start date and end date."
 ---

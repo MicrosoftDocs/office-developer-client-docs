@@ -3,7 +3,7 @@ title: "Address Book Identifiers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 40f6c699-86aa-4324-a30d-12c8f1e2de9c

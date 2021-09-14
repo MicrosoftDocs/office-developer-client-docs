@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm540
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56f9043d-a632-65df-c710-45867cce1627
 description: "Determines the connectors to which you want to add jumps."
 ---

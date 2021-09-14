@@ -3,7 +3,7 @@ title: "Office URI Schemes"
 manager: luken
 ms.date: 01/14/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ea99a8f-b005-4b92-b313-923294d20fbf
 
 ---

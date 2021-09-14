@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251337
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ebf66729-d794-a398-268a-84d761bf06b6
 
 description: "Indicates whether an item on a shortcut or action tag menu is disabled."

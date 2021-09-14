@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251627
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: "Determines text assignment for a group."
 ---

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da487569-f2f0-404c-b944-38ed1c1b82bb
 description: "The sample Outlook Social Connector (OSC) provider templates give you a framework for implementing an OSC provider. "
 ---

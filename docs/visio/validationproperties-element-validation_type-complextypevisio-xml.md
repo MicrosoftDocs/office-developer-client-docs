@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a51a60c9-479b-7d7b-860f-bb46fc8b4d63
 description: "Encapsulates the properties that are related to the document's validation."
 ---

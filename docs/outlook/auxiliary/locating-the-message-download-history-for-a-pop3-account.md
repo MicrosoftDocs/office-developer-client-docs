@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90a51150-5c2c-4d5b-8717-5dacc8532744
 description: "This topic describes how a mail client can access the PidTagAttachDataBinary property to get the message download history for a POP3 account."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251219
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 596c62b7-8d42-1854-d709-592db09a6a84
 description: "Locks the shape so that it cannot be deleted."
 ---

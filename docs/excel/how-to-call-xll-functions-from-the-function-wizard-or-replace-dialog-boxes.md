@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - xll functions [excel 2007], calling from replace dialog box,Replace dialog box [Excel 2007], calling XLL functions,Function Wizard [Excel 2007], calling XLL functions,XLL functions [Excel 2007], calling from Function Wizard
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

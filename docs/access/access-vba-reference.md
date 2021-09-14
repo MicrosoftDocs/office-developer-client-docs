@@ -6,7 +6,7 @@ ms.date: 01/01/1900
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a7b2d1c-35c5-41b0-920c-d78606e71ec1
 description: "{insert summary}"
 ---

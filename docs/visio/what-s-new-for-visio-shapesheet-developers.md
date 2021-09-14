@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1046253
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4f0cf7a-ac4b-c914-7887-e1d65e9d59fa
 description: "Visio 2013 provides a powerful single platform for your custom drawing solutions. New ShapeSheet cells and functions, along with new Automation objects, properties, methods, and events, give you more options to define and control the behavior of the elements in your solutions."
 ---

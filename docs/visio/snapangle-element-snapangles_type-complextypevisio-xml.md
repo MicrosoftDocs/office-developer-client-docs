@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d4f93fc5-80fb-3195-d25b-9a407de7848e
 description: "Contains a floating point number that specifies a snap angle in degrees."
 ---

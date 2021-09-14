@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08accf3b-93ac-9dd3-85ce-34ad42e79a4f
 description: "Returns the 1-based segment number at the specified percentage mark along the specified path."
 ---

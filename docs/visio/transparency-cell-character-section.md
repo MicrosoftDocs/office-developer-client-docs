@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50135
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab835a1a-9e90-126e-279f-463882c48e93
 description: "Determines the transparency level for a range of a shape's text color."
 ---

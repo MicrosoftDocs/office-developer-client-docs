@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58bde69d-4654-681c-d9bb-d4b776ddb4c5
 description: "Returns the identifier (ID) of the specified font."
 ---

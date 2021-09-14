@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251403
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 461abfc1-d2cc-2354-1c2f-395c9e351a78
 description: "Calls a procedure in a Microsoft Visual Basic for Applications (VBA) project."
 ---

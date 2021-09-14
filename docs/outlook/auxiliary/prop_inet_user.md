@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de0436de-5cd6-4e13-8794-6dfbdb1e4ea0
 description: "Represents the user name for a general Internet mailbox."
 ---

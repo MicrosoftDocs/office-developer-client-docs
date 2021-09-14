@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251480
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d14a735c-0278-922f-7823-79adf6cb1e64
 description: "Returns the point represented by the coordinates x and y as a single value."
 ---

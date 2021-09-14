@@ -3,7 +3,7 @@ title: "Structured Storage in MAPI"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 642a678b-4bf2-4246-85cb-c798de23e36f

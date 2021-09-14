@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251312
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca949013-f998-1bce-39e5-ac6f68ab2392
 description: "An event cell that is evaluated when a shape is double-clicked."
 ---

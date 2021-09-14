@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm80000
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d2ec869-7ffa-3b41-8126-3f4889501e0c
 description: "Determines whether shapes can be placed over page breaks when the shapes are incrementally aligned, incrementally spaced, or both."
 ---

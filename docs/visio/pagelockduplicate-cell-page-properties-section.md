@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fbaa7d64-06ef-46d6-81d5-9d7af1c14b65
 description: "Determines whether the page can be duplicated, as a Boolean."
 ---

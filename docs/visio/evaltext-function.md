@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251422
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9b5b96c-d8c8-6119-e3f1-a2ce9d7c043e
 description: "Evaluates the text in shapename as if it were a formula and returns the result."
 ---

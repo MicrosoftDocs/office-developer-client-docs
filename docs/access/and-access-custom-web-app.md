@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44c11a0b-abca-4ea8-8770-f5c1375d8d76
 description: "Combines two Boolean expressions and returns TRUE when both expressions are TRUE."
 ---

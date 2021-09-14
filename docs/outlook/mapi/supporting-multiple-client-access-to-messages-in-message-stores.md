@@ -3,7 +3,7 @@ title: "Supporting Multiple Client Access to Messages in Message Stores"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 31885c64-edb2-4a87-8730-09f163dedd40

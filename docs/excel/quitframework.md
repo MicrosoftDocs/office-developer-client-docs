@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - quitframework function
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d17a3efe-c278-4ef1-b8f9-b958ae012361
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - view class [infopath 2007],InfoPath 2007, working with views,views [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
 description: "When working with an InfoPath form template, you can write code to access the form's views, and then perform a variety of actions on the data that the views contain. The InfoPath object model provided by the Microsoft.Office.InfoPath namespace supports access to a form's views through the use of the members of the View class."
 ---

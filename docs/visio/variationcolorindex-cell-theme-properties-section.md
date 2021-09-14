@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea95a90c-4729-4689-a6f4-31dfccf37b9b
 description: "Determines the color index of the active theme variation on the page, as an integer."
 ---

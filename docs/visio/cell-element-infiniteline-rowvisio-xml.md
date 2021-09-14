@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e14b8246-0064-3a54-7bd6-ad28180f9ea6
 description: "Contains the x- or y-coordinates of two points on an infinite line."
 ---

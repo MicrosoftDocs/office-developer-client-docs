@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f47ea08-fb5e-7d48-e84a-2a6570564924
 description: "Returns the length of the path that is defined in the specified Geometry section."
 ---

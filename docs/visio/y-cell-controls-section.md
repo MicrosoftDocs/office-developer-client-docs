@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251282
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd7ea5fa-1d34-44e8-5a29-69ca542aecba
 
 description: "Represents the y -coordinate that indicates the location of a shape's control handle in local coordinates."

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d8d6a34-f884-40a4-b330-5c104d16cf97
 description: "Inserts a text string into another text string. It deletes a specified length of characters in the first string at the start position and then inserts the second string into the first string at the start position."
 ---

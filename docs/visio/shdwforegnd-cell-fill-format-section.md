@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251244
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea153390-631d-79fd-c1ba-4c281239a24e
 description: "Determines the color used for the foreground (stroke) of the shape's drop shadow fill pattern."
 ---

@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - temperr function [excel 2007],TempErr12 function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf8c26b2-ca2b-4dda-a02d-0ccbeac19106
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

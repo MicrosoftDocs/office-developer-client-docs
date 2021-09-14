@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf9af5a5-e042-4d56-a29f-341d97cdb97b
 description: "Determines the angle of the fill gradient for gradients with a linear direction, in degrees."
 ---

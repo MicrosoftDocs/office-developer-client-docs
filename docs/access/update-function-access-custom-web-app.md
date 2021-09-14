@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a8c52c9-81b9-4d10-b42b-e360c67bcf4e
 description: "Returns whether an INSERT or UPDATE operation was attempted on the specified field."
 ---

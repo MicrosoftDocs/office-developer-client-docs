@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7dfeb78e-a0fa-4492-b35f-70b1e2975d38
 description: "Determines the size of the reflection relative to the shape, as a percentage from 0.0 to 100.0%. A shape with a value of 0% in the ReflectionSize cell does not have a reflection; a value of 100% displays a complete mirror image of the shape."
 ---

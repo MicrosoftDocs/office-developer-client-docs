@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2155
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f743e4ee-343d-0edd-4a6d-5f104781a524
 description: "Displays functions and formulas inserted in the shape's text by using the Field dialog box."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60014
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c414f9c-a7f2-3404-326e-acd4026c7684
 description: "Contains the cells that control how the drawing page is formatted (appears) on the printer page."
 ---

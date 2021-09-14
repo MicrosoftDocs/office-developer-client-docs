@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 32a5d4b7-ead7-24e7-58f2-750232263a0d
 description: "Saves changes to the specified account."
 ---

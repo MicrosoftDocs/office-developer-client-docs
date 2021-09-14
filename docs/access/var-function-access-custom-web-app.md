@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb2aace1-fa2d-480e-bfc7-44ae399943f5
 description: "Returns the statistical variance for a population sample represented as a set of values contained in a specified field in a query."
 ---

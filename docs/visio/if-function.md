@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251442
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66771ad3-0fb3-68ff-81da-d1162d37c05a
 description: "Returns valueiftrue if logicalexpression is TRUE. Otherwise, it returns valueiffalse."
 ---

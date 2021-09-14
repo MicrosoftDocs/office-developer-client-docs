@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm175
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e7c9080-7ef1-0696-a3d2-d8f57ea5ab9b
 description: "Determines when a connector reroutes."
 ---

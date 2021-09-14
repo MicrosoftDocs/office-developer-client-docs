@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60064
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a10bf4c2-24f4-4c53-39ba-2b8cd5b50d2c
 description: "Determines the number of printer pages on which to fit the drawing page horizontally."
 ---

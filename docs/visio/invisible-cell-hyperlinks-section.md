@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033755
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e67dcd83-4a88-a0f8-5c6a-dae51424edbd
 description: "Indicates whether a hyperlink appears on the shortcut menu for a shape or page."
 ---

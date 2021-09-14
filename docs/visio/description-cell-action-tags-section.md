@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60037
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: feb29b91-0f6e-6353-3dd0-7a280843a517
 
 description: "Contains a string that describes the action tag, which appears as a tool tip when users place their pointer over the tag."

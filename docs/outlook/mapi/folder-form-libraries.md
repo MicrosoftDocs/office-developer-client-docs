@@ -3,7 +3,7 @@ title: "Folder Form Libraries"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 62b7480e-b3eb-45fb-b74d-62f1dc918a53

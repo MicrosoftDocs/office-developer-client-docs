@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251826
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1174d8f-70cb-4595-7906-889da15367db
 description: "Formulas can contain strings. To format string output, such as in a prompt cell, a shape data item value, or a text field, you specify a format picture. Output can be formatted as a number-unit pair, string, date-time, duration, or currency. For example, the format picture0 #/10 uuformats the number-unit pair 10.9cm as10 9/10 centimeters."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2345092-ba5f-4030-9070-391233e70f92
 description: "Returns the sum of all the values in the expression."
 ---

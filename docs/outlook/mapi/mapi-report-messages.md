@@ -3,7 +3,7 @@ title: "MAPI Report Messages"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552

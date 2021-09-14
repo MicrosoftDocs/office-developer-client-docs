@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm735
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 831075ff-2875-b598-00bb-eb8481fee57b
 
 description: "Indicates whether a path is displayed on the drawing page."

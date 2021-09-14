@@ -3,7 +3,7 @@ title: "Opening a message store folder"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d858e4fe-822e-4330-9ed3-4b7d22fa51dc

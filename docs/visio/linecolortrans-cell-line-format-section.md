@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50120
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b68054b5-7efd-1156-9dc1-5ec94e18d227
 description: "Determines the transparency level of a shape's line color."
 ---

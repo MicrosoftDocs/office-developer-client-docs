@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251454
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1265e4d6-58c7-896d-0d13-12944f96cf35
 description: "Returns the natural logarithm of a number. The number must be positive, or LN returns the error value #NUM."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
 description: "Contains elements for creating multiple jumps between a shape or drawing page and another drawing page, another file, or a website."
 ---

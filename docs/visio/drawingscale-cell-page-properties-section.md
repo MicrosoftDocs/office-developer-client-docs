@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm265
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc447f22-a188-2c61-e33c-df0d401a4725
 description: "Represents the value of the drawing unit in the current drawing scale. The drawing scale for the page is the ratio of the page unit shown in the PageScale cell to the drawing unit shown in the DrawingScale cell."
 ---

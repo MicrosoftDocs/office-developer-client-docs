@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027286
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0c4b668-f31b-336f-4434-e94a4804ff7c
 description: "A number that determines the order of actions that appear on a shortcut or action tag menu."
 ---

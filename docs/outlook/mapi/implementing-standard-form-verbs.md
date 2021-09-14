@@ -3,7 +3,7 @@ title: "Implementing Standard Form Verbs"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69

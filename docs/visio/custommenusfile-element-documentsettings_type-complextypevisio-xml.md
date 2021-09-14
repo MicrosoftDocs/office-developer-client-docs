@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
 description: "Contains the name of the Microsoft Visio user interface (.vsu) file that defines custom menus and accelerators for a document."
 ---

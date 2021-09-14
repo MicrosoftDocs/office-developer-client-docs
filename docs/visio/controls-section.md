@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251280
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d34c296d-e874-b5f3-9232-e1cfe01c7eab
 description: "Contains a row and cells for each control handle defined for the shape."
 ---

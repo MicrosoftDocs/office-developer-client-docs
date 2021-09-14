@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm80001
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08b730c4-5dd8-106e-ddf3-da2c942e2ef6
 description: "Determines the display level band (the relative range of Z-order grouping) for the shape."
 ---

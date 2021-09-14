@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3c39b7f7-1cd7-4e0d-946c-356705194583
 description: "Determines the angle of rotation along the Z-axis, in degrees (0.0 - 359.9)."
 ---

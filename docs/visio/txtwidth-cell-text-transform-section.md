@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251270
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2215c67-25fa-1d75-9cce-f126bb8760a1
 description: "Determines the width of the text block. The default formula is:"
 ---

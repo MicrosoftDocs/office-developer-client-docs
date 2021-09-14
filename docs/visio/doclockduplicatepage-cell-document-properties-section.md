@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b08a6558-519f-44e0-aeff-9919544d515e
 description: "Determines whether pages in the document can be duplicated, as a Boolean."
 ---

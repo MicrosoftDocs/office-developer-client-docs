@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm350
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f84afe83-8391-0c13-f442-ea8794b38642
 description: "An event cell that is evaluated when a shape is dropped on the drawing page, either as an instance or when the shape is duplicated or pasted."
 ---

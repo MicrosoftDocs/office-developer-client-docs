@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm700
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2d51f4b-d64e-fd14-4ff1-ed67c69213bc
 description: "Switches the display of the selection rectangle on and off for the selected shape."
 ---

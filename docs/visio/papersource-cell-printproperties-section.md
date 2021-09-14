@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60068
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 771a2ab4-578d-51c3-fabd-138f7952bb11
 description: "Determines the paper source for the page."
 ---

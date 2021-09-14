@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251197
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
 description: "Indicates whether the shape has been flipped horizontally."
 ---

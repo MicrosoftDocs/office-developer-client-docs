@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c75b3233-9ac5-d29c-a658-d554e86e6be4
 description: "Contains all the DataRecordset elements in the document."
 ---

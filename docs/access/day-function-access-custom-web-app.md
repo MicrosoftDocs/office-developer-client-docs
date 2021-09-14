@@ -3,7 +3,7 @@ title: "Day function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e0a77e4-0653-4a85-b507-13440aef195b
 description: "Returns an integer representing the day (day of the month) of the specified date in the Gregorian calendar."
 ---

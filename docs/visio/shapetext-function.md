@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251788
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87ea5e8f-c3e0-009f-4bf8-8c34fbdb83a6
 description: "Gets the text from a shape."
 ---

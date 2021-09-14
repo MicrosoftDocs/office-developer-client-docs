@@ -3,7 +3,7 @@ title: "Logging on to a wrapped PST store provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
 description: "Last modified: July 02, 2012"
 ---
