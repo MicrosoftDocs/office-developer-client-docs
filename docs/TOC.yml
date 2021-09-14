@@ -1587,8 +1587,6 @@
               items:
               - name: CollatingOrderEnum enumeration
                 href: access/desktop-database-reference/collatingorderenum-enumeration-dao.md
-              - name: CommitTransOptionsEnum enumeration
-                href: access/desktop-database-reference/committransoptionsenum-enumeration-dao.md
               - name: CursorDriverEnum enumeration
                 href: access/desktop-database-reference/cursordriverenum-enumeration-dao.md
               - name: DatabaseTypeEnum enumeration
@@ -1601,8 +1599,6 @@
                 href: access/desktop-database-reference/editmodeenum-enumeration-dao.md
               - name: FieldAttributeEnum enumeration
                 href: access/desktop-database-reference/fieldattributeenum-enumeration-dao.md
-              - name: IdleEnum enumeration
-                href: access/desktop-database-reference/idleenum-enumeration-dao.md
               - name: LanguageConstants enumeration
                 href: access/desktop-database-reference/languageconstants-enumeration-dao.md
               - name: LockTypeEnum enumeration
@@ -2592,8 +2588,6 @@
                     href: access/desktop-database-reference/eventstatusenum.md
                   - name: ExecuteOptionEnum
                     href: access/desktop-database-reference/executeoptionenum.md
-                  - name: FieldAttributeEnum
-                    href: access/desktop-database-reference/fieldattributeenum.md
                   - name: FieldEnum
                     href: access/desktop-database-reference/fieldenum.md
                   - name: FieldStatusEnum
