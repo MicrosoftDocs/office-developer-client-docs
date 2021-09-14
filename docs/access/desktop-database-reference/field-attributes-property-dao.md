@@ -24,7 +24,8 @@ Sets or returns a value that indicates one or more characteristics of a **[Field
 
 ## Remarks
 
-The value specifies characteristics of the field represented by the **Field** object and can be a combination of these constants.
+The **Attributes** property of a **Field** object specifies characteristics of the field represented by the **Field** object. The **Attributes** property is stored as a single Long Integer and is the sum of the following Long constants:
+
 
 |**Constant**|**Value**|**Description**|
 |:----------|:----------|:----------|
