@@ -1,7 +1,7 @@
 ---
 title: "Integrating manageability applications with Microsoft 365 Apps Click-to-Run installer"
 manager: lindalu
-ms.date: 09/28/2020
+ms.date: 09/14/2021
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
@@ -112,7 +112,7 @@ In the following API reference documentation:
     
 - The parameters are not case-sensitive.
     
-- There is a [list of parameters](https://blogs.technet.microsoft.com/odsupport/2014/03/03/the-new-update-now-feature-for-office-2013-click-to-run-for-office365-and-its-associated-command-line-and-switches/) with documentation available. 
+- For more information, see [About Office Click-to-Run installations and about related anti-malware applications](/office/troubleshoot/office-suite-issues/office-click-to-run-installation.md).
     
 - Summary of IUpdateNotify2 interface is now included.
     
