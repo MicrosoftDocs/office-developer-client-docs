@@ -1,6 +1,6 @@
 ---
 title: "Office client development"
-ms.date: 10/09/2018
+ms.date: 09/14/2021
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
@@ -26,7 +26,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ## Visual Studio Tools for Office
   
-- [VSTO add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [VSTO add-ins for Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio.md)
   
 ## Office client VBA references
   
