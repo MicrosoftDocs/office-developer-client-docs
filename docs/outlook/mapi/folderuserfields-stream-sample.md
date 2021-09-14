@@ -3,7 +3,7 @@ title: "FolderUserFields stream sample"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30e5e887-a324-4ed2-ba2a-eb4c19ba38d2
 description: "Last modified: March 09, 2015"
 ---

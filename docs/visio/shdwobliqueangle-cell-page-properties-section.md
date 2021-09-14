@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033178
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e0b9754-3e3b-3a26-4e1a-e09102055c20
 description: "Contains a number specifying the angle of oblique direction when applying the default page shadow type."
 ---

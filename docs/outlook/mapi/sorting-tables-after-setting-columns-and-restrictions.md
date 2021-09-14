@@ -3,7 +3,7 @@ title: "Sorting Tables After Setting Columns and Restrictions"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 57db0314-1df0-4fd2-b443-223b0512f1ad

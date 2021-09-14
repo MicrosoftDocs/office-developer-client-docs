@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251368
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 36b5ca44-e4f9-e330-bd76-85587a4a4893
 description: "Contains cells that control page attributes, such as the page width, height, and scale."
 ---

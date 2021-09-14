@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1880734a-f086-ce6c-5a93-47851bcdd99d
 description: "Contains the Window elements for a document."
 ---

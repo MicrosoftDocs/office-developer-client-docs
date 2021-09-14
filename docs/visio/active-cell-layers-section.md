@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm10
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c8e366f-9e9b-30ea-a89f-57c8d7a1168e
 description: "Specifies whether the layer is active. Shapes without pre-assigned layers are assigned to the active layer(s) when you drag them onto the drawing page."
 ---

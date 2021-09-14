@@ -3,7 +3,7 @@ title: "Uninitialized State"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e071b50f-2e75-4537-ac7b-4a2f5ebea83d

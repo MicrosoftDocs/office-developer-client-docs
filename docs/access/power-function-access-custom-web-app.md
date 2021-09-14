@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2cfe965f-e462-452f-a99d-804cb1a2f1c7
 description: "Returns the value of the specified expression to the specified power."
 ---

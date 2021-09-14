@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248787(v=office.15)
 ms:contentKeyID: 48542949
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ActualSize property (ADO)

@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3fa79e60-934b-46fd-a305-03fe9428a2c9
 description: "Shows the current Quick Style formatting values applied to the shape, including line color and style, fill color and style, shadow color, effects, font, and style type."
 ---

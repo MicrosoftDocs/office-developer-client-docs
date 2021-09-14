@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87ea346d-1786-dc87-073d-8e7459b7fef1
 
 ---

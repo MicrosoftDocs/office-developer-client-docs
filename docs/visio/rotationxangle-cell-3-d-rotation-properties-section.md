@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1a45d32-117a-48e8-ad65-b2723826c3b9
 description: "Determines the angle of rotation along the X-axis, in degrees (0.0 - 359.9)."
 ---

@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1e4bb1ca-1840-4053-86da-079e3a3313e8
 description: "Shows the attributes for any bevel effects applied to the shape."
 ---

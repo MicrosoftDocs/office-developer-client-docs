@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6390b325-025e-4546-bb19-1cd1c45ceb5a
 description: "Returns a pseudo-random number between 0 and 1."
 ---

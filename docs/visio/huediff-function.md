@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52f9a53c-1292-4f8a-2a76-82bca650f5ac
 description: "Returns the difference in hue between color1 and color2."
 ---

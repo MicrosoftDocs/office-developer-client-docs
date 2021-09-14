@@ -3,7 +3,7 @@ title: "Implementing a Provider One-Off Table"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055

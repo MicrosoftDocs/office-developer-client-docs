@@ -4,9 +4,9 @@ TOCTitle: ADO API reference
 ms:assetid: 0fd6aff8-dbff-50c7-649f-2d9c31aedb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248867(v=office.15)
 ms:contentKeyID: 48543275
-ms.date: 09/18/2015
+ms.date: 09/14/2021
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ADO API reference
@@ -25,5 +25,4 @@ For more information, search for a specific topic in the index or refer to the f
 - [ADO events](ado-events.md)
 - [ADO enumerated constants](ado-enumerated-constants.md)
 - [ADO code examples](ado-code-examples.md)
-- [ADO syntax indexes](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-syntax-indexes)
-
+- [ADO syntax indexes](/office/vba/access/concepts/miscellaneous/ado-syntax-indexes.md)

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, troubleshooting at design time,troubleshooting form templates [InfoPath 2007], design time
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4179b235-e21d-4c37-ae2b-ad01388296ec
 description: "The following sections describe common troubleshooting scenarios you may encounter while designing and debugging managed code form templates that use the InfoPath 2003-compatible object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 539bf79a-df09-2048-2aba-8c863dd26fc2
 description: "Returns the percentage of the distance along the path of the point that is nearest to the specified coordinates, as a value between 0 and 1."
 ---

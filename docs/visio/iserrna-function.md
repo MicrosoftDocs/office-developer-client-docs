@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251451
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ee7dc3d-efe9-c862-f71d-034b3d9c3ec6
 description: "Returns TRUE if the value of cellreference is error type #N/A! (not available); otherwise, it returns FALSE. The ISERRNA function is used in formulas that refer to another cell."
 ---

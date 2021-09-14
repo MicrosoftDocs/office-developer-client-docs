@@ -3,7 +3,7 @@ title: "Message Service Implementation"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bb529cc7-ad09-4f86-89bc-0e8ad29a3f38

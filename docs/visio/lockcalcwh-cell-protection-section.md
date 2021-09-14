@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm605
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6eb51e5a-03d8-3daa-b4e1-6107d540aed9
 description: "Locks a shape's selection rectangle so it cannot be recalculated when a vertex is edited or a row type is changed in the Geometry section."
 ---

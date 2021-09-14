@@ -3,7 +3,7 @@ title: "MAPI Features and Architecture"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 34bae703-a979-437c-9d86-8b91e9822a54

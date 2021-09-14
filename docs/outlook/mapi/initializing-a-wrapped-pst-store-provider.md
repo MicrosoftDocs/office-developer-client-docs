@@ -3,7 +3,7 @@ title: "Initializing a wrapped PST store provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
 description: "Last modified: October 05, 2012"
 ---

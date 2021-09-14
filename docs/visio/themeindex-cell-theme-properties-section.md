@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21002267-1400-4398-b937-f5b289cf0ed2
 description: "Stores the enumeration of the built-in Microsoft Visio theme applied to the document, as an integer. When a new theme is chosen for the document, the ThemeIndex cell for the document and all pages and shapes it contains is updated with the index of the built-in theme."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2d6a7dd-9f15-27bd-9623-2a047683ff98
 description: "Modifies the color by decreasing its saturation by the amount specified in the int parameter."
 ---

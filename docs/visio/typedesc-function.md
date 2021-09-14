@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251572
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 08bc529e-e04e-206a-6322-77a8941e19f4
 description: "Returns a string that describes an object's internal type."
 ---

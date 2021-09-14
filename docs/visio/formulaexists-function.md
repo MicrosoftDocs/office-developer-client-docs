@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033806
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d4f82d3-fcd0-536a-c4e1-94c362cde7c4
 description: "Indicates whether the referenced cell contains a formula."
 ---

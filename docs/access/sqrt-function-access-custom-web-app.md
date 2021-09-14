@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bba97464-472f-4a88-a624-6ec601e1730f
 description: "Returns the square root of the specified value."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251297
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6d298a4-1602-a53c-bb5d-2ef16b43f722
 description: "Determines the horizontal position, relative to the origin of its parent, of a vertical guide or guide point to which the shape's right border is aligned."
 ---

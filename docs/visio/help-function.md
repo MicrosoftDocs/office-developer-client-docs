@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251436
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b358c38-6ed1-3fbe-c1d1-1a56ebbaa870
 description: "Opens an HTML Help file with the specifed keyword in the Search box."
 ---

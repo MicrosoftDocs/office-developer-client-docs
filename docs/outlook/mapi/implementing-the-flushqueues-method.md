@@ -3,7 +3,7 @@ title: "Implementing the FlushQueues Method"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b

@@ -10,7 +10,7 @@ f1_keywords:
 - jetsql40.chm5277479
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # REVOKE statement (Microsoft Access SQL)

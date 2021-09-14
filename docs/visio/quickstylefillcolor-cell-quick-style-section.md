@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 41250e47-404c-40e7-99be-9bb8c1ed5ba2
 description: "Determines which theme color that a shape's fill uses, as an integer from 0 to 7"
 ---

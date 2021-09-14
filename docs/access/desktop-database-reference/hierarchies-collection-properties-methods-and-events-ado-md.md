@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249423(v=office.15)
 ms:contentKeyID: 48545458
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Hierarchies collection properties, methods, and events (ADO MD)

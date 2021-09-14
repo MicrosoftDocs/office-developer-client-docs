@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff184613(v=office.15)
 ms:contentKeyID: 55119887
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Filter and display multivalued properties when enumerating items in a folder

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251493
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
 description: "Runs string and passes the command line arguments to the program as a string."
 ---

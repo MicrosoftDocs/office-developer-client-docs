@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm600
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
 description: "Locks the begin point (BeginX, BeginY) of a 1-D shape to a specific location."
 ---

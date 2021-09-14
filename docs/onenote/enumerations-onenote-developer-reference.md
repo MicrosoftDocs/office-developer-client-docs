@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62912d6e-c39e-4f8b-8cdb-ae9b6376cbc0
 description: "This topic describes the enumerations in the OneNote 2013 object model."
 ---

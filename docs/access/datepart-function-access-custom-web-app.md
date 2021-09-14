@@ -3,7 +3,7 @@ title: "DatePart function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8936f0b6-f9b2-44ef-bf90-e482b64611cd
 description: "Returns a numeric value that represents the specified date part of the specified date."
 ---

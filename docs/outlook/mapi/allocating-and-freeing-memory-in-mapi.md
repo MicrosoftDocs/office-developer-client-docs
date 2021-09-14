@@ -3,7 +3,7 @@ title: "Allocating and Freeing Memory in MAPI"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e238f6bc-e9f6-4ea4-a2e4-ff5da2a04bd5

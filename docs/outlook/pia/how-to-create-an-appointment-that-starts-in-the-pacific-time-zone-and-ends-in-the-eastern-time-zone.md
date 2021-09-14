@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb623388(v=office.15)
 ms:contentKeyID: 55119808
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Create an appointment that starts in the Pacific Time Zone and ends in the Eastern Time Zone

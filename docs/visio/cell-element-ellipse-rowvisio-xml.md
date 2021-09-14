@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 210e6731-7c94-90b1-c7c4-635df974fdb6
 description: "Contains the x- or y-coordinates of the ellipse's center point and two points on the ellipse."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2130
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9410f78f-a3da-d48a-b6bf-8b53d50b03bc
 description: "Contains cells that control shape placement and connector routing settings."
 ---

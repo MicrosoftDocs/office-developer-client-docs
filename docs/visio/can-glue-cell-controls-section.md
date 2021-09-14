@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251287
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c4c4ae2-b3fa-ed45-c6e5-22bedb2523db
 
 description: "Determines whether a control handle can be glued to other shapes."

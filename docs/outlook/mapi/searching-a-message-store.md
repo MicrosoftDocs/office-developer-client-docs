@@ -3,7 +3,7 @@ title: "Searching a message store"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9e8d4639-7507-4d98-b56f-a65be369dc40

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251399
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b6486bb-3618-3747-4b00-93bd55767c1c
 description: "Returns a 16-bit binary number in which each bit is set to 1 only if the corresponding bit in binary number is 0. Otherwise, the bit is set to 0."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251195
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 194d5beb-c705-f567-84de-8305c41081a8
 description: "Determines the height of the shape in drawing units."
 ---

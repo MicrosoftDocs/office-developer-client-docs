@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251218
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9bfced5-af29-f86c-8604-44ec9a573229
 description: "Locks the aspect ratio of the shape so that the shape can only be sized proportionally; it cannot be sized in a single dimension."
 ---

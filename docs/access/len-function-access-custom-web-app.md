@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6434655b-8fb3-4a20-9649-8934042bfc7b
 description: "Returns the number of characters of the specified string expression, excluding trailing blanks."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 373983f7-fc0c-95f6-7665-7ed47de82e5e
 description: "Indicates a row in the data recordset linked to a shape that is in conflict after the data recordset is refreshed."
 ---

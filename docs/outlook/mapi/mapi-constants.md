@@ -5,7 +5,7 @@ ms.date: 10/02/2018
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: Constant definitions, MAPI interface declarations, and class and interface identifiers used by the MAPI APIs.
 ---

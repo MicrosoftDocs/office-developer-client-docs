@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251343
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 42f42d73-a00c-ca93-adc9-4f8869b9cd42
 description: "Specifies descriptive or instructional text that appears as a tip when the mouse is paused over a value in the Shape Data window."
 ---

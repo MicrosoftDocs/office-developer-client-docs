@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251261
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7109ca54-1012-bf38-a8e9-946826abbb18
 description: "Contains cells that control the alignment, margins, and default tab stop position of text in a shape's text block."
 ---

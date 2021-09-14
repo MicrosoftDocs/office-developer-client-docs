@@ -3,7 +3,7 @@ title: "Creating message text"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 70d1fb24-91a9-4043-8c9d-be1523012e6b

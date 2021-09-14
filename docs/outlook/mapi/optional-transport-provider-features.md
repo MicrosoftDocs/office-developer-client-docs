@@ -3,7 +3,7 @@ title: "Optional Transport Provider Features"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0bec2c17-b41c-4e46-8961-a55bde1f7326

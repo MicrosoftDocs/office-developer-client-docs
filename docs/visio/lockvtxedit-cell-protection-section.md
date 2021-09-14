@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251224
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 966cde5c-f04e-7149-3660-720ffa4f7079
 description: "Locks the vertices of a shape so that they cannot be edited."
 ---

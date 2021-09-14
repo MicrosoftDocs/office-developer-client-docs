@@ -3,7 +3,7 @@ title: "Linking to the MAPI DLLs"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 19fd4678-21d3-47a6-a439-1d4959cac407

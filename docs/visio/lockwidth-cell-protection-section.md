@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm675
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fef022ea-38ab-2b66-60c8-b94a6b0bdfbf
 description: "Locks the width of the shape so that its width remains unchanged when the shape is sized."
 ---

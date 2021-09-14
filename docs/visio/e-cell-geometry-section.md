@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251761
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc0154b1-6930-1fe0-655c-05eab2d60230
 
 description: "Contains a nonuniform rational B-spline (NURBS) formula."

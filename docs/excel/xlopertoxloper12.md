@@ -8,7 +8,7 @@ f1_keywords:
 - XLOperToXLOper12
 keywords:
 - xlopertoxloper12 function [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2d4581b-ebf6-4eba-aa95-69a5a9ee8028
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

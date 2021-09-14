@@ -7,7 +7,7 @@ ms.date: 06/18/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: "Office for Android integrates with the Android Storage Access Framework, which enables Office to open files stored by another document provider."
 ---

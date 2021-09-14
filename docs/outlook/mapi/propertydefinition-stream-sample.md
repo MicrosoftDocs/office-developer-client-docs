@@ -3,7 +3,7 @@ title: "PropertyDefinition stream sample"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7919f4d7-04df-4a96-a5b1-b7b460890486
 description: "Last modified: March 09, 2015"
 ---

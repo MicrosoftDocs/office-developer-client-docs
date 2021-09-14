@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251786
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
 description: "Determines whether strings are the same. It returns TRUE if they are the same and FALSE if they aren't."
 ---

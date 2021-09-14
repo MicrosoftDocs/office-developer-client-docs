@@ -3,7 +3,7 @@ title: "Gateway mappable properties"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d

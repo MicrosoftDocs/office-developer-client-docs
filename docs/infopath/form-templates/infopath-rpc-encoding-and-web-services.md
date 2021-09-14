@@ -3,7 +3,7 @@ title: "InfoPath, RPC Encoding and Web Services"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
 description: "Web services can expose one of two styles for binding to their Web methods in the Web Service Description Language (WSDL) contract that describes them: Document or RPC."
 ---

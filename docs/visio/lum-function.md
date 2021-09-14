@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251460
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38e6bba7-1bf2-3d31-0912-707002454f5d
 description: "Returns the value of a color's luminosity component."
 ---

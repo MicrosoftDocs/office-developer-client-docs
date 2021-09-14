@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b6950c4-7c03-6462-eeab-3176db9a8f7e
 description: "Specifies the authors of comments in a drawing."
 ---

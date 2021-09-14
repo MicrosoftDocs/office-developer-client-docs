@@ -7,7 +7,7 @@ ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9622cf4-eaa8-400b-b3ea-0409add8b212
 description: ""
 ---

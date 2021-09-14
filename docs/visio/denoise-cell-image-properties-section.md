@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm225
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e305585f-f0d8-0494-91d4-0c76929dc170
 description: "Removes noise (pixels with randomly distributed color levels) from a bitmap image. The default value is 0%."
 ---

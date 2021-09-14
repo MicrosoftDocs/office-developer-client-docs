@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251397
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 524278fb-196e-9cf9-e27b-d03642beeee4
 description: "Returns the angle between the vector represented by x,y and the direction of the x -axis. The result is a number in the current unit of measure for angles."
 ---

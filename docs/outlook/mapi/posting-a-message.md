@@ -3,7 +3,7 @@ title: "Posting a message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cc3e1546-e58b-413f-82d7-4efeb86b0000

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
 description: "Maps a data-recordset row to a shape."
 ---

@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn320433(v=office.15)
 ms:contentKeyID: 55113874
 ms.date: 09/02/2015
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Outlook 2013 Interop Assembly class library

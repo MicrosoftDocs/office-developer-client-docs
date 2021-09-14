@@ -3,7 +3,7 @@ title: "Retrieve body of message in compressed RTF and convert to its native for
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9408da71-4abf-60cf-5412-58c5ceeb2205
 description: "Last modified: June 25, 2012"
 ---

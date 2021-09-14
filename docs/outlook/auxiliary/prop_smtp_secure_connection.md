@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: "Specifies the type of encrypted connection to use for an SMTP account."
 ---

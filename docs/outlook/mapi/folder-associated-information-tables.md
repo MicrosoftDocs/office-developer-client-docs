@@ -3,7 +3,7 @@ title: "Folder-Associated Information Tables"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b72a0d36-c489-41d6-af57-72fbf4b7a3f5

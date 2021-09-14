@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1160
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e07dd983-7588-6317-944c-46da2bb65b31
 description: "Specifies the distance between horizontal lines in a fixed grid (XGridDensity = 0)."
 ---

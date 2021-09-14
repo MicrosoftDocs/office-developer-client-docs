@@ -3,7 +3,7 @@ title: "MAPI Receive Folders"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f

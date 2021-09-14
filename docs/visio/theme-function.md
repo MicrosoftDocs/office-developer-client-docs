@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fa7a176d-ce9c-1ae6-490f-0646b2ee432f
 description: "Gets the current theme's format settings."
 ---

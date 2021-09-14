@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60016
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a05d668f-70c9-b6fa-cac1-462af37b4f8f
 description: "Contains a row for each action tag defined for a shape or page."
 ---

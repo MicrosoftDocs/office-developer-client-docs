@@ -3,7 +3,7 @@ title: "Property Identifier Ranges"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c01e95bb-be25-490d-880b-60674f890258

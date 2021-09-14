@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60026
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 26f370e1-5193-f47d-7b60-3597975be650
 
 description: "Contains the ID of the button face image that appears on the action tag button."

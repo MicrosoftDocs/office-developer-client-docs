@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d83e39f0-b259-4c33-8f3e-e03e94c2403d
 description: "This topic describes the interfaces that you can use to programmatically customize the Quick Filing dialog box in OneNote 2013."
 ---

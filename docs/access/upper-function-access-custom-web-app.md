@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7c9737cc-4da6-46da-9dfa-57dfe91641bf
 description: "Returns a text expression with lowercase character data converted to uppercase."
 ---

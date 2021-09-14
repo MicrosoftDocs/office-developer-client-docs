@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm80003
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2405457-843c-0d46-5f4f-9c413826c3f1
 description: "Determines whether the row is a child flyout menu of the last row above it that is not a flyout child."
 ---

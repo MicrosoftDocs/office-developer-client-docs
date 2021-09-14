@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fc27888-2809-aa29-4dbb-7e4f8a0c4758
 description: "A user-specified piece of information that can be referred to by other cells and add-on tools."
 ---

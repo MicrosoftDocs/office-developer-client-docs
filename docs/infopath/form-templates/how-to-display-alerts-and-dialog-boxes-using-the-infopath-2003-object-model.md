@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, displaying dialog boxes,form templates [InfoPath 2007], displaying dialog boxes,alerts, displaying in InfoPath 2003-compatible form templates,dialog boxes, displaying in InfoPath 2003-compatible form templates,InfoPath 2003-compatible form templates, displaying alerts
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: "When writing code to extend the functionality of a form template that uses the InfoPath 2003 object model, it is often useful to provide the user with information in a dialog box."
 ---

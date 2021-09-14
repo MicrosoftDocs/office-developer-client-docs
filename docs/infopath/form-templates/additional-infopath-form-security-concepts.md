@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77425a61-bf33-b3d8-442a-caee48e54a48
 description: "The Microsoft InfoPath security model is based on the security model implemented by Internet Explorer. The Internet Explorer security model helps protect your computer from unsafe operations by using security zones and levels. Working together with the Internet Explorer security model, InfoPath provides for two kinds of form deployment that affect how an InfoPath form works within this security model."
 ---

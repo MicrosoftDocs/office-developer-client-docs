@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b387f896-c213-fc07-a12a-33917e620837
 description: "Gets the next account in the enumerator."
 ---

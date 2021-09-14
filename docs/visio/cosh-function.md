@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251408
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70b3788d-d8cf-79bb-d929-86aceba49345
 description: "Returns the hyperbolic cosine of an angle."
 ---

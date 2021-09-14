@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251447
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d51120f7-df80-f0bb-8af9-751d3c59f045
 description: "Rounds a number down to the next integer."
 ---

@@ -4,7 +4,7 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6bd7d2e-3cb8-4be3-9716-1a666c66561e
 description: "Multiplies two expressions."
 ---

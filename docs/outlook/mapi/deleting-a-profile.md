@@ -3,7 +3,7 @@ title: "Deleting a Profile"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4d01ab2e-40fd-409d-a69d-163b7d5462ca

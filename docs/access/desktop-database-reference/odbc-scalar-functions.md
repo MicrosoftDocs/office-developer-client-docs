@@ -10,7 +10,7 @@ f1_keywords:
 - jetsql40.chm5277473
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ODBC scalar functions

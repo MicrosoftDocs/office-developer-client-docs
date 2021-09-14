@@ -3,7 +3,7 @@ title: "Message Reception Model"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d85d269e-2251-4399-9159-a2f47a85e3d1

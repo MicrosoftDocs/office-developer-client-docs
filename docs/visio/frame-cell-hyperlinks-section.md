@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm405
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 
 description: "Represents the name of a frame to target when the application is open as an Active document in a container application. The default is an empty string."

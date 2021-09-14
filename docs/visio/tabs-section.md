@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2145
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c6485c6-629c-9aef-d3da-117f34e71cde
 description: "Contains cells for shapes or styles that control tab stop position and alignment."
 ---

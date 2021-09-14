@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm510
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6d328b1c-8d92-eb1a-7317-7dd85c674ff9
 description: "Specifies the label that appears to users in the Shape Data window. A label consists of alphanumeric characters, including the underscore (_) character."
 ---

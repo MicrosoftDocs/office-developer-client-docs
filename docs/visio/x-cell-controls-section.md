@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251281
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7aea554-f491-6a9a-4d07-feeab739a9df
 
 description: "Represents the x -coordinate that indicates the location of a shape's control handle in local coordinates."

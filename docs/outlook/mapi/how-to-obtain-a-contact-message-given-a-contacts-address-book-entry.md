@@ -3,7 +3,7 @@ title: "Obtain a contact message given a contacts address book entry"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a263894b-b3da-f1e4-a7da-ca3695bddc94
 description: "Last modified: August 13, 2013"
 ---

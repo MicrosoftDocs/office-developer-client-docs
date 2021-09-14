@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - freexlopert function [excel 2007],FreeXLOper12T function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

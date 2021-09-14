@@ -3,7 +3,7 @@ title: "Read-Only Message Stores"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 752ff2d6-ca64-4507-adf1-4c054c321203

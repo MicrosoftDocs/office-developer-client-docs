@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60090
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df7f79df-770a-4868-e7e2-05c3828e23eb
 description: "Determines whether the page name is exposed in the user interface (UI)."
 ---

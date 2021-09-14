@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251652
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af85588e-8e83-5168-7a8c-d7e8b4af5c27
 description: "Determines when a connector jumps."
 ---

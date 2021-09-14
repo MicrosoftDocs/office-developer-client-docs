@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d0a2945-54d7-417f-b5c6-2647c70263cf
 description: "Gets an ISocialPerson interface based on the userID parameter."
 ---

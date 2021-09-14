@@ -3,7 +3,7 @@ title: "Providing Read and Nonread Reports for Message Store Providers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9644b8c5-ecc0-4ea3-972a-2169c78b99e5

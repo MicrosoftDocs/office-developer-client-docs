@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251505
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9b8efcf-edc0-ad99-deae-21df16c58807
 description: "Returns the width of the composed text in a shape."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm140
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d51a1dd8-678a-a34d-658d-bd7a027dd379
 
 description: "Represents different information in different rows. This table describes the C cell based on the row in which it's located."

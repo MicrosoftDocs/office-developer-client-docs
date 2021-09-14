@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eca75ec6-3677-54ef-74ec-4a440a089e5d
 description: "Specifies the width of the page tab control of a drawing window (as a fraction of the total width of the drawing window)."
 ---

@@ -3,7 +3,7 @@ title: "Verifying service provider configuration"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03

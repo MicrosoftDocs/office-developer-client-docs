@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85aa7df3-d9bd-acb3-61b3-2bd5fa256435
 description: "Contains a collection of Shape elements."
 ---

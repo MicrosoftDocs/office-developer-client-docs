@@ -3,7 +3,7 @@ title: "About the Sample Offline State Add-in"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a6bdf408-114a-2203-189f-101251a65a8c
 description: "Last modified: July 23, 2011"
  

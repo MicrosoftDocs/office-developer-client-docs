@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f2d6a11e-847d-6bbe-cd77-e78ee961cb12
 description: "An enumeration for the free/busy status of free/busy blocks."
 ---

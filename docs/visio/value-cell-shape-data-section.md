@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1090
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd42a6ce-f621-4e9e-aba3-23a1b87a5651
 description: "Contains the shape data item's value as entered in the Define Shape Data dialog box."
 ---

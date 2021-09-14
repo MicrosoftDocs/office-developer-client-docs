@@ -8,7 +8,7 @@ f1_keywords:
 - xlGetBinaryName
 keywords:
 - xlgetbinaryname function [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

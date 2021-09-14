@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2165
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1470248e-be1c-fcb0-1d6b-0a5f60365924
 description: "You can add, show, hide, and delete sections in the ShapeSheet."
 ---

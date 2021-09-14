@@ -3,7 +3,7 @@ title: "Publisher"
 manager: kelbow
 ms.date: 12/13/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0f11822-d45e-48e6-bf59-990164e3d6d9
 description: "Find how-to content, technical articles, and references for developing solutions and customizing Publisher."
 ---

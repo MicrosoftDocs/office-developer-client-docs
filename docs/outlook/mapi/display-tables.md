@@ -3,7 +3,7 @@ title: "Display Tables"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633

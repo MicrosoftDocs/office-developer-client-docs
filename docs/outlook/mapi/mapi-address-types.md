@@ -3,7 +3,7 @@ title: "MAPI Address Types"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7

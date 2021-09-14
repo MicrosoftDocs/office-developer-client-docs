@@ -10,7 +10,7 @@ f1_keywords:
 - acmain11.chm1032166
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Initializing the Text Data Source driver

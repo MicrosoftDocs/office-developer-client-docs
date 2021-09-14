@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 312bcad2-b364-4b4c-a8f9-40e11330bde0
 description: "The Group statement enables you to specify a block of actions within a macro that you can expand or collapse."
 ---

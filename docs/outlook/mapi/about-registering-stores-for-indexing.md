@@ -3,7 +3,7 @@ title: "About Registering Stores for Indexing"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dd2aa06a-96e8-1291-18b5-fc3c40b74e4d
 description: "Last modified: March 09, 2015"
  

@@ -3,7 +3,7 @@ title: "Short-term entry identifiers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 948e007a-ad68-4abd-9720-204c6584beb5

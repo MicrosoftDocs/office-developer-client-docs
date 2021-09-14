@@ -4,7 +4,7 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 18d28dc1-c41f-47c6-b5c7-258d5f877d01
 description: "You can use the If macro block to conditionally execute a group of actions, depending on the value of an expression."
 ---

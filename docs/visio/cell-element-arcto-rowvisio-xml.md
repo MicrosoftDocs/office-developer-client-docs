@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 69f1a0cc-90fe-4b49-653c-bba4a1a2b1b2
 description: "Contains the x coordinate, y coordinate, or bow of a circular arc."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1085
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e3f8dc9-203f-447d-9674-eb0be2d557d1
 description: "Recalculates the selection rectangle whenever a control handle is moved."
 ---

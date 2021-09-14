@@ -3,7 +3,7 @@ title: "Sending or receiving a message on demand"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 479404c5-4926-402a-aa12-75dd23276d75

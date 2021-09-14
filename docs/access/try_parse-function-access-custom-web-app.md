@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ed35263c-b0ad-4269-9caa-c0164015e980
 description: "Parses a text value to the specified data type in the culture of the application or returns Null if the conversion is not valid."
 ---

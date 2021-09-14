@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 041c1b07-7ad4-f786-c6dc-32a41d4d5e04
 description: "Specifies whether the user is prevented from creating or editing styles."
 ---

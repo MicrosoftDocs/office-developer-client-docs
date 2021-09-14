@@ -3,7 +3,7 @@ title: "Long-Term Entry Identifiers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a514275e-40c2-48db-8072-1dfc392a7ac6

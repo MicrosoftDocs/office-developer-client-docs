@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - expression evaluation [excel 2007],worksheets [Excel 2007], name evaluation,evaluating expressions [Excel 2007],evaluating worksheet names [Excel 2007],expressions [Excel 2007], evaluating,names [Excel 2007], evaluating,name evaluation [Excel 2007],strings [Excel 2007], converting to values,xlfEvaluate function [Excel 2007],worksheets [Excel 2007], expression evaluation
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b23c75e-2a95-4f26-8714-2a73f5e326a7
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

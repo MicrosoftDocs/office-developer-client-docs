@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d8c554c5-89ac-9b32-5561-8d8178d2525a
 description: "An Offline Address Book (OAB) provides Outlook users in a disconnected state access to directory information from the Global Address List (GAL) and from other address books."
 ---

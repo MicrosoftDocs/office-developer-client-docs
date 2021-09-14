@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033762
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c48a77e1-ea3c-7a6d-8c05-f9e0cb434cda
 
 description: "Determines whether text is formatted as double strikethrough."

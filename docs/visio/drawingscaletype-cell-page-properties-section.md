@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm270
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d4f1cf8-bc1f-07b8-1da5-7253808e337e
 description: "Determines the drawing scale selected in the Page Setup dialog box (click the Page Setup arrow on the Home tab)."
 ---

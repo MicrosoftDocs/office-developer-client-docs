@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033764
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 
 description: "Contains the number of the font used to format the text containing Asian characters. Font numbers vary according to the fonts installed on your system."

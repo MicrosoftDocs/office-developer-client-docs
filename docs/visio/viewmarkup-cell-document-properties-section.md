@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1030802
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: "Determines whether markup appears in the drawing window."
 ---

@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ec9a9c0-b348-4a31-b377-e95db2f92455
 description: "Microsoft InfoPath supports using a Microsoft Access 2010 database as the primary data source for a form, or as a secondary data source for a form or control. This article explains how to use an Access 2010 database as a data source."
 ---

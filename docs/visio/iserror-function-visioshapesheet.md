@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251452
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4864ebc2-fee6-2415-7c59-e0af8611f8d6
 description: "Returns TRUE if the value of cellreference is any error type; otherwise, it returns FALSE. The ISERROR function is used in formulas that refer to another cell."
 ---

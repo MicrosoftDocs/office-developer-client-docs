@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm805
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c02186ce-6a20-fbe7-588d-d64c3ea4dec4
 
 description: "Determines the position of the shape's text relative to the baseline."

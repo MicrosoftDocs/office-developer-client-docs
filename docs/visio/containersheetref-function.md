@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bbdb2dea-4f75-b73e-a98a-0031f34dff2c
 description: "Returns a sheet reference to the specified container that contains the shape."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251594
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9587283b-4f4d-0ad6-34aa-58e2001f085e
 description: "Returns the date and time a document was last printed, as a serial value."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09385b75-ec0e-4dde-b9c3-9ade4a7a2b74
 description: "Returns the exponential value of the specified expression."
 ---

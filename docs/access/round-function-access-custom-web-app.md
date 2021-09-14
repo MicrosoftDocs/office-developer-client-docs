@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4af7fbe2-ee34-4a52-b55e-ce3983313b5e
 description: "Returns a numeric value, either rounded or truncated, to the specified length or precision."
 ---

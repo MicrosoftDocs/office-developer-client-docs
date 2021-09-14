@@ -3,7 +3,7 @@ title: "Local Form Libraries"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fbfe2303-b7bc-456b-b746-37f4f4e3eff7

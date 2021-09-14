@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 774c29fa-5515-4c67-9bb3-1387f4bb20a7
 description: "Contains the color, transparency, and position of a gradient stop for a fill gradient."
 ---

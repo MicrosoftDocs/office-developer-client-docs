@@ -3,7 +3,7 @@ title: "Sending Messages Message Store Provider Tasks"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c

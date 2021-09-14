@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8438fe4b-f5f7-d4e4-58b7-7ebdc1da197a
 description: "Specifies a relationship to a part with the solution XML associated with this solution."
 ---

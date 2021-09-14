@@ -3,7 +3,7 @@ title: "Transport provider role in the MAPI subsystem"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7659369a-0952-4f5a-a86b-91958c4c1a3f

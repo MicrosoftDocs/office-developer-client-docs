@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: "Returns or sets the user display name."
 ---

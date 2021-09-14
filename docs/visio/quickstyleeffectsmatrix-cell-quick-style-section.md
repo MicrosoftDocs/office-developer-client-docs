@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0332bd3d-626a-4a46-8b69-e887e576ab86
 description: "Determines the Quick Style effects that the shape inherits from the active theme, as an integer from 0-6."
 ---

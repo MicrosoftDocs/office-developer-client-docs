@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31f43ebe-3758-4fd9-83b5-775041c5890f
 description: "Indicates whether the values of specified cells in a master shape overwrite the values (including local values) of a shape being replaced during a shape replacement operation. The ReplaceLockText determines whether the text displayed on the Master overwrites the text of the shape being replaced."
 ---

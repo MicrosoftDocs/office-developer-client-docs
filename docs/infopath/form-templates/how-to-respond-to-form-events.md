@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - order of events [infopath 207],events [InfoPath 2007], responding,events [InfoPath 2007], order,InfoPath 2007, reponding to events,EventArgs classes [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 754db64b-179f-4385-8dd9-c20c9407b186
 description: "You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you add event handlers while working with a form template in design mode."
 ---

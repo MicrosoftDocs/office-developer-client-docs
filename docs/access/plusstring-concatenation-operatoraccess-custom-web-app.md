@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24fc83e6-5860-4890-a222-f322fc30a5f9
 description: "The plus sign (+) is the string concatenation operator that enables string concatenation. All other string manipulation is handled by using string functions such as Substring ."
 ---

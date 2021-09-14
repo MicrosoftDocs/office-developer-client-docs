@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82253246
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff74bf11-e693-11e4-23fa-67e93aa203ff
 description: "Microsoft Visio objects are stored internally as a set of formulas. You can view a Visio object in the ShapeSheet window to see and edit the underlying formulas that determine its appearance and behavior."
 ---

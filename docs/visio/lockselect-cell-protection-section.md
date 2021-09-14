@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm660
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c96b45a5-719e-8c4b-71b9-cb2224d83e21
 description: "Prevents a shape from being selected."
 ---

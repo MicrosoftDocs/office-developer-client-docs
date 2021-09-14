@@ -3,7 +3,7 @@ title: "Opening an attachment"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226

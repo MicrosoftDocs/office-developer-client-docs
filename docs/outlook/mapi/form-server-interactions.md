@@ -3,7 +3,7 @@ title: "Form server interactions"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1087b8d6-0ac4-4290-86d2-b70d2619fd75

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251758
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e47acfe-5ec0-3689-eb89-0168f596a739
 description: "Contains the x - and y -coordinates, position of the second to last knot, position of the last weight, position of the first knot, position of the first weight, and the formula for a nonuniform rational B-spline (NURBS)."
 ---

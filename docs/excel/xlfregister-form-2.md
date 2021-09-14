@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xlfregister function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

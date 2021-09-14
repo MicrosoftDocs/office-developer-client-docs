@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 994d29c1-deca-6036-fdb1-12da945b29f2
 description: "Contains the text string that appears in the left portion of a document's footer."
 ---

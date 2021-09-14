@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xlautoadd function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

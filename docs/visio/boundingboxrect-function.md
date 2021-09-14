@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1f66d2b2-ec9e-cd58-7642-96850fe4589e
 description: "Returns the coordinate of the specified edge of the shape's bounding box."
 ---

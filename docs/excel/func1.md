@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - func1 function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

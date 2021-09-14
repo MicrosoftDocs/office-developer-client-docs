@@ -3,7 +3,7 @@ title: "Forwarding a message"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480

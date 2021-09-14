@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251461
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9f443687-9861-5f51-94c4-f056805f736b
 description: "Returns the magnitude of the vector whose rise is A and whose run is B, multiplied by the respective constants constantA and constantB."
 ---

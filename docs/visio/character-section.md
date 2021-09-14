@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251246
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f5afe93a-9217-a9ec-76ce-daf12afbb0f7
 description: "Shows the formatting attributes for the shape's text, such as font, color, text style, case, position relative to the baseline, and point size."
 ---

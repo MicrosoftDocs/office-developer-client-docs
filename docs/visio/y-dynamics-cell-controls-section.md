@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251284
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb221974-2f1a-edb0-477b-39a3c4a64c56
 
 description: "Represents the y -coordinate for a control handle's anchor point in local coordinates. The anchor point is used for rubber-banding during dynamics."

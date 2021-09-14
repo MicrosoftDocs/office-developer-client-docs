@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251465
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb6326a5-1bf8-b6a3-5c0d-d38c071353a5
 description: "Returns the remainder (modulus) that results when a number is divided by a divisor."
 ---

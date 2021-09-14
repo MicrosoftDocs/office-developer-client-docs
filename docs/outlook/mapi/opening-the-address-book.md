@@ -3,7 +3,7 @@ title: "Opening the address book"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 79e0bc93-f37d-4f6a-beed-7519d01e0056

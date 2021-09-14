@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8cb8f916-f061-4c4c-ad1b-40d44af3345a
 description: "The OSC calls the ISocialProvider::GetCapabilities method to determine the capabilities of the OSC provider for a social network."
 ---

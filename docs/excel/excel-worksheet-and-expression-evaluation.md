@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - expression evaluation [excel 2007],errors in worksheets [Excel 2007],long Unicode strings [Excel 2007],evaluating expressions [Excel 2007],evaluating worksheets [Excel 2007],worksheet evaluation [Excel 2007],worksheet errors [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47b46a7d-6cfb-4f5b-946d-e0164d18512a
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

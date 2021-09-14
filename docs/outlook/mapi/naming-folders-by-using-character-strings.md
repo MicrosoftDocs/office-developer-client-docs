@@ -3,7 +3,7 @@ title: "Naming Folders by Using Character Strings"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ec3c023b-7c99-489c-8217-78b303dc10df

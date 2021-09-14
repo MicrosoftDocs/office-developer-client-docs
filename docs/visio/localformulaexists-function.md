@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60105
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b757c8d-7732-0f9b-c836-ef755dd1c673
 description: "Indicates whether the referenced cell contains a local formula."
 ---

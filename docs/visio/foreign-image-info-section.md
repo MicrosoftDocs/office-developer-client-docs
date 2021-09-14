@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2050
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c870d60b-f01d-ced6-08f7-bc3ae6832c42
 description: "Contains the width and height of an object from another program used in a Microsoft Visio drawing and appears in the ShapeSheet window only for such objects. It also indicates the distance the object's image is offset within its borders."
 ---

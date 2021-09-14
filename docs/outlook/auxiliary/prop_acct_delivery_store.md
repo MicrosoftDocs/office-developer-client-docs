@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f5db43e9-687b-d467-1be1-3737e3f91c27
 description: "Represents the Entry ID of the default delivery store for the account."
 ---

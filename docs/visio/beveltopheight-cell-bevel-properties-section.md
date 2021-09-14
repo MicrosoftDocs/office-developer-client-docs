@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b09b48d0-9008-4e43-9506-93a830ad9452
 description: "Determines the height of a shape's top bevel in points."
 ---

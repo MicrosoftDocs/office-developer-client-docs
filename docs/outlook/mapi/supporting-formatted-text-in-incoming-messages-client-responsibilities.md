@@ -3,7 +3,7 @@ title: "Supporting Formatted Text in Incoming Messages Client Responsibilities"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 79727700-5ef1-4a29-9ed0-fd46c7de3202

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251198
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 062022ff-e243-2540-becd-d9b969ce83ce
 description: "Indicates whether the shape has been flipped vertically."
 ---

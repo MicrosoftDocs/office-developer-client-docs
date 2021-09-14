@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251723
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2264d026-2041-3855-2b23-553ce67ae69d
 
 description: "Determines the connection point type."

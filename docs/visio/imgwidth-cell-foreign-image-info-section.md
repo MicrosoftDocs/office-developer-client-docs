@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm460
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
 description: "Determines the width of the object's image within its border. The default formula is:"
 ---

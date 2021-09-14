@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251373
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92ec9b11-f53f-a1c9-832a-6cac08aa5379
 description: "Determines the distance in page units that a shape's drop shadow is offset horizontally from the shape."
 ---

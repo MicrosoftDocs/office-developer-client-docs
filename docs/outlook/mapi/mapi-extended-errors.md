@@ -3,7 +3,7 @@ title: "MAPI Extended Errors"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b0a9fc55-f4ab-45d8-98cc-b040f9ef6aa4

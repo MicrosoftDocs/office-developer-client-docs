@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251828
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48f765a8-7485-03c0-3484-d4ec07822600
 description: "When you insert fields into text or build formulas, you often specify units of measure for the values you type."
 ---

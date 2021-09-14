@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm415
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75f2ea45-52ac-ddfa-14ea-402933ae2449
 description: "Specifies whether shapes belonging to the layer can be glued."
 ---

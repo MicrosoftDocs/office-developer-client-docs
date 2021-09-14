@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 23544055-c554-28b7-c351-370ab9b3c96c
 description: "Contains all the Issue elements for the document."
 ---

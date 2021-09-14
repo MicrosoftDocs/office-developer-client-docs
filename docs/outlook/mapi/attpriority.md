@@ -3,7 +3,7 @@ title: "attPriority"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ff63b5b5-fde8-4e5b-a5be-b19e805ac7ed

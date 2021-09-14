@@ -3,7 +3,7 @@ title: "Sample sandboxed solutions"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 415fa0fa-b7b7-4acb-a437-f54c34064004
 description: This topic provides two examples that show the kind of code that you can write in an InfoPath sandboxed solution, and how to publish the form template.
 ---

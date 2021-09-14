@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f5954685-3a2d-7848-388f-5dd7e536551c
 description: "The root element of a Microsoft Visio document."
 ---

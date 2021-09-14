@@ -3,7 +3,7 @@ title: "DateWithTimeFromParts function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa97cbaa-8b14-42e3-a098-938ebe0769eb
 description: "Returns a Date and Time based on a specified year, month, day, and time."
 ---

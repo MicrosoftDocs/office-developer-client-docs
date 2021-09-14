@@ -3,7 +3,7 @@ title: "MAPI message store provider objects"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 87a452e6-dedf-414d-b7cf-07c8b02dd94a

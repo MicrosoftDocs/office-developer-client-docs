@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60060
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a97e97c-278d-2e1e-6c4f-f5f32e2cdeb0
 description: "Specifies the margin at the bottom of the printed page."
 ---

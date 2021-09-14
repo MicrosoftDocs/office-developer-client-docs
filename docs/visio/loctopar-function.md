@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251585
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
 description: "Returns a transformed point in parent coordinates in the destination coordinate system."
 ---

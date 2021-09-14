@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm535
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d857b48b-9a3d-a1e1-5ad2-6816a492c8ab
 description: "Determines the line color of the shape."
 ---

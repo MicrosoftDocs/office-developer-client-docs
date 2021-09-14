@@ -3,7 +3,7 @@ title: "Handling MAPI property errors"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 23d68d8b-b0b6-4c32-8404-6acd23802db0

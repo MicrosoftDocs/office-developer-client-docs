@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7470417-0d70-433e-9496-604ca2eafee6
 description: "Determines the type of Quick Style (2-dimensional, 1-dimensional, or connector) that the shape inherits."
 ---

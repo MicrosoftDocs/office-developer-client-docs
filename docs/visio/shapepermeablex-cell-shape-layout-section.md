@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm890
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e27b36c-4fd1-34e0-c168-f49eb5757b0e
 description: "Determines whether a connector can route horizontally through a placeable shape."
 ---

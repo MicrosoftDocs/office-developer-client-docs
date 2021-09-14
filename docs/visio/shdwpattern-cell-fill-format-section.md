@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm935
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eca73b80-9835-9011-1dce-187ccee92e76
 description: "Determines the fill pattern for a shape's shadow."
 ---

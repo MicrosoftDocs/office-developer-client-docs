@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_SDR.chm1175
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3af6c949-d6a0-9560-54d7-b01a2ad99960
 
 description: "Represents the y -coordinate for a connection point in local coordinates."

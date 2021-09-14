@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm760
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0184814c-2d67-6ad4-e336-5694612e518d
 description: "Contains the height of the printed page in drawing units."
 ---

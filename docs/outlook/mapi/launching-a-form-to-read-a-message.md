@@ -3,7 +3,7 @@ title: "Launching a Form to Read a Message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 54a4b805-2ab7-4fb7-b0ea-4a33ead27451

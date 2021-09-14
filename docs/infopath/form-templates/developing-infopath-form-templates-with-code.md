@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - form templates [infopath 2007], developing,form templates [InfoPath 2007], managed code,InfoPath 2007,managed code form templates [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b43ada73-349d-498f-a8bb-e8fd5020d207
 description: "The topics in this section provide information about creating form templates that have business logic written in managed code (Visual Basic or C#) against members of the Microsoft.Office.InfoPath namespace."
 ---

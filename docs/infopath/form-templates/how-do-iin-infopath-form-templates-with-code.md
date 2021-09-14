@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2007, common tasks
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da678213-fae0-4854-8194-762866600100
 description: "Use the links in this topic to quickly find the answers to your most frequent programming questions about working with InfoPath managed code form templates."
 ---

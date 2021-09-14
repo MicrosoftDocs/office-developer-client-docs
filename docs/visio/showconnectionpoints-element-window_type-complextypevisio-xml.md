@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1f71dece-9b55-c36b-4424-f130c8d8916c
 description: "Specifies whether connection points are shown in a window."
 ---

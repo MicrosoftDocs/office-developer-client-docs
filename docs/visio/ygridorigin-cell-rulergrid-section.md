@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1205
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eeec59f8-f301-5639-ffd6-8a36b2bf9c8f
 description: "Specifies the vertical origin of the grid."
 ---

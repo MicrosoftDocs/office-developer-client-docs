@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - debugging [infopath 2007], infopath 2003-compatible form templates,previewing InfoPath 2003-compatible form templates,form templates [InfoPath 2007], previewing 2003-compatible,form templates [InfoPath 2007], debugging 2003-compatible,debugging InfoPath 2003-compatible form templates
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c491666-06f0-42ec-967e-1c70cd5e03a0
 description: "By default, if you attempt to debug or preview a managed-code project that contains code that invokes an object model member that requires full trust, such as the LoginName property which requires access to information about the user's login domain, Microsoft InfoPath will display the following error messages."
 ---

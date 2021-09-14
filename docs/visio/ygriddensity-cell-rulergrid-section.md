@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251363
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ea2b3c7-0c69-a9f2-379f-8daa0c665810
 description: "Specifies the type of vertical grid to use."
 ---

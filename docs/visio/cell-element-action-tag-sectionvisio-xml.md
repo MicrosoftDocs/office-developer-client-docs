@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6210ff71-fbcd-2c97-6dde-1e334891e08d
 description: "Defines one property for an action tag on a shape or page."
 ---

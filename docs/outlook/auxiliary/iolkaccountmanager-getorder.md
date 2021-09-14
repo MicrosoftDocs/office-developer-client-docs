@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
 description: "Gets the ordering of the specified category of accounts."
 ---

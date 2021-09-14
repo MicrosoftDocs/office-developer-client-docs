@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1042150
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b3f3a0a0-7b14-0b71-d247-ada81b93b66b
 description: "Used in the set_expression parameter of the SETATREF function to indicate that set_expression should be evaluated before assigning to the reference parameter in SETATREF."
 ---

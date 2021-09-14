@@ -3,7 +3,7 @@ title: "Starting a MAPI Session"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7935ebed-f252-482c-ad8c-757aa2d8501d

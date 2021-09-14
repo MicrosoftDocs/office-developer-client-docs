@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9077ad4b-c539-c0c8-d268-9a009990abdd
 description: "Specifies the value of a primary key for an individual row of a recordset."
 ---

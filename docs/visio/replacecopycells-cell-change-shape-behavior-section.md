@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f36aefd-da49-47ea-9b90-2fa1a2298849
 description: "Indicates a list of cells in the ShapeSheet that are copied from an old shape to the replacement shape during a shape replacement operation."
 ---

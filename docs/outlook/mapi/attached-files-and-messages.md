@@ -3,7 +3,7 @@ title: "Attached Files and Messages"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b2f2fb72-23ae-4e0b-a8a1-3b78a1862acb

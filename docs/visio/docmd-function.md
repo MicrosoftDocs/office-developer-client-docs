@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60100
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6574edeb-eb6f-afd9-89c4-eb5996dffa30
 description: "Performs the identified command."
 ---

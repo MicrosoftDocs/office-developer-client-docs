@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75ed353c-7d3e-e148-4057-715e82a0f32c
 description: "Specifies information for a time zone rule about when daylight saving time starts, and the year in which that time zone rule first takes effect."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2120
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da8a6f95-86e0-fcf0-34b4-efa369569085
 description: "Shows the current settings of the page's rulers and grid."
 ---

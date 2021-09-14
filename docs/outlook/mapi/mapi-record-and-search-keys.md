@@ -3,7 +3,7 @@ title: "MAPI Record and Search Keys"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: caa7b7f3-a5a1-4f07-98c9-22652ecd5d21

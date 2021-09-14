@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0a4f6ce-4c40-c00e-6682-a932ae70d2f2
 description: "Returns the total number of shapes in the container."
 ---

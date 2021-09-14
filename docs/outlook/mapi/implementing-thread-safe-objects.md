@@ -3,7 +3,7 @@ title: "Implementing Thread-Safe Objects"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3c911694-b953-4d35-9a3a-22c17cfd79bc

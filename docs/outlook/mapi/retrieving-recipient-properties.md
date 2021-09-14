@@ -3,7 +3,7 @@ title: "Retrieving recipient properties"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 358f892b-54a7-4213-b3c0-94f28f99716f

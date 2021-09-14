@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99a6549b-099b-1546-cc30-db0010fe3ce1
 description: "Specifies the properties of the drawing page associated with the drawing page."
 ---

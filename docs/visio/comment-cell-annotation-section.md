@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60033
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b367841a-f31c-4b55-4491-2abab5811dbe
 
 description: "Contains the text that appears in a comment."

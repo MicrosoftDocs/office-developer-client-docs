@@ -10,7 +10,7 @@ f1_keywords:
 - jetsql40.chm5277478
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # GRANT statement (Microsoft Access SQL)

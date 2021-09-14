@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - xpathnodeiterator class [infopath 2007],XPathNavigator class [InfoPath 2007],form XML data [InfoPath 2007], accessing,XML DOM [InfoPath 2007],converting MSXML5 script [InfoPath 2007],MSXML5 script [InfoPath 2007], converting
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 72fb3ee5-f18e-4f9c-adc6-698ac037b79d
 description: "To access and manipulate the XML data in form template data sources, many members of the managed code object model provided by the Microsoft.Office.InfoPath namespace either create or can be passed an instance of the XPathNavigator class of the System.Xml.XPath namespace. After you have access to an XPathNavigator object returned by an InfoPath object model member, you can use the properties and methods of the XPathNavigator class to work with the data."
 ---

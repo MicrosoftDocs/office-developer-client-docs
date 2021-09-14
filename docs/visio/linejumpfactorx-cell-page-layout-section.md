@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm545
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0649672f-f496-ce80-6dc3-3affc9b6f913
 description: "Determines the size of line jumps on horizontal dynamic connectors on the page, relative to the value of the LineToLineX cell. The value of this cell can range from 0 to 10 but fractional values from 0 to 1 are suggested."
 ---

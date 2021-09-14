@@ -3,7 +3,7 @@ title: "Manage messages in OST without invoking a synchronization in Cached Exch
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
 description: "Contains a code sample in C++ that shows how to use IID_IMessageRaw in IMsgStore::OpenEntry to obtain an IMessage interface that manages a message in an offline folders file (OST) without forcing a download of the whole message when the client is in Cached Exchange Mode."
 ---

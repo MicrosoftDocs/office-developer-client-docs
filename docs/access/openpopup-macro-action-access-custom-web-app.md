@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 850de802-e417-4884-8d14-571de52aa391
 description: "Opens the specified view in a popup window."
 ---

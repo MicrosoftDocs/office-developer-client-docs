@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: "Contains a Connect element for each connection between two shapes in a drawing."
 ---

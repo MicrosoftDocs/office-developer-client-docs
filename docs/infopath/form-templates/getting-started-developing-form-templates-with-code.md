@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - form templates [infopath 2007], getting started,managed code form templates [InfoPath 2007], getting started,InfoPath 2007, getting started
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66468447-2012-4497-b371-c61f64a8bb49
 description: "This section provides information on how to get started creating managed code form templates that work with the InfoPath object model provided by members of the Microsoft.Office.InfoPath namespace."
 ---

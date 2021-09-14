@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251608
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5bb1cc81-f3fd-a835-1449-233dbd1a62b6
 description: "Adjusts the brightness of a bitmap image. Decrease brightness of an image by entering a value between 0% and 49%, or increase brightness by entering a value between 51% and 100%. The default value is 50%."
 ---

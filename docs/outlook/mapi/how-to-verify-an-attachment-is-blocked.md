@@ -3,7 +3,7 @@ title: "Verify an attachment is blocked"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
 description: "Last modified: June 25, 2012"
 ---

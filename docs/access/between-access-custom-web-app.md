@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9dcb32c6-ed9b-4a09-9e6a-48cc50063a6f
 description: "Specifies a range to test."
 ---

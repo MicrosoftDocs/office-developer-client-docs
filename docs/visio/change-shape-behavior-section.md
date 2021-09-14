@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9e97f45-2a5c-40c3-8282-a345ae6249d9
 description: "Determines the properties that are transferred from the old shape to the replacement shape during a replacement operation. The values of the cells in the Change Shape Behavior section of the Master shape of the replacement are read during the shape replacement operation."
 ---

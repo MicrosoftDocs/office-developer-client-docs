@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ac14d132-bc91-194b-4a0b-8a4b72acdbfd
 description: "Specifies whether the dynamic grid feature is enabled for a window."
 ---

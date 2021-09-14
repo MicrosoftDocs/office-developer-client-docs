@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60034
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1cf9e97-101b-384f-65fe-0169c89dfccc
 
 description: "Contains the number of the font used to format text composed of complex script characters. Font numbers vary according to the fonts installed on your system."

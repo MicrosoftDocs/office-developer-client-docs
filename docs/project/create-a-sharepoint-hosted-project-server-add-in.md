@@ -3,7 +3,7 @@ title: "Create a SharePoint-hosted Project Server add-in"
 manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb9c3c00-7121-41e1-9db3-75550d040ba8
 description: "Of the three types of apps that you can create for Project Online (autohosted, provider-hosted, and SharePoint-hosted), the SharePoint-hosted app is the simplest to create and deploy."
 ---

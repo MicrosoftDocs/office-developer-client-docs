@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60087
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e593e95d-f975-481d-69cd-619049d4427d
 description: "Contains the name of the action tag that this action is associated with."
 ---

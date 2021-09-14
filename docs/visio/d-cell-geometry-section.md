@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251753
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 
 description: "Represents different information in different rows. This table describes the D cell based on the row in which it's located."

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251486
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
 description: "Calculates the sector of a rectangle associated with x and y and returns an integer 0 to 4, indicating the sector."
 ---

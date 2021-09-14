@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12444313-1cfa-49ff-89da-3030fe75c13e
 description: "The SetLocalVar action creates a temporary variable and set it to a specific value."
 ---

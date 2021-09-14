@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251482
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8436cbe6-e0f6-ddbb-9489-21027e31bd51
 description: "Returns the y-coordinate of a point."
 ---

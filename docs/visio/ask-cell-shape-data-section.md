@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b499a5eb-db8f-ebd0-d505-c9a002205e7d
 
 description: "Determines whether a user is queried to enter shape data for a shape when an instance is created or the shape is duplicated or copied."

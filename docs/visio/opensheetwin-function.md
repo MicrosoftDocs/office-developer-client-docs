@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251474
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b574a99d-08f4-29e4-c40a-eb0770580ed5
 description: "Opens the ShapeSheet window in a new window."
 ---

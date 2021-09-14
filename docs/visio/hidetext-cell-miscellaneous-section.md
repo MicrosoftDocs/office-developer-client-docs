@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251323
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d23647a-e567-da71-50df-336a0f2f4071
 description: "Hides the text for a shape. You can view text, edit properties, and apply styles to the text in the text block, although the changes will not appear until you reset HideText to FALSE (0)."
 ---

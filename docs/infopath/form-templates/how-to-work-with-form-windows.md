@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - windowscollection [infopath 2007],form windows [InfoPath 2007],Window class [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 32ae2427-882b-45f8-8754-0e8c27fc23ba
 description: "When working programmatically with an InfoPath form, you can write code to access the form's windows, and then customize some of the items that they contain. The InfoPath object model provided by the Microsoft.Office.InfoPath namespace supports access to a form's windows through the use of the Window class in association with the WindowCollection class."
 ---

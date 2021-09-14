@@ -3,7 +3,7 @@ title: "Get the project ID in an add-in part on a Project Details Page"
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 009cd997-c7e5-4078-b495-c40caa29a5fb
 description: "Add-in parts are hosted in iframe elements that are fully isolated from the hosting page. To get information about the current project from an add-in part on Project Details Page (PDP), you can use the window.postMessage method, an event listener, and an event handler that parses out the project ID from the message."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60061
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ecdfc37-c9d4-2fde-ed3e-be81657c24e2
 description: "Specifies the margin on the left of the printed page."
 ---

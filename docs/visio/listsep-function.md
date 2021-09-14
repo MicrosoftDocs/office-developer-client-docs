@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251882
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 73dc5981-2c8c-e76e-e4bd-e65a7c8db242
 description: "Returns the list-separator string for the current user locale."
 ---

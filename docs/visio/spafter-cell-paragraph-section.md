@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm960
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2dd56ae5-300e-ba09-a73a-83c2b6c2a0ef
 
 description: "Determines the amount of space inserted after each paragraph in the shape's text block, in addition to any space from the SpLine cell and, if it is the last paragraph in a text block, the BottomMargin cell."

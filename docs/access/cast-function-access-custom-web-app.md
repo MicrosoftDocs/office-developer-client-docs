@@ -3,7 +3,7 @@ title: "Cast function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b33f649c-d9b5-4ae5-a3fa-8681ed9a956d
 description: "Converts an expression of one data type to another."
 ---

@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e39d633d-d8fb-4e2f-a396-6cb50beb8c3e
 description: "You can greatly enhance the functionality of your InfoPath forms by extending them with managed code developed in Visual Studio 2012. You can then publish your forms with code to form libraries on SharePoint Server 2013."
 ---

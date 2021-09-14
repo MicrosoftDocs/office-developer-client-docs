@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251416
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 154d76a2-81f5-d8b1-b665-26dbae5da615
 description: "Returns an integer, 1 to 366, that represents the sequential day of the year in datetime or expression. The DAYOFYEAR function uses the Gregorian calendar."
 ---

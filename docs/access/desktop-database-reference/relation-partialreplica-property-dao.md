@@ -10,7 +10,7 @@ f1_keywords:
 - dao360.chm1053557
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Relation.PartialReplica property (DAO)

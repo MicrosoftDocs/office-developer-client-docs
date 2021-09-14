@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 52169bda-d771-497c-bfe9-8697e6db595f
 description: "This section describes the interfaces that Outlook exports."
 ---

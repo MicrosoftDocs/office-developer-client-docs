@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644806(v=office.15)
 ms:contentKeyID: 55119924
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Search for a phrase in the body of items in a folder

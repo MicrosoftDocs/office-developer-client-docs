@@ -3,7 +3,7 @@ title: "Implementing MAPI Objects"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b1ee2533-8077-4976-846b-d42d148bf8c6

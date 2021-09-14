@@ -7,7 +7,7 @@ ms.date: 09/06/2019
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IConverterSession.MIMEToMAPI
 api_type:

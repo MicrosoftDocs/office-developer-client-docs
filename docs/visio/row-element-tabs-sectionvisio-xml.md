@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
 description: "Contains cells for shapes or styles that control tab stop position and alignment."
 ---

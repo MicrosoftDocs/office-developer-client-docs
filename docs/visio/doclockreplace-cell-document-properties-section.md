@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74eae5e5-80ab-4e10-b292-e58a6d7607d2
 description: "Determines whether the replace shape UI should be disabled for this document."
 ---

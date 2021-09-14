@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60067
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2c9616f-a144-eb99-54b6-b53745c7b4d6
 description: "Specifies the type of paper on which to print the page."
 ---

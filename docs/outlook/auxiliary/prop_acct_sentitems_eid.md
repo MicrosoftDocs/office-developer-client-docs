@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f199a97f-55d6-9297-adc4-e9f7b4b5f58b
 description: "Represents the Entry ID of the default folder for sent items for the account."
 ---

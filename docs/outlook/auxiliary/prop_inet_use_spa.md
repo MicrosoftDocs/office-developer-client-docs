@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9641a5a2-af6a-4999-b42b-5e9a004b47fc
 description: "Specifies whether to use Secure Password Authentication (SPA) for a general Internet mailbox."
 ---

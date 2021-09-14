@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b94d848e-868a-5d5e-ad82-39ed9bd5b357
 description: "Specifies the weather conditions of a location."
 ---

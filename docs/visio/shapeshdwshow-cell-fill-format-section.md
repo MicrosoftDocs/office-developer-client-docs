@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ece6c889-9291-40ea-b55a-072acdcb8a52
 description: "Determines whether the shape displays a shadow, as an integer from 0 to 2."
 ---

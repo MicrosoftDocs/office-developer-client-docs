@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60045
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f5d34f0-4c4b-5265-83c1-5b86b73d464f
 description: "Contains the initials of a document reviewer."
 ---

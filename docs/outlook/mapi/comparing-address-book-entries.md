@@ -3,7 +3,7 @@ title: "Comparing Address Book Entries"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e375367b-d107-4768-95de-00b8b9dc3511

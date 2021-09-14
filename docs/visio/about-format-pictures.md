@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251831
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df4c1c70-8b41-c046-7415-643188af0e06
 description: "A format picture is used to determine how a value is displayed. For example, you can control the number of digits displayed to the right or left of a decimal point, or whether a text string appears as uppercase or lowercase."
 ---

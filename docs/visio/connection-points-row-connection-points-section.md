@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3005
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eaac62a5-f516-9b81-587a-8e0e02de59ee
 description: "Contains the x - and y -coordinates, horizontal and vertical direction, and type for a single connection point on a shape. Coordinates of connection points are measured from the origin of the shape. A shape contains one Connection Points row for each connection point."
 ---

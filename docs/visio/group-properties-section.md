@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2065
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb422d46-0b4d-3bf7-73aa-6b01e2454a84
 description: "Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups."
 ---

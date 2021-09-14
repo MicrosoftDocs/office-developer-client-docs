@@ -3,7 +3,7 @@ title: "Tips for Working with Tables"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: adb4d589-7e03-4222-8717-898ef397c6b6

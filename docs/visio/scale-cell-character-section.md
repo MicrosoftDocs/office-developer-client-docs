@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm870
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: "Controls the font width. The default value for this cell is 100%."
 ---

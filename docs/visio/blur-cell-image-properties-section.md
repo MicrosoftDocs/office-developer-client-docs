@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm115
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8b077cdb-6036-4f77-dc20-a476bb75b0f7
 description: "Blurs or softens a bitmap image. The default value is 0%."
 ---

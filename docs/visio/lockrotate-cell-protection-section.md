@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm655
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: "Locks 2-D shapes against being rotated with the rotation handle or the Rotate Left 90° or Rotate Right 90° command."
 ---

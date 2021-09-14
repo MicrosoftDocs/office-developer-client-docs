@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251575
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c19efa2e-8249-d589-3f93-26c22dc4f4e7
 description: "Returns the text from the Subject field of a document's properties."
 ---

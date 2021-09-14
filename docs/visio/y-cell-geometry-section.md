@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251750
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
 
 description: "Represents a y -coordinate on a shape in local coordinates. This table describes the Y cell based on the row in which it's located."

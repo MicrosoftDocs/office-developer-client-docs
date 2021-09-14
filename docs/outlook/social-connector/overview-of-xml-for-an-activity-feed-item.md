@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 366550fa-e787-4ca0-bfe1-a7890dfc27c6
 description: "An activity feed consists of one or more activities occurring on a social network. Each activity feed is represented by an activityFeed element, and is characterized by these three pieces of information:"
 ---

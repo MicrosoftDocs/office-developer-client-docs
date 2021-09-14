@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251443
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cc46f91e-733f-e25a-17d2-19df8c8febd2
 description: "Returns the substring at the zero-based location index in the list delimited by delimiter. Or, if the index is out of range, returns an empty string or the optional token provided as the errorvalue argument."
 ---

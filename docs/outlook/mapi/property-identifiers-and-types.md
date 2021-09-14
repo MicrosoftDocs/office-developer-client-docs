@@ -3,7 +3,7 @@ title: "Property Identifiers and Types"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 39a5c97c-5ac8-47a8-b193-a4b3ba6a02a5

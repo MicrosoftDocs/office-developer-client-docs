@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e2a88ad-d92c-4550-8da3-fa7fdd032e73
 description: "Determines the compound type of the line of a shape."
 ---

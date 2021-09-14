@@ -3,7 +3,7 @@ title: "Creating and Storing Messages in Message Stores"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cc74b31c-d7ed-4fcf-9535-a2f9222901b7

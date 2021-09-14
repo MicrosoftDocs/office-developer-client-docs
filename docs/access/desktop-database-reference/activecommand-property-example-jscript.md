@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249824(v=office.15)
 ms:contentKeyID: 48547070
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ActiveCommand property example (JScript)

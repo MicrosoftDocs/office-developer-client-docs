@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62f0e093-5385-e552-f91a-02a65eb0e6e1
 description: "Specifies a master shortcut defined in the document."
 ---

@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - xdocument interface [infopath 2007],InfoPath 2003-compatible form templates, accessing form data,XDocumentsCollection interface [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0731014-f454-4417-9f90-19f3387f5776
 description: "When you want to extend the functionality of an InfoPath form, it is often necessary to programmatically access information about the form's underlying XML document, access the data that the XML document contains, or perform some action on the XML document. The InfoPath object model supports accessing and manipulating a form's underlying XML document through the use of the XDocument interface in association with the XDocumentsCollection interface."
 ---

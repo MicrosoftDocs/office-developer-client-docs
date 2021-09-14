@@ -1,26 +1,22 @@
 ---
 title: "PidTagOrgEmailAddress Canonical Property"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+description: Contains the email address of the originating email account. 
+manager: lindalU
+ms.date: 09/09/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOrgEmailAddress
 api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagOrgEmailAddress Canonical Property
-
   
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 Contains the email address of the originating email account.
   
@@ -45,8 +41,6 @@ Mapitags.h
     
 ## See also
 
-
-
 [MAPI Properties](mapi-properties.md)
   
 [MAPI Canonical Properties](mapi-canonical-properties.md)
@@ -54,4 +48,3 @@ Mapitags.h
 [Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
   
 [Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
-

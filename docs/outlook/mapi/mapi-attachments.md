@@ -3,7 +3,7 @@ title: "MAPI Attachments"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6e6c6ad9-1e07-4234-a5ef-18020d7ce468

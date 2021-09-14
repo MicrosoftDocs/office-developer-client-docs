@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251885
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1da42991-5791-ebab-84cc-286cfe984a61
 description: "Gets the value of a cell and doesn't recalculate the formula when the cell's value changes."
 ---

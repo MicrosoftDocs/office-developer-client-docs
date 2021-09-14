@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91cde601-dca9-4737-afe1-bdf76638dfe3
 description: "Returns a Boolean value indicating whether a shape has a theme applied to it."
 ---

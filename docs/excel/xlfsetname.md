@@ -8,7 +8,7 @@ f1_keywords:
 - xlfSetName
 keywords:
 - xlfsetname function [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

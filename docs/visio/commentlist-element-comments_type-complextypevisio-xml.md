@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49fee70d-6556-887b-003f-4f56916d541d
 description: "Specifies the comments in a drawing."
 ---

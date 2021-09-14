@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1105
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff34a23b-2881-864f-42e4-871c4fde0992
 description: "Determines the vertical alignment of text within the text block."
 ---

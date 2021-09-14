@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124391(v=office.15)
 ms:contentKeyID: 52072025
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Working with other applications (Access)

@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249745(v=office.15)
 ms:contentKeyID: 48546739
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # AbsolutePosition and CursorLocation properties example (VC++)

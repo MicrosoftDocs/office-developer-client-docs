@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251265
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47d84d7d-08a0-1934-d156-702da848e01c
 description: "Determines the distance between the left border of the text block and the text it contains. The default is 0.1 inch. This value is independent of the scale of the drawing. If the drawing is scaled, the left margin remains the same."
 ---

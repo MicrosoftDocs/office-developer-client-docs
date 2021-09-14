@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1145
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9757dfb4-6d37-0517-17fe-7593ff12bbfe
 
 description: "Represents the x -coordinate for a control handle's anchor point in local coordinates."

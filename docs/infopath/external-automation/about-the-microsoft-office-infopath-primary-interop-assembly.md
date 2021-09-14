@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - infopath 2007, primary interop assembly,InfoPath primary interop assembly,PIAs [InfoPath 2007],primary interop assemblies [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1b3ae03c-6951-49e4-a489-4712d3f7ba72
 description: "To support the creation of InfoPath solutions that use managed-code languages such as Visual C# and Visual Basic, the .NET Programmability Support option in the InfoPath setup program installs three interop assemblies."
 ---

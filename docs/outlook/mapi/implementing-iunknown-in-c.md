@@ -3,7 +3,7 @@ title: "Implementing IUnknown in C"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 807b6dc4-cdb7-40a4-87d7-ebc1ad5fab76

@@ -3,7 +3,7 @@ title: "IPM Subtree"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b5fc6084-722d-44e8-8637-f4160a4fb19b

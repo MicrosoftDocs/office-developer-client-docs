@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2005
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d03b7fc8-8c94-16cd-1542-11c6a31ff769
 description: "Contains rows that describe menu items on a shortcut or action tag menu of a shape or page. In previous versions of Microsoft Visio, action tags are called smart tags.The TagName cell is used to associate an action with a row in the Action Tag section, where action tags are defined."
 ---

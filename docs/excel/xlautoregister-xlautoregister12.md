@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xlautoregister function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

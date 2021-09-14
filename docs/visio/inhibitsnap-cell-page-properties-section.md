@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251620
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab9fcebc-1550-3b9e-e3b4-e8b92424390b
 description: "Determines whether the shapes on a foreground page snap to other objects on the page and shapes on the background page."
 ---

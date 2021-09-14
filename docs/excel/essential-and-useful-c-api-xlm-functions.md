@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - functions [excel 2007], c api xlm
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc80cb3d-0d7e-4cb9-9870-3acc84eeca82
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

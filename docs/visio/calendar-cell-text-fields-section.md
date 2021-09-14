@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60029
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c3e275e-25f0-3681-03f4-257145c19690
 
 description: "Determines the calendar that is used for a text field when the data type is Date."

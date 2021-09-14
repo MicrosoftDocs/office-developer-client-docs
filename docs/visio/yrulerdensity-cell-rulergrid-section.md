@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1215
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aebcd321-9d1c-e04e-7c85-3ec1ed851561
 description: "Specifies the vertical subdivisions on the ruler for the page."
 ---

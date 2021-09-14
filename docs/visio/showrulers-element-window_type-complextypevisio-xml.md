@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bb5667b9-22d6-5913-a170-626f8c93e2f9
 description: "Specifies whether rulers are shown in the drawing window."
 ---

@@ -9,7 +9,7 @@ f1_keywords:
 - Excel4
 keywords:
 - excel4 function [excel 2007],Excel12 function [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

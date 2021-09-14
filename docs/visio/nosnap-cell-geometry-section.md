@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm740
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0e6c8621-868c-9eac-926b-3049f18023b0
 
 description: "Determines whether other shapes snap to a path."

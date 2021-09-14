@@ -3,7 +3,7 @@ title: "Algorithm to Encode Entry IDs and Attachment IDs"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9ae6679-99b7-6509-74d4-12aa13d54928
 description: "Last modified: July 23, 2011"
  

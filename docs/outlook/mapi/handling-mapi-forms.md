@@ -3,7 +3,7 @@ title: "Handling MAPI forms"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c1589d49-2ebe-48ce-85c7-b70fb7c1bb67

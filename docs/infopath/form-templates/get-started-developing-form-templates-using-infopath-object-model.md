@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], getting started,InfoPath 2003-compatible form templates, getting started
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45867711-3231-43ce-bae9-caf588120550
 description: "This section provides information on how to get started creating managed-code form templates that work with the InfoPath 2003-compatible object model provided by members of the Microsoft.Office.Interop.InfoPath.SemiTrust namespace."
 ---

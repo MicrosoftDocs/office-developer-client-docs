@@ -3,7 +3,7 @@ title: "Handling table notification"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: edc9bc71-4885-4783-b465-0bafa20eff73

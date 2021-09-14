@@ -4,7 +4,7 @@ title: "Considerations for unattended automation of Office in the Microsoft 365 
 ms.date: 03/30/2020
 ms.audience: Developer
  
-localization_priority: Normal
+ms.localizationpriority: medium
 description: "Considerations for unattended automation of Office in the Microsoft 365 for unattended RPA environment."
 ---
 

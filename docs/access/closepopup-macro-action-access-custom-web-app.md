@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a7dafe5-aa4d-4213-a54b-e24161f83b3b
 description: "You can use the ClosePopup action to close the active document popup view."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04a0ba9f-48dd-488f-9c87-3890a12adf89
 description: "Contains the x - and y -coordinates of the first vertex of a shape or the x - and y -coordinates of the first vertex after a break in a path, relative to the height and width of the shape."
 ---

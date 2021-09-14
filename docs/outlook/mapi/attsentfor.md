@@ -3,7 +3,7 @@ title: "attSentFor"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc

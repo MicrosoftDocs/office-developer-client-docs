@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - digital signatures [infopath 2007], infopath 2003-compatible form templates,InfoPath 2003-compatible form templates, digital signatures
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
 description: "The InfoPath 2003-compatible object model provides features for working with digital signatures programmatically."
 ---

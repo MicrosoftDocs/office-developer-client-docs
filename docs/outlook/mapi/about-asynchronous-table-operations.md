@@ -3,7 +3,7 @@ title: "About asynchronous table operations"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 57219d96-bd9e-4e9a-b34a-dd3aad97bfd9

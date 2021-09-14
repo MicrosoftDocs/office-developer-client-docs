@@ -3,7 +3,7 @@ title: "attAttachRenddata"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c510b7a5-0f55-46af-bddb-40a8195a84d4

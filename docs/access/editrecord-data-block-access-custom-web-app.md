@@ -3,7 +3,7 @@ title: "EditRecord Data Block (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54975434-78b2-4010-b2f9-f277831fa92e
 description: "You can use the EditRecord data block to change the values contained in an existing record."
 ---

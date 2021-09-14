@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60104
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7a62a86-36bf-31d3-a33b-2444f72d60fe
 description: "Returns the number of characters in a text string."
 ---

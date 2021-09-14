@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f18d797e-9885-f2fb-a521-5172aac7894c
 description: "Specifies whether the dynamic grid feature is enabled for a document."
 ---

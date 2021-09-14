@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251577
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 12e45f46-e773-9445-4c7f-c726ab648671
 description: "Returns the page name as a string."
 ---

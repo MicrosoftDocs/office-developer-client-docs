@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82253243
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b456a87-d990-7ab2-d8a1-e91dca78650f
 description: "The ShapeSheet window is hidden by default in Microsoft Visio. To access the ShapeSheet, you need to run Visio in developer mode (display the developer tab)."
 ---

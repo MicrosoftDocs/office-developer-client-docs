@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm220
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b3e458a-206c-8699-8bf7-da80f4350706
 description: "Determines the interval of the default tab stops in a text block."
 ---

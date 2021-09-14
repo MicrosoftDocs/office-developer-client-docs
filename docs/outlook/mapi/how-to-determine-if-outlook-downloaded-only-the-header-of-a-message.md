@@ -3,7 +3,7 @@ title: "Determine if Outlook downloaded only the header of a message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acc96bb9-1592-c480-53ee-1325f65297e1
 description: "Last modified: June 25, 2012"
 ---

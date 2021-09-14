@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1702e2fb-ed52-1ff6-e539-fcd656199797
 description: "Contains the text string that appears in the left portion of a document's header."
 ---

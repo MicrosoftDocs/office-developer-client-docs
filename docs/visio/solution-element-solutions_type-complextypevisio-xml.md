@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46bf34be-761e-9d44-ab06-83d4c8932cab
 description: "Specifies one instance of solution XML stored in the drawing."
 ---

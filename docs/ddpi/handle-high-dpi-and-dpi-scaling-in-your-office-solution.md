@@ -2,7 +2,7 @@
 title: "Handle high DPI and DPI scaling in your Office solution"
 description: "Update your Office solution such as custom task panes, or ActiveX controls, to support high DPI monitors."  
 ms.date: 03/09/2019
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Handle high DPI and DPI scaling in your Office solution

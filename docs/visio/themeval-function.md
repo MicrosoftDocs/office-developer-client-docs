@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9eac3b8c-532c-4312-935d-fe8b63bcaf75
 description: "Retrieves values from the active theme."
 ---

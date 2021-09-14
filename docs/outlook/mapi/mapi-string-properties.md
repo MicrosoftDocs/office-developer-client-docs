@@ -3,7 +3,7 @@ title: "MAPI String Properties"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 63d7360a-e3a3-4365-9d46-50df1c715bde

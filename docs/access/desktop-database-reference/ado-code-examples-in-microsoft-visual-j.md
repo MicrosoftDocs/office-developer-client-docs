@@ -4,9 +4,9 @@ TOCTitle: ADO code examples in Microsoft Visual J++
 ms:assetid: c924a813-0375-3e8e-f9e3-ff5ca51db218
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249978(v=office.15)
 ms:contentKeyID: 48547670
-ms.date: 09/18/2015
+ms.date: 09/14/2021
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ADO code examples in Microsoft Visual J++
@@ -72,8 +72,7 @@ Use the following code examples to learn how to use the ADO methods and properti
 - [State property example](state-property-example-vj.md)
 - [Status property example](status-property-example-vj.md)
 - [StayInSync property example](stayinsync-property-example-vj.md)
-- [Type property example (Fields)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus)
-- [Type property example (Property)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus)
+- [Type property example (Fields)](/office/vba/access/concepts/miscellaneous/type-property-example-fieldvj-plus-plus.md)
+- [Type property example (Property)](/office/vba/access/concepts/miscellaneous/type-property-example-propertyvj-plus-plus.md)
 - [Value property example](value-property-example-vj.md)
 - [Version property example](version-property-example-vj.md)
-

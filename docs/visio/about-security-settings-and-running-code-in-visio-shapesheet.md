@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm1042370 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 506b3d81-9c93-aeff-f5b2-3354ffd3e075
 description: "Creating secure applications is one of the primary challenges facing solution developers. Users, administrators, and developers are increasingly aware of the potential of unknowingly running code that can be harmful to their computers. It is more important than ever that you help to ensure the integrity of your applications."
 ---

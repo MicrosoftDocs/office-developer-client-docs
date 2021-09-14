@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251491
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a374fe7d-7302-5365-81ab-64f5474d9d5c
 description: "Rounds a number to the precision represented by numberofdigits ."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2095
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2f21377-2954-d589-1329-cd23fe3fb4c6
 description: "Contains various attributes of shapes and groups, such as control selection highlighting and visibility."
 ---

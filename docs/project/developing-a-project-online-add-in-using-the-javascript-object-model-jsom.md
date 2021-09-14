@@ -3,7 +3,7 @@ title: "Developing a Project Online add-in using the JavaScript Object Model (JS
 manager: soliver
 ms.date: 11/08/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a4b1ad2-de46-421d-a698-53c20c90b93a
 description: "This article describes Microsoft Project Online Add-in development to enhance your experience with Project Online. The development project is implemented as a walkthrough. The add-in used for this article reads and displays the project names and IDs of the published projects from your Project Online account and allows you to drill down to retrieve tasks associated with individual projects."
 ---

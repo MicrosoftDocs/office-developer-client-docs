@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253218
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d87313a-c09a-582c-04f4-d95800e3e9f2
 description: "Returns a transformed angle in the destination shape's parent coordinate system. Converts an angle from local coordinates in a source shape to the parent coordinates in a destination shape."
 ---

@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82253123
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d94c740f-29e1-1e7f-39f6-8aa215f3111d
 description: "To format a number as currency, you can use the CY function and pass an optional constant to specify which country/region's currency to use. The currency constants can be specified as the ID number that corresponds to a country/region or as a string (enclosed in quotation marks) that corresponds to an ISO 4217 three-character abbreviation."
 ---

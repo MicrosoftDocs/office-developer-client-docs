@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1060
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 69d64520-9a47-07ca-09c7-d1e5da620348
 description: "Specifies a data type for the text field value."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033175
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 94ec06c5-8d2f-dd27-1eed-1abaf93daba8
 description: "Specifies the percentage by which the shadow of a shape can be enlarged or reduced."
 ---

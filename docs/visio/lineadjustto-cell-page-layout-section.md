@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm525
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 81cd9670-8a6f-824b-528c-e9b88c86f525
 description: "Determines which dynamic connectors line up on top of one another."
 ---

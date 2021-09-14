@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251586
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1f09482a-0b1b-1bef-bc23-7f7793c4c65f
 description: "Returns a transformed point in local coordinates in the destination coordinate system."
 ---

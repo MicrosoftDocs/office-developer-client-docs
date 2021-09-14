@@ -3,7 +3,7 @@ title: "Choose a specific version of MAPI to load"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34

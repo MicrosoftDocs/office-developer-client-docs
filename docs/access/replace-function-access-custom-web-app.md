@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93c8fc1d-e70c-4726-af2f-c6501d82e49b
 description: "Replaces all occurrences of a specified string value with another string value."
 ---

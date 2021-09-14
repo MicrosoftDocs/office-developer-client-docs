@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
 description: "Specifies the properties of the solutions stored in the document."
 ---

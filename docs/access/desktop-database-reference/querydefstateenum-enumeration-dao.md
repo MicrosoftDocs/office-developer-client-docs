@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff836359(v=office.15)
 ms:contentKeyID: 48548549
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # QueryDefStateEnum enumeration (DAO)

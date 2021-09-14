@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09dee0ae-89b2-449c-a3c8-d6b270710b64
 description: "Parses a text value and returns its value in a given type using the culture of the application."
 ---

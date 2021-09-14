@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm955
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46feb136-01ac-1303-66ab-d772c0ec41a0
 description: "Controls the amount of space between two or more characters. Space can be added or subtracted in 1/20th point increments."
 ---

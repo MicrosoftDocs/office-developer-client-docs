@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60115
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a27663a-9d37-2ac4-5856-edeb0880f16e
 description: "Replaces part of a text string with a different text string."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2180
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5630b446-5668-f7c1-1e34-6d4f84600f7f
 description: "A work area for entering formulas in user-specific cells that can be referred to by other cells and add-on tools."
 ---

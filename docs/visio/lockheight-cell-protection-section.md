@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm635
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 218b957e-5af6-e53b-1453-a84164ae456e
 description: "Locks the height of the shape so that its height remains unchanged when the shape is resized."
 ---

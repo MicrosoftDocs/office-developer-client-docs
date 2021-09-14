@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 371b48c5-6d77-4d2d-890c-bb234c7eaabc
 description: "Gets an ISocialSession interface."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033772
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38391818-21c9-9450-2ed1-11cc1d862310
 description: "Indicates the default language for the document."
 ---

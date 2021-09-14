@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251472
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 856ece39-18a4-766a-0dd9-7e888b8b78a5
 description: "Opens the group in the group window. If the object is not a group, this function does nothing."
 ---

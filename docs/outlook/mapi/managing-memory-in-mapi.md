@@ -3,7 +3,7 @@ title: "Managing Memory in MAPI"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9eee6925-ab91-413e-8907-c747ab4a4bb5

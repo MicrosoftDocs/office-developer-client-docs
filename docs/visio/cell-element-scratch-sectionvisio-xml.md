@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af17b1c5-51ee-f46f-79d0-4f33369b66f1
 description: "Specifies a work area for entering and testing formulas that can be referred to by other cells."
 ---

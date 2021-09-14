@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
 description: "True if the account is an Exchange account."
 ---

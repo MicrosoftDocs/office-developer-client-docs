@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - tempstr12 function [excel 2007],TempStrConst function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: faf4ee4e-8d33-4cb3-ae16-5648a837ee4f
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

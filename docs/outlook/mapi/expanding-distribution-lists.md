@@ -3,7 +3,7 @@ title: "Expanding Distribution Lists"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 44231a95-dafc-44f7-bfa9-9f73ea8cb8b7

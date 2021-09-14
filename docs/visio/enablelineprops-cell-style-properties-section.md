@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251696
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9f619416-36ff-1479-6232-225c11827e01
 description: "Determines whether a style includes line properties."
 ---

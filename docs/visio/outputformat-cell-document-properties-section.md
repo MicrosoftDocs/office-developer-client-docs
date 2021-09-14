@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251617
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17238019-c800-5d3a-32f6-fb0008d4e25f
 description: "Determines the output format for a drawing. Drawing pages are usually formatted for printing (default); however, you can choose other output formats."
 ---

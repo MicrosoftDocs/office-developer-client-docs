@@ -7,7 +7,7 @@ ms.date: 09/18/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 179ba0c4-da24-430e-a212-0af40a604198
 description: "Find information about the Telemetry Log that is included with Office 2013."
 ---

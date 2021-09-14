@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c2a720cc-544b-f923-5bec-67da31507444
 description: "Contains the text string that appears in the center portion of a document's footer."
 ---

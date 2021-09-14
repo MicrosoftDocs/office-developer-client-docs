@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6aab8be3-b236-029b-1df3-b6860d4f4586
 description: "Abstracts communication between one or more DataRecordset elements and a non-XML data source."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50130
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7382e2aa-5e18-19d2-88d8-c4a19a385106
 description: "Determines the transparency level for a layer color."
 ---

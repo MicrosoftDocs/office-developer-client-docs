@@ -3,7 +3,7 @@ title: "DateFromParts function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4fa49d5f-12ea-4d14-9a03-28418f01746c
 description: "Returns a date value for the specified year, month, and day."
 ---

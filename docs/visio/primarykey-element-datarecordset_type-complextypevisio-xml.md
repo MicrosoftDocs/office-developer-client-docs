@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: "Identifies one or more primary-key columns in the data recordset."
 ---

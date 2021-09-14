@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251832
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56430658-a798-c004-b4ba-363443f43ded
 description: "Error values are displayed in cells that have incorrect formulas for that cell."
 ---

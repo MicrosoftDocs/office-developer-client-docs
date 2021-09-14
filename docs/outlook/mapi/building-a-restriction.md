@@ -3,7 +3,7 @@ title: "Building a restriction"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 12abbd8c-f825-493e-af42-344371d9658e

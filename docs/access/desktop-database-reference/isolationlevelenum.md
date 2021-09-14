@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
 ms:contentKeyID: 48544506
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # IsolationLevelEnum

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251395
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d917be4-65b1-002f-48cc-6d81916a1157
 description: "Returns the arcsine of a number, for example, the angle whose sine is number ."
 ---

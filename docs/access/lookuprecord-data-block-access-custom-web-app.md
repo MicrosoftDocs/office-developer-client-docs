@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 001899f7-5b1a-4c0b-a0e4-e01985eea818
 description: "A LookupRecord data block performs a set of actions on a specific record."
 ---

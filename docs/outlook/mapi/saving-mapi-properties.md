@@ -3,7 +3,7 @@ title: "Saving MAPI Properties"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ed0c14f9-3dcf-49ad-928e-ba872d4d6b5a

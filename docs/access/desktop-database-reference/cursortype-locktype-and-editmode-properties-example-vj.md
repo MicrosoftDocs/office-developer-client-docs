@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249932(v=office.15)
 ms:contentKeyID: 48547497
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # CursorType, LockType, and EditMode properties example (VJ++)

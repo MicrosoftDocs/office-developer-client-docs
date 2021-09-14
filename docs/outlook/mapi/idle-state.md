@@ -3,7 +3,7 @@ title: "Idle State"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
 description: "Last modified: March 09, 2015"
  

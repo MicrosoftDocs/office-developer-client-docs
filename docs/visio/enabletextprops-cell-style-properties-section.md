@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251697
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c59abaf-d2cc-94c9-08ba-004bc40efd9e
 description: "Determines whether a style includes text properties."
 ---

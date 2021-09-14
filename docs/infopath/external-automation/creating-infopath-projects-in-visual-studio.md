@@ -5,7 +5,7 @@ ms.date: 11/10/2016
 ms.audience: Developer
 keywords:
 - projects [infopath 2007], creating in visual studio,InfoPath 2007, creating projects in Visual Studio
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd07475d-2aa4-4742-86dc-373f7d1b02ea
 description: "This section discusses how to create an InfoPath COM Add-in."
 ---

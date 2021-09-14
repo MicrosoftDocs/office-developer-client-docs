@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 534e404f-54c6-4d2b-a8d0-d2ee990a972f
 description: "Gets a string that represents a unique social network identifier for a given social network connection."
 ---

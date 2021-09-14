@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1024624
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a57bdcd9-566b-5054-7458-7d84cbb78d23
 description: "Contains cells that define the x - and y -coordinates and behavior of each control handle defined for a shape. A shape will contain one Controls row for each control handle."
 ---

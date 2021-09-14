@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9ae292b0-fde0-4c2b-ba23-23e90365597d
 description: "The SetField action can be used to assign a value to a field."
 ---

@@ -3,7 +3,7 @@ title: "Creating a message attachment"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d

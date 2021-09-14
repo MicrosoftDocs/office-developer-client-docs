@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253217
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ee5e3898-bb49-57c6-0ebe-12e1fe388e55
 description: "Returns a transformed angle in the destination shape's local coordinate system. Converts an angle from local coordinates in a source shape to the local coordinates in a destination shape."
 ---

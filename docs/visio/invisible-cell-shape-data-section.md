@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251341
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
 description: "Specifies whether the shape data item is visible in the Shape Data window."
 ---

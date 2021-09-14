@@ -4,7 +4,7 @@ manager: lindalu
 ms.date: 09/14/2021
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcbab309-8754-40d8-94d1-5567f2989487
 description: "Represents the password of the SMTP account."
 ---

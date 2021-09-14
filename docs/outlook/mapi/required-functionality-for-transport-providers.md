@@ -3,7 +3,7 @@ title: "Required Functionality for Transport Providers"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b

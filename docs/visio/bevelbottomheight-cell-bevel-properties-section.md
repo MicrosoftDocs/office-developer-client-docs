@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff681afd-c058-4fce-855f-5075b8c680c2
 description: "Determines the height of a shape's bottom bevel in points."
 ---

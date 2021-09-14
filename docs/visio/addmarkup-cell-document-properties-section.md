@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1030801
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: "Indicates whether the document is being reviewed for markup."
 ---

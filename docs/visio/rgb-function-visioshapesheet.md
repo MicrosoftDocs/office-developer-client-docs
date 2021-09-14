@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251489
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6b9f65c-6752-16cb-7eb1-44e1ce56e80b
 description: "Returns a value representing an index in the document's color palette. It specifies a color by its red, green, and blue components, where each is a number in the range 0 to 255, inclusive, or an expression that evaluates to such a number."
 ---

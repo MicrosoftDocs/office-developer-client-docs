@@ -4,9 +4,9 @@ TOCTitle: ADO MD API reference
 ms:assetid: 897193ef-5b7c-78b2-cd88-92d19247fbaf
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249602(v=office.15)
 ms:contentKeyID: 48546163
-ms.date: 09/18/2015
+ms.date: 09/18/2021
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ADO MD API reference
@@ -20,5 +20,4 @@ This section of the ActiveX Data Objects (ADO) MD documentation contains topics 
 - [ADO MD properties](ado-md-properties.md)
 - [ADO MD methods](ado-md-methods.md)
 - [ADO MD enumerated constants](ado-md-enumerated-constants.md)
-- [ADO MD examples](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-md-code-examples)
-
+- [ADO MD examples](/office/vba/access/concepts/miscellaneous/ado-md-code-examples.md)- 

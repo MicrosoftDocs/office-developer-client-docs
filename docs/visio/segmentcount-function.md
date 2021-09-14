@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 792ec0e4-4a48-136b-904c-fe269e355070
 description: "Returns the number of line segments that make up the path."
 ---

@@ -3,7 +3,7 @@ title: "Rendering an Attachment in Plain Text"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 72b447e9-b4f2-4557-baf5-0afefe463749

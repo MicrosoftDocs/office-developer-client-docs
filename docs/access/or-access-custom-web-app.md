@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e7190523-87cf-4e04-aef4-d229776cd16b
 description: "Combines two conditions. Returns TRUE when either of the two conditions is true."
 ---

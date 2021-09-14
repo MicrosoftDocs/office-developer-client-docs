@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250055(v=office.15)
 ms:contentKeyID: 48547914
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # BOF, EOF, and Bookmark properties example (VC++)

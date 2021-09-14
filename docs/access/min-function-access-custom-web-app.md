@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 930c906d-d6f0-49ad-8ed7-336e7833d672
 description: "Returns the minimum value in the expression in a query or table."
 ---

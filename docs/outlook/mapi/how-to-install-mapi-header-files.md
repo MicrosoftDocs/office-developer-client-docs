@@ -3,7 +3,7 @@ title: "Install MAPI header files"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae

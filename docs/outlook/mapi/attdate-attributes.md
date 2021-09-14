@@ -3,7 +3,7 @@ title: "attDate Attributes"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 22801641-752c-4c81-be90-02039eaa4277

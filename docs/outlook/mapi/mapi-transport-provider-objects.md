@@ -3,7 +3,7 @@ title: "MAPI transport provider objects"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4f28fab8-2ce1-4398-a941-6d718c9bbd6a

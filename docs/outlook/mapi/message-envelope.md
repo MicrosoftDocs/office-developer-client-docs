@@ -1,22 +1,18 @@
 ---
 title: "Message Envelope"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 09/14/2021
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 613956da-c49b-4836-9fde-4601510e8b89
-description: "Last modified: March 09, 2015"
- 
- 
+description: "Last modified: September 09, 2021" 
 ---
 
 # Message Envelope
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 RFC 822 headers are mapped to MAPI properties as follows. PR_SENDER_\* is an abbreviation for the following 5 properties:
   
@@ -60,6 +56,4 @@ The X-MS-Attachment header is formatted as four tokens, separated by a space:
 The first token is the filename, which may contain embedded spaces, so this header should be parsed from the right on inbound messages. The size is in bytes; the date is formatted as  _mm-dd-yyyy,_ and the time as  _hh:mm._
   
 > [!NOTE]
-> MessageID is not mapped to **PR_SEARCH_KEY** because the SMTP domain has specific requirements on the format of the message identifier which make it impossible to encode an arbitrary MAPI message identifier. Instead, MessageID is mapped to **PR_TNEF_CORRELATION_KEY**. This property is a transport-defined property that is set by the transport sending an outbound message and used by a transport receiving an inbound message. For more information, see [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md). 
-  
-
+> MessageID is not mapped to **PR_SEARCH_KEY** because the SMTP domain has specific requirements on the format of the message identifier which make it impossible to encode an arbitrary MAPI message identifier. Instead, MessageID is mapped to **PR_TNEF_CORRELATION_KEY**. This property is a transport-defined property that is set by the transport sending an outbound message and used by a transport receiving an inbound message. For more information, see [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md).

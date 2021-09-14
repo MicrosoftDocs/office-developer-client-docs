@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a34539a-0245-4268-bcd3-90a17ee095f4
 description: "Returns a character expression after it removes leading blanks."
 ---

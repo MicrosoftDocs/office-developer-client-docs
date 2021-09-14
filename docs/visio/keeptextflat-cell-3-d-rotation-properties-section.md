@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3537de44-8d6f-4bd9-bf8c-fa851fc007b9
 description: "Indicates whether a shape's text will ignore the shape's rotation in 3-D. Does not apply to 2-D rotation."
 ---

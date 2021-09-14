@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - examples [infopath 2007],InfoPath 2007, developer tasks,developer tasks [InfoPath 2007],InfoPath 2007, object models,object models [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a2c18b72-426b-4f63-8454-187e96d26199
 description: "This section provides information on common developer tasks when developing InfoPath managed code form templates."
 ---

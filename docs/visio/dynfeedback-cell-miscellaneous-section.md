@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251317
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44017319-7146-3431-e476-fbb1a40341ca
 description: "Changes the type of visual feedback provided to users when they drag a connector. When the mouse button is released, the resulting connector shape is not affected by this setting. This setting does not apply to routable connectors."
 ---

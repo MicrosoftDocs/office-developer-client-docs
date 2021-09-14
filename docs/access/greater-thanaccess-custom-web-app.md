@@ -4,7 +4,7 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a250d68-7583-406e-84e3-0b03bba97234
 description: "Compares two expressions. When you compare non-null expressions, the result is TRUE if the left operand has a value higher than the right operand; otherwise, the result is FALSE."
 ---

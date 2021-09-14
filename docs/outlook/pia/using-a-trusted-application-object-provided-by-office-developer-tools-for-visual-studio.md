@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb622502(v=office.15)
 ms:contentKeyID: 55119787
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Using a trusted Application object provided by Office Developer Tools for Visual Studio

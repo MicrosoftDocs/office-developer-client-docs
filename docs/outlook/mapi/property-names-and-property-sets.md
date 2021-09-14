@@ -3,7 +3,7 @@ title: "Property Names and Property Sets"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cb216f5c-c965-4372-a15b-82090a410266

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 858a3191-420a-4065-9180-ebd8503d1eef
 description: "Determines the distance that a reflection is offset from a shape, in points from 0.0 to 100.0."
 ---

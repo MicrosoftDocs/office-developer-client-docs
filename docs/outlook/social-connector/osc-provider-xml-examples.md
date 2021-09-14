@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65d0c111-b090-4b1b-a747-44285b7c16b2
 description: "This section contains XML examples that use the capabilities, friends, and activityFeed XML elements, complying with the Outlook Social Connector (OSC) provider XML schema."
 ---

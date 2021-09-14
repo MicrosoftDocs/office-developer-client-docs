@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251510
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
 description: "Applies the line pattern, fill pattern, or line end called name to the shape when placed in the LinePattern, FillPattern, BeginArrow, or EndArrow cell."
 ---

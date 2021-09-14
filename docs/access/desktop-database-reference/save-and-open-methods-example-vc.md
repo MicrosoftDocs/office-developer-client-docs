@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249574(v=office.15)
 ms:contentKeyID: 48546019
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Save and Open methods example (VC++)

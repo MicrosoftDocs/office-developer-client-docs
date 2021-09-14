@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
 description: "Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio."
 ---

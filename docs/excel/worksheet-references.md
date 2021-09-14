@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - references [excel 2007], worksheet,worksheet references [Excel 2007],external worksheet references [Excel 2007],active worksheet [Excel 2007],current worksheet [Excel 2007],internal worksheet references [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

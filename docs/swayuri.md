@@ -3,7 +3,7 @@ title: "SwayURI"
 ms.audience: ITPro
 ms.topic: article
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11daa75b-87fc-4e63-8e02-09ab9307c8f8
 ms.date: 01/28/2016
 description: Use the Sway URI scheme to open the Sway application and view or edit a Sway. 

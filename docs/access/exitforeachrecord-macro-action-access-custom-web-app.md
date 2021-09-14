@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ee0aec9b-cdb0-4204-8a15-7542d943f096
 description: "Use the ExitForEachRecord action to immediately exit a ForEachRecord data block."
 ---

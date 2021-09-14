@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251239
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2435046a-ee0b-7a23-de85-bf70c125218c
 description: "Shows the current fill formatting attributes for the shape and the shape's drop shadow, including pattern, foreground color, and background color."
 ---

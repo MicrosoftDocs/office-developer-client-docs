@@ -3,7 +3,7 @@ title: "Open a store on the remote server when Outlook is in Cached Exchange Mod
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf01eab7-164d-c3b3-8bb0-9281e2119bc5
 description: "Last modified: June 25, 2012"
 ---

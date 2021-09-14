@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm820
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d03ae1b3-da6c-56d3-4f96-6e131c04e93e
 description: "Determines whether your drawing includes a preview. If your drawing does include a preview, it determines whether the preview shows the first page only or all of the pages in the drawing."
 ---

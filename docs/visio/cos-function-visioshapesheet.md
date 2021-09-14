@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251407
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: "Returns the cosine of an angle."
 ---

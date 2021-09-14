@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9f71fdef-5df5-0892-b64c-293a2f22f5c3
 description: "Releases the MAPI session object that was returned by IOlkAccountHelper::GetMapiSession."
 ---

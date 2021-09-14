@@ -3,7 +3,7 @@ title: "NoScribble State"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0246138f-c55e-4353-8e53-e973f524d52c

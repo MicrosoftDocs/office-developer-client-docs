@@ -10,7 +10,7 @@ f1_keywords:
 - dao360.chm1088781
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # DBEngine.SetOption method (DAO)

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74cefaa2-3ac4-4a65-af0b-2ee4d9644a93
 description: "Returns the right part of a character string with the specified number of characters."
 ---

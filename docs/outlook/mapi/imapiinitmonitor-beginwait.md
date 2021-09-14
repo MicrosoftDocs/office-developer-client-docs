@@ -5,7 +5,7 @@ ms.date: 04/27/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - IMAPIINITMONITOR.BeginWait
 api_type:

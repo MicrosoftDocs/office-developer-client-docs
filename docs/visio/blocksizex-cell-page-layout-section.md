@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm105
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 253aac17-077e-48e0-39a8-a3abd5d4a257
 description: "Determines the horizontal block size, the area in which each of your shapes must fit on the drawing page when you lay out shapes by using the Configure Layout dialog box (on the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options)."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
 description: "Determines whether a fill gradient is enabled for this shape."
 ---

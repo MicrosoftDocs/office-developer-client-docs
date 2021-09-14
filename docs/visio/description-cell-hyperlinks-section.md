@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm230
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f571c65-6b7a-5a3a-c075-3c52d3ab989b
 
 description: "Represents a descriptive text string for a hyperlink."

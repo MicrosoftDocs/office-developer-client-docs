@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60046
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 070b4468-c907-b201-1633-1d3e10ecc2b2
 description: "Indicates whether the action is visible on the action tag or shortcut menu."
 ---

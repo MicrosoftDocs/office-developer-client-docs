@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251579
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f34db20d-6501-2026-a5e8-29c4d4cb2405
 description: "Returns a nonuniform rational B-spline (NURBS). This function is used in the E cell in the NURBSTo geometry rows."
 ---

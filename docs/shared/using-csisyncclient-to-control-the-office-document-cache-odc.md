@@ -3,7 +3,7 @@ title: "Using CSISyncClient to control the Office Document Cache (ODC)"
 manager: soliver
 ms.date: 07/13/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 394b8e6f-9132-4c98-8fd6-46ad3c871440
 description: "Learn how to use CSISyncClient to control the Office Document Cache (ODC)."
 ---

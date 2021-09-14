@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 640d18c0-5b6a-4a2f-9c81-f74de5ba9eb1
 description: "Determines the color used for the stroke of the external glow applied to a shape, as an RGB or theme value."
 ---

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5d89797a-d636-411a-8e8b-28dbcac5af50
 description: "This section describes the functions in the Data Degradation Layer API."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033173
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1461148d-90a9-6f7c-1b28-9310ffaf0e3b
 description: "Specifies the type of shadow for a shape."
 ---

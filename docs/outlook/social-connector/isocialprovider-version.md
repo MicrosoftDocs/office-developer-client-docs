@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dfc92878-ab8b-4721-aee8-997c56a8e45b
 description: "Returns a string that represents the version number of the provider for this social network."
 ---

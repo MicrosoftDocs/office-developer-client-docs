@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ250043(v=office.15)
 ms:contentKeyID: 48547845
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ActiveConnection property (ADO MD)

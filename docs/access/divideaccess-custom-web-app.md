@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d296730-197b-44db-853b-881597dd9b48
 description: "Divides one number by another."
 ---

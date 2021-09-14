@@ -9,7 +9,7 @@ ms.topic: reference
 keywords:
 - multithreading in excel,memory contention in Excel,functions [Excel 2007], thread-safe,thread-safe functions [Excel 2007],thread-local memory [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

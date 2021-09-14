@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a897e812-08dc-49c9-954b-e8908a0daab3
 description: "Returns the natural logarithm, or the logarithm of the given base, of the specified expression."
 ---

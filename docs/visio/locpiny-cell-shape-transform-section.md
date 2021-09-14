@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm685
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a29c5d4e-d3d6-d984-495a-4b0b130352ef
 description: "Represents the y -coordinate of the shape's pin (center of rotation) in relation to the origin of the shape. The default formula for determining LocPinY is:"
 ---

@@ -3,7 +3,7 @@ title: "Implementing a Service Provider Entry Point Function"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3835fc6-0ae6-b8c3-b1d0-bf893d4a9470
 description: "Specifies whether the user is prevented from selecting shapes that have their LockSelect element set to 1."
 ---

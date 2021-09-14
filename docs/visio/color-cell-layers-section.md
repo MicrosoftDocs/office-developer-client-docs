@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm165
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61c19342-46fb-48d4-6375-c9ea8306286d
 
 description: "Specifies the color used to display the layer."

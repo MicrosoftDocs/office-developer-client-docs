@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ae2b4db-03f4-1b8a-1274-7eb1521f2f59
 description: "Specifies one property of an action associated with a custom command on a shortcut or action tag menu."
 ---

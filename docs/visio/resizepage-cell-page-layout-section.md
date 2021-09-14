@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm850
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d63fe874-1027-3436-dbc1-73e722bce22e
 description: "Determines whether to enlarge the page to enclose the drawing after laying out shapes by using the Configure Layout dialog box (on the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options)."
 ---

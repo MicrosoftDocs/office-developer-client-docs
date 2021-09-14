@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 keywords:
 - version compatibility [excel 2007],XLL compatibility [Excel 2007],backward compatibility [Excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ac200824-0620-4f03-8bd2-59226c1e79d7
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

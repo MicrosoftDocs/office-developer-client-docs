@@ -5,7 +5,7 @@ ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
 - form data [infopath 2007],forms [InfoPath 2007], accessing properties,form templates [InfoPath 2007], accessing properties,opening forms [InfoPath 2007],printing forms [InfoPath 2007],forms [InfoPath 2007], printing,closing forms [InfoPath 2007],InfoPath 2007, accessing form data,forms [InfoPath 2007], accessing data source,forms [InfoPath 2007], closing,forms [InfoPath 2007], opening,printing [InfoPath 2007], forms,forms [InfoPath 2007], creating
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: "When you want to extend the functionality of an InfoPath form, it is often necessary to programmatically access information about the form's underlying XML document, access the data that the XML document contains, or perform some action on the XML document. The InfoPath object model supports accessing and manipulating a form's underlying XML document through the use of the XmlForm class in association with the XmlFormCollection class."
 ---

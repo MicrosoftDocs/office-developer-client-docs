@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5997f374-303a-92b6-6dd3-87ef81104af4
 description: "Contains a collection of SnapAngle elements."
 ---

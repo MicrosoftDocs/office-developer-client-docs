@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251471
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff59ab04-a589-cf9e-db3b-20658a7dffdc
 description: "Opens a Microsoft Visio document, if it's not already open, and activates the document window."
 ---

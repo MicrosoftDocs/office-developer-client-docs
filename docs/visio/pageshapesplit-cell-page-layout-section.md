@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033777
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d3bdf77-0ad4-86a4-d215-1d5a5fbe33f7
 description: "Indicates whether shapes on the page can be automatically split."
 ---

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5204ddd-5af4-4dd8-bc83-af96ac390786
 description: "This section describes the properties in the Account Management API."
 ---

@@ -3,7 +3,7 @@ title: "Developing a MAPI Transport Provider"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 51647d61-95fd-4ded-b4c2-14aab50dd172

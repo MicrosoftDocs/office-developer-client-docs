@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm205
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 28b18e8d-fecf-a798-813e-c1a310002244
 
 description: "A scratch cell that you can use for entering or testing formulas."

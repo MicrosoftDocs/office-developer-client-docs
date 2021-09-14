@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm900
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acf07fd7-6aa6-1a92-9b7a-bd6fea8a7cb2
 description: "Determines whether this placeable shape moves away when you drop another placeable shape near this shape on the drawing page."
 ---

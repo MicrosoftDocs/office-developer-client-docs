@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - tempmissing function [excel 2007],TempMissing12 function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

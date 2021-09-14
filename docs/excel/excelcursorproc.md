@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - excelcursorproc function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
