@@ -1,7 +1,5 @@
 ---
-title: "IMAPISupportStoreLogoffTransports"
- 
- 
+title: "IMAPISupportStoreLogoffTransports" 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,12 +11,10 @@ api_name:
 api_type:
 - COM
 ms.assetid: f21fba96-c5ca-4d41-9b93-c7955ab7327f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::StoreLogoffTransports
-
-  
+ 
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
@@ -55,8 +51,8 @@ LOGOFF_PURGE
 LOGOFF_QUIET 
   
 > The logoff should not occur if any transport provider activity is taking place. The type of activity taking place is returned as a flag on output.
-    
-    On output, MAPI spooler can return one or more of the following flags:
+
+On output, MAPI spooler can return one or more of the following flags:
     
 LOGOFF_COMPLETE 
   

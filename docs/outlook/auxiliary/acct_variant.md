@@ -35,11 +35,9 @@ _dwType_
   
 > Type of variant:
     
-    - PT_LONG
-    
-    - PT_UNICODE
-    
-    - PT_BINARY
+  - PT_LONG
+  - PT_UNICODE
+  - PT_BINARY
     
 _dw_
   
