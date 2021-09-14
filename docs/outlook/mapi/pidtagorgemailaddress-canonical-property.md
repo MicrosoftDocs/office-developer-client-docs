@@ -1,7 +1,7 @@
 ---
 title: "PidTagOrgEmailAddress Canonical Property"
 description: Contains the email address of the originating email account. 
-manager: lindalU
+manager: lindalu
 ms.date: 09/09/2021
 ms.audience: Developer
 ms.topic: reference
@@ -20,7 +20,7 @@ ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
   
 Contains the email address of the originating email account.
 
-|** **|** **|
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORG_EMAIL_ADDRESS, PR_ORG_EMAIL_ADDRESS_A, PR_ORG_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |TBD  <br/> |
