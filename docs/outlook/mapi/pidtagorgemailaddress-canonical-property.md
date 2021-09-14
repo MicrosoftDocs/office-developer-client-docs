@@ -1,8 +1,8 @@
 ---
 title: "PidTagOrgEmailAddress Canonical Property"
 description: Contains the email address of the originating email account. 
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalU
+ms.date: 09/09/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server

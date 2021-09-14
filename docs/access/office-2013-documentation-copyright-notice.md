@@ -1,15 +1,16 @@
 ---
 title: "Office 2013 documentation copyright information"
 author: umas
-manager: soliver
-ms.date: 08/16/2014
+manager: lindalu
+ms.date: 11/16/2021
 ms.audience: Developer
 ms.topic: overview 
 ms.localizationpriority: medium
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
 ---
 
-# Office 2013 documentation copyright
+
+# Copyright notice for Office 2013 documentation 
 
 This document is provided "as-is". Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it. 
   
@@ -22,4 +23,3 @@ This document does not provide you with any legal rights to any intellectual pro
 Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server, and Windows Vista are trademarks of the Microsoft group of companies.
   
 All other trademarks are property of their respective owners. 
-
