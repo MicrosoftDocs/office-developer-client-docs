@@ -1,7 +1,5 @@
 ---
-title: "IMsgStoreStoreLogoff"
- 
- 
+title: "IMsgStoreStoreLogoff" 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,12 +11,9 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3773c98e-531e-4bdc-a39a-2c3bb7378cd3
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgStore::StoreLogoff
-
-  
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
@@ -56,7 +51,7 @@ LOGOFF_QUIET
   
 > If any transport provider activity is taking place, the logoff should not occur.
     
-    The following flags are valid on output:
+The following flags are valid on output
     
 LOGOFF_INBOUND 
   
