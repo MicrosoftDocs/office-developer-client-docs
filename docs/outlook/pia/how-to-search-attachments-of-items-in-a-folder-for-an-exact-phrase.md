@@ -4,7 +4,7 @@ TOCTitle: Search attachments of items in a folder for an exact phrase
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
 ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase?redirectedfrom=MSDN
 ms:contentKeyID: 55119889
-ms.date: 07/24/2014
+ms.date: 09/14/2021
 mtps_version: v=office.15
 localization_priority: Normal
 ---
@@ -15,7 +15,7 @@ This example searches for the exact search string "office" in attachments to ite
 
 ## Example
 
-This code sample uses a DAV Searching and Locating (DASL) syntax to specify a query. To construct the filter, the code sample first checks whether Instant Search is enabled in the default store to determine whether to use the **ci\_phrasematch** keyword for an exact phrase match to "office" in any attachment. The sample then applies the filter to the [GetTable](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_MAPIFolder_GetTable_System_Object_System_Object_) method on the Inbox and obtains the results in a [Table](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.table?redirectedfrom=MSDN&view=outlook-pia) object. The code sample then displays the subject of each of the returned items in the **Table**.
+This code sample uses a DAV Searching and Locating (DASL) syntax to specify a query. To construct the filter, the code sample first checks whether Instant Search is enabled in the default store to determine whether to use the **ci\_phrasematch** keyword for an exact phrase match to "office" in any attachment. The sample then applies the filter to the [GetTable](/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable.md) method on the Inbox and obtains the results in a [Table](m/dotnet/api/microsoft.office.interop.outlook.table.md) object. The code sample then displays the subject of each of the returned items in the **Table**.
 
 The code sample specifies the **Attachments** property of an item using the namespace representation, https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. The syntax for using the **ci\_phrasematch** keyword is:
 
@@ -27,11 +27,9 @@ If you use Visual Studio to test this code example, you must first add a referen
 Imports Outlook = Microsoft.Office.Interop.Outlook
 ```
 
-
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
 ```
-
 
 ```vb
 Private Sub DemoSearchAttachments()
@@ -53,7 +51,6 @@ Private Sub DemoSearchAttachments()
     End If
 End Sub
 ```
-
 
 ```csharp
 private void DemoSearchAttachments()
@@ -81,4 +78,3 @@ private void DemoSearchAttachments()
 ## See also
 
 - [Search and filter](search-and-filter.md)
-
