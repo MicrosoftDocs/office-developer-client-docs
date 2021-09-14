@@ -25,7 +25,7 @@ Sets or returns a value that indicates one or more characteristics of a **[Field
 
 ## Remarks
 
-The value specifies characteristics of the field represented by the **Field** object and can be a combination of these constants.
+The **Attributes** property of a **Field** object specifies characteristics of the field represented by the **Field** object. The **Attributes** property is stored as a single Long Integer and is the sum of the following Long constants:
 
 <table>
 <colgroup>
@@ -35,36 +35,44 @@ The value specifies characteristics of the field represented by the **Field** ob
 <thead>
 <tr class="header">
 <th><p>Constant</p></th>
+<th><p>Value</p></th>
 <th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>dbAutoIncrField</strong></p></td>
+ <td><p><strong>16</strong></p></td>
 <td><p>The field value for new records is automatically incremented to a unique Long integer that can't be changed (in a Microsoft Access workspace, supported only for Microsoft Access database engine database tables).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
+<td><p><strong>1</strong></p></td>
 <td><p>The field is sorted in descending (Z to A or 100 to 0) order; this option applies only to a <strong>Field</strong> object in a <strong>Fields</strong> collection of an <strong>Index</strong> object. If you omit this constant, the field is sorted in ascending (A to Z or 0 to 100) order. This is the default value for <strong>Index</strong> and <strong>TableDef</strong> fields (Microsoft Access workspaces only)..</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>
+<td><p><strong>1</strong></p></td>
 <td><p>The field size is fixed (default for Numeric fields).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbHyperlinkField</strong></p></td>
+<td><p><strong>32768</strong></p></td>
 <td><p>The field contains hyperlink information (Memo fields only).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSystemField</strong></p></td>
+<td><p><strong>8192</strong></p></td>
 <td><p>The field stores replication information for replicas; you can't delete this type of field (Microsoft Access workspace only).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbUpdatableField</strong></p></td>
+<td><p><strong>32</strong></p></td>
 <td><p>The field value can be changed.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVariableField</strong></p></td>
+<td><p><strong>2</strong></p></td>
 <td><p>The field size is variable (Text fields only).</p></td>
 </tr>
 </tbody>
