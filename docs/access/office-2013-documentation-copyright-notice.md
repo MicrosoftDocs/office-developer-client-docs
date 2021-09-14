@@ -2,7 +2,7 @@
 title: "Office 2013 documentation copyright information"
 author: umas
 manager: lindalu
-ms.date: 11/16/2021
+ms.date: 09/16/2021
 ms.audience: Developer
 ms.topic: overview 
 ms.localizationpriority: medium
