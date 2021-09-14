@@ -4,7 +4,7 @@ TOCTitle: Enumerations
 ms:assetid: d4d91585-f3cc-4e60-8177-244d7244465e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125640(v=office.15)
 ms:contentKeyID: 52074514
-ms.date: 09/18/2015
+ms.date: 09/14/2021
 mtps_version: v=office.15
 localization_priority: Normal
 ---
@@ -14,14 +14,11 @@ localization_priority: Normal
 **Applies to**: Access 2013, Office 2013
 
 - [CollatingOrderEnum enumeration (DAO)](collatingorderenum-enumeration-dao.md)
-- [CommitTransOptionsEnum enumeration (DAO)](committransoptionsenum-enumeration-dao.md)
 - [CursorDriverEnum enumeration (DAO)](cursordriverenum-enumeration-dao.md)
 - [DatabaseTypeEnum enumeration (DAO)](databasetypeenum-enumeration-dao.md)
 - [DataTypeEnum enumeration (DAO)](datatypeenum-enumeration-dao.md)
 - [DriverPromptEnum enumeration (DAO)](driverpromptenum-enumeration-dao.md)
 - [EditModeEnum enumeration (DAO)](editmodeenum-enumeration-dao.md)
-- [FieldAttributeEnum enumeration (DAO)](fieldattributeenum-enumeration-dao.md)
-- [IdleEnum enumeration (DAO)](idleenum-enumeration-dao.md)
 - [LanguageConstants enumeration (DAO)](languageconstants-enumeration-dao.md)
 - [LockTypeEnum enumeration (DAO)](locktypeenum-enumeration-dao.md)
 - [ParameterDirectionEnum enumeration (DAO)](parameterdirectionenum-enumeration-dao.md)
