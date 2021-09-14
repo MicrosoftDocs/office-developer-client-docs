@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm185
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0671835-8d48-907a-eca6-43953658f800
 description: "Determines the line jump direction for line jumps occurring on a horizontal dynamic connector for a shape."
 ---

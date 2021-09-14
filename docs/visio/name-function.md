@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251580
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ca67a09-9df2-37f5-b269-e761d76bb011
 description: "Returns a sheet's name as a string."
 ---

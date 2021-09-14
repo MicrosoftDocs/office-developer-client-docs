@@ -5,7 +5,7 @@ ms:assetid: 02825449-50eb-42d0-8e45-361db5f473df
 ms:contentKeyID: 55119795
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Get account information

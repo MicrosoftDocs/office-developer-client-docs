@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2007, security,security [InfoPath 2007],form templates [InfoPath 2007], security
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb96d198-0003-4a19-9441-42eaa4eba15a
 description: "This section discusses the security model for Microsoft InfoPath form templates that use managed code."
 ---

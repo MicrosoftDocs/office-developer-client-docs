@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033792
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ce0bf66-dc8b-9646-7b04-50c969ecd67a
 description: "Determines whether the drawing page is centered vertically on the printer page."
 ---

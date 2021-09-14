@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6e0b89f-4975-416d-9f7a-e15fa54d7ee1
 description: "Returns the maximum value in the expression in a query or table."
 ---

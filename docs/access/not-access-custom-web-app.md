@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0f0a65f-5248-4d7c-a4a4-a0cc863b15ec
 description: "Negates a Boolean input."
 ---

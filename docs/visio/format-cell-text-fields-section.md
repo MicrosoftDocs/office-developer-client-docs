@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm400
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 
 description: "Specifies the formatting of a text field that is a string, a number, a date or time, a duration, or a currency."

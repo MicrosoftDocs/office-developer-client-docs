@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm720
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1c4b9d9-6d64-8ed1-9fc6-2dbf829a75b5
 description: "Determines whether a shape dynamically resizes or rotates as you are manipulating it."
 ---

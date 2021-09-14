@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033174
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bad4c512-e91f-d459-d65c-a4ab725c3c14
 description: "Specifies the angle of oblique direction of a shape's shadow."
 ---

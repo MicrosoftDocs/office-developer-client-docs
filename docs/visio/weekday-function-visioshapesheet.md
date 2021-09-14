@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251512
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f2625ef8-3bdb-5a8d-48b9-149be0592533
 description: "Returns an integer, 1 to 7, representing the weekday in datetime or expression."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251387
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3864aadd-3f86-c20e-1a74-b0aaff5106f7
 description: "Specifies a URL address, file name, or UNC path to which to jump."
 ---

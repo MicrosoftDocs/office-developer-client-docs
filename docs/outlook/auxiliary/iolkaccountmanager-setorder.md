@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e219adf6-e591-72e6-b9bd-2fc62eb5142d
 description: "Modifies the ordering of the specified category of accounts."
 ---

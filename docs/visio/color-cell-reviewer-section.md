@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60032
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1e3d7bf-e6b6-65f1-ae40-80c8ba4821cd
 
 description: "An RGB value that represents the color assigned to a document reviewer's markup."

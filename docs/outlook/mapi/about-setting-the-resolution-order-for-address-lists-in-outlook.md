@@ -3,7 +3,7 @@ title: "About Setting the Resolution Order for Address Lists in Outlook"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: "Last modified: July 05, 2012"
  

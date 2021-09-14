@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8345a4bc-ad7b-d0b0-7615-f77ade35006d
 description: "Before reading this topic, see theSigned Form Templatessection in Additional InfoPath Form Security Concepts for an understanding of signed form template security. Information and discussions in the Security Levels, E-Mail Deployment, and Remote Form Templates topic are also relevant."
 ---

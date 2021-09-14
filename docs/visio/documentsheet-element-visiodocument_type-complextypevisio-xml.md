@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b8673e1-b913-52db-2d1d-b3e8f4b8f952
 description: "Specifies a DocumentSheet structure."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54c3315f-770f-6995-d0d8-ab66e4fe10d9
 description: "Defines an action tag on a shape or page."
 ---

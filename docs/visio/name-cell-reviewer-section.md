@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1030992
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be39cd0b-56bf-a070-f5d8-c9a440d81ee2
 description: "Contains the name of a document reviewer."
 ---

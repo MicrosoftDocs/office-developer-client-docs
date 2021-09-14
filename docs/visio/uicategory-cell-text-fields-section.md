@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1070
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 365f7005-ba34-2311-4c5c-16344962fc3f
 
 description: "Determines the category of an inserted field in versions of Visio earlier than Visio 2000."

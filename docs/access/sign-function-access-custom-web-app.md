@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5e818c7b-b816-43ca-a051-d5846d4694db
 description: "Returns the positive (+1), zero (0), or negative (-1) sign of the specified expression."
 ---

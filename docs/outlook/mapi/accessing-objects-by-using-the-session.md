@@ -3,7 +3,7 @@ title: "Accessing Objects by Using the Session"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57

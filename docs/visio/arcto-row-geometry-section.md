@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253229
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 612b605d-a703-b08f-2e8e-7bc1624b5370
 description: "Contains the x - and y -coordinates and bow of a circular arc."
 ---

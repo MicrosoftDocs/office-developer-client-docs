@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8156ff1-c540-44b8-8b69-ba4d54883260
 description: "Determines the direction of the fill gradient. A gradient can be linear, radial, rectangular, or follow a path."
 ---

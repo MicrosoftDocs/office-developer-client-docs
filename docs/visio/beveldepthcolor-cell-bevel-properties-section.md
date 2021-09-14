@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1665774f-4049-4eda-ba7a-62314286699e
 description: "Determines the color of the bevel's depth, as an RGB value or as determined by the active theme."
 ---

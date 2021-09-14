@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff79fe88-68bf-4f50-a110-0714268f080d
 description: "Returns the statistical standard deviation of all values in the specified expression."
 ---

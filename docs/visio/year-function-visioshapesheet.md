@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251513
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acc136ef-9946-7c12-a467-9ded732a3549
 description: "Returns an integer that represents the Gregorian year in datetime or expression, formatted according to the short date style set by the system's current Region and Language settings."
 ---

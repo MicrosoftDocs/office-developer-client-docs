@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: "Contains the Page elements for the document."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm680
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b82feade-5793-8a6e-3ff4-69a4cbdd2cf9
 description: "Represents the x -coordinate of the shape's pin (center of rotation) in relation to the origin of the shape. The default formula for determining LocPinX is:"
 ---

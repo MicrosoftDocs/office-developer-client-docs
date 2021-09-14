@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ba7d372-0c2a-9fa7-0af6-97da0aafdb12
 description: "Returns the shortest distance from the point represented by the specified coordinates to a point on the path."
 ---

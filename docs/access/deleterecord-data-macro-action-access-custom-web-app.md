@@ -3,7 +3,7 @@ title: "DeleteRecord Data Macro action (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6b68a9a-e04a-476e-a407-b1779fea1953
 description: "You can use the DeleteRecord action to delete a record."
 ---

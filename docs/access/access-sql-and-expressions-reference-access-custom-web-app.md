@@ -7,7 +7,7 @@ ms.date: 08/17/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c68cbbe9-d97f-4d1c-b639-fc067b6cd316
 ---
 

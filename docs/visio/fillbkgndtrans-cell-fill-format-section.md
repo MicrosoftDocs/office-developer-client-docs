@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253230
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87065350-ba9a-aae8-47f6-f263f6700d08
 description: "Determines the transparency level for the background (fill) color of the shape's fill pattern."
 ---

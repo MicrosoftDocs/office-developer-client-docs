@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, object model,InfoPath 2003-compatible object model,object models [InfoPath 2003]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cd0a890b-5a8b-42c0-abdd-5ce28aff1ba1
 description: "This section discusses the object model for InfoPath managed-code solutions, and describes common programming tasks."
 ---

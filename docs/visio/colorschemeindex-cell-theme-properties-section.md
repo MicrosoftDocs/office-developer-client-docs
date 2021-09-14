@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb84f71e-59c4-43d4-a28b-c3d6f267d2ae
 description: "Determines the index of the theme that the shape's color scheme takes after, as an integer."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1150
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db7b353f-4379-8865-1c35-36b89cf93257
 description: "Specifies the type of horizontal grid to use."
 ---

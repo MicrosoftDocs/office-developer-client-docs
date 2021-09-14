@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6356f7bf-e3a1-4294-ad6e-df77bdd0356c
 description: "Initializes the Outlook Social Connector (OSC) provider."
 ---

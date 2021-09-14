@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1190
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6d5062d3-743b-8664-8ec9-5a8f11d5edf9
 
 description: "Controls the type of behavior the y -coordinate of the control handle will exhibit after the handle is moved. These formulas are available."

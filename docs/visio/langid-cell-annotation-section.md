@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60048
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6f5ea5e-b350-0817-d631-f059b9b95c23
 
 description: "Indicates the language in which the comment was entered."

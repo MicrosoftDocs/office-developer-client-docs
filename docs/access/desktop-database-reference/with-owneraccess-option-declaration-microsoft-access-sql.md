@@ -12,7 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # WITH OWNERACCESS OPTION declaration (Microsoft Access SQL)

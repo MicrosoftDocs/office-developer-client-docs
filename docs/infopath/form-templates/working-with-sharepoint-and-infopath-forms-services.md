@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - forms [infopath 2007],forms [InfoPath 2007], InfoPath Forms Services,InfoPath 2007, InfoPath Forms Services,InfoPath Forms Services
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b0c185e-eb41-417f-bfee-aeb6f0475866
 description: "This section provides information about working with browser-compatible form templates that will be deployed to Microsoft SharePoint Server 2010 with InfoPath Forms Services."
 ---

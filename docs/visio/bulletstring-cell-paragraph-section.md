@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm135
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 38285824-30ad-0cf2-07cb-0103ab3a415a
 
 description: "Allows you to create a custom bullet style."

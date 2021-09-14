@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a556eadc-9ee6-7a29-ca05-6250b612790c
 description: "Guards the formatting cells of a shape to ensure that they use appropriate aspects of the current theme."
 ---

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dbb8342b-e4e0-f89d-3e14-b4c7049095ef
 description: "Gets an enumerator for the accounts of the specific category or type."
 ---

@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c67cfd32-5911-d8e9-dd51-fd4885dd2b0d
 description: "Returns a sheet reference to the target shape of the callout shape."
 ---

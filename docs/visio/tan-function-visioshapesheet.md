@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251502
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c820cb95-92e8-5d56-22d7-0a984acc6c59
 description: "Returns the tangent of an angle."
 ---

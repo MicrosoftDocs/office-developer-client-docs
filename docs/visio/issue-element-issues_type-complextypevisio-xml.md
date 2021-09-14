@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5c4d07bf-4edc-e241-7827-017f96c11957
 description: "Represents a single validation issue in the document."
 ---

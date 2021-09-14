@@ -3,7 +3,7 @@ title: "Download Hierarchy State"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e0400ba-8530-e6ac-5de8-a62aeec5e10a
 description: "Last modified: March 09, 2015"
  

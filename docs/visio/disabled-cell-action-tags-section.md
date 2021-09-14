@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60038
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 
 description: "Indicates whether the action tag appears in the drawing window."

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033805
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9d4ee2d-c7da-d969-4457-e37384768ac5
 description: "Decodes a base64 string and stores it as binary data."
 ---

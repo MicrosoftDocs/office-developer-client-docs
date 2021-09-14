@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251589
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4877620c-7df0-da5a-2138-d2c19dce36f9
 description: "Returns the text from the Hyperlink base field of a document's properties."
 ---

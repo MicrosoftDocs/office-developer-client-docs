@@ -3,7 +3,7 @@ title: "attOriginalMessageClass"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a0aac5e9-4d66-41fc-a2da-dec6ab1f1035

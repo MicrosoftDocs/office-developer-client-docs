@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - converting form templates [infopath 2007],InfoPath Toolkit, opening form templates from,form templates [InfoPath 2007], opening,InfoPath 2007, converting InfoPath Toolkit form templates,opening form templates [InfoPath 2007],form templates [InfoPath 2007], converting,script [InfoPath 2007], converting to managed code
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af8eca2e-ba9a-4c37-94af-662815fff518
 description: "If you created an InfoPath 2003 managed code form template using one of the InfoPath 2003 Toolkits for Visual Studio and want to maintain compatibility with InfoPath 2003, you can continue to work on and further develop your form template project by opening it in Microsoft InfoPath and Visual Studio 2012."
 ---

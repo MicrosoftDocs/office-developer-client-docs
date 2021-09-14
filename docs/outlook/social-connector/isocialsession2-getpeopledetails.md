@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8733aab9-3a8e-4924-b62f-4e871d991c72
 description: "Returns a string that contains a collection of person and picture details for the users specified by the personsAddresses parameter."
 ---

@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6c6bfda-5525-4618-b08c-bf85440b7415
 description: "Reference content for the Data Degradation Layer API, which provides the ability to hide the underlying native character format of an Outlook object."
 ---

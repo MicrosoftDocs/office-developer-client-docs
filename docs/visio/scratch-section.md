@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2125
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 144dd06f-7225-57db-fd19-a58d6bccf0e1
 description: "A work area for entering and testing formulas that can be referred to by other cells."
 ---

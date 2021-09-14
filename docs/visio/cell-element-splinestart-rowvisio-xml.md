@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 021536b9-6724-4b8a-35c2-966e456e5232
 description: "Contains x- or y-coordinates for a spline's second control point, its second knot, its first knot, the last knot, or the degree of the spline."
 ---

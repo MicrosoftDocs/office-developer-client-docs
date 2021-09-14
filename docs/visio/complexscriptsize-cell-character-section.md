@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033768
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f58687d7-2ba4-ff77-0bcc-3106867d89de
 
 description: "The size of the font used to format text composed of complex script characters."

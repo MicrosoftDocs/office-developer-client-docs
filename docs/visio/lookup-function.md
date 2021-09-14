@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251457
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb6ec664-6062-75d0-1514-8058b98c2c36
 description: "Returns a zero-based index that indicates the location of the substring key in a list, or returns -1 if the target string contains the delimiter."
 ---

@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xldisablexlmsgs function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b29d4720-7855-4252-9dbe-b4fc4eb8f995
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

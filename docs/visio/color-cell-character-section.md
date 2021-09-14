@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm160
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c9aab2e-6c2f-0684-4e66-c35ac71883d6
 
 description: "Determines the color used for the shape's text."

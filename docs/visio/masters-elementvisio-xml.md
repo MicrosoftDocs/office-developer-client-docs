@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb90df82-58b6-5d0b-6b7d-826c5c27c755
 description: "Contains the Master elements for the document."
 ---

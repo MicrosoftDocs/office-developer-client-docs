@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1010
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fd11650-fffa-1316-d302-3122ac5feb14
 
 description: "Represents a descriptive text string that appears as a tool tip when a user pauses the pointer over a shape's control handle. The application automatically encloses the tip string in quotation marks in the cell, but the quotation marks are not displayed in the tool tip."

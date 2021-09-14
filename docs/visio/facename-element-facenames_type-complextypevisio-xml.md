@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1783f05-ced1-917f-8298-eca4ecfa3912
 description: "Contains information about a font."
 ---

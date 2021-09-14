@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0b6cc5b2-342d-45dd-ba5e-aa29f1face48
 description: "Returns a text value after truncating all trailing blanks."
 ---

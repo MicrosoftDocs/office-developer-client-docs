@@ -3,7 +3,7 @@ title: "Get the path of a specific version of MAPI for the default mail client"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ee7fb05-cfb3-6b68-5a9a-1d6375f2e879
 description: "Last modified: July 23, 2011"
 ---

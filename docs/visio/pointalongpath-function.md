@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f91e5d9-89b8-5a0d-e01f-aa81fbd5e1fd
 description: "Returns the coordinates of a point on, or offset from, the path."
 ---

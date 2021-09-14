@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251662
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a223dac-538b-cb5d-a32d-61395276f9da
 description: "Determines the routing style and direction for all connectors on the drawing page that don't have a local routing style."
 ---

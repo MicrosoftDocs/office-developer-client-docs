@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, using msxml5,MSXML5 [InfoPath 2007],MSXML5 script [InfoPath 2007],InfoPath 2007, using MSXML5
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f7a0cac5-26f9-49ed-b52c-0240ef0c9d38
 description: "Form template projects that work with the InfoPath 2003 object model use Microsoft XML Core Services (MSXML) internally to work with XML. In managed code, it is often easier to use the XML support provided by the System.Xml namespace in the .NET Framework class library. MSXML and System.Xml cannot exchange objects natively, so whenever you need to pass XML data between InfoPath and other managed code, XML data needs to be converted. You can exchange XML data from System.Xml objects with InfoPath form code by using the techniques in this topic."
 ---

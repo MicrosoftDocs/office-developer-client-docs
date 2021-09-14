@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1095
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ca662c8-1ce4-89a9-3264-1ba533fcd444
 description: "Contains the function for a field."
 ---

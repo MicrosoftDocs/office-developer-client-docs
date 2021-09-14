@@ -3,7 +3,7 @@ title: "Hosting InfoPath as an XML Editor in Another Application"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae24b317-f486-763a-7009-e32c5cb85b59
 description: "The Microsoft InfoPath form editing environment can be hosted in a custom Windows application, which enables developers to integrate the InfoPath form editing environment into line-of-business applications."
 ---

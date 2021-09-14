@@ -5,7 +5,7 @@ ms.date: 04/04/2016
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 13661393-adf6-4870-86c4-303262317675
 description: "The Outlook Social Connector 2013 provides a communication hub for personal and professional communications."
 ---

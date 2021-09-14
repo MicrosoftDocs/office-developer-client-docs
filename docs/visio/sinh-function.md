@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251499
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de2aca1d-a591-cf39-990c-a24666764a6f
 description: "Returns the hyperbolic sine of an angle."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4292d489-fb7c-9d5d-9bec-2a1a0772d8ba
 description: "Specifies a property that controls shape and style tab stop position or alignment."
 ---

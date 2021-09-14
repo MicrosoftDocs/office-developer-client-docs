@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251496
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fcf415c1-171f-b75f-6e40-2bbdbe8b1cfb
 description: "Sets a cell's formula."
 ---

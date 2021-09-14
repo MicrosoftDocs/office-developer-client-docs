@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - tempactivecolumn12 function [excel 2007],TempActiveColumn function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b1f34c4-e7fa-4a0b-8fc5-c9d465ebb70c
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -11,7 +11,7 @@ f1_keywords:
 - vbaac10.chm5285627
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Use ActiveX Data Objects

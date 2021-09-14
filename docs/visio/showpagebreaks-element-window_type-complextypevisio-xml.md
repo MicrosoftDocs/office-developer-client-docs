@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a8c29d9-31d9-dd77-09c5-6e9eaf870552
 description: "Specifies whether page breaks are shown in a window."
 ---

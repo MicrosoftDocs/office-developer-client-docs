@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251728
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 102cce17-43ee-e313-3412-a72d6ee18fe6
 description: "Determines whether the text has a line above it."
 ---

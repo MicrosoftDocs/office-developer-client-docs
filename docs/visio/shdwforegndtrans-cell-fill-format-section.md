@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253253
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c42d4d2e-f8f0-bc5b-6018-4bb4ffa81b64
 description: "Determines the transparency level for the color used for the foreground (stroke) of the shape's drop shadow fill pattern."
 ---

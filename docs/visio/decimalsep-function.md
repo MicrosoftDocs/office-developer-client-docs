@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251883
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 091fe401-05b2-464f-9333-7bb7118cd7cd
 description: "Returns the decimal separator string for the current user locale."
 ---

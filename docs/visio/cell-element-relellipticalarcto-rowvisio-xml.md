@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
 description: "Contains x- or y-coordinates of an elliptical arc's endpoint relative to the shape's width and height, x- or y-coordinates of the control points on the arc relative to the shape's width and height, angle from the x-axis to the ellipse's major axis, or ratio between the ellipse's major and minor axes."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
 description: "Represents a connection between two shapes in a drawing, such as a line and a box in an organization chart."
 ---

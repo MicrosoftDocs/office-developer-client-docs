@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm95
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
 description: "Represents the y -coordinate of the begin point of the 1-D shape, in relation to the origin of its parent."
 ---

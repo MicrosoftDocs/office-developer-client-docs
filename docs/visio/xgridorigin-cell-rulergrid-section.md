@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1155
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b1a8902-b1d4-c3d9-8c9f-1a28fddacc59
 description: "Specifies the horizontal coordinate of the grid origin."
 ---

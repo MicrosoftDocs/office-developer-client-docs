@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60081
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6330304a-71f3-62b4-1b27-14495e3f12c3
 description: "Indicates whether this 1-D shape can be split."
 ---

@@ -8,7 +8,7 @@ f1_keywords:
 - xlSheetId
 keywords:
 - xlsheetid function [excel 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251503
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ffdfc22-cbae-b397-226a-2cfcc6ca56c7
 description: "Returns the hyperbolic tangent of an angle."
 ---

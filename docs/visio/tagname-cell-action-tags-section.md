@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60088
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 28d1cd60-4fb6-9feb-1a13-0962798ac1ad
 
 description: "Name of the action tag that is used as a key to associate the action tag with its actions."

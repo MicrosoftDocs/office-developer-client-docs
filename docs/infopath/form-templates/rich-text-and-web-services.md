@@ -3,7 +3,7 @@ title: "Rich Text and Web Services"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53fddc3f-e9d9-db76-6b84-11befdb23fb0
 description: "Microsoft InfoPath supports binding a Rich Text Box control in a form to an XML element that is received from a Web service, and submitting data from a rich text box control to an XML element through a Web service. The element must adhere to the Extensible HyperText Markup Language (XHTML) format. For example, the schema for an element named MyRichTextElement that contains rich text would have the following XML schema definition:"
 ---

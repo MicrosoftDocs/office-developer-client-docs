@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251321
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59fe0887-2092-4fad-ea38-2aba354f3b92
 description: "Switches printing on and off for the selected shape."
 ---

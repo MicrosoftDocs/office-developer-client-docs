@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm19105
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45bd5ed6-2f13-6555-362a-5982595a0ac9
 description: "Performs the default event associated with the object."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251455
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7db7a8ed-50a9-8495-b978-42a2fddb466a
 description: "Takes a point defined in one shape's local coordinates and returns the equivalent point expressed in the local coordinates of the shape associated with the formula."
 ---

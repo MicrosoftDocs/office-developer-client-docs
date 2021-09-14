@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ef39ca1-ffc0-4ec0-8697-7b4ea7406fa4
 description: "Shows the color values for the line gradient applied to the shape."
 ---

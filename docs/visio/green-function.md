@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251434
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eccec432-32d3-15c2-06b3-dd02b6313d4c
 description: "Returns the green component of a color."
 ---

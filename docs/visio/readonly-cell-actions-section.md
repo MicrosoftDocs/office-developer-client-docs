@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60071
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 158b4188-570c-3817-bf34-8dc0c64befa5
 description: "Controls whether the action on an action tag or shortcut menu is read-only."
 ---

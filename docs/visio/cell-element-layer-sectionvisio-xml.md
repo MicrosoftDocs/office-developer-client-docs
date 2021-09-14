@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9896839-ca36-b82b-7412-e57195d4b8e2
 description: "Specifies one property for a layer or its properties for a page."
 ---

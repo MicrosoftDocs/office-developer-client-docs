@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c984d53-763e-e502-b672-beffdebf73f3
 description: "Returns the total number of callout shapes that are associated with the shape."
 ---

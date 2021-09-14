@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59ba365d-cff5-4126-bc22-4d5a37578aab
 description: "You can use the RunMacro action to run a user interface (UI) macro."
 ---

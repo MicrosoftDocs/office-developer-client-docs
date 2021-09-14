@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm455
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b2991aa-4722-fe3b-39c5-02d38c4c7efc
 description: "Determines the distance the object is offset vertically from the origin of the object's border. The default is 0. Panning the object with the Crop tool changes this value."
 ---

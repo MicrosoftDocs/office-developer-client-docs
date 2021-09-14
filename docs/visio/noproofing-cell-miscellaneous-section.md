@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 668f993c-b4d1-4762-9801-c578b17fdafd
 description: "Determines whether spelling is automatically corrected and whether spelling errors are displayed for the selected shape. Takes a Boolean value."
 ---

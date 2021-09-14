@@ -3,7 +3,7 @@ title: "Date/time functions (Access custom web app)"
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acd4e050-c3a4-4bcf-bd35-a06e7a93bbb1
 description: ""
 ---

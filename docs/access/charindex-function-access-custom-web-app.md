@@ -3,7 +3,7 @@ title: "CharIndex function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 340ed9a8-6f82-4aa8-a951-2c453b3d1ac4
 description: "Searches a text expression for another text expression and returns its starting position if found."
 ---

@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - functions [excel 2007], c api called from dll or xll
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 87c9e75b-c364-4428-a169-010886313b85
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251405
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a8d6d48-7ae3-5483-28d2-5b1706088a53
 description: "Rounds a number away from 0 (zero) to the next instance of multiple. If multiple is not specified, the number rounds away from 0 to the next integer."
 ---

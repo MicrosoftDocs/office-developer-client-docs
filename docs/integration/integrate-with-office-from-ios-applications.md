@@ -3,7 +3,7 @@ title: "Integrate with Office from iOS applications"
 manager: soliver
 ms.date: 06/04/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
 description: "Office for iOS provides an extensible solution that enables integration with third-party applications. This article describes how you can integrate with Office from your iOS application by passing users from your application to Office, and then returning them to your application."
 ---

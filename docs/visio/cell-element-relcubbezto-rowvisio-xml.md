@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: daa5c527-65fe-a1e4-ab3e-24e77bdb522b
 description: "Contains the x- or y-coordinates of the endpoint of a cubic Bézier curve relative to the shape's width and height, the x- or y-coordinates of the control point of the beginning of the curve relative shape's width and height, or the x- or y-coordinates of the control point of the ending of the curve relative shape's width and height."
 ---

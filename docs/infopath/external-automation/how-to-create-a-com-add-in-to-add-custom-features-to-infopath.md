@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
 - infopath 2007, creating com add-ins,InfoPath 2007, adding custom features,COM add-ins [InfoPath 2007]
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: af0b0bc9-20ef-4503-8b3b-8f2a97b671a2
 description: "Microsoft InfoPath supports COM Add-ins for extending the form editing user experience. Although support for COM Add-ins was first added in InfoPath, other Office applications such as Microsoft Office Word and Microsoft Office Excel have supported COM add-ins since Office 2000."
 ---

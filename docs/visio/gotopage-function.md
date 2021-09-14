@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251432
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b131badf-1656-132e-0aae-eeedb917ba7a
 description: "Displays the page that has the name pagename in the currently active window."
 ---

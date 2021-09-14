@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d155af5-b809-4367-b093-1218a1597656
 description: "Determines the transparency of the reflection, as a percentage from 0 to 100%."
 ---

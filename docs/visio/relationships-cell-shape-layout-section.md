@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm80005
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4168cd98-9674-1233-254f-0afe81b7245b
 description: "Stores the relationships between containers, lists, callouts, and shapes."
 ---

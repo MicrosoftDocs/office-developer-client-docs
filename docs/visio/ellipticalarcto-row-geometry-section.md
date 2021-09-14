@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm3015
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7ceb30a8-1d05-feff-35d8-08a198784a27
 description: "Contains x - and y -coordinates of an elliptical arc's endpoint, x - and y -coordinates of the control points on the arc, angle from the x -axis to the ellipse's major axis, and ratio between the ellipse's major and minor axes."
 ---

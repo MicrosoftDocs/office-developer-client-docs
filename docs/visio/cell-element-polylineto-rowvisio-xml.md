@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a62fbb51-e2a7-cdae-3516-5ce9ba30f26d
 description: "Contains x- or y-coordinates of the last point of a polyline or a polyline formula."
 ---

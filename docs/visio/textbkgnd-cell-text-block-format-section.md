@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251267
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a238bf1c-1acd-eacd-22f3-a48acaaa4549
 description: "Determines the text background color for a shape."
 ---

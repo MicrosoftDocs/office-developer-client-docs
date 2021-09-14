@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8513cf3f-42bd-4e76-bfa8-8bf12f0d1296
 description: "Determines the Quick Style fill style that the shape inherits from the active theme, as an integer from 0-6."
 ---

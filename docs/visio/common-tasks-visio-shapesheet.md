@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3be0b895-d01a-d7b7-0ccf-067ba5b39ade
 description: "This navigation page contains links to overview topics about programmability in Visio. Click the links below or use the TOC to navigate to the following topics:"
 ---

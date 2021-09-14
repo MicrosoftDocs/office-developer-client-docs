@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22d7c1e8-48b9-4768-b4de-9a9f32a3aabb
 description: "Specifies leaving a copy of a message on the server for a POP account."
 ---

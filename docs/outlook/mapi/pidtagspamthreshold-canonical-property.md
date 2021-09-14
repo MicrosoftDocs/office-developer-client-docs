@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
 description: "Last modified: March 09, 2015"
 ---

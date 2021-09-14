@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033785
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ba0fd22-65a6-6cb6-da00-08f391705544
 description: "Specifies the margin at the top of the printer page."
 ---

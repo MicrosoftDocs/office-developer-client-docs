@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033794
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0504ff7f-2274-7ae3-1f4b-a3d890dbd79a
 description: "Specifies whether to print the grid when printing a document page."
 ---

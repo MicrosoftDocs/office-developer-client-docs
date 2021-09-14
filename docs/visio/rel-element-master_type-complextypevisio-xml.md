@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 151cdd13-d00b-249c-7ebd-1ae9c4042b03
 description: "Specifies a relationship to a part with the corresponding master XML."
 ---

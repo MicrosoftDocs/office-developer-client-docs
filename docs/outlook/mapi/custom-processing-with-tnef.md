@@ -3,7 +3,7 @@ title: "Custom processing with TNEF"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c015335a-8fcd-4b03-abb9-9b6b72000e13

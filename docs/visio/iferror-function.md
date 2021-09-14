@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 232fa528-2375-90be-8e18-7a064ce1345e
 description: "Returns the evaluated result of a primary expression, if it does not evaluate to an error. Otherwise, returns the evaluated result of an alternate expression."
 ---

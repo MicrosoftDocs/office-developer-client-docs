@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 34e25349-d0fa-b3a0-425b-778184e9f58f
 description: "Contains all the DataColumn elements in a data recordset."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2bb0f4c5-eacf-e09b-2fce-dcff2d927557
 description: "Specifies the margin of a document's header."
 ---

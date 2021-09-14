@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm710
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ba7f6da-681b-b749-fe72-afbca23d7e16
 
 description: "Indicates whether a path can be filled."

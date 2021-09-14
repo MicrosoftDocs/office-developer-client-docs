@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50115
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3d16b8b3-601b-c10b-68a8-ffd47251306f
 description: "Determines the default appearance for all connectors on a drawing page."
 ---

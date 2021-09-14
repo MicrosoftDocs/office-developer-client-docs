@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253110
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47aa9737-363b-b57f-14cf-c007f6dbb8be
 description: "You can add new rows, change the type for existing rows, or delete rows in the ShapeSheet in Microsoft Visio."
 ---

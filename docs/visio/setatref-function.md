@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60113
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ecfdb05-2533-470a-006b-e554026944d8
 description: "Redirects updated values resulting from actions in the user interface (UI) or Automation to another cell."
 ---

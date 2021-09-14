@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2096da45-4269-4a6d-a2bd-a3e1e510b071
 description: "Places the current record into edit mode."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7883cb55-a7db-10c0-be20-5d3c561e490f
 description: "Displays functions and formulas inserted in the shape's text by using the Field dialog box."
 ---

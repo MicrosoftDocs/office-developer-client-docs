@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251402
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
 description: "Returns the blue component of a color. The return value is an integer in the range of 0 to 255, inclusive. The function returns 0 for invalid input."
 ---

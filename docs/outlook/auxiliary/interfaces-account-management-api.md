@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e67b0690-a3f4-4523-94a6-c0e4005bcb69
 description: "This section describes the interfaces in the Account Management API."
 ---

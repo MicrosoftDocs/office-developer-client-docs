@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - msxml interop [infopath 2007],InfoPath 2007, XML primary interop assembly,InfoPath XML interop assembly
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fb28659b-8a71-4f43-9121-2c748fb2c5e1
 description: "The InfoPath XML interop assembly is provided to allow support for interoperability between managed code and the COM server exposed by Microsoft XML Core Services (MSXML) from external applications that automate InfoPath."
 ---

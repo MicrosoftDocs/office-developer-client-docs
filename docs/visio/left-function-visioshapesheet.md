@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1021757
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c2f6e06-b772-2006-ec7b-8695d097f146
 description: "Returns the left-most character or characters in a text string, based on the number of characters you specify."
 ---

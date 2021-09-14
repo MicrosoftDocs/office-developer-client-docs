@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251412
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b6c5375-c543-ff2f-f20a-6d92fd65717a
 description: "Returns the date represented by year, month, and day formatted according to the short date style in the system's Regional Settings. The values for year , month , and day reflect the Gregorian calendar."
 ---

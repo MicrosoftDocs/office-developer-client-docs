@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c67b46bb-0eb2-f094-2870-c320bd488705
 description: "Blends two colors in the proportion specified by the float parameter."
 ---

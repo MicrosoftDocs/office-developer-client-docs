@@ -7,7 +7,7 @@ ms.date: 07/29/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 348555d3-3cd4-4e4a-b5ad-436571c25251
 description: "Integrate your third-party Win32 sync clients with Excel Mobile, PowerPoint Mobile, and Word Mobile Office applications."
 ---

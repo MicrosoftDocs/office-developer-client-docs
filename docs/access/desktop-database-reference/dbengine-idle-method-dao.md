@@ -11,7 +11,7 @@ f1_keywords:
 - dao360.chm1052978
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # DBEngine.Idle method (DAO)

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251479
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 098d216f-e699-0e74-f702-ccfa7809c19b
 description: "Plays a sound file or system sound."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251825
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 871b8601-8117-bc51-17b9-6002234b4bfb
 description: "A function performs a single well-defined task. Most functions take a number of arguments as input. Although the type and number of arguments depend on the function, all functions have the same general syntax:"
 ---

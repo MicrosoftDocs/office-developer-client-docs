@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251266
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bc8f5469-e79f-4a68-73cb-d11c938353a4
 description: "Determines the distance between the right border of the text block and the text it contains. The default is 0.1 inch."
 ---

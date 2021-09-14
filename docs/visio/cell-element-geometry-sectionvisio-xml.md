@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 82dcad38-d5fa-4892-91d9-1f3f25f1e600
 description: "Defines properties that determine formatting and behavioral properties with respect to the lines and arcs that make up the Geometry Section."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm360
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55834445-8619-f79a-aea0-0f6a1780e016
 
 description: "Represents a string that passes information to be used in resolving a URL, such as the coordinates of an image map. For example, in the ExtraInfo cell,x=41&amp;y=7specifies the coordinates of an image map."

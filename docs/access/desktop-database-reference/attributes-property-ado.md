@@ -10,7 +10,7 @@ f1_keywords:
 - ado210.chm1231117
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Attributes property (ADO)

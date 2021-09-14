@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251396
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19b77fbb-32c9-4fc9-4c07-a0a713f7fdca
 description: "Returns the arctangent of a number, for example, the angle whose tangent is number. The resulting angle is in the range -PI/2 <= angle <= PI/2 radians (-90 <= angle <= 90 degrees)."
 ---

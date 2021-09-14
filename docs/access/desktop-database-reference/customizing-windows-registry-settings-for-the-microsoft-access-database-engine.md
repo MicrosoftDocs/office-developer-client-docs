@@ -10,7 +10,7 @@ f1_keywords:
 - acmain11.chm1032168
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Customizing Windows registry settings for the Microsoft Access database engine

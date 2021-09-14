@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64e39e51-566a-b6ad-9096-7b7749642d34
 description: "Returns the difference in saturation between color1 and color2."
 ---

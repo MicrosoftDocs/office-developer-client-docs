@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cbdbee8c-70d6-45df-a56b-5f7c6e5bdc6d
 description: "You can use the CancelRecordChange action to cancel the changes applied to a record in a CreateRecord or EditRecord data block before the changes are committed."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm770
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f73cc157-b332-279b-f7cf-d5a090bc09a4
 description: "Determines the direction of line jumps on vertical dynamic connectors on the drawing page for which you haven't applied a local jump direction."
 ---

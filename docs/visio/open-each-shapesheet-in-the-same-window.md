@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm1037818
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6e178e26-e696-f38b-4720-10ce0e6ad110
 description: ""
 ---

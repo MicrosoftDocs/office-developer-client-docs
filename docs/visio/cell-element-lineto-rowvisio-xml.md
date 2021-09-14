@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64f2494d-2de7-6bc5-0db4-91b952bdcb5e
 description: "Contains x-or y-coordinates of the ending vertex of a straight line segment."
 ---

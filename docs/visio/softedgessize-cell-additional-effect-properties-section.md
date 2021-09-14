@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5cde2ca-f343-4a6e-b5d9-a1b78b3cd240
 description: "Determines the size of a soft edge effect, in points from 0.00 to 100.00. If the SoftEdgesSize cell has a value of 0, the shape does not have soft edges."
 ---

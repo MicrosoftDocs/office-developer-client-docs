@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251698
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62d87db9-b8ca-60b6-bf27-5168c718ec96
 description: "Determines where a style is shown in the Microsoft Visio user interface."
 ---

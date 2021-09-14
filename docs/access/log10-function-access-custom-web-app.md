@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 89c2d4f0-0de9-41d4-bc34-a21f5636e8c4
 description: "Returns the base-10 logarithm of a number."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm410
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3dcaee26-391c-0494-4380-890ee825dc47
 description: "Adjusts or corrects the intensity of an image for a particular output device, such as a monitor or scanner. The default value is 1 (no correction)."
 ---

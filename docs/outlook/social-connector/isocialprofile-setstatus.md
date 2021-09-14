@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 34fe2a35-6fb2-4c18-88f3-0edbb19716f1
 description: "This method is currently not supported."
 ---

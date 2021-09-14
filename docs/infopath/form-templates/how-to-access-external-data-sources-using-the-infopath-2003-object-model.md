@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - data sources [infopath 2007], accessing with infopath 2003 object model,InfoPath 2003-compatible form templates, accessing external data
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: "When working with an InfoPath form template that uses the InfoPath 2003 compatible object model, you can write code to access the form's secondary data sources and manipulate the data that they contain."
 ---

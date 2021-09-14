@@ -3,7 +3,7 @@ title: "Configure UDFs in Excel Online in Office Online Server"
 manager: lindalu
 ms.date: 12/03/2019
 ms.audience: ITPro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: "Use user-defined functions (UDFs) in Excel Online in Office Online Server to call custom functions."
 ---

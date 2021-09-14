@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm910
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa2bebfc-a6bb-a6b3-3ae9-8553f96b5738
 description: "Sharpens a bitmap image. The default value is 0%. Sharpening an image focuses it by increasing the contrast of adjacent pixels."
 ---

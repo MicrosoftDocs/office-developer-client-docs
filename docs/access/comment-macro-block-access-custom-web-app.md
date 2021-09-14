@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d8977a0-e787-415f-adc0-2e0c53a364a4
 description: "The Comment statement can be used to provide explanatory remarks in a macro."
 ---

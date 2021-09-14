@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60055
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1c23f1d-485d-a897-594d-15d6e8d0fb3c
 description: "Determines whether the user can add, delete, or modify shape data in the user interface (UI) by using the Define Shape Data dialog box or the shortcut menu for the Shape Data window."
 ---

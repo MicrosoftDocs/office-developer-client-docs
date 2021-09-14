@@ -3,7 +3,7 @@ title: "Displaying Table Controls"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0882be14-573c-440c-954f-76ef70eea33e

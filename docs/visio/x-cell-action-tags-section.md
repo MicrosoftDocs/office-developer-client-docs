@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60093
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
 
 description: "The x -coordinate position in the shape's local coordinates around which the action tag button is placed."

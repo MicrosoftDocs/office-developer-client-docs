@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 31c56d08-19ea-4b8b-8be7-42e1c736fbca
 description: "Determines the font color from the Quick Styles that a shape's text inherits from the active theme, as an integer from 0-1."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251340
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c36fc895-5577-59f6-0ff5-5892ca81a58f
 
 description: "Specifies the formatting of a shape data item that is a string, a fixed list, a number, a variable list, a date or time, a duration, or a currency."

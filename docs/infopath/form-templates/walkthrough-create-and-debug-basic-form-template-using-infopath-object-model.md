@@ -5,7 +5,7 @@ ms.date: 01/13/2015
 ms.audience: Developer
 keywords:
 - form templates [infopath 2007], walkthroughs,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2003-compatible form templates, walkthroughs
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
 description: "This topic provides a walkthrough of creating a basic InfoPath managed code form template that works with the InfoPath 2003-compatible object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust namespace."
 ---

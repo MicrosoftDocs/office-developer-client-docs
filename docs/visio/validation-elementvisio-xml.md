@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: "Stores information about diagram validation for the document."
 ---

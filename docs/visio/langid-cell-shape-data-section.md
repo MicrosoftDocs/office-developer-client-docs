@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033771
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6bd2781a-d4e7-136f-8996-62ebc5f890ab
 
 description: "Indicates the language in which the shape data value was entered."

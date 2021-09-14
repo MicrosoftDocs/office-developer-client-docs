@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f439c2d-78be-5f2e-fa5a-f3feb83a0234
 description: "Contains the document's color table."
 ---

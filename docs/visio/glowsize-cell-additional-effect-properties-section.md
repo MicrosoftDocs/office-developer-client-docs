@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ddc7a08-25b8-4903-b0dd-be72d1fa8075
 description: "Determines the size of the external glow of a shape in points."
 ---

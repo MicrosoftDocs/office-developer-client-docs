@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f73b950-0ae7-4d5f-b6ec-d257b860383c
 description: "Saves the current record."
 ---

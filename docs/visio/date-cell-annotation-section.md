@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60036
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f1f11803-614b-a40d-0a2d-131093e7609e
 
 description: "Contains the date and time the comment was last edited."

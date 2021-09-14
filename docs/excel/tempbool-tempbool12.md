@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - tempbool function [excel 2007],TempBool12 function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

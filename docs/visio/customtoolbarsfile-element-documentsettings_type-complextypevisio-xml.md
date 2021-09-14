@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c9789239-a919-97f6-8109-126bb1038be6
 description: "Contains the name of the Microsoft Visio user interface (.vsu) file that defines custom toolbars and status bars for a document."
 ---

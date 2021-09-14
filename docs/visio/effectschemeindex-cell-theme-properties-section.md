@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 366ade40-e89f-49b6-b4be-4e4967dbacbf
 description: "Determines the effect scheme of the theme applied to a shape, as an integer."
 ---

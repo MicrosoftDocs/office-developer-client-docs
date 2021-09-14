@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)
 ms:contentKeyID: 48545936
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2c726a3-29b2-491b-9c14-b4523f7f08f2
 description: "Returns the left part of a character string with the specified number of characters."
 ---

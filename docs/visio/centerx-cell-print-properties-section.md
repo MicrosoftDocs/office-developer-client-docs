@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60030
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 890e2537-66a5-2863-c78d-320b42565ea7
 description: "Determines whether the drawing page is centered horizontally on the printer page."
 ---

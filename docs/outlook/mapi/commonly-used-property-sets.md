@@ -3,7 +3,7 @@ title: "Commonly used property sets"
 manager: soliver
 ms.date: 09/03/2019
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b68f8bff-1a20-4dfd-92fe-57869328879d
 description: "This topic lists commonly used sets of named properties."
  

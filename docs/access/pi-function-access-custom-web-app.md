@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0a4f7e22-dfd2-4cdd-9f2d-8cd0fef9e34c
 description: "Returns the constant value of PI."
 ---

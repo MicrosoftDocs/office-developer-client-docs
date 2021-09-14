@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f44fc18-4757-7aba-8778-a474ab93a78d
 description: "Contains the x- or y-coordinates, horizontal and vertical direction, and type for a single connection point on a shape."
 ---

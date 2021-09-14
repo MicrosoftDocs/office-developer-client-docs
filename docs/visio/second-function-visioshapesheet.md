@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251495
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
 description: "Returns an integer, 0 to 59, that represents the seconds component of datetime or expression."
 ---

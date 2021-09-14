@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea514f19-4742-4eb4-823d-6f2494668106
 description: "Converts a value to a specified data type or returns Null if the conversion is not valid."
 ---

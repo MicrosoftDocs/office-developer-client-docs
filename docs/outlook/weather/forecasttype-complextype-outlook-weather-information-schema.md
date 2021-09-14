@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6301d6b6-34fa-af8d-e682-605d35cfdf47
 description: "Defines the parameters about the forecast weather conditions of a location."
 ---

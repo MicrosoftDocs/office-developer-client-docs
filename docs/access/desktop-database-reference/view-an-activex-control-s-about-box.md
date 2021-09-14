@@ -11,7 +11,7 @@ f1_keywords:
 - vbaac10.chm4039
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # View an ActiveX control About box

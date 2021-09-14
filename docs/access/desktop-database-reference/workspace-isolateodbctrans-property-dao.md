@@ -10,7 +10,7 @@ f1_keywords:
 - dao360.chm1053083
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Workspace.IsolateODBCTrans property (DAO)

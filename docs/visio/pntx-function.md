@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251481
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b64abbd7-38df-9756-23c6-4457be987464
 description: "Returns the x-coordinate of a point."
 ---

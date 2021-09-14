@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a637dcab-81e0-4195-a1d5-61d9957fcf10
 description: "Displays either the Account Settings or Add New Account dialog box."
 ---

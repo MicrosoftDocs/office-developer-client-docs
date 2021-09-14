@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251467
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e099dbb3-c591-d934-5cfd-7728b10bd8dc
 description: "Returns an integer from 1 to 12 that represents a month."
 ---

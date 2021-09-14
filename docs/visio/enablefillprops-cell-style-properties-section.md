@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm300
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b3334de-588c-6cf3-bc88-be03ae71b1a6
 description: "Determines whether a style includes fill properties."
 ---

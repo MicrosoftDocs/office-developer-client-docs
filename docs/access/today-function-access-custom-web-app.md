@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8dbcb871-e133-4c98-91bd-b3a00b93bc0b
 description: "Returns the current date value in the time zone defined by the application"
 ---

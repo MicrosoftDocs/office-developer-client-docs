@@ -8,7 +8,7 @@ ms.date: 12/03/2019
 mtps_version: v=office.15
 
 
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Get the Global Address List or a set of address lists for a store

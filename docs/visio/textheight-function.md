@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251504
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
 description: "Returns the height of the composed text in a shape where no text line exceeds maximumwidth."
 ---

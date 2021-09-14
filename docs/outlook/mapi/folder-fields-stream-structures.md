@@ -3,7 +3,7 @@ title: "Folder Fields Stream Structures"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edbc9e6c-008c-4c13-9a0c-cb47ac0f3686
 description: "Last modified: March 09, 2015"
 ---

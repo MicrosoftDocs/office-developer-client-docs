@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, creating,object models [InfoPath 2003], creating managed code form templates for InfoPath 2007,form templates [InfoPath 2007], creating InfoPath 2003-compatible
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0513178-ddcb-4086-ab19-1bc80cf114cc
 description: "This section discusses initialization and clean-up code, how to add event handlers, how to debug and deploy InfoPath form templates that use the InfoPath 2003-compatible object model, threading support, and working with Microsoft XML Core Services (MSXML) from InfoPath managed-code solutions."
 ---

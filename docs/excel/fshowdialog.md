@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - fshowdialog function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

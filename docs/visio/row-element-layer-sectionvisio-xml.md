@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9b884be2-3eed-0864-6a6c-877b43d9065f
 description: "Contains elements that define a single layer and its properties for a page."
 ---

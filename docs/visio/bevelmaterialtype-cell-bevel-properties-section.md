@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30f50a94-88dc-41a3-bb46-45c92d6817a4
 description: "Determines the type of material the bevel is composed of."
 ---

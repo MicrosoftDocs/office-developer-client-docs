@@ -3,7 +3,7 @@ title: "About MAPI URLs for Notification-Based Indexing"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
 description: "Last modified: November 08, 2011"
 ---

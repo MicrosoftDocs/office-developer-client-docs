@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm275
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fe270e8-0dff-bf1f-dfc0-c0608af79f59
 description: "Determines the drawing size."
 ---

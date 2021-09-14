@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a12ae10-6aa4-c845-5ede-1c14c6dac80f
 description: "Specifies whether a specific snap extension setting is enabled or disabled for the active window. The value can be a sum of the values in the following table."
 ---

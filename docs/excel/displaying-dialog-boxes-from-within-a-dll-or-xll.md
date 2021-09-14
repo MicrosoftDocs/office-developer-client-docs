@@ -9,7 +9,7 @@ ms.topic: overview
 keywords:
 - xlls [excel 2007], displaying dialog boxes from,dialog boxes [Excel 2007], displaying from a DLL or XLL,DLLs [Excel 2007], displaying dialog boxes from
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

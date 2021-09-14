@@ -3,7 +3,7 @@ title: "Install the samples used in this section"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400

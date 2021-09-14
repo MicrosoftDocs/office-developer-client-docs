@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6cb838be-1d6d-48e1-8e9e-bd126f0c2385
 description: "Determines the additional thickness added to line weight as the result of a sketch effect, in points from 0 to 50. The thickness of a shape's line increases as the value of the SketchLineWeight cell increases."
 ---

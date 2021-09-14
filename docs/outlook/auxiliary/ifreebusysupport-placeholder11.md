@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 906f6c19-7f53-a8de-9748-c5dff0425bd3
 description: "This member is a placeholder and is not supported."
 ---

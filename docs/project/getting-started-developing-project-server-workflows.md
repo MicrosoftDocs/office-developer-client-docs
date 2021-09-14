@@ -7,7 +7,7 @@ ms.date: 08/10/2016
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 735bbb04-a8c1-46c0-a346-42050f0ac9b1
 description: "Demand management processes in Project Server 2013 include workflows that help you manage project proposals and portfolio analyses. This section includes articles that show how to create workflows for Project Server."
 ---

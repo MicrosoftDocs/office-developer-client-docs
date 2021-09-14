@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60017
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29a7464a-b9d4-a8ea-161b-3044de32ed23
 description: "Contains cells that specify the actions associated with a custom command on a shortcut or action tag menu. The Actions section contains one Actions row for each action."
 ---

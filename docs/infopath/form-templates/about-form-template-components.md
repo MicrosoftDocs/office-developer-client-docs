@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b51361fe-cf29-f890-9876-5aebe15c73e1
 description: "Microsoft InfoPath form templates are composed of several files and components that are combined to provide specific functionality for a particular end user scenario or business need. InfoPath forms can vary in complexity depending on the type of need that they address."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 75b37155-4850-4dce-9490-0a48a938d847
 description: "Returns the display name of the current user."
 ---

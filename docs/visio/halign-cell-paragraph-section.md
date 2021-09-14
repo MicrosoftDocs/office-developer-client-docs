@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm425
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8d6b622-60b3-e43f-b6a1-55db561204ed
 
 description: "Determines the horizontal alignment of text in the shape's text block."

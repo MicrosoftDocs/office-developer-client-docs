@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm60118
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0cdacd4e-74dc-32c3-2eb2-219bf7fcb532
 description: "The Formula Tracing window is designed to provide shape developers with information about cell interdependencies—both dependent cells (cells that have a dependency on a given cell), and precedent cells (cells that a given cell depends on)."
 ---

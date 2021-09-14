@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60042
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8927f811-7d8e-ed54-9eec-b86a781168dd
 
 ---

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aaea2c76-b373-419c-9782-240e32c5e1e0
 description: "This section includes reference content for the following APIs in the Outlook 2013 Auxiliary Reference."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027310
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5041d957-1bd9-4d76-cf43-7b4fcd1e7dec
 description: "Returns a specific number of characters from a text string, starting at the position you specify, based on the number of characters you specify."
 ---

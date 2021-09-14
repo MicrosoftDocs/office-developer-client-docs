@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30d8268e-0c64-401d-8799-e8e1ba78b88f
 description: "Returns an account identifier that is unique across Outlook profiles."
 ---

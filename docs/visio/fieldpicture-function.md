@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251592
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df88c55f-c098-dd4c-bf53-c7d7b60cf719
 description: "Returns a format-picture string that matches the Microsoft Visio internal text field format code."
 ---

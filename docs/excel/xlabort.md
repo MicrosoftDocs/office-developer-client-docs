@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xlabort function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

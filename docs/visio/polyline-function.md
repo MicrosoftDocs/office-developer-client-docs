@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251576
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 10baeec9-6c9b-b4ba-3138-7d1156a9e056
 description: "Returns a polyline. This function is used in the A cell of PolyLineTo geometry rows."
 ---

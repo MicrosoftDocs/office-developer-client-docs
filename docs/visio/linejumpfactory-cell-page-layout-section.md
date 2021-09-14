@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm550
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a14be0d-9e3c-23c4-7782-bda5470d1243
 description: "Determines the size of line jumps on vertical dynamic connectors on the page, relative to the value of the LineToLineY cell. The value of this cell can range from 0 to 10 but fractional values from 0 to 1 are suggested."
 ---

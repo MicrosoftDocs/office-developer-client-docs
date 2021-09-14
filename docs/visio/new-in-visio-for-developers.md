@@ -7,7 +7,7 @@ ms.date: 09/18/2015
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7e3fb858-0ab8-bd2e-217c-c85b10d79785
 description: "This document provides a top-level view of the enhancements and additions for developers in Visio 2013. For developers who are ready to get a jump start on the Visio platform, it provides you with sufficient detail to begin coding against Visio 2013."
 ---

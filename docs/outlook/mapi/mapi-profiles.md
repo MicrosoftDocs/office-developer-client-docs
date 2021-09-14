@@ -3,7 +3,7 @@ title: "MAPI Profiles"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 99b7d89e-b482-ef19-1683-667095f8114a
 description: "Specifies whether the user is prevented from deleting or editing background pages."
 ---

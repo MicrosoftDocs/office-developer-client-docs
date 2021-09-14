@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6a57e52-c7ed-4a52-940f-1cef9baa70a5
 description: "Determines the size of the bevel's depth in points."
 ---

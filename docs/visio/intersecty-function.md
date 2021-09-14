@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251445
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a298eead-044b-6f40-54c7-e0e6088baa19
 description: "Returns the y -coordinate (in the local coordinate system) of the point where two lines intersect."
 ---

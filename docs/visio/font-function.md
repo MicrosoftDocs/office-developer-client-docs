@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 20b587ee-87bf-4648-99ec-ddedd703d9fd
 description: "Returns the integer value of the unique identifier for a font, specified by name."
 ---

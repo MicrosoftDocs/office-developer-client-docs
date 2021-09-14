@@ -3,7 +3,7 @@ title: "Equals(Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70bc707a-3a61-4d75-816d-0defd0806319
 description: "Compares the equality of two expressions."
 ---

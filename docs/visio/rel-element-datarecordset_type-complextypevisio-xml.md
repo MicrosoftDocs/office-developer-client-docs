@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9148c73f-970d-61f8-b5da-e3bc748a6541
 description: "Specifies a relationship to a part with the associated recordset and data binding information."
 ---

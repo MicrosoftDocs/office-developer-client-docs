@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251423
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6788bc96-cc86-5f21-781f-67274e7f605a
 description: "Rounds a number toward 0 (zero), to the next integer, or to the next instance of multiple."
 ---

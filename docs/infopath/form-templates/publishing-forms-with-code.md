@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
 description: "Any site collection administrator can publish forms with code directly from the InfoPath Designer publishing wizard to a form library on SharePoint. The code is executed in a sandboxed environment so that malicious code cannot harm the server. This is referred to as publishing a sandboxed solution or publishing to the SharePoint sandbox infrastructure."
 ---

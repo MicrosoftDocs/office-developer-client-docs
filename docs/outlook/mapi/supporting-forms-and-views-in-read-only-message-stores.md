@@ -3,7 +3,7 @@ title: "Supporting Forms and Views in Read-Only Message Stores"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: da5f080d-4397-4ce6-8561-73dd13445e77

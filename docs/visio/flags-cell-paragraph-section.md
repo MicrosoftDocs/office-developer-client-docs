@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033782
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 898bf89d-d00f-9769-a89d-787ef708eca5
 description: "Indicates whether the text direction is left to right or right to left."
 ---

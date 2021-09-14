@@ -3,7 +3,7 @@ title: "Integrate with Office from Windows universal apps"
 manager: soliver
 ms.date: 02/06/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 60b4fa23-0075-4f6a-8bd0-9e53e99432d5
 description: "You can integrate your Windows universal app platform third-party apps with Excel Mobile, PowerPoint Mobile, and Word Mobile. Universal apps integrate with Office apps via Windows file picker contracts, expando properties, and Cached File Updater contracts."
 ---

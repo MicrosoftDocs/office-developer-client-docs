@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66c83041-ee83-41d5-b9dc-a4dc4c670f82
 description: "Removes the person identified by the userID parameter as a friend on the social network."
 ---

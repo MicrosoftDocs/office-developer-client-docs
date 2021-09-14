@@ -3,7 +3,7 @@ title: "Improving client performance"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 35d68d27-7e58-4484-be55-a64f467c75cd

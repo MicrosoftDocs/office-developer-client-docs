@@ -3,7 +3,7 @@ title: "Setting up an offline state add-in"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
 description: "Last modified: July 05, 2012"
 ---

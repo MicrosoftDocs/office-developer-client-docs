@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 276a661f-d14e-404a-a494-ae36601a8ce3
 description: "Determines whether a line gradient is enabled for a line or border of a shape."
 ---

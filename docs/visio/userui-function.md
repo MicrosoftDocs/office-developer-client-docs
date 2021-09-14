@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251511
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c01dd938-677c-b2ba-8f56-4638e7e988fd
 description: "Evaluates one of the two expressions depending on the value of state."
 ---

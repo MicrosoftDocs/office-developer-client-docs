@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - automation [infopath 2007], external,automating InfoPath 2007,InfoPath 2007, automating from other applications
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c82daa2d-59d2-44d0-9e82-40483df6dad0
 description: "This section discusses the Microsoft InfoPath primary interop and XML interop assemblies and how their types and members are used to automate InfoPath from external applications using managed code."
 ---

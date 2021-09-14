@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
 ms:contentKeyID: 48543347
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # ObjectStateEnum

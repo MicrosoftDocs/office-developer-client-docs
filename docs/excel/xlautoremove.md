@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xlautoremove function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

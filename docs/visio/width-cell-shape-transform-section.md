@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251194
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 992ae9d8-ea15-0f5c-ccd6-e4c536099692
 description: "Contains the width of the selected shape in drawing units. The default formula for determining the width of a 1-D shape is:"
 ---

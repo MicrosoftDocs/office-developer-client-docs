@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251414
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 514a4053-7729-ec82-c42f-5b780e48cd2a
 description: "Returns the date value represented by datetime or expression."
 ---

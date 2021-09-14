@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
 description: "Contains elements that specify document settings."
 ---

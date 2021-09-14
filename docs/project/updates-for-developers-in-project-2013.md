@@ -3,7 +3,7 @@ title: "Updates for developers in Project"
 manager: lindalu
 ms.date: 12/03/2019
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5b2b22cd-6e28-43a8-9092-b411da8bfb53
 description: "New features include a client-side object model (CSOM), REST interfaces, an OData service for reporting, remote event receivers, declarative workflows, and task pane add-ins for Project clients."
 ---

@@ -4,7 +4,7 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58a24f46-c61d-432a-a957-d831e960795d
 description: "Checks whether a condition is met, and returns one value if TRUE of another on if it is FALSE."
 ---

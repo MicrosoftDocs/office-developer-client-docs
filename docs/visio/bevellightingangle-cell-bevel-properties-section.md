@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 537f5100-a8cf-4e29-81a5-bb71a80a7178
 description: "Determines the angle of lightning in relation to the bevel in degrees."
 ---

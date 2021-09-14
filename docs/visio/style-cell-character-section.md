@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251249
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4372f1e1-f0a9-2f63-ff79-58f2afdceed5
 
 description: "Shows the character formatting applied to a range of text in the shape's text block."

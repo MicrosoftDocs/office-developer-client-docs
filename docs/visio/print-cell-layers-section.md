@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm825
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c76bf02-7269-65bb-2fd2-920243d962ef
 description: "Specifies whether shapes belonging to the layer can be printed."
 ---

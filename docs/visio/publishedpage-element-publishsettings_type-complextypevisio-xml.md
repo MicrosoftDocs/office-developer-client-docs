@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
 description: "Specifies whether a drawing page is viewable in the browser using Visio Services in Microsoft SharePoint Server 2013."
 ---

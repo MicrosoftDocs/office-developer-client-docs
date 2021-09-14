@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4690028e-20ac-297b-4651-801f5159c747
 description: "Before reading this topic, see Additional InfoPath Form Security Concepts for a general understanding of the InfoPath security model."
 ---

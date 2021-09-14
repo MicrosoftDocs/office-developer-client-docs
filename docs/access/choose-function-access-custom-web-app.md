@@ -3,7 +3,7 @@ title: "Choose function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: "Returns the item at the specified index from a list of values."
 ---

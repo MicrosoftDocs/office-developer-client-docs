@@ -18,7 +18,7 @@ f1_keywords:
 keywords:
 - project server interface,Project Server, error codes,VBA, Project object model,Project 2013, platform,Visual Basic for Applications, Project object model,Object model, Project VBA,Project Server, PSI reference,PSI
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79c78c44-1e08-4c9b-a7fe-a5089e666055
 description: "Find an overview of the Project Server Interface (PSI) reference, how to use the ASMX interface and the WCF interface of the PSI, information about Project Server error codes, and a reference for the ProjectData OData service."
 ---

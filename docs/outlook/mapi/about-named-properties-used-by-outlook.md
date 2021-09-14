@@ -3,7 +3,7 @@ title: "About Named Properties Used by Outlook"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c245ec2-bb18-ecf0-b4ad-8c164c5924cf
 description: "Last modified: June 25, 2012"
  

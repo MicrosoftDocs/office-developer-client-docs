@@ -7,7 +7,7 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 
 
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Create a sendable item for a specific account based on the current folder

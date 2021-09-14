@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251507
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53579e0e-fcec-e745-0207-3861b5efa333
 description: "Returns the time value represented by datetime or expression, based on the system's Region and Language settings."
 ---

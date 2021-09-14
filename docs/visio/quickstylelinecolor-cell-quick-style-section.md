@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dcfb792f-e02a-4059-acec-a178d221097c
 description: "Determines which theme color that a shape's line uses, as an integer from 0 to 7."
 ---

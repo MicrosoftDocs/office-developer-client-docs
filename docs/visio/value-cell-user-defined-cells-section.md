@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1100
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 495b2aec-e197-75eb-9974-e7c92d26546f
 
 description: "Specifies a value for the corresponding user-defined cell."

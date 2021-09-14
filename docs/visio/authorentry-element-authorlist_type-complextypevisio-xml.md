@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21ca601b-27f0-b30b-a99e-56359bdf594c
 description: "Specifies properties used to identify the author of a comment in a drawing."
 ---

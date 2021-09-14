@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251492
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 122c1d30-3cb9-7e7d-b4cc-e93ab8e4da4f
 description: "Executes an add-on or a macro in a Microsoft Visual Basic for Applications (VBA) project."
 ---

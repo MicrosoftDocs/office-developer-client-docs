@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2160
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 29f537e8-27da-9878-3e92-3b9edc9903de
 description: "Contains positioning information about a shape's text block."
 ---

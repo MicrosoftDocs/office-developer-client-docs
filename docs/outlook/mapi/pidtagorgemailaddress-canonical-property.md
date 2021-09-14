@@ -6,7 +6,7 @@ ms.date: 09/09/2021
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOrgEmailAddress
 api_type:

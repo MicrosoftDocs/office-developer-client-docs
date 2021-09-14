@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, handling errors,InfoPath 2003-compatible form templates, error handling,form templates [InfoPath 2007], error handling,error handling [InfoPath 2007], InfoPath 2003-compatible form templates
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eeb05205-d6f4-4931-b9a9-55a663bb1a25
 description: "When creating custom applications, developers must often perform error handling that involves writing programming code to check for errors raised by the application or to create and raise custom errors. The InfoPath 2003-compatible object model supports error handling through the use of the ErrorObject object in association with the ErrorsCollection collection."
 ---

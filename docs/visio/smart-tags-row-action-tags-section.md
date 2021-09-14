@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1026926
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 065c6977-c737-a4f4-effa-0fd2c98e8bbf
 description: "Contains the information for a single action tag associated with a shape or page. A shape or page contains one Smart Tags row for each action tag."
 ---

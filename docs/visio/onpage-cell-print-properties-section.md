@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033793
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: "Indicates whether the drawing is printed on a specific number of printer pages."
 ---

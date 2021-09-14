@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251475
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8df34463-0238-0b0d-9f99-ea912a644f56
 description: "Opens the shape's text block so that the text can be edited."
 ---

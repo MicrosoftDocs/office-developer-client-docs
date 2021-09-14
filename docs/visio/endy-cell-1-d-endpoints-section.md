@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm340
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3fbfa4bc-7792-b6d9-d549-4602d252c293
 description: "Represents the y -coordinate of the endpoint of the 1-D shape, in relation to the origin of its parent."
 ---

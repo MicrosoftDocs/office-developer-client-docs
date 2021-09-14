@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 61342884-7a86-47c0-82a6-06de8076b7d0
 description: "Returns the email address of the current user."
 ---

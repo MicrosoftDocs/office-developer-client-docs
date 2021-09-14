@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0ebde552-f1e6-43d0-8704-4e29eb2b1c9d
 description: "Determines the size of the bevel's contour in points."
 ---

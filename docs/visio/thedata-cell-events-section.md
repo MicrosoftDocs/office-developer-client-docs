@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1000
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1bfb61f7-1f27-a000-20f3-80da6a32a2fb
 description: "Reserved for future use."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1025
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfa3ecc6-61a8-506c-ba1d-b5e1f757d44f
 description: "Determines the height of the text block. The default formula is:"
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027317
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1bd7819-b53b-bff1-69c1-6d78e8fb278b
 description: "Stores a value that is set through an action in the user interface (UI) or Automation."
 ---

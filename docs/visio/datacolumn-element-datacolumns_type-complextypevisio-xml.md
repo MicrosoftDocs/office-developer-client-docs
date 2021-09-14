@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: "Defines how a data column appears in the External Data window in the Visio user interface and qualifies the data in the column by defining its data type and formatting."
 ---

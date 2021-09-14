@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251583
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2453014-7d45-f4c9-0384-def705c5c4d4
 description: "Returns the text from the Manager field of a document's properties."
 ---

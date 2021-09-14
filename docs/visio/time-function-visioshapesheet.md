@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251506
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e662230-0760-5f43-52dc-927f499715f6
 description: "Returns the time represented by hour, minute, and second."
 ---

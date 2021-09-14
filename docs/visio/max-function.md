@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251462
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a17369b1-f366-3010-9e60-ae5cc101ecc8
 description: "Returns the largest number from a list. Largest means closest to positive infinity."
 ---

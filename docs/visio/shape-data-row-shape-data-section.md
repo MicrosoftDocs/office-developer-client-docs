@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251344
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f3a83496-fccc-9d6a-02b9-60ebaf4911ea
 description: "Contains the information for a single shape data item associated with a shape. A shape contains one Shape Data row for each shape data item.Shape Data rows are named Prop.name and contain the following cells. For more details, see the specific cell topics."
 ---

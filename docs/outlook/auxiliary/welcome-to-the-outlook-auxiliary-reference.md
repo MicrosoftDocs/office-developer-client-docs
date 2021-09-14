@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 09/10/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e48a625-b3f7-9fd0-253e-fe12a1aca446
 description: "The Outlook Auxiliary Reference contains conceptual content and reference documentation for four sets of APIs, code samples, and a redistributable installer that allow developers to extend and integrate with Outlook. APIs in this reference are exposed by Outlook for extensibility, outside of the Outlook object model."
 ---

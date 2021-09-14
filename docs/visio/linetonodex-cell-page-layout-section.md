@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm575
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9d58e23e-b411-c5c1-b785-5014488d42c8
 description: "Determines the horizontal clearance between all connectors and shapes on the drawing page."
 ---

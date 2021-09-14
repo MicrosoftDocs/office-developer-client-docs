@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d72331d9-a8f3-4fcb-ba26-c93210b74935
 description: "You can use the GoToRecord action to make the specified record the current record in a view."
 ---

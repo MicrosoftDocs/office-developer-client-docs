@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3060
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c48b9b3-5c62-7d5a-1c8f-fe96606f4dea
 description: "Contains the value and descriptive prompt for any user-defined cells in your solution. A shape contains one User-defined Cells row for each user-defined Value/Prompt cell pair."
 ---

@@ -4,7 +4,7 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 57965c84-7a52-4d7c-9c7f-be3d4570576d
 description: "The SetReturnVar action creates a return variable and sets it to a specific value."
 ---

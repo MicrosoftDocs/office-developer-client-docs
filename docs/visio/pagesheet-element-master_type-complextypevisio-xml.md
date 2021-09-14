@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 824fbeb0-1a2f-35a0-50e3-c57143dc21ab
 description: "Specifies the properties of the drawing page associated with the master."
 ---

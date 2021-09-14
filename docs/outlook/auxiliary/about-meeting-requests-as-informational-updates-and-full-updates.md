@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 084928ca-efc0-36da-fe4f-5cc45f226178
 description: "A meeting request is an email that has IPM.Schedule.Meeting.Request as the message class. By default, an attendee receiving a meeting request responds to it directly."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a2490f2-48c4-5df3-a3b3-40e8e0c80479
 description: "Returns the measurement of the specified part of the shape's bounding box."
 ---

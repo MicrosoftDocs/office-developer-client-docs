@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3e29af0d-4183-41d1-8b0f-96450089f882
 description: "Determines the type of bevel on a shape's top edge."
 ---

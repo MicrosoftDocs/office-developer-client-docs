@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251484
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6bf2db7-c570-918d-e83e-7a6c8eb64544
 description: "Converts the value of an angle from degrees to radians."
 ---

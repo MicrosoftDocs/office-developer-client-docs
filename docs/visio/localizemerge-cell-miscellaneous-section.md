@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033773
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 734d4415-05dd-4c4d-763e-e035fa56dcec
 description: "Determines whether shapes are localized when copied between documents."
 ---

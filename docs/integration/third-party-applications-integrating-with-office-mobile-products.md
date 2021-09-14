@@ -3,7 +3,7 @@ title: "Third-party applications integrating with Office Mobile products on Wind
 manager: soliver
 ms.date: 06/04/2015
 ms.audience: ITPro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ae2fc01-73a6-4d0c-a056-fe65d7fd7159
 description: "Effective Date: June 1, 2015"
 ---

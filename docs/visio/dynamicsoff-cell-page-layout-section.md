@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251641
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 055764aa-9681-ffb0-83ce-fdd612fe37af
 description: "Determines whether placeable shapes move and connectors reroute around other shapes and connectors on the drawing page."
 ---

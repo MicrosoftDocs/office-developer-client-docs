@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251227
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
 description: "Locks a group so that it cannot be ungrouped."
 ---

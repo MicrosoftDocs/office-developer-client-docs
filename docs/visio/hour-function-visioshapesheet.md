@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251437
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
 description: "Returns an integer, 0 to 23, representing the hour of the day of datetime or expression."
 ---

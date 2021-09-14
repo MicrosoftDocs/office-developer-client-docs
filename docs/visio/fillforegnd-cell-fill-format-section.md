@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251241
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7548a480-4dce-45e0-281b-f6f8bdf05c0b
 description: "Determines the color used for the foreground (stroke) of the shape's fill pattern."
 ---

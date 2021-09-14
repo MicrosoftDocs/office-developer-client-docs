@@ -3,7 +3,7 @@ title: "Count function (Access custom web app)"
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d931535b-428f-4300-93bf-cfe0ebcc2ac9
 description: "Returns the number of records in a query or table."
 ---

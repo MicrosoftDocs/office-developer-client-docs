@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1951643d-e3ca-4d04-bc0c-10d9d0b35dad
 description: "The tables in this topic describe child elements of the capabilities XML and are grouped by the areas they support."
 ---

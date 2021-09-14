@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm730
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e1c8c8f-4ed0-0f53-f93f-3a264edc02bd
 description: "Switches the display of selection handles on and off for the selected shape."
 ---

@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - tempint12 function [excel 2007],TempInt function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86d690b8-caca-450d-93f7-69ca4cd1a6e0
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

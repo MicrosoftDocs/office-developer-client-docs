@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5633d70c-ca3e-4b9d-8e85-ef98f85f1961
 description: "Represents the port number for a general Internet mailbox."
 ---

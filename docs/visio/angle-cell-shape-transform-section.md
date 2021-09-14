@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251196
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d05a001c-9001-90d9-5028-f38b90acc53e
 description: "Represents the shape's current angle of rotation in relation to its parent. The default formula for determining the rotation angle of a 1-D shape is: =ATAN2(EndY-BeginY,EndX-BeginX)."
 ---

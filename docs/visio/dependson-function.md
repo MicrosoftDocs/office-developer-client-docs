@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251420
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8fcfcfdd-69e2-b061-fdb6-d29389d14403
 description: "Creates a cell reference dependency."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm860
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c44457ca-997a-5315-44dd-4218e4203550
 description: "Indicates the radius of the rounding arc applied where two contiguous segments of a path meet. For example, rounding can be used to give a rectangle rounded corners. To set rounding, enter a value with units of measure (a number-unit pair)."
 ---

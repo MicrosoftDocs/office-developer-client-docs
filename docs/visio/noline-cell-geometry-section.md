@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm715
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f9624af2-c087-3dde-9140-339c438b3652
 
 description: "Determines whether a line is drawn around the boundary of the path."

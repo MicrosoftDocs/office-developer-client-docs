@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b05497e6-722f-9203-e03c-0f14a712cddb
 description: "Specifies the logical expression that determines whether the validation rule should be applied to a target object."
 ---

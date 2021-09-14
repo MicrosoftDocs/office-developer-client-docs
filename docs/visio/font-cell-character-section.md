@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm390
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 935760a9-307e-90bc-c301-d04283d97427
 
 description: "Represents the number of the font used to format the text. Font numbers vary according to the fonts installed on your system. The number 0 represents the default font, which is typically Arial."

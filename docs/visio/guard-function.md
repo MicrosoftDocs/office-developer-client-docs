@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251435
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
 description: "Protects expression from deletion and change by actions performed in the drawing window, for example, moving, sizing, grouping, or ungrouping shapes."
 ---

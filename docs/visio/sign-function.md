@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251497
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fdc032c2-d0bd-1592-de3f-33c478d066ee
 description: "Returns a value that represents the sign of a number."
 ---

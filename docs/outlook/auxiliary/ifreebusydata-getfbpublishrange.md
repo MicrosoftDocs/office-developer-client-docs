@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 09/23/2016
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
 description: "Gets a preset time range for an enumeration of free/busy blocks of data for a user."
 ---

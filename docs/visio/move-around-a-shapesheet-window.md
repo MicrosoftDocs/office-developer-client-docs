@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251812
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f750223f-165c-8c2f-457b-724817b062b3
 description: "To move from cell to cell in a ShapeSheet window, use the arrow and TAB keys. Click a cell to activate it or scroll through the ShapeSheet cells without changing the active cell."
 ---

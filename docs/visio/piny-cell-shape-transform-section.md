@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm795
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 98b86b9d-9cc0-1169-1c44-ef1505bf92fa
 description: "Represents the y -coordinate of the shape's pin (center of rotation) in relation to the origin of its parent."
 ---

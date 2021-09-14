@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal649b5400-8dc5-cc5c-3455-f462e2d31689
+ms.localizationpriority: medium649b5400-8dc5-cc5c-3455-f462e2d31689
 ms.assetid: 
 description: "Identifies a user who may or may not have free/busy data available."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm335
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24261b77-e3e8-7434-a503-9f23798bdab1
 description: "Represents the x -coordinate of the endpoint of the 1-D shape, in relation to the origin of its parent."
 ---

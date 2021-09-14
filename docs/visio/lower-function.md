@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251459
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1d198ea6-49e0-e462-b2cf-b65fbb920b55
 description: "Returns a string converted to lowercase."
 ---

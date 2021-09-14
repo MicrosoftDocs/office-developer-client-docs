@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027335
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 53362a32-ac27-42a3-ace1-c6184ab20b52
 description: "Repeats text a given number of times."
 ---

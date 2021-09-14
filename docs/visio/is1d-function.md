@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 72c7c99e-4d29-4b53-dc7b-a3220317d20a
 description: "Returns TRUE if the shape is 1-D (one-dimensional); returns FALSE if the shape is 2-D (two-dimensional)."
 ---

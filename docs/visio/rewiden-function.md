@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1033808
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c20842cd-86b1-83fa-49ba-118936013b6f
 description: "Converts a formula that produces 16-bit character codes that are widened single-byte or multibyte character-set codes into a string of 16-bit Unicode character codes, using the specified character sets."
 ---

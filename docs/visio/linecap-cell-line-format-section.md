@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251231
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3519216b-b6cf-2e8c-e20f-adfa373c9028
 description: "Indicates whether a line has rounded, square, or extended line caps."
 ---

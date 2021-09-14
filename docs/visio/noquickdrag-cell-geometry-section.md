@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm80004
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8491f459-9de2-8e75-5532-7d3bd0986734
 description: "Determines whether a shape can be selected or dragged when the user clicks the filled area defined by the Geometry section."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm260
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c18955c8-d653-c29d-d3da-9d3cd0241e17
 
 description: "Determines whether the range of text has a double underline below it."

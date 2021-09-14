@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e7147ea-0eb0-324a-80d8-4f0eef654c32
 description: "Sets the range of time for an enumeration of free/busy blocks of data for a user."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 56f1e938-b445-4e1f-952d-9e4627d5dc27
 description: "Determines whether a specified value matches any value in a list."
 ---

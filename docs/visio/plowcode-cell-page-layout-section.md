@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251660
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e43f3d29-7def-d36e-ac64-62f0a389d415
 description: "Determines whether placeable shapes move away when you drop a placeable shape near another placeable shape on the drawing page."
 ---

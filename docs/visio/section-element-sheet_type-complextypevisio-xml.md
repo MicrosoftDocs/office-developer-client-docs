@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: "Specifies a collection of related properties."
 ---

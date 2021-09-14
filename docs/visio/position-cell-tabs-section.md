@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251755
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 40d7e38e-b3b0-8616-ed27-1f963a841e03
 
 description: "Specifies the position of a tab stop. The tab position is independent of the scale of the drawing. If the drawing is scaled, the tab position remains the same."

@@ -7,7 +7,7 @@ ms.date: 06/18/2015
 ms.audience: Developer
  
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
 description: "Office for Android provides an extensible solution that enables integration with third-party applications. You can integrate with Office from your Android application by passing users from your application to Office."
 ---

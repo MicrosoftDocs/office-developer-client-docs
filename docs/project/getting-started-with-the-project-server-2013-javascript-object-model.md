@@ -3,7 +3,7 @@ title: "Getting started with the Project Server 2013 JavaScript object model"
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 30dc3194-7480-4e7c-b731-4a171d652ee0
 description: "In Project Server 2013, the JavaScript object model can be used in Project Online, mobile, and on-premise development. This topic provides a brief overview of the JavaScript object model and then describes how to create an application page that retrieves and iterates through projects by using the JavaScript object model."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251313
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b88588a2-c651-7eab-9c7a-ed78f20d1ba3
 description: "An event cell that is evaluated when a shape's position or orientation on the page is transformed (XF)."
 ---

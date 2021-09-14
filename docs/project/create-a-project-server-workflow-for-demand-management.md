@@ -3,7 +3,7 @@ title: "Create a Project Server workflow for demand management"
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0e4a3b3-d1df-454d-b74c-b980b0b456f6
 description: "This article describes how to create a simple workflow by using SharePoint Designer 2013."
 ---

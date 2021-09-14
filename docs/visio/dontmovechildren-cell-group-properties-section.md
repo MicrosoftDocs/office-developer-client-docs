@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm255
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff5bbf05-4851-30ce-7ee1-f0ce7b2781ab
 description: "Determines whether you can drag shapes in a group using the mouse."
 ---

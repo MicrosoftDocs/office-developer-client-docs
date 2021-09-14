@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f631b7e-6e3c-46dc-a05f-6a07f9a91268
 description: "Returns a time value based on specified parts."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4eae2c4e-ac49-47d5-8b55-71da06ccbf49
 description: "Determines the width of the top bevel in points."
 ---

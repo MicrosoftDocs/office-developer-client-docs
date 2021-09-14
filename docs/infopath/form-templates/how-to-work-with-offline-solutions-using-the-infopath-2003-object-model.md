@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
 - solutions [infopath 2007], offline,offline solutions [InfoPath 2007], InfoPath 2003-compatible form templates,InfoPath 2003-compatible form templates, offline solutions
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 634ccd8c-0b5f-4161-875c-0e546a517377
 description: "The InfoPath 2003-compatible object model provides the MachineOnlineState property of the Application object which enables your form code to check whether the user's computer is connected to the network. Your form code can perform different actions depending on the state of the connection."
 ---

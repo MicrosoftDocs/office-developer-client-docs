@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a0201e6-9a93-83ae-8a0a-47630ed291ce
 description: "Includes a RuleSet element for each validation rule set in the document."
 ---

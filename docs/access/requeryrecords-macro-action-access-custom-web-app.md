@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1dab102f-24af-4984-8020-a9fb06355639
 description: "You can use the RequeryRecords action to refresh, sort, and filter the data in the active view by requerying the source of the view."
 ---

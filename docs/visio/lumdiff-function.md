@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a79f124-20a2-e119-4c58-25da99ecc555
 description: "Returns the difference in luminosity between color1 and color2 ."
 ---

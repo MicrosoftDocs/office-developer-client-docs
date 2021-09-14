@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251498
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5a6ddb97-39b8-4e24-9b89-7a1e3bb261d5
 description: "Returns the sine of an angle."
 ---

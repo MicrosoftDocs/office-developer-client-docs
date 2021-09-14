@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
 description: "Specifies whether a recordset is refreshable using Visio Services in Microsoft SharePoint Server 2013."
 ---

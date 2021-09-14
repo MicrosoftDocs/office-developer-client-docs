@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm155
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50937e29-eaa1-0cd0-53cc-dc17e7793e55
 
 description: "Indicates whether an item is checked on the shortcut or action tag menu."

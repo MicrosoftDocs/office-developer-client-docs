@@ -12,7 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # PROCEDURE clause (Microsoft Access SQL)

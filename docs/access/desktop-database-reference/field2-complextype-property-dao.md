@@ -10,7 +10,7 @@ f1_keywords:
 - dao360.chm1101189
 f1_categories:
 - Office.Version=v15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Field2.ComplexType property (DAO)

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c18d3a84-2088-13f7-7b14-1f4c129537b4
 description: "Specifies rule-set properties."
 ---

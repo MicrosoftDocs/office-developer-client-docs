@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0baef353-41a1-4071-b5b4-ae342086fe34
 description: "Determines whether a sketch effect is displayed on the shape or not, as a Boolean."
 ---

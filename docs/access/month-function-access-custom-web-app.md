@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5df43594-a434-4fb7-8109-e5cf0401ae09
 description: "Returns an integer that represents the month of the specified date."
 ---

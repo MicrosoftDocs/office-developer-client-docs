@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253240
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: "Determines the transparency level for the background color of the shape's text block."
 ---

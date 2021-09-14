@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7f9ffa21-25bc-4d9a-9f9a-58c972f3bfd7
 description: "Creates a new, blank record in the current view."
 ---

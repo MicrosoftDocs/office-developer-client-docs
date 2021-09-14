@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm640
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48ceeeed-66ae-a81f-2aee-f0010102dfb7
 description: "Locks the horizontal position of the shape so it cannot be moved horizontally."
 ---

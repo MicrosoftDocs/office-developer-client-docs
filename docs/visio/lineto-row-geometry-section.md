@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm3025
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6b385a9a-9294-1703-9d6f-628a11498669
 description: "Contains x -and y -coordinates of the ending vertex of a straight line segment."
 ---

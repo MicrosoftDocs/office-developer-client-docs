@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1135
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
 
 description: "Represents an x -coordinate on a shape in local coordinates. This table describes the X cell based on the row in which it's located."

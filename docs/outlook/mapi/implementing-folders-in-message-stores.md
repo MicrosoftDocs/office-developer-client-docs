@@ -3,7 +3,7 @@ title: "Implementing Folders in Message Stores"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f643800e-0ae5-41a3-93da-3fa39dea1633

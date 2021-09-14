@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm840
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d0f91e7d-2373-cfef-e105-fb17e77c7f2d
 
 description: "Specifies a descriptive prompt or comment for the user-defined cell. The application automatically encloses the prompt text in quotation marks () to indicate that it is a text string. If you type an equal sign (=) and omit the quotation marks, you can enter a formula in this cell that the application evaluates."

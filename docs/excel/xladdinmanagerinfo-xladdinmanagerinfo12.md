@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - xladdinmanagerinfo function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

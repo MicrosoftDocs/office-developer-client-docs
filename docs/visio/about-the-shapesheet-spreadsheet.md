@@ -9,7 +9,7 @@ ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251822
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f403890d-4a3a-bacc-53d7-1b9920b23639
 description: "Everything in Microsoft Visio, every document, page, style, shape, group, shape or object within a group, master, object from another program, guide, and guide point, has a ShapeSheet spreadsheet where information about that object is stored. This spreadsheet contains information such as height, width, angle, color, and other attributes that determine the shape's appearance and behavior."
 ---

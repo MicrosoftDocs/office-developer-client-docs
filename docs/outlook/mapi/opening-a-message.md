@@ -3,7 +3,7 @@ title: "Opening a message"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 142c4975-08df-4501-9996-557aa44eafb3

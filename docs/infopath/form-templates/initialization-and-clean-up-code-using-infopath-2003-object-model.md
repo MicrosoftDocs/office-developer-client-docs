@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates, clean-up code,InfoPath 2003-compatible form templates, initialization code
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d19e8fa-4e5c-40bb-ae89-7a552cc7914d
 description: "By default, the FormCode.cs or FormCode.vb file that is created for a form template project that is compatible with InfoPath 2003 contains all the source code for the programming logic of the form. The template for the project generates a class in the FormCode.cs or FormCode.vb file much like the classes in the following examples where you can define initialization and clean-up code, as well as handlers for form events. The FormCode.cs and FormCode.vb files apply an assembly-level System.ComponentModel.DescriptionAttribute attribute, which identifies the class as the only class where event handlers are implemented. The InfoPathNamespace attribute (which is implemented by the InfoPathNamespaceAttribute type) is applied to a class to identify the XML DOM selection namespaces used within the class. The namespaces referenced in the InfoPathNamespace are maintained by the InfoPath project system."
 ---

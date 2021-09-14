@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2110
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c980903-4d41-a85f-7caa-52bd90b11f76
 description: "Shows the paragraph formatting attributes for the shape's text, such as indents, line spacing, bullets, and horizontal alignment of paragraphs."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 047f42cf-4202-50bd-40b4-a71052e2dfb3
 description: "Specifies the margin of a document's footer."
 ---

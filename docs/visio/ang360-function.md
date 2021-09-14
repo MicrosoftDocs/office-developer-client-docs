@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251392
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 23e6899d-0a94-a7d8-8de2-091e0531f163
 description: "Normalizes an angle's range."
 ---

@@ -4,7 +4,7 @@ title: "PowerPoint"
 manager: kelbow
 ms.date: 12/13/2017
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c76c7851-d68f-4f56-8111-e05c764f0ef8
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing PowerPoint."
 ---

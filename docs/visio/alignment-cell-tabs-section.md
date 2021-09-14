@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm35
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84234177-a2df-6acc-2761-230bc5d12627
 description: "Specifies the tab alignment."
 ---

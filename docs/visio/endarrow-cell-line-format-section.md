@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm320
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f9c11ba-a316-bc34-60d4-0a41b2af486f
 description: "Indicates whether a line has an arrowhead or other line end format at its last vertex."
 ---

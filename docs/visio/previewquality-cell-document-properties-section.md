@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm815
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7d90666-a1bb-f0de-32da-b2855977f648
 description: "Determines whether the drawing preview is draft quality or detailed."
 ---

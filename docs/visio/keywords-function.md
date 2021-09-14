@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251587
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a157c27e-afae-7c67-e96d-4ace7b7a82be
 description: "Returns the text from the Keywords field of a document's properties."
 ---

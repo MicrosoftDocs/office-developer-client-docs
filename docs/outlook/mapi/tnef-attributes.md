@@ -3,7 +3,7 @@ title: "TNEF Attributes"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 88f93c7c-5e8e-44bf-9274-4cf1ee8838ec

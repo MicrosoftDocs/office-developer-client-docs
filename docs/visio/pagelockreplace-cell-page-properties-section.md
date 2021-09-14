@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59c36555-42af-4729-aea7-0332d1da6e3b
 description: "Indicates whether the Replace Shape button should be disabled for this page."
 ---

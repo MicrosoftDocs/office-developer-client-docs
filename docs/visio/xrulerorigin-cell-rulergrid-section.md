@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1170
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 328f8ab5-217f-0336-0d56-611eff509fe8
 description: "Specifies the zero point on the x-axis ruler for the page."
 ---

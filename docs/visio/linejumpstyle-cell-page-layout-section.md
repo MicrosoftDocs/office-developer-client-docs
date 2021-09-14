@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251646
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 89f16674-ee1f-f5f9-9830-7bcc52e3a068
 description: "Determines the line jump style for all connectors on the drawing page that don't have a local line jump style."
 ---

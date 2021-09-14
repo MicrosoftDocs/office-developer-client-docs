@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm3050
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fbae27d-4f1b-c5f7-aacb-16f359331e83
 description: "Contains x - and y -coordinates for a spline's control point and a spline's knot."
 ---

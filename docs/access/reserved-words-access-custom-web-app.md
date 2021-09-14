@@ -4,7 +4,7 @@ manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: overview 
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
 description: "Microsoft Access uses reserved keywords for defining, manipulating, and accessing databases. Reserved keywords are part of the grammar of the language that is used by Access to parse and understand SQL statements."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251477
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
 description: "Returns the x,y coordinates of a point in the coordinate system of the shape's parent."
 ---

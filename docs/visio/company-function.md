@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82253221
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8bca3efa-1f0d-6f60-537c-c9f976737dcf
 description: "Returns the text from the Company field of a document's properties."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm5
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 435e49ee-0b51-8ce3-0589-3f0717026f4a
 description: "Contains the formula to be executed when a user chooses a command on a shortcut or action tag menu."
 ---

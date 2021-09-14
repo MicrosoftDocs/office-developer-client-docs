@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2080
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7fb1d8a1-8892-f489-2f58-0008b5b750f5
 description: "Contains one row that lists each layer to which the shape is assigned."
 ---

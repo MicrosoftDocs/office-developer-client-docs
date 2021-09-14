@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60099
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: "Constrains the value of a cell to a range or set of ranges."
 ---

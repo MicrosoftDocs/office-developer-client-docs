@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - versionupgrade event [infopath 2007],handling events [InfoPath 2007],Changing event [InfoPath 2007],InfoPath 2007, adding event handlers,Changed event [InfoPath 2007],ContextChanged event [InfoPath 2007],Click event [InfoPath 2007],events [InfoPath 2007], adding event handlers,Sign event [InfoPath 2007],ViewSwitched event [InfoPath 2007],event handling [InfoPath 2007],Merge event [InfoPath 2007],Validating event [InfoPath 2007],Submit event [InfoPath 2007],Save event [InfoPath 2007],Loading event [InfoPath 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
 description: "This topic describes the procedures for adding event handlers to an Microsoft InfoPath managed code form template using Visual Studio 2012. To add an event handler to a form template, you start with the form template open in the InfoPath Designer, and then select the appropriate user interface command for the event you want to write code for. After you select the command for an event in the InfoPath Designer, the focus automatically switches to the skeleton event handler for that event in the Visual Studio 2012 code editor."
 ---

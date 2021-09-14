@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm60076
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a426f471-d35f-ef87-4c59-2c007ec2653f
 description: "Determines the distance in page units that a shape's shadow is offset horizontally from the shape."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251887
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6949c717-dc69-1d17-5215-eb6efce56fcb
 description: "Determines which dynamic connectors the application spaces apart if they route on top of each other."
 ---

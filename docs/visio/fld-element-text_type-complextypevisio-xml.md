@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 92d90240-012b-9598-c893-6e7085813aa5
 description: "Indicates a text-field insertion point for the corresponding Field element."
 ---

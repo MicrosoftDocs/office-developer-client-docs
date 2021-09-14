@@ -11,7 +11,7 @@ f1_keywords:
 keywords:
 - funcsum function [excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 934192ef-8a89-4dbb-bd37-01e92ba24256
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

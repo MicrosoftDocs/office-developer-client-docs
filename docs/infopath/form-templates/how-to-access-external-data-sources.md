@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - data connection classes [infopath 2007],secondary data sources [InfoPath 2007],data [InfoPath 2007], secondary,DataSource class [InfoPath 2007],accessing external data sources [InfoPath 2007],DataSourceCollection class [InfoPath 2007],DataConnectionCollection class [InfoPath 2007],DataConnection class [InfoPath 2007],InfoPath 2007, accessing external data,data [InfoPath 2007], external sources
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db7c2521-a1ad-4802-b398-79575d3d310a
 description: "When working with an InfoPath form template, you can write code to access the form's secondary data sources and manipulate the data that they contain."
 ---

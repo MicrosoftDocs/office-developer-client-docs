@@ -3,7 +3,7 @@ title: "Display Table Implementation"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eb17675a-35e0-4545-b394-789d343510aa

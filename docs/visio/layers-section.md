@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2085
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 89bcde81-4530-bd00-6e2e-fab7deec175b
 description: "Shows all layers defined for the page and the properties set for each layer."
 ---

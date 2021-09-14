@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251272
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b8482cd8-5205-40ef-b4e1-4ceb197ac80f
 description: "Determines the text block's current angle of rotation in relation to the x -axis of the shape. The default is 0 degrees."
 ---

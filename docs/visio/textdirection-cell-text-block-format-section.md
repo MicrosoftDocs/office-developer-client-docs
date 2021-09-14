@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm995
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
 description: "Determines the direction of the characters in a text block."
 ---

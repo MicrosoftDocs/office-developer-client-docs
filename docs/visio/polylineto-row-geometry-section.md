@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251757
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b78a993f-4165-438d-39cf-9461b2877f17
 description: "Contains x - and y -coordinates of the last point of a polyline and a polyline formula."
 ---

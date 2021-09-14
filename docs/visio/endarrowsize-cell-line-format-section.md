@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251630
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2ecf7c0-a0e9-951f-676a-8e5857bb6544
 description: "Determines the size of the arrowhead at the end of the line."
 ---

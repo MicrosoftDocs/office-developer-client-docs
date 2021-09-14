@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1ed48838-7409-4329-a778-8cabae058200
 description: "Welcome to the InfoPath 2013 developer reference for external automation. This documentation provides overviews, programming tasks, and class library reference information to help you create managed code solutions that automate InfoPath from external applications or add-ins."
 ---

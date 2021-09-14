@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: da26de4b-3e5b-326b-de46-e8c542b74f02
 description: "Contains a collection of StyleSheet elements for the document."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e3b58a19-9f1a-4f2b-9fe2-45cbb7ec6898
 description: "Determines whether to override the formulas and values of text, line, and fill color (or a combination of those properties) by using colors that contrast with the diagram background. Value is a bitwise OR of 0, 1, 2, 4, and 8."
 ---

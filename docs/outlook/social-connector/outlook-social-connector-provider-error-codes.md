@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0799243e-ba92-44c4-b687-182e50b57cb7
 description: "Providers should return errors to the caller by using one of the error codes shown in the following table."
 ---

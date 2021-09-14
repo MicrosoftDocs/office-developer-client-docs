@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d2607bdd-6694-4b37-983e-020e175d230a
 description: "Returns a character expression after converting uppercase character data to lowercase."
 ---

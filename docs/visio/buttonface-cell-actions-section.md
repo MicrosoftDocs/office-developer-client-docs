@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60025
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
 
 description: "Identifies the icon that appears next to an item on a shortcut or action tag menu."

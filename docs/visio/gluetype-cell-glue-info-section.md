@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm420
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fffbefd6-8b0b-0023-6b03-026d1c6e885e
 description: "Determines whether a 1-D shape uses static (point-to-point) or dynamic (shape-to-shape) glue when it is glued to another shape."
 ---

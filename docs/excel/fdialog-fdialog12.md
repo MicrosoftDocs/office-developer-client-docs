@@ -12,7 +12,7 @@ f1_keywords:
 keywords:
 - fdialog function [excel 2007],fDialog12 function [Excel 2007]
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---

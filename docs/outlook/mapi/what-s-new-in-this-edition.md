@@ -3,7 +3,7 @@ title: "What's New in This Edition"
 manager: soliver
 ms.date: 2/09/2020
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a24cad75-1237-469f-b7f3-cbbb88f80d44

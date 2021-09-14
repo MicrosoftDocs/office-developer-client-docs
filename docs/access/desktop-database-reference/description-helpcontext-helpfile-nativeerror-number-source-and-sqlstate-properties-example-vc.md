@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
 ms:contentKeyID: 48543369
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Normal
+ms.localizationpriority: medium
 ---
 
 # Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)

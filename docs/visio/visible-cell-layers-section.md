@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm1110
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 02048012-a814-410b-f26e-56fcfbe106e6
 description: "Specifies whether shapes belonging to the layer are visible on the drawing page."
 ---

@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f6010ac5-6c08-4c1b-a811-ff81b30ed5f0
 description: "You can use the RunDataMacro action to run a standalone data macro."
 ---

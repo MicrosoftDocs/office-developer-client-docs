@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
 description: "Contains the DataConnection elements for the document."
 ---

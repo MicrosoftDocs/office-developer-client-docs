@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm645
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ed8cab4-112a-e96a-f4e3-02490a6f87fa
 description: "Locks the vertical position of the shape so it cannot be moved vertically."
 ---

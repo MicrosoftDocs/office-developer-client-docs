@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
 description: "Specifies a reference to a page in the drawing."
 ---

@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - vis_sdr.chm170
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f52ed60-d58b-86e6-f7e2-2ef19d4afa75
 description: "Contains the comment text in string format for a shape."
 ---

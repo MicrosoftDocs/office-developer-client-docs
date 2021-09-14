@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - digital signatures [infopath 2007],InfoPath 2007, digital signatures
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd13fb71-aecf-47bb-8a6b-db70bd90ceeb
 description: "The object model of the Microsoft.Office.InfoPath namespace provides features for working with digital signatures programmatically."
 ---

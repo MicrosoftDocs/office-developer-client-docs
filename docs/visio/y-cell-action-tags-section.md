@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1026934
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b213fc46-7f80-99fd-60ba-8ddf3d0f6ee3
 
 description: "The y -coordinate position in the shape's local coordinates around which the action tag button is placed."

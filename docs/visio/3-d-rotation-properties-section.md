@@ -7,7 +7,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f2520c0-d2e2-470a-90b5-c4bca789bb73
 description: "Shows the current values of a shape's angle of rotation along the x-, y-, and z-axes."
 ---

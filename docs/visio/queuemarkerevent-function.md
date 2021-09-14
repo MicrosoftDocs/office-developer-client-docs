@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60107
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b4671715-4209-7774-c174-c19dc9721a02
 description: "Causes the application to fire a marker event to your add-on, Microsoft Visual Basic for Applications (VBA) code, or COM add-in."
 ---

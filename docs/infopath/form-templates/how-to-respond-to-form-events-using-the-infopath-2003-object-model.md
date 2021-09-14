@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - form templates [infopath 2007], responding to events,InfoPath 2003-compatible form templates, responding to form events
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: "You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you create event handlers in the InfoPath designer."
 ---

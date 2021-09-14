@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11833823-35fa-4bed-8dda-e5c74c320d46
 description: "This section describes the data types that Outlook exports."
 ---

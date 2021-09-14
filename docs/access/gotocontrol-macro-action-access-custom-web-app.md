@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6c286821-67d6-4d96-973a-bca7934c7672
 description: "You can use the GoToControl action to move the focus to the specified control in the current record of the open view."
 ---

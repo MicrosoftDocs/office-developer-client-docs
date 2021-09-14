@@ -3,7 +3,7 @@ title: "Copying a Profile"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b722a157-0d92-404d-9075-39547241dbb7

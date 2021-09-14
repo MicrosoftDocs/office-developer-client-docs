@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6aada005-3403-4666-9779-7ccb5b83b74a
 description: "Determines whether a fill gradient rotates with a shape in 2D rotation, as a boolean."
 ---

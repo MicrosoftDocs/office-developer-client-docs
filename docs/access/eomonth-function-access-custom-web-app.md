@@ -7,7 +7,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
  
   
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: df98bcca-152b-49f2-b4e1-35d68008fb8f
 description: "Returns the last day of the month before or specified number of months."
 ---

@@ -7,7 +7,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb925eaa-04e1-4191-9b28-f37b229c8a3b
 description: "Determines the width of the bottom bevel in points."
 ---

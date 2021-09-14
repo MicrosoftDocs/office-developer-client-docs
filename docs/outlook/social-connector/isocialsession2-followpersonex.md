@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17b4af7f-7967-422b-996c-792705c93ad3
 description: "Adds the person identified by the emailAddresses and displayName parameters as a friend for the logged-on user on the social network."
 ---

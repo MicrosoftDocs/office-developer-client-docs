@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251623
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6d72529-aa03-e94b-130c-79ed04336299
 description: "Determines how the group shape and its members are displayed."
 ---

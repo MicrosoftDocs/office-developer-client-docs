@@ -9,7 +9,7 @@ ms.audience: Developer
 keywords:
 - infopath 2003-compatible form templates,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2007, creating InfoPath 2003-compatible form templates
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c746aeb1-902c-440e-830b-5b9efad0ca04
 description: "The procedures in this topic describe how to create a form template that works with the InfoPath 2003-compatible object model."
 ---

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5f2abb1a-fcf5-4d06-9576-34a50e21c911
 description: "Represents the port number of the SMTP account."
 ---

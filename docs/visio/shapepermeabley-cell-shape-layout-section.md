@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251666
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 90701ecf-3d34-2eac-9ee9-7965e16c0f7c
 description: "Determines whether a connector can route vertically through a shape."
 ---

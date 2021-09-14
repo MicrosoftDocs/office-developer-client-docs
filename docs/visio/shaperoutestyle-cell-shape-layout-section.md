@@ -9,7 +9,7 @@ ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm905
  
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a5dcd2e0-e343-5ee2-2b63-2a1312437901
 description: "Determines the routing style and direction for a selected connector on the drawing page."
 ---
