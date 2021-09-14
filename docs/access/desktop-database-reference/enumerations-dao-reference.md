@@ -1,6 +1,7 @@
 ---
 title: Enumerations (DAO reference)
 TOCTitle: Enumerations
+description: Enumerations
 ms:assetid: d4d91585-f3cc-4e60-8177-244d7244465e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125640(v=office.15)
 ms:contentKeyID: 52074514
