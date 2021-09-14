@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
 description: "Last modified: July 23, 2011"
 ---

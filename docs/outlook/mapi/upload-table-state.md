@@ -3,7 +3,7 @@ title: "Upload Table State"
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe167c90-c817-b627-0728-5c6393477c22
 description: "Last modified: March 09, 2015"
  
