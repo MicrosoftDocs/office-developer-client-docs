@@ -1,5 +1,5 @@
 ---
-title: "Outlook auxiliary reference copyright notice"
+title: "Outlook 2013 auxiliary reference copyright"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,5 +19,4 @@ This document does not provide you with any legal rights to any intellectual pro
 © 2013 Microsoft Corporation. All rights reserved.
   
 Microsoft, Access, ActiveX, ClearType, Excel, FrontPage, InfoPath, IntelliSense, JScript, MSDN, MS-DOS, MSN, OneNote, Outlook, PowerPoint, SharePoint, Silverlight, SmartArt, SQL Server, Visio, Visual Basic, Visual C#, Visual C++, Visual Studio, Win32, Windows, Windows PowerShell, Windows Server, and Windows Vista are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
-  
 
