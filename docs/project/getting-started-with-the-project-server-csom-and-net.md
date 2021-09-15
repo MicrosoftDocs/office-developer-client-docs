@@ -5,7 +5,7 @@ ms.date: 08/10/2016
 ms.audience: Developer
 ms.assetid: 5ce73baa-dfb6-41d0-918d-b0c3a498815f
 description: "You can use the Project Server 2013 client-side object model (CSOM) to develop Project Online and on-premises solutions with the .NET Framework 4. This article describes how to create a console application that uses the CSOM to create and publish projects. After publishing a project, the application waits for the Project Server Queue Service to finish with the publish action, and then lists the published projects."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Getting started with the Project Server CSOM and .NET

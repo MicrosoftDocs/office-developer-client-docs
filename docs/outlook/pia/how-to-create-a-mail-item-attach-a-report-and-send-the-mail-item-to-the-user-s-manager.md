@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb644320(v=office.15)
 ms:contentKeyID: 55119866
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Create a mail item, attach a report, and send the mail item to the user's manager

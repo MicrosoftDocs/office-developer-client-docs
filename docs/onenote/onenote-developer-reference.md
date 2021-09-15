@@ -5,7 +5,7 @@ ms.date: 05/16/2016
 ms.audience: Developer
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9
 description: "This reference contains conceptual overviews and programmatic references to guide you in developing solutions for OneNote 2013 desktop client applications."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # OneNote developer reference

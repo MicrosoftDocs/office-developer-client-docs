@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn142571(v=office.15)
 ms:contentKeyID: 52073808
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Access desktop database reference

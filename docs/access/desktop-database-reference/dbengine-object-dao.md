@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff834506(v=office.15)
 ms:contentKeyID: 48547792
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # DBEngine object (DAO)

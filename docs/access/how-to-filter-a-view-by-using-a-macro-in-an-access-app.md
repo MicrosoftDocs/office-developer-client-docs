@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview 
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
 description: "Learn how to filter a view in an Access app by using the RequeryRecords macro action and a data macro."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Filter a view by using a macro in an Access app

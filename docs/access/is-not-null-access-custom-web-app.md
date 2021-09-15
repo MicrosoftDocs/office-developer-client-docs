@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.assetid: b941a0c7-9753-4920-bb6d-cbba94ba9422
 description: "Determines whether a specified expression is NULL."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # IS [NOT] NULL (Access custom web app)

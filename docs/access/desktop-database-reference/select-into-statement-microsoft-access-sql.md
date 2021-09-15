@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff192059(v=office.15)
 ms:contentKeyID: 48543897
 ms.date: 10/18/2018
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # SELECT.INTO statement (Microsoft Access SQL)

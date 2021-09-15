@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff197629(v=office.15)
 ms:contentKeyID: 48546349
 ms.date: 06/13/2019
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # SQL expressions

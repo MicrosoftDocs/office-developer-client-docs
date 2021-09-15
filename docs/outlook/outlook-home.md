@@ -5,7 +5,7 @@ ms.date: 12/13/2017
 ms.audience: Developer
 ms.assetid: 59d639e4-d171-4556-a1b9-bf9ecb1f85cf
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Outlook."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Outlook

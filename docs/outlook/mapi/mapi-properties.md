@@ -11,7 +11,7 @@ api_type:
 - COM
 ms.assetid: 3b980217-b65b-442b-8c18-b8b9f3ff487a
 description: "Last modified: March 12, 2013"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # MAPI Properties

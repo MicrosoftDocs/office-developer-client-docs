@@ -5,7 +5,7 @@ ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: "This article describes the APIs and technologies you can use to extend Outlook 2013 and Outlook 2016, and helps you decide the appropriate API or technology for your scenario."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Selecting an API or technology for developing solutions for Outlook

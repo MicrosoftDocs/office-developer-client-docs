@@ -5,7 +5,7 @@ ms.date: 09/14/2021
 ms.audience: Developer
 ms.topic: reference
 ms.assetid: 628745f4-82e9-4838-9726-6f3e506a654f
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Create and customize a web app in Access

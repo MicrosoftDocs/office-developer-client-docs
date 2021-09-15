@@ -11,7 +11,7 @@ f1_keywords:
 - vbaac10.chm12286
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Set form, report, and control properties

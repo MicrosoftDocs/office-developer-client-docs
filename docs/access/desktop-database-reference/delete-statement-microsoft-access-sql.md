@@ -10,7 +10,7 @@ f1_keywords:
 - jetsql40.chm5277573
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # DELETE statement (Microsoft Access SQL)

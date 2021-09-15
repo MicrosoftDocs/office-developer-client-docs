@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845090(v=office.15)
 ms:contentKeyID: 48543142
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Recordset.MoveNext method (DAO)

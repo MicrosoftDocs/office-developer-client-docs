@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: "Create a solution in Visual Studio 2012 to read the new file format package in Visio 2013, select parts in the package, change the data in a part, and add new parts to the package."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Manipulate the Visio file format programmatically

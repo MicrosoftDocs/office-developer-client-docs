@@ -8,7 +8,7 @@ keywords:
 - registration data types [excel 2007],Excel data types,strings [Excel 2007],numbers [Excel 2007],data structures [Excel 2007],data types [Excel 2007]
 ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Data types used by Excel

@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn161227(v=office.15)
 ms:contentKeyID: 52074194
 ms.date: 10/17/2018
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Access macro actions (Access Developer Reference)

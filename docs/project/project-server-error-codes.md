@@ -13,7 +13,7 @@ keywords:
 - psi, error codes,Error codes, Project Server,PSErrorID,Project Server Interface, error codes,Project Server, error codes
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: "This topic contains tables of error codes for the Project Server Interface (PSI) in Project Server 2013. The tables are arranged by functional area and by error code range."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Project Server error codes

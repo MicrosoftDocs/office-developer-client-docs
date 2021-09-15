@@ -10,7 +10,7 @@ f1_keywords:
 - jetsql40.chm5277562
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # CREATE INDEX statement (Microsoft Access SQL)

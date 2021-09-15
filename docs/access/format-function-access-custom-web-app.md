@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.assetid: 550fc235-f0b9-4d8e-805b-ce467821a8c9
 description: "Returns a value formatted according to a specified pattern."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Format Function (Access custom web app)

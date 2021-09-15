@@ -7,7 +7,7 @@ api_type:
 - COM
 ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: "Last modified: March 09, 2015"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Building MAPI applications on 32-bit and 64-bit platforms

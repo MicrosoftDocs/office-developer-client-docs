@@ -7,7 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/JJ618413(v=office.15)
 ms:contentKeyID: 49106417
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Changes in Access

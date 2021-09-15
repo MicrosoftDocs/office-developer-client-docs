@@ -10,7 +10,7 @@ f1_keywords:
 - jetsql40.chm5277472
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # TRANSACTION statement (Microsoft Access SQL)

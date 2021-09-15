@@ -5,7 +5,7 @@ ms.date: 12/13/2017
 ms.audience: Developer
 ms.assetid: 71d3ae83-3b5d-47c1-b618-4acf13470afb
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Project."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Project 

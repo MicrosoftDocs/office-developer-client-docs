@@ -10,7 +10,7 @@ f1_keywords:
 - dao360.chm1052883
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Recordset.AddNew method (DAO)

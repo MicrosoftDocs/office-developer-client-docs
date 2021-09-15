@@ -11,7 +11,7 @@ keywords:
  
 ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Programming with the C API in Excel
