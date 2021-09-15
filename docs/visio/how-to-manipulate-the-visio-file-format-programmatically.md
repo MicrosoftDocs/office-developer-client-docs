@@ -1,12 +1,12 @@
 ---
 title: "Manipulate the Visio file format programmatically"
 manager: lindalu
-ms.date: 04/17/2019
+ms.date: 09/17/2021
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: "Create a solution in Visual Studio 2012 to read the new file format package in Visio 2013, select parts in the package, change the data in a part, and add new parts to the package."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Manipulate the Visio file format programmatically
@@ -23,14 +23,14 @@ Previous versions of Visio saved files in a proprietary binary file format (.vsd
 In this article, we examine how to work with the Visio 2013 file format programmatically, using the Microsoft .NET Framework 4.5, C# or Visual Basic, and Visual Studio 2012. You can see how to open a Visio 2013 file, select document parts within the file, change data in parts, and create a new document part.
   
 > [!NOTE]
-> The code samples in this article assume that you have a rudimentary understanding of the classes in the [System.Xml.Linq](https://docs.microsoft.com/dotnet/api/system.xml.linq?view=netframework-4.8) and [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8) namespaces. > This article also assumes that you understand the concepts and terminology of the Open Packaging Conventions. You should have some familiarity with the concepts of packages, document parts or package parts, and relationships. For more information, see [OPC: A New Standard for Packaging Your Data](https://docs.microsoft.com/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data). > The code demonstrates how to create LINQ (Language-Integrated Query) queries to select XML. Most of the code samples use the query syntax for building LINQ queries. You can rewrite any of the LINQ queries provided in the code by using the LINQ method syntax, if necessary. For more information about LINQ query syntax and method syntax, see [LINQ Query Syntax versus Method Syntax (C#)](https://docs.microsoft.com/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)> Table 1 shows the essential topics that you should be familiar with before you work through this article. 
+> The code samples in this article assume that you have a rudimentary understanding of the classes in the [System.Xml.Linq](https://docs.microsoft.com/dotnet/api/system.xml.linq?view=netframework-4.8) and [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8) namespaces. > This article also assumes that you understand the concepts and terminology of the Open Packaging Conventions. You should have some familiarity with the concepts of packages, document parts or package parts, and relationships. For more information, see [OPC: A New Standard for Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data.md). > The code demonstrates how to create LINQ (Language-Integrated Query) queries to select XML. Most of the code samples use the query syntax for building LINQ queries. You can rewrite any of the LINQ queries provided in the code by using the LINQ method syntax, if necessary. For more information about LINQ query syntax and method syntax, see [LINQ Query Syntax versus Method Syntax (C#)](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq.md)> Table 1 shows the essential topics that you should be familiar with before you work through this article. 
   
 **Table 1. Core concepts for manipulating the Visio 2013 file format**
 
 |**Article title**|**Description**|
 |:-----|:-----|
 |[Introduction to the Visio file format (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |This high-level overview describes some of the major features of the Visio 2013 file format. It discusses the Open Packaging Conventions (OPC) as they have been applied to the Visio 2013 file format. It also lists some differences between the Visio 2013 file format and the previous Visio XML Drawing file format (.vdx).  <br/> |
-|[OPC: A New Standard for Packaging Your Data](https://docs.microsoft.com/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) <br/> |This MSDN Magazine article describes the Open Packaging Conventions as a concept.  <br/> |
+|[OPC: A New Standard for Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data.md) <br/> |This MSDN Magazine article describes the Open Packaging Conventions as a concept.  <br/> |
 |[Essentials of the Open Packaging Conventions](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Introducing the Office (2007) Open XML File Formats](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |These two articles discuss how the Open Packaging Conventions have been applied to Microsoft Office files. They contain descriptions of how relationships work in a package and also include some code examples.  <br/> |
    
 ## Create a .vsdx file and a new Visual Studio solution
@@ -296,9 +296,9 @@ The console application produces output similar to the following (some of the ou
   
  `Press any key to continue …`
   
-More often than not, you need to select one **PackagePart** without having to iterate over all of them. You can get a **PackagePart** object from a **Package** by using its relationship to the **Package** or another **PackagePart**. A relationship in the Visio 2013 file format is a discrete entity that describes how a document part relates to the file package or how two document parts relate to each other. For example, the Visio 2013 file package itself has a relationship to its Visio Document part, and the Visio Document part has a relationship to the Windows part. These relationships are represented as instances of the [PackageRelationship](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationship?view=netframework-4.8) or [PackageRelationshipCollection](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationshipcollection?view=netframework-4.8) classes. 
+More often than not, you need to select one **PackagePart** without having to iterate over all of them. You can get a **PackagePart** object from a **Package** by using its relationship to the **Package** or another **PackagePart**. A relationship in the Visio 2013 file format is a discrete entity that describes how a document part relates to the file package or how two document parts relate to each other. For example, the Visio 2013 file package itself has a relationship to its Visio Document part, and the Visio Document part has a relationship to the Windows part. These relationships are represented as instances of the [PackageRelationship](/dotnet/api/system.io.packaging.packagerelationship.md) or [PackageRelationshipCollection](/dotnet/api/system.io.packaging.packagerelationshipcollection.md) classes. 
 
-The **Package** class exposes several methods for getting the relationships that it contains as **PackageRelationship** or **PackageRelationshipCollection** objects. You can use the [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) method to instantiate a **PackageRelationshipCollection** object that contains **PackageRelationship** objects of a single specific type. Of course, using the **Package.GetRelationshipsByType** method requires that you already know the relationship type that you need. Relationship types are strings in XML namespace format. For example, the relationship type of the Visio Document part is http://schemas.microsoft.com/visio/2010/relationships/document. 
+The **Package** class exposes several methods for getting the relationships that it contains as **PackageRelationship** or **PackageRelationshipCollection** objects. You can use the [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) method to instantiate a **PackageRelationshipCollection** object that contains **PackageRelationship** objects of a single specific type. Of course, using the **Package.GetRelationshipsByType** method requires that you already know the relationship type that you need. Relationship types are strings in XML namespace format. For example, the relationship type of the Visio Document part is https://schemas.microsoft.com/visio/2010/relationships/document. 
   
 Once you know the relationship of a **PackagePart** to the **Package** or to another **PackagePart** (that is, you have a **PackageRelationship** object that references the **PackagePart** that you want), you can use that relationship to get the URI of that **PackagePart**. You then pass the URI to the **Package.GetPart** method to return the **PackagePart**.
   
@@ -697,7 +697,6 @@ Use the following procedure to save the XML from the Visio page back to the Page
 The Start/End shape should now contain the text "Start process".
   
 ## Recalculate data in the file
-<a name="vis15_ManipulateFF_Recalculate"> </a>
 
 Some changes to the data in a file may require Visio to recalculate the document when it opens the file. Visio provides a lot of logic for a diagram, particularly for shape relationships (that is, when one shape depends on another) and connecting shapes. If any of the data that the custom logic relies upon is changed, Visio needs to propagate the changes to all of the affected calculated data in the file. 
   
@@ -1168,14 +1167,12 @@ The XML created by the  `CreateCustomUI` method looks like the following.
 ```
 
 ## Acknowledgements
-<a name="vis15_ManipulateFF_Ackn"> </a>
 
 We would like to recognize the contribution and input of Visio MVP **Al Edlund** in creating the code examples contained in this technical article. Al is a recognized expert in manipulating the Visio file format, including both the Visio XML Drawing format (.vdx) and the new Visio file format (.vsdx). Al has created projects that explore the Visio file formats programmatically and exposes the structures inside. 
   
 For more information about Al's work with the Visio file format, see the links in the Additional Resources section that follows.
   
 ## See also
-<a name="vis15_ManipulateFF_Additional"> </a>
 
 - By Al Edlund:
     
@@ -1192,5 +1189,4 @@ For more information about Al's work with the Visio file format, see the links i
 - [Create a Document with Namespaces (C#) (LINQ to XML)](https://docs.microsoft.com/previous-versions/bb387075(v=vs.140))
     
 - [Add Custom XML Parts to Documents Without Starting Microsoft Office](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/bb608597(v=vs.90))
-    
-
+- 

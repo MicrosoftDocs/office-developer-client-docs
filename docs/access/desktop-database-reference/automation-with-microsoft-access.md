@@ -11,7 +11,7 @@ f1_keywords:
 - vbaac10.chm13783
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Automation with Microsoft Access

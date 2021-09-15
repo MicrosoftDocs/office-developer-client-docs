@@ -5,7 +5,7 @@ ms.date: 12/18/2019
 ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: "This article describes Microsoft Project Online application development using the .NET Framework 4.0 and CSOM. "
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Developing a Project Online application using the client-side object model (CSOM)

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 ms.assetid: f5310aa0-75f5-4c33-897e-8cae5de2100a
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Visio."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Visio

@@ -9,7 +9,7 @@ ms.audience: Developer
  
 ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1
 description: "The client-side object model (CSOM) is a set of APIs for Project Server 2013 that are designed for both online and on-premises use in apps that can be developed for PCs, mobile devices, and tablets. This article includes some typical scenarios for using the CSOM and also lists limitations of the CSOM."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # What the CSOM does and does not do

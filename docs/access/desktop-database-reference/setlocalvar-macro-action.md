@@ -10,7 +10,7 @@ f1_keywords:
 - vbaac10.chm176660
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # SetLocalVar macro action

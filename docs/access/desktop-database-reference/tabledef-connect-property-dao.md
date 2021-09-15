@@ -10,7 +10,7 @@ f1_keywords:
 - dao360.chm1053064
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # TableDef.Connect property (DAO)

@@ -10,7 +10,7 @@ f1_keywords:
 - dao360.chm1053362
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Recordset.GetRows method (DAO)

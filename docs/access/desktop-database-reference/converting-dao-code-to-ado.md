@@ -10,7 +10,7 @@ f1_keywords:
 - vbaac10.chm5267115
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Convert DAO code to ADO

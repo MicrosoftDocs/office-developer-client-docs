@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn124841(v=office.15)
 ms:contentKeyID: 52072462
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # ActiveX controls (Access) 

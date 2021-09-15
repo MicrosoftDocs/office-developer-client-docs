@@ -9,7 +9,7 @@ ms.topic: reference
  
 ms.assetid: 928b8cff-c314-4502-be4f-daa44503c7f0
 
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Functions (Visio ShapeSheet Reference)

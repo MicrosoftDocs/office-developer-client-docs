@@ -7,7 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Apply a custom ribbon to a form or report

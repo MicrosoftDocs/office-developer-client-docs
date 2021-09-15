@@ -5,7 +5,7 @@ ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c
 description: "Project Server 2013 integrates project management functionality throughout a SharePoint farm and enables the use of Project Online with a client-side object model (CSOM) and an OData interface for the Reporting data."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Project Server architecture

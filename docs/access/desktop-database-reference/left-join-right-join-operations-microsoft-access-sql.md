@@ -8,7 +8,7 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 dev_langs:
 - sql
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # LEFT JOIN, RIGHT JOIN operations (Microsoft Access SQL)

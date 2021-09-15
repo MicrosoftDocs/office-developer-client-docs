@@ -9,7 +9,7 @@ ms.audience: Developer
  
 ms.assetid: 716325eb-b092-4934-921f-84129d0a1f5f
 description: "The Project Server 2013 client-side object model (CSOM) implements common server functionality. The Project Server CSOM includes a Microsoft .NET CSOM, a Microsoft Silverlight CSOM, a Windows Phone 8 CSOM, and a JavaScript object model (JSOM). In addition, the CSOM includes an OData service that enables a REST interface. The REST interface is intended primarily for development of apps on non-Windows platforms such as iOS and Android."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Client-side object model (CSOM) for Project 2013

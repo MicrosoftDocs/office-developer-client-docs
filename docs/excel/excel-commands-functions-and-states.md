@@ -11,7 +11,7 @@ keywords:
  
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Excel Commands, Functions, and States

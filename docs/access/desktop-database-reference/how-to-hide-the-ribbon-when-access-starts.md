@@ -7,7 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff837012(v=office.15)
 ms:contentKeyID: 48548817
 ms.date: 10/16/2018
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Hide the ribbon when Access starts

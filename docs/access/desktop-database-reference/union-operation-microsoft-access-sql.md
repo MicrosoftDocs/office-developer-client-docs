@@ -12,7 +12,7 @@ dev_langs:
 - sql
 f1_categories:
 - Office.Version=v15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # UNION operation (Microsoft Access SQL)

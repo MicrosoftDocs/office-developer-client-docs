@@ -9,7 +9,7 @@ api_type:
 - COM
 ms.assetid: 807d1b76-ccc1-4cbe-bbe3-5d5cadffbef4
 description: "Documents the MAPI programming elements."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # MAPI Reference

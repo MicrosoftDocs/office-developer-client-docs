@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 ms.assetid: 687a4200-380d-48ef-85d0-0a2a10d9d87b
 description: "Compares two expressions. When you compare non-null expressions, the result is TRUE if the left operand is not equal to the right operand; otherwise, the result is FALSE."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Not Equal To (Access custom web app)
