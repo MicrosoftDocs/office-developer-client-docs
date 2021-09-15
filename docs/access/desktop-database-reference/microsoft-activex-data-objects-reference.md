@@ -4,7 +4,7 @@ TOCTitle: Microsoft ActiveX Data Objects Reference
 ms:assetid: 235fc575-8a2e-913c-fa3d-bb86256733f9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249010(v=office.15)
 ms:contentKeyID: 48543728
-ms.date: 09/18/2015
+ms.date: 09/18/2021
 mtps_version: v=office.15
 ms.localizationpriority: high
 ---
