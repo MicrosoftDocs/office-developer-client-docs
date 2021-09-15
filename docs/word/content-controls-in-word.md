@@ -1,7 +1,7 @@
 ---
 title: "Content controls in Word"
-manager: soliver
-ms.date: 09/10/2015
+manager: lindalu
+ms.date: 09/10/2021
 ms.audience: Developer
 keywords:
 - content controls [word],content controls [Word], what's new
@@ -81,7 +81,7 @@ Word 2013 allows an individual content control to appear in one of three possibl
   
 **Figure 1. Content Control Properties dialog box**
 
-![Content control properties dialog box](media/DK2_WordCC_Fig01.jpg "Content control properties dialog box")
+![Content control properties dialog box screenshot](media/DK2_WordCC_Fig01.jpg "Content control properties dialog box")
   
 You can also set the display mode for a content control by using the Word 2013 object model (discussed later in [New Word 2013 content control object model members](#WordCC_NewOM)).
   
@@ -148,13 +148,13 @@ You insert the repeating section content control around entire paragraphs or tab
   
 **Figure 6. Repeating section content control context menu**
 
-![Repeating section content control context](media/DK2_WordCC_Fig06.jpg "Repeating section content control context")
+![Repeating section content control context screenshot](media/DK2_WordCC_Fig06.jpg "Repeating section content control context")
   
 You can repeat the inserted section by using either the control on the end of the content control (displayed as a button with a plus sign (![Plus sign](media/DK2_WordCC_Fig06A.jpg "Plus sign"))) or by choosing a command on the context menu, as shown in Figure 6. The repeated content becomes a separate section of the control that you can assign a title by using the **Content Control Properties** dialog box. 
   
 **Figure 7. Assign a section title in the Content Control Properties dialog box**
 
-![Content control properties dialog box](media/DK2_WordCC_Fig07.jpg "Content control properties dialog box")
+![Screenshot of ontent control properties dialog box](media/DK2_WordCC_Fig07.jpg "Content control properties dialog box")
   
 Once you have given the section a title, if you select **Allow users to add and remove sections** in the **Content Control Properties** dialog box, users can add or delete the section by name. 
   
