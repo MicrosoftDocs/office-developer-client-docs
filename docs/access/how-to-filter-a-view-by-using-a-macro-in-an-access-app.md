@@ -1,7 +1,7 @@
 ---
 title: "Filter a view by using a macro in an Access app"
-manager: kelbow
-ms.date: 08/18/2017
+manager: lindalu
+ms.date: 08/18/2021
 ms.audience: Developer
 ms.topic: overview 
 ms.assetid: db4dbb71-1b22-4dfd-bc07-5f7d694fc038
@@ -118,7 +118,7 @@ Now that you've determined the customizations, implement them. The data macro sh
   
    **Figure 1. Add New Action list box**
 
-   ![Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Add New Action dropdown")
+   ![Screenshot Add New Action dropdown](media/odc_Access2013_FilterFormByUsingMacro_Figure01.jpg "Add New Action dropdown")
   
 7. In the **Name** box, enter **TaskFound**. 
     
