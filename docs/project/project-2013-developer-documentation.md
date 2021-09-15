@@ -1,11 +1,8 @@
 ---
-title: "Project 2013 developer documentation"
-
- 
+title: "Project 2013 developer documentation" 
 manager: lindalu
-ms.date: 12/19/2019
-ms.audience: Developer
- 
+ms.date: 09/19/2021
+ms.audience: Developer 
 f1_keywords:
 - Project
 - Project 2013
@@ -15,8 +12,7 @@ f1_keywords:
 - SDK
 - SDK Project
 keywords:
-- sdk, project 2013,Project 2013, SDK overview
- 
+- sdk, project 2013,Project 2013, SDK overview 
 ms.assetid: f66adbf1-5cb5-4dd0-be08-45e1c88c010c
 description: "Find documentation, code samples, how-to articles, and programming references to help build apps for the Office 
 or a private app catalog and to customize and integrate Project Server and the Project clients with a wide variety of other desktop and business applications for enterprise project management."
@@ -28,10 +24,9 @@ ms.localizationpriority: high
 Find documentation, code samples, how-to articles, and programming references to help build apps for AppSource. Learn how to customize and integrate Project Server and the Project clients with a wide variety of other desktop and business applications for enterprise project management (EPM).
    
 > [!NOTE]
-> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
+> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins.md) and [Office Add-ins](/office/dev/add-ins/overview/office-add-ins.md). 
   
 ## Introduction to the Project Software Development Kit (SDK)
-<a name="pj15_Welcome_IntroToSDK"> </a>
 
 Project Server 2013 is a platform for building on-premises or cloud-based enterprise project management solutions and for building apps that end users can discover and acquire through AppSource (formerly Office Store). The Project Server 2013 architecture is based on the platform introduced in Microsoft Office Project Server 2007, with many additions and improvements. The new features include a client-side object model (CSOM) to enable access to Project Online, an OData service for online access to Project Server reporting data, remote event receivers, workflow architecture that is based on version 4 of the Windows Workflow Foundation (WF4), and Office Add-ins, which is a common architecture for task pane extensions in Microsoft Office 2013 client applications.
   
@@ -41,13 +36,11 @@ Project Server 2013 is built on the Microsoft .NET Framework 4 and Microsoft Sha
   
 The Project 2013 SDK includes developer information for Project Server 2013, Project Web App, Project Professional 2013, and Project Standard 2013. The SDK articles are designed to help developers and administrators evaluate Project and Project Server for extensibility and plan for custom solutions.
   
-### Feedback
-<a name="pj15_Welcome_Feedback"> </a>
+### Welcome feedback
 
 We would like to hear from you. In the online topics on MSDN, you can add comments, code samples, or flag the content as a bug in the **Community Content** section at the bottom of each page. When you install the Project 2013 SDK download, the local documentation articles each have a  *Send Feedback*  link that is located below the title. At any point in reading the SDK, choose the link to send an email to the SDK team. You can send corrections, a request for clarification or a code sample, or other comments, and help us make the content stronger. 
   
 ### Download
-<a name="pj15_Welcome_Download"> </a>
 
 The Project 2013 SDK download is available in the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20) (  `https://www.microsoft.com/en-us/download/details.aspx?id=30435%20`). The download includes Project2013SDK.HxS (the file that includes this article), related code samples, redistributable assemblies, and other resources. The Project 2013 SDK does not yet include the Reporting datatables reference.
   
@@ -88,12 +81,10 @@ New topics include the following:
 Topics in the **Microsoft.ProjectServer.Client** namespace and new methods in the PSI services have only minimal documentation. Most of the reference topics for the PSI services are unchanged from the July 2011 release of the Project 2010 SDK. 
   
 ### Future SDK releases
-<a name="pj15_Welcome_FutureReleases"> </a>
 
 The Project 2013 SDK will be updated with new articles and reference content for the general availability release.
   
 ## Sections in the Project SDK
-<a name="pj15_Welcome_SectionsInTheSDK"> </a>
 
 There are two top-level sections in the Project 2013 SDK:
   
