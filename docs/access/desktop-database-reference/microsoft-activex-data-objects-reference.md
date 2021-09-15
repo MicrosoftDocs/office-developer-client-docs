@@ -38,8 +38,3 @@ ADOX is a companion library to the core ADO objects. It exposes additional objec
 - [Programmer's guide](ado-programmer-s-guide.md): An introduction to using ADO, RDS, ADO MD, and ADOX.
 
 - [Programmer's reference](ado-programmer-s-reference-topics.md): This section of the ADO documentation contains topics for each ADO, RDS, ADO MD, and ADOX object, collection, property, dynamic property, method, event, and enumeration.
-
-## Feedback
-
-You can send feedback about ADO documentation or samples directly to the ADO documentation team.
-
