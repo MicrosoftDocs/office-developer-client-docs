@@ -1,5 +1,5 @@
 ---
-title: "Project 2013 developer documentation" 
+title: Project 2013 developer documentation
 manager: lindalu
 ms.date: 09/19/2021
 ms.audience: Developer 
