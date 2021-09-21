@@ -8,7 +8,7 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 dev_langs:
 - sql
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # CREATE PROCEDURE statement (Microsoft Access SQL)

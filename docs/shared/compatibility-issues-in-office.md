@@ -5,7 +5,7 @@ ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: dd279238-ae75-4ad9-b9e5-364924090485
 description: "Get more information about issues displayed in the telemetry log about possible compatibility issues in Office products."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Compatibility issues in Office

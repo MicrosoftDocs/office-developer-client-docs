@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 ms.assetid: 13aa6de0-3687-4f46-a1b6-a6e3aabf5981
 description: "Find how-to content, technical articles, references, and blog posts for developing solutions and customizing InfoPath."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # InfoPath

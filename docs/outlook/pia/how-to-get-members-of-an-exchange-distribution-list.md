@@ -6,7 +6,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Bb645998(v=office.15)
 ms:contentKeyID: 55119837
 ms.date: 07/24/2014
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Get members of an Exchange distribution list

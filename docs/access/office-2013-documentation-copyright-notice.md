@@ -1,14 +1,14 @@
 ---
-title: "Office 2013 documentation copyright notice"
+title: "Office 2013 documentation copyright information"
 author: umas
 manager: lindalu
-ms.date: 11/16/2021
+ms.date: 09/16/2021
 ms.audience: Developer
 ms.topic: overview 
 ms.localizationpriority: medium
 ms.assetid: a9c2f3d9-cea2-49a3-b709-40dc614b9f86
-description: "This document is provided as-is. Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it."
 ---
+
 
 # Copyright notice for Office 2013 documentation 
 

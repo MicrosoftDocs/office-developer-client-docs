@@ -8,7 +8,7 @@ keywords:
 - accessing dlls [excel 2007],DLLs [Excel 2007], accessing in Excel
 ms.assetid: e2bfd6ea-efa3-45c1-a5b8-2ccb8650c6ab
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Access DLLs in Excel

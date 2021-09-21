@@ -5,7 +5,7 @@ ms.date: 07/29/2015
 ms.audience: Developer
 ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: "You can integrate with Office for iOS, Office for Android, Office Online, and Excel, PowerPoint, or Word Mobile from your applications and web-based experiences, enabling your users to transition seamlessly to working in Office applications from third-party solutions."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Integrate with Office

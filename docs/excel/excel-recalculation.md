@@ -9,7 +9,7 @@ keywords:
  
 ms.assetid: b4c38442-42e6-4fd2-a1b0-97cfa3300379
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Excel Recalculation

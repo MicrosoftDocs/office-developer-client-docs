@@ -5,7 +5,7 @@ ms.date: 04/20/2016
 ms.audience: Developer
 ms.assetid: 1c4937c4-0998-4f81-a994-50d3dd54727c
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Office."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Office shared

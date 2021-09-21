@@ -6,7 +6,7 @@ ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-t
 ms:contentKeyID: 55119926
 ms.date: 12/03/2019
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Get and sign in to an instance of Outlook

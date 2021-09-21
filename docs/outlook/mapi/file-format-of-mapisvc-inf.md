@@ -7,7 +7,7 @@ api_type:
 - COM
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: "Last modified: July 23, 2011"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # File format of MapiSvc.inf

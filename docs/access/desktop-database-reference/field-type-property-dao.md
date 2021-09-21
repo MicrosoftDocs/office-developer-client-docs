@@ -7,7 +7,7 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff845405(v=office.15)
 ms:contentKeyID: 48543345
 ms.date: 09/18/2015
 mtps_version: v=office.15
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Field.Type property (DAO)

@@ -11,7 +11,7 @@ f1_keywords:
  
 ms.assetid: 81ebd41f-a6a7-af63-b6cf-dd3d5c371a61
 description: ""
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Change the Name and View the ID of a Shape

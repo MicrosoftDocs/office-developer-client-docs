@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.assetid: 641659f2-3c0a-43af-96f1-2521b4b06680
 description: "Code samples that show how to achieve certain tasks or implement certain service providers using Outlook MAPI."
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # MAPI samples

@@ -11,7 +11,7 @@ keywords:
  
 ms.assetid: 7754998f-4e13-4a37-9724-43b6ee6c919b
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
-localization_priority: Priority
+ms.localizationpriority: high
 ---
 
 # Creating XLLs
