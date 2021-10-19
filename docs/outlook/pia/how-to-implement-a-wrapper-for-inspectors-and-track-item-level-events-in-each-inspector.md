@@ -38,12 +38,17 @@ class Connect
     private Outlook.Inspectors inspectors;
 
     // Collection of tracked inspector windows              
-    private List<OutlookInspector> inspectorWindows;    
-
-    // Hook up NewInspector event
-    inspectors.NewInspector += new 
-        Outlook.InspectorsEvents_NewInspectorEventHandler(
-        inspectors_NewInspector);
+    private List<OutlookInspector> inspectorWindows;   
+    
+    public Connect(Outlook.Inspectors Inspectors)
+    {
+        inspectors = Inspectors;
+        inspectorWindows = new List<OutlookInspector>();
+        // Hook up NewInspector event
+        inspectors.NewInspector += new 
+            Outlook.InspectorsEvents_NewInspectorEventHandler(
+                inspectors_NewInspector);
+    }
 
     // NewInspector event creates new instance of OutlookInspector
     void inspectors_NewInspector(Outlook.Inspector Inspector)
