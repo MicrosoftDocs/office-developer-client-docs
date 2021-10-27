@@ -5,7 +5,7 @@ description: How to apply customized ribbons when loading a form or report in Ac
 ms:assetid: 7dcdfa42-3eaa-43f9-b99d-56b2cac97f84
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196428(v=office.15)
 ms:contentKeyID: 48545865
-ms.date: 10/16/2018
+ms.date: 10/27/2021
 mtps_version: v=office.15
 ms.localizationpriority: high
 ---
@@ -36,7 +36,7 @@ The following table lists the settings to use when creating the **USysRibbons** 
 
 ### Load ribbon extensibility XML programmatically
 
-You can use the **[LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI)** method to load ribbon customizations programmatically. Typically, to create and make the ribbon available to the application, you first create a module in the database with a procedure that calls the **LoadCustomUI** method, passing in the name of the ribbon and the XML customization markup.
+You can use the **[LoadCustomUI](/office/vba/api/Access.Application.LoadCustomUI)** method to load ribbon customizations programmatically. Typically, to create and make the ribbon available to the application, you first create a module in the database with a procedure that calls the **LoadCustomUI** method, passing in the name of the ribbon and the XML customization markup.
 
 The XML markup can come from a **Recordset** object created from a table, from a source external to the database such as an XML file that you parse into a string, or from XML markup embedded directly inside the procedure. You can make different ribbons using multiple calls to the **LoadCustomUI** method, passing in different XML markup as long as the name of each ribbon and the **id** attribute of the tabs that make up the ribbon are unique.
 
@@ -59,6 +59,6 @@ After the procedure is complete, you then create an AutoExec macro that calls th
 > The tabs displayed in the ribbon UI are additive. That is, unless you specifically hide the tabs or set the *Start from Scratch* attribute to **True**, the tabs displayed in a form's or report's ribbon user interface are in addition to the existing tabs.
 
 > [!NOTE]
-> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 
