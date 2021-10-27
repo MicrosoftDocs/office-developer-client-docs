@@ -1,6 +1,6 @@
 ---
 title: "Compatibility between the 32-bit and 64-bit versions of Office"
-ms.date: 09/14/2021
+ms.date: 10/27/2021
 ms.audience: ITPro
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
 description: "Find out how the 32-bit version of Office is compatible with the 64-bit version of Office."
@@ -215,7 +215,7 @@ No.
   
 #### When should I convert Long parameters to LongPtr?
   
-You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa.md) provides the following signature: 
+You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa.md) provides the following signature. 
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
