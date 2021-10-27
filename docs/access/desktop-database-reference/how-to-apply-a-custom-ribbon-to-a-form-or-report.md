@@ -28,32 +28,10 @@ One method that you can use to make ribbon customizations available is to store 
 
 The following table lists the settings to use when creating the **USysRibbons** table.
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Column name</p></th>
-<th><p>Data type</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>RibbonName</strong></p></td>
-<td><p>Text</p></td>
-<td><p>Contains the name of the custom ribbon to be associated with this customization.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>RibbonXML</strong></p></td>
-<td><p>Memo</p></td>
-<td><p>Contains the ribbon extensibility XML (RibbonX) that defines the ribbon customization.</p></td>
-</tr>
-</tbody>
-</table>
+| Column name      | Data type            | Description    |
+| :----------------| :------------------- |:---------------|
+| RibbonName| Text | Contains the name of the custom ribbon to be associated with this customization. |
+| RibbonXML | Memo |Contains the ribbon extensibility XML (RibbonX) that defines the ribbon customization.    |
 
 
 ### Load ribbon extensibility XML programmatically
