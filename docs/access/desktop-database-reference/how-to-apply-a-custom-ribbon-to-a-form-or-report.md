@@ -16,7 +16,7 @@ ms.localizationpriority: high
 
 The ribbon uses text-based, declarative XML markup that simplifies creating and customizing the ribbon. With a few lines of XML, you can create just the right interface for the user. Access provides flexibility in customizing the ribbon user interface. 
 
-For example, customization markup can be stored in a table, embedded in a VBA procedure, stored in another Access database, or linked to from an Excel worksheet. This topic describes how to apply customized ribbons when loading a form or report.
+For example, customization markup can be stored in a table, embedded in a VBA procedure, stored in another Access database, or linked to an Excel worksheet. This topic describes how to apply customized ribbons when loading a form or report.
 
 ## Make the ribbon customization XML available
 

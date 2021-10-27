@@ -22,6 +22,7 @@ This topic shows the XML schema definition for the Visio 2013 file format.
     Visio VSDX Schema
     Copyright (C) 2013 Microsoft Corporation. All rights reserved.
 -->
+
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://schemas.microsoft.com/office/visio/2011/1/core" xmlns="http://schemas.microsoft.com/office/visio/2011/1/core" elementFormDefault="qualified" attributeFormDefault="unqualified">
     <xsd:annotation>
         <xsd:documentation>
