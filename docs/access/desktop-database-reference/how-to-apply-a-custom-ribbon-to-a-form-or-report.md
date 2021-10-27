@@ -45,20 +45,13 @@ After the procedure is complete, you then create an AutoExec macro that calls th
 ## Assign custom ribbons to forms or reports
 
 1.  Follow the process described previously to make the customized ribbon available to the application.
-
 2.  Open the form or report in Design view.
-
-3.  On the Design tab, choose **Property Sheet**.
-
+3.  On the **Design** tab, choose **Property Sheet**.
 4.  On the **All** tab of the Property window, choose the **Ribbon Name** list and then select a ribbon.
-
-5.  Save, close, and then reopen the form or report. The ribbon UI you selected is displayed.
-
+5.  Save and close, and then reopen the form or report. The ribbon UI you selected is displayed.
 
 > [!NOTE]
 > The tabs displayed in the ribbon UI are additive. That is, unless you specifically hide the tabs or set the *Start from Scratch* attribute to **True**, the tabs displayed in a form's or report's ribbon user interface are in addition to the existing tabs.
 
 > [!NOTE]
 > For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
-
-
