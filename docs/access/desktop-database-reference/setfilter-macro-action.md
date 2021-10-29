@@ -80,6 +80,6 @@ The following example shows how to use the SetFilter action to filter the form i
     
     SetFilter
         Filter Name
-        Where Condtion =[display_name] Like "*cheese*"
+        Where Condition =[display_name] Like "*cheese*"
         Control Name
 ```
