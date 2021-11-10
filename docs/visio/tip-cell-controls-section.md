@@ -25,7 +25,7 @@ To get a reference to the Tip cell by name from another formula, or from a progr
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Controls.  *name*  .Tipwhere Controls.  *name*  is the name of the controls row.  <br/> |
+| Cell name:  <br/> | Controls. *name* .Comment where Controls.  *name*  is the name of the controls row.  <br/> |
    
 To get a reference to the Tip cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
