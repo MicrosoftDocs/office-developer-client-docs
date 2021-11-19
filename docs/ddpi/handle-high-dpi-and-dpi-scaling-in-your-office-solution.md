@@ -537,7 +537,23 @@ Any callbacks from Office for custom ribbon controls will be in a DPI thread awa
 
 <h3 id="ole">OLE clients and servers</h3>
 
-When an OLE server is hosted within an OLE client container, you currently can’t provide current or supported DPI information. This can cause problems because some combinations of parent to child window mixed modes are not supported by the current Windows architecture. If Word or Excel detect that there are multiple monitors with different DPI scales, they will not support in-place activation. Your OLE server will activate out-of-place. If you are experiencing issues with OLE server interactions, the user will need to use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+
+When an OLE server is hosted within an OLE client container, you currently can’t provide current or supported DPI information. This can cause problems because some combinations of parent to child window mixed modes are not supported by the current Windows architecture.
+
+#### Before Office 365 version 2109
+
+If Word or Excel detect that there are multiple monitors with different DPI scales, they will not support in-place activation. Your OLE server will activate out-of-place. If you are experiencing issues with OLE server interactions, the user will need to use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+
+#### After Office 365 version 2109
+
+Starting with version 2109 for Excel and PowerPoint, both applications allow in-place activation in Per Monitor DPI Aware modes when certain conditions are met. When in-place activated as OLE servers, Office applications will check the `DPI_AWARENESS_CONTEXT` of the parent window provided by the container and allow in-place activation if it's compatible with [When using multiple displays](https://support.microsoft.com/en-us/topic/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279) setting of the Office app:
+- "Optimize for best appearance" will allow in-place activation if the window provided by the container is Per Monitor DPI Aware
+- "Optimize for compatibility" will allow in-place activation if the window provided by the container is System DPI aware and system DPI matches between both the container application and the Office application
+
+It means that DPI Unaware OLE containers will not be able to in-place activate either of the app. The workaround is to change the DPI awareness of the container app to System DPI Aware (and use the "Optimize for compatibility" setting in the Office app). This can be done via [SetProcessDpiAwareness](https://docs.microsoft.com/en-us/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness), [embedded or external manifest](https://docs.microsoft.com/en-us/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process). External manifest is especially useful for existing VB Forms solutions, as it does not require the solution to be recompiled.
+
+When acting as an OLE container, both Excel and PowerPoint defer the DPI awareness compatibility check to the server and do not prevent in-place activation.
+
 
 <h3 id="web-add-ins">Office Web Add-ins</h3>
 
