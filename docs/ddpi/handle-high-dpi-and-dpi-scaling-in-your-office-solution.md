@@ -546,13 +546,13 @@ If Word or Excel detect that there are multiple monitors with different DPI scal
 
 #### After Office 365 version 2109
 
-Starting with version 2109 for Excel and PowerPoint, both applications allow in-place activation in Per Monitor DPI Aware modes when certain conditions are met. When in-place activated as OLE servers, Office applications will check the `DPI_AWARENESS_CONTEXT` of the parent window provided by the container and allow in-place activation if it's compatible with [When using multiple displays](https://support.microsoft.com/en-us/topic/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279) setting of the Office app:
-- "Optimize for best appearance" will allow in-place activation if the window provided by the container is Per Monitor DPI Aware
-- "Optimize for compatibility" will allow in-place activation if the window provided by the container is System DPI aware and system DPI matches between both the container application and the Office application
+Starting with version 2109 for Excel and PowerPoint, both applications allow in-place activation in Per Monitor DPI Aware modes when certain conditions are met. When in-place activated as OLE servers, Office applications will check the `DPI_AWARENESS_CONTEXT` of the parent window provided by the container and allow in-place activation depending on which of the following [Office DPI display modes](https://support.microsoft.com/en-us/topic/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) is selected by the user:
+- "Optimize for best appearance" will allow in-place activation if the window provided by the container is Per Monitor DPI Aware (`DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE` or `DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2`).
+- "Optimize for compatibility" will allow in-place activation if the window provided by the container is System DPI Aware (`DPI_AWARENESS_CONTEXT_SYSTEM_AWARE`) and both the container application and the Office application have the same system DPI.
 
-It means that DPI Unaware OLE containers will not be able to in-place activate either of the apps. The workaround is to change the DPI awareness of the container app to System DPI Aware (and use the "Optimize for compatibility" setting in the Office app). This can be done via [SetProcessDpiAwareness](/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness), [embedded or external manifest](/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process). External manifest is especially useful for existing VB Forms solutions, as it does not require the solution to be recompiled.
+This DPI awareness context compatibility check means that DPI Unaware OLE containers will not be able to in-place activate either of the apps. The workaround is to change the DPI awareness of the container app to System DPI Aware (and use the "Optimize for compatibility" setting in the Office app). This can be done via [SetProcessDpiAwareness](/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness), [embedded or external manifest](/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process). External manifest is especially useful for existing VB Forms solutions, as it does not require the solution to be recompiled.
 
-When acting as an OLE container, both Excel and PowerPoint defer the DPI awareness compatibility check to the server and do not prevent in-place activation.
+When acting as an OLE container, both Excel and PowerPoint defer to the server to check DPI awareness compatibility, and they do not prevent in-place activation.
 
 
 <h3 id="web-add-ins">Office Web Add-ins</h3>
