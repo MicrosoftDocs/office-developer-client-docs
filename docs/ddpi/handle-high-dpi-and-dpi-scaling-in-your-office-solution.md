@@ -546,7 +546,7 @@ If Word or Excel detect that there are multiple monitors with different DPI scal
 
 #### After Office 365 version 2109
 
-Starting with version 2109 for Excel and PowerPoint, both applications allow in-place activation in Per Monitor DPI Aware modes when certain conditions are met. When in-place activated as OLE servers, Office applications will check the `DPI_AWARENESS_CONTEXT` of the parent window provided by the container and allow in-place activation depending on which of the following [Office DPI display modes](https://support.microsoft.com/en-us/topic/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) is selected by the user:
+Starting with version 2109 for Excel and PowerPoint, both applications allow in-place activation in Per Monitor DPI Aware modes when certain conditions are met. When in-place activated as OLE servers, Office applications will check the `DPI_AWARENESS_CONTEXT` of the parent window provided by the container and allow in-place activation depending on which of the following [Office DPI display modes](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) is selected by the user:
 - "Optimize for best appearance" will allow in-place activation if the window provided by the container is Per Monitor DPI Aware (`DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE` or `DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2`).
 - "Optimize for compatibility" will allow in-place activation if the window provided by the container is System DPI Aware (`DPI_AWARENESS_CONTEXT_SYSTEM_AWARE`) and both the container application and the Office application have the same system DPI.
 
