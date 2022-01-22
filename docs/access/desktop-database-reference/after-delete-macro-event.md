@@ -28,13 +28,13 @@ Use the **After Delete** event to perform any actions that you want to occur whe
 
 When the **After Delete** event occurs, the values contained in the deleted record are still available. You may want to use a deleted value to increment or decrement a total, create an audit trail, or compare to an existing value in a *WhereCondition* argument.
 
-You can use the **Updated("*Field Name*")** function to determine whether a field has changed. The following code example shows how to use an If staement to determine determine whether the PaidInFull field has been changed.
+You can use the **Updated("*Field Name*")** function to determine whether a field has changed. The following code example shows how to use an If statement to determine determine whether the PaidInFull field has been changed.
 
-```vb 
+```vb
  
 If  Updated("PaidInFull")   Then 
  
-    /* Perform actions based on changes to the field.   */ 
+    /* Perform actions based on changes to the field. */ 
  
 End If 
  
@@ -147,12 +147,11 @@ The following macro commands can be used in the **After Delete** event.
 </tbody>
 </table>
 
-
 To create a Data Macro that captures the **After Delete** event, use the following steps.
 
-1.  Open the table for which you want to capture the **After Delete** event.
+1. Open the table for which you want to capture the **After Delete** event.
 
-2.  On the **Table** tab, in the **After Events** group, click **After Delete**.
+2. On the **Table** tab, in the **After Events** group, click **After Delete**.
 
 An empty Data Macro is displayed in the macro designer.
 
@@ -164,13 +163,13 @@ The following code example uses the **After Delete** event to perform some proce
 
 To view this example in the macro designer, use the following steps.
 
-1.  Open the table for which you want to capture the **After Delete** event.
+1. Open the table for which you want to capture the **After Delete** event.
 
-2.  On the **Table** tab, in the **After Events** group, click **After Delete**.
+2. On the **Table** tab, in the **After Events** group, click **After Delete**.
 
-3.  Select the code listed below and then press CTRL+C to copy it to the Clipboard.
+3. Select the code listed below and then press CTRL+C to copy it to the Clipboard.
 
-4.  Activate the macro designer window and then press CTRL+V.
+4. Activate the macro designer window and then press CTRL+V.
 
 <!-- end list -->
 

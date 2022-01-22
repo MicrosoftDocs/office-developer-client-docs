@@ -25,7 +25,7 @@ The **DateDiff** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *DatePart*  <br/> |Is the part of  *StartDate*  and  *EndDate*  that specifies the type of boundary crossed. Refer to the Remarks section for the list of valid settings.  <br/> |
+| *DatePart*  <br/> |Is the part of *StartDate* and *EndDate* that specifies the type of boundary crossed. Refer to the Remarks section for the list of valid settings.  <br/> |
 | *StartDate*  <br/> |An expression that can be resolved to a Date/Time value. The *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
 | *EndDate*  <br/> |An expression that can be resolved to a Date/Time value. The *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
 

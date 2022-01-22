@@ -13,23 +13,22 @@ description: "Returns the item at the specified index from a list of values."
 Returns the item at the specified index from a list of values.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.
   
 ## Syntax
 
-**Choose** (*IndexNumber*, *Value*, [*Value_n*]) 
+**Choose** (*IndexNumber*, *Value*, [*Value_n*])
   
-The **Choose** function contains the following arguments. 
+The **Choose** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
 | *IndexNumber*  <br/> |An integer expression that represents a 1-based index into the list of the items following it.  <br/> |
 | *Value*  <br/> |List of values of any data type.  <br/> |
-   
+
 ## Remarks
 
-If the provided  *IndexNumber*  is not an integer, then the value is implicitly converted to an integer. 
+If the provided *IndexNumber* is not an integer, then the value is implicitly converted to an integer.
   
-If the index value exceeds the bounds of the array of values, **Choose** returns NULL. 
+If the index value exceeds the bounds of the array of values, **Choose** returns NULL.
   
-
