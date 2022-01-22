@@ -577,7 +577,7 @@ You might also find these additional techniques helpful:
 
 - [Developing a Per-Monitor DPI-Aware WPF Application](/windows/desktop/hidpi/declaring-managed-apps-dpi-aware) provides a general overview and guide for writing Win32 desktop applications. Many of the same techniques described in this article will apply to Office extensibility solutions.
 - [Mixed-Mode DPI Scaling and DPI-aware APIs](/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) has a list of APIs related to DPI.
-- [Developer Guide - Per Monitor DPI - WPF Preview](https://github.com/Microsoft/WPF-Samples/blob/master/PerMonitorDPI/Developer%20Guide%20-%20Per%20Monitor%20DPI%20-%20WPF%20Preview.docx) covers the WPF app development guide for building DPI-aware WPF apps.
+- [Developer Guide - Per Monitor DPI](https://github.com/microsoft/WPF-Samples/tree/main/PerMonitorDPI) covers the WPF app development guide for building DPI-aware WPF apps.
 - [Office support for high definition displays](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) provides information about how a user can set Office to optimize for compatibility if your Office solution is not supported properly when the DPI changes.
 - [Display Scaling changes for the Windows 10 Anniversary Update](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) is a blog post that covers changes introduce with the Windows 10 Anniversary update. 
 - [DPI_AWARENESS_CONTEXT handle](/windows/desktop/hidpi/dpi-awareness-context) has programming details on the DPI_AWARENESS_CONTEXT values and definitions.
@@ -585,6 +585,6 @@ You might also find these additional techniques helpful:
 
 ### Code samples
 
-- [Per-window DPI Awareness sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DPIAwarenessPerWindow)
-- [Dynamic DPI sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DynamicDPI)
-- [Per-Monitor Aware WPF sample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/PerMonitorDPIAware)
+- [Per-window DPI Awareness sample](https://github.com/Microsoft/Windows-classic-samples/tree/main/Samples/DPIAwarenessPerWindow)
+- [Dynamic DPI sample](https://github.com/Microsoft/Windows-classic-samples/tree/main/Samples/DynamicDPI)
+- [Per-Monitor Aware WPF sample](https://github.com/Microsoft/Windows-classic-samples/tree/main/Samples/PerMonitorDPIAware)
