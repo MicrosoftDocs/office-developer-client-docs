@@ -34,5 +34,5 @@ Welcome to the Microsoft Outlook Messaging API (MAPI) Reference. MAPI provides t
 - [Outlook 2010: MAPI Reference (Microsoft Download Center)](https://www.microsoft.com/downloads/details.aspx?FamilyID=5f61a276-9c09-4c82-9b80-20dccad17a2a)
 - [Document Conventions](https://msdn.microsoft.com/office/aa905365.aspx)
 - [Accessibility in Microsoft Office 2010](https://www.microsoft.com/enable/products/office2010/default.aspx)
-- [Microsoft Online Privacy Notice](https://privacy.microsoft.com/en-us/privacystatement)
+- [Microsoft Online Privacy Notice](https://privacy.microsoft.com/privacystatement)
 

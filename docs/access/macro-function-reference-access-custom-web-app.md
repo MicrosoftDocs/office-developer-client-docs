@@ -17,7 +17,7 @@ ms.assetid: fb1ef018-6ea4-46b4-b81a-c51f86d80180
 ## In this section
 
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
   
 - [Data blocks (Access custom web app)](data-blocksaccess-custom-web-app.md)
     

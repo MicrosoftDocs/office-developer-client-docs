@@ -40,7 +40,7 @@ This is an example of a lengthy operation. It calls the function [xlAbort](xlabo
   
 ### Example
 
-See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
+See `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
   
 ## See also
 

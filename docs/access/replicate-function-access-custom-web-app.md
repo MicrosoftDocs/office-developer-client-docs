@@ -17,17 +17,15 @@ description: "Repeats a text value a specified number of times."
 Repeats a text value a specified number of times.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices.
   
 ## Syntax
 
- **Replicate** (*TextExpression*, *NumberOfTimes*) 
+ **Replicate** (*TextExpression*, *NumberOfTimes*)
   
-The **Replicate** function contains the following arguments. 
+The **Replicate** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
 | *TextExpression*  <br/> |A text expression.  <br/> |
-| *NumberOfTimes*  <br/> |An integer that specifies the number of times to repeat the  *TextExpression*  .  <br/> |
-   
-
+| *NumberOfTimes*  <br/> |An integer that specifies the number of times to repeat the *TextExpression*.  <br/> |

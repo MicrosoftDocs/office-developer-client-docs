@@ -27,7 +27,7 @@ This topic shows the XML schema definition for the Visio 2013 file format.
     <xsd:annotation>
         <xsd:documentation>
             Permission to copy, display and distribute the contents of this document (the "Specification"), in any medium for any purpose without fee or royalty is hereby granted, provided that you include the following notice on ALL copies of the Specification, or portions thereof, that you make:
-            Copyright (c) Microsoft Corporation.  All rights reserved.  Permission to copy, display and distribute this document is available at:  https://msdn.microsoft.com/library/en-us/odcXMLRef/html/odcXMLRefLegalNotice.asp?frame=true.
+            Copyright (c) Microsoft Corporation.  All rights reserved.  Permission to copy, display and distribute this document is available at:  https://msdn.microsoft.com/library/odcXMLRef/html/odcXMLRefLegalNotice.asp?frame=true.
             No right to create modifications or derivatives of this Specification is granted herein.
             There is a separate patent license available to parties interested in implementing software programs that can read and write files that conform to the Specification.  This patent license is available at this location:  https://www.microsoft.com/mscorp/ip/format/xmlpatentlicense.asp.
             THE SPECIFICATION IS PROVIDED "AS IS" AND MICROSOFT MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR TITLE; THAT THE CONTENTS OF THE SPECIFICATION ARE SUITABLE FOR ANY PURPOSE; NOR THAT THE IMPLEMENTATION OF SUCH CONTENTS WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.

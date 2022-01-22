@@ -11,7 +11,7 @@ ms.localizationpriority: high
 # Developing a Project Online application using the client-side object model (CSOM)
 
 >[!NOTE] 
->This article describes Microsoft Project Online application development for using CSOM. We recommend you explore how to develop applications using the [new Project for the web](https://developer.microsoft.com/en-us/office/blogs/developing-applications-and-reports-using-the-new-project/).
+>This article describes Microsoft Project Online application development for using CSOM. We recommend you explore how to develop applications using the [new Project for the web](https://developer.microsoft.com/office/blogs/developing-applications-and-reports-using-the-new-project/).
   
 ## Background
 
@@ -41,9 +41,9 @@ Start with a base system running Windows 10, and add the following items:
   
 - .Net Framework 4.0 or later -- Use the complete framework. The download site is https://msdn.microsoft.com/vstudio/aa496123.aspx.
     
-- Visual Studio 2013 or later -- Any edition is acceptable. The community edition of Visual Studio 2015 was used to develop the sample application. The community edition is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx.
+- Visual Studio 2013 or later -- Any edition is acceptable. The community edition of Visual Studio 2015 was used to develop the sample application. The community edition is available at https://www.visualstudio.com/products/visual-studio-community-vs.aspx.
     
-- SharePoint Client Components SDK -- Project Online and Project Server sit on top of SharePoint, and SharePoint assemblies. The SharePoint Client Components are included in Visual Studio Professional and Enterprise editions. If you use Visual Studio Community edition, the latest version of the Office Developer Tools SDK is available at the following site: https://www.microsoft.com/en-us/download/details.aspx?id=35585.
+- SharePoint Client Components SDK -- Project Online and Project Server sit on top of SharePoint, and SharePoint assemblies. The SharePoint Client Components are included in Visual Studio Professional and Enterprise editions. If you use Visual Studio Community edition, the latest version of the Office Developer Tools SDK is available at the following site: https://www.microsoft.com/download/details.aspx?id=35585.
     
 - A Project Online account -- This provides access to the hosting site. For more information about obtaining a Project Online account, see https://products.office.com/en-gb/project/project-portfolio-management.
     

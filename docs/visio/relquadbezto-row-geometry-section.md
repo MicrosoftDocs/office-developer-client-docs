@@ -23,9 +23,9 @@ A **RelQuadBezTo** row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The  *x*  -coordinate of the ending vertex of a quadratic Bézier curve relative to the width of the shape.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The  *y*  -coordinate of the ending vertex of a quadratic Bézier curve relative to the height of the shape.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |The  *x*  -coordinate of the curve's control point relative to the shape's width; a point on the arc. The control point is best located about halfway between the beginning and ending vertices of the arc.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |The  *y*  -coordinate of a curve's control point relative to the shape's height.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the ending vertex of a quadratic Bézier curve relative to the width of the shape.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the ending vertex of a quadratic Bézier curve relative to the height of the shape.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |The *x*  -coordinate of the curve's control point relative to the shape's width; a point on the arc. The control point is best located about halfway between the beginning and ending vertices of the arc.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |The *y*  -coordinate of a curve's control point relative to the shape's height.  <br/> |
    
 

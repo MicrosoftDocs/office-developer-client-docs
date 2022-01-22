@@ -21,7 +21,7 @@ Represents different information in different rows. This table describes the A c
 |Row|Description|
 |:-----|:-----|
 |[ArcTo](arcto-row-geometry-section.md) <br/> | The distance from the arc's midpoint to the midpoint of its chord.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The  *x*  -coordinate of the arc's control point, a point on the arc. The control point is best located about halfway between the beginning and ending vertices of the arc. Otherwise, the arc may grow to an extreme size in order to pass through the control point, with unpredictable results.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The *x*  -coordinate of the arc's control point, a point on the arc. The control point is best located about halfway between the beginning and ending vertices of the arc. Otherwise, the arc may grow to an extreme size in order to pass through the control point, with unpredictable results.  <br/> |
 |[PolylineTo](polylineto-row-geometry-section.md) <br/> | The polyline formula.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The second to the last knot of the nonuniform rational B-spline (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | The second knot of the spline.  <br/> |

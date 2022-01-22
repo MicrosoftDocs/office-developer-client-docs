@@ -305,7 +305,7 @@ As with **XLOPER**/ **XLOPER**s, there are rules and guidelines you should follo
 - Where your DLL dynamically allocates a string buffer for an **XLOPER**/ **XLOPER12**, free it in a way consistent with how you allocated it when done, or set **xlbitDLLFree** if returning it to Excel from an XLL function and then free it in **xlAutoFree**/ **xlAutoFree12**.
     
 - If Excel has allocated memory for an **xltypeMulti** array returned to your DLL in a call to the C API, do not overwrite any string **XLOPER**/ **XLOPER12**s within the array. Such arrays must only be freed using **xlFree**, or, if being returned by an XLL function, by setting **xlbitXLFree**.
-    
+
 ### String Types Supported
 
 **C API xltypeStr XLOPER/XLOPER12s**
@@ -315,7 +315,7 @@ As with **XLOPER**/ **XLOPER**s, there are rules and guidelines you should follo
 |All versions of Excel  <br/> |Starting in Excel 2007  <br/> |
 |Max length: 255 extended ASCII bytes  <br/> |Maximum length 32,767 Unicode chars  <br/> |
 |First (unsigned) byte = length  <br/> |First Unicode character = length  <br/> |
-   
+
 > [!IMPORTANT]
 > Do not assume null termination of **XLOPER** or **XLOPER12** strings. 
   
@@ -325,10 +325,10 @@ As with **XLOPER**/ **XLOPER**s, there are rules and guidelines you should follo
 |:-----|:-----|
 |Null-terminated (**char** *) "C" Max length: 255 extended ASCII bytes  <br/> |Null-terminated (**wchar_t** *) "C%" Maximum length 32,767 Unicode chars  <br/> |
 |Length-counted (**unsigned char** *) "D"  <br/> |Length-counted (**wchar_t** *) "D%"  <br/> |
-   
+
 ### Strings in xltypeMulti XLOPER/XLOPER12 Arrays
 
-In several cases, Excel creates an **xltypeMulti** array for use in your DLL/XLL. Several of the XLM information functions return such arrays. For example, the C API function **xlfGetWorkspace**, when passed the argument  *44*  , returns an array containing strings that describe all the currently registered DLL procedures. The C API function **xlfDialogBox** returns a modified copy of its array argument, containing deep copies of the strings. Perhaps the most common way an XLL encounters an **xltypeMulti** array is where it has been passed as an argument to an XLL function, or it has been coerced to this type from a range reference. In these latter cases, Excel creates deep copies of the strings in the source cells and points to these within the array. 
+In several cases, Excel creates an **xltypeMulti** array for use in your DLL/XLL. Several of the XLM information functions return such arrays. For example, the C API function **xlfGetWorkspace**, when passed the argument *44*, returns an array containing strings that describe all the currently registered DLL procedures. The C API function **xlfDialogBox** returns a modified copy of its array argument, containing deep copies of the strings. Perhaps the most common way an XLL encounters an **xltypeMulti** array is where it has been passed as an argument to an XLL function, or it has been coerced to this type from a range reference. In these latter cases, Excel creates deep copies of the strings in the source cells and points to these within the array.
   
 Where you want to modify these strings in your DLL, you should make your own deep copies. When you are creating your own **xltypeMulti** arrays, you should not place Excel-allocated string **XLOPER**/ **XLOPER12**s within them. This risks you not freeing them correctly later, or not freeing them at all. Again, you should make deep copies of the strings and store pointers to the copies in the array.
   

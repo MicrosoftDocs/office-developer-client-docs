@@ -14,7 +14,7 @@ ms.localizationpriority: high
 Compares two expressions. When you compare non-null expressions, the result is TRUE if the left operand is not equal to the right operand; otherwise, the result is FALSE.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
   
 ## Syntax
 

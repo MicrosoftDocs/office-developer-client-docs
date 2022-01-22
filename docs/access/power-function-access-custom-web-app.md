@@ -6,8 +6,7 @@ manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
-  
-ms.localizationpriority: medium
+  ms.localizationpriority: medium
 ms.assetid: 2cfe965f-e462-452f-a99d-804cb1a2f1c7
 description: "Returns the value of the specified expression to the specified power."
 ---
@@ -17,17 +16,15 @@ description: "Returns the value of the specified expression to the specified pow
 Returns the value of the specified expression to the specified power.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices.
   
 ## Syntax
 
- **Power** (*NumericExpression*, *Power*) 
+ **Power** (*NumericExpression*, *Power*)
   
-The **Power** function contains the following arguments. 
+The **Power** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
 | *NumericExpression*  <br/> |A numeric expression.  <br/> |
-| *Power*  <br/> |The power to which to raise  *NumericExpression*  .  <br/> |
-   
-
+| *Power*  <br/> |The power to which to raise *NumericExpression*.  <br/> |

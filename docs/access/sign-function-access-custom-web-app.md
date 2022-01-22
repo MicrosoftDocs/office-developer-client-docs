@@ -17,7 +17,7 @@ description: "Returns the positive (+1), zero (0), or negative (-1) sign of the 
 Returns the positive (+1), zero (0), or negative (-1) sign of the specified expression.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
   
 ## Syntax
 

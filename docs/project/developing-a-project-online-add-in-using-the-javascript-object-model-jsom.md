@@ -44,13 +44,13 @@ Add the following items to a supported Windows environment:
     
 - **Visual Studio 2013 or later**:  
     
-   - The professional edition of Visual Studio 2015 is ready to go out-of-the box and is available at https://www.visualstudio.com/en-us/products/visual-studio-professional-with-msdn-vs.aspx.
+   - The professional edition of Visual Studio 2015 is ready to go out-of-the box and is available at https://www.visualstudio.com/products/visual-studio-professional-with-msdn-vs.aspx.
     
-   - The community edition of Visual Studio 2015 is available at https://www.visualstudio.com/en-us/products/visual-studio-community-vs.aspx. This edition requires manual installation of the Microsoft Office Developer Tools for Visual Studio.
+   - The community edition of Visual Studio 2015 is available at https://www.visualstudio.com/products/visual-studio-community-vs.aspx. This edition requires manual installation of the Microsoft Office Developer Tools for Visual Studio.
     
-   The Microsoft Office Developer Tools for Visual Studio are available at https://www.visualstudio.com/en-us/features/office-tools-vs.aspx.
+   The Microsoft Office Developer Tools for Visual Studio are available at https://www.visualstudio.com/features/office-tools-vs.aspx.
     
-- **A Project Online account**: This provides access to the hosting service. For more information about obtaining a Project Online account, see https://products.office.com/en-us/Project/project-online-portfolio-management.
+- **A Project Online account**: This provides access to the hosting service. For more information about obtaining a Project Online account, see https://products.office.com/Project/project-online-portfolio-management.
     
    Ensure that the add-in user has sufficient authorization to access some projects in the Project Online tenant. 
     
@@ -328,7 +328,7 @@ Sample output for the tasks of a single project follows.
   
 ## See also
 
-For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/en-us/project).
+For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/project).
     
 
 

@@ -22,10 +22,10 @@ If Connection Points rows are named, those names appear as Connections. *name*  
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-connection-points-section.md) <br/> |The  *x*  -coordinate for a connection point in local coordinates.  <br/> |
-|[Y](y-cell-connection-points-section.md) <br/> |The  *y*  -coordinate for a connection point in local coordinates.  <br/> |
-|[DirX/A](dirxa-cell-connection-points-section.md) <br/> |The  *x*  -component for the required alignment vector of a matching connection point. It is also used to orient the attached leg of a dynamic connector. This cell takes a floating point value.  <br/> |
-|[DirY/B](diryb-cell-connection-points-section.md) <br/> |The  *y*  -component for the required alignment vector of a matching connection point. It is also used to orient the attached leg of a dynamic connector. This cell takes a floating point value.  <br/> |
+|[X](x-cell-connection-points-section.md) <br/> |The *x*  -coordinate for a connection point in local coordinates.  <br/> |
+|[Y](y-cell-connection-points-section.md) <br/> |The *y*  -coordinate for a connection point in local coordinates.  <br/> |
+|[DirX/A](dirxa-cell-connection-points-section.md) <br/> |The *x*  -component for the required alignment vector of a matching connection point. It is also used to orient the attached leg of a dynamic connector. This cell takes a floating point value.  <br/> |
+|[DirY/B](diryb-cell-connection-points-section.md) <br/> |The *y*  -component for the required alignment vector of a matching connection point. It is also used to orient the attached leg of a dynamic connector. This cell takes a floating point value.  <br/> |
 |[Type/C](typec-cell-connection-points-section.md) <br/> |The connection point type (0 = inward; 1 = outward; 2 = inward + outward).  <br/> |
 |[D](d-cell-connection-points-section.md) <br/> |A scratch cell that you can use for entering or testing formulas. To access this cell, right-click a row, and then click **Change Row Type** on the shortcut menu.  <br/> |
    

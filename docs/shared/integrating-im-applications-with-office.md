@@ -59,7 +59,7 @@ To enable this integration with Office, an IM client application must implement 
 >  A handful of Office 2010 applications can integrate similarly with a third-party IM provider application: Outlook 2010, Word 2010, Excel 2010, PowerPoint 2010, and SharePoint Server 2010 (using an ActiveX control). Many of the steps required for integration with Office 2013 apply to Office 2010 as well. 
 >  There are several key differences in how Office 2010 integrates with an IM provider application: 
 >  - Office 2010 does not display the contact's photo. 
->  - You must download the Microsoft.Office.Uc.dll file separately from Office 2010. The [Lync 2010 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=18898) includes the Microsoft.Office.UC.dll file for Office 2010. 
+>  - You must download the Microsoft.Office.Uc.dll file separately from Office 2010. The [Lync 2010 SDK](https://www.microsoft.com/download/details.aspx?id=18898) includes the Microsoft.Office.UC.dll file for Office 2010. 
 >  - When the Office application calls the [IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) method on the IM client application, it passes in the string "14.0.0.0". 
 >  - Office 2010 enumerates all groups and contacts as soon as it connects to an IM client application. 
   

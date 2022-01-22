@@ -42,7 +42,7 @@ We would like to hear from you. In the online topics on MSDN, you can add commen
   
 ### Download
 
-The Project 2013 SDK download is available in the [Microsoft Download Center](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20) (  `https://www.microsoft.com/en-us/download/details.aspx?id=30435%20`). The download includes Project2013SDK.HxS (the file that includes this article), related code samples, redistributable assemblies, and other resources. The Project 2013 SDK does not yet include the Reporting datatables reference.
+The Project 2013 SDK download is available in the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=30435%20) (  `https://www.microsoft.com/download/details.aspx?id=30435%20`). The download includes Project2013SDK.HxS (the file that includes this article), related code samples, redistributable assemblies, and other resources. The Project 2013 SDK does not yet include the Reporting datatables reference.
   
 ### What's new in the Project SDK
 <a name="pj15_Welcome_WhatsNew"> </a>
@@ -54,7 +54,7 @@ The underlying technology for network communication is Windows Communication Fou
 > [!NOTE]
 > Although it addresses only the most commonly used Project Server features, we recommend that you use the CSOM where possible for applications both on-premises and in the cloud. Although it is still available in Project Server 2013, the ASMX interface for the PSI is deprecated. For on-premises applications that require full access to the PSI, you should use the WCF interface for the PSI, rather than the ASMX interface. 
   
-Development on a Windows 7 computer is supported by copying the CSOM assemblies for Project Server 2013 and for SharePoint Server 2013 to the development computer. The SDK download includes the CSOM assemblies for Project Server and a redistribution license. To get the SharePoint CSOM assemblies, see [SharePoint Server 2013 Client Components SDK](https://www.microsoft.com/en-us/download/details.aspx?id=35585).
+Development on a Windows 7 computer is supported by copying the CSOM assemblies for Project Server 2013 and for SharePoint Server 2013 to the development computer. The SDK download includes the CSOM assemblies for Project Server and a redistribution license. To get the SharePoint CSOM assemblies, see [SharePoint Server 2013 Client Components SDK](https://www.microsoft.com/download/details.aspx?id=35585).
   
 For development with the WCF services, you can set a reference to a PSI proxy assembly or add PSI proxy files to the solution. You can set direct references to the front-end Project Server ASMX web services from a remote computer within the same domain, or use a proxy assembly or proxy files. The SDK download includes proxy files for the WCF services and the ASMX web services, plus scripts for building the proxy assemblies and for generating updated proxy files.
   
@@ -112,9 +112,9 @@ The **Conceptual and how-to articles** section includes the following:
     
 - [Project Server 2013 architecture](project-server-2013-architecture.md)
     
-- [Project 2013 SDK download](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
+- [Project 2013 SDK download](https://www.microsoft.com/download/details.aspx?id=30435%20)
     
-- [SharePoint Server 2013 Client Components SDK](https://www.microsoft.com/en-us/download/details.aspx?id=35585)
+- [SharePoint Server 2013 Client Components SDK](https://www.microsoft.com/download/details.aspx?id=35585)
     
 - [Project for developers](https://msdn.microsoft.com/project)
     
@@ -128,6 +128,6 @@ The **Conceptual and how-to articles** section includes the following:
     
 - [Accessibility in Microsoft Office 365](https://www.microsoft.com/enable/products/office365/)
     
-- [Microsoft online privacy notice](https://privacy.microsoft.com/en-us/privacystatement)
+- [Microsoft online privacy notice](https://privacy.microsoft.com/privacystatement)
     
 

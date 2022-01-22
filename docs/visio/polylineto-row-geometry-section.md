@@ -22,8 +22,8 @@ A PolylineTo row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The  *x*  -coordinate of the ending vertex of a polyline.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The  *y*  -coordinate of the ending vertex of a polyline.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the ending vertex of a polyline.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the ending vertex of a polyline.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |The polyline formula.  <br/> |
    
 ## Remarks

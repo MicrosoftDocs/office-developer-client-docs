@@ -1,9 +1,8 @@
 ---
 title: "DIALOGMsgProc"
  
- 
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 1/22/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -18,9 +17,9 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # DIALOGMsgProc
 
-**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
-This procedure is associated with the native Windows dialog box that [fShowDialog](fshowdialog.md) displays. It provides the service routines called by Windows for the events (messages) that occur when the user operates one of the dialog box's buttons, entry fields, or controls. 
+This procedure is associated with the native Windows dialog box that [fShowDialog](fshowdialog.md) displays. It provides the service routines called by Windows for the events (messages) that occur when the user operates one of the dialog box's buttons, entry fields, or controls.
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
@@ -44,15 +43,12 @@ Arguments passed by Windows.
   
 ## Property value/Return value
 
- **TRUE** if message processed, **FALSE** if not. 
+ **TRUE** if message processed, **FALSE** if not.
   
 ### Example
 
-See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
+See `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.
   
 ## See also
 
-
-
 [Functions in the Generic DLL](functions-in-the-generic-dll.md)
-

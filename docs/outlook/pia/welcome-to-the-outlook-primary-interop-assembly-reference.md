@@ -56,5 +56,5 @@ If you use Office Developer Tools for Visual Studio 2013 and you are connected t
 - [Outlook Developer Center](../outlook-home.md)
 - [COM and .NET Interoperability](https://www.apress.com/us/book/9781590590119)
 - [Office Development in Visual Studio](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio?view=vs-2017)
-- [Accessibility in Microsoft Products](https://www.microsoft.com/en-us/accessibility/)
+- [Accessibility in Microsoft Products](https://www.microsoft.com/accessibility/)
 

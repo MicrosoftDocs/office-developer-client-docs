@@ -17,7 +17,7 @@ description: "The SetField action can be used to assign a value to a field."
 The **SetField** action can be used to assign a value to a field. 
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
   
 > [!NOTE]
 > The **SetField** action is available only in Data Macros. 

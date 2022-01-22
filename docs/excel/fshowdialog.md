@@ -48,7 +48,7 @@ The steps to display the native Windows dialog box are as follows:
     
 ### Example
 
-See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
+See `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
   
 ## See also
 

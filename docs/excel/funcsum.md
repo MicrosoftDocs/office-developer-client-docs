@@ -40,7 +40,7 @@ The sum of the arguments or #VALUE! if there are non-numerics in the supplied ar
   
 ### Example
 
-See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
+See `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
   
 ## See also
 

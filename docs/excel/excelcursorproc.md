@@ -48,7 +48,7 @@ LRESULT: 0 if the message was handled, otherwise the result returned by the defa
   
 ### Example
 
-See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
+See `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
   
 ## See also
 

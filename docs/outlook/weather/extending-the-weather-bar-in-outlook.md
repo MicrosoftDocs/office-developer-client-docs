@@ -176,7 +176,7 @@ Contoso Weather responds with the following XML to provide the weather informati
 <?xml version="1.0"?>
 <weatherdata>
   <weather timezone="9" attribution="Data provided by Trey Research" 
-    degreetype="F" imagerelativeurl="https://contoso.com/images/en-us/" 
+    degreetype="F" imagerelativeurl="https://contoso.com/images/" 
     url="https://contoso.com/weather.aspx?eid=33568&amp;q=Tokyo-JPN" 
     weatherlocationname="Tokyo, JPN" 
     weatherlocationcode="wc:JAXX0085">

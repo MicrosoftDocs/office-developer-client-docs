@@ -245,11 +245,11 @@ When users encounter add-ins or solutions that are not rendering correctly, some
 
 Office has a setting to optimize for compatibility when moving to different DPI scales on different screens. The compatibility mode disables DPI scaling so that everything in Office is bitmap stretched when moved to a display using different DPI scaling. 
 
-The compatibility mode forces Office to run in System DPI aware mode. This causes application windows to bitmap stretch and can have a side effect of a blurry appearance. Your Office solution cannot control this setting because the user chooses it. Using the display compatibility mode solves most drawing problems. For more information, see [Office support for high definition displays](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d). 
+The compatibility mode forces Office to run in System DPI aware mode. This causes application windows to bitmap stretch and can have a side effect of a blurry appearance. Your Office solution cannot control this setting because the user chooses it. Using the display compatibility mode solves most drawing problems. For more information, see [Office support for high definition displays](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d). 
 
 ### Configure Windows to fix blurry apps
 
-Windows 10 (Version 1803) and later has a setting to fix apps so they’re not blurry. This is another setting to try if your solution is not rendering correctly. Your Office solution cannot control this setting because the user chooses it. For more information, see [Fix apps that appear blurry in Windows 10](https://support.microsoft.com/en-us/help/4091364/windows-10-fix-blurry-apps).
+Windows 10 (Version 1803) and later has a setting to fix apps so they’re not blurry. This is another setting to try if your solution is not rendering correctly. Your Office solution cannot control this setting because the user chooses it. For more information, see [Fix apps that appear blurry in Windows 10](https://support.microsoft.com/help/4091364/windows-10-fix-blurry-apps).
 
 ## How to support DPI scaling in your solution
 
@@ -453,7 +453,7 @@ namespace SharedModule
 
 A custom task pane is created as a child window by Office. When running on Windows Fall Creators Update (1709), your custom task pane will run using the same DPI awareness mode as Office. When running on Windows April 2018 Update (1803) and later, your custom task pane will run using System DPI awareness mode. 
 
-Because custom task panes are child windows, they cannot receive DPI notifications. If they are drawing incorrectly, the user will need to use [Office DPI compatibility mode](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
+Because custom task panes are child windows, they cannot receive DPI notifications. If they are drawing incorrectly, the user will need to use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 If your custom task pane creates top-level windows, those windows can run in any DPI awareness mode and receive DPI change notifications. For more information, see the [Top-level window management](#top-level-window-management) section in this article.
 
 <h3 id="com-add-ins">COM add-ins</h3>

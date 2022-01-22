@@ -105,7 +105,7 @@ For more information about the InfoPath Forms Services object model, see the Sha
   
 ## InfoPath Development Environment
 
-The development of business logic in InfoPath 2013 form templates can be performed by using Visual Studio 2012 with the [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/en-us/download/details.aspx?id=38807) add-on installed. 
+The development of business logic in InfoPath 2013 form templates can be performed by using Visual Studio 2012 with the [Microsoft Visual Studio Tools for Applications 2012](https://www.microsoft.com/download/details.aspx?id=38807) add-on installed. 
   
 > [!NOTE]
 > InfoPath 2013 does not support creating or editing form templates that use business logic written with JScript or VBScript, although the InfoPath Filler supports opening script-based form templates that were created in previous versions of InfoPath. 

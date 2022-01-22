@@ -17,7 +17,7 @@ description: "The RaiseError action displays a popup window that contains a spec
 The **RaiseError** action displays a popup window that contains a specified error message. 
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
   
 > [!NOTE]
 > The **RaiseError** action is available only in Data Macros. 

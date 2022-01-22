@@ -42,7 +42,7 @@ The function obtains the address of the Excel **WndProc** through the use of **G
   
 ### Example
 
-See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
+See `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
   
 ## See also
 

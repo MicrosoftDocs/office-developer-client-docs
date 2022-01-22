@@ -226,5 +226,5 @@ If data is encountered that doesn’t match the guessed data type for the column
 
 ## See also
 
-- [Using the TypeGuessRows setting for Excel Driver](https://support.office.com/en-us/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
+- [Using the TypeGuessRows setting for Excel Driver](https://support.office.com/article/using-the-typeguessrows-setting-for-excel-driver-6aa3e101-2a90-47ac-bf0f-7d4109a5708b?ui=en-US&rs=en-US&ad=US)
 

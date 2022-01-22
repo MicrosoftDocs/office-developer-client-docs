@@ -29,23 +29,23 @@ HRESULT Next(
 
 _celt_
   
-> [in] The number of free/busy data blocks in  *pblk*  to retrieve. 
-    
+> [in] The number of free/busy data blocks in  *pblk*  to retrieve.
+
 _pblk_
   
-> [in] A pointer to an array of free/busy blocks. The array is allocated a size of  *celt*  . The requested free/busy blocks are returned in this array. 
-    
+> [in] A pointer to an array of free/busy blocks. The array is allocated a size of *celt*. The requested free/busy blocks are returned in this array.
+
 _pcfetch_
   
-> [out] The number of free/busy blocks actually returned in  *pblk*  . 
-    
+> [out] The number of free/busy blocks actually returned in *pblk*.
+
 ## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The requested number of blocks has been returned.  <br/> |
 |S_FALSE  <br/> |The requested number of blocks has not been returned.  <br/> |
-   
+
 ## See also
 
 - [Constants (Free/busy API)](constants-free-busy-api.md)  
@@ -54,4 +54,3 @@ _pcfetch_
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
 - [IEnumFBBlock::Restrict](ienumfbblock-restrict.md)  
 - [IEnumFBBlock::Skip](ienumfbblock-skip.md)
-
