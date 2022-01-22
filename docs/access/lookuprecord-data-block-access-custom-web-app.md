@@ -28,7 +28,7 @@ The **SetField** action has the following arguments.
   
 |**Argument**|**Required**|**Description**|
 |:-----|:-----|:-----|
-| _In_ <br/> |Yes  <br/> |A string that identifies the record to operate on. The  *In*  argument can contain the name of the table, a select query, or a SQL statement.  <br/> |
+| _In_ <br/> |Yes  <br/> |A string that identifies the record to operate on. The *In*  argument can contain the name of the table, a select query, or a SQL statement.  <br/> |
 | _Where Condition_ <br/> |No  <br/> |A string expression used to restrict the range of data on which the **LookupRecord** data block is performed. For example, criteria is often equivalent to the WHERE clause in an SQL expression, without the word WHERE. If criteria is omitted, the **LookupRecord** data block operates on the entire domain specified by the  *In*  argument. Any field that is included in criteria must also be a field in  *In*  .  <br/> |
 | _Alias_ <br/> |No  <br/> |A string that provides an alternative name for the record specified by the  *In*  argument. Often used to shorten the table name for subsequent references to prevent possible ambiguous references. If  *Alias*  is not specified, the table or query name will be used as the alias.  <br/> |
    

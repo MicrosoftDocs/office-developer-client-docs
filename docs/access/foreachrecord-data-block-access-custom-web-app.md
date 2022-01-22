@@ -25,7 +25,7 @@ The **ForEachRecord** action has the following arguments.
   
 |**Argument name**|**Required**|**Description**|
 |:-----|:-----|:-----|
-|**In** <br/> |Yes  <br/> |A string that identifies the domain of records to operate on. The  *In*  argument can contain the name of the table, a select query, or a SQL statement.  <br/> **NOTE**: The specified domain cannot include data stored in a linked table or ODBC data source.           |
+|**In** <br/> |Yes  <br/> |A string that identifies the domain of records to operate on. The *In*  argument can contain the name of the table, a select query, or a SQL statement.  <br/> **NOTE**: The specified domain cannot include data stored in a linked table or ODBC data source.           |
 |**Where Condition** <br/> |No  <br/> |A string expression used to restrict the range of data on which the **ForEachRecord** data block is performed. For example, criteria is often equivalent to the WHERE clause in an SQL expression, without the word WHERE. If criteria are omitted, the **ForEachRecord** data block operates on the entire domain specified by the  *In*  argument. Any field that is included in criteria must also be a field in  *In*  .  <br/> |
 |**Alias** <br/> |No  <br/> |A string that provides an alternative name for the domain specified by the  *In*  argument. Often used to shorten the table name for subsequent references to prevent possible ambiguous references. If  *Alias*  is not specified, the table or query name will be used as the alias.  <br/> |
    

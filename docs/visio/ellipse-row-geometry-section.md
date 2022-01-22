@@ -22,12 +22,12 @@ An Ellipse row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The  *x*  -coordinate of the center point.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The  *y*  -coordinate of the center point.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the center point.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the center point.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |The x-coordinate of one point on the ellipse; paired with  *y*  -coordinate represented by the B cell.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |The  *y*  -coordinate of one point on the ellipse; paired with x-coordinate represented by the A cell.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |The  *x*  -coordinate of another point on the ellipse; paired with  *y*  -coordinate represented by the D cell.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |The  *y*  -coordinate of another point on the ellipse; paired with  *y*  -coordinate represented by the C cell.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |The *y*  -coordinate of one point on the ellipse; paired with x-coordinate represented by the A cell.  <br/> |
+|[C](c-cell-geometry-section.md) <br/> |The *x*  -coordinate of another point on the ellipse; paired with  *y*  -coordinate represented by the D cell.  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |The *y*  -coordinate of another point on the ellipse; paired with  *y*  -coordinate represented by the C cell.  <br/> |
    
 ## Remarks
 

@@ -21,7 +21,7 @@ Represents different information in different rows. This table describes the B c
   
 |Row|Description|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The  *y*  -coordinate of an arc's control point.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The *y*  -coordinate of an arc's control point.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The last weight of the nonuniform rational B-spline (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | The first knot of a spline.  <br/> |
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | A  *y*  -coordinate of a point on an infinite line; paired with  *x*  -coordinate represented by the [A](a-cell-geometry-section.md) cell.  <br/> |

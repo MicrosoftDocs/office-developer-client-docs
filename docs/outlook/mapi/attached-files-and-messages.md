@@ -52,7 +52,7 @@ If there is no mapping for the file extension, the default  *application/octet* 
   
 On inbound messages, the content-type for an attachment should always be copied to the MAPI property **PR_ATTACH_MIME_TAG** ([PidTagAttachMimeTag](pidtagattachmimetag-canonical-property.md)). Even if a filename is defined for an attached file, the extension mapped by the content-type should be used in the **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) and **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) properties.
   
-The  *name*  parameter is officially deprecated by RFC 821. As standards evolve, Microsoft will consider specifying an alternate mapping for attached filenames. 
+The *name*  parameter is officially deprecated by RFC 821. As standards evolve, Microsoft will consider specifying an alternate mapping for attached filenames. 
   
 Outbound attached messages are sent as * Content-type: message/rfc822 *  Messages within attached messages are encoded recursively, in their proper place. Inbound message content parts with  *Content-Type: multipart/digest*  are also mapped to embedded messages. 
   

@@ -37,7 +37,7 @@ The current macro ends once the **OpenPopup** action is processed.
   
 Any sorting or filtering applied by the user is cleared when the **OpenPopup** action is called. 
   
-The  *OrderBy*  argument is the name of the field or fields on which you want to sort records. When you use more than one field name, separate the names with a comma (,). 
+The *OrderBy*  argument is the name of the field or fields on which you want to sort records. When you use more than one field name, separate the names with a comma (,). 
   
 When you set the  *OrderBy*  argument, the records are sorted by default in ascending order. 
   

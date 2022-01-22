@@ -17,7 +17,7 @@ description: "The x -coordinate of the comment marker in page coordinates."
 
 # X Cell (Annotation Section)
 
-The  *x*  -coordinate of the comment marker in page coordinates. 
+The *x*  -coordinate of the comment marker in page coordinates. 
   
 > [!NOTE]
 > This cell is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format. It is not used for tracking comments in .vsdx documents in Visio 2013. 

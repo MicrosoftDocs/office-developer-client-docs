@@ -26,7 +26,7 @@ When an XLL registers a function or command, Excel creates a new name for the re
   
 ## Argument Description String Truncation in the Function Wizard
 
-The  *pxArgumentHelp1*  parameter and all subsequent parameters of the **xlfRegister** function are optional strings that correspond to the arguments of the XLL function. The Function Wizard displays these to provide help in the argument construction dialog box. Sometimes Excel truncates the string that corresponds to the final argument by one or two characters when displaying it in the dialog box. You can avoid this by adding an additional "empty string" as the last "argument help" parameter of your function registration.
+The *pxArgumentHelp1*  parameter and all subsequent parameters of the **xlfRegister** function are optional strings that correspond to the arguments of the XLL function. The Function Wizard displays these to provide help in the argument construction dialog box. Sometimes Excel truncates the string that corresponds to the final argument by one or two characters when displaying it in the dialog box. You can avoid this by adding an additional "empty string" as the last "argument help" parameter of your function registration.
   
 ## Binary Name Scope Limitation
 

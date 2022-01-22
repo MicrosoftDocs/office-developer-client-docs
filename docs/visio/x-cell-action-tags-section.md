@@ -17,7 +17,7 @@ description: "The x -coordinate position in the shape's local coordinates around
 
 # X Cell (Action Tags Section)
 
-The  *x*  -coordinate position in the shape's local coordinates around which the action tag button is placed. 
+The *x*  -coordinate position in the shape's local coordinates around which the action tag button is placed. 
   
 > [!NOTE]
 > In previous versions of Microsoft Visio, action tags are called smart tags. 

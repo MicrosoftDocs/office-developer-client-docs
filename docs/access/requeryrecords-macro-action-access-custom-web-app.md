@@ -32,7 +32,7 @@ The **RequeryRecords** action has the following arguments.
 
 Any sorting or filtering applied by the user is cleared when the **RequeryRecords** action is called. 
   
-The  *OrderBy*  argument is the name of the field or fields on which you want to sort records. When you use more than one field name, separate the names with a comma (,). 
+The *OrderBy*  argument is the name of the field or fields on which you want to sort records. When you use more than one field name, separate the names with a comma (,). 
   
 When you set the  *OrderBy*  argument, the records are sorted by default in ascending order. 
   

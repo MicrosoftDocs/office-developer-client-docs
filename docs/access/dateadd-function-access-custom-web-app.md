@@ -13,23 +13,25 @@ description: "Returns a specified date with the specified number interval (posit
 Returns a specified date with the specified number interval (positive or negative integer) added to a specified date part of that date.
   
 > [!NOTE]
-> The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
+> The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error:
+> *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*
+> For cloud storage for Office Online, Office for iOS, and Office for Android, look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).
   
 ## Syntax
 
-**DateAdd** (*DatePart*, *Number*, *Date*) 
+**DateAdd** (*DatePart*, *Number*, *Date*)
   
-The **DateAdd** function contains the following arguments. 
+The **DateAdd** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *DatePart*  <br/> |The part of  *Date*  to which an integer number is added. Refer to the Remarks section for the list of valid settings.  <br/> |
-| *Number*  <br/> |Is an expression that can be resolved to an integer that is added to a  *DatePart*  of  *Date*  . If you specify a value with a decimal fraction, the fraction is truncated.  <br/> |
-| *Date*  <br/> |An expression that can be resolved to a Date/Time value. The  *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
-   
+| *DatePart*  <br/> |The part of *Date*  to which an integer number is added. Refer to the Remarks section for the list of valid settings.  <br/> |
+| *Number*  <br/> |Is an expression that can be resolved to an integer that is added to a *DatePart*  of *Date*  . If you specify a value with a decimal fraction, the fraction is truncated.  <br/> |
+| *Date*  <br/> |An expression that can be resolved to a Date/Time value. The *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
+
 ## Remarks
 
-The following table lists all valid  *DatePart*  arguments. 
+The following table lists all valid *DatePart*  arguments.
   
 |***DatePart***|
 |:-----|
@@ -43,7 +45,7 @@ The following table lists all valid  *DatePart*  arguments.
 |**minute** <br/> |
 |**second** <br/> |
 |**millisecond** <br/> |
-   
+
 ## Example
 
 The following expression calculates the last day of the current month.
@@ -53,5 +55,3 @@ The following expression calculates the last day of the current month.
 The following expression calculates the last day of the previous month.
   
 `DateAdd(Day,-1,DateAdd(Month,DateDiff(Month,0,Today()),0))`
-
-

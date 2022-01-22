@@ -17,7 +17,7 @@ description: "The x -offset of the action tag button relative to the point defin
 
 # X Justify Cell (Action Tags Section)
 
-The  *x*  -offset of the action tag button relative to the point defined by the X and Y cells. 
+The *x*  -offset of the action tag button relative to the point defined by the X and Y cells. 
   
 > [!NOTE]
 > In previous versions of Microsoft Visio, action tags are called smart tags. 

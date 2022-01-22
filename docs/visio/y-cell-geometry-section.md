@@ -22,15 +22,15 @@ Represents a  *y*  -coordinate on a shape in local coordinates. This table descr
 |Row|Description|
 |:-----|:-----|
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | If the MoveTo row is the first row in the section, the Y cell represents the  *y*  -coordinate of the first vertex of a path. If the MoveTo row appears between two rows, the Y cell represents the  *y*  -coordinate of the first vertex after the break in the path.  <br/> |
-|[LineTo](lineto-row-geometry-section.md) <br/> | The  *y*  -coordinate of the ending vertex of a straight line segment.  <br/> |
-|[ArcTo](arcto-row-geometry-section.md) <br/> | The  *y*  -coordinate of the ending vertex of an arc.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The  *y*  -coordinate of the ending vertex of an elliptical arc.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> | The  *y*  -coordinate of the ending vertex of a polyline.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The  *y*  -coordinate of the last control point of a nonuniform rational B-spline (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | The  *y*  -coordinate of a spline's second control point.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> | The  *y*  -coordinate of a control point.  <br/> |
+|[LineTo](lineto-row-geometry-section.md) <br/> | The *y*  -coordinate of the ending vertex of a straight line segment.  <br/> |
+|[ArcTo](arcto-row-geometry-section.md) <br/> | The *y*  -coordinate of the ending vertex of an arc.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The *y*  -coordinate of the ending vertex of an elliptical arc.  <br/> |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> | The *y*  -coordinate of the ending vertex of a polyline.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The *y*  -coordinate of the last control point of a nonuniform rational B-spline (NURBS).  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | The *y*  -coordinate of a spline's second control point.  <br/> |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> | The *y*  -coordinate of a control point.  <br/> |
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | A  *y-*  coordinate of a point on the infinite line.  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | The  *y*  -coordinate of the center of the ellipse.  <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | The *y*  -coordinate of the center of the ellipse.  <br/> |
    
 ## Remarks
 

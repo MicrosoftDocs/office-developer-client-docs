@@ -23,11 +23,11 @@ A **RelCubBezTo** row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The  *x*  -coordinate of the ending vertex of a cubic Bézier curve relative to the width of the shape.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The  *y*  -coordinate of the ending vertex of a cubic Bézier curve relative to the height of the shape.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |The  *x*  -coordinate of the curve's beginning control point relative to the shape's width; a point on the arc. The control point is best located between the beginning and ending vertices of the arc.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |The  *y*  -coordinate of a curve's beginning control point relative to the shape's height.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |The  *x*  -coordinate of the curve's ending control point relative to the shape's width; a point on the arc. The control point is best located between the beginning control point and ending vertices of the arc.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |The  *y*  -coordinate of a curve's ending control point relative to the shape's height.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the ending vertex of a cubic Bézier curve relative to the width of the shape.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the ending vertex of a cubic Bézier curve relative to the height of the shape.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |The *x*  -coordinate of the curve's beginning control point relative to the shape's width; a point on the arc. The control point is best located between the beginning and ending vertices of the arc.  <br/> |
+|[B](b-cell-geometry-section.md) <br/> |The *y*  -coordinate of a curve's beginning control point relative to the shape's height.  <br/> |
+|[C](c-cell-geometry-section.md) <br/> |The *x*  -coordinate of the curve's ending control point relative to the shape's width; a point on the arc. The control point is best located between the beginning control point and ending vertices of the arc.  <br/> |
+|[D](d-cell-geometry-section.md) <br/> |The *y*  -coordinate of a curve's ending control point relative to the shape's height.  <br/> |
    
 

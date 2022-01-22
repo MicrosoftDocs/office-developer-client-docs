@@ -17,22 +17,23 @@ description: "Returns a time value based on specified parts."
 Returns a time value based on specified parts.
   
 > [!NOTE]
-> The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
+> The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error:
+> *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*
+> For cloud storage for Office Online, Office for iOS, and Office for Android, look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).
   
 ## Syntax
 
- **TimeFromParts** (*Hour*, *Minute*, *Second*) 
+**TimeFromParts** (*Hour*, *Minute*, *Second*)
   
-The **TimeFromParts** function contains the following arguments. 
+The **TimeFromParts** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
 | *Hour*  <br/> |Integer expression specifying hours.  <br/> |
 | *Minute*  <br/> |Integer expression specifying minutes.  <br/> |
 | *Second*  <br/> |Integer expression specifying seconds.  <br/> |
-   
+
 ## See also
 
- **TimeFromParts** returns a fully initialized time value. If the arguments are invalid, then an error is raised. If any of the parameters are null, null is returned. 
+ **TimeFromParts** returns a fully initialized time value. If the arguments are invalid, then an error is raised. If any of the parameters are null, null is returned.
   
-
