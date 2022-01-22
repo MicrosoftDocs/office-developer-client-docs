@@ -11,8 +11,7 @@ description: "Last modified: March 09, 2015"
 ---
 
 # About the Replication State Machine
-
-  
+ 
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
@@ -56,12 +55,7 @@ A client calls **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd](iostx-
 |[Download hierarchy state](download-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |**[DNHIER](dnhier.md)** <br/> |
 |[Download table state](download-table-state.md) <br/> |Items  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |**[DNTBL](dntbl.md)** <br/> |
 |[Download message header state](download-message-header-state.md) <br/> |Message header  <br/> |**LR_SYNC_DOWNLOAD_HEADER** <br/> |**[HDRSYNC](hdrsync.md)** <br/> |
-   
-## State Transition Diagram
 
-The following diagram shows the state transitions that occur when uploading or performing a full synchronization (downloading followed by uploading) of folders or contents of folders (mail, calendar, contact, note, task, or journal items). 
-  
-@@@@@NEED TO INSERT ART HERE THAT IS MISSING@@@@@@
   
 ## Example: Uploading a Folder Hierarchy
 
@@ -76,17 +70,12 @@ The following diagram shows the state transitions that occur when uploading or p
 |4.  <br/> |Outlook 2013 or Outlook 2010 populates **UPFLD** by initializing its [out] parameters, including the reason for the folder upload, the pointer to the folder object, and the entry ID for the folder.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
 |5.  <br/> |The client uploads the specified folder.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
 |6.  <br/> |The client notifies the local store of the completion of the folder upload: Upon success, the client sets the [in] parameter  *ulFlags*  in **UPFLD** with **UPF_OK**, and then calls **IOSTX::SetSyncResult (S_OK)** and **IOSTX::SyncEnd**. Upon failure, the client would not set  *ulFlags*  with the **UPF_OK** flag. It calls **IOSTX::SetSyncResult**, passing in the **HRESULT** value, and **IOSTX::SyncEnd**.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
-|7.  <br/> |If **UPF_OK** is set, Outlook 2013 or Outlook 2010 will clear the internal request for uploading the folder. Then regardless of the state of  *ulFlags*  , it will clean up any internal bookkeeping information. While there are still folders in the hierarchy to upload (*iEnt*  is still less than  *cEnt*), the client and Outlook 2013 or Outlook 2010 repeat steps 3 through 7.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
+|7.  <br/> |If **UPF_OK** is set, Outlook 2013 or Outlook 2010 will clear the internal request for uploading the folder. Then regardless of the state of *ulFlags*, it will clean up any internal bookkeeping information. While there are still folders in the hierarchy to upload (*iEnt*  is still less than  *cEnt*), the client and Outlook 2013 or Outlook 2010 repeat steps 3 through 7.  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |
 |8.  <br/> |The client notifies the local store of the completion of the hierarchy upload: Upon success, the client sets the [in] flag in **UPHIER** with **UPH_OK**, and then calls **IOSTX::SetSyncResult (S_OK)** and **IOSTX::SyncEnd**. Upon failure, the client would not set the **UPH_OK** flag. It calls **IOSTX::SetSyncResult**, passing in the **HRESULT** value, and **IOSTX::SyncEnd**.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
-|9.  <br/> |If **UPH_OK** is set, Outlook 2013 or Outlook 2010 will clear the internal request for uploading the hierarchy. Then regardless of the state of  *ulFlags*  , it will clean up any internal bookkeeping information.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
+|9.  <br/> |If **UPH_OK** is set, Outlook 2013 or Outlook 2010 will clear the internal request for uploading the hierarchy. Then regardless of the state of *ulFlags*, it will clean up any internal bookkeeping information.  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
    
 ## See also
 
-
-
-[About the Replication API](about-the-replication-api.md)
-  
-[MAPI Constants](mapi-constants.md)
-  
+[About the Replication API](about-the-replication-api.md)  
+[MAPI Constants](mapi-constants.md)  
 [SYNCSTATE](syncstate.md)
-
