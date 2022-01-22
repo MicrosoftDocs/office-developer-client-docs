@@ -20,8 +20,8 @@ The **Application** interface includes methods help retrieve, manipulate, and up
 - **Navigation** &ndash; Methods for finding, linking to, and navigating to pages and objects. 
     
 - **Functional** &ndash; All other methods that perform certain actions or set parameters in OneNote. 
-    
-In addition, the **Application** interface includes a number of  *properties*  and  *events*  . 
+
+In addition, the **Application** interface includes a number of *properties* and *events*.
   
 ## Notebook Structure methods
 <a name="ON14DevRef_Application_NotebookStructure"> </a>

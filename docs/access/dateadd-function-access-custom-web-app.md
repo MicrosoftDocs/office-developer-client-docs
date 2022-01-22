@@ -26,7 +26,7 @@ The **DateAdd** function contains the following arguments.
 |**Argument name**|**Description**|
 |:-----|:-----|
 | *DatePart*  <br/> |The part of *Date*  to which an integer number is added. Refer to the Remarks section for the list of valid settings.  <br/> |
-| *Number*  <br/> |Is an expression that can be resolved to an integer that is added to a *DatePart*  of *Date*  . If you specify a value with a decimal fraction, the fraction is truncated.  <br/> |
+| *Number*  <br/> |Is an expression that can be resolved to an integer that is added to a *DatePart* of *Date*. If you specify a value with a decimal fraction, the fraction is truncated.  <br/> |
 | *Date*  <br/> |An expression that can be resolved to a Date/Time value. The *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
 
 ## Remarks
