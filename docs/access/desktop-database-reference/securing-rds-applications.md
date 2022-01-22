@@ -23,7 +23,7 @@ For more information about these issues, see ADO and RDS Security Issues in Micr
 
 If you use the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object on your Internet web server, remember that doing so creates a potential security risk. External users who obtain valid data source name (DSN), user ID, and password information could write pages to send any query to that data source. If you want more restricted access to a data source, one option is to unregister and delete the **RDSServer.DataFactory** object (msadcf.dll), and instead use custom business objects with hard-coded queries.
 
-For more information about the security implications of using the RDSServer.DataFactory object, see the Microsoft Security Bulletin MS99-025 on the [Microsoft Security website](https://www.microsoft.com/en-us/security/default.aspx).
+For more information about the security implications of using the RDSServer.DataFactory object, see the Microsoft Security Bulletin MS99-025 on the [Microsoft Security website](https://www.microsoft.com/security/default.aspx).
 
 ## Client Impersonation and Security
 

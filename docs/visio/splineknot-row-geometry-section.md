@@ -22,8 +22,8 @@ A SplineKnot row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The  *x*  -coordinate of a control point.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The  *y*  -coordinate of a control point.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of a control point.  <br/> |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of a control point.  <br/> |
 |[A](a-cell-geometry-section.md) <br/> |One of the spline's knots (other than the last one or the first two).  <br/> |
    
 ## Remarks

@@ -32,7 +32,7 @@ For XLL developers, there are benefits for creating thread-safe functions:
     
 - They open up the possibility of using remote servers much more efficiently than can be done using a single thread.
     
-Suppose that you have a single-processor computer that has been configured to use, say,  *N*  threads. Suppose that a spreadsheet is running that makes a large number of calls to an XLL function that in turn sends a request for data or for a calculation to be performed to a remote server or cluster of servers. Subject to the topology of the dependency tree, Excel could call the function N times almost simultaneously. Provided that the server or servers are sufficiently fast or parallel, the recalculation time of the spreadsheet could be reduced by as much as a factor of 1/N. 
+Suppose that you have a single-processor computer that has been configured to use, say, *N*  threads. Suppose that a spreadsheet is running that makes a large number of calls to an XLL function that in turn sends a request for data or for a calculation to be performed to a remote server or cluster of servers. Subject to the topology of the dependency tree, Excel could call the function N times almost simultaneously. Provided that the server or servers are sufficiently fast or parallel, the recalculation time of the spreadsheet could be reduced by as much as a factor of 1/N. 
   
 The key issue in writing thread-safe functions is handling contention for resources correctly. This usually means memory contention, and it can be broken down into two issues:
   

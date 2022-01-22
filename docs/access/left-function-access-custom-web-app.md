@@ -17,17 +17,15 @@ description: "Returns the left part of a character string with the specified num
 Returns the left part of a character string with the specified number of characters.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices.
   
 ## Syntax
 
- **Left** (*TextExpression*, *Length*) 
+ **Left** (*TextExpression*, *Length*)
   
-The **Left** function contains the following arguments. 
+The **Left** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
 | *TextExpression*  <br/> |A text expression.  <br/> |
-| *Length*  <br/> |Is a positive integer that specifies how many characters of the  *TextExpression*  are returned.  <br/> |
-   
-
+| *Length*  <br/> |Is a positive integer that specifies how many characters of the *TextExpression* are returned.  <br/> |

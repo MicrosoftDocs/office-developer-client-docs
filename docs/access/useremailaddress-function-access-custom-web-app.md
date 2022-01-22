@@ -17,14 +17,15 @@ description: "Returns the email address of the current user."
 Returns the email address of the current user.
   
 > [!NOTE]
-> The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
+> The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error:
+> *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*
+> For cloud storage for Office Online, Office for iOS, and Office for Android, look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).
   
 ## Syntax
 
- **UserEmailAddress** () 
+ **UserEmailAddress** ()
   
 ## Remarks
 
-The **UserEmailAddress** function is available only in user interface (UI) macros. 
+The **UserEmailAddress** function is available only in user interface (UI) macros.
   
-

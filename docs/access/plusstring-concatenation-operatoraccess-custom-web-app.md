@@ -17,7 +17,7 @@ description: "The plus sign (+) is the string concatenation operator that enable
 The plus sign (+) is the string concatenation operator that enables string concatenation. All other string manipulation is handled by using string functions such as **Substring**. 
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
   
 ## Syntax
 

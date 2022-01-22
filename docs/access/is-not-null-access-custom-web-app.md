@@ -17,13 +17,13 @@ ms.localizationpriority: high
 Determines whether a specified expression is NULL.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices.
   
 ## Syntax
 
  *expression* **IS** [  *NOT*  ] **NULL**
   
-The **IS [NOT] NULL** predicate contains the following arguments. 
+The **IS [NOT] NULL** predicate contains the following arguments.
   
 |||
 |:-----|:-----|
@@ -32,8 +32,7 @@ The **IS [NOT] NULL** predicate contains the following arguments.
    
 ## Remarks
 
-If the value of  *expression*  is NULL, IS NULL returns TRUE; otherwise, it returns FALSE. 
+If the value of *expression* is NULL, IS NULL returns TRUE; otherwise, it returns FALSE.
   
 If the value of expression is NULL, IS NOT NULL returns FALSE; otherwise, it returns TRUE.
   
-

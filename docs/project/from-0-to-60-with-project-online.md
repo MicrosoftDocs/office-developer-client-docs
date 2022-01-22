@@ -162,6 +162,6 @@ Each sample application has an article to explain the highlights of working with
     
 ## See also
 
-For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/en-us/project).
+For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/project).
     
 

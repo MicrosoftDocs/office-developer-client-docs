@@ -31,6 +31,6 @@ Find how-to content, technical articles, references, and blog posts for developi
   
 - [InfoPath 2013 support](https://support.microsoft.com/ph/920)
   
-- [Microsoft community](https://answers.microsoft.com/en-us/office/forum/infopath)
+- [Microsoft community](https://answers.microsoft.com/office/forum/infopath)
   
 

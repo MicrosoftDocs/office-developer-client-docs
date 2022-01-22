@@ -199,6 +199,6 @@ Any of the events of the **ApplicationEvents** object can be handled by the COM 
 - [Creating Office Managed COM Add-Ins with Visual Studio .NET](https://go.microsoft.com/fwlink/?LinkID=73470)
 - [Working with the IDTExtensibility2 Event Procedures](https://go.microsoft.com/fwlink/?LinkID=73471)
 - [Build an Office COM Add-in With Visual Basic .NET](https://go.microsoft.com/fwlink/?LinkID=73469)
-- [Build an Office COM add-in by using Visual C# .NET](https://support.microsoft.com/en-us/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
+- [Build an Office COM add-in by using Visual C# .NET](https://support.microsoft.com/help/302901/how-to-build-an-office-com-add-in-by-using-visual-c-net)
 - [Creating InfoPath 2007 Add-Ins by Using Visual Studio 2005 Tools for the Office System SE](https://msdn.microsoft.com/library/bb968857%28office.12%29.aspx)
 

@@ -1,7 +1,7 @@
 ---
 title: "Developing Excel Cluster Connectors"
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 1/22/2022
 ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
@@ -11,7 +11,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Developing Excel Cluster Connectors
 
-**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Excel cluster connectors provide a means for automatically offloading cluster-safe user-defined function calls in an XLL to a clustered server. For a description of cluster-safe user-defined functions, see [Cluster Safe Functions](cluster-safe-functions.md). This offloading can improve performance by enabling more computing resources to be used. A cluster connector is typically developed by a high performance compute cluster vendor.
   
@@ -29,8 +29,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Office\Excel\Excel Cluster Connectors\
   
 Add a node to this key for the cluster connector that specifies the following strings:
   
--  `Name`—the name that will appear in the list of cluster connectors in Excel.
-    
--  `Filename`—the full path for the DLL.
-    
+- `Name`—the name that will appear in the list of cluster connectors in Excel.
 
+- `Filename`—the full path for the DLL.

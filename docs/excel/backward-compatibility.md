@@ -1,7 +1,7 @@
 ---
 title: "Backward compatibility"
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 1/22/2022
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -13,7 +13,7 @@ description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 
 # Backward compatibility
 
-**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 This topic addresses issues of XLL compatibility in different versions of Microsoft Excel.
   
@@ -34,9 +34,9 @@ Consider including definitions similar to these in your XLL project code and rep
 
 ## Getting the running version
 
-You should detect which version is running using  `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)`, where  `arg` is a numeric **XLOPER** set to 2 and version is a string **XLOPER** which can then be coerced to an integer. For Microsoft Excel 2013, this is 15.0. You should do this in, or from, the [xlAutoOpen](xlautoopen.md) function. You can then set a global variable that informs all of the modules in your project which version of Excel is running. Your code can then decide whether to call the C API using **Excel12** and **XLOPER12**s, or using **Excel4** using **XLOPER**s.
+You should detect which version is running using `Excel4(xlfGetWorkspace, &amp;version, 1, &amp;arg)`, where `arg` is a numeric **XLOPER** set to 2 and version is a string **XLOPER** which can then be coerced to an integer. For Microsoft Excel 2013, this is 15.0. You should do this in, or from, the [xlAutoOpen](xlautoopen.md) function. You can then set a global variable that informs all of the modules in your project which version of Excel is running. Your code can then decide whether to call the C API using **Excel12** and **XLOPER12**s, or using **Excel4** using **XLOPER**s.
   
-You can call **XLCallVer** to discover the C API version, but this does not indicate which of the pre-Excel 2007 versions you are running. 
+You can call **XLCallVer** to discover the C API version, but this does not indicate which of the pre-Excel 2007 versions you are running.
   
 ## Creating add-ins that export dual interfaces
 
@@ -47,12 +47,10 @@ Consider an XLL function that takes a string and returns a value that can be any
 Although this works perfectly well, there are several reasons why this is not the ideal interface to your code starting in Excel 2007:
   
 - It is subject to the limitations of C API byte strings and cannot access the long Unicode strings supported starting in Excel 2007.
-    
 - Although, starting in Excel 2007, Excel can pass and accept **XLOPER**s, internally it converts them to **XLOPER12**s, so there is an implicit conversion overhead starting in Excel 2007 that is not there when the code runs in earlier versions of Excel.
-    
-- It may be that this function can be made thread safe, but if the type string is changed to  `PD$`, registration fails in starting before Excel 2007.
-    
-For these reasons, ideally, starting in Excel 2007 you should export a function for your users that was registered as  `QD%$`, assuming your code is thread safe and prototyped as follows.
+- It may be that this function can be made thread safe, but if the type string is changed to `PD$`, registration fails in starting before Excel 2007.
+
+For these reasons, ideally, starting in Excel 2007 you should export a function for your users that was registered as `QD%$`, assuming your code is thread safe and prototyped as follows.
   
 `LPXLOPER12 WINAPI my_xll_fn_v12(wchar_t *arg);`
   
@@ -68,7 +66,6 @@ Analysis Toolpak (ATP) functions are part of Excel starting in Excel 2007. Previ
   
 ## See also
 
-- [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md) 
+- [C API Callback Functions Excel4, Excel12](c-api-callback-functions-excel4-excel12.md)
 - [Programming with the C API in Excel](programming-with-the-c-api-in-excel.md)
 - [What's New in the C API for Excel](what-s-new-in-the-c-api-for-excel.md)
-

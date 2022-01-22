@@ -13,23 +13,25 @@ description: "Returns the count of the specified date part boundaries crossed be
 Returns the count of the specified date part boundaries crossed between the specified start date and end date.
   
 > [!NOTE]
-> The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error: >  *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.* > For cloud storage for Office Online, Office for iOS, and Office for Android, you can look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage). 
+> The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error:
+> *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*
+> For cloud storage for Office Online, Office for iOS, and Office for Android, look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).
   
 ## Syntax
 
-**DateDiff** (*DatePart*, *StartDate*, *EndDate*) 
+**DateDiff** (*DatePart*, *StartDate*, *EndDate*)
   
-The **DateDiff** function contains the following arguments. 
+The **DateDiff** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *DatePart*  <br/> |Is the part of  *StartDate*  and  *EndDate*  that specifies the type of boundary crossed. Refer to the Remarks section for the list of valid settings.  <br/> |
-| *StartDate*  <br/> |An expression that can be resolved to a Date/Time value. The  *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
-| *EndDate*  <br/> |An expression that can be resolved to a Date/Time value. The  *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
-   
+| *DatePart*  <br/> |Is the part of *StartDate* and *EndDate* that specifies the type of boundary crossed. Refer to the Remarks section for the list of valid settings.  <br/> |
+| *StartDate*  <br/> |An expression that can be resolved to a Date/Time value. The *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
+| *EndDate*  <br/> |An expression that can be resolved to a Date/Time value. The *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
+
 ## Remarks
 
-The following table lists all valid  *DatePart*  arguments. 
+The following table lists all valid *DatePart*  arguments.
   
 |***DatePart***|
 |:-----|
@@ -43,5 +45,3 @@ The following table lists all valid  *DatePart*  arguments.
 |**minute** <br/> |
 |**second** <br/> |
 |**millisecond** <br/> |
-   
-

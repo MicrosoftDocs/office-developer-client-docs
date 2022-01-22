@@ -38,7 +38,7 @@ This argument is ignored, and serves only to trigger Microsoft Excel to call the
   
 ### Example
 
-See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
+See `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function. 
   
 ## See also
 
