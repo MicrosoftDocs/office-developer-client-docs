@@ -13,7 +13,7 @@ ms.localizationpriority: high
 Learn how to control how a number is displayed by creating a user-defined number format.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
 
 You can change the way a number is displayed by creating a user-defined number format. A user-defined number format can have from one to three sections separated by a semicolon (;). If the Style argument of the [Format Function (Access custom web app)](format-function-access-custom-web-app.md) function contains one of the predefined numeric formats, only one section is allowed. 
   

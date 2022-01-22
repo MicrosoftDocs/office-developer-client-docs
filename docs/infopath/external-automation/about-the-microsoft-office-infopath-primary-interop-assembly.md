@@ -30,7 +30,7 @@ The default installation option of the InfoPath setup program installs the Micro
   
 If the Microsoft.Office.Interop.InfoPath assembly is not visible in the GAC, you should confirm that InfoPath was installed correctly. By default, the **.NET Programmability Support** option in the setup program is set to **Run from My Computer** as long as the .NET Framework 1.1 Redistributable, .NET Framework 1.1 Software Development Kit (SDK), or a later version of the .NET Framework is installed before running setup. If these interop assemblies are not available on your computer, you must confirm that .NET Framework 1.1 or later is installed, and then use **Programs and Features** from the **Control Panel** to change setup by setting the **.NET Programmability Support** option under **Microsoft Office InfoPath** to **Run from My Computer**.
   
-For information about downloading the .NET Framework 1.1 Redistributable, see [.NET Framework 1.1 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=26).
+For information about downloading the .NET Framework 1.1 Redistributable, see [.NET Framework 1.1 Redistributable](https://www.microsoft.com/download/details.aspx?id=26).
   
 ## The Microsoft.Office.Interop.InfoPath Namespace
 

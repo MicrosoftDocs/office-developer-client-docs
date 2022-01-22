@@ -27,7 +27,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Office 365 APIs
   
-- [Get started](https://developer.microsoft.com/en-us/office/docs)
+- [Get started](https://developer.microsoft.com/office/docs)
   
 - [Platform overview](https://docs.microsoft.com/previous-versions/office/office-365-api/)
   

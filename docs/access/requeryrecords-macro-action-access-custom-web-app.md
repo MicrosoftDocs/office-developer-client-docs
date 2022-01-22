@@ -17,7 +17,7 @@ description: "You can use the RequeryRecords action to refresh, sort, and filter
 You can use the **RequeryRecords** action to refresh, sort, and filter the data in the active view by requerying the source of the view.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices.
   
 ## Setting
 

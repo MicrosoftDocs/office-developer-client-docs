@@ -40,7 +40,7 @@ The **HelloProject_OData** sample add-in for Project Professional 2013 was devel
     
 - [Connecting a Project Task Pane add-in to PWA](https://blogs.msdn.com/b/project_programmability/archive/2012/11/02/connecting-a-project-task-pane-app-to-pwa.aspx)
     
-- [Project 2013 SDK download](https://www.microsoft.com/en-us/download/details.aspx?id=30435%20)
+- [Project 2013 SDK download](https://www.microsoft.com/download/details.aspx?id=30435%20)
     
 - [Office and SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp161507%28v=office.15%29)
     

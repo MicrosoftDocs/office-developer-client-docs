@@ -22,10 +22,10 @@ Publish date of this reference: October 2012
   
 ## Related links
 
-[Microsoft Office Developer Center: Docs](https://developer.microsoft.com/en-us/office/docs)
+[Microsoft Office Developer Center: Docs](https://developer.microsoft.com/office/docs)
   
 
-[Microsoft Accessibility](https://www.microsoft.com/en-us/accessibility/)
+[Microsoft Accessibility](https://www.microsoft.com/accessibility/)
 
   
 

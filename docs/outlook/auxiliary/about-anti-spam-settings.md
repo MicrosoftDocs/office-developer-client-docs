@@ -33,5 +33,5 @@ Use the following properties to obtain anti-spam settings for the account:
 ## See also
 
 - [About the Account Management API](about-the-account-management-api.md)
-- [Add names to the Junk Email Filter lists](https://office.microsoft.com/en-us/outlook-help/add-names-to-the-junk-email-filter-lists-HA010355043.aspx?CTT=1)
+- [Add names to the Junk Email Filter lists](https://office.microsoft.com/outlook-help/add-names-to-the-junk-email-filter-lists-HA010355043.aspx?CTT=1)
 
