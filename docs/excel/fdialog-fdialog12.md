@@ -1,20 +1,17 @@
 ---
 title: "fDialog/fDialog12" 
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 1/24//2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - fDialog
 - fDialog12
 keywords:
-- fdialog function [excel 2007],fDialog12 function [Excel 2007] 
+- fdialog function [excel 2007]
+- fDialog12 function [Excel 2007] 
 ms.localizationpriority: medium
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
-<<<<<<< HEAD
-
-=======
->>>>>>> c31298c4512c31c77f2d7875cd3894cb29c028f6
 ---
 
 # fDialog/fDialog12
