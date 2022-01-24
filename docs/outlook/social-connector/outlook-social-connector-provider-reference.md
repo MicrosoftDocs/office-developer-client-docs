@@ -1,7 +1,7 @@
 ---
-title: "Outlook Social Connector provider reference"
-manager: soliver
-ms.date: 04/04/2016
+title: "Outlook Social Connector 2013 provider reference"
+manager: lindalu
+ms.date: 01/24/22
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -10,7 +10,7 @@ ms.assetid: 13661393-adf6-4870-86c4-303262317675
 description: "The Outlook Social Connector 2013 provides a communication hub for personal and professional communications."
 ---
 
-# Outlook Social Connector provider reference
+# Outlook Social Connector 2013 provider reference
 
 The Outlook Social Connector 2013 provides a communication hub for personal and professional communications. The Outlook Social Connector (OSC) works with SharePoint Server, SharePoint Workspace, Lync client, and all Office client applications that support presence information and the Contact Card support the OSC. 
 
