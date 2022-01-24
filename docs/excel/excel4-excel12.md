@@ -1,14 +1,15 @@
 ---
 title: "Excel4/Excel12"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindlalu
+ms.date: 01/24/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Excel12
 - Excel4
 keywords:
-- excel4 function [excel 2007],Excel12 function [Excel 2007]
+- excel4 function [excel 2007]
+- Excel12 function [Excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 
@@ -22,7 +23,7 @@ Calls an internal Microsoft Excel worksheet function, macro sheet function or co
   
 All recent versions of Excel support **Excel4**. Starting in Excel 2007, **Excel12** is supported. 
   
-These functions can be called only when Excel has passed control to the DLL or XLL. They can also be called when Excel has passed control indirectly via a call to Visual Basic for Applications (VBA). They cannot be called at any other time. For example, they cannot be called during calls to the [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) function or other times when the operating system has called the DLL, or from a thread created by the DLL. 
+These functions can be called only when Excel has passed control to the DLL or XLL. They can also be called when Excel has passed control indirectly via a call to Visual Basic for Applications (VBA). They cannot be called at any other time. For example, they cannot be called during calls to the [DllMain](/windows/win32/dlls/dllmain.md) function or other times when the operating system has called the DLL, or from a thread created by the DLL. 
   
 The [Excel4v and Excel12v](excel4v-excel12v.md) functions accept their arguments as an array, whereas the **Excel4** and **Excel12** functions accept their arguments as a variable-length list on the stack. In all other respects, **Excel4** behaves the same as **Excel4v**, and **Excel12** behaves the same as **Excel12v**.
   
@@ -35,7 +36,7 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
 
  _iFunction_ (**int**)
   
-A number that indicates the command, function, or special function you want to call. For a list of valid  _iFunction_ values, see the following Remarks section. 
+A number that indicates the command, function, or special function you want to call. For a list of valid _iFunction_ values, see the following Remarks section. 
   
  _pxRes_ (**LPXLOPER** or **LPXLOPER12**)
   
@@ -71,7 +72,7 @@ Returns one of the following integer (**int**) values.
 
 ### Valid iFunction values
 
-Valid **iFunction** values are any of the **xlf...** or **xlc...** constants defined in the Xlcall.h header file or any of the following special functions. 
+Valid **iFunction** values are any of the **xlf...** or **xlc...** constants defined in the Xlcall.h header file or any of the following special functions.
   
 |||||
 |:-----|:-----|:-----|:-----|
@@ -82,9 +83,9 @@ Valid **iFunction** values are any of the **xlf...** or **xlc...** constants def
    
 ### Different Types of Functions
 
- **Excel4** and **Excel12** distinguish among three classes of functions. The functions are classified according to the three states in which Excel might call the DLL. 
+ **Excel4** and **Excel12** distinguish among three classes of functions. The functions are classified according to the three states in which Excel might call the DLL.
   
-- Class 1 applies when the DLL is called from a worksheet as a result of recalculation. 
+- Class 1 applies when the DLL is called from a worksheet as a result of recalculation.
     
 - Class 2 applies when the DLL is called from within a function macro or from a worksheet where it was registered with a number sign (#) in the type text.
     
@@ -96,11 +97,11 @@ The following table shows what functions are valid in each class.
 |:-----|:-----|:-----|
 |Any worksheet function  <br/> Any XLL-only **xl...** function except **xlSet**.  <br/> **xlfCaller** <br/> |Any worksheet function  <br/> Any **xl...** function except **xlSet**.  <br/> Macro sheet functions, including **xlfCaller**, that return a value but perform no action that affects the workspace or any open workbook.  <br/> |Any function, including **xlSet** and command-equivalent functions.  <br/> |
    
-### Displaying the Dialog Box for a Command-Equivalent Function
+### Display the Dialog Box for a Command-Equivalent Function
 
 If a command-equivalent function has an associated dialog box, you can set the **xlPrompt** bit in **iFunction**. This means that Excel displays the appropriate dialog box before carrying out the command.
   
-### Writing International DLLs
+### Write International DLLs
 
 If you set the **xlIntl** bit in **iFunction**, the function or command is carried out as if it were being called from an International Macro Sheet. This means that the command behaves as it would on the U.S. version of Excel, even if it is running on an international (localized) version.
   
@@ -110,14 +111,14 @@ After receiving one of these return values, your DLL must clean up and return co
   
 ## Example
 
-The following example uses the **Excel12** function to select the cell from which it was called. 
+The following example uses the **Excel12** function to select the cell from which it was called.
   
 This code example is part of a larger example provided in the Excel 2010 XLL SDK, at the following location where you installed the SDK:
   
 \Samples\Example\Example.c.
   
 > [!NOTE]
-> This function calls a command macro (xlcSelect) and, therefore, works only if it is called from an XLM macro sheet. 
+> This function calls a command macro (xlcSelect) and, therefore, works only if it is called from an XLM macro sheet.
   
 ```cs
 short WINAPI Excel12Example(void)
@@ -131,8 +132,6 @@ short WINAPI Excel12Example(void)
 ```
 
 ## See also
-
-
 
 [Excel4v/Excel12v](excel4v-excel12v.md)
 
