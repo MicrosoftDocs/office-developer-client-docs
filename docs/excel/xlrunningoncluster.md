@@ -8,7 +8,7 @@ keywords:
 - xlrunningoncluster
 ms.localizationpriority: medium
 ms.assetid: 7662f255-4184-4af0-97f5-9a89347a201a
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlRunningOnCluster

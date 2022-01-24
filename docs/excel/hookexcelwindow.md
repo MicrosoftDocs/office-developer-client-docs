@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # HookExcelWindow

@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 9ad541f6-0b35-4f50-926a-8940e3f8033a
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # debugPrintf

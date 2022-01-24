@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 6cfd3513-800f-4602-b3e6-6430920718d6
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # OpenSession

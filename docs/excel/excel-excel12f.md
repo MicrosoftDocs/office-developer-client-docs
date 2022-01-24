@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Excel/Excel12f

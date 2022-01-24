@@ -10,7 +10,7 @@ keywords:
 - excel 2007 xll software development kit,add-ins [Excel 2007]
  
 ms.assetid: abfc9d76-6f22-49b9-ba45-eb7a54b082e0
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ms.localizationpriority: high
 ---
 

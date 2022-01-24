@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 87c9e75b-c364-4428-a169-010886313b85
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # C API Functions That Can Be Called Only from a DLL or XLL

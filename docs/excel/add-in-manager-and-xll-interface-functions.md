@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: e22d425a-75b2-412c-a07f-fb1915d08615
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Add-in Manager and XLL Interface Functions

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 51acac58-ec39-488f-979c-1887dc2ab94b
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # ShowOptions

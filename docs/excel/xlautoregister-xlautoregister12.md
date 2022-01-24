@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlAutoRegister/xlAutoRegister12

@@ -7,7 +7,7 @@ ms.topic: overview
  
 ms.localizationpriority: medium
 ms.assetid: 92a242e6-c94c-4eef-a4b2-efd1b8f62de8
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Excel XLL SDK copyright notice

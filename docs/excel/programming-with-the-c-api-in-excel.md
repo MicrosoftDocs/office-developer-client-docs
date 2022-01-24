@@ -10,7 +10,7 @@ keywords:
 - c api [excel 2007],programming interfaces [Excel 2007],C API [Excel 2007], when to use,C API [Excel 2007], relation to XLM,Excel programming interfaces
  
 ms.assetid: 142bc0ce-7d16-4b69-9799-ce6558da2def
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ms.localizationpriority: high
 ---
 

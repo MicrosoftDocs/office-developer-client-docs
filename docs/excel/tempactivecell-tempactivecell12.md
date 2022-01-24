@@ -14,7 +14,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: ac5a200d-32d5-4313-9a6d-d730032aaf10
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # TempActiveCell/TempActiveCell12

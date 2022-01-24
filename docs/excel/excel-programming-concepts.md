@@ -10,7 +10,7 @@ keywords:
 - excel programming,Excel concepts
  
 ms.assetid: f572a0d4-631a-4adc-a1a3-714d96ff6b39
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ms.localizationpriority: high
 ---
 

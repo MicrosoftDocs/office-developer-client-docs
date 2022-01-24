@@ -7,7 +7,7 @@ ms.topic: overview
 keywords:
 - add-ins - [excel 2007],developing XLLs - [Excel 2007],XLLs - [Excel 2007], developing
 ms.assetid: dd27ae4d-ef97-47db-885c-ddd955816900
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ms.localizationpriority: high
 ---
 

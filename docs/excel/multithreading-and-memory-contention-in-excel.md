@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 86e1e842-f433-4ea9-8b13-ad2515fc50d8
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Multithreading and Memory Contention in Excel

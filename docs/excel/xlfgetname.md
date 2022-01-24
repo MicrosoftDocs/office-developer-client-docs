@@ -8,7 +8,7 @@ keywords:
 - xlfgetname 
 ms.localizationpriority: medium
 ms.assetid: 65780435-aaa2-47af-b44f-07be7aa769ee
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlfGetName

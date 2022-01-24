@@ -10,7 +10,7 @@ keywords:
 - states [excel 2007],commands [Excel 2007],worksheet functions [Excel 2007],macro-sheet functions [Excel 2007],Excel states
  
 ms.assetid: 20f19aa4-f184-47be-bcdd-7ded78778974
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ms.localizationpriority: high
 ---
 

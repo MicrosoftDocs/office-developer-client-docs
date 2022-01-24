@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # InitFramework
