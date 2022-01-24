@@ -5,7 +5,7 @@ ms.date: 01/22/2022
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- dialog boxes [excel 2007], invoking excel commands,DLLs [Excel 2007], calling into Excel,passing arguments to C API functions [Excel 2007],commands [Excel 2007], invoking with dialog boxes,commands [Excel 2007], accessible from DLL/XLL,Excel4 function [Excel 2007],Excel12 function [Excel 2007],XLCallVer function [Excel 2007],operRes argument [Excel 2007],functions [Excel 2007], accessible from DLL/XLL,Excel12v function [Excel 2007],DLL-only functions [Excel 2007],C API [Excel 2007], passing arguments,count argument [Excel 2007],commands [Excel 2007], calling in international versions,DLL-only commands [Excel 2007],international versions [Excel 2007], calling functions and commands,XLLs [Excel 2007], calling into Excel,Excel 4v function [Excel 2007],xlfn argument [Excel 2007],functions [Excel 2007], calling in international versions
+- dialog boxes [excel 2007], invoking excel commands, DLLs [Excel 2007], calling into Excel,passing arguments to C API functions [Excel 2007], commands [Excel 2007], invoking with dialog boxes,commands [Excel 2007], accessible from DLL/XLL,Excel4 function [Excel 2007],Excel12 function [Excel 2007], XLCallVer function [Excel 2007], operRes argument [Excel 2007], functions [Excel 2007], accessible from DLL/XLL,Excel12v function [Excel 2007],DLL-only functions [Excel 2007],C API [Excel 2007], passing arguments,count argument [Excel 2007], commands [Excel 2007], calling in international versions,DLL-only commands [Excel 2007], international versions [Excel 2007], calling functions and commands, XLLs [Excel 2007], calling into Excel, Excel 4v function [Excel 2007], xlfn argument [Excel 2007], functions [Excel 2007], calling in international versions
 ms.assetid: 616e3def-e4ec-4f3c-bc65-3b92710da1e6
 description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ms.localizationpriority: high
@@ -45,7 +45,7 @@ For the DLL to be able to call **Excel4**, **Excel4v**, **Excel12**, or **Excel1
 
 You cannot call the Excel C API in the following scenarios:
   
-- From an operating system event (for example, from the [DllMain](https://docs.microsoft.com/windows/desktop/dlls/dllmain) function).
+- From an operating system event (for example, from the [DllMain](/windows/win32/dlls/dllmain.md) function).
 
 - From a background thread that your DLL created.
 
