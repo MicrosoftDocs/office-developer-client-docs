@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: 4646659b-f932-4d11-a46f-4231bb397243
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # PingSession

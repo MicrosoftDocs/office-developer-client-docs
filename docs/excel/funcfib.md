@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 6a719f04-b2d1-4f87-a227-be561cbd3e49
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # FuncFib

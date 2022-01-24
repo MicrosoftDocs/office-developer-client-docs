@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 631a8f4e-ea7c-4743-9ee1-b2233fd7d98d
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlGetInst

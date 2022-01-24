@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 3bf5195b-6235-43cf-8795-0c7b0a63a095
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Memory Management in Excel

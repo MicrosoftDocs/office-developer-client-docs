@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 0f3ae86d-329a-4177-a65b-6288c248297e
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # C API Callback Functions Excel4, Excel12

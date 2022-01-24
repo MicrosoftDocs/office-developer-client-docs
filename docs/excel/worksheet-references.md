@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Worksheet References

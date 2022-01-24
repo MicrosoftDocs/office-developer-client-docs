@@ -14,7 +14,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # FreeXLOperT/FreeXLOper12T

@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: dc7e840e-6d1d-427b-97f9-7912e60ec954
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Call XLL Functions from the Function Wizard or Replace Dialog Boxes

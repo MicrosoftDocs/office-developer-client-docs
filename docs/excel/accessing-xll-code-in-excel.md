@@ -7,7 +7,7 @@ ms.topic: overview
 keywords:
 - accessing xll code [excel 2007],XLLs [Excel 2007], accessing code,commands [Excel 2007], registration,functions [Excel 2007], registration,calling XLLs from Excel,registering commands [Excel 2007],registering functions [Excel 2007] 
 ms.assetid: 6e4bf1f3-8eca-4be5-9632-75355ac31d61
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ms.localizationpriority: high
 ---
 

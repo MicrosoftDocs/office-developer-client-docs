@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlAutoFree/xlAutoFree12

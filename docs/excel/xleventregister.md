@@ -9,7 +9,7 @@ ms.topic: reference
  
 ms.localizationpriority: medium
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlEventRegister

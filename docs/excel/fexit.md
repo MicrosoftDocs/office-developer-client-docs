@@ -12,7 +12,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: d85685fa-df70-45bb-b629-a9d43b5cb926
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # fExit

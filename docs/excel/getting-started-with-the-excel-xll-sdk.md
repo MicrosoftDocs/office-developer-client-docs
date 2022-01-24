@@ -8,7 +8,7 @@ keywords:
 - excel 2007 xll software development kit, getting started
 ms.localizationpriority: medium
 ms.assetid: ba7b5817-f22f-4187-8a5f-316f0fbcb9d2
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Getting Started with the Excel XLL SDK

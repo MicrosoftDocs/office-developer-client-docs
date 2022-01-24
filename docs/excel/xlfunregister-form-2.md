@@ -10,7 +10,7 @@ keywords:
 - xlfunregister [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlfUnregister (Form 2)

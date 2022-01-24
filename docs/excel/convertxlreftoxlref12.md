@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 94580044-9497-425f-a31e-53bb4d94dc30
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # ConvertXLRefToXLRef12

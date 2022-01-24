@@ -10,7 +10,7 @@ keywords:
 - xlstack function [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlStack

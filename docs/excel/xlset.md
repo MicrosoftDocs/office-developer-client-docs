@@ -10,7 +10,7 @@ keywords:
 - xlset function [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlSet
