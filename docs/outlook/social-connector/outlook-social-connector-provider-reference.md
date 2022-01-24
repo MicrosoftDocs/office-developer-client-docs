@@ -1,7 +1,7 @@
 ---
 title: "Outlook Social Connector 2013 provider reference"
 manager: lindalu
-ms.date: 01/24/22
+ms.date: 01/24/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
