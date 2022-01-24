@@ -1,16 +1,13 @@
 ---
-title: "xlAbort"
- 
- 
-manager: soliver
-ms.date: 11/16/2014
+title: "xlAbort" 
+manager: lindlau
+ms.date: 1/24/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - xlAbort
 keywords:
-- xlabort function [excel 2007]
- 
+- xlabort function [excel 2007] 
 ms.localizationpriority: medium
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
 
@@ -36,10 +33,6 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
 Returns **TRUE** (**xltypeBool**) if the user has pressed **ESC**.
   
-## Remarks
-
-### 
-
 #### Frequent Calls May Be Needed
 
 Functions and commands that could take a long time should call this function frequently to yield the processor to other tasks in the system.
@@ -117,7 +110,4 @@ int WINAPI fDance(void)
 
 ## See also
 
-
-
 [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-
