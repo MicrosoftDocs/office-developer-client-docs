@@ -1,5 +1,6 @@
 ---
-title: "DIALOGMsgProc" 
+title: "DIALOGMsgProc"
+ 
 manager: lindalu
 ms.date: 1/22/2022
 ms.audience: Developer
@@ -7,10 +8,11 @@ ms.topic: reference
 f1_keywords:
 - DIALOGMsgProc
 keywords:
-- dialogmsgproc function [excel 2007] 
+- dialogmsgproc function [excel 2007]
+ 
 ms.localizationpriority: medium
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
-description: "DIALOGMsgProc description"
+description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
 # DIALOGMsgProc
