@@ -10,7 +10,7 @@ keywords:
 - xlgethwnd function [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: be33b097-812b-4f5c-81be-4d9673e95b0b
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlGetHwnd

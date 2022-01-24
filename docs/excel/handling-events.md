@@ -9,7 +9,7 @@ ms.topic: overview
  
 ms.localizationpriority: medium
 ms.assetid: b67fcb83-a0e2-4349-88f5-bcc181306eac
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Handling Events

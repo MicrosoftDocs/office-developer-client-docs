@@ -10,7 +10,7 @@ keywords:
 - xlgetbinaryname function [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlGetBinaryName

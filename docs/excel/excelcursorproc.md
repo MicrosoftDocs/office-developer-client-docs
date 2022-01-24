@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # ExcelCursorProc

@@ -14,7 +14,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # TempMissing/TempMissing12

@@ -10,7 +10,7 @@ keywords:
 - xlsheetnm function [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlSheetNm

@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 6508cb69-0c7c-4d8c-a466-dd79eb13e316
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # UnhookExcelWindow

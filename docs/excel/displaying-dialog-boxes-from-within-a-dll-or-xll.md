@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: e77ac555-331d-41c8-a000-7b178959754d
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Displaying Dialog Boxes from Within a DLL or XLL

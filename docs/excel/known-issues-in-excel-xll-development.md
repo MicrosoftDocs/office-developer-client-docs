@@ -9,7 +9,7 @@ keywords:
 - known issues [excel 2007] 
 ms.localizationpriority: medium
 ms.assetid: 3dfecc0b-a91c-448e-8721-5d3486b625fa
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Known Issues in Excel XLL Development

@@ -14,7 +14,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: faf4ee4e-8d33-4cb3-ae16-5648a837ee4f
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # TempStrConst/TempStr12

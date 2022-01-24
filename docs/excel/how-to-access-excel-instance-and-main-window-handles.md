@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Access Excel Instance and Main Window Handles

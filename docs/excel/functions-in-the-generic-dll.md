@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Functions in the Generic DLL

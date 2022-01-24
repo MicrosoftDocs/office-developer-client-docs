@@ -14,7 +14,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 7c69d15a-294b-4545-983b-720409001e0e
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # TempActiveRef/TempActiveRef12

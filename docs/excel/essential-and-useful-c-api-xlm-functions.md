@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: dc80cb3d-0d7e-4cb9-9870-3acc84eeca82
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Essential and Useful C API XLM Functions

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
 ms.assetid: 142eb27e-fb6f-4da3-bfb7-a88115bbb5d5
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Asynchronous user-defined functions

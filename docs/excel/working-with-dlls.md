@@ -9,7 +9,7 @@ ms.topic: overview
  
 ms.localizationpriority: medium
 ms.assetid: b2522b47-5260-4e32-ad57-96dec4a0e3f9
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Working with DLLs

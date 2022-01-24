@@ -13,7 +13,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 8c2f2d83-b7aa-456e-b473-a54897bc35ae
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # fDance

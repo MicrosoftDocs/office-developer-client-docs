@@ -9,7 +9,7 @@ keywords:
 api_type:
 - COM
 ms.assetid: 2f6df879-7546-4ac0-a4e3-6b009aee9463
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ms.localizationpriority: high
 ---
 

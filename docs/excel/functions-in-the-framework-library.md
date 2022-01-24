@@ -8,7 +8,7 @@ keywords:
 - framework library functions [excel 2007],functions [Excel 2007], Framework library
 ms.localizationpriority: medium
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Functions in the Framework Library

@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # Permitting User Breaks in Lengthy Operations

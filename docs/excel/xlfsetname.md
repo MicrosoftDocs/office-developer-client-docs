@@ -10,7 +10,7 @@ keywords:
 - xlfsetname function [excel 2007]
 ms.localizationpriority: medium
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # xlfSetName

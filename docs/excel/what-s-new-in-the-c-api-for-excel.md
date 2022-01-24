@@ -11,7 +11,7 @@ keywords:
  
 ms.localizationpriority: medium
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
+
 ---
 
 # What's New in the C API for Excel
