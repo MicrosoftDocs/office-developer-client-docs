@@ -1,7 +1,5 @@
 ---
-title: "fDialog/fDialog12"
- 
- 
+title: "fDialog/fDialog12" 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,11 +8,9 @@ f1_keywords:
 - fDialog
 - fDialog12
 keywords:
-- fdialog function [excel 2007],fDialog12 function [Excel 2007]
- 
+- fdialog function [excel 2007],fDialog12 function [Excel 2007] 
 ms.localizationpriority: medium
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
-description: "Applies to: Excel 2013 | Office 2013 | Visual Studio"
 ---
 
 # fDialog/fDialog12
@@ -41,7 +37,4 @@ See `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.
   
 ## See also
 
-
-
 [Functions in the Generic DLL](functions-in-the-generic-dll.md)
-
