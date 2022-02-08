@@ -41,11 +41,11 @@ HRESULT DeleteMessages(
     
  _ulUIParam_
   
-> [in] A handle to the parent window of the progress indicator. The  _ulUIParam_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A handle to the parent window of the progress indicator. The  _ulUIParam_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpProgress_
   
-> [in] A pointer to a progress object that displays a progress indicator. If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator by using the MAPI progress object implementation. The  _lpProgress_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a progress object that displays a progress indicator. If NULL is passed in  _lpProgress_, the message store provider displays a progress indicator by using the MAPI progress object implementation. The  _lpProgress_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _ulFlags_
   

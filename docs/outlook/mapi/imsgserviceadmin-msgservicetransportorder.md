@@ -36,7 +36,7 @@ HRESULT MsgServiceTransportOrder(
 
  _cUID_
   
-> [in] The count of unique identifiers in the  _lpUIDList_ parameter. 
+> [in] The count of unique identifiers in the _lpUIDList_ parameter. 
     
  _lpUIDList_
   
@@ -54,7 +54,7 @@ S_OK
     
 MAPI_E_BUSY 
   
-> The value in the  _cUID_ parameter differs from the number of transport providers actually in the profile. 
+> The value in the _cUID_ parameter differs from the number of transport providers actually in the profile. 
     
 MAPI_E_NOT_FOUND 
   

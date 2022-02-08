@@ -44,7 +44,7 @@ TAD_ALL_ROWS
     
  _lprowsetToDelete_
   
-> [in] A pointer to a row set that describes the rows to be deleted. The  _lprowsetToDelete_ parameter can be NULL if the TAD_ALL_ROWS flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a row set that describes the rows to be deleted. The  _lprowsetToDelete_ parameter can be NULL if the TAD_ALL_ROWS flag is set in the _ulFlags_ parameter. 
     
  _cRowsDeleted_
   

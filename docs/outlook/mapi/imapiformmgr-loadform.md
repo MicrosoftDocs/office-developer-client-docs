@@ -44,7 +44,7 @@ HRESULT LoadForm(
 
  _ulUIParam_
   
-> [in] A handle to the parent window of the progress indicator that is displayed while the form is opened. The  _ulUIParam_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A handle to the parent window of the progress indicator that is displayed while the form is opened. The  _ulUIParam_ parameter is ignored unless the MAPI_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _ulFlags_
   

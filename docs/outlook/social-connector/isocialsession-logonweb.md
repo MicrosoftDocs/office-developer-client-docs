@@ -44,11 +44,11 @@ Logging on to a social network site by using forms-based authentication involves
     
 5. The OSC uses the URL returned by **GetLogonUrl** to display the forms-based logon page. 
     
-6. The OSC then calls **LogonWeb** a second time, passing the URL to the logon form in the  _connectIn_ parameter. 
+6. The OSC then calls **LogonWeb** a second time, passing the URL to the logon form in the _connectIn_ parameter. 
     
-7. If authentication succeeds, the provider returns logon credentials in the  _connectOut_ parameter to the OSC. If authentication fails, the provider raises the OSC_E_AUTH_ERROR error to the OSC. 
+7. If authentication succeeds, the provider returns logon credentials in the _connectOut_ parameter to the OSC. If authentication fails, the provider raises the OSC_E_AUTH_ERROR error to the OSC. 
     
-If the OSC provider supports logging on using cached credentials, it specifies **useLogonCached** as **true** in the **capabilities** XML. The provider should place any logon credentials in the  _connectOut_ string that the provider wants the OSC to store across connections. The OSC does not interpret the  _connectOut_ string. After the OSC verifies that **useLogonCached** is **true**, the OSC encrypts the string for security before storing it in the Windows registry. The OSC passes this string to the  _connectIn_ parameter on subsequent attempts to log on to the social network by calling [ISocialSession2::LogonCached](isocialsession2-logoncached.md). 
+If the OSC provider supports logging on using cached credentials, it specifies **useLogonCached** as **true** in the **capabilities** XML. The provider should place any logon credentials in the _connectOut_ string that the provider wants the OSC to store across connections. The OSC does not interpret the  _connectOut_ string. After the OSC verifies that **useLogonCached** is **true**, the OSC encrypts the string for security before storing it in the Windows registry. The OSC passes this string to the  _connectIn_ parameter on subsequent attempts to log on to the social network by calling [ISocialSession2::LogonCached](isocialsession2-logoncached.md). 
   
 For information about error codes, see [Outlook Social Connector Provider Error Codes](outlook-social-connector-provider-error-codes.md).
   

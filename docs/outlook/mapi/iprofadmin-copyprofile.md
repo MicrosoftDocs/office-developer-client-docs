@@ -72,7 +72,7 @@ MAPI_E_ACCESS_DENIED
     
 MAPI_E_LOGON_FAILED 
   
-> The password for the profile to copy is incorrect, and a dialog box could not be displayed to the user to request the correct password because MAPI_DIALOG was not set in the  _ulFlags_ parameter. 
+> The password for the profile to copy is incorrect, and a dialog box could not be displayed to the user to request the correct password because MAPI_DIALOG was not set in the _ulFlags_ parameter. 
     
 MAPI_E_NOT_FOUND 
   

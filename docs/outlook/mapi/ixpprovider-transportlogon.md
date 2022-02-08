@@ -35,7 +35,7 @@ HRESULT TransportLogon(
 
 _lpMAPISup_: [in] Pointer to the transport provider's support object for callback functions within MAPI for this session. This object remains valid until the transport provider releases it.
     
-_ulUIParam_: [in] Handle to the parent window of any dialog boxes or windows this method displays. The  _ulUIParam_ parameter can be non-null, for example when the LOGON_SETUP flag is set in the  _lpulFlags_ parameter. 
+_ulUIParam_: [in] Handle to the parent window of any dialog boxes or windows this method displays. The  _ulUIParam_ parameter can be non-null, for example when the LOGON_SETUP flag is set in the _lpulFlags_ parameter. 
     
 _lpszProfileName_: [in] Pointer to the profile name of the user. The  _lpszProfileName_ parameter is primarily used when a dialog box must be presented. 
     
@@ -97,7 +97,7 @@ Passing the LOGON_NO_CONNECT flag in  _lpulFlags_ signals offline operation of t
   
 A transport provider should set the LOGON_SP_IDLE flag in  _lpulFlags_ at initialization time if it is designed to use time that the system otherwise spends idle. Such time is often used to handle automatic operations, such as automatic message downloading, timed message downloading, or timed message submission. If this flag is set, the MAPI spooler calls **Idle** when system idle time occurs to initiate such operations. The MAPI spooler does not call **Idle** at set intervals; rather, it is called only during true idle time. Therefore, providers should not work on any assumption about how frequently their **Idle** methods will be called. Providers that support idle-time operations should supply a configuration user interface for it in their provider property sheet. 
   
-If the transport provider logon succeeds, the provider should return in the  _lppXPLogon_ parameter a pointer to a logon object. The MAPI spooler will use this object for additional provider access. If **TransportLogon** displays a logon dialog box and the user cancels logon typically by clicking the **Cancel** button in the dialog box the provider should return MAPI_E_USER_CANCEL. 
+If the transport provider logon succeeds, the provider should return in the _lppXPLogon_ parameter a pointer to a logon object. The MAPI spooler will use this object for additional provider access. If **TransportLogon** displays a logon dialog box and the user cancels logon typically by clicking the **Cancel** button in the dialog box the provider should return MAPI_E_USER_CANCEL. 
   
 For most error values returned from **TransportLogon**, MAPI disables the message services to which the provider belongs. MAPI will not call any providers that belong to that service for the rest of the MAPI session. In contrast, when **TransportLogon** returns the MAPI_E_FAILONEPROVIDER error value from its logon, MAPI does not disable the message service to which the provider belongs. **TransportLogon** should return MAPI_E_FAILONEPROVIDER if it encounters an error that does not warrant disabling the service for the rest of the session. 
   

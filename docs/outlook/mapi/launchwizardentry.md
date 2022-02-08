@@ -96,7 +96,7 @@ MAPI_E_CALL_FAILED
 
 The MAPI implementation of the **LAUNCHWIZARDENTRY** function prototype is the entry point into the MAPI Profile Wizard application. MAPI names this entry point **LaunchWizard**. 
   
-When the MAPI_PW_ADD_SERVICE_ONLY flag is set in the  _ulFlags_ parameter, the following rules apply: 
+When the MAPI_PW_ADD_SERVICE_ONLY flag is set in the _ulFlags_ parameter, the following rules apply: 
   
 - The MAPI_PW_LAUNCHED_BY_CONFIG flag inhibits the welcome page from being displayed. 
     

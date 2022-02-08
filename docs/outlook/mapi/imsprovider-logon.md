@@ -53,7 +53,7 @@ HRESULT Logon(
     
  _lpszProfileName_
   
-> [in] A pointer to a string that contains the name of the profile being used for store provider logon. This string can be displayed in dialog boxes, written out to a log file, or simply ignored. It must be in Unicode format if the MAPI_UNICODE flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a string that contains the name of the profile being used for store provider logon. This string can be displayed in dialog boxes, written out to a log file, or simply ignored. It must be in Unicode format if the MAPI_UNICODE flag is set in the _ulFlags_ parameter. 
     
  _cbEntryID_
   
@@ -97,7 +97,7 @@ MDB_WRITE
     
  _lpcbSpoolSecurity_
   
-> [out] A pointer to the variable in which the store provider returns the size, in bytes, of the validation data in the  _lppbSpoolSecurity_ parameter. 
+> [out] A pointer to the variable in which the store provider returns the size, in bytes, of the validation data in the _lppbSpoolSecurity_ parameter. 
     
  _lppbSpoolSecurity_
   
@@ -151,11 +151,11 @@ MAPI_W_ERRORS_RETURNED
     
 ## Remarks
 
-MAPI calls the **IMSProvider::Logon** method to do the majority of processing necessary to obtain access to a message store. Message store providers validate any user credentials necessary to access a particular store and return a message store object in the  _lppMDB_ parameter that the MAPI spooler and client applications can log on to. 
+MAPI calls the **IMSProvider::Logon** method to do the majority of processing necessary to obtain access to a message store. Message store providers validate any user credentials necessary to access a particular store and return a message store object in the _lppMDB_ parameter that the MAPI spooler and client applications can log on to. 
   
 In addition to the returned message store object for client and MAPI spooler use, the provider also returns a message store logon object for MAPI to use in controlling the opened store. The message store logon object and the message store object should be tightly linked inside the message store provider so each can affect the other. The use of the store object and the logon object should be identical; there should be a one-to-one correspondence between the logon object and the store object such that the objects act as if they are one object that exposes two interfaces. The two objects should also be created together and freed together. 
   
-The MAPI support object, created by MAPI and passed to the provider in the  _lpMAPISup_ parameter, provides access to functions in MAPI that the provider requires. These include functions that save and retrieve profile information, access address books, and so on. The  _lpMAPISup_ pointer can be different for each store that is opened. While processing calls for a message store after logon, the store provider should use the  _lpMAPISup_ variable that is specific to that store. For any **Logon** call that opens a message store and succeeds in creating a message store logon object, the provider must save a pointer to the MAPI support object in the store logon object and must call the [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method to add a reference for the support object. 
+The MAPI support object, created by MAPI and passed to the provider in the _lpMAPISup_ parameter, provides access to functions in MAPI that the provider requires. These include functions that save and retrieve profile information, access address books, and so on. The  _lpMAPISup_ pointer can be different for each store that is opened. While processing calls for a message store after logon, the store provider should use the  _lpMAPISup_ variable that is specific to that store. For any **Logon** call that opens a message store and succeeds in creating a message store logon object, the provider must save a pointer to the MAPI support object in the store logon object and must call the [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method to add a reference for the support object. 
   
 The  _ulUIParam_ parameter should be used if the provider presents dialog boxes during the **Logon** call. However, dialog boxes should not be presented if  _ulFlags_ contains the MDB_NO_DIALOG flag. If a user interface needs to be called but  _ulFlags_ does not allow it, or if for some other reason a user interface cannot be displayed, the provider should return MAPI_E_LOGON_FAILED. If **Logon** displays a dialog box and the user cancels the logon, typically by clicking the dialog box's **Cancel** button, the provider should return MAPI_E_USER_CANCEL. 
   

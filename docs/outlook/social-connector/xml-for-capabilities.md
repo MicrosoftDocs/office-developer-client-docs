@@ -20,7 +20,7 @@ The **capabilities** element in the (OSC) provider XML schema allows an OSC prov
     
 - Whether the OSC should use forms-based authentication or automatically configure the social network and logs on the user on the social network.
     
-The XML schema for **capabilities** is critical because it identifies to the OSC the functionality supported by the provider. An OSC provider must implement the [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) method that returns a  _result_ string. The OSC calls **ISocialProvider::GetCapabilities** to obtain information about the capabilities of the OSC provider in the  _result_ string, which complies with the XML schema definition for the **capabilities** element. This information enables subsequent calls from the OSC to the OSC provider to operate correctly. 
+The XML schema for **capabilities** is critical because it identifies to the OSC the functionality supported by the provider. An OSC provider must implement the [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) method that returns a  _result_ string. The OSC calls **ISocialProvider::GetCapabilities** to obtain information about the capabilities of the OSC provider in the _result_ string, which complies with the XML schema definition for the **capabilities** element. This information enables subsequent calls from the OSC to the OSC provider to operate correctly. 
   
 To specify capabilities of an OSC provider as an output parameter of the **ISocialProvider::GetCapabilities** method, you must conform to the OSC provider extensibility XML schema. The following figure shows the **capabilities** XML structure. 
   

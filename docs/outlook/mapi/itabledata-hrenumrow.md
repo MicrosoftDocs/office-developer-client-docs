@@ -35,7 +35,7 @@ HRESULT HrEnumRow(
 
  _ulRowNumber_
   
-> [in] The number of the row for which to return properties. The value in the  _ulRowNumber_ parameter can be any value from 0, which indicates the first row in the table, through n - 1, which indicates the last row in the table. 
+> [in] The number of the row for which to return properties. The value in the _ulRowNumber_ parameter can be any value from 0, which indicates the first row in the table, through n - 1, which indicates the last row in the table. 
     
  _lppSRow_
   

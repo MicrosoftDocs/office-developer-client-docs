@@ -26,7 +26,7 @@ _userIds_
     
 _results_
   
-> [out] A pointer to structure that specifies an array of Boolean values, indicating whether the corresponding person in the  _userIds_ array is a friend. 
+> [out] A pointer to structure that specifies an array of Boolean values, indicating whether the corresponding person in the _userIds_ array is a friend. 
     
 ## Remarks
 

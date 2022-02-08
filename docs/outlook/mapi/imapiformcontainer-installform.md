@@ -36,7 +36,7 @@ HRESULT InstallForm(
 
  _ulUIParam_
   
-> [in] A handle to the parent window of any dialog boxes or windows that this method displays. The  _ulUIParam_ parameter is ignored unless the client application sets the MAPI_DIALOG flag in the  _ulFlags_ parameter. The  _ulUIParam_ parameter can be NULL if MAPI_DIALOG is not also passed. 
+> [in] A handle to the parent window of any dialog boxes or windows that this method displays. The  _ulUIParam_ parameter is ignored unless the client application sets the MAPI_DIALOG flag in the _ulFlags_ parameter. The  _ulUIParam_ parameter can be NULL if MAPI_DIALOG is not also passed. 
     
  _ulFlags_
   
@@ -84,7 +84,7 @@ Form library providers should fill in a **MAPIERROR** structure and return MAPI_
     
 ## Notes to callers
 
-Client applications call the **IMAPIFormContainer::InstallForm** method to install a form into a specific form container. The  _szCfgPathName_ parameter must contain the path of a form configuration file (that is, a file with the .cfg extension that describes the form and its implementation). The flags in the  _ulFlags_ parameter specify the following: 
+Client applications call the **IMAPIFormContainer::InstallForm** method to install a form into a specific form container. The  _szCfgPathName_ parameter must contain the path of a form configuration file (that is, a file with the .cfg extension that describes the form and its implementation). The flags in the _ulFlags_ parameter specify the following: 
   
 - If the MAPI_DIALOG flag is set, a user interface is displayed, enabling the user who is installing the form to specify installation details.
     

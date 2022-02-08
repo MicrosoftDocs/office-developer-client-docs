@@ -46,7 +46,7 @@ HRESULT DeleteFolder(
     
  _ulUIParam_
   
-> [in] A handle to the parent window of the progress indicator. The  _ulUIParam_ parameter is ignored unless the FOLDER_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A handle to the parent window of the progress indicator. The  _ulUIParam_ parameter is ignored unless the FOLDER_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpProgress_
   

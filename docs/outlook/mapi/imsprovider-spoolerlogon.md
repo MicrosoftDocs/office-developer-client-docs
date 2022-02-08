@@ -53,7 +53,7 @@ HRESULT SpoolerLogon(
     
  _lpszProfileName_
   
-> [in] A pointer to a string that contains the name of the profile being used for the MAPI spooler logon. This string can be displayed in dialog boxes, written out to a log file, or simply ignored. It must be in Unicode format if the MAPI_UNICODE flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a string that contains the name of the profile being used for the MAPI spooler logon. This string can be displayed in dialog boxes, written out to a log file, or simply ignored. It must be in Unicode format if the MAPI_UNICODE flag is set in the _ulFlags_ parameter. 
     
  _cbEntryID_
   
@@ -61,7 +61,7 @@ HRESULT SpoolerLogon(
     
  _lpEntryID_
   
-> [in] A pointer to the entry identifier for the message store. Passing NULL in the  _lpEntryID_ parameter indicates that a message store has not yet been selected and that dialog boxes that enable the user to select a message store can be presented. 
+> [in] A pointer to the entry identifier for the message store. Passing NULL in the _lpEntryID_ parameter indicates that a message store has not yet been selected and that dialog boxes that enable the user to select a message store can be presented. 
     
  _ulFlags_
   
@@ -89,7 +89,7 @@ MDB_WRITE
     
  _cbSpoolSecurity_
   
-> [in] A pointer to the size, in bytes, of validation data in the  _lppbSpoolSecurity_ parameter. 
+> [in] A pointer to the size, in bytes, of validation data in the _lppbSpoolSecurity_ parameter. 
     
  _lpbSpoolSecurity_
   
@@ -123,9 +123,9 @@ MAPI_W_ERRORS_RETURNED
     
 ## Remarks
 
-The MAPI spooler calls the **IMSProvider::SpoolerLogon** method to log on to a message store. The MAPI spooler should use the message store object returned by the message store provider in the  _lppMDB_ parameter during and after logon. 
+The MAPI spooler calls the **IMSProvider::SpoolerLogon** method to log on to a message store. The MAPI spooler should use the message store object returned by the message store provider in the _lppMDB_ parameter during and after logon. 
   
-For consistency with the [IMSProvider::Logon](imsprovider-logon.md) method, the provider also returns a message store logon object in the  _lppMSLogon_ parameter. The use of the store object and the logon object are identical for usual store logon; there should be a one-to-one correspondence between the logon object and the store object such that the objects act as if they are one object that exposes two interfaces. The two objects are created together and freed together. 
+For consistency with the [IMSProvider::Logon](imsprovider-logon.md) method, the provider also returns a message store logon object in the _lppMSLogon_ parameter. The use of the store object and the logon object are identical for usual store logon; there should be a one-to-one correspondence between the logon object and the store object such that the objects act as if they are one object that exposes two interfaces. The two objects are created together and freed together. 
   
 The store provider should internally mark the returned message store object to indicate that the store is being used by the MAPI spooler. Some of the methods for this store object behave differently than for the message store object provided to client applications. Keeping this internal mark is the most common way of triggering the behavior specific to the MAPI spooler.
   

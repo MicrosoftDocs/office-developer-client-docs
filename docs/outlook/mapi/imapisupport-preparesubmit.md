@@ -61,7 +61,7 @@ To access the recipient list, **PrepareSubmit** calls the message's [IMessage::G
     
 ## Notes to callers
 
-Before you call **PrepareSubmit**, be sure you have called the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method and set the NOTIFY_READYTOSEND flag in the  _ulFlags_ parameter. The **SpoolerNotify** call must be made once per session before the call to **PrepareSubmit**. **SpoolerNotify** synchronizes the MAPI spooler and ensures that all needed transport providers are logged on and their address types are registered. 
+Before you call **PrepareSubmit**, be sure you have called the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method and set the NOTIFY_READYTOSEND flag in the _ulFlags_ parameter. The **SpoolerNotify** call must be made once per session before the call to **PrepareSubmit**. **SpoolerNotify** synchronizes the MAPI spooler and ensures that all needed transport providers are logged on and their address types are registered. 
   
 ## See also
 

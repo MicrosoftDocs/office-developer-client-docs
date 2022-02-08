@@ -73,7 +73,7 @@ An alternative to these calls is to make a single call to the [HrQueryAllRows](h
   
 If you retrieve the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) columns in each of the rows, you can use this array of **MAPIUID** structures to set the transport order in a call to [IMsgServiceAdmin::MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md).
   
-Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter does the following: 
+Setting the MAPI_UNICODE flag in the _ulFlags_ parameter does the following: 
   
 - Sets the string type to Unicode for data returned for the initial active columns of the provider table by the [IMAPITable::QueryColumns](imapitable-querycolumns.md) method. The initial active columns for a provider table are those columns the **QueryColumns** method returns before the provider that contains the table calls the [IMAPITable::SetColumns](imapitable-setcolumns.md) method. 
     

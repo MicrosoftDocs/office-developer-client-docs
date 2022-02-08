@@ -14,7 +14,7 @@ description: "Modifies the color by decreasing its saturation by the amount spec
 
 # TONE Function
 
-Modifies the color by decreasing its saturation by the amount specified in the  _int_ parameter. 
+Modifies the color by decreasing its saturation by the amount specified in the _int_ parameter. 
   
 ## Syntax
 

@@ -57,7 +57,7 @@ MAPIFORM_LOCALONLY
     
  _ppfrminfoarray_
   
-> [out] A pointer to a pointer to an array of form information objects. If a form viewer passes NULL in the  _pMsgClasses_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container. 
+> [out] A pointer to a pointer to an array of form information objects. If a form viewer passes NULL in the _pMsgClasses_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container. 
     
 ## Return value
 

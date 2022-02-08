@@ -66,7 +66,7 @@ The **IMAPISupport::GetLastError** method is implemented for all support objects
   
 ## Notes to callers
 
-You can use the pointer to the **MAPIERROR** structure, if MAPI supplies one, in the  _lppMAPIError_ parameter only if **GetLastError** returns S_OK. Sometimes MAPI cannot determine what the last error was or it has nothing more to report about the error. In this situation,  _lppMAPIError_ returns a pointer to NULL instead. 
+You can use the pointer to the **MAPIERROR** structure, if MAPI supplies one, in the _lppMAPIError_ parameter only if **GetLastError** returns S_OK. Sometimes MAPI cannot determine what the last error was or it has nothing more to report about the error. In this situation,  _lppMAPIError_ returns a pointer to NULL instead. 
   
 For more information about the **GetLastError** method, see [MAPI Extended Errors](mapi-extended-errors.md).
   

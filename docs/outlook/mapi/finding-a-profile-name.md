@@ -44,7 +44,7 @@ There are a few ways to retrieve the name of a profile during the course of a se
   
 To find the name of the current profile, complete one of the following steps:
   
-- Assuming that you have the [MAPIUID](mapiuid.md) structure representing one of the current profile's sections, pass it in the  _lpUID_ parameter to [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md). Retrieve the profile section's **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) property using its [IMAPIProp::GetProps](imapiprop-getprops.md) method. 
+- Assuming that you have the [MAPIUID](mapiuid.md) structure representing one of the current profile's sections, pass it in the _lpUID_ parameter to [IMAPISession::OpenProfileSection](imapisession-openprofilesection.md). Retrieve the profile section's **PR_PROFILE_NAME** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) property using its [IMAPIProp::GetProps](imapiprop-getprops.md) method. 
     
 - Call [IMAPISession::GetStatusTable](imapisession-getstatustable.md) to access the status table and find the row that has its **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) column set to MAPI_SUBSYSTEM. The **PR_DISPLAY_NAME** column for this row is the profile name. Do not use the status table during start up because it blocks an application until the MAPI spooler has finished initializing all of the transport providers. This can degrade your performance. 
     

@@ -35,7 +35,7 @@ After getting capabilities, the OSC can proceed to get the icon and name for the
    
 ### Showing hyperlinks in configuration dialog
 
-After calling **ISocialProvider::GetCapabilities**, the OSC uses the value of the **hideHyperlinks** element in the  _results_ parameter to determine whether to hide or display the **Click here to create an account** and **Forgot your password?** hyperlinks in the account configuration dialog box. Verify that if **hideHyperlinks** is **false**, the account configuration displays these URLs.
+After calling **ISocialProvider::GetCapabilities**, the OSC uses the value of the **hideHyperlinks** element in the _results_ parameter to determine whether to hide or display the **Click here to create an account** and **Forgot your password?** hyperlinks in the account configuration dialog box. Verify that if **hideHyperlinks** is **false**, the account configuration displays these URLs.
   
 ### Support to create account
 

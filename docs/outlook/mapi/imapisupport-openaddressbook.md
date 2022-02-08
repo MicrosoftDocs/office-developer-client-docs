@@ -62,7 +62,7 @@ The **IMAPISupport::OpenAddressBook** method is implemented for all service prov
   
 ## Notes to callers
 
- **OpenAddressBook** can return MAPI_W_ERRORS_RETURNED if it cannot load one or more of the address book providers in the current profile. This value is a warning and you should treat the call as successful. Even if all of the address book providers failed to load, **OpenAddressBook** still succeeds, returning MAPI_W_ERRORS_RETURNED and an **IAddrBook** pointer in the  _lppAdrBook_ parameter. Because **OpenAddressBook** always returns a valid **IAddrBook** pointer, you must release it when you are finished using it. 
+ **OpenAddressBook** can return MAPI_W_ERRORS_RETURNED if it cannot load one or more of the address book providers in the current profile. This value is a warning and you should treat the call as successful. Even if all of the address book providers failed to load, **OpenAddressBook** still succeeds, returning MAPI_W_ERRORS_RETURNED and an **IAddrBook** pointer in the _lppAdrBook_ parameter. Because **OpenAddressBook** always returns a valid **IAddrBook** pointer, you must release it when you are finished using it. 
   
 If one or more address book providers failed to load, call [IMAPISupport::GetLastError](imapisupport-getlasterror.md) to obtain a [MAPIERROR](mapierror.md) structure that contains information about the providers that did not load. 
   

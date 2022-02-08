@@ -48,7 +48,7 @@ SCODE CreateTable(
 
  _lpInterface_
   
-> [in] Pointer to an interface identifier (IID) for the table data object. The valid interface identifier is IID_IMAPITableData. Passing NULL in the  _lpInterface_ parameter also causes the table data object returned in the _lppTableData_ parameter to be cast to the standard interface for a table data object. 
+> [in] Pointer to an interface identifier (IID) for the table data object. The valid interface identifier is IID_IMAPITableData. Passing NULL in the _lpInterface_ parameter also causes the table data object returned in the _lppTableData_ parameter to be cast to the standard interface for a table data object. 
     
  _lpAllocateBuffer_
   

@@ -30,7 +30,7 @@ The name of the event handler function as it appears in the DLL code.
   
  _pxEvent_ (**xltypeInt**)
   
-The event handled by the function designated in the  _pxProcedure_ parameter. 
+The event handled by the function designated in the _pxProcedure_ parameter. 
   
 Starting in Excel 2010, Excel supports the following events:
   

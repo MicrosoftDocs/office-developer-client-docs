@@ -71,7 +71,7 @@ HRESULT CopyFolder(
     
  _ulUIParam_
   
-> [in] A handle of the window for the progress indicator dialog box and related windows. The  _ulUIParam_ parameter is ignored unless the FOLDER_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A handle of the window for the progress indicator dialog box and related windows. The  _ulUIParam_ parameter is ignored unless the FOLDER_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpProgress_
   

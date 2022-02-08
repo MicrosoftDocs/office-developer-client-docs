@@ -48,7 +48,7 @@ MAPIFORM_EXACTMATCH
     
  _ppfrminfoarray_
   
-> [out] A pointer to a pointer to an array of form information objects. If a client application passes NULL in the  _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container. 
+> [out] A pointer to a pointer to an array of form information objects. If a client application passes NULL in the _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container. 
     
 ## Return value
 

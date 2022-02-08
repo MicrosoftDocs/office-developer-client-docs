@@ -34,7 +34,7 @@ If the Outlook Social Connector (OSC) provides more than on SMTP address in the 
   
 If the provider has set the **followPerson** element as **true** in the **capabilities** XML, and none of the elements for  _emailAddresses_ match a user on the network, the provider must return the OSC_E_NOT_FOUND error. If the provider has set **followPerson** as **false** in **capabilities**, the provider should return the OSC_E_FAIL error. 
   
-If the **FollowPersonEx** method succeeds, the provider can use the string in the  _displayName_ parameter to address the person in any subsequent friend-confirmation email, rather than addressing the person by the SMTP address. On the other hand, the provider must be able to handle the OSC passing an empty string for the  _displayName_ parameter. 
+If the **FollowPersonEx** method succeeds, the provider can use the string in the _displayName_ parameter to address the person in any subsequent friend-confirmation email, rather than addressing the person by the SMTP address. On the other hand, the provider must be able to handle the OSC passing an empty string for the  _displayName_ parameter. 
   
 If the provider implements the [ISocialSession2](isocialsession2iunknown.md) interface and has set **followPerson** as **true** in the capabilities XML, the OSC calls **FollowPersonEx** instead of [ISocialSession::FollowPerson](isocialsession-followperson.md). If the provider has set **followPerson** as **true** but does not implement the **ISocialSession2** interface, or **FollowPersonEx** returns the OSC_E_NOTIMPL error, the OSC calls **ISocialSession::FollowPerson**.
   

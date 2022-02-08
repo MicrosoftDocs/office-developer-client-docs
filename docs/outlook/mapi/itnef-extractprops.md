@@ -40,7 +40,7 @@ HRESULT ExtractProps(
     
 TNEF_PROP_EXCLUDE 
   
-> Decodes all properties not specified in the  _lpPropList_ parameter. 
+> Decodes all properties not specified in the _lpPropList_ parameter. 
     
 TNEF_PROP_INCLUDE 
   

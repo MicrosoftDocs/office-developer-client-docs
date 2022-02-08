@@ -71,7 +71,7 @@ S_OK
 
 Form objects call the **IMAPIMessageSite::NewMessage** method to create a new message. The form uses **NewMessage** to get a new message and the associated message site from its view. It can then modify the new message. 
   
-You can also obtain an associated view context by passing in a non-NULL value in the  _ppViewContext_ parameter. This view context can be used directly, or it can be aggregated and passed to the new message. If a complete implementation is required, pass NULL in  _ppViewContext_.
+You can also obtain an associated view context by passing in a non-NULL value in the _ppViewContext_ parameter. This view context can be used directly, or it can be aggregated and passed to the new message. If a complete implementation is required, pass NULL in  _ppViewContext_.
   
 For a list of interfaces related to form servers, see [MAPI Form Interfaces](mapi-form-interfaces.md).
   

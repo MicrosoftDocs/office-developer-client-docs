@@ -26,7 +26,7 @@ In the following scenario, the OSC dynamically synchronizes activities for a per
     
 4. The OSC refreshes the People Pane or Contact Card to let the user see the latest activities of the selected person. The OSC encrypts the person's SMTP address by using the hash function specified in the **hashFunction** element, forming an XML string that conforms to the XML schema definition for the **hashedAddresses** element. 
     
-5. The OSC calls **ISocialSession2::GetActivitiesEx**, providing this XML string of the hashed address as the  _hashedAddresses_ parameter, to get a current collection of activities for that person in the  _activities_ parameter. The  _activities_ parameter string complies with the XML schema definition of the **activityFeed** element. 
+5. The OSC calls **ISocialSession2::GetActivitiesEx**, providing this XML string of the hashed address as the  _hashedAddresses_ parameter, to get a current collection of activities for that person in the _activities_ parameter. The  _activities_ parameter string complies with the XML schema definition of the **activityFeed** element. 
     
 6. Based on the XML schema definition for **activityFeed**, the OSC further parses the  _activities_ string to find out the type, publish date, and other information about each activity, and how to display the activity. 
     

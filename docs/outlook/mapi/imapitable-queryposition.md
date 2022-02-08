@@ -64,7 +64,7 @@ If you cannot determine the current row, return a value of 0xFFFFFFFF in  _lpulR
   
 ## Notes to callers
 
-You can use **QueryPosition** to position a scroll box in a scroll bar. For example, in a table containing 100 rows, if **QueryPosition** returns a value of 75 in the  _lpulNumerator_ parameter, 100 in the  _lpulDenominator_ parameter, and 75 in the  _lpulRow_ parameter, you can position the scroll box 3/4 of the way across the scroll bar. 
+You can use **QueryPosition** to position a scroll box in a scroll bar. For example, in a table containing 100 rows, if **QueryPosition** returns a value of 75 in the _lpulNumerator_ parameter, 100 in the _lpulDenominator_ parameter, and 75 in the _lpulRow_ parameter, you can position the scroll box 3/4 of the way across the scroll bar. 
   
 Do not rely on the value in  _lpulDenominator_ being the number of rows in the table. **QueryPosition** cannot always identify the exact row that the cursor is positioned on. 
   

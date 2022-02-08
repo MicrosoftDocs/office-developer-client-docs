@@ -65,9 +65,9 @@ If a form viewer's implementation of the **DeleteMessage** method moves to the n
   
 A typical implementation of **DeleteMessage** performs the following tasks: 
   
-1. If the implementation is moving the message, it calls the [IPersistMessage::Save](ipersistmessage-save.md) method, passing **null** in the  _pMessage_ parameter and **true** in the  _fSameAsLoad_ parameter. 
+1. If the implementation is moving the message, it calls the [IPersistMessage::Save](ipersistmessage-save.md) method, passing **null** in the _pMessage_ parameter and **true** in the _fSameAsLoad_ parameter. 
     
-2. It calls the **IMAPIViewContext::ActivateNext** method, passing the VCDIR_DELETE flag in the  _ulDir_ parameter. 
+2. It calls the **IMAPIViewContext::ActivateNext** method, passing the VCDIR_DELETE flag in the _ulDir_ parameter. 
     
 3. If the **ActivateNext** call fails, it returns. If **ActivateNext** returns S_FALSE, it calls the [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) method. 
     

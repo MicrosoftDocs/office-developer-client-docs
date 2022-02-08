@@ -52,7 +52,7 @@ The **IMAPITable::FreeBookmark** method releases a bookmark that is no longer ne
   
 ## Notes to implementers
 
-If the caller passes one of the three predefined bookmarks in the  _bkPosition_ parameter, ignore the request and return S_OK. 
+If the caller passes one of the three predefined bookmarks in the _bkPosition_ parameter, ignore the request and return S_OK. 
   
 ## See also
 

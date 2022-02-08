@@ -34,7 +34,7 @@ HRESULT HrModifyRow(
 
  _lpSRow_
   
-> [in] A pointer to an [SRow](srow.md) structure that describes the row to be added or to replace an existing row. One of the property value structures pointed to by the **lpProps** member of the **SRow** structure should contain the index column, the same value that was specified in the  _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function. 
+> [in] A pointer to an [SRow](srow.md) structure that describes the row to be added or to replace an existing row. One of the property value structures pointed to by the **lpProps** member of the **SRow** structure should contain the index column, the same value that was specified in the _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function. 
     
 ## Return value
 

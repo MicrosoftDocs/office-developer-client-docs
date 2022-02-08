@@ -36,7 +36,7 @@ Scenario 1—OSC gets a list of friends, and an [ISocialPerson](isocialpersoniun
     
 5. The OSC calls **ISocialPerson::GetFriendsAndColleagues** to get the Outlook user's friends list returned in the _personCollection_ parameter string. The  _personCollection_ string complies with the XML schema definition for the **friends** element in the XML schema. 
     
-6. For each friend in the  _personCollection_ XML string, the OSC obtains value of the **userID** element to call **ISocialSession::GetPerson** to get an **ISocialPerson** object for that friend. 
+6. For each friend in the _personCollection_ XML string, the OSC obtains value of the **userID** element to call **ISocialSession::GetPerson** to get an **ISocialPerson** object for that friend. 
     
 7. For each friend in the **personCollection** XML string, the OSC calls [ISocialPerson::GetPicture](isocialperson-getpicture.md) to get a picture resource for that friend. 
     
@@ -54,7 +54,7 @@ Scenario 2—OSC synchronizes friends dynamically:
     
 4. For each user displayed in the People Pane, the OSC collects the user's email address and encrypts it by using the hash function specified in **hashFunction**. This forms an XML string that conforms to the XML schema definition for the **hashedAddresses** element. 
     
-5. The OSC calls **ISocialSession2::GetPeopleDetails**, providing this XML string of hashed addresses as the  _personAddresses_ parameter, to dynamically obtain updated details for persons in the  _personsCollection_ parameter. The  _personsCollection_ parameter string complies with the XML schema definition for the **friends** element in the XML schema. 
+5. The OSC calls **ISocialSession2::GetPeopleDetails**, providing this XML string of hashed addresses as the  _personAddresses_ parameter, to dynamically obtain updated details for persons in the _personsCollection_ parameter. The  _personsCollection_ parameter string complies with the XML schema definition for the **friends** element in the XML schema. 
 
 ## Parent and child elements
 
@@ -95,7 +95,7 @@ For a complete definition of the OSC provider XML schema, including which elemen
 |**fullName** <br/> |Full name of the person.  <br/> |
 |**gender** <br/> |Gender of the person. Must be one of the following values: **male**, **female**, **unspecified**.  <br/> |
 |**homePhone** <br/> |Home telephone number for the person.  <br/> |
-|**index** <br/> |Location of the person's hashed address in the  _personsAddresses_ string parameter passed to a call to the **ISocialSession2::GetPeopleDetails** method. It also indicates the person's **person** XML in the  _personsCollection_ string returned by **GetPeopleDetails**.  <br/> |
+|**index** <br/> |Location of the person's hashed address in the _personsAddresses_ string parameter passed to a call to the **ISocialSession2::GetPeopleDetails** method. It also indicates the person's **person** XML in the _personsCollection_ string returned by **GetPeopleDetails**.  <br/> |
 |**industries** <br/> |Industries that the person is engaged in.  <br/> |
 |**interests** <br/> |Interests or hobbies of the person.  <br/> |
 |**lastModificationTime** <br/> |Time that the person's profile was last modified on the social network.  <br/> |

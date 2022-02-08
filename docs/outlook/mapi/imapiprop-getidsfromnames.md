@@ -41,7 +41,7 @@ HRESULT GetIDsFromNames(
     
  _lppPropNames_
   
-> [in] A pointer to an array of property names, or NULL. Passing NULL requests property identifiers for all property names in all property sets about which the object has information. The  _lppPropNames_ parameter must not be NULL if the MAPI_CREATE flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to an array of property names, or NULL. Passing NULL requests property identifiers for all property names in all property sets about which the object has information. The  _lppPropNames_ parameter must not be NULL if the MAPI_CREATE flag is set in the _ulFlags_ parameter. 
     
  _ulFlags_
   

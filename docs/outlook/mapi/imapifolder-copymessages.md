@@ -51,7 +51,7 @@ HRESULT CopyMessages(
     
  _ulUIParam_
   
-> [in] A handle to the parent window of any dialog boxes or windows this method displays. The  _ulUIParam_ parameter is ignored unless the client sets the MESSAGE_DIALOG flag in the  _ulFlags_ parameter and passes NULL in the  _lpProgress_ parameter. 
+> [in] A handle to the parent window of any dialog boxes or windows this method displays. The  _ulUIParam_ parameter is ignored unless the client sets the MESSAGE_DIALOG flag in the _ulFlags_ parameter and passes NULL in the _lpProgress_ parameter. 
     
  _lpProgress_
   

@@ -1167,7 +1167,7 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 |StatusingMissingNameAttribute = 3126  <br/> |Missing name attribute for **Statusing**.  <br/> |
 |StatusingInvalidNameAttribute = 3127  <br/> |The name attribute for **Statusing** is not valid.  <br/> |
 |StatusingInvalidData = 3128  <br/> |The **Statusing** data is not valid.  <br/> |
-|StatusingInvalidChangelist = 3130  <br/> |The XML data is not valid in the  _changexml_ parameter of the **UpdateStatus** method.  <br/> |
+|StatusingInvalidChangelist = 3130  <br/> |The XML data is not valid in the _changexml_ parameter of the **UpdateStatus** method.  <br/> |
 |StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** cannot update an assignment because the user does not have permission.  <br/> |
 |StatusingInvalidChangeNumber = 3132  <br/> |The **Statusing** change number is not valid.  <br/> |
 |StatusingPidNotEditable = 3133  <br/> |The **Statusing** property identification number is not editable.  <br/> |

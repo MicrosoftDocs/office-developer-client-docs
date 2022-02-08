@@ -48,7 +48,7 @@ HRESULT CopyProps(
     
  _lpProgress_
   
-> [in] A pointer to an implementation of a progress indicator. If **null** is passed in the _lpProgress_ parameter, the progress indicator is displayed by using the MAPI implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to an implementation of a progress indicator. If **null** is passed in the _lpProgress_ parameter, the progress indicator is displayed by using the MAPI implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpInterface_
   
@@ -130,7 +130,7 @@ MAPI_E_UNEXPECTED_TYPE
 
 The **IMAPIProp::CopyProps** method copies or moves selected properties from the current object to a destination object. **CopyProps** is used mainly for replying to and forwarding messages, where only some of the properties from the original message travel with the reply or forwarded copy. 
   
-Any subobjects in the source object are automatically included in the operation and copied or moved in their entirety, regardless of the use of properties indicated by the [SPropTagArray](sproptagarray.md) structure. By default, **CopyProps** overwrites any properties in the destination object that match properties from the source object. If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the  _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
+Any subobjects in the source object are automatically included in the operation and copied or moved in their entirety, regardless of the use of properties indicated by the [SPropTagArray](sproptagarray.md) structure. By default, **CopyProps** overwrites any properties in the destination object that match properties from the source object. If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
   
 ## Notes to implementers
 
@@ -148,7 +148,7 @@ You can suppress the display of a progress indicator by not setting the MAPI_DIA
   
  **CopyProps** can report global and individual errors, or errors that occur with one or more of the properties. These individual errors are put in an **SPropProblemArray** structure. You can suppress error reporting at the property level by passing **null**, instead of a valid pointer, for the property problem array structure parameter. 
   
-If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the  _lppProblems_ parameter. When **CopyProps** returns S_OK, check for possible errors with individual properties in the structure. When **CopyProps** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method to retrieve detailed error information. 
+If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the _lppProblems_ parameter. When **CopyProps** returns S_OK, check for possible errors with individual properties in the structure. When **CopyProps** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method to retrieve detailed error information. 
   
 If **CopyProps** returns S_OK, free the returned **SPropProblemArray** structure by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   

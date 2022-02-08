@@ -133,7 +133,7 @@ MSG_SERVICE_UNINSTALL
     
  _lppMapiError_
   
-> [out] Pointer to a [MAPIERROR](mapierror.md) structure. The structure is allocated with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. All members are optional, although most structures will contain a valid error message string in the  _lpszError_ member. If the  _lpszComponent_ or  _lpszError_ members of the structure are present, their memory must eventually be freed by a single call to [MAPIFreeBuffer](mapifreebuffer.md) on the base structure. 
+> [out] Pointer to a [MAPIERROR](mapierror.md) structure. The structure is allocated with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. All members are optional, although most structures will contain a valid error message string in the _lpszError_ member. If the  _lpszComponent_ or  _lpszError_ members of the structure are present, their memory must eventually be freed by a single call to [MAPIFreeBuffer](mapifreebuffer.md) on the base structure. 
     
 ## Return value
 

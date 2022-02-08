@@ -64,7 +64,7 @@ typedef struct _MAPIERROR
     
 ## Remarks
 
-The **MAPIERROR** structure is used to describe error information. Clients and service providers pass a pointer to a **MAPIERROR** structure in the  _lppMAPIError_ parameter of the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method. **GetLastError** returns information about the previous error that has occurred to an object. Callers of **GetLastError** free the memory for the **MAPIERROR** structure by calling [MAPIFreeBuffer](mapifreebuffer.md).
+The **MAPIERROR** structure is used to describe error information. Clients and service providers pass a pointer to a **MAPIERROR** structure in the _lppMAPIError_ parameter of the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method. **GetLastError** returns information about the previous error that has occurred to an object. Callers of **GetLastError** free the memory for the **MAPIERROR** structure by calling [MAPIFreeBuffer](mapifreebuffer.md).
   
 The **lpszComponent** member can be used to map the component's Help file, if one exists. Service providers should limit the size of the component string to 30 characters so that it can easily be displayed in a dialog box. The **ulContext** member can also be used to refer to an online Help topic for common errors. 
   

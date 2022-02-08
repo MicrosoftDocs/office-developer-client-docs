@@ -98,7 +98,7 @@ A remote transport provider's implementation of this method must follow the sema
   
 ## Notes to callers
 
-You can use the **PR_MSG_STATUS** property of a message to negotiate a message lockout operation with other clients. Designate a bit as the lockout bit. To determine whether the lockout bit was set, examine the previous value for message status in the  _lpulOldStatus_ parameter. Use the other bits in the  _ulNewStatus_ parameter to track message status without interfering with the lockout bit. 
+You can use the **PR_MSG_STATUS** property of a message to negotiate a message lockout operation with other clients. Designate a bit as the lockout bit. To determine whether the lockout bit was set, examine the previous value for message status in the _lpulOldStatus_ parameter. Use the other bits in the _ulNewStatus_ parameter to track message status without interfering with the lockout bit. 
   
 ## See also
 

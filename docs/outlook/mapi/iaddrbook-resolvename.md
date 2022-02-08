@@ -75,11 +75,11 @@ S_OK
     
 MAPI_E_AMBIGUOUS_RECIP 
   
-> At least one recipient in the  _lpAdrList_ parameter matched more than one entry in the address book. Usually, this value is returned when the MAPI_DIALOG flag is set, prohibiting the display of a dialog box. 
+> At least one recipient in the _lpAdrList_ parameter matched more than one entry in the address book. Usually, this value is returned when the MAPI_DIALOG flag is set, prohibiting the display of a dialog box. 
     
 MAPI_E_NOT_FOUND 
   
-> At least one recipient in the  _lpAdrList_ parameter cannot be resolved. Usually, this value is returned when the MAPI_DIALOG flag is set, prohibiting the display of a dialog box. 
+> At least one recipient in the _lpAdrList_ parameter cannot be resolved. Usually, this value is returned when the MAPI_DIALOG flag is set, prohibiting the display of a dialog box. 
     
 ## Remarks
 

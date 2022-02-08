@@ -48,7 +48,7 @@ _ulFlags_
       
   - RTF_SYNC_RTF_CHANGED: The RTF version of the message has changed.
     
-  All other bits in the  _ulFlags_ parameter are reserved for future use. 
+  All other bits in the _ulFlags_ parameter are reserved for future use. 
     
 _lpfMessageUpdated_
   

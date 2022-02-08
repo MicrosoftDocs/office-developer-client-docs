@@ -51,7 +51,7 @@ WM_CLOSE
     
 WM_COMMAND 
   
-> One of the provider's controls has been selected, or the **Next** or **Back** button has been clicked. The value in the  _wParam_ parameter indicates which of these user events has occurred. 
+> One of the provider's controls has been selected, or the **Next** or **Back** button has been clicked. The value in the _wParam_ parameter indicates which of these user events has occurred. 
     
 WM_INITDIALOG 
   
@@ -68,7 +68,7 @@ return (BOOL)3;
 
 _wParam_
   
-> [in] A 32-bit parameter associated with window messages. Possible values depend on the message specified in the  _wMsgID_ parameter. In addition to the values expected with the regular window messages for a modal dialog box, the following values can be received: 
+> [in] A 32-bit parameter associated with window messages. Possible values depend on the message specified in the _wMsgID_ parameter. In addition to the values expected with the regular window messages for a modal dialog box, the following values can be received: 
     
 WIZ_NEXT 
   
@@ -80,7 +80,7 @@ WIZ_PREV
     
 _lParam_
   
-> [in] A 32-bit parameter associated with window messages. Possible values depend on the message specified in the  _wMsgID_ parameter. 
+> [in] A 32-bit parameter associated with window messages. Possible values depend on the message specified in the _wMsgID_ parameter. 
     
 ## Return value
 
@@ -96,7 +96,7 @@ FALSE
     
 ## Remarks
 
-When the user moves from one property page to another, the provider is responsible for hiding the old page's controls and showing the controls for the next or previous page. When the user clicks the **Next** button, the **SERVICEWIZARDDLGPROC** based function is called with the WM_COMMAND message and WIZ_NEXT in the  _wParam_ parameter. The following steps describe what occurs between the time the user clicks **Next** and the time the first provider's configuration pages are rendered. 
+When the user moves from one property page to another, the provider is responsible for hiding the old page's controls and showing the controls for the next or previous page. When the user clicks the **Next** button, the **SERVICEWIZARDDLGPROC** based function is called with the WM_COMMAND message and WIZ_NEXT in the _wParam_ parameter. The following steps describe what occurs between the time the user clicks **Next** and the time the first provider's configuration pages are rendered. 
   
 1. The Profile Wizard hides any controls that are on the window. 
     

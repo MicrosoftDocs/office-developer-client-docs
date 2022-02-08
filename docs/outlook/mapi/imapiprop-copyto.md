@@ -50,7 +50,7 @@ HRESULT CopyTo(
     
  _lpExcludeProps_
   
-> [in] A pointer to a property tag array that identifies the property tags that should be excluded from the copy or move operation. Passing **null** in the  _lpExcludeProps_ parameter indicates that all of the object's properties should be copied or moved. **CopyTo** returns MAPI_E_INVALID_PARAMETER when the **cValues** member of the [SPropProblemArray](spropproblemarray.md) structure pointed to by  _lpExcludeProps_ is set to 0. 
+> [in] A pointer to a property tag array that identifies the property tags that should be excluded from the copy or move operation. Passing **null** in the _lpExcludeProps_ parameter indicates that all of the object's properties should be copied or moved. **CopyTo** returns MAPI_E_INVALID_PARAMETER when the **cValues** member of the [SPropProblemArray](spropproblemarray.md) structure pointed to by  _lpExcludeProps_ is set to 0. 
     
  _ulUIParam_
   
@@ -58,7 +58,7 @@ HRESULT CopyTo(
     
  _lpProgress_
   
-> [in] A pointer to a progress indicator implementation. If **null** is passed in the _lpProgress_ parameter, MAPI provides the progress implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a progress indicator implementation. If **null** is passed in the _lpProgress_ parameter, MAPI provides the progress implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpInterface_
   
@@ -140,7 +140,7 @@ MAPI_E_UNEXPECTED_TYPE
 
 By default, the **IMAPIProp::CopyTo** method copies or moves all of the current object's properties to a destination object. **CopyTo** is used when an object should be copied or moved exactly, with all or most of its properties intact. 
   
-Any subobjects in the source object are automatically included in the operation and are copied or moved in their entirety. By default, **CopyTo** overwrites any properties in the destination object that match properties from the source object. If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the  _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
+Any subobjects in the source object are automatically included in the operation and are copied or moved in their entirety. By default, **CopyTo** overwrites any properties in the destination object that match properties from the source object. If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
   
 ## Notes to implementers
 
@@ -164,7 +164,7 @@ You can suppress the display of a progress indicator by not setting the MAPI_DIA
   
  **CopyTo** can report global and individual errors, or errors that occur with one or more properties. These individual errors are placed in an **SPropProblemArray** structure. You can suppress error reporting at the property level by passing **null**, instead of a valid pointer, for the property problem array structure parameter. 
   
-If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the  _lppProblems_ parameter. When **CopyTo** returns S_OK, check for possible errors with individual properties in the structure. When **CopyTo** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call [IMAPIProp::GetLastError](imapiprop-getlasterror.md) to retrieve detailed error information. 
+If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the _lppProblems_ parameter. When **CopyTo** returns S_OK, check for possible errors with individual properties in the structure. When **CopyTo** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call [IMAPIProp::GetLastError](imapiprop-getlasterror.md) to retrieve detailed error information. 
   
 If **CopyTo** returns S_OK, free the returned **SPropProblemArray** structure by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
@@ -178,17 +178,17 @@ Excluding properties on a **CopyTo** call can be useful. For example, some objec
   
 Similarly, prevent the copying or moving of a folder or address book container's hierarchy or contents table by including **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) in the property tag exclude array.
   
-To exclude properties from the copy or move operation, include their property tags in the  _lpExcludeProps_ parameter. If you pass the results of the **PROP_TAG** macro to build a property tag from a specific identifier in the property tag array, all properties with that identifier will be excluded. For example, the following entry in the property tag array causes all properties with an identifier of 0x8002 to be excluded, regardless of type: 
+To exclude properties from the copy or move operation, include their property tags in the _lpExcludeProps_ parameter. If you pass the results of the **PROP_TAG** macro to build a property tag from a specific identifier in the property tag array, all properties with that identifier will be excluded. For example, the following entry in the property tag array causes all properties with an identifier of 0x8002 to be excluded, regardless of type: 
   
  `PROP_TAG(PT_LONG, 0x8002)`
   
-The **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) property tag cannot be included in the  _lpExcludeProps_ array. 
+The **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) property tag cannot be included in the _lpExcludeProps_ array. 
   
 The usefulness of the **CopyTo** feature for excluding interfaces is perhaps not as obvious as the usefulness of excluding properties. You can exclude an interface when you copy to an object that has no knowledge of a group of properties. For example, if you copy properties from a folder to an attachment, the only properties that the attachment can work with are the generic properties available with any [IMAPIProp](imapipropiunknown.md) implementation. By excluding [IMAPIFolder](imapifolderimapicontainer.md) from the copy operation, the attachment will not receive any of the more specific folder properties. 
   
 When you use the  _rgiidExclude_ parameter to exclude an interface, it also excludes all interfaces derived from that interface. For example, excluding [IMAPIContainer](imapicontainerimapiprop.md) causes folders or address book containers to be excluded, depending on the type of provider. Do not exclude **IMAPIProp** or [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) because so many interfaces derive from them. 
   
-Ignore MAPI_E_COMPUTED errors returned in the **SPropProblemArray** structure in the  _lppProblems_ parameter. 
+Ignore MAPI_E_COMPUTED errors returned in the **SPropProblemArray** structure in the _lppProblems_ parameter. 
   
 ## MFCMAPI reference
 

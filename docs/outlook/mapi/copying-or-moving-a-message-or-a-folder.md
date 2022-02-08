@@ -52,7 +52,7 @@ The number of properties to be copied or moved can affect your decision as to wh
     
    - MESSAGE_MOVE, if you want to perform a move operation. 
     
-   - MESSAGE_DIALOG and pass a window handle in the  _ulUIParam_ parameter, if you want the folder to show a progress indicator. 
+   - MESSAGE_DIALOG and pass a window handle in the _ulUIParam_ parameter, if you want the folder to show a progress indicator. 
     
 6. Release the **IMAPIFolder** pointers for the source and destination folders. 
     

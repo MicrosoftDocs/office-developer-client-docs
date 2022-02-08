@@ -107,7 +107,7 @@ The following functions deal with the MAPI idle engine and with idle routines ba
   
 When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute. There is no guarantee of calling order among idle routines of the same priority. 
   
-The following is an example of using the FIRONOADJUSTMENT flag in the  _iroIdle_ parameter. 
+The following is an example of using the FIRONOADJUSTMENT flag in the _iroIdle_ parameter. 
   
 1. Register an idle routine with a 5 minute delay.
     

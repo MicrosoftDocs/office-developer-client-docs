@@ -58,7 +58,7 @@ HRESULT DoCopyProps(
     
  _lpProgress_
   
-> [in] A pointer to an implementation of a progress indicator. If NULL is passed in the _lpProgress_ parameter, the progress indicator is displayed by using the MAPI implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to an implementation of a progress indicator. If NULL is passed in the _lpProgress_ parameter, the progress indicator is displayed by using the MAPI implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpDestInterface_
   
@@ -146,7 +146,7 @@ If subfolders are copied or moved, their contents are copied or moved in their e
   
  **DoCopyProps** reports global errors that occur with the operation as a whole, and individual errors that occur with one or more of the properties. These individual errors are put in an **SPropProblemArray** structure. You can suppress error reporting at the property level by passing NULL, rather than a valid pointer, for the property problem array structure parameter. 
   
-If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the  _lppProblems_ parameter. When **DoCopyProps** returns S_OK, check for possible errors with individual properties in the structure. When **DoCopyProps** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call the [IMAPISupport::GetLastError](imapisupport-getlasterror.md) method to retrieve detailed error information. 
+If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the _lppProblems_ parameter. When **DoCopyProps** returns S_OK, check for possible errors with individual properties in the structure. When **DoCopyProps** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call the [IMAPISupport::GetLastError](imapisupport-getlasterror.md) method to retrieve detailed error information. 
   
 If **DoCopyProps** returns S_OK, free the returned **SPropProblemArray** structure by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
