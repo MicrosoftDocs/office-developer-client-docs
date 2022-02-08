@@ -13,7 +13,6 @@ ms.localizationpriority: medium
 
 **Applies to**: Access 2013, Office 2013
 
-
 <table>
 <colgroup>
 <col style="width: 50%" />
@@ -106,4 +105,3 @@ ms.localizationpriority: medium
 </tr>
 </tbody>
 </table>
-
