@@ -1,20 +1,18 @@
 ---
 title: "Using a Table to Work with Properties"
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 02/06/2022
 ms.audience: Developer
 ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c18ed9f7-c053-4453-b0b1-06234cdfb025
-description: "Last modified: July 23, 2011"
+description: "Learn how to use a table to work with properties"
  
  
 ---
 
-# Using a Table to Work with Properties
-
-  
+# Using a Table to Work with Properties 
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
@@ -29,5 +27,3 @@ There are only two exceptions:
 - If the property is over 255 bytes. The **IMAPITable** interface might not return the entire property value, instead truncating it at 255 bytes. Think about this tradeoff, though. If you are displaying this data to the user, 255 bytes may be enough for a textual field such as a comment. 
     
 - If you need a specific property from a single row in a table. In this case it is unnecessary to create a table with properties that will never be used. Most of the time you will need the same properties for all rows.
-    
-
