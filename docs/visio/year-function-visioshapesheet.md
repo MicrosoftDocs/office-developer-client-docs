@@ -20,7 +20,7 @@ Returns an integer that represents the Gregorian year in  _datetime_ or  _expres
   
 ## Syntax
 
-YEAR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+YEAR(" ***datetime*** "| ***expression*** [, ***lcid*** ]) 
   
 ### Parameters
 
