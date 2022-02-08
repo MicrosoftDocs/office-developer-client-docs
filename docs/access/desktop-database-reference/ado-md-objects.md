@@ -13,7 +13,6 @@ ms.localizationpriority: medium
 
 **Applies to**: Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -68,11 +67,9 @@ ms.localizationpriority: medium
 </tbody>
 </table>
 
-<br/>
 
 Also, the **Catalog** object is connected to an ADO **Connection** object, which is included with the standard ADO library:
 
-<br/>
 
 <table>
 <colgroup>
@@ -93,7 +90,6 @@ Also, the **Catalog** object is connected to an ADO **Connection** object, which
 </tbody>
 </table>
 
-<br/>
 
 Many ADO MD objects can be contained in a corresponding collection. For example, a [CubeDef](cubedef-object-ado-md.md) object can be contained in a [CubeDefs](cubedefs-collection-ado-md.md) collection of a **Catalog**. For more information, see [ADO MD Collections](ado-md-collections.md).
 

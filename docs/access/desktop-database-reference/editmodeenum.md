@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the editing status of a record.
 
-<br/>
 
 <table>
 <colgroup>

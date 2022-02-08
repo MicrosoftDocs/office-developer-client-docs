@@ -27,7 +27,7 @@ _SessionID_
     
 ## Return value
 
-**xlHpcRetSuccess** if the  _SessionId_ argument is valid; otherwise **xlHpcRetInvalidSessionId**.
+**xlHpcRetSuccess** if the _SessionId_ argument is valid; otherwise **xlHpcRetInvalidSessionId**.
   
 ## See also
 

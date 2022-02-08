@@ -49,7 +49,7 @@ HRESULT HrQueryAllRows(
     
  _ptaga_
   
-> [in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags indicating table columns. These tags are used to select the specific columns to be retrieved. If the  _ptaga_ parameter is NULL, **HrQueryAllRows** retrieves the entire column set of the current table view passed in the  _ptable_ parameter. 
+> [in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags indicating table columns. These tags are used to select the specific columns to be retrieved. If the  _ptaga_ parameter is NULL, **HrQueryAllRows** retrieves the entire column set of the current table view passed in the _ptable_ parameter. 
     
  _pres_
   

@@ -22,7 +22,7 @@ Table users can move to a position that represents an approximate percentage of 
   
  **To move the cursor an approximate number of rows**
   
-- Call [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** moves to the row that represents a particular percentage of rows in relation to the beginning of the table. This percentage is specified in the  _ulNumerator_ and  _ulDenominator_ parameters. **SeekRowApprox** is used frequently to implement scroll bars. 
+- Call [IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md). **SeekRowApprox** moves to the row that represents a particular percentage of rows in relation to the beginning of the table. This percentage is specified in the _ulNumerator_ and  _ulDenominator_ parameters. **SeekRowApprox** is used frequently to implement scroll bars. 
     
  **To determine a table's approximate position**
   

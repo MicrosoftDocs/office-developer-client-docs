@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the type of [Key](key-object-adox.md): primary, foreign, or unique.
 
-<br/>
 
 <table>
 <colgroup>

@@ -24,7 +24,7 @@ A NULL entry identifier indicates a request to open the address book provider's 
     
 2. Check the flag that is passed in with the  _ulFlags_ parameter. If MAPI has passed in MAPI_MODIFY and your provider does not allow its objects to be modified, fail and return the MAPI_E_ACCESS_DENIED error value. 
     
-3. Check that the interface requested in the  _lpInterface_ parameter is valid for the type of object your provider has been asked to open. If an invalid parameter has been passed in, fail and return the MAPI_E_INTERFACE_NOT_SUPPORTED error value. 
+3. Check that the interface requested in the _lpInterface_ parameter is valid for the type of object your provider has been asked to open. If an invalid parameter has been passed in, fail and return the MAPI_E_INTERFACE_NOT_SUPPORTED error value. 
     
 4. If the  _cbEntryID_ parameter is zero, this is a request to open your provider's root container. Create the root container and return a pointer to its **IABContainer** interface implementation. 
     

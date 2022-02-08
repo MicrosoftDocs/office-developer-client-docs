@@ -62,7 +62,7 @@ The **IMAPISupport::ModifyStatusRow** method is implemented for all service prov
   
 ## Notes to callers
 
-Set the STATUSROW_UPDATE flag when you call **ModifyStatusRow** to make changes to the properties in your existing status table row. Doing so informs MAPI that only the columns being changed are passed in the  _lpColumnVals_ parameter. 
+Set the STATUSROW_UPDATE flag when you call **ModifyStatusRow** to make changes to the properties in your existing status table row. Doing so informs MAPI that only the columns being changed are passed in the _lpColumnVals_ parameter. 
   
 Clients can use the information in the status table to access your status object. 
   

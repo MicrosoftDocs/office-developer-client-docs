@@ -67,7 +67,7 @@ Some attachment tables support a wide variety of restrictions; others do not. Su
   
 When initially opened, attachment tables are not necessarily sorted in any particular order. 
   
-Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter affects the following calls to the attachment table: 
+Setting the MAPI_UNICODE flag in the _ulFlags_ parameter affects the following calls to the attachment table: 
   
 - [IMAPITable::QueryColumns](imapitable-querycolumns.md) to retrieve the column set. 
     

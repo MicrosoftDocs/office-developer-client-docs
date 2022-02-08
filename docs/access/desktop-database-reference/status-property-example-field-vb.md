@@ -71,7 +71,6 @@ The following example opens a document from a read/write folder using the [Inter
     'EndStatusFieldVB
 ```
 
-<br/>
 
 The following example deletes a known **Field** from a **Record** opened from a document. The **Status** property will first be set to **adFieldOK**, then **adFieldPendingUnknown**.
 
@@ -125,7 +124,6 @@ The following example deletes a known **Field** from a **Record** opened from a 
     'EndStatusField2VB
 ```
 
-<br/>
 
 The following code deletes a **Field** from a **Record** opened on a read-only document. **Status** will be set to **adFieldPendingDelete**. At [Update](update-method-ado.md), the delete will fail and **Status** will be **adFieldPendingDelete** plus **adFieldPermissionDenied**. [CancelUpdate](cancelupdate-method-ado.md) clears the pending **Status** setting.
 

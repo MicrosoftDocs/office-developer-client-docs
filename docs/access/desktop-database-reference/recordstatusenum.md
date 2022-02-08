@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the status of a record with regard to batch updates and other bulk operations.
 
-<br/>
 
 <table>
 <colgroup>

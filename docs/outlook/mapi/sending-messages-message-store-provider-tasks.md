@@ -51,7 +51,6 @@ The following procedure describes the tasks required of a message store provider
      - Performs the needed preprocessing by calling all of the preprocessing functions in the order of registration. Transport providers call IMAPISupport::RegisterPreprocessor to register preprocessing functions. 
      - Calls IMessage::SubmitMessage on the open message to indicate to the message store that preprocessing is complete.
 
-<br/>
 
 The following two steps occur in the client process if there was no preprocessing, and when the MAPI spooler calls **SubmitMessage** if there was preprocessing. 
 

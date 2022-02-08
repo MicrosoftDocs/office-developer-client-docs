@@ -36,11 +36,11 @@ HRESULT SetSearchCriteria(
 
  _lpRestriction_
   
-> [in] A pointer to an [SRestriction](srestriction.md) structure that defines the search criteria. If NULL is passed in the  _lpRestriction_ parameter, the search criteria that were used most recently for this container are used again. NULL should not be passed in  _lpRestriction_ for the first search in a container. 
+> [in] A pointer to an [SRestriction](srestriction.md) structure that defines the search criteria. If NULL is passed in the _lpRestriction_ parameter, the search criteria that were used most recently for this container are used again. NULL should not be passed in  _lpRestriction_ for the first search in a container. 
     
  _lpContainerList_
   
-> [in] A pointer to an array of entry identifiers that represent containers to be included in the search. If a client passes NULL in the  _lpContainerList_ parameter, the entry identifiers used most recently to search this container are used for the new search. A client should not pass NULL in  _lpContainerList_ for the first search in a container. 
+> [in] A pointer to an array of entry identifiers that represent containers to be included in the search. If a client passes NULL in the _lpContainerList_ parameter, the entry identifiers used most recently to search this container are used for the new search. A client should not pass NULL in  _lpContainerList_ for the first search in a container. 
     
  _ulSearchFlags_
   
@@ -60,7 +60,7 @@ NON_CONTENT_INDEXED_SEARCH
     
 RECURSIVE_SEARCH 
   
-> The search should include the containers specified in the  _lpContainerList_ parameter and all their child containers. This flag cannot be set at the same time as the SHALLOW_SEARCH flag. 
+> The search should include the containers specified in the _lpContainerList_ parameter and all their child containers. This flag cannot be set at the same time as the SHALLOW_SEARCH flag. 
     
 RESTART_SEARCH 
   
@@ -68,7 +68,7 @@ RESTART_SEARCH
     
 SHALLOW_SEARCH 
   
-> The search should look only in the containers specified in the  _lpContainerList_ parameter for matching entries. This flag cannot be set at the same time as the RECURSIVE_SEARCH flag. 
+> The search should look only in the containers specified in the _lpContainerList_ parameter for matching entries. This flag cannot be set at the same time as the RECURSIVE_SEARCH flag. 
     
 STOP_SEARCH 
   
@@ -104,7 +104,7 @@ To search for message recipients, set  _lpRestriction_ to point to a subobject r
   
 For example, to look for file attachments that have the extension .mss, set **ulSubObject** to **PR_MESSAGE_ATTACHMENTS** and **lpRes** to a property restriction that matches **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)) with .mss.
   
-Setting the FOREGROUND_SEARCH flag in the  _ulSearchFlags_ parameter could cause a decrease in system performance. 
+Setting the FOREGROUND_SEARCH flag in the _ulSearchFlags_ parameter could cause a decrease in system performance. 
   
 You can use **SetSearchCriteria** to change the search criteria of a search already in progress. You can specify new restrictions, new lists of folders to search, and a new search priority, such as upgrading a search to a higher priority. Changes in search priority do not cause an existing search to restart, but other changes to search criteria can. 
   

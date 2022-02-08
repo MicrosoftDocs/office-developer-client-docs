@@ -13,7 +13,6 @@ ms.localizationpriority: medium
 
 **Applies to**: Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -36,4 +35,3 @@ ms.localizationpriority: medium
 </tbody>
 </table>
 
-<br/>

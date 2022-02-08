@@ -112,7 +112,7 @@ MAPI_E_NO_SUPPORT
     
 ## Remarks
 
-The **IMsgStore::Advise** method establishes a connection between the caller's advise sink object and either the message store or an object in the message store. This connection is used to send notifications to the advise sink when one or more events, as specified in the  _ulEventMask_ parameter, occur to the advise source object. When the  _lpEntryID_ parameter points to a valid entry identifier, the advise source is the object identified by this entry identifier. When  _lpEntryID_ is NULL, the advise source is the message store. 
+The **IMsgStore::Advise** method establishes a connection between the caller's advise sink object and either the message store or an object in the message store. This connection is used to send notifications to the advise sink when one or more events, as specified in the _ulEventMask_ parameter, occur to the advise source object. When the  _lpEntryID_ parameter points to a valid entry identifier, the advise source is the object identified by this entry identifier. When  _lpEntryID_ is NULL, the advise source is the message store. 
   
 To send a notification, either the message store provider or MAPI calls the registered advise sink's [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method. One of the parameters to **OnNotify**, a notification structure, contains information that describes the specific event.
   
@@ -122,7 +122,7 @@ You can support notification with or without help from MAPI. MAPI has three supp
   
 If you elect to support notification yourself, call the [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method of the advise sink represented by the  _lpAdviseSink_ parameter to keep a copy of this pointer. Maintain this copy until your [IMsgStore::Unadvise](imsgstore-unadvise.md) method is called to cancel the registration. 
   
-Regardless of how you support notification, assign a nonzero connection number to the notification registration and return it in the  _lpulConnection_ parameter. Do not release this connection number until **Unadvise** has been called and has completed. 
+Regardless of how you support notification, assign a nonzero connection number to the notification registration and return it in the _lpulConnection_ parameter. Do not release this connection number until **Unadvise** has been called and has completed. 
   
 ## Notes to callers
 

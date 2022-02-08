@@ -55,7 +55,7 @@ MAPI_E_NOT_FOUND
 
 The **IProfAdmin::DeleteProfile** method deletes a profile. If the profile to delete is in use when **DeleteProfile** is called, **DeleteProfile** returns S_OK but does not delete the profile immediately. Instead, **DeleteProfile** marks the profile for deletion and deletes it after it is no longer being used, when all of its active sessions have ended. 
   
-The entry point function for each message service in the profile is called with the MSG_SERVICE_DELETE value set in the  _ulContext_ parameter. First, the function deletes the service, and then it deletes the service's profile section. The message service entry point function is not called again after the service has been deleted. 
+The entry point function for each message service in the profile is called with the MSG_SERVICE_DELETE value set in the _ulContext_ parameter. First, the function deletes the service, and then it deletes the service's profile section. The message service entry point function is not called again after the service has been deleted. 
   
 No password is required to delete a profile.
   

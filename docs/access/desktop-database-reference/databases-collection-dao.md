@@ -79,7 +79,6 @@ End Sub
  
 ```
 
-<br/>
 
 This example uses **CreateDatabase** to create a new, encrypted **Database** object.
 

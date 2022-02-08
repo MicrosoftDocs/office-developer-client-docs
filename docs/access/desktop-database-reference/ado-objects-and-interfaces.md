@@ -17,7 +17,6 @@ The relationships between these objects are represented in the ActiveX Data Obje
 
 Each object can be contained in its corresponding collection. For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection. For more information, see [ADO collections](ado-collections.md) or a specific collection topic.
 
-<br/>
 
 <table>
 <colgroup>
@@ -76,5 +75,4 @@ Each object can be contained in its corresponding collection. For example, an [E
 </tbody>
 </table>
 
-<br/>
 

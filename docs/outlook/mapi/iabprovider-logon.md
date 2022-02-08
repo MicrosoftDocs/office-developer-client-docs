@@ -113,7 +113,7 @@ MAPI_E_USER_CANCEL
 
 Connections are established with each address book provider in the session profile when a client calls the [IMAPISession::OpenAddressBook](imapisession-openaddressbook.md) method. **OpenAddressBook** then calls each provider's **Logon** method. 
   
-The profile name pointed to by the  _lpszProfileName_ parameter is displayed in the character set of the user's client as indicated by the presence or absence of the MAPI_UNICODE flag in the  _ulFlags_ parameter. 
+The profile name pointed to by the  _lpszProfileName_ parameter is displayed in the character set of the user's client as indicated by the presence or absence of the MAPI_UNICODE flag in the _ulFlags_ parameter. 
   
 ## Notes to implementers
 
@@ -121,13 +121,13 @@ In your implementation of the **Logon** method, call the [IMAPISupport::SetProvi
   
 If a client logs on to your provider more than once, you may want to register a different **MAPIUID** for each logon. Registering unique **MAPIUID** structures enables MAPI to correctly route requests to the appropriate provider instance. However, you may want to have every logon object share one **MAPIUID**. In this case, you must be able to handle the routing yourself instead of relying on MAPI. For more information about how to create a **MAPIUID**, see [Registering Service Provider Unique Identifiers](registering-service-provider-unique-identifiers.md).
   
-The support object that MAPI passes to your **Logon** method in the  _lpMAPISup_ parameter provides access to many of the methods included in the [IMAPISupport : IUnknown](imapisupportiunknown.md) interface. MAPI creates a support object that is customized to your type of provider. For example, if you need to log on to an underlying messaging system or directory service when you establish your connection, you can call the [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) method to retrieve security credentials for this particular logon session. 
+The support object that MAPI passes to your **Logon** method in the _lpMAPISup_ parameter provides access to many of the methods included in the [IMAPISupport : IUnknown](imapisupportiunknown.md) interface. MAPI creates a support object that is customized to your type of provider. For example, if you need to log on to an underlying messaging system or directory service when you establish your connection, you can call the [IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) method to retrieve security credentials for this particular logon session. 
   
 If **Logon** is successful, be sure that you call the support object's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method to increment its reference count. This enables your provider to hold onto the support object pointer for the rest of the session. If you do not call this **AddRef** method, MAPI will unload your provider. 
   
-You can include the profile name passed in the  _lpszProfileName_ parameter in error dialog boxes, logon screens, or other user interfaces. To use the profile name, copy it to storage that you have allocated. 
+You can include the profile name passed in the _lpszProfileName_ parameter in error dialog boxes, logon screens, or other user interfaces. To use the profile name, copy it to storage that you have allocated. 
   
-Create a logon object and return a pointer to it in the  _lppABLogon_ parameter. MAPI uses this logon object to make calls to the methods in your [IABLogon](iablogoniunknown.md) implementation. 
+Create a logon object and return a pointer to it in the _lppABLogon_ parameter. MAPI uses this logon object to make calls to the methods in your [IABLogon](iablogoniunknown.md) implementation. 
   
 If you require a password during logon, display a logon dialog box only if the AB_NO_DIALOG flag is not set. If the user cancels the logon process, typically by clicking the **Cancel** button in the dialog box, return MAPI_E_USER_CANCEL from **Logon**.
   

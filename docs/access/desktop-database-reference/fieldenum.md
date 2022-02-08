@@ -19,7 +19,6 @@ Specifies the special fields referenced in a [Record](record-object-ado.md) obje
 
 These constants provide a "shortcut" to accessing special fields associated with a **Record**. Retrieve the [Field](field-object-ado.md) object from the **Fields** collection, and then obtain its contents with the **Field** object's [Value](value-property-ado.md) property.
 
-<br/>
 
 <table>
 <colgroup>

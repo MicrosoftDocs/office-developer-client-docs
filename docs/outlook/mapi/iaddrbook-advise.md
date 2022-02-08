@@ -42,7 +42,7 @@ HRESULT Advise(
     
  _lpEntryID_
   
-> [in] A pointer to the entry identifier of the address book container, messaging user, or distribution list that will generate a notification when a change occurs of the type or types described in the  _ulEventMask_ parameter. 
+> [in] A pointer to the entry identifier of the address book container, messaging user, or distribution list that will generate a notification when a change occurs of the type or types described in the _ulEventMask_ parameter. 
     
  _ulEventMask_
   
@@ -78,7 +78,7 @@ MAPI_E_INVALID_ENTRYID
     
 MAPI_E_NO_SUPPORT 
   
-> Notification is not supported by the address book provider responsible for the object identified by the entry identifier passed in the  _lpEntryID_ parameter. 
+> Notification is not supported by the address book provider responsible for the object identified by the entry identifier passed in the _lpEntryID_ parameter. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
@@ -88,9 +88,9 @@ MAPI_E_UNKNOWN_ENTRYID
 
 Clients and service providers call the **Advise** method to register for a particular type or types of notification on an address book entry. The types of notification are indicated by the event mask passed in with the  _ulEventMask_ parameter. 
   
-MAPI forwards this **Advise** call to the address book provider that is responsible for the entry as indicated by the entry identifier in the  _lpEntryID_ parameter. The address book provider either handles the registration itself or calls the support method, [IMAPISupport::Subscribe](imapisupport-subscribe.md), to prompt MAPI to register the caller. A nonzero connection number is returned to represent the successful registration.
+MAPI forwards this **Advise** call to the address book provider that is responsible for the entry as indicated by the entry identifier in the _lpEntryID_ parameter. The address book provider either handles the registration itself or calls the support method, [IMAPISupport::Subscribe](imapisupport-subscribe.md), to prompt MAPI to register the caller. A nonzero connection number is returned to represent the successful registration.
   
-Whenever a change occurs to the entry of the type indicated by the notification registration, the address book provider calls the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object specified in the  _lpAdviseSink_ parameter. The **OnNotify** method includes a [NOTIFICATION](notification.md) structure as an input parameter that contains data to describe the event. 
+Whenever a change occurs to the entry of the type indicated by the notification registration, the address book provider calls the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object specified in the _lpAdviseSink_ parameter. The **OnNotify** method includes a [NOTIFICATION](notification.md) structure as an input parameter that contains data to describe the event. 
   
 Depending on the address book provider, the call to **OnNotify** can occur immediately following the change to the registered object or at a later time. On systems that support multiple threads of execution, the call to **OnNotify** can occur on any thread. Clients can request that these notifications occur on a particular thread by calling the [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) function to create the advise sink object that is passed to **Advise**. 
   

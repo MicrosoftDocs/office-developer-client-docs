@@ -69,7 +69,7 @@ Most form objects will use the message class pointed to by the  _lpszMessageClas
   
 ## Notes to implementers
 
-Return S_OK and NULL in the  _ppPersistMessage_ parameter if the form can handle the message class. If the form can create a new form that can handle the message that the form is unable to handle, follow these steps: 
+Return S_OK and NULL in the _ppPersistMessage_ parameter if the form can handle the message class. If the form can create a new form that can handle the message that the form is unable to handle, follow these steps: 
   
 1. Call your form's class factory to create an instance of a new form object.
     

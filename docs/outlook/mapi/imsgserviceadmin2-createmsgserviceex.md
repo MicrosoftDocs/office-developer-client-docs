@@ -84,17 +84,17 @@ MAPI_E_NOT_FOUND
     
 ## Remarks
 
-The **IMsgServiceAdmin2::CreateMsgServiceEx** method adds a message service to the current profile. **CreateMsgServiceEx** calls the message service's entry point function to perform any service-specific configuration tasks. If the SERVICE_UI_ALLOWED flag is set in the  _ulFlags_ parameter, the message service being installed can display a property sheet enabling the user to configure its settings. 
+The **IMsgServiceAdmin2::CreateMsgServiceEx** method adds a message service to the current profile. **CreateMsgServiceEx** calls the message service's entry point function to perform any service-specific configuration tasks. If the SERVICE_UI_ALLOWED flag is set in the _ulFlags_ parameter, the message service being installed can display a property sheet enabling the user to configure its settings. 
   
 The MapiSvc.inf file contains the list of providers that make up a message service and the properties for each. **CreateMsgServiceEx** first creates a new profile section for the message service and then copies all of the information for that service from the MapiSvc.inf file into the profile, creating new sections for each provider. 
   
-After all the information has been copied from MapiSvc.inf, the message service's entry point function, **MSGSERVICEENTRY**, is called with the MSG_SERVICE_CREATE value set in the  _ulContext_ parameter. If the SERVICE_UI_ALLOWED flag is set in the **CreateMsgServiceEx** method's  _ulFlags_ parameter, the values in the  _ulUIParam_ and  _ulFlags_ parameters are also passed when the message service's entry point function is called. Service providers should display their configuration property sheets so users can configure the message service. 
+After all the information has been copied from MapiSvc.inf, the message service's entry point function, **MSGSERVICEENTRY**, is called with the MSG_SERVICE_CREATE value set in the _ulContext_ parameter. If the SERVICE_UI_ALLOWED flag is set in the **CreateMsgServiceEx** method's  _ulFlags_ parameter, the values in the _ulUIParam_ and  _ulFlags_ parameters are also passed when the message service's entry point function is called. Service providers should display their configuration property sheets so users can configure the message service. 
   
 ## Notes to callers
 
 If the **CreateMsgServiceEx** _lpuidService_ argument is not NULL, the **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) property of the message service that was added to the profile is returned in the **GUID** to which it points. 
   
-Pass the value of the **PR_SERVICE_UID** property in the  _lpuidService_ parameter to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method to configure the service. 
+Pass the value of the **PR_SERVICE_UID** property in the _lpuidService_ parameter to the [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) method to configure the service. 
   
 > [!CAUTION]
 > The Microsoft Outlook 2010 implementation of the MAPI subsystem does not support MAPI_UNICODE and will fail if it is used. 

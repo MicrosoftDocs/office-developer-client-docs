@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies how objects will inherit permissions set with [SetPermissions](setpermissions-method-adox.md).
 
-<br/>
 
 <table>
 <colgroup>

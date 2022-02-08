@@ -28,6 +28,6 @@ To improve the performance of sending formatted messages, either:
     
 - Write uncompressed text in the **PR_RTF_COMPRESSED** property. 
     
-The procedure for setting **PR_RTF_COMPRESSED** with uncompressed text is the same as for setting it with compressed text, with one exception. When calling [WrapCompressedRTFStream](wrapcompressedrtfstream.md), set the STORE_UNCOMPRESSED_RTF flag in the  _ulFlags_ parameter. Setting uncompressed text has the disadvantage in that it increases the size of messages. 
+The procedure for setting **PR_RTF_COMPRESSED** with uncompressed text is the same as for setting it with compressed text, with one exception. When calling [WrapCompressedRTFStream](wrapcompressedrtfstream.md), set the STORE_UNCOMPRESSED_RTF flag in the _ulFlags_ parameter. Setting uncompressed text has the disadvantage in that it increases the size of messages. 
   
 

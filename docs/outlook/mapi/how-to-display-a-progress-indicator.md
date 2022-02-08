@@ -40,7 +40,7 @@ If the MAPI_TOP_LEVEL flag is set, complete the following steps:
       
      - Set the  _lpulFlags_ parameter to 0. 
       
-   2. Perform whatever processing should be done on this object. If this is a subobject and you want to display progress on subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method. 
+   2. Perform whatever processing should be done on this object. If this is a subobject and you want to display progress on subobjects, pass a pointer to the progress object in the _lpProgress_ parameter to the method. 
       
    3. Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters: 
       
@@ -70,7 +70,7 @@ If the MAPI_TOP_LEVEL flag is not set, complete the following steps:
       
      - Set the  _lpulFlags_ parameter to 0. 
       
-   2. Perform whatever processing should be done on this object. If the object is a subobject, and your provider displays progress for subobjects, pass a pointer to the progress object in the  _lpProgress_ parameter to the method. 
+   2. Perform whatever processing should be done on this object. If the object is a subobject, and your provider displays progress for subobjects, pass a pointer to the progress object in the _lpProgress_ parameter to the method. 
       
    3. Call [IMAPIProgress::Progress](imapiprogress-progress.md) and pass the following values for the three parameters: 
       

@@ -58,6 +58,6 @@ None.
   
 ## Remarks
 
-The **HexFromBin** function takes a pointer to a unit of binary data whose size is indicated by the  _cb_ parameter. It returns in the  _sz_ string, within (2*  _cb_)+1 bytes of memory, a representation of this binary information in hexadecimal numbers. If the byte value is decimal 10, for example, the hexadecimal string will be 0A, so one byte converts to two bytes in the string. 
+The **HexFromBin** function takes a pointer to a unit of binary data whose size is indicated by the  _cb_ parameter. It returns in the _sz_ string, within (2*  _cb_)+1 bytes of memory, a representation of this binary information in hexadecimal numbers. If the byte value is decimal 10, for example, the hexadecimal string will be 0A, so one byte converts to two bytes in the string. 
   
 

@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the location of the cursor service.
 
-<br/>
 
 <table>
 <colgroup>

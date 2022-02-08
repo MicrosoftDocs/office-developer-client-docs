@@ -44,7 +44,7 @@ HRESULT GetLastError(
     
 MAPI_UNICODE 
   
-> If set, the strings in the **MAPIERROR** structure returned in the  _lppMAPIError_ parameter are in Unicode format. If the MAPI_UNICODE flag is not set, the strings are in ANSI format. 
+> If set, the strings in the **MAPIERROR** structure returned in the _lppMAPIError_ parameter are in Unicode format. If the MAPI_UNICODE flag is not set, the strings are in ANSI format. 
     
  _lppMAPIError_
   

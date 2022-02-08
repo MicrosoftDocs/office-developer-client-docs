@@ -93,7 +93,6 @@ Project Server 2013 workflows are built on the SharePoint 2013 workflow platform
 
 ![Adding a stage to a workflow in SPD](media/pj15_CreateWorkflowSPD_AddStageInSPD.gif "Adding a stage to a workflow in SPD")
 
-<br/>
 
 You build a declarative workflow by adding workflow stages, actions, conditions, and other elements in a design tool, which can be either SharePoint Designer 2013 or Visual Studio 2012. The design tool then saves the workflow as XAML code, which is interpreted at runtime. Declarative workflows can run either in Project Server 2013 on-premises or in Project Online. By using Visual Studio 2012, you can also build custom actions and forms for additional control, and save workflow templates for reuse with multiple Project Web App instances. SharePoint Designer 2013 can consume custom actions that are created in Visual Studio 2012.
   

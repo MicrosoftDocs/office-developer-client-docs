@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the current status of the execution of an event.
 
-<br/>
 
 <table>
 <colgroup>

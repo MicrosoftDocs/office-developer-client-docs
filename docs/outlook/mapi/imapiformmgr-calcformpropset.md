@@ -40,7 +40,7 @@ HRESULT CalcFormPropSet(
     
  _ulFlags_
   
-> [in] A bitmask of flags that controls how the property array in the  _ppResults_ parameter is returned. The following flags can be set: 
+> [in] A bitmask of flags that controls how the property array in the _ppResults_ parameter is returned. The following flags can be set: 
     
 FORMPROPSET_INTERSECTION 
   
@@ -70,11 +70,11 @@ MAPI_E_BAD_CHARWIDTH
     
 ## Remarks
 
-Form viewers call the **IMAPIFormMgr::CalcFormPropSet** method to obtain an array of the properties that a group of forms uses. **CalcFormPropSet** takes either an intersection or a union of these forms' property sets, depending on the flag set in the  _ulFlags_ parameter, and it returns an **SMAPIFormPropArray** structure that contains the resulting group of properties. 
+Form viewers call the **IMAPIFormMgr::CalcFormPropSet** method to obtain an array of the properties that a group of forms uses. **CalcFormPropSet** takes either an intersection or a union of these forms' property sets, depending on the flag set in the _ulFlags_ parameter, and it returns an **SMAPIFormPropArray** structure that contains the resulting group of properties. 
   
 ## Notes to implementers
 
-If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings should be returned as Unicode strings. Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed. 
+If a form viewer passes the MAPI_UNICODE flag in the _ulFlags_ parameter, all strings should be returned as Unicode strings. Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed. 
   
 ## See also
 

@@ -56,7 +56,7 @@ MAPI_E_NO_SUPPRESS
     
 MAPI_E_INVALID_PARAMETER 
   
-> One of the following combinations of flags is set in the  _ulFlags_ parameter: 
+> One of the following combinations of flags is set in the _ulFlags_ parameter: 
     
    - SUPPRESS_RECEIPT | CLEAR_READ_FLAG 
     
@@ -82,7 +82,7 @@ The read flag cannot be altered for:
     
 ## Notes to callers
 
-If none of the flags are set in the  _ulFlags_ parameter, the following rules apply: 
+If none of the flags are set in the _ulFlags_ parameter, the following rules apply: 
   
 - If MSGFLAG_READ is already set, do nothing.
     

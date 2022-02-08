@@ -96,11 +96,11 @@ The **IMsgStore::OpenEntry** method opens a folder or message and returns a poin
   
 ## Notes to callers
 
-Folders and messages are automatically opened with read-only permission, unless you set the MAPI_MODIFY or MAPI_BEST_ACCESS flag in the  _ulFlags_ parameter. Setting one of these flags does not guarantee a particular type of permission; the permissions that you are granted depend on the message store provider, your access level, and the object. To determine the access level of the opened object, retrieve its **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
+Folders and messages are automatically opened with read-only permission, unless you set the MAPI_MODIFY or MAPI_BEST_ACCESS flag in the _ulFlags_ parameter. Setting one of these flags does not guarantee a particular type of permission; the permissions that you are granted depend on the message store provider, your access level, and the object. To determine the access level of the opened object, retrieve its **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
   
 Although **IMsgStore::OpenEntry** can be used to open any folder or message, it is usually faster to use the [IMAPIContainer::OpenEntry](imapicontainer-openentry.md) method if you have access to the parent folder of the folder or message to be opened. 
   
-Check the value returned in the  _lpulObjType_ parameter to determine whether the returned object type is what you expected. If the object type is not the expected type, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type **LPMAPIFOLDER**.
+Check the value returned in the _lpulObjType_ parameter to determine whether the returned object type is what you expected. If the object type is not the expected type, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type **LPMAPIFOLDER**.
   
 ## MFCMAPI reference
 

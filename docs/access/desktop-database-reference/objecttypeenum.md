@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the type of database object for which to set permissions or ownership.
 
-<br/>
 
 <table>
 <colgroup>

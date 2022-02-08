@@ -60,13 +60,13 @@ S_OK
 
 Clients and service providers call the **PrepareRecips** method to do the following: 
   
-- Ensure that all recipients in the  _lpRecipList_ parameter have long-term entry identifiers. 
+- Ensure that all recipients in the _lpRecipList_ parameter have long-term entry identifiers. 
     
-- Ensure that each recipient in the  _lpRecipList_ parameter has the properties listed in the  _lpSPropTagArray_ parameter and that these properties appear at the start of the recipient list. 
+- Ensure that each recipient in the _lpRecipList_ parameter has the properties listed in the _lpSPropTagArray_ parameter and that these properties appear at the start of the recipient list. 
     
 MAPI converts each recipient's short-term entry identifiers to long-term entry identifiers. If necessary, recipients' long-term entry identifiers are retrieved from the appropriate address book provider and any additional properties are requested.
   
-In an individual recipient entry, the requested properties are ordered first, followed by any properties that were already present for the entry. If one or more of the requested properties in the  _lpSPropTagArray_ parameter are not handled by the appropriate address book provider, their property types will be set to PT_ERROR. Their property values will be set to either to MAPI_E_NOT_FOUND or to another value that gives a more specific reason why the properties are not available. Each [SPropValue](spropvalue.md) structure included in the  _lpRecipList_ parameter must be separately allocated by using the [MAPIAllocateBuffer](mapiallocatebuffer.md) and [MAPIAllocateMore](mapiallocatemore.md) functions so that it can be freed individually. 
+In an individual recipient entry, the requested properties are ordered first, followed by any properties that were already present for the entry. If one or more of the requested properties in the _lpSPropTagArray_ parameter are not handled by the appropriate address book provider, their property types will be set to PT_ERROR. Their property values will be set to either to MAPI_E_NOT_FOUND or to another value that gives a more specific reason why the properties are not available. Each [SPropValue](spropvalue.md) structure included in the _lpRecipList_ parameter must be separately allocated by using the [MAPIAllocateBuffer](mapiallocatebuffer.md) and [MAPIAllocateMore](mapiallocatemore.md) functions so that it can be freed individually. 
   
 For information about PT_ERROR, see [Property Types](property-types.md).
   

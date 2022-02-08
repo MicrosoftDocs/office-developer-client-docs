@@ -224,7 +224,6 @@ To view this example in the macro designer, use the following steps:
     </DataMacros>
 ```
 
-<br/>
 
 ```vb
     SetLocalVar 

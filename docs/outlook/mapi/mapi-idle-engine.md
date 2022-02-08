@@ -42,7 +42,7 @@ The functions that make up the idle engine are:
   
 To register a callback function, clients and service providers call the **FtgRegisterIdleRoutine** function. The input parameters include an optional priority, a block of memory that is passed to your callback function as input, an amount of time to be used in any way appropriate, and a set of option flags. 
   
-Clients and service providers can specify a priority in the  _priIdle_ parameter that controls how the idle function runs or specify zero if priority is not an issue. Because negative numbers represent higher priorities than positive numbers or zero, compression and search operations should be assigned negative numbers. Tasks that occur once should be assigned positive numbers. 
+Clients and service providers can specify a priority in the _priIdle_ parameter that controls how the idle function runs or specify zero if priority is not an issue. Because negative numbers represent higher priorities than positive numbers or zero, compression and search operations should be assigned negative numbers. Tasks that occur once should be assigned positive numbers. 
   
 To deregister an active callback function, clients and service providers call the **DeregisterIdleRoutine** function. Because **DeregisterIdleRoutine** operates asynchronously, it is possible for the callback function to be invoked at any time during the deregister call and possibly even after **DeregisterIdleRoutine** has returned. 
   

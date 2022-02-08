@@ -41,7 +41,7 @@ FILETIME FtMulDwDw(
 
  _Multiplicand_
   
-> [in] A double word that contains the unsigned 32-bit integer to be multiplied by the value in the  _Multiplier_ parameter. 
+> [in] A double word that contains the unsigned 32-bit integer to be multiplied by the value in the _Multiplier_ parameter. 
     
  _Multiplier_
   

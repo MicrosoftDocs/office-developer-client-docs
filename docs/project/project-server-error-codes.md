@@ -1167,7 +1167,7 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 |StatusingMissingNameAttribute = 3126  <br/> |Missing name attribute for **Statusing**.  <br/> |
 |StatusingInvalidNameAttribute = 3127  <br/> |The name attribute for **Statusing** is not valid.  <br/> |
 |StatusingInvalidData = 3128  <br/> |The **Statusing** data is not valid.  <br/> |
-|StatusingInvalidChangelist = 3130  <br/> |The XML data is not valid in the  _changexml_ parameter of the **UpdateStatus** method.  <br/> |
+|StatusingInvalidChangelist = 3130  <br/> |The XML data is not valid in the _changexml_ parameter of the **UpdateStatus** method.  <br/> |
 |StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** cannot update an assignment because the user does not have permission.  <br/> |
 |StatusingInvalidChangeNumber = 3132  <br/> |The **Statusing** change number is not valid.  <br/> |
 |StatusingPidNotEditable = 3133  <br/> |The **Statusing** property identification number is not editable.  <br/> |
@@ -1569,7 +1569,6 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 ```
 
-<br/>
 
 In addition to the data in the **PSClientError** object, the **FaultException** object can include other types of errors, such as failure to connect to Project Server. The _errOut_ parameter of the **GetPSClientError** method in the previous example shows additional information. For example, the **CreateProject4Department** code sample in the [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) method includes comments that show how to create errors when setting properties in the **ProjectCustomFields** table. When the application is run, the _errOut_ parameter includes the **errinfo** element and other data (formatted here from the console output). 
   

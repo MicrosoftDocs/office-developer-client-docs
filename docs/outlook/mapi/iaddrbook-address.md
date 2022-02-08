@@ -56,7 +56,7 @@ S_OK
 
 If the **ulFlags** member of the  _lpAdrParms_ parameter is set to DIALOG_SDI anticipating the return of the window handle of the modeless dialog box on output, it is ignored in Outlook; the modal version of the dialog is always shown in non-Outlook clients. 
   
-The **ADRLIST** structure passed back by MAPI to the caller through the  _lppAdrList_ parameter contains an array of [ADRENTRY](adrentry.md) structures, one structure for each recipient. When passed to an outgoing message's [IMessage::ModifyRecipients](imessage-modifyrecipients.md) method in the  _lpMods_ parameter, the **ADRLIST** structure can be used to update its recipient list. 
+The **ADRLIST** structure passed back by MAPI to the caller through the  _lppAdrList_ parameter contains an array of [ADRENTRY](adrentry.md) structures, one structure for each recipient. When passed to an outgoing message's [IMessage::ModifyRecipients](imessage-modifyrecipients.md) method in the _lpMods_ parameter, the **ADRLIST** structure can be used to update its recipient list. 
   
 Each **ADRENTRY** structure in the **ADRLIST** structure contains zero or more [SPropValue](spropvalue.md) structures, one structure for every property set for the recipient. There can be zero **SPropValue** structures when the dialog box presented by the **Address** method is used to remove a recipient. When there are one or more **SPropValue** structures, the corresponding **ADRENTRY** structure is used to add or update a recipient. The recipient can be resolved, which indicates that one of the **SPropValue** structures describes the recipient's **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property, or unresolved, which indicates that the **PR_ENTRYID** property is missing. 
   
@@ -72,9 +72,9 @@ In addition to **PR_ENTRYID**, resolved recipients include the following propert
     
 The **ADRLIST** structure that the caller passes in might be a different size from the structure that MAPI returns. If MAPI must return a larger **ADRLIST** structure, it frees the original structure and allocates a new one. When you allocate memory for the **ADRLIST** structure, allocate the memory for each **SPropValue** structure separately. For more information about how to allocate and free **ADRLIST** structures, see [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md)
   
- **Address** returns immediately if the DIALOG_SDI flag is set in the **ulFlags** member of the **ADRPARM** structure in the  _lpAdrParms_ parameter. The DIALOG_SDI flag is ignored for non-Outlook clients. If DIALOG_SDI is ignored, the modal version of the dialog will be displayed and a pointer to a handle should not be expected in  _lpulUIParam_.
+ **Address** returns immediately if the DIALOG_SDI flag is set in the **ulFlags** member of the **ADRPARM** structure in the _lpAdrParms_ parameter. The DIALOG_SDI flag is ignored for non-Outlook clients. If DIALOG_SDI is ignored, the modal version of the dialog will be displayed and a pointer to a handle should not be expected in  _lpulUIParam_.
   
- **Address** supports Unicode character strings in the **ADRPARM** structure if AB_UNICODEUI was specified in the **ulFlags** member of **ADRPARM** in the  _lpAdrParms_ parameter, and it supports Unicode character strings in **ADRLIST**. The Unicode strings are converted to the multibyte character string (MBCS) format before they are displayed in the Outlook address book dialog box.
+ **Address** supports Unicode character strings in the **ADRPARM** structure if AB_UNICODEUI was specified in the **ulFlags** member of **ADRPARM** in the _lpAdrParms_ parameter, and it supports Unicode character strings in **ADRLIST**. The Unicode strings are converted to the multibyte character string (MBCS) format before they are displayed in the Outlook address book dialog box.
   
 ## MFCMAPI reference
 

@@ -18,11 +18,11 @@ Client applications log on to the MAPI subsystem by calling the **MAPILogonEx** 
   
 ## Choose a profile
   
-- Pass in a character string that represents the name of the profile in the  _lpszProfileName_ parameter to **MAPILogonEx**, or...
+- Pass in a character string that represents the name of the profile in the _lpszProfileName_ parameter to **MAPILogonEx**, or...
     
-- Allow the user to specify the profile by passing NULL in the  _lpszProfileName_ parameter and setting the MAPI_LOGON_UI flag, or... 
+- Allow the user to specify the profile by passing NULL in the _lpszProfileName_ parameter and setting the MAPI_LOGON_UI flag, or... 
 
-- Select the default profile by passing NULL in the  _lpszProfileName_ parameter and setting the MAPI_USE_DEFAULT flag. 
+- Select the default profile by passing NULL in the _lpszProfileName_ parameter and setting the MAPI_USE_DEFAULT flag. 
     
 If you require a specific profile other than the default profile, you must save its name in your own configuration database or use a specific naming convention. MAPI does not expose any profile attributes other than the name and default flag in the profile table, and the default profile flag is reserved for messaging client and related IPM applications.
   

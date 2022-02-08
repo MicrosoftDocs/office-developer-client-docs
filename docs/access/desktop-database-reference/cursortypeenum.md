@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the type of cursor used in a [Recordset](recordset-object-ado.md) object.
 
-<br/>
 
 <table>
 <colgroup>

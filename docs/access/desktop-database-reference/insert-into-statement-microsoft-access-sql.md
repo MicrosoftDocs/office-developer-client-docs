@@ -125,7 +125,6 @@ This example selects all records in a hypothetical New Customers table and adds 
     End Sub
 ```
 
-<br/>
 
 This example creates a new record in the Employees table.
 

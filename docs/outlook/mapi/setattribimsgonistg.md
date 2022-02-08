@@ -55,7 +55,7 @@ HRESULT SetAttribIMsgOnIStg(
     
  _lppPropProblems_
   
-> [out] Pointer to the returned [SPropProblemArray](spropproblemarray.md) structure containing a set of property problems. This structure identifies problems encountered if **SetAttribIMsgOnIStg** has been able to set some properties, but not all. If a pointer to NULL is passed in the  _lppPropProblems_ parameter, no property problem array is returned even if some properties were not set. 
+> [out] Pointer to the returned [SPropProblemArray](spropproblemarray.md) structure containing a set of property problems. This structure identifies problems encountered if **SetAttribIMsgOnIStg** has been able to set some properties, but not all. If a pointer to NULL is passed in the _lppPropProblems_ parameter, no property problem array is returned even if some properties were not set. 
     
 ## Return value
 
@@ -73,7 +73,7 @@ Property attributes can only be accessed on property objects, that is, objects i
   
  **Note** **GetAttribIMsgOnIStg** and **SetAttribIMsgOnIStg** do not operate on all **IMessage** objects. They are only valid for **IMessage**-on- **IStorage** objects returned by **OpenIMsgOnIStg**. 
   
-In the  _lpPropAttrs_ parameter, the number and position of the attributes must match the number and position of the property tags passed in the  _lpPropTags_ parameter. 
+In the  _lpPropAttrs_ parameter, the number and position of the attributes must match the number and position of the property tags passed in the _lpPropTags_ parameter. 
   
 The **SetAttribIMsgOnIStg** function is used to make message properties read-only when required by the **IMessage** schema. The sample message store provider uses it for this purpose. For more information, see [Messages](mapi-messages.md). 
   

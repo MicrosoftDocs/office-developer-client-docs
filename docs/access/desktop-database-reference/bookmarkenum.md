@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies a bookmark indicating where the operation should begin.
 
-<br/>
 
 <table>
 <colgroup>

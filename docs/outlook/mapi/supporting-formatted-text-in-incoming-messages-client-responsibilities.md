@@ -24,7 +24,7 @@ When the recipient's RTF-aware client application opens the message to display t
   
  **To open a message, RTF-aware clients**
   
-1. Call **RTFSync** to synchronize the message text with the formatting if the message store is not RTF-aware. The RTF_SYNC_BODY_CHANGED flag should be passed in the  _ulFlags_ parameter if the **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) property is missing or set to FALSE. Clients working with RTF-aware message stores need not make the **RTFSync** call because the message store takes care of it. 
+1. Call **RTFSync** to synchronize the message text with the formatting if the message store is not RTF-aware. The RTF_SYNC_BODY_CHANGED flag should be passed in the _ulFlags_ parameter if the **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) property is missing or set to FALSE. Clients working with RTF-aware message stores need not make the **RTFSync** call because the message store takes care of it. 
     
 2. Call [IMAPIProp::SaveChanges](imapiprop-savechanges.md) if the message text has been updated. 
     

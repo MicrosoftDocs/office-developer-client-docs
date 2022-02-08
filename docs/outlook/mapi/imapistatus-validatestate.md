@@ -96,7 +96,7 @@ The **IMAPIStatus::ValidateState** method checks the state of a resource that is
 |MAPI subsystem  <br/> |Validates the state of all the resources that the currently active service providers and the subsystem itself own.  <br/> |
 |MAPI spooler  <br/> |Performs a logon of all transport providers, regardless of whether they are already logged on.  <br/> |
 |MAPI address book  <br/> |Checks the entries in its profile section.  <br/> |
-|Service provider  <br/> |Implementation depends on the type of provider and the flags set in the  _ulFlags_ parameter.  <br/> |
+|Service provider  <br/> |Implementation depends on the type of provider and the flags set in the _ulFlags_ parameter.  <br/> |
    
 ## Notes to implementers
 

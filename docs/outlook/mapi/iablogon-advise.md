@@ -73,7 +73,7 @@ S_OK
     
 MAPI_E_INVALID_ENTRYID 
   
-> The entry identifier passed in the  _lpEntryID_ parameter is not in the appropriate format. 
+> The entry identifier passed in the _lpEntryID_ parameter is not in the appropriate format. 
     
 MAPI_E_NO_SUPPORT 
   
@@ -105,11 +105,11 @@ If you elect to use the MAPI support methods, call **Subscribe** when your **Adv
   
 If you elect to support notification yourself, call the **AddRef** method of the advise sink represented by the  _lpAdviseSink_ parameter to keep a copy of this pointer. Maintain this copy until your [IABLogon::Unadvise](iablogon-unadvise.md) method is called to cancel the registration. 
   
-Regardless of how you support notification, assign a nonzero connection number to the notification registration and return it in the  _lpulConnection_ parameter. Do not release this connection number until the **Unadvise** method has been called. 
+Regardless of how you support notification, assign a nonzero connection number to the notification registration and return it in the _lpulConnection_ parameter. Do not release this connection number until the **Unadvise** method has been called. 
   
 ## Notes to callers
 
-The advise sink pointer that you pass in the  _lpAdviseSink_ parameter to **Advise** can point to an object that you have created or that MAPI has created through the [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) function. You might want to use **HrThisThreadAdviseSink** if you support multiple threads of execution and want to be sure that that subsequent calls to your **OnNotify** method occur at an appropriate time on an appropriate thread. 
+The advise sink pointer that you pass in the _lpAdviseSink_ parameter to **Advise** can point to an object that you have created or that MAPI has created through the [HrThisThreadAdviseSink](hrthisthreadadvisesink.md) function. You might want to use **HrThisThreadAdviseSink** if you support multiple threads of execution and want to be sure that that subsequent calls to your **OnNotify** method occur at an appropriate time on an appropriate thread. 
   
 Be prepared for your advise sink object to be released any time after your call to **Advise** and before your call to **Unadvise**. Therefore, you should release your advise sink object after **Advise** returns, unless you have a specific long-term use for it. 
   

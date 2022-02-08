@@ -113,7 +113,6 @@ End Sub
  
 ```
 
-<br/>
 
 This example uses the **Owner** and **SystemDB** properties to show the owners of a variety of **Document** objects.
 

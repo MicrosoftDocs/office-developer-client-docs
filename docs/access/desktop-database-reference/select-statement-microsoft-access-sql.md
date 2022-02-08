@@ -147,7 +147,6 @@ This example creates a dynaset-type **Recordset** based on an SQL statement that
     End Sub
 ```
 
-<br/>
 
 This example counts the number of records that have an entry in the PostalCode field and names the returned field Tally.
 
@@ -177,7 +176,6 @@ This example counts the number of records that have an entry in the PostalCode f
     End Sub 
 ```
 
-<br/>
 
 This example shows the number of employees and the average and maximum salaries.
 
@@ -210,7 +208,6 @@ This example shows the number of employees and the average and maximum salaries.
     End Sub 
 ```
 
-<br/>
 
 The **Sub** procedure EnumFields is passed a **Recordset** object from the calling procedure. The procedure then formats and prints the fields of the **Recordset** to the **Debug** window. The variable is the desired printed field width. Some fields may be truncated.
 

@@ -123,7 +123,6 @@ This example shows how the **Requery** method can be used to refresh a query aft
     End Sub 
 ```
 
-<br/>
 
 This example shows how the **Requery** method can be used to refresh a query after the query parameters have been changed.
 

@@ -44,7 +44,7 @@ S_OK
     
 ## Remarks
 
-Use the **IMAPITable::Unadvise** method to release the pointer to the advise sink object passed in the  _lpAdviseSink_ parameter in the previous call to **IMAPITable::Advise**, thereby canceling a notification registration. As part of discarding the pointer to the advise sink object, the object's **IUnknown::Release** method is called. Generally, **Release** is called during the **Unadvise** call, but if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink, the **Release** call is delayed until the **OnNotify** method returns. 
+Use the **IMAPITable::Unadvise** method to release the pointer to the advise sink object passed in the _lpAdviseSink_ parameter in the previous call to **IMAPITable::Advise**, thereby canceling a notification registration. As part of discarding the pointer to the advise sink object, the object's **IUnknown::Release** method is called. Generally, **Release** is called during the **Unadvise** call, but if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink, the **Release** call is delayed until the **OnNotify** method returns. 
   
 For more information on the notification process, see [Event Notification in MAPI](event-notification-in-mapi.md). For specific information about table notification, see [About Table Notifications](about-table-notifications.md). For information about using the **IMAPISupport** methods to support notification, see [Supporting Event Notification](supporting-event-notification.md).
   

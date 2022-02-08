@@ -69,6 +69,6 @@ Property attributes can only be accessed on property objects, that is, objects i
 > [!NOTE]
 > **GetAttribIMsgOnIStg** and **SetAttribIMsgOnIStg** do not operate on all **IMessage** objects. They are only valid for **IMessage**-on- **IStorage** objects returned by **OpenIMsgOnIStg**. 
   
-The number and positions of the attributes in the  _lppPropAttrArray_ parameter correspond to the number and positions of the property tags in the  _lpPropTagArray_ parameter. 
+The number and positions of the attributes in the _lppPropAttrArray_ parameter correspond to the number and positions of the property tags in the _lpPropTagArray_ parameter. 
   
 

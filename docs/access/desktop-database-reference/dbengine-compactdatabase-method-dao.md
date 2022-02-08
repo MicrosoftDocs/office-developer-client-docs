@@ -189,7 +189,6 @@ You can use one of the following constants for the DstLocale argument to specify
 </tbody>
 </table>
 
-<br/>
 
 You can use one of the following constants in the options argument to specify whether to encrypt or to decrypt the database while it's compacted.
 
@@ -219,7 +218,6 @@ You can use one of the following constants in the options argument to specify wh
 </tbody>
 </table>
 
-<br/>
 
 If you omit an encryption constant or if you include both **dbDecrypt** and **dbEncrypt**, DstName will have the same encryption as SrcName.
 
@@ -264,7 +262,6 @@ You can use one of the following constants in the options argument to specify th
 </tbody>
 </table>
 
-<br/>
 
 You can specify only one version constant. If you omit a version constant, DstName will have the same version as SrcName. You can compact DstName only to a version that is the same or later than that of SrcName.
 
@@ -311,7 +308,6 @@ You can use the following example VBA code for a command button:
     End Sub 
 ```
 
-<br/>
 
 The following code sample shows how to use CompactDatabase with a password (encryption key) and then link to a table in that compacted database. Note that a password must be supplied.
 

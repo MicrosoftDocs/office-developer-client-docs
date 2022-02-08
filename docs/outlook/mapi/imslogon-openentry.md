@@ -81,7 +81,7 @@ S_OK
     
 ## Remarks
 
-MAPI calls the **IMSLogon::OpenEntry** method to open a folder or a message in a message store. MAPI passes in the entry identifier of the object to open. The message store provider should return a pointer that enables further access to the object specified in the  _lppUnk_ parameter. 
+MAPI calls the **IMSLogon::OpenEntry** method to open a folder or a message in a message store. MAPI passes in the entry identifier of the object to open. The message store provider should return a pointer that enables further access to the object specified in the _lppUnk_ parameter. 
   
 Before MAPI calls **IMSLogon::OpenEntry**, it first determines that the given message or folder entry identifier matches one registered by this message store provider. For more information about how store providers register entry identifiers, see [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md).
   

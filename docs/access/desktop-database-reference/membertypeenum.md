@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the setting for the [Type](type-property-ado-md.md) property of a [Member](member-object-ado-md.md) object.
 
-<br/>
 
 <table>
 <colgroup>

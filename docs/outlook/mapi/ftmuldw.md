@@ -45,7 +45,7 @@ FILETIME FtMulDw(
     
  _Multiplicand_
   
-> [in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer to be multiplied by the value in the  _Multiplier_ parameter. 
+> [in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer to be multiplied by the value in the _Multiplier_ parameter. 
     
 ## Return value
 

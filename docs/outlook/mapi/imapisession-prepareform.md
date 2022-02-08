@@ -54,7 +54,7 @@ S_OK
     
 ## Remarks
 
-The **IMAPISession::PrepareForm** method creates a message token for the message pointed to by the  _lpMessage_ parameter and calls the message's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method. This token is passed in the  _ulMessageToken_ parameter to **IMAPISession::ShowForm**. 
+The **IMAPISession::PrepareForm** method creates a message token for the message pointed to by the  _lpMessage_ parameter and calls the message's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) method. This token is passed in the _ulMessageToken_ parameter to **IMAPISession::ShowForm**. 
   
 ## Notes to callers
 

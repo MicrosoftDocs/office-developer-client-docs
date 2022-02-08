@@ -50,7 +50,6 @@ End Sub
 'EndRsTour 
 ```
 
-<br/>
 
 This SQL query returns a **Recordset** with five rows (records) and three columns (fields). The values for each row are shown in the following table.
 

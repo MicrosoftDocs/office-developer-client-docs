@@ -85,8 +85,7 @@ The following steps create a SharePoint project and an application page that con
         </tr>
     </table>
     <div id="divMessage">
-        <br/>
-        <span id="spanMessage" style="color: #FF0000;"></span>
+                <span id="spanMessage" style="color: #FF0000;"></span>
     </div>
     ```
 
@@ -207,8 +206,7 @@ Following is the complete code from the ProjectsList.aspx file.
     </tr>
 </table>
 <div id="divMessage">
-    <br/>
-    <span id="spanMessage" style="color: #FF0000;"></span>
+        <span id="spanMessage" style="color: #FF0000;"></span>
 </div>
 <SharePoint:ScriptLink name="PS.js" runat="server" ondemand="false" localizable="false" loadafterui="true" />
 <script type="text/javascript">

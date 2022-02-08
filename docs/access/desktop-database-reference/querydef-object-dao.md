@@ -106,7 +106,6 @@ This example creates a new **QueryDef** object and appends it to the **QueryDefs
     End Sub 
 ```
 
-<br/>
 
 This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.
 
@@ -161,7 +160,6 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
     End Function 
 ```
 
-<br/>
 
 The following example shows how to replace the Structured Query Language (SQL) statement in a saved query.
 

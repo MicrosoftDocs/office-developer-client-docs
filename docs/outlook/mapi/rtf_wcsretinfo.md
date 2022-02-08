@@ -33,7 +33,7 @@ _size_
     
 _ulStreamFlags_
   
-> This is a value that indicates the format of the native body. This value is only valid if the **MAPI_NATIVE_BODY** flag is passed in the  _ulFlags_ parameter of the [RTF_WCSINFO](rtf_wcsinfo.md) structure that is passed to the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function. This can be one of the following values: 
+> This is a value that indicates the format of the native body. This value is only valid if the **MAPI_NATIVE_BODY** flag is passed in the _ulFlags_ parameter of the [RTF_WCSINFO](rtf_wcsinfo.md) structure that is passed to the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function. This can be one of the following values: 
     
 |||
 |:-----|:-----|

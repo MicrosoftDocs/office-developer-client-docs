@@ -45,7 +45,7 @@ _ch_
     
 ## Return value
 
-**SzFindCh** returns a pointer to the first occurrence of the character in the string. If the character does not occur anywhere in the string, or if the  _lpsz_ parameter is NULL, a value of NULL is returned. 
+**SzFindCh** returns a pointer to the first occurrence of the character in the string. If the character does not occur anywhere in the string, or if the _lpsz_ parameter is NULL, a value of NULL is returned. 
   
 ## Remarks
 

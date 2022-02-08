@@ -106,7 +106,6 @@ End Sub
 ' EndUpdateVB 
 ```
 
-<br/>
 
 This example demonstrates the **Update** method in conjunction with the [AddNew](addnew-method-ado.md) method.
 

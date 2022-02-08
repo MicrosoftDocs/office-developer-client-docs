@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies whether records with null values are indexed.
 
-<br/>
 
 <table>
 <colgroup>

@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies whether underlying values are overwritten by a call to [Resync](resync-method-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

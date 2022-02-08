@@ -81,7 +81,7 @@ MAPI_E_NOT_FOUND
 
 The **IMAPISession::OpenProfileSection** method opens a profile section or object that supports the **IProfSect** interface. Profile sections are used for reading information from and writing information to the session profile. 
   
-You cannot use **OpenProfileSection** to open profile sections that individual service providers own unless you specify MAPI_FORCE_ACCESS in the  _ulFlags_ parameter. 
+You cannot use **OpenProfileSection** to open profile sections that individual service providers own unless you specify MAPI_FORCE_ACCESS in the _ulFlags_ parameter. 
   
 ## Notes to callers
 
@@ -89,7 +89,7 @@ Multiple clients can open a profile section with read-only permission, but only 
   
 A read-only open operation fails if the section is open for writing. 
   
-You can create a profile section by calling **OpenProfileSection** with the MAPI_MODIFY flag and a nonexistent **MAPIUID** structure in the  _lpUID_ parameter. Be sure that you specify MAPI_MODIFY. If you set  _lpUID_ to point to a nonexistent **MAPIUID** and **OpenProfileSection** is set to use the default access mode of read-only, the call will fail with MAPI_E_NOT_FOUND. 
+You can create a profile section by calling **OpenProfileSection** with the MAPI_MODIFY flag and a nonexistent **MAPIUID** structure in the _lpUID_ parameter. Be sure that you specify MAPI_MODIFY. If you set  _lpUID_ to point to a nonexistent **MAPIUID** and **OpenProfileSection** is set to use the default access mode of read-only, the call will fail with MAPI_E_NOT_FOUND. 
   
 ## See also
 

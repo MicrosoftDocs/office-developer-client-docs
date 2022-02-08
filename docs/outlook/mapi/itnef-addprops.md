@@ -41,7 +41,7 @@ HRESULT AddProps(
     
 TNEF_PROP_ATTACHMENTS_ONLY 
   
-> Encodes only the properties in the  _lpPropList_ parameter that are part of attachments in the message. 
+> Encodes only the properties in the _lpPropList_ parameter that are part of attachments in the message. 
     
 TNEF_PROP_CONTAINED 
   
@@ -53,7 +53,7 @@ TNEF_PROP_CONTAINED_TNEF
     
 TNEF_PROP_EXCLUDE 
   
-> Encodes all properties not specified in the  _lpPropList_ parameter. 
+> Encodes all properties not specified in the _lpPropList_ parameter. 
     
 TNEF_PROP_INCLUDE 
   
@@ -65,7 +65,7 @@ TNEF_PROP_MESSAGE_ONLY
     
  _ulElemID_
   
-> [in] An attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message. The  _ulElemID_ parameter is used when special handling is requested for an attachment. The  _ulElemID_ parameter should be 0 unless the TNEF_PROP_CONTAINED or TNEF_PROP_CONTAINED_TNEF flag is set in the  _ulFlags_ parameter. 
+> [in] An attachment's **PR_ATTACH_NUM** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)) property, which contains a number that uniquely identifies the attachment in its parent message. The  _ulElemID_ parameter is used when special handling is requested for an attachment. The  _ulElemID_ parameter should be 0 unless the TNEF_PROP_CONTAINED or TNEF_PROP_CONTAINED_TNEF flag is set in the _ulFlags_ parameter. 
     
  _lpvData_
   

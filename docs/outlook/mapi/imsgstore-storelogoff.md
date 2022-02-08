@@ -79,7 +79,7 @@ The **IMsgStore::StoreLogoff** method exerts control over the interaction of the
 
 Save the flags that are passed to **StoreLogoff** and pass them when you call the [IMAPISupport::StoreLogoffTransports](imapisupport-storelogofftransports.md) method. Do not call **StoreLogoffTransports** until the message store's reference count drops to zero. Multiple calls to **StoreLogoffTransports** simply overwrite the saved flags. 
   
-If no call has been made to **StoreLogoff** before the message store's reference count reaches zero, set the LOGOFF_ABORT flag in the  _ulFlags_ parameter that you pass to **StoreLogoffTransports**.
+If no call has been made to **StoreLogoff** before the message store's reference count reaches zero, set the LOGOFF_ABORT flag in the _ulFlags_ parameter that you pass to **StoreLogoffTransports**.
   
 ## See also
 

@@ -55,7 +55,6 @@ Figure 1 shows the following processes when projects are maintained in SharePoin
 
 ![Using project sites in visibility mode](media/pj15_Architecture_VisibilityMode.gif "Using project sites in visibility mode")
 
-<br/>
 
 ### Managing projects with full control
 <a name="pj15_Architecture_ManagedMode"> </a>
@@ -88,7 +87,6 @@ There can be multiple Project Web App instances that communicate with the back-e
 
 ![Project Server architecture](media/pj15_Architecture_ProjectServiceApp_WFE.gif "Project Server architecture")
 
-<br/>
 
 The following general comments apply to Figure 3:
   

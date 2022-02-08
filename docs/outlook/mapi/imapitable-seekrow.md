@@ -70,11 +70,11 @@ MAPI_E_BUSY
     
 MAPI_E_INVALID_BOOKMARK 
   
-> The bookmark specified in the  _bkOrigin_ parameter is invalid because it was removed or because it is beyond the last row requested. 
+> The bookmark specified in the _bkOrigin_ parameter is invalid because it was removed or because it is beyond the last row requested. 
     
 MAPI_W_POSITION_CHANGED 
   
-> The call succeeded, but the bookmark specified in the  _bkOrigin_ parameter is no longer set at the same row as it was when it was last used. If the bookmark has not been used, it is no longer in the same position as it was when it was created. When this warning is returned, the call should be handled as successful. To test for this warning, use the **HR_FAILED** macro. For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).
+> The call succeeded, but the bookmark specified in the _bkOrigin_ parameter is no longer set at the same row as it was when it was last used. If the bookmark has not been used, it is no longer in the same position as it was when it was created. When this warning is returned, the call should be handled as successful. To test for this warning, use the **HR_FAILED** macro. For more information, see [Using Macros for Error Handling](using-macros-for-error-handling.md).
     
 ## Remarks
 

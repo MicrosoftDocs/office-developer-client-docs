@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the sort sequence for an indexed column.
 
-<br/>
 
 <table>
 <colgroup>

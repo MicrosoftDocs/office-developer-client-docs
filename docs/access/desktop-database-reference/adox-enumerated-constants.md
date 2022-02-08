@@ -17,7 +17,6 @@ To assist debugging, the ADOX enumerated constants list a value for each constan
 
 The following enumerated constants are defined.
 
-<br/>
 
 <table>
 <colgroup>

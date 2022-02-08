@@ -16,7 +16,7 @@ description: "Returns the substring at the zero-based location index in the list
 
 # INDEX Function
 
-Returns the substring at the zero-based location  _index_ in the  _list_ delimited by  _delimiter_. Or, if the index is out of range, returns an empty string or the optional token provided as the  *errorvalue*  argument. 
+Returns the substring at the zero-based location  _index_ in the _list_ delimited by  _delimiter_. Or, if the index is out of range, returns an empty string or the optional token provided as the  *errorvalue*  argument. 
   
 ## Syntax
 

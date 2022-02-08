@@ -63,7 +63,7 @@ Recipient tables have a different column set depending on whether the message ha
   
 Some recipient tables support a wide variety of restrictions; others do not. Support for restrictions depends on the message store provider's implementation. 
   
-Setting the MAPI_UNICODE flag in the  _ulFlags_ parameter affects the following calls to the recipient table: 
+Setting the MAPI_UNICODE flag in the _ulFlags_ parameter affects the following calls to the recipient table: 
   
 - [IMAPITable::QueryColumns](imapitable-querycolumns.md) to retrieve the column set. 
     

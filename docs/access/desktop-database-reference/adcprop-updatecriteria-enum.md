@@ -17,7 +17,6 @@ Specifies which fields can be used to detect conflicts during an optimistic upda
 
 Use these constants with the **Recordset** "**Update Criteria**" dynamic property, which is referenced in the [ADO Dynamic Property Index](ado-dynamic-property-index.md) and documented in the [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) documentation.
 
-<br/>
 
 <table>
 <colgroup>

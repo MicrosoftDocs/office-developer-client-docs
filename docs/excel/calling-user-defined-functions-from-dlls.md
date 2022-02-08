@@ -79,7 +79,6 @@ double call_ATP_example(void)
 }
 ```
 
-<br/>
 
 Where you are calling an XLL function that returns a value by modifying an argument in place, the **xlUDF** function still returns the value via the address of the result **XLOPER/XLOPER12**. In other words, the result is returned as if through a normal return statement. The **XLOPER/XLOPER12** that corresponds to the argument that is used for the return value is unmodified. For example, consider the following two UDFs. 
   

@@ -63,7 +63,7 @@ Supports access to Microsoft Exchange Server table objects, specifically system 
    
 ## Remarks
 
-To obtain the **IExchangeModifyTable** interface, call the MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method on a property of type PT_OBJECT on a folder object. When you call the **OpenProperty** method, pass the value **IID_IExchangeModifyTable** in the  _lpiid_ parameter. 
+To obtain the **IExchangeModifyTable** interface, call the MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method on a property of type PT_OBJECT on a folder object. When you call the **OpenProperty** method, pass the value **IID_IExchangeModifyTable** in the _lpiid_ parameter. 
   
 ## See also
 

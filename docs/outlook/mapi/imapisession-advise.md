@@ -104,7 +104,7 @@ MAPI_E_INVALID_ENTRYID
     
 MAPI_E_NO_SUPPORT 
   
-> The service provider responsible for the entry identifier pointed to by  _lpEntryID_ either does not support the type of events specified in the  _ulEventMask_ parameter or does not support notification. 
+> The service provider responsible for the entry identifier pointed to by  _lpEntryID_ either does not support the type of events specified in the _ulEventMask_ parameter or does not support notification. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
@@ -112,7 +112,7 @@ MAPI_E_UNKNOWN_ENTRYID
     
 ## Remarks
 
-The **IMAPISession::Advise** method establishes a connection between the caller's advise sink object, the session and, optionally, a service provider. This connection is used to send notifications to the advise sink when one or more events specified in the  _ulEventMask_ parameter occur to the object pointed to by  _lpEntryID_. When  _lpEntryID_ is NULL, the target object is the session and notifications are sent only for critical errors and extended events. 
+The **IMAPISession::Advise** method establishes a connection between the caller's advise sink object, the session and, optionally, a service provider. This connection is used to send notifications to the advise sink when one or more events specified in the _ulEventMask_ parameter occur to the object pointed to by  _lpEntryID_. When  _lpEntryID_ is NULL, the target object is the session and notifications are sent only for critical errors and extended events. 
   
 When  _lpEntryID_ points to a valid entry identifier, MAPI calls the **Advise** method of the logon object that belongs to the responsible service provider. For example, if  _lpEntryID_ points to the entry identifier of a distribution list, MAPI calls the appropriate address book provider's [IABLogon::Advise](iablogon-advise.md) method. 
   

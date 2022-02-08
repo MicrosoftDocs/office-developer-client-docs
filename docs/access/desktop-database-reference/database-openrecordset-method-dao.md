@@ -120,7 +120,6 @@ The following example shows how to open a Recordset that is based on a parameter
     Set rst = qdf.OpenRecordset()
 ```
 
-<br/>
 
 The following example shows how to open a Recordset based on a table or a query.
 
@@ -138,7 +137,6 @@ The following example shows how to open a Recordset based on a table or a query.
     Set rsQuery = dbs.OpenRecordset("qryMyQuery", dbOpenDynaset)
 ```
 
-<br/>
 
 The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.
 
@@ -154,7 +152,6 @@ The following example shows how to open a Recordset based on a Structured Query 
     Set rsSQL = dbs.OpenRecordset(strSQL, dbOpenSnapshot)
 ```
 
-<br/>
 
 The following sample shows how to use the Filter property to determine the records to be included in a subsequently opened Recordset.
 

@@ -37,7 +37,7 @@ BOOL (STDAPICALLTYPE FNIDLE)(
 
  _lpvContext_
   
-> [in] Pointer to a block of memory that MAPI passes to the idle routine each time it calls it. This pointer is passed to the MAPI idle engine in the  _pvIdleParam_ parameter by [FtgRegisterIdleRoutine](ftgregisteridleroutine.md). The data in the memory block can provide context for the call to the idle routine, such as which object to operate on, or the current state of a lengthy operation.
+> [in] Pointer to a block of memory that MAPI passes to the idle routine each time it calls it. This pointer is passed to the MAPI idle engine in the _pvIdleParam_ parameter by [FtgRegisterIdleRoutine](ftgregisteridleroutine.md). The data in the memory block can provide context for the call to the idle routine, such as which object to operate on, or the current state of a lengthy operation.
     
 ## Return value
 

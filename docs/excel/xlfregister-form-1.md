@@ -205,7 +205,7 @@ If types **xltypeMissing** or **xltypeNil** are used for return values, they are
   
 ### Volatile functions and recalculation
 
-On a worksheet, you can make a DLL function or code resource volatile, so that it recalculates every time the worksheet recalculates. To do this, add an exclamation mark (!) after the last argument code in the  _pxTypeText_ argument.
+On a worksheet, you can make a DLL function or code resource volatile, so that it recalculates every time the worksheet recalculates. To do this, add an exclamation mark (!) after the last argument code in the _pxTypeText_ argument.
 
 > [!NOTE]
 > By default, functions that take type **R** XLOPERs or type **U** XLOPER12s and that are registered as macro sheet equivalents (type **#**; see next section) are handled as volatile in Excel.
@@ -247,7 +247,7 @@ If you have registered a function as thread-safe, you must ensure that it behave
   
 ### Registering worksheet functions as cluster-safe
 
-Starting in Excel 2010, Excel can offload function calls to a designated compute cluster provider. For more information, see [Cluster Safe Functions](cluster-safe-functions.md). Any XLL worksheet functions registered as cluster-safe take part in offloading if a cluster is available. Cluster-safe functions are registered by including the **&amp;** character after the last parameter code in the  _pxTypeText_ argument.
+Starting in Excel 2010, Excel can offload function calls to a designated compute cluster provider. For more information, see [Cluster Safe Functions](cluster-safe-functions.md). Any XLL worksheet functions registered as cluster-safe take part in offloading if a cluster is available. Cluster-safe functions are registered by including the **&amp;** character after the last parameter code in the _pxTypeText_ argument.
   
 If you have registered a function as cluster-safe, you must ensure that it behaves in a cluster-safe way. For more information, see [Cluster Safe Functions](cluster-safe-functions.md).
   

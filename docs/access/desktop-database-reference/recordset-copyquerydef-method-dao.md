@@ -61,7 +61,6 @@ This example uses the **CopyQueryDef** method to create a copy of a **QueryDef**
     End Function 
 ```
 
-<br/>
 
 This example shows a possible use of CopyQueryNew().
 

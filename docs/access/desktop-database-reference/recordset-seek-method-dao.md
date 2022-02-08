@@ -143,7 +143,6 @@ This example demonstrates the **Seek** method by allowing the user to search for
     End Sub 
 ```
 
-<br/>
 
 This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.
 
@@ -266,7 +265,6 @@ This example uses the **NoMatch** property to determine whether a **Seek** and a
     End Sub 
 ```
 
-<br/>
 
 The following example shows how to use the Seek method to find a record in a linked table.
 

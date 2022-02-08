@@ -49,7 +49,7 @@ A function with the **ACCELERATEABSDI** prototype returns TRUE if it handles the
   
 ## Remarks
 
-A function based on the **ACCELERATEABSDI** prototype is used only with a modeless dialog, that is, only if the client application has set the DIALOG_SDI flag in the  _ulFlags_ member of the [ADRPARM](adrparm.md) structure. 
+A function based on the **ACCELERATEABSDI** prototype is used only with a modeless dialog, that is, only if the client application has set the DIALOG_SDI flag in the _ulFlags_ member of the [ADRPARM](adrparm.md) structure. 
   
 A modeless dialog shares the client application's Windows message loop, instead of having its own loop. The application, which controls the message loop, does not know what accelerator keys the dialog uses, so it calls an **ACCELERATEABSDI** based function to test for and act upon accelerator keys such as CTRL+P for printing. 
   

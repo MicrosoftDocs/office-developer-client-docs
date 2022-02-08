@@ -78,7 +78,7 @@ The **IMAPISupport::OpenProfileSection** method is implemented for all support o
   
 ## Notes to callers
 
- **OpenProfileSection** opens profile sections as read-only, unless you set the MAPI_MODIFY flag in the  _ulFlags_ parameter and your permission is sufficient. Setting this flag does not guarantee read/write permission; the permissions that you are granted depend on your access level and the object. 
+ **OpenProfileSection** opens profile sections as read-only, unless you set the MAPI_MODIFY flag in the _ulFlags_ parameter and your permission is sufficient. Setting this flag does not guarantee read/write permission; the permissions that you are granted depend on your access level and the object. 
   
 If **OpenProfileSection** attempts to open a nonexistent profile section as read-only, it returns MAPI_E_NOT_FOUND. If **OpenProfileSection** attempts to open a nonexistent profile section as read/write, it creates the profile section and returns the **IProfSect** pointer. 
   

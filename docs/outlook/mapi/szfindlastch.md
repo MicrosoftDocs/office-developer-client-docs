@@ -49,7 +49,7 @@ LPSTR SzFindLastCh(
     
 ## Return value
 
- **SzFindLastCh** returns a pointer to the last occurrence of the character in the string. If the character does not occur anywhere in the string, or if the  _lpsz_ parameter is NULL, a value of NULL is returned. 
+ **SzFindLastCh** returns a pointer to the last occurrence of the character in the string. If the character does not occur anywhere in the string, or if the _lpsz_ parameter is NULL, a value of NULL is returned. 
   
 ## Remarks
 

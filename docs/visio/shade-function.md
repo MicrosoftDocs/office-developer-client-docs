@@ -14,7 +14,7 @@ description: "Modifies the color by decreasing its luminosity by the amount (pos
 
 # SHADE Function
 
-Modifies the color by decreasing its luminosity by the amount (positive or negative) specified in the  _int_ parameter. 
+Modifies the color by decreasing its luminosity by the amount (positive or negative) specified in the _int_ parameter. 
   
 ## Syntax
 

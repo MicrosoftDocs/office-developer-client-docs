@@ -75,7 +75,7 @@ Clients can create a distribution list directly into a modifiable container such
     
    ```
 
-7. Call the PAB's [IABContainer::CreateEntry](iabcontainer-createentry.md) method to create a new entry using the template represented by the saved entry identifier. Do not assume that the object returned will be a distribution list rather than a messaging user when this call is remoted. Notice that the CREATE_CHECK_DUP flag is passed in the  _ulFlags_ parameter to prevent the entry from being added twice. 
+7. Call the PAB's [IABContainer::CreateEntry](iabcontainer-createentry.md) method to create a new entry using the template represented by the saved entry identifier. Do not assume that the object returned will be a distribution list rather than a messaging user when this call is remoted. Notice that the CREATE_CHECK_DUP flag is passed in the _ulFlags_ parameter to prevent the entry from being added twice. 
     
    ```cpp
     lpPABCont->CreateEntry(cbeidDefDLTpl,

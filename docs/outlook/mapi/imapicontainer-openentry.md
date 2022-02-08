@@ -93,7 +93,7 @@ MAPI_E_NOT_FOUND
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> The entry identifier in the  _lpEntryID_ parameter is not of a format recognized by the container. 
+> The entry identifier in the _lpEntryID_ parameter is not of a format recognized by the container. 
     
 ## Remarks
 
@@ -101,7 +101,7 @@ The **IMAPIContainer::OpenEntry** method opens an object throughout a container 
   
 ## Notes to callers
 
-Because service providers are not required to return an interface implementation of the type specified by the interface identifier in the  _lpInterface_ parameter, check the value pointed to by the  _lpulObjType_ parameter. If necessary, cast the pointer returned in  _lppUnk_ to a pointer of the appropriate type. 
+Because service providers are not required to return an interface implementation of the type specified by the interface identifier in the _lpInterface_ parameter, check the value pointed to by the  _lpulObjType_ parameter. If necessary, cast the pointer returned in  _lppUnk_ to a pointer of the appropriate type. 
   
 By default, service providers open objects with read-only access unless you set either the MAPI_MODIFY or MAPI_BEST_ACCESS flag. When one of these flags is set, service providers attempt to return a modifiable object. However, do not assume that because you requested a modifiable object that the opened object has read/write permission. Either plan for the chance of a subsequent modification to fail or retrieve the object's **PR_ACCESS_LEVEL** property to determine the access level granted by **OpenEntry**.
   

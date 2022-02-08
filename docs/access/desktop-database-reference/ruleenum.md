@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the rule to follow when a [Key](key-object-adox.md) is deleted.
 
-<br/>
 
 <table>
 <colgroup>

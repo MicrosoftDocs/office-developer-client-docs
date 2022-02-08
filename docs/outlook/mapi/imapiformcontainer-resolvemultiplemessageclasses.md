@@ -48,7 +48,7 @@ MAPIFORM_EXACTMATCH
     
  _ppfrminfoarray_
   
-> [out] A pointer to a pointer to an array of form information objects. If a client application passes NULL in the  _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container. 
+> [out] A pointer to a pointer to an array of form information objects. If a client application passes NULL in the _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container. 
     
 ## Return value
 
@@ -58,11 +58,11 @@ S_OK
     
 ## Remarks
 
-Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container. The array of form information objects returned in the  _ppfrminfoarray_ parameter provides further access to each of the forms' properties. 
+Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container. The array of form information objects returned in the _ppfrminfoarray_ parameter provides further access to each of the forms' properties. 
   
 ## Notes to callers
 
-To resolve a group of message classes to forms, pass in an array of message class names to be resolved. To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter. 
+To resolve a group of message classes to forms, pass in an array of message class names to be resolved. To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the _ulFlags_ parameter. 
   
 If a message class cannot be resolved to a form, NULL is returned for that message class in the form information array. Therefore, even if the method returns S_OK, do not assume that all message classes have been successfully resolved. Instead, check the values in the returned array.
   

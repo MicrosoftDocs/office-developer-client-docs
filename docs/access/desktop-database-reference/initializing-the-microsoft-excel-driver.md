@@ -72,7 +72,6 @@ The Microsoft Access database engine uses the Excel folder entries as follows.
 </tbody>
 </table>
 
-<br/>
 
 The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the following entries, which apply to Microsoft Excel 97.
 

@@ -70,7 +70,7 @@ S_OK
     
 MAPI_E_INVALID_BOOKMARK 
   
-> The bookmark in the  _BkOrigin_ parameter is invalid because it has been removed or because it is beyond the last row requested. 
+> The bookmark in the _BkOrigin_ parameter is invalid because it has been removed or because it is beyond the last row requested. 
     
 MAPI_E_NOT_FOUND 
   
@@ -84,9 +84,9 @@ MAPI_W_POSITION_CHANGED
 
 The **IMAPITable::FindRow** method locates the first row in the table to match a set of search criteria described in the **SRestriction** structure pointed to by the  _lpRestriction_ parameter. 
   
-Usually, **FindRow** searches forward from the specified bookmark. The caller can set the search to move backward from the bookmark by setting the DIR_BACKWARD flag in the  _ulFlags_ parameter. Searching forward starts from the current bookmark; searching backward starts from the row prior to the bookmark. The end position of the search is just before the first row found that satisfied the restriction. 
+Usually, **FindRow** searches forward from the specified bookmark. The caller can set the search to move backward from the bookmark by setting the DIR_BACKWARD flag in the _ulFlags_ parameter. Searching forward starts from the current bookmark; searching backward starts from the row prior to the bookmark. The end position of the search is just before the first row found that satisfied the restriction. 
   
-If the row pointed to by the bookmark in the  _BkOrigin_ parameter no longer exists in the table and the table cannot establish a new position for the bookmark, **FindRow** returns MAPI_E_INVALID_BOOKMARK. If the row pointed to by  _BkOrigin_ no longer exists and the table is able to establish a new position for the bookmark, **FindRow** returns MAPI_W_POSITION_CHANGED. 
+If the row pointed to by the bookmark in the _BkOrigin_ parameter no longer exists in the table and the table cannot establish a new position for the bookmark, **FindRow** returns MAPI_E_INVALID_BOOKMARK. If the row pointed to by  _BkOrigin_ no longer exists and the table is able to establish a new position for the bookmark, **FindRow** returns MAPI_W_POSITION_CHANGED. 
   
 If the bookmark passed in  _BkOrigin_ is either BOOKMARK_BEGINNING or BOOKMARK_END, **FindRow** returns MAPI_E_NOT_FOUND if no matching row is found. If the bookmark used in  _BkOrigin_ is BOOKMARK_CURRENT, **FindRow** can return MAPI_W_POSITION_CHANGED but not MAPI_E_INVALID_BOOKMARK because there is always a current cursor position. 
   
@@ -102,7 +102,7 @@ You can use **FindRow** to support scrolling based on strings typed in by the us
   
 To use **FindRow**, a bookmark must be set. The string search can originate from any bookmark, including from the preset bookmarks indicating the current position and the beginning and end of the table. If there are a large number of rows in the table, the search operation can be slow.
   
-Use a restriction to find a string prefix for scrolling as follows. For forward searching on a column sorted in ascending order and for backward searching on a column sorted in descending order, pass a property restriction structure in the  _lpRestriction_ parameter with the relation **RELOP_GE** and the appropriate property tag and prefix, using the format  _tag_ **GE** _prefix_. 
+Use a restriction to find a string prefix for scrolling as follows. For forward searching on a column sorted in ascending order and for backward searching on a column sorted in descending order, pass a property restriction structure in the _lpRestriction_ parameter with the relation **RELOP_GE** and the appropriate property tag and prefix, using the format  _tag_ **GE** _prefix_. 
   
 For more information about using restriction structures to specify a filter, see [About Restrictions](about-restrictions.md).
   

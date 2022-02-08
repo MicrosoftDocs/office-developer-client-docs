@@ -57,8 +57,7 @@ The following actions, involving both the InfoPath user interface and the form f
     
 6. Add the following attributes to the **xDocumentClass** element in the .xsf file: 
    
-   `requireFullTrust="yes"`<br/>
-   `name="urn:MyForm:MyCompany`
+   `requireFullTrust="yes"`   `name="urn:MyForm:MyCompany`
 
    > [!NOTE]
    > The values that are used for the URN can be any kind of string value, as long as this value is unique. There must be at least two values after the `urn:` prefix, and these values must be separated by a colon. In addition, the URN should not exceed 255 characters. 

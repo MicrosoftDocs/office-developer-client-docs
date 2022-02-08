@@ -338,7 +338,7 @@ Authentication of on-premises Project Server users, whether by Windows authentic
 
 To fix the problem for WCF, all calls to PSI methods should be within an **OperationContextScope** that is defined for each PSI service. Do not nest scopes for multiple services; for example, when using calls to the Resource and Project services, each set of calls should be within its own scope. 
   
-In the following example, the **DisableFormsAuth** method can be called from every **OperationContextScope** section in an application. The method removes any header value that previously disabled Forms authentication, so that Forms authentication can proceed if the  _isWindowsAuth_ parameter is **false**. If  _isWindowsAuth_ is **true**, the **DisableFormsAuth** method disables Forms authentication. 
+In the following example, the **DisableFormsAuth** method can be called from every **OperationContextScope** section in an application. The method removes any header value that previously disabled Forms authentication, so that Forms authentication can proceed if the _isWindowsAuth_ parameter is **false**. If  _isWindowsAuth_ is **true**, the **DisableFormsAuth** method disables Forms authentication. 
   
 In the **WcfSample** method, the **projectClient** object is an instance of the PSI **SvcProject.ProjectClient** class. 
   

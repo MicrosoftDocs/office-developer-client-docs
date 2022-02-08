@@ -101,11 +101,11 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> There is not an object associated with the entry identifier passed in the  _lpEntryID_ parameter. 
+> There is not an object associated with the entry identifier passed in the _lpEntryID_ parameter. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> The entry identifier passed in the  _lpEntryID_ parameter is in an unrecognizable format. This value is typically returned if the service provider that contains the object is not open. 
+> The entry identifier passed in the _lpEntryID_ parameter is in an unrecognizable format. This value is typically returned if the service provider that contains the object is not open. 
     
 ## Remarks
 
@@ -118,11 +118,11 @@ The **IMAPISession::OpenEntry** method opens a message store or address book obj
   
 Call **IMAPISession::OpenEntry** only when you do not know what kind of object that you are opening. If you know that you are opening a folder or a message, call [IMsgStore::OpenEntry](imsgstore-openentry.md). If you know that you are opening an address book container, a messaging user, or a distribution list, call [IAddrBook::OpenEntry](iaddrbook-openentry.md). These more specific methods are faster than **IMAPISession::OpenEntry**. 
   
-MAPI opens all objects with read-only permission, unless you set the MAPI_MODIFY or MAPI_BEST_ACCESS flag in the  _ulFlags_ parameter. Setting one of these flags does not guarantee a particular type of access; the permissions that are granted depend on the service provider, the access level, and the object. To determine the access level of the opened object, retrieve its **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
+MAPI opens all objects with read-only permission, unless you set the MAPI_MODIFY or MAPI_BEST_ACCESS flag in the _ulFlags_ parameter. Setting one of these flags does not guarantee a particular type of access; the permissions that are granted depend on the service provider, the access level, and the object. To determine the access level of the opened object, retrieve its **PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md)) property.
   
 Calling **IMAPISession::OpenEntry** and setting  _lpEntryID_ to point to the entry identifier of a message store is the same as calling the [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) method with the MDB_NO_DIALOG flag set. The flag settings are also equivalent, except that to request read/write permission with **OpenMsgStore**, you must set the MDB_WRITE flag instead of MAPI_MODIFY. 
   
-Check the value returned in the  _lpulObjType_ parameter to determine whether the object type returned is what you expected. If the object type is not the type that you expected, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type LPMAPIFOLDER. 
+Check the value returned in the _lpulObjType_ parameter to determine whether the object type returned is what you expected. If the object type is not the type that you expected, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type LPMAPIFOLDER. 
   
 ## MFCMAPI reference
 

@@ -92,7 +92,6 @@ This example demonstrates the **SQL** property by setting and changing the **SQL
     End Function 
 ```
 
-<br/>
 
 This example uses the **CopyQueryDef** method to create a copy of a **QueryDef** from an existing **Recordset** and modifies the copy by adding a clause to the **SQL** property. When you create a permanent **QueryDef**, spaces, semicolons, or linefeeds may be added to the **SQL** property; these extra characters must be stripped before any new clauses can be attached to the SQL statement.
 
@@ -119,7 +118,6 @@ This example uses the **CopyQueryDef** method to create a copy of a **QueryDef**
     End Function 
 ```
 
-<br/>
 
 This example shows a possible use of CopyQueryNew(). 
      
@@ -179,7 +177,6 @@ This example shows a possible use of CopyQueryNew().
     End Sub 
 ```
 
-<br/>
 
 This example uses the **CreateQueryDef** and **OpenRecordset** methods and the **SQL** property to query the table of titles in the Microsoft SQL Server sample database Pubs and return the title and title identifier of the best-selling book. The example then queries the table of authors and instructs the user to send a bonus check to each author based on his or her royalty share (the total bonus is $1,000 and each author should receive a percentage of that amount).
 
@@ -247,7 +244,6 @@ This example uses the **CreateQueryDef** and **OpenRecordset** methods and the *
     End Sub 
 ```
 
-<br/>
 
 The following example shows how to create a parameter query. A query named **myQuery** is created with two parameters, named Param1 and Param2. To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.
 
@@ -276,7 +272,6 @@ The following example shows how to create a parameter query. A query named **myQ
     End Sub
 ```
 
-<br/>
 
 The following example shows how to replace the Structured Query Language (SQL) statement in a saved query.
 

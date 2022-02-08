@@ -80,7 +80,6 @@ This example creates a new **QueryDef** object and appends it to the **QueryDefs
     End Sub 
 ```
 
-<br/>
 
 This example uses the **CreateQueryDef** method to create and execute both a temporary and a permanent **QueryDef**. The GetrstTemp function is required for this procedure to run.
 
@@ -135,7 +134,6 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
     End Function 
 ```
 
-<br/>
 
 The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.
 
@@ -164,7 +162,6 @@ The following example shows how to execute a parameter query. The Parameters col
     End Sub
 ```
 
-<br/>
 
 The following example shows how to open a Recordset that is based on a parameter query.
 
