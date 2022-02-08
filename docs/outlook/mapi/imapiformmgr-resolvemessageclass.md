@@ -67,7 +67,7 @@ MAPI_E_NOT_FOUND
     
 ## Remarks
 
-Form viewers call the **IMAPIFormMgr::ResolveMessageClass** method to resolve a message class to its form within a form container. The form information object returned in the  _ppResult_ parameter provides further access to the properties of the form that has the given message class. 
+Form viewers call the **IMAPIFormMgr::ResolveMessageClass** method to resolve a message class to its form within a form container. The form information object returned in the _ppResult_ parameter provides further access to the properties of the form that has the given message class. 
   
 ## Notes to callers
 

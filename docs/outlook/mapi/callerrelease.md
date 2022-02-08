@@ -50,7 +50,7 @@ void CALLERRELEASE(
     
  _lpVue_
   
-> [in] Pointer to the [IMAPITable : IUnknown](imapitableiunknown.md) interface for the table view being released. This is an interface for the table object returned in the  _lppMAPITable_ parameter of the [ITableData::HrGetView](itabledata-hrgetview.md) method that created the object to release. 
+> [in] Pointer to the [IMAPITable : IUnknown](imapitableiunknown.md) interface for the table view being released. This is an interface for the table object returned in the _lppMAPITable_ parameter of the [ITableData::HrGetView](itabledata-hrgetview.md) method that created the object to release. 
     
 ## Return value
 

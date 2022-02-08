@@ -122,7 +122,7 @@ MAPI opens all objects with read-only permission, unless you set the MAPI_MODIFY
   
 Calling **IMAPISession::OpenEntry** and setting  _lpEntryID_ to point to the entry identifier of a message store is the same as calling the [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) method with the MDB_NO_DIALOG flag set. The flag settings are also equivalent, except that to request read/write permission with **OpenMsgStore**, you must set the MDB_WRITE flag instead of MAPI_MODIFY. 
   
-Check the value returned in the  _lpulObjType_ parameter to determine whether the object type returned is what you expected. If the object type is not the type that you expected, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type LPMAPIFOLDER. 
+Check the value returned in the _lpulObjType_ parameter to determine whether the object type returned is what you expected. If the object type is not the type that you expected, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type LPMAPIFOLDER. 
   
 ## MFCMAPI reference
 

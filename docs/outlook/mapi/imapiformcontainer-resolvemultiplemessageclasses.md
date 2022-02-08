@@ -58,7 +58,7 @@ S_OK
     
 ## Remarks
 
-Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container. The array of form information objects returned in the  _ppfrminfoarray_ parameter provides further access to each of the forms' properties. 
+Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container. The array of form information objects returned in the _ppfrminfoarray_ parameter provides further access to each of the forms' properties. 
   
 ## Notes to callers
 

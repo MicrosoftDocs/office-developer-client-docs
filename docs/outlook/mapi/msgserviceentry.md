@@ -77,7 +77,7 @@ MSG_SERVICE_UI_READ_ONLY
     
 SERVICE_UI_ALLOWED 
   
-> Permits a configuration dialog box to be displayed if necessary. When the SERVICE_UI_ALLOWED flag is set, the dialog box should be displayed only if the  _lpProps_ property value array is empty or does not contain a valid configuration. If SERVICE_UI_ALLOWED is not set, a dialog box might still be displayed if the SERVICE_UI_ALWAYS flag is set. 
+> Permits a configuration dialog box to be displayed if necessary. When the SERVICE_UI_ALLOWED flag is set, the dialog box should be displayed only if the _lpProps_ property value array is empty or does not contain a valid configuration. If SERVICE_UI_ALLOWED is not set, a dialog box might still be displayed if the SERVICE_UI_ALWAYS flag is set. 
     
 UI_CURRENT_PROVIDER_FIRST 
   
@@ -125,7 +125,7 @@ MSG_SERVICE_UNINSTALL
     
  _lpProps_
   
-> [in] Pointer to an optional array of [SPropValue](spropvalue.md) structures indicating values for provider-supported properties that the function will use in configuring the message service. The function only uses this parameter if the  _ulContext_ parameter is set to MSG_SERVICE_CONFIGURE. This parameter is commonly used to pass the path to a file for a file-based service, such as a personal address book service. If the MSG_SERVICE_CONFIGURE flag is not passed in the  _ulFlags_ parameter, the  _lpProps_ parameter must be zero. 
+> [in] Pointer to an optional array of [SPropValue](spropvalue.md) structures indicating values for provider-supported properties that the function will use in configuring the message service. The function only uses this parameter if the _ulContext_ parameter is set to MSG_SERVICE_CONFIGURE. This parameter is commonly used to pass the path to a file for a file-based service, such as a personal address book service. If the MSG_SERVICE_CONFIGURE flag is not passed in the  _ulFlags_ parameter, the  _lpProps_ parameter must be zero. 
     
  _lpProviderAdmin_
   

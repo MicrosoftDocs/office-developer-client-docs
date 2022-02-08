@@ -34,7 +34,7 @@ Scenario 1—OSC gets a list of friends, and an [ISocialPerson](isocialpersoniun
     
 4. The OSC calls **ISocialSession::GetPerson** to get an **ISocialPerson** object for the Outlook user. 
     
-5. The OSC calls **ISocialPerson::GetFriendsAndColleagues** to get the Outlook user's friends list returned in the  _personCollection_ parameter string. The  _personCollection_ string complies with the XML schema definition for the **friends** element in the XML schema. 
+5. The OSC calls **ISocialPerson::GetFriendsAndColleagues** to get the Outlook user's friends list returned in the _personCollection_ parameter string. The  _personCollection_ string complies with the XML schema definition for the **friends** element in the XML schema. 
     
 6. For each friend in the  _personCollection_ XML string, the OSC obtains value of the **userID** element to call **ISocialSession::GetPerson** to get an **ISocialPerson** object for that friend. 
     

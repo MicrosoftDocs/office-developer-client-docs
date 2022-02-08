@@ -48,11 +48,11 @@ typedef struct _MAPIERROR
     
  **lpszError**
   
-> Pointer to a string that describes the error. This string will be in Unicode format if the  _ulFlags_ parameter to the method in which this structure is used is set to MAPI_UNICODE. 
+> Pointer to a string that describes the error. This string will be in Unicode format if the _ulFlags_ parameter to the method in which this structure is used is set to MAPI_UNICODE. 
     
  **lpszComponent**
   
-> Pointer to a string that describes the component that generated the error. This string will be in Unicode format if the  _ulFlags_ parameter to the method in which this structure is used is set to MAPI_UNICODE. 
+> Pointer to a string that describes the component that generated the error. This string will be in Unicode format if the _ulFlags_ parameter to the method in which this structure is used is set to MAPI_UNICODE. 
     
  **ulLowLevelError**
   

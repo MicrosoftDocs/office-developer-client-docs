@@ -58,7 +58,7 @@ Transport providers, message store providers, and gateways call the **ITnef::Fin
   
 After the **Finish** call, the pointer to the encapsulation stream points to the end of the TNEF data. If the provider or gateway needs to use the TNEF stream data after the **Finish** call, it must reset the stream pointer to the beginning of the TNEF stream data. 
   
-The TNEF implementation reports TNEF stream encoding problems without stopping the **Finish** process. The [STnefProblemArray](stnefproblemarray.md) structure returned in the  _lpProblem_ parameter indicates which TNEF attributes or MAPI properties, if any, could not be processed. The value returned in the **scode** member of the one of the **STnefProblem** structures contained in **STnefProblemArray** indicates the specific problem. The provider or gateway can work on the assumption that all properties or attributes for which **Finish** does not return a problem report were processed successfully. 
+The TNEF implementation reports TNEF stream encoding problems without stopping the **Finish** process. The [STnefProblemArray](stnefproblemarray.md) structure returned in the _lpProblem_ parameter indicates which TNEF attributes or MAPI properties, if any, could not be processed. The value returned in the **scode** member of the one of the **STnefProblem** structures contained in **STnefProblemArray** indicates the specific problem. The provider or gateway can work on the assumption that all properties or attributes for which **Finish** does not return a problem report were processed successfully. 
   
 If a provider or gateway does not work with problem arrays, it can pass NULL in  _lpProblem_; in this case, no problem array is returned. 
   

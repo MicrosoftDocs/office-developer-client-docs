@@ -100,7 +100,7 @@ Folders and messages are automatically opened with read-only permission, unless 
   
 Although **IMsgStore::OpenEntry** can be used to open any folder or message, it is usually faster to use the [IMAPIContainer::OpenEntry](imapicontainer-openentry.md) method if you have access to the parent folder of the folder or message to be opened. 
   
-Check the value returned in the  _lpulObjType_ parameter to determine whether the returned object type is what you expected. If the object type is not the expected type, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type **LPMAPIFOLDER**.
+Check the value returned in the _lpulObjType_ parameter to determine whether the returned object type is what you expected. If the object type is not the expected type, cast the pointer from the  _lppUnk_ parameter to a pointer of the appropriate type. For example, if you are opening a folder, cast  _lppUnk_ to a pointer of type **LPMAPIFOLDER**.
   
 ## MFCMAPI reference
 

@@ -84,7 +84,7 @@ MAPI_LOGON_UI
     
 MAPI_NEW_SESSION 
   
-> An attempt should be made to create a new MAPI session instead of acquiring the shared session. If the MAPI_NEW_SESSION flag is not set, MAPILogonEx uses an existing shared session even if the  _lpszprofileName_ parameter is not NULL. 
+> An attempt should be made to create a new MAPI session instead of acquiring the shared session. If the MAPI_NEW_SESSION flag is not set, MAPILogonEx uses an existing shared session even if the _lpszprofileName_ parameter is not NULL. 
     
 MAPI_NO_MAIL 
   

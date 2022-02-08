@@ -72,7 +72,7 @@ S_OK
     
 ## Remarks
 
-Form objects call the **IMAPIMessageSite::GetSiteStatus** method to obtain the message site object's capabilities for the current message. The flags returned in the  _lpulStatus_ parameter provide information about the message site. Typically, a form enables or disables menu commands, depending on information the flags provide about the capabilities of the message site implementation. If a new message is loaded into a form by the [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) method or the [IPersistMessage::Load](ipersistmessage-load.md) method, the status flags must be checked. Some message site objects, especially read-only objects, do not allow messages to be saved or deleted. 
+Form objects call the **IMAPIMessageSite::GetSiteStatus** method to obtain the message site object's capabilities for the current message. The flags returned in the _lpulStatus_ parameter provide information about the message site. Typically, a form enables or disables menu commands, depending on information the flags provide about the capabilities of the message site implementation. If a new message is loaded into a form by the [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) method or the [IPersistMessage::Load](ipersistmessage-load.md) method, the status flags must be checked. Some message site objects, especially read-only objects, do not allow messages to be saved or deleted. 
   
 ## Notes to implementers
 

@@ -121,7 +121,7 @@ Do not try to open a property with **OpenProperty** more than once. The results 
   
 If you need to modify the property to be opened, set the MAPI_MODIFY flag. If you are not sure whether the object supports the property but you think it should, set the MAPI_CREATE and MAPI_MODIFY flags. Whenever MAPI_CREATE is set, MAPI_MODIFY must also be set.
   
-You are responsible for recasting the interface pointer returned in the  _lppUnk_ parameter to one that is appropriate for the interface specified in the  _lpiid_ parameter. You must also use the returned pointer to call its [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method when you are finished with it. 
+You are responsible for recasting the interface pointer returned in the _lppUnk_ parameter to one that is appropriate for the interface specified in the  _lpiid_ parameter. You must also use the returned pointer to call its [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method when you are finished with it. 
   
 Sometimes setting the flags in the  _ulFlags_ parameter is not enough to indicate the type of access to the property that is required. You can put additional data, such as flags, in the  _ulInterfaceOptions_ parameter. This data is interface dependent. Some interfaces (such as **IStream**) use it, and others do not. For example, when you open a property to be modified with **IStream**, set the STGM_WRITE flag in the  _ulInterfaceOptions_ parameter in addition to MAPI_MODIFY. When you open a table by using the [IMAPITable](imapitableiunknown.md) interface, you can set  _ulInterfaceOptions_ to MAPI_UNICODE to indicate whether the columns in the table that hold string properties should be in Unicode format. 
   

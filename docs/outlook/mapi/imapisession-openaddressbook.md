@@ -67,7 +67,7 @@ MAPI_W_ERRORS_RETURNED
     
 ## Remarks
 
-The **IMAPISession::OpenAddressBook** method opens the MAPI integrated address book, a collection of the top-level containers of all of the address book providers in the profile. The pointer that is returned in the  _lppAdrBook_ parameter provides further access to the contents of the address book. This allows the caller to perform tasks such as opening individual containers, finding messaging users, and displaying common address dialog boxes. 
+The **IMAPISession::OpenAddressBook** method opens the MAPI integrated address book, a collection of the top-level containers of all of the address book providers in the profile. The pointer that is returned in the _lppAdrBook_ parameter provides further access to the contents of the address book. This allows the caller to perform tasks such as opening individual containers, finding messaging users, and displaying common address dialog boxes. 
   
 ## Notes to callers
 

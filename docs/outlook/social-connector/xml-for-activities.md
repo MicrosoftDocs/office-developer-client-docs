@@ -30,7 +30,7 @@ In the following scenario, the OSC dynamically synchronizes activities for a per
     
 6. Based on the XML schema definition for **activityFeed**, the OSC further parses the  _activities_ string to find out the type, publish date, and other information about each activity, and how to display the activity. 
     
-7. To get details about the selected person, the OSC calls [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md), providing the same XML string of hashed addresses as the argument for the  _personsAddresses_ parameter. The details about the person are returned in the  _personsCollection_ parameter. These details can include **firstName**, **lastName**, and **emailAddress**. The  _personsCollection_ parameter conforms to the XML schema definition for the **person** element. 
+7. To get details about the selected person, the OSC calls [ISocialSession2::GetPeopleDetails](isocialsession2-getpeopledetails.md), providing the same XML string of hashed addresses as the argument for the  _personsAddresses_ parameter. The details about the person are returned in the _personsCollection_ parameter. These details can include **firstName**, **lastName**, and **emailAddress**. The  _personsCollection_ parameter conforms to the XML schema definition for the **person** element. 
     
 You can find more information about specifying XML for activities in the following topics of this section:
   

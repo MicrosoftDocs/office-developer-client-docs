@@ -60,7 +60,7 @@ FILL_ENTRY
     
  _lpInterface_
   
-> [in] A pointer to the interface identifier (IID) that represents the type of interface pointer to be returned in the  _lppMAPIPropNew_ parameter. Passing **null** returns the standard messaging user interface, [IMailUser : IMAPIProp](imailuserimapiprop.md).
+> [in] A pointer to the interface identifier (IID) that represents the type of interface pointer to be returned in the _lppMAPIPropNew_ parameter. Passing **null** returns the standard messaging user interface, [IMailUser : IMAPIProp](imailuserimapiprop.md).
     
  _lppMAPIPropNew_
   

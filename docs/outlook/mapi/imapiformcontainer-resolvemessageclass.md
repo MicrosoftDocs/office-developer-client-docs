@@ -62,7 +62,7 @@ MAPI_E_NOT_FOUND
     
 ## Remarks
 
-Client applications call the **IMAPIFormContainer::ResolveMessageClass** method to resolve a message class to a form within a form container. The form information object returned in the  _ppforminfo_ parameter provides further access to the properties of the form with the given message class. 
+Client applications call the **IMAPIFormContainer::ResolveMessageClass** method to resolve a message class to a form within a form container. The form information object returned in the _ppforminfo_ parameter provides further access to the properties of the form with the given message class. 
   
 ## Notes to callers
 
