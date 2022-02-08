@@ -1,9 +1,7 @@
 ---
-title: "HrValidateIPMSubtree"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "HrValidateIPMSubtree" 
+manager: lindalu
+ms.date: 02/06/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -13,12 +11,9 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
-description: "Last modified: March 09, 2015"
 ---
 
-# HrValidateIPMSubtree
-
-  
+# HrValidateIPMSubtree  
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
@@ -102,7 +97,7 @@ IPM clients should display their folder view starting at the IPM subtree root fo
   
  **HrValidateIPMSubtree** sets the **PR_VALID_FOLDER_MASK** property to indicate whether each IPM folder it creates has a valid entry identifier. The following entry identifier properties of the message store are set to the entry identifiers of the corresponding folders and returned in the _lppProps_ parameter along with **PR_VALID_FOLDER_MASK**: 
   
- **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
+> **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
   
 > **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))
   
@@ -128,10 +123,5 @@ For MFCMAPI sample code, see the following table.
    
 ## See also
 
-
-
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
-
-
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
-
