@@ -85,7 +85,6 @@ Sub RDSTutorial2A()
 ... 
 ```
 
-<br/>
 
 Nor does the tutorial invoke RDS with ADO objects, but this is how it would look if it did:
 

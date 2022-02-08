@@ -84,7 +84,7 @@ For more information about categorized tables, see [Sorting and Categorization](
   
 ## Notes to implementers
 
-Store the current state of all nodes of a table in the  _lppbCollapseState_ parameter. 
+Store the current state of all nodes of a table in the _lppbCollapseState_ parameter. 
   
 ## Notes to callers
 

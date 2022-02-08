@@ -44,7 +44,7 @@ TAD_ALL_ROWS
     
  _lprowsetToDelete_
   
-> [in] A pointer to a row set that describes the rows to be deleted. The  _lprowsetToDelete_ parameter can be NULL if the TAD_ALL_ROWS flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a row set that describes the rows to be deleted. The  _lprowsetToDelete_ parameter can be NULL if the TAD_ALL_ROWS flag is set in the _ulFlags_ parameter. 
     
  _cRowsDeleted_
   
@@ -58,7 +58,7 @@ S_OK
     
 ## Remarks
 
-The **ITableData::HrDeleteRows** method locates and removes the table rows that contain the columns that match the property pointed to by the **lpProps** member of each **aRow** entry in the row set. An index column is used to identify each row; this column must have the same property tag as the property tag passed in the  _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function. 
+The **ITableData::HrDeleteRows** method locates and removes the table rows that contain the columns that match the property pointed to by the **lpProps** member of each **aRow** entry in the row set. An index column is used to identify each row; this column must have the same property tag as the property tag passed in the _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function. 
   
 The number of rows that were actually deleted is returned in  _cRowsDeleted_. No error is returned if one or more rows could not be found. 
   

@@ -89,7 +89,7 @@ If you want the new entry to be added to the recipient list of an outgoing messa
   
 If you want to allow the user of a client application to select the type of entry to be created, pass 0 in  _cbEIDNewEntryTpl_ and NULL in  _lpEIDNewEntryTpl_. **NewEntry** displays the MAPI one-off table, a list of templates that MAPI and each of the address book providers in the session support. Each template can create a recipient entry for one or more address types. 
   
-If you want to retain the entry identifier of the new entry, pass valid pointers in the  _lpcbEIDNewEntry_ and  _lppEIDNewEntry_ parameters. You are responsible for freeing this entry identifier when you are finished with it by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
+If you want to retain the entry identifier of the new entry, pass valid pointers in the _lpcbEIDNewEntry_ and  _lppEIDNewEntry_ parameters. You are responsible for freeing this entry identifier when you are finished with it by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
 To use a particular template to add a new entry to a modifiable container, use the following procedure:
   
@@ -99,7 +99,7 @@ To use a particular template to add a new entry to a modifiable container, use t
     
 3. Retrieve the row that represents the template for the particular type of entry you want to create. The **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) column indicates the address type that is supported by the template. 
     
-4. Call **IMAPISupport::NewEntry** and set the  _lpEIDNewEntryTpl_ parameter to the entry identifier of the selected template. The entry identifier is the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column from the template's row in the one-off table. Pass 0 in  _cbEIDContainer_ and NULL in  _lpEIDContainer_. Pass a valid pointer in the  _lppEIDNewEntry_ parameter if you want to retain the new entry's entry identifier. 
+4. Call **IMAPISupport::NewEntry** and set the  _lpEIDNewEntryTpl_ parameter to the entry identifier of the selected template. The entry identifier is the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) column from the template's row in the one-off table. Pass 0 in  _cbEIDContainer_ and NULL in  _lpEIDContainer_. Pass a valid pointer in the _lppEIDNewEntry_ parameter if you want to retain the new entry's entry identifier. 
     
 ## See also
 

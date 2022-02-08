@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Each collection can contain its corresponding object. For example, an [Error](error-object-ado.md) object can be contained in an [Errors](errors-collection-ado.md) collection. For more information about objects, see [ADO objects](ado-objects-and-interfaces.md) or a specific object topic.
 
-<br/>
 
 <table>
 <colgroup>
@@ -46,5 +45,4 @@ Each collection can contain its corresponding object. For example, an [Error](er
 </tbody>
 </table>
 
-<br/>
 

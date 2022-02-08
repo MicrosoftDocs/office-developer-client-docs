@@ -80,7 +80,7 @@ Use the pointers to the MAPI memory allocation functions passed in to your [ABPr
   
 If **Address** must return a larger **ADRLIST** structure, or if you have passed NULL for  _lppAdrList_, **Address** frees the original structure and allocates a new one. **Address** also allocates additional property value structures in the **ADRLIST** structure and frees old ones as appropriate. For more information about how memory is managed for **ADRLIST** structures, see [Managing Memory for ADRLIST and SRowSet Structures](managing-memory-for-adrlist-and-srowset-structures.md).
   
- **Address** returns immediately if the DIALOG_SDI flag was set in the **ADRPARM** structure in the  _lpAdrParms_ parameter. 
+ **Address** returns immediately if the DIALOG_SDI flag was set in the **ADRPARM** structure in the _lpAdrParms_ parameter. 
   
 ## See also
 

@@ -43,7 +43,7 @@ An OSC provider implements **ISocialProvider::GetCapabilities**, which the OSC c
   
 ### Determining friends and non-friends
 
-The hashed SMTP addresses passed to **GetPeopleDetails** are the key to determining whether a person is a friend or non-friend. If a person does not include that SMTP address in his or her social network account, or even if that person is a friend by a different email address on the social network, **GetPeopleDetails** still returns **nonfriend** for that person as the **friendStatus** in the  _personsCollection_ parameter. Also, for a person who is not a friend but specifies the SMTP address in his or her social network account, the data returned includes only what is available to a non-friend as allowed by the privacy settings of that person. 
+The hashed SMTP addresses passed to **GetPeopleDetails** are the key to determining whether a person is a friend or non-friend. If a person does not include that SMTP address in his or her social network account, or even if that person is a friend by a different email address on the social network, **GetPeopleDetails** still returns **nonfriend** for that person as the **friendStatus** in the _personsCollection_ parameter. Also, for a person who is not a friend but specifies the SMTP address in his or her social network account, the data returned includes only what is available to a non-friend as allowed by the privacy settings of that person. 
   
 ### Creating test subjects for friends and non-friends
 

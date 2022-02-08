@@ -18,7 +18,7 @@ ms.localizationpriority: high
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Supported versions of Windows install the MAPI stub library, Mapi32.dll, in the  _\<drive\>_\Windows\System32 folder. 
+Supported versions of Windows install the MAPI stub library, Mapi32.dll, in the _\<drive\>_\Windows\System32 folder. 
   
 The supported versions of Windows are as follows:
   

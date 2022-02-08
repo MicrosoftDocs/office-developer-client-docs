@@ -62,7 +62,7 @@ HrDecomposeEID(
     
  _ppStoreEID_
   
-> [out] Pointer to a pointer to the returned entry identifier of the message store that contains the object. If the  _pEID_ parameter points to a noncompound entry identifier, NULL is returned in the  _ppStoreEID_ parameter. 
+> [out] Pointer to a pointer to the returned entry identifier of the message store that contains the object. If the  _pEID_ parameter points to a noncompound entry identifier, NULL is returned in the _ppStoreEID_ parameter. 
     
  _pcbMsgEID_
   

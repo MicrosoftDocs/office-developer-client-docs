@@ -89,7 +89,7 @@ MAPI_UNICODE
     
  _lppTblData_
   
-> [in, out] Pointer to a pointer to a table data object exposing the [ITableData](itabledataiunknown.md) interface on the table returned in the  _lppTable_ parameter. If no table data object is desired,  _lppTblData_ should be set to NULL instead of a pointer value. 
+> [in, out] Pointer to a pointer to a table data object exposing the [ITableData](itabledataiunknown.md) interface on the table returned in the _lppTable_ parameter. If no table data object is desired,  _lppTblData_ should be set to NULL instead of a pointer value. 
     
 ## Return value
 

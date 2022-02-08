@@ -44,7 +44,7 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> The connection number passed in the  _ulConnection_ parameter does not exist. 
+> The connection number passed in the _ulConnection_ parameter does not exist. 
     
 ## Remarks
 

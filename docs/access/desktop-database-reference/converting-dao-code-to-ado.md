@@ -79,8 +79,6 @@ ms.localizationpriority: high
 </tbody>
 </table>
 
-<br/>
-<br/>
 
 ### DAO
 
@@ -128,5 +126,4 @@ ms.localizationpriority: high
 
 - [Choosing between DAO and ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
-<br/>
 

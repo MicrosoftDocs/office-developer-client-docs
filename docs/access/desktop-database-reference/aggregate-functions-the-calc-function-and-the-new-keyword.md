@@ -61,7 +61,6 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 </tbody>
 </table>
 
-<br/>
 
 <table>
 <colgroup>
@@ -82,7 +81,6 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 </tbody>
 </table>
 
-<br/>
 
 <table>
 <colgroup>
@@ -103,7 +101,6 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 </tbody>
 </table>
 
-<br/>
 
 The *field-type* passed with the NEW keyword can be any of the following data types.
 

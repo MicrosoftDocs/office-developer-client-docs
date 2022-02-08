@@ -85,7 +85,7 @@ DIALOG_OPTIONS
     
 DIALOG_SDI
   
-> Causes the modeless version of the common address dialog box to be displayed. Either this flag or DIALOG_MODAL should be set; they cannot both be set. The DIALOG_SDI flag is ignored for non-Outlook clients, and the modal version of the dialog box will be displayed. Consequently, a pointer to a handle should not be expected in the  _lpulUIParam_ parameter of [IAddrBook::Address](iaddrbook-address.md).
+> Causes the modeless version of the common address dialog box to be displayed. Either this flag or DIALOG_MODAL should be set; they cannot both be set. The DIALOG_SDI flag is ignored for non-Outlook clients, and the modal version of the dialog box will be displayed. Consequently, a pointer to a handle should not be expected in the _lpulUIParam_ parameter of [IAddrBook::Address](iaddrbook-address.md).
     
 **lpReserved**
   

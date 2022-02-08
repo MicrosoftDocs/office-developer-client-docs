@@ -52,7 +52,7 @@ HRESULT OpenTemplateID(
     
 FILL_ENTRY 
   
-> The host provider is creating a new entry in its container based on the entry represented by the template identifier. The **IABLogon::OpenTemplateID** method should either perform specific initialization of the host provider's entry by using the [IMAPIProp : IUnknown](imapipropiunknown.md) implementation in the  _lpMAPIPropData_ parameter, or return a custom **IMAPIProp** interface implementation in the  _lppMAPIPropNew_ parameter. 
+> The host provider is creating a new entry in its container based on the entry represented by the template identifier. The **IABLogon::OpenTemplateID** method should either perform specific initialization of the host provider's entry by using the [IMAPIProp : IUnknown](imapipropiunknown.md) implementation in the _lpMAPIPropData_ parameter, or return a custom **IMAPIProp** interface implementation in the _lppMAPIPropNew_ parameter. 
     
  _lpMAPIPropData_
   
@@ -60,7 +60,7 @@ FILL_ENTRY
     
  _lpInterface_
   
-> [in] A pointer to the interface identifier (IID) that represents the type of interface pointer to be returned in the  _lppMAPIPropNew_ parameter. Passing **null** returns the standard messaging user interface, [IMailUser : IMAPIProp](imailuserimapiprop.md).
+> [in] A pointer to the interface identifier (IID) that represents the type of interface pointer to be returned in the _lppMAPIPropNew_ parameter. Passing **null** returns the standard messaging user interface, [IMailUser : IMAPIProp](imailuserimapiprop.md).
     
  _lppMAPIPropNew_
   
@@ -82,7 +82,7 @@ MAPI_E_NO_SUPPORT
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> The template identifier passed in the  _lpTemplateID_ parameter is not recognized by the address book provider. 
+> The template identifier passed in the _lpTemplateID_ parameter is not recognized by the address book provider. 
     
 ## Remarks
 
@@ -112,9 +112,9 @@ You should use the following guidelines in your property object implementations:
     
 - When [IMAPIProp::SaveChanges](imapiprop-savechanges.md) is called, the host provider might want to perform processing before you save the entry. You should save any data that is affected by the changed properties, such as a new address, in the host provider's entry. 
     
-In general, make your implementation of the entry that you pass back to the host provider intercept all of the methods to perform context-specific manipulation of the relevant properties. If the FILL_ENTRY flag is passed in the  _ulTemplateFlags_ parameter, set all properties for the entry. 
+In general, make your implementation of the entry that you pass back to the host provider intercept all of the methods to perform context-specific manipulation of the relevant properties. If the FILL_ENTRY flag is passed in the _ulTemplateFlags_ parameter, set all properties for the entry. 
   
-If you return a new property object in the  _lppMAPIPropNew_ parameter, call the [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method of the host provider's property object to maintain a reference. All calls through the bound object that the **IMAPIProp** implementation returned in  _lppMAPIPropNew_ should be routed to their corresponding method in the host property object after they are dealt with by the bound object. 
+If you return a new property object in the _lppMAPIPropNew_ parameter, call the [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method of the host provider's property object to maintain a reference. All calls through the bound object that the **IMAPIProp** implementation returned in  _lppMAPIPropNew_ should be routed to their corresponding method in the host property object after they are dealt with by the bound object. 
   
 The property identifiers of any named properties that are passed through your bound property object are in your provider's identifier namespace. Your implementation of the [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) method should determine the names of the properties so that it can perform any template-specific tasks. Similarly, properties that your provider passes on to the host provider must also be in your namespace. For example, if you set a named property in **OpenTemplateID**, you should use one of your identifiers for the name—creating it, if necessary, by calling the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) method. 
   

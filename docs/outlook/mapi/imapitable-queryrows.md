@@ -100,7 +100,7 @@ Return only the rows that the user will see when rows are requested from a categ
   
 ## Notes to callers
 
-Usually you will end up with as many rows as you have specified in the  _lRowCount_ parameter. However, when memory or implementation limits are an issue or when the operation reaches the beginning or end of the table prematurely, **QueryRows** will return less rows than requested. 
+Usually you will end up with as many rows as you have specified in the _lRowCount_ parameter. However, when memory or implementation limits are an issue or when the operation reaches the beginning or end of the table prematurely, **QueryRows** will return less rows than requested. 
   
 If **QueryRows** returns MAPI_E_BUSY, call the [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) method and retry the call to **QueryRows** when the asynchronous operation is complete. 
   

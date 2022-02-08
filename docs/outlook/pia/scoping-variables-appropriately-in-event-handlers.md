@@ -43,7 +43,6 @@ class MyClass
 }
 ```
 
-<br/>
 
 The correct thing to do in this case is to store the Inspectors object in a more permanent variable whose lifetime spans over the entire MyClass, including the MyNewInspector callback method. In the following example, MyInspectors has a scope of the entire MyClass and ensures that the callback method is connected for the lifetime of the class.
 
@@ -77,7 +76,6 @@ class MyClass
 }
 ```
 
-<br/>
 
 By virtue of the syntactic differences in how various languages connect event handlers, this issue is less common in languages such as Visual Basic where you can connect an event specifying an instance of the parent object, and define the callback method at the same time. The following example in Visual Basic uses the Handles keyword to connect the Region\_Expanded callback method to the [Expanded](https://msdn.microsoft.com/library/bb609515\(v=office.15\)) event. An instance of the parent object, Region, has a scope that spans MyClass including the Region\_Expanded callback method.
 

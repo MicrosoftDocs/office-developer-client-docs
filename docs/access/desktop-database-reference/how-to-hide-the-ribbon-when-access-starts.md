@@ -49,7 +49,6 @@ The following table lists the settings to use when creating the **USysRibbons** 
 </tbody>
 </table>
 
-<br/>
 
 The following table lists the ribbon customization settings to store in the **USysRibbons** table.
 

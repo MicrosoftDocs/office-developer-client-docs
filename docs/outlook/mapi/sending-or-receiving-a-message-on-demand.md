@@ -50,7 +50,7 @@ The [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md) method removes all me
         
     2. Check that the transport status object supports the **FlushQueues** method by checking that its **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) property has the STATUS_FLUSH_QUEUES flag set. 
         
-    3. If supported, call [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md). If unsupported, call the MAPI spooler's **IMAPIStatus::FlushQueues** method, passing the entry identifier of the transport in the  _lpTargetTransport_ parameter. See the preceding procedure for instructions on accessing the MAPI spooler's status object. Set the FLUSH_DOWNLOAD flag to flush the outgoing queues or the FLUSH_UPLOAD flag to flush the incoming queues. 
+    3. If supported, call [IMAPIStatus::FlushQueues](imapistatus-flushqueues.md). If unsupported, call the MAPI spooler's **IMAPIStatus::FlushQueues** method, passing the entry identifier of the transport in the _lpTargetTransport_ parameter. See the preceding procedure for instructions on accessing the MAPI spooler's status object. Set the FLUSH_DOWNLOAD flag to flush the outgoing queues or the FLUSH_UPLOAD flag to flush the incoming queues. 
         
     4. Release the status object and the status table, as well as the [SRowSet](srowset.md) structure that is allocated for the table. 
     

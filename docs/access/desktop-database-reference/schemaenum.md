@@ -25,7 +25,6 @@ Translate the data types of columns in the OLE DB documentation to ADO data type
 
 ADO generates schema-like results for the constants, **adSchemaDBInfoKeywords** and **adSchemaDBInfoLiterals**. ADO creates a **Recordset**, and then fills each row with the values returned respectively by the **IDBInfo::GetKeywords** and **IDBInfo::GetLiteralInfo** methods. Additional information about these methods can be found in the IDBInfo section of the *OLE DB Programmer's Reference*.
 
-<br/>
 
 <table>
 <colgroup>

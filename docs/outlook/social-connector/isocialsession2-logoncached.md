@@ -42,7 +42,7 @@ This method is called for authentication only if **useLogonCached** is set as **
   
 The Outlook Social Connector (OSC) calls **LogonCached**, and passes an empty string for  _connectIn_ and non-empty  _userName_ and  _password_ strings. The provider uses  _userName_ and  _password_ to log on to the social network, and returns an opaque  _connectOut_ parameter to the OSC if authentication succeeds. If authentication fails, the provider returns the OSC_E_LOGON_FAILURE error to the OSC. 
   
-The  _connectOut_ parameter is an opaque string to the OSC, and is passed to the  _connectIn_ parameter on subsequent attempts by the OSC to log on to the social network. The provider should place any credentials in the  _connectOut_ string that the provider wants the OSC to store across connections. The OSC does not interpret the string in  _connectOut_, and encrypts the string for security purposes before storing it in the Windows registry.
+The  _connectOut_ parameter is an opaque string to the OSC, and is passed to the  _connectIn_ parameter on subsequent attempts by the OSC to log on to the social network. The provider should place any credentials in the _connectOut_ string that the provider wants the OSC to store across connections. The OSC does not interpret the string in  _connectOut_, and encrypts the string for security purposes before storing it in the Windows registry.
   
 ## See also
 

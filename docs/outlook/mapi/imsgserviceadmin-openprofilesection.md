@@ -41,7 +41,7 @@ HRESULT OpenProfileSection(
     
  _lpInterface_
   
-> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the profile section. Passing NULL results in a pointer to its standard interface being returned in the  _lppProfSect_ parameter. The standard interface for a profile section is **IProfSect**.
+> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the profile section. Passing NULL results in a pointer to its standard interface being returned in the _lppProfSect_ parameter. The standard interface for a profile section is **IProfSect**.
     
  _ulFlags_
   
@@ -89,7 +89,7 @@ Multiple clients can open a profile section with read-only permission, but only 
   
 A read-only open operation fails if the section is open for writing. 
   
-You can create a profile section by calling **OpenProfileSection** with the MAPI_MODIFY flag and a nonexistent [MAPIUID](mapiuid.md) structure in the  _lpUID_ parameter. Be sure you specify MAPI_MODIFY. If you set  _lpUID_ to point to a nonexistent **MAPIUID** and **OpenProfileSection** is set to use the default access mode of read-only, the call will fail with MAPI_E_NOT_FOUND. 
+You can create a profile section by calling **OpenProfileSection** with the MAPI_MODIFY flag and a nonexistent [MAPIUID](mapiuid.md) structure in the _lpUID_ parameter. Be sure you specify MAPI_MODIFY. If you set  _lpUID_ to point to a nonexistent **MAPIUID** and **OpenProfileSection** is set to use the default access mode of read-only, the call will fail with MAPI_E_NOT_FOUND. 
   
 ## MFCMAPI reference
 

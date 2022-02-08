@@ -49,7 +49,7 @@ BOOKMARK FAR * lpbkLocation
     
  _lpbkLocation_
   
-> [out] Pointer to a bookmark identifying the row in the table at which the collapsed or expanded state should be rebuilt. This bookmark and the instance key passed in the  _lpbInstanceKey_ parameter in the call to [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identify the same row. 
+> [out] Pointer to a bookmark identifying the row in the table at which the collapsed or expanded state should be rebuilt. This bookmark and the instance key passed in the _lpbInstanceKey_ parameter in the call to [IMAPITable::GetCollapseState](imapitable-getcollapsestate.md) identify the same row. 
     
 ## Return value
 

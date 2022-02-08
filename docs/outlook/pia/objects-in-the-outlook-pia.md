@@ -51,7 +51,6 @@ Sub DemoFormRegion(ByVal Region As Outlook.FormRegion)
 End Sub
 ```
 
-<br/>
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook; 

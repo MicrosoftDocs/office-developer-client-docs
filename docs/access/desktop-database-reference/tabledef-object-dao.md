@@ -124,7 +124,6 @@ This example creates a new **TableDef** object and appends it to the **TableDefs
     End Sub 
 ```
 
-<br/>
 
 This example creates a new **TableDef** object in the Northwind database.
 
@@ -187,7 +186,6 @@ Sub CreateTableDefX()
    dbsNorthwind.Close 
 ```
 
-<br/>
 
 The following example shows how to create a calculated field. The CreateField method creates a field named **FullName**. The Expression property is then set to the expression that calculates the value of the field.
 

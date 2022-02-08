@@ -49,7 +49,7 @@ HrComposeMsgID(
     
  _cbStoreRecordKey_
   
-> [in] Size, in bytes, of the record key of the message store that contains the message or other object. If zero is passed in the  _cbStoreRecordKey_ parameter, the  _pszMsgID_ parameter points to a copy of the entry identifier converted to text. 
+> [in] Size, in bytes, of the record key of the message store that contains the message or other object. If zero is passed in the _cbStoreRecordKey_ parameter, the  _pszMsgID_ parameter points to a copy of the entry identifier converted to text. 
     
  _pStoreRecordKey_
   
@@ -73,7 +73,7 @@ None.
   
 ## Remarks
 
-If the message or other object for which the compound entry identifier is being created resides in a message store, the identifier string is created from the object's entry identifier and the store's record key. If the object is not in a store, that is, if the byte count for the store record key passed in the  _cbStoreRecordKey_ parameter is zero, the object's entry identifier is simply copied and converted into a string. 
+If the message or other object for which the compound entry identifier is being created resides in a message store, the identifier string is created from the object's entry identifier and the store's record key. If the object is not in a store, that is, if the byte count for the store record key passed in the _cbStoreRecordKey_ parameter is zero, the object's entry identifier is simply copied and converted into a string. 
   
 Calling the **HrComposeMsgID** function is equivalent to calling the [HrComposeEID](hrcomposeeid.md) function and then the [HrSzFromEntryID](hrszfromentryid.md) function. 
   

@@ -28,15 +28,15 @@ Your provider can support name resolution by:
     
 If you choose to support **IABContainer::ResolveNames**, attempt to locate an exact match for each unresolved display name in the [ADRLIST](adrlist.md) structure passed in with the  _lpAdrList_ parameter. You can identifiy an unresolved display name because it is missing the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property in the property value array in its **aEntries** member of the **ADRLIST** structure. Ignore any entries that have zero properties associated with them. 
   
-Report the result of your attempt at resolution in the  _lpFlagList_ parameter, an array of flags that corresponds to the array of display names in  _lpAdrList_. The flags are positional such that the first flag corresponds to the first **aEntries** member in the **ADRLIST** structure, the second flag corresponds to the second **aEntries** member, and so on. 
+Report the result of your attempt at resolution in the _lpFlagList_ parameter, an array of flags that corresponds to the array of display names in  _lpAdrList_. The flags are positional such that the first flag corresponds to the first **aEntries** member in the **ADRLIST** structure, the second flag corresponds to the second **aEntries** member, and so on. 
   
 There are three possible results for each unresolved entry:
   
-- No match was found, meaning that none of the entries in your container entries match the entry in the **ADRLIST** structure. Set the corresponding entry in the  _lpFlagList_ parameter to MAPI_UNRESOLVED. 
+- No match was found, meaning that none of the entries in your container entries match the entry in the **ADRLIST** structure. Set the corresponding entry in the _lpFlagList_ parameter to MAPI_UNRESOLVED. 
     
-- Several matches can be found, meaning that there are multiple container entries that match the entry in the **ADRLIST** structure. Set the corresponding entry in the  _lpFlagList_ parameter to MAPI_AMBIGUOUS. Do not change the number of entries in the **ADRLIST** structure. 
+- Several matches can be found, meaning that there are multiple container entries that match the entry in the **ADRLIST** structure. Set the corresponding entry in the _lpFlagList_ parameter to MAPI_AMBIGUOUS. Do not change the number of entries in the **ADRLIST** structure. 
     
-- An exact match can be found, meaning that there is only one container entry that matches the entry in the **ADRLIST** structure. Set the corresponding member in the  _lpFlagList_ parameter to MAPI_RESOLVED and add the entry identifier to the array of properties associated with the **ADRLIST** entry. 
+- An exact match can be found, meaning that there is only one container entry that matches the entry in the **ADRLIST** structure. Set the corresponding member in the _lpFlagList_ parameter to MAPI_RESOLVED and add the entry identifier to the array of properties associated with the **ADRLIST** entry. 
     
 If you choose not to support **IABContainer::ResolveNames**, return MAPI_E_NO_SUPPORT from your implementation.
   

@@ -62,7 +62,7 @@ HRESULT HrDoABDetailsWithProviderUID(
     
  _lpvDismissContext_
   
-> [in] A pointer to context information to pass to the **DISMISSMODELESS** function pointed to by the  _lpfnDismiss_ parameter. This parameter applies only to the modeless version of the dialog box by including the **DIALOG_SDI** flag in the  _ulFlags_ parameter. 
+> [in] A pointer to context information to pass to the **DISMISSMODELESS** function pointed to by the  _lpfnDismiss_ parameter. This parameter applies only to the modeless version of the dialog box by including the **DIALOG_SDI** flag in the _ulFlags_ parameter. 
     
  _cbEntryID_
   

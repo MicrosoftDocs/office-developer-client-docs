@@ -44,7 +44,7 @@ S_OK
     
 E_INVALIDARG 
   
-> The connection number passed in the  _ulConnection_ parameter does not represent a valid registration. 
+> The connection number passed in the _ulConnection_ parameter does not represent a valid registration. 
     
 ## Remarks
 

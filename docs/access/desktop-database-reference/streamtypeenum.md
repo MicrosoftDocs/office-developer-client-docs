@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the type of data stored in a [Stream](stream-object-ado.md) object.
 
-<br/>
 
 <table>
 <colgroup>

@@ -67,7 +67,7 @@ S_FALSE
     
 ## Remarks
 
-Form objects call the **IMAPIViewContext::ActivateNext** method to change what message is displayed to the user. The value passed in the  _ulDir_ parameter indicates which message should be activated and, in some cases, why. The VCDIR_NEXT and VCDIR_PREVIOUS flags correspond to users choosing the **Next** or **Previous** command in a view, respectively. These operations usually correspond to moving up or down one message in the form viewer's list of messages. 
+Form objects call the **IMAPIViewContext::ActivateNext** method to change what message is displayed to the user. The value passed in the _ulDir_ parameter indicates which message should be activated and, in some cases, why. The VCDIR_NEXT and VCDIR_PREVIOUS flags correspond to users choosing the **Next** or **Previous** command in a view, respectively. These operations usually correspond to moving up or down one message in the form viewer's list of messages. 
   
 The VCDIR_DELETE and VCDIR_MOVE flags are set by the [IMAPIMessageSite::DeleteMessage](imapimessagesite-deletemessage.md) and [IMAPIMessageSite::MoveMessage](imapimessagesite-movemessage.md) methods, respectively. Implementations of these methods call **ActivateNext** with the appropriate direction and then perform the requested operation on the message if the **ActivateNext** call did not fail. Form viewers typically enable users to specify the direction to move in the message list. 
   
@@ -77,7 +77,7 @@ Your implementation of [IMAPIViewContext::ActivateNext](imapiviewcontext-activat
   
 ## Notes to callers
 
-If **ActivateNext** returns S_FALSE, or if a current message is not present, perform your normal shutdown procedure which should include calling your form's [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) method. If a next or previous message is displayed, use the window rectangle passed in the  _prcPosRect_ parameter to display it. 
+If **ActivateNext** returns S_FALSE, or if a current message is not present, perform your normal shutdown procedure which should include calling your form's [IMAPIForm::ShutdownForm](imapiform-shutdownform.md) method. If a next or previous message is displayed, use the window rectangle passed in the _prcPosRect_ parameter to display it. 
   
 ## MFCMAPI reference
 

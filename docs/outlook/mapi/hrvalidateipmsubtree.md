@@ -78,7 +78,7 @@ MAPI_FULL_IPM_TREE
     
  _lpcValues_
   
-> [in, out] Pointer to the number of [SPropValue](spropvalue.md) structures in the array returned in the  _lppProps_ parameter. The value of the  _lpcValues_ parameter can be zero if  _lppProps_ is NULL. 
+> [in, out] Pointer to the number of [SPropValue](spropvalue.md) structures in the array returned in the _lppProps_ parameter. The value of the  _lpcValues_ parameter can be zero if  _lppProps_ is NULL. 
     
  _lppProps_
   
@@ -100,7 +100,7 @@ MAPI uses the **HrValidateIPMSubtree** function internally to construct the stan
   
 IPM clients should display their folder view starting at the IPM subtree root folder and showing child folders beneath it. Information in the root folder of a message store should not appear in a client's user interface. This functionality means that if a client must hide information, the information can be put in the IPM subtree root directory, where it is not visible to the user. In contrast, non-IPM applications that require messages and folders to be invisible to the user, for example in a server-based message store, can put them outside the IPM hierarchy. 
   
- **HrValidateIPMSubtree** sets the **PR_VALID_FOLDER_MASK** property to indicate whether each IPM folder it creates has a valid entry identifier. The following entry identifier properties of the message store are set to the entry identifiers of the corresponding folders and returned in the  _lppProps_ parameter along with **PR_VALID_FOLDER_MASK**: 
+ **HrValidateIPMSubtree** sets the **PR_VALID_FOLDER_MASK** property to indicate whether each IPM folder it creates has a valid entry identifier. The following entry identifier properties of the message store are set to the entry identifiers of the corresponding folders and returned in the _lppProps_ parameter along with **PR_VALID_FOLDER_MASK**: 
   
  **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
   

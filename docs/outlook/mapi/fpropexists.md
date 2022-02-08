@@ -59,6 +59,6 @@ FALSE
     
 ## Remarks
 
-If the property tag in the  _ulPropTag_ parameter has type PT_UNSPECIFIED, the **FPropExists** function looks for a match based only on the property identifier. Otherwise, the match is for the entire property tag, including the type. 
+If the property tag in the _ulPropTag_ parameter has type PT_UNSPECIFIED, the **FPropExists** function looks for a match based only on the property identifier. Otherwise, the match is for the entire property tag, including the type. 
   
 

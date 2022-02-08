@@ -67,11 +67,11 @@ MAPI_W_ERRORS_RETURNED
     
 ## Remarks
 
-The **IMAPISession::OpenAddressBook** method opens the MAPI integrated address book, a collection of the top-level containers of all of the address book providers in the profile. The pointer that is returned in the  _lppAdrBook_ parameter provides further access to the contents of the address book. This allows the caller to perform tasks such as opening individual containers, finding messaging users, and displaying common address dialog boxes. 
+The **IMAPISession::OpenAddressBook** method opens the MAPI integrated address book, a collection of the top-level containers of all of the address book providers in the profile. The pointer that is returned in the _lppAdrBook_ parameter provides further access to the contents of the address book. This allows the caller to perform tasks such as opening individual containers, finding messaging users, and displaying common address dialog boxes. 
   
 ## Notes to callers
 
- **OpenAddressBook** returns MAPI_W_ERRORS_RETURNED if it cannot load one or more of the address book providers in the profile. This value is a warning, not an error value; handle it as you would S_OK. **OpenAddressBook** always returns a valid pointer in the  _lppAdrBook_ parameter, regardless of how many of the address book providers failed to load. Therefore, you must always call the address book's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method at some point before logging off. 
+ **OpenAddressBook** returns MAPI_W_ERRORS_RETURNED if it cannot load one or more of the address book providers in the profile. This value is a warning, not an error value; handle it as you would S_OK. **OpenAddressBook** always returns a valid pointer in the _lppAdrBook_ parameter, regardless of how many of the address book providers failed to load. Therefore, you must always call the address book's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method at some point before logging off. 
   
 When **OpenAddressBook** returns MAPI_W_ERRORS_RETURNED, call [IMAPISession::GetLastError](imapisession-getlasterror.md) to obtain a [MAPIERROR](mapierror.md) structure that contains information about the failing providers. A single **MAPIERROR** structure is returned that contains information supplied by all of the providers. 
   

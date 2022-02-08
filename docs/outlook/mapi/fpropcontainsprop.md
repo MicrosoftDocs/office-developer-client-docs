@@ -68,15 +68,15 @@ _ulFuzzyLevel_
 
 TRUE 
   
-> The parameters are all valid and the  _lpSPropValueSrc_ search string is contained as specified in the  _lpSPropValueDst_ property value. 
+> The parameters are all valid and the  _lpSPropValueSrc_ search string is contained as specified in the _lpSPropValueDst_ property value. 
     
 FALSE 
   
-> The property values being compared are not of type PT_STRING8 or PT_BINARY, the property values are of different types, or the  _lpSPropValueSrc_ search string is not contained as specified in the  _lpSPropValueDst_ property value. 
+> The property values being compared are not of type PT_STRING8 or PT_BINARY, the property values are of different types, or the  _lpSPropValueSrc_ search string is not contained as specified in the _lpSPropValueDst_ property value. 
     
 ## Remarks
 
-The comparison method depends on the property types specified in the [SPropValue](spropvalue.md) property definitions and the fuzzy level heuristic provided in the  _ulFuzzyLevel_ parameter. The [FPropCompareProp](fpropcompareprop.md) and **FPropContainsProp** functions can be used to prepare restrictions for generating a table. 
+The comparison method depends on the property types specified in the [SPropValue](spropvalue.md) property definitions and the fuzzy level heuristic provided in the _ulFuzzyLevel_ parameter. The [FPropCompareProp](fpropcompareprop.md) and **FPropContainsProp** functions can be used to prepare restrictions for generating a table. 
   
 The upper 16 bits of  _ulFuzzyLevel_ are ignored for property type PT_BINARY. If the settings in  _ulFuzzyLevel_ are missing or invalid, a full-string exact match is performed. For more information about property containment, see the [SContentRestriction](scontentrestriction.md) structure. 
   

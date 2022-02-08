@@ -84,7 +84,6 @@ This example uses the **Index** property to set different record orders for a ta
     End Sub 
 ```
 
-<br/>
 
 This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.
 

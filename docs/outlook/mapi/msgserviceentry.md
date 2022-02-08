@@ -77,7 +77,7 @@ MSG_SERVICE_UI_READ_ONLY
     
 SERVICE_UI_ALLOWED 
   
-> Permits a configuration dialog box to be displayed if necessary. When the SERVICE_UI_ALLOWED flag is set, the dialog box should be displayed only if the  _lpProps_ property value array is empty or does not contain a valid configuration. If SERVICE_UI_ALLOWED is not set, a dialog box might still be displayed if the SERVICE_UI_ALWAYS flag is set. 
+> Permits a configuration dialog box to be displayed if necessary. When the SERVICE_UI_ALLOWED flag is set, the dialog box should be displayed only if the _lpProps_ property value array is empty or does not contain a valid configuration. If SERVICE_UI_ALLOWED is not set, a dialog box might still be displayed if the SERVICE_UI_ALWAYS flag is set. 
     
 UI_CURRENT_PROVIDER_FIRST 
   
@@ -125,7 +125,7 @@ MSG_SERVICE_UNINSTALL
     
  _lpProps_
   
-> [in] Pointer to an optional array of [SPropValue](spropvalue.md) structures indicating values for provider-supported properties that the function will use in configuring the message service. The function only uses this parameter if the  _ulContext_ parameter is set to MSG_SERVICE_CONFIGURE. This parameter is commonly used to pass the path to a file for a file-based service, such as a personal address book service. If the MSG_SERVICE_CONFIGURE flag is not passed in the  _ulFlags_ parameter, the  _lpProps_ parameter must be zero. 
+> [in] Pointer to an optional array of [SPropValue](spropvalue.md) structures indicating values for provider-supported properties that the function will use in configuring the message service. The function only uses this parameter if the _ulContext_ parameter is set to MSG_SERVICE_CONFIGURE. This parameter is commonly used to pass the path to a file for a file-based service, such as a personal address book service. If the MSG_SERVICE_CONFIGURE flag is not passed in the _ulFlags_ parameter, the  _lpProps_ parameter must be zero. 
     
  _lpProviderAdmin_
   
@@ -133,7 +133,7 @@ MSG_SERVICE_UNINSTALL
     
  _lppMapiError_
   
-> [out] Pointer to a [MAPIERROR](mapierror.md) structure. The structure is allocated with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. All members are optional, although most structures will contain a valid error message string in the  _lpszError_ member. If the  _lpszComponent_ or  _lpszError_ members of the structure are present, their memory must eventually be freed by a single call to [MAPIFreeBuffer](mapifreebuffer.md) on the base structure. 
+> [out] Pointer to a [MAPIERROR](mapierror.md) structure. The structure is allocated with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. All members are optional, although most structures will contain a valid error message string in the _lpszError_ member. If the  _lpszComponent_ or  _lpszError_ members of the structure are present, their memory must eventually be freed by a single call to [MAPIFreeBuffer](mapifreebuffer.md) on the base structure. 
     
 ## Return value
 
@@ -159,7 +159,7 @@ MAPI_E_BAD_CHARWIDTH
     
 ## Remarks
 
-A function defined using the **MSGSERVICEENTRY** function prototype enables message services to configure themselves or to perform other service-specific actions. The function primarily furnishes a dialog box in which the user can change settings specific to the message service. It can also support programmatic configuration by using the property value array passed in the  _lpProps_ parameter. Programmatic configuration is optional unless the service supports the Profile Wizard, for which it is required. 
+A function defined using the **MSGSERVICEENTRY** function prototype enables message services to configure themselves or to perform other service-specific actions. The function primarily furnishes a dialog box in which the user can change settings specific to the message service. It can also support programmatic configuration by using the property value array passed in the _lpProps_ parameter. Programmatic configuration is optional unless the service supports the Profile Wizard, for which it is required. 
   
 MAPI calls this entry point from the Control Panel application or in response to a client application calling [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) or [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   

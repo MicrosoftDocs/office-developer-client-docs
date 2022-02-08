@@ -103,7 +103,6 @@ This example shows how the **CancelUpdate** method is used with the **AddNew** m
     End Sub 
 ```
 
-<br/>
 
 This example shows how the **CancelUpdate** method is used with the **Edit** method.
 

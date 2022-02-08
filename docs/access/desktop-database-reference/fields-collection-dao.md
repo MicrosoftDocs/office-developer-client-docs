@@ -96,7 +96,6 @@ This example shows what properties are valid for a **Field** object depending on
     End Sub 
 ```
 
-<br/>
 
 This example uses the **CreateField** method to create three **Fields** for a new **TableDef**. It then displays the properties of those **Field** objects that are automatically set by the **CreateField** method. (Properties whose values are empty at the time of **Field** creation are not shown.)
 

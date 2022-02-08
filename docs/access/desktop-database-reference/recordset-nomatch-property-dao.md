@@ -161,7 +161,6 @@ This example uses the **NoMatch** property to determine whether a **Seek** and a
     End Sub 
 ```
 
-<br/>
 
 The following example shows how to use the Seek method to find a record in a linked table.
 

@@ -35,7 +35,7 @@ HRESULT CalcFormPropSet(
 
  _ulFlags_
   
-> [in] A bitmask of flags that controls how the property array in the  _ppResults_ parameter is returned. The following flags can be set: 
+> [in] A bitmask of flags that controls how the property array in the _ppResults_ parameter is returned. The following flags can be set: 
     
 FORMPROPSET_INTERSECTION 
   
@@ -73,7 +73,7 @@ Form library providers that do not support Unicode strings should return MAPI_E_
   
 ## Notes to callers
 
- **IMAPIFormContainer::CalcFormPropSet** takes either an intersection or a union of the forms' property sets, depending on the flag set in the  _ulFlags_ parameter, and it returns an **SMAPIFormPropArray** structure that contains the resulting group of properties. 
+ **IMAPIFormContainer::CalcFormPropSet** takes either an intersection or a union of the forms' property sets, depending on the flag set in the _ulFlags_ parameter, and it returns an **SMAPIFormPropArray** structure that contains the resulting group of properties. 
   
 If a client passes the MAPI_UNICODE flag in  _ulFlags_, all returned strings are Unicode.
   

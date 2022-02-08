@@ -33,7 +33,7 @@ If your provider is a personal address book, include the **PR_DETAILS_TABLE** ([
   
  **To implement IABContainer::CopyEntries**
   
-1. Determine if each entry identifier in the  _lpEntries_ parameter is in a format that your provider handles and if it is not, fail and return MAPI_E_INVALID_ENTRYID. 
+1. Determine if each entry identifier in the _lpEntries_ parameter is in a format that your provider handles and if it is not, fail and return MAPI_E_INVALID_ENTRYID. 
     
 2. If an entry identifier represents a messaging user, distribution list, or container that your provider handles:
     

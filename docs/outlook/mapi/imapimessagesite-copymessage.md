@@ -56,9 +56,9 @@ A typical implementation of the **CopyMessage** method performs the following ta
   
 1. Creates a new message for the current message to be copied to.
     
-2. Calls the [IPersistMessage::Save](ipersistmessage-save.md) method with a pointer to the new message in the  _pMessage_ parameter and FALSE in the  _fSameAsLoad_ parameter. 
+2. Calls the [IPersistMessage::Save](ipersistmessage-save.md) method with a pointer to the new message in the _pMessage_ parameter and FALSE in the _fSameAsLoad_ parameter. 
     
-3. Calls the [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) method, passing NULL in the  _pMessage_ parameter. 
+3. Calls the [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) method, passing NULL in the _pMessage_ parameter. 
     
 4. Calls the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method on the new message. 
     

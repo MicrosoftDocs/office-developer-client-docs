@@ -56,7 +56,7 @@ FILL_ENTRY
     
  _lpMAPIPropData_
   
-> [in] A pointer to the interface implementation that the caller uses to access the entry. This is the implementation that the foreign provider can wrap with its own implementation and return in the  _lppMAPIPropNew_ parameter. The  _lpMAPIPropData_ parameter must point to a read/write interface implementation that derives from [IMAPIProp : IUnknown](imapipropiunknown.md) and supports the interface being requested in the  _lpInterface_ parameter. 
+> [in] A pointer to the interface implementation that the caller uses to access the entry. This is the implementation that the foreign provider can wrap with its own implementation and return in the _lppMAPIPropNew_ parameter. The  _lpMAPIPropData_ parameter must point to a read/write interface implementation that derives from [IMAPIProp : IUnknown](imapipropiunknown.md) and supports the interface being requested in the _lpInterface_ parameter. 
     
  _lpInterface_
   

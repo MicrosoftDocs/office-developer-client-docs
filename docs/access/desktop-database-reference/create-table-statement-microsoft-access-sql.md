@@ -106,7 +106,6 @@ This example creates a new table called ThisTable with two text fields.
     End Sub 
 ```
 
-<br/>
 
 This example creates a new table called MyTable with two text fields, a Date/Time field, and a unique index made up of all three fields.
 
@@ -133,7 +132,6 @@ This example creates a new table called MyTable with two text fields, a Date/Tim
     End Sub
 ```
 
-<br/>
 
 This example creates a new table with two text fields and an **Integer** field. The SSN field is the primary key.
 
@@ -158,7 +156,6 @@ This example creates a new table with two text fields and an **Integer** field. 
     End Sub
 ```
 
-<br/>
 
 This example creates a new table called `~~Kitsch'n Sync` that demonstrates all the different field and index types. The AutoNumber field is the primary key.
 

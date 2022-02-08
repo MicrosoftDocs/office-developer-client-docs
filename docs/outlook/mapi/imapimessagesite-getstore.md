@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Returns the message store that contains the current message, if such a store exists. This method will return NULL in the  _ppStore_ parameter for embedded messages, which are stored in another message instead of directly in a message store. 
+Returns the message store that contains the current message, if such a store exists. This method will return NULL in the _ppStore_ parameter for embedded messages, which are stored in another message instead of directly in a message store. 
   
 ```cpp
 HRESULT GetStore(

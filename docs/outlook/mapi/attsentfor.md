@@ -28,6 +28,6 @@ The **attSentFor** attribute is encoded as counted strings laid end-to-end. The 
   
 > type **:** address 
     
-Unlike other length values, the display-name-length and address-length are unsigned 16-bit values instead of unsigned long integers. They still include terminating null characters, however. The type and address strings in the  _email-address_ entry are separated by a literal colon (:) character, such as "smtp:joe@nowhere.com". Only the combined type **:**address string is null-terminated.
+Unlike other length values, the display-name-length and address-length are unsigned 16-bit values instead of unsigned long integers. They still include terminating null characters, however. The type and address strings in the _email-address_ entry are separated by a literal colon (:) character, such as "smtp:joe@nowhere.com". Only the combined type **:**address string is null-terminated.
   
 

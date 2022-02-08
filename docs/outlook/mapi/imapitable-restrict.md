@@ -35,7 +35,7 @@ ULONG ulFlags
 
  _lpRestriction_
   
-> [in] Pointer to an [SRestriction](srestriction.md) structure defining the conditions of the filter. Passing NULL in the  _lpRestriction_ parameter removes the current filter. 
+> [in] Pointer to an [SRestriction](srestriction.md) structure defining the conditions of the filter. Passing NULL in the _lpRestriction_ parameter removes the current filter. 
     
  _ulFlags_
   

@@ -58,15 +58,15 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> The message class passed in the  _szMessageClass_ parameter does not match the message class for any form in the form container. 
+> The message class passed in the _szMessageClass_ parameter does not match the message class for any form in the form container. 
     
 ## Remarks
 
-Client applications call the **IMAPIFormContainer::ResolveMessageClass** method to resolve a message class to a form within a form container. The form information object returned in the  _ppforminfo_ parameter provides further access to the properties of the form with the given message class. 
+Client applications call the **IMAPIFormContainer::ResolveMessageClass** method to resolve a message class to a form within a form container. The form information object returned in the _ppforminfo_ parameter provides further access to the properties of the form with the given message class. 
   
 ## Notes to callers
 
-To resolve a message class to a form, pass in the name of the message class to be resolved (for example,  `IPM.HelpDesk.Software`). To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter. 
+To resolve a message class to a form, pass in the name of the message class to be resolved (for example,  `IPM.HelpDesk.Software`). To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the _ulFlags_ parameter. 
   
 The class identifier for the resolved message class is returned as part of the form information object. Do not assume that the class identifier exists in the OLE library until after you call either the [IMAPIFormMgr::PrepareForm](imapiformmgr-prepareform.md) or [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) method. 
   

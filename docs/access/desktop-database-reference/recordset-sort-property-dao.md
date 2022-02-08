@@ -94,7 +94,6 @@ This example demonstrates the **Sort** property by changing its value and creati
     End Function 
 ```
 
-<br/>
 
 When you know the data you want to select, it's usually more efficient to create a **Recordset** with an SQL statement. This example shows how you can create just one **Recordset** and obtain the same results as in the preceding example.
 

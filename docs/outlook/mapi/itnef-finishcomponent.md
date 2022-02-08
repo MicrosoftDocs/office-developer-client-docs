@@ -51,11 +51,11 @@ TNEF_COMPONENT_MESSAGE
     
  _ulComponentID_
   
-> [in] 0 to indicate processing for a message, or the **PR_ATTACH_NUM** property of an attachment to be processed. If the TNEF_COMPONENT_MESSAGE flag is set in the  _ulFlags_ parameter,  _ulComponentID_ must be 0. 
+> [in] 0 to indicate processing for a message, or the **PR_ATTACH_NUM** property of an attachment to be processed. If the TNEF_COMPONENT_MESSAGE flag is set in the _ulFlags_ parameter,  _ulComponentID_ must be 0. 
     
  _lpCustomPropList_
   
-> [in] A pointer to an [SPropTagArray](sproptagarray.md) structure that contains property tags that identify the properties passed in the  _lpCustomProps_ parameter. There must be a one-to-one correspondence between each property value in  _lpCustomProps_ and a property tag in the  _lpCustomPropList_ parameter. 
+> [in] A pointer to an [SPropTagArray](sproptagarray.md) structure that contains property tags that identify the properties passed in the _lpCustomProps_ parameter. There must be a one-to-one correspondence between each property value in  _lpCustomProps_ and a property tag in the _lpCustomPropList_ parameter. 
     
  _lpCustomProps_
   
@@ -67,7 +67,7 @@ TNEF_COMPONENT_MESSAGE
     
  _lppProblems_
   
-> [out] A pointer to a pointer to a returned [STnefProblemArray](stnefproblemarray.md) structure. The **STnefProblemArray** structure indicates which properties, if any, were not encoded properly. If NULL is passed in the  _lppProblems_ parameter, no property problem array is returned. 
+> [out] A pointer to a pointer to a returned [STnefProblemArray](stnefproblemarray.md) structure. The **STnefProblemArray** structure indicates which properties, if any, were not encoded properly. If NULL is passed in the _lppProblems_ parameter, no property problem array is returned. 
     
 ## Return value
 
@@ -77,11 +77,11 @@ S_OK
     
 ## Remarks
 
-Transport providers, message store providers, and gateways call the **ITnef::FinishComponent** method to perform TNEF processing for one component, either a message or an attachment, as indicated by the flag set in the  _ulFlags_ parameter. 
+Transport providers, message store providers, and gateways call the **ITnef::FinishComponent** method to perform TNEF processing for one component, either a message or an attachment, as indicated by the flag set in the _ulFlags_ parameter. 
   
 For component processing to be enabled, the calling provider or gateway pass the TNEF_COMPONENT_ENCODING flag in  _ulFlags_ for the [OpenTnefStream](opentnefstream.md) or [OpenTnefStreamEx](opentnefstreamex.md) function that opened the object to receive encoding. 
   
-Passing values in the  _lpCustomPropList_ and  _lpCustomProps_ parameters performs component encoding equivalent to that done by the [ITnef::SetProps](itnef-setprops.md) method. Passing a value in the  _lpPropList_ parameter performs component encoding equivalent to that done by the [ITnef::AddProps](itnef-addprops.md) method with the TNEF_PROP_INCLUDE flag set in  _ulFlags_. Passing these values enables you to perform encodings with a single call instead of multiple calls.
+Passing values in the _lpCustomPropList_ and  _lpCustomProps_ parameters performs component encoding equivalent to that done by the [ITnef::SetProps](itnef-setprops.md) method. Passing a value in the _lpPropList_ parameter performs component encoding equivalent to that done by the [ITnef::AddProps](itnef-addprops.md) method with the TNEF_PROP_INCLUDE flag set in  _ulFlags_. Passing these values enables you to perform encodings with a single call instead of multiple calls.
   
 The TNEF implementation reports TNEF stream encoding problems without stopping the **FinishComponent** process. The **STnefProblemArray** structure returned in  _lppProblems_ indicates which TNEF attributes or MAPI properties, if any, could not be processed. The value returned in the **scode** member of the one of the **STnefProblem** structures contained in **STnefProblemArray** indicates the specific problem. The provider or gateway can work on the assumption that all properties or attributes for which **FinishComponent** does not return a problem report were processed successfully. 
   

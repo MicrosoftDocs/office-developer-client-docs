@@ -87,7 +87,6 @@ This example deletes the index MyIndex from the Employees table.
     End Sub
 ```
 
-<br/>
 
 This example deletes the Employees table from the database.
 

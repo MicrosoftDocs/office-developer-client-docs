@@ -41,7 +41,7 @@ HRESULT CopyEntries(
     
  _ulUIParam_
   
-> [in] The handle to the parent window of any dialog boxes or windows that this method displays. The  _ulUIParam_ parameter must be zero if the AB_NO_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] The handle to the parent window of any dialog boxes or windows that this method displays. The  _ulUIParam_ parameter must be zero if the AB_NO_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpProgress_
   

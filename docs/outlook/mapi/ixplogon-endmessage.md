@@ -63,7 +63,7 @@ S_OK
 
 The MAPI spooler calls the **IXPLogon::EndMessage** method after it completes the processing involved in providing extended delivery or nondelivery information. 
   
-Once this call returns, the value in the  _ulMsgRef_ parameter is no longer valid for this message. The transport provider can reuse the same value on a future message. 
+Once this call returns, the value in the _ulMsgRef_ parameter is no longer valid for this message. The transport provider can reuse the same value on a future message. 
   
 All objects that the transport provider opens during the transfer of a message should be released before the **EndMessage** call returns, with the exception of the message object that the MAPI spooler passes to the transport provider. The message object passed by the MAPI spooler is invalid after the **EndMessage** call. 
   

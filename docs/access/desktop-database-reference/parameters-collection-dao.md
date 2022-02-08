@@ -87,7 +87,6 @@ This example demonstrates **Parameter** objects and the **Parameters** collectio
     End Sub 
 ```
 
-<br/>
 
 The following example shows how to create a parameter query. A query named **myQuery** is created with two parameters, named Param1 and Param2. To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.
 
@@ -116,7 +115,6 @@ The following example shows how to create a parameter query. A query named **myQ
     End Sub
 ```
 
-<br/>
 
 The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.
 
@@ -143,7 +141,6 @@ The following example shows how to execute a parameter query. The Parameters col
     End Sub
 ```
 
-<br/>
 
 The following example shows how to open a Recordset that is based on a parameter query.
 

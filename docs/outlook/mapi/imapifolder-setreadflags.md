@@ -37,7 +37,7 @@ _lpMsgList_
     
 _ulUIParam_
   
-> [in] A handle to the parent window of the progress indicator. The  _ulUIParam_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A handle to the parent window of the progress indicator. The  _ulUIParam_ parameter is ignored unless the MESSAGE_DIALOG flag is set in the _ulFlags_ parameter. 
     
 _lpProgress_
   
@@ -73,7 +73,7 @@ MAPI_E_NO_SUPPRESS
     
 MAPI_E_INVALID_PARAMETER 
   
-> One of the following incompatible combinations of flags is set in the  _ulFlags_ parameter: 
+> One of the following incompatible combinations of flags is set in the _ulFlags_ parameter: 
     
    - SUPPRESS_RECEIPT | CLEAR_READ_FLAG 
     
@@ -103,11 +103,11 @@ The read flag cannot be changed for the following:
     
 ## Notes to implementers
 
-You can decide not to support the sending of read reports and the request to suppress read reports. To avoid suppressing a read report, return MAPI_E_NO_SUPPRESS when **SetReadFlags** is called with SUPPRESS_RECEIPT set in the  _ulFlags_ parameter. 
+You can decide not to support the sending of read reports and the request to suppress read reports. To avoid suppressing a read report, return MAPI_E_NO_SUPPRESS when **SetReadFlags** is called with SUPPRESS_RECEIPT set in the _ulFlags_ parameter. 
   
 When the  _lpMsgList_ parameter points to more than one message, perform the operation as completely as possible for each message. Do not stop the operation prematurely unless a failure occurs that is beyond your control, such as running out of memory, running out of disk space, or corruption in the message store. 
   
-If none of the flags are set in the  _ulFlags_ parameter, the following rules apply: 
+If none of the flags are set in the _ulFlags_ parameter, the following rules apply: 
   
 - If MSGFLAG_READ is already set, do nothing.
     

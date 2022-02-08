@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the relative position of two records represented by their bookmarks.
 
-<br/>
 
 <table>
 <colgroup>

@@ -50,7 +50,7 @@ void CALLERRELEASE(
     
  _lpVue_
   
-> [in] Pointer to the [IMAPITable : IUnknown](imapitableiunknown.md) interface for the table view being released. This is an interface for the table object returned in the  _lppMAPITable_ parameter of the [ITableData::HrGetView](itabledata-hrgetview.md) method that created the object to release. 
+> [in] Pointer to the [IMAPITable : IUnknown](imapitableiunknown.md) interface for the table view being released. This is an interface for the table object returned in the _lppMAPITable_ parameter of the [ITableData::HrGetView](itabledata-hrgetview.md) method that created the object to release. 
     
 ## Return value
 
@@ -58,7 +58,7 @@ None
   
 ## Remarks
 
-A client application or service provider that has populated a table data object can call [ITableData::HrGetView](itabledata-hrgetview.md) to create a read-only, sorted view of the table. The call to **HrGetView** passes a pointer to a **CALLERRELEASE** based callback function and also a context to be saved with the table view. When the reference count of the table view returns to zero and the view is being released, the **IMAPITable** implementation calls the callback function, passing the context in the  _ulCallerData_ parameter. 
+A client application or service provider that has populated a table data object can call [ITableData::HrGetView](itabledata-hrgetview.md) to create a read-only, sorted view of the table. The call to **HrGetView** passes a pointer to a **CALLERRELEASE** based callback function and also a context to be saved with the table view. When the reference count of the table view returns to zero and the view is being released, the **IMAPITable** implementation calls the callback function, passing the context in the _ulCallerData_ parameter. 
   
 A common use of a **CALLERRELEASE** based callback function is to release the underlying table data object and not have to keep track of it during subsequent processing. 
   

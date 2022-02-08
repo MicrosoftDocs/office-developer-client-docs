@@ -13,7 +13,6 @@ ms.localizationpriority: medium
 
 **Applies to**: Access 2013, Office 2013
 
-<br/>
 
 <table>
 <colgroup>
@@ -39,9 +38,7 @@ ms.localizationpriority: medium
 </tr>
 <tr class="even">
 <td><p><a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">BeginTrans, CommitTrans, and RollbackTrans</a></p></td>
-<td><p>Manages transaction processing within a <strong>Connection</strong> object as follows:<br/><br/><strong>BeginTrans</strong> — Begins a new transaction.<br/><br/>
-<strong>CommitTrans</strong> — Saves any changes and ends the current transaction. It may also start a new transaction.<br/><br/>
-<strong>RollbackTrans</strong> — Cancels any changes and ends the current transaction. It may also start a new transaction.</p></td>
+<td><p>Manages transaction processing within a <strong>Connection</strong> object as follows:<br/><br/><strong>BeginTrans</strong> — Begins a new transaction.<br/><strong>CommitTrans</strong> — Saves any changes and ends the current transaction. It may also start a new transaction.<br/><strong>RollbackTrans</strong> — Cancels any changes and ends the current transaction. It may also start a new transaction.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-ado.md">Cancel</a></p></td>
@@ -238,4 +235,3 @@ ms.localizationpriority: medium
 </tbody>
 </table>
 
-<br/>

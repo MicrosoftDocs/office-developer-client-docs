@@ -40,7 +40,7 @@ HRESULT ExtractProps(
     
 TNEF_PROP_EXCLUDE 
   
-> Decodes all properties not specified in the  _lpPropList_ parameter. 
+> Decodes all properties not specified in the _lpPropList_ parameter. 
     
 TNEF_PROP_INCLUDE 
   
@@ -52,7 +52,7 @@ TNEF_PROP_INCLUDE
     
  _lpProblems_
   
-> [out] A pointer to a pointer to a returned [STnefProblemArray](stnefproblemarray.md) structure. The **STnefProblemArray** structure indicates which properties, if any, were not encoded properly. If NULL is passed in the  _lpProblems_ parameter, no property problem array is returned. 
+> [out] A pointer to a pointer to a returned [STnefProblemArray](stnefproblemarray.md) structure. The **STnefProblemArray** structure indicates which properties, if any, were not encoded properly. If NULL is passed in the _lpProblems_ parameter, no property problem array is returned. 
     
 ## Return value
 

@@ -85,7 +85,7 @@ Form viewers call the **IMAPIFormMgr::SelectMultipleForms** method to first pres
   
 ## Notes to implementers
 
-If a form viewer passes the MAPI_UNICODE flag in the  _ulFlags_ parameter, all strings are Unicode. Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed. 
+If a form viewer passes the MAPI_UNICODE flag in the _ulFlags_ parameter, all strings are Unicode. Form library providers that do not support Unicode strings should return MAPI_E_BAD_CHARWIDTH if MAPI_UNICODE is passed. 
   
 ## See also
 

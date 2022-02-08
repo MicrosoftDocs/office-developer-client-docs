@@ -88,7 +88,6 @@ This example creates a new **TableDef** object and appends it to the **TableDefs
     End Sub 
 ```
 
-<br/>
 
 This example creates a new **TableDef** object in the Northwind database.
 

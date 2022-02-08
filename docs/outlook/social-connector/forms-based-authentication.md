@@ -34,7 +34,7 @@ If the **useLogonWebAuth** element in the returned **capabilities** XML indicate
     
 9. [ISocialSession::GetLogonUrl](isocialsession-getlogonurl.md) &ndash; The OSC gets the URL to display a browser-based form to the user during web authentication. 
     
-10. [ISocialSession::LogonWeb](isocialsession-logonweb.md) &ndash; The OSC completes the logon to the social network site by using forms-based authentication. The OSC calls this method a second time, passing the URL of the logon form to the provider in the  _connectIn_ parameter. 
+10. [ISocialSession::LogonWeb](isocialsession-logonweb.md) &ndash; The OSC completes the logon to the social network site by using forms-based authentication. The OSC calls this method a second time, passing the URL of the logon form to the provider in the _connectIn_ parameter. 
     
 11. [ISocialSession::GetLoggedOnUser](isocialsession-getloggedonuser.md) &ndash; The OSC gets an [ISocialProfile](isocialprovideriunknown.md) interface that represents the logged-on user. 
     

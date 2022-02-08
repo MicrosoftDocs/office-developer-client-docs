@@ -150,7 +150,6 @@ The following constants are available for filtering **Recordsets**.
 </tbody>
 </table>
 
-<br/>
 
 The filter constants make it easier to resolve individual record conflicts during batch update mode by allowing you to view, for example, only those records that were effected during the last **UpdateBatch** method call, as shown in the following example:
 

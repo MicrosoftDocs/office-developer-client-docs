@@ -39,7 +39,7 @@ HRESULT HrModifyRows(
     
  _lpSRowSet_
   
-> [in] A pointer to an [SRowSet](srowset.md) structure that contains the set of rows to be added, replacing existing rows if necessary. One of the property value structures pointed to by the **lpProps** member of each [SRow](srow.md) structure in the row set should contain the index column, the same value that was specified in the  _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function. 
+> [in] A pointer to an [SRowSet](srowset.md) structure that contains the set of rows to be added, replacing existing rows if necessary. One of the property value structures pointed to by the **lpProps** member of each [SRow](srow.md) structure in the row set should contain the index column, the same value that was specified in the _ulPropTagIndexColumn_ parameter in the call to the [CreateTable](createtable.md) function. 
     
 ## Return value
 

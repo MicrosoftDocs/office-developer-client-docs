@@ -47,7 +47,7 @@ HRESULT HrIStorageFromStream(
     
  _lpInterface_
   
-> [in] Pointer to the interface identifier (IID) for the stream object. Any of the following values can be passed in the  _lpInterface_ parameter: NULL, IID_IStream, or IID_ILockBytes. Passing NULL in  _lpInterface_ is the same as passing IID_IStream. 
+> [in] Pointer to the interface identifier (IID) for the stream object. Any of the following values can be passed in the _lpInterface_ parameter: NULL, IID_IStream, or IID_ILockBytes. Passing NULL in  _lpInterface_ is the same as passing IID_IStream. 
     
  _ulFlags_
   

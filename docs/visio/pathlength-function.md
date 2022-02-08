@@ -18,7 +18,7 @@ Returns the length of the path that is defined in the specified Geometry section
   
 ## Version Information
 
-Version Added: Visio 2010 
+Version Added: Visio 2010
   
 ## Syntax
 
@@ -30,15 +30,13 @@ PATHLENGTH(** *section* ** ** *[,segment]* ** )
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path).  <br/> |
 | _segment_ <br/> |Optional  <br/> |**Integer** <br/> |The 1-based segment of the path to measure.  <br/> |
-   
+
 ### Return value
 
  **Double**
   
 ## Remarks
 
-If  _section_ or  _segment_ does not exist, Microsoft Visio returns #REF!. 
+If _section_ or _segment_ does not exist, Microsoft Visio returns #REF!.
   
-If you include a  _segment_ value, PATHLENGTH returns the length of that segment only. 
-  
-
+If you include a _segment_ value, PATHLENGTH returns the length of that segment only.

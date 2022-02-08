@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the level of transaction isolation for a [Connection](connection-object-ado.md) object.
 
-<br/>
 
 <table>
 <colgroup>

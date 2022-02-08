@@ -41,7 +41,7 @@ FILETIME FtSubFt(
 
  _Minuend_
   
-> [in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer from which the value in the  _Subtrahend_ parameter is to be subtracted. 
+> [in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer from which the value in the _Subtrahend_ parameter is to be subtracted. 
     
  _Subtrahend_
   

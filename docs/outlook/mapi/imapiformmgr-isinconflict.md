@@ -62,7 +62,7 @@ S_FALSE
     
 ## Remarks
 
-Form viewers call the **IMAPIFormMgr::IsInConflict** method to discover whether a particular form does not handle its own message conflicts. **IsInConflict** checks the bitmasks in the  _ulMessageFlags_ and  _ulMessageStatus_ parameters for the presence of a conflict flag. If a conflict flag is set, **IsInConflict** resolves the message class passed in the  _szMessageClass_ parameter and returns S_OK if the form does not handle its own conflicts. **IsInConflict** returns S_FALSE if the form handles its own conflicts. 
+Form viewers call the **IMAPIFormMgr::IsInConflict** method to discover whether a particular form does not handle its own message conflicts. **IsInConflict** checks the bitmasks in the _ulMessageFlags_ and  _ulMessageStatus_ parameters for the presence of a conflict flag. If a conflict flag is set, **IsInConflict** resolves the message class passed in the _szMessageClass_ parameter and returns S_OK if the form does not handle its own conflicts. **IsInConflict** returns S_FALSE if the form handles its own conflicts. 
   
 A form that does not handle its own conflicts must be opened by using the [IMAPIFormMgr::LoadForm](imapiformmgr-loadform.md) method and cannot reuse an existing form object. 
   

@@ -114,7 +114,7 @@ If **SaveChanges** returns MAPI_E_OBJECT_CHANGED, check whether the original obj
   
 You cannot call **SaveChanges** with the FORCE_SAVE flag on an open object that has been deleted. 
   
-If **SaveChanges** returns an error, the object whose changes were to be saved remains open, regardless of the flags set in the  _ulFlags_ parameter. 
+If **SaveChanges** returns an error, the object whose changes were to be saved remains open, regardless of the flags set in the _ulFlags_ parameter. 
   
 > [!IMPORTANT]
 > The  _ulFlags_ NON_EMS_XP_SAVE and SPAMFILTER_ONSAVE might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following values: >  `#define SPAMFILTER_ONSAVE ((ULONG) 0x00000080)`>  `#define NON_EMS_XP_SAVE ((ULONG) 0x00001000)`

@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the character used as a line separator in text [Stream](stream-object-ado.md) objects.
 
-<br/>
 
 <table>
 <colgroup>

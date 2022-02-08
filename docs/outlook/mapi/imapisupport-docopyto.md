@@ -60,7 +60,7 @@ HRESULT DoCopyTo(
     
  _lpExcludeProps_
   
-> [in] A pointer to a property tag array that identifies the property tags that should be excluded from the copy or move operation. Passing NULL in the  _lpExcludeProps_ parameter indicates that all of the object's properties should be copied or moved. **DoCopyTo** returns MAPI_E_INVALID_PARAMETER when the **cValues** member of the [SPropTagArray](sproptagarray.md) structure pointed to by  _lpExcludeProps_ is set to 0. 
+> [in] A pointer to a property tag array that identifies the property tags that should be excluded from the copy or move operation. Passing NULL in the _lpExcludeProps_ parameter indicates that all of the object's properties should be copied or moved. **DoCopyTo** returns MAPI_E_INVALID_PARAMETER when the **cValues** member of the [SPropTagArray](sproptagarray.md) structure pointed to by  _lpExcludeProps_ is set to 0. 
     
  _ulUIParam_
   
@@ -68,7 +68,7 @@ HRESULT DoCopyTo(
     
  _lpProgress_
   
-> [in] A pointer to a progress indicator implementation. If NULL is passed in the  _lpProgress_ parameter, MAPI provides the progress implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a progress indicator implementation. If NULL is passed in the _lpProgress_ parameter, MAPI provides the progress implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpDestInterface_
   
@@ -148,11 +148,11 @@ The **IMAPISupport::DoCopyTo** method is implemented for message store provider 
   
 By default, **DoCopyTo** copies or moves all of the properties of one object to another object. Any subobjects in the source object are automatically included in the operation and copied or moved in their entirety. 
   
-If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the  _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
+If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
   
 ## Notes to callers
 
-To exclude properties from the copy or move operation, include their property tags in the  _lpExcludeProps_ parameter. If you pass the results of using the [PROP_TAG](prop_tag.md) macro to build a property tag from a specific identifier in the property tag array, all properties with that identifier will be excluded. For example, the following entry in the property tag array causes all properties with an identifier of 0x8002 to be excluded, regardless of type: 
+To exclude properties from the copy or move operation, include their property tags in the _lpExcludeProps_ parameter. If you pass the results of using the [PROP_TAG](prop_tag.md) macro to build a property tag from a specific identifier in the property tag array, all properties with that identifier will be excluded. For example, the following entry in the property tag array causes all properties with an identifier of 0x8002 to be excluded, regardless of type: 
   
  `PROP_TAG(PT_LONG, 0x8002)`
   
@@ -160,19 +160,19 @@ To avoid copying a message's delivery time when you copy the message to a differ
   
 Similarly, to prevent the copying or moving of a folder or address book container's hierarchy or contents table, include **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) or **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) in the property tag exclude array.
   
-Ignore MAPI_E_COMPUTED errors returned in the **SPropProblemArray** structure in the  _lppProblems_ parameter. 
+Ignore MAPI_E_COMPUTED errors returned in the **SPropProblemArray** structure in the _lppProblems_ parameter. 
   
 The interface identifier that  _lpSrcInterface_ points to is usually the same as the interface identifier that  _lpDestInterface_ points to. 
   
 If you pass an acceptable interface identifier in  _lpDestInterface_ but an invalid pointer in  _lpDestObj_, the results are unpredictable. Most likely this will cause your provider to fail. 
   
-Conversely, if you are aware of supplemental information that should not be copied or moved, add the interface identifiers for the interfaces to be excluded in the array passed in the  _rgiidExclude_ parameter. For example, if you are copying messages, but not any of their message attachments, pass IID_IMessage in the  _rgiidExclude_ array. **DoCopyTo** ignores any interfaces listed in  _rgiidExclude_ that it does not recognize. 
+Conversely, if you are aware of supplemental information that should not be copied or moved, add the interface identifiers for the interfaces to be excluded in the array passed in the _rgiidExclude_ parameter. For example, if you are copying messages, but not any of their message attachments, pass IID_IMessage in the _rgiidExclude_ array. **DoCopyTo** ignores any interfaces listed in  _rgiidExclude_ that it does not recognize. 
   
 When you use the  _rgiidExclude_ parameter to exclude an interface, it also excludes all interfaces derived from that interface. For example, excluding the [IMAPIContainer](imapicontainerimapiprop.md) interface causes folders or address book containers to be excluded, depending on the type of provider. Do not exclude [IMAPIProp](imapipropiunknown.md) or [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) because so many interfaces derive from them. 
   
  **DoCopyTo** reports global errors that apply to the operation as a whole, and individual errors that apply to individual properties. These individual errors are put in an **SPropProblemArray** structure. You can suppress error reporting at the property level by passing NULL, rather than a valid pointer, for the property problem array structure parameter. 
   
-If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the  _lppProblems_ parameter. When **DoCopyTo** returns S_OK, check for possible errors with individual properties in the structure. When **DoCopyTo** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call the [IMAPISupport::GetLastError](imapisupport-getlasterror.md) method to retrieve detailed error information. 
+If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the _lppProblems_ parameter. When **DoCopyTo** returns S_OK, check for possible errors with individual properties in the structure. When **DoCopyTo** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call the [IMAPISupport::GetLastError](imapisupport-getlasterror.md) method to retrieve detailed error information. 
   
 If **DoCopyTo** returns S_OK, free the returned **SPropProblemArray** structure by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   

@@ -195,7 +195,6 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndActiveConnectionCpp 
 ```
 
-<br/>
 
 **ActiveConnectionX.h**
 

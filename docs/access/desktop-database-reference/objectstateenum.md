@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies whether an object is open or closed, connecting to a data source, executing a command, or retrieving data.
 
-<br/>
 
 <table>
 <colgroup>

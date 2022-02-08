@@ -250,7 +250,6 @@ void PrintComError(_com_error &e)
 // EndMoveCpp 
 ```
 
-<br/>
 
 **MoveX.h**
 

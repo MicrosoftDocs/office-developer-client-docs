@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the group of records to be filtered from a [Recordset](recordset-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

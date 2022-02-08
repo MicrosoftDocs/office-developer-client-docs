@@ -45,15 +45,15 @@ MAPI_UNICODE
     
  _lppRestriction_
   
-> [out] A pointer to a pointer to an [SRestriction](srestriction.md) structure that defines the search criteria. If a client application passes NULL in the  _lppRestriction_ parameter, **GetSearchCriteria** does not return an **SRestriction** structure. 
+> [out] A pointer to a pointer to an [SRestriction](srestriction.md) structure that defines the search criteria. If a client application passes NULL in the _lppRestriction_ parameter, **GetSearchCriteria** does not return an **SRestriction** structure. 
     
  _lppContainerList_
   
-> [out] A pointer to a pointer to an array of entry identifiers that represent containers to be included in the search. If a client passes NULL in the  _lppContainerList_ parameter, **GetSearchCriteria** does not return an array of entry identifiers. 
+> [out] A pointer to a pointer to an array of entry identifiers that represent containers to be included in the search. If a client passes NULL in the _lppContainerList_ parameter, **GetSearchCriteria** does not return an array of entry identifiers. 
     
  _lpulSearchState_
   
-> [out] A pointer to a bitmask of flags used to indicate the current state of the search. If a client passes NULL in the  _lpulSearchState_ parameter, **GetSearchCriteria** returns no flags. The following flags can be set: 
+> [out] A pointer to a bitmask of flags used to indicate the current state of the search. If a client passes NULL in the _lpulSearchState_ parameter, **GetSearchCriteria** returns no flags. The following flags can be set: 
     
 SEARCH_FOREGROUND 
   

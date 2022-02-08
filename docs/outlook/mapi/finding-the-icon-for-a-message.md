@@ -22,7 +22,7 @@ description: "Last modified: July 23, 2011"
   
 1. Call the message's [IMAPIProp::GetProps](imapiprop-getprops.md) method to retrieve its **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property.
     
-2. Call [MAPIOpenFormMgr](mapiopenformmgr.md) to retrieve an **IMAPIFormMgr** interface pointer. Pass your **IMAPISession** pointer in the  _pSession_ parameter. 
+2. Call [MAPIOpenFormMgr](mapiopenformmgr.md) to retrieve an **IMAPIFormMgr** interface pointer. Pass your **IMAPISession** pointer in the _pSession_ parameter. 
     
 3. Call [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) to retrieve an **IMAPIFormInfo** interface pointer. 
     

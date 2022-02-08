@@ -48,7 +48,7 @@ HRESULT CopyProps(
     
  _lpProgress_
   
-> [in] A pointer to an implementation of a progress indicator. If **null** is passed in the  _lpProgress_ parameter, the progress indicator is displayed by using the MAPI implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to an implementation of a progress indicator. If **null** is passed in the _lpProgress_ parameter, the progress indicator is displayed by using the MAPI implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the _ulFlags_ parameter. 
     
  _lpInterface_
   
@@ -130,13 +130,13 @@ MAPI_E_UNEXPECTED_TYPE
 
 The **IMAPIProp::CopyProps** method copies or moves selected properties from the current object to a destination object. **CopyProps** is used mainly for replying to and forwarding messages, where only some of the properties from the original message travel with the reply or forwarded copy. 
   
-Any subobjects in the source object are automatically included in the operation and copied or moved in their entirety, regardless of the use of properties indicated by the [SPropTagArray](sproptagarray.md) structure. By default, **CopyProps** overwrites any properties in the destination object that match properties from the source object. If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the  _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
+Any subobjects in the source object are automatically included in the operation and copied or moved in their entirety, regardless of the use of properties indicated by the [SPropTagArray](sproptagarray.md) structure. By default, **CopyProps** overwrites any properties in the destination object that match properties from the source object. If any of the copied or moved properties already exist in the destination object, the existing properties are overwritten by the new properties, unless the MAPI_NOREPLACE flag is set in the _ulFlags_ parameter. Existing information in the destination object that is not overwritten is left untouched. 
   
 ## Notes to implementers
 
 You can provide a full implementation of **CopyProps** or rely on the implementation that MAPI provides in its support object. If you want to use the MAPI implementation, call the **IMAPISupport::DoCopyProps** method. However, if you do delegate processing to **DoCopyProps** and you are passed the MAPI_DECLINE_OK flag, avoid the support call and return MAPI_E_DECLINE_COPY instead. You will be called with this flag by MAPI to avoid the possible recursion that can occur when you copy folders. 
   
-Because the copy operation can be lengthy, you should display a progress indicator. Use the [IMAPIProgress](imapiprogressiunknown.md) implementation that is passed in the  _lpProgress_ parameter, if there is one. If  _lpProgress_ is **null**, call the [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) method to use the MAPI implementation. 
+Because the copy operation can be lengthy, you should display a progress indicator. Use the [IMAPIProgress](imapiprogressiunknown.md) implementation that is passed in the _lpProgress_ parameter, if there is one. If  _lpProgress_ is **null**, call the [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) method to use the MAPI implementation. 
   
 ## Notes to callers
 
@@ -148,7 +148,7 @@ You can suppress the display of a progress indicator by not setting the MAPI_DIA
   
  **CopyProps** can report global and individual errors, or errors that occur with one or more of the properties. These individual errors are put in an **SPropProblemArray** structure. You can suppress error reporting at the property level by passing **null**, instead of a valid pointer, for the property problem array structure parameter. 
   
-If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the  _lppProblems_ parameter. When **CopyProps** returns S_OK, check for possible errors with individual properties in the structure. When **CopyProps** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method to retrieve detailed error information. 
+If you want to receive information about errors, pass a valid **SPropProblemArray** structure pointer in the _lppProblems_ parameter. When **CopyProps** returns S_OK, check for possible errors with individual properties in the structure. When **CopyProps** returns an error, no information is returned in the **SPropProblemArray** structure. Instead, call the [IMAPIProp::GetLastError](imapiprop-getlasterror.md) method to retrieve detailed error information. 
   
 If **CopyProps** returns S_OK, free the returned **SPropProblemArray** structure by calling the [MAPIFreeBuffer](mapifreebuffer.md) function. 
   
@@ -156,7 +156,7 @@ If you are copying properties that are unique to the source object type, you mus
   
 To ensure that you are copying between objects of the same type, check that the source and destination object are the same type, either by comparing object pointers or calling the [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) method. Set the interface identifier pointed to by  _lpInterface_ to the standard interface for the source object. Also, ensure that the object type or **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) property is the same for the two objects. For example, if you are copying from a message, set  _lpInterface_ to IID_IMessage and the **PR_OBJECT_TYPE** for both objects to MAPI_MESSAGE. 
   
-If an invalid pointer is passed in the  _lpDestObj_ parameter, the results are unpredictable. 
+If an invalid pointer is passed in the _lpDestObj_ parameter, the results are unpredictable. 
   
 To copy a message's recipient list, call the message's **CopyProps** method and include the **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property in the property tag array. To copy the message's attachments, include the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property. 
   

@@ -47,7 +47,7 @@ ULONG FAR * lpulMoreRows
     
  _ulRowCount_
   
-> [in] The maximum number of rows to return in the  _lppRows_ parameter. 
+> [in] The maximum number of rows to return in the _lppRows_ parameter. 
     
  _ulFlags_
   
@@ -55,7 +55,7 @@ ULONG FAR * lpulMoreRows
     
  _lppRows_
   
-> [out] A pointer to an [SRowSet](srowset.md) structure receiving the first (up to  _ulRowCount_) rows that have been inserted into the table view as a result of the expansion. These rows are inserted after the heading row identified by the  _pbInstanceKey_ parameter. The  _lppRows_ parameter can be NULL if the  _ulRowCount_ parameter is zero. 
+> [out] A pointer to an [SRowSet](srowset.md) structure receiving the first (up to  _ulRowCount_) rows that have been inserted into the table view as a result of the expansion. These rows are inserted after the heading row identified by the  _pbInstanceKey_ parameter. The  _lppRows_ parameter can be NULL if the _ulRowCount_ parameter is zero. 
     
  _lpulMoreRows_
   
@@ -73,7 +73,7 @@ MAPI_E_NOT_FOUND
     
 ## Remarks
 
-The **IMAPITable::ExpandRow** method expands a collapsed table category, adding the leaf or lower-level heading rows that belong to the category to the table view. A limit to the number of rows to be returned in the  _lppRows_ parameter can be specified in the  _ulRowCount_ parameter. When  _ulRowCount_ is set to a value greater than zero and one or more rows are returned in the row set pointed to by  _lppRows_, the position of the bookmark BOOKMARK_CURRENT is moved to the row immediately following the last row in the row set.
+The **IMAPITable::ExpandRow** method expands a collapsed table category, adding the leaf or lower-level heading rows that belong to the category to the table view. A limit to the number of rows to be returned in the _lppRows_ parameter can be specified in the _ulRowCount_ parameter. When  _ulRowCount_ is set to a value greater than zero and one or more rows are returned in the row set pointed to by  _lppRows_, the position of the bookmark BOOKMARK_CURRENT is moved to the row immediately following the last row in the row set.
   
 When  _ulRowCount_ is set to zero, requesting that zero leaf or lower-level heading rows be added to the category, or zero rows are returned because there are no leaf or lower-level heading rows in the category, the position of BOOKMARK_CURRENT is set to the row following the row identified by  _pbInstanceKey_. 
   

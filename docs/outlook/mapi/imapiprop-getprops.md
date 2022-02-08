@@ -79,7 +79,7 @@ The property types specified in the **aulPropTag** members of the property tag a
   
 If property types are specified in the **SPropTagArray** in  _lpPropTagArray_, the property values in the **SPropValue** returned in  _lppPropArray_ have types that exactly match the requested types, unless an error value is returned instead. 
   
-String properties can have one of two property types: PT_UNICODE to represent the Unicode format and PT_STRING8 to represent the ANSI format. If the MAPI_UNICODE flag is set in the  _ulFlags_ parameter, whenever **GetProps** cannot determine the appropriate format for a string property, it returns its value in the Unicode format. **GetProps** cannot determine an exact string property type in the following situations: 
+String properties can have one of two property types: PT_UNICODE to represent the Unicode format and PT_STRING8 to represent the ANSI format. If the MAPI_UNICODE flag is set in the _ulFlags_ parameter, whenever **GetProps** cannot determine the appropriate format for a string property, it returns its value in the Unicode format. **GetProps** cannot determine an exact string property type in the following situations: 
   
 - The  _lpPropTagArray_ parameter is set to NULL to request all properties. 
     
@@ -167,7 +167,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI uses the **IMAPIProp::GetProps** method to obtain all properties for an object by passing either NULL or the array returned by the [IMAPIProp::GetPropList](imapiprop-getproplist.md) method in the  _lpPropTagArray_ parameter.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI uses the **IMAPIProp::GetProps** method to obtain all properties for an object by passing either NULL or the array returned by the [IMAPIProp::GetPropList](imapiprop-getproplist.md) method in the _lpPropTagArray_ parameter.  <br/> |
    
 ## See also
 

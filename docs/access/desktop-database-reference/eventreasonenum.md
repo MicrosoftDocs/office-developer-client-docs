@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the reason that caused an event to occur.
 
-<br/>
 
 <table>
 <colgroup>

@@ -17,7 +17,6 @@ For an RDS [Recordset](recordset-object-ado.md) object, specifies the execution 
 
 Use these constants with the **Recordset** "**Background Thread Priority**" dynamic property, which is referenced in the ADO Dynamic Property Index and documented in the [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) documentation.
 
-<br/>
 
 <table>
 <colgroup>

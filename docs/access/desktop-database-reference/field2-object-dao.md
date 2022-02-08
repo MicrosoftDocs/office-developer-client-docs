@@ -105,7 +105,6 @@ The following example shows how to navigate a Recordset that contains a multi-va
     End Sub
 ```
 
-<br/>
 
 The following example shows how to navigate the files in an attachment field. The file type and filename of each attachment is printed in the Immediate window.
 
@@ -155,7 +154,6 @@ The following example shows how to navigate the files in an attachment field. Th
     End Sub
 ```
 
-<br/>
 
 The following example shows how to add files from a specified folder path to an attachment field.
 
@@ -212,7 +210,6 @@ The following example shows how to add files from a specified folder path to an 
     End Function
 ```
 
-<br/>
 
 The following example shows how to save the files stored in an attachment field to the specified folder path.
 
@@ -268,7 +265,6 @@ The following example shows how to save the files stored in an attachment field 
     End Function
 ```
 
-<br/>
 
 The following example shows how to delete a file stored in an attachment field.
 

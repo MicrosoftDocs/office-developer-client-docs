@@ -30,7 +30,7 @@ _result_
     
 ## Remarks
 
-If one or more persons match the **FindPerson** request, this method returns the information for those persons in the  _result_ parameter. The  _result_ XML string must comply with the schema definition for **friends**, as defined in the schema for Outlook Social Connector (OSC) provider extensibility. 
+If one or more persons match the **FindPerson** request, this method returns the information for those persons in the _result_ parameter. The  _result_ XML string must comply with the schema definition for **friends**, as defined in the schema for Outlook Social Connector (OSC) provider extensibility. 
   
 ## See also
 

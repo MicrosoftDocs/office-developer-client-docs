@@ -71,7 +71,7 @@ The **IMAPISupport::Notify** method is implemented for all service provider supp
   
 ## Notes to callers
 
-The notification key passed in the  _lpKey_ parameter should be identical to the key passed in  _lpKey_ to the **IMAPISupport::Subscribe** method. Many providers use the entry identifier of the advise source as the key, but other data, such as a file path, can be used. MAPI uses this key to find all the registrations for notifications on the identified advise source. 
+The notification key passed in the _lpKey_ parameter should be identical to the key passed in  _lpKey_ to the **IMAPISupport::Subscribe** method. Many providers use the entry identifier of the advise source as the key, but other data, such as a file path, can be used. MAPI uses this key to find all the registrations for notifications on the identified advise source. 
   
 Be sure that you set the **lpEntryID** member of the notification structure to a long-term entry identifier. 
   

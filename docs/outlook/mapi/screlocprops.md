@@ -60,7 +60,7 @@ SCODE ScRelocProps(
     
  _pcb_
   
-> [in, out] Optional pointer to the size, in bytes, of the array indicated by the  _pvBaseNew_ parameter. If not NULL, the  _pcb_ parameter is set to the number of bytes stored in the  _pvD_ parameter. 
+> [in, out] Optional pointer to the size, in bytes, of the array indicated by the  _pvBaseNew_ parameter. If not NULL, the  _pcb_ parameter is set to the number of bytes stored in the _pvD_ parameter. 
     
 ## Return value
 

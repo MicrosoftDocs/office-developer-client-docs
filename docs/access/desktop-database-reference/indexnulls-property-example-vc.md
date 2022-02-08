@@ -209,7 +209,6 @@ void IndexNullsX(_bstr_t strSel)
 // EndIndexNullCpp 
 ```
 
-<br/>
 
 **IndexNullX.h**
 

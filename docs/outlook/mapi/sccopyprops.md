@@ -73,7 +73,7 @@ The new array and its data reside in a buffer created with a single allocation, 
   
  **ScCopyProps** maintains the original property order for the copied property array. 
   
-The  _pcb_ parameter is optional; if it is not NULL, it is set to the number of bytes stored in the  _pvDst_ parameter. 
+The  _pcb_ parameter is optional; if it is not NULL, it is set to the number of bytes stored in the _pvDst_ parameter. 
   
 ## See also
 

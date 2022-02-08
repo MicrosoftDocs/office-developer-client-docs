@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the type of [Record](record-object-ado.md) object.
 
-<br/>
 
 <table>
 <colgroup>

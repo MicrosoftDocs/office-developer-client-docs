@@ -89,7 +89,7 @@ If your container can create entries that support the **PR_TEMPLATEID** ([PidTag
   
 1. Call the [IMAPISupport::OpenTemplateID](imapisupport-opentemplateid.md) method. **OpenTemplateID** enables the foreign provider's code for the entry to bind to the new entry being created. Foreign providers support this binding process to maintain control over entries created from their templates into the containers of host address book providers. 
     
-2. Perform any necessary initialization, and populate the new object with all of the properties from the entry in the foreign provider that the object returned in the  _lppMAPIPropNew_ parameter from **OpenTemplateID**.
+2. Perform any necessary initialization, and populate the new object with all of the properties from the entry in the foreign provider that the object returned in the _lppMAPIPropNew_ parameter from **OpenTemplateID**.
     
 If **OpenTemplateID** succeeds, copy the properties to the implementation pointed to by the  _lppMAPIPropNew_ parameter rather than directly to the implementation pointed to by the  _lpMAPIPropData_ parameter. Initialize the new entry for offline use as you would any other entry from a foreign provider. 
   

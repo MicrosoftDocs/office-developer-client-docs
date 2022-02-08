@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the rights or permissions for a group or user on an object.
 
-<br/>
 
 <table>
 <colgroup>

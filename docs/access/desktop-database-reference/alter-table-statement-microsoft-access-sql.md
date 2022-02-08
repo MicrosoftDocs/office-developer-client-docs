@@ -129,7 +129,6 @@ This example adds a Salary field with the data type **Money** to the Employees t
     End Sub 
 ```
 
-<br/>
 
 This example changes the Salary field from the data type **Money** to the data type **Char**.
 
@@ -152,7 +151,6 @@ This example changes the Salary field from the data type **Money** to the data t
     End Sub 
 ```
 
-<br/>
 
 This example removes the Salary field from the Employees table.
 
@@ -174,7 +172,6 @@ This example removes the Salary field from the Employees table.
     End Sub
 ```
 
-<br/>
 
 This example adds a foreign key to the Orders table. The foreign key is based on the EmployeeID field and refers to the EmployeeID field of the Employees table. In this example, you do not have to list the EmployeeID field after the Employees table in the REFERENCES clause because EmployeeID is the primary key of the Employees table.
 
@@ -198,7 +195,6 @@ This example adds a foreign key to the Orders table. The foreign key is based on
     End Sub 
 ```
 
-<br/>
 
 This example removes the foreign key from the Orders table.
 

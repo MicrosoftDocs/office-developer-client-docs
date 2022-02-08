@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the transaction attributes of a [Connection](connection-object-ado.md) object.
 
-<br/>
 
 <table>
 <colgroup>

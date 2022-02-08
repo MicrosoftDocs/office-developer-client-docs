@@ -191,7 +191,6 @@ void PrintProviderError(_ConnectionPtr pConnection)
 //EndAbsolutePageCpp 
 ```
 
-<br/>
 
 **AbsolutePageX.h**
 

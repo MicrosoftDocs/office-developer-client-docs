@@ -48,7 +48,7 @@ The client should not assume the transport provider and gateway will use TNEF on
 > [!NOTE]
 > The setting of this property, and the decisions based on its value, are on a per-recipient basis. 
   
-By default, MAPI sets the value to TRUE. A client calling [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) or a provider calling [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) can set the **MAPI_SEND_NO_RICH_INFO** bit in the  _ulFlags_ parameter, which causes MAPI to set this property to FALSE. One-offs created by the user interface use the value specified by the creating template. 
+By default, MAPI sets the value to TRUE. A client calling [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md) or a provider calling [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) can set the **MAPI_SEND_NO_RICH_INFO** bit in the _ulFlags_ parameter, which causes MAPI to set this property to FALSE. One-offs created by the user interface use the value specified by the creating template. 
   
 On calls to the [IAddrBook::ResolveName](iaddrbook-resolvename.md) method when the name cannot be resolved but can be interpreted as an Internet address (SMTP), this property is set to FALSE. To be construed as an Internet address, the display name of the unresolved entry must be in the format X@Y.Z, such as "pete@pinecone.com". 
   

@@ -16,7 +16,7 @@ description: "Used in the set_expression parameter of the SETATREF function to i
 
 # SETATREFEVAL Function
 
-Used in the  _set_expression_ parameter of the SETATREF function to indicate that  _set_expression_ should be evaluated before assigning to the  _reference_ parameter in SETATREF. 
+Used in the _set_expression_ parameter of the SETATREF function to indicate that  _set_expression_ should be evaluated before assigning to the  _reference_ parameter in SETATREF. 
   
 ## Syntax
 

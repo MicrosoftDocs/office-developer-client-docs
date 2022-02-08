@@ -17,7 +17,6 @@ Specifies the status of a **Field** object.
 
 The **adFieldPending\*** values indicate the operation that caused the status to be set, and may be combined with other status values.
 
-<br/>
 
 <table>
 <colgroup>

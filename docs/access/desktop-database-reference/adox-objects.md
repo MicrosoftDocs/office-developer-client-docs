@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Each object can be contained in its corresponding collection. For example, a **Table** object can be contained in a [Tables](tables-collection-adox.md) collection. For more information, see [ADOX collections](adox-collections.md) or a specific collection topic.
 
-<br/>
 
 <table>
 <colgroup>
@@ -68,7 +67,6 @@ Each object can be contained in its corresponding collection. For example, a **T
 </tbody>
 </table>
 
-<br/>
 
 
 

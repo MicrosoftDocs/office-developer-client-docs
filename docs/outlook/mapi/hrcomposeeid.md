@@ -50,7 +50,7 @@ HrComposeEID(
     
  _cbStoreRecordKey_
   
-> [in] Size, in bytes, of the record key of the message store holding the message or other object. If zero is passed in the  _cbStoreRecordKey_ parameter, the  _ppEID_ parameter points to a copy of the object's entry identifier. 
+> [in] Size, in bytes, of the record key of the message store holding the message or other object. If zero is passed in the _cbStoreRecordKey_ parameter, the  _ppEID_ parameter points to a copy of the object's entry identifier. 
     
  _pStoreRecordKey_
   

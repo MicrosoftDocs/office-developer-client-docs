@@ -63,15 +63,15 @@ S_OK
     
 MAPI_E_NOT_FOUND 
   
-> The message class passed in the  _szMsgClass_ parameter does not match the message class for any form in the form library. 
+> The message class passed in the _szMsgClass_ parameter does not match the message class for any form in the form library. 
     
 ## Remarks
 
-Form viewers call the **IMAPIFormMgr::ResolveMessageClass** method to resolve a message class to its form within a form container. The form information object returned in the  _ppResult_ parameter provides further access to the properties of the form that has the given message class. 
+Form viewers call the **IMAPIFormMgr::ResolveMessageClass** method to resolve a message class to its form within a form container. The form information object returned in the _ppResult_ parameter provides further access to the properties of the form that has the given message class. 
   
 ## Notes to callers
 
-To resolve a message class to a form, a form viewer passes in the name of the message class to be resolved, such as " `IPM.HelpDesk.Software`". To force the resolution to be exact (that is, to prevent resolution to a base class of the message class when an exactly matching form server is not available), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter. If the  _pFolderFocus_ parameter is NULL, the message-class resolution process does not search a folder container. 
+To resolve a message class to a form, a form viewer passes in the name of the message class to be resolved, such as " `IPM.HelpDesk.Software`". To force the resolution to be exact (that is, to prevent resolution to a base class of the message class when an exactly matching form server is not available), the MAPIFORM_EXACTMATCH flag can be passed in the _ulFlags_ parameter. If the  _pFolderFocus_ parameter is NULL, the message-class resolution process does not search a folder container. 
   
 The order of the containers searched depends on the implementation of the form library provider. The default form library provider searches first the local container, then the folder container for the passed-in folder, the personal form container and, finally, the organization container.
   

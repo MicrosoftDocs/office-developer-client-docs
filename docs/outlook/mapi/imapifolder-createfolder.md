@@ -75,7 +75,7 @@ MAPI_UNICODE
     
 OPEN_IF_EXISTS 
   
-> Allows the method to succeed even if the folder named in the  _lpszFolderName_ parameter already exists by opening the existing folder that has that name. Note that message store providers that allow sibling folders to have the same name might not open an existing folder if more than one exists with the supplied name. 
+> Allows the method to succeed even if the folder named in the _lpszFolderName_ parameter already exists by opening the existing folder that has that name. Note that message store providers that allow sibling folders to have the same name might not open an existing folder if more than one exists with the supplied name. 
     
  _lppFolder_
   
@@ -93,7 +93,7 @@ MAPI_E_BAD_CHARWIDTH
     
 MAPI_E_COLLISION 
   
-> A folder that has the name given in the  _lpszFolderName_ parameter already exists. Folder names must be unique. 
+> A folder that has the name given in the _lpszFolderName_ parameter already exists. Folder names must be unique. 
     
 ## Remarks
 

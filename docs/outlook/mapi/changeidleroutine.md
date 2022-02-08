@@ -58,7 +58,7 @@ _priIdle_
     
 _csecIdle_
   
-> [in] A new time, in hundredths of a second, to apply to the idle routine. The meaning of the initial time value varies, depending on what is passed in the  _iroIdle_ parameter. It can be: 
+> [in] A new time, in hundredths of a second, to apply to the idle routine. The meaning of the initial time value varies, depending on what is passed in the _iroIdle_ parameter. It can be: 
     
   - The minimum period of user inaction that must elapse before the MAPI idle engine calls the idle routine for the first time, if the FIROWAIT flag is set in  _iroIdle_. After this time passes, the idle engine can call the idle routine as often as necessary. 
     
@@ -80,15 +80,15 @@ _ircIdle_
   
 > [in] Bitmask of flags used to indicate the changes to be made to the idle routine. The following flags can be set in any combination:
     
-  - FIRCCSEC: A change to the time associated with the idle routine, that is, a change indicated by the value passed in the  _csecIdle_ parameter. 
+  - FIRCCSEC: A change to the time associated with the idle routine, that is, a change indicated by the value passed in the _csecIdle_ parameter. 
       
-  - FIRCIRO: A change to the options for the idle routine, that is, a change indicated by the value passed in the  _iroIdle_ parameter. 
+  - FIRCIRO: A change to the options for the idle routine, that is, a change indicated by the value passed in the _iroIdle_ parameter. 
       
-  - FIRCPFN: A change to the idle routine pointer, that is, a change indicated by the value passed in the  _pfnIdle_ parameter. 
+  - FIRCPFN: A change to the idle routine pointer, that is, a change indicated by the value passed in the _pfnIdle_ parameter. 
       
-  - FIRCPRI: A change to the priority of the idle routine, that is, a change indicated by the value passed in the  _priIdle_ parameter. 
+  - FIRCPRI: A change to the priority of the idle routine, that is, a change indicated by the value passed in the _priIdle_ parameter. 
       
-  - FIRCPV: A change to the memory block of the idle routine, that is, a change indicated by the value passed in the  _pvIdleParam_ parameter. 
+  - FIRCPV: A change to the memory block of the idle routine, that is, a change indicated by the value passed in the _pvIdleParam_ parameter. 
     
 ## Return value
 

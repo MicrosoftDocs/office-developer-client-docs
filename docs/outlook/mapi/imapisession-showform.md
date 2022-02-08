@@ -80,19 +80,19 @@ MAPI_POST_MESSAGE
     
  _ulMessageStatus_
   
-> [in] A bitmask of flags copied from the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. The flags provide information about the state of the message. 
+> [in] A bitmask of flags copied from the **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) property of the message associated with the token in the _ulMessageToken_ parameter. The flags provide information about the state of the message. 
     
  _ulMessageFlags_
   
-> [in] A bitmask of flags copied from the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. These flags provide further information about the state of the message. 
+> [in] A bitmask of flags copied from the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message associated with the token in the _ulMessageToken_ parameter. These flags provide further information about the state of the message. 
     
  _ulAccess_
   
-> [in] A flag that indicates the permission level for the message that is displayed in the form. This information is copied from the **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. 
+> [in] A flag that indicates the permission level for the message that is displayed in the form. This information is copied from the **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)) property of the message associated with the token in the _ulMessageToken_ parameter. 
     
  _lpszMessageClass_
   
-> [in] A pointer to the message class of the message being displayed in the form, copied from the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message associated with the token in the  _ulMessageToken_ parameter. 
+> [in] A pointer to the message class of the message being displayed in the form, copied from the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the message associated with the token in the _ulMessageToken_ parameter. 
     
 ## Return value
 

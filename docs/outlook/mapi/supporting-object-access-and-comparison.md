@@ -20,7 +20,7 @@ description: "Last modified: July 23, 2011"
   
 Service providers can use the [IMAPISupport::OpenEntry](imapisupport-openentry.md) and [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) methods to open and compare objects that belong to their provider or to other providers: 
   
-Like [IMAPISession::OpenEntry](imapisession-openentry.md) for clients, providers can use their support object's **OpenEntry** method to access any object as long they know the object's entry identifier. Unlike the session method, the support method requires that you specify a valid entry identifier in the  _lpEntryID_ parameter. It cannot be NULL. 
+Like [IMAPISession::OpenEntry](imapisession-openentry.md) for clients, providers can use their support object's **OpenEntry** method to access any object as long they know the object's entry identifier. Unlike the session method, the support method requires that you specify a valid entry identifier in the _lpEntryID_ parameter. It cannot be NULL. 
   
 To illustrate how a transport provider might use **IMAPISupport::OpenEntry**, consider the following scenario. The transport provider has received a message formatted in Rich Text Format and does not know whether the target recipient can handle this format. Before delivering the message, the transport provider needs to do the following:
   

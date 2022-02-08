@@ -58,7 +58,7 @@ MAPI_UNICODE
     
  _lppszExplicitClass_
   
-> [out] A pointer to a pointer to the message class that explicitly sets as its receive folder the folder pointed to by  _lppEntryID_. This message class should either be the same as the class in the  _lpszMessageClass_ parameter, or a base class of that class. Passing NULL indicates that the folder pointed to by  _lppEntryID_ is the default receive folder for the message store. 
+> [out] A pointer to a pointer to the message class that explicitly sets as its receive folder the folder pointed to by  _lppEntryID_. This message class should either be the same as the class in the _lpszMessageClass_ parameter, or a base class of that class. Passing NULL indicates that the folder pointed to by  _lppEntryID_ is the default receive folder for the message store. 
     
 ## Return value
 
@@ -68,7 +68,7 @@ S_OK
     
 ## Remarks
 
-The **IMsgStore::GetReceiveFolder** method obtains the entry identifier of a receive folder, a folder designated to receive incoming messages of a particular message class. Callers can specify a message class or NULL in the  _lpszMessageClass_ parameter. If  _lpszMessageClass_ is NULL, **GetReceiveFolder** returns the following values: 
+The **IMsgStore::GetReceiveFolder** method obtains the entry identifier of a receive folder, a folder designated to receive incoming messages of a particular message class. Callers can specify a message class or NULL in the _lpszMessageClass_ parameter. If  _lpszMessageClass_ is NULL, **GetReceiveFolder** returns the following values: 
   
 - In  _lppszExplicitClass_, the name of the first base class of the message class pointed to by  _lpszMessageClass_ that does explicitly set a receive folder. 
     
@@ -76,9 +76,9 @@ The **IMsgStore::GetReceiveFolder** method obtains the entry identifier of a rec
     
 For example, suppose the receive folder of the message class **IPM.Note** has been set to the entry identifier of the Inbox and **GetReceiveFolder** is called with the contents of  _lpszMessageClass_ set to **IPM.Note.Phone**. If **IPM.Note.Phone** does not have an explicit receive folder set, **GetReceiveFolder** returns the entry identifier of the Inbox in  _lppEntryID_ and **IPM.Note** in  _lppszExplicitClass_.
   
-If the client calls **GetReceiveFolder** for a message class and has not set a receive folder for that message class,  _lppszExplicitClass_ is either a zero-length string, a string in Unicode format, or a string in ANSI format depending on whether the client set the MAPI_UNICODE flag in the  _ulFlags_ parameter. 
+If the client calls **GetReceiveFolder** for a message class and has not set a receive folder for that message class,  _lppszExplicitClass_ is either a zero-length string, a string in Unicode format, or a string in ANSI format depending on whether the client set the MAPI_UNICODE flag in the _ulFlags_ parameter. 
   
-A default receive folder, obtained by passing NULL in the  _lpszMessageClass_ parameter, always exists for every message store. 
+A default receive folder, obtained by passing NULL in the _lpszMessageClass_ parameter, always exists for every message store. 
   
 A client should call the [MAPIFreeBuffer](mapifreebuffer.md) function when it is done with the entry identifier returned in  _lppEntryID_ to free the memory that holds that entry identifier. It should also call **MAPIFreeBuffer** when it is done with the message class string returned in  _lppszExplicitClass_ to free the memory that holds that string. 
   
