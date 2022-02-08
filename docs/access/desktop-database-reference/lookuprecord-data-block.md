@@ -78,7 +78,6 @@ The following example shows how to use the SetReturnVar action to return a value
         Value =[ReturnVars]![CurrentServiceRequest]
 ```
 
-<br/>
 
 The following example shows how to use the RaiseError action to cancel the Before Change data macro event. When the AssignedTo field is updated, a LookupRecord data block is used to determine whether the assigned technician is currently assigned to an open service request. If this is true, the Before Change event is cancelled and the record is not updated.
 

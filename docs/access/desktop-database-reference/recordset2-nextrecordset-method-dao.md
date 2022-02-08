@@ -102,7 +102,6 @@ This example uses the **NextRecordset** method to view the data from a compound 
     End Sub 
 ```
 
-<br/>
 
 Another way to accomplish the same task would be to create a prepared statement containing the compound SQL statement. The **CacheSize** property of the **QueryDef** object must be set to 1, and the **Recordset** object must be forward-only and read-only.
 

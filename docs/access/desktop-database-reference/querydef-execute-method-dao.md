@@ -236,7 +236,6 @@ This example demonstrates the **Execute** method when run from both a **QueryDef
     End Sub 
 ```
 
-<br/>
 
 The following example shows how to execute a parameter query. The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.
 

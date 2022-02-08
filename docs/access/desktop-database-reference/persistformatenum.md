@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the format in which to save a [Recordset](recordset-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies whether a dialog box should be displayed to prompt for missing parameters when opening a connection to a data source.
 
-<br/>
 
 <table>
 <colgroup>

@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies what functionality the [Supports](supports-method-ado.md) method should test for.
 
-<br/>
 
 <table>
 <colgroup>

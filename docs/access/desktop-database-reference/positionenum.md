@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the current position of the record pointer within a [Recordset](recordset-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

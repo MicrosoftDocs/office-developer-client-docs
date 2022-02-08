@@ -110,7 +110,6 @@ This example creates a new **Index** object, appends it to the **Indexes** colle
     End Sub 
 ```
 
-<br/>
 
 This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object. It then enumerates the **Indexes** collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects. The CreateIndexOutput function is required for this procedure to run.
 

@@ -80,7 +80,6 @@ The following code snippet illustrates how to use the **SaveToFile** method to s
        Wend 
 ```
 
-<br/>
 
 The following example shows how to save the files stored in an attachment field to the specified folder path.
 

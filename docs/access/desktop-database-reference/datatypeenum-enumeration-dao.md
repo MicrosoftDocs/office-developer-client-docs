@@ -126,7 +126,6 @@ Specifies the operational data type of an object.
 <td><p>21</p></td>
 <td><p>Floating-point data (ODBCDirect only)</p>
 
-<br/>
 
 
 </td>
@@ -161,7 +160,6 @@ Specifies the operational data type of an object.
 <td><p>19</p></td>
 <td><p>Numeric data (ODBCDirect only)</p>
 
-<br/>
 
 
 </td>
@@ -181,7 +179,6 @@ Specifies the operational data type of an object.
 <td><p>22</p></td>
 <td><p>Data in time format (ODBCDirect only)</p>
 
-<br/>
 
 
 </td>
@@ -191,7 +188,6 @@ Specifies the operational data type of an object.
 <td><p>23</p></td>
 <td><p>Data in time and date format (ODBCDirect only)</p>
 
-<br/>
 
 
 </td>
@@ -201,7 +197,6 @@ Specifies the operational data type of an object.
 <td><p>17</p></td>
 <td><p>Variable Binary data (ODBCDirect only)</p>
 
-<br/>
 
 
 </td>

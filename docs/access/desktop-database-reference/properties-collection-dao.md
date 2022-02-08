@@ -84,7 +84,6 @@ This example creates a user-defined property for the current database, sets its 
     End Sub 
 ```
 
-<br/>
 
 This example tries to set the value of a user-defined property. If the property doesn't exist, it uses the **CreateProperty** method to create and set the value of the new property. The SetProperty procedure is required for this procedure to run.
 

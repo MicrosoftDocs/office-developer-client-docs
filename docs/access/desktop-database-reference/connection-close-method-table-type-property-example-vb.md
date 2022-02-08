@@ -58,7 +58,6 @@ Setting the [ActiveConnection](activeconnection-property-adox.md) property to **
     ' EndCloseConnectionVB 
 ```
 
-<br/>
 
 Closing a [Connection](connection-object-ado.md) object that was used to "open" the catalog should have the same effect as setting the **ActiveConnection** property to **Nothing**.
 

@@ -83,13 +83,11 @@ double WINAPI my_Cpp_export(double x)
 }
 ```
 
-<br/>
 
 The DEF file would then need to contain these lines.
   
 `EXPORTS my_C_export = _my_C_export@8  my_Cpp_export`
 
-<br/>
 
 The general syntax of a line that follows an **EXPORTS** statement is as follows. 
   

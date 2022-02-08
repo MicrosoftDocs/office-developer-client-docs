@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies whether a line separator is appended to the string written to a [Stream](stream-object-ado.md) object.
 
-<br/>
 
 <table>
 <colgroup>

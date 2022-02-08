@@ -1569,7 +1569,6 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 ```
 
-<br/>
 
 In addition to the data in the **PSClientError** object, the **FaultException** object can include other types of errors, such as failure to connect to Project Server. The _errOut_ parameter of the **GetPSClientError** method in the previous example shows additional information. For example, the **CreateProject4Department** code sample in the [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) method includes comments that show how to create errors when setting properties in the **ProjectCustomFields** table. When the application is run, the _errOut_ parameter includes the **errinfo** element and other data (formatted here from the console output). 
   

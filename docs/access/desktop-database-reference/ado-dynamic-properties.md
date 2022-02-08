@@ -19,7 +19,6 @@ The [ADO Dynamic Property Index](ado-dynamic-property-index.md) provides a cross
 
 The following dynamic properties are of special interest, and are also documented in the sources mentioned above. Special functionality with ADO is documented in the ADO help topics listed below.
 
-<br/>
 
 <table>
 <colgroup>
@@ -58,5 +57,4 @@ The following dynamic properties are of special interest, and are also documente
 </tbody>
 </table>
 
-<br/>
 

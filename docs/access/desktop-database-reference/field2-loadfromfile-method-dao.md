@@ -82,7 +82,6 @@ The following code snippet uses the **LoadFromFile** method to load an employee'
    rsEmployees.Update 
 ```
 
-<br/>
 
 The following example shows how to add files from a specified folder path to an attachment field.
 

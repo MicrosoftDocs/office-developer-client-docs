@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the type of [Seek](seek-method-ado.md) to execute.
 
-<br/>
 
 <table>
 <colgroup>

@@ -119,7 +119,6 @@ This example uses the **Bookmark** and **Bookmarkable** properties to let the us
     End Sub 
 ```
 
-<br/>
 
 This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.
 

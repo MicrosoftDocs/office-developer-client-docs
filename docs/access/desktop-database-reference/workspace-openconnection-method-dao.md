@@ -112,7 +112,6 @@ The options argument determines if and when to prompt the user to establish the 
 </tbody>
 </table>
 
-<br/>
 
 **OpenConnection** returns a **Connection** object which contains information about the connection. The **Connection** object is similar to a **[Database](database-object-dao.md)** object. The principal difference is that a **Database** object usually represents a database, although it can be used to represent a connection to an ODBC data source from a Microsoft Access workspace.
 
@@ -194,7 +193,6 @@ End Sub
  
 ```
 
-<br/>
 
 This example demonstrates the **Connection** object and **Connections** collection by opening a Microsoft Access **Database** object and two ODBCDirect **Connection** objects and listing the properties available to each object.
 

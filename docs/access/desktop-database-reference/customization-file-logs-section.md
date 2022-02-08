@@ -21,7 +21,6 @@ A log file entry is of the form:
 
 `err=FileName`
 
-<br/>
 
 <table>
 <colgroup>

@@ -296,7 +296,6 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndAbsolutePositionCpp 
 ```
 
-<br/>
 
 **AbsolutePositionX.h**
 

@@ -90,7 +90,6 @@ This example uses the **Index** property to set different record orders for a ta
     End Sub 
 ```
 
-<br/>
 
 This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.
 
@@ -152,7 +151,6 @@ This example demonstrates the **Seek** method by allowing the user to search for
     End Sub 
 ```
 
-<br/>
 
 The following example shows how to use the Seek method to find a record in a linked table.
 

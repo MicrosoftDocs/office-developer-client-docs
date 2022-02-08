@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the format when retrieving a [Recordset](recordset-object-ado.md) as a string.
 
-<br/>
 
 <table>
 <colgroup>

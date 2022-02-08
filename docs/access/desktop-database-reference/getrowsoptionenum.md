@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies how many records to retrieve from a [Recordset](recordset-object-ado.md).
 
-<br/>
 
 <table>
 <colgroup>

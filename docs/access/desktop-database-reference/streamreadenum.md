@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies whether the whole stream or the next line should be read from a [Stream](stream-object-ado.md) object.
 
-<br/>
 
 <table>
 <colgroup>

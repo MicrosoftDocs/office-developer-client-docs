@@ -137,7 +137,6 @@ This example demonstrates the **Update** method in conjunction with **Edit** met
     End Sub 
 ```
 
-<br/>
 
 This example demonstrates the **Update** method in conjunction with the **AddNew** method.
 
@@ -186,7 +185,6 @@ This example demonstrates the **Update** method in conjunction with the **AddNew
     End Sub 
 ```
 
-<br/>
 
 This example uses the **BatchCollisionCount** property and the **Update** method to demonstrate batch updating where any collisions are resolved by forcing the batch update.
 
@@ -256,7 +254,6 @@ End Sub
  
 ```
 
-<br/>
 
 This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.
 

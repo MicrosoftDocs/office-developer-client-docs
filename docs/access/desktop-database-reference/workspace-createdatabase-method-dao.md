@@ -171,7 +171,6 @@ You can use one of the following constants for the locale argument to specify th
 </tbody>
 </table>
 
-<br/>
 
 You can use one or more of the following constants in the options argument to specify which version the data format should have and whether or not to encrypt the database.
 
@@ -218,7 +217,6 @@ You can use one or more of the following constants in the options argument to sp
 </tbody>
 </table>
 
-<br/>
 
 If you omit the encryption constant, **CreateDatabase** creates an un-encrypted database.
 

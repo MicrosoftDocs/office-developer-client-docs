@@ -137,7 +137,6 @@ This example demonstrates **Recordset** objects and the **Recordsets** collectio
     End Sub 
 ```
 
-<br/>
 
 This example uses the **OpenRecordset** method to open five different **Recordset** objects and display their contents. The OpenRecordsetOutput procedure is required for this procedure to run.
 
@@ -224,7 +223,6 @@ This example uses the **OpenRecordset** method to open five different **Recordse
     End Sub 
 ```
 
-<br/>
 
 This example opens a dynamic-type **Recordset** object and enumerates its records.
 
@@ -274,7 +272,6 @@ This example opens a dynamic-type **Recordset** object and enumerates its record
     End Sub 
 ```
 
-<br/>
 
 This example opens a dynaset-type **Recordset** and shows the extent to which its fields are updatable.
 
@@ -314,7 +311,6 @@ This example opens a dynaset-type **Recordset** and shows the extent to which it
     End Sub 
 ```
 
-<br/>
 
 This example opens a forward-only-type **Recordset**, demonstrates its read-only characteristics, and steps through the **Recordset** with the **MoveNext** method.
 
@@ -361,7 +357,6 @@ Sub dbOpenForwardOnlyX()
 End Sub 
 ```
 
-<br/>
 
 This example opens a snapshot-type **Recordset** and demonstrates its read-only characteristics.
 
@@ -400,7 +395,6 @@ This example opens a snapshot-type **Recordset** and demonstrates its read-only 
     End Sub 
 ```
 
-<br/>
 
 This example opens a table-type **Recordset**, sets its **Index** property, and enumerates its records.
 
@@ -437,7 +431,6 @@ This example opens a table-type **Recordset**, sets its **Index** property, and 
     End Sub 
 ```
 
-<br/>
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
@@ -488,7 +481,6 @@ The following example shows how to use the Seek method to find a record in a lin
     End Sub
 ```
 
-<br/>
 
 The following example shows how to open a Recordset that is based on a parameter query.
 
@@ -510,7 +502,6 @@ The following example shows how to open a Recordset that is based on a parameter
     Set rst = qdf.OpenRecordset()
 ```
 
-<br/>
 
 The following example shows how to open a Recordset based on a table or a query.
 
@@ -528,7 +519,6 @@ The following example shows how to open a Recordset based on a table or a query.
     Set rsQuery = dbs.OpenRecordset("qryMyQuery", dbOpenDynaset)
 ```
 
-<br/>
 
 The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.
 
@@ -544,7 +534,6 @@ The following example shows how to open a Recordset based on a Structured Query 
     Set rsSQL = dbs.OpenRecordset(strSQL, dbOpenSnapshot)
 ```
 
-<br/>
 
 The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.
 
@@ -583,7 +572,6 @@ The following example shows how to use the FindFirst and FindNext methods to fin
     End Sub
 ```
 
-<br/>
 
 The following example shows how to copy the results of a query to a worksheet in a new Microsoft Excel workbook.
 

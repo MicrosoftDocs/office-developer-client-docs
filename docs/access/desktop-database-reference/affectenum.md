@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies which records are affected by an operation.
 
-<br/>
 
 <table>
 <colgroup>

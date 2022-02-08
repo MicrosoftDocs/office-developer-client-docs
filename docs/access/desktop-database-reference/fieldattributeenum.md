@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies one or more attributes of a [Field](field-object-ado.md) object.
 
-<br/>
 
 <table>
 <colgroup>

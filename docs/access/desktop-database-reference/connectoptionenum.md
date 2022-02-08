@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies whether the [Open](open-method-ado-connection.md) method of a [Connection](connection-object-ado.md) object should return after (synchronously) or before (asynchronously) the connection is established.
 
-<br/>
 
 <table>
 <colgroup>

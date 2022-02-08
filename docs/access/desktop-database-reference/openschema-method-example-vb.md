@@ -71,7 +71,6 @@ End Sub
 'EndOpenSchemaVB 
 ```
 
-<br/>
 
 This example specifies a TABLE\_TYPE query constraint in the **OpenSchema** method ***Criteria*** argument. As a result, only schema information for the Views specified in the ***Pubs*** database are returned. The example then displays the name(s) and type(s) of each table(s).
 

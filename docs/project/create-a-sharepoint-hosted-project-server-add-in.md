@@ -854,7 +854,6 @@ The following code is in the  `Pages\Default.aspx` file of the **QuickStatus** p
     </asp:Content>
 ```
 
-<br/>
 
 ### App.js file
 
@@ -1051,7 +1050,6 @@ The following code is in the  `Scripts\App.js` file of the **QuickStatus** proje
     }
 ```
 
-<br/>
 
 ### App.css file
 
@@ -1128,7 +1126,6 @@ The following CSS code is in the  `Content\App.css` file of the **QuickStatus** 
     }
 ```
 
-<br/>
 
 ### Elements.xml file for the ribbon
 
@@ -1171,7 +1168,6 @@ The following XML definition, for the added button on the **TASKS** tab on the r
     </Elements>
 ```
 
-<br/>
 
 ### AppManifest.xml file
 
@@ -1200,7 +1196,6 @@ Following is the XML for the app manifest of the **QuickStatus** project, which 
     </App>
 ```
 
-<br/>
 
 ### AppIcon.png file
 

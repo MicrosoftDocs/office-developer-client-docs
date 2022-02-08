@@ -73,7 +73,6 @@ Sub WorkspaceX()
 End Sub 
 ```
 
-<br/>
 
 This example uses the **CreateWorkspace** method to create a Microsoft Access workspace. It then lists the properties of theworkspace.
 

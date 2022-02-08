@@ -128,7 +128,6 @@ This example uses the **CreateQueryDef** method to create and execute both a tem
     End Function 
 ```
 
-<br/>
 
 This example uses the **CreateQueryDef** and **OpenRecordset** methods and the **SQL** property to query the table of titles in the Microsoft SQL Server sample database Pubs and return the title and title identifier of the best-selling book. The example then queries the table of authors and instructs the user to send a bonus check to each author based on his or her royalty share (the total bonus is $1,000 and each author should receive a percentage of that amount).
 
@@ -196,7 +195,6 @@ Sub ClientServerX2()
 End Sub 
 ```
 
-<br/>
 
 The following example shows how to create a parameter query. A query named **myQuery** is created with two parameters, named Param1 and Param2. To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.
 

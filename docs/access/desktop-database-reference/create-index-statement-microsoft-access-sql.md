@@ -97,7 +97,6 @@ This example creates an index consisting of the fields Home Phone and Extension 
     End Sub 
 ```
 
-<br/>
 
 This example creates an index on the Customers table using the CustomerID field. No two records can have the same data in the CustomerID field, and no Null values are allowed.
 

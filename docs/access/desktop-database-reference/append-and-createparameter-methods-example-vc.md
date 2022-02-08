@@ -193,7 +193,6 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndAppendCpp 
 ```
 
-<br/>
 
 **AppendX.h**
 

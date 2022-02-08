@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies how a command argument should be interpreted.
 
-<br/>
 
 <table>
 <colgroup>

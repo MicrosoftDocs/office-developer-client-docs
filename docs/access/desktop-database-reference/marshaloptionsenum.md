@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies which records should be returned to the server.
 
-<br/>
 
 <table>
 <colgroup>

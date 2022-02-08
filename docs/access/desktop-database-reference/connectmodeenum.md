@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies the available permissions for modifying data in a [Connection](connection-object-ado.md), opening a [Record](record-object-ado.md), or specifying values for the [Mode](mode-property-ado.md) property of the **Record** and [Stream](stream-object-ado.md) objects.
 
-<br/>
 
 <table>
 <colgroup>

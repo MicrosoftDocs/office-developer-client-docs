@@ -102,7 +102,6 @@ This example uses the SQL TRANSFORM clause to create a crosstab query showing th
     End Sub
 ```
 
-<br/>
 
 This example uses the SQL TRANSFORM clause to create a slightly more complex crosstab query showing the total dollar amount of orders taken by each employee for each calendar quarter of 1994. The SQLTRANSFORMOutput function is required for this procedure to run.
 

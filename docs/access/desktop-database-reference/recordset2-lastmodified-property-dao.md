@@ -87,7 +87,6 @@ This example uses the **LastModified** property to move the current record point
     End Sub 
 ```
 
-<br/>
 
 This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.
 

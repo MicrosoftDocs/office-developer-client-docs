@@ -98,7 +98,6 @@ You can use the following values for the options argument.
 </tbody>
 </table>
 
-<br/>
 
 When you open a database, it is automatically added to the **Databases** collection.
 

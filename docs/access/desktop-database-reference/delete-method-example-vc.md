@@ -287,7 +287,6 @@ void PrintComError(_com_error &e)
 // EndDeleteCpp 
 ```
 
-<br/>
 
 **DeleteX.h**
 

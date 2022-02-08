@@ -148,7 +148,6 @@ This example creates a new **TableDef** object in the Northwind database.
     End Sub 
 ```
 
-<br/>
 
 This example uses the **CreateTableDef** and **FillCache** methods and the **CacheSize**, **CacheStart** and **SourceTableName** properties to enumerate the records in a linked table twice. Then it enumerates the records twice with a 50-record cache. The example then displays the performance statistics for the uncached and cached runs through the linked table.
 

@@ -15,7 +15,6 @@ ms.localizationpriority: medium
 
 Specifies how a provider should execute a command.
 
-<br/>
 
 <table>
 <colgroup>

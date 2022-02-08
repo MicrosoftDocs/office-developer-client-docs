@@ -17,7 +17,6 @@ Specifies when the [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-s
 
 These constants are only used with the **MSDataShape** provider and the **Recordset** "**Auto Recalc**" dynamic property, which is referenced in the [ADO Dynamic Property Index](ado-dynamic-property-index.md) and documented in the [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) or [Microsoft Data Shaping Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) documentation.
 
-<br/>
 
 <table>
 <colgroup>

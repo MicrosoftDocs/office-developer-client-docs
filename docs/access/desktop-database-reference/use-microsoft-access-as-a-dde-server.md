@@ -84,7 +84,6 @@ The following example demonstrates how to create a Microsoft Word procedure with
     End Sub
 ```
 
-<br/>
 
 The following sections provide information about the valid DDE topics supported by Microsoft Access.
 
@@ -123,7 +122,6 @@ The System topic is a standard topic for all Microsoft Windows–based applicati
 </tbody>
 </table>
 
-<br/>
 
 The following example demonstrates the use of the **DDEInitiate** and **DDERequest** functions with the System topic:
 
@@ -199,7 +197,6 @@ The *database* topic supports the following items.
 </tbody>
 </table>
 
-<br/>
 
 The following example shows how you can open the Employees form in the Northwind sample database from a Visual Basic procedure:
 
@@ -224,7 +221,6 @@ _databasename_ ; **QUERY** _queryname_
 
 _databasename_ ; **SQL** [ _sqlstring_ ]
 
-<br/>
 
 <table>
 <colgroup>
@@ -257,7 +253,6 @@ _databasename_ ; **SQL** [ _sqlstring_ ]
 </tbody>
 </table>
 
-<br/>
 
 The following table lists the valid items for the TABLE *tablename*, QUERY *queryname*, and SQL *sqlstring* topics.
 
@@ -339,7 +334,6 @@ The following table lists the valid items for the TABLE *tablename*, QUERY *quer
 </tbody>
 </table>
 
-<br/>
 
 The following example shows how you can use DDE in a Visual Basic procedure to request data from a table in the Northwind sample database and insert that data into a text file:
 

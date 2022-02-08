@@ -224,7 +224,6 @@ void PrintComError(_com_error &e)
 // EndOriginalValueCpp 
 ```
 
-<br/>
 
 **OriginalValueX.h**
 

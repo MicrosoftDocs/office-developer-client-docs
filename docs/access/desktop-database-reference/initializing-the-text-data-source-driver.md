@@ -41,7 +41,6 @@ The **Access Connectivity Engine\\ISAM Formats\\Text folder** includes initializ
     ExportCurrencySymbols=Yes
 ```
 
-<br/>
 
 The Microsoft Access database engine uses the Text folder entries as follows.
 
@@ -353,7 +352,6 @@ To read, import, or export text and HTML data, you need to create a Schema.ini f
     Col5=columnname9 LongChar Width 10
 ```
 
-<br/>
 
 Similarly, the format for a delimited file is specified as follows:
 
@@ -373,7 +371,6 @@ Similarly, the format for a delimited file is specified as follows:
     Col2=dateofbirth Date width 9
 ```
 
-<br/>
 
 If you are exporting data into a delimited text file, specify the format for that file as well:
 
@@ -411,7 +408,6 @@ If you are exporting data into a delimited text file, specify the format for tha
     TextDelimeter="
 ```
 
-<br/>
 
 The My Special Export example refers to a specific export option; you can specify any variation of export options at connect time. This last example also corresponds to a data source name (DSN) that can be optionally passed at connect time. All three format sections can be included in the same .ini file.
 
