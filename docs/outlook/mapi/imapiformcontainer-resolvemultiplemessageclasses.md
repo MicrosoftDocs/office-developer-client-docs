@@ -62,7 +62,7 @@ Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses
   
 ## Notes to callers
 
-To resolve a group of message classes to forms, pass in an array of message class names to be resolved. To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter. 
+To resolve a group of message classes to forms, pass in an array of message class names to be resolved. To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the _ulFlags_ parameter. 
   
 If a message class cannot be resolved to a form, NULL is returned for that message class in the form information array. Therefore, even if the method returns S_OK, do not assume that all message classes have been successfully resolved. Instead, check the values in the returned array.
   

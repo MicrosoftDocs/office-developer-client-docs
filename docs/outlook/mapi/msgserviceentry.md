@@ -125,7 +125,7 @@ MSG_SERVICE_UNINSTALL
     
  _lpProps_
   
-> [in] Pointer to an optional array of [SPropValue](spropvalue.md) structures indicating values for provider-supported properties that the function will use in configuring the message service. The function only uses this parameter if the _ulContext_ parameter is set to MSG_SERVICE_CONFIGURE. This parameter is commonly used to pass the path to a file for a file-based service, such as a personal address book service. If the MSG_SERVICE_CONFIGURE flag is not passed in the  _ulFlags_ parameter, the  _lpProps_ parameter must be zero. 
+> [in] Pointer to an optional array of [SPropValue](spropvalue.md) structures indicating values for provider-supported properties that the function will use in configuring the message service. The function only uses this parameter if the _ulContext_ parameter is set to MSG_SERVICE_CONFIGURE. This parameter is commonly used to pass the path to a file for a file-based service, such as a personal address book service. If the MSG_SERVICE_CONFIGURE flag is not passed in the _ulFlags_ parameter, the  _lpProps_ parameter must be zero. 
     
  _lpProviderAdmin_
   
@@ -159,7 +159,7 @@ MAPI_E_BAD_CHARWIDTH
     
 ## Remarks
 
-A function defined using the **MSGSERVICEENTRY** function prototype enables message services to configure themselves or to perform other service-specific actions. The function primarily furnishes a dialog box in which the user can change settings specific to the message service. It can also support programmatic configuration by using the property value array passed in the  _lpProps_ parameter. Programmatic configuration is optional unless the service supports the Profile Wizard, for which it is required. 
+A function defined using the **MSGSERVICEENTRY** function prototype enables message services to configure themselves or to perform other service-specific actions. The function primarily furnishes a dialog box in which the user can change settings specific to the message service. It can also support programmatic configuration by using the property value array passed in the _lpProps_ parameter. Programmatic configuration is optional unless the service supports the Profile Wizard, for which it is required. 
   
 MAPI calls this entry point from the Control Panel application or in response to a client application calling [IMsgServiceAdmin::CreateMsgService](imsgserviceadmin-createmsgservice.md) or [IMsgServiceAdmin::ConfigureMsgService](imsgserviceadmin-configuremsgservice.md). 
   

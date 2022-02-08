@@ -69,6 +69,6 @@ E_INVALIDARG
     
 ## Remarks
 
-If NULL is passed in the  _pcb_ parameter, no copying is performed; if a non-null value is passed in  _pcb_, the **ScCopyNotifications** function copies the size of the array and the array itself to a single block of memory. If  _pcb_ is not NULL, it is set to the number of bytes stored in the  _pvDst_ parameter. The  _pvDst_ parameter must be large enough to contain the entire array. 
+If NULL is passed in the _pcb_ parameter, no copying is performed; if a non-null value is passed in  _pcb_, the **ScCopyNotifications** function copies the size of the array and the array itself to a single block of memory. If  _pcb_ is not NULL, it is set to the number of bytes stored in the  _pvDst_ parameter. The  _pvDst_ parameter must be large enough to contain the entire array. 
   
 

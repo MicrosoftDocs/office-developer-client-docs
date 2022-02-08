@@ -125,7 +125,7 @@ The support object that MAPI passes to your **Logon** method in the  _lpMAPISup_
   
 If **Logon** is successful, be sure that you call the support object's [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28VS.85%29.aspx) method to increment its reference count. This enables your provider to hold onto the support object pointer for the rest of the session. If you do not call this **AddRef** method, MAPI will unload your provider. 
   
-You can include the profile name passed in the  _lpszProfileName_ parameter in error dialog boxes, logon screens, or other user interfaces. To use the profile name, copy it to storage that you have allocated. 
+You can include the profile name passed in the _lpszProfileName_ parameter in error dialog boxes, logon screens, or other user interfaces. To use the profile name, copy it to storage that you have allocated. 
   
 Create a logon object and return a pointer to it in the  _lppABLogon_ parameter. MAPI uses this logon object to make calls to the methods in your [IABLogon](iablogoniunknown.md) implementation. 
   

@@ -66,7 +66,7 @@ If the incoming message is a delivery report or a nondelivery report and the tra
   
 To save the incoming message in the appropriate MAPI message store after processing, the transport provider calls the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. If the transport provider does not have any messages to pass to the MAPI spooler, it can stop the incoming message by returning from the **StartMessage** call without calling **SaveChanges**.
   
-All objects that the transport provider opens during a **StartMessage** call should be released before returning. However, the provider should not release the message object that the MAPI spooler originally passed in the  _lpMessage_ parameter. 
+All objects that the transport provider opens during a **StartMessage** call should be released before returning. However, the provider should not release the message object that the MAPI spooler originally passed in the _lpMessage_ parameter. 
   
 If **StartMessage** returns an error, the message in process is released without having changes saved and is lost. In this case, the transport provider should pass the NOTIFY_CRITICAL_ERROR flag with a call to the [IMAPISupport::SpoolerNotify](imapisupport-spoolernotify.md) method and call the [IXPLogon::Poll](ixplogon-poll.md) method to notify the MAPI spooler that it is in a severe error condition. 
   

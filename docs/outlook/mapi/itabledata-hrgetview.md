@@ -37,11 +37,11 @@ HRESULT HrGetView(
 
  _lpSSortOrderSet_
   
-> [in] A pointer to a sort order structure that describes the sort order for the table view. If NULL is passed in the  _lpSSortOrderSet_ parameter, the view is not sorted. 
+> [in] A pointer to a sort order structure that describes the sort order for the table view. If NULL is passed in the _lpSSortOrderSet_ parameter, the view is not sorted. 
     
  _lpfCallerRelease_
   
-> [in] A pointer to a callback function based on the [CALLERRELEASE](callerrelease.md) prototype that MAPI calls when it releases the view. If NULL is passed in the  _lpfCallerRelease_ parameter, no function is called on release of the view. 
+> [in] A pointer to a callback function based on the [CALLERRELEASE](callerrelease.md) prototype that MAPI calls when it releases the view. If NULL is passed in the _lpfCallerRelease_ parameter, no function is called on release of the view. 
     
  _ulCallerData_
   

@@ -36,7 +36,7 @@ HRESULT SetSearchCriteria(
 
  _lpRestriction_
   
-> [in] A pointer to an [SRestriction](srestriction.md) structure that defines the search criteria. If NULL is passed in the  _lpRestriction_ parameter, the search criteria that were used most recently for this container are used again. NULL should not be passed in  _lpRestriction_ for the first search in a container. 
+> [in] A pointer to an [SRestriction](srestriction.md) structure that defines the search criteria. If NULL is passed in the _lpRestriction_ parameter, the search criteria that were used most recently for this container are used again. NULL should not be passed in  _lpRestriction_ for the first search in a container. 
     
  _lpContainerList_
   

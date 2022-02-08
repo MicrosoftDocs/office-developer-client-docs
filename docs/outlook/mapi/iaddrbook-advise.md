@@ -78,7 +78,7 @@ MAPI_E_INVALID_ENTRYID
     
 MAPI_E_NO_SUPPORT 
   
-> Notification is not supported by the address book provider responsible for the object identified by the entry identifier passed in the  _lpEntryID_ parameter. 
+> Notification is not supported by the address book provider responsible for the object identified by the entry identifier passed in the _lpEntryID_ parameter. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   

@@ -55,7 +55,7 @@ TNEF_COMPONENT_MESSAGE
     
  _lpCustomPropList_
   
-> [in] A pointer to an [SPropTagArray](sproptagarray.md) structure that contains property tags that identify the properties passed in the  _lpCustomProps_ parameter. There must be a one-to-one correspondence between each property value in  _lpCustomProps_ and a property tag in the  _lpCustomPropList_ parameter. 
+> [in] A pointer to an [SPropTagArray](sproptagarray.md) structure that contains property tags that identify the properties passed in the _lpCustomProps_ parameter. There must be a one-to-one correspondence between each property value in  _lpCustomProps_ and a property tag in the  _lpCustomPropList_ parameter. 
     
  _lpCustomProps_
   
@@ -67,7 +67,7 @@ TNEF_COMPONENT_MESSAGE
     
  _lppProblems_
   
-> [out] A pointer to a pointer to a returned [STnefProblemArray](stnefproblemarray.md) structure. The **STnefProblemArray** structure indicates which properties, if any, were not encoded properly. If NULL is passed in the  _lppProblems_ parameter, no property problem array is returned. 
+> [out] A pointer to a pointer to a returned [STnefProblemArray](stnefproblemarray.md) structure. The **STnefProblemArray** structure indicates which properties, if any, were not encoded properly. If NULL is passed in the _lppProblems_ parameter, no property problem array is returned. 
     
 ## Return value
 

@@ -68,7 +68,7 @@ As part of its processing, **OpenTaggedBody** either inserts or parses attachmen
   
  **[[** _attachment name_ **:** _n_ **in** _attachment container name_ **]]**
   
- _attachment name_ describes the attachment object;  _n_ is a number that identifies the attachment that is part of a sequence, incrementing from the value passed in the  _lpKey_ parameter of the [OpenTnefStream](opentnefstream.md) or [OpenTnefStreamEx](opentnefstreamex.md) function; and  _attachment container name_ describes the physical component where the attachment object resides. 
+ _attachment name_ describes the attachment object;  _n_ is a number that identifies the attachment that is part of a sequence, incrementing from the value passed in the _lpKey_ parameter of the [OpenTnefStream](opentnefstream.md) or [OpenTnefStreamEx](opentnefstreamex.md) function; and  _attachment container name_ describes the physical component where the attachment object resides. 
   
  **OpenTaggedBody** reads out message text and inserts an attachment tag wherever an attachment object originally appeared in the text. The original message text is not changed. 
   

@@ -60,7 +60,7 @@ MAPIFORM_EXACTMATCH
     
  _lpszMessageClass_
   
-> [in] A pointer to a string that names the message class of the message to be loaded. If NULL is passed in the  _lpszMessageClass_ parameter, the message class is determined from the message pointed to by the  _pmsg_ parameter. 
+> [in] A pointer to a string that names the message class of the message to be loaded. If NULL is passed in the _lpszMessageClass_ parameter, the message class is determined from the message pointed to by the  _pmsg_ parameter. 
     
  _ulMessageStatus_
   

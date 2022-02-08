@@ -71,7 +71,7 @@ Form viewers call the **IMAPIFormMgr::ResolveMultipleMessageClasses** method to 
   
 ## Notes to callers
 
-To resolve a group of message classes to forms, a form viewer passes in an array of message class names to be resolved. To force the resolution to be exact (that is, to prevent resolution to a base class of the message class when an exactly matching form server is not available) the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter. 
+To resolve a group of message classes to forms, a form viewer passes in an array of message class names to be resolved. To force the resolution to be exact (that is, to prevent resolution to a base class of the message class when an exactly matching form server is not available) the MAPIFORM_EXACTMATCH flag can be passed in the _ulFlags_ parameter. 
   
 Message class names are always ANSI strings, never Unicode.
   

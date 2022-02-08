@@ -64,7 +64,7 @@ MAPI_E_INVALID_PARAMETER
     
 ## Remarks
 
-If NULL is passed in the  _pcb_ parameter, the **ScCountProps** function validates the array of notifications but no counting is done. If a non-null value is passed in  _pcb_, the **ScCountNotifications** function determines the size of the array and stores the cause  _pcb_. The  _pcb_ parameter must be large enough to contain the entire array. 
+If NULL is passed in the _pcb_ parameter, the **ScCountProps** function validates the array of notifications but no counting is done. If a non-null value is passed in  _pcb_, the **ScCountNotifications** function determines the size of the array and stores the cause  _pcb_. The  _pcb_ parameter must be large enough to contain the entire array. 
   
 As it is counting, **ScCountProps** validates the memory associated with the array. **ScCountProps** only works with properties about which MAPI has information. 
   

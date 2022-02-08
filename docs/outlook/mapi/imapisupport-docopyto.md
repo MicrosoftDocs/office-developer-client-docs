@@ -68,7 +68,7 @@ HRESULT DoCopyTo(
     
  _lpProgress_
   
-> [in] A pointer to a progress indicator implementation. If NULL is passed in the  _lpProgress_ parameter, MAPI provides the progress implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a progress indicator implementation. If NULL is passed in the _lpProgress_ parameter, MAPI provides the progress implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
     
  _lpDestInterface_
   
@@ -166,7 +166,7 @@ The interface identifier that  _lpSrcInterface_ points to is usually the same as
   
 If you pass an acceptable interface identifier in  _lpDestInterface_ but an invalid pointer in  _lpDestObj_, the results are unpredictable. Most likely this will cause your provider to fail. 
   
-Conversely, if you are aware of supplemental information that should not be copied or moved, add the interface identifiers for the interfaces to be excluded in the array passed in the  _rgiidExclude_ parameter. For example, if you are copying messages, but not any of their message attachments, pass IID_IMessage in the  _rgiidExclude_ array. **DoCopyTo** ignores any interfaces listed in  _rgiidExclude_ that it does not recognize. 
+Conversely, if you are aware of supplemental information that should not be copied or moved, add the interface identifiers for the interfaces to be excluded in the array passed in the _rgiidExclude_ parameter. For example, if you are copying messages, but not any of their message attachments, pass IID_IMessage in the  _rgiidExclude_ array. **DoCopyTo** ignores any interfaces listed in  _rgiidExclude_ that it does not recognize. 
   
 When you use the  _rgiidExclude_ parameter to exclude an interface, it also excludes all interfaces derived from that interface. For example, excluding the [IMAPIContainer](imapicontainerimapiprop.md) interface causes folders or address book containers to be excluded, depending on the type of provider. Do not exclude [IMAPIProp](imapipropiunknown.md) or [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) because so many interfaces derive from them. 
   

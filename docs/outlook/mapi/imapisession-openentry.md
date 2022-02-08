@@ -101,11 +101,11 @@ MAPI_E_NO_ACCESS
     
 MAPI_E_NOT_FOUND 
   
-> There is not an object associated with the entry identifier passed in the  _lpEntryID_ parameter. 
+> There is not an object associated with the entry identifier passed in the _lpEntryID_ parameter. 
     
 MAPI_E_UNKNOWN_ENTRYID 
   
-> The entry identifier passed in the  _lpEntryID_ parameter is in an unrecognizable format. This value is typically returned if the service provider that contains the object is not open. 
+> The entry identifier passed in the _lpEntryID_ parameter is in an unrecognizable format. This value is typically returned if the service provider that contains the object is not open. 
     
 ## Remarks
 

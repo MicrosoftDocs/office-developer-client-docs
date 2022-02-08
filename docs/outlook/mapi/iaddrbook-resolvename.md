@@ -85,7 +85,7 @@ MAPI_E_NOT_FOUND
 
 Clients and service providers call the **ResolveName** method to initiate the name resolution process. An unresolved entry is an entry that does not yet have an entry identifier or **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property.
   
- **ResolveName** goes through the following process for each unresolved entry in the address list passed in the  _lpAdrList_ parameter. 
+ **ResolveName** goes through the following process for each unresolved entry in the address list passed in the _lpAdrList_ parameter. 
   
 1. If the address type of the recipient adheres to the format of an SMTP address ( _displayname_@ _domain.top-level-domain_), **ResolveName** assigns it a one-off entry identifier. 
     

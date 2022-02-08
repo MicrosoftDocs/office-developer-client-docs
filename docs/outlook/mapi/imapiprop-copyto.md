@@ -58,7 +58,7 @@ HRESULT CopyTo(
     
  _lpProgress_
   
-> [in] A pointer to a progress indicator implementation. If **null** is passed in the  _lpProgress_ parameter, MAPI provides the progress implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to a progress indicator implementation. If **null** is passed in the _lpProgress_ parameter, MAPI provides the progress implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
     
  _lpInterface_
   
@@ -146,7 +146,7 @@ Any subobjects in the source object are automatically included in the operation 
 
 You can provide a full implementation of **CopyTo** or rely on the implementation that MAPI provides in its support object. If you want to use the MAPI implementation, call **IMAPISupport::DoCopyTo**. However, if you do delegate processing to **DoCopyTo** and you are passed the MAPI_DECLINE_OK flag, avoid the support call and return MAPI_E_DECLINE_COPY instead. MAPI will call with this flag to avoid the possible recursion that can happen when folders are copied. 
   
-Because the copy operation can be lengthy, you should display a progress indicator. Use the [IMAPIProgress](imapiprogressiunknown.md) implementation passed in the  _lpProgress_ parameter, if there is one. If  _lpProgress_ is **null**, call the [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) method to use the MAPI implementation. 
+Because the copy operation can be lengthy, you should display a progress indicator. Use the [IMAPIProgress](imapiprogressiunknown.md) implementation passed in the _lpProgress_ parameter, if there is one. If  _lpProgress_ is **null**, call the [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) method to use the MAPI implementation. 
   
 Do not attempt to set any known read-only properties in the destination object; return MAPI_E_NO_ACCESS instead.
   
@@ -172,7 +172,7 @@ If you copy properties that are unique to the source object type, you must ensur
   
 To ensure that you copy between objects of the same type, check that the source and destination object are the same type, either by comparing object pointers or calling [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx). Set the interface identifier pointed to by  _lpInterface_ to the standard interface for the source object. Also, be sure that the object type or **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md)) property is the same for the two objects. For example, if you copy from a message, set  _lpInterface_ to IID_IMessage and the **PR_OBJECT_TYPE** for both objects to MAPI_MESSAGE. 
   
-If an invalid pointer is passed in the  _lpDestObj_ parameter, the results are unpredictable. 
+If an invalid pointer is passed in the _lpDestObj_ parameter, the results are unpredictable. 
   
 Excluding properties on a **CopyTo** call can be useful. For example, some objects have properties that are specific to a single instance of the object, such as the date and time of message delivery. To avoid copying a message's delivery time when you copy the message to a different folder, specify **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) in the property tag exclude array. To exclude a message's recipient list, add the **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) property to the exclude array. To exclude a message's attachments, add the **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) property to the array.
   

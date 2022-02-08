@@ -58,7 +58,7 @@ HRESULT DoCopyProps(
     
  _lpProgress_
   
-> [in] A pointer to an implementation of a progress indicator. If NULL is passed in the  _lpProgress_ parameter, the progress indicator is displayed by using the MAPI implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
+> [in] A pointer to an implementation of a progress indicator. If NULL is passed in the _lpProgress_ parameter, the progress indicator is displayed by using the MAPI implementation. The  _lpProgress_ parameter is ignored unless the MAPI_DIALOG flag is set in the  _ulFlags_ parameter. 
     
  _lpDestInterface_
   

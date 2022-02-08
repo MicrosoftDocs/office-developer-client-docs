@@ -40,7 +40,7 @@ ULONG MAPIFreeBuffer(
 
  _lpBuffer_
   
-> [in] Pointer to a previously allocated memory buffer. If NULL is passed in the  _lpBuffer_ parameter, **MAPIFreeBuffer** does nothing. 
+> [in] Pointer to a previously allocated memory buffer. If NULL is passed in the _lpBuffer_ parameter, **MAPIFreeBuffer** does nothing. 
     
 ## Return value
 

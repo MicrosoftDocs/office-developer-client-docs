@@ -52,7 +52,7 @@ _priIdle_
     
 _csecIdle_
   
-> [in] The initial time value, in hundredths of a second, to be used in specifying idle routine parameters. The meaning of the initial time value varies, depending on what is passed in the  _iroIdle_ parameter. The meaning can be one of the following: 
+> [in] The initial time value, in hundredths of a second, to be used in specifying idle routine parameters. The meaning of the initial time value varies, depending on what is passed in the _iroIdle_ parameter. The meaning can be one of the following: 
     
   - The minimum period of user inaction that must elapse before the MAPI idle engine calls the idle routine for the first time, if the FIROWAIT flag is set in  _iroIdle_. After this time passes, the idle engine can call the idle routine as often as necessary. 
     

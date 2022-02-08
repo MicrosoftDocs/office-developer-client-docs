@@ -58,7 +58,7 @@ MAPI_E_BUSY
     
 MAPI_E_NOT_FOUND 
   
-> One or more of the [MAPIUID](mapiuid.md) structures passed in the  _lpUIDList_ parameter do not refer to a transport provider currently in the profile. 
+> One or more of the [MAPIUID](mapiuid.md) structures passed in the _lpUIDList_ parameter do not refer to a transport provider currently in the profile. 
     
 ## Remarks
 

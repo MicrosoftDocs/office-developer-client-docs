@@ -73,7 +73,7 @@ S_OK
     
 MAPI_E_INVALID_ENTRYID 
   
-> The entry identifier passed in the  _lpEntryID_ parameter is not in the appropriate format. 
+> The entry identifier passed in the _lpEntryID_ parameter is not in the appropriate format. 
     
 MAPI_E_NO_SUPPORT 
   

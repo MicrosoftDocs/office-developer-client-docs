@@ -39,7 +39,7 @@ _CallBackAddr_
     
 _pxAsyncHandle_
   
-> The asynchronous handle used by Excel and the connector to track the pending user-defined function call. The connector uses it later when the call is finished, when it calls back into Excel using the function pointer passed in the  _CallBackAddr_ argument. 
+> The asynchronous handle used by Excel and the connector to track the pending user-defined function call. The connector uses it later when the call is finished, when it calls back into Excel using the function pointer passed in the _CallBackAddr_ argument. 
     
 _ArgCount_
   

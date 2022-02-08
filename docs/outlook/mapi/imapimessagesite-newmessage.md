@@ -39,7 +39,7 @@ HRESULT NewMessage(
 
  _fComposeInFolder_
   
-> [in] Indicates in which folder the message should be composed. If the variable is FALSE, the  _pFolderFocus_ parameter is ignored and the form viewer can compose the message in any folder. If the variable is TRUE and NULL is passed in the  _pFolderFocus_ parameter, the message is composed in the current folder. If the variable is TRUE and a non-NULL value is passed in  _pFolderFocus_, the message is composed in the folder pointed to by  _pFolderFocus_.
+> [in] Indicates in which folder the message should be composed. If the variable is FALSE, the  _pFolderFocus_ parameter is ignored and the form viewer can compose the message in any folder. If the variable is TRUE and NULL is passed in the _pFolderFocus_ parameter, the message is composed in the current folder. If the variable is TRUE and a non-NULL value is passed in  _pFolderFocus_, the message is composed in the folder pointed to by  _pFolderFocus_.
     
  _pFolderFocus_
   
@@ -59,7 +59,7 @@ HRESULT NewMessage(
     
  _ppViewContext_
   
-> [out] A pointer to a pointer to a view context that is appropriate for passing to a new form with the new message. If the form implements its own view context, NULL can be passed in the  _ppViewContext_ parameter. 
+> [out] A pointer to a pointer to a view context that is appropriate for passing to a new form with the new message. If the form implements its own view context, NULL can be passed in the _ppViewContext_ parameter. 
     
 ## Return value
 
