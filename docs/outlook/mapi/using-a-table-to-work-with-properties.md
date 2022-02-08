@@ -26,7 +26,7 @@ These two calls are usually sufficient for retrieving enough information to disp
   
 There are only two exceptions:
   
-- If the property is over 255 bytes. The ** IMAPITable ** interface might not return the entire property value, instead truncating it at 255 bytes. Think about this tradeoff, though. If you are displaying this data to the user, 255 bytes may be enough for a textual field such as a comment. 
+- If the property is over 255 bytes. The **IMAPITable** interface might not return the entire property value, instead truncating it at 255 bytes. Think about this tradeoff, though. If you are displaying this data to the user, 255 bytes may be enough for a textual field such as a comment. 
     
 - If you need a specific property from a single row in a table. In this case it is unnecessary to create a table with properties that will never be used. Most of the time you will need the same properties for all rows.
     
