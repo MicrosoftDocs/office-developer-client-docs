@@ -29,7 +29,7 @@ Users can sign in to the Office apps with a free Microsoft account to create or 
 |**Property**|**Index**|**Value**|
 |:-----|:-----|:-----|
 |Document Type  <br/> |com_microsoft_office_doctype  <br/> |\<consumer\>  <br/> |
-|Service Friendly Name  <br/> |com_microsoft_office_servicename  <br/> |Any user-friendly name for the service, used to identify a document in the Recent list in the Office apps. Note that the "Terms of Use Agreement" property must be supplied before the friendly name for the service can be displayed.  <br/> |
+|Service Friendly Name  <br/> |com_microsoft_office_servicename  <br/> |Any user-friendly name for the service, used to identify a document in the Recent list in the Office apps. Note that the "Terms of Use Agreement" property must be supplied before the friendly name for the service can be displayed. |
 |Terms of Use Agreement  <br/> |com_microsoft_office_termsofuse  <br/> |\<I agree to the terms located at https://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
    
 ## See also

@@ -26,9 +26,9 @@ CALLTHIS(" ** *procedure* ** ",[" ** *project* ** "],[ ** *arg1* **, ** *arg2* *
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _procedure_ <br/> |Required  <br/> |**String** <br/> | The name of the procedure to call.  <br/> |
-| _project_ <br/> |Optional  <br/> |**String** <br/> |The project that contains the procedure.  <br/> |
-| _arg_ <br/> |Optional  <br/> |**Number, String, Date, or Currency** <br/> |Passed as parameters to the procedure.  <br/> |
+| _procedure_ <br/> |Required  <br/> |**String** <br/> | The name of the procedure to call. |
+| _project_ <br/> |Optional  <br/> |**String** <br/> |The project that contains the procedure. |
+| _arg_ <br/> |Optional  <br/> |**Number, String, Date, or Currency** <br/> |Passed as parameters to the procedure. |
    
 ## Remarks
 

@@ -20,8 +20,8 @@ Switches the display of the selection rectangle on and off for the selected shap
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Selection rectangle is not displayed when the shape is selected.  <br/> |
-| FALSE  <br/> | Selection rectangle is displayed when the shape is selected.  <br/> |
+| TRUE  <br/> | Selection rectangle is not displayed when the shape is selected. |
+| FALSE  <br/> | Selection rectangle is displayed when the shape is selected. |
    
 ## Remarks
 

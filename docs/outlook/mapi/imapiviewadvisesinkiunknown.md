@@ -37,11 +37,11 @@ Receives notifications from forms.
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Notifies the form viewer that a form is being closed.  <br/> |
-|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Notifies the form viewer that either a new or an existing message has been loaded in a form.  <br/> |
-|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Notifies the form viewer of the printing status of a form.  <br/> |
-|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Notifies the form viewer that the current message has been submitted to MAPI spooler.  <br/> |
-|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Notifies the form viewer that the current message in a form has been saved.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Notifies the form viewer that a form is being closed. |
+|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Notifies the form viewer that either a new or an existing message has been loaded in a form. |
+|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Notifies the form viewer of the printing status of a form. |
+|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Notifies the form viewer that the current message has been submitted to MAPI spooler. |
+|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Notifies the form viewer that the current message in a form has been saved. |
    
 ## See also
 

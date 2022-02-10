@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |xsd:dateTime  <br/> |required  <br/> ||Values of the xsd:dateTime type.  <br/> |
-|ShowIgnored  <br/> |xsd:boolean  <br/> |required  <br/> ||Values of the xsd:boolean type.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |required  <br/> ||Values of the xsd:dateTime type. |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |required  <br/> ||Values of the xsd:boolean type. |
    
 

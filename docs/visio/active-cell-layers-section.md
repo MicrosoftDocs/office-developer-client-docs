@@ -20,8 +20,8 @@ Specifies whether the layer is active. Shapes without pre-assigned layers are as
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Layer is active.  <br/> |
-|FALSE  <br/> |Layer is not active.  <br/> |
+|TRUE  <br/> |Layer is active. |
+|FALSE  <br/> |Layer is not active. |
    
 ## Remarks
 
@@ -31,14 +31,14 @@ To get a reference to the Active cell by name from another formula, or from a pr
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Active[ *i*  ]           where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Layers.Active[ *i*  ]           where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Active cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*           where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowLayer** +  *i*           where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visLayerActive** <br/> |
    
 

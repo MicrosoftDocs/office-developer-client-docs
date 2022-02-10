@@ -29,8 +29,8 @@ The **EOMonth** contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Date*  <br/> |The start date in Date/Time format, or in an accepted text representation of a date.  <br/> |
-| *NumberOfMonth*  <br/> |A number representing the number of months before or after the *Date*.  <br/> |
+| *Date*  <br/> |The start date in Date/Time format, or in an accepted text representation of a date. |
+| *NumberOfMonth*  <br/> |A number representing the number of months before or after the *Date*. |
 
 ## Remarks
 

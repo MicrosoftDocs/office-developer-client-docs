@@ -37,7 +37,7 @@ Initializes a transport provider object and shuts down the object when it is no 
 
 |||
 |:-----|:-----|
-|[Shutdown](ixpprovider-shutdown.md) <br/> |Closes down a transport provider in an orderly fashion.  <br/> |
-|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Establishes a session in which a client application logs on to a transport provider.  <br/> |
+|[Shutdown](ixpprovider-shutdown.md) <br/> |Closes down a transport provider in an orderly fashion. |
+|[TransportLogon](ixpprovider-transportlogon.md) <br/> |Establishes a session in which a client application logs on to a transport provider. |
    
 

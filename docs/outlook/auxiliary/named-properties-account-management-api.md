@@ -15,7 +15,7 @@ This section describes the named properties in the Account Management API.
   
 |**Named property**|**Description**|
 |:-----|:-----|
-|[PidLidInternetAccountName](pidlidinternetaccountname.md) <br/> |Returns the display name of the account that delivered the message.  <br/> |
-|[PidLidInternetAccountStamp](pidlidinternetaccountstamp.md) <br/> |Returns the account stamp of the account that delivered the message.  <br/> |
+|[PidLidInternetAccountName](pidlidinternetaccountname.md) <br/> |Returns the display name of the account that delivered the message. |
+|[PidLidInternetAccountStamp](pidlidinternetaccountstamp.md) <br/> |Returns the account stamp of the account that delivered the message. |
    
 

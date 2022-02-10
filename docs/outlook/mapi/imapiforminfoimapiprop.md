@@ -38,11 +38,11 @@ Gives client applications access to properties that are particular to form defin
 
 |||
 |:-----|:-----|
-|[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Returns a pointer to the complete set of properties that a form uses.  <br/> |
-|[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Returns a pointer to the complete set of verbs that a form uses.  <br/> |
-|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Builds an icon from an icon property of a form.  <br/> |
-|[SaveForm](imapiforminfo-saveform.md) <br/> |Saves a description of a particular form in a configuration file.  <br/> |
-|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Returns a pointer to the form container in which a particular form is installed.  <br/> |
+|[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Returns a pointer to the complete set of properties that a form uses. |
+|[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Returns a pointer to the complete set of verbs that a form uses. |
+|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Builds an icon from an icon property of a form. |
+|[SaveForm](imapiforminfo-saveform.md) <br/> |Saves a description of a particular form in a configuration file. |
+|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Returns a pointer to the form container in which a particular form is installed. |
    
 ## Remarks
 

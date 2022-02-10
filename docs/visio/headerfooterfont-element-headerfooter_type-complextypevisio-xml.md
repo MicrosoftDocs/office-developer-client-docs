@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contains elements for a document's header and footer.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Contains elements for a document's header and footer. |
    
 ### Child elements
 
@@ -50,19 +50,19 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSet  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the character set of the font. Equivalent to the GDI LOGFONTlfCharSet field.  <br/> |Values of the xsd:unsignedByte type.  <br/> |
-|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the clipping precision of the font. Equivalent to the GDI LOGFONTlfClipPrecision field.  <br/> |Values of the xsd:unsignedByte type.  <br/> |
-|Escapement  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the escapement attribute of the font. Equivalent to the GDI LOGFONTlfEscapement field.  <br/> |Values of the xsd:int type.  <br/> |
-|FaceName  <br/> |xsd:string  <br/> |optional  <br/> |Contains information about a font.  <br/> |Values of the xsd:string type.  <br/> |
-|Height  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the height of the shape in drawing units.  <br/> |Values of the xsd:int type.  <br/> |
-|Italic  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies whether the font is italic. Equivalent to the GDI LOGFONTlfItalic field.  <br/> |Values of the xsd:unsignedByte type.  <br/> |
-|Orientation  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the orientation of the font. Equivalent to the GDI LOGFONTlfOrientation field.  <br/> |Values of the xsd:int type.  <br/> |
-|OutPrecision  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the output precision attribute of the font. Equivalent to the GDI LOGFONTlfOutPrecision field.  <br/> |Values of the xsd:unsignedByte type.  <br/> |
-|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the pitch and family of the font. Equivalent to the GDI LOGFONTlfPitchAndFamily field.  <br/> |Values of the xsd:unsignedByte type.  <br/> |
-|Quality  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the output quality of the font. Equivalent to the GDI LOGFONTlfQuality field.  <br/> |Values of the xsd:unsignedByte type.  <br/> |
-|StrikeOut  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies whether the font is a strikeout font. Equivalent to the GDI LOGFONTlfStrikeOut field.  <br/> |Values of the xsd:unsignedByte type.  <br/> |
-|Underline  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies whether the font is underlined. Equivalent to the GDI LOGFONTlfUnderline field.  <br/> |Values of the xsd:unsignedByte type.  <br/> |
-|Weight  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the weight of the font. Equivalent to the GDI LOGFONTlfWeight field.  <br/> |Values of the xsd:int type.  <br/> |
-|Width  <br/> |xsd:int  <br/> |optional  <br/> |Contains the width of the associated shape in drawing units.  <br/> |Values of the xsd:int type.  <br/> |
+|CharSet  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the character set of the font. Equivalent to the GDI LOGFONTlfCharSet field. |Values of the xsd:unsignedByte type. |
+|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the clipping precision of the font. Equivalent to the GDI LOGFONTlfClipPrecision field. |Values of the xsd:unsignedByte type. |
+|Escapement  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the escapement attribute of the font. Equivalent to the GDI LOGFONTlfEscapement field. |Values of the xsd:int type. |
+|FaceName  <br/> |xsd:string  <br/> |optional  <br/> |Contains information about a font. |Values of the xsd:string type. |
+|Height  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the height of the shape in drawing units. |Values of the xsd:int type. |
+|Italic  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies whether the font is italic. Equivalent to the GDI LOGFONTlfItalic field. |Values of the xsd:unsignedByte type. |
+|Orientation  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the orientation of the font. Equivalent to the GDI LOGFONTlfOrientation field. |Values of the xsd:int type. |
+|OutPrecision  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the output precision attribute of the font. Equivalent to the GDI LOGFONTlfOutPrecision field. |Values of the xsd:unsignedByte type. |
+|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the pitch and family of the font. Equivalent to the GDI LOGFONTlfPitchAndFamily field. |Values of the xsd:unsignedByte type. |
+|Quality  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies the output quality of the font. Equivalent to the GDI LOGFONTlfQuality field. |Values of the xsd:unsignedByte type. |
+|StrikeOut  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies whether the font is a strikeout font. Equivalent to the GDI LOGFONTlfStrikeOut field. |Values of the xsd:unsignedByte type. |
+|Underline  <br/> |xsd:unsignedByte  <br/> |optional  <br/> |Specifies whether the font is underlined. Equivalent to the GDI LOGFONTlfUnderline field. |Values of the xsd:unsignedByte type. |
+|Weight  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the weight of the font. Equivalent to the GDI LOGFONTlfWeight field. |Values of the xsd:int type. |
+|Width  <br/> |xsd:int  <br/> |optional  <br/> |Contains the width of the associated shape in drawing units. |Values of the xsd:int type. |
    
 

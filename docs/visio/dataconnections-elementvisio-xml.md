@@ -44,12 +44,12 @@ None.
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Abstracts communication between one or more **DataRecordset** elements and a non-XML data source.  <br/> |
+|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Abstracts communication between one or more **DataRecordset** elements and a non-XML data source. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|NextID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The next available ID for new connections.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The next available ID for new connections. |Values of the xsd:unsignedInt type. |
    
 

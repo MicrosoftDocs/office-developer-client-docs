@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Specifies a recordset and the data binding between that recordset and shapes in drawing pages.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Specifies a recordset and the data binding between that recordset and shapes in drawing pages. |
    
 ### Child elements
 
@@ -50,8 +50,8 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnName  <br/> |xsd:string  <br/> |required  <br/> |Corresponds to a column name in the ADO recordset.  <br/> |Values of the xsd:string type.  <br/> |
-|ContextType  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies properties of the group or shape to use for the comparison. Possible values are shown in the following table.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|ContextTypeLabel  <br/> |xsd:string  <br/> |optional  <br/> |If the ContextType value is 2 or 3, this attribute is required to define a comparison. For ContextType = 2, ContextTypeLabel must be the shape data item label, and if **ContextType** = 3, ContextTypeLabel must be the local row name.  <br/> |Values of the xsd:string type.  <br/> |
+|ColumnName  <br/> |xsd:string  <br/> |required  <br/> |Corresponds to a column name in the ADO recordset. |Values of the xsd:string type. |
+|ContextType  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies properties of the group or shape to use for the comparison. Possible values are shown in the following table. |Values of the xsd:unsignedInt type. |
+|ContextTypeLabel  <br/> |xsd:string  <br/> |optional  <br/> |If the ContextType value is 2 or 3, this attribute is required to define a comparison. For ContextType = 2, ContextTypeLabel must be the shape data item label, and if **ContextType** = 3, ContextTypeLabel must be the local row name. |Values of the xsd:string type. |
    
 

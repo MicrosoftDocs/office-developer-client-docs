@@ -54,8 +54,8 @@ All idle tasks run on the thread that called **MAPIInitIdle**. MAPI has a separa
   
 |**Threading model**|**Implication**|
 |:-----|:-----|
-|Single-threaded  <br/> |No problem. Idle functions execute on your client's main thread and are serialized through the message loop.  <br/> |
-|Free-threaded  <br/> |Idle functions must be thread-safe, but your client already has the necessary infrastructure. Your client might not need the MAPI idle engine at all.  <br/> |
-|Apartment-threaded  <br/> |Idle function has to execute on the same thread that registered it if it wants to use MAPI, OLE, or any other COM interfaces. The most straightforward way is to register an idle function with MAPI that posts a message to the right thread and dispatch the "real" idle function directly from that thread's message loop.  <br/> |
+|Single-threaded  <br/> |No problem. Idle functions execute on your client's main thread and are serialized through the message loop. |
+|Free-threaded  <br/> |Idle functions must be thread-safe, but your client already has the necessary infrastructure. Your client might not need the MAPI idle engine at all. |
+|Apartment-threaded  <br/> |Idle function has to execute on the same thread that registered it if it wants to use MAPI, OLE, or any other COM interfaces. The most straightforward way is to register an idle function with MAPI that posts a message to the right thread and dispatch the "real" idle function directly from that thread's message loop. |
    
 

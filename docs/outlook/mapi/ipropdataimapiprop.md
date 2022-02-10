@@ -38,10 +38,10 @@ Provides the ability to retrieve and change the access for an object's propertie
 
 |||
 |:-----|:-----|
-|[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |Sets the access level for the object.  <br/> |
-|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Sets the access level and status for one or more of the object's properties.  <br/> |
-|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |Retrieves the access level and status for one or more of the object's properties.  <br/> |
-|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |Adds one or more properties of type PT_OBJECT to the object.  <br/> |
+|[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |Sets the access level for the object. |
+|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Sets the access level and status for one or more of the object's properties. |
+|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |Retrieves the access level and status for one or more of the object's properties. |
+|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |Adds one or more properties of type PT_OBJECT to the object. |
    
 ## Remarks
 

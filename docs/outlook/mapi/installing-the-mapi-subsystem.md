@@ -46,8 +46,8 @@ The following table summarizes how clients retrieve version information for the 
   
 |**To check**|**Registry**|
 |:-----|:-----|
-|Availability of MAPI  <br/> |Look for  `MAPIX=1`.  <br/> |
-|Available version of MAPI  <br/> |Look for a MAPIXVER string of the form " _x.x.x_".  <br/> |
+|Availability of MAPI  <br/> |Look for  `MAPIX=1`. |
+|Available version of MAPI  <br/> |Look for a MAPIXVER string of the form " _x.x.x_". |
    
 ## See also
 

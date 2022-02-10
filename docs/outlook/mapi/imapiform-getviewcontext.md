@@ -60,7 +60,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI uses the **IMAPIForm::GetViewContext** method to check whether a form has a view context.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI uses the **IMAPIForm::GetViewContext** method to check whether a form has a view context. |
    
 ## See also
 

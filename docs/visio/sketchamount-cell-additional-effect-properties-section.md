@@ -18,8 +18,8 @@ Determines the amount of distortion for a sketch effect, as an integer between 0
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |The shape has no sketch effect applied to it.  <br/> |
-|1-25  <br/> |The shape has sketch distortion applied to it, where a value of 1 is the most distortion and 25 is the least.  <br/> |
+|0  <br/> |The shape has no sketch effect applied to it. |
+|1-25  <br/> |The shape has sketch distortion applied to it, where a value of 1 is the most distortion and 25 is the least. |
    
 ## Remarks
 

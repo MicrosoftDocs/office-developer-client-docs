@@ -34,7 +34,7 @@ To get a reference to the Calendar cell by index from a program, use the **Cells
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionProp** <br/> |
-| Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCustPropsCalendar** <br/> |
    
 

@@ -65,7 +65,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI uses the **IMAPISession::GetStatusTable** method to obtain the status table to be rendered.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnStatusTable  <br/> |MFCMAPI uses the **IMAPISession::GetStatusTable** method to obtain the status table to be rendered. |
    
 ## See also
 

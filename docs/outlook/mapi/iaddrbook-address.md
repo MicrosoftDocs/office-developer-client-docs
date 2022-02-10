@@ -82,7 +82,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI uses the **Address** method to allow the user to select which mailbox to open.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |OpenOtherUsersMailboxFromGal  <br/> |MFCMAPI uses the **Address** method to allow the user to select which mailbox to open. |
    
 ## See also
 

@@ -24,13 +24,13 @@ The documentation for each interface consists of an introductory section that in
   
 |||
 |:-----|:-----|
-|Header file:  <br/> |The header file where the interface is defined and that must be included when you compile your source code.  <br/> |
-|Exposed by:  <br/> |The object that exposes the interface.  <br/> |
-|Implemented by:  <br/> |A list of the components that provide an implementation of the interface.  <br/> |
-|Called by:  <br/> |A list of the components that typically call the methods of the interface.  <br/> |
-|Interface identifier:  <br/> |The interface identifier GUID.  <br/> |
-|Pointer type:  <br/> |The pointer type for the object that exposes the interface.  <br/> |
-|Transaction model:  <br/> |For interfaces derived from [IMAPIProp](imapipropiunknown.md). If nontransacted, changes take effect immediately; if transacted, changes do not take effect until [IMAPIProp::SaveChanges](imapiprop-savechanges.md) is called.  <br/> |
+|Header file:  <br/> |The header file where the interface is defined and that must be included when you compile your source code. |
+|Exposed by:  <br/> |The object that exposes the interface. |
+|Implemented by:  <br/> |A list of the components that provide an implementation of the interface. |
+|Called by:  <br/> |A list of the components that typically call the methods of the interface. |
+|Interface identifier:  <br/> |The interface identifier GUID. |
+|Pointer type:  <br/> |The pointer type for the object that exposes the interface. |
+|Transaction model:  <br/> |For interfaces derived from [IMAPIProp](imapipropiunknown.md). If nontransacted, changes take effect immediately; if transacted, changes do not take effect until [IMAPIProp::SaveChanges](imapiprop-savechanges.md) is called. |
    
 Following the first table is another table that lists all the methods of this interface in vtable order. A vtable is an array of function pointers created by the compiler containing one function pointer for each method of a MAPI object. The methods are listed in the same order that they are declared. Methods inherited from other interfaces are not shown in the Vtable Order table but can be used in the same way as documented in the interface that defines them.
   
@@ -38,10 +38,10 @@ After each interface topic, the interface's methods are then documented in alpha
   
 |**Heading**|**Content**|
 |:-----|:-----|
-|Parameters  <br/> |A description of each parameter in the method.  <br/> |
-|Return Value  <br/> |A description of the unique values that the method can return. These are the values that callers should check for in their code.  <br/> |
-|Remarks  <br/> |A description of why and how the method is used.  <br/> |
-|See Also  <br/> |Cross-references to other topics in this Reference.  <br/> |
+|Parameters  <br/> |A description of each parameter in the method. |
+|Return Value  <br/> |A description of the unique values that the method can return. These are the values that callers should check for in their code. |
+|Remarks  <br/> |A description of why and how the method is used. |
+|See Also  <br/> |Cross-references to other topics in this Reference. |
    
 ## See also
 

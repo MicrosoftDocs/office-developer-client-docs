@@ -26,7 +26,7 @@ ABS( *number*)
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Number_ <br/> |Required  <br/> |**Decimal** <br/> |The number whose absolute value you want to find.  <br/> |
+| _Number_ <br/> |Required  <br/> |**Decimal** <br/> |The number whose absolute value you want to find. |
    
 ## Example
 

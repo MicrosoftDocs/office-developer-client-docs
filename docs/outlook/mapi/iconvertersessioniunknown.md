@@ -33,18 +33,18 @@ Allows conversions between MIME objects and MAPI messages. This can be useful in
 
 |||
 |:-----|:-----|
-|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Specifies an optional MAPI Address Book that the MAPI to MIME converter uses to resolve ambiguous addresses when converting a MAPI message to a MIME stream.  <br/> |
-|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Initializes the encoding to use during conversion.  <br/> |
+|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Specifies an optional MAPI Address Book that the MAPI to MIME converter uses to resolve ambiguous addresses when converting a MAPI message to a MIME stream. |
+|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Initializes the encoding to use during conversion. |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
-|**[MIMEToMAPI](iconvertersession-mimetomapi.md)** <br/> |Converts a MIME stream to a MAPI message.  <br/> |
-|**[MAPIToMIMEStm](iconvertersession-mapitomimestm.md)** <br/> |Converts a MAPI message to a MIME stream.  <br/> |
+|**[MIMEToMAPI](iconvertersession-mimetomapi.md)** <br/> |Converts a MIME stream to a MAPI message. |
+|**[MAPIToMIMEStm](iconvertersession-mapitomimestm.md)** <br/> |Converts a MAPI message to a MIME stream. |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
-|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Sets the text wrapping width for a MIME stream that the converter returns in **MAPIToMIMEStm**.  <br/> |
-|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Sets the format that the converter returns a MIME stream in **MAPIToMIMEStm**.  <br/> |
+|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Sets the text wrapping width for a MIME stream that the converter returns in **MAPIToMIMEStm**. |
+|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Sets the format that the converter returns a MIME stream in **MAPIToMIMEStm**. |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
-|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Specifies an optional character set that the MAPI to MIME converter uses when converting a MAPI message to a MIME stream.  <br/> |
+|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Specifies an optional character set that the MAPI to MIME converter uses when converting a MAPI message to a MIME stream. |
    
 ## Remarks
 

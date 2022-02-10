@@ -182,10 +182,10 @@ Use Table 1 to identify the keys, entries, and values that must be written in th
 
 |**Key**|**Entry**|**Type**|**Value**|**Example**|
 |:-----|:-----|:-----|:-----|:-----|
-|HKEY_LOCAL_MACHINE\Software\IM Providers\\<Application name\>  <br/> |FriendlyName  <br/> |REG_SZ  <br/> |The name of the third-party IM client application.  <br/> |Litware IM 2012  <br/> |
-||ProcessName  <br/> |REG_SZ  <br/> |The process name of the third-party IM client application.  <br/> |litware.exe  <br/> |
-||GUID  <br/> |REG_SZ  <br/> |A class ID (CLSID) for the root, cocreatable class in the IM application (the class that implements the **IUCOfficeIntegration** interface).  <br/> |(A GUID)  <br/> |
-|HKEY_CURRENT_USER\Software\IM Providers  <br/> |DefaultIMApp  <br/> |REG_SZ  <br/> |The name of the IM client application. This must be the same as the name at the top-level registry key (hive) in the HKEY_LOCAL_MACHINE.  <br/> |Litware  <br/> |
+|HKEY_LOCAL_MACHINE\Software\IM Providers\\<Application name\>  <br/> |FriendlyName  <br/> |REG_SZ  <br/> |The name of the third-party IM client application. |Litware IM 2012  <br/> |
+||ProcessName  <br/> |REG_SZ  <br/> |The process name of the third-party IM client application. |litware.exe  <br/> |
+||GUID  <br/> |REG_SZ  <br/> |A class ID (CLSID) for the root, cocreatable class in the IM application (the class that implements the **IUCOfficeIntegration** interface). |(A GUID)  <br/> |
+|HKEY_CURRENT_USER\Software\IM Providers  <br/> |DefaultIMApp  <br/> |REG_SZ  <br/> |The name of the IM client application. This must be the same as the name at the top-level registry key (hive) in the HKEY_LOCAL_MACHINE. |Litware  <br/> |
 |HKEY_CURRENT_USER\Software\IM Providers\\<Application name\>  <br/> |UpAndRunning  <br/> |REG_DWORD  <br/> | An integer value between 0 and 2:  <br/>  0—Not running  <br/>  1—Starting  <br/>  2—Running  <br/> <br/>**NOTE**:  The application name registry key must be the same as the value of the DefaultIMApp entry.           ||
    
 ## Implementing the required interfaces for integration with Office
@@ -217,10 +217,10 @@ Table 2 shows the members that must be implemented in the class that inherits fr
 
 |**Interface**|**Member**|**Description**|
 |:-----|:-----|:-----|
-|**IUCOfficeIntegration** <br/> |**GetAuthenticationInfo** method  <br/> |Gets the authentication info string.  <br/> |
-||**GetInterface** method  <br/> |Gets the interface of a particular version.  <br/> |
-||**GetSupportedFeatures** method  <br/> |Gets the supported Office integration features.  <br/> |
-|**_IUCOfficeIntegrationEvents** <br/> |**OnShuttingDown** event  <br/> |The event raised when the IM client application is trying to shut down.  <br/> |
+|**IUCOfficeIntegration** <br/> |**GetAuthenticationInfo** method  <br/> |Gets the authentication info string. |
+||**GetInterface** method  <br/> |Gets the interface of a particular version. |
+||**GetSupportedFeatures** method  <br/> |Gets the supported Office integration features. |
+|**_IUCOfficeIntegrationEvents** <br/> |**OnShuttingDown** event  <br/> |The event raised when the IM client application is trying to shut down. |
    
 Use the following code to define a class that inherits from the **IUCOfficeIntegration** and **_IUCOfficeIntegration** interfaces within an IM client application. 
   
@@ -340,13 +340,13 @@ Table 3 shows the members that must be implemented in the class that inherits fr
 
 |**Interface**|**Member**|**Description**|
 |:-----|:-----|:-----|
-|**ILyncClient** <br/> |**ContactManager** property  <br/> |Gets the contact group manager.  <br/> |
-||**ConversationManager** property  <br/> |Gets the conversations manager.  <br/> |
-||**Self** property  <br/> |Gets the **Self** object.  <br/> |
-||**SignIn** method  <br/> |Starts the IM client application sign-in process with a specific availability.  <br/> |
-||**State** property  <br/> |Gets the current platform state.  <br/> |
-||**Uri** property  <br/> |Gets the URI of the IM client application.  <br/> |
-|**_ILyncClientEvents** <br/> |**OnStateChanged** event  <br/> |Raised when the IM client application state changes. You should handle this event and get the **eventData.NewState** property. The event is raised for all processes bound to an instance of an IM client application when any subsystem in the application causes the state change.  <br/> |
+|**ILyncClient** <br/> |**ContactManager** property  <br/> |Gets the contact group manager. |
+||**ConversationManager** property  <br/> |Gets the conversations manager. |
+||**Self** property  <br/> |Gets the **Self** object. |
+||**SignIn** method  <br/> |Starts the IM client application sign-in process with a specific availability. |
+||**State** property  <br/> |Gets the current platform state. |
+||**Uri** property  <br/> |Gets the URI of the IM client application. |
+|**_ILyncClientEvents** <br/> |**OnStateChanged** event  <br/> |Raised when the IM client application state changes. You should handle this event and get the **eventData.NewState** property. The event is raised for all processes bound to an instance of an IM client application when any subsystem in the application causes the state change. |
    
 During the initialization process, Office accesses the **ILyncClient.State** property. This property needs to return a value from the [UCCollaborationLib.ClientState](https://msdn.microsoft.com/library/UCCollaborationLib.ClientState) enumeration. 
   
@@ -667,7 +667,7 @@ Table 4 shows the members that must be implemented in the class that inherits fr
 
 |**Member**|**Description**|
 |:-----|:-----|
-|**StartConversation** method  <br/> |Starts a conversation using the specified conversation modality. An instance of **IConversationWindow** is returned.  <br/> |
+|**StartConversation** method  <br/> |Starts a conversation using the specified conversation modality. An instance of **IConversationWindow** is returned. |
    
 ## Implementing contact presence integration
 <a name="off15_IMIntegration_ImplementIMFeatures"> </a>
@@ -704,11 +704,11 @@ Table 5 shows the members that must be implemented in the class that inherits fr
 
 |**Member**|**Description**|
 |:-----|:-----|
-|**CanStart** method  <br/> |Returns **true** if a given type of modality can be started on the contact.  <br/> |
-|**GetContactInformation** method  <br/> |Gets one presence item from a publishing contact.  <br/> |
-|**BatchGetContactInformation** method  <br/> |Gets multiple presence items from a publishing contact.  <br/> |
-|**Settings** property  <br/> |Gets a collection of contact properties.  <br/> |
-|**CustomGroups** property  <br/> |Gets a collection of groups that the contact is a member of.  <br/> |
+|**CanStart** method  <br/> |Returns **true** if a given type of modality can be started on the contact. |
+|**GetContactInformation** method  <br/> |Gets one presence item from a publishing contact. |
+|**BatchGetContactInformation** method  <br/> |Gets multiple presence items from a publishing contact. |
+|**Settings** property  <br/> |Gets a collection of contact properties. |
+|**CustomGroups** property  <br/> |Gets a collection of groups that the contact is a member of. |
    
 During the initialization process, the Office application calls the **IContact.CanStart** method to determine the IM capabilities for the local user. The **CanStart** method takes a flag from the [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) enumeration as an argument for the  __modalityTypes_ parameter. If the current user can engage in the requested modality (that is, the user is capable of instant messaging, audio and video messaging, or application sharing), the **CanStart** method returns **true**.
   
@@ -829,7 +829,7 @@ Table 6 shows the members that must be implemented in the class that inherits fr
 
 |**Member**|**Description**|
 |:-----|:-----|
-|**Contact** property  <br/> |Gets the **IContact** object associated with the local user.  <br/> |
+|**Contact** property  <br/> |Gets the **IContact** object associated with the local user. |
    
 Presence, available modalities, group membership, and contact type properties for the local user are exposed through the **ISelf.Contact** property (which returns an **IContact** object). During the initialization process, the Office application accesses the **ISelf.Contact** property to get a reference to the contact information for the local user. 
   
@@ -876,12 +876,12 @@ Table 7 shows the members that must be implemented in the class that inherits fr
 
 |**Interface**|**Member**|**Description**|
 |:-----|:-----|:-----|
-|**IContactManager** <br/> |**GetContactByUri** method  <br/> |Finds or creates a new contact instance by using the contact URI.  <br/> |
-||**CreateSubscription** method  <br/> |Creates an **ISubscription** object that can be used for batching subscriptions or queries.  <br/> |
-||**Lookup** method  <br/> |Looks up a contact or distribution group.  <br/> |
-|**_IContactManagerEvents** <br/> |**OnGroupAdded** event  <br/> |Raised when a group is added to a group collection. The updated group collection can be obtained from the **IContactManager.Groups** property.  <br/> |
-||**OnGroupRemoved** event  <br/> |Raised when a group is removed from a group collection. The updated group collection can be obtained from the **IContactManager.Groups** property.  <br/> |
-||**OnSearchProviderStateChanged** event  <br/> |Raised when a search provider's status changes.  <br/> |
+|**IContactManager** <br/> |**GetContactByUri** method  <br/> |Finds or creates a new contact instance by using the contact URI. |
+||**CreateSubscription** method  <br/> |Creates an **ISubscription** object that can be used for batching subscriptions or queries. |
+||**Lookup** method  <br/> |Looks up a contact or distribution group. |
+|**_IContactManagerEvents** <br/> |**OnGroupAdded** event  <br/> |Raised when a group is added to a group collection. The updated group collection can be obtained from the **IContactManager.Groups** property. |
+||**OnGroupRemoved** event  <br/> |Raised when a group is removed from a group collection. The updated group collection can be obtained from the **IContactManager.Groups** property. |
+||**OnSearchProviderStateChanged** event  <br/> |Raised when a search provider's status changes. |
    
 Office calls **IContactManager.GetContactByUri** to get a contact's presence information, by using the SIP address of the contact. When a contact is configured for an SIP address in the Active Directory, Office determines this address for a contact and calls **GetContactByUri**, passing the SIP address of the contact in for the  __contactUri_ parameter. 
   
@@ -943,8 +943,8 @@ Table 9 shows the members that must be implemented in the classes that inherit f
 |**Interface**|**Member**|**Description**|
 |:-----|:-----|:-----|
 |**IGroupCollection** <br/> |**Count** property  <br/> |Returns the count of **IGroup** objects in the collection  <br/> |
-||**Item** property  <br/> |Returns the **IGroup** object at the specified index in the collection.  <br/> |
-|**IGroup** <br/> |**Id** property  <br/> |Returns the ID of the group.  <br/> |
+||**Item** property  <br/> |Returns the **IGroup** object at the specified index in the collection. |
+|**IGroup** <br/> |**Id** property  <br/> |Returns the ID of the group. |
    
 When the Office application gets the information for the local user, it accesses the group memberships of the contact (local user) by calling the **IContact.CustomGroups** property, which returns an **IGroupCollection** object. The **IGroupCollection** must contain an array (or **List**) of **IGroup** objects. The class that derives from **IGroupCollection** must expose a **Count** property, which returns the number of items in the collection, and an indexer method, **this(int)**, which returns an **IGroup** object from the collection. 
   
@@ -964,8 +964,8 @@ Table 10 shows the members that must be implemented in the classes that inherit 
 
 |**Member**|**Description**|
 |:-----|:-----|
-|**AddContact** method  <br/> |Adds a contact to the subscription object.  <br/> |
-|**Subscribe** method  <br/> |Helps the IM client application to monitor presence for a contact.  <br/> |
+|**AddContact** method  <br/> |Adds a contact to the subscription object. |
+|**Subscribe** method  <br/> |Helps the IM client application to monitor presence for a contact. |
    
 The **IContactSubscription** interface must contain a reference to all the **IContact** objects that it monitors, using an array or a **List**. The **IContactSubscription.AddContact** method adds an **IContact** object for the to the underlying data structure of the **IContactSubscription** object, thereby adding a new contact to monitor for presence changes. 
   
@@ -997,9 +997,9 @@ Table 11 shows the members that must be implemented in the classes that inherit 
 
 |**Member**|**Description**|
 |:-----|:-----|
-|**DisplayName** property  <br/> |Gets the display string.  <br/> |
+|**DisplayName** property  <br/> |Gets the display string. |
 |**Type** property  <br/> |Gets the contact endpoint type  <br/> |
-|**Uri** property  <br/> |Gets the contact URI.  <br/> |
+|**Uri** property  <br/> |Gets the contact URI. |
    
 ### ILocaleString interface
 <a name="off15_IMIntegration_ImplementRequired_ILocaleString"> </a>
@@ -1017,8 +1017,8 @@ Table 12 shows the members that must be implemented in the classes that inherit 
 
 |**Member**|**Description**|
 |:-----|:-----|
-|**LocaleId** property  <br/> |Gets the locale ID.  <br/> |
-|**Value** property  <br/> |Gets the string.  <br/> |
+|**LocaleId** property  <br/> |Gets the locale ID. |
+|**Value** property  <br/> |Gets the string. |
    
 ## See also
 

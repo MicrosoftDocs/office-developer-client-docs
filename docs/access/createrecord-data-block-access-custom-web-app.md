@@ -26,7 +26,7 @@ The **CreateRecord** data block has the following arguments.
   
 |**Argument name**|**Required**|**Description**|
 |:-----|:-----|:-----|
-|**Create a Record In** <br/> |Yes  <br/> |The name of the table to create the new record in.  <br/> |
+|**Create a Record In** <br/> |Yes  <br/> |The name of the table to create the new record in. |
 |**Alias** <br/> |No  <br/> |A string that identifies the record. You can use the record's alias to identify  <br/> |
    
 ## Remarks

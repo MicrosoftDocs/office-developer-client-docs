@@ -33,7 +33,7 @@ This topic contains constant definitions, class identifiers, and interface ident
 |E_OLK_PARAM_NOT_SUPPORTED  <br/> |0x800C8003  <br/> |
 |E_OLK_PROP_READ_ONLY  <br/> |0x800C800D  <br/> |
 |E_OLK_REGISTRY  <br/> |0x800C8001  <br/> |
-|The following constants beginning with ENCRYPT_ are used by the [PROP_SMTP_SECURE_CONNECTION](prop_smtp_secure_connection.md) property to specify the type of encrypted connection.  <br/> ||
+|The following constants beginning with ENCRYPT_ are used by the [PROP_SMTP_SECURE_CONNECTION](prop_smtp_secure_connection.md) property to specify the type of encrypted connection. ||
 |ENCRYPT_CONN_AUTO  <br/> |3  <br/> |
 |ENCRYPT_CONN_NO_SECURITY  <br/> |0  <br/> |
 |ENCRYPT_CONN_SSL  <br/> |1  <br/> |
@@ -48,11 +48,11 @@ This topic contains constant definitions, class identifiers, and interface ident
 |S_OK  <br/> | *As defined in the Windows SDK header file winerror.h.*  <br/> |
 |S_FALSE  <br/> | *As defined in the Windows SDK header file winerror.h.*  <br/> |
 |SECURE_FLAG  <br/> |0x8000  <br/> |
-|The following constants beginning with SMTP_ are used by the [PROP_SMTP_AUTH_METHOD](prop_smtp_auth_method.md) property and specify the authentication method.  <br/> ||
+|The following constants beginning with SMTP_ are used by the [PROP_SMTP_AUTH_METHOD](prop_smtp_auth_method.md) property and specify the authentication method. ||
 |SMTP_AUTH_SAME_AS_POP  <br/> |0  <br/> |
 |SMTP_AUTH_RECEIVE_BEFORE_SEND  <br/> |2  <br/> |
 |SMTP_AUTH_USER_PASS  <br/> |1  <br/> |
-|The following 5 constants and macros are used by the [PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md) property and specify options for POP accounts to leave a copy of a message on the server.  <br/> ||
+|The following 5 constants and macros are used by the [PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md) property and specify options for POP accounts to leave a copy of a message on the server. ||
 |LEAVE_ON_SERVER  <br/> |0x1  <br/> |
 |REMOVE_AFTER  <br/> |0x2  <br/> |
 |REMOVE_ON_NUKE  <br/> |0x4  <br/> |

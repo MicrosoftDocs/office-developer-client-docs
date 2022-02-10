@@ -102,7 +102,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI uses the **IProfAdmin::AdminServices** method to open a message service administration object for the selected profile to add services.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> | HrAddServiceToProfile  <br/> |MFCMAPI uses the **IProfAdmin::AdminServices** method to open a message service administration object for the selected profile to add services. |
    
 ## See also
 

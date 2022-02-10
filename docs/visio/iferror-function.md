@@ -28,8 +28,8 @@ IFERROR(** *primary expression* **, ** *alternate expression* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _primary expression_ <br/> |Required  <br/> |**String** <br/> |The first expression to evaluate.  <br/> |
-| _alternate expression_ <br/> |Required  <br/> |**String** <br/> |The alternate expression to evaluate if the primary expression evaluates to an error.  <br/> |
+| _primary expression_ <br/> |Required  <br/> |**String** <br/> |The first expression to evaluate. |
+| _alternate expression_ <br/> |Required  <br/> |**String** <br/> |The alternate expression to evaluate if the primary expression evaluates to an error. |
    
 ### Return value
 

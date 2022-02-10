@@ -61,11 +61,11 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSets  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|Flags  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
-|Panos  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|Panose  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|UnicodeRanges  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
+|CharSets  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|Flags  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|NameU  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
+|Panos  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|Panose  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|UnicodeRanges  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
    
 

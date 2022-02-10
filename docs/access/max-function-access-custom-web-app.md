@@ -27,6 +27,6 @@ The **Max** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |A string expression identifying the field that contains the data you want to evaluate or an expression that performs a calculation using the data in that field. Operands in  *Expression*  can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).  <br/> |
+| *Expression*  <br/> |A string expression identifying the field that contains the data you want to evaluate or an expression that performs a calculation using the data in that field. Operands in  *Expression*  can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions). |
    
 

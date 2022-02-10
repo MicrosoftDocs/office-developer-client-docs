@@ -24,18 +24,18 @@ The following table lists the structures that describe each type of control.
   
 |**Control structure**|**Description**|
 |:-----|:-----|
-|[DTBLBUTTON](dtblbutton.md) <br/> |Describes a button control.  <br/> |
-|[DTBLCHECKBOX](dtblcheckbox.md) <br/> |Describes a check box control.  <br/> |
-|[DTBLCOMBOBOX](dtblcombobox.md) <br/> |Describes a combo box control.  <br/> |
-|[DTBLDDLBX](dtblddlbx.md) <br/> |Describes a drop-down list box control.  <br/> |
-|[DTBLEDIT](dtbledit.md) <br/> |Describes an edit control.  <br/> |
-|[DTBLGROUPBOX](dtblgroupbox.md) <br/> |Describes a group box control.  <br/> |
-|[DTBLLABEL](dtbllabel.md) <br/> |Describes a label control.  <br/> |
-|[DTBLLBX](dtbllbx.md) <br/> |Describes a list box control.  <br/> |
-|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Describes a multiple-value drop-down list box control.  <br/> |
-|[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |Describes a multiple-value list box control.  <br/> |
-|[DTBLPAGE](dtblpage.md) <br/> |Describes a tabbed page control.  <br/> |
-|[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Describes an option button control.  <br/> |
+|[DTBLBUTTON](dtblbutton.md) <br/> |Describes a button control. |
+|[DTBLCHECKBOX](dtblcheckbox.md) <br/> |Describes a check box control. |
+|[DTBLCOMBOBOX](dtblcombobox.md) <br/> |Describes a combo box control. |
+|[DTBLDDLBX](dtblddlbx.md) <br/> |Describes a drop-down list box control. |
+|[DTBLEDIT](dtbledit.md) <br/> |Describes an edit control. |
+|[DTBLGROUPBOX](dtblgroupbox.md) <br/> |Describes a group box control. |
+|[DTBLLABEL](dtbllabel.md) <br/> |Describes a label control. |
+|[DTBLLBX](dtbllbx.md) <br/> |Describes a list box control. |
+|[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |Describes a multiple-value drop-down list box control. |
+|[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |Describes a multiple-value list box control. |
+|[DTBLPAGE](dtblpage.md) <br/> |Describes a tabbed page control. |
+|[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |Describes an option button control. |
    
 ## See also
 

@@ -34,9 +34,9 @@ Because you can change the [Mapi32.dll Stub Registry Settings](https://msdn.micr
     
    |**Key**|**Description**|
    |:-----|:-----|
-   |MSIComponentID  <br/> |A Windows Installer PublishComponent category ID (GUID) that identifies the DLL that exports simple MAPI or MAPI calls. If set, this key takes precedence over the **DLLPath** or **DLLPathEx** key.  <br/> |
-   |MSIApplicationLCID  <br/> |Locale identifier (LCID) for your application. The first string value identifies a sub-key from  `HKLM\Software` and subsequent string values identify registry values underneath this key that contain locale information.  <br/> |
-   |MSIOfficeLCID  <br/> |LCIDs for Microsoft Office. The first string value identifies a sub-key from  `HKLM\Software` and subsequent string values identify registry values underneath this key.  <br/> |
+   |MSIComponentID  <br/> |A Windows Installer PublishComponent category ID (GUID) that identifies the DLL that exports simple MAPI or MAPI calls. If set, this key takes precedence over the **DLLPath** or **DLLPathEx** key. |
+   |MSIApplicationLCID  <br/> |Locale identifier (LCID) for your application. The first string value identifies a sub-key from  `HKLM\Software` and subsequent string values identify registry values underneath this key that contain locale information. |
+   |MSIOfficeLCID  <br/> |LCIDs for Microsoft Office. The first string value identifies a sub-key from  `HKLM\Software` and subsequent string values identify registry values underneath this key. |
    
    Obtain the information from these keys.
     
@@ -64,10 +64,10 @@ The following table lists the four functions from MFCMAPI that are used to look 
   
 |**Function**|**Description**|
 |:-----|:-----|
-| `GetMAPIPath` <br/> |Gets the MAPI library path.  <br/> |
-| `GetMailKey` <br/> |Gets the MAPI mail registry key.  <br/> |
-| `GetMapiMsiIds` <br/> |Gets the Windows Installer identifier.  <br/> |
-| `GetComponentPath` <br/> |Gets the component path using [FGetComponentPath](fgetcomponentpath.md).  <br/> |
+| `GetMAPIPath` <br/> |Gets the MAPI library path. |
+| `GetMailKey` <br/> |Gets the MAPI mail registry key. |
+| `GetMapiMsiIds` <br/> |Gets the Windows Installer identifier. |
+| `GetComponentPath` <br/> |Gets the component path using [FGetComponentPath](fgetcomponentpath.md). |
    
 Because MFCMAPI loads the default implementation of MAPI by default, if you want to use a different implementation of MAPI, you must explicitly direct it to do so. This is performed by using the **Session\Load MAPI** routine. 
   

@@ -26,7 +26,7 @@ LN(** *number* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> | The number whose natural logarithm you want to find.  <br/> |
+| _number_ <br/> |Required  <br/> |**Numeric** <br/> | The number whose natural logarithm you want to find. |
    
 ### Return value
 

@@ -20,7 +20,7 @@ Determines the transparency level of a shape's line color.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0 - 100  <br/> |Represents the percentage of transparency. The default is 0% (completely opaque).  <br/> |
+|0 - 100  <br/> |Represents the percentage of transparency. The default is 0% (completely opaque). |
    
 ## Remarks
 

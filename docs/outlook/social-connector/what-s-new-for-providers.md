@@ -50,14 +50,14 @@ The following table shows the members that have been added or deprecated from th
   
 |**Interface and member**|**Comment**|
 |:-----|:-----|
-|**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |Deprecated in Outlook Social Connector 2013. Note that **ISocialSession::GetActivities** has also been deprecated since Outlook Social Connector 1.1.  <br/> To synchronize activity feeds, you should implement the [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) method. Set **dynamicActivitiesLookupEx** as **true**, which will prompt the OSC to call **ISocialSession2::GetActivitiesEx** instead.  <br/> |
+|**ISocialProfile::GetActivitiesOfFriendsAndColleagues** <br/> |Deprecated in Outlook Social Connector 2013. Note that **ISocialSession::GetActivities** has also been deprecated since Outlook Social Connector 1.1. To synchronize activity feeds, you should implement the [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) method. Set **dynamicActivitiesLookupEx** as **true**, which will prompt the OSC to call **ISocialSession2::GetActivitiesEx** instead. |
    
 The following table shows the schema elements that have changed.
   
 |**Schema element**|**Comment**|
 |:-----|:-----|
-|**capabilities** <br/> |Added in Outlook Social Connector 2013: **allowChangesToAutoConfigure** element.  <br/> Deprecated in Outlook Social Connector 2013: **cacheActivities** element.  <br/> |
-|**person** <br/> |Added in Outlook Social Connector 2013: **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, **industries**, **interests**, **location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **skills**, **schools**, and **website** elements.  <br/> |
+|**capabilities** <br/> |Added in Outlook Social Connector 2013: **allowChangesToAutoConfigure** element. Deprecated in Outlook Social Connector 2013: **cacheActivities** element. |
+|**person** <br/> |Added in Outlook Social Connector 2013: **askmeabout**, **businessAddress**, **businessCity**, **businessCountryOrRegion**, **businessState**, **businessZip**, **industries**, **interests**, **location**, **otherAddress**, **otherCity**, **otherCountryOrRegion**, **otherState**, **otherZip**, **skills**, **schools**, and **website** elements. |
    
 ## See also
 

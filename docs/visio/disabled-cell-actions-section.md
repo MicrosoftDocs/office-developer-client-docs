@@ -24,8 +24,8 @@ Indicates whether an item on a shortcut or action tag menu is disabled.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Disable (dim) command name.  <br/> |
-|FALSE  <br/> |Enable the command name (the default).  <br/> |
+|TRUE  <br/> |Disable (dim) command name. |
+|FALSE  <br/> |Enable the command name (the default). |
    
 ## Remarks
 
@@ -40,7 +40,7 @@ To get a reference to the Disabled cell by index from a program, use the **Cells
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visActionDisabled** <br/> |
    
 

@@ -26,7 +26,7 @@ INTUP(** *number* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round up.  <br/> |
+| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round up. |
    
 ## Example 1
 

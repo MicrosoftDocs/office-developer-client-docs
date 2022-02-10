@@ -22,19 +22,19 @@ You also can use the techniques in the following table.
   
 |**To**|**Do this**|
 |:-----|:-----|
-| Activate a cell  <br/> | Click the cell with the pointer.  <br/> |
-| Select a numbered row of cells  <br/> | Click the row number.  <br/> |
-| Move left one cell  <br/> | Press the LEFT ARROW key or SHIFT+TAB.  <br/> |
-| Move right one cell  <br/> | Press the RIGHT ARROW key or TAB.  <br/> |
-| Move up one cell  <br/> | Press the UP ARROW key.  <br/> |
-| Move down one cell  <br/> | Press the DOWN ARROW key.  <br/> |
-| Move to the last cell in a row  <br/> | Press END.  <br/> |
-| Move to the first cell in a row  <br/> | Press HOME.  <br/> |
-| Scroll down one screen  <br/> | Press PAGEDOWN.  <br/> |
-| Scroll up one screen  <br/> | Press PAGEUP.  <br/> |
-| Scroll right one screen  <br/> | Press CTRL+PAGEDOWN.  <br/> |
-| Scroll left one screen  <br/> | Press CTRL+PAGEUP.  <br/> |
-| Scroll to the window's lower-right corner  <br/> | Press CTRL+END.  <br/> |
-| Scroll to the window's upper-right corner  <br/> | Press CTRL+HOME.  <br/> |
+| Activate a cell  <br/> | Click the cell with the pointer. |
+| Select a numbered row of cells  <br/> | Click the row number. |
+| Move left one cell  <br/> | Press the LEFT ARROW key or SHIFT+TAB. |
+| Move right one cell  <br/> | Press the RIGHT ARROW key or TAB. |
+| Move up one cell  <br/> | Press the UP ARROW key. |
+| Move down one cell  <br/> | Press the DOWN ARROW key. |
+| Move to the last cell in a row  <br/> | Press END. |
+| Move to the first cell in a row  <br/> | Press HOME. |
+| Scroll down one screen  <br/> | Press PAGEDOWN. |
+| Scroll up one screen  <br/> | Press PAGEUP. |
+| Scroll right one screen  <br/> | Press CTRL+PAGEDOWN. |
+| Scroll left one screen  <br/> | Press CTRL+PAGEUP. |
+| Scroll to the window's lower-right corner  <br/> | Press CTRL+END. |
+| Scroll to the window's upper-right corner  <br/> | Press CTRL+HOME. |
    
 

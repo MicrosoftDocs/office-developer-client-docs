@@ -104,7 +104,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |MFCMAPI uses the **IMAPIFormContainer::InstallForm** method to install a form in a form container.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnInstallForm  <br/> |MFCMAPI uses the **IMAPIFormContainer::InstallForm** method to install a form in a form container. |
    
 ## See also
 

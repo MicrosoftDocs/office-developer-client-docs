@@ -76,7 +76,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI uses the **IMAPISession::Logoff** method to log off from the session before releasing it.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::Logoff  <br/> |MFCMAPI uses the **IMAPISession::Logoff** method to log off from the session before releasing it. |
    
 > [!NOTE]
 > Due to the fast shutdown behavior introduced in Microsoft Office Outlook 2007 Service Pack 2, Microsoft Outlook 2010, and Microsoft Outlook 2013, clients should never pass the **MAPI_LOGOFF_SHARED** parameter to [IMAPISession::Logoff](imapisession-logoff.md). Passing **MAPI_LOGOFF_SHARED** will cause all MAPI clients to begin shutdown and unexpected behavior will occur. 

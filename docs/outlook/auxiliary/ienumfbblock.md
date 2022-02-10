@@ -24,11 +24,11 @@ Supports accessing and enumerating free/busy blocks of data for a user within a 
 
 |||
 |:-----|:-----|
-|[Next](ienumfbblock-next.md) <br/> |Gets the next specified number of blocks of free/busy data in an enumeration.  <br/> |
-|[Skip](ienumfbblock-skip.md) <br/> |Skips a specified number of blocks of free/busy data.  <br/> |
-|[Reset](ienumfbblock-reset.md) <br/> |Resets the enumerator by setting the cursor to the beginning.  <br/> |
-|[Clone](ienumfbblock-clone.md) <br/> |Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator.  <br/> |
-|[Restrict](ienumfbblock-restrict.md) <br/> |Restricts the enumeration to a specified time period.  <br/> |
+|[Next](ienumfbblock-next.md) <br/> |Gets the next specified number of blocks of free/busy data in an enumeration. |
+|[Skip](ienumfbblock-skip.md) <br/> |Skips a specified number of blocks of free/busy data. |
+|[Reset](ienumfbblock-reset.md) <br/> |Resets the enumerator by setting the cursor to the beginning. |
+|[Clone](ienumfbblock-clone.md) <br/> |Creates a copy of the enumerator, using the same time restriction but setting the cursor to the beginning of the enumerator. |
+|[Restrict](ienumfbblock-restrict.md) <br/> |Restricts the enumeration to a specified time period. |
    
 ## Remarks
 

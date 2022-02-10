@@ -26,7 +26,7 @@ ATAN(** *number* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The tangent of the angle.  <br/> |
+| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The tangent of the angle. |
    
 ## Example
 

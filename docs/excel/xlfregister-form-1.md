@@ -149,7 +149,7 @@ Starting in Excel 2010 the following data types were introduced:
   
 |**Data Type**|**Pass by value**|**Pass by ref (pointer)**|**Comments**|
 |:-----|:-----|:-----|:-----|
-|XLOPER12  <br/> ||X  <br/> |The asynchronous handle is used to track a pending asynchronous function call by Excel and the XLL.The existence of the parameter type in the type string also designates the function as asynchronous.For more information about asynchronous functions, see [Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md).  <br/> |
+|XLOPER12  <br/> ||X  <br/> |The asynchronous handle is used to track a pending asynchronous function call by Excel and the XLL.The existence of the parameter type in the type string also designates the function as asynchronous.For more information about asynchronous functions, see [Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md). |
 
 The string types **F**, **F%**, **G**, and **G%** are used for arguments that are modified-in-place.
   

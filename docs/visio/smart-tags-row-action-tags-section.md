@@ -25,15 +25,15 @@ Smart Tags rows are named SmartTags. *name*  and contain the following cells. Fo
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-action-tags-section.md) <br/> |The *x*  -coordinate position of a point in the shape's local coordinates around which the action tag button is placed.  <br/> |
-|[Y](y-cell-action-tags-section.md) <br/> |The *y*  -coordinate position of a point in the shape's local coordinates around which the action tag button is placed.  <br/> |
-|[TagName](tagname-cell-action-tags-section.md) <br/> |The logical name of the action tag.  <br/> |
-|[X Justify](x-justify-cell-action-tags-section.md) <br/> |The *x*  -offset of the action tag button relative to the point defined by the X and Y cells.  <br/> |
-|[Y Justify](y-justify-cell-action-tags-section.md) <br/> |The *y*  -offset of the action tag button relative to the point defined by the X and Y cells.  <br/> |
-|[DisplayMode](displaymode-cell-action-tags-section.md) <br/> |Determines when the action tag will appear.  <br/> |
-|[ButtonFace](buttonface-cell-action-tags-section.md) <br/> |The ID of the image that appears on the face of the action tag button.  <br/> |
-|[Description](description-cell-action-tags-section.md) <br/> |Descriptive string for the action tag.  <br/> |
-|[Disabled](disabled-cell-action-tags-section.md) <br/> |Indicates whether the action tag is disabled.  <br/> |
+|[X](x-cell-action-tags-section.md) <br/> |The *x*  -coordinate position of a point in the shape's local coordinates around which the action tag button is placed. |
+|[Y](y-cell-action-tags-section.md) <br/> |The *y*  -coordinate position of a point in the shape's local coordinates around which the action tag button is placed. |
+|[TagName](tagname-cell-action-tags-section.md) <br/> |The logical name of the action tag. |
+|[X Justify](x-justify-cell-action-tags-section.md) <br/> |The *x*  -offset of the action tag button relative to the point defined by the X and Y cells. |
+|[Y Justify](y-justify-cell-action-tags-section.md) <br/> |The *y*  -offset of the action tag button relative to the point defined by the X and Y cells. |
+|[DisplayMode](displaymode-cell-action-tags-section.md) <br/> |Determines when the action tag will appear. |
+|[ButtonFace](buttonface-cell-action-tags-section.md) <br/> |The ID of the image that appears on the face of the action tag button. |
+|[Description](description-cell-action-tags-section.md) <br/> |Descriptive string for the action tag. |
+|[Disabled](disabled-cell-action-tags-section.md) <br/> |Indicates whether the action tag is disabled. |
    
 ## Remarks
 

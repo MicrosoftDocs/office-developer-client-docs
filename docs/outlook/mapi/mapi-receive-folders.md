@@ -63,9 +63,9 @@ In calling **SetReceiveFolder**, clients typically pass a message class string a
   
 |**_SetReceiveFolder_ parameter**|**Resulting behavior**|
 |:-----|:-----|
-|Entry identifier set to NULL  <br/> |The message store deletes the association between the specified message class and its existing receive folder. A new receive folder is not established.  <br/> Subsequent calls to **GetReceiveFolder** with this message class will return the receive folder for a prefix of the message class; for new message stores, **GetReceiveFolder** will return the Inbox in the IPM subtree.  <br/> |
-|Message class set to NULL  <br/> |The message store changes the association for the empty message class to the indicated folder. Incoming messages whose class is otherwise unrecognized will go to this folder.  <br/> |
-|Entry identifier and message class set to NULL  <br/> |The message store deletes the class/folder association for the empty message class. You should not set both parameters to NULL, because it typically results in inbound messages being placed in the root folder of the message store, a folder that is invisible to the client.  <br/> |
+|Entry identifier set to NULL  <br/> |The message store deletes the association between the specified message class and its existing receive folder. A new receive folder is not established. Subsequent calls to **GetReceiveFolder** with this message class will return the receive folder for a prefix of the message class; for new message stores, **GetReceiveFolder** will return the Inbox in the IPM subtree. |
+|Message class set to NULL  <br/> |The message store changes the association for the empty message class to the indicated folder. Incoming messages whose class is otherwise unrecognized will go to this folder. |
+|Entry identifier and message class set to NULL  <br/> |The message store deletes the class/folder association for the empty message class. You should not set both parameters to NULL, because it typically results in inbound messages being placed in the root folder of the message store, a folder that is invisible to the client. |
    
 Although a message's class should never be empty, an empty message class can occur. It is the message store's responsibility to assign the message class to **IPM** for new outbound messages that have an empty class; it is the transport provider's responsibility to assign **IPM.Note** as the class for inbound messages that have any empty class. 
   

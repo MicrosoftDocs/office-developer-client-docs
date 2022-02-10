@@ -35,10 +35,10 @@ MAPI applications include standalone applications such as Microsoft Communicator
   
 |Bitness of MAPI application|Bitness of Outlook on targeted computer|Bitness of Windows on targeted computer|Necessary action to enable application to run on targeted computer|
 |:-----|:-----|:-----|:-----|
-|32-bit  <br/> |32-bit  <br/> |32-bit or 64-bit  <br/> |No specific action is necessary.  <br/> |
-|32-bit  <br/> |64-bit  <br/> |64-bit  <br/> |Rebuild the application as a 64-bit application. Otherwise, all MAPI method and function calls (except for **MAPISendMail**) will fail.  <br/> |
-|64-bit  <br/> |64-bit  <br/> |64-bit  <br/> |No specific action is necessary.  <br/> |
-|64-bit  <br/> |32-bit  <br/> |32-bit or 64-bit  <br/> |Rebuild the application as a 32-bit application. Otherwise, all MAPI method and function calls (except for **MAPISendMail**) will fail.  <br/> |
+|32-bit  <br/> |32-bit  <br/> |32-bit or 64-bit  <br/> |No specific action is necessary. |
+|32-bit  <br/> |64-bit  <br/> |64-bit  <br/> |Rebuild the application as a 64-bit application. Otherwise, all MAPI method and function calls (except for **MAPISendMail**) will fail. |
+|64-bit  <br/> |64-bit  <br/> |64-bit  <br/> |No specific action is necessary. |
+|64-bit  <br/> |32-bit  <br/> |32-bit or 64-bit  <br/> |Rebuild the application as a 32-bit application. Otherwise, all MAPI method and function calls (except for **MAPISendMail**) will fail. |
    
 The following sections further explain each scenario. For scenarios that require rebuilding the MAPI application, see [Link to MAPI Functions](how-to-link-to-mapi-functions.md) for additional information regarding linking to and calling MAPI functions. 
   

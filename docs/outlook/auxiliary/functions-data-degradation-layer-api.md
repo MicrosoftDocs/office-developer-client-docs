@@ -15,6 +15,6 @@ This section describes the functions in the Data Degradation Layer API.
   
 |**Function**|**Description**|
 |:-----|:-----|
-|[HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) <br/> |Creates an object that a client can access in a preferred character format.  <br/> |
+|[HrCreateNewWrappedObject](hrcreatenewwrappedobject.md) <br/> |Creates an object that a client can access in a preferred character format. |
    
 

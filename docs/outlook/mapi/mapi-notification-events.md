@@ -22,16 +22,16 @@ When client applications register for event notification, they must specify one 
   
 |**Event type**|**Description**|**Advise source objects**|
 |:-----|:-----|:-----|
-|Critical error ( _fnevCriticalError_)  <br/> |A global error or event has occurred, such as a session shutdown in progress.  <br/> |Session, all types of message store and address book objects, table, status  <br/> |
-|Object modified ( _fnevObjectModified_)  <br/> |A MAPI object has changed.  <br/> |Folders, messages, all types of address book objects  <br/> |
-|Object created ( _fnevObjectCreated_)  <br/> |A MAPI object has been created.  <br/> |Folders, messages, all types of address book objects  <br/> |
-|Object moved ( _fnevObjectMoved_)  <br/> |A MAPI object has been moved.  <br/> |Folders, messages, all types of address book objects  <br/> |
-|Object deleted ( _fnevObjectDeleted_)  <br/> |A MAPI object has been deleted.  <br/> |Folders, messages, all types of address book objects  <br/> |
-|Object copied ( _fnevObjectCopied_)  <br/> |A MAPI object has been copied.  <br/> |Folders, messages, all types of address book objects  <br/> |
-|Extended event ( _fnevExtended_)  <br/> |An internal event defined by a particular service provider has occurred.  <br/> |Any advise source object  <br/> |
-|Search complete ( _fnevSearchComplete_)  <br/> |A search operation has finished and the results of the search are available.  <br/> |Folders  <br/> |
-|Table modified ( _fnevTableModified_)  <br/> |Information in a MAPI table object has changed.  <br/> |Tables  <br/> |
-|New mail ( _fnevNewMail_)  <br/> |A message has been delivered and is waiting to be processed.  <br/> |Message store, folders  <br/> |
+|Critical error ( _fnevCriticalError_)  <br/> |A global error or event has occurred, such as a session shutdown in progress. |Session, all types of message store and address book objects, table, status  <br/> |
+|Object modified ( _fnevObjectModified_)  <br/> |A MAPI object has changed. |Folders, messages, all types of address book objects  <br/> |
+|Object created ( _fnevObjectCreated_)  <br/> |A MAPI object has been created. |Folders, messages, all types of address book objects  <br/> |
+|Object moved ( _fnevObjectMoved_)  <br/> |A MAPI object has been moved. |Folders, messages, all types of address book objects  <br/> |
+|Object deleted ( _fnevObjectDeleted_)  <br/> |A MAPI object has been deleted. |Folders, messages, all types of address book objects  <br/> |
+|Object copied ( _fnevObjectCopied_)  <br/> |A MAPI object has been copied. |Folders, messages, all types of address book objects  <br/> |
+|Extended event ( _fnevExtended_)  <br/> |An internal event defined by a particular service provider has occurred. |Any advise source object  <br/> |
+|Search complete ( _fnevSearchComplete_)  <br/> |A search operation has finished and the results of the search are available. |Folders  <br/> |
+|Table modified ( _fnevTableModified_)  <br/> |Information in a MAPI table object has changed. |Tables  <br/> |
+|New mail ( _fnevNewMail_)  <br/> |A message has been delivered and is waiting to be processed. |Message store, folders  <br/> |
    
 The extended event is defined by a service provider to represent an event that cannot be covered by any of the other predefined events. Only clients that know before they register that a service provider supports an extended event can register for that event. It is not possible for clients to determine without advance knowledge if a service provider supports an extended event and, if it does, how to handle such an event when it is received.
   

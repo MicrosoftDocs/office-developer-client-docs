@@ -26,9 +26,9 @@ HOUR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Required  <br/> |**String** <br/> | A string commonly recognized as a date and time or a reference to a cell containing a date and time.  <br/> |
-| _expression_ <br/> |Required  <br/> |**Varies** <br/> |An expression that yields a date and time.  <br/> |
-| _lcid_ <br/> |Optional  <br/> |**Number** <br/> | A locale identifier to be used in evaluating a nonlocal datetime. The locale identifier is a number described in the system header files.  <br/> |
+| _datetime_ <br/> |Required  <br/> |**String** <br/> | A string commonly recognized as a date and time or a reference to a cell containing a date and time. |
+| _expression_ <br/> |Required  <br/> |**Varies** <br/> |An expression that yields a date and time. |
+| _lcid_ <br/> |Optional  <br/> |**Number** <br/> | A locale identifier to be used in evaluating a nonlocal datetime. The locale identifier is a number described in the system header files. |
    
 ## Remarks
 

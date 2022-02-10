@@ -53,8 +53,8 @@ The classes and members of both versions of this object model are exposed throug
   
 |**Assembly**|**Description**|
 |:-----|:-----|
-|Microsoft.Office.InfoPath.dll           (located in C:\Program Files\Microsoft Office\Office15\InfoPathOM\InfoPathOMFormServices)  <br/> |The subset of the object model that contains only types and members that will run in the business logic of a form template deployed to a server that runs InfoPath Forms Services.  <br/> |
-|Microsoft.Office.InfoPath.dll           (located in C:\Program Files\Microsoft Office\Office15\InfoPathOM)  <br/> |The "full" object model including types and members that will not run in the business logic of a form template deployed to InfoPath Forms Services.  <br/> |
+|Microsoft.Office.InfoPath.dll           (located in C:\Program Files\Microsoft Office\Office15\InfoPathOM\InfoPathOMFormServices)  <br/> |The subset of the object model that contains only types and members that will run in the business logic of a form template deployed to a server that runs InfoPath Forms Services. |
+|Microsoft.Office.InfoPath.dll           (located in C:\Program Files\Microsoft Office\Office15\InfoPathOM)  <br/> |The "full" object model including types and members that will not run in the business logic of a form template deployed to InfoPath Forms Services. |
    
 > [!NOTE]
 > The assemblies referenced earlier in this section are used at design time when you write and compile code. At run time, the assembly used when a form template is opened in InfoPath is located in the Global Assembly Cache (GAC) of the computer on which InfoPath is installed. When a form template is opened in a Web browser from a server that runs InfoPath Forms Services, the assembly used is located on the server. 
@@ -75,7 +75,7 @@ The classes and members of this object model are exposed through the [Microsoft.
   
 |**Assembly**|**Description**|
 |:-----|:-----|
-|Microsoft.Office.Interop.InfoPath.SemiTrust.dll  <br/> |Provides COM interop against the InfoPath COM object model for form template business logic written using C# or Visual Basic.  <br/> |
+|Microsoft.Office.Interop.InfoPath.SemiTrust.dll  <br/> |Provides COM interop against the InfoPath COM object model for form template business logic written using C# or Visual Basic. |
    
 > [!NOTE]
 > Although creating business logic with the COM interop managed-code object model provided by the Microsoft.Office.Interop.InfoPath.SemiTrust assembly is still supported by InfoPath 2013, business logic written using this object model it is not supported for browser-enabled form templates deployed to SharePoint Server 2013 with InfoPath Forms Services. Browser-enabled form templates must use the InfoPath managed code object model for custom business logic. 
@@ -88,8 +88,8 @@ The classes and members used for external automation are exposed through the [Mi
   
 |**Assembly**|**Description**|
 |:-----|:-----|
-|Microsoft.Office.Interop.InfoPath.dll  <br/> |Provides COM interop against the InfoPath COM object model for external automation code written using C# or Visual Basic.  <br/> |
-|Microsoft.Office.Interop.InfoPath.Xml.dll  <br/> |Provides COM interop against the MSXML for XML DOM operations in external automation code written using C# or Visual Basic.  <br/> |
+|Microsoft.Office.Interop.InfoPath.dll  <br/> |Provides COM interop against the InfoPath COM object model for external automation code written using C# or Visual Basic. |
+|Microsoft.Office.Interop.InfoPath.Xml.dll  <br/> |Provides COM interop against the MSXML for XML DOM operations in external automation code written using C# or Visual Basic. |
    
 For more information about the object models provided by the **Microsoft.Office.Interop.InfoPath** and **Microsoft.Office.Interop.InfoPath.Xml** namespaces, which are used exclusively to automate the InfoPath application by using managed code from external applications, see the [InfoPath Developer Center](https://msdn.microsoft.com/office/aa905434.aspx).
   
@@ -99,7 +99,7 @@ The managed code object model for automating InfoPath Forms Services administrat
   
 |**Assembly**|**Description**|
 |:-----|:-----|
-|Microsoft.Office.InfoPath.Server.dll  <br/> |The object model for automating InfoPath Forms Services tasks such as uploading, activating, or deactivating browser-enabled form templates.  <br/> |
+|Microsoft.Office.InfoPath.Server.dll  <br/> |The object model for automating InfoPath Forms Services tasks such as uploading, activating, or deactivating browser-enabled form templates. |
    
 For more information about the InfoPath Forms Services object model, see the SharePoint Server 2013 Software Developers Kit (SDK) which is available on MSDN.
   

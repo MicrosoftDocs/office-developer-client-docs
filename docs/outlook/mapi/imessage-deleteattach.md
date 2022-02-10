@@ -79,7 +79,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMessage::DeleteAttach** method to delete the selected attachment.  <br/> |
+|AttachmentsDlg.cpp  <br/> |CAttachmentsDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMessage::DeleteAttach** method to delete the selected attachment. |
    
 ## See also
 

@@ -22,11 +22,11 @@ The InfoPath editing environment provides support for the **IDTExtensibility2** 
   
 |**Interface**|**Description**|
 |:-----|:-----|
-|**OnAddInsUpdate (ByVal custom() As Variant)** <br/> |Occurs when an add-in is loaded or unloaded in the environment.  <br/> |
-|**OnBeginShutdown (ByVal custom() As Variant)** <br/> |Occurs when the environment is being shut down.  <br/> |
-|**OnConnection(ByVal Application As Object, ByVal ConnectMode As ext_ConnectMode, ByVal AddInInst As Object, ByVal custom() As Variant)** <br/> |Occurs when an add-in is loaded in the environment.  <br/> |
-|**OnDisconnection (ByVal RemoveMode As ext_DisconnectMode, ByVal custom() As Variant)** <br/> |Occurs when an add-in is unloaded from the environment.  <br/> |
-|**OnStartupComplete (ByVal custom() As Variant)** <br/> |Occurs when the environment has completed starting.  <br/> |
+|**OnAddInsUpdate (ByVal custom() As Variant)** <br/> |Occurs when an add-in is loaded or unloaded in the environment. |
+|**OnBeginShutdown (ByVal custom() As Variant)** <br/> |Occurs when the environment is being shut down. |
+|**OnConnection(ByVal Application As Object, ByVal ConnectMode As ext_ConnectMode, ByVal AddInInst As Object, ByVal custom() As Variant)** <br/> |Occurs when an add-in is loaded in the environment. |
+|**OnDisconnection (ByVal RemoveMode As ext_DisconnectMode, ByVal custom() As Variant)** <br/> |Occurs when an add-in is unloaded from the environment. |
+|**OnStartupComplete (ByVal custom() As Variant)** <br/> |Occurs when the environment has completed starting. |
    
 ## Registering COM Add-ins
 
@@ -42,19 +42,19 @@ The registry key name corresponds to the **ProgIdAttribute** of the add-in, and 
   
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|**FriendlyName** <br/> |**String** <br/> |The name that is displayed in the **COM Add-ins** dialog box and listed in the **Add-ins** page of the **Trust Center**.  <br/> |
-|**Description** <br/> |**String** <br/> |The string that is displayed when the add-in is selected in the **Trust Center**.  <br/> |
-|**LoadBehavior** <br/> |**DWORD** <br/> |Specifies the way the COM Add-in is loaded. The value can be a combination of 0, 1, 2, 8, and 16. See the table below for more information.  <br/> |
+|**FriendlyName** <br/> |**String** <br/> |The name that is displayed in the **COM Add-ins** dialog box and listed in the **Add-ins** page of the **Trust Center**. |
+|**Description** <br/> |**String** <br/> |The string that is displayed when the add-in is selected in the **Trust Center**. |
+|**LoadBehavior** <br/> |**DWORD** <br/> |Specifies the way the COM Add-in is loaded. The value can be a combination of 0, 1, 2, 8, and 16. See the table below for more information. |
    
 The **DWORD** value for **LoadBehavior** should contain a value describing how the COM Add-in loads in the editing environment. The value can be from the table below, or a combination of values from the table. For example, a COM Add-in created in Visual Studio 2005 will have a **LoadBehavior** of "3" loaded at application startup and be connected. 
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Disconnected. The add-in shows as Inactive in the **COM Add-in** dialog box.  <br/> |
-|1  <br/> |Connected. The add-in shows as Active in the **COM Add-in** dialog box.  <br/> |
-|2  <br/> |Load at Startup. The add-in is loaded and connected when the host application starts.  <br/> |
-|8  <br/> |Load on Demand. The add-in is loaded and connected when the host application requires it, for example when a user clicks a button that uses functionality in the add-in.  <br/> |
-|16  <br/> |Connect first time. The add-in will be loaded and connected the first time the user runs the host application after registering the add-in.  <br/> |
+|0  <br/> |Disconnected. The add-in shows as Inactive in the **COM Add-in** dialog box. |
+|1  <br/> |Connected. The add-in shows as Active in the **COM Add-in** dialog box. |
+|2  <br/> |Load at Startup. The add-in is loaded and connected when the host application starts. |
+|8  <br/> |Load on Demand. The add-in is loaded and connected when the host application requires it, for example when a user clicks a button that uses functionality in the add-in. |
+|16  <br/> |Connect first time. The add-in will be loaded and connected the first time the user runs the host application after registering the add-in. |
    
 ## Creating a Managed COM Add-in with Visual Studio 2005 or Visual Studio 2008
 
@@ -142,16 +142,16 @@ Application events that occur in the InfoPath form editing environment can be ca
   
 |**Event**|**Description**|
 |:-----|:-----|
-|[NewXDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument.aspx) Event  <br/> |Occurs when a new form is created.  <br/> |
-|[Quit](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.Quit.aspx) Event  <br/> |Occurs when the user quits InfoPath.  <br/> |
-|[WindowActivate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowActivate.aspx) Event  <br/> |Occurs when any document window is activated.  <br/> |
-|[WindowDeactivate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowDeactivate.aspx) Event  <br/> |Occurs when any document window is deactivated.  <br/> |
-|[WindowSize](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowSize.aspx) Event  <br/> |Occurs when any document window is resized or moved.  <br/> |
-|[XDocumentBeforeClose](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeClose.aspx) Event  <br/> |Occurs immediately before any open document closes.  <br/> |
-|[XDocumentBeforePrint](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforePrint.aspx) Event  <br/> |Occurs immediately before any open document is printed.  <br/> |
-|[XDocumentBeforeSave](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeSave.aspx) Event  <br/> |Occurs immediately before any open document is saved.  <br/> |
-|[XDocumentChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentChange.aspx) Event  <br/> |Occurs when a new form is created, when an existing form is opened, or when another form is made the active form.  <br/> |
-|[XDocumentOpen](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentOpen.aspx) Event  <br/> |Occurs when a document is opened.  <br/> |
+|[NewXDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument.aspx) Event  <br/> |Occurs when a new form is created. |
+|[Quit](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.Quit.aspx) Event  <br/> |Occurs when the user quits InfoPath. |
+|[WindowActivate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowActivate.aspx) Event  <br/> |Occurs when any document window is activated. |
+|[WindowDeactivate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowDeactivate.aspx) Event  <br/> |Occurs when any document window is deactivated. |
+|[WindowSize](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowSize.aspx) Event  <br/> |Occurs when any document window is resized or moved. |
+|[XDocumentBeforeClose](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeClose.aspx) Event  <br/> |Occurs immediately before any open document closes. |
+|[XDocumentBeforePrint](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforePrint.aspx) Event  <br/> |Occurs immediately before any open document is printed. |
+|[XDocumentBeforeSave](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeSave.aspx) Event  <br/> |Occurs immediately before any open document is saved. |
+|[XDocumentChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentChange.aspx) Event  <br/> |Occurs when a new form is created, when an existing form is opened, or when another form is made the active form. |
+|[XDocumentOpen](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentOpen.aspx) Event  <br/> |Occurs when a document is opened. |
    
 To capture these events in the COM Add-in, you must declare the following class-level variables in your **Connect** class: 
   

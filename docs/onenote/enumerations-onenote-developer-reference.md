@@ -20,10 +20,10 @@ When passed to the **OpenHierarchy** method, specifies the type of object to cre
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**cftNone** <br/> |0  <br/> |Creates no new object.  <br/> |
-|**cftNotebook** <br/> |1  <br/> |Creates a notebook by using the specified name and location.  <br/> |
-|**cftFolder** <br/> |2  <br/> |Creates a section group by using the specified name and location.  <br/> |
-|**cftSection** <br/> |3  <br/> |Creates a section by using the specified name and location.  <br/> |
+|**cftNone** <br/> |0  <br/> |Creates no new object. |
+|**cftNotebook** <br/> |1  <br/> |Creates a notebook by using the specified name and location. |
+|**cftFolder** <br/> |2  <br/> |Creates a section group by using the specified name and location. |
+|**cftSection** <br/> |3  <br/> |Creates a section by using the specified name and location. |
    
 ## DockLocation
 <a name="odc_CreateFileType"> </a>
@@ -32,11 +32,11 @@ Indicates the docked location of a OneNote 2013 window by using the [Window](win
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**dlDefault** <br/> |-1  <br/> |The OneNote window is docked at the default location on the desktop.  <br/> |
-|**dlLeft** <br/> |1  <br/> |The OneNote window is docked on the left side of the desktop.  <br/> |
-|**dlRight** <br/> |2  <br/> |The OneNote window is docked on the right side of the desktop.  <br/> |
-|**dlTop** <br/> |3  <br/> |The OneNote window is docked at the top of the desktop.  <br/> |
-|**dlBottom** <br/> |4  <br/> |The OneNote window is docked at the bottom of the desktop.  <br/> |
+|**dlDefault** <br/> |-1  <br/> |The OneNote window is docked at the default location on the desktop. |
+|**dlLeft** <br/> |1  <br/> |The OneNote window is docked on the left side of the desktop. |
+|**dlRight** <br/> |2  <br/> |The OneNote window is docked on the right side of the desktop. |
+|**dlTop** <br/> |3  <br/> |The OneNote window is docked at the top of the desktop. |
+|**dlBottom** <br/> |4  <br/> |The OneNote window is docked at the bottom of the desktop. |
    
 ## FilingLocation
 <a name="odc_CreateFileType"> </a>
@@ -45,12 +45,12 @@ When passed to the **SetFilingLocation** method, specifies what type of content 
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**flEMail** <br/> |0  <br/> |Sets where Outlook email messages will be filed.  <br/> |
-|**flContacts** <br/> |1  <br/> |Sets where Outlook contacts will be filed.  <br/> |
-|**flTasks** <br/> |2  <br/> |Sets where Outlook tasks will be filed.  <br/> |
-|**flMeetings** <br/> |3  <br/> |Sets where Outlook meetings will be filed.  <br/> |
-|**flWebContent** <br/> |4  <br/> |Sets where Internet Explorer contents will be filed.  <br/> |
-|**flPrintOuts** <br/> |5  <br/> |Sets where printouts from the OneNote printer will be filed.  <br/> |
+|**flEMail** <br/> |0  <br/> |Sets where Outlook email messages will be filed. |
+|**flContacts** <br/> |1  <br/> |Sets where Outlook contacts will be filed. |
+|**flTasks** <br/> |2  <br/> |Sets where Outlook tasks will be filed. |
+|**flMeetings** <br/> |3  <br/> |Sets where Outlook meetings will be filed. |
+|**flWebContent** <br/> |4  <br/> |Sets where Internet Explorer contents will be filed. |
+|**flPrintOuts** <br/> |5  <br/> |Sets where printouts from the OneNote printer will be filed. |
    
 ## FilingLocationType
 <a name="odc_CreateFileType"> </a>
@@ -59,10 +59,10 @@ When passed to the **SetFilingLocation** method, specifies where content that is
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**fltNamedSectionNewPage** <br/> |0  <br/> |Sets content to be filed on a new page in a specified section.  <br/> |
-|**fltCurrentSectionNewPage** <br/> |1  <br/> |Sets content to be filed on a new page in the current section.  <br/> |
-|**fltCurrentPage** <br/> |2  <br/> |Sets content to be filed on the current page.  <br/> |
-|**fltNamedPage** <br/> |4  <br/> |Sets content to be filed on a specified page.  <br/> |
+|**fltNamedSectionNewPage** <br/> |0  <br/> |Sets content to be filed on a new page in a specified section. |
+|**fltCurrentSectionNewPage** <br/> |1  <br/> |Sets content to be filed on a new page in the current section. |
+|**fltCurrentPage** <br/> |2  <br/> |Sets content to be filed on the current page. |
+|**fltNamedPage** <br/> |4  <br/> |Sets content to be filed on a specified page. |
    
 ## HierarchyElement
 <a name="odc_CreateFileType"> </a>
@@ -71,11 +71,11 @@ When assigned to the **TreeDepth** property of the [IQuickFilingDialog](quick-fi
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**heNone** <br/> |0  <br/> |Refers to no element.  <br/> |
-|**heNotebooks** <br/> |1  <br/> |Refers to the Notebook elements.  <br/> |
-|**heSectionGroups** <br/> |2  <br/> |Refers to the Section Group elements.  <br/> |
-|**heSections** <br/> |4  <br/> |Refers to the Section elements.  <br/> |
-|**hePages** <br/> |8  <br/> |Refers to the Page elements.  <br/> |
+|**heNone** <br/> |0  <br/> |Refers to no element. |
+|**heNotebooks** <br/> |1  <br/> |Refers to the Notebook elements. |
+|**heSectionGroups** <br/> |2  <br/> |Refers to the Section Group elements. |
+|**heSections** <br/> |4  <br/> |Refers to the Section elements. |
+|**hePages** <br/> |8  <br/> |Refers to the Page elements. |
    
 ## HierarchyScope
 <a name="odc_HierarchyScope"> </a>
@@ -84,11 +84,11 @@ When passed to the **GetHierarchy** method, specifies the lowest level to get in
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**hsSelf** <br/> |0  <br/> |Gets just the start node specified and no descendants.  <br/> |
-|**hsChildren** <br/> |1  <br/> |Gets the immediate child nodes of the start node, and no descendants in higher or lower subsection groups.  <br/> |
-|**hsNotebooks** <br/> |2  <br/> |Gets all notebooks below the start node, or root.  <br/> |
-|**hsSections** <br/> |3  <br/> |Gets all sections below the start node, including sections in section groups and subsection groups.  <br/> |
-|**hsPages** <br/> |4  <br/> |Gets all pages below the start node, including all pages in section groups and subsection groups.  <br/> |
+|**hsSelf** <br/> |0  <br/> |Gets just the start node specified and no descendants. |
+|**hsChildren** <br/> |1  <br/> |Gets the immediate child nodes of the start node, and no descendants in higher or lower subsection groups. |
+|**hsNotebooks** <br/> |2  <br/> |Gets all notebooks below the start node, or root. |
+|**hsSections** <br/> |3  <br/> |Gets all sections below the start node, including sections in section groups and subsection groups. |
+|**hsPages** <br/> |4  <br/> |Gets all pages below the start node, including all pages in section groups and subsection groups. |
    
 ## NewPageStyle
 <a name="odc_HierarchyScope"> </a>
@@ -97,9 +97,9 @@ When passed to the **CreateNewPage** method, specifies the style of the new page
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**npsDefault** <br/> |0  <br/> |Creates a page that has the default page style.  <br/> |
-|**npsBlankPageWithTitle** <br/> |1  <br/> |Creates a blank page that has a title.  <br/> |
-|**npsBlankPageNoTitle** <br/> |2  <br/> |Creates a blank page that has no title.  <br/> |
+|**npsDefault** <br/> |0  <br/> |Creates a page that has the default page style. |
+|**npsBlankPageWithTitle** <br/> |1  <br/> |Creates a blank page that has a title. |
+|**npsBlankPageNoTitle** <br/> |2  <br/> |Creates a blank page that has no title. |
    
 ## NotebookFilterOutType
 <a name="odc_HierarchyScope"> </a>
@@ -108,10 +108,10 @@ When passed to the **NotebookFilterOut** method of the **QFD** object, specifies
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**nfoLocal** <br/> |1  <br/> |Allow only Local Notebooks.  <br/> |
-|**nfoNetwork** <br/> |2  <br/> |Allows UNC or SharePoint Notebooks.  <br/> |
-|**nfoWeb** <br/> |4  <br/> |Allows OneDrive notebooks.  <br/> |
-|**nfoNoWacUrl** <br/> |8  <br/> |Any notebooks in locations that do not have a web client.  <br/> |
+|**nfoLocal** <br/> |1  <br/> |Allow only Local Notebooks. |
+|**nfoNetwork** <br/> |2  <br/> |Allows UNC or SharePoint Notebooks. |
+|**nfoWeb** <br/> |4  <br/> |Allows OneDrive notebooks. |
+|**nfoNoWacUrl** <br/> |8  <br/> |Any notebooks in locations that do not have a web client. |
    
 ## PageInfo (Updated for OneNote 2013)
 <a name="odc_PageInfo"> </a>
@@ -120,14 +120,14 @@ When passed to the **GetPageContent** method, specifies the type of information 
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**piBasic** <br/> |0  <br/> |Returns only basic page content, without selection markup, file types for binary data objects and binary data objects. This is the standard value to pass.  <br/> |
-|**piBinaryData** <br/> |1  <br/> |Returns page content with no selection markup, but with all binary data.  <br/> |
-|**piSelection** <br/> |2  <br/> |Returns page content with selection markup, but no binary data.  <br/> |
-|**piBinaryDataSelection** <br/> |3  <br/> |Returns page content with selection markup and all binary data.  <br/> |
-|**piFileType** <br/> |4  <br/> |Returns page content with file type info for binary data objects.  <br/> |
+|**piBasic** <br/> |0  <br/> |Returns only basic page content, without selection markup, file types for binary data objects and binary data objects. This is the standard value to pass. |
+|**piBinaryData** <br/> |1  <br/> |Returns page content with no selection markup, but with all binary data. |
+|**piSelection** <br/> |2  <br/> |Returns page content with selection markup, but no binary data. |
+|**piBinaryDataSelection** <br/> |3  <br/> |Returns page content with selection markup and all binary data. |
+|**piFileType** <br/> |4  <br/> |Returns page content with file type info for binary data objects. |
 |**piBinaryDataFileType** <br/> |5  <br/> |Returns page content with file type info for binary data objects and binary data objects  <br/> |
-|**piSelectionFileType** <br/> |6  <br/> |Returns page content with selection markup and file type info for binary data.  <br/> |
-|**piAll** <br/> |7  <br/> |Returns all page content.  <br/> |
+|**piSelectionFileType** <br/> |6  <br/> |Returns page content with selection markup and file type info for binary data. |
+|**piAll** <br/> |7  <br/> |Returns all page content. |
    
 ## PublishFormat
 <a name="odc_PublishFormat"> </a>
@@ -136,15 +136,15 @@ When passed to the **Publish** method, specifies the format in which the publish
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**pfOneNote** <br/> |0  <br/> |Published page is in the .one format.  <br/> |
-|**pfOneNotePackage** <br/> |1  <br/> |Published page is in the .onepkg format.  <br/> |
-|**pfMHTML** <br/> |2  <br/> |Published page is in the .mht format.  <br/> |
-|**pfPDF** <br/> |3  <br/> |Published page is in the .pdf format.  <br/> |
-|**pfXPS** <br/> |4  <br/> |Published page is in the .xps format.  <br/> |
-|**pfWord** <br/> |5  <br/> |Published page is in the .doc or .docx format.  <br/> |
-|**pfEMF** <br/> |6  <br/> |Published page is in the enhanced metafile (.emf) format.  <br/> |
-|**pfHTML** <br/> |7  <br/> |Published page is in the .html format. This member is new in OneNote 2013.  <br/> |
-|**pfOneNote2007** <br/> |8  <br/> |Published page is in the 2007 .one format. This member is new in OneNote 2013.  <br/> |
+|**pfOneNote** <br/> |0  <br/> |Published page is in the .one format. |
+|**pfOneNotePackage** <br/> |1  <br/> |Published page is in the .onepkg format. |
+|**pfMHTML** <br/> |2  <br/> |Published page is in the .mht format. |
+|**pfPDF** <br/> |3  <br/> |Published page is in the .pdf format. |
+|**pfXPS** <br/> |4  <br/> |Published page is in the .xps format. |
+|**pfWord** <br/> |5  <br/> |Published page is in the .doc or .docx format. |
+|**pfEMF** <br/> |6  <br/> |Published page is in the enhanced metafile (.emf) format. |
+|**pfHTML** <br/> |7  <br/> |Published page is in the .html format. This member is new in OneNote 2013. |
+|**pfOneNote2007** <br/> |8  <br/> |Published page is in the 2007 .one format. This member is new in OneNote 2013. |
    
 ## RecentResultType
 <a name="odc_RecentResultType"> </a>
@@ -153,10 +153,10 @@ When passed to the **SetRecentResults** method of the **IQuickFilingDialog** obj
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**rrtNone** <br/> |0  <br/> |Sets no recent-result list to be rendered.  <br/> |
-|**rrtFiling** <br/> |1  <br/> |Sets the "Filing" recent-result list to be rendered.  <br/> |
-|**rrtSearch** <br/> |2  <br/> |Sets the "Search" recent-result list to be rendered.  <br/> |
-|**rrtLinks** <br/> |3  <br/> |Sets the "Links" recent-result list to be rendered.  <br/> |
+|**rrtNone** <br/> |0  <br/> |Sets no recent-result list to be rendered. |
+|**rrtFiling** <br/> |1  <br/> |Sets the "Filing" recent-result list to be rendered. |
+|**rrtSearch** <br/> |2  <br/> |Sets the "Search" recent-result list to be rendered. |
+|**rrtLinks** <br/> |3  <br/> |Sets the "Links" recent-result list to be rendered. |
    
 ## SpecialLocation
 <a name="odc_SpecialLocation"> </a>
@@ -165,9 +165,9 @@ When passed to the **GetSpecialLocation** method, specifies the special location
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**slBackupFolder** <br/> |0  <br/> |Gets the path to the Backup Folders folder location.  <br/> |
-|**slUnfiledNotesSection** <br/> |1  <br/> |Gets the path to the Unfiled Notes folder location.  <br/> |
-|**slDefaultNotebookFolder** <br/> |2  <br/> |Gets the path to the Default Notebook folder location.  <br/> |
+|**slBackupFolder** <br/> |0  <br/> |Gets the path to the Backup Folders folder location. |
+|**slUnfiledNotesSection** <br/> |1  <br/> |Gets the path to the Unfiled Notes folder location. |
+|**slDefaultNotebookFolder** <br/> |2  <br/> |Gets the path to the Default Notebook folder location. |
    
 ## TreeCollapsedStateType
 <a name="odc_SpecialLocation"> </a>
@@ -176,8 +176,8 @@ When passed to the **TreeCollapsedState** method of the **QFD** object, specifie
   
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**tcsExpanded** <br/> |0  <br/> |Sets the hierarchy tree to expanded.  <br/> |
-|**tcsCollapsed** <br/> |1  <br/> |Sets the hierarchy tree to collapsed.  <br/> |
+|**tcsExpanded** <br/> |0  <br/> |Sets the hierarchy tree to expanded. |
+|**tcsCollapsed** <br/> |1  <br/> |Sets the hierarchy tree to collapsed. |
    
 ## XMLSchema (Updated for OneNote 2013)
 <a name="odc_SpecialLocation"> </a>
@@ -200,10 +200,10 @@ When passed to one of the following methods, specifies the version of the OneNot
     
 |**Member**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**xs2007** <br/> |0  <br/> |References the OneNote 2007 schema.  <br/> |
-|**xs2010** <br/> |1  <br/> |References the OneNote 2010 schema.  <br/> |
-|**xs2013** <br/> |2  <br/> |References the OneNote 2013 schema.  <br/> |
-|**xsCurrent** <br/> |2  <br/> |References the schema of the current OneNote version.  <br/> <br/>**NOTE**: We do not recommend using **xsCurrent** in most cases, as it can cause compatibility issues with future versions of OneNote. Instead specify the version of the schema that your app was built to handle, like xs2013.           |
+|**xs2007** <br/> |0  <br/> |References the OneNote 2007 schema. |
+|**xs2010** <br/> |1  <br/> |References the OneNote 2010 schema. |
+|**xs2013** <br/> |2  <br/> |References the OneNote 2013 schema. |
+|**xsCurrent** <br/> |2  <br/> |References the schema of the current OneNote version. <br/>**NOTE**: We do not recommend using **xsCurrent** in most cases, as it can cause compatibility issues with future versions of OneNote. Instead specify the version of the schema that your app was built to handle, like xs2013.           |
    
 ## See also
 

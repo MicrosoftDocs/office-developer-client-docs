@@ -59,8 +59,8 @@ typedef struct _contab_entryid
     
 |**Name**|**Description**|
 |:-----|:-----|
-|CONTAB_USER  <br/> |A messaging user object.  <br/> |
-|CONTAB_DISTLIST  <br/> |A distribution list object.  <br/> |
+|CONTAB_USER  <br/> |A messaging user object. |
+|CONTAB_DISTLIST  <br/> |A distribution list object. |
    
  **ulIndex**
   

@@ -29,7 +29,7 @@ The **Year** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Date*  <br/> |An expression that can be resolved to a Date/Time value. The *Date*  argument expression, column expression, user-defined variable or string literal.  <br/> |
+| *Date*  <br/> |An expression that can be resolved to a Date/Time value. The *Date*  argument expression, column expression, user-defined variable or string literal. |
 
 ## Remarks
 

@@ -66,7 +66,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::GetFlags  <br/> |MFCMAPI uses the **IMAPIProgress::GetFlags** method to determine which flags are set. Returns MAPI_TOP_LEVEL unless flags have been set by using the **IMAPIProgress::SetLimits** method.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetFlags  <br/> |MFCMAPI uses the **IMAPIProgress::GetFlags** method to determine which flags are set. Returns MAPI_TOP_LEVEL unless flags have been set by using the **IMAPIProgress::SetLimits** method. |
    
 ## See also
 

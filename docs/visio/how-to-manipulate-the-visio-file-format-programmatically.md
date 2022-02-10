@@ -29,9 +29,9 @@ In this article, we examine how to work with the Visio 2013 file format programm
 
 |**Article title**|**Description**|
 |:-----|:-----|
-|[Introduction to the Visio file format (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |This high-level overview describes some of the major features of the Visio 2013 file format. It discusses the Open Packaging Conventions (OPC) as they have been applied to the Visio 2013 file format. It also lists some differences between the Visio 2013 file format and the previous Visio XML Drawing file format (.vdx).  <br/> |
-|[OPC: A New Standard for Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data.md) <br/> |This MSDN Magazine article describes the Open Packaging Conventions as a concept.  <br/> |
-|[Essentials of the Open Packaging Conventions](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Introducing the Office (2007) Open XML File Formats](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |These two articles discuss how the Open Packaging Conventions have been applied to Microsoft Office files. They contain descriptions of how relationships work in a package and also include some code examples.  <br/> |
+|[Introduction to the Visio file format (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |This high-level overview describes some of the major features of the Visio 2013 file format. It discusses the Open Packaging Conventions (OPC) as they have been applied to the Visio 2013 file format. It also lists some differences between the Visio 2013 file format and the previous Visio XML Drawing file format (.vdx). |
+|[OPC: A New Standard for Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data.md) <br/> |This MSDN Magazine article describes the Open Packaging Conventions as a concept. |
+|[Essentials of the Open Packaging Conventions](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Introducing the Office (2007) Open XML File Formats](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |These two articles discuss how the Open Packaging Conventions have been applied to Microsoft Office files. They contain descriptions of how relationships work in a package and also include some code examples. |
    
 ## Create a .vsdx file and a new Visual Studio solution
 <a name="vis15_ManipulateFF_CreateFile"> </a>

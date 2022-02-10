@@ -124,7 +124,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI uses the **IMAPIFormMgr::LoadForm** method to load a form before displaying it.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal  <br/> |MFCMAPI uses the **IMAPIFormMgr::LoadForm** method to load a form before displaying it. |
    
 ## See also
 

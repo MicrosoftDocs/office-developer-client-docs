@@ -32,8 +32,8 @@ In addition, MAPI supports two specialized types of providers for specific messa
   
 |**Transport type**|**Added functionality**|
 |:-----|:-----|
-|Remote Transport  <br/> |Enables interoperability with clients connected remotely.  <br/> |
-|TNEF Transport  <br/> |Allows MAPI properties to be preserved on messaging systems that do not support them.  <br/> |
+|Remote Transport  <br/> |Enables interoperability with clients connected remotely. |
+|TNEF Transport  <br/> |Allows MAPI properties to be preserved on messaging systems that do not support them. |
    
 TNEF transports are used for translating messages between messaging systems that support different sets of MAPI properties. TNEF transports use the MAPI [ITnef : IUnknown](itnefiunknown.md) interface to convert any properties that the destination system cannot represent directly into a binary data stream that can be attached to the message. Later, another TNEF transport can use **ITnef** to decode the data stream and make the original MAPI properties available to client applications. Additionally, TNEF support is required if your transport needs to support custom message classes. For information about implementing TNEF transports, see [Developing a TNEF-Enabled Transport Provider](developing-a-tnef-enabled-transport-provider.md).
   

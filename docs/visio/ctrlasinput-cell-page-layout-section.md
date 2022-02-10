@@ -20,8 +20,8 @@ Determines which shape is the parent when using shapes with control handles. Thi
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Set the shape that the control handle is connected to as the parent.  <br/> |
-| FALSE  <br/> | The default. Set shape that contains the control handle as the parent.  <br/> |
+| TRUE  <br/> | Set the shape that the control handle is connected to as the parent. |
+| FALSE  <br/> | The default. Set shape that contains the control handle as the parent. |
    
 ## Remarks
 

@@ -111,7 +111,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI uses the **IMAPITable::GetStatus** method to report the status of a table.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::GetStatus  <br/> |MFCMAPI uses the **IMAPITable::GetStatus** method to report the status of a table. |
    
 ## See also
 

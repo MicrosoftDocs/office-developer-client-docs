@@ -231,8 +231,8 @@ The following elements were added to the WordprocessingML Open XML File Format s
 
 |**Element**|**Description**|
 |:-----|:-----|
-|\<w:appearance\>  <br/> |\<w:appearance\> is a child element of \<w:sdtPr\>.  <br/> The following values are valid for the val attribute:  <br/> \<w:appearance val= boundingBox|tags|hidden.  <br/> The default value is boundingBox.  <br/> |
-|\<w:color\>  <br/> |\<w:color\> is a child element of \<w:sdtPr\>.  <br/> The content model matches the existing CT_Color complex type. The default value is the color used in Word 2010.  <br/> |
+|\<w:appearance\>  <br/> |\<w:appearance\> is a child element of \<w:sdtPr\>. The following values are valid for the val attribute:  <br/> \<w:appearance val= boundingBox|tags|hidden. The default value is boundingBox. |
+|\<w:color\>  <br/> |\<w:color\> is a child element of \<w:sdtPr\>. The content model matches the existing CT_Color complex type. The default value is the color used in Word 2010. |
    
 ## New Word 2013 content control object model members
 <a name="WordCC_NewOM"> </a>
@@ -250,8 +250,8 @@ Several object model additions are included in Word 2013 for content control vis
 
 |**Member**|**Description**|
 |:-----|:-----|
-|. **Appearance** as **WdContentControlAppearance** <br/> |Gets or sets the visualization of the content control.  <br/> |
-|. **Color** as **WdColor** <br/> |Gets or sets the color of the content control.  <br/> |
+|. **Appearance** as **WdContentControlAppearance** <br/> |Gets or sets the visualization of the content control. |
+|. **Color** as **WdColor** <br/> |Gets or sets the color of the content control. |
    
 The following table lists constants in the new **WdContentControlAppearance** enumeration. 
   
@@ -259,9 +259,9 @@ The following table lists constants in the new **WdContentControlAppearance** en
 
 |**Constant**|**Description**|
 |:-----|:-----|
-|**wdContentControlBoundingBox** <br/> |Represents a content control shown as a shaded rectangle/bounding box (with optional title).  <br/> |
-|**wdContentControlTags** <br/> |Represents a content control shown as start/end markers.  <br/> |
-|**wdContentControlHidden** <br/> |Represents a content control that is not shown.  <br/> |
+|**wdContentControlBoundingBox** <br/> |Represents a content control shown as a shaded rectangle/bounding box (with optional title). |
+|**wdContentControlTags** <br/> |Represents a content control shown as start/end markers. |
+|**wdContentControlHidden** <br/> |Represents a content control that is not shown. |
    
 ### Code sample
 <a name="WordCC_VisEnhancements"> </a>
@@ -353,10 +353,10 @@ Table 5 lists the most important members of the **RepeatingSectionItem** object.
 
 |**Member**|**Description**|
 |:-----|:-----|
-|**Range** as **Range** <br/> |Returns the range of the specified repeating section item, excluding the start and end tags.  <br/> |
-|**Delete** <br/> |Deletes the specified repeating section item.  <br/> |
-|**InsertItemAfter** as **RepeatingSectionItem** <br/> |Adds a repeating section item after the specified item and returns the new item.  <br/> |
-|**InsertItemBefore** as **RepeatingSectionItem** <br/> |Adds a repeating section item before the specified item and returns the new item.  <br/> |
+|**Range** as **Range** <br/> |Returns the range of the specified repeating section item, excluding the start and end tags. |
+|**Delete** <br/> |Deletes the specified repeating section item. |
+|**InsertItemAfter** as **RepeatingSectionItem** <br/> |Adds a repeating section item after the specified item and returns the new item. |
+|**InsertItemBefore** as **RepeatingSectionItem** <br/> |Adds a repeating section item before the specified item and returns the new item. |
    
 Table 6 lists the most important members of the **RepeatingSectionItemColl** object. 
   
@@ -364,7 +364,7 @@ Table 6 lists the most important members of the **RepeatingSectionItemColl** obj
 
 |**Member**|**Description**|
 |:-----|:-----|
-|**Item** as **RepeatingSectionItem** <br/> |Returns an individual repeating section item.  <br/> |
+|**Item** as **RepeatingSectionItem** <br/> |Returns an individual repeating section item. |
    
 Table 7 shows the new member of the **WdContentControlType** enumeration for repeating section content controls. 
   
@@ -372,7 +372,7 @@ Table 7 shows the new member of the **WdContentControlType** enumeration for rep
 
 |**Constant**|**Description**|
 |:-----|:-----|
-|**wdContentControlRepeatingSection** <br/> |Represents a content control that contains a single item in a repeating section.  <br/> |
+|**wdContentControlRepeatingSection** <br/> |Represents a content control that contains a single item in a repeating section. |
    
 ### Code sample
 <a name="WordCC_RepeatingSection"> </a>
@@ -427,10 +427,10 @@ The individual repeating items within the repeating section content control (tha
 
 |**Element**|**Description**|
 |:-----|:-----|
-|\<w15:repeatingSection\>  <br/> |Specifies a repeating section content control. This element is mutually exclusive with all other control types and has no child elements or attributes.  <br/> |
-|\<w15:repeatingSectionItem\>  <br/> |Specifies a repeating section item content control. This element is mutually exclusive with all other control types, and has no child elements or attributes.  <br/> |
-|\<w15:doNotAllowInsertDeleteSection\>  <br/> |Specifies that the user cannot add or delete sections by using the user interface in Word 2013.  <br/> |
-|\<w15:sectionTitle\>  <br/> |Specifies the name of repeating section items (and is used in the context menu when the control is chosen).  <br/> |
+|\<w15:repeatingSection\>  <br/> |Specifies a repeating section content control. This element is mutually exclusive with all other control types and has no child elements or attributes. |
+|\<w15:repeatingSectionItem\>  <br/> |Specifies a repeating section item content control. This element is mutually exclusive with all other control types, and has no child elements or attributes. |
+|\<w15:doNotAllowInsertDeleteSection\>  <br/> |Specifies that the user cannot add or delete sections by using the user interface in Word 2013. |
+|\<w15:sectionTitle\>  <br/> |Specifies the name of repeating section items (and is used in the context menu when the control is chosen). |
    
 
   

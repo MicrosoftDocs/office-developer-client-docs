@@ -30,8 +30,8 @@ After getting capabilities, the OSC can proceed to get the icon and name for the
   
 |**Item to test**|**Expected behavior**|
 |:-----|:-----|
-|Social network icon  <br/> | The social network icon is displayed correctly in the following places in the OSC:  <br/>  In the OSC dialog box for **Social Network Accounts**.  <br/>  In the drop-down menu when you attempt to add a person as a friend.  <br/>  In the badge when following a friend.  <br/> <br/>**NOTE**:  You can access the dialog box for **Social Network Accounts** by clicking the **View** tab in Outlook, in the **People Pane** group, clicking **People Pane**, and then clicking **Account Settings**.           |
-|Social network name  <br/> | The social network name is displayed correctly in the following places in the OSC:  <br/>  In the OSC dialog box for **Social Network Accounts**.  <br/>  In the drop-down menu when you attempt to add a person as a friend.  <br/>  As the title of the password dialog box when you attempt to change the existing password.  <br/> |
+|Social network icon  <br/> | The social network icon is displayed correctly in the following places in the OSC:  <br/>  In the OSC dialog box for **Social Network Accounts**.  In the drop-down menu when you attempt to add a person as a friend.  In the badge when following a friend. <br/>**NOTE**:  You can access the dialog box for **Social Network Accounts** by clicking the **View** tab in Outlook, in the **People Pane** group, clicking **People Pane**, and then clicking **Account Settings**.           |
+|Social network name  <br/> | The social network name is displayed correctly in the following places in the OSC:  <br/>  In the OSC dialog box for **Social Network Accounts**.  In the drop-down menu when you attempt to add a person as a friend.  As the title of the password dialog box when you attempt to change the existing password. |
    
 ### Showing hyperlinks in configuration dialog
 
@@ -51,19 +51,19 @@ Test for the following scenarios regardless of whether your OSC provider support
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|Logging on for the first time.  <br/> |The user can successfully log on to the social network.  <br/> |
-|Logging on with a password made up of a variety of characters, including punctuation and Unicode characters.  <br/> |The user can successfully log on to the social network, independent of the kind of characters used in the password.  <br/> |
-|The dialog box for **Social Network Accounts** displaying the user name or ID.  <br/> |After the user has successfully logged on to the network, the OSC's dialog box for **Social Network Accounts** displays the logged-on user name or ID.  <br/> |
-|Authentication fails.  <br/> |The OSC displays the error **Invalid user name or password**.  <br/> |
-|Cannot connect to the social network.  <br/> |The OSC displays the error **Server cannot be found**.  <br/> |
-|Being able to retrieve items.  <br/> |Once the user has authenticated, all activity should be allowed. There are no errors getting friends' data or activities.  <br/> |
-|Logging on to the social network after restarting Outlook.  <br/> |If the OSC provider allows caching of the password, after the user has authenticated the first time, the user is not subsequently prompted for credentials whenever the OSC attempts to get data from the social network.  <br/> |
+|Logging on for the first time. |The user can successfully log on to the social network. |
+|Logging on with a password made up of a variety of characters, including punctuation and Unicode characters. |The user can successfully log on to the social network, independent of the kind of characters used in the password. |
+|The dialog box for **Social Network Accounts** displaying the user name or ID. |After the user has successfully logged on to the network, the OSC's dialog box for **Social Network Accounts** displays the logged-on user name or ID. |
+|Authentication fails. |The OSC displays the error **Invalid user name or password**. |
+|Cannot connect to the social network. |The OSC displays the error **Server cannot be found**. |
+|Being able to retrieve items. |Once the user has authenticated, all activity should be allowed. There are no errors getting friends' data or activities. |
+|Logging on to the social network after restarting Outlook. |If the OSC provider allows caching of the password, after the user has authenticated the first time, the user is not subsequently prompted for credentials whenever the OSC attempts to get data from the social network. |
    
 In addition, if your OSC provider supports forms-based authentication, test for the following scenario as well.
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|The OSC getting a URL to a form for the user to log on from calling [ISocialSession::GetLogonUrl](isocialsession-getlogonurl.md).  <br/> |The OSC opens the URL in the user's default browser, and the webpage allows the user to enter credentials to log on to the social network.  <br/> |
+|The OSC getting a URL to a form for the user to log on from calling [ISocialSession::GetLogonUrl](isocialsession-getlogonurl.md). |The OSC opens the URL in the user's default browser, and the webpage allows the user to enter credentials to log on to the social network. |
    
 ## See also
 

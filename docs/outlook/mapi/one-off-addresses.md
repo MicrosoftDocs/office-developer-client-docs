@@ -24,12 +24,12 @@ There are six components to this format and some rules about quoting characters.
   
 |**Component**|**Usage**|**Description**|
 |:-----|:-----|:-----|
-|Display name  <br/> |Optional  <br/> |If not present, **IAddrBook::ResolveName** uses the visible part of the email address as the display name. May include blanks. For more information, see [IAddrBook::ResolveName](iaddrbook-resolvename.md).  <br/> |
-|[  <br/> |Required  <br/> |Delineates the start of the type and address information.  <br/> |
-|]  <br/> |Required  <br/> |Delineates the end of the type and address information. If anything other than white space follows this character, the entry is not treated as a custom recipient.  <br/> |
-|Address type  <br/> |Required  <br/> |Type of address; maps to a specific address format. For more information, see [MAPI Address Types](mapi-address-types.md).  <br/> |
-|:  <br/> |Required  <br/> |Separates the address type from the email address.  <br/> |
-|Email address  <br/> |Required  <br/> |Address of the recipient. May include blanks.  <br/> |
+|Display name  <br/> |Optional  <br/> |If not present, **IAddrBook::ResolveName** uses the visible part of the email address as the display name. May include blanks. For more information, see [IAddrBook::ResolveName](iaddrbook-resolvename.md). |
+|[  <br/> |Required  <br/> |Delineates the start of the type and address information. |
+|]  <br/> |Required  <br/> |Delineates the end of the type and address information. If anything other than white space follows this character, the entry is not treated as a custom recipient. |
+|Address type  <br/> |Required  <br/> |Type of address; maps to a specific address format. For more information, see [MAPI Address Types](mapi-address-types.md). |
+|:  <br/> |Required  <br/> |Separates the address type from the email address. |
+|Email address  <br/> |Required  <br/> |Address of the recipient. May include blanks. |
    
 MAPI uses particular sets of quoting characters to allow addresses to contain special characters such as comma (,), left bracket ([), and colon (:) and some untypeable characters such as the carriage return or line feed or any other hexadecimal equivalent. The quoting character is the backslash (\). Therefore, if clients or providers must insert a backslash in an address, they must preceed it with the quoting character ("\\").
   

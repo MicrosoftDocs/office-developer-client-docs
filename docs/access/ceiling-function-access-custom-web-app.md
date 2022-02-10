@@ -23,6 +23,6 @@ The Ceiling function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |A numeric expression.  <br/> |
+| *NumericExpression*  <br/> |A numeric expression. |
    
 

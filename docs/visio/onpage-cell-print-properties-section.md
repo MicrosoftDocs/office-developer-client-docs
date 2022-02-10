@@ -20,8 +20,8 @@ Indicates whether the drawing is printed on a specific number of printer pages.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Fit the drawing page to a defined number of printer pages.  <br/> |
-|FALSE  <br/> |Do not fit the drawing page to a defined number of printer pages (the default).  <br/> |
+|TRUE  <br/> |Fit the drawing page to a defined number of printer pages. |
+|FALSE  <br/> |Do not fit the drawing page to a defined number of printer pages (the default). |
    
 ## Remarks
 

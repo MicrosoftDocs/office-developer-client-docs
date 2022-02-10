@@ -24,7 +24,7 @@ SEGMENTCOUNT(** *pathRef* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _pathRef_ <br/> |Required  <br/> |**Integer** <br/> |The Geometry section that represents the path, specified by a reference to Path cell (for example, Geometry1.Path).  <br/> |
+| _pathRef_ <br/> |Required  <br/> |**Integer** <br/> |The Geometry section that represents the path, specified by a reference to Path cell (for example, Geometry1.Path). |
    
 ### Return value
 

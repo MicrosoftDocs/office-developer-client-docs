@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[weatherdata](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Defines the weather element.  <br/> |
+|[weatherdata](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Defines the weather element. |
    
 ### Child elements
 
@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|weatherlocationcode  <br/> |xs:string  <br/> |required  <br/> |Specifies a code that is associated with the location to distinguish multiple locations with the same name.  <br/> |A value of the type xs:string  <br/> |
-|weatherlocationname  <br/> |xs:string  <br/> |required  <br/> |Specifies the name of the location.  <br/> |A value of the type xs:string  <br/> |
+|weatherlocationcode  <br/> |xs:string  <br/> |required  <br/> |Specifies a code that is associated with the location to distinguish multiple locations with the same name. |A value of the type xs:string  <br/> |
+|weatherlocationname  <br/> |xs:string  <br/> |required  <br/> |Specifies the name of the location. |A value of the type xs:string  <br/> |
    
 

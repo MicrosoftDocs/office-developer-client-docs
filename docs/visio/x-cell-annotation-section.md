@@ -28,14 +28,14 @@ To get a reference to the X cell by name from another formula, or from a program
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Annotation.X[  *i*  ]            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Annotation.X[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionAnnotation** <br/> |
-| Row index:  <br/> |**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visAnnotationX** <br/> |
    
 

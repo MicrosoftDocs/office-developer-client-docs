@@ -77,7 +77,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI uses the **IMAPIProp::GetPropList** method to get a property list to pass to **GetProps**.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetPropsNULL  <br/> |MFCMAPI uses the **IMAPIProp::GetPropList** method to get a property list to pass to **GetProps**. |
    
 ## See also
 

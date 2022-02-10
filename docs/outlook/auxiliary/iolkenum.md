@@ -26,10 +26,10 @@ Supports enumerating accounts as [IUnknown](https://docs.microsoft.com/windows/d
 
 |||
 |:-----|:-----|
-|[GetCount](iolkenum-getcount.md) <br/> |Gets the number of accounts in the enumerator.  <br/> |
-|[Reset](iolkenum-reset.md) <br/> |Resets the enumerator to the beginning.  <br/> |
-|[GetNext](iolkenum-getnext.md) <br/> |Gets the next account in the enumerator.  <br/> |
-|[Skip](iolkenum-skip.md) <br/> |Skips a specified number of accounts in the enumerator.  <br/> |
+|[GetCount](iolkenum-getcount.md) <br/> |Gets the number of accounts in the enumerator. |
+|[Reset](iolkenum-reset.md) <br/> |Resets the enumerator to the beginning. |
+|[GetNext](iolkenum-getnext.md) <br/> |Gets the next account in the enumerator. |
+|[Skip](iolkenum-skip.md) <br/> |Skips a specified number of accounts in the enumerator. |
    
 ## Remarks
 

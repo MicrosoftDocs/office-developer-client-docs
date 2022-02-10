@@ -26,9 +26,9 @@ STRSAME (" ** *string1* ** ", " ** *string2* ** ", ** *ignoreCase* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string1_ <br/> |Required  <br/> |**String** <br/> |The first string to compare.  <br/> |
-| _string2_ <br/> |Required  <br/> |**String** <br/> |The second string to compare.  <br/> |
-| _ignoreCase_ <br/> |Optional  <br/> |**Boolean** <br/> |TRUE to ignore the case and FALSE to compare the case. The default is FALSE.  <br/> |
+| _string1_ <br/> |Required  <br/> |**String** <br/> |The first string to compare. |
+| _string2_ <br/> |Required  <br/> |**String** <br/> |The second string to compare. |
+| _ignoreCase_ <br/> |Optional  <br/> |**Boolean** <br/> |TRUE to ignore the case and FALSE to compare the case. The default is FALSE. |
    
 ### Return value
 

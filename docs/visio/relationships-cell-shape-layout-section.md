@@ -24,17 +24,17 @@ Stores the relationships between containers, lists, callouts, and shapes.
   
 |**First parameter**|**Additional parameters**|
 |:-----|:-----|
-|1  <br/> |Shapes that are members of this container.  <br/> |
-|2  <br/> |Shapes that are members of this list.  <br/> |
-|3  <br/> |Callouts that are associated with this shape.  <br/> |
-|4  <br/> |Containers that this shape is a member of.  <br/> |
-|5  <br/> |List that this list item is a member of.  <br/> |
-|6  <br/> |Shape associated with this callout.  <br/> |
-|7  <br/> |Container on the left boundary edge of which this shape sits.  <br/> |
-|8  <br/> |Container on the right boundary edge of which this shape sits.  <br/> |
-|9  <br/> |Container on the top boundary edge of which this shape sits.  <br/> |
-|10  <br/> |Container on the bottom boundary edge of which this shape sits.  <br/> |
-|11  <br/> |List that this list overlaps.  <br/> |
+|1  <br/> |Shapes that are members of this container. |
+|2  <br/> |Shapes that are members of this list. |
+|3  <br/> |Callouts that are associated with this shape. |
+|4  <br/> |Containers that this shape is a member of. |
+|5  <br/> |List that this list item is a member of. |
+|6  <br/> |Shape associated with this callout. |
+|7  <br/> |Container on the left boundary edge of which this shape sits. |
+|8  <br/> |Container on the right boundary edge of which this shape sits. |
+|9  <br/> |Container on the top boundary edge of which this shape sits. |
+|10  <br/> |Container on the bottom boundary edge of which this shape sits. |
+|11  <br/> |List that this list overlaps. |
    
 To get a reference to the Relationships cell by name from another formula, or from a program by using the **CellsU** property, use: 
   

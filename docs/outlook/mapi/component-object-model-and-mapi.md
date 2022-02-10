@@ -44,11 +44,11 @@ The other deviations from the standard COM rules are described in the following 
   
 |**COM programming rule**|**MAPI variation**|
 |:-----|:-----|
-|All string parameters in interface methods should be Unicode.  <br/> |MAPI interfaces are defined to permit either Unicode or ANSI string parameters. Many methods that have a string parameter also have a **ulFlags** parameter; the width of a string parameter is indicated by the value of the MAPI_UNICODE flag in **ulFlags**. Some MAPI interfaces do not support Unicode and return MAPI_E_BAD_CHARWIDTH when the MAPI_UNICODE flag is set.  <br/> |
-|All interface methods should have a return type of HRESULT.  <br/> |MAPI has at least one method that returns a non-HRESULT value: [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md).  <br/> |
-|Callers and implementers should allocate and free memory for interface parameters by using the standard COM task allocators.  <br/> |All MAPI methods use the linked allocators [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) to manage memory for interface parameters. All MAPI implementations of interfaces defined by OLE, such as [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx), use the standard COM task allocators.  <br/> |
-|All out pointer parameters must explicitly be set to NULL when a method fails.  <br/> |MAPI interfaces require that out pointer parameters either be set to NULL or remain unchanged when a method fails. All MAPI implementations of interfaces defined by OLE explicitly set out parameters to NULL on failure.  <br/> |
-|Implement aggregatable objects whenever possible.  <br/> |MAPI interfaces are not aggregatable.  <br/> |
+|All string parameters in interface methods should be Unicode. |MAPI interfaces are defined to permit either Unicode or ANSI string parameters. Many methods that have a string parameter also have a **ulFlags** parameter; the width of a string parameter is indicated by the value of the MAPI_UNICODE flag in **ulFlags**. Some MAPI interfaces do not support Unicode and return MAPI_E_BAD_CHARWIDTH when the MAPI_UNICODE flag is set. |
+|All interface methods should have a return type of HRESULT. |MAPI has at least one method that returns a non-HRESULT value: [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md). |
+|Callers and implementers should allocate and free memory for interface parameters by using the standard COM task allocators. |All MAPI methods use the linked allocators [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) to manage memory for interface parameters. All MAPI implementations of interfaces defined by OLE, such as [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx), use the standard COM task allocators. |
+|All out pointer parameters must explicitly be set to NULL when a method fails. |MAPI interfaces require that out pointer parameters either be set to NULL or remain unchanged when a method fails. All MAPI implementations of interfaces defined by OLE explicitly set out parameters to NULL on failure. |
+|Implement aggregatable objects whenever possible. |MAPI interfaces are not aggregatable. |
    
 ## See also
 

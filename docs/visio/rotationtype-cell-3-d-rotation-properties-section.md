@@ -18,13 +18,13 @@ Determines whether the shape follows a parallel rotation, a perspective rotation
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |The shape does not have any rotation.  <br/> |
-|1  <br/> |The shape has a parallel rotation.  <br/> |
-|2  <br/> |The shape has a perspective rotation.  <br/> |
-|3  <br/> |The shape has a top left oblique rotation.  <br/> |
-|4  <br/> |The shape has a top right oblique rotation.  <br/> |
-|5  <br/> |The shape has a bottom left oblique rotation.  <br/> |
-|6  <br/> |The shape has a bottom right oblique rotation.  <br/> |
+|0  <br/> |The shape does not have any rotation. |
+|1  <br/> |The shape has a parallel rotation. |
+|2  <br/> |The shape has a perspective rotation. |
+|3  <br/> |The shape has a top left oblique rotation. |
+|4  <br/> |The shape has a top right oblique rotation. |
+|5  <br/> |The shape has a bottom left oblique rotation. |
+|6  <br/> |The shape has a bottom right oblique rotation. |
    
 ## Remarks
 

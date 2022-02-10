@@ -26,7 +26,7 @@ RAD(** *angle* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Number** <br/> |The angle to convert.  <br/> |
+| _angle_ <br/> |Required  <br/> |**Number** <br/> |The angle to convert. |
    
 ## Example
 

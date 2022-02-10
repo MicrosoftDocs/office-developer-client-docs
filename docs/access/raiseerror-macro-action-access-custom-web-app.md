@@ -28,7 +28,7 @@ The **RaiseError** action has the following argument.
   
 |**Argument**|**Description**|
 |:-----|:-----|
-| _Error Description_ <br/> |A string expression that describes the error.  <br/> |
+| _Error Description_ <br/> |A string expression that describes the error. |
    
 ## Remarks
 

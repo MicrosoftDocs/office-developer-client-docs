@@ -20,8 +20,8 @@ Determines whether the shape can be added to a group by dropping it onto the gro
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Can add the shape to a group by dropping it onto the group.  <br/> |
-|FALSE  <br/> |Cannot add the shape to a group.  <br/> |
+|TRUE  <br/> |Can add the shape to a group by dropping it onto the group. |
+|FALSE  <br/> |Cannot add the shape to a group. |
    
 ## Remarks
 

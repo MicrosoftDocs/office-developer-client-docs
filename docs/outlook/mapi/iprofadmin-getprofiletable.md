@@ -63,7 +63,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI uses the **IProfAdmin::GetProfileTable** method to get the profile table to display in a new dialog box.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnShowProfiles  <br/> |MFCMAPI uses the **IProfAdmin::GetProfileTable** method to get the profile table to display in a new dialog box. |
    
 ## See also
 

@@ -26,7 +26,7 @@ RUNADDON(" *string*  ")
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Required  <br/> |**String** <br/> | The name of an add-on in the **Addons** collection or a macro in a VBA project.  <br/> |
+| _string_ <br/> |Required  <br/> |**String** <br/> | The name of an add-on in the **Addons** collection or a macro in a VBA project. |
    
 ## Remarks
 

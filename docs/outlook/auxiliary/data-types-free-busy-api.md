@@ -16,8 +16,8 @@ This section describes the data types in the Free/Busy API.
   
 |**Data type**|**Description**|
 |:-----|:-----|
-|[FBBlock_1](fbblock_1.md) <br/> |Defines a free/busy block of data.  <br/> |
-|[FBStatus](fbstatus.md) <br/> |An enumeration for the free/busy status of free/busy blocks.  <br/> |
-|[FBUser](fbuser.md) <br/> |Identifies a user that may or may not have free/busy data available.  <br/> |
+|[FBBlock_1](fbblock_1.md) <br/> |Defines a free/busy block of data. |
+|[FBStatus](fbstatus.md) <br/> |An enumeration for the free/busy status of free/busy blocks. |
+|[FBUser](fbuser.md) <br/> |Identifies a user that may or may not have free/busy data available. |
    
 

@@ -20,7 +20,7 @@ Determines the transparency level for a range of a shape's text color.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0 - 100  <br/> |Represents the percentage of transparency. The default is 0% (completely opaque).  <br/> |
+|0 - 100  <br/> |Represents the percentage of transparency. The default is 0% (completely opaque). |
    
 ## Remarks
 
@@ -34,14 +34,14 @@ To get a reference to the Transparency cell by name from another formula, or fro
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Char.ColorTrans[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Char.ColorTrans[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Transparency cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionCharacter** <br/> |
-|Row index:  <br/> |**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visCharacterColorTrans** <br/> |
    
 

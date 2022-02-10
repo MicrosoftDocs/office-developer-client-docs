@@ -196,8 +196,8 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI uses the **IMAPIProp::CopyTo** method to copy properties from a .msg file to an [IMAPIMessageSite](imapimessagesiteiunknown.md) object.  <br/> |
-|FolderDlg.cpp  <br/> |CFolderDlg::HandlePaste  <br/> |MFCMAPI uses the **IMAPIProp::CopyTo** method to copy properties from a source message to a target message during a paste operation.  <br/> |
+|File.cpp  <br/> |LoadFromMSG  <br/> |MFCMAPI uses the **IMAPIProp::CopyTo** method to copy properties from a .msg file to an [IMAPIMessageSite](imapimessagesiteiunknown.md) object. |
+|FolderDlg.cpp  <br/> |CFolderDlg::HandlePaste  <br/> |MFCMAPI uses the **IMAPIProp::CopyTo** method to copy properties from a source message to a target message during a paste operation. |
    
 ## See also
 

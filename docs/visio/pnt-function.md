@@ -26,7 +26,7 @@ PNT(** *x,y* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _x,y_ <br/> |Required  <br/> |**Number, Number** <br/> |The coordinates of the point in the coordinate system of the current shape.  <br/> |
+| _x,y_ <br/> |Required  <br/> |**Number, Number** <br/> |The coordinates of the point in the coordinate system of the current shape. |
    
 ### Return value
 

@@ -25,7 +25,7 @@ The **RunDataMacro** action has the following argument.
   
 |**Action argument**|**Description**|
 |:-----|:-----|
-| _Macro Name_ <br/> |The name of the data macro to run.  <br/> |
+| _Macro Name_ <br/> |The name of the data macro to run. |
    
 ## Remarks
 

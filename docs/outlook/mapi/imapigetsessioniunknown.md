@@ -34,7 +34,7 @@ Provides access to the current MAPI session associated with the support object. 
 
 |||
 |:-----|:-----|
-|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Called to obtain a pointer to the current MAPI session.  <br/> |
+|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Called to obtain a pointer to the current MAPI session. |
    
 ## See also
 

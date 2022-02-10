@@ -41,7 +41,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |These functions demonstrate how to parse a **PT_SRESTRICTION** property for the purposes of copying to another property.  <br/> |
+|ImportProcs.cpp  <br/> |PropCopyMore, HrCopyRestriction  <br/> |These functions demonstrate how to parse a **PT_SRESTRICTION** property for the purposes of copying to another property. |
    
 ## Related resources
 

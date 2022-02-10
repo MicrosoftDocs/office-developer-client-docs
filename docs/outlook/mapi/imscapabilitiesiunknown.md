@@ -33,7 +33,7 @@ Provides information about what a store can support.
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Returns capabilities of a store based on the specified selection.  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Returns capabilities of a store based on the specified selection. |
    
 ## Remarks
 

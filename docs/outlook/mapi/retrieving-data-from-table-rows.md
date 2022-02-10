@@ -30,9 +30,9 @@ Clients and service providers can make one of the following calls to retrieve ro
   
 |||
 |:-----|:-----|
-|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Retrieves a specified number of rows starting with the current row in either a forward or backward direction.  <br/> |
-|[HrQueryAllRows](hrqueryallrows.md) <br/> |Retrieves all of the rows in a table.  <br/> |
-|[ITableData::HrQueryRow](itabledata-hrqueryrow.md) <br/> |Retrieves a row in a table according to the value of its index column. **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) is usually the index column for a table.  <br/> |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Retrieves a specified number of rows starting with the current row in either a forward or backward direction. |
+|[HrQueryAllRows](hrqueryallrows.md) <br/> |Retrieves all of the rows in a table. |
+|[ITableData::HrQueryRow](itabledata-hrqueryrow.md) <br/> |Retrieves a row in a table according to the value of its index column. **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md)) is usually the index column for a table. |
    
 When an optional property is included as one of the columns in a table, some of the rows might have valid values for the column while others might not. Whether a valid value exists for a column depends on whether the object providing the information for the row sets the property. Depending on the implementation of the object, a non-existent property can be represented in the table as **PR_NULL** ([PidTagNull](pidtagnull-canonical-property.md)) or an arbitrary value. Users of tables must be careful to differentiate between properties that are nonexistent and have meaningless values and properties that do exist and have valid values. 
   

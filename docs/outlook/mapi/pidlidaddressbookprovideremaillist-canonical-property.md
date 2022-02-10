@@ -38,12 +38,12 @@ Each PT_LONG value in this property must be unique in the property and must be s
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |Email1 is defined for the contact.  <br/> |
-|0x00000001  <br/> |Email2 is defined for the contact.  <br/> |
-|0x00000002  <br/> |Email3 is defined for the contact.  <br/> |
-|0x00000003  <br/> |Business fax is defined for the contact.  <br/> |
-|0x00000004  <br/> |Home fax is defined for the contact.  <br/> |
-|0x00000005  <br/> |Primary fax is defined for the contact.  <br/> |
+|0x00000000  <br/> |Email1 is defined for the contact. |
+|0x00000001  <br/> |Email2 is defined for the contact. |
+|0x00000002  <br/> |Email3 is defined for the contact. |
+|0x00000003  <br/> |Business fax is defined for the contact. |
+|0x00000004  <br/> |Home fax is defined for the contact. |
+|0x00000005  <br/> |Primary fax is defined for the contact. |
    
 ## Related resources
 

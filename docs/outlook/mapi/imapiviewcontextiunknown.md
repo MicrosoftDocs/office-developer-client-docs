@@ -37,12 +37,12 @@ Manages a form in a client application's form viewer.
 
 |||
 |:-----|:-----|
-|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Manages a form's registration to receive notifications about changes in the viewer.  <br/> |
-|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Activates the next or previous message in the form viewer.  <br/> |
-|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Retrieves current printing information.  <br/> |
-|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Retrieves a stream to be used for saving the current message.  <br/> |
-|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Retrieves the current viewer status.  <br/> |
-|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring in the view context object.  <br/> |
+|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Manages a form's registration to receive notifications about changes in the viewer. |
+|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Activates the next or previous message in the form viewer. |
+|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Retrieves current printing information. |
+|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Retrieves a stream to be used for saving the current message. |
+|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Retrieves the current viewer status. |
+|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring in the view context object. |
    
 ## See also
 

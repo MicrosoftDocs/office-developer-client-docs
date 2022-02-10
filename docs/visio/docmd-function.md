@@ -26,7 +26,7 @@ Performs the identified command.
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _commandID_ <br/> |Required  <br/> |**Number** <br/> | The command to perform.  <br/> |
+| _commandID_ <br/> |Required  <br/> |**Number** <br/> | The command to perform. |
    
 ## Remarks
 

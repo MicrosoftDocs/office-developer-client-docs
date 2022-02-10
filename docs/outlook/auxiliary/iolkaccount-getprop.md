@@ -38,9 +38,9 @@ _pVar_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call succeeded.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |The property is not found for the given account.  <br/> |
-|E_INVALIDARG  <br/> |An invalid property tag has been specified.  <br/> |
+|S_OK  <br/> |The call succeeded. |
+|E_ACCT_NOT_FOUND  <br/> |The property is not found for the given account. |
+|E_INVALIDARG  <br/> |An invalid property tag has been specified. |
    
 ## Remarks
 

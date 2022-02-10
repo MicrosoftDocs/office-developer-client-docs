@@ -29,8 +29,8 @@ The **Parse** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |A text expression representing the formatted value to parse into the specified data type.  <br/> |
-| *DataType*  <br/> |Literal value representing the data type requested for the result.  <br/> |
+| *TextExpression*  <br/> |A text expression representing the formatted value to parse into the specified data type. |
+| *DataType*  <br/> |Literal value representing the data type requested for the result. |
    
 ## Remarks
 

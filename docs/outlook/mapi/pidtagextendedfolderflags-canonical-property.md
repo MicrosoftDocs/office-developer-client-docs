@@ -43,11 +43,11 @@ Possible ID values include:
     
    |**Bits**|**Description**|
    |:-----|:-----|
-   |0-1  <br/> |Reserved.  <br/> |
-   |2  <br/> |Set to 0 if the application should show a policy description.  <br/> |
-   |3-5  <br/> |Reserved.  <br/> |
-   |6-7  <br/> |Controls the display of the number of messages in the folder.  <br/> 0 - Use the default setting  <br/> 1 - Use the number of unread messages  <br/> 3 - Use the total number of messages  <br/> |
-   |8-31  <br/> |Reserved.  <br/> |
+   |0-1  <br/> |Reserved. |
+   |2  <br/> |Set to 0 if the application should show a policy description. |
+   |3-5  <br/> |Reserved. |
+   |6-7  <br/> |Controls the display of the number of messages in the folder. 0 - Use the default setting  <br/> 1 - Use the number of unread messages  <br/> 3 - Use the total number of messages  <br/> |
+   |8-31  <br/> |Reserved. |
    
 Reserved items can be ignored, but existing values must be preserved.
     

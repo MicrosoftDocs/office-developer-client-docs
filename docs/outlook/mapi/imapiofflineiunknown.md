@@ -34,10 +34,10 @@ Provides information for an offline object.
 
 |||
 |:-----|:-----|
-|**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Sets the current state of an offline object to online or offline.  <br/> |
-|**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Gets the conditions for which callbacks are supported by an offline object.  <br/> |
-|**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Gets the current online or offline state of an offline object.  <br/> |
-| *Placeholder member*  <br/> |This member is a placeholder and is not supported.  <br/> |
+|**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Sets the current state of an offline object to online or offline. |
+|**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Gets the conditions for which callbacks are supported by an offline object. |
+|**[GetCurrentState](imapioffline-getcurrentstate.md)** <br/> |Gets the current online or offline state of an offline object. |
+| *Placeholder member*  <br/> |This member is a placeholder and is not supported. |
    
 ## Remarks
 

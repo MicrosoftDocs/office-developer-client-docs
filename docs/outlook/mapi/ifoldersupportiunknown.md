@@ -33,7 +33,7 @@ Provides information about a folder's support for sharing.
 
 |||
 |:-----|:-----|
-|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Gets information about a folder's support for sharing.  <br/> |
+|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Gets information about a folder's support for sharing. |
    
 ## Remarks
 

@@ -20,8 +20,8 @@ Locks the vertical position of the shape so it cannot be moved vertically.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Vertical position is locked.  <br/> |
-| FALSE  <br/> | Vertical position is not locked.  <br/> |
+| TRUE  <br/> | Vertical position is locked. |
+| FALSE  <br/> | Vertical position is not locked. |
    
 ## Remarks
 

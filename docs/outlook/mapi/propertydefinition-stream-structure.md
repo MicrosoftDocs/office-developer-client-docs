@@ -26,8 +26,8 @@ Data elements in this stream are stored in little-endian byte order, immediately
     
     |**Value**|**Description**|
     |:-----|:-----|
-    |0x0102  <br/> |Format is PropDefV1.  <br/> |
-    |0x0103  <br/> |Format is PropDefV2.  <br/> |
+    |0x0102  <br/> |Format is PropDefV1. |
+    |0x0103  <br/> |Format is PropDefV2. |
    
 - FieldDefinitionCount: DWORD (4 bytes), the number of field definitions in this stream. This is the count of array elements in the FieldDefinitions data element.
     

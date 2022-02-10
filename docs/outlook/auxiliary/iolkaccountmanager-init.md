@@ -47,9 +47,9 @@ _dwFlags_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call succeeded.  <br/> |
-|E_OLK_ALREADY_INITIALIZED  <br/> |**Init** has already been called.  <br/> |
-|E_OLK_REGISTRY  <br/> |The account manager could not access the required registry settings.  <br/> |
+|S_OK  <br/> |The call succeeded. |
+|E_OLK_ALREADY_INITIALIZED  <br/> |**Init** has already been called. |
+|E_OLK_REGISTRY  <br/> |The account manager could not access the required registry settings. |
    
 ## Remarks
 

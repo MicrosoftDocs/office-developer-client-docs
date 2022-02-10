@@ -24,9 +24,9 @@ MAPI clients use the following generic threading models.
   
 |**Threading model**|**Description**|
 |:-----|:-----|
-|Single threading model  <br/> |All objects are used on the single thread.  <br/> |
-|Apartment threading model  <br/> |An object can be used only on the thread that created it.  <br/> |
-|Free threading, or thread-party, model  <br/> |An object can be used on any thread.  <br/> |
+|Single threading model  <br/> |All objects are used on the single thread. |
+|Apartment threading model  <br/> |An object can be used only on the thread that created it. |
+|Free threading, or thread-party, model  <br/> |An object can be used on any thread. |
    
 MAPI uses the free threading model, supporting thread-safe objects that can be used on any thread at any time. OLE uses the apartment threading model. The apartment threading model supports objects that must be explicitly transferred when a thread other than the one that created the object needs to use that object.
   

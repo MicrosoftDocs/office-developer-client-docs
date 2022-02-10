@@ -56,7 +56,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI uses the **MAPIOpenLocalFormContainer** method to open the local form container to render in a new window.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnMAPIOpenLocalFormContainer  <br/> |MFCMAPI uses the **MAPIOpenLocalFormContainer** method to open the local form container to render in a new window. |
    
 ## See also
 

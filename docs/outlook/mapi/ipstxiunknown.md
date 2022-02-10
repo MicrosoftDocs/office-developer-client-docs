@@ -33,13 +33,13 @@ This interface provides helper functionality when performing replication through
 
 |||
 |:-----|:-----|
-|**[GetLastError](ipstx-getlasterror.md)** <br/> |Gets extended information about the last error.  <br/> |
-|**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Gets the associated **[IOSTX](iostxiunknown.md)** interface.  <br/> |
+|**[GetLastError](ipstx-getlasterror.md)** <br/> |Gets extended information about the last error. |
+|**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Gets the associated **[IOSTX](iostxiunknown.md)** interface. |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
-|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server.  <br/> |
+|**[EmulateSpooler](ipstx-emulatespooler.md)** <br/> |Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server. |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |

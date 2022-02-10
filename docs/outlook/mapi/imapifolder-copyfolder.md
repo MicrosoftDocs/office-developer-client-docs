@@ -133,9 +133,9 @@ Expect these return values under the following conditions.
   
 |**Condition**|**Return value**|
 |:-----|:-----|
-|**CopyFolder** has successfully copied or moved every message and subfolder.  <br/> |S_OK  <br/> |
-|**CopyFolder** was unable to successfully copy or move every message and subfolder.  <br/> |MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND  <br/> |
-|**CopyFolder** was unable to complete.  <br/> |Any error value except MAPI_E_NOT_FOUND  <br/> |
+|**CopyFolder** has successfully copied or moved every message and subfolder. |S_OK  <br/> |
+|**CopyFolder** was unable to successfully copy or move every message and subfolder. |MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND  <br/> |
+|**CopyFolder** was unable to complete. |Any error value except MAPI_E_NOT_FOUND  <br/> |
    
 When **CopyFolder** is unable to complete, do not assume that no work was done. **CopyFolder** might have been able to copy or move one or more of the messages and subfolders before encountering the error. 
   
@@ -155,7 +155,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI uses the **IMAPIFolder::CopyFolder** method to copy folders from one location to another. MFCMAPI remembers the source folder during the copy operation and actually performs the copy during the paste operation.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnPasteFolder  <br/> |MFCMAPI uses the **IMAPIFolder::CopyFolder** method to copy folders from one location to another. MFCMAPI remembers the source folder during the copy operation and actually performs the copy during the paste operation. |
    
 ## See also
 

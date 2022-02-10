@@ -37,11 +37,11 @@ Implements a progress object that provides client applications with a progress i
 
 |||
 |:-----|:-----|
-|[Progress](imapiprogress-progress.md) <br/> |Updates the progress indicator with a display of the progress as it is made toward completion of the operation.  <br/> |
-|[GetFlags](imapiprogress-getflags.md) <br/> |Returns flag settings from the progress object for the level of operation on which progress information is calculated.  <br/> |
-|[GetMax](imapiprogress-getmax.md) <br/> |Returns the maximum number of items in the operation for which progress information is displayed.  <br/> |
-|[GetMin](imapiprogress-getmin.md) <br/> |Returns the minimum value in the [SetLimits](imapiprogress-setlimits.md) method for which progress information is displayed.  <br/> |
-|[SetLimits](imapiprogress-setlimits.md) <br/> |Sets the lower and upper limits for the number of items in the operation, and the flags that control how progress information is calculated for the operation.  <br/> |
+|[Progress](imapiprogress-progress.md) <br/> |Updates the progress indicator with a display of the progress as it is made toward completion of the operation. |
+|[GetFlags](imapiprogress-getflags.md) <br/> |Returns flag settings from the progress object for the level of operation on which progress information is calculated. |
+|[GetMax](imapiprogress-getmax.md) <br/> |Returns the maximum number of items in the operation for which progress information is displayed. |
+|[GetMin](imapiprogress-getmin.md) <br/> |Returns the minimum value in the [SetLimits](imapiprogress-setlimits.md) method for which progress information is displayed. |
+|[SetLimits](imapiprogress-setlimits.md) <br/> |Sets the lower and upper limits for the number of items in the operation, and the flags that control how progress information is calculated for the operation. |
    
 ## Remarks
 
@@ -53,7 +53,7 @@ For MFCMAPI sample code, see the following table.
   
 |**Files**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MapiProgress.h and MapiProgress.cpp  <br/> |Not applicable  <br/> |If the IMAPIProgress setting is enabled, MFCMAPI will pass an **IMAPIProgress** implementation to all functions that MFCMAPI invokes that accept an implementation.  <br/> |
+|MapiProgress.h and MapiProgress.cpp  <br/> |Not applicable  <br/> |If the IMAPIProgress setting is enabled, MFCMAPI will pass an **IMAPIProgress** implementation to all functions that MFCMAPI invokes that accept an implementation. |
    
 ## See also
 

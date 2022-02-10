@@ -70,7 +70,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI uses the **HrGetOneProp** method to retrieve the type of an object.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetMAPIObjectType  <br/> |MFCMAPI uses the **HrGetOneProp** method to retrieve the type of an object. |
    
 ## See also
 

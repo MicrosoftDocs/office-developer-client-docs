@@ -33,7 +33,7 @@ To get a reference to the SortKey cell by index from a program, use the **CellsS
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionHyperlink** <br/> |
-|Row index:  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visHLinkSortKey** <br/> |
    
 

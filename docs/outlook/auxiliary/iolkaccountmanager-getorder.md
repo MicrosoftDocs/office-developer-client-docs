@@ -50,8 +50,8 @@ _prgAccts_
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded  <br/> |
-|E_INVALIDARG  <br/> |One or more arguments are invalid.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
+|E_INVALIDARG  <br/> |One or more arguments are invalid. |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use. |
    
 ## Remarks
 

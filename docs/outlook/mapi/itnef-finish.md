@@ -70,7 +70,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI uses the **ITnef::Finish** method to finish processing of the new TNEF stream.  <br/> |
+|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI uses the **ITnef::Finish** method to finish processing of the new TNEF stream. |
    
 ## See also
 

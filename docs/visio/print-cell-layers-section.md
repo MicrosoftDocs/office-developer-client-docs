@@ -20,8 +20,8 @@ Specifies whether shapes belonging to the layer can be printed.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Shapes can be printed.  <br/> |
-|FALSE  <br/> |Shapes cannot be printed.  <br/> |
+|TRUE  <br/> |Shapes can be printed. |
+|FALSE  <br/> |Shapes cannot be printed. |
    
 ## Remarks
 
@@ -31,14 +31,14 @@ To get a reference to the Print cell by name from another formula, or from a pro
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Print cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visDocPreviewScope** <br/> |
    
 

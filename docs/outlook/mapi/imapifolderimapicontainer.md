@@ -38,17 +38,17 @@ Performs operations on the messages and subfolders in a folder.
 
 |||
 |:-----|:-----|
-|[CreateMessage](imapifolder-createmessage.md) <br/> |Creates a new message.  <br/> |
-|[CopyMessages](imapifolder-copymessages.md) <br/> |Copies or moves one or more messages.  <br/> |
-|[DeleteMessages](imapifolder-deletemessages.md) <br/> |Deletes one or more messages.  <br/> |
-|[CreateFolder](imapifolder-createfolder.md) <br/> |Creates a new subfolder.  <br/> |
-|[CopyFolder](imapifolder-copyfolder.md) <br/> |Copies or moves a subfolder.  <br/> |
-|[DeleteFolder](imapifolder-deletefolder.md) <br/> |Deletes a subfolder.  <br/> |
-|[SetReadFlags](imapifolder-setreadflags.md) <br/> |Sets or clears the MSGFLAG_READ flag in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of one or more of the folder's messages, and manages the sending of read reports.  <br/> |
-|[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtains the status associated with a message in a particular folder.  <br/> |
-|[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Sets the status associated with a message.  <br/> |
-|[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Sets the default sort order for a folder's contents table.  <br/> |
-|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Deletes all messages and subfolders from a folder without deleting the folder itself.  <br/> |
+|[CreateMessage](imapifolder-createmessage.md) <br/> |Creates a new message. |
+|[CopyMessages](imapifolder-copymessages.md) <br/> |Copies or moves one or more messages. |
+|[DeleteMessages](imapifolder-deletemessages.md) <br/> |Deletes one or more messages. |
+|[CreateFolder](imapifolder-createfolder.md) <br/> |Creates a new subfolder. |
+|[CopyFolder](imapifolder-copyfolder.md) <br/> |Copies or moves a subfolder. |
+|[DeleteFolder](imapifolder-deletefolder.md) <br/> |Deletes a subfolder. |
+|[SetReadFlags](imapifolder-setreadflags.md) <br/> |Sets or clears the MSGFLAG_READ flag in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of one or more of the folder's messages, and manages the sending of read reports. |
+|[GetMessageStatus](imapifolder-getmessagestatus.md) <br/> |Obtains the status associated with a message in a particular folder. |
+|[SetMessageStatus](imapifolder-setmessagestatus.md) <br/> |Sets the status associated with a message. |
+|[SaveContentsSort](imapifolder-savecontentssort.md) <br/> |Sets the default sort order for a folder's contents table. |
+|[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Deletes all messages and subfolders from a folder without deleting the folder itself. |
    
 |**Required properties**|**Access**|
 |:-----|:-----|

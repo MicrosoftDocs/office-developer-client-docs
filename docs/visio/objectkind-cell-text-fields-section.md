@@ -36,14 +36,14 @@ To get a reference to the ObjectKind cell by name from another formula, or from 
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Fields.ObjectKind[  *i*  ]            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Fields.ObjectKind[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the ObjectKind cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionTextField** <br/> |
-| Row index:  <br/> |**visRowField** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowField** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visFieldObjectKind** <br/> |
    
 

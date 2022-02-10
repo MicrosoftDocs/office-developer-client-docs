@@ -1,8 +1,6 @@
 ---
-title: "IABLogonOpenEntry"
- 
- 
-manager: soliver
+title: "IABLogonOpenEntry" 
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
@@ -13,12 +11,9 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1cfb82f7-5215-4faa-af25-5b1da7e31209
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::OpenEntry
-
-  
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
@@ -91,8 +86,6 @@ MAPI_E_UNKNOWN_ENTRYID
   
 > The entry identifier in the _lpEntryID_ parameter is not of a format recognized by the address book provider. 
     
-## Remarks
-
 MAPI calls the **OpenEntry** method to open a container, messaging user, or distribution list. 
   
 ## Notes to implementers
@@ -107,7 +100,4 @@ The object that you are being asked to open might be an object copied from anoth
   
 ## See also
 
-
-
 [IABLogon : IUnknown](iablogoniunknown.md)
-

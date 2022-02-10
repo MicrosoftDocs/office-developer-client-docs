@@ -20,9 +20,9 @@ Changes the type of visual feedback provided to users when they drag a connector
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-| 0  <br/> | Remains straight (no legs).  <br/> |**visDynFBDefault** <br/> |
-| 1  <br/> | Shows three legs when dragged.  <br/> |**visDynFBUCon3Leg** <br/> |
-| 2  <br/> | Shows five legs when dragged.  <br/> |**visDynFBUCon5Leg** <br/> |
+| 0  <br/> | Remains straight (no legs). |**visDynFBDefault** <br/> |
+| 1  <br/> | Shows three legs when dragged. |**visDynFBUCon3Leg** <br/> |
+| 2  <br/> | Shows five legs when dragged. |**visDynFBUCon5Leg** <br/> |
    
 ## Remarks
 

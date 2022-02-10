@@ -20,8 +20,8 @@ Locks a group so that it cannot be ungrouped.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Group cannot be ungrouped.  <br/> |
-|FALSE  <br/> |Group can be ungrouped.  <br/> |
+|TRUE  <br/> |Group cannot be ungrouped. |
+|FALSE  <br/> |Group can be ungrouped. |
    
 ## Remarks
 

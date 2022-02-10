@@ -25,14 +25,14 @@ For a given user, gets and sets a time range and returns an interface for enumer
 |||
 |:-----|:-----|
 |[Placeholder1](ifreebusydata-placeholder1.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
-|[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Gets an interface that enumerates free/busy blocks of data for a user within a specified time range.  <br/> |
+|[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Gets an interface that enumerates free/busy blocks of data for a user within a specified time range. |
 |[Placeholder2](ifreebusydata-placeholder2.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[Placeholder3](ifreebusydata-placeholder3.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[Placeholder4](ifreebusydata-placeholder4.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[Placeholder5](ifreebusydata-placeholder5.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
-|[SetFBRange](ifreebusydata-setfbrange.md) <br/> |Sets the range of time for an enumeration of free/busy blocks of data for a user.  <br/> |
+|[SetFBRange](ifreebusydata-setfbrange.md) <br/> |Sets the range of time for an enumeration of free/busy blocks of data for a user. |
 |[Placeholder6](ifreebusydata-placeholder6.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
-|[GetFBPublishRange](ifreebusydata-getfbpublishrange.md) <br/> |Gets a preset time range for an enumeration of free/busy blocks of data for a user.  <br/> |
+|[GetFBPublishRange](ifreebusydata-getfbpublishrange.md) <br/> |Gets a preset time range for an enumeration of free/busy blocks of data for a user. |
    
 ## Remarks
 

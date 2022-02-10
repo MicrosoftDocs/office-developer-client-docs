@@ -15,8 +15,8 @@ This section describes the interfaces in the Free/Busy API.
   
 |**Interface**|**Description**|
 |:-----|:-----|
-|[IEnumFBBlock](ienumfbblock.md) <br/> |Supports accessing and enumerating free/busy blocks of data for a user within a time range.  <br/> |
-|[IFreeBusyData](ifreebusydata.md) <br/> |For a given user, gets and sets a time range and returns an interface for enumerating free/busy blocks of data within this time range.  <br/> |
-|[IFreeBusySupport](ifreebusysupport.md) <br/> |Supports specification of interfaces that access free/busy data for specified users.  <br/> |
+|[IEnumFBBlock](ienumfbblock.md) <br/> |Supports accessing and enumerating free/busy blocks of data for a user within a time range. |
+|[IFreeBusyData](ifreebusydata.md) <br/> |For a given user, gets and sets a time range and returns an interface for enumerating free/busy blocks of data within this time range. |
+|[IFreeBusySupport](ifreebusysupport.md) <br/> |Supports specification of interfaces that access free/busy data for specified users. |
    
 

@@ -38,10 +38,10 @@ The following table shows the possible values for this property.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |The task is not assigned.  <br/> |
-|0x00000001  <br/> |The task's acceptance status is unknown.  <br/> |
-|0x00000002  <br/> |The task assignee accepted the task. This value is set when the client processes a task acceptance.  <br/> |
-|0x00000003  <br/> |The task assignee rejected the task. This value is set when the client processes a task rejection.  <br/> |
+|0x00000000  <br/> |The task is not assigned. |
+|0x00000001  <br/> |The task's acceptance status is unknown. |
+|0x00000002  <br/> |The task assignee accepted the task. This value is set when the client processes a task acceptance. |
+|0x00000003  <br/> |The task assignee rejected the task. This value is set when the client processes a task rejection. |
    
 ## Related resources
 

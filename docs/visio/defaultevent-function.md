@@ -28,10 +28,10 @@ The following table lists the default event associated with several objects.
   
 |**Object**|**Default event**|
 |:-----|:-----|
-|Shape  <br/> |Edit text.  <br/> |
-|Group  <br/> |Do nothing.  <br/> |
-|OLE  <br/> |Do primary verb.  <br/> |
-|Other  <br/> |Do nothing.  <br/> |
+|Shape  <br/> |Edit text. |
+|Group  <br/> |Do nothing. |
+|OLE  <br/> |Do primary verb. |
+|Other  <br/> |Do nothing. |
    
 In earlier versions of Visio, this function appears as _DEFAULTEVENT and the default event for a group is to open a group window. 
   

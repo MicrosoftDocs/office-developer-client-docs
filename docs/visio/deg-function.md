@@ -26,7 +26,7 @@ DEG(** *angle* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**String** <br/> |The value of the angle in radians.  <br/> |
+| _angle_ <br/> |Required  <br/> |**String** <br/> |The value of the angle in radians. |
    
 ## Example
 

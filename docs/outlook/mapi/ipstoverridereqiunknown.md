@@ -35,7 +35,7 @@ Accesses resources of a Personal Folders file (PST) store provider.
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Initiates the unlocking procedure for a Personal Folders (.pst) file.  <br/> |
+|[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Initiates the unlocking procedure for a Personal Folders (.pst) file. |
    
 ## Remarks
 

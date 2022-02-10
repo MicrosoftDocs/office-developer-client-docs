@@ -37,13 +37,13 @@ Enables form viewers to work with form view contexts and form notification, to p
 
 |||
 |:-----|:-----|
-|[SetViewContext](imapiform-setviewcontext.md) <br/> |Establishes a view context for the form.  <br/> |
-|[GetViewContext](imapiform-getviewcontext.md) <br/> |Returns the current view context for the form.  <br/> |
-|[ShutdownForm](imapiform-shutdownform.md) <br/> |Closes the form.  <br/> |
-|[DoVerb](imapiform-doverb.md) <br/> |Requests that the form perform whatever tasks it associates with a specific verb.  <br/> |
-|[Advise](imapiform-advise.md) <br/> |Registers a form viewer for notifications about events that affect the form.  <br/> |
-|[Unadvise](imapiform-unadvise.md) <br/> |Cancels a registration for notifications with a form viewer previously established by calling **Advise**.  <br/> |
-|[GetLastError](imapiform-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the form object.  <br/> |
+|[SetViewContext](imapiform-setviewcontext.md) <br/> |Establishes a view context for the form. |
+|[GetViewContext](imapiform-getviewcontext.md) <br/> |Returns the current view context for the form. |
+|[ShutdownForm](imapiform-shutdownform.md) <br/> |Closes the form. |
+|[DoVerb](imapiform-doverb.md) <br/> |Requests that the form perform whatever tasks it associates with a specific verb. |
+|[Advise](imapiform-advise.md) <br/> |Registers a form viewer for notifications about events that affect the form. |
+|[Unadvise](imapiform-unadvise.md) <br/> |Cancels a registration for notifications with a form viewer previously established by calling **Advise**. |
+|[GetLastError](imapiform-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the form object. |
    
 ## See also
 

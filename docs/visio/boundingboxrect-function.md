@@ -28,7 +28,7 @@ BOUNDINGBOXRECT(** *Index* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Index_ <br/> |Required  <br/> |**Integer** <br/> |The edge of the shape's bounding box for which to get the coordinate. See Remarks for possible values.  <br/> |
+| _Index_ <br/> |Required  <br/> |**Integer** <br/> |The edge of the shape's bounding box for which to get the coordinate. See Remarks for possible values. |
    
 ### Return value
 

@@ -40,23 +40,23 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row element (Controls Section)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contains a property for a particular control handle defined for a shape.  <br/> |
+|[Row element (Controls Section)](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Contains a property for a particular control handle defined for a shape. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Specifies a reference to a drawing page.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Specifies a reference to a drawing page. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd:string  <br/> |optional  <br/> |Indicates that the formula evaluates to an error. The value of **E** is the current value (an error message string); the value of the **V** attribute is the last valid value.  <br/> |An error message string.  <br/> |
-|F  <br/> |xsd:string  <br/> |optional  <br/> | Represents the element's formula. This attribute can contain one of the following strings:  <br/>  '(some formula)' if the formula exists locally  <br/>  `No Formula` if the formula is locally deleted or blocked  <br/>  `Inh` if the formula is inherited.  <br/> |A formula.  <br/> |
-|N  <br/> |xsd:string  <br/> |required  <br/> |Represents the name of the ShapeSheet cell.  <br/> |The name of the ShapeSheet cell.  <br/> See the Remarks section below.  <br/> |
-|U  <br/> |xsd:string  <br/> |optional  <br/> |Represents a unit of measure The default is DL.  <br/> |The units of the cell.  <br/> |
-|V  <br/> |xsd:string  <br/> |optional  <br/> |Represents the value of the cell.  <br/> |The value of the ShapeSheet cell.  <br/> |
+|E  <br/> |xsd:string  <br/> |optional  <br/> |Indicates that the formula evaluates to an error. The value of **E** is the current value (an error message string); the value of the **V** attribute is the last valid value. |An error message string. |
+|F  <br/> |xsd:string  <br/> |optional  <br/> | Represents the element's formula. This attribute can contain one of the following strings:  <br/>  '(some formula)' if the formula exists locally  <br/>  `No Formula` if the formula is locally deleted or blocked  <br/>  `Inh` if the formula is inherited. |A formula. |
+|N  <br/> |xsd:string  <br/> |required  <br/> |Represents the name of the ShapeSheet cell. |The name of the ShapeSheet cell. See the Remarks section below. |
+|U  <br/> |xsd:string  <br/> |optional  <br/> |Represents a unit of measure The default is DL. |The units of the cell. |
+|V  <br/> |xsd:string  <br/> |optional  <br/> |Represents the value of the cell. |The value of the ShapeSheet cell. |
    
 ## Remarks
 
@@ -64,13 +64,13 @@ The **N** attribute of this **Cell** element must be one of a limited set of val
   
 |**Value**|**Description**|**More information**|
 |:-----|:-----|:-----|
-|CanGlue  <br/> |Determines whether a control handle can be glued to other shapes.  <br/> |[Can Glue Cell (Controls Section)](can-glue-cell-controls-section.md) <br/> |
-|Prompt  <br/> |Represents a descriptive text string that appears as a ToolTip when a user pauses the pointer over a shape's control handle.  <br/> |[Tip Cell (Controls Section)](tip-cell-controls-section.md) <br/> |
-|X  <br/> |Represents the x-coordinate that indicates the location of a shape's control handle in local coordinates.  <br/> |[X Cell (Controls Section)](x-cell-controls-section.md) <br/> |
-|xCon  <br/> |Specifies the type of behavior the x-coordinate of the control handle exhibits after the handle is moved.  <br/> |None.  <br/> |
-|xDyn  <br/> |Represents the x-coordinate for a control handle's anchor point in local coordinates.  <br/> |[X Dynamics Cell (Controls Section)](x-dynamics-cell-controls-section.md) <br/> |
-|Y  <br/> |Represents the y-coordinate that indicates the location of a shape's control handle in local coordinates.  <br/> |[Y Cell (Controls Section)](y-cell-controls-section.md) <br/> |
-|YCon  <br/> |Specifies the type of behavior the y-coordinate of the control handle will exhibit after the handle is moved.  <br/> |None.  <br/> |
-|YDyn  <br/> |Represents the y-coordinate for a control handle's anchor point in local coordinates.  <br/> |[Y Dynamics Cell (Controls Section)](y-dynamics-cell-controls-section.md) <br/> |
+|CanGlue  <br/> |Determines whether a control handle can be glued to other shapes. |[Can Glue Cell (Controls Section)](can-glue-cell-controls-section.md) <br/> |
+|Prompt  <br/> |Represents a descriptive text string that appears as a ToolTip when a user pauses the pointer over a shape's control handle. |[Tip Cell (Controls Section)](tip-cell-controls-section.md) <br/> |
+|X  <br/> |Represents the x-coordinate that indicates the location of a shape's control handle in local coordinates. |[X Cell (Controls Section)](x-cell-controls-section.md) <br/> |
+|xCon  <br/> |Specifies the type of behavior the x-coordinate of the control handle exhibits after the handle is moved. |None. |
+|xDyn  <br/> |Represents the x-coordinate for a control handle's anchor point in local coordinates. |[X Dynamics Cell (Controls Section)](x-dynamics-cell-controls-section.md) <br/> |
+|Y  <br/> |Represents the y-coordinate that indicates the location of a shape's control handle in local coordinates. |[Y Cell (Controls Section)](y-cell-controls-section.md) <br/> |
+|YCon  <br/> |Specifies the type of behavior the y-coordinate of the control handle will exhibit after the handle is moved. |None. |
+|YDyn  <br/> |Represents the y-coordinate for a control handle's anchor point in local coordinates. |[Y Dynamics Cell (Controls Section)](y-dynamics-cell-controls-section.md) <br/> |
    
 

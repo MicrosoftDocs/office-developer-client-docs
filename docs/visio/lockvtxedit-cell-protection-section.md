@@ -20,8 +20,8 @@ Locks the vertices of a shape so that they cannot be edited.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Vertices cannot be edited.  <br/> |
-|FALSE  <br/> |Vertices can be edited.  <br/> |
+|TRUE  <br/> |Vertices cannot be edited. |
+|FALSE  <br/> |Vertices can be edited. |
    
 ## Remarks
 

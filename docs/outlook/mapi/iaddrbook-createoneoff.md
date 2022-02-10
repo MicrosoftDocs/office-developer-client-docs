@@ -91,7 +91,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|Mapiabfunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI uses the **CreateOneOff** method to create an entry ID for an address that is not found in any address book.  <br/> |
+|Mapiabfunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI uses the **CreateOneOff** method to create an entry ID for an address that is not found in any address book. |
    
 ## See also
 

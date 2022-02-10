@@ -38,12 +38,12 @@ The response status must be one of the values in the table below.
   
 |**Response status**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|respNone  <br/> |0x00000000  <br/> |No response is required for this object. This is the case for appointment objects and meeting response objects.  <br/> |
-|respOrganized  <br/> |0x00000001  <br/> |This meeting belongs to the organizer.  <br/> |
-|respTentative  <br/> |0x00000002  <br/> |This value on the attendee's meeting indicates that the attendee has tentatively accepted the meeting request.  <br/> |
-|respAccepted  <br/> |0x00000003  <br/> |This value on the attendee's meeting t indicates that the attendee has accepted the meeting request.  <br/> |
-|respDeclined  <br/> |0x00000004  <br/> |This value on the attendee's meeting indicates that the attendee has declined the meeting request.  <br/> |
-|respNotResponded  <br/> |0x00000005  <br/> |This value on the attendee's meeting indicates the attendee has not yet responded. This value is on the meeting request, meeting update, and meeting cancelation.  <br/> |
+|respNone  <br/> |0x00000000  <br/> |No response is required for this object. This is the case for appointment objects and meeting response objects. |
+|respOrganized  <br/> |0x00000001  <br/> |This meeting belongs to the organizer. |
+|respTentative  <br/> |0x00000002  <br/> |This value on the attendee's meeting indicates that the attendee has tentatively accepted the meeting request. |
+|respAccepted  <br/> |0x00000003  <br/> |This value on the attendee's meeting t indicates that the attendee has accepted the meeting request. |
+|respDeclined  <br/> |0x00000004  <br/> |This value on the attendee's meeting indicates that the attendee has declined the meeting request. |
+|respNotResponded  <br/> |0x00000005  <br/> |This value on the attendee's meeting indicates the attendee has not yet responded. This value is on the meeting request, meeting update, and meeting cancelation. |
    
 ## Related resources
 

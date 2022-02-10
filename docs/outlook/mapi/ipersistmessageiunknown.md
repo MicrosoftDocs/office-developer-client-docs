@@ -37,14 +37,14 @@ Enables form viewers to handle the storage of a form and to transition between t
 
 |||
 |:-----|:-----|
-|[GetLastError](ipersistmessage-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error in the form object.  <br/> |
-|[GetClassID](ipersistmessage-getclassid.md) <br/> |Returns an identifier that represents the form server that can manage the form.  <br/> |
-|[IsDirty](ipersistmessage-isdirty.md) <br/> |Checks the form for changes that were made since the last save.  <br/> |
-|[InitNew](ipersistmessage-initnew.md) <br/> |Initializes a new message.  <br/> |
-|[Load](ipersistmessage-load.md) <br/> |Loads the form for a specified message.  <br/> |
-|[Save](ipersistmessage-save.md) <br/> |Saves a revised form back to the message from which it was loaded or created.  <br/> |
-|[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |Notifies the form that a save operation has been completed.  <br/> |
-|[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Causes the form to release its current message.  <br/> |
+|[GetLastError](ipersistmessage-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error in the form object. |
+|[GetClassID](ipersistmessage-getclassid.md) <br/> |Returns an identifier that represents the form server that can manage the form. |
+|[IsDirty](ipersistmessage-isdirty.md) <br/> |Checks the form for changes that were made since the last save. |
+|[InitNew](ipersistmessage-initnew.md) <br/> |Initializes a new message. |
+|[Load](ipersistmessage-load.md) <br/> |Loads the form for a specified message. |
+|[Save](ipersistmessage-save.md) <br/> |Saves a revised form back to the message from which it was loaded or created. |
+|[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |Notifies the form that a save operation has been completed. |
+|[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Causes the form to release its current message. |
    
 ## Remarks
 

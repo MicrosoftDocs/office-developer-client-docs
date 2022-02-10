@@ -27,14 +27,14 @@ To get a reference to the Size cell by name from another formula, or from a prog
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Char.Size[  *i*  ]            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Char.Size[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Size cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionCharacter** <br/> |
-| Row index:  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCharacterSize** <br/> |
    
 

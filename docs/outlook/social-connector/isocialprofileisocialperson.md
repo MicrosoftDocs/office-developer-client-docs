@@ -20,9 +20,9 @@ The following table shows the members that are available on the **ISocialProfile
   
 |**Name**|**Member type**|**Description**|
 |:-----|:-----|:-----|
-|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Method  <br/> |Determines whether the specified users are friends.  <br/> |
-|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Method  <br/> |This method has been deprecated since Outlook Social Connector 2013.  <br/> |
-|[SetStatus](isocialprofile-setstatus.md) <br/> |Method  <br/> |This method is currently not supported.  <br/> |
+|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Method  <br/> |Determines whether the specified users are friends. |
+|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Method  <br/> |This method has been deprecated since Outlook Social Connector 2013. |
+|[SetStatus](isocialprofile-setstatus.md) <br/> |Method  <br/> |This method is currently not supported. |
    
 ## Remarks
 

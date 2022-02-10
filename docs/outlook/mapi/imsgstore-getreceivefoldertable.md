@@ -74,7 +74,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDisplayReceiveFolderTable  <br/> |MFCMAPI uses the **IMsgStore::GetReceiveFolderTable** method to get the receive folder table to display.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDisplayReceiveFolderTable  <br/> |MFCMAPI uses the **IMsgStore::GetReceiveFolderTable** method to get the receive folder table to display. |
    
 ## See also
 

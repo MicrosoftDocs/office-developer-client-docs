@@ -26,13 +26,13 @@ The **XDocumentsCollection** interface provides the following methods and proper
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Close](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Close.aspx) method  <br/> |Closes the specified form.  <br/> |
-|[New](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.New.aspx) method  <br/> |Creates a new form based on an existing form.  <br/> |
-|[NewFromSolution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolution.aspx) method  <br/> |Creates a new form based on an existing form template.  <br/> |
-|[NewFromSolutionWithData](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolutionWithData.aspx) method  <br/> |Creates a new InfoPath form using the specified XML data and form template.  <br/> |
-|[Open](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open.aspx) method  <br/> |Opens the specified form.  <br/> |
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count.aspx) property  <br/> |Returns a count of the number of **XDocument** objects contained in the collection.  <br/> |
-|[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item.aspx) property  <br/> |Returns a reference to the specified **XDocument** object.  <br/> |
+|[Close](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Close.aspx) method  <br/> |Closes the specified form. |
+|[New](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.New.aspx) method  <br/> |Creates a new form based on an existing form. |
+|[NewFromSolution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolution.aspx) method  <br/> |Creates a new form based on an existing form template. |
+|[NewFromSolutionWithData](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.NewFromSolutionWithData.aspx) method  <br/> |Creates a new InfoPath form using the specified XML data and form template. |
+|[Open](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Open.aspx) method  <br/> |Opens the specified form. |
+|[Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Count.aspx) property  <br/> |Returns a count of the number of **XDocument** objects contained in the collection. |
+|[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Item.aspx) property  <br/> |Returns a reference to the specified **XDocument** object. |
    
 ## Overview of the XDocument Interface
 
@@ -40,31 +40,31 @@ The **XDocument** interface provides the following methods and properties, which
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[GetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDataVariable.aspx) method  <br/> |Returns the string value of a specified data variable.  <br/> |
-|[GetDOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDOM.aspx) method  <br/> |Returns a reference to the XML Document Object Model (DOM) associated with the specified **DataObject** object.  <br/> |
-|[ImportFile](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ImportFile.aspx) method  <br/> |Imports (or merges) the specified form with the currently open form.  <br/> |
-|[PrintOut](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.PrintOut.aspx) method  <br/> |Prints the current view of a form.  <br/> |
-|[Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Query.aspx) method  <br/> |Retrieves data from a form's associated data adapter.  <br/> |
-|[Save](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Save.aspx) method  <br/> |Saves the currently open form.  <br/> |
-|[SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SaveAs.aspx) method  <br/> |Saves the currently open form with the specified name.  <br/> |
-|[SetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SetDataVariable.aspx) method  <br/> |Sets the value of a specified data variable.  <br/> |
-|[Submit](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Submit.aspx) method  <br/> |Submits a form according to the submit operation established in design mode.  <br/> |
-|[DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx) property  <br/> |Returns a reference to the **DataObjects** collection.  <br/> |
-|[DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) property  <br/> |Returns a reference to the XML DOM that is populated with the source XML data of a form.  <br/> |
-|[Errors](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Errors.aspx) property  <br/> |Returns a reference to the **Errors** collection.  <br/> |
-|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Extension.aspx) property  <br/> |Returns a reference to an object representing all of the functions and variables contained in a form code file.  <br/> |
-|[IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx) property  <br/> |Returns a **Boolean** value indicating whether the data in the form has been changed.  <br/> |
-|[IsDOMReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDOMReadOnly.aspx) property  <br/> |Returns a **Boolean** value indicating whether the XML DOM is set as read-only.  <br/> |
-|[IsNew](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsNew.aspx) property  <br/> |Returns a **Boolean** value indicating whether the form was saved after it was created.  <br/> |
-|[IsReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsReadOnly.aspx) property  <br/> |Returns a **Boolean** value indicating whether the form is in read-only mode.  <br/> |
-|[IsSigned](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx) property  <br/> |Returns a **Boolean** value indicating whether the form is digitally signed.  <br/> |
-|[Language](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Language.aspx) property  <br/> |Specifies or returns the string value of the language used for the form.  <br/> |
-|[QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.QueryAdapter.aspx) property  <br/> |Returns a reference to the data adapter object.  <br/> |
-|[Solution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx) property  <br/> |Returns a reference to the **Solution** object.  <br/> |
-|[UI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx) property  <br/> |Returns a reference to the **UI** object.  <br/> |
-|[URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.URI.aspx) property  <br/> |Returns a string value containing the Uniform Resource Identifier (URI) of the form.  <br/> |
-|[View](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) property  <br/> |Returns a reference to the **View** object.  <br/> |
-|[ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ViewInfos.aspx) property  <br/> |Returns a reference to the **ViewInfos** collection.  <br/> |
+|[GetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDataVariable.aspx) method  <br/> |Returns the string value of a specified data variable. |
+|[GetDOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDOM.aspx) method  <br/> |Returns a reference to the XML Document Object Model (DOM) associated with the specified **DataObject** object. |
+|[ImportFile](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ImportFile.aspx) method  <br/> |Imports (or merges) the specified form with the currently open form. |
+|[PrintOut](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.PrintOut.aspx) method  <br/> |Prints the current view of a form. |
+|[Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Query.aspx) method  <br/> |Retrieves data from a form's associated data adapter. |
+|[Save](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Save.aspx) method  <br/> |Saves the currently open form. |
+|[SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SaveAs.aspx) method  <br/> |Saves the currently open form with the specified name. |
+|[SetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SetDataVariable.aspx) method  <br/> |Sets the value of a specified data variable. |
+|[Submit](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Submit.aspx) method  <br/> |Submits a form according to the submit operation established in design mode. |
+|[DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx) property  <br/> |Returns a reference to the **DataObjects** collection. |
+|[DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) property  <br/> |Returns a reference to the XML DOM that is populated with the source XML data of a form. |
+|[Errors](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Errors.aspx) property  <br/> |Returns a reference to the **Errors** collection. |
+|[Extension](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Extension.aspx) property  <br/> |Returns a reference to an object representing all of the functions and variables contained in a form code file. |
+|[IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx) property  <br/> |Returns a **Boolean** value indicating whether the data in the form has been changed. |
+|[IsDOMReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDOMReadOnly.aspx) property  <br/> |Returns a **Boolean** value indicating whether the XML DOM is set as read-only. |
+|[IsNew](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsNew.aspx) property  <br/> |Returns a **Boolean** value indicating whether the form was saved after it was created. |
+|[IsReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsReadOnly.aspx) property  <br/> |Returns a **Boolean** value indicating whether the form is in read-only mode. |
+|[IsSigned](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx) property  <br/> |Returns a **Boolean** value indicating whether the form is digitally signed. |
+|[Language](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Language.aspx) property  <br/> |Specifies or returns the string value of the language used for the form. |
+|[QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.QueryAdapter.aspx) property  <br/> |Returns a reference to the data adapter object. |
+|[Solution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx) property  <br/> |Returns a reference to the **Solution** object. |
+|[UI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.UI.aspx) property  <br/> |Returns a reference to the **UI** object. |
+|[URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.URI.aspx) property  <br/> |Returns a string value containing the Uniform Resource Identifier (URI) of the form. |
+|[View](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) property  <br/> |Returns a reference to the **View** object. |
+|[ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.ViewInfos.aspx) property  <br/> |Returns a reference to the **ViewInfos** collection. |
    
 ## Using the XDocuments Collection and the XDocument Interfaces
 

@@ -22,11 +22,11 @@ The Uninitialized state is the initial state form objects should be in when they
   
 |**IPersistMessage method**|**Action**|**New state**|
 |:-----|:-----|:-----|
-|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Load the form object with default data.  <br/> |[Normal](normal-state.md) <br/> |
-|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Load the form object with data from the target message.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Return success, or set the last error to and return E_UNEXPECTED.  <br/> |Uninitialized  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Return the last error.  <br/> |Uninitialized  <br/> |
-|Other [IPersistMessage : IUnknown](ipersistmessageiunknown.md) methods or methods from other interfaces  <br/> |Set the last error to and return E_UNEXPECTED.  <br/> |Uninitialized  <br/> |
+|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Load the form object with default data. |[Normal](normal-state.md) <br/> |
+|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Load the form object with data from the target message. |Normal  <br/> |
+|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Return success, or set the last error to and return E_UNEXPECTED. |Uninitialized  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Return the last error. |Uninitialized  <br/> |
+|Other [IPersistMessage : IUnknown](ipersistmessageiunknown.md) methods or methods from other interfaces  <br/> |Set the last error to and return E_UNEXPECTED. |Uninitialized  <br/> |
    
 ## See also
 

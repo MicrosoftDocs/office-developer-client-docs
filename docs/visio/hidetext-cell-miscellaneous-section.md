@@ -20,8 +20,8 @@ Hides the text for a shape. You can view text, edit properties, and apply styles
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Text is hidden and does not print.  <br/> |
-| FALSE  <br/> | Text is not hidden.  <br/> |
+| TRUE  <br/> | Text is hidden and does not print. |
+| FALSE  <br/> | Text is not hidden. |
    
 ## Remarks
 

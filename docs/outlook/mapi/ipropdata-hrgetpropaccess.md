@@ -43,8 +43,8 @@ HRESULT HrGetPropAccess(
     
 |**Access-level flag**|**Status flag**|
 |:-----|:-----|
-|IPROP_READONLY, which indicates that the property cannot be modified.  <br/> |IPROP_CLEAN, which indicates that the property has not been modified.  <br/> |
-|IPROP_READWRITE, which indicates that the property can be modified.  <br/> |IPROP_DIRTY, which indicates that the property has been modified.  <br/> |
+|IPROP_READONLY, which indicates that the property cannot be modified. |IPROP_CLEAN, which indicates that the property has not been modified. |
+|IPROP_READWRITE, which indicates that the property can be modified. |IPROP_DIRTY, which indicates that the property has been modified. |
    
 ## Return value
 

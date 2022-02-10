@@ -29,9 +29,9 @@ The **TimeFromParts** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Hour*  <br/> |Integer expression specifying hours.  <br/> |
-| *Minute*  <br/> |Integer expression specifying minutes.  <br/> |
-| *Second*  <br/> |Integer expression specifying seconds.  <br/> |
+| *Hour*  <br/> |Integer expression specifying hours. |
+| *Minute*  <br/> |Integer expression specifying minutes. |
+| *Second*  <br/> |Integer expression specifying seconds. |
 
 ## See also
 

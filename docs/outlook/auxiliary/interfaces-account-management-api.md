@@ -15,11 +15,11 @@ This section describes the interfaces in the Account Management API.
   
 |**Interface**|**Description**|
 |:-----|:-----|
-|[IOlkAccount](iolkaccount.md) <br/> |Supports getting and setting of properties and other information about an account.  <br/> |
-|[IOlkAccountHelper](iolkaccounthelper.md) <br/> |Provides helper functionality in the current MAPI session to manage accounts.  <br/> |
-|[IOlkAccountManager](iolkaccountmanager.md) <br/> |Manages access to accounts and sets up notifications about account changes.  <br/> |
-|[IOlkAccountNotify](iolkaccountnotify.md) <br/> |Provides a callback to the client for changes to an account.  <br/> |
-|[IOlkEnum](iolkenum.md) <br/> |Supports enumerating accounts as [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) objects.  <br/> |
-|[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |Provides extra information about the last error.  <br/> |
+|[IOlkAccount](iolkaccount.md) <br/> |Supports getting and setting of properties and other information about an account. |
+|[IOlkAccountHelper](iolkaccounthelper.md) <br/> |Provides helper functionality in the current MAPI session to manage accounts. |
+|[IOlkAccountManager](iolkaccountmanager.md) <br/> |Manages access to accounts and sets up notifications about account changes. |
+|[IOlkAccountNotify](iolkaccountnotify.md) <br/> |Provides a callback to the client for changes to an account. |
+|[IOlkEnum](iolkenum.md) <br/> |Supports enumerating accounts as [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) objects. |
+|[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |Provides extra information about the last error. |
    
 

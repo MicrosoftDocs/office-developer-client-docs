@@ -143,7 +143,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI uses the **IMAPISession::OpenMsgStore** method to open a message store.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |CallOpenMsgStore  <br/> |MFCMAPI uses the **IMAPISession::OpenMsgStore** method to open a message store. |
    
 ## See also
 

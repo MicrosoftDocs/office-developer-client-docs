@@ -22,8 +22,8 @@ User-defined Cells rows are named User. *name*  and contain the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[Value](value-cell-user-defined-cells-section.md) <br/> |Specifies a value for the corresponding user-defined cell.  <br/> |
-|[Prompt](prompt-cell-user-defined-cells-section.md) <br/> |Specifies a descriptive prompt or comment for the user-defined cell.  <br/> |
+|[Value](value-cell-user-defined-cells-section.md) <br/> |Specifies a value for the corresponding user-defined cell. |
+|[Prompt](prompt-cell-user-defined-cells-section.md) <br/> |Specifies a descriptive prompt or comment for the user-defined cell. |
    
 ## Remarks
 

@@ -38,9 +38,9 @@ The following table shows the possible values of this property.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Document is not checked out.  <br/> |
-|1  <br/> |Document is checked out to the current user.  <br/> |
-|2  <br/> |Document is not checked out, but the current user has a copy of the file saved for editing on the current computer.  <br/> |
+|0  <br/> |Document is not checked out. |
+|1  <br/> |Document is checked out to the current user. |
+|2  <br/> |Document is not checked out, but the current user has a copy of the file saved for editing on the current computer. |
    
 This property is calculated locally and is not sent to a server at any time unless a user drags the item to another account. In that case, it is treated as a user-defined custom property.
   

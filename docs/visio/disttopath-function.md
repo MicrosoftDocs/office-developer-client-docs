@@ -28,9 +28,9 @@ DISTTOPATH(***section***, ***x***, ***y*** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path).  <br/> |
-| _x_ <br/> |Required  <br/> |**Double** <br/> |The  _x_-coordinate of the point.  <br/> |
-| _y_ <br/> |Required  <br/> |**Double** <br/> |The  _y_-coordinate of the point.  <br/> |
+| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path). |
+| _x_ <br/> |Required  <br/> |**Double** <br/> |The  _x_-coordinate of the point. |
+| _y_ <br/> |Required  <br/> |**Double** <br/> |The  _y_-coordinate of the point. |
    
 ### Return value
 

@@ -20,8 +20,8 @@ Specifies whether shapes belonging to the layer are locked against being selecte
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Shapes are locked.  <br/> |
-|FALSE  <br/> |Shapes are not locked.  <br/> |
+|TRUE  <br/> |Shapes are locked. |
+|FALSE  <br/> |Shapes are not locked. |
    
 ## Remarks
 
@@ -31,14 +31,14 @@ To get a reference to the Lock cell by name from another formula, or from a prog
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Locked[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Layers.Locked[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Lock cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visLayerLock** <br/> |
    
 

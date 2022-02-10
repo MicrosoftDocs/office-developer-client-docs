@@ -108,7 +108,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnSetDefaultStore  <br/> |MFCMAPI uses the **IMAPISession::SetDefaultStore** method to set the selected store as the default store.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnSetDefaultStore  <br/> |MFCMAPI uses the **IMAPISession::SetDefaultStore** method to set the selected store as the default store. |
    
 ## See also
 

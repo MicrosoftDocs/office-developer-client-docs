@@ -26,8 +26,8 @@ ROUND(** *number* **, ** *numberofdigits* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round off.  <br/> |
-| _numberofdigits_ <br/> |Required  <br/> |**Number** <br/> |The number of decimal places of precision.  <br/> |
+| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round off. |
+| _numberofdigits_ <br/> |Required  <br/> |**Number** <br/> |The number of decimal places of precision. |
    
 ## Remarks
 

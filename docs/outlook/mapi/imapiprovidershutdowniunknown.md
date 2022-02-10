@@ -37,9 +37,9 @@ Allows the MAPI subsystem to inform a MAPI provider of the fast shutdown of a MA
 
 |||
 |:-----|:-----|
-|[QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) <br/> |Queries the MAPI provider for fast shutdown support.  <br/> |
-|[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown, so that the provider can take actions to prevent data loss.  <br/> |
-|[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |Indicates to the MAPI provider that the MAPI client is exiting immediately, so that the MAPI provider will persist changes to prevent data loss.  <br/> |
+|[QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) <br/> |Queries the MAPI provider for fast shutdown support. |
+|[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown, so that the provider can take actions to prevent data loss. |
+|[DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) <br/> |Indicates to the MAPI provider that the MAPI client is exiting immediately, so that the MAPI provider will persist changes to prevent data loss. |
    
 ## Remarks
 

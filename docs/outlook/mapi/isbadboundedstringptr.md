@@ -24,7 +24,7 @@ Verifies that the calling process has read access to the specified range of memo
 |:-----|:-----|
 |Header file:  <br/> |mapiwin.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
-|Called by:  <br/> |Client applications and service providers.  <br/> |
+|Called by:  <br/> |Client applications and service providers. |
    
 ```cpp
 BOOL IsBadBoundedStringPtr(

@@ -18,12 +18,12 @@ The following table describes the six elements that the **activityDetails** elem
   
 |**Element**|**Description**|
 |:-----|:-----|
-|**ownerID** <br/> |The ID of the user on the social network who generated this activity feed item.  <br/> |
-|**objectID** <br/> |A unique string for the activity feed item to detect duplicate feed items.  <br/> |
-|**applicationId** <br/> |One of two unique IDs that are used to match the activity feed item with its template. If you have multiple applications or other groupings, this can be used as a first-tier template organizer.  <br/> |
-|**templateId** <br/> |The second unique ID that is used to match the activity feed item with its template. This can be used as a second-tier template organizer.  <br/> |
-|**publishDate** <br/> |The date and time that the activity feed item was published.  <br/> |
-|**templateVariables** <br/> |The data to be used in the tokens for the activity feed item template.  <br/> |
+|**ownerID** <br/> |The ID of the user on the social network who generated this activity feed item. |
+|**objectID** <br/> |A unique string for the activity feed item to detect duplicate feed items. |
+|**applicationId** <br/> |One of two unique IDs that are used to match the activity feed item with its template. If you have multiple applications or other groupings, this can be used as a first-tier template organizer. |
+|**templateId** <br/> |The second unique ID that is used to match the activity feed item with its template. This can be used as a second-tier template organizer. |
+|**publishDate** <br/> |The date and time that the activity feed item was published. |
+|**templateVariables** <br/> |The data to be used in the tokens for the activity feed item template. |
    
 For an example of activity feed XML, see [Activity Feed XML Example](activity-feed-xml-example.md)
   

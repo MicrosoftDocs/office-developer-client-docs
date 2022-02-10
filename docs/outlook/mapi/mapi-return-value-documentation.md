@@ -24,14 +24,14 @@ The following table describes error values that are commonly returned from metho
   
 |**Return value**|**Description**|
 |:-----|:-----|
-|MAPI_E_INVALID_PARAMETER  <br/> |One or more of the parameters passed into the method or functions were not valid.  <br/> |
-|MAPI_E_UNKNOWN_FLAGS  <br/> |One or more values for a flags parameter were not valid.  <br/> |
-|MAPI_E_DISK_ERROR  <br/> |There was a problem writing to or reading from disk.  <br/> |
-|MAPI_E_NOT_ENOUGH_DISK  <br/> |Not enough disk space was available to complete the operation.  <br/> |
-|MAPI_E_NOT_ENOUGH_MEMORY  <br/> |Not enough memory was available to complete the operation.  <br/> |
-|MAPI_E_NOT_ENOUGH_RESOURCES  <br/> |Not enough system resources were available to complete the operation.  <br/> |
-|MAPI_E_BAD_CHARWIDTH  <br/> |An incompatibility exists in the character sets supported by the caller and the implementation.  <br/> |
-|MAPI_E_CALL_FAILED  <br/> |An error of unexpected or unknown origin occurred.  <br/> |
+|MAPI_E_INVALID_PARAMETER  <br/> |One or more of the parameters passed into the method or functions were not valid. |
+|MAPI_E_UNKNOWN_FLAGS  <br/> |One or more values for a flags parameter were not valid. |
+|MAPI_E_DISK_ERROR  <br/> |There was a problem writing to or reading from disk. |
+|MAPI_E_NOT_ENOUGH_DISK  <br/> |Not enough disk space was available to complete the operation. |
+|MAPI_E_NOT_ENOUGH_MEMORY  <br/> |Not enough memory was available to complete the operation. |
+|MAPI_E_NOT_ENOUGH_RESOURCES  <br/> |Not enough system resources were available to complete the operation. |
+|MAPI_E_BAD_CHARWIDTH  <br/> |An incompatibility exists in the character sets supported by the caller and the implementation. |
+|MAPI_E_CALL_FAILED  <br/> |An error of unexpected or unknown origin occurred. |
    
 The constants that represent MAPI return values are listed in the MAPICODE.H header file. Some of the constants map to Win32 errors; the mapping of these constants to numeric values can be found in the Win32 header file, WINERROR.H.
   

@@ -36,7 +36,7 @@ To get a reference to the Menu cell by index from a program, use the **CellsSRC*
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*  where i = 0, 1, 2, ...  <br/> |
+|Row index:  <br/> |**visRowAction** +  *i*  where i = 0, 1, 2, ... |
 |Cell index:  <br/> |**visActionMenu** <br/> |
    
 

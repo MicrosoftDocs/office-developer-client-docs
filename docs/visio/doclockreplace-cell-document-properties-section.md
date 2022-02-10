@@ -18,8 +18,8 @@ Determines whether the replace shape UI should be disabled for this document.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |The **Replace Shape** button is grayed out in the UI.  <br/> |
-|FALSE  <br/> |The **Replace Shape** button is active in the UI. Users can use the Replace Shape feature in this document.  <br/> |
+|TRUE  <br/> |The **Replace Shape** button is grayed out in the UI. |
+|FALSE  <br/> |The **Replace Shape** button is active in the UI. Users can use the Replace Shape feature in this document. |
    
 ## Remarks
 

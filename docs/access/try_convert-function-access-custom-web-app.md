@@ -27,8 +27,8 @@ The **Try_Convert** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *DataType*  <br/> |The data type into which to convert *Expression*.  <br/> |
-| *Expression*  <br/> |The value to be converted.  <br/> |
+| *DataType*  <br/> |The data type into which to convert *Expression*. |
+| *Expression*  <br/> |The value to be converted. |
 
 ## Remarks
 

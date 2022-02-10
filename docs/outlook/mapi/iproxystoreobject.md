@@ -37,7 +37,7 @@ Provides an Internet Message Access Protocol (IMAP) store object that has been u
 |||
 |:-----|:-----|
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
-|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Gets a pointer to an unwrapped IMAP store.  <br/> |
+|[IProxyStoreObject::UnwrapNoRef](iproxystoreobject-unwrapnoref.md) <br/> |Gets a pointer to an unwrapped IMAP store. |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
    
 ## Remarks

@@ -40,23 +40,23 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Row element (Paragraph Section)](row-element-paragraph-sectionvisio-xml.md) <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |Specifies a paragraph formatting attribute for the shape's text, such as indents, line spacing, bullets, or horizontal alignment of paragraphs.  <br/> |
+|[Row element (Paragraph Section)](row-element-paragraph-sectionvisio-xml.md) <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |Specifies a paragraph formatting attribute for the shape's text, such as indents, line spacing, bullets, or horizontal alignment of paragraphs. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Specifies a reference to a drawing page.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Specifies a reference to a drawing page. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd:string  <br/> |optional  <br/> |Indicates that the formula evaluates to an error. The value of **E** is the current value (an error message string); the value of the **V** attribute is the last valid value.  <br/> |An error message string.  <br/> |
-|F  <br/> |xsd:string  <br/> |optional  <br/> | Represents the element's formula. This attribute can contain one of the following strings:  <br/>  '(some formula)' if the formula exists locally  <br/>  `No Formula` if the formula is locally deleted or blocked  <br/>  `Inh` if the formula is inherited.  <br/> |A formula.  <br/> |
-|N  <br/> |xsd:string  <br/> |required  <br/> |Represents the name of the ShapeSheet cell.  <br/> |The name of the ShapeSheet cell.  <br/> See the Remarks section below.  <br/> |
-|U  <br/> |xsd:string  <br/> |optional  <br/> |Represents a unit of measure The default is DL.  <br/> |The units of the cell.  <br/> |
-|V  <br/> |xsd:string  <br/> |optional  <br/> |Represents the value of the cell.  <br/> |The value of the ShapeSheet cell.  <br/> |
+|E  <br/> |xsd:string  <br/> |optional  <br/> |Indicates that the formula evaluates to an error. The value of **E** is the current value (an error message string); the value of the **V** attribute is the last valid value. |An error message string. |
+|F  <br/> |xsd:string  <br/> |optional  <br/> | Represents the element's formula. This attribute can contain one of the following strings:  <br/>  '(some formula)' if the formula exists locally  <br/>  `No Formula` if the formula is locally deleted or blocked  <br/>  `Inh` if the formula is inherited. |A formula. |
+|N  <br/> |xsd:string  <br/> |required  <br/> |Represents the name of the ShapeSheet cell. |The name of the ShapeSheet cell. See the Remarks section below. |
+|U  <br/> |xsd:string  <br/> |optional  <br/> |Represents a unit of measure The default is DL. |The units of the cell. |
+|V  <br/> |xsd:string  <br/> |optional  <br/> |Represents the value of the cell. |The value of the ShapeSheet cell. |
    
 ## Remarks
 
@@ -64,18 +64,18 @@ The **N** attribute of this **Cell** element must be one of a limited set of val
   
 |**Value**|**Description**|**More information**|
 |:-----|:-----|:-----|
-|Bullet  <br/> |Determines the bullet style.  <br/> |[Bullet Cell (Paragraph Section)](bullet-cell-paragraph-section.md) <br/> |
-|BulletFont  <br/> |Represents the number of the font used to format the text when a custom bullet string is specified and the value in the Bullet cell is non-zero.  <br/> |[BulletFont Cell (Paragraph Section)](bulletfont-cell-paragraph-section.md) <br/> |
-|BulletFontSize  <br/> |Specifies the size of a bullet.  <br/> |[BulletSize Cell (Paragraph Section)](bulletsize-cell-paragraph-section.md) <br/> |
-|BulletStr  <br/> |Allows you to create a custom bullet style.  <br/> |[BulletString Cell (Paragraph Section)](bulletstring-cell-paragraph-section.md) <br/> |
-|Flags  <br/> |Indicates whether the text direction is left to right or right to left.  <br/> |[Flags Cell (Paragraph Section)](flags-cell-paragraph-section.md) <br/> |
-|HorzAlign  <br/> |Determines the horizontal alignment of text in the shape's text block.  <br/> |[HAlign Cell (Paragraph Section)](halign-cell-paragraph-section.md) <br/> |
-|IndFirst  <br/> |Represents the distance the first line of each paragraph in the shape's text block is indented from the left indent of the paragraph. This value is independent of the scale of the drawing. If the drawing is scaled, the first line indent remains the same.  <br/> |[IndFirst Cell (Paragraph Section)](indfirst-cell-paragraph-section.md) <br/> |
-|IndLeft  <br/> |Represents the distance all lines of text in a paragraph are indented from the left margin of the text block. This value is independent of the scale of the drawing. If the drawing is scaled, the left indent remains the same.  <br/> |[IndLeft Cell (Paragraph Section)](indleft-cell-paragraph-section.md) <br/> |
-|IndRight  <br/> |Represents the distance all lines of text in a paragraph are indented from the right margin of the text block. This value is independent of the scale of the drawing. If the drawing is scaled, the right indent remains the same.  <br/> |[IndRight Cell (Paragraph Section)](indright-cell-paragraph-section.md) <br/> |
-|SpAfter  <br/> |Determines the amount of space inserted after each paragraph in the shape's text block, in addition to any space from the SpLine cell and, if it is the last paragraph in a text block, the BottomMargin cell.  <br/> |[SpAfter Cell (Paragraph Section)](spafter-cell-paragraph-section.md) <br/> |
-|SpBefore  <br/> |Determines the amount of space inserted before each paragraph in the shape's text block, in addition to any space from the SpLine cell if it is the first paragraph in a text block, the TopMargin cell.  <br/> |[SpBefore Cell (Paragraph Section)](spbefore-cell-paragraph-section.md) <br/> |
-|SpLine  <br/> |Determines the distance between one line of text and the next, expressed as a percentage, where 100% is the height of a text line.  <br/> |[SpLine Cell (Paragraph Section)](spline-cell-paragraph-section.md) <br/> |
-|TextPosAfterBullet  <br/> |Represents the distance between the first line of the paragraph and the bullet.  <br/> |[TextPosAfterBullet Cell (Paragraph Section)](textposafterbullet-cell-paragraph-section.md) <br/> |
+|Bullet  <br/> |Determines the bullet style. |[Bullet Cell (Paragraph Section)](bullet-cell-paragraph-section.md) <br/> |
+|BulletFont  <br/> |Represents the number of the font used to format the text when a custom bullet string is specified and the value in the Bullet cell is non-zero. |[BulletFont Cell (Paragraph Section)](bulletfont-cell-paragraph-section.md) <br/> |
+|BulletFontSize  <br/> |Specifies the size of a bullet. |[BulletSize Cell (Paragraph Section)](bulletsize-cell-paragraph-section.md) <br/> |
+|BulletStr  <br/> |Allows you to create a custom bullet style. |[BulletString Cell (Paragraph Section)](bulletstring-cell-paragraph-section.md) <br/> |
+|Flags  <br/> |Indicates whether the text direction is left to right or right to left. |[Flags Cell (Paragraph Section)](flags-cell-paragraph-section.md) <br/> |
+|HorzAlign  <br/> |Determines the horizontal alignment of text in the shape's text block. |[HAlign Cell (Paragraph Section)](halign-cell-paragraph-section.md) <br/> |
+|IndFirst  <br/> |Represents the distance the first line of each paragraph in the shape's text block is indented from the left indent of the paragraph. This value is independent of the scale of the drawing. If the drawing is scaled, the first line indent remains the same. |[IndFirst Cell (Paragraph Section)](indfirst-cell-paragraph-section.md) <br/> |
+|IndLeft  <br/> |Represents the distance all lines of text in a paragraph are indented from the left margin of the text block. This value is independent of the scale of the drawing. If the drawing is scaled, the left indent remains the same. |[IndLeft Cell (Paragraph Section)](indleft-cell-paragraph-section.md) <br/> |
+|IndRight  <br/> |Represents the distance all lines of text in a paragraph are indented from the right margin of the text block. This value is independent of the scale of the drawing. If the drawing is scaled, the right indent remains the same. |[IndRight Cell (Paragraph Section)](indright-cell-paragraph-section.md) <br/> |
+|SpAfter  <br/> |Determines the amount of space inserted after each paragraph in the shape's text block, in addition to any space from the SpLine cell and, if it is the last paragraph in a text block, the BottomMargin cell. |[SpAfter Cell (Paragraph Section)](spafter-cell-paragraph-section.md) <br/> |
+|SpBefore  <br/> |Determines the amount of space inserted before each paragraph in the shape's text block, in addition to any space from the SpLine cell if it is the first paragraph in a text block, the TopMargin cell. |[SpBefore Cell (Paragraph Section)](spbefore-cell-paragraph-section.md) <br/> |
+|SpLine  <br/> |Determines the distance between one line of text and the next, expressed as a percentage, where 100% is the height of a text line. |[SpLine Cell (Paragraph Section)](spline-cell-paragraph-section.md) <br/> |
+|TextPosAfterBullet  <br/> |Represents the distance between the first line of the paragraph and the bullet. |[TextPosAfterBullet Cell (Paragraph Section)](textposafterbullet-cell-paragraph-section.md) <br/> |
    
 

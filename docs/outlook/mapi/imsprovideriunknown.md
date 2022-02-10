@@ -37,10 +37,10 @@ Provides access to a message store provider through a message store provider obj
 
 |||
 |:-----|:-----|
-|[Shutdown](imsprovider-shutdown.md) <br/> |Closes a message store provider in an orderly fashion.  <br/> |
-|[Logon](imsprovider-logon.md) <br/> |Logs MAPI on to one instance of a message store provider.  <br/> |
-|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Logs the MAPI spooler on to a message store.  <br/> |
-|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compares two message store entry identifiers to determine whether they refer to the same store object.  <br/> |
+|[Shutdown](imsprovider-shutdown.md) <br/> |Closes a message store provider in an orderly fashion. |
+|[Logon](imsprovider-logon.md) <br/> |Logs MAPI on to one instance of a message store provider. |
+|[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Logs the MAPI spooler on to a message store. |
+|[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compares two message store entry identifiers to determine whether they refer to the same store object. |
    
 ## Remarks
 

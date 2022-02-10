@@ -34,12 +34,12 @@ The [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.In
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) method (+3 overloads)  <br/> |Creates a **FormError** object and adds it to the collection.  <br/> |
-|[Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) method (+1 overload)  <br/> |Deletes the specified user-defined error from the collection.  <br/> |
-|[DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx) method  <br/> |Deletes all **FormError** objects contained in the collection.  <br/> |
-|[GetErrors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+1 overload)  <br/> |Returns all **FormError** objects of the specified name or type from the collection.  <br/> |
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx) property  <br/> |Gets a count of the number of **FormError** objects contained in the collection.  <br/> |
-|[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx) property  <br/> |Gets a reference to an **FormError** object based on the specified index number.  <br/> |
+|[Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) method (+3 overloads)  <br/> |Creates a **FormError** object and adds it to the collection. |
+|[Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) method (+1 overload)  <br/> |Deletes the specified user-defined error from the collection. |
+|[DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx) method  <br/> |Deletes all **FormError** objects contained in the collection. |
+|[GetErrors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+1 overload)  <br/> |Returns all **FormError** objects of the specified name or type from the collection. |
+|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx) property  <br/> |Gets a count of the number of **FormError** objects contained in the collection. |
+|[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx) property  <br/> |Gets a reference to an **FormError** object based on the specified index number. |
    
 ## Overview of the FormError Class
 
@@ -47,11 +47,11 @@ The [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.For
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[DetailedMessage](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx) property  <br/> |Gets or sets the detailed error message of the **FormError** object.  <br/> |
-|[ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx) property  <br/> |Gets or sets the error code of the **FormError** object.  <br/> |
-|[Site](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx) property  <br/> |Gets an **XPathNavigator** object that is positioned at the node associated with the **FormError** object.  <br/> |
-|[Message](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Message.aspx) property  <br/> |Gets or sets the short error message of the **FormError** object.  <br/> |
-|[FormErrorType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.FormErrorType.aspx) property  <br/> |Gets the type of the **FormError** object.  <br/> |
+|[DetailedMessage](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx) property  <br/> |Gets or sets the detailed error message of the **FormError** object. |
+|[ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx) property  <br/> |Gets or sets the error code of the **FormError** object. |
+|[Site](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Site.aspx) property  <br/> |Gets an **XPathNavigator** object that is positioned at the node associated with the **FormError** object. |
+|[Message](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.Message.aspx) property  <br/> |Gets or sets the short error message of the **FormError** object. |
+|[FormErrorType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.FormErrorType.aspx) property  <br/> |Gets the type of the **FormError** object. |
    
 ## Using the FormErrorCollection and FormError Classes
 

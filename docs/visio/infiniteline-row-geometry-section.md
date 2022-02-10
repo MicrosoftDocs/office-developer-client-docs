@@ -22,10 +22,10 @@ An InfiniteLine row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the Y cell.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |A  *y*  -coordinate of a point on the infinite line; paired with  *x*  -coordinate represented by the X cell.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the B cell.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |A  *y*  -coordinate of a point on an infinite line; paired with  *x*  -coordinate represented by the A cell.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the Y cell. |
+|[Y](y-cell-geometry-section.md) <br/> |A  *y*  -coordinate of a point on the infinite line; paired with  *x*  -coordinate represented by the X cell. |
+|[A](a-cell-geometry-section.md) <br/> |An  *x*  -coordinate of a point on the infinite line; paired with  *y*  -coordinate represented by the B cell. |
+|[B](b-cell-geometry-section.md) <br/> |A  *y*  -coordinate of a point on an infinite line; paired with  *x*  -coordinate represented by the A cell. |
    
 ## Remarks
 

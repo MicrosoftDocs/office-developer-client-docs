@@ -20,8 +20,8 @@ Indicates whether this 1-D shape can be split.
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-| 0  <br/> | Do not allow this shape to be split.  <br/> |**visSLOSplittableNone** <br/> |
-| 1  <br/> | Allow this shape to be split.  <br/> |**visSLOSplittableAllow** <br/> |
+| 0  <br/> | Do not allow this shape to be split. |**visSLOSplittableNone** <br/> |
+| 1  <br/> | Allow this shape to be split. |**visSLOSplittableAllow** <br/> |
    
 ## Remarks
 

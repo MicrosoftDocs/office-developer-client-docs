@@ -61,7 +61,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI uses the **IMAPIFormInfo::CalcFormPropSet** method when writing debug output for form information objects.  <br/> |
+|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |MFCMAPI uses the **IMAPIFormInfo::CalcFormPropSet** method when writing debug output for form information objects. |
    
 ## See also
 

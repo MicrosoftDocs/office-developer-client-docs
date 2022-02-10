@@ -1,7 +1,7 @@
 ---
 title: "IABLogonPrepareRecips"
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 02/06/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c1845ea-e291-4855-9afd-51d2c64d7e85
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::PrepareRecips
@@ -54,8 +53,6 @@ MAPI_E_NOT_FOUND
   
 > One or more of the recipients in the _lpRecipList_ parameter do not exist. 
     
-## Return value
-
 A client calls the MAPI [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) method to modify or rearrange a set of properties for one or more recipients. The recipients may or may not be part of the recipient list of an outgoing message. MAPI transfers this call to an address book provider's **IABLogon::PrepareRecips** method. 
   
 **IABLogon::PrepareRecips** performs four main tasks: 

@@ -44,13 +44,13 @@ None.
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Represents an open window in a Microsoft Visio instance.  <br/> |
+|[Window](window-element-windows_type-complextypevisio-xml.md) <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |Represents an open window in a Microsoft Visio instance. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ClientHeight  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Represents the height dimension of a display area  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|ClientWidth  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Represents the width dimension of a display area  <br/> |Values of the xsd:unsignedShort type.  <br/> |
+|ClientHeight  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Represents the height dimension of a display area  <br/> |Values of the xsd:unsignedShort type. |
+|ClientWidth  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Represents the width dimension of a display area  <br/> |Values of the xsd:unsignedShort type. |
    
 

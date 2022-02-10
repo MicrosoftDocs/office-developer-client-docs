@@ -21,7 +21,7 @@ Locks the shape so that it cannot be deleted.
 |**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Shape cannot be deleted  <br/> |
-| FALSE  <br/> | Shape can be deleted.  <br/> |
+| FALSE  <br/> | Shape can be deleted. |
    
 ## Remarks
 

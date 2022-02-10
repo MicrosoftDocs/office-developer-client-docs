@@ -25,9 +25,9 @@ The **DateFromParts** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Year*  <br/> |Integer expression specifying a year.  <br/> |
-| *Month*  <br/> |Integer expression specifying a month, from 1 to 12.  <br/> |
-| *Day*  <br/> |Integer expression specifying a day.  <br/> |
+| *Year*  <br/> |Integer expression specifying a year. |
+| *Month*  <br/> |Integer expression specifying a month, from 1 to 12. |
+| *Day*  <br/> |Integer expression specifying a day. |
 
 ## Remarks
 

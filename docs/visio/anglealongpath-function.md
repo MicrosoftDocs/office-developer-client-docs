@@ -28,9 +28,9 @@ ANGLEALONGPATH(***section***, ***travel*** ***[,segment]*** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path).  <br/> |
-| _travel_ <br/> |Required  <br/> |**Double** <br/> |The percentage along the path from begin point to end point. Must be between 0 and 1.  <br/> |
-| _segment_ <br/> |Optional  <br/> |**Integer** <br/> |The 1-based segment of the path at which to calculate the tangent angle.  <br/> |
+| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path). |
+| _travel_ <br/> |Required  <br/> |**Double** <br/> |The percentage along the path from begin point to end point. Must be between 0 and 1. |
+| _segment_ <br/> |Optional  <br/> |**Integer** <br/> |The 1-based segment of the path at which to calculate the tangent angle. |
    
 ### Return value
 

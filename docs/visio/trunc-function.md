@@ -26,8 +26,8 @@ TRUNC(** *number* **, ** *numberofdigits* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The number to truncate.  <br/> |
-| _numberofdigits_ <br/> |Required  <br/> |**Numeric** <br/> |The number of digits to which to truncate  _number_.  <br/> |
+| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The number to truncate. |
+| _numberofdigits_ <br/> |Required  <br/> |**Numeric** <br/> |The number of digits to which to truncate  _number_. |
    
 ### Return value
 

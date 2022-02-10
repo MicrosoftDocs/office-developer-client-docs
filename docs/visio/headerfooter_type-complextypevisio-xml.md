@@ -112,6 +112,6 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|HeaderFooterColor  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
+|HeaderFooterColor  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
    
 

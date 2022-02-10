@@ -20,16 +20,16 @@ Contains the information for a single shape data item associated with a shape. A
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[Label](label-cell-shape-data-section.md) <br/> |Specifies the label that appears to users in the **Shape Data** dialog box or window.  <br/> |
-|[Prompt](prompt-cell-shape-data-section.md) <br/> |Specifies descriptive or instructional text that appears to users in the **Shape Data** dialog box or window when the item is selected.  <br/> |
-|[Type](type-cell-shape-data-section.md) <br/> |Specifies a data type for the shape data item value: string (0), a fixed list (1), a number (2), a Boolean value (3), a variable list (4), a date or time (5), a duration (6), or a currency (7).  <br/> |
-|[Format](format-cell-shape-data-section.md) <br/> |Specifies the formatting of a shape data item.  <br/> |
-|[Value](value-cell-shape-data-section.md) <br/> |Contains the item's value as entered in the **Shape Data** dialog box or window.  <br/> |
-|[SortKey](sortkey-cell-shape-data-section.md) <br/> |Specifies a key by which items in the **Shape Data** dialog box or window are listed.  <br/> |
-|[Invisible](invisible-cell-shape-data-section.md) <br/> |Specifies whether the shape data item is visible in the **Shape Data** dialog box or window. TRUE = not visible; FALSE = visible.  <br/> |
-|[Ask](ask-cell-shape-data-section.md) <br/> |Determines whether a user is queried to enter shape data information for a shape when an instance is created or the shape is duplicated or copied.  <br/> |
-|[LangID](langid-cell-shape-data-section.md) <br/> |Specifies the language in which to display the shape data item value.  <br/> |
-|[Calendar](calendar-cell-miscellaneous-section.md) <br/> |Specifies the type of calendar used when the Type of a shape data item is Date.  <br/> |
+|[Label](label-cell-shape-data-section.md) <br/> |Specifies the label that appears to users in the **Shape Data** dialog box or window. |
+|[Prompt](prompt-cell-shape-data-section.md) <br/> |Specifies descriptive or instructional text that appears to users in the **Shape Data** dialog box or window when the item is selected. |
+|[Type](type-cell-shape-data-section.md) <br/> |Specifies a data type for the shape data item value: string (0), a fixed list (1), a number (2), a Boolean value (3), a variable list (4), a date or time (5), a duration (6), or a currency (7). |
+|[Format](format-cell-shape-data-section.md) <br/> |Specifies the formatting of a shape data item. |
+|[Value](value-cell-shape-data-section.md) <br/> |Contains the item's value as entered in the **Shape Data** dialog box or window. |
+|[SortKey](sortkey-cell-shape-data-section.md) <br/> |Specifies a key by which items in the **Shape Data** dialog box or window are listed. |
+|[Invisible](invisible-cell-shape-data-section.md) <br/> |Specifies whether the shape data item is visible in the **Shape Data** dialog box or window. TRUE = not visible; FALSE = visible. |
+|[Ask](ask-cell-shape-data-section.md) <br/> |Determines whether a user is queried to enter shape data information for a shape when an instance is created or the shape is duplicated or copied. |
+|[LangID](langid-cell-shape-data-section.md) <br/> |Specifies the language in which to display the shape data item value. |
+|[Calendar](calendar-cell-miscellaneous-section.md) <br/> |Specifies the type of calendar used when the Type of a shape data item is Date. |
    
 ## Remarks
 

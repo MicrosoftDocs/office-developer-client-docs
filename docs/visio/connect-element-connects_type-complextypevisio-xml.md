@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contains a **Connect** element for each connection between two shapes in a drawing.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Contains a **Connect** element for each connection between two shapes in a drawing. |
    
 ### Child elements
 
@@ -50,11 +50,11 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|FromCell  <br/> |xsd:string  <br/> |optional  <br/> |The cell from which a connection originates.  <br/> |Values of the xsd:string type.  <br/> |
-|FromPart  <br/> |xsd:int  <br/> |optional  <br/> |The part of a shape from which a connection originates.  <br/> |Values of the xsd:int type.  <br/> |
-|FromSheet  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The ID of the shape from which a connection or connections originate.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|ToCell  <br/> |xsd:string  <br/> |optional  <br/> |The cell to which a connection is made.  <br/> |Values of the xsd:string type.  <br/> |
-|ToPart  <br/> |xsd:int  <br/> |optional  <br/> |The part of a shape to which a connection is made.  <br/> |Values of the xsd:Int type.  <br/> |
-|ToSheet  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The ID of the shape to which one or more connections are made.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|FromCell  <br/> |xsd:string  <br/> |optional  <br/> |The cell from which a connection originates. |Values of the xsd:string type. |
+|FromPart  <br/> |xsd:int  <br/> |optional  <br/> |The part of a shape from which a connection originates. |Values of the xsd:int type. |
+|FromSheet  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The ID of the shape from which a connection or connections originate. |Values of the xsd:unsignedInt type. |
+|ToCell  <br/> |xsd:string  <br/> |optional  <br/> |The cell to which a connection is made. |Values of the xsd:string type. |
+|ToPart  <br/> |xsd:int  <br/> |optional  <br/> |The part of a shape to which a connection is made. |Values of the xsd:Int type. |
+|ToSheet  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The ID of the shape to which one or more connections are made. |Values of the xsd:unsignedInt type. |
    
 

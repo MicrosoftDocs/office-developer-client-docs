@@ -22,9 +22,9 @@ An ArcTo row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the ending vertex of an arc.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the ending vertex of an arc.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |The distance from the arc's midpoint to the midpoint of its chord.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the ending vertex of an arc. |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the ending vertex of an arc. |
+|[A](a-cell-geometry-section.md) <br/> |The distance from the arc's midpoint to the midpoint of its chord. |
    
 ## Remarks
 

@@ -26,8 +26,8 @@ SETF( GETREF(** *cell* ** ), ** *formula* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cell_ <br/> |Required  <br/> |**String** <br/> |The cell whose formula to set.  <br/> |
-| _formula_ <br/> |Required  <br/> |**String** <br/> |The formula to use.  <br/> |
+| _cell_ <br/> |Required  <br/> |**String** <br/> |The cell whose formula to set. |
+| _formula_ <br/> |Required  <br/> |**String** <br/> |The formula to use. |
    
 ## Remarks
 

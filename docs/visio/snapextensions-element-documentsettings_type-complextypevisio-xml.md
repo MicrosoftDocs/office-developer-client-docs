@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contains elements that specify document settings.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contains elements that specify document settings. |
    
 ### Child elements
 
@@ -56,19 +56,19 @@ The value of the **SnapExtensions** element can be a sum of the values in the fo
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Snap to nothing.  <br/> |
-|1  <br/> |Snap to alignment box extension.  <br/> |
-|2  <br/> |Snap to center axis extension.  <br/> |
-|4  <br/> |Snap to curve tangent extension.  <br/> |
-|8  <br/> |Snap to endpoint extension.  <br/> |
-|16  <br/> |Snap to midpoint extension.  <br/> |
-|32  <br/> |Snap to linear extension.  <br/> |
-|64  <br/> |Snap to curve extension.  <br/> |
-|128  <br/> |Snap to endpoint perpendicular extension.  <br/> |
-|256  <br/> |Snap to midpoint perpendicular extension.  <br/> |
-|512  <br/> |Snap to endpoint horizontal extension.  <br/> |
-|1024  <br/> |Snap to endpoint vertical extension.  <br/> |
-|2048  <br/> |Snap to ellipse center extension.  <br/> |
-|4096  <br/> |Snap to isometric angles extension.  <br/> |
+|0  <br/> |Snap to nothing. |
+|1  <br/> |Snap to alignment box extension. |
+|2  <br/> |Snap to center axis extension. |
+|4  <br/> |Snap to curve tangent extension. |
+|8  <br/> |Snap to endpoint extension. |
+|16  <br/> |Snap to midpoint extension. |
+|32  <br/> |Snap to linear extension. |
+|64  <br/> |Snap to curve extension. |
+|128  <br/> |Snap to endpoint perpendicular extension. |
+|256  <br/> |Snap to midpoint perpendicular extension. |
+|512  <br/> |Snap to endpoint horizontal extension. |
+|1024  <br/> |Snap to endpoint vertical extension. |
+|2048  <br/> |Snap to ellipse center extension. |
+|4096  <br/> |Snap to isometric angles extension. |
    
 

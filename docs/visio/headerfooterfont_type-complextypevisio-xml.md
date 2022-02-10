@@ -84,19 +84,19 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSet  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|Escapement  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type.  <br/> |
-|FaceName  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|Height  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type.  <br/> |
-|Italic  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|Orientation  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type.  <br/> |
-|OutPrecision  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|Quality  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|StrikeOut  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|Underline  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|Weight  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type.  <br/> |
-|Width  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type.  <br/> |
+|CharSet  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|Escapement  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type. |
+|FaceName  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|Height  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type. |
+|Italic  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|Orientation  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type. |
+|OutPrecision  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|Quality  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|StrikeOut  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|Underline  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|Weight  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type. |
+|Width  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type. |
    
 

@@ -28,12 +28,11 @@ Use GitHub to contribute to this documentation without having to clone the repo 
 
 1. Find the article you want to contribute to on GitHub.
 2. Once you are on the article in GitHub, sign in to GitHub (get a free account [Join GitHub](https://github.com/join)).
-3. Choose the **pencil icon** (edit the file in your fork of this project) and make your changes in the **<>Edit file** window. 
+3. Choose the **pencil icon** (edit the file in your fork of this project) and make your changes in the **<>Edit file** window.
 4. Scroll to the bottom and enter a description.
 5. Choose **Propose file change** > **Create pull request**.
 
-You now have successfully submitted a pull request. Pull requests are typically reviewed within 10 business days. 
-
+You now have successfully submitted a pull request. Pull requests are typically reviewed within 10 business days.
 
 ## Contribute using Git
 
@@ -46,7 +45,7 @@ Use Git to contribute substantive changes, such as:
 
 ### To contribute using Git
 
-1. If you don't have a GitHub account, set one up at [GitHub](https://github.com/join). 
+1. If you don't have a GitHub account, set one up at [GitHub](https://github.com/join).
 2. After you have an account, install Git on your computer. Follow the steps in the [Set up Git] tutorial.
 3. To submit a pull request using Git, follow the steps in [Use GitHub, Git, and this repository](#use-github-git-and-this-repository).
 4. You will be asked to sign the Contributor's License Agreement if you are:
@@ -66,10 +65,10 @@ Pull requests are typically reviewed within 10 business days.
 
 ### To set up your fork of the repository
 
-1.	Set up a GitHub account so you can contribute to this project. If you haven't done this, go to [GitHub](https://github.com/join) and do it now.
-2.	Install Git on your computer. Follow the steps in the [Set up Git] tutorial.
-3.	Create your own fork of this repository. To do this, at the top of the page,  choose the **Fork** button.
-4.	Copy your fork to your computer. To do this, open Git Bash. At the command prompt enter:
+1. Set up a GitHub account so you can contribute to this project. If you haven't done this, go to [GitHub](https://github.com/join) and do it now.
+2. Install Git on your computer. Follow the steps in the [Set up Git] tutorial.
+3. Create your own fork of this repository. To do this, at the top of the page, choose the **Fork** button.
+4. Copy your fork to your computer. To do this, open Git Bash. At the command prompt enter:
 
         git clone https://github.com/<your user name>/<repo name>.git
 
@@ -128,15 +127,15 @@ When you're finished with your work and are ready to have it merged into the mai
 
 #### To submit a pull request to the main repository
 
-1.	In the Git Bash command prompt, type `git push origin <new branch name>`. In your local repository, `origin` refers to your GitHub repository that you cloned the local repository from. This command pushes the current state of your new branch, including all commits made in the previous steps, to your GitHub fork.
-2.	On the GitHub site, navigate in your fork to the new branch.
-3.	Choose the **Pull Request** button at the top of the page.
-4.	Verify the Base branch is `OfficeDev/<repo name>@master` and the Head branch is `<your username>/<repo name>@<branch name>`.
-5.	Choose the **Update Commit Range** button.
-6.	Add a title to your pull request, and describe all the changes you're making.
-7.	Submit the pull request.
+1. In the Git Bash command prompt, type `git push origin <new branch name>`. In your local repository, `origin` refers to your GitHub repository that you cloned the local repository from. This command pushes the current state of your new branch, including all commits made in the previous steps, to your GitHub fork.
+1. On the GitHub site, navigate in your fork to the new branch.
+1. Choose the **Pull Request** button at the top of the page.
+1. Verify the Base branch is `OfficeDev/<repo name>@master` and the Head branch is `<your username>/<repo name>@<branch name>`.
+1. Choose the **Update Commit Range** button.
+1. Add a title to your pull request, and describe all the changes you're making.
+1. Submit the pull request.
 
-One of the site administrators will process your pull request. Your pull request will surface on the OfficeDev/<repo name> site under Issues. When the pull request is accepted, the issue will be resolved.
+One of the site administrators will process your pull request. Your pull request will surface on the OfficeDev/&lt;repo name&gt; site under Issues. When the pull request is accepted, the issue will be resolved.
 
 #### Create a new branch after merge
 
@@ -156,13 +155,13 @@ You now have local copies (in a new local branch) of the work that you submitted
 
 #### Delete a branch
 
-Once your changes are successfully merged into the main repository, delete the branch you used because you no longer need it.  Any additional work should be done in a new branch.  
+Once your changes are successfully merged into the main repository, delete the branch you used because you no longer need it. Any additional work should be done in a new branch.
 
 #### To delete a branch
 
-1.	In the Git Bash command prompt, type `git checkout master`. This ensures that you aren't in the branch to be deleted (which isn't allowed).
-2.	Next, at the command prompt, type `git branch -d <branch name>`. This deletes the branch on your computer only if it has been successfully merged to the upstream repository. (You can override this behavior with the `–D` flag, but first be sure you want to do this.)
-3.	Finally, type `git push origin :<branch name>` at the command prompt (a space before the colon and no space after it).  This will delete the branch on your github fork.  
+1. In the Git Bash command prompt, type `git checkout master`. This ensures that you aren't in the branch to be deleted (which isn't allowed).
+1. Next, at the command prompt, type `git branch -d <branch name>`. This deletes the branch on your computer only if it has been successfully merged to the upstream repository. (You can override this behavior with the `–D` flag, but first be sure you want to do this.)
+1. Finally, type `git push origin :<branch name>` at the command prompt (a space before the colon and no space after it)  This will delete the branch on your github fork.
 
 Congratulations, you have successfully contributed to the project!
 
@@ -171,16 +170,16 @@ Congratulations, you have successfully contributed to the project!
 ### Markdown
 
 All of the articles in this repository use Markdown. A complete introduction (and listing of all the syntax) can be found at [Daring Fireball - Markdown].
- 
+
 ## FAQ
 
 ### How do I get a GitHub account?
 
-Fill out the form at [Join GitHub](https://github.com/join) to open a free GitHub account. 
+Fill out the form at [Join GitHub](https://github.com/join) to open a free GitHub account.
 
-### Where do I get a Contributor's License Agreement? 
+### Where do I get a Contributor's License Agreement?
 
-You will automatically be sent a notice that you need to sign the Contributor's License Agreement (CLA) if your pull request requires one. 
+You will automatically be sent a notice that you need to sign the Contributor's License Agreement (CLA) if your pull request requires one.
 
 As a community member, **you must sign the Contribution License Agreement (CLA) before you can contribute large submissions to this project**. You only need complete and submit the documentation once. Carefully review the document. You may be required to have your employer sign the document.
 
@@ -195,7 +194,6 @@ Currently, we are not allowing external contributors to approve pull requests in
 ### How soon will I get a response about my change request?
 
 Pull requests are typically reviewed within 10 business days.
-
 
 ## More resources
 

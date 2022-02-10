@@ -23,8 +23,8 @@ A **RelLineTo** row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the ending vertex of a straight line segment relative to the shape's width.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the ending vertex of a straight line segment relative to the shape's height.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the ending vertex of a straight line segment relative to the shape's width. |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the ending vertex of a straight line segment relative to the shape's height. |
    
 ## Remarks
 

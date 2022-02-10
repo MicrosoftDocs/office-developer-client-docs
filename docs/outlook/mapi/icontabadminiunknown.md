@@ -37,6 +37,6 @@ Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 20
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy. |
    
 

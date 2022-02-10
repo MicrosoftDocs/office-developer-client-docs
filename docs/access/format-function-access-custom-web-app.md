@@ -29,8 +29,8 @@ The **Format** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |Expression of a supported data type to format.  <br/> |
-| *Format*  <br/> | A format pattern. The format argument must contain a valid format string, either as a standard format string (for example, "C" or "D"), or as a pattern of custom characters for dates and numeric values (for example, "MMMM dd, yyyy (dddd)"). For more information, see Remarks.  <br/> |
+| *Expression*  <br/> |Expression of a supported data type to format. |
+| *Format*  <br/> | A format pattern. The format argument must contain a valid format string, either as a standard format string (for example, "C" or "D"), or as a pattern of custom characters for dates and numeric values (for example, "MMMM dd, yyyy (dddd)"). For more information, see Remarks. |
 
 ## Remarks
 

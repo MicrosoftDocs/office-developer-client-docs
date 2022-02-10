@@ -26,14 +26,14 @@ There are eight special folders, some that are part of the interpersonal message
 
 |**Folder**|**Description**|
 |:-----|:-----|
-|Outbox folder  <br/> |Contains outgoing IPM messages.  <br/> |
-|Deleted Items folder  <br/> |Contains IPM messages that are marked for deletion.  <br/> |
-|Sent Items folder  <br/> |Contains IPM messages that have been sent.  <br/> |
-|IPM root folder  <br/> |Contains folders for managing IPM messages.  <br/> |
-|Receive folder  <br/> |Contains incoming messages for a particular message class.  <br/> |
-|Search-results root folder  <br/> |Contains folders for managing search results.  <br/> |
-|Common-views root folder  <br/> |Contains folders for managing views for the message store.  <br/> |
-|Personal-views root folder  <br/> |Contains folders for managing views for a particular user.  <br/> |
+|Outbox folder  <br/> |Contains outgoing IPM messages. |
+|Deleted Items folder  <br/> |Contains IPM messages that are marked for deletion. |
+|Sent Items folder  <br/> |Contains IPM messages that have been sent. |
+|IPM root folder  <br/> |Contains folders for managing IPM messages. |
+|Receive folder  <br/> |Contains incoming messages for a particular message class. |
+|Search-results root folder  <br/> |Contains folders for managing search results. |
+|Common-views root folder  <br/> |Contains folders for managing views for the message store. |
+|Personal-views root folder  <br/> |Contains folders for managing views for a particular user. |
    
 The first four folders relate to the IPM subtree, a tree of folders that MAPI creates when a message store is initialized. Default message stores for interactive messaging clients always include the IPM folder subtree and the other special folders in their folder hierarchy. Non-default message stores are required only to support the search-results root folder, the IPM subtree root folder, the Deleted Items folder, and the receive folder. To ensure that the IPM subtree folders exist and are valid, clients can call the [HrValidateIPMSubtree](hrvalidateipmsubtree.md) function. **HrValidateIPMSubtree** checks the folders and recreates them if there is a problem. 
   

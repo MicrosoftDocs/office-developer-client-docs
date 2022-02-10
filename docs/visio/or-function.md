@@ -26,9 +26,9 @@ OR(** *logicalexpression1* **, ** *logicalexpression2* **,..., ** *logicalexpres
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression1_ <br/> |Required  <br/> |**String** <br/> |The first expression whose truth you want to evaluate.  <br/> |
-| _logicalexpression2_ <br/> |Required  <br/> |**String** <br/> |The second expression whose truth you want to evaluate.  <br/> |
-| _logicalexpressionN_ <br/> |Required  <br/> |**String** <br/> |The Nth expression whose truth you want to evaluate.  <br/> |
+| _logicalexpression1_ <br/> |Required  <br/> |**String** <br/> |The first expression whose truth you want to evaluate. |
+| _logicalexpression2_ <br/> |Required  <br/> |**String** <br/> |The second expression whose truth you want to evaluate. |
+| _logicalexpressionN_ <br/> |Required  <br/> |**String** <br/> |The Nth expression whose truth you want to evaluate. |
    
 ### Return value
 

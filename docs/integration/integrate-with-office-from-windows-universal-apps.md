@@ -32,9 +32,9 @@ Set these properties in the **System.ExpandoProperties** property set.
   
 |**Property**|**Description**|**Type**|**Example**|
 |:-----|:-----|:-----|:-----|
-|**AppDisplayName** <br/> |Provider name to display to the user. Appears in multiple places in Office, such as the recent document list.  <br/> |String  <br/> |Contoso  <br/> |
-|**MicrosoftOfficeOwnershipType** <br/> |For licensing, indicate whether the document/location is Personal/Consumer or Work/Business. Allowed values are 1 (personal) and 2 (business). For example, if your user's file is stored in Contoso Business, use the value "2" for business.  <br/> |Unit32  <br/> | 1 or 2  <br/> For example, if your user's file is stored in Contoso Business, this file should be marked 2 for business.  <br/> |
-|**MicrosoftOfficeTermsOfUse** <br/> |Legal text to declare that the information you provide is accurate per our terms of use. This text is not displayed to the user. It is an agreement between you, the application provider, and Microsoft.  <br/> See the following for an example.  <br/> | String  <br/> | I agree to the terms located in [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
+|**AppDisplayName** <br/> |Provider name to display to the user. Appears in multiple places in Office, such as the recent document list. |String  <br/> |Contoso  <br/> |
+|**MicrosoftOfficeOwnershipType** <br/> |For licensing, indicate whether the document/location is Personal/Consumer or Work/Business. Allowed values are 1 (personal) and 2 (business). For example, if your user's file is stored in Contoso Business, use the value "2" for business. |Unit32  <br/> | 1 or 2  <br/> For example, if your user's file is stored in Contoso Business, this file should be marked 2 for business. |
+|**MicrosoftOfficeTermsOfUse** <br/> |Legal text to declare that the information you provide is accurate per our terms of use. This text is not displayed to the user. It is an agreement between you, the application provider, and Microsoft. See the following for an example. | String  <br/> | I agree to the terms located in [https://go.microsoft.com/fwlink/p/?LinkId=528381](third-party-applications-integrating-with-office-mobile-products.md) <br/> |
    
 The following code example shows how to set these properties.
   
@@ -68,9 +68,9 @@ The following tables lists the parameters to set to handle interactions between 
   
 |**Parameter**|**Description**|
 |:-----|:-----|
-|[ReadActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Set **BeforeAccess** to allow your app to update the file before it sends it to Office.  <br/> |
+|[ReadActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.readactivationmode.aspx) <br/> |Set **BeforeAccess** to allow your app to update the file before it sends it to Office. |
 |[WriteActivationMode](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.writeactivationmode.aspx) <br/> |Set **ReadOnly** to make the file read only. Set **AfterWrite** to ensure that your app will be triggered by the CacheFileUpdater when Office is finished with the file.<br/><br/>**NOTE**: If you do not set **AfterWrite**, your app will not be notified to upload the changes, which means that the user's changes will only be local.           |
-|[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Set this property to ensure that your app can update the file when a user accesses it from the Recent list.  <br/> |
+|[CachedFileOptions.RequireUpdateOnAccess](https://msdn.microsoft.com/library/windows/apps/windows.storage.provider.cachedfileoptions.aspx) <br/> |Set this property to ensure that your app can update the file when a user accesses it from the Recent list. |
    
 ## Invoking Office from your app
 

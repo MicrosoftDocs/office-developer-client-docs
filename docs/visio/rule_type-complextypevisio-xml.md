@@ -80,11 +80,11 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Category  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|Description  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Ignored  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
-|RuleTarget  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type.  <br/> |
+|Category  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|Description  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|Ignored  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|NameU  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
+|RuleTarget  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type. |
    
 

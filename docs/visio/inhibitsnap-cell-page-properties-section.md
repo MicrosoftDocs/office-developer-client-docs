@@ -20,8 +20,8 @@ Determines whether the shapes on a foreground page snap to other objects on the 
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Inhibit all snapping on the page, except for snapping to the ruler and grid.  <br/> |
-| FALSE  <br/> | Enable snapping.  <br/> |
+| TRUE  <br/> | Inhibit all snapping on the page, except for snapping to the ruler and grid. |
+| FALSE  <br/> | Enable snapping. |
    
 ## Remarks
 

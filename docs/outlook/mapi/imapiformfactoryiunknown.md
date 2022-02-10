@@ -37,9 +37,9 @@ Supports the use of configurable run-time forms in distributed computing environ
 
 |||
 |:-----|:-----|
-|[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Returns a class factory object for the form.  <br/> |
-|[GetLastError](imapiformfactory-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the form factory object.  <br/> |
-|[LockServer](imapiformfactory-lockserver.md) <br/> |Keeps an open form server in memory.  <br/> |
+|[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Returns a class factory object for the form. |
+|[GetLastError](imapiformfactory-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the form factory object. |
+|[LockServer](imapiformfactory-lockserver.md) <br/> |Keeps an open form server in memory. |
    
 ## Remarks
 

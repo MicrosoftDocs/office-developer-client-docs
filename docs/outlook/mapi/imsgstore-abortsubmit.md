@@ -74,7 +74,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI uses the **IMsgStore::AbortSubmit** method to abort the submission of the selected message.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnAbortSubmit  <br/> |MFCMAPI uses the **IMsgStore::AbortSubmit** method to abort the submission of the selected message. |
    
 ## See also
 

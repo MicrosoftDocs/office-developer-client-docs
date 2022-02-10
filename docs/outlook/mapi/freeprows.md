@@ -58,7 +58,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI uses the **FreeProws** method to free an SRowSet structure containing rows of the table being processed.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI uses the **FreeProws** method to free an SRowSet structure containing rows of the table being processed. |
    
 ## See also
 

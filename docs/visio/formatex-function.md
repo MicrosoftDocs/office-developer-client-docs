@@ -26,12 +26,12 @@ FORMATEX(** *expression* **," ** *format* ** ",[ ** *srcUnit* ** ],[ ** *dstUnit
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**String** <br/> |A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value.  <br/> |
-| _format_ <br/> |Required  <br/> |**String** <br/> |The format picture used to format the string. For more information about format pictures, see [About Format Pictures](about-format-pictures.md).  <br/> |
-| _srcUnit_ <br/> |Optional  <br/> |**String** <br/> | Units used to evaluate expression (in, cm, and so forth).  <br/> |
-| _dstUnit_ <br/> |Optional  <br/> |**String** <br/> |Units to use for the result of expression (in, cm, and so forth).  <br/> |
-| _langID_ <br/> |Optional  <br/> |**Number** <br/> |The language used when formatting Microsoft Office System date/time pictures.  <br/> |
-| _calID_ <br/> |Optional  <br/> |**Number** <br/> |The calendar used when formatting Microsoft Office System date/time pictures.  <br/> |
+| _expression_ <br/> |Required  <br/> |**String** <br/> |A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. |
+| _format_ <br/> |Required  <br/> |**String** <br/> |The format picture used to format the string. For more information about format pictures, see [About Format Pictures](about-format-pictures.md). |
+| _srcUnit_ <br/> |Optional  <br/> |**String** <br/> | Units used to evaluate expression (in, cm, and so forth). |
+| _dstUnit_ <br/> |Optional  <br/> |**String** <br/> |Units to use for the result of expression (in, cm, and so forth). |
+| _langID_ <br/> |Optional  <br/> |**Number** <br/> |The language used when formatting Microsoft Office System date/time pictures. |
+| _calID_ <br/> |Optional  <br/> |**Number** <br/> |The calendar used when formatting Microsoft Office System date/time pictures. |
    
 ### Return value
 

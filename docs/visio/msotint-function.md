@@ -28,8 +28,8 @@ MSOTINT(** *color* **, ** *deltaLum* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Required  <br/> |**RGB** <br/> |The standard RGB (red, green, blue) color value or reference to a color.  <br/> |
-| _deltaLum_ <br/> |Required  <br/> |**Integer** <br/> |The percentage change toward white (-100%) or black (100%) from the  _color_ value.  <br/> |
+| _color_ <br/> |Required  <br/> |**RGB** <br/> |The standard RGB (red, green, blue) color value or reference to a color. |
+| _deltaLum_ <br/> |Required  <br/> |**Integer** <br/> |The percentage change toward white (-100%) or black (100%) from the  _color_ value. |
    
 ## Remarks
 

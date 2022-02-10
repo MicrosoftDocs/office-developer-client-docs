@@ -38,10 +38,10 @@ This property specifies the availability of a user for the event described by th
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |The user is available.  <br/> |
-|0x00000001  <br/> |The user has a tentative event scheduled.  <br/> |
-|0x00000002  <br/> |The user is busy.  <br/> |
-|0x00000003  <br/> |The user is out of office.  <br/> |
+|0x00000000  <br/> |The user is available. |
+|0x00000001  <br/> |The user has a tentative event scheduled. |
+|0x00000002  <br/> |The user is busy. |
+|0x00000003  <br/> |The user is out of office. |
    
 ## Related resources
 

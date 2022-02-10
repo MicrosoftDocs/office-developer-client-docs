@@ -39,8 +39,8 @@ _ppwszError_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call succeeded.  <br/> |
-|E_INVALIDARG  <br/> |One or more arguments are invalid.  <br/> |
+|S_OK  <br/> |The call succeeded. |
+|E_INVALIDARG  <br/> |One or more arguments are invalid. |
    
 ## See also
 

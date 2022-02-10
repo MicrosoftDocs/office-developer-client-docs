@@ -39,9 +39,9 @@ A number from 1 to 3 specifying which types of names are returned.
   
 |**_pxTypeNum_**|**Returns**|
 |:-----|:-----|
-|1 or omitted  <br/> |Normal names only.  <br/> |
-|2  <br/> |Hidden names only.  <br/> |
-|3  <br/> |All names.  <br/> |
+|1 or omitted  <br/> |Normal names only. |
+|2  <br/> |Hidden names only. |
+|3  <br/> |All names. |
    
 ## Property value/Return value
 
@@ -55,10 +55,10 @@ The following table lists four examples of the values returned by a call to **xl
   
 |**Name defined in Excel**|**_pxDefText_**|**_pxDocumentText_**|**_pxTypeNum_**|**Value Returned**|
 |:-----|:-----|:-----|:-----|:-----|
-|The specified range in Sheet4 is named Sales.  <br/> |"R2C2:R9C6"  <br/> |"Sheet4"  <br/> |\<omitted\>  <br/> |"Sales"  <br/> |
-|The value 100 in Sheet4 is defined as Constant.  <br/> |"100"  <br/> |"Sheet4"  <br/> |\<omitted\>  <br/> |"Constant"  <br/> |
-|The specified formula in Sheet4 is named SumTotal.  <br/> |"SUM(R1C1:R10C1)"  <br/> |"Sheet4"  <br/> |\<omitted\>  <br/> |"SumTotal"  <br/> |
-|3 is defined as the hidden name Counter on the active sheet.  <br/> |"3"  <br/> |\<omitted\>  <br/> |2  <br/> |"Counter"  <br/> |
+|The specified range in Sheet4 is named Sales. |"R2C2:R9C6"  <br/> |"Sheet4"  <br/> |\<omitted\>  <br/> |"Sales"  <br/> |
+|The value 100 in Sheet4 is defined as Constant. |"100"  <br/> |"Sheet4"  <br/> |\<omitted\>  <br/> |"Constant"  <br/> |
+|The specified formula in Sheet4 is named SumTotal. |"SUM(R1C1:R10C1)"  <br/> |"Sheet4"  <br/> |\<omitted\>  <br/> |"SumTotal"  <br/> |
+|3 is defined as the hidden name Counter on the active sheet. |"3"  <br/> |\<omitted\>  <br/> |2  <br/> |"Counter"  <br/> |
    
 ## See also
 

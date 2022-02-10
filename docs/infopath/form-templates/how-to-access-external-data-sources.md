@@ -37,10 +37,10 @@ The [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.I
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Count.aspx) property  <br/> |Returns a count of the number of **DataSource** object instances contained in the collection.  <br/> |
-|[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.GetEnumerator.aspx) method  <br/> |Returns an **IEnumerator** that can be used to iterate through the collection.  <br/> |
-|[Item[Int32]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx) property  <br/> |Returns a reference to the specified **DataSource** object by index value.  <br/> |
-|[Item[String]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx) property  <br/> |Returns a reference to the specified **DataSource** object by name.  <br/> |
+|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Count.aspx) property  <br/> |Returns a count of the number of **DataSource** object instances contained in the collection. |
+|[GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.GetEnumerator.aspx) method  <br/> |Returns an **IEnumerator** that can be used to iterate through the collection. |
+|[Item[Int32]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx) property  <br/> |Returns a reference to the specified **DataSource** object by index value. |
+|[Item[String]](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Item.aspx) property  <br/> |Returns a reference to the specified **DataSource** object by name. |
    
 ## Overview of the DataSource Class
 
@@ -49,11 +49,11 @@ The [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.I
 |**Name**|**Description**|
 |:-----|:-----|
 |[CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) method  <br/> |Returns an [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) object for accessing and editing the data source  <br/> |
-|[QueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.QueryConnection.aspx) property  <br/> |Gets a reference to the associated data connection object.  <br/> To execute the query on the data connection and insert the returned data as XML into the XML node associated with the **DataSource** object, use the [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.Execute.aspx) method of the associated data connection object.  <br/> |
-|[Name](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.Name.aspx) property  <br/> |Gets the name of the **DataSource** object.  <br/> |
+|[QueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.QueryConnection.aspx) property  <br/> |Gets a reference to the associated data connection object. To execute the query on the data connection and insert the returned data as XML into the XML node associated with the **DataSource** object, use the [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.Execute.aspx) method of the associated data connection object. |
+|[Name](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.Name.aspx) property  <br/> |Gets the name of the **DataSource** object. |
 |[ReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.ReadOnly.aspx) property  <br/> |Gets a value that indicates whether the data source is in a read-only state  <br/> |
-|[GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx) method  <br/> |Gets the value of a named property for the specified XML node, which must be a **nonattribute** node in the main data source.  <br/> |
-|[SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx) method  <br/> |Sets the value of a named property for the specified XML node, which must be a **nonattribute** node in the main data source.  <br/> |
+|[GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx) method  <br/> |Gets the value of a named property for the specified XML node, which must be a **nonattribute** node in the main data source. |
+|[SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx) method  <br/> |Sets the value of a named property for the specified XML node, which must be a **nonattribute** node in the main data source. |
    
 ## Overview of the Data Connection Classes
 
@@ -61,16 +61,16 @@ The classes for accessing data connections provide different properties and meth
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[AdoQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx) class  <br/> |Queries an ADO/OLEDB data source; limited to Microsoft Access and Microsoft SQL Server.  <br/> |
-|[AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx) class  <br/> |Submits to an ADO/OLEDB data source; limited to Microsoft Access and Microsoft SQL Server.  <br/> |
-|[SharePointListRWQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWQueryConnection.aspx) class  <br/> |Queries a SharePoint list or document library.  <br/> |
-|[SharePointListRWSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWSubmitConnection.aspx) <br/> |Submits to a SharePoint list or document library.  <br/> |
-|[WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) class  <br/> |Connects to an XML Web service.  <br/> |
-|[FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx) class  <br/> |Queries an XML file.  <br/> |
-|[FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx) class  <br/> |Submits to an XML file.  <br/> |
-|[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) class  <br/> |Submits a form as an attachment in email.  <br/> |
-|[BdcQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcQueryConnection.aspx) class  <br/> |Queries an external list on a server running SharePoint Foundation 2010 or SharePoint Server 2010.  <br/> |
-|[BdcSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcSubmitConnection.aspx) class  <br/> |Submits to an external list on a server running SharePoint Foundation 2010 or SharePoint Server 2010.  <br/> |
+|[AdoQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx) class  <br/> |Queries an ADO/OLEDB data source; limited to Microsoft Access and Microsoft SQL Server. |
+|[AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx) class  <br/> |Submits to an ADO/OLEDB data source; limited to Microsoft Access and Microsoft SQL Server. |
+|[SharePointListRWQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWQueryConnection.aspx) class  <br/> |Queries a SharePoint list or document library. |
+|[SharePointListRWSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWSubmitConnection.aspx) <br/> |Submits to a SharePoint list or document library. |
+|[WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) class  <br/> |Connects to an XML Web service. |
+|[FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx) class  <br/> |Queries an XML file. |
+|[FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx) class  <br/> |Submits to an XML file. |
+|[EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx) class  <br/> |Submits a form as an attachment in email. |
+|[BdcQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcQueryConnection.aspx) class  <br/> |Queries an external list on a server running SharePoint Foundation 2010 or SharePoint Server 2010. |
+|[BdcSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcSubmitConnection.aspx) class  <br/> |Submits to an external list on a server running SharePoint Foundation 2010 or SharePoint Server 2010. |
    
 ## Using the DataSourceCollection and the DataSource Classes
 

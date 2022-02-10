@@ -33,8 +33,8 @@ _ppclone_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call succeeded.  <br/> |
-|E_OUTOFMEMORY  <br/> |There is insufficient memory for making the copy.  <br/> |
+|S_OK  <br/> |The call succeeded. |
+|E_OUTOFMEMORY  <br/> |There is insufficient memory for making the copy. |
    
 ## See also
 

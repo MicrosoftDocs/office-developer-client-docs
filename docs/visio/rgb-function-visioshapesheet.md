@@ -26,9 +26,9 @@ RGB(** *red* **, ** *green* **, ** *blue* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _red_ <br/> |Required  <br/> |**Number** <br/> |The red component.  <br/> |
-| _green_ <br/> |Required  <br/> |**Number** <br/> |The green component.  <br/> |
-| _blue_ <br/> |Required  <br/> |**Nmber** <br/> |The blue component.  <br/> |
+| _red_ <br/> |Required  <br/> |**Number** <br/> |The red component. |
+| _green_ <br/> |Required  <br/> |**Number** <br/> |The green component. |
+| _blue_ <br/> |Required  <br/> |**Nmber** <br/> |The blue component. |
    
 ### Return value
 

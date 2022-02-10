@@ -88,7 +88,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |GetInbox  <br/> |MFCMAPI uses the **IMsgStore::GetReceiveFolder** method to locate the Inbox folder.  <br/> |
+|MAPIFunctions.cpp  <br/> |GetInbox  <br/> |MFCMAPI uses the **IMsgStore::GetReceiveFolder** method to locate the Inbox folder. |
    
 ## See also
 

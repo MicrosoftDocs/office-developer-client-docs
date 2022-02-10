@@ -20,11 +20,11 @@ Determines whether objects are placeable or routable in diagrams when you use th
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-|&amp;H0  <br/> |Default. The application decides based on the drawing context.  <br/> |**visLOFlagsVisDecides** <br/> |
-|&amp;H1  <br/> |Shape is placeable.  <br/> |**visLOFlagsPlacable** <br/> |
-|&amp;H2  <br/> |Shape is routable. Must be a one-dimensional (1-D) shape.  <br/> |**visLOFlagsRoutable** <br/> |
-|&amp;H4  <br/> |Shape is not placeable, not routable.  <br/> |**visLOFlagsDont** <br/> |
-|&amp;H8  <br/> |Group contains placeable/routable shapes.  <br/> |**visLOFlagsPNRGroup** <br/> |
+|&amp;H0  <br/> |Default. The application decides based on the drawing context. |**visLOFlagsVisDecides** <br/> |
+|&amp;H1  <br/> |Shape is placeable. |**visLOFlagsPlacable** <br/> |
+|&amp;H2  <br/> |Shape is routable. Must be a one-dimensional (1-D) shape. |**visLOFlagsRoutable** <br/> |
+|&amp;H4  <br/> |Shape is not placeable, not routable. |**visLOFlagsDont** <br/> |
+|&amp;H8  <br/> |Group contains placeable/routable shapes. |**visLOFlagsPNRGroup** <br/> |
    
 ## Remarks
 

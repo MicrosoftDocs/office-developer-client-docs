@@ -20,8 +20,8 @@ Locks the height of the shape so that its height remains unchanged when the shap
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Height is locked.  <br/> |
-| FALSE  <br/> | Height is not locked.  <br/> |
+| TRUE  <br/> | Height is locked. |
+| FALSE  <br/> | Height is not locked. |
    
 ## Remarks
 

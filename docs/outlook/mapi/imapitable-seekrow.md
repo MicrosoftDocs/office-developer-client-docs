@@ -106,7 +106,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIProcessor.cpp  <br/> |CMAPIProcessor::ProcessMailboxTable  <br/> |MFCMAPI uses the **IMAPITable::SeekRow** method to locate the beginning of the table before processing.  <br/> |
+|MAPIProcessor.cpp  <br/> |CMAPIProcessor::ProcessMailboxTable  <br/> |MFCMAPI uses the **IMAPITable::SeekRow** method to locate the beginning of the table before processing. |
    
 ## See also
 

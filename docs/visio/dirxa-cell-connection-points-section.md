@@ -25,7 +25,7 @@ To get a reference to the DirX / A cell by name from another formula, or from a 
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Connections.DirX[  *i*  ]            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Connections.DirX[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the DirX / A cell by index from a program, use the **CellsSRC** property with the following arguments: 
   

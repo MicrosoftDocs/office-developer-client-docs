@@ -22,8 +22,8 @@ description: "Last modified: March 09, 2015"
   
 |**Method**|**Description**|
 |:-----|:-----|
-|[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |Creates a new form object.  <br/> |
-|[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |Locks the form server in memory so that startup overhead can be avoided when multiple form objects are created.  <br/> |
+|[CreateInstance](https://msdn.microsoft.com/library/ms682215%28v=VS.85%29.aspx) <br/> |Creates a new form object. |
+|[LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) <br/> |Locks the form server in memory so that startup overhead can be avoided when multiple form objects are created. |
    
 For all the information necessary to implement these methods, see the COM and ActiveX Object Services section in the Windows SDK.
   

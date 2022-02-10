@@ -37,18 +37,18 @@ Gives the MAPI spooler access to a transport provider.
 
 |||
 |:-----|:-----|
-|[AddressTypes](ixplogon-addresstypes.md) <br/> |Returns the types of recipients that the transport provider handles.  <br/> |
+|[AddressTypes](ixplogon-addresstypes.md) <br/> |Returns the types of recipients that the transport provider handles. |
 |**RegisterOptions** <br/> | *Not supported or documented.*  <br/> |
-|[TransportNotify](ixplogon-transportnotify.md) <br/> |Signals the occurrence of an event about which the transport provider requested notification.  <br/> |
-|[Idle](ixplogon-idle.md) <br/> |Indicates that the system is idle, enabling the transport provider to perform low-priority operations.  <br/> |
-|[TransportLogoff](ixplogon-transportlogoff.md) <br/> |Initiates the logoff process.  <br/> |
-|[SubmitMessage](ixplogon-submitmessage.md) <br/> |Indicates that the MAPI spooler has a message for the transport provider to deliver.  <br/> |
-|[EndMessage](ixplogon-endmessage.md) <br/> |Informs the transport provider that the MAPI spooler completed its processing on an outbound message.  <br/> |
-|[Poll](ixplogon-poll.md) <br/> |Indicates whether the transport provider has received one or more inbound messages.  <br/> |
-|[StartMessage](ixplogon-startmessage.md) <br/> |Initiates the transfer of an inbound message from the transport provider to the MAPI spooler.  <br/> |
-|[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |Opens the transport provider's status object.  <br/> |
-|[ValidateState](ixplogon-validatestate.md) <br/> |Checks the transport provider's external status.  <br/> |
-|[FlushQueues](ixplogon-flushqueues.md) <br/> |Requests that the transport provider immediately deliver all pending inbound or outbound messages.  <br/> |
+|[TransportNotify](ixplogon-transportnotify.md) <br/> |Signals the occurrence of an event about which the transport provider requested notification. |
+|[Idle](ixplogon-idle.md) <br/> |Indicates that the system is idle, enabling the transport provider to perform low-priority operations. |
+|[TransportLogoff](ixplogon-transportlogoff.md) <br/> |Initiates the logoff process. |
+|[SubmitMessage](ixplogon-submitmessage.md) <br/> |Indicates that the MAPI spooler has a message for the transport provider to deliver. |
+|[EndMessage](ixplogon-endmessage.md) <br/> |Informs the transport provider that the MAPI spooler completed its processing on an outbound message. |
+|[Poll](ixplogon-poll.md) <br/> |Indicates whether the transport provider has received one or more inbound messages. |
+|[StartMessage](ixplogon-startmessage.md) <br/> |Initiates the transfer of an inbound message from the transport provider to the MAPI spooler. |
+|[OpenStatusEntry](ixplogon-openstatusentry.md) <br/> |Opens the transport provider's status object. |
+|[ValidateState](ixplogon-validatestate.md) <br/> |Checks the transport provider's external status. |
+|[FlushQueues](ixplogon-flushqueues.md) <br/> |Requests that the transport provider immediately deliver all pending inbound or outbound messages. |
    
 ## See also
 

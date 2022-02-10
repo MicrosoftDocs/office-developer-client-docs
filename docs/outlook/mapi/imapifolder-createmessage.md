@@ -90,7 +90,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolder::OnNewMessage  <br/> |MFCMAPI uses the **IMAPIFolder::CreateMessage** method to create and save a new message.  <br/> |
+|FolderDlg.cpp  <br/> |CFolder::OnNewMessage  <br/> |MFCMAPI uses the **IMAPIFolder::CreateMessage** method to create and save a new message. |
    
 ## See also
 

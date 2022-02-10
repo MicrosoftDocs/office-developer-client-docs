@@ -37,8 +37,8 @@ Each entry of this property must be set to one of the following values.
   
 |**Flag**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|HidePrivate  <br/> |0  <br/> |The delegate should not be allowed to view private message objects.  <br/> |
-|ShowPrivate  <br/> |1  <br/> |The delegate should be allowed to view private message objects.  <br/> |
+|HidePrivate  <br/> |0  <br/> |The delegate should not be allowed to view private message objects. |
+|ShowPrivate  <br/> |1  <br/> |The delegate should be allowed to view private message objects. |
    
 This property must be set in the delegate information object. The value of "ShowPrivate" indicates that the delegator wants to make private message objects visible. This preference is applicable to all folders for which the delegate has a role of reviewer, author, or editor.
   

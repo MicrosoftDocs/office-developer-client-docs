@@ -18,8 +18,8 @@ Prevents the **FontIndex** cell in the **Theme Properties** row from being alter
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The **FontIndex** cell cannot be changed from its current value unless changed in the ShapeSheet directly.  <br/> |
-|FALSE  <br/> |The **FontIndex** cell can be changed from its current value when the theme is changed.  <br/> |
+|TRUE  <br/> |The **FontIndex** cell cannot be changed from its current value unless changed in the ShapeSheet directly. |
+|FALSE  <br/> |The **FontIndex** cell can be changed from its current value when the theme is changed. |
    
 ## Remarks
 

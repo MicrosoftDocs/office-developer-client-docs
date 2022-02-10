@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contains elements that specify document settings.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Contains elements that specify document settings. |
    
 ### Child elements
 
@@ -56,17 +56,17 @@ The value may be a sum of the values in the following table.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Snap to nothing.  <br/> |
-|1  <br/> |Snap to ruler subdivisions.  <br/> |
-|2  <br/> |Snap to grid.  <br/> |
-|4  <br/> |Snap to guides.  <br/> |
-|8  <br/> |Snap to selection handles.  <br/> |
-|16  <br/> |Snap to vertices.  <br/> |
-|32  <br/> |Snap to connection points.  <br/> |
-|256  <br/> |Snap to visible edges of shapes.  <br/> |
-|512  <br/> |Snap to alignment box.  <br/> |
-|1024  <br/> |Snap to shape extensions options.  <br/> |
-|32768  <br/> |Snap disabled.  <br/> |
-|65536  <br/> |Snap to intersections.  <br/> |
+|0  <br/> |Snap to nothing. |
+|1  <br/> |Snap to ruler subdivisions. |
+|2  <br/> |Snap to grid. |
+|4  <br/> |Snap to guides. |
+|8  <br/> |Snap to selection handles. |
+|16  <br/> |Snap to vertices. |
+|32  <br/> |Snap to connection points. |
+|256  <br/> |Snap to visible edges of shapes. |
+|512  <br/> |Snap to alignment box. |
+|1024  <br/> |Snap to shape extensions options. |
+|32768  <br/> |Snap disabled. |
+|65536  <br/> |Snap to intersections. |
    
 

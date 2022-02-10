@@ -37,14 +37,14 @@ Defines methods used to manage secure messages.
 
 |||
 |:-----|:-----|
-|Placeholder member.  <br/> |Not supported or documented.  <br/> |
-|Placeholder member.  <br/> |Not supported or documented.  <br/> |
-|Placeholder member.  <br/> |Not supported or documented.  <br/> |
-|Placeholder member.  <br/> |Not supported or documented.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Retrieves the underlying [IMessage : IMAPIProp](imessageimapiprop.md) that this [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) is encapsulating.  <br/> |
-|Placeholder member.  <br/> |Not supported or documented.  <br/> |
-|Placeholder member.  <br/> |Not supported or documented.  <br/> |
-|Placeholder member.  <br/> |Not supported or documented.  <br/> |
+|Placeholder member. |Not supported or documented. |
+|Placeholder member. |Not supported or documented. |
+|Placeholder member. |Not supported or documented. |
+|Placeholder member. |Not supported or documented. |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Retrieves the underlying [IMessage : IMAPIProp](imessageimapiprop.md) that this [IMAPISecureMessage : IUnknown](imapisecuremessageiunknown.md) is encapsulating. |
+|Placeholder member. |Not supported or documented. |
+|Placeholder member. |Not supported or documented. |
+|Placeholder member. |Not supported or documented. |
    
 ## See also
 

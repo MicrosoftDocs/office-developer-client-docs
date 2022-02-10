@@ -28,7 +28,7 @@ Version Added: Visio 2013
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _lcid_or_bcp47_ <br/> |Required  <br/> |**String** <br/> |The LCID or BCP 47 value for the language.  <br/> |
+| _lcid_or_bcp47_ <br/> |Required  <br/> |**String** <br/> |The LCID or BCP 47 value for the language. |
    
 ## Return value
 

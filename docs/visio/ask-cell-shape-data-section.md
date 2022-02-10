@@ -21,8 +21,8 @@ Determines whether a user is queried to enter shape data for a shape when an ins
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Ask user to enter shape data in the **Define Shape Data** dialog box.  <br/> |
-|FALSE  <br/> |Do not ask user to enter data.  <br/> |
+|TRUE  <br/> |Ask user to enter shape data in the **Define Shape Data** dialog box. |
+|FALSE  <br/> |Do not ask user to enter data. |
    
 ## Remarks
 
@@ -32,14 +32,14 @@ To get a reference to the Ask cell by name from another formula, or from a progr
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Prop. *name*  .Verify            where Prop.  *name*  is the name of the custom property row.  <br/> |
+|Cell name:  <br/> |Prop. *name*  .Verify            where Prop.  *name*  is the name of the custom property row. |
    
 To get a reference to the Ask cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionProp** <br/> |
-|Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2,...  <br/> |
+|Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2,... |
 |Cell index:  <br/> |**visCustPropsAsk** <br/> |
    
 

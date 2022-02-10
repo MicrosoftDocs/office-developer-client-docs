@@ -20,8 +20,8 @@ Locks the width of the shape so that its width remains unchanged when the shape 
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Width is locked.  <br/> |
-| FALSE  <br/> | Width is not locked.  <br/> |
+| TRUE  <br/> | Width is locked. |
+| FALSE  <br/> | Width is not locked. |
    
 ## Remarks
 

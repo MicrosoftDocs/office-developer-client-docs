@@ -83,9 +83,9 @@ Expect these return values under the following conditions.
   
 |**Condition**|**Return value**|
 |:-----|:-----|
-|**DeleteMessages** has successfully deleted every message.  <br/> |S_OK  <br/> |
-|**DeleteMessages** was unable to successfully delete every message and subfolder.  <br/> |MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND  <br/> |
-|**DeleteMessages** was unable to complete.  <br/> |Any error value except MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages** has successfully deleted every message. |S_OK  <br/> |
+|**DeleteMessages** was unable to successfully delete every message and subfolder. |MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND  <br/> |
+|**DeleteMessages** was unable to complete. |Any error value except MAPI_E_NOT_FOUND  <br/> |
    
 When **DeleteMessages** is unable to complete, do not assume that no work was done. **DeleteMessages** might have been able to delete one or more of the messages before encountering the error. 
   
@@ -97,7 +97,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMAPIFolder::DeleteMessages** method to delete the specified messages.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMAPIFolder::DeleteMessages** method to delete the specified messages. |
    
 ## See also
 

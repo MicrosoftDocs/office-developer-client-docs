@@ -26,8 +26,8 @@ HRESULT IOlkAccountHelper::HandsOffSession( );
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |If your implementation of **IOlkAccountHelper** creates its own MAPI session that is returned in **IOlkAccountHelper::GetMapiSession**, you must release the session here and return S_OK.  <br/> |
-|E_NOTIMPL  <br/> |If your implementation of **IOlkAccountHelper** did not create its own MAPI session, you must return only E_NOTIMPL. In this case, this is the only supported return value.  <br/> |
+|S_OK  <br/> |If your implementation of **IOlkAccountHelper** creates its own MAPI session that is returned in **IOlkAccountHelper::GetMapiSession**, you must release the session here and return S_OK. |
+|E_NOTIMPL  <br/> |If your implementation of **IOlkAccountHelper** did not create its own MAPI session, you must return only E_NOTIMPL. In this case, this is the only supported return value. |
    
 ## See also
 

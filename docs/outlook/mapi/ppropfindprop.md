@@ -66,7 +66,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI uses the **PpropFindProp** method to find properties in a property set being added to the list.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::BuildDataItem  <br/> |MFCMAPI uses the **PpropFindProp** method to find properties in a property set being added to the list. |
    
 ## See also
 

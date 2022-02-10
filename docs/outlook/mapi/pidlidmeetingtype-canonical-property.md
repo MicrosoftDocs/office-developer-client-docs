@@ -38,12 +38,12 @@ The value of this property must be set to one of the following:
   
 |**Property**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|mtgEmpty  <br/> |0x00000000  <br/> |Unspecified.  <br/> |
-|mtgRequest  <br/> |0x00000001  <br/> |Initial meeting request.  <br/> |
-|mtgFull  <br/> |0x00010000  <br/> |Full update.  <br/> |
-|mtgInfo  <br/> |0x00020000  <br/> |Informational update.  <br/> |
-|mtgOutOfDate  <br/> |0x00080000  <br/> |A newer meeting request or meeting update was received after this one.  <br/> |
-|mtgDelegatorCopy  <br/> |0x00100000  <br/> |This is set on the delegator's copy when a delegate handles meeting-related objects.  <br/> |
+|mtgEmpty  <br/> |0x00000000  <br/> |Unspecified. |
+|mtgRequest  <br/> |0x00000001  <br/> |Initial meeting request. |
+|mtgFull  <br/> |0x00010000  <br/> |Full update. |
+|mtgInfo  <br/> |0x00020000  <br/> |Informational update. |
+|mtgOutOfDate  <br/> |0x00080000  <br/> |A newer meeting request or meeting update was received after this one. |
+|mtgDelegatorCopy  <br/> |0x00100000  <br/> |This is set on the delegator's copy when a delegate handles meeting-related objects. |
    
 ## Related resources
 

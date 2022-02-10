@@ -33,7 +33,7 @@ Supports Microsoft Outlook 2010 and Microsoft Outlook 2013 in sending notificati
 
 |||
 |:-----|:-----|
-|[Notify](imapiofflinenotify-notify.md) <br/> |Sends notifications to a client about changes in connection state.  <br/> |
+|[Notify](imapiofflinenotify-notify.md) <br/> |Sends notifications to a client about changes in connection state. |
    
 ## Remarks
 

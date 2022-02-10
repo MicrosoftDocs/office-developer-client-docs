@@ -14,7 +14,7 @@ Project Online is an Office 365 service that companies can extend to meet busine
   
 |ECF Name|ECF Type|Association|Example Value|
 |:-----|:-----|:-----|:-----|
-|Justification  <br/> |TEXT  <br/> |Project  <br/> |An end user can record vital statistics and health data, with results that include a health evaluation and an individualized action plan towards better health.  <br/> |
+|Justification  <br/> |TEXT  <br/> |Project  <br/> |An end user can record vital statistics and health data, with results that include a health evaluation and an individualized action plan towards better health. |
 |Risk Rating  <br/> |TEXT  <br/> |Project  <br/> |Low  <br/> |
 |ROI  <br/> |NUMBER  <br/> |Project  <br/> |2.10  <br/> |
 |Total Cost  <br/> |COST  <br/> |Project  <br/> |$1,031,514  <br/> |

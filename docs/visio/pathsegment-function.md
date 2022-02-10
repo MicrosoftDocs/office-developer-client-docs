@@ -24,8 +24,8 @@ PATHSEGMENT(** *section* **, ** *travel* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path).  <br/> |
-| _travel_ <br/> |Required  <br/> |**Double** <br/> |The percentage of the path traversed, from the begin point to the end point. Must be between 0 and 1.  <br/> |
+| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path). |
+| _travel_ <br/> |Required  <br/> |**Double** <br/> |The percentage of the path traversed, from the begin point to the end point. Must be between 0 and 1. |
    
 ### Return value
 

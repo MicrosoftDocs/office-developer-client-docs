@@ -30,19 +30,19 @@ The MAPI tables and their implementers and users are:
   
 |**Table**|**Implementers**|
 |:-----|:-----|
-|Attachment  <br/> |Implemented by message store providers. Used by clients and transport providers.  <br/> |
-|Contents  <br/> |Implemented by message store and address book providers. Used by clients.  <br/> |
-|Display  <br/> |Implemented by MAPI and service providers. Used by MAPI and service providers.  <br/> |
-|Hierarchy  <br/> |Implemented by message store and address book providers. Used by clients.  <br/> |
-|Message service  <br/> |Implemented by MAPI. Used by clients.  <br/> |
-|Message store  <br/> |Implemented by MAPI. Used by clients.  <br/> |
-|One-off  <br/> |Implemented by address book providers. Used by MAPI.  <br/> |
-|Outgoing queue  <br/> |Implemented by message store providers. Used by MAPI spooler.  <br/> |
-|Profile  <br/> |Implemented by MAPI. Used by clients.  <br/> |
-|Provider  <br/> |Implemented by MAPI. Used by clients.  <br/> |
-|Receive folder  <br/> |Implemented by message store providers. Used by clients.  <br/> |
-|Recipient  <br/> |Implemented by message store providers. Used by clients and transport providers.  <br/> |
-|Status  <br/> |Implemented by MAPI and service providers. Used by clients.  <br/> |
+|Attachment  <br/> |Implemented by message store providers. Used by clients and transport providers. |
+|Contents  <br/> |Implemented by message store and address book providers. Used by clients. |
+|Display  <br/> |Implemented by MAPI and service providers. Used by MAPI and service providers. |
+|Hierarchy  <br/> |Implemented by message store and address book providers. Used by clients. |
+|Message service  <br/> |Implemented by MAPI. Used by clients. |
+|Message store  <br/> |Implemented by MAPI. Used by clients. |
+|One-off  <br/> |Implemented by address book providers. Used by MAPI. |
+|Outgoing queue  <br/> |Implemented by message store providers. Used by MAPI spooler. |
+|Profile  <br/> |Implemented by MAPI. Used by clients. |
+|Provider  <br/> |Implemented by MAPI. Used by clients. |
+|Receive folder  <br/> |Implemented by message store providers. Used by clients. |
+|Recipient  <br/> |Implemented by message store providers. Used by clients and transport providers. |
+|Status  <br/> |Implemented by MAPI and service providers. Used by clients. |
    
 ## See also
 

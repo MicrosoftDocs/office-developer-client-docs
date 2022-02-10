@@ -28,7 +28,7 @@ BOUNDINGBOXDIST(** *Index* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Index_ <br/> |Required  <br/> |**Number** <br/> |The part of the shape's bounding box to measure and return. See Remarks for possible values.  <br/> |
+| _Index_ <br/> |Required  <br/> |**Number** <br/> |The part of the shape's bounding box to measure and return. See Remarks for possible values. |
    
 ### Return value
 

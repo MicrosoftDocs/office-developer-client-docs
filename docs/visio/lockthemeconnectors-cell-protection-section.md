@@ -18,8 +18,8 @@ Prevents the **ConnectorsSchemeIndex** cell in the **Theme Properties** row from
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The **ConnectorsSchemeIndex** cell cannot be changed from its current value unless changed in the ShapeSheet directly.  <br/> |
-|FALSE  <br/> |The **ConnectorsSchemeIndex** cell can be changed from its current value through the UI.  <br/> |
+|TRUE  <br/> |The **ConnectorsSchemeIndex** cell cannot be changed from its current value unless changed in the ShapeSheet directly. |
+|FALSE  <br/> |The **ConnectorsSchemeIndex** cell can be changed from its current value through the UI. |
    
 ## Remarks
 

@@ -27,6 +27,6 @@ The **LTrim** function contains the following argument.
   
 |**Argument Name**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |A string expression.  <br/> |
+| *TextExpression*  <br/> |A string expression. |
    
 

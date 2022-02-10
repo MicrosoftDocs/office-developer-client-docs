@@ -25,8 +25,8 @@ The **SetReturnVar** action has the following arguments.
   
 |**Argument name**|**Required**|**Description**|
 |:-----|:-----|:-----|
-| _Name_ <br/> |Yes  <br/> |A string that specifies the name of the variable.  <br/> |
-| _Expression_ <br/> |Yes  <br/> |An expression that will be used to set the value for this temporary variable. Do not precede the expression with the equal sign (=). You can click the **Build** button to use the **Expression Builder** to set this argument.  <br/> |
+| _Name_ <br/> |Yes  <br/> |A string that specifies the name of the variable. |
+| _Expression_ <br/> |Yes  <br/> |An expression that will be used to set the value for this temporary variable. Do not precede the expression with the equal sign (=). You can click the **Build** button to use the **Expression Builder** to set this argument. |
    
 ## Remarks
 

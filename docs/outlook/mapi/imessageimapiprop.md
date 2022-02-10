@@ -38,14 +38,14 @@ Manages messages, attachments, and recipients.
 
 |||
 |:-----|:-----|
-|[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Returns the message's attachment table.  <br/> |
-|[OpenAttach](imessage-openattach.md) <br/> |Opens an attachment.  <br/> |
-|[CreateAttach](imessage-createattach.md) <br/> |Creates a new attachment.  <br/> |
-|[DeleteAttach](imessage-deleteattach.md) <br/> |Deletes an attachment.  <br/> |
-|[GetRecipientTable](imessage-getrecipienttable.md) <br/> |Returns the message's recipient table.  <br/> |
-|[ModifyRecipients](imessage-modifyrecipients.md) <br/> |Adds, deletes, or modifies message recipients.  <br/> |
-|[SubmitMessage](imessage-submitmessage.md) <br/> |Saves all changes to the message and marks it as ready for sending.  <br/> |
-|[SetReadFlag](imessage-setreadflag.md) <br/> |Sets or clears the MSGFLAG_READ flag in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message and manages the sending of read reports.  <br/> |
+|[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Returns the message's attachment table. |
+|[OpenAttach](imessage-openattach.md) <br/> |Opens an attachment. |
+|[CreateAttach](imessage-createattach.md) <br/> |Creates a new attachment. |
+|[DeleteAttach](imessage-deleteattach.md) <br/> |Deletes an attachment. |
+|[GetRecipientTable](imessage-getrecipienttable.md) <br/> |Returns the message's recipient table. |
+|[ModifyRecipients](imessage-modifyrecipients.md) <br/> |Adds, deletes, or modifies message recipients. |
+|[SubmitMessage](imessage-submitmessage.md) <br/> |Saves all changes to the message and marks it as ready for sending. |
+|[SetReadFlag](imessage-setreadflag.md) <br/> |Sets or clears the MSGFLAG_READ flag in the **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) property of the message and manages the sending of read reports. |
    
 The following properties are required on messages at some point during their lifecycle. Most of the read-only properties are set by the message store provider when a client calls a message's [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method. Other read-only properties are set by the transport provider. 
   

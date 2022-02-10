@@ -23,10 +23,10 @@ Determines the direction of the fill gradient. A gradient can be linear, radial,
 
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Linear gradient. The **FillGradientAngle** cell determines the direction of the gradient.  <br/> |
-|1-7  <br/> |Radial gradients. The gradient extends outwards in a circle from a central point.  <br/> |
-|8-12  <br/> |Rectangular gradients. The gradient extends as a directional line from an origin with a rectangular-shaped fade.  <br/> |
-|13  <br/> |Path gradient.  <br/> |
+|0  <br/> |Linear gradient. The **FillGradientAngle** cell determines the direction of the gradient. |
+|1-7  <br/> |Radial gradients. The gradient extends outwards in a circle from a central point. |
+|8-12  <br/> |Rectangular gradients. The gradient extends as a directional line from an origin with a rectangular-shaped fade. |
+|13  <br/> |Path gradient. |
    
 ## Remarks
 

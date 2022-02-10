@@ -18,8 +18,8 @@ Indicates whether a shape can participate in a replacement operation (as either 
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The shape cannot be replaced or be used as a replacement shape.  <br/> For a shape on the canvas, the **Change Shape** button is disabled when the shape is selected.  <br/> For a shape on a stencil, the shape does not appear as a replacement shape when the **Change Shape** button is clicked.  <br/> |
-|FALSE  <br/> |The shape can be replaced or used as a replacement shape.  <br/> |
+|TRUE  <br/> |The shape cannot be replaced or be used as a replacement shape. For a shape on the canvas, the **Change Shape** button is disabled when the shape is selected. For a shape on a stencil, the shape does not appear as a replacement shape when the **Change Shape** button is clicked. |
+|FALSE  <br/> |The shape can be replaced or used as a replacement shape. |
    
 ## Remarks
 

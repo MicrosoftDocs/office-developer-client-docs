@@ -39,9 +39,9 @@ The possible values for this property are defined in the gender enumeration. The
   
 |**Gender enumeration**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|genderUnspecified  <br/> |0x0000  <br/> |The contact's gender is unspecified.  <br/> |
-|genderFemale  <br/> |0x0001  <br/> |The contact is female.  <br/> |
-|genderMale  <br/> |0x0002  <br/> |The contact is male.  <br/> |
+|genderUnspecified  <br/> |0x0000  <br/> |The contact's gender is unspecified. |
+|genderFemale  <br/> |0x0001  <br/> |The contact is female. |
+|genderMale  <br/> |0x0002  <br/> |The contact is male. |
    
 ## Related resources
 

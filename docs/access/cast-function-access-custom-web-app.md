@@ -1,7 +1,7 @@
 ---
 title: "Cast function (Access custom web app)"  
-manager: kelbow
-ms.date: 09/05/2017
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: b33f649c-d9b5-4ae5-a3fa-8681ed9a956d
@@ -23,5 +23,5 @@ Converts an expression of one data type to another.
   
 |**Argument Name**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |A valid expression.  <br/> |
-| *DataType*  <br/> |The target data type.  <br/> |
+| *Expression*   |A valid expression.   |
+| *DataType*   |The target data type.   |

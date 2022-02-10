@@ -25,11 +25,11 @@ The **Between** operator contains the following arguments.
   
 |**Argument**|**Required**|**Description**|
 |:-----|:-----|:-----|
-| *test_expression* <br/> |Yes  <br/> |The expression to test for in the range defined by *begin_expression* and *end_expression* . Must be the same data type as both *begin_expression* and *end_expression*.  <br/> |
-| *NOT* <br/> |No  <br/> |Specifies that the result of the predicate be negated.  <br/> |
-| *begin_expression* <br/> |Yes  <br/> |A valid expression. Must be the same data type as both *test_expression* and *end_expression*.  <br/> |
-| *end_expression* <br/> |Yes  <br/> |A valid expression. Must be the same data type as both *test_expression* and *begin_expression* .  <br/> |
-| *AND* <br/> |Yes  <br/> |Indicates *test_expression* should be within the range indicated by *begin_expression* and *end_expression*.  <br/> |
+| *test_expression* <br/> |Yes  <br/> |The expression to test for in the range defined by *begin_expression* and *end_expression* . Must be the same data type as both *begin_expression* and *end_expression*. |
+| *NOT* <br/> |No  <br/> |Specifies that the result of the predicate be negated. |
+| *begin_expression* <br/> |Yes  <br/> |A valid expression. Must be the same data type as both *test_expression* and *end_expression*. |
+| *end_expression* <br/> |Yes  <br/> |A valid expression. Must be the same data type as both *test_expression* and *begin_expression* . |
+| *AND* <br/> |Yes  <br/> |Indicates *test_expression* should be within the range indicated by *begin_expression* and *end_expression*. |
 
 ## Result Type
 

@@ -38,8 +38,8 @@ This property must be set to one of the following values:
   
 |**Value**|**Scenario**|
 |:-----|:-----|
-|0x00040290  <br/> |This Sharing Message object relates to a special folder.  <br/> |
-|0x000402B0  <br/> |This Sharing Message object does not relate to a special folder.  <br/> |
+|0x00040290  <br/> |This Sharing Message object relates to a special folder. |
+|0x000402B0  <br/> |This Sharing Message object does not relate to a special folder. |
    
 ## Related resources
 

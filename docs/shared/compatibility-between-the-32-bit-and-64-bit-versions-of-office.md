@@ -103,14 +103,14 @@ The following table provides more information about the new qualifier and data t
   
 |Type|Item|Description|
 |:-----|:-----|:-----|
-|Qualifier  <br/> |**PtrSafe** <br/> |Indicates that the **Declare** statement is compatible with 64-bits. This attribute is mandatory on 64-bit systems.  <br/> |
-|Data Type  <br/> |**LongPtr** <br/> |A variable data type which is a 4-bytes data type on 32-bit versions and an 8-byte data type on 64-bit versions of Microsoft Office. This is the recommended way of declaring a pointer or a handle for new code but also for legacy code if it has to run in the 64-bit version of Office. It is only supported in the VBA 7 runtime on 32-bit and 64-bit. Note that you can assign numeric values to it but not numeric types.  <br/> |
-|Data Type  <br/> |**LongLong** <br/> |This is an 8-byte data type which is available only in 64-bit versions of Microsoft Office. You can assign numeric values but not numeric types (to avoid truncation).  <br/> |
-|Conversion Operator  <br/> |**CLngPtr** <br/> |Converts a simple expression to a **LongPtr** data type.  <br/> |
-|Conversion Operator  <br/> |**CLngLng** <br/> |Converts a simple expression to a **LongLong** data type.  <br/> |
-|Function  <br/> |**VarPtr** <br/> |Variant converter. Returns a **LongPtr** on 64-bit versions, and a **Long** on 32-bit versions (4 bytes).  <br/> |
-|Function  <br/> |**ObjPtr** <br/> |Object converter. Returns a **LongPtr** on 64-bit versions, and a **Long** on 32-bit versions (4 bytes).  <br/> |
-|Function  <br/> |**StrPtr** <br/> |String converter. Returns a **LongPtr** on 64-bit versions, and a **Long** on 32-bit versions (4 bytes).  <br/> |
+|Qualifier  <br/> |**PtrSafe** <br/> |Indicates that the **Declare** statement is compatible with 64-bits. This attribute is mandatory on 64-bit systems. |
+|Data Type  <br/> |**LongPtr** <br/> |A variable data type which is a 4-bytes data type on 32-bit versions and an 8-byte data type on 64-bit versions of Microsoft Office. This is the recommended way of declaring a pointer or a handle for new code but also for legacy code if it has to run in the 64-bit version of Office. It is only supported in the VBA 7 runtime on 32-bit and 64-bit. Note that you can assign numeric values to it but not numeric types. |
+|Data Type  <br/> |**LongLong** <br/> |This is an 8-byte data type which is available only in 64-bit versions of Microsoft Office. You can assign numeric values but not numeric types (to avoid truncation). |
+|Conversion Operator  <br/> |**CLngPtr** <br/> |Converts a simple expression to a **LongPtr** data type. |
+|Conversion Operator  <br/> |**CLngLng** <br/> |Converts a simple expression to a **LongLong** data type. |
+|Function  <br/> |**VarPtr** <br/> |Variant converter. Returns a **LongPtr** on 64-bit versions, and a **Long** on 32-bit versions (4 bytes). |
+|Function  <br/> |**ObjPtr** <br/> |Object converter. Returns a **LongPtr** on 64-bit versions, and a **Long** on 32-bit versions (4 bytes). |
+|Function  <br/> |**StrPtr** <br/> |String converter. Returns a **LongPtr** on 64-bit versions, and a **Long** on 32-bit versions (4 bytes). |
    
 The follow example shows how to use some of these items in a **Declare** statement. 
   
@@ -231,11 +231,11 @@ The parameters are defined as:
   
 |Parameter|Description|
 |:-----|:-----|
-|hKey [in]  <br/> |A  *handle*  to an open registry key.  <br/> |
-|lpSubKey [in, optional]  <br/> |The name of the registry subkey to be opened.  <br/> |
-|ulOptions  <br/> |This parameter is reserved and must be zero.  <br/> |
-|samDesired [in]  <br/> |A mask that specifies the desired access rights to the key.  <br/> |
-|phkResult [out]  <br/> |A  *pointer*  to a variable that receives a handle to the opened key.  <br/> |
+|hKey [in]  <br/> |A  *handle*  to an open registry key. |
+|lpSubKey [in, optional]  <br/> |The name of the registry subkey to be opened. |
+|ulOptions  <br/> |This parameter is reserved and must be zero. |
+|samDesired [in]  <br/> |A mask that specifies the desired access rights to the key. |
+|phkResult [out]  <br/> |A  *pointer*  to a variable that receives a handle to the opened key. |
    
 In [Win32API_PtrSafe.txt](/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support.md), the **Declare** statement is defined as: 
   

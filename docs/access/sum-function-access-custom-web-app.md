@@ -24,7 +24,7 @@ The **Sum** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |An expression identifying the field that contains the numeric data you want to add or an expression that performs a calculation using the data in that field. Operands in *NumericExpression* can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).  <br/> |
+| *NumericExpression*  <br/> |An expression identifying the field that contains the numeric data you want to add or an expression that performs a calculation using the data in that field. Operands in *NumericExpression* can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions). |
 
 ## Remarks
 

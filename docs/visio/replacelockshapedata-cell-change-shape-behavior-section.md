@@ -18,8 +18,8 @@ Indicates whether the values of specified cells in a master shape overwrite the 
   
 |**Value**|**Description**|
 |:-----|:-----|
-|1 (TRUE)  <br/> |All rows and values of the **Shape Data** section of the master shape are copied onto the replacement shape and any local values from the old shape being replaced are discarded.  <br/> |
-|0 (FALSE)  <br/> |The rows and values of the **Shape Data** section of the master shape are copied to the replacement shape. Any rows in the **Shape Data** section of the old shape with local values are transferred to the replacement shape.  <br/> |
+|1 (TRUE)  <br/> |All rows and values of the **Shape Data** section of the master shape are copied onto the replacement shape and any local values from the old shape being replaced are discarded. |
+|0 (FALSE)  <br/> |The rows and values of the **Shape Data** section of the master shape are copied to the replacement shape. Any rows in the **Shape Data** section of the old shape with local values are transferred to the replacement shape. |
    
 ## Remarks
 

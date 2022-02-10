@@ -20,8 +20,8 @@ Indicates whether this shape can split shapes that are splittable.
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-| 0  <br/> | Do not allow this shape to split other shapes.  <br/> |**visSLOSplitNone** <br/> |
-| 1  <br/> | Allow this shape to split other shapes.  <br/> |**visSLOSplitAllow** <br/> |
+| 0  <br/> | Do not allow this shape to split other shapes. |**visSLOSplitNone** <br/> |
+| 1  <br/> | Allow this shape to split other shapes. |**visSLOSplitAllow** <br/> |
    
 ## Remarks
 

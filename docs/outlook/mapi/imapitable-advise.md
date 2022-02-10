@@ -78,7 +78,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI uses the **IMAPITable::Advise** method to register for notifications to allow the table view to stay current.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContestTableListCtrl::NotificationOn  <br/> |MFCMAPI uses the **IMAPITable::Advise** method to register for notifications to allow the table view to stay current. |
    
 ## See also
 

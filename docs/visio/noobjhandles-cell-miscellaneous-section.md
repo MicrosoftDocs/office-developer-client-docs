@@ -20,8 +20,8 @@ Switches the display of selection handles on and off for the selected shape.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Selection handles are not displayed when a shape is selected.  <br/> |
-| FALSE  <br/> | Selection handles are displayed when a shape is selected.  <br/> |
+| TRUE  <br/> | Selection handles are not displayed when a shape is selected. |
+| FALSE  <br/> | Selection handles are displayed when a shape is selected. |
    
 ## Remarks
 

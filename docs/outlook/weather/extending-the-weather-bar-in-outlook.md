@@ -79,7 +79,7 @@ The following table describes the **WeatherServiceUrl** key.
 |**Value name** <br/> |**WeatherServiceUrl** <br/> |
 |**Value type** <br/> |REG_SZ  <br/> |
 |**Default value** <br/> |EMPTY_STRING  <br/> |
-|**Description** <br/> |URL to a weather data service.  <br/> |
+|**Description** <br/> |URL to a weather data service. |
    
 ## Dependent conditions
 <a name="ol15_weatherbar_dependentconditions"> </a>
@@ -98,7 +98,7 @@ Note that an administrator can also use Group Policy to disable the Weather Bar 
 |**Value name** <br/> |**DisableWeather** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
 |**Default value** <br/> |0  <br/> |
-|**Description** <br/> |A value of 0 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
+|**Description** <br/> |A value of 0 enables the Weather Bar; any other value disables the Weather Bar. |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
   
@@ -116,7 +116,7 @@ An administrator can also use Group Policy to disable all online content, includ
 |**Value name** <br/> |**UseOnlineContent** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
 |**Default value** <br/> |2  <br/> |
-|**Description** <br/> |A value of 2 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
+|**Description** <br/> |A value of 2 enables the Weather Bar; any other value disables the Weather Bar. |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
   

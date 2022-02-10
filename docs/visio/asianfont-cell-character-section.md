@@ -29,14 +29,14 @@ To get a reference to the AsianFont cell by name from another formula, or from a
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Char.AsianFont[ *i*  ]           where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Char.AsianFont[ *i*  ]           where  *i*  = <1>, 2, 3... |
    
 To get a reference to the AsianFont cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionCharacter** <br/> |
-|Row index:  <br/> |**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visCharacterAsianFont** <br/> |
    
 

@@ -20,8 +20,8 @@ Indicates whether the shape has been flipped vertically.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | The shape has been flipped vertically.  <br/> |
-| FALSE  <br/> | The shape has not been flipped vertically.  <br/> |
+| TRUE  <br/> | The shape has been flipped vertically. |
+| FALSE  <br/> | The shape has not been flipped vertically. |
    
 ## Remarks
 

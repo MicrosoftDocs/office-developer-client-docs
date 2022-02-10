@@ -25,14 +25,14 @@ To get a reference to the X cell by name from another formula, or from a program
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Controls.  *name*  .X where Controls.  *name*  is the name of the controls row.  <br/> |
+| Cell name:  <br/> | Controls.  *name*  .X where Controls.  *name*  is the name of the controls row. |
    
 To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionControls** <br/> |
-| Row index:  <br/> |**visRowControl** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowControl** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCtlX** <br/> |
    
 
