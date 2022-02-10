@@ -1,17 +1,13 @@
 ---
-title: "Bullet Cell (Paragraph Section)"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "Bullet Cell (Paragraph Section)" 
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
-- vis_sdr.chm130
- 
+- vis_sdr.chm130 
 ms.localizationpriority: medium
 ms.assetid: 124a5ee1-6dd1-d17d-6f0e-dbaa5d95d9cd
-
 description: "Determines the bullet style."
 ---
 
@@ -21,7 +17,7 @@ Determines the bullet style.
   
 |**Value**|**Bullet style**|
 |:-----|:-----|
-|0   |None  <br/> |
+|0   |None |
 |1   |![round bullet](media/IC_Bullet1_ZA07645847.gif) |
 |2   |![diamond bullet](media/IC_Bullet2_ZA07645848.gif) |
 |3   |![square bullet](media/IC_Bullet3_ZA07645849.gif) |
