@@ -40,24 +40,24 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Represents one set of diagram-validation rules.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Represents one set of diagram-validation rules. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RuleFilter](rulefilter-element-rule_type-complextypevisio-xml.md) <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |Specifies the logical expression that determines whether the validation rule should be applied to a target object.  <br/> |
-|[RuleTest](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |Specifies the logical expression that determines whether the target object satisfies the validation rule.  <br/> |
+|[RuleFilter](rulefilter-element-rule_type-complextypevisio-xml.md) <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |Specifies the logical expression that determines whether the validation rule should be applied to a target object. |
+|[RuleTest](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |Specifies the logical expression that determines whether the target object satisfies the validation rule. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Category  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the text displayed in the **Category** column of the Issues window. Default is an empty string.  <br/> |Values of the xsd:string type.  <br/> |
-|Description  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the description of the validation rule that appears in the user interface. Default is "Unknown".  <br/> |Values of the xsd:string type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier for the validation rule.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Ignored  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies whether the validation rule is currently ignored. Default is False.  <br/> |Values of the xsd:boolean type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |required  <br/> |Specifies the universal name of the validation rule.  <br/> |Values of the xsd:string type.  <br/> |
-|RuleTarget  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the type of object to which the validation rule applies.  <br/> |Values of the xsd:int type.  <br/> |
+|Category  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the text displayed in the **Category** column of the Issues window. Default is an empty string. |Values of the xsd:string type. |
+|Description  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the description of the validation rule that appears in the user interface. Default is "Unknown". |Values of the xsd:string type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier for the validation rule. |Values of the xsd:unsignedInt type. |
+|Ignored  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies whether the validation rule is currently ignored. Default is False. |Values of the xsd:boolean type. |
+|NameU  <br/> |xsd:string  <br/> |required  <br/> |Specifies the universal name of the validation rule. |Values of the xsd:string type. |
+|RuleTarget  <br/> |xsd:int  <br/> |optional  <br/> |Specifies the type of object to which the validation rule applies. |Values of the xsd:int type. |
    
 

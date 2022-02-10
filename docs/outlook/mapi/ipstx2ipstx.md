@@ -35,7 +35,7 @@ This interface provides helper functionality when performing replication through
 |:-----|:-----|
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
-|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Sets the suspended state on the spooler.  <br/> |
+|**[SetSpoolSuspendState](ipstx2-setspoolsuspendstate.md)** <br/> |Sets the suspended state on the spooler. |
    
 ## See also
 

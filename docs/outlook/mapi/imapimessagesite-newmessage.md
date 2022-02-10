@@ -81,7 +81,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::NewMessage  <br/> |MFCMAPI uses the **IMAPIMessageSite::NewMessage** method to create a new message, instantiate a new form viewer, and call **SetPersist** to set the message on the form viewer. Finally, it returns the form viewer as the message site.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::NewMessage  <br/> |MFCMAPI uses the **IMAPIMessageSite::NewMessage** method to create a new message, instantiate a new form viewer, and call **SetPersist** to set the message on the form viewer. Finally, it returns the form viewer as the message site. |
    
 ## See also
 

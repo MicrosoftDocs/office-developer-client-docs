@@ -26,8 +26,8 @@ TEXTWIDTH(** *shapename!TheText* ** ** *[,maximumwidth]* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _shapename!theText_ <br/> |Required  <br/> |**String** <br/> |A reference to the cell named TheText in the target shape.  _shapename!_ is the name of the shape from which you want to retrieve the text.  <br/> |
-| _maximumwidth_ <br/> |Optional  <br/> |**Numeric** <br/> |The maximum width of the text block.  <br/> |
+| _shapename!theText_ <br/> |Required  <br/> |**String** <br/> |A reference to the cell named TheText in the target shape.  _shapename!_ is the name of the shape from which you want to retrieve the text. |
+| _maximumwidth_ <br/> |Optional  <br/> |**Numeric** <br/> |The maximum width of the text block. |
    
 ### Return value
 

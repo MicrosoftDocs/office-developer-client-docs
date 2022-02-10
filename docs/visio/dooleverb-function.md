@@ -26,7 +26,7 @@ DOOLEVERB(" ** *verb* ** ")
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _"verb"_ <br/> |Required  <br/> |**String** <br/> |The verb to execute.  <br/> |
+| _"verb"_ <br/> |Required  <br/> |**String** <br/> |The verb to execute. |
    
 ## Remarks
 

@@ -33,7 +33,7 @@ This interface provides helper functionality when performing replication through
 
 |||
 |:-----|:-----|
-| *Placeholder member*  <br/> | *Not supported or documented*  .  <br/> |
+| *Placeholder member*  <br/> | *Not supported or documented*  . |
    
 ## See also
 

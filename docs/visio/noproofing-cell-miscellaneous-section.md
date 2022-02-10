@@ -18,8 +18,8 @@ Determines whether spelling is automatically corrected and whether spelling erro
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Spelling is not automatically corrected and spelling errors are not displayed for the selected shape.  <br/> |
-|FALSE  <br/> |Spelling is automatically corrected and spelling errors are displayed for the selected shape.  <br/> |
+|TRUE  <br/> |Spelling is not automatically corrected and spelling errors are not displayed for the selected shape. |
+|FALSE  <br/> |Spelling is automatically corrected and spelling errors are displayed for the selected shape. |
    
 ## Remarks
 

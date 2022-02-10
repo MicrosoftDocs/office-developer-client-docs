@@ -46,6 +46,6 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
+|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
    
 

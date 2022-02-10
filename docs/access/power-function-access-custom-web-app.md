@@ -24,5 +24,5 @@ The **Power** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |A numeric expression.  <br/> |
-| *Power*  <br/> |The power to which to raise *NumericExpression*.  <br/> |
+| *NumericExpression*  <br/> |A numeric expression. |
+| *Power*  <br/> |The power to which to raise *NumericExpression*. |

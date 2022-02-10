@@ -37,15 +37,15 @@ Provides utility methods for working with tables. MAPI provides table data objec
 
 |||
 |:-----|:-----|
-|[HrGetView](itabledata-hrgetview.md) <br/> |Creates a table view, returning a pointer to an [IMAPITable](imapitableiunknown.md) implementation.  <br/> |
-|[HrModifyRow](itabledata-hrmodifyrow.md) <br/> |Inserts a new table row, possibly replacing an existing row.  <br/> |
-|[HrDeleteRow](itabledata-hrdeleterow.md) <br/> |Deletes a table row.  <br/> |
-|[HrQueryRow](itabledata-hrqueryrow.md) <br/> |Retrieves a table row.  <br/> |
-|[HrEnumRow](itabledata-hrenumrow.md) <br/> |Retrieves a row based on its position in the table.  <br/> |
-|[HrNotify](itabledata-hrnotify.md) <br/> |Sends a notification for a table row.  <br/> |
-|[HrInsertRow](itabledata-hrinsertrow.md) <br/> |Inserts a table row.  <br/> |
-|[HrModifyRows](itabledata-hrmodifyrows.md) <br/> |Inserts multiple table rows, possibly replacing existing rows.  <br/> |
-|[HrDeleteRows](itabledata-hrdeleterows.md) <br/> |Deletes multiple table rows.  <br/> |
+|[HrGetView](itabledata-hrgetview.md) <br/> |Creates a table view, returning a pointer to an [IMAPITable](imapitableiunknown.md) implementation. |
+|[HrModifyRow](itabledata-hrmodifyrow.md) <br/> |Inserts a new table row, possibly replacing an existing row. |
+|[HrDeleteRow](itabledata-hrdeleterow.md) <br/> |Deletes a table row. |
+|[HrQueryRow](itabledata-hrqueryrow.md) <br/> |Retrieves a table row. |
+|[HrEnumRow](itabledata-hrenumrow.md) <br/> |Retrieves a row based on its position in the table. |
+|[HrNotify](itabledata-hrnotify.md) <br/> |Sends a notification for a table row. |
+|[HrInsertRow](itabledata-hrinsertrow.md) <br/> |Inserts a table row. |
+|[HrModifyRows](itabledata-hrmodifyrows.md) <br/> |Inserts multiple table rows, possibly replacing existing rows. |
+|[HrDeleteRows](itabledata-hrdeleterows.md) <br/> |Deletes multiple table rows. |
    
 ## Remarks
 

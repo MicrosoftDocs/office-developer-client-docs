@@ -20,8 +20,8 @@ Determines whether placeable shapes move and connectors reroute around other sha
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Disable dynamics.  <br/> |
-| FALSE  <br/> | Enable dynamics.  <br/> |
+| TRUE  <br/> | Disable dynamics. |
+| FALSE  <br/> | Enable dynamics. |
    
 ## Remarks
 

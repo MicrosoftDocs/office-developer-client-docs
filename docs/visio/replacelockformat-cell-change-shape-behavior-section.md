@@ -18,8 +18,8 @@ Indicates whether the values of specified cells in a master shape overwrite the 
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |If the **ReplaceLockFormat** cell of a master shape is set to TRUE, the formatting values of the master overwrite all corresponding values of a shape being replaced by the master.  <br/> |
-|FALSE  <br/> |If the **ReplaceLockFormat** cell of a master shape is set to FALSE, the replacement shape contains the local formatting values from the old shape after the replacement operation.  <br/> |
+|TRUE  <br/> |If the **ReplaceLockFormat** cell of a master shape is set to TRUE, the formatting values of the master overwrite all corresponding values of a shape being replaced by the master. |
+|FALSE  <br/> |If the **ReplaceLockFormat** cell of a master shape is set to FALSE, the replacement shape contains the local formatting values from the old shape after the replacement operation. |
    
 ## Remarks
 

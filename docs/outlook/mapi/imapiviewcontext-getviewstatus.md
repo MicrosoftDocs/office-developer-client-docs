@@ -88,7 +88,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetViewStatus  <br/> |MFCMAPI implements the **IMAPIViewContext::GetViewStatus** method in this function.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetViewStatus  <br/> |MFCMAPI implements the **IMAPIViewContext::GetViewStatus** method in this function. |
    
 ## See also
 

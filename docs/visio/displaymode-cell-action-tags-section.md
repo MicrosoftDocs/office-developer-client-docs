@@ -24,9 +24,9 @@ Determines whether the action tag appears when the user moves the pointer over t
   
 |**Value**|**Display Mode**|**Automation constant**|
 |:-----|:-----|:-----|
-| 0  <br/> | Appears when the mouse is paused over the tag (the default).  <br/> |**visSmartTagDispModeMouseOver** <br/> |
-| 1  <br/> | Appears while the shape is selected.  <br/> |**visSmartTagDispModeShapeSelected** <br/> |
-| 2  <br/> | Appears all the time.  <br/> |**visSmartTagDispModeAlways** <br/> |
+| 0  <br/> | Appears when the mouse is paused over the tag (the default). |**visSmartTagDispModeMouseOver** <br/> |
+| 1  <br/> | Appears while the shape is selected. |**visSmartTagDispModeShapeSelected** <br/> |
+| 2  <br/> | Appears all the time. |**visSmartTagDispModeAlways** <br/> |
    
 ## Remarks
 
@@ -45,7 +45,7 @@ To get a reference to the DisplayMode cell by index from a program, use the **Ce
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visSmartTagDisplayMode** <br/> |
    
 

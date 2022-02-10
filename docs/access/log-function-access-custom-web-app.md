@@ -27,8 +27,8 @@ The **Log** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |The positive number for which you want the logarithm.  <br/> |
-| *Base*  <br/> |The base of the logarithm. If omitted, the **Log** function returns the natural logarithm.  <br/> |
+| *NumericExpression*  <br/> |The positive number for which you want the logarithm. |
+| *Base*  <br/> |The base of the logarithm. If omitted, the **Log** function returns the natural logarithm. |
    
 ## Remarks
 

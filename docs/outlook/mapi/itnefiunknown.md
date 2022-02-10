@@ -37,13 +37,13 @@ Provides methods for encapsulating MAPI properties that are not supported by a m
 
 |||
 |:-----|:-----|
-|[AddProps](itnef-addprops.md) <br/> |Enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment.  <br/> |
-|[ExtractProps](itnef-extractprops.md) <br/> |Extracts the properties from a TNEF encapsulation.  <br/> |
-|[Finish](itnef-finish.md) <br/> |Finishes processing for all TNEF operations that are queued and waiting.  <br/> |
-|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Opens a stream interface on the text of an encapsulated message.  <br/> |
-|[SetProps](itnef-setprops.md) <br/> |Sets the value of one or more properties for an encapsulated message or attachment without modifying the original message or attachment.  <br/> |
-|[EncodeRecips](itnef-encoderecips.md) <br/> |Encodes a view for a message's recipient table in the TNEF data stream for the message.  <br/> |
-|[FinishComponent](itnef-finishcomponent.md) <br/> |Processes individual components from a message one at a time into a TNEF stream.  <br/> |
+|[AddProps](itnef-addprops.md) <br/> |Enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment. |
+|[ExtractProps](itnef-extractprops.md) <br/> |Extracts the properties from a TNEF encapsulation. |
+|[Finish](itnef-finish.md) <br/> |Finishes processing for all TNEF operations that are queued and waiting. |
+|[OpenTaggedBody](itnef-opentaggedbody.md) <br/> |Opens a stream interface on the text of an encapsulated message. |
+|[SetProps](itnef-setprops.md) <br/> |Sets the value of one or more properties for an encapsulated message or attachment without modifying the original message or attachment. |
+|[EncodeRecips](itnef-encoderecips.md) <br/> |Encodes a view for a message's recipient table in the TNEF data stream for the message. |
+|[FinishComponent](itnef-finishcomponent.md) <br/> |Processes individual components from a message one at a time into a TNEF stream. |
    
 ## See also
 

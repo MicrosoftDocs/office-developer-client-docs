@@ -40,13 +40,13 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Specifies a collection of properties associated with a shape.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Specifies a collection of properties associated with a shape. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contains elements that define a shape in a **Master**, **Page**, or group shape element.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Contains elements that define a shape in a **Master**, **Page**, or group shape element. |
    
 ### Attributes
 

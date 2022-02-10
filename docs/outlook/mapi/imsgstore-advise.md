@@ -140,7 +140,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI uses the **IMsgStore::Advise** method to register for notifications on the entire message store.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI uses the **IMsgStore::Advise** method to register for notifications on the entire message store. |
    
 ## See also
 

@@ -38,10 +38,10 @@ Provides status information about the MAPI subsystem, the integrated address boo
 
 |||
 |:-----|:-----|
-|[ValidateState](imapistatus-validatestate.md) <br/> |Confirms the external status information available for the MAPI resource or the service provider.  <br/> |
-|[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Displays a property sheet that enables the user to change a service provider's configuration.  <br/> |
-|[ChangePassword](imapistatus-changepassword.md) <br/> |Modifies a service provider's password without displaying a user interface.  <br/> |
-|[FlushQueues](imapistatus-flushqueues.md) <br/> |Forces all messages waiting to be sent or received to be immediately uploaded or downloaded.  <br/> |
+|[ValidateState](imapistatus-validatestate.md) <br/> |Confirms the external status information available for the MAPI resource or the service provider. |
+|[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Displays a property sheet that enables the user to change a service provider's configuration. |
+|[ChangePassword](imapistatus-changepassword.md) <br/> |Modifies a service provider's password without displaying a user interface. |
+|[FlushQueues](imapistatus-flushqueues.md) <br/> |Forces all messages waiting to be sent or received to be immediately uploaded or downloaded. |
    
 |**Required properties**|**Access**|
 |:-----|:-----|

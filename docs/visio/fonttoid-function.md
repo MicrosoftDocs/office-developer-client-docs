@@ -27,6 +27,6 @@ FONTTOID(** *font_name* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _font_name_ <br/> |Required  <br/> |**String** <br/> |The name of the font.  <br/> |
+| _font_name_ <br/> |Required  <br/> |**String** <br/> |The name of the font. |
    
 

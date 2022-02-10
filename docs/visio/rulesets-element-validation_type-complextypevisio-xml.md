@@ -40,13 +40,13 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stores information about diagram validation for the document.  <br/> |
+|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stores information about diagram validation for the document. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Represents one set of diagram-validation rules.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Represents one set of diagram-validation rules. |
    
 ### Attributes
 

@@ -77,10 +77,10 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Description  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|Enabled  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
+|Description  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|Enabled  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|Name  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|NameU  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
    
 

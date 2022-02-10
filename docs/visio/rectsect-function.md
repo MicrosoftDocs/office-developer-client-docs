@@ -26,11 +26,11 @@ RECTSECT(***width***, ***height***, ***x***, ***y***, ***option*** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _width_ <br/> |Required  <br/> |**String** <br/> |Width of the rectangle.  <br/> |
-| _height_ <br/> |Required  <br/> |**String** <br/> |Height of the rectangle.  <br/> |
-| _x_ <br/> |Required  <br/> |**String** <br/> |An x-coordinate.  <br/> |
-| _y_ <br/> |Required  <br/> |**String** <br/> |A y-coordinate.  <br/> |
-| _option_ <br/> |Required  <br/> |**Boolean** <br/> |Specifies how points that fall on the diagonals are treated. Set the value to 0 to use the left and right sectors for points on a diagonal. Set the value to 1 to use the top and bottom sectors for points on a diagonal.  <br/> |
+| _width_ <br/> |Required  <br/> |**String** <br/> |Width of the rectangle. |
+| _height_ <br/> |Required  <br/> |**String** <br/> |Height of the rectangle. |
+| _x_ <br/> |Required  <br/> |**String** <br/> |An x-coordinate. |
+| _y_ <br/> |Required  <br/> |**String** <br/> |A y-coordinate. |
+| _option_ <br/> |Required  <br/> |**Boolean** <br/> |Specifies how points that fall on the diagonals are treated. Set the value to 0 to use the left and right sectors for points on a diagonal. Set the value to 1 to use the top and bottom sectors for points on a diagonal. |
    
 ## Remarks
 

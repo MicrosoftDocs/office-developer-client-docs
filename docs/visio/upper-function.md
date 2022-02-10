@@ -26,7 +26,7 @@ UPPER(** *expression* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**Varies** <br/> | A string, a cell reference, or an expression; the result is converted to a string, which is then converted to uppercase.  <br/> |
+| _expression_ <br/> |Required  <br/> |**Varies** <br/> | A string, a cell reference, or an expression; the result is converted to a string, which is then converted to uppercase. |
    
 ## Remarks
 

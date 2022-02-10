@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[FaceNames](facenames-element-visiodocument_type-complextypevisio-xml.md) <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |Contains a collection of **FaceName** elements.  <br/> |
+|[FaceNames](facenames-element-visiodocument_type-complextypevisio-xml.md) <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |Contains a collection of **FaceName** elements. |
    
 ### Child elements
 
@@ -50,10 +50,10 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSets  <br/> |xsd:string  <br/> |optional  <br/> |The supported character sets of the font.  <br/> |Values of the xsd:string type.  <br/> |
-|Flags  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Flags that indicate the following: missing font, default font, asian font, complex font, vertical font, and font type.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |required  <br/> |The name of the font as a UTF-16 Unicode string.  <br/> ||
-|Panos  <br/> |xsd:string  <br/> |optional  <br/> |The panose signature for the font. Panose is a classification system for typefaces that categorizes them based upon their visual characteristics.  <br/> |Values of the xsd:string type.  <br/> |
-|UnicodeRanges  <br/> |xsd:string  <br/> |optional  <br/> |The supported Unicode ranges of the font.  <br/> |Values of the xsd:string type.  <br/> |
+|CharSets  <br/> |xsd:string  <br/> |optional  <br/> |The supported character sets of the font. |Values of the xsd:string type. |
+|Flags  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Flags that indicate the following: missing font, default font, asian font, complex font, vertical font, and font type. |Values of the xsd:unsignedInt type. |
+|NameU  <br/> |xsd:string  <br/> |required  <br/> |The name of the font as a UTF-16 Unicode string. ||
+|Panos  <br/> |xsd:string  <br/> |optional  <br/> |The panose signature for the font. Panose is a classification system for typefaces that categorizes them based upon their visual characteristics. |Values of the xsd:string type. |
+|UnicodeRanges  <br/> |xsd:string  <br/> |optional  <br/> |The supported Unicode ranges of the font. |Values of the xsd:string type. |
    
 

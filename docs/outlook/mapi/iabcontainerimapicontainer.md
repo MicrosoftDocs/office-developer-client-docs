@@ -34,10 +34,10 @@ Provides access to address book containers. MAPI and client applications call th
 
 |||
 |:-----|:-----|
-|[CreateEntry](iabcontainer-createentry.md) <br/> |Creates a new entry, which can be a messaging user, a distribution list, or another container.  <br/> |
-|[CopyEntries](iabcontainer-copyentries.md) <br/> |Copies one or more entries, typically messaging users or distribution lists.  <br/> |
-|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Removes one or more entries, typically messaging users, distribution lists, or other containers.  <br/> |
-|[ResolveNames](iabcontainer-resolvenames.md) <br/> |Performs name resolution for one or more recipient entries.  <br/> |
+|[CreateEntry](iabcontainer-createentry.md) <br/> |Creates a new entry, which can be a messaging user, a distribution list, or another container. |
+|[CopyEntries](iabcontainer-copyentries.md) <br/> |Copies one or more entries, typically messaging users or distribution lists. |
+|[DeleteEntries](iabcontainer-deleteentries.md) <br/> |Removes one or more entries, typically messaging users, distribution lists, or other containers. |
+|[ResolveNames](iabcontainer-resolvenames.md) <br/> |Performs name resolution for one or more recipient entries. |
    
 |**Required properties**|**Access**|
 |:-----|:-----|

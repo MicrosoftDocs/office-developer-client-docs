@@ -26,7 +26,7 @@ AND(** *logical expression1* **, ** *logical expression2* **,..., ** *logical ex
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _logical expression_ <br/> |Required  <br/> |**String** <br/> | A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. Any expression that evaluates to a non-zero value is considered to be TRUE.  <br/> |
+| _logical expression_ <br/> |Required  <br/> |**String** <br/> | A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. Any expression that evaluates to a non-zero value is considered to be TRUE. |
    
 ## Example
 

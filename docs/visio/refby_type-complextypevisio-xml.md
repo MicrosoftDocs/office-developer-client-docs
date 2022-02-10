@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|T  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|T  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
    
 

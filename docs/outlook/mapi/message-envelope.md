@@ -39,15 +39,15 @@ Similar abbreviations are used for PR_SENT_REPRESENTING_\* and other groups of m
 |Received:  <br/> |No corresponding MAPI property; put local host name and your component name here  <br/> |
 |Return-receipt-to:  <br/> |**PR_REPORT_NAME** ([PidTagReportName](pidtagreportname-canonical-property.md)) and **PR_REPORT_ENTRYID** ([PidTagReportEntryId](pidtagreportentryid-canonical-property.md))  <br/> |
 |Reply-to:  <br/> |**PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) and **PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md))  <br/> |
-|Subject:  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) No particular length limitation.  <br/> |
+|Subject:  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)) No particular length limitation. |
 |MIME-version:  <br/> |Always "1.0"  <br/> |
 |||
-|X-MS-Attachment:  <br/> |For compatibility with MS Mail SMTP gateway. _filename size mm-dd-yyy hh:mm_Details below.  <br/> |
+|X-MS-Attachment:  <br/> |For compatibility with MS Mail SMTP gateway. _filename size mm-dd-yyy hh:mm_Details below. |
 |||
 | _entire SMTP message envelope_ <br/> |**PR_TRANSPORT_MESSAGE_HEADERS** ([PidTagTransportMessageHeaders](pidtagtransportmessageheaders-canonical-property.md))  <br/> |
-|header name TBD  <br/> |**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) _for sender only._The TBDheader should be used to determine whether the sender is capable of interpreting TNEF content in a reply.  <br/> |
+|header name TBD  <br/> |**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md)) _for sender only._The TBDheader should be used to determine whether the sender is capable of interpreting TNEF content in a reply. |
 |MessageID:  <br/> |**PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md))  <br/> |
-|Content-type  <br/> |Either text/plain or multipart/mixed. See "Message Content" section.  <br/> |
+|Content-type  <br/> |Either text/plain or multipart/mixed. See "Message Content" section. |
    
 The X-MS-Attachment header is formatted as four tokens, separated by a space:
   

@@ -20,8 +20,8 @@ Locks the horizontal position of the shape so it cannot be moved horizontally.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Horizontal position is locked.  <br/> |
-| FALSE  <br/> | Horizontal position is not locked.  <br/> |
+| TRUE  <br/> | Horizontal position is locked. |
+| FALSE  <br/> | Horizontal position is not locked. |
    
 ## Remarks
 

@@ -24,8 +24,8 @@ In addition to AB_NO_DIALOG to suppress a progress indicator, one of two other f
   
 |**Duplicate entry flag**|**Suggested implementation**|
 |:-----|:-----|
-|CREATE_CHECK_DUP_LOOSE  <br/> |Check if the display name in the entry to be created matches the display name of an entry already in the container.  <br/> |
-|CREATE_CHECK_DUP_STRICT  <br/> |Check if both the display name and the search key in the entry to be created match the display name and search key of a container entry.  <br/> |
+|CREATE_CHECK_DUP_LOOSE  <br/> |Check if the display name in the entry to be created matches the display name of an entry already in the container. |
+|CREATE_CHECK_DUP_STRICT  <br/> |Check if both the display name and the search key in the entry to be created match the display name and search key of a container entry. |
    
 The last flag, CREATE_REPLACE, indicates that the new entry should replace the existing one if your provider has determined that an entry to be created is a duplicate of an entry already in your container. 
   

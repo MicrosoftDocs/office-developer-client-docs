@@ -20,8 +20,8 @@ Determines whether the drawing page is centered horizontally on the printer page
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Center the drawing page horizontally on the printer page.  <br/> |
-| FALSE  <br/> | Do not center the drawing page horizontally on the printer page (the default).  <br/> |
+| TRUE  <br/> | Center the drawing page horizontally on the printer page. |
+| FALSE  <br/> | Do not center the drawing page horizontally on the printer page (the default). |
    
 ## Remarks
 

@@ -26,7 +26,7 @@ SINH(** *angle* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hyperbolic sine.  <br/> |
+| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hyperbolic sine. |
    
 ### Return value
 

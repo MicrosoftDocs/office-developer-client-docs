@@ -30,10 +30,10 @@ Test the following items to verify that friends' data is cached correctly.
   
 |**Item to test**|**Expected behavior**|
 |:-----|:-----|
-|Contacts folder  <br/> |The social network-specific contacts folder exists in the user's default Outlook store.  <br/> |
-|Friends' data returned by **ISocialPerson::GetFriendsAndColleagues** <br/> |Each friend corresponds to a contact in the network-specific contacts folder.  <br/> |
-|Friends' data  <br/> |Contact fields for each friend have the correct data.  <br/> |
-|Friends' profile pictures returned by **ISocialPerson::GetPicture** <br/> |The contact item for each friend contains the profile picture.  <br/> |
+|Contacts folder  <br/> |The social network-specific contacts folder exists in the user's default Outlook store. |
+|Friends' data returned by **ISocialPerson::GetFriendsAndColleagues** <br/> |Each friend corresponds to a contact in the network-specific contacts folder. |
+|Friends' data  <br/> |Contact fields for each friend have the correct data. |
+|Friends' profile pictures returned by **ISocialPerson::GetPicture** <br/> |The contact item for each friend contains the profile picture. |
 
 <a name="olosc_TestingFriends_OnDemandSync"> </a>
 
@@ -57,8 +57,8 @@ To verify that your provider is providing information about friends and non-frie
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|Person selected in the People Pane is a friend with the logged-on user on the social network.  <br/> |The People Pane displays that person's activities on the social network.  <br/> |
-|Person selected in the People Pane is a non-friend of the logged-on user on the social network, but has allowed his or her activities to be viewed by non-friends.  <br/> |The People Pane displays that person's activities on the social network.  <br/> |
+|Person selected in the People Pane is a friend with the logged-on user on the social network. |The People Pane displays that person's activities on the social network. |
+|Person selected in the People Pane is a non-friend of the logged-on user on the social network, but has allowed his or her activities to be viewed by non-friends. |The People Pane displays that person's activities on the social network. |
 
 <a name="olosc_TestingFriends_OnDemandSync"> </a>
 

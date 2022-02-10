@@ -202,10 +202,10 @@ The following table lists the new enumerations and constants introduced in Visio
   
 |**Enumeration**|**Description**|
 |:-----|:-----|
-|[VisQuickStyleColors Enumeration (Visio)](https://msdn.microsoft.com/library/c19d91f3-a9a4-e31e-ed7a-eef15553fbf4%28Office.15%29.aspx) <br/> |Specifies designated names for colors contained within a theme.  <br/> |
-|[VisQuickStyleMatrixIndices Enumeration (Visio)](https://msdn.microsoft.com/library/0fb0b448-85ba-4fc4-d933-21d574cefa2a%28Office.15%29.aspx) <br/> |Specifies designated names for the themes and variations provided with Visio 2013.  <br/> |
-|[VisReplaceFlags Enumeration (Visio)](https://msdn.microsoft.com/library/cf270178-f939-7eb4-b8e1-3b4153aff221%28Office.15%29.aspx) <br/> |Specifies behaviors for a Change Shape operation.  <br/> |
-|[VisSVGExportFormat Enumeration (Visio)](https://msdn.microsoft.com/library/d8ca8c3f-41d9-4e9d-8f6d-f5567361b14e%28Office.15%29.aspx) <br/> |Specifies the inclusion or exclusion of Visio markup when exporting a diagram to SVG.  <br/> |
+|[VisQuickStyleColors Enumeration (Visio)](https://msdn.microsoft.com/library/c19d91f3-a9a4-e31e-ed7a-eef15553fbf4%28Office.15%29.aspx) <br/> |Specifies designated names for colors contained within a theme. |
+|[VisQuickStyleMatrixIndices Enumeration (Visio)](https://msdn.microsoft.com/library/0fb0b448-85ba-4fc4-d933-21d574cefa2a%28Office.15%29.aspx) <br/> |Specifies designated names for the themes and variations provided with Visio 2013. |
+|[VisReplaceFlags Enumeration (Visio)](https://msdn.microsoft.com/library/cf270178-f939-7eb4-b8e1-3b4153aff221%28Office.15%29.aspx) <br/> |Specifies behaviors for a Change Shape operation. |
+|[VisSVGExportFormat Enumeration (Visio)](https://msdn.microsoft.com/library/d8ca8c3f-41d9-4e9d-8f6d-f5567361b14e%28Office.15%29.aspx) <br/> |Specifies the inclusion or exclusion of Visio markup when exporting a diagram to SVG. |
    
 ### Deprecated objects and members
 

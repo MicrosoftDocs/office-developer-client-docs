@@ -16,19 +16,19 @@ description: "Returns an integer that represents the Gregorian year in datetime 
 
 # YEAR Function (VisioShapeSheet)
 
-Returns an integer that represents the Gregorian year in  _datetime_ or  _expression_, formatted according to the short date style set by the system's current Region and Language settings.
+Returns an integer that represents the Gregorian year in _datetime_ or _expression_, formatted according to the short date style set by the system's current Region and Language settings.
   
 ## Syntax
 
-YEAR(" ***datetime*** "| ***expression*** [, ***lcid*** ]) 
+YEAR(" ***datetime*** "| ***expression*** [, ***lcid*** ])
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Required  <br/> |**String** <br/> | Any string commonly recognized as a date and time or a reference to a cell containing a date and time.  <br/> |
-| _expression_ <br/> |Required  <br/> |**Varies** <br/> |Any expression that yields a date and time.  <br/> |
-| _lcid_ <br/> |Optional  <br/> |**Numeric** <br/> |The locale identifier to be used in evaluating a nonlocal datetime. The locale identifier is a number described in the system header files.  <br/> |
+| _datetime_ |Required  |**String** | Any string commonly recognized as a date and time or a reference to a cell containing a date and time.  |
+| _expression_ |Required  |**Varies** |Any expression that yields a date and time.  |
+| _lcid_ |Optional  |**Numeric** |The locale identifier to be used in evaluating a nonlocal datetime. The locale identifier is a number described in the system header files.  |
    
 ### Return value
 
@@ -36,11 +36,11 @@ Integer
   
 ## Remarks
 
-The time component in  _datetime_ or  _expression_ is discarded. 
+The time component in _datetime_ or _expression_ is discarded.
   
-No rounding is done. If  _datetime_ is missing or cannot be interpreted as a valid date or time, YEAR returns an error. 
+No rounding is done. If _datetime_ is missing or cannot be interpreted as a valid date or time, YEAR returns an error.
   
-The YEAR function also accepts a single number value for  _expression_ where the integer portion of the result represents the number of days since December 30, 1899. 
+The YEAR function also accepts a single number value for _expression_ where the integer portion of the result represents the number of days since December 30, 1899.
   
 ## Example 1
 
@@ -58,6 +58,5 @@ Returns 2007.
 
 YEAR(35580.6337)
   
-Returns 1997.
-  
+Returns 1997. 
 

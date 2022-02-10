@@ -25,14 +25,14 @@ To get a reference to the DirY / B cell by name from another formula, or from a 
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Connections.DirY[ *i*  ]           where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Connections.DirY[ *i*  ]           where  *i*  = <1>, 2, 3... |
    
 To get a reference to the DirY / B cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionConnectionPts** <br/> |
-|Row index:  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visCnnctDirY** (non-extended rows)           **visCnnctB** (extended rows)  <br/> |
    
 For information about non-extended and extended rows, see Connection Points row.

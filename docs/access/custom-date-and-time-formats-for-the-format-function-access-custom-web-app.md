@@ -21,35 +21,35 @@ The following table lists characters you can use with the [Format Function (Acce
   
 |**Format specification**|**Description**|
 |:-----|:-----|
-|(:)  <br/> |Time separator. In some locales, other characters may be used to represent the time separator. The time separator separates hours, minutes, and seconds when time values are formatted. The actual character that is used as the time separator in formatted output is determined by your application's current culture value.  <br/> |
-|(/)  <br/> |Date separator. In some locales, other characters may be used to represent the date separator. The date separator separates the day, month, and year when date values are formatted. The actual character that is used as the date separator in formatted output is determined by your application's current culture.  <br/> |
-|(%)  <br/> |Used to indicate that the following character should be read as a single-letter format without regard to any trailing letters. Also used to indicate that a single-letter format is read as a user-defined format. See what follows for additional details.  <br/> |
-|d  <br/> |Displays the day as a number without a leading zero (for example, 1). Use %d if this is the only character in your user-defined numeric format.  <br/> |
-|dd  <br/> |Displays the day as a number with a leading zero (for example, 01).  <br/> |
-|ddd  <br/> |Displays the day as an abbreviation (for example, Sun).  <br/> |
-|dddd  <br/> |Displays the day as a full name (for example, Sunday).  <br/> |
-|M  <br/> |Displays the month as a number without a leading zero (for example, January is represented as 1). Use %M if this is the only character in your user-defined numeric format.  <br/> |
-|MM  <br/> |Displays the month as a number with a leading zero (for example, 01/12/01).  <br/> |
-|MMM  <br/> |Displays the month as an abbreviation (for example, Jan).  <br/> |
-|MMMM  <br/> |Displays the month as a full month name (for example, January).  <br/> |
-|gg  <br/> |Displays the period/era string (for example, A.D.).  <br/> |
-|h  <br/> |Displays the hour as a number without leading zeros using the 12-hour clock (for example, 1:15:15 PM). Use %h if this is the only character in your user-defined numeric format.  <br/> |
-|hh  <br/> |Displays the hour as a number with leading zeros using the 12-hour clock (for example, 01:15:15 PM).  <br/> |
-|H  <br/> |Displays the hour as a number without leading zeros using the 24-hour clock (for example, 1:15:15). Use %H if this is the only character in your user-defined numeric format.  <br/> |
-|HH  <br/> |Displays the hour as a number with leading zeros using the 24-hour clock (for example, 01:15:15).  <br/> |
-|m  <br/> |Displays the minute as a number without leading zeros (for example, 12:1:15). Use %m if this is the only character in your user-defined numeric format.  <br/> |
-|mm  <br/> |Displays the minute as a number with leading zeros (for example, 12:01:15).  <br/> |
-|s  <br/> |Displays the second as a number without leading zeros (for example, 12:15:5). Use %s if this is the only character in your user-defined numeric format.  <br/> |
-|ss  <br/> |Displays the second as a number with leading zeros (for example, 12:15:05).  <br/> |
-|f  <br/> |Displays fractions of seconds. For example ff displays hundredths of seconds, whereas ffff displays ten-thousandths of seconds. You may use up to seven f symbols in your user-defined format. Use %f if this is the only character in your user-defined numeric format.  <br/> |
-|t  <br/> |Uses the 12-hour clock and displays an uppercase A for any hour before noon; displays an uppercase P for any hour between noon and 11:59 P.M. Use %t if this is the only character in your user-defined numeric format.  <br/> |
-|tt  <br/> |For locales that use a 12-hour clock, displays an uppercase AM with any hour before noon; displays an uppercase PM with any hour between noon and 11:59 P.M.  <br/> For locales that use a 24-hour clock, displays nothing.  <br/> |
-|y  <br/> |Displays the year number (0-9) without leading zeros. Use %y if this is the only character in your user-defined numeric format.  <br/> |
-|yy  <br/> |Displays the year in two-digit numeric format with a leading zero, if applicable.  <br/> |
-|yyy  <br/> |Displays the year in four-digit numeric format.  <br/> |
-|yyyy  <br/> |Displays the year in four-digit numeric format.  <br/> |
-||Displays the timezone offset without a leading zero (for example, -8). Use %z if this is the only character in your user-defined numeric format.  <br/> |
-|z  <br/> |Displays the timezone offset with a leading zero (for example, -08).  <br/> |
+|(:)  <br/> |Time separator. In some locales, other characters may be used to represent the time separator. The time separator separates hours, minutes, and seconds when time values are formatted. The actual character that is used as the time separator in formatted output is determined by your application's current culture value. |
+|(/)  <br/> |Date separator. In some locales, other characters may be used to represent the date separator. The date separator separates the day, month, and year when date values are formatted. The actual character that is used as the date separator in formatted output is determined by your application's current culture. |
+|(%)  <br/> |Used to indicate that the following character should be read as a single-letter format without regard to any trailing letters. Also used to indicate that a single-letter format is read as a user-defined format. See what follows for additional details. |
+|d  <br/> |Displays the day as a number without a leading zero (for example, 1). Use %d if this is the only character in your user-defined numeric format. |
+|dd  <br/> |Displays the day as a number with a leading zero (for example, 01). |
+|ddd  <br/> |Displays the day as an abbreviation (for example, Sun). |
+|dddd  <br/> |Displays the day as a full name (for example, Sunday). |
+|M  <br/> |Displays the month as a number without a leading zero (for example, January is represented as 1). Use %M if this is the only character in your user-defined numeric format. |
+|MM  <br/> |Displays the month as a number with a leading zero (for example, 01/12/01). |
+|MMM  <br/> |Displays the month as an abbreviation (for example, Jan). |
+|MMMM  <br/> |Displays the month as a full month name (for example, January). |
+|gg  <br/> |Displays the period/era string (for example, A.D.). |
+|h  <br/> |Displays the hour as a number without leading zeros using the 12-hour clock (for example, 1:15:15 PM). Use %h if this is the only character in your user-defined numeric format. |
+|hh  <br/> |Displays the hour as a number with leading zeros using the 12-hour clock (for example, 01:15:15 PM). |
+|H  <br/> |Displays the hour as a number without leading zeros using the 24-hour clock (for example, 1:15:15). Use %H if this is the only character in your user-defined numeric format. |
+|HH  <br/> |Displays the hour as a number with leading zeros using the 24-hour clock (for example, 01:15:15). |
+|m  <br/> |Displays the minute as a number without leading zeros (for example, 12:1:15). Use %m if this is the only character in your user-defined numeric format. |
+|mm  <br/> |Displays the minute as a number with leading zeros (for example, 12:01:15). |
+|s  <br/> |Displays the second as a number without leading zeros (for example, 12:15:5). Use %s if this is the only character in your user-defined numeric format. |
+|ss  <br/> |Displays the second as a number with leading zeros (for example, 12:15:05). |
+|f  <br/> |Displays fractions of seconds. For example ff displays hundredths of seconds, whereas ffff displays ten-thousandths of seconds. You may use up to seven f symbols in your user-defined format. Use %f if this is the only character in your user-defined numeric format. |
+|t  <br/> |Uses the 12-hour clock and displays an uppercase A for any hour before noon; displays an uppercase P for any hour between noon and 11:59 P.M. Use %t if this is the only character in your user-defined numeric format. |
+|tt  <br/> |For locales that use a 12-hour clock, displays an uppercase AM with any hour before noon; displays an uppercase PM with any hour between noon and 11:59 P.M. For locales that use a 24-hour clock, displays nothing. |
+|y  <br/> |Displays the year number (0-9) without leading zeros. Use %y if this is the only character in your user-defined numeric format. |
+|yy  <br/> |Displays the year in two-digit numeric format with a leading zero, if applicable. |
+|yyy  <br/> |Displays the year in four-digit numeric format. |
+|yyyy  <br/> |Displays the year in four-digit numeric format. |
+||Displays the timezone offset without a leading zero (for example, -8). Use %z if this is the only character in your user-defined numeric format. |
+|z  <br/> |Displays the timezone offset with a leading zero (for example, -08). |
 |zz  <br/> |Displays the timezone offset with a leading zero (for example, -08)  <br/> |
 |zzz  <br/> |Displays the full timezone offset (for example, -08:00)  <br/> |
    

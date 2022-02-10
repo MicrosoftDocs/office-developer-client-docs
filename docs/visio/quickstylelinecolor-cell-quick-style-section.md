@@ -19,8 +19,8 @@ Determines which theme color that a shape's line uses, as an integer from 0 to 7
 |||
 |:-----|:-----|
 |Value  <br/> |Description  <br/> |
-|0  <br/> |The shape line color inherits from the Dark theme color.  <br/> |
-|1  <br/> |The shape line color inherits from the Light theme color.  <br/> |
+|0  <br/> |The shape line color inherits from the Dark theme color. |
+|1  <br/> |The shape line color inherits from the Light theme color. |
 |2  <br/> |The shape line color inherits from the Accent 1 theme color  <br/> |
 |3  <br/> |The shape line color inherits from the Accent 2 theme color  <br/> |
 |4  <br/> |The shape line color inherits from the Accent 3 theme color  <br/> |

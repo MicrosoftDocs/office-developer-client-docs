@@ -26,8 +26,8 @@ REPT (** *text* **, ** *number_times* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Required  <br/> |**String** <br/> | The text you want to repeat.  <br/> |
-| _number_times_ <br/> |Required  <br/> |**Number** <br/> |A positive number specifying the number of times to repeat text.  <br/> |
+| _text_ <br/> |Required  <br/> |**String** <br/> | The text you want to repeat. |
+| _number_times_ <br/> |Required  <br/> |**Number** <br/> |A positive number specifying the number of times to repeat text. |
    
 ## Remarks
 

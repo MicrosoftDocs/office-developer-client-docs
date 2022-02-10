@@ -18,8 +18,8 @@ Sets whether a document stored on a Microsoft SharePoint 2013 server or Microsof
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The document cannot be coauthored and is locked for editing when open.  <br/> |
-|FALSE  <br/> |The document can be coauthored.  <br/> |
+|TRUE  <br/> |The document cannot be coauthored and is locked for editing when open. |
+|FALSE  <br/> |The document can be coauthored. |
    
 ## Remarks
 

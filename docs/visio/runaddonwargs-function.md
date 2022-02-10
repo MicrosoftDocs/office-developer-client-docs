@@ -26,8 +26,8 @@ RUNADDONWARGS(" ** *string* ** "," ** *arguments* ** ")
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string_ <br/> |Required  <br/> |**String** <br/> | The name of an add-on.  <br/> |
-| _arguments_ <br/> |Required  <br/> |**String** <br/> |Arguments to pass to your program.  <br/> |
+| _string_ <br/> |Required  <br/> |**String** <br/> | The name of an add-on. |
+| _arguments_ <br/> |Required  <br/> |**String** <br/> |Arguments to pass to your program. |
    
 ## Remarks
 

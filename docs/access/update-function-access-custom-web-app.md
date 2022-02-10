@@ -29,7 +29,7 @@ The **Update** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Column*  <br/> |The name of the field to check for an INSERT or UPDATE operation.  <br/> |
+| *Column*  <br/> |The name of the field to check for an INSERT or UPDATE operation. |
    
 
 ## Remarks

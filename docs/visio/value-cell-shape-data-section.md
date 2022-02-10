@@ -33,7 +33,7 @@ To get a reference to the Value cell by index from a program, use the **CellsSRC
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionProp** <br/> |
-| Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCustPropsValue** <br/> |
    
 

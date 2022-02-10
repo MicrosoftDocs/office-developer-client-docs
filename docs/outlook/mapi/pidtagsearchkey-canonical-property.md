@@ -48,10 +48,10 @@ The following table summarizes important differences among the **PR_ENTRYID** ([
 |Required on message store objects  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Required on status objects  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
 |Creatable by client  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
-|Available before **SaveChanges** <br/> |Depends on the provider implementation  <br/> |Depends on the provider implementation  <br/> |For messages, Yes. For others, It depends on the provider implementation.  <br/> |
+|Available before **SaveChanges** <br/> |Depends on the provider implementation  <br/> |Depends on the provider implementation  <br/> |For messages, Yes. For others, It depends on the provider implementation. |
 |Changed in a copy operation  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Changeable by client after a copy  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
-|Unique within ...  <br/> |Entire world  <br/> |Provider instance  <br/> |Entire world  <br/> |
+|Unique within ... |Entire world  <br/> |Provider instance  <br/> |Entire world  <br/> |
 |Binary comparable (as with memcmp)  <br/> |No -- use [IMAPISupport::CompareEntryIDs](imapisupport-compareentryids.md) <br/> |Yes  <br/> |Yes  <br/> |
    
 ## Related resources

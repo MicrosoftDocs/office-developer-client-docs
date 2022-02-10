@@ -27,5 +27,5 @@ The **Left** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |A text expression.  <br/> |
-| *Length*  <br/> |Is a positive integer that specifies how many characters of the *TextExpression* are returned.  <br/> |
+| *TextExpression*  <br/> |A text expression. |
+| *Length*  <br/> |Is a positive integer that specifies how many characters of the *TextExpression* are returned. |

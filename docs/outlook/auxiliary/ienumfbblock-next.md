@@ -43,8 +43,8 @@ _pcfetch_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The requested number of blocks has been returned.  <br/> |
-|S_FALSE  <br/> |The requested number of blocks has not been returned.  <br/> |
+|S_OK  <br/> |The requested number of blocks has been returned. |
+|S_FALSE  <br/> |The requested number of blocks has not been returned. |
 
 ## See also
 

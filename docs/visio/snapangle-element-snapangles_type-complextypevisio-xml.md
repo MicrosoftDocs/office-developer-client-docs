@@ -40,8 +40,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contains a collection of **SnapAngle** elements.  <br/> |
-|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contains a collection of **SnapAngle** elements.  <br/> |
+|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contains a collection of **SnapAngle** elements. |
+|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Contains a collection of **SnapAngle** elements. |
    
 ### Child elements
 

@@ -26,8 +26,8 @@ FORMAT(** *expression* **," ** *formatpicture* ** ")
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**String** <br/> |A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value.  <br/> |
-| _formatpicture_ <br/> |Required  <br/> |**String** <br/> |The format picture used to fomat the string.  <br/> |
+| _expression_ <br/> |Required  <br/> |**String** <br/> |A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. |
+| _formatpicture_ <br/> |Required  <br/> |**String** <br/> |The format picture used to fomat the string. |
    
 ### Return value
 

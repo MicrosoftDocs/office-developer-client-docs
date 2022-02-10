@@ -35,21 +35,21 @@ Each **[Platform.** _platform string_ **]** section contains the two required en
   
 |**CPU Entry**|**Processor**|
 |:-----|:-----|
-|Ix86  <br/> |Intel 80x86 and Pentium series processors, as well as equivalent processors from AMD, Cyrix, NextGen and other manufacturers.  <br/> |
-|MIPS  <br/> |MIPS R4000 series processors.  <br/> |
-|AXP  <br/> |Digital Equipment Corporation Alpha AXP processor.  <br/> |
-|PPC  <br/> |Motorola Power PC series processors.  <br/> |
-|M68  <br/> |Mororola 68x00 series processors.  <br/> |
+|Ix86  <br/> |Intel 80x86 and Pentium series processors, as well as equivalent processors from AMD, Cyrix, NextGen and other manufacturers. |
+|MIPS  <br/> |MIPS R4000 series processors. |
+|AXP  <br/> |Digital Equipment Corporation Alpha AXP processor. |
+|PPC  <br/> |Motorola Power PC series processors. |
+|M68  <br/> |Mororola 68x00 series processors. |
    
 Valid **OSVersion** values are described in the following table. 
   
 |**OSVersion Entry**|**Operating System**|
 |:-----|:-----|
-|Win3.1  <br/> |Windows 3.1 and Windows for Workgroups 3.11.  <br/> |
-|WinNT3.5  <br/> |Windows NT 3.5 or lower.  <br/> |
-|Win95  <br/> |Windows 95.  <br/> |
-|WinNT4.0  <br/> |Windows NT 4.0.  <br/> |
-|Mac7  <br/> |Macintosh System 7.  <br/> |
+|Win3.1  <br/> |Windows 3.1 and Windows for Workgroups 3.11. |
+|WinNT3.5  <br/> |Windows NT 3.5 or lower. |
+|Win95  <br/> |Windows 95. |
+|WinNT4.0  <br/> |Windows NT 4.0. |
+|Mac7  <br/> |Macintosh System 7. |
    
 Additionally, the **[Platform.** _platform string_ **]** section must contain either a **File** or **LinkTo** entry. The **File** entry lists the form server application executable file that the form library maintains and loads into a new subdirectory in the disk cache when the form is launched. If a **LinkTo** entry is used instead, it contains the name of a different platform string from which the **File** information is taken. This is useful if one version of a form supports multiple platforms. 
   

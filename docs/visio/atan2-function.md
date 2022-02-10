@@ -26,8 +26,8 @@ ATAN2(** *y* **, ** *x* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _y_ <br/> |Required  <br/> |**Numeric** <br/> |The  _y_-value of the point.  <br/> |
-| _x_ <br/> |Required  <br/> |**Numeric** <br/> |The  _x_-value of the point.  <br/> |
+| _y_ <br/> |Required  <br/> |**Numeric** <br/> |The  _y_-value of the point. |
+| _x_ <br/> |Required  <br/> |**Numeric** <br/> |The  _x_-value of the point. |
    
 ## Remarks
 

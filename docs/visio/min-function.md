@@ -26,9 +26,9 @@ MIN(** *number1* **, ** *number2* **,..., ** *numberN* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number1_ <br/> |Required  <br/> |**Varies** <br/> |The first number in the list.  <br/> |
-| _number2_ <br/> |Optional  <br/> |**Varies** <br/> | The second number in the list.  <br/> |
-| _numberN_ <br/> |Optional  <br/> |**Varies** <br/> |The nth number in the list.  <br/> |
+| _number1_ <br/> |Required  <br/> |**Varies** <br/> |The first number in the list. |
+| _number2_ <br/> |Optional  <br/> |**Varies** <br/> | The second number in the list. |
+| _numberN_ <br/> |Optional  <br/> |**Varies** <br/> |The nth number in the list. |
    
 ### Return value
 

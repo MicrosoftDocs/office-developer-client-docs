@@ -112,7 +112,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI uses the **IMAPITable::FindRow** method to find rows which match a restriction.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI uses the **IMAPITable::FindRow** method to find rows which match a restriction. |
    
 ## See also
 

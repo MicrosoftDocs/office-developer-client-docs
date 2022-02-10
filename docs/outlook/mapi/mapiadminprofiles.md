@@ -59,7 +59,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI uses the **MAPIAdminProfiles** method to get the profile administration object.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::GetProfAdmin  <br/> |MFCMAPI uses the **MAPIAdminProfiles** method to get the profile administration object. |
    
 ## See also
 

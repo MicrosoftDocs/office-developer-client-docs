@@ -1,9 +1,7 @@
 ---
-title: "xlAutoFree/xlAutoFree12"
- 
- 
-manager: soliver
-ms.date: 11/16/2014
+title: "xlAutoFree/xlAutoFree12" 
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -18,15 +16,15 @@ ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
 
 # xlAutoFree/xlAutoFree12
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Called by Microsoft Excel just after an XLL worksheet function returns an **XLOPER**/ **XLOPER12** to it with a flag set that tells it there is memory that the XLL still needs to release. This enables the XLL to return dynamically allocated arrays, strings, and external references to the worksheet without memory leaks. For more information, see [Memory Management in Excel](memory-management-in-excel.md).
   
-Starting in Excel 2007, the **xlAutoFree12** function and the **XLOPER12** data type are supported. 
+Starting in Excel 2007, the **xlAutoFree12** function and the **XLOPER12** data type are supported.
   
 Excel does not require an XLL to implement and export either of these functions. However, you must do so if your XLL functions return an XLOPER or XLOPER12 that has been dynamically allocated or that contains pointers to dynamically allocated memory. Ensure that your choice of how to manage memory for these types is consistent throughout your XLL and with how you implemented **xlAutoFree** and **xlAutoFree12**.
   
-Inside the **xlAutoFree**/ **xlAutoFree12** function, callbacks into Excel are disabled, with one exception: **xlFree** can be called to free Excel-allocated memory. 
+Inside the **xlAutoFree**/ **xlAutoFree12** function, callbacks into Excel are disabled, with one exception: **xlFree** can be called to free Excel-allocated memory.
   
 ```cs
 void WINAPI xlAutoFree(LPXLOPER pxFree);
@@ -39,7 +37,7 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
   
  _pxFree_ (**LPXLOPER12 in the case of xlAutoFree12**)
   
-A pointer to the **XLOPER** or the **XLOPER12** that has memory that needs to be freed. 
+A pointer to the **XLOPER** or the **XLOPER12** that has memory that needs to be freed.
   
 ## Property value/Return value
 
@@ -47,15 +45,15 @@ This function does not return a value and should be declared as returning void.
   
 ## Remarks
 
-When Excel is configured to use multithreaded workbook recalculation, **xlAutoFree**/ **xlAutoFree12** is called on the same thread used to call the function that returned it. The call to **xlAutoFree**/ **xlAutoFree12** is always made before any subsequent worksheet cells are evaluated on that thread. This simplifies thread-safe design in your XLL. 
+When Excel is configured to use multithreaded workbook recalculation, **xlAutoFree**/ **xlAutoFree12** is called on the same thread used to call the function that returned it. The call to **xlAutoFree**/ **xlAutoFree12** is always made before any subsequent worksheet cells are evaluated on that thread. This simplifies thread-safe design in your XLL.
   
-If the **xlAutoFree**/ **xlAutoFree12** function you provide looks at the **xltype** field of  _pxFree_, remember that the **xlbitDLLFree** bit will still be set. 
+If the **xlAutoFree**/ **xlAutoFree12** function you provide looks at the **xltype** field of _pxFree_, remember that the **xlbitDLLFree** bit will still be set. 
   
 ## Example
 
  **Example Implementation 1**
   
-The first code from  `\SAMPLES\EXAMPLE\EXAMPLE.C` demonstrates a very specific implementation of **xlAutoFree**, which is designed to work with just one function, **fArray**. In general, your XLL will have more than just one function returning memory that needs to be freed, in which case a less restricted implementation is required. 
+The first code from  `\SAMPLES\EXAMPLE\EXAMPLE.C` demonstrates a very specific implementation of **xlAutoFree**, which is designed to work with just one function, **fArray**. In general, your XLL will have more than just one function returning memory that needs to be freed, in which case a less restricted implementation is required.
   
  **Example implementation 2**
   
@@ -63,7 +61,7 @@ The second example implementation is consistent with the assumptions used in the
   
  **Example implementation 3**
   
-The third example implementation is consistent with an XLL where exported functions that return **XLOPER12**s allocate strings, external references and arrays using **malloc**, and where the **XLOPER12** itself is also dynamically allocated. Returning a pointer to a dynamically allocated **XLOPER12** is one way to ensure that the function is thread safe. 
+The third example implementation is consistent with an XLL where exported functions that return **XLOPER12**s allocate strings, external references and arrays using **malloc**, and where the **XLOPER12** itself is also dynamically allocated. Returning a pointer to a dynamically allocated **XLOPER12** is one way to ensure that the function is thread safe.
   
 ```cs
 //////////////////////////////////////////
@@ -175,7 +173,4 @@ void WINAPI xlAutoFree12(LPXLOPER pxFree)
 
 ## See also
 
-
-
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
-

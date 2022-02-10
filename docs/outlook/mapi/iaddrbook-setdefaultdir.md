@@ -60,7 +60,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI uses the **SetDefaultDir** method to make the specified address book container the default one.  <br/> |
+|Abcontdlg.cpp  <br/> |CAbContDlg::OnSetDefaultDir  <br/> |MFCMAPI uses the **SetDefaultDir** method to make the specified address book container the default one. |
    
 ## See also
 

@@ -44,14 +44,14 @@ None.
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contains all the **DataRecordset** elements in the document.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Contains all the **DataRecordset** elements in the document. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The ID of the active data recordset in the **External Data** window when the window closes, so that it can be restored the next time the window opens.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|DataWindowOrder  <br/> |xsd:string  <br/> |optional  <br/> |The order of the data recordsets displayed on the tabs of the **External Data** window. An ordered list of data-recordset IDs, separated by semi-colons.  <br/> |Values of the xsd:string type.  <br/> |
-|NextID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The next available ID for a new data recordset.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The ID of the active data recordset in the **External Data** window when the window closes, so that it can be restored the next time the window opens. |Values of the xsd:unsignedInt type. |
+|DataWindowOrder  <br/> |xsd:string  <br/> |optional  <br/> |The order of the data recordsets displayed on the tabs of the **External Data** window. An ordered list of data-recordset IDs, separated by semi-colons. |Values of the xsd:string type. |
+|NextID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The next available ID for a new data recordset. |Values of the xsd:unsignedInt type. |
    
 

@@ -18,8 +18,8 @@ Indicates whether the **Replace Shape** button should be disabled for this page.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The **Change Shape** button is grayed out when this page is active.  <br/> |
-|FALSE  <br/> |The **Change Shape** button is not disabled by this page. The button may still be grayed out if: the **DocLockReplace** on the **DocumentSheet** is set to **TRUE**; the **LockReplace** cell for the selected shape is set to **TRUE**.  <br/> |
+|TRUE  <br/> |The **Change Shape** button is grayed out when this page is active. |
+|FALSE  <br/> |The **Change Shape** button is not disabled by this page. The button may still be grayed out if: the **DocLockReplace** on the **DocumentSheet** is set to **TRUE**; the **LockReplace** cell for the selected shape is set to **TRUE**. |
    
 ## Remarks
 

@@ -32,7 +32,7 @@ To get a reference to the Description cell by index from a program, use the **Ce
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visSmartTagDescription** <br/> |
    
 

@@ -26,7 +26,7 @@ SETATREFEXPR ([ ** *expr_opt* ** ])
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expr_opt_ <br/> |Optional  <br/> |**Varies** <br/> |An expression that is replaced by the value or expression being assigned to the referenced cell in the SETATREF function. If not indicated, its initial value is 0 (zero).  <br/> |
+| _expr_opt_ <br/> |Optional  <br/> |**Varies** <br/> |An expression that is replaced by the value or expression being assigned to the referenced cell in the SETATREF function. If not indicated, its initial value is 0 (zero). |
    
 ## Remarks
 

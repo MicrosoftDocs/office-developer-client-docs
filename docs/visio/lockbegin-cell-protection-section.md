@@ -20,8 +20,8 @@ Locks the begin point (BeginX, BeginY) of a 1-D shape to a specific location.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Begin point is locked.  <br/> |
-| FALSE  <br/> | Begin is not locked.  <br/> |
+| TRUE  <br/> | Begin point is locked. |
+| FALSE  <br/> | Begin is not locked. |
    
 ## Remarks
 

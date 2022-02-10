@@ -20,8 +20,8 @@ Specifies whether the shape data item is visible in the **Shape Data** window.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Shape data item is not visible.  <br/> |
-| FALSE  <br/> | Shape data item is visible.  <br/> |
+| TRUE  <br/> | Shape data item is not visible. |
+| FALSE  <br/> | Shape data item is visible. |
    
 ## Remarks
 
@@ -38,7 +38,7 @@ To get a reference to the Invisible cell by index from a program, use the **Cell
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionProp** <br/> |
-| Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCustPropsInvis** <br/> |
    
 

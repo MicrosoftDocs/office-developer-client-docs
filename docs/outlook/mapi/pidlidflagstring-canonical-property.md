@@ -40,7 +40,7 @@ Defaults suggested to the user for contact objects are as follows:
   
 |**Value**|**English string**|
 |:-----|:-----|
-|0x00000000 or not present  <br/> | Follow the guidance related to displaying **dispidFlagRequest**.  <br/> |
+|0x00000000 or not present  <br/> | Follow the guidance related to displaying **dispidFlagRequest**. |
 |0x0000006E  <br/> |"Follow up"  <br/> |
 |0x0000006F  <br/> |"Call"  <br/> |
 |0x00000070  <br/> |"Arrange Meeting"  <br/> |
@@ -51,7 +51,7 @@ Defaults suggested to the user for all other message objects are as follows:
   
 |**Value**|**English string**|
 |:-----|:-----|
-|0x00000000 or not present  <br/> | Follow the guidance related to displaying **dispidFlagRequest**.  <br/> |
+|0x00000000 or not present  <br/> | Follow the guidance related to displaying **dispidFlagRequest**. |
 |0x00000001  <br/> |"Call"  <br/> |
 |0x00000002  <br/> |"Do not Forward"  <br/> |
 |0x00000003  <br/> |"Follow up"  <br/> |

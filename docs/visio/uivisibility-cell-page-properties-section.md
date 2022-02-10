@@ -20,8 +20,8 @@ Determines whether the page name is exposed in the user interface (UI).
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-|0  <br/> |Display the page name in the UI (the default).  <br/> |**visUIVNormal** <br/> |
-|1  <br/> |Do not display the page name in the UI.  <br/> |**visUIVHidden** <br/> |
+|0  <br/> |Display the page name in the UI (the default). |**visUIVNormal** <br/> |
+|1  <br/> |Do not display the page name in the UI. |**visUIVHidden** <br/> |
    
 ## Remarks
 

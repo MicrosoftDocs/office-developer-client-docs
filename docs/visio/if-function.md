@@ -26,9 +26,9 @@ IF(** *logicalexpression* **, ** *valueiftrue* **, ** *valueiffalse* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression_ <br/> |Required  <br/> |**String** <br/> |Expression to evaluate.  <br/> |
-| _valueiftrue_ <br/> |Required  <br/> |**Varies** <br/> |Value to return if  _logicalexpression_ is true.  <br/> |
-| _valueiffalse_ <br/> |Required  <br/> |**Varies** <br/> | Value to return if  _logicalexpression_ is false.  <br/> |
+| _logicalexpression_ <br/> |Required  <br/> |**String** <br/> |Expression to evaluate. |
+| _valueiftrue_ <br/> |Required  <br/> |**Varies** <br/> |Value to return if  _logicalexpression_ is true. |
+| _valueiffalse_ <br/> |Required  <br/> |**Varies** <br/> | Value to return if  _logicalexpression_ is false. |
    
 ### Return value
 

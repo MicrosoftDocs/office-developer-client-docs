@@ -18,10 +18,10 @@ An OSC provider is a Component Object Model (COM) DLL that allows the OSC to acc
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[ISocialPerson](isocialpersoniunknown.md) <br/> |Represents a person on the social network.  <br/> |
-|[ISocialProfile](isocialprofileisocialperson.md) <br/> |Represents the logged-on user.  <br/> |
-|[ISocialProvider](isocialprovideriunknown.md) <br/> |Represents an instance of an OSC provider.  <br/> |
-|[ISocialSession](isocialsessioniunknown.md) <br/> |Represents a connection to a social network site.  <br/> |
-|[ISocialSession2](isocialsession2iunknown.md) <br/> |Supports synchronizing activities, adding friends, on-demand or hybrid synchronization of friends, or logging on to the social network by using cached credentials.  <br/> |
+|[ISocialPerson](isocialpersoniunknown.md) <br/> |Represents a person on the social network. |
+|[ISocialProfile](isocialprofileisocialperson.md) <br/> |Represents the logged-on user. |
+|[ISocialProvider](isocialprovideriunknown.md) <br/> |Represents an instance of an OSC provider. |
+|[ISocialSession](isocialsessioniunknown.md) <br/> |Represents a connection to a social network site. |
+|[ISocialSession2](isocialsession2iunknown.md) <br/> |Supports synchronizing activities, adding friends, on-demand or hybrid synchronization of friends, or logging on to the social network by using cached credentials. |
    
 

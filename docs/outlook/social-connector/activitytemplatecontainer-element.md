@@ -18,18 +18,18 @@ The following table describes the three elements that the **activityTemplateCont
   
 |**Element**|**Description**|
 |:-----|:-----|
-|**applicationID** <br/> |One of two unique IDs that are used to match the feed item with its template. If you have multiple applications or other groupings, this can be used as a first-tier template organizer.  <br/> |
-|**templateID** <br/> |The second unique ID that is used to match the feed item with its template. This can be used as a second-tier template organizer.  <br/> |
-|**activityTemplate** <br/> |The layout of the template (**icon**, **title**, and **data** elements), and the type of activity (**type** element).  <br/> |
+|**applicationID** <br/> |One of two unique IDs that are used to match the feed item with its template. If you have multiple applications or other groupings, this can be used as a first-tier template organizer. |
+|**templateID** <br/> |The second unique ID that is used to match the feed item with its template. This can be used as a second-tier template organizer. |
+|**activityTemplate** <br/> |The layout of the template (**icon**, **title**, and **data** elements), and the type of activity (**type** element). |
    
 The following table describes the child elements of **activityTemplate**, which describe the layout and the type of a template.
   
 |**Element**|**Description**|
 |:-----|:-----|
-|**icon** <br/> |A link token, which references the URL for the icon for that feed item.  <br/> |
-|**title** <br/> |The required information for the feed item.  <br/> |
-|**type** <br/> |The type of activity, such as an update of status, photo, or document.  <br/> |
-|**data** <br/> |Any additional information for the feed item, such as pictures, text, or links.  <br/> |
+|**icon** <br/> |A link token, which references the URL for the icon for that feed item. |
+|**title** <br/> |The required information for the feed item. |
+|**type** <br/> |The type of activity, such as an update of status, photo, or document. |
+|**data** <br/> |Any additional information for the feed item, such as pictures, text, or links. |
    
 For an example of activity feed XML, see [Activity Feed XML Example](activity-feed-xml-example.md)
   

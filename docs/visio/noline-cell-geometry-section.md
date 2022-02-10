@@ -21,8 +21,8 @@ Determines whether a line is drawn around the boundary of the path.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | A line is not drawn around the boundary of the path that is the boundary of a filled region.  <br/> |
-| FALSE  <br/> | A line is drawn around the boundary of a path.  <br/> |
+| TRUE  <br/> | A line is not drawn around the boundary of the path that is the boundary of a filled region. |
+| FALSE  <br/> | A line is drawn around the boundary of a path. |
    
 ## Remarks
 
@@ -32,13 +32,13 @@ To get a reference to the NoLine cell by name from another formula, or from a pr
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Geometry  *i*  .NoLine            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Geometry  *i*  .NoLine            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the NoLine cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
 | Row index:  <br/> |**visRowComponent** <br/> |
 | Cell index:  <br/> |**visCompNoLine** <br/> |
    

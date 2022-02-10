@@ -24,9 +24,9 @@ The *x*  -offset of the action tag button relative to the point defined by the X
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-| 0  <br/> | Left justified (the default).  <br/> |**visSmartTagXJustifyLeft** <br/> |
-| 1  <br/> | Centered.  <br/> |**visSmartTagXJustifyCenter** <br/> |
-| 2  <br/> | Right justified.  <br/> |**visSmartTagXJustifyRight** <br/> |
+| 0  <br/> | Left justified (the default). |**visSmartTagXJustifyLeft** <br/> |
+| 1  <br/> | Centered. |**visSmartTagXJustifyCenter** <br/> |
+| 2  <br/> | Right justified. |**visSmartTagXJustifyRight** <br/> |
    
 ## Remarks
 
@@ -43,7 +43,7 @@ To get a reference to the X Justify cell by index from a program, use the **Cell
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visSmartTagXJustify** <br/> |
    
 

@@ -20,8 +20,8 @@ Locks 2-D shapes against being rotated with the rotation handle or the **Rotate 
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Shape cannot be rotated.  <br/> |
-| FALSE  <br/> | Shape can be rotated (the default).  <br/> |
+| TRUE  <br/> | Shape cannot be rotated. |
+| FALSE  <br/> | Shape can be rotated (the default). |
    
 ## Remarks
 

@@ -37,7 +37,7 @@ Implements an advise sink object for handling notification. A pointer to an advi
 
 |||
 |:-----|:-----|
-|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responds to a notification by performing one or more tasks. The tasks performed depend on the type of event and the object that generates the notification.  <br/> |
+|[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responds to a notification by performing one or more tasks. The tasks performed depend on the type of event and the object that generates the notification. |
    
 ## See also
 

@@ -52,13 +52,13 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |xs:date  <br/> |required  <br/> |Specifies the date for the forecast.  <br/> |A value of the type xs:date  <br/> |
-|day  <br/> |xs:string  <br/> |required  <br/> |Specifies a day for the forecast.  <br/> |A value of the type xs:string  <br/> |
-|high  <br/> |xs:integer  <br/> |required  <br/> |Specifies the forecasted highest temperature.  <br/> |A value of the type xs:integer  <br/> |
-|low  <br/> |xs:integer  <br/> |required  <br/> |Specifies the forecasted lowest temperature.  <br/> |A value of the type xs:integer  <br/> |
-|precip  <br/> |xs:integer  <br/> |required  <br/> |Specifies the percentage possibility of precipitation.  <br/> |A value of the type xs:integer  <br/> |
-|shortday  <br/> |xs:string  <br/> |required  <br/> |Specifies a day in abbreviated form.  <br/> |A value of the type xs:string  <br/> |
-|skycodeday  <br/> |xs:integer  <br/> |required  <br/> |Specifies a code for the forecasted conditions.  <br/> |A value of the type xs:integer  <br/> |
-|skytextday  <br/> |xs:string  <br/> |required  <br/> |Specifies one to two words that describe the forecasted conditions.  <br/> |A value of the type xs:string  <br/> |
+|date  <br/> |xs:date  <br/> |required  <br/> |Specifies the date for the forecast. |A value of the type xs:date  <br/> |
+|day  <br/> |xs:string  <br/> |required  <br/> |Specifies a day for the forecast. |A value of the type xs:string  <br/> |
+|high  <br/> |xs:integer  <br/> |required  <br/> |Specifies the forecasted highest temperature. |A value of the type xs:integer  <br/> |
+|low  <br/> |xs:integer  <br/> |required  <br/> |Specifies the forecasted lowest temperature. |A value of the type xs:integer  <br/> |
+|precip  <br/> |xs:integer  <br/> |required  <br/> |Specifies the percentage possibility of precipitation. |A value of the type xs:integer  <br/> |
+|shortday  <br/> |xs:string  <br/> |required  <br/> |Specifies a day in abbreviated form. |A value of the type xs:string  <br/> |
+|skycodeday  <br/> |xs:integer  <br/> |required  <br/> |Specifies a code for the forecasted conditions. |A value of the type xs:integer  <br/> |
+|skytextday  <br/> |xs:string  <br/> |required  <br/> |Specifies one to two words that describe the forecasted conditions. |A value of the type xs:string  <br/> |
    
 

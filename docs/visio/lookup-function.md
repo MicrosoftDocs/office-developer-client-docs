@@ -26,9 +26,9 @@ LOOKUP(" ** *key* ** "," ** *list* ** "[," ** *delimiter* ** "])
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _key_ <br/> |Required  <br/> |**String** <br/> |The string that you want to look up.  <br/> |
-| _list_ <br/> |Required  <br/> |**String** <br/> | The list in which you want to search.  <br/> |
-| _delimiter_ <br/> |Optional  <br/> |**String** <br/> | The string to use as a delimiter within  _list_. A  _delimiter_ string can be more than one character in length and may include multibyte characters. The default is a semicolon.  <br/> |
+| _key_ <br/> |Required  <br/> |**String** <br/> |The string that you want to look up. |
+| _list_ <br/> |Required  <br/> |**String** <br/> | The list in which you want to search. |
+| _delimiter_ <br/> |Optional  <br/> |**String** <br/> | The string to use as a delimiter within  _list_. A  _delimiter_ string can be more than one character in length and may include multibyte characters. The default is a semicolon. |
    
 ### Return value
 

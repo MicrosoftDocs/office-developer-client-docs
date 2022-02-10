@@ -21,8 +21,8 @@ Determines whether other shapes snap to a path.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Do not allow other shapes to snap to this path.  <br/> |
-| FALSE  <br/> | Allow other shapes to snap to this path.  <br/> |
+| TRUE  <br/> | Do not allow other shapes to snap to this path. |
+| FALSE  <br/> | Allow other shapes to snap to this path. |
    
 ## Remarks
 
@@ -30,13 +30,13 @@ To get a reference to the NoSnap cell by name from another formula, or from a pr
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Geometry  *i*  .NoSnap            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Geometry  *i*  .NoSnap            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the NoSnap cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
 | Row index:  <br/> |**visRowComponent** <br/> |
 | Cell index:  <br/> |**visCompNoSnap** <br/> |
    

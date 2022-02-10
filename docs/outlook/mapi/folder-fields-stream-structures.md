@@ -91,7 +91,7 @@ Data elements in this stream are stored in little-endian byte order, immediately
   
 |Name|Value|Meaning|
 |:-----|:-----|:-----|
-|ftNull  <br/> |0x0  <br/> |This field type is used to null-terminate an array of field definitions.  <br/> |
+|ftNull  <br/> |0x0  <br/> |This field type is used to null-terminate an array of field definitions. |
 |ftString  <br/> |0x1  <br/> |Text  <br/> |
 |ftInteger  <br/> |0x3  <br/> |Integer  <br/> |
 |ftTime  <br/> |0x5  <br/> |Date/Time  <br/> |
@@ -101,8 +101,8 @@ Data elements in this stream are stored in little-endian byte order, immediately
 |ftFloat  <br/> |0xC  <br/> |Number or Percent  <br/> |
 |ftCurrency  <br/> |0xE  <br/> |Currency  <br/> |
 |ftCalc  <br/> |0x12  <br/> |Formula  <br/> |
-|ftSwitch  <br/> |0x13  <br/> |Combination of type showing only the first non-empty field - ignoring subsequent ones.  <br/> |
-|ftConcat  <br/> |0x17  <br/> |Combination of type joining fields and any text fragments to each other.  <br/> |
+|ftSwitch  <br/> |0x13  <br/> |Combination of type showing only the first non-empty field - ignoring subsequent ones. |
+|ftConcat  <br/> |0x17  <br/> |Combination of type joining fields and any text fragments to each other. |
    
 ## FolderFieldDefinitionCommon Stream Structure
 
@@ -119,14 +119,14 @@ Data elements in this stream are stored in little-endian byte order, immediately
     
     |Flag name|Value|Meaning|
     |:-----|:-----|:-----|
-    |FCAPM_CAN_EDIT  <br/> |0x00000001  <br/> |The field is editable.  <br/> |
-    |FCAPM_CAN_SORT  <br/> |0x00000002  <br/> |The field is sortable.  <br/> |
-    |FCAPM_CAN_GROUP  <br/> |0x00000004  <br/> |The field is groupable.  <br/> |
-    |FCAPM_MULTILINE_TEXT  <br/> |0x00000100  <br/> |The field can hold multiple lines of text.  <br/> |
-    |FCAPM_PERCENT  <br/> |0x01000000  <br/> |This field of the type ftFloat is a percentage field.  <br/> |
-    |FCAPM_DATEONLY  <br/> |0x01000000  <br/> |This field of the type ftTime is a date-only time field.  <br/> |
-    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |For this field of the type ftInteger, no unit is allowed in display format; for example such formats as "Computer - 640 K…" are not allowed.  <br/> |
-    |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0x80000000  <br/> |The field can be edited in the item: This is specifically for custom forms.  <br/> |
+    |FCAPM_CAN_EDIT  <br/> |0x00000001  <br/> |The field is editable. |
+    |FCAPM_CAN_SORT  <br/> |0x00000002  <br/> |The field is sortable. |
+    |FCAPM_CAN_GROUP  <br/> |0x00000004  <br/> |The field is groupable. |
+    |FCAPM_MULTILINE_TEXT  <br/> |0x00000100  <br/> |The field can hold multiple lines of text. |
+    |FCAPM_PERCENT  <br/> |0x01000000  <br/> |This field of the type ftFloat is a percentage field. |
+    |FCAPM_DATEONLY  <br/> |0x01000000  <br/> |This field of the type ftTime is a date-only time field. |
+    |FCAPM_UNITLESS  <br/> |0x01000000  <br/> |For this field of the type ftInteger, no unit is allowed in display format; for example such formats as "Computer - 640 K…" are not allowed. |
+    |FCAPM_CAN_EDIT_IN_ITEM  <br/> |0x80000000  <br/> |The field can be edited in the item: This is specifically for custom forms. |
    
 - **dwString**: DWORD (4 bytes). See the first following Note.
     

@@ -20,12 +20,12 @@ The following table shows the types of supported template variables, each repres
   
 |**Type of template variable**|**Description**|
 |:-----|:-----|
-|**entityVariable** <br/> |A person, group, or thing.  <br/> |
-|**linkVariable** <br/> |A link.  <br/> |
-|**listVariable** <br/> |A group of objects.  <br/> |
-|**pictureVariable** <br/> |A picture.  <br/> |
-|**publisherVariable** <br/> |The publisher of the activity feed item.  <br/> |
-|**textVariable** <br/> |A block of text.  <br/> |
+|**entityVariable** <br/> |A person, group, or thing. |
+|**linkVariable** <br/> |A link. |
+|**listVariable** <br/> |A group of objects. |
+|**pictureVariable** <br/> |A picture. |
+|**publisherVariable** <br/> |The publisher of the activity feed item. |
+|**textVariable** <br/> |A block of text. |
    
 Each type of template variable has required elements to specify the data about that variable. Template variables are specified as follows:
   
@@ -51,52 +51,52 @@ This section covers the required and optional elements supported for each type o
 
 |**Element**|**Description**|
 |:-----|:-----|
-|**name** <br/> |The name of the variable. Required.  <br/> |
-|**id** <br/> |The unique ID of the user. Required.  <br/> |
-|**nameHint** <br/> |The name to be displayed in the feed item. Optional.  <br/> |
-|**profileUrl** <br/> |The URL of the person's profile that will be used as the hyperlink for the person's name in the feed item, if the person's name is present. Optional.  <br/> |
-|**emailAddress** <br/> |The email address that is used to update this person's contact information in Outlook. Optional.  <br/> |
+|**name** <br/> |The name of the variable. Required. |
+|**id** <br/> |The unique ID of the user. Required. |
+|**nameHint** <br/> |The name to be displayed in the feed item. Optional. |
+|**profileUrl** <br/> |The URL of the person's profile that will be used as the hyperlink for the person's name in the feed item, if the person's name is present. Optional. |
+|**emailAddress** <br/> |The email address that is used to update this person's contact information in Outlook. Optional. |
    
 ### linkVariable
 
 |**Element**|**Description**|
 |:-----|:-----|
-|**name** <br/> |The name of the variable. Required.  <br/> |
-|**value** <br/> |The URL for this link. Required.  <br/> |
-|**text** <br/> |The link text to display instead of the URL itself. Optional.  <br/> |
+|**name** <br/> |The name of the variable. Required. |
+|**value** <br/> |The URL for this link. Required. |
+|**text** <br/> |The link text to display instead of the URL itself. Optional. |
    
 ### listVariable
 
 |**Element**|**Description**|
 |:-----|:-----|
-|**name** <br/> |The name of the variable. Required.  <br/> |
-|**listItems** <br/> |A container for items in the list. Required.  <br/> |
+|**name** <br/> |The name of the variable. Required. |
+|**listItems** <br/> |A container for items in the list. Required. |
    
 ### pictureVariable
 
 |**Element**|**Description**|
 |:-----|:-----|
-|**name** <br/> |The name of the variable. Required.  <br/> |
-|**value** <br/> |The URL for the picture. Required.  <br/> |
-|**altText** <br/> |The alternate text to display for accessibility and when the user moves the mouse pointer over the picture. Optional.  <br/> |
-|**href** <br/> |The hyperlink to use when the user clicks the picture, if the desired target is not the picture URL specified by the **value** element. Optional.  <br/> |
+|**name** <br/> |The name of the variable. Required. |
+|**value** <br/> |The URL for the picture. Required. |
+|**altText** <br/> |The alternate text to display for accessibility and when the user moves the mouse pointer over the picture. Optional. |
+|**href** <br/> |The hyperlink to use when the user clicks the picture, if the desired target is not the picture URL specified by the **value** element. Optional. |
    
 ### publisherVariable
 
 |**Element**|**Description**|
 |:-----|:-----|
-|**name** <br/> |The name of the variable. Required.  <br/> |
-|**id** <br/> |The unique ID of the user. Required.  <br/> |
-|**nameHint** <br/> |The name to be displayed in the feed item. Optional.  <br/> |
-|**profileUrl** <br/> |The URL of the person's profile that will be used as the hyperlink for the person's name in the feed item, if the person's name is present. Optional.  <br/> |
-|**emailAddress** <br/> |The email address that is used to update this person's contact information in Outlook. Optional.  <br/> |
+|**name** <br/> |The name of the variable. Required. |
+|**id** <br/> |The unique ID of the user. Required. |
+|**nameHint** <br/> |The name to be displayed in the feed item. Optional. |
+|**profileUrl** <br/> |The URL of the person's profile that will be used as the hyperlink for the person's name in the feed item, if the person's name is present. Optional. |
+|**emailAddress** <br/> |The email address that is used to update this person's contact information in Outlook. Optional. |
    
 ### textVariable
 
 |**Element**|**Description**|
 |:-----|:-----|
-|**name** <br/> |The name of the variable. Required.  <br/> |
-|**value** <br/> |The text to display. Optional.  <br/> |
+|**name** <br/> |The name of the variable. Required. |
+|**value** <br/> |The text to display. Optional. |
    
 ## See also
 

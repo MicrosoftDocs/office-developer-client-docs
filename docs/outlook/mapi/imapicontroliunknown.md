@@ -39,9 +39,9 @@ For more information about how to work with display tables and control objects, 
 
 |||
 |:-----|:-----|
-|[GetLastError](imapicontrol-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous button control error.  <br/> |
-|[Activate](imapicontrol-activate.md) <br/> |Performs a task such as displaying a dialog box or starting a programmatic operation when a client application user clicks the button control.  <br/> |
-|[GetState](imapicontrol-getstate.md) <br/> |Retrieves a value that indicates whether the button control is enabled or disabled.  <br/> |
+|[GetLastError](imapicontrol-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous button control error. |
+|[Activate](imapicontrol-activate.md) <br/> |Performs a task such as displaying a dialog box or starting a programmatic operation when a client application user clicks the button control. |
+|[GetState](imapicontrol-getstate.md) <br/> |Retrieves a value that indicates whether the button control is enabled or disabled. |
    
 ## See also
 

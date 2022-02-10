@@ -41,7 +41,7 @@ The information that Excel is asking for.
   
 ## Property value/Return value
 
-If  _pxAction_ is, or can be coerced to, the number 1, then your implementation of this function should return a string containing some information about the add-in, typically its name and perhaps a version number. Otherwise it should return #VALUE!. 
+If _pxAction_ is, or can be coerced to, the number 1, then your implementation of this function should return a string containing some information about the add-in, typically its name and perhaps a version number. Otherwise it should return #VALUE!. 
   
 If you do not return a string, Excel tries to convert the returned value to a string.
   

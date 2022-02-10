@@ -20,8 +20,8 @@ Determines whether placeable shapes can be placed on top of a shape when laying 
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Enable shapes to be placed on top of a shape.  <br/> |
-|FALSE  <br/> |Do not enable shapes to be placed on top of a shape.  <br/> |
+|TRUE  <br/> |Enable shapes to be placed on top of a shape. |
+|FALSE  <br/> |Do not enable shapes to be placed on top of a shape. |
    
 ## Remarks
 

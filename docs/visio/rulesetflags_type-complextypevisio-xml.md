@@ -45,6 +45,6 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
+|Hidden  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
    
 

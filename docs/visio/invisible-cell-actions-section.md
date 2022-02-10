@@ -23,8 +23,8 @@ Indicates whether the action is visible on the action tag or shortcut menu.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The action is not visible on the menu.  <br/> |
-|FALSE  <br/> |The action is visible on the menu (the default).  <br/> |
+|TRUE  <br/> |The action is not visible on the menu. |
+|FALSE  <br/> |The action is visible on the menu (the default). |
    
 ## Remarks
 
@@ -39,7 +39,7 @@ To get a reference to the Invisible cell by index from a program, use the **Cell
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowAction** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visActionInvisible** <br/> |
    
 

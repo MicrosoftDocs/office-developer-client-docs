@@ -67,9 +67,9 @@ The **PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))
   
 |**Property**|**Description**|
 |:-----|:-----|
-|PR_DISPLAY_TO  <br/> |Set to TRUE if one or more of the recipients are **MAPI_TO** recipients.  <br/> |
-|PR_DISPLAY_CC  <br/> |Set to TRUE if one or more of the recipients are **MAPI_CC** recipients.  <br/> |
-| PR_DISPLAY_BCC  <br/> |Set to TRUE if one or more of the recipients are **MAPI_BCC** recipients.  <br/> |
+|PR_DISPLAY_TO  <br/> |Set to TRUE if one or more of the recipients are **MAPI_TO** recipients. |
+|PR_DISPLAY_CC  <br/> |Set to TRUE if one or more of the recipients are **MAPI_CC** recipients. |
+| PR_DISPLAY_BCC  <br/> |Set to TRUE if one or more of the recipients are **MAPI_BCC** recipients. |
    
 In X.400, the P1 or delivery envelope is the information needed to deliver a message, including the recipient's address properties and any option flags controlling delivery and replies. The P2 or display envelope is the information usually displayed to each recipient other than the message text itself. It typically includes the subject, importance, priority, sensitivity, and submission time, as well as the primary and copied recipient names. 
   

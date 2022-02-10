@@ -1,9 +1,7 @@
 ---
-title: "DTBLEDIT"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "DTBLEDIT" 
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -13,21 +11,19 @@ api_name:
 api_type:
 - COM
 ms.assetid: ec3566a0-75ad-466d-a61e-f7d61ccb946d
-description: "Last modified: March 09, 2015"
+description: "Describes an edit control that will be used in a dialog box built from a display table."
 ---
 
-# DTBLEDIT
-
-  
+# DTBLEDI
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
 Describes an edit control that will be used in a dialog box built from a display table.
-  
+
 |||
 |:-----|:-----|
-|Header file:  <br/> |Mapidefs.h  <br/> |
-|Related macro:  <br/> |[SizedDtblEdit](sizeddtbledit.md) <br/> |
+|Header file: |Mapidefs.h |
+|Related macro: |[SizedDtblEdit](sizeddtbledit.md) |
    
 ```cpp
 typedef struct _DTBLEDIT
@@ -48,11 +44,11 @@ typedef struct _DTBLEDIT
     
 |**Character**|**Description**|
 |:-----|:-----|
-| `*` <br/> |Any character is allowed (for example,  `"*"`).  <br/> |
-| `[ ]` <br/> |Defines a set of characters (for example,  `"[0123456789]".`)  <br/> |
-| `-` <br/> |Indicates a range of characters (for example,  `"[a-z]"`).  <br/> |
-| `~` <br/> |Indicates that these characters are not allowed (for example,  `"[~0-9]"`).  <br/> |
-| `\` <br/> |Used to quote any of the previous symbols (for example,  `"[\-\\\[\]]"` means -, \, [, and ] characters are allowed).  <br/> |
+| `*`   |Any character is allowed (for example,  `"*"`). |
+| `[ ]` |Defines a set of characters (for example,  `"[0123456789]".`) |
+| `-`   |Indicates a range of characters (for example,  `"[a-z]"`). |
+| `~`   |Indicates that these characters are not allowed (for example,  `"[~0-9]"`). |
+| `\`   |Used to quote any of the previous symbols (for example,  `"[\-\\\[\]]"` means -, \, [, and ] characters are allowed). |
    
  **ulFlags**
   
@@ -80,14 +76,7 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
   
 ## See also
 
-
-
-[DTCTL](dtctl.md)
-  
-[IMAPIProp::GetProps](imapiprop-getprops.md)
-  
+[DTCTL](dtctl.md)  
+[IMAPIProp::GetProps](imapiprop-getprops.md)  
 [PidTagControlType Canonical Property](pidtagcontroltype-canonical-property.md)
-
-
 [MAPI Structures](mapi-structures.md)
-

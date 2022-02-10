@@ -26,8 +26,8 @@ CY(** *value* **, ** *cyID* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Optional  <br/> |**Number or String** <br/> |A number or a string that includes currency-specific formatting. If not specified, the currency value is formatted according to the currency style in the system's Region and Language settings.  <br/> |
-| _cyID_ <br/> |Optional  <br/> |**Number** <br/> |A numeric currency ID or a three-character quoted string for the ISO 4217 abbreviation.  <br/> |
+| _value_ <br/> |Optional  <br/> |**Number or String** <br/> |A number or a string that includes currency-specific formatting. If not specified, the currency value is formatted according to the currency style in the system's Region and Language settings. |
+| _cyID_ <br/> |Optional  <br/> |**Number** <br/> |A numeric currency ID or a three-character quoted string for the ISO 4217 abbreviation. |
    
 ## Remarks
 

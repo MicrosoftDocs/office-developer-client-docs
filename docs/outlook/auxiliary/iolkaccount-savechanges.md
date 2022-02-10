@@ -33,9 +33,9 @@ _dwFlags_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The method was successful.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Cannot find the specified account.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
+|S_OK  <br/> |The method was successful. |
+|E_ACCT_NOT_FOUND  <br/> |Cannot find the specified account. |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use. |
    
 ## Remarks
 

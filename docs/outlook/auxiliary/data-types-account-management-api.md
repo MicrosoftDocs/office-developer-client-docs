@@ -15,7 +15,7 @@ This section describes the data types in the Account Management API.
   
 |**Data type**|**Description**|
 |:-----|:-----|
-|[ACCT_BIN](acct_bin.md) <br/> |A variable of this data type holds a binary value.  <br/> |
-|[ACCT_VARIANT](acct_variant.md) <br/> |A variable of this data type holds the value of a property, which is of a variant data type.  <br/> |
+|[ACCT_BIN](acct_bin.md) <br/> |A variable of this data type holds a binary value. |
+|[ACCT_VARIANT](acct_variant.md) <br/> |A variable of this data type holds the value of a property, which is of a variant data type. |
    
 

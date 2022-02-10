@@ -28,8 +28,8 @@ Version Added: Visio 2013
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Required  <br/> |**Number** <br/> |A number representing an index in the document's color palette.  <br/> |
-| _gradient_stop_number_ <br/> |Required  <br/> |**Number** <br/> |The gradient stop (tint or shade) stored in the gradient settings of the active theme to apply to the color.  <br/> |
+| _color_ <br/> |Required  <br/> |**Number** <br/> |A number representing an index in the document's color palette. |
+| _gradient_stop_number_ <br/> |Required  <br/> |**Number** <br/> |The gradient stop (tint or shade) stored in the gradient settings of the active theme to apply to the color. |
    
 ## Return value
 

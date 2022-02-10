@@ -44,9 +44,9 @@ typedef struct {
     
 |||
 |:-----|:-----|
-|MAPI_MODIFY  <br/> |This indicates whether the client intends to write the wrapped stream interface that is returned.  <br/> |
-|STORE_UNCOMPRESSED_RTF  <br/> |This indicates whether the decompressed RTF is supposed to be written to the stream that is pointed to by the  _lpCompressedRTFStream_ pointer of the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function.  <br/> |
-|MAPI_NATIVE_BODY  <br/> |This indicates whether the decompressed stream is also converted to the native body before returning the stream. This flag cannot be combined with the **MAPI_MODIFY** flag.  <br/> |
+|MAPI_MODIFY  <br/> |This indicates whether the client intends to write the wrapped stream interface that is returned. |
+|STORE_UNCOMPRESSED_RTF  <br/> |This indicates whether the decompressed RTF is supposed to be written to the stream that is pointed to by the  _lpCompressedRTFStream_ pointer of the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function. |
+|MAPI_NATIVE_BODY  <br/> |This indicates whether the decompressed stream is also converted to the native body before returning the stream. This flag cannot be combined with the **MAPI_MODIFY** flag. |
    
  _ulInCodePage_
   

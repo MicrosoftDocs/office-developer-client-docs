@@ -60,7 +60,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI uses the **IMAPIProgress::GetMin** method to get the minimum value for the progress indicator. Returns 1 unless limits have been previously set by calling the **IMAPIProgress::SetLimits** method.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMin  <br/> |MFCMAPI uses the **IMAPIProgress::GetMin** method to get the minimum value for the progress indicator. Returns 1 unless limits have been previously set by calling the **IMAPIProgress::SetLimits** method. |
    
 ## See also
 

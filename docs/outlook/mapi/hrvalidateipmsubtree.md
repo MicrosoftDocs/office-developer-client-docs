@@ -1,9 +1,7 @@
 ---
-title: "HrValidateIPMSubtree"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "HrValidateIPMSubtree" 
+manager: lindalu
+ms.date: 02/06/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -13,12 +11,9 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
-description: "Last modified: March 09, 2015"
 ---
 
-# HrValidateIPMSubtree
-
-  
+# HrValidateIPMSubtree  
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
@@ -26,9 +21,9 @@ Adds standard interpersonal message (IPM) folders to a message store.
   
 |||
 |:-----|:-----|
-|Header file:  <br/> |Mapiutil.h  <br/> |
-|Implemented by:  <br/> |MAPI  <br/> |
-|Called by:  <br/> |Client applications  <br/> |
+|Header file: |Mapiutil.h |
+|Implemented by: |MAPI |
+|Called by: |Client applications |
    
 ```cpp
 HrValidateIPMSubtree(
@@ -58,23 +53,16 @@ MAPI_FULL_IPM_TREE
   
 > The full set of IPM folders should be created in the message store's root folder. The folder titles in the hierarchy are:
     
-    - Folder Views
+ - Folder Views
+ - Common Views
+ - Search Root\*
+ - IPM Subtree\*
+ - Inbox
+ - Outbox
+ - Deleted Items\*
+ - Sent Items
     
-    - Common Views
-    
-    - Search Root\*
-    
-    - IPM Subtree\*
-    
-    - Inbox
-    
-    - Outbox
-    
-    - Deleted Items\*
-    
-    - Sent Items
-    
-    where the three folders marked with \* are the minimum set created even when the MAPI_FULL_IPM_TREE flag has not been set. A client application typically sets this flag when the message store in which the folders are to be created is the default store.
+where the three folders marked with \* are the minimum set created even when the MAPI_FULL_IPM_TREE flag has not been set. A client application typically sets this flag when the message store in which the folders are to be created is the default store.
     
  _lpcValues_
   
@@ -102,7 +90,7 @@ IPM clients should display their folder view starting at the IPM subtree root fo
   
  **HrValidateIPMSubtree** sets the **PR_VALID_FOLDER_MASK** property to indicate whether each IPM folder it creates has a valid entry identifier. The following entry identifier properties of the message store are set to the entry identifiers of the corresponding folders and returned in the _lppProps_ parameter along with **PR_VALID_FOLDER_MASK**: 
   
- **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
+> **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))
   
 > **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))
   
@@ -124,14 +112,9 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI uses the **HrValidateIPMSubtree** method to add standard folders to a message store.  <br/> |
+|MstStoreDlg.cpp |CMsgStoreDlg::OnValidateIPMSubtree |MFCMAPI uses the **HrValidateIPMSubtree** method to add standard folders to a message store. |
    
 ## See also
 
-
-
 [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md)
-
-
 [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md)
-

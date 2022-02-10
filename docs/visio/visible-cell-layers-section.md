@@ -20,8 +20,8 @@ Specifies whether shapes belonging to the layer are visible on the drawing page.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Shapes are visible.  <br/> |
-|FALSE  <br/> |Shapes are hidden.  <br/> |
+|TRUE  <br/> |Shapes are visible. |
+|FALSE  <br/> |Shapes are hidden. |
    
 ## Remarks
 
@@ -31,14 +31,14 @@ To get a reference to the Visible cell by name from another formula, or from a p
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Visible[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Layers.Visible[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Visible cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visLayerVisible** <br/> |
    
 

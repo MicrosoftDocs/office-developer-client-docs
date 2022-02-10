@@ -20,10 +20,10 @@ To follow a person is to add a person as a friend on the social network, using t
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|Attempting to follow a person on the social network who exists on the social network.  <br/> |For a social network that does not require permission from the person, the social network immediately adds the person as a friend.  <br/> For a network that requires permission from that person, the social network sends a notification. The Outlook People Pane displays a pending icon for that person.  <br/> |
-|Attempting to follow a person on the social network who does not exist on the social network.  <br/> |The OSC provider displays the appropriate error in [ISocialSession::FollowPerson](isocialsession-followperson.md) or [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md).  <br/> |
-|Following a friend on the social network.  <br/> |For the friend selected in the People Pane, the social network's badge and the friend's profile picture for that social network are displayed.  <br/> |
-|Selecting the link to the profile page of a friend.  <br/> |The friend's page on the social network opens in the logged-on user's default browser.  <br/> |
+|Attempting to follow a person on the social network who exists on the social network. |For a social network that does not require permission from the person, the social network immediately adds the person as a friend. For a network that requires permission from that person, the social network sends a notification. The Outlook People Pane displays a pending icon for that person. |
+|Attempting to follow a person on the social network who does not exist on the social network. |The OSC provider displays the appropriate error in [ISocialSession::FollowPerson](isocialsession-followperson.md) or [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md). |
+|Following a friend on the social network. |For the friend selected in the People Pane, the social network's badge and the friend's profile picture for that social network are displayed. |
+|Selecting the link to the profile page of a friend. |The friend's page on the social network opens in the logged-on user's default browser. |
    
 ## Stop following a person
 
@@ -31,7 +31,7 @@ To stop following a person is to remove that person as a friend on the social ne
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|Attempting to remove a person as a friend on the social network.  <br/> |The social network no longer lists that person as a friend on the logged on user's account.  <br/> |
+|Attempting to remove a person as a friend on the social network. |The social network no longer lists that person as a friend on the logged on user's account. |
    
 ## See also
 

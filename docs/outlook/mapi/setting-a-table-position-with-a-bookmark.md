@@ -22,9 +22,9 @@ A bookmark is a resource that indicates a particular location in a table. Settin
   
 |||
 |:-----|:-----|
-|BOOKMARK_CURRENT  <br/> |Points to the current row in a table.  <br/> |
-|BOOKMARK_BEGINNING  <br/> |Points to the first row in a table.  <br/> |
-|BOOKMARK_END  <br/> |Points to the last row in a table.  <br/> |
+|BOOKMARK_CURRENT  <br/> |Points to the current row in a table. |
+|BOOKMARK_BEGINNING  <br/> |Points to the first row in a table. |
+|BOOKMARK_END  <br/> |Points to the last row in a table. |
    
 Table implementers are required to support these standard bookmarks and can also support others. However, because bookmarks are resources and resources are limited, bookmark users should free them as soon as possible. 
   

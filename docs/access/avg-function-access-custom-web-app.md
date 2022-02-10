@@ -24,7 +24,7 @@ The **Avg** function contains the following argument.
   
 |**Argument**|**Description**|
 |:-----|:-----|
-|NumericExpression  <br/> |A string expression identifying the field that contains the numeric data you want to average or an expression that performs a calculation using the data in that field. Operands in *NumericExpression*  can include the name of a table field, a variable, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).  <br/> |
+|NumericExpression  <br/> |A string expression identifying the field that contains the numeric data you want to average or an expression that performs a calculation using the data in that field. Operands in *NumericExpression*  can include the name of a table field, a variable, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions). |
 
 ## Remarks
 

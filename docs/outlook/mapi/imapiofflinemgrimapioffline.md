@@ -35,8 +35,8 @@ Supports registering for notification callbacks about connection state changes o
 
 |||
 |:-----|:-----|
-|[Advise](imapiofflinemgr-advise.md) <br/> |Registers for notification callbacks about connection changes.  <br/> |
-|[Unadvise](imapiofflinemgr-unadvise.md) <br/> |Removes a given registration for notification callbacks.  <br/> |
+|[Advise](imapiofflinemgr-advise.md) <br/> |Registers for notification callbacks about connection changes. |
+|[Unadvise](imapiofflinemgr-unadvise.md) <br/> |Removes a given registration for notification callbacks. |
 | *Placeholder member*  <br/> | *This member is a placeholder and is not supported.*  <br/> |
 | *Placeholder member*  <br/> | *This member is a placeholder and is not supported.*  <br/> |
 | *Placeholder member*  <br/> | *This member is a placeholder and is not supported.*  <br/> |

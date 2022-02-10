@@ -37,18 +37,18 @@ Enables form viewers to obtain information about and activate form servers.
 
 |||
 |:-----|:-----|
-|[LoadForm](imapiformmgr-loadform.md) <br/> |Starts a form to open an existing message.  <br/> |
-|[ResolveMessageClass](imapiformmgr-resolvemessageclass.md) <br/> |Resolves a message class to its form within a form container, and returns a form information object for that form.  <br/> |
-|[ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md) <br/> |Resolves a group of message classes to their forms within a form container, and returns an array of form information objects for those forms.  <br/> |
-|[CalcFormPropSet](imapiformmgr-calcformpropset.md) <br/> |Returns an array of the properties that a group of forms uses.  <br/> |
-|[CreateForm](imapiformmgr-createform.md) <br/> |Launches a form to create a new message based on the form's message class.  <br/> |
-|[SelectForm](imapiformmgr-selectform.md) <br/> |Presents a dialog box that enables the user to select a form, and returns a form information object that describes that form.  <br/> |
-|[SelectMultipleForms](imapiformmgr-selectmultipleforms.md) <br/> |Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms.  <br/> |
-|[SelectFormContainer](imapiformmgr-selectformcontainer.md) <br/> |Presents a dialog box that enables the user to select a form container, and returns an interface for the container object the user selected.  <br/> |
-|[OpenFormContainer](imapiformmgr-openformcontainer.md) <br/> |Opens an [IMAPIFormContainer](imapiformcontaineriunknown.md) interface for a specific form container.  <br/> |
-|[PrepareForm](imapiformmgr-prepareform.md) <br/> |Downloads a form for opening.  <br/> |
-|[IsInConflict](imapiformmgr-isinconflict.md) <br/> |Determines whether a form can handle its own message conflicts.  <br/> |
-|[GetLastError](imapiformmgr-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the form manager object.  <br/> |
+|[LoadForm](imapiformmgr-loadform.md) <br/> |Starts a form to open an existing message. |
+|[ResolveMessageClass](imapiformmgr-resolvemessageclass.md) <br/> |Resolves a message class to its form within a form container, and returns a form information object for that form. |
+|[ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md) <br/> |Resolves a group of message classes to their forms within a form container, and returns an array of form information objects for those forms. |
+|[CalcFormPropSet](imapiformmgr-calcformpropset.md) <br/> |Returns an array of the properties that a group of forms uses. |
+|[CreateForm](imapiformmgr-createform.md) <br/> |Launches a form to create a new message based on the form's message class. |
+|[SelectForm](imapiformmgr-selectform.md) <br/> |Presents a dialog box that enables the user to select a form, and returns a form information object that describes that form. |
+|[SelectMultipleForms](imapiformmgr-selectmultipleforms.md) <br/> |Presents a dialog box that enables the user to select multiple forms, and returns an array of form information objects that describe those forms. |
+|[SelectFormContainer](imapiformmgr-selectformcontainer.md) <br/> |Presents a dialog box that enables the user to select a form container, and returns an interface for the container object the user selected. |
+|[OpenFormContainer](imapiformmgr-openformcontainer.md) <br/> |Opens an [IMAPIFormContainer](imapiformcontaineriunknown.md) interface for a specific form container. |
+|[PrepareForm](imapiformmgr-prepareform.md) <br/> |Downloads a form for opening. |
+|[IsInConflict](imapiformmgr-isinconflict.md) <br/> |Determines whether a form can handle its own message conflicts. |
+|[GetLastError](imapiformmgr-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the form manager object. |
    
 ## See also
 

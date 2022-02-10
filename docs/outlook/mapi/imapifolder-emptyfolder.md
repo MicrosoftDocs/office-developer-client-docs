@@ -86,9 +86,9 @@ Expect these return values under the following conditions.
   
 |**Condition**|**Return value**|
 |:-----|:-----|
-|**EmptyFolder** has successfully emptied the folder.  <br/> |S_OK  <br/> |
-|**EmptyFolder** was unable to completely empty the folder.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
-|**EmptyFolder** was unable to complete.  <br/> |Any error value  <br/> |
+|**EmptyFolder** has successfully emptied the folder. |S_OK  <br/> |
+|**EmptyFolder** was unable to completely empty the folder. |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**EmptyFolder** was unable to complete. |Any error value  <br/> |
    
 When **EmptyFolder** is unable to complete, do not assume that no work was done. **EmptyFolder** might have been able to delete some of the folder's contents before encountering the error. 
   
@@ -98,7 +98,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI uses the **IMAPIFolder::EmptyFolder** method to delete the contents of the specified folder.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnEmptyFolder  <br/> |MFCMAPI uses the **IMAPIFolder::EmptyFolder** method to delete the contents of the specified folder. |
    
 ## See also
 

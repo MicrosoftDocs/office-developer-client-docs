@@ -123,7 +123,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |WriteAttachStreamToFile  <br/> |MFCMAPI uses the **OpenStreamOnFile** method to open a stream on a file so an attachment can be written out to it.  <br/> |
+|File.cpp  <br/> |WriteAttachStreamToFile  <br/> |MFCMAPI uses the **OpenStreamOnFile** method to open a stream on a file so an attachment can be written out to it. |
    
 ## See also
 

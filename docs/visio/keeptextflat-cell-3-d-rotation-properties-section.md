@@ -20,8 +20,8 @@ Indicates whether a shape's text will ignore the shape's rotation in 3-D. Does n
 
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Shape text does not rotate with the shape's geometry.  <br/> |
-|FALSE  <br/> |Shape text is transformed to rotate with the shape's geometry.  <br/> |
+|TRUE  <br/> |Shape text does not rotate with the shape's geometry. |
+|FALSE  <br/> |Shape text is transformed to rotate with the shape's geometry. |
    
 ## Remarks
 

@@ -26,7 +26,7 @@ GETVAL(** *cellname* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellname_ <br/> |Required  <br/> |**String** <br/> |The name of the cell to get the value of.  <br/> |
+| _cellname_ <br/> |Required  <br/> |**String** <br/> |The name of the cell to get the value of. |
    
 ## Example
 

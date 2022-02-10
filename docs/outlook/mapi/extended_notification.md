@@ -64,9 +64,9 @@ For more information about notification, see the topics described in the followi
   
 |**Topic**|**Description**|
 |:-----|:-----|
-|[Event Notification in MAPI](event-notification-in-mapi.md) <br/> |General overview of notification and notification events.  <br/> |
-|[Handling Notifications](handling-notifications.md) <br/> |Discussion of how clients should handle notifications.  <br/> |
-|[Supporting Event Notification](supporting-event-notification.md) <br/> |Discussion of how service providers can use the [IMAPISupport](imapisupportiunknown.md) methods to generate notifications.  <br/> |
+|[Event Notification in MAPI](event-notification-in-mapi.md) <br/> |General overview of notification and notification events. |
+|[Handling Notifications](handling-notifications.md) <br/> |Discussion of how clients should handle notifications. |
+|[Supporting Event Notification](supporting-event-notification.md) <br/> |Discussion of how service providers can use the [IMAPISupport](imapisupportiunknown.md) methods to generate notifications. |
    
 ## See also
 

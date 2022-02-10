@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Colors](colors-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |Contains the document's color table.  <br/> |
+|[Colors](colors-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |Contains the document's color table. |
    
 ### Child elements
 
@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The zero-based index of the element within its parent element.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|RGB  <br/> |xsd:string  <br/> |required  <br/> |The hexadecimal value of the color table entry.  <br/> |Values of the xsd:string type.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The zero-based index of the element within its parent element. |Values of the xsd:unsignedInt type. |
+|RGB  <br/> |xsd:string  <br/> |required  <br/> |The hexadecimal value of the color table entry. |Values of the xsd:string type. |
    
 

@@ -25,14 +25,14 @@ To get a reference to the E cell by name from another formula, or from a program
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Geometry  *i*  .E  *j*            where  *i*  and  *j*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Geometry  *i*  .E  *j*            where  *i*  and  *j*  = <1>, 2, 3... |
    
 To get a reference to the E cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
-| Row index:  <br/> |**visRowVertex** +  *j*            where  *j*  = 0, 1, 2...  <br/> |
+| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
+| Row index:  <br/> |**visRowVertex** +  *j*            where  *j*  = 0, 1, 2... |
 | Cell index:  <br/> |**visNURBSData** <br/> |
    
 

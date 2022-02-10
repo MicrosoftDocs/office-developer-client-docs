@@ -26,8 +26,8 @@ MODULUS(** *number* **, ** *divisor* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The dividend.  <br/> |
-| _divisor_ <br/> |Required  <br/> |**Number** <br/> |The divisor.  <br/> |
+| _number_ <br/> |Required  <br/> |**Number** <br/> |The dividend. |
+| _divisor_ <br/> |Required  <br/> |**Number** <br/> |The divisor. |
    
 ### Return value
 

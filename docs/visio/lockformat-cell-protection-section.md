@@ -20,8 +20,8 @@ Locks the formatting of a shape so it cannot be changed.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Formatting cannot be changed.  <br/> |
-| FALSE  <br/> | Formatting can be changed.  <br/> |
+| TRUE  <br/> | Formatting cannot be changed. |
+| FALSE  <br/> | Formatting can be changed. |
    
 ## Remarks
 

@@ -27,5 +27,5 @@ The **Replicate** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |A text expression.  <br/> |
-| *NumberOfTimes*  <br/> |An integer that specifies the number of times to repeat the *TextExpression*.  <br/> |
+| *TextExpression*  <br/> |A text expression. |
+| *NumberOfTimes*  <br/> |An integer that specifies the number of times to repeat the *TextExpression*. |

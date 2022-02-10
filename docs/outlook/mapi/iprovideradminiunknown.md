@@ -37,11 +37,11 @@ Works with service providers in a message service.
 
 |||
 |:-----|:-----|
-|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error that occurred to the provider administration object.  <br/> |
-|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Provides access to the message service's provider table, a list of the service providers in the message service.  <br/> |
-|[CreateProvider](iprovideradmin-createprovider.md) <br/> |Adds a service provider to the message service.  <br/> |
-|[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Deletes a service provider from the message service.  <br/> |
-|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Opens a profile section from the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access.  <br/> |
+|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error that occurred to the provider administration object. |
+|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Provides access to the message service's provider table, a list of the service providers in the message service. |
+|[CreateProvider](iprovideradmin-createprovider.md) <br/> |Adds a service provider to the message service. |
+|[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Deletes a service provider from the message service. |
+|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Opens a profile section from the current profile and returns an [IProfSect](iprofsectimapiprop.md) pointer for further access. |
    
 ## Remarks
 

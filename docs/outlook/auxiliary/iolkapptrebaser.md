@@ -27,10 +27,10 @@ Supports rebasing appointments in a calendar folder.
 
 |||
 |:-----|:-----|
-|**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.  <br/> |
-|**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.  <br/> |
-|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Begins a task for appointment rebasing given a list of appointments, usually obtained from **EndEnumerateAppointments**.  <br/> |
-|**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results.  <br/> |
+|**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing. |
+|**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing. |
+|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Begins a task for appointment rebasing given a list of appointments, usually obtained from **EndEnumerateAppointments**. |
+|**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results. |
    
 ## See also
 

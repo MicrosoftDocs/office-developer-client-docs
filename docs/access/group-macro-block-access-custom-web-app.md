@@ -25,7 +25,7 @@ The **Group** action has the following arguments.
   
 |**Argument**|**Required**|**Description**|
 |:-----|:-----|:-----|
-|**Description** <br/> |No  <br/> |A string that appears as the title of a group when it is collapsed.  <br/> |
+|**Description** <br/> |No  <br/> |A string that appears as the title of a group when it is collapsed. |
    
 ## Remarks
 

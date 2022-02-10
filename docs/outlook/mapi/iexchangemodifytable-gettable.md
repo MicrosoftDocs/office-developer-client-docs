@@ -60,7 +60,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI uses the **IExchangeModifyTable::GetTable** method to get a table of rules.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI uses the **IExchangeModifyTable::GetTable** method to get a table of rules. |
    
 ## See also
 

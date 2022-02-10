@@ -36,9 +36,9 @@ The following table describes the debug buttons.
   
 |**Debug button**|**Function**|
 |:-----|:-----|
-|Sync Contacts  <br/> |Causes the OSC to ask the OSC provider for cached contacts only.  <br/> |
-|GAL Sync  <br/> |Causes the OSC to populate data from the Exchange Global Address List to Outlook contacts.  <br/> |
-|Invalidate Category Cache  <br/> |Causes the OSC to reload the category list for each store when the activity feed is refreshed.  <br/> |
+|Sync Contacts  <br/> |Causes the OSC to ask the OSC provider for cached contacts only. |
+|GAL Sync  <br/> |Causes the OSC to populate data from the Exchange Global Address List to Outlook contacts. |
+|Invalidate Category Cache  <br/> |Causes the OSC to reload the category list for each store when the activity feed is refreshed. |
    
 ## Fiddler
 

@@ -24,9 +24,9 @@ The following table shows examples of expressions and their results.
   
 |**Expression**|**Result**|**Description**|
 |:-----|:-----|:-----|
-| 2 \* 5 &amp; " cents"  <br/> | "10 cents"  <br/> | The &amp; operator (string concatenation) requires string arguments, so the numeric result of 2 \* 5 is automatically converted to the string "10".  <br/> |
-| 5 \* "2"  <br/> | 10  <br/> | The \* operator (multiplication) requires numeric arguments, so the string "2" is automatically converted to the equivalent number 2.  <br/> |
-| 5 \* "sheep"  <br/> | 0  <br/> | The \* operator (multiplication) requires numeric arguments, so because the string "sheep" cannot be converted to a number, zero is used as its numeric equivalent.  <br/> |
+| 2 \* 5 &amp; " cents"  <br/> | "10 cents"  <br/> | The &amp; operator (string concatenation) requires string arguments, so the numeric result of 2 \* 5 is automatically converted to the string "10". |
+| 5 \* "2"  <br/> | 10  <br/> | The \* operator (multiplication) requires numeric arguments, so the string "2" is automatically converted to the equivalent number 2. |
+| 5 \* "sheep"  <br/> | 0  <br/> | The \* operator (multiplication) requires numeric arguments, so because the string "sheep" cannot be converted to a number, zero is used as its numeric equivalent. |
    
 ## Arithmetic operators
 

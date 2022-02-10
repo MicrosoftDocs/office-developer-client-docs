@@ -20,8 +20,8 @@ Determines whether you snap to a group or to shapes within the group.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Enable snapping to shapes within a group.  <br/> |
-|FALSE  <br/> |Snap only to the group.  <br/> |
+|TRUE  <br/> |Enable snapping to shapes within a group. |
+|FALSE  <br/> |Snap only to the group. |
    
 ## Remarks
 

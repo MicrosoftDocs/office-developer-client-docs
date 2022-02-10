@@ -62,8 +62,8 @@ The following are the two top-level elements in the **friends** schema.
   
 |**Element**|**Description**|
 |:-----|:-----|
-|**friends** <br/> |Represents the root element of a list of **person** elements. The **ISocialPerson::GetFriendsAndColleagues**, [ISocialSession::FindPerson](isocialsession-findperson.md), and **ISocialSession2::GetPeopleDetails** return XML strings that conform to the schema definition of the **friends** element.  <br/> |
-|**person** <br/> |Represents one person in a list of **person** elements. The [ISocialPerson::GetDetails](isocialperson-getdetails.md) method returns an XML string that conforms to the schema definition of the **person** element.  <br/> |
+|**friends** <br/> |Represents the root element of a list of **person** elements. The **ISocialPerson::GetFriendsAndColleagues**, [ISocialSession::FindPerson](isocialsession-findperson.md), and **ISocialSession2::GetPeopleDetails** return XML strings that conform to the schema definition of the **friends** element. |
+|**person** <br/> |Represents one person in a list of **person** elements. The [ISocialPerson::GetDetails](isocialperson-getdetails.md) method returns an XML string that conforms to the schema definition of the **person** element. |
    
 The following table describes each child element of the **person** element in the OSC provider XML schema. 
   
@@ -71,54 +71,54 @@ For a complete definition of the OSC provider XML schema, including which elemen
   
 |**Element**|**Description**|
 |:-----|:-----|
-|**address** <br/> |Physical street address of the person.  <br/> |
-|**anniversary** <br/> |Anniversary date for an event for the person.  <br/> |
-|**askmeabout** <br/> |Topics of interest or expertise of the person.  <br/> |
-|**birthday** <br/> |Date of birth for the person.  <br/> |
-|**businessAddress** <br/> |Physical street address of the person's workplace.  <br/> |
-|**businessCity** <br/> |City for the person's workplace.  <br/> |
-|**businessCountryOrRegion** <br/> |Country or region of the person's workplace.  <br/> |
-|**businessState** <br/> |State or province of the person's workplace.  <br/> |
-|**businessZip** <br/> |Zip or postal code of the person's workplace.  <br/> |
-|**cell** <br/> |Mobile telephone number for the person.  <br/> |
-|**city** <br/> |City of the physical address for the person.  <br/> |
-|**company** <br/> |Name of the company associated with the person.  <br/> |
-|**countryOrRegion** <br/> |Country or region of the physical address of the person.  <br/> |
-|**creationTime** <br/> |Creation time of the person's profile on the social network.  <br/> |
-|**emailAddress** <br/> |Primary email address of the person.  <br/> |
-|**emailAddress2** <br/> |Secondary email address of the person.  <br/> |
-|**emailAddress3** <br/> |Tertiary email address of the person.  <br/> |
-|**expirationTime** <br/> |Time that the person's profile data expires on the social network.  <br/> |
-|**fileAs** <br/> |String by which the person is to be filed as a contact in an Outlook contacts file.  <br/> |
-|**firstName** <br/> |First name or given name of the person.  <br/> |
-|**friendStatus** <br/> |Friend status of this person with the logged on user on the social network. Must be one of the following values: **friend**, **nonfriend**, **pending**, **pendingin**, **pendingout**.  <br/> |
-|**fullName** <br/> |Full name of the person.  <br/> |
-|**gender** <br/> |Gender of the person. Must be one of the following values: **male**, **female**, **unspecified**.  <br/> |
-|**homePhone** <br/> |Home telephone number for the person.  <br/> |
-|**index** <br/> |Location of the person's hashed address in the _personsAddresses_ string parameter passed to a call to the **ISocialSession2::GetPeopleDetails** method. It also indicates the person's **person** XML in the _personsCollection_ string returned by **GetPeopleDetails**.  <br/> |
-|**industries** <br/> |Industries that the person is engaged in.  <br/> |
-|**interests** <br/> |Interests or hobbies of the person.  <br/> |
-|**lastModificationTime** <br/> |Time that the person's profile was last modified on the social network.  <br/> |
-|**lastName** <br/> |Last name or surname of the person.  <br/> |
-|**location** <br/> |The location of the person.  <br/> |
-|**nickname** <br/> |A shorter name or invented name of the person.  <br/> |
-|**otherAddress** <br/> |Alternative street address of the person.  <br/> |
-|**otherCity** <br/> |City of the person's alternative address.  <br/> |
-|**otherCountryOrRegion** <br/> |Country or region of the person's alternative address.  <br/> |
-|**otherState** <br/> |State or province of the person's alternative address.  <br/> |
-|**otherZip** <br/> |Zip or postal code of the person's alternative address.  <br/> |
-|**phone** <br/> |Primary contact telephone number for the person.  <br/> |
-|**pictureUrl** <br/> |URL for a profile picture of the person.  <br/> |
-|**relationship** <br/> |Relationship of this person with the logged on user.  <br/> |
-|**schools** <br/> |The schools that the person goes or went to.  <br/> |
-|**skills** <br/> |Personal skills of the person.  <br/> |
-|**state** <br/> |State or province of the physical address of the person.  <br/> |
-|**title** <br/> |Designation added to the person's name.  <br/> |
-|**userID** <br/> |ID to identify the person on the social network.  <br/> |
-|**webProfilePage** <br/> |Webpage address that contains a profile of the person.  <br/> |
-|**website** <br/> |The person's web site.  <br/> |
-|**workPhone** <br/> |Business telephone number for the person.  <br/> |
-|**zip** <br/> |ZIP code or postal code of the physical address of the person.  <br/> |
+|**address** <br/> |Physical street address of the person. |
+|**anniversary** <br/> |Anniversary date for an event for the person. |
+|**askmeabout** <br/> |Topics of interest or expertise of the person. |
+|**birthday** <br/> |Date of birth for the person. |
+|**businessAddress** <br/> |Physical street address of the person's workplace. |
+|**businessCity** <br/> |City for the person's workplace. |
+|**businessCountryOrRegion** <br/> |Country or region of the person's workplace. |
+|**businessState** <br/> |State or province of the person's workplace. |
+|**businessZip** <br/> |Zip or postal code of the person's workplace. |
+|**cell** <br/> |Mobile telephone number for the person. |
+|**city** <br/> |City of the physical address for the person. |
+|**company** <br/> |Name of the company associated with the person. |
+|**countryOrRegion** <br/> |Country or region of the physical address of the person. |
+|**creationTime** <br/> |Creation time of the person's profile on the social network. |
+|**emailAddress** <br/> |Primary email address of the person. |
+|**emailAddress2** <br/> |Secondary email address of the person. |
+|**emailAddress3** <br/> |Tertiary email address of the person. |
+|**expirationTime** <br/> |Time that the person's profile data expires on the social network. |
+|**fileAs** <br/> |String by which the person is to be filed as a contact in an Outlook contacts file. |
+|**firstName** <br/> |First name or given name of the person. |
+|**friendStatus** <br/> |Friend status of this person with the logged on user on the social network. Must be one of the following values: **friend**, **nonfriend**, **pending**, **pendingin**, **pendingout**. |
+|**fullName** <br/> |Full name of the person. |
+|**gender** <br/> |Gender of the person. Must be one of the following values: **male**, **female**, **unspecified**. |
+|**homePhone** <br/> |Home telephone number for the person. |
+|**index** <br/> |Location of the person's hashed address in the _personsAddresses_ string parameter passed to a call to the **ISocialSession2::GetPeopleDetails** method. It also indicates the person's **person** XML in the _personsCollection_ string returned by **GetPeopleDetails**. |
+|**industries** <br/> |Industries that the person is engaged in. |
+|**interests** <br/> |Interests or hobbies of the person. |
+|**lastModificationTime** <br/> |Time that the person's profile was last modified on the social network. |
+|**lastName** <br/> |Last name or surname of the person. |
+|**location** <br/> |The location of the person. |
+|**nickname** <br/> |A shorter name or invented name of the person. |
+|**otherAddress** <br/> |Alternative street address of the person. |
+|**otherCity** <br/> |City of the person's alternative address. |
+|**otherCountryOrRegion** <br/> |Country or region of the person's alternative address. |
+|**otherState** <br/> |State or province of the person's alternative address. |
+|**otherZip** <br/> |Zip or postal code of the person's alternative address. |
+|**phone** <br/> |Primary contact telephone number for the person. |
+|**pictureUrl** <br/> |URL for a profile picture of the person. |
+|**relationship** <br/> |Relationship of this person with the logged on user. |
+|**schools** <br/> |The schools that the person goes or went to. |
+|**skills** <br/> |Personal skills of the person. |
+|**state** <br/> |State or province of the physical address of the person. |
+|**title** <br/> |Designation added to the person's name. |
+|**userID** <br/> |ID to identify the person on the social network. |
+|**webProfilePage** <br/> |Webpage address that contains a profile of the person. |
+|**website** <br/> |The person's web site. |
+|**workPhone** <br/> |Business telephone number for the person. |
+|**zip** <br/> |ZIP code or postal code of the physical address of the person. |
    
 ## See also
 

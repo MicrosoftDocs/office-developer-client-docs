@@ -18,8 +18,8 @@ Determines whether the page can be duplicated, as a Boolean.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Duplicate** in the page shortcut menu and the **Page.Duplicate** automation method are both disabled for the page.  <br/> |
-|FALSE  <br/> |The page can be duplicated.  <br/> |
+|TRUE  <br/> |**Duplicate** in the page shortcut menu and the **Page.Duplicate** automation method are both disabled for the page. |
+|FALSE  <br/> |The page can be duplicated. |
    
 ## Remarks
 

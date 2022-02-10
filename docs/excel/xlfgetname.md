@@ -45,9 +45,9 @@ The following table lists three examples of the values returned by a call to **x
   
 |**Definition in Excel**|**_pxNameText_**|**Value Returned**|
 |:-----|:-----|:-----|
-|The name Sales on a sheet is defined as the number 523.  <br/> |"Sales"  <br/> |"=523"  <br/> |
-|The name Profit on the active sheet is defined as the formula =Sales-Costs.  <br/> |"!Profit"  <br/> |"=Sales-Costs"  <br/> |
-|The name Database on the active sheet is defined as the range A1:F500.  <br/> |"!Database"  <br/> |"=R1C1:R500C6"  <br/> |
+|The name Sales on a sheet is defined as the number 523. |"Sales"  <br/> |"=523"  <br/> |
+|The name Profit on the active sheet is defined as the formula =Sales-Costs. |"!Profit"  <br/> |"=Sales-Costs"  <br/> |
+|The name Database on the active sheet is defined as the range A1:F500. |"!Database"  <br/> |"=R1C1:R500C6"  <br/> |
    
 ## See also
 

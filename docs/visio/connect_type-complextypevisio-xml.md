@@ -62,11 +62,11 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|FromCell  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|FromPart  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type.  <br/> |
-|FromSheet  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ToCell  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|ToPart  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type.  <br/> |
-|ToSheet  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
+|FromCell  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|FromPart  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type. |
+|FromSheet  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|ToCell  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|ToPart  <br/> |xsd:int  <br/> |optional  <br/> ||Values of the xsd:int type. |
+|ToSheet  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
    
 

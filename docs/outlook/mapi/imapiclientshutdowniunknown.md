@@ -37,9 +37,9 @@ Enables a MAPI client to carry out fast shutdown of the client process.
 
 |||
 |:-----|:-----|
-|[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |Queries the MAPI subsystem for fast shutdown support that is provided by loaded MAPI providers.  <br/> |
-|[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indicates the intention of the MAPI client to proceed with shut down.  <br/> |
-|[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indicates the intention of the MAPI client to exit the client process immediately.  <br/> |
+|[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |Queries the MAPI subsystem for fast shutdown support that is provided by loaded MAPI providers. |
+|[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indicates the intention of the MAPI client to proceed with shut down. |
+|[DoFastShutdown](imapiclientshutdown-dofastshutdown.md) <br/> |Indicates the intention of the MAPI client to exit the client process immediately. |
    
 ## Remarks
 

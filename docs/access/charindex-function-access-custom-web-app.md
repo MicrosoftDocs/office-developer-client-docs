@@ -21,9 +21,9 @@ Searches a text expression for another text expression and returns its starting 
   
 |**Argument Name**|**Required**|**Description**|
 |:-----|:-----|:-----|
-| *TextExpression*  <br/> |Yes  <br/> |A text expression that contains the text to be found.  <br/> |
-| *WithinText*  <br/> |Yes  <br/> |The text expression to be searched.  <br/> |
-| *Start*  <br/> |No  <br/> |An integer that specifies the location in *WithinText* to begin the search. If *Start* is not specified, is a negative number, or is 0, the search starts at the beginning of *WithinText*.  <br/> |
+| *TextExpression*  <br/> |Yes  <br/> |A text expression that contains the text to be found. |
+| *WithinText*  <br/> |Yes  <br/> |The text expression to be searched. |
+| *Start*  <br/> |No  <br/> |An integer that specifies the location in *WithinText* to begin the search. If *Start* is not specified, is a negative number, or is 0, the search starts at the beginning of *WithinText*. |
 
 ## Remarks
 

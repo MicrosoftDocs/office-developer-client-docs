@@ -56,18 +56,18 @@ Returns one of the following integer (**int**) values.
   
 |**Value**|**Return code**|**Description**|
 |:-----|:-----|:-----|
-|0  <br/> |**xlretSuccess** <br/> |The function was called successfully. This does not mean that the function did not return an Excel error value; to find that out, you must look at the type and value of the resulting  _pxRes_ parameter.  <br/> |
-|1  <br/> |**xlretAbort** <br/> |The command or function was terminated abnormally (internal abort). This can occur if an XLM macro sheet closes itself by calling **CLOSE**, or if Excel is out of memory. If Excel returns this error, the calling function must exit immediately. The DLL is permitted to call **xlFree** only before exiting. All other calls to the C API are not permitted. The user can save any work interactively by using the **Save** command on the **File** menu.  <br/> |
-|2  <br/> |**xlretInvXlfn** <br/> |An invalid function number was supplied. If you are using constants from the Xlcall.h header file, this should not occur unless you are calling something that is not supported in the version of Excel you are running.  <br/> |
-|4  <br/> |**xlretInvCount** <br/> |An invalid number of arguments was entered. In versions up to Excel 2003, the maximum number of arguments any function can take is 30. Starting in Excel 2007, the maximum number is 255. Some require a fixed or minimum number of arguments.  <br/> |
-|8  <br/> |**xlretInvXloper** <br/> |An invalid **XLOPER** or **XLOPER12** was passed to the function, or an argument of the wrong type was used.  <br/> |
-|16  <br/> |**xlretStackOvfl** <br/> |A stack overflow occurred. Use **xlStack** to monitor the amount of room left on the stack. Avoid allocating very large local (automatic) arrays and structures on the stack where possible; make them static. (Note that a stack overflow might occur without being detected.)  <br/> |
-|32  <br/> |**xlretFailed** <br/> |A command-equivalent function failed. This is equivalent to a macro command displaying the macro error alert dialog box.  <br/> |
-|64  <br/> |**xlretUncalced** <br/> |An attempt was made to dereference a cell that has not been calculated yet, because it is scheduled to be recalculated after the current cell. In this case, the DLL should return control to Excel immediately. The DLL is permitted to call **xlFree** only before exiting. All other calls to the C API are not permitted. For more information about which functions can and cannot access the values of cells that have not been recalculated, see [Excel Commands, Functions, and States](excel-commands-functions-and-states.md).  <br/> |
-|128  <br/> |**xlretNotThreadSafe** <br/> |An attempt was made to call a function that is not, or might not be, thread safe during a multithreaded recalculation of the workbook.  <br/> Starting in Excel 2007, this value is returned, and only within XLL worksheet functions declared as thread safe.  <br/> |
-|256  <br/> |**xlRetInvAsynchronousContext** <br/> |The asynchronous function handle is invalid.  <br/> This value is used only by Excel 2010.  <br/> |
-|512  <br/> |**xlRetNotClusterSafe** <br/> |The call is not supported on clusters.  <br/> This value is used only by Excel 2010.  <br/> |
-   
+|0  |**xlretSuccess** |The function was called successfully. This does not mean that the function did not return an Excel error value; to find that out, you must look at the type and value of the resulting _pxRes_ parameter.  |
+|1  |**xlretAbort** |The command or function was terminated abnormally (internal abort). This can occur if an XLM macro sheet closes itself by calling **CLOSE**, or if Excel is out of memory. If Excel returns this error, the calling function must exit immediately. The DLL is permitted to call **xlFree** only before exiting. All other calls to the C API are not permitted. The user can save any work interactively by using the **Save** command on the **File** menu.  |
+|2  |**xlretInvXlfn** |An invalid function number was supplied. If you are using constants from the Xlcall.h header file, this should not occur unless you are calling something that is not supported in the version of Excel you are running.  |
+|4  |**xlretInvCount** |An invalid number of arguments was entered. In versions up to Excel 2003, the maximum number of arguments any function can take is 30. Starting in Excel 2007, the maximum number is 255. Some require a fixed or minimum number of arguments.  |
+|8  |**xlretInvXloper** |An invalid **XLOPER** or **XLOPER12** was passed to the function, or an argument of the wrong type was used.  |
+|16  |**xlretStackOvfl** |A stack overflow occurred. Use **xlStack** to monitor the amount of room left on the stack. Avoid allocating very large local (automatic) arrays and structures on the stack where possible; make them static. (Note that a stack overflow might occur without being detected.)  |
+|32  |**xlretFailed** |A command-equivalent function failed. This is equivalent to a macro command displaying the macro error alert dialog box.  |
+|64  |**xlretUncalced** |An attempt was made to dereference a cell that has not been calculated yet, because it is scheduled to be recalculated after the current cell. In this case, the DLL should return control to Excel immediately. The DLL is permitted to call **xlFree** only before exiting. All other calls to the C API are not permitted. For more information about which functions can and cannot access the values of cells that have not been recalculated, see [Excel Commands, Functions, and States](excel-commands-functions-and-states.md).  |
+|128  |**xlretNotThreadSafe** |An attempt was made to call a function that is not, or might not be, thread safe during a multithreaded recalculation of the workbook.  Starting in Excel 2007, this value is returned, and only within XLL worksheet functions declared as thread safe.  |
+|256  |**xlRetInvAsynchronousContext** |The asynchronous function handle is invalid.  This value is used only by Excel 2010.  |
+|512  |**xlRetNotClusterSafe** |The call is not supported on clusters.  This value is used only by Excel 2010.  |
+
 ## Remarks
 
 ### Valid iFunction values
@@ -76,10 +76,10 @@ Valid **iFunction** values are any of the **xlf...** or **xlc...** constants def
   
 |||||
 |:-----|:-----|:-----|:-----|
-|**xlAbort** <br/> |**xlEnableXLMsgs** <br/> |**xlGetInst** <br/> |**xlSheetNm** <br/> |
-|**xlCoerce** <br/> |**xlFree** <br/> |**xlGetName** <br/> |**xlStack** <br/> |
-|**xlDefineBinaryName** <br/> |**xlGetBinaryName** <br/> |**xlSet** <br/> |**xlUDF** <br/> |
-|**xlDisableXLMsgs** <br/> |**xlGetHwnd** <br/> |**xlSheetId** <br/> ||
+|**xlAbort** |**xlEnableXLMsgs** |**xlGetInst** |**xlSheetNm** |
+|**xlCoerce** |**xlFree** |**xlGetName** |**xlStack** |
+|**xlDefineBinaryName** |**xlGetBinaryName** |**xlSet** |**xlUDF** |
+|**xlDisableXLMsgs** |**xlGetHwnd** |**xlSheetId** ||
    
 ### Different Types of Functions
 
@@ -95,7 +95,7 @@ The following table shows what functions are valid in each class.
   
 |**Class 1**|**Class 2**|**Class 3**|
 |:-----|:-----|:-----|
-|Any worksheet function  <br/> Any XLL-only **xl...** function except **xlSet**.  <br/> **xlfCaller** <br/> |Any worksheet function  <br/> Any **xl...** function except **xlSet**.  <br/> Macro sheet functions, including **xlfCaller**, that return a value but perform no action that affects the workspace or any open workbook.  <br/> |Any function, including **xlSet** and command-equivalent functions.  <br/> |
+|Any worksheet function  Any XLL-only **xl...** function except **xlSet**.  **xlfCaller** |Any worksheet function  Any **xl...** function except **xlSet**.  Macro sheet functions, including **xlfCaller**, that return a value but perform no action that affects the workspace or any open workbook.  |Any function, including **xlSet** and command-equivalent functions.  |
    
 ### Display the Dialog Box for a Command-Equivalent Function
 

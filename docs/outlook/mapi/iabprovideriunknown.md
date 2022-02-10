@@ -37,8 +37,8 @@ Provides a method to log on to an address book provider object and a method to i
 
 |||
 |:-----|:-----|
-|[Logon](iabprovider-logon.md) <br/> |Establishes a connection to an active session.  <br/> |
-|[Shutdown](iabprovider-shutdown.md) <br/> |Cancels a connection to an active session.  <br/> |
+|[Logon](iabprovider-logon.md) <br/> |Establishes a connection to an active session. |
+|[Shutdown](iabprovider-shutdown.md) <br/> |Cancels a connection to an active session. |
    
 ## See also
 

@@ -38,9 +38,9 @@ The property may be absent, in which case the default value of "0x00000000" is u
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |Do not automatically process the message.  <br/> |
-|0x00000001  <br/> |Process the message automatically or when the message is opened.  <br/> |
-|0x00000002  <br/> |Process the message only when the message is opened.  <br/> |
+|0x00000000  <br/> |Do not automatically process the message. |
+|0x00000001  <br/> |Process the message automatically or when the message is opened. |
+|0x00000002  <br/> |Process the message only when the message is opened. |
    
 ## Related resources
 

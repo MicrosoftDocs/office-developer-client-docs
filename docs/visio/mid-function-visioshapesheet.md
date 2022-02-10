@@ -26,9 +26,9 @@ MID (** *text* **, ** *start_num* **, ** *num_chars* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Required  <br/> |**String** <br/> |The text string that contains the characters you want to extract.  <br/> |
-| _start_num_ <br/> |Required  <br/> |**Number** <br/> |The position of the first character you want to extract. The first character in the text string is position 1.  <br/> |
-| _num_chars_ <br/> |Required  <br/> |**Number** <br/> |The number of characters to return.  <br/> |
+| _text_ <br/> |Required  <br/> |**String** <br/> |The text string that contains the characters you want to extract. |
+| _start_num_ <br/> |Required  <br/> |**Number** <br/> |The position of the first character you want to extract. The first character in the text string is position 1. |
+| _num_chars_ <br/> |Required  <br/> |**Number** <br/> |The number of characters to return. |
    
 ### Return value
 

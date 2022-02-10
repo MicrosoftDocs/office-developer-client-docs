@@ -26,8 +26,8 @@ RUNMACRO (** *macroname* ** [, ** *projname_opt* ** ])
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _macroname_ <br/> |Required  <br/> |**String** <br/> |The name of the macro to call.  <br/> |
-| _projname_opt_ <br/> |Optional  <br/> |**String** <br/> | The project that contains the macro.  <br/> |
+| _macroname_ <br/> |Required  <br/> |**String** <br/> |The name of the macro to call. |
+| _projname_opt_ <br/> |Optional  <br/> |**String** <br/> | The project that contains the macro. |
    
 ## Remarks
 

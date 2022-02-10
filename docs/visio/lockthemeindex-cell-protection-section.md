@@ -18,8 +18,8 @@ Prevents **ThemeIndex** cell in **Theme Properties** row from being altered by a
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The **ThemeIndex** cell cannot be changed from its current value unless changed in the ShapeSheet directly.  <br/> |
-|FALSE  <br/> |The **ThemeIndex** cell can be changed from its current value when the theme is changed.  <br/> |
+|TRUE  <br/> |The **ThemeIndex** cell cannot be changed from its current value unless changed in the ShapeSheet directly. |
+|FALSE  <br/> |The **ThemeIndex** cell can be changed from its current value when the theme is changed. |
    
 ## Remarks
 

@@ -20,12 +20,12 @@ Specifies placement behavior for a placeable shape.
   
 |**Value**|**Selection mode**|**Automation constant**|
 |:-----|:-----|:-----|
-|&amp;H1  <br/> |Don't move this shape when shapes are laid out by using the **Configure Layout** dialog box.  <br/> |**visSLOFixedPlacement** <br/> |
-|&amp;H2  <br/> |Don't move this shape and do not allow shapes that plow to be placed on top of it.  <br/> |**visSLOFixedPlow** <br/> |
-|&amp;H4  <br/> |Don't move this shape and allow shapes that plow to be placed on top of it.  <br/> |**visSLOFixedPermeablePlow** <br/> |
-|&amp;H20 (32)  <br/> |Ignore connection point locations when being routed to.  <br/> |**visSLOFixedConnPtsIgnore** <br/> |
-|&amp;H40 (64)  <br/> |Only allow routing to sides with connection points.  <br/> |**visSLOFixedConnPtsOnly** <br/> |
-|&amp;H80 (128)  <br/> |Don't glue to the perimeter of this shape. Glue to the shape's alignment box instead.  <br/> |**visSLOFixedNoFoldToShape** <br/> |
+|&amp;H1  <br/> |Don't move this shape when shapes are laid out by using the **Configure Layout** dialog box. |**visSLOFixedPlacement** <br/> |
+|&amp;H2  <br/> |Don't move this shape and do not allow shapes that plow to be placed on top of it. |**visSLOFixedPlow** <br/> |
+|&amp;H4  <br/> |Don't move this shape and allow shapes that plow to be placed on top of it. |**visSLOFixedPermeablePlow** <br/> |
+|&amp;H20 (32)  <br/> |Ignore connection point locations when being routed to. |**visSLOFixedConnPtsIgnore** <br/> |
+|&amp;H40 (64)  <br/> |Only allow routing to sides with connection points. |**visSLOFixedConnPtsOnly** <br/> |
+|&amp;H80 (128)  <br/> |Don't glue to the perimeter of this shape. Glue to the shape's alignment box instead. |**visSLOFixedNoFoldToShape** <br/> |
    
 ## Remarks
 

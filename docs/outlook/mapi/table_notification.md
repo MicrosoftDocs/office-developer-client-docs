@@ -114,9 +114,9 @@ For more information about notification, see the topics described in the followi
   
 |**Topic**|**Description**|
 |:-----|:-----|
-|[Event Notification in MAPI](event-notification-in-mapi.md) <br/> |General overview of notification and notification events.  <br/> |
-|[Handling Notifications](handling-notifications.md) <br/> |Discussion of how clients should handle notifications.  <br/> |
-|[Supporting Event Notification](supporting-event-notification.md) <br/> |Discussion of how service providers can use the **IMAPISupport** method to generate notifications.  <br/> |
+|[Event Notification in MAPI](event-notification-in-mapi.md) <br/> |General overview of notification and notification events. |
+|[Handling Notifications](handling-notifications.md) <br/> |Discussion of how clients should handle notifications. |
+|[Supporting Event Notification](supporting-event-notification.md) <br/> |Discussion of how service providers can use the **IMAPISupport** method to generate notifications. |
    
 Because table notifications are asynchronous, clients can receive notification of an added row after learning about the addition through another means. It is possible to receive a TABLE_ERROR event when there is an error in an **IMAPITable::Sort**, **IMAPITable::Restrict**, or **IMAPITable::SetColumns** method or when an underlying process attempts to update a table with, for example, new or modified rows. 
   

@@ -97,17 +97,17 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|AssociatedPage  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Background  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|BackPage  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|IsCustomName  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|IsCustomNameU  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|ReviewerID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ViewCenterX  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|ViewCenterY  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|ViewScale  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
+|AssociatedPage  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|Background  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|BackPage  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|IsCustomName  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|Name  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|NameU  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|ReviewerID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|ViewCenterX  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|ViewCenterY  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|ViewScale  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
    
 

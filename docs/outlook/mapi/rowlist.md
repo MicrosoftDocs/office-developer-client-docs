@@ -49,7 +49,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Used to build a list of selected rules for subsequent **ModifyTable** actions.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::GetSelectedItems  <br/> |Used to build a list of selected rules for subsequent **ModifyTable** actions. |
    
 ## See also
 

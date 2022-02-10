@@ -35,8 +35,8 @@ The [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoP
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Count.aspx) property  <br/> |Gets a count of the number of [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) objects contained in the collection.  <br/> |
-|[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Item.aspx) property  <br/> |Gets a reference to the specified [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) object.  <br/> |
+|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Count.aspx) property  <br/> |Gets a count of the number of [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) objects contained in the collection. |
+|[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Item.aspx) property  <br/> |Gets a reference to the specified [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) object. |
    
 ## Overview of the Window Class
 
@@ -44,21 +44,21 @@ The [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window
   
 |**Name**|**Description**|**Window Type Support**|
 |:-----|:-----|:-----|
-|[Activate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Activate.aspx) method  <br/> |Activates (gives focus to) the window.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[Active](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Active.aspx) property  <br/> |Gets a **Boolean** value indicating whether the window is the currently active window.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[Caption](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Caption.aspx) property  <br/> |Gets or sets the caption text for the window represented by the [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) object.  <br/> |Only **Editor** type  <br/> |
-|[Close()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx) method  <br/> |Closes the window prompting to save changes to any unsaved form, or form with changes that have not been saved.  <br/> |Only **Editor** type  <br/> |
-|[Close(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx) method  <br/> |Closes the window and optionally forces an unsaved form or form with unsaved changes to be closed without saving.  <br/> |Only **Editor** type  <br/> |
-|[CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.CommandBars.aspx) property  <br/> |Gets a reference to the Microsoft Office **CommandBars** collection that is associated with the window.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[Height](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Height.aspx) property  <br/> |Gets or sets the height of the window, measured in points.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[Left](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Left.aspx) property  <br/> |Gets or sets the horizontal position of the window, measured in points.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.MailEnvelope.aspx) property  <br/> |Gets a reference to the [MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MailEnvelope.aspx) class.  <br/> |Only **Editor** type  <br/> |
-|[TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.TaskPanes.aspx) property  <br/> |Gets a reference to the [TaskPaneCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.aspx) collection.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[Top](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Top.aspx) property  <br/> |Gets or sets the vertical position of the window, measured in points.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[Width](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Width.aspx) property  <br/> |Gets or set the width of the window, measured in points.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowState.aspx) property  <br/> |Gets or sets the state of the window as a [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowState.aspx) value.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowType.aspx) property  <br/> |Gets the type of the window as an [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) enumeration value.  <br/> |Both **Designer** and **Editor** type  <br/> |
-|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.XmlForm.aspx) property  <br/> |Returns a reference to the [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) object associated with the window.  <br/> |Only **Editor** type  <br/> |
+|[Activate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Activate.aspx) method  <br/> |Activates (gives focus to) the window. |Both **Designer** and **Editor** type  <br/> |
+|[Active](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Active.aspx) property  <br/> |Gets a **Boolean** value indicating whether the window is the currently active window. |Both **Designer** and **Editor** type  <br/> |
+|[Caption](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Caption.aspx) property  <br/> |Gets or sets the caption text for the window represented by the [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) object. |Only **Editor** type  <br/> |
+|[Close()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx) method  <br/> |Closes the window prompting to save changes to any unsaved form, or form with changes that have not been saved. |Only **Editor** type  <br/> |
+|[Close(Boolean)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Close.aspx) method  <br/> |Closes the window and optionally forces an unsaved form or form with unsaved changes to be closed without saving. |Only **Editor** type  <br/> |
+|[CommandBars](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.CommandBars.aspx) property  <br/> |Gets a reference to the Microsoft Office **CommandBars** collection that is associated with the window. |Both **Designer** and **Editor** type  <br/> |
+|[Height](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Height.aspx) property  <br/> |Gets or sets the height of the window, measured in points. |Both **Designer** and **Editor** type  <br/> |
+|[Left](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Left.aspx) property  <br/> |Gets or sets the horizontal position of the window, measured in points. |Both **Designer** and **Editor** type  <br/> |
+|[MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.MailEnvelope.aspx) property  <br/> |Gets a reference to the [MailEnvelope](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.MailEnvelope.aspx) class. |Only **Editor** type  <br/> |
+|[TaskPanes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.TaskPanes.aspx) property  <br/> |Gets a reference to the [TaskPaneCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.TaskPaneCollection.aspx) collection. |Both **Designer** and **Editor** type  <br/> |
+|[Top](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Top.aspx) property  <br/> |Gets or sets the vertical position of the window, measured in points. |Both **Designer** and **Editor** type  <br/> |
+|[Width](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Width.aspx) property  <br/> |Gets or set the width of the window, measured in points. |Both **Designer** and **Editor** type  <br/> |
+|[WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowState.aspx) property  <br/> |Gets or sets the state of the window as a [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowState.aspx) value. |Both **Designer** and **Editor** type  <br/> |
+|[WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.WindowType.aspx) property  <br/> |Gets the type of the window as an [WindowType](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) enumeration value. |Both **Designer** and **Editor** type  <br/> |
+|[XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.XmlForm.aspx) property  <br/> |Returns a reference to the [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) object associated with the window. |Only **Editor** type  <br/> |
    
 ## Using the WindowsCollection and Window Classes
 

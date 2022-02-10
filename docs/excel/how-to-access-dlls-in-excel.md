@@ -109,7 +109,7 @@ Excel only passes Variants of the following types to a VBA user-defined function
 |String  <br/> |**VT_BSTR** <br/> |OLE Bstr byte string  <br/> |
 |Range  <br/> |**VT_DISPATCH** <br/> |Range and cell references  <br/> |
 |Variant containing an array  <br/> |**VT_ARRAY** | **VT_VARIANT** <br/> |Literal arrays  <br/> |
-|Ccy  <br/> |**VT_CY** <br/> |64-bit integer scaled to permit 4 decimal places of accuracy.  <br/> |
+|Ccy  <br/> |**VT_CY** <br/> |64-bit integer scaled to permit 4 decimal places of accuracy. |
 |Variant containing an error  <br/> |**VT_ERROR** <br/> ||
 ||**VT_EMPTY** <br/> |Empty cells or omitted arguments  <br/> |
    

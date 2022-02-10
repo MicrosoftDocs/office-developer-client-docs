@@ -26,9 +26,9 @@ LOCTOLOC(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _srcPoint_ <br/> |Required  <br/> |**String** <br/> | A point in local coordinates in the source coordinate system.  <br/> |
-| _srcRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object.  <br/> |
-| _dstRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the destination object.  <br/> |
+| _srcPoint_ <br/> |Required  <br/> |**String** <br/> | A point in local coordinates in the source coordinate system. |
+| _srcRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object. |
+| _dstRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the destination object. |
    
 ### Return value
 

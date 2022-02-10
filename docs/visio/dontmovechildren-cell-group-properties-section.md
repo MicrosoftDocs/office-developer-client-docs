@@ -20,8 +20,8 @@ Determines whether you can drag shapes in a group using the mouse.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Don't allow shapes in a group to be dragged using the mouse.  <br/> |
-| FALSE  <br/> | Allow shapes in a group to be dragged using the mouse.  <br/> |
+| TRUE  <br/> | Don't allow shapes in a group to be dragged using the mouse. |
+| FALSE  <br/> | Allow shapes in a group to be dragged using the mouse. |
    
 ## Remarks
 

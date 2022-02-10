@@ -43,9 +43,9 @@ The **Windows** interface allows the user to access the set of opened OneNote wi
 
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|**Count** <br/> |ulong  <br/> |Gets the number of **Window** objects in the **Windows** set.  <br/> |
-|**CurrentWindow** <br/> |**Window** <br/> |Gets the **Window** object of the active OneNote window.  <br/> |
-|**Items** <br/> |**Window** <br/> |Returns the **Window** object that corresponds to the index value passed. This property cannot be accessed directly. To return a **Window** object, use **Windows [(uint) index]**.  <br/> |
+|**Count** <br/> |ulong  <br/> |Gets the number of **Window** objects in the **Windows** set. |
+|**CurrentWindow** <br/> |**Window** <br/> |Gets the **Window** object of the active OneNote window. |
+|**Items** <br/> |**Window** <br/> |Returns the **Window** object that corresponds to the index value passed. This property cannot be accessed directly. To return a **Window** object, use **Windows [(uint) index]**. |
    
 ### Window interface
 
@@ -55,16 +55,16 @@ The **Window** interface allows the user to access certain properties of each wi
 
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|**Active** <br/> |bool  <br/> |Gets or sets a value that indicates whether the window is the active OneNote window.  <br/> |
-|**Application** <br/> |**Application** <br/> |Gets the OneNote **Application** object that is associated with the window.  <br/> |
-|**CurrentPageId** <br/> |string  <br/> |Gets the object ID of the active OneNote page of the window.  <br/> |
-|**CurrentSectionId** <br/> |string  <br/> |Gets the object ID of the active OneNote section of the window.  <br/> |
-|**CurrentSectionGroupId** <br/> |string  <br/> |Gets the object ID of the active OneNote section group of the window.  <br/> |
-|**CurrentNotebookId** <br/> |string  <br/> |Gets the object ID of the active OneNote notebook of the window.  <br/> |
-|**DockedLocation** <br/> |**DockedLocation** <br/> |Gets or sets the docked location of the OneNote window.  <br/> |
-|**FullPageView** <br/> |bool  <br/> |Gets or sets a value that indicates whether the window is in Full Page view (minimal UI view).  <br/> |
-|**SideNote** <br/> |bool  <br/> |Gets or sets a value that indicates whether the window is a quick note window.  <br/> |
-|**WindowHandle** <br/> |ulong  <br/> |Gets the handle ID of the OneNote window.  <br/> |
+|**Active** <br/> |bool  <br/> |Gets or sets a value that indicates whether the window is the active OneNote window. |
+|**Application** <br/> |**Application** <br/> |Gets the OneNote **Application** object that is associated with the window. |
+|**CurrentPageId** <br/> |string  <br/> |Gets the object ID of the active OneNote page of the window. |
+|**CurrentSectionId** <br/> |string  <br/> |Gets the object ID of the active OneNote section of the window. |
+|**CurrentSectionGroupId** <br/> |string  <br/> |Gets the object ID of the active OneNote section group of the window. |
+|**CurrentNotebookId** <br/> |string  <br/> |Gets the object ID of the active OneNote notebook of the window. |
+|**DockedLocation** <br/> |**DockedLocation** <br/> |Gets or sets the docked location of the OneNote window. |
+|**FullPageView** <br/> |bool  <br/> |Gets or sets a value that indicates whether the window is in Full Page view (minimal UI view). |
+|**SideNote** <br/> |bool  <br/> |Gets or sets a value that indicates whether the window is a quick note window. |
+|**WindowHandle** <br/> |ulong  <br/> |Gets the handle ID of the OneNote window. |
    
 **Methods**
   
@@ -74,25 +74,25 @@ You can use the following methods of the **Window** interface to navigate to spe
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Navigates to the specified object in the OneNote window. For example, you can navigate to sections, pages, and outline elements within pages.  <br/> |
+|**Description** <br/> |Navigates to the specified object in the OneNote window. For example, you can navigate to sections, pages, and outline elements within pages. |
 |**Syntax** <br/> | `HRESULT NavigateTo(`           ` [in]BSTR bstrHierarchyObjectID, `           ` [in]BSTR bstrObjectID); ` <br/> |
-|**Parameters** <br/> | _bstrHierarchyObjectID_—The hierarchy OneNote ID of the object you want to navigate to. The object ID can reference a OneNote notebook, section, section group, or page.  <br/>  _bstrObjectID_—The OneNote ID of the specific object to navigate to within a OneNote page. If the user does not want to navigate to a specific object on a page, this parameter is set to null.  <br/> |
+|**Parameters** <br/> | _bstrHierarchyObjectID_—The hierarchy OneNote ID of the object you want to navigate to. The object ID can reference a OneNote notebook, section, section group, or page.  _bstrObjectID_—The OneNote ID of the specific object to navigate to within a OneNote page. If the user does not want to navigate to a specific object on a page, this parameter is set to null. |
    
 **NavigateToUrl**
 
 |||
 |:-----|:-----|
-|**Description** <br/> |If passed a OneNote link (onenote://), opens the OneNote window to the corresponding location in OneNote. However, if the link is an external link, such as https:// or file://, a security dialog box will appear. Upon dismissal, OneNote attempts to open up the link and an HResult.hrObjectDoesNotExist error is returned.  <br/> |
+|**Description** <br/> |If passed a OneNote link (onenote://), opens the OneNote window to the corresponding location in OneNote. However, if the link is an external link, such as https:// or file://, a security dialog box will appear. Upon dismissal, OneNote attempts to open up the link and an HResult.hrObjectDoesNotExist error is returned. |
 |**Syntax** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
-|**Parameters** <br/> | _bstrUrl_—The URL to navigate to.  <br/> |
+|**Parameters** <br/> | _bstrUrl_—The URL to navigate to. |
    
 **SetDockedLocation**
 
 |||
 |:-----|:-----|
-|**Description** <br/> |Docks the window to the location specified by **dockLocation** and the monitor at **ptMonitor**.  <br/> |
+|**Description** <br/> |Docks the window to the location specified by **dockLocation** and the monitor at **ptMonitor**. |
 |**Syntax** <br/> | `HRESULT SetDockedLocation`(           `[in] DockLocation dockLocation,`           `[in] POINT ptMonitor);` <br/> |
-|**Parameters** <br/> | _dockLocation_ - Indicates the docked location of a OneNote 2013 window.  <br/>  _ptMonitor_ - (Optional) Indicates in x,y co-ordinates which monitor the window should be docked to.  <br/> |
+|**Parameters** <br/> | _dockLocation_ - Indicates the docked location of a OneNote 2013 window.  _ptMonitor_ - (Optional) Indicates in x,y co-ordinates which monitor the window should be docked to. |
    
 ## Example
 

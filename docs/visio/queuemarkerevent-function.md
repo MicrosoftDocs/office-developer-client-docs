@@ -26,7 +26,7 @@ QUEUEMARKEREVENT (** *event_string* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _event_string_ <br/> |Required  <br/> |**String** <br/> | The string to pass to your event handler.  <br/> |
+| _event_string_ <br/> |Required  <br/> |**String** <br/> | The string to pass to your event handler. |
    
 ## Remarks
 

@@ -26,9 +26,9 @@ SETATREF(** *reference* ** [, ** *set_expression* ** [, ** *ignore_eval* ** ]])
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _reference_ <br/> |Required  <br/> |**String** <br/> |A reference to the cell where updates are redirected.  <br/> |
-| _set_expression_ <br/> |Optional  <br/> |**String** <br/> |An expression that is assigned to  _reference_.  <br/> |
-| _ignore_eval_ <br/> |Optional  <br/> |**Boolean** <br/> |If TRUE, the SETATREF function evaluates to (0) zero; if FALSE (the default) the SETATREF function evaluates to the value of  _reference_.  <br/> |
+| _reference_ <br/> |Required  <br/> |**String** <br/> |A reference to the cell where updates are redirected. |
+| _set_expression_ <br/> |Optional  <br/> |**String** <br/> |An expression that is assigned to  _reference_. |
+| _ignore_eval_ <br/> |Optional  <br/> |**Boolean** <br/> |If TRUE, the SETATREF function evaluates to (0) zero; if FALSE (the default) the SETATREF function evaluates to the value of  _reference_. |
    
 ## Remarks
 

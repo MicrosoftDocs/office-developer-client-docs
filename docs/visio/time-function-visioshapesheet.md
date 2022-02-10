@@ -26,9 +26,9 @@ TIME(** *hour* **, ** *minute* **, ** *second* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _hour_ <br/> |Required  <br/> |**Numeric** <br/> |The hour component.  <br/> |
-| _minute_ <br/> |Required  <br/> |**Numeric** <br/> |The minute comonent.  <br/> |
-| _second_ <br/> |Required  <br/> |**Numeric** <br/> |The second component.  <br/> |
+| _hour_ <br/> |Required  <br/> |**Numeric** <br/> |The hour component. |
+| _minute_ <br/> |Required  <br/> |**Numeric** <br/> |The minute comonent. |
+| _second_ <br/> |Required  <br/> |**Numeric** <br/> |The second component. |
    
 ### Return value
 

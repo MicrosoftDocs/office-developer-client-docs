@@ -26,9 +26,9 @@ ANGLETOLOC(***srcAngle***, ***srcRef***, ***dstRef*** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _srcAngle_ <br/> |Required  <br/> |**Numeric** <br/> |An angle in the source coordinate system.  <br/> |
-| _srcRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object, such as a shape, group, page, and so on.  <br/> |
-| _dstRef_ <br/> |Required  <br/> |**String** <br/> |A reference to a cell in the destination object, such as a shape, group, page, and so on.  <br/> |
+| _srcAngle_ <br/> |Required  <br/> |**Numeric** <br/> |An angle in the source coordinate system. |
+| _srcRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object, such as a shape, group, page, and so on. |
+| _dstRef_ <br/> |Required  <br/> |**String** <br/> |A reference to a cell in the destination object, such as a shape, group, page, and so on. |
    
 ## Remarks
 

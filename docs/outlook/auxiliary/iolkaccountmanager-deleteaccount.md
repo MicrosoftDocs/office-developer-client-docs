@@ -34,8 +34,8 @@ _dwAcctID_
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |The specified account cannot be found.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |The specified account cannot be found. |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use. |
    
 ## See also
 

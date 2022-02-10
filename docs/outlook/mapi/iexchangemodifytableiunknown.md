@@ -37,9 +37,9 @@ Supports access to Microsoft Exchange Server table objects, specifically system 
 
 |||
 |:-----|:-----|
-|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Returns information about the last error that occurred in a table object.  <br/> |
-|[GetTable](iexchangemodifytable-gettable.md) <br/> |Returns a pointer to an interface for a MAPI table object.  <br/> |
-|[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Updates a MAPI table object.  <br/> |
+|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Returns information about the last error that occurred in a table object. |
+|[GetTable](iexchangemodifytable-gettable.md) <br/> |Returns a pointer to an interface for a MAPI table object. |
+|[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Updates a MAPI table object. |
    
 |**Properties used to modify a rules table**|**Access**|
 |:-----|:-----|

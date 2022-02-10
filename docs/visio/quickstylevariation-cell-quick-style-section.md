@@ -18,11 +18,11 @@ Determines whether to override the formulas and values of text, line, and fill c
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Do not alter a shape's text, line, or fill color (or any combination of those properties) to remain visible against a theme's given background color.  <br/> |
-|1  <br/> |Do not alter a shape's text, line, or fill color (or any combination of those properties) to remain visible against a theme's given background color.  <br/> |
-|2  <br/> |Alter a shape's text color, if necessary, to remain visible against a theme's given background color.  <br/> |
-|4  <br/> |Alter a shape's line color, if necessary, to remain visible against a theme's given background color.  <br/> |
-|8  <br/> |Alter a shape's fill color, if necessary, to remain visible against a theme's given background color.  <br/> |
+|0  <br/> |Do not alter a shape's text, line, or fill color (or any combination of those properties) to remain visible against a theme's given background color. |
+|1  <br/> |Do not alter a shape's text, line, or fill color (or any combination of those properties) to remain visible against a theme's given background color. |
+|2  <br/> |Alter a shape's text color, if necessary, to remain visible against a theme's given background color. |
+|4  <br/> |Alter a shape's line color, if necessary, to remain visible against a theme's given background color. |
+|8  <br/> |Alter a shape's fill color, if necessary, to remain visible against a theme's given background color. |
    
 ## Remarks
 

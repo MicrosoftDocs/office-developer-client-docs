@@ -44,10 +44,10 @@ MAPI and COM provide several API functions for defining or accessing storage and
 
 |**Function**|**Description**|
 |:-----|:-----|
-|[HrIStorageFromStream](hristoragefromstream.md) <br/> |Creates a storage object to access a stream or lock bytes object.  <br/> |
-|[OpenIMsgOnIStg](openimsgonistg.md) <br/> |Creates a message object to access a storage object.  <br/> |
-|[OpenStreamOnFile](openstreamonfile.md) <br/> |Creates a stream object to access a file.  <br/> |
-|[WrapCompressedRTFStream](wrapcompressedrtfstream.md) <br/> |Creates a stream object that contains the compressed or uncompressed version of a stream holding the rich text of a message.  <br/> |
+|[HrIStorageFromStream](hristoragefromstream.md) <br/> |Creates a storage object to access a stream or lock bytes object. |
+|[OpenIMsgOnIStg](openimsgonistg.md) <br/> |Creates a message object to access a storage object. |
+|[OpenStreamOnFile](openstreamonfile.md) <br/> |Creates a stream object to access a file. |
+|[WrapCompressedRTFStream](wrapcompressedrtfstream.md) <br/> |Creates a stream object that contains the compressed or uncompressed version of a stream holding the rich text of a message. |
    
  **To retrieve the names of the streams in a given substorage**
   

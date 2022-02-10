@@ -65,7 +65,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI uses the **IProfAdmin::DeleteProfile** method to delete the selected profile.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrRemoveProfile  <br/> |MFCMAPI uses the **IProfAdmin::DeleteProfile** method to delete the selected profile. |
    
 ## See also
 

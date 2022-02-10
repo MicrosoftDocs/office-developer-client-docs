@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Represents one set of diagram-validation rules.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Represents one set of diagram-validation rules. |
    
 ### Child elements
 
@@ -50,6 +50,6 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies whether the rule set appears in the Rules to Check list.  <br/> |Values of the xsd:boolean type.  <br/> |
+|Hidden  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies whether the rule set appears in the Rules to Check list. |Values of the xsd:boolean type. |
    
 

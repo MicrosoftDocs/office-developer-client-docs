@@ -54,7 +54,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI uses the **IMAPITable::Unadvise** method to cancel notifications for the table.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |MFCMAPI uses the **IMAPITable::Unadvise** method to cancel notifications for the table. |
    
 ## See also
 

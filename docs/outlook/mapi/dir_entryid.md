@@ -57,9 +57,9 @@ typedef struct _dir_entryid
     
 |**Name**|**Description**|
 |:-----|:-----|
-|CONTAB_ROOT  <br/> |The root folder for a MAPI address book.  <br/> |
-|CONTAB_SUBROOT  <br/> |A subfolder contained within the root folder of the MAPI address book object.  <br/> |
-|CONTAB_CONTAINER  <br/> |An address book container object.  <br/> |
+|CONTAB_ROOT  <br/> |The root folder for a MAPI address book. |
+|CONTAB_SUBROOT  <br/> |A subfolder contained within the root folder of the MAPI address book object. |
+|CONTAB_CONTAINER  <br/> |An address book container object. |
    
  **muidID**
   

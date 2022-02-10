@@ -111,7 +111,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI uses the **IMsgServiceAdmin::CreateMsgService** method to add a service to a profile.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |HrAddServiceToProfile  <br/> |MFCMAPI uses the **IMsgServiceAdmin::CreateMsgService** method to add a service to a profile. |
    
 ## See also
 

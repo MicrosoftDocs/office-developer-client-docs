@@ -110,7 +110,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CBaseDialog::OnOpenEntryID  <br/> |MFCMAPI uses the **Details** method to display a dialog box that shows the details for an address book entry.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnOpenEntryID  <br/> |MFCMAPI uses the **Details** method to display a dialog box that shows the details for an address book entry. |
    
 ## See also
 

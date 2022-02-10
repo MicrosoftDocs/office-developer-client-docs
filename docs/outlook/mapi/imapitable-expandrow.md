@@ -95,7 +95,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI uses the **IMAPITable::ExpandRow** method to expand a collapsed table category.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI uses the **IMAPITable::ExpandRow** method to expand a collapsed table category. |
    
 ## See also
 

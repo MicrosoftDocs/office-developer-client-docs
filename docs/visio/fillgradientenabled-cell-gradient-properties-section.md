@@ -18,8 +18,8 @@ Determines whether a fill gradient is enabled for this shape.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Gradient fill is displayed on the shape.  <br/> |
-|FALSE  <br/> |Gradient fills are not displayed on the shape.  <br/> |
+|TRUE  <br/> |Gradient fill is displayed on the shape. |
+|FALSE  <br/> |Gradient fills are not displayed on the shape. |
    
 ## Remarks
 

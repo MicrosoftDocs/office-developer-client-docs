@@ -20,9 +20,9 @@ Determines whether this placeable shape moves away when you drop another placeab
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-|0  <br/> |Plow as page specifies.  <br/> |**visSLOPlowDefault** <br/> |
-|1  <br/> |Plow no shapes.  <br/> |**visSLOPlowNever** <br/> |
-|2  <br/> |Plow every shape.  <br/> |**visSLOPlowAlways** <br/> |
+|0  <br/> |Plow as page specifies. |**visSLOPlowDefault** <br/> |
+|1  <br/> |Plow no shapes. |**visSLOPlowNever** <br/> |
+|2  <br/> |Plow every shape. |**visSLOPlowAlways** <br/> |
    
 ## Remarks
 

@@ -23,13 +23,13 @@ Specifies the formatting of a shape data item that is a string, a fixed list, a 
 
 |**Shape data item type**|**Value**|**Format cell contents**|
 |:-----|:-----|:-----|
-| String  <br/> | 0  <br/> | A format picture appropriate for the data type.  <br/> |
-| Fixed list  <br/> | 1  <br/> | The items to appear in the list, separated by semicolons.  <br/> |
-| Number  <br/> | 2  <br/> | A format picture appropriate for the data type.  <br/> |
-| Variable list  <br/> | 4  <br/> | The items to appear in the list, separated by semicolons.  <br/> |
-| Date or time  <br/> | 5  <br/> | A format picture appropriate for the data type.  <br/> |
-| Duration  <br/> | 6  <br/> | A format picture appropriate for the data type.  <br/> |
-| Currency  <br/> | 7  <br/> | A format picture appropriate for the data type.  <br/> |
+| String  <br/> | 0  <br/> | A format picture appropriate for the data type. |
+| Fixed list  <br/> | 1  <br/> | The items to appear in the list, separated by semicolons. |
+| Number  <br/> | 2  <br/> | A format picture appropriate for the data type. |
+| Variable list  <br/> | 4  <br/> | The items to appear in the list, separated by semicolons. |
+| Date or time  <br/> | 5  <br/> | A format picture appropriate for the data type. |
+| Duration  <br/> | 6  <br/> | A format picture appropriate for the data type. |
+| Currency  <br/> | 7  <br/> | A format picture appropriate for the data type. |
    
 As an example of specifying a format picture appropriate for the data type, the format picture "# #/4 UU" formats the number 12.43 in. as 12 2/4 INCHES. For more information about specifying a format picture, see [About format pictures](about-format-pictures.md).
   
@@ -50,7 +50,7 @@ To get a reference to the Format cell by index from a program, use the **CellsSR
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionProp** <br/> |
-| Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCustPropsFormat** <br/> |
    
 

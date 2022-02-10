@@ -26,8 +26,8 @@ CEILING(** *number* **, ** *multiple* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round.  <br/> |
-| _multiple_ <br/> |Required  <br/> |**Number** <br/> |The multiple to round to.  <br/> |
+| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round. |
+| _multiple_ <br/> |Required  <br/> |**Number** <br/> |The multiple to round to. |
    
 ## Remarks
 

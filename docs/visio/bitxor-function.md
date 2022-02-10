@@ -26,8 +26,8 @@ BITXOR(** *binary number1* **, ** *binary number2* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _binary number1_ <br/> |Required  <br/> |**Numeric** <br/> |The first 16-bit binary number.  <br/> |
-| _binary number2_ <br/> |Required  <br/> |**Numeric** <br/> |The second 16-bit binary number.  <br/> |
+| _binary number1_ <br/> |Required  <br/> |**Numeric** <br/> |The first 16-bit binary number. |
+| _binary number2_ <br/> |Required  <br/> |**Numeric** <br/> |The second 16-bit binary number. |
    
 ### Return value
 

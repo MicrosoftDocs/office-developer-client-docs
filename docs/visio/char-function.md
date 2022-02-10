@@ -26,7 +26,7 @@ CHAR(** *number* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number whose ANSI character you want to get.  <br/> |
+| _number_ <br/> |Required  <br/> |**Number** <br/> |The number whose ANSI character you want to get. |
    
 ## Remarks
 

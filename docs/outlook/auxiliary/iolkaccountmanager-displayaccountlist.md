@@ -65,12 +65,12 @@ _pclsidType_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call was successful.  <br/> |
-|E_ACCT_UI_BUSY  <br/> |The dialog box could not be created.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
-|MAPI_E_CALL_FAILED  <br/> |The **Add New Account** dialog box returned an error.  <br/> |
-|MAPI_E_INVALID_PARAMETER  <br/> |The  _cCategories_,  _rgclsidCategories_, or  _pclsidType_ parameter is non-NULL.  <br/> |
-|MAPI_E_USER_CANCEL  <br/> |The **Account Settings** dialog box returned an error.  <br/> |
+|S_OK  <br/> |The call was successful. |
+|E_ACCT_UI_BUSY  <br/> |The dialog box could not be created. |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use. |
+|MAPI_E_CALL_FAILED  <br/> |The **Add New Account** dialog box returned an error. |
+|MAPI_E_INVALID_PARAMETER  <br/> |The  _cCategories_,  _rgclsidCategories_, or  _pclsidType_ parameter is non-NULL. |
+|MAPI_E_USER_CANCEL  <br/> |The **Account Settings** dialog box returned an error. |
    
 ## Remarks
 

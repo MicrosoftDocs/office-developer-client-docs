@@ -1,7 +1,7 @@
 ---
 title: "Calling into Excel from the DLL or XLL"
 manager: lindalu
-ms.date: 01/22/2022
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -23,7 +23,7 @@ Excel enables your DLL to access the commands and functions through the callback
   
 The **Excel4** and **Excel4v** functions were introduced in Excel version 4. They work with the **XLOPER** data structure. Excel 2007 introduced two new callback functions, **Excel12** and **Excel12v**, which work with the **XLOPER12** data structure. The **Excel4** and **Excel4v** functions are exported by the library Xlcall32.lib, which must be included in your DLL or XLL project. **Excel12** and **Excel12v** are included in the SDK C++ source file Xlcall.cpp, which must be included in your project if you want to access Excel functionality by using **XLOPER12** structures.
   
-The following code shows the function prototypes for these four functions. The first three arguments are the same except that the second argument is a pointer to an **XLOPER** in the first pair and a pointer to an **XLOPER12** in the second pair. The calling convention is **_cdecl** in **Excel4** and **Excel12** to permit the variable argument lists. The ellipsis represents pointers to **XLOPER** values for **Excel4** and **XLOPER12** values for **Excel12**. The number of pointers equals the value of the  _count_ parameter.
+The following code shows the function prototypes for these four functions. The first three arguments are the same except that the second argument is a pointer to an **XLOPER** in the first pair and a pointer to an **XLOPER12** in the second pair. The calling convention is **_cdecl** in **Excel4** and **Excel12** to permit the variable argument lists. The ellipsis represents pointers to **XLOPER** values for **Excel4** and **XLOPER12** values for **Excel12**. The number of pointers equals the value of the _count_ parameter.
   
 **All versions of Excel**
   
@@ -55,25 +55,25 @@ All four of these functions return an integer value that informs the caller whet
   
 |**Return value**|**Defined in Xlcall.h as**|**Description**|
 |:-----|:-----|:-----|
-|0  <br/> |**xlretSuccess** <br/> |The function or command executed successfully. This does not mean that the execution was error free. For example, **Excel4** could return **xlretSuccess** when calling the function **FIND**, even though it evaluated to **#VALUE!** because the search text could not be found. You should inspect the type and value of the returned **XLOPER/XLOPER12** where this is a possibility.  <br/> |
-|1  <br/> |**xlretAbort** <br/> |A command macro was stopped by the user clicking the **CANCEL** button or pressing the ESC key.  <br/> |
-|2  <br/> |**xlretInvXlfn** <br/> |The supplied function or command code is not valid. This error can occur when the calling function does not have permission to call the function or command. For example, a worksheet function cannot call a macro sheet information function or a command function.  <br/> |
-|4  <br/> |**xlretInvCount** <br/> |The number of arguments supplied in the call is not correct.  <br/> |
-|8  <br/> |**xlretInvXloper** <br/> |One or more of the argument **XLOPER** or **XLOPER12** values are not properly formed or populated.  <br/> |
-|16  <br/> |**xlretStackOvfl** <br/> |Excel detected a risk that the operation might overflow its stack and, therefore, did not call the function.  <br/> |
-|32  <br/> |**xlretFailed** <br/> |The command or function failed for a reason not described by one of the other return values. An operation that would require too much memory, for example, would fail with this error. This could happen during an attempt to convert a very large reference to an **xltypeMulti** array by using the [xlCoerce](xlcoerce.md) function.  <br/> |
-|64  <br/> |**xlretUncalced** <br/> |The operation attempted to retrieve the value of an uncalculated cell. To preserve recalculation integrity in Excel, worksheet functions are not permitted to do this. However, XLL commands and functions registered as macro sheet functions are permitted to access uncalculated cell values.  <br/> |
-|128  <br/> |**xlretNotThreadSafe** <br/> |(Starting in Excel 2007) An XLL worksheet function registered as thread safe attempted to call a C API function that is not thread safe. For example, a thread-safe function cannot call the XLM function **xlfGetCell**.  <br/> |
-|256  <br/> |**xlRetInvAsynchronousContext** <br/> |(Starting in Excel 2010) The asynchronous function handle is invalid.  <br/> |
-|512  <br/> |**xlretNotClusterSafe** <br/> |(Starting in Excel 2010) The call is not supported on clusters.  <br/> |
-   
+|0  |**xlretSuccess** |The function or command executed successfully. This does not mean that the execution was error free. For example, **Excel4** could return **xlretSuccess** when calling the function **FIND**, even though it evaluated to **#VALUE!** because the search text could not be found. You should inspect the type and value of the returned **XLOPER/XLOPER12** where this is a possibility.  |
+|1  |**xlretAbort** |A command macro was stopped by the user clicking the **CANCEL** button or pressing the ESC key.  |
+|2  |**xlretInvXlfn** |The supplied function or command code is not valid. This error can occur when the calling function does not have permission to call the function or command. For example, a worksheet function cannot call a macro sheet information function or a command function.  |
+|4  |**xlretInvCount** |The number of arguments supplied in the call is not correct.  |
+|8  |**xlretInvXloper** |One or more of the argument **XLOPER** or **XLOPER12** values are not properly formed or populated.  |
+|16  |**xlretStackOvfl** |Excel detected a risk that the operation might overflow its stack and, therefore, did not call the function.  |
+|32  |**xlretFailed** |The command or function failed for a reason not described by one of the other return values. An operation that would require too much memory, for example, would fail with this error. This could happen during an attempt to convert a very large reference to an **xltypeMulti** array by using the [xlCoerce](xlcoerce.md) function.  |
+|64  |**xlretUncalced** |The operation attempted to retrieve the value of an uncalculated cell. To preserve recalculation integrity in Excel, worksheet functions are not permitted to do this. However, XLL commands and functions registered as macro sheet functions are permitted to access uncalculated cell values.  |
+|128  |**xlretNotThreadSafe** |(Starting in Excel 2007) An XLL worksheet function registered as thread safe attempted to call a C API function that is not thread safe. For example, a thread-safe function cannot call the XLM function **xlfGetCell**.  |
+|256  |**xlRetInvAsynchronousContext** |(Starting in Excel 2010) The asynchronous function handle is invalid.  |
+|512  |**xlretNotClusterSafe** |(Starting in Excel 2010) The call is not supported on clusters.  |
+
 If the function returns one of the failure values in the table (that is, it does not return **xlretSuccess**), the **XLOPER** or **XLOPER12** return value will also be set to **#VALUE!**. In certain circumstances, checking for this might be a sufficient test of success, but you should note that a call can return both **xlretSuccess** and **#VALUE!**.
   
 If a call to the C API results in either **xlretUncalced** or **xlretAbort**, your DLL or XLL code should return control to Excel before making any other C API calls (other than calls to the [xlfree](xlfree.md) function to release Excel-allocated memory resources in **XLOPER** and **XLOPER12** values).
   
 ### Command or Function Enumeration Argument: xlfn
 
-The  _xlfn_ argument is the first argument to the callback functions and is a 32-bit signed integer. Its value should be one of the function or command enumerations defined in the SDK header file Xlcall.h, as shown in the following example. 
+The _xlfn_ argument is the first argument to the callback functions and is a 32-bit signed integer. Its value should be one of the function or command enumerations defined in the SDK header file Xlcall.h, as shown in the following example. 
   
 ```cs
 // Excel function numbers. 
@@ -159,38 +159,38 @@ Excel supports a small number of functions that are only accessible from a DLL o
   
 ||||
 |:-----|:-----|:-----|
-|[xlFree](xlfree.md) <br/> |0 | xlSpecial  <br/> |Frees Excel-allocated memory resources.  <br/> |
-|[xlStack](xlstack.md) <br/> |1 | xlSpecial  <br/> |Returns the free space on the Excel stack.  <br/> |
-|[xlCoerce](xlcoerce.md) <br/> |2 | xlSpecial  <br/> |Converts between **XLOPER** and **XLOPER12** types  <br/> |
-|[xlSet](xlset.md) <br/> |3 | xlSpecial  <br/> |Provides a fast method of setting cell values.  <br/> |
-|[xlSheetId](xlsheetid.md) <br/> |4 | xlSpecial  <br/> |Obtains a worksheet name from its internal ID.  <br/> |
-|[xlSheetNm](xlsheetnm.md) <br/> |5 | xlSpecial  <br/> |Obtains a worksheet internal ID from its name.  <br/> |
-|[xlAbort](xlabort.md) <br/> |6 | xlSpecial  <br/> |Verifies whether the user clicked the **CANCEL** button or pressed the ESC key.  <br/> |
-|[xlGetInst](xlgetinst.md) <br/> |7 | xlSpecial  <br/> |Gets the Excel instance handle.  <br/> |
-|[xlGetHwnd](xlgethwnd.md) <br/> |8 | xlSpecial  <br/> |Gets the Excel main window handle.  <br/> |
-|[xlGetName](xlgetname.md) <br/> |9 | xlSpecial  <br/> |Gets the path and file name of the DLL.  <br/> |
-|[xlEnableXLMsgs](xlenablexlmsgs.md) <br/> |10 | xlSpecial  <br/> |This function is deprecated and no longer needs to be called.  <br/> |
-|[xlDisableXLMsgs](xldisablexlmsgs.md) <br/> |11 | xlSpecial  <br/> |This function is deprecated and no longer needs to be called.  <br/> |
-|[xlDefineBinaryName](xldefinebinaryname.md) <br/> |12 | xlSpecial  <br/> |Defines a persistent binary storage name.  <br/> |
-|[xlGetBinaryName](xlgetbinaryname.md) <br/> |13 | xlSpecial  <br/> |Gets a persistent binary storage name's data.  <br/> |
+|[xlFree](xlfree.md) |0 | xlSpecial  |Frees Excel-allocated memory resources.  |
+|[xlStack](xlstack.md) |1 | xlSpecial  |Returns the free space on the Excel stack.  |
+|[xlCoerce](xlcoerce.md) |2 | xlSpecial  |Converts between **XLOPER** and **XLOPER12** types  |
+|[xlSet](xlset.md) |3 | xlSpecial  |Provides a fast method of setting cell values.  |
+|[xlSheetId](xlsheetid.md) |4 | xlSpecial  |Obtains a worksheet name from its internal ID.  |
+|[xlSheetNm](xlsheetnm.md) |5 | xlSpecial  |Obtains a worksheet internal ID from its name.  |
+|[xlAbort](xlabort.md) |6 | xlSpecial  |Verifies whether the user clicked the **CANCEL** button or pressed the ESC key.  |
+|[xlGetInst](xlgetinst.md) |7 | xlSpecial  |Gets the Excel instance handle.  |
+|[xlGetHwnd](xlgethwnd.md) |8 | xlSpecial  |Gets the Excel main window handle.  |
+|[xlGetName](xlgetname.md) |9 | xlSpecial  |Gets the path and file name of the DLL.  |
+|[xlEnableXLMsgs](xlenablexlmsgs.md) |10 | xlSpecial  |This function is deprecated and no longer needs to be called.  |
+|[xlDisableXLMsgs](xldisablexlmsgs.md) |11 | xlSpecial  |This function is deprecated and no longer needs to be called.  |
+|[xlDefineBinaryName](xldefinebinaryname.md) |12 | xlSpecial  |Defines a persistent binary storage name.  |
+|[xlGetBinaryName](xlgetbinaryname.md) |13 | xlSpecial  |Gets a persistent binary storage name's data.  |
 
 ## Return value XLOPER/XLOPER12: operRes
 
-The  _operRes_ argument is the second argument to the callbacks and is a pointer to an **XLOPER** (**Excel4** and **Excel4v**) or **XLOPER12** (**Excel12** and **Excel12v**). After a successful call, it contains the return value of the function or command. **operRes** can be set to zero (NULL pointer) if no return value is required. The previous contents of **operRes** are overwritten so that any memory previously pointed to must be freed before to the call to avoid memory leaks.
+The _operRes_ argument is the second argument to the callbacks and is a pointer to an **XLOPER** (**Excel4** and **Excel4v**) or **XLOPER12** (**Excel12** and **Excel12v**). After a successful call, it contains the return value of the function or command. **operRes** can be set to zero (NULL pointer) if no return value is required. The previous contents of **operRes** are overwritten so that any memory previously pointed to must be freed before to the call to avoid memory leaks.
   
 If the function or command cannot be called (for example, if the arguments are incorrect), **operRes** is set to the error **#VALUE!**. A command always returns **Boolean** **TRUE** if it is successful, or **FALSE** if it failed or the user canceled it.
   
 ## Number of Subsequent Arguments: count
 
-The  _count_ argument is the third argument to the callbacks and is a 32-bit signed integer. It should be set to the number of subsequent arguments, counting from 1. If a function or command takes no arguments, it should be set to zero. In Microsoft Office Excel 2003, the maximum number of arguments that any function can take is 30, although most take fewer than this. Starting in Excel 2007, the maximum number of arguments that any function can take was increased to 255.
+The _count_ argument is the third argument to the callbacks and is a 32-bit signed integer. It should be set to the number of subsequent arguments, counting from 1. If a function or command takes no arguments, it should be set to zero. In Microsoft Office Excel 2003, the maximum number of arguments that any function can take is 30, although most take fewer than this. Starting in Excel 2007, the maximum number of arguments that any function can take was increased to 255.
   
-With **Excel4** and **Excel12**,  _count_ is the number of pointers to **XLOPER** or **XLOPER12** values that are being passed. You should be very careful not to pass fewer arguments than the value that  _count_ is set to. This would result in Excel reading ahead into the stack and trying to process invalid **XLOPER** or **XLOPER12** values, which could cause an application crash.
+With **Excel4** and **Excel12**, _count_ is the number of pointers to **XLOPER** or **XLOPER12** values that are being passed. You should be very careful not to pass fewer arguments than the value that _count_ is set to. This would result in Excel reading ahead into the stack and trying to process invalid **XLOPER** or **XLOPER12** values, which could cause an application crash.
   
-With **Excel4v** and **Excel12v**,  _count_ is the size of the array of pointers to **XLOPER** or **XLOPER12** values that is being passed as the next and final argument. Again, you should be very careful not to pass a smaller array than  _count_ elements in size, as this will result in the bounds of the array being overrun.
+With **Excel4v** and **Excel12v**, _count_ is the size of the array of pointers to **XLOPER** or **XLOPER12** values that is being passed as the next and final argument. Again, you should be very careful not to pass a smaller array than _count_ elements in size, as this will result in the bounds of the array being overrun.
   
 ## Passing Arguments to C API Functions
 
-Both **Excel4** and **Excel12** take variable length argument lists, after  _count_, which are interpreted as pointers to **XLOPER** and **XLOPER12** values, respectively. **Excel4v** and **Excel12v** take a single argument, after  _count_, which is a pointer to an array of pointers to **XLOPER** values in the case of **Excel4v**, and to **XLOPER12** values in the case of **Excel12v**.
+Both **Excel4** and **Excel12** take variable length argument lists, after _count_, which are interpreted as pointers to **XLOPER** and **XLOPER12** values, respectively. **Excel4v** and **Excel12v** take a single argument, after _count_, which is a pointer to an array of pointers to **XLOPER** values in the case of **Excel4v**, and to **XLOPER12** values in the case of **Excel12v**.
   
 The array forms, **Excel4v** and **Excel12v**, enable you to code a call to the C API cleanly when the number of arguments is variable. The following example shows a function that takes a variable-sized array of numbers and uses Excel worksheet functions, via the C API, to calculate the sum, average, minimum, and maximum.
   

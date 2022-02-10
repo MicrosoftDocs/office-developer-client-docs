@@ -75,7 +75,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI uses the **IMAPIProp::DeleteProps** method to delete a property from an object.  <br/> |
+|MAPIFunctions.cpp  <br/> |DeleteProperty  <br/> |MFCMAPI uses the **IMAPIProp::DeleteProps** method to delete a property from an object. |
    
 ## See also
 

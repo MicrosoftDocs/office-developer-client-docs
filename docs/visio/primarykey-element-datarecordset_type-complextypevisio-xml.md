@@ -40,18 +40,18 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Specifies the value of this component of the primary key for an individual row of a recordset. There MUST be at least one occurrence of this child element.  <br/> |
+|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |Specifies the value of this component of the primary key for an individual row of a recordset. There MUST be at least one occurrence of this child element. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnNameID  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the name of a field that is a component of the primary key. It MUST be the value of the **ColumnNameID** attribute of a DataColumn_Type descendant element of the DataRecordSet_Type whose primary key is being specified.  <br/> |Values of the xsd:string type.  <br/> |
+|ColumnNameID  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the name of a field that is a component of the primary key. It MUST be the value of the **ColumnNameID** attribute of a DataColumn_Type descendant element of the DataRecordSet_Type whose primary key is being specified. |Values of the xsd:string type. |
    
 

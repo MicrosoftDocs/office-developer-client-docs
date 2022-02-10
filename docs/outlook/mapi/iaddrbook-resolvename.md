@@ -119,8 +119,8 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI uses the **ResolveName** method to resolve a one-off address before adding it to a message.  <br/> |
-|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI uses the **ResolveName** method to look up an address book entry by display name.  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddOneOffAddress  <br/> |MFCMAPI uses the **ResolveName** method to resolve a one-off address before adding it to a message. |
+|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI uses the **ResolveName** method to look up an address book entry by display name. |
    
 ## See also
 

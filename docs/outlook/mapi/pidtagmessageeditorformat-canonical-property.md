@@ -37,10 +37,10 @@ The possible values for **PR_MSG_EDITOR_FORMAT** can be one of the following:
   
 |**Value**|**Description**|
 |:-----|:-----|
-|**EDITOR_FORMAT_DONTKNOW** <br/> |The format for the editor to use is unknown.  <br/> |
-|**EDITOR_FORMAT_PLAINTEXT** <br/> |The editor should display the message in plain text format.  <br/> |
-|**EDITOR_FORMAT_HTML** <br/> |The editor should display the message in HTML format.  <br/> |
-|**EDITOR_FORMAT_RTF** <br/> |The editor should display the message in Rich Text Format.  <br/> |
+|**EDITOR_FORMAT_DONTKNOW** <br/> |The format for the editor to use is unknown. |
+|**EDITOR_FORMAT_PLAINTEXT** <br/> |The editor should display the message in plain text format. |
+|**EDITOR_FORMAT_HTML** <br/> |The editor should display the message in HTML format. |
+|**EDITOR_FORMAT_RTF** <br/> |The editor should display the message in Rich Text Format. |
    
 By default, mail messages (with the message class **IPM.Note** or with a custom message class derived from **IPM.Note**) sent from a POP3/SMTP mail account are sent in the Transport Neutral Encapsulation Format (TNEF). The **PR_MSG_EDITOR_FORMAT** property can be used to enforce only plain text, and not TNEF, when sending a message. If **PR_MSG_EDITOR_FORMAT** is set to **EDITOR_FORMAT_PLAINTEXT**, the message is sent as plain text without TNEF. If **PR_MSG_EDITOR_FORMAT** is set to **EDITOR_FORMAT_RTF**, TNEF encoding is implicitly enabled, and the message is sent by using the default Internet format that is specified in the Outlook client.
   

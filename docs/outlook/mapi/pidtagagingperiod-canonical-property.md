@@ -43,9 +43,9 @@ The possible values for **PR_AGING_GRANULARITY** can be one of the following.
 
 |**Name**|**Description**|
 |:-----|:-----|
-|**AG_MONTHS** <br/> |**PR_AGING_PERIOD** is defined in number of months.  <br/> |
-|**AG_WEEKS** <br/> |**PR_AGING_PERIOD** is defined in number of weeks.  <br/> |
-|**AG_DAYS** <br/> |**PR_AGING_PERIOD** is defined in number of days.  <br/> |
+|**AG_MONTHS** <br/> |**PR_AGING_PERIOD** is defined in number of months. |
+|**AG_WEEKS** <br/> |**PR_AGING_PERIOD** is defined in number of weeks. |
+|**AG_DAYS** <br/> |**PR_AGING_PERIOD** is defined in number of days. |
    
 For example, if a folder archives an item only after the item has been in the folder for two weeks, then **PR_AGING_GRANULARITY** is **AG_WEEKS** and **PR_AGING_PERIOD** is 2. 
   

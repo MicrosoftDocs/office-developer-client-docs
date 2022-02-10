@@ -20,8 +20,8 @@ Determines whether an endpoint of a 1-D shape moves to a horizontal or vertical 
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-| 1  <br/> | The begin point of the 1-D shape moves to a vertical connection point, and the endpoint moves to a horizontal connection point (top-to-side or bottom-to-side connections).  <br/> |**visWalkPrefBegNS** <br/> |
-| 2  <br/> | The begin point of the 1-D shape moves to a horizontal connection point, and the endpoint moves to a vertical connection point (side-to-top or side-to-bottom connections).  <br/> |**visWalkPrefEndNS** <br/> |
+| 1  <br/> | The begin point of the 1-D shape moves to a vertical connection point, and the endpoint moves to a horizontal connection point (top-to-side or bottom-to-side connections). |**visWalkPrefBegNS** <br/> |
+| 2  <br/> | The begin point of the 1-D shape moves to a horizontal connection point, and the endpoint moves to a vertical connection point (side-to-top or side-to-bottom connections). |**visWalkPrefEndNS** <br/> |
    
 ## Remarks
 

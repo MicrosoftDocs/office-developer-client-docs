@@ -38,11 +38,11 @@ This property specifies the recurrence type of the recurring series by using one
   
 |**Status**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|rectypeNone  <br/> |0  <br/> |A single instance appointment.  <br/> |
-|rectypeDaily  <br/> |1  <br/> |A daily recurrence pattern.  <br/> |
-|rectypeWeekly  <br/> |2  <br/> |A weekly recurrence pattern.  <br/> |
-|rectypeMonthly  <br/> |3  <br/> |A monthly recurrence pattern.  <br/> |
-|rectypeYearly  <br/> |4  <br/> |A yearly recurrence pattern.  <br/> |
+|rectypeNone  <br/> |0  <br/> |A single instance appointment. |
+|rectypeDaily  <br/> |1  <br/> |A daily recurrence pattern. |
+|rectypeWeekly  <br/> |2  <br/> |A weekly recurrence pattern. |
+|rectypeMonthly  <br/> |3  <br/> |A monthly recurrence pattern. |
+|rectypeYearly  <br/> |4  <br/> |A yearly recurrence pattern. |
    
 ## Related resources
 

@@ -26,28 +26,28 @@ Manages access to accounts and sets up notifications about account changes.
 
 |||
 |:-----|:-----|
-|[Init](iolkaccountmanager-init.md) <br/> |Initializes the account manager for use.  <br/> |
-|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Displays either the **Account Settings** or **Add New Account** dialog box.  <br/> |
+|[Init](iolkaccountmanager-init.md) <br/> |Initializes the account manager for use. |
+|[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Displays either the **Account Settings** or **Add New Account** dialog box. |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
-|[FindAccount](iolkaccountmanager-findaccount.md) <br/> |Finds an account by property value.  <br/> |
+|[FindAccount](iolkaccountmanager-findaccount.md) <br/> |Finds an account by property value. |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
-|[DeleteAccount](iolkaccountmanager-deleteaccount.md) <br/> |Deletes the specified account.  <br/> |
+|[DeleteAccount](iolkaccountmanager-deleteaccount.md) <br/> |Deletes the specified account. |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
-|[SaveChanges](iolkaccountmanager-savechanges.md) <br/> |Saves changes to the specified account.  <br/> |
-|[GetOrder](iolkaccountmanager-getorder.md) <br/> |Gets the ordering of the specified category of accounts.  <br/> |
-|[SetOrder](iolkaccountmanager-setorder.md) <br/> |Modifies the ordering of the specified category of accounts.  <br/> |
-|[EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |Gets an enumerator for the accounts of the specific category and type.  <br/> |
+|[SaveChanges](iolkaccountmanager-savechanges.md) <br/> |Saves changes to the specified account. |
+|[GetOrder](iolkaccountmanager-getorder.md) <br/> |Gets the ordering of the specified category of accounts. |
+|[SetOrder](iolkaccountmanager-setorder.md) <br/> |Modifies the ordering of the specified category of accounts. |
+|[EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |Gets an enumerator for the accounts of the specific category and type. |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
-|[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Frees memory allocated by the **IOlkAccountManager** interface.  <br/> |
-|[Advise](iolkaccountmanager-advise.md) <br/> |Registers a client with the account manager for notifications regarding all accounts.  <br/> |
-|[Unadvise](iolkaccountmanager-unadvise.md) <br/> |Unregisters a client with the account manager for notifications for all accounts.  <br/> |
+|[FreeMemory](iolkaccountmanager-freememory.md) <br/> |Frees memory allocated by the **IOlkAccountManager** interface. |
+|[Advise](iolkaccountmanager-advise.md) <br/> |Registers a client with the account manager for notifications regarding all accounts. |
+|[Unadvise](iolkaccountmanager-unadvise.md) <br/> |Unregisters a client with the account manager for notifications for all accounts. |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented*  <br/> |

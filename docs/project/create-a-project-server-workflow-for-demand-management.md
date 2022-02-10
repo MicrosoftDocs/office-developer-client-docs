@@ -120,10 +120,10 @@ In Project Web App, review the available workflow phases and stages, and the ent
 
     |Name|Description|Description for Submit|Phase|Visible PDPs|Custom Fields|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |Initial Proposal Details  <br/> |Set the project name and cost.  <br/> |Submit the project as a proposal.  <br/> |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (required)  <br/> |
-    |Project Details  <br/> |Provide details of the proposed project.  <br/> |Submit details to continue with the project.  <br/> |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |
-    |Automated Rejection  <br/> |The proposal is rejected, based on the information that is provided.  <br/> | <br/> |Create  <br/> |Project Information  <br/> |Proposal Cost (read-only)  <br/> |
-    |Execution  <br/> |The proposal is accepted, and ready for project management.  <br/> | <br/> |Manage  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |
+    |Initial Proposal Details  <br/> |Set the project name and cost. |Submit the project as a proposal. |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (required)  <br/> |
+    |Project Details  <br/> |Provide details of the proposed project. |Submit details to continue with the project. |Create  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |
+    |Automated Rejection  <br/> |The proposal is rejected, based on the information that is provided. | <br/> |Create  <br/> |Project Information  <br/> |Proposal Cost (read-only)  <br/> |
+    |Execution  <br/> |The proposal is accepted, and ready for project management. | <br/> |Manage  <br/> |Project Information  <br/> Project Details  <br/> |Proposal Cost (read-only)  <br/> |
    
     **Figure 4. List of the workflow stages in Project Web App**
 

@@ -25,6 +25,6 @@ The **GoToRecord** action has the following arguments.
   
 |**Action argument**|**Description**|
 |:-----|:-----|
-|**Record** <br/> |The record to make the current record. Select **Previous**, **Next**, **First**, or **Last**. The default is **Next**.  <br/> |
+|**Record** <br/> |The record to make the current record. Select **Previous**, **Next**, **First**, or **Last**. The default is **Next**. |
    
 

@@ -72,7 +72,7 @@ Data elements in this structure are stored in little-endian byte order, immediat
     
 |****Flag name****|****Value****|****Description****|
 |:-----|:-----|:-----|
-|WEBVIEW_FLAGS_SHOWBYDEFAULT  <br/> |0x00000001  <br/> |The **Show home page by default for this folder** check box was checked in the **Home Page** tab of the Properties dialog box for a folder.  <br/> |
+|WEBVIEW_FLAGS_SHOWBYDEFAULT  <br/> |0x00000001  <br/> |The **Show home page by default for this folder** check box was checked in the **Home Page** tab of the Properties dialog box for a folder. |
    
  _dwUnused[7]_
   

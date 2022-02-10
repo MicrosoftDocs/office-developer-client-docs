@@ -128,18 +128,18 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Checksum  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Command  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|ConnectionID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|NextRowID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Options  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|RefreshInterval  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|RefreshNoReconciliationUI  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|RefreshOverwriteAll  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|ReplaceLinks  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|RowOrder  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|TimeRefreshed  <br/> |xsd:dateTime  <br/> |optional  <br/> ||Values of the xsd:dateTime type.  <br/> |
+|Checksum  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|Command  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|ConnectionID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|Name  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|NextRowID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|Options  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|RefreshInterval  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|RefreshNoReconciliationUI  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|RefreshOverwriteAll  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|ReplaceLinks  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|RowOrder  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|TimeRefreshed  <br/> |xsd:dateTime  <br/> |optional  <br/> ||Values of the xsd:dateTime type. |
    
 

@@ -54,7 +54,7 @@ None.
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[weather](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Specifies the location to report weather on.  <br/> |
+|[weather](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Specifies the location to report weather on. |
    
 ### Attributes
 

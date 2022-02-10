@@ -60,7 +60,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMax  <br/> |MFCMAPI uses the **IMAPIProgress::GetMax** method to get the maximum value for the progress object. Returns 1000 unless limits have previously been set with the **IMAPIProgress::SetLimits** method.  <br/> |
+|MAPIProgress.cpp  <br/> |CMAPIProgress::GetMax  <br/> |MFCMAPI uses the **IMAPIProgress::GetMax** method to get the maximum value for the progress object. Returns 1000 unless limits have previously been set with the **IMAPIProgress::SetLimits** method. |
    
 ## See also
 

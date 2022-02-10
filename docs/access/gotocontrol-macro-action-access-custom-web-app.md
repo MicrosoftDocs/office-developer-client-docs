@@ -25,7 +25,7 @@ The **GoToControl** action has the following argument.
   
 |**Action argument**|**Description**|
 |:-----|:-----|
-|**Control Name** <br/> |The name of the field or control where you want the focus. This is a required argument.  <br/> |
+|**Control Name** <br/> |The name of the field or control where you want the focus. This is a required argument. |
    
 ## Remarks
 

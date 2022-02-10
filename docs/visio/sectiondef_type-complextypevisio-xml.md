@@ -70,8 +70,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
-|S  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|T  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
+|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
+|S  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|T  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
    
 

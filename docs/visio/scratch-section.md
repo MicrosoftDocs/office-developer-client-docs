@@ -32,8 +32,8 @@ For example, Visio extracts the formula  `PNT(3,4)` in these three ways.
   
 |**Cell**|**If you enter**|**Visio treats it as**|**Result**|
 |:-----|:-----|:-----|:-----|
-| X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 3.0000 in.  <br/> |
-| Y  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4.0000 in.  <br/> |
+| X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 3.0000 in. |
+| Y  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4.0000 in. |
 | A-D  <br/> | `PNT(3,4)` <br/> | `PNT(3,4)` <br/> | PNT(3.0000 in., 4.0000 in.)  <br/> |
    
 

@@ -40,11 +40,11 @@ Not all of the MAPI interfaces that relate to forms are required by all form ser
   
 |**Interface**|**Description**|**Status**|
 |:-----|:-----|:-----|
-|[IMAPIForm : IUnknown](imapiformiunknown.md) <br/> |The primary interface that clients use to load form servers, execute form verbs, and shut down form servers. This is also the interface derived from the OLE **IUnknown** that is used to inform other OLE components regarding what interfaces a form object implements.  <br/> |Required  <br/> |
-|[IPersistMessage : IUnknown](ipersistmessageiunknown.md) <br/> |Used when loading messages into and saving messages from form objects.  <br/> |Required  <br/> |
-|[IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md) <br/> |Used by form objects to keep track of messaging client status and to find out whether the form object is capable of displaying the next or previous message in a folder.  <br/> |Optional  <br/> |
-|[IClassFactory](https://msdn.microsoft.com/library/f624f833-2b69-43bc-92cd-c4ecbe6051c5%28Office.15%29.aspx) <br/> |The OLE class factory interface used by form objects for compliance with the OLE class factory mechanism.  <br/> |Required  <br/> |
-|[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md) <br/> |Used if your form server supports more than one type of form. In this case, the **IMAPIFormFactory** interface allows client applications to access the multiple **IClassFactory** interfaces (one per type of form that your form server supports) that your form server must also implement.  <br/> |Optional  <br/> |
+|[IMAPIForm : IUnknown](imapiformiunknown.md) <br/> |The primary interface that clients use to load form servers, execute form verbs, and shut down form servers. This is also the interface derived from the OLE **IUnknown** that is used to inform other OLE components regarding what interfaces a form object implements. |Required  <br/> |
+|[IPersistMessage : IUnknown](ipersistmessageiunknown.md) <br/> |Used when loading messages into and saving messages from form objects. |Required  <br/> |
+|[IMAPIFormAdviseSink : IUnknown](imapiformadvisesinkiunknown.md) <br/> |Used by form objects to keep track of messaging client status and to find out whether the form object is capable of displaying the next or previous message in a folder. |Optional  <br/> |
+|[IClassFactory](https://msdn.microsoft.com/library/f624f833-2b69-43bc-92cd-c4ecbe6051c5%28Office.15%29.aspx) <br/> |The OLE class factory interface used by form objects for compliance with the OLE class factory mechanism. |Required  <br/> |
+|[IMAPIFormFactory : IUnknown](imapiformfactoryiunknown.md) <br/> |Used if your form server supports more than one type of form. In this case, the **IMAPIFormFactory** interface allows client applications to access the multiple **IClassFactory** interfaces (one per type of form that your form server supports) that your form server must also implement. |Optional  <br/> |
    
 ## See also
 

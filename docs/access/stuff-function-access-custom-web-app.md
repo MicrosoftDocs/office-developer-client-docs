@@ -24,10 +24,10 @@ The **Stuff** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *IntoTextExpression*  <br/> |A text expression that specifies the text into which the text specified by the *ThisTextExpression* will be inserted.  <br/> |
-| *Start*  <br/> |An integer value that specifies the location to start deletion and insertion. If start or length is negative, a null string is returned. If start is longer than the first *IntoTextExpression*, a null string is returned.  <br/> |
-| *Length*  <br/> |An integer that specifies the number of characters to delete. If length is longer than the first *IntoTextExpression*, deletion occurs up to the last character in the last *IntoTextExpression*.  <br/> |
-| *ThisTextExpression*  <br/> |A text expression hat specifies the text to insert into *IntoTextExpression*. This expression will replace length characters of *IntoTextExpression*  beginning at *Start*.  <br/> |
+| *IntoTextExpression*  <br/> |A text expression that specifies the text into which the text specified by the *ThisTextExpression* will be inserted. |
+| *Start*  <br/> |An integer value that specifies the location to start deletion and insertion. If start or length is negative, a null string is returned. If start is longer than the first *IntoTextExpression*, a null string is returned. |
+| *Length*  <br/> |An integer that specifies the number of characters to delete. If length is longer than the first *IntoTextExpression*, deletion occurs up to the last character in the last *IntoTextExpression*. |
+| *ThisTextExpression*  <br/> |A text expression hat specifies the text to insert into *IntoTextExpression*. This expression will replace length characters of *IntoTextExpression*  beginning at *Start*. |
 
 ## Remarks
 

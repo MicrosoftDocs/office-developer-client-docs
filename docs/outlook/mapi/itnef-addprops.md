@@ -95,7 +95,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI uses the **ITnef::AddProps** method to copy properties from a message to a TNEF stream.  <br/> |
+|File.cpp  <br/> |SaveToTNEF  <br/> |MFCMAPI uses the **ITnef::AddProps** method to copy properties from a message to a TNEF stream. |
    
 ## See also
 

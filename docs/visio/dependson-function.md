@@ -26,8 +26,8 @@ DEPENDSON(** *cellref* ** [, ** *cellref2* **,...])
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Required  <br/> |**String** <br/> |The first cell reference.  <br/> |
-| _cellref2_ <br/> |Optional  <br/> |**String** <br/> |The second cell reference.  <br/> |
+| _cellref_ <br/> |Required  <br/> |**String** <br/> |The first cell reference. |
+| _cellref2_ <br/> |Optional  <br/> |**String** <br/> |The second cell reference. |
    
 ## Remarks
 

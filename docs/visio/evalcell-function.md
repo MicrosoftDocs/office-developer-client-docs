@@ -24,11 +24,11 @@ EVALCELL(** *cellRef* **,[ ** *arg1Name,arg1* ** ],[ ** *arg2Name,arg2* ** ],…
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellRef_ <br/> |Required  <br/> |**String** <br/> |A reference to the cell that contains the custom function. Cross-sheet references are allowed.  <br/> |
-| _arg1Name_ <br/> |Optional  <br/> |**String** <br/> |The name of the first argument to be passed to the custom function. Spaces are allowed.  <br/> |
-| _arg1_ <br/> |Optional  <br/> |**Varies** <br/> |Value of the  _arg1_ parameter.  <br/> |
-| _arg2Name_ <br/> |Optional  <br/> |**String** <br/> |The name of the second argument to be passed to the custom function. Spaces are allowed.  <br/> |
-| _arg2_ <br/> |Optional  <br/> |**Varies** <br/> |Value of the  _arg2_ parameter.  <br/> |
+| _cellRef_ <br/> |Required  <br/> |**String** <br/> |A reference to the cell that contains the custom function. Cross-sheet references are allowed. |
+| _arg1Name_ <br/> |Optional  <br/> |**String** <br/> |The name of the first argument to be passed to the custom function. Spaces are allowed. |
+| _arg1_ <br/> |Optional  <br/> |**Varies** <br/> |Value of the  _arg1_ parameter. |
+| _arg2Name_ <br/> |Optional  <br/> |**String** <br/> |The name of the second argument to be passed to the custom function. Spaces are allowed. |
+| _arg2_ <br/> |Optional  <br/> |**Varies** <br/> |Value of the  _arg2_ parameter. |
    
 ### Return value
 

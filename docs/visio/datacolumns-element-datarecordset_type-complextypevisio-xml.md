@@ -40,19 +40,19 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Defines how a data column appears in the **External Data** window in the Visio user interface and qualifies the data in the column by defining its data type and formatting.  <br/> |
+|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Defines how a data column appears in the **External Data** window in the Visio user interface and qualifies the data in the column by defining its data type and formatting. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|SortAsc  <br/> |xsd:boolean  <br/> |optional  <br/> |The column on which to sort the data.  <br/> |Values of the xsd:boolean type.  <br/> |
-|SortColumn  <br/> |xsd:string  <br/> |optional  <br/> |Whether to sort the **SortColumn** column in ascending (1) or descending (0) order.  <br/> |Values of the xsd:string type.  <br/> |
+|SortAsc  <br/> |xsd:boolean  <br/> |optional  <br/> |The column on which to sort the data. |Values of the xsd:boolean type. |
+|SortColumn  <br/> |xsd:string  <br/> |optional  <br/> |Whether to sort the **SortColumn** column in ascending (1) or descending (0) order. |Values of the xsd:string type. |
    
 

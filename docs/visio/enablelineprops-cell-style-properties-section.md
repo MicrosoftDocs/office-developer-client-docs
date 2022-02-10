@@ -20,8 +20,8 @@ Determines whether a style includes line properties.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Include line properties.  <br/> |
-|FALSE  <br/> |Exclude line properties.  <br/> |
+|TRUE  <br/> |Include line properties. |
+|FALSE  <br/> |Exclude line properties. |
    
 ## Remarks
 

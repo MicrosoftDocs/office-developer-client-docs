@@ -24,8 +24,8 @@ The following table describes these files by name or type:
   
 |**Configuration file**|**Description**|
 |:-----|:-----|
-|MapiSvc.inf  <br/> |Contains configuration information for the MAPI subsystem, message services, and service providers.  <br/> |
-|Files with the .cfg extension  <br/> |Contains configuration information for a form.  <br/> |
+|MapiSvc.inf  <br/> |Contains configuration information for the MAPI subsystem, message services, and service providers. |
+|Files with the .cfg extension  <br/> |Contains configuration information for a form. |
    
 For detailed information about the file format of MapiSvc.inf, see [File Format of MapiSvc.inf](file-format-of-mapisvc-inf.md). 
   

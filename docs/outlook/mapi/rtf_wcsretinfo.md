@@ -37,9 +37,9 @@ _ulStreamFlags_
     
 |||
 |:-----|:-----|
-|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is RTF.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is plain text format.  <br/> |
-|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is Hypertext Markup Language (HTML) format.  <br/> |
+|MAPI_NATIVE_BODY_TYPE_RTF  <br/> |This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is RTF. |
+|MAPI_NATIVE_BODY_TYPE_PLAIN_TEXT  <br/> |This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is plain text format. |
+|MAPI_NATIVE_BODY_TYPE_HTML  <br/> |This value is only used if  _ulFlags_ includes the **MAPI_NATIVE_BODY** flag, and the body is Hypertext Markup Language (HTML) format. |
    
 ## See also
 

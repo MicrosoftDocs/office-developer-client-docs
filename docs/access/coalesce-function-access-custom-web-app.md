@@ -25,7 +25,7 @@ The **Coalesce** function contains the following arguments
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Value*  <br/> |An expression.  <br/> |
+| *Value*  <br/> |An expression. |
 
 ## Remarks
 

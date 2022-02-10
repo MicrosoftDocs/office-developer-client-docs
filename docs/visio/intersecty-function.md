@@ -26,12 +26,12 @@ INTERSECTX(***x1***, ***y1***, ***angle1***, ***x2***, ***y2***, ***angle2*** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _x1_ <br/> |Required  <br/> |**Number** <br/> |The  _x_-coordinate of a point on the first line.  <br/> |
-| _y1_ <br/> |Required  <br/> |**Number** <br/> |The  _y_-coordinate of a point on the first line.  <br/> |
-| _angle1_ <br/> |Required  <br/> |**Number** <br/> | The value of the Angle cell for the first line.  <br/> |
-| _x2_ <br/> |Required  <br/> |**Number** <br/> |The  _x_-coordinate of a point on the second line.  <br/> |
-| _y2_ <br/> |Required  <br/> |**Number** <br/> |The  _y_-coordinate of a point on the second line.  <br/> |
-| _angle2_ <br/> |Required  <br/> |**Number** <br/> |The value of the Angle cell for the second line.  <br/> |
+| _x1_ <br/> |Required  <br/> |**Number** <br/> |The  _x_-coordinate of a point on the first line. |
+| _y1_ <br/> |Required  <br/> |**Number** <br/> |The  _y_-coordinate of a point on the first line. |
+| _angle1_ <br/> |Required  <br/> |**Number** <br/> | The value of the Angle cell for the first line. |
+| _x2_ <br/> |Required  <br/> |**Number** <br/> |The  _x_-coordinate of a point on the second line. |
+| _y2_ <br/> |Required  <br/> |**Number** <br/> |The  _y_-coordinate of a point on the second line. |
+| _angle2_ <br/> |Required  <br/> |**Number** <br/> |The value of the Angle cell for the second line. |
    
 ### Return value
 

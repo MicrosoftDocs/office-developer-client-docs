@@ -26,21 +26,21 @@ The **Geometry** section contains the following row types. For details, see the 
   
 |Row|Description|
 |:-----|:-----|
-|[MoveTo](moveto-row-geometry-section.md) <br/> |Move to a coordinate.  <br/> |
-|[LineTo](lineto-row-geometry-section.md) <br/> |Draw a line to a coordinate.  <br/> |
-|[ArcTo](arcto-row-geometry-section.md) <br/> |Draw a circular arc to a coordinate.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> |Draw an elliptical arc to a coordinate.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> |Draw a polyline, or consecutive lines, to a coordinate.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> |Draw a non-uniform rational B-spline (NURBS) to a coordinate.  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> |Start a spline.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> |Draw a spline segment to a knot coordinate.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |Draw an infinite line from one coordinate to another.  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> |Draw an ellipse from a center coordinate and a major/minor axis.  <br/> |
-|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Draw a cubic Bezier curve relative to the width and height of the shape.  <br/> |
-|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Draw an elliptical arc to a coordinate relative to the height and width of the shape.  <br/> |
-|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Draw a line to a coordinate relative the height and width of a shape.  <br/> |
-|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Move to a coordinate relative to the width and height of the shape.  <br/> |
-|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Draws a quadratic Bezier curve relative to the width and height of the shape.  <br/> |
+|[MoveTo](moveto-row-geometry-section.md) <br/> |Move to a coordinate. |
+|[LineTo](lineto-row-geometry-section.md) <br/> |Draw a line to a coordinate. |
+|[ArcTo](arcto-row-geometry-section.md) <br/> |Draw a circular arc to a coordinate. |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> |Draw an elliptical arc to a coordinate. |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> |Draw a polyline, or consecutive lines, to a coordinate. |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> |Draw a non-uniform rational B-spline (NURBS) to a coordinate. |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> |Start a spline. |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> |Draw a spline segment to a knot coordinate. |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |Draw an infinite line from one coordinate to another. |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> |Draw an ellipse from a center coordinate and a major/minor axis. |
+|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Draw a cubic Bezier curve relative to the width and height of the shape. |
+|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Draw an elliptical arc to a coordinate relative to the height and width of the shape. |
+|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Draw a line to a coordinate relative the height and width of a shape. |
+|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Move to a coordinate relative to the width and height of the shape. |
+|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Draws a quadratic Bezier curve relative to the width and height of the shape. |
    
 To change a row type in this section, right-click the row, and then click **Change Row Type** on the shortcut menu. 
   

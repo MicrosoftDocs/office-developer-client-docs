@@ -38,12 +38,12 @@ When the value of this property is set, the **dispidTaskLastUpdate** ([PidLidTas
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000004  <br/> |The **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property changed.  <br/> |
-|0x00000003  <br/> |Another property was changed.  <br/> |
-|0x00000001  <br/> |The task assignee accepted this task.  <br/> |
-|0x00000002  <br/> |The task assignee rejected this task.  <br/> |
-|0x00000005  <br/> |The task was assigned to a task assignee.  <br/> |
-|0x00000000  <br/> |No changes were made.  <br/> |
+|0x00000004  <br/> |The **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)) property changed. |
+|0x00000003  <br/> |Another property was changed. |
+|0x00000001  <br/> |The task assignee accepted this task. |
+|0x00000002  <br/> |The task assignee rejected this task. |
+|0x00000005  <br/> |The task was assigned to a task assignee. |
+|0x00000000  <br/> |No changes were made. |
    
 ## Related resources
 

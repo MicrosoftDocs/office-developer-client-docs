@@ -30,14 +30,14 @@ The recommended method of deploying an OSC provider is to use a Windows Installe
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|Outlook is not present - Outlook 2003 or Outlook 2007 is not installed, and Outlook 2010 or Microsoft Outlook 2013 is not installed nor has it been delivered by Click-to-Run.  <br/> |The deployment fails.  <br/> |
-|Outlook 2003 or Outlook 2007 is not installed, but Outlook 2010 or Microsoft Outlook 2013 has been delivered by Click-to-Run.  <br/> |The 32-bit provider is deployed.  <br/> |
-|Outlook 2003 or Outlook 2007 is installed, but the OSC is not installed.  <br/> |The installer installs the OSC and all patches. Once the OSC has been installed successfully, then the installer deploys the provider.  <br/> |
-|Outlook 2003 or Outlook 2007 is installed, and an earlier version of the OSC is installed.  <br/> |The installer updates the OSC, via a g-link to patches, and then deploys the provider.  <br/> |
-|Outlook 2003 or 2007 is installed and the OSC is up-to-date.  <br/> |The installer deploys the 32-bit provider.  <br/> |
-|Outlook 2010 or Microsoft Outlook 2013 is installed but the OSC is not installed.  <br/> |The installer fails with an appropriate error message.  <br/> |
-|Outlook 2010 or Microsoft Outlook 2013 is installed and an older version of the OSC is installed.  <br/> |The installer which is appropriate for the bitness of the installed Outlook 2010 or Microsoft Outlook 2013, updates the OSC via the g-link to patches, and then deploys the appropriate provider.  <br/> |
-|Outlook 2010 or Microsoft Outlook 2013 is installed and the OSC is up-to-date.  <br/> |The installer that is appropriate for the bitness of the installed Outlook 2010 or Microsoft Outlook 2013 (32-bit or 64-bit) deploys the appropriate provider.  <br/> |
+|Outlook is not present - Outlook 2003 or Outlook 2007 is not installed, and Outlook 2010 or Microsoft Outlook 2013 is not installed nor has it been delivered by Click-to-Run. |The deployment fails. |
+|Outlook 2003 or Outlook 2007 is not installed, but Outlook 2010 or Microsoft Outlook 2013 has been delivered by Click-to-Run. |The 32-bit provider is deployed. |
+|Outlook 2003 or Outlook 2007 is installed, but the OSC is not installed. |The installer installs the OSC and all patches. Once the OSC has been installed successfully, then the installer deploys the provider. |
+|Outlook 2003 or Outlook 2007 is installed, and an earlier version of the OSC is installed. |The installer updates the OSC, via a g-link to patches, and then deploys the provider. |
+|Outlook 2003 or 2007 is installed and the OSC is up-to-date. |The installer deploys the 32-bit provider. |
+|Outlook 2010 or Microsoft Outlook 2013 is installed but the OSC is not installed. |The installer fails with an appropriate error message. |
+|Outlook 2010 or Microsoft Outlook 2013 is installed and an older version of the OSC is installed. |The installer which is appropriate for the bitness of the installed Outlook 2010 or Microsoft Outlook 2013, updates the OSC via the g-link to patches, and then deploys the appropriate provider. |
+|Outlook 2010 or Microsoft Outlook 2013 is installed and the OSC is up-to-date. |The installer that is appropriate for the bitness of the installed Outlook 2010 or Microsoft Outlook 2013 (32-bit or 64-bit) deploys the appropriate provider. |
 
 <a name="olosc_TestingDeployment_PresenceOfOutlook"> </a>
 
@@ -51,12 +51,12 @@ Test for the scenarios as listed in the following table. Note that the table lis
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|Microsoft Outlook 2013 is installed on the client computer.  <br/> |Provider DLLs are deployed into the Office15 folder. If the operating system is 64-bit and Microsoft Outlook 2013 is 32-bit, the 32-bit DLLs are deployed under C:\Program Files (x86)\Microsoft Office\Office15. If the operating system is 64-bit and Microsoft Outlook 2013 is 64-bit, the 64-bit DLLs are deployed under C:\Program Files\Microsoft Office\Office15. If the operating system is 32-bit, DLLs are deployed under C:\Program Files\Microsoft Office\Office15.  <br/> |
-|Outlook 2010 is installed on the client computer.  <br/> |Provider DLLs are deployed into the Office14 folder. If the operating system is 64-bit and Outlook 2010 is 32-bit, the 32-bit DLLs are deployed under C:\Program Files (x86)\Microsoft Office\Office14. If the operating system is 64-bit and Outlook 2010 is 64-bit, the 64-bit DLLs are deployed under C:\Program Files\Microsoft Office\Office14. If the operating system is 32-bit, DLLs are deployed under C:\Program Files\Microsoft Office\Office14.  <br/> |
-|Outlook 2007 is installed on the client computer.  <br/> |Provider DLLs are deployed under C:\Program Files\Microsoft Office\Office14. Installing the OSC creates the Office14 folder, and the OSC should be installed before any provider DLLs. See the previous section [Presence of Outlook and the OSC on Client Computer](#olosc_TestingDeployment_PresenceOfOutlook).  <br/> |
-|Outlook 2003 is installed on the client computer.  <br/> |Provider DLLs are deployed under C:\Program Files\Microsoft Office\Office14. Installing the OSC creates the Office14 folder, and the OSC should be installed before any provider DLLs. See the previous section [Presence of Outlook and the OSC on Client Computer](#olosc_TestingDeployment_PresenceOfOutlook).  <br/> |
-|Microsoft Outlook 2013 is not installed but delivered by Click-to-Run on the client computer.  <br/> |Provider DLLs are deployed into the Office15 folder. If the operating system is 64-bit, 32-bit DLLs are deployed under C:\Program Files (x86)\Microsoft Office\Office15 or C:\Program Files\Microsoft Office\Office15. If the operating system is 32-bit, DLLs are deployed under C:\Program Files\Microsoft Office\Office15. If the Office15 folder does not exist, the installation creates the folder.  <br/> |
-|Outlook 2010 is not installed but delivered by Click-to-Run on the client computer.  <br/> |Provider DLLs are deployed into the Office14 folder. If the operating system is 64-bit, 32-bit DLLs are deployed under C:\Program Files (x86)\Microsoft Office\Office14 or C:\Program Files\Microsoft Office\Office14. If the operating system is 32-bit, DLLs are deployed under C:\Program Files\Microsoft Office\Office14. If the Office14 folder does not exist, the installation creates the folder.  <br/> |
+|Microsoft Outlook 2013 is installed on the client computer. |Provider DLLs are deployed into the Office15 folder. If the operating system is 64-bit and Microsoft Outlook 2013 is 32-bit, the 32-bit DLLs are deployed under C:\Program Files (x86)\Microsoft Office\Office15. If the operating system is 64-bit and Microsoft Outlook 2013 is 64-bit, the 64-bit DLLs are deployed under C:\Program Files\Microsoft Office\Office15. If the operating system is 32-bit, DLLs are deployed under C:\Program Files\Microsoft Office\Office15. |
+|Outlook 2010 is installed on the client computer. |Provider DLLs are deployed into the Office14 folder. If the operating system is 64-bit and Outlook 2010 is 32-bit, the 32-bit DLLs are deployed under C:\Program Files (x86)\Microsoft Office\Office14. If the operating system is 64-bit and Outlook 2010 is 64-bit, the 64-bit DLLs are deployed under C:\Program Files\Microsoft Office\Office14. If the operating system is 32-bit, DLLs are deployed under C:\Program Files\Microsoft Office\Office14. |
+|Outlook 2007 is installed on the client computer. |Provider DLLs are deployed under C:\Program Files\Microsoft Office\Office14. Installing the OSC creates the Office14 folder, and the OSC should be installed before any provider DLLs. See the previous section [Presence of Outlook and the OSC on Client Computer](#olosc_TestingDeployment_PresenceOfOutlook). |
+|Outlook 2003 is installed on the client computer. |Provider DLLs are deployed under C:\Program Files\Microsoft Office\Office14. Installing the OSC creates the Office14 folder, and the OSC should be installed before any provider DLLs. See the previous section [Presence of Outlook and the OSC on Client Computer](#olosc_TestingDeployment_PresenceOfOutlook). |
+|Microsoft Outlook 2013 is not installed but delivered by Click-to-Run on the client computer. |Provider DLLs are deployed into the Office15 folder. If the operating system is 64-bit, 32-bit DLLs are deployed under C:\Program Files (x86)\Microsoft Office\Office15 or C:\Program Files\Microsoft Office\Office15. If the operating system is 32-bit, DLLs are deployed under C:\Program Files\Microsoft Office\Office15. If the Office15 folder does not exist, the installation creates the folder. |
+|Outlook 2010 is not installed but delivered by Click-to-Run on the client computer. |Provider DLLs are deployed into the Office14 folder. If the operating system is 64-bit, 32-bit DLLs are deployed under C:\Program Files (x86)\Microsoft Office\Office14 or C:\Program Files\Microsoft Office\Office14. If the operating system is 32-bit, DLLs are deployed under C:\Program Files\Microsoft Office\Office14. If the Office14 folder does not exist, the installation creates the folder. |
    
 ### Windows registry locations
 
@@ -76,8 +76,8 @@ The following are some tests to verify that the uninstall process works properly
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|User chooses to uninstall the provider.  <br/> |The provider uninstalls the DLLs and clears the registry.  <br/> |
-|User chooses to cancel the uninstall process of the provider.  <br/> |The provider cancels the uninstall process and brings the user back to the state before the uninstall process started.  <br/> |
+|User chooses to uninstall the provider. |The provider uninstalls the DLLs and clears the registry. |
+|User chooses to cancel the uninstall process of the provider. |The provider cancels the uninstall process and brings the user back to the state before the uninstall process started. |
    
 ## See also
 

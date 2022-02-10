@@ -27,8 +27,8 @@ The **IS [NOT] NULL** predicate contains the following arguments.
   
 |||
 |:-----|:-----|
-| *expression*  <br/> |Any valid expression.  <br/> |
-| *NOT*  <br/> |Specifies that the Boolean result be negated. The predicate reverses its return values, returning TRUE if the value is not NULL, and FALSE if the value is NULL.  <br/> |
+| *expression*  <br/> |Any valid expression. |
+| *NOT*  <br/> |Specifies that the Boolean result be negated. The predicate reverses its return values, returning TRUE if the value is not NULL, and FALSE if the value is NULL. |
    
 ## Remarks
 

@@ -24,7 +24,7 @@ The **EditRecord** data block has the following arguments.
   
 |**Argument**|**Description**|
 |:-----|:-----|
-|**Alias** <br/> |A string that identifies the record to edit. If the *Alias* argument is not specified, then the current record is edited.  <br/> |
+|**Alias** <br/> |A string that identifies the record to edit. If the *Alias* argument is not specified, then the current record is edited. |
 
 ## Remarks
 

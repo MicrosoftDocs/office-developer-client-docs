@@ -22,11 +22,11 @@ Client applications frequently allow users some control over how the contents of
   
 |****IMAPITable** method**|**Description**|
 |:-----|:-----|
-|[IMAPITable::FindRow](imapitable-findrow.md) <br/> |Returns table rows that match the specified criteria.  <br/> |
-|[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |Returns the set of columns in a table or the set of currently used columns.  <br/> |
-|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Returns one or more rows from a table, starting from a given position.  <br/> |
-|[IMAPITable::Restrict](imapitable-restrict.md) <br/> |Applies a restriction to a table so that subsequent calls to **FindRow** return only rows that match the restriction.  <br/> |
-|[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |Specifies which columns should be returned when rows are retrieved from the table.  <br/> |
+|[IMAPITable::FindRow](imapitable-findrow.md) <br/> |Returns table rows that match the specified criteria. |
+|[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |Returns the set of columns in a table or the set of currently used columns. |
+|[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Returns one or more rows from a table, starting from a given position. |
+|[IMAPITable::Restrict](imapitable-restrict.md) <br/> |Applies a restriction to a table so that subsequent calls to **FindRow** return only rows that match the restriction. |
+|[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |Specifies which columns should be returned when rows are retrieved from the table. |
    
 Restrictions can be complex to implement; for more information, see [About Restrictions](about-restrictions.md). For more information about implementing tables, see [MAPI Tables](mapi-tables.md).
   

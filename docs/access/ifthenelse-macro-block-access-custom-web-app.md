@@ -34,7 +34,7 @@ For both **If** and **Else If**, the following arguments are required.
   
 |**Action argument**|**Description**|
 |:-----|:-----|
-|**Expression** <br/> |The condition that you wish to test. It must be an expression that evaluates to True or False.  <br/> |
+|**Expression** <br/> |The condition that you wish to test. It must be an expression that evaluates to True or False. |
 
 ## Remarks
 

@@ -28,8 +28,8 @@ CONTAINERSHEETREF(** *index* ** ** *[, category]* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |Required  <br/> |**Integer** <br/> |The 1-based index of the container. See Remarks for more information.  <br/> |
-| _category_ <br/> |Optional  <br/> |**String** <br/> |The category of the container. See Remarks for more information.  <br/> |
+| _index_ <br/> |Required  <br/> |**Integer** <br/> |The 1-based index of the container. See Remarks for more information. |
+| _category_ <br/> |Optional  <br/> |**String** <br/> |The category of the container. See Remarks for more information. |
    
 ### Return value
 

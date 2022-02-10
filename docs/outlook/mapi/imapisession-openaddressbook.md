@@ -81,7 +81,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI uses the **IMAPISession::OpenAddressBook** method to obtain the integrated address book.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::GetAddrBook  <br/> |MFCMAPI uses the **IMAPISession::OpenAddressBook** method to obtain the integrated address book. |
    
 ## See also
 

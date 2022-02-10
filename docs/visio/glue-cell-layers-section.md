@@ -20,8 +20,8 @@ Specifies whether shapes belonging to the layer can be glued.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Glue is enabled.  <br/> |
-|FALSE  <br/> |Glue is disabled.  <br/> |
+|TRUE  <br/> |Glue is enabled. |
+|FALSE  <br/> |Glue is disabled. |
    
 ## Remarks
 
@@ -31,14 +31,14 @@ To get a reference to the Glue cell by name from another formula, or from a prog
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Glue[  *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Layers.Glue[  *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Glue cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visLayerGlue** <br/> |
    
 

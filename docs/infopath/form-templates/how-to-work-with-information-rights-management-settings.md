@@ -71,15 +71,15 @@ The **UserPermissionCollection** class provides the following properties and one
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[ApplyPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx) method  <br/> |Applies a policy to the form using a policy template file.  <br/> |
-|[DocumentAuthor](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.DocumentAuthor.aspx) property  <br/> |Gets or sets the author of the current form as an email address.  <br/> |
-|[Enabled](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.Enabled.aspx) property  <br/> |Gets or sets whether the permission settings represented by the **Permission** object are enabled for the current form.  <br/> |
-|[PermissionFromPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PermissionFromPolicy.aspx) property  <br/> |Gets or sets whether a permission policy has been applied to the current form.  <br/> |
-|[PolicyDescription](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyDescription.aspx) property  <br/> |Gets a description of the policy that was applied to the current form.  <br/> |
-|[PolicyName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyName.aspx) property  <br/> |Gets the name of the policy that was applied to the current form.  <br/> |
-|[RequestPermissionUrl](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.RequestPermissionUrl.aspx) property  <br/> |Gets or sets the file, URL, or email address to contact for users who need additional permissions on the current form.  <br/> |
-|[StoreLicenses](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.StoreLicenses.aspx) property  <br/> |Gets or sets whether the user's license to view the current form should be cached to allow offline viewing when the user cannot connect to a rights management server.  <br/> |
-|[UserPermissions](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.UserPermissions.aspx) property  <br/> |Gets a **UserPermissionCollection** object for the current form.  <br/> |
+|[ApplyPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx) method  <br/> |Applies a policy to the form using a policy template file. |
+|[DocumentAuthor](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.DocumentAuthor.aspx) property  <br/> |Gets or sets the author of the current form as an email address. |
+|[Enabled](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.Enabled.aspx) property  <br/> |Gets or sets whether the permission settings represented by the **Permission** object are enabled for the current form. |
+|[PermissionFromPolicy](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PermissionFromPolicy.aspx) property  <br/> |Gets or sets whether a permission policy has been applied to the current form. |
+|[PolicyDescription](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyDescription.aspx) property  <br/> |Gets a description of the policy that was applied to the current form. |
+|[PolicyName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.PolicyName.aspx) property  <br/> |Gets the name of the policy that was applied to the current form. |
+|[RequestPermissionUrl](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.RequestPermissionUrl.aspx) property  <br/> |Gets or sets the file, URL, or email address to contact for users who need additional permissions on the current form. |
+|[StoreLicenses](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.StoreLicenses.aspx) property  <br/> |Gets or sets whether the user's license to view the current form should be cached to allow offline viewing when the user cannot connect to a rights management server. |
+|[UserPermissions](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.UserPermissions.aspx) property  <br/> |Gets a **UserPermissionCollection** object for the current form. |
    
 ### Overview of the UserPermissionCollection Class
 
@@ -87,11 +87,11 @@ The **UserPermissionCollection** class provides the following properties and met
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) method (+3 overloads)  <br/> |Adds a new user to the current form, optionally specifying permissions and an expiration date.  <br/> |
-|[Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Remove.aspx) method  <br/> |Removes the **UserPermission** object with the specified **UserId** from the collection.  <br/> |
-|[RemoveAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.RemoveAll.aspx) method  <br/> |Removes all **UserPermission** objects from the collection.  <br/> |
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Count.aspx) property  <br/> |Gets the number of **UserPermission** objects in the collection.  <br/> |
-|[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Item.aspx) property (+1 overload)  <br/> |Gets a **UserPermission** object.  <br/> |
+|[Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) method (+3 overloads)  <br/> |Adds a new user to the current form, optionally specifying permissions and an expiration date. |
+|[Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Remove.aspx) method  <br/> |Removes the **UserPermission** object with the specified **UserId** from the collection. |
+|[RemoveAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.RemoveAll.aspx) method  <br/> |Removes all **UserPermission** objects from the collection. |
+|[Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Count.aspx) property  <br/> |Gets the number of **UserPermission** objects in the collection. |
+|[Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Item.aspx) property (+1 overload)  <br/> |Gets a **UserPermission** object. |
    
 ### Overview of the UserPermission Class
 
@@ -99,10 +99,10 @@ The **UserPermission** class provides the following properties and one method.
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Remove.aspx) method  <br/> |Removes the current **UserPermission** object from the form's permissions.  <br/> |
-|[ExpirationDate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx) property  <br/> |Gets or sets the optional expiration date for the permissions on the current form assigned to the user associated with an instance of the **UserPermission** class.  <br/> |
-|[Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx) property  <br/> |Gets or sets a value representing the permissions on the current form assigned to the user associated with an instance of the **UserPermission** class.  <br/> |
-|[UserId](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.UserId.aspx) property  <br/> |Gets the email address of the user whose permissions on the current form are determined by the specified **UserPermission** object.  <br/> |
+|[Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Remove.aspx) method  <br/> |Removes the current **UserPermission** object from the form's permissions. |
+|[ExpirationDate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx) property  <br/> |Gets or sets the optional expiration date for the permissions on the current form assigned to the user associated with an instance of the **UserPermission** class. |
+|[Permission](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Permission.aspx) property  <br/> |Gets or sets a value representing the permissions on the current form assigned to the user associated with an instance of the **UserPermission** class. |
+|[UserId](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.UserId.aspx) property  <br/> |Gets the email address of the user whose permissions on the current form are determined by the specified **UserPermission** object. |
    
 ### The PermissionType Enumeration
 
@@ -110,14 +110,14 @@ A user's permissions are set or read using [PermissionType](https://msdn.microso
   
 |**Name**|**Description**|
 |:-----|:-----|
-|**PermissionType.Change** <br/> |Allows users to view, edit, copy, and save, but not print a form. Equivalent to the **Read**, **Edit**, **Save**, and **Extract** permissions combined.  <br/> |
-|**PermissionType.Edit** <br/> |Allows the user to edit the form.  <br/> |
-|**PermissionType.Extract** <br/> |Allows a user with the **Read** permission to copy content in the form.  <br/> |
-|**PermissionType.FullControl** <br/> |Allows the user to add, change, and remove permissions for other users of a form.  <br/> |
-|**PermissionType.ObjectModel** <br/> |Allows a user to access the form document programmatically through its object model. Users without the **ObjectModel** permission cannot use the object model to determine their own permissions.  <br/> |
-|**PermissionType.Print** <br/> |Allows the user to print the form.  <br/> |
+|**PermissionType.Change** <br/> |Allows users to view, edit, copy, and save, but not print a form. Equivalent to the **Read**, **Edit**, **Save**, and **Extract** permissions combined. |
+|**PermissionType.Edit** <br/> |Allows the user to edit the form. |
+|**PermissionType.Extract** <br/> |Allows a user with the **Read** permission to copy content in the form. |
+|**PermissionType.FullControl** <br/> |Allows the user to add, change, and remove permissions for other users of a form. |
+|**PermissionType.ObjectModel** <br/> |Allows a user to access the form document programmatically through its object model. Users without the **ObjectModel** permission cannot use the object model to determine their own permissions. |
+|**PermissionType.Print** <br/> |Allows the user to print the form. |
 |**PermissionType.Read** <br/> |Allows the user to read (view) the form. (The **Read** and **View** permissions are equivalent.)  <br/> |
-|**PermissionType.Save** <br/> |Allows the user to save the form.  <br/> |
+|**PermissionType.Save** <br/> |Allows the user to save the form. |
 |**PermissionType.View** <br/> |Allows the user to view (read) the form. (The **Read** and **View** permissions are equivalent.)  <br/> |
    
 ### Example

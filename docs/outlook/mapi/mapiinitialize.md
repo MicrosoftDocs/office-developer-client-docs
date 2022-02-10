@@ -111,7 +111,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> ||MFCMAPI uses the **MAPIInitialize** method to initialize MAPI on a background thread to do some table processing.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> ||MFCMAPI uses the **MAPIInitialize** method to initialize MAPI on a background thread to do some table processing. |
    
 ## See also
 

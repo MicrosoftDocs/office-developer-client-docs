@@ -19,8 +19,8 @@ Determines the font color from the Quick Styles that a shape's text inherits fro
 |||
 |:-----|:-----|
 |Value  <br/> |Description  <br/> |
-|0  <br/> |The shape text uses the Dark font color.  <br/> |
-|1  <br/> |The shape text uses the Light font color.  <br/> |
+|0  <br/> |The shape text uses the Dark font color. |
+|1  <br/> |The shape text uses the Light font color. |
    
 ## Remarks
 

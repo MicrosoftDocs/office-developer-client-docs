@@ -56,8 +56,8 @@ typedef struct
     
 |||
 |:-----|:-----|
-|MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |The offline object is capable of going offline.  <br/> |
-|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |The offline object is capable of going online.  <br/> |
+|MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |The offline object is capable of going offline. |
+|MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |The offline object is capable of going online. |
    
  **pGUID**
   

@@ -44,7 +44,7 @@ None.
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contains elements that define a page in the document.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contains elements that define a page in the document. |
    
 ### Attributes
 

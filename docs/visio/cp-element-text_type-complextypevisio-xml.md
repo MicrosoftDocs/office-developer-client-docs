@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Contains the text of a shape.  <br/> |
+|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Contains the text of a shape. |
    
 ### Child elements
 
@@ -50,6 +50,6 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The Char element index that this property run represents.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The Char element index that this property run represents. |Values of the xsd:unsignedInt type. |
    
 

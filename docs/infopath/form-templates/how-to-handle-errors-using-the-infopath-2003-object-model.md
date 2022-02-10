@@ -26,11 +26,11 @@ The **ErrorsCollection** collection provides the following methods and propertie
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx) method  <br/> |Creates an **ErrorObject** object and adds it to the collection.  <br/> |
-|[Delete](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Delete.aspx) method  <br/> |Deletes all **ErrorObject** objects associated with the specified XML node and condition name, except for custom errors added using the **ReportError** method.  <br/> |
-|[DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.DeleteAll.aspx) method  <br/> |Deletes all **ErrorObject** objects contained in the collection.  <br/> |
-|[Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Count.aspx) property  <br/> |Gets a count of the number of **ErrorObject** objects contained in the collection.  <br/> |
-|[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Item.aspx) property  <br/> |Gets a reference to an **ErrorObject** object based on the specified index number.  <br/> |
+|[Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx) method  <br/> |Creates an **ErrorObject** object and adds it to the collection. |
+|[Delete](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Delete.aspx) method  <br/> |Deletes all **ErrorObject** objects associated with the specified XML node and condition name, except for custom errors added using the **ReportError** method. |
+|[DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.DeleteAll.aspx) method  <br/> |Deletes all **ErrorObject** objects contained in the collection. |
+|[Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Count.aspx) property  <br/> |Gets a count of the number of **ErrorObject** objects contained in the collection. |
+|[Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Item.aspx) property  <br/> |Gets a reference to an **ErrorObject** object based on the specified index number. |
    
 ## Overview of the ErrorObject Object
 
@@ -38,12 +38,12 @@ The **ErrorObject** object provides the following properties, which form develop
   
 |**Name**|**Description**|
 |:-----|:-----|
-|[ConditionName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ConditionName.aspx) property  <br/> |Gets the name of the error condition, or returns **null**, depending on the type of **ErrorObject** object.  <br/> |
-|[DetailedErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx) property  <br/> |Gets or sets the detailed error message of the **ErrorObject** object.  <br/> |
-|[ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorCode.aspx) property  <br/> |Gets or sets the error code of the **ErrorObject** object.  <br/> |
-|[Node](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.Node.aspx) property  <br/> |Gets a reference to the XML node associated with the **ErrorObject** object.  <br/> |
-|[ShortErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ShortErrorMessage.aspx) property  <br/> |Gets or sets the short error message of the **ErrorObject** object.  <br/> |
-|[ErrorType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorType.aspx) property  <br/> |Gets the type of the **ErrorObject** object.  <br/> |
+|[ConditionName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ConditionName.aspx) property  <br/> |Gets the name of the error condition, or returns **null**, depending on the type of **ErrorObject** object. |
+|[DetailedErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx) property  <br/> |Gets or sets the detailed error message of the **ErrorObject** object. |
+|[ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorCode.aspx) property  <br/> |Gets or sets the error code of the **ErrorObject** object. |
+|[Node](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.Node.aspx) property  <br/> |Gets a reference to the XML node associated with the **ErrorObject** object. |
+|[ShortErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ShortErrorMessage.aspx) property  <br/> |Gets or sets the short error message of the **ErrorObject** object. |
+|[ErrorType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorType.aspx) property  <br/> |Gets the type of the **ErrorObject** object. |
    
 ## Using the ErrorsCollection and ErrorObject
 

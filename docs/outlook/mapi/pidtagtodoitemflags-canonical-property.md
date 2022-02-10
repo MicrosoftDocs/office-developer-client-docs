@@ -40,7 +40,7 @@ This property is a bit field in which each bit should be set to 1 if the associa
 |Numeric value  <br/> |Name  <br/> |Description  <br/> |
 |Not present  <br/> |N/A  <br/> |Unflagged  <br/> |
 |1  <br/> |todoTimeFlagged  <br/> |Object is time flagged  <br/> |
-|8  <br/> |todoRecipientFlagged  <br/> |Should only be set on a draft message object, and it means that the object is flagged for recipients.  <br/> |
+|8  <br/> |todoRecipientFlagged  <br/> |Should only be set on a draft message object, and it means that the object is flagged for recipients. |
    
 All bits that are not specified in the table are reserved. They must be ignored, but should be preserved if they are set.
   

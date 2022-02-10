@@ -20,8 +20,8 @@ Indicates whether a hyperlink appears on the shortcut menu for a shape or page.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The hyperlink does not appear as a menu item on the shortcut menu.  <br/> |
-|FALSE  <br/> |The hyperlink does appear as a menu item on the shortcut menu (the default).  <br/> |
+|TRUE  <br/> |The hyperlink does not appear as a menu item on the shortcut menu. |
+|FALSE  <br/> |The hyperlink does appear as a menu item on the shortcut menu (the default). |
    
 ## Remarks
 
@@ -36,7 +36,7 @@ To get a reference to the Invisible cell by index from a program, use the **Cell
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionHyperlink** <br/> |
-|Row index:  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visHLinkInvisible** <br/> |
    
 

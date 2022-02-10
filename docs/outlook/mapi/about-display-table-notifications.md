@@ -32,18 +32,18 @@ MAPI responds to display table notifications when necessary by rereading a contr
   
 |**Control**|**MAPI action**|
 |:-----|:-----|
-|Button  <br/> |Calls [IMAPIProp::OpenProperty](imapiprop-openproperty.md)to retrieve the control object by way of the property represented by the **ulPRControl** member of the [DTBLBUTTON](dtblbutton.md) structure if the call had failed previously. Calls the control object's [IMAPIControl::GetState](imapicontrol-getstate.md) to determine whether the button should be enabled and enables or disables the button accordingly.  <br/> |
-|Check box  <br/> |Rereads the value for the **ulPRPropertyName** member.  <br/> |
-|Combo box  <br/> |Reopens the table associated with the **ulPRTableName** member of the [DTBLCOMBOBOX](dtblcombobox.md) structure. Rereads all of the rows including the value for the **ulPRPropertyName**member.  <br/> |
-|Drop-down list box  <br/> |Reopens the table associated with the **ulPRTableName** member of the [DTBLDDLBX](dtblddlbx.md) structure and rereads all of the rows. Calls [IMAPIProp::GetProps](imapiprop-getprops.md) to retrieve the values for the properties stored in the **ulPRDisplayProperty** and the **ulPRSetProperty** members.  <br/> |
-|Edit  <br/> |Rereads the property and redisplays.  <br/> |
-|Group box  <br/> |Ignores the notification.  <br/> |
-|Label  <br/> |Ignores the notification.  <br/> |
-|Multiple selection list box  <br/> |If one of the columns is an entry identifier, refreshes the list box. The corresponding object is not closed or reloaded.  <br/> |
-|Single selection list box  <br/> |Reads the set property, trying to identify it.  <br/> |
-|Multivalued list box  <br/> |Rereads the property and repopulates the list box.  <br/> |
-|Tabbed page  <br/> |There are no notifications for this control; everything is static.  <br/> |
-|Radio button  <br/> |Rereads the property that is associated with the button and is stored in the **ulPropTag** member of the [DTBLRADIOBUTTON](dtblradiobutton.md) structure and makes the appropriate selection with the controls.  <br/> |
+|Button  <br/> |Calls [IMAPIProp::OpenProperty](imapiprop-openproperty.md)to retrieve the control object by way of the property represented by the **ulPRControl** member of the [DTBLBUTTON](dtblbutton.md) structure if the call had failed previously. Calls the control object's [IMAPIControl::GetState](imapicontrol-getstate.md) to determine whether the button should be enabled and enables or disables the button accordingly. |
+|Check box  <br/> |Rereads the value for the **ulPRPropertyName** member. |
+|Combo box  <br/> |Reopens the table associated with the **ulPRTableName** member of the [DTBLCOMBOBOX](dtblcombobox.md) structure. Rereads all of the rows including the value for the **ulPRPropertyName**member. |
+|Drop-down list box  <br/> |Reopens the table associated with the **ulPRTableName** member of the [DTBLDDLBX](dtblddlbx.md) structure and rereads all of the rows. Calls [IMAPIProp::GetProps](imapiprop-getprops.md) to retrieve the values for the properties stored in the **ulPRDisplayProperty** and the **ulPRSetProperty** members. |
+|Edit  <br/> |Rereads the property and redisplays. |
+|Group box  <br/> |Ignores the notification. |
+|Label  <br/> |Ignores the notification. |
+|Multiple selection list box  <br/> |If one of the columns is an entry identifier, refreshes the list box. The corresponding object is not closed or reloaded. |
+|Single selection list box  <br/> |Reads the set property, trying to identify it. |
+|Multivalued list box  <br/> |Rereads the property and repopulates the list box. |
+|Tabbed page  <br/> |There are no notifications for this control; everything is static. |
+|Radio button  <br/> |Rereads the property that is associated with the button and is stored in the **ulPropTag** member of the [DTBLRADIOBUTTON](dtblradiobutton.md) structure and makes the appropriate selection with the controls. |
    
 ## See also
 

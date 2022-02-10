@@ -77,8 +77,8 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Del  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|IX  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
+|Del  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|IX  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
    
 

@@ -38,12 +38,12 @@ The value of this property must be one of the following:
   
 |**Value**|**Type of Sharing Message object**|
 |:-----|:-----|
-|0x00020310  <br/> |A sharing invitation for a special folder.  <br/> |
-|0x00000310  <br/> |A sharing invitation for a folder that is not a special folder.  <br/> |
-|0x00020500  <br/> |A sharing request.  <br/> |
-|0x00020710  <br/> |Both a sharing invitation for a special folder and a sharing request for the recipient's equivalent special folder.  <br/> |
-|0x00025100  <br/> |A sharing response denying a request.  <br/> |
-|0x00023310  <br/> |A sharing response accepting a request (also a type of sharing invitation).  <br/> |
+|0x00020310  <br/> |A sharing invitation for a special folder. |
+|0x00000310  <br/> |A sharing invitation for a folder that is not a special folder. |
+|0x00020500  <br/> |A sharing request. |
+|0x00020710  <br/> |Both a sharing invitation for a special folder and a sharing request for the recipient's equivalent special folder. |
+|0x00025100  <br/> |A sharing response denying a request. |
+|0x00023310  <br/> |A sharing response accepting a request (also a type of sharing invitation). |
    
 ## Related resources
 

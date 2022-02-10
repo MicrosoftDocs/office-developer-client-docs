@@ -59,7 +59,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|SortAsc  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|SortColumn  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
+|SortAsc  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|SortColumn  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
    
 

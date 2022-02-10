@@ -1,12 +1,8 @@
 ---
-title: "Office for Android support for the Android Storage Access Framework"
- 
- 
-manager: soliver
-ms.date: 06/18/2015
-ms.audience: Developer
- 
- 
+title: "Office for Android support for the Android Storage Access Framework" 
+manager: lindalu
+ms.date: 02/09/2022
+ms.audience: Developer 
 ms.localizationpriority: medium
 ms.assetid: 9cfed295-f499-44dc-bac5-9e266df1b5b3
 description: "Office for Android integrates with the Android Storage Access Framework, which enables Office to open files stored by another document provider."
@@ -28,19 +24,13 @@ Users can sign in to the Office apps with a free Microsoft account to create or 
   
 |**Property**|**Index**|**Value**|
 |:-----|:-----|:-----|
-|Document Type  <br/> |com_microsoft_office_doctype  <br/> |\<consumer\>  <br/> |
-|Service Friendly Name  <br/> |com_microsoft_office_servicename  <br/> |Any user-friendly name for the service, used to identify a document in the Recent list in the Office apps. Note that the "Terms of Use Agreement" property must be supplied before the friendly name for the service can be displayed.  <br/> |
-|Terms of Use Agreement  <br/> |com_microsoft_office_termsofuse  <br/> |\<I agree to the terms located at https://go.microsoft.com/fwlink/p/?LinkId=528381\>  <br/> |
+|Document Type  |com_microsoft_office_doctype  |\<consumer\>  |
+|Service Friendly Name  |com_microsoft_office_servicename  Any user-friendly name for the service, used to identify a document in the Recent list in the Office apps. Note that the "Terms of Use Agreement" property must be supplied before the friendly name for the service can be displayed. |
+|Terms of Use Agreement  <br/> |com_microsoft_office_termsofuse |\<I agree to the terms located at https://go.microsoft.com/fwlink/p/?LinkId=528381\>  |
    
 ## See also
-<a name="bk_addresources"> </a>
 
-- [Integrate with Office](integrate-with-office.md)
-    
-- [Content Provider Basics](hhttps://developer.android.com/guide/topics/providers/content-provider-basics.html)
-    
-- [Creating a Content Provider](https://developer.android.com/guide/topics/providers/content-provider-creating.html)
-    
+- [Integrate with Office](integrate-with-office.md)    
+- [Content Provider Basics](https://developer.android.com/guide/topics/providers/content-provider-basics.html)    
+- [Creating a Content Provider](https://developer.android.com/guide/topics/providers/content-provider-creating.html)    
 - [Storage Access Framework Developer Guide](https://developer.android.com/guide/topics/providers/document-provider.html)
-    
-

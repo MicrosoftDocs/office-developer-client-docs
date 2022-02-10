@@ -43,13 +43,13 @@ HANDLE          *phSyncDoneEvent;
     
 ||||
 |:-----|:-----|:-----|
-|SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Send the message to the server (not currently in use).  <br/> |
-|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Push hierarchy changes to the server.  <br/> |
-|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Pull hierarchy changes from server.  <br/> |
-|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Push message changes to server.  <br/> |
-|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Pull message changes from server.  <br/> |
-|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |The sync was initiated by the user and should be a higher priority.  <br/> |
-|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Should only sync headers and not full bodies.  <br/> |
+|SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Send the message to the server (not currently in use). |
+|SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Push hierarchy changes to the server. |
+|SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |Pull hierarchy changes from server. |
+|SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |Push message changes to server. |
+|SYNC_DOWNLOAD_CONTENTS  <br/> |0x00000080  <br/> |Pull message changes from server. |
+|SYNC_ON_DEMAND  <br/> |0x20000000  <br/> |The sync was initiated by the user and should be a higher priority. |
+|SYNC_GLOBAL_HEADERS  <br/> |0x02000000  <br/> |Should only sync headers and not full bodies. |
    
  **psesSync**
   

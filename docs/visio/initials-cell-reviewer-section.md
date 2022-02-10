@@ -26,14 +26,14 @@ To get a reference to the Initials cell by name from another formula, or from a 
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Reviewer.Initials [  *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Reviewer.Initials [  *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Initials cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionReviewer** <br/> |
-| Row index:  <br/> |**visRowReviewer** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowReviewer** +  *i*  where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visReviewerInitials** <br/> |
    
 

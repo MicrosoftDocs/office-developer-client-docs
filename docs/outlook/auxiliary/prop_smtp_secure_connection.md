@@ -28,10 +28,10 @@ The value can be one of the following constants. See [Constants (Account managem
   
 |**Constants**|**Description**|
 |:-----|:-----|
-|**ENCRYPT_CONN_NO_SECURITY** <br/> |Do not use any encryption.  <br/> |
-|**ENCRYPT_CONN_SSL** <br/> |Use Secure Socket Layer (SSL) encryption.  <br/> |
-|**ENCRYPT_CONN_TLS** <br/> |Use Transport Layer Security (TLS) encryption and authentication protocol.  <br/> |
-|**ENCRYPT_CONN_AUTO** <br/> |Automatically detect and use the encryption method supported by the mail server.  <br/> |
+|**ENCRYPT_CONN_NO_SECURITY** <br/> |Do not use any encryption. |
+|**ENCRYPT_CONN_SSL** <br/> |Use Secure Socket Layer (SSL) encryption. |
+|**ENCRYPT_CONN_TLS** <br/> |Use Transport Layer Security (TLS) encryption and authentication protocol. |
+|**ENCRYPT_CONN_AUTO** <br/> |Automatically detect and use the encryption method supported by the mail server. |
    
 ## See also
 

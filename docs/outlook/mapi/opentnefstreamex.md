@@ -118,7 +118,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|File.cpp  <br/> |LoadFromTNEF  <br/> |MFCMAPI uses the **OpenTnefStreamEx** method to open a stream on the TNEF file so properties may be extracted.  <br/> |
+|File.cpp  <br/> |LoadFromTNEF  <br/> |MFCMAPI uses the **OpenTnefStreamEx** method to open a stream on the TNEF file so properties may be extracted. |
    
 ## See also
 

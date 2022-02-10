@@ -27,14 +27,14 @@ To get a reference to the LangID cell by name from another formula, or from a pr
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Char.LangID[  *i*  ]            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Char.LangID[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the LangID cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionCharacter** <br/> |
-| Row index:  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCharacterLangID** <br/> |
    
 

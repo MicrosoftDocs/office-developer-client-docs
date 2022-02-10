@@ -114,7 +114,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI uses the **IMAPITable::QueryRows** method to retrieve rows in the table to load into the view.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |MFCMAPI uses the **IMAPITable::QueryRows** method to retrieve rows in the table to load into the view. |
    
 ## See also
 

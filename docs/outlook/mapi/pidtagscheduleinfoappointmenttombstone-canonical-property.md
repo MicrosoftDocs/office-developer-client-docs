@@ -37,21 +37,21 @@ The data blocks begin with a header of 32 bit values defined as:
   
 |**Value**|**Description**|
 |:-----|:-----|
-|Identifier  <br/> |This field must be the value 0xBEDEAFCD.  <br/> |
-|HeaderSize  <br/> |This field must have the value 0x00000014.  <br/> |
-|Version  <br/> |This field must have the value 3.  <br/> |
-|RecordsCount  <br/> |The count of records that follow.  <br/> |
-|RecordsSize  <br/> |This field must have the value 0x00000014.  <br/> |
+|Identifier  <br/> |This field must be the value 0xBEDEAFCD. |
+|HeaderSize  <br/> |This field must have the value 0x00000014. |
+|Version  <br/> |This field must have the value 3. |
+|RecordsCount  <br/> |The count of records that follow. |
+|RecordsSize  <br/> |This field must have the value 0x00000014. |
    
 The header is followed by **RecordsCount** entries of 32 bit values defined as: 
   
 |**Value**|**Description**|
 |:-----|:-----|
-|StartTime  <br/> |The meeting object's start time in minutes since midnight, January 1, 1601, UTC.  <br/> |
-|EndTime  <br/> |The meeting object's end time in minutes since midnight, January 1, 1601, UTC.  <br/> |
-|GlobalObjectIdSize  <br/> |The size, in bytes, of the GlobalObjectId field.  <br/> |
-|GlobalObjectId  <br/> |The value of the **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) property of the meeting this record represents.  <br/> |
-|UserName  <br/> |The first two bytes are the length of the PT_STRING8 string that follows.  <br/> |
+|StartTime  <br/> |The meeting object's start time in minutes since midnight, January 1, 1601, UTC. |
+|EndTime  <br/> |The meeting object's end time in minutes since midnight, January 1, 1601, UTC. |
+|GlobalObjectIdSize  <br/> |The size, in bytes, of the GlobalObjectId field. |
+|GlobalObjectId  <br/> |The value of the **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) property of the meeting this record represents. |
+|UserName  <br/> |The first two bytes are the length of the PT_STRING8 string that follows. |
    
 ## Related resources
 

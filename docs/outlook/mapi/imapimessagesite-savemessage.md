@@ -50,7 +50,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI uses the **IMAPIMessageSite::SaveMessage** method to save the message.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SaveMessage  <br/> |MFCMAPI uses the **IMAPIMessageSite::SaveMessage** method to save the message. |
    
 ## See also
 

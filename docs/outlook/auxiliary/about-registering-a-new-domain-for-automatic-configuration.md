@@ -21,10 +21,10 @@ In the key, `<domain name>` is the domain for automatic configuration. This doma
   
 | Value | Type | Description |
 |:-----|:-----|:-----|
-|Friendly Name  <br/> |REG_SZ  <br/> |The domain name that is displayed to the user during automatic configuration.  <br/> |
-|Service Name  <br/> |REG_SZ  <br/> |The message service registered in mapisvc.inf that supports this domain.  <br/> |
-|Install Location  <br/> |REG_SZ  <br/> |The URL of the location to install the message service provider, if it is not already installed.  <br/> |
-|Minimum Version  <br/> |REG_DWORD  <br/> |The minimum version of the .dll of the message service provider that is required. This value is optional.  <br/> |
+|Friendly Name  <br/> |REG_SZ  <br/> |The domain name that is displayed to the user during automatic configuration. |
+|Service Name  <br/> |REG_SZ  <br/> |The message service registered in mapisvc.inf that supports this domain. |
+|Install Location  <br/> |REG_SZ  <br/> |The URL of the location to install the message service provider, if it is not already installed. |
+|Minimum Version  <br/> |REG_DWORD  <br/> |The minimum version of the .dll of the message service provider that is required. This value is optional. |
    
 When Outlook begins automatic configuration for an email account, it checks the Windows registry for the registration of the domain specified by the email address. If the domain is already specified in the Windows registry, Outlook checks whether the message service is registered in Mapisvc.inf. Outlook cannot proceed with automatic configuration of the domain unless it has been specified in the Windows registry.
   

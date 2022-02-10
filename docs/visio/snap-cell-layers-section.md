@@ -20,8 +20,8 @@ Determines whether other shapes can snap to shapes assigned to the layer. Shapes
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Other shapes can snap to shapes on the layer.  <br/> |
-|FALSE  <br/> |Other shapes cannot snap to shapes on the layer.  <br/> |
+|TRUE  <br/> |Other shapes can snap to shapes on the layer. |
+|FALSE  <br/> |Other shapes cannot snap to shapes on the layer. |
    
 ## Remarks
 
@@ -31,14 +31,14 @@ To get a reference to the Snap cell by name from another formula, or from a prog
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Snap[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Layers.Snap[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Snap cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visLayerSnap** <br/> |
    
 

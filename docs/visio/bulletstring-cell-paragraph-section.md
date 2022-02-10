@@ -29,14 +29,14 @@ To get a reference to the BulletString cell by name from another formula, or fro
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Para.BulletStr[ *i*  ]           where  *i*  = <1>, 2, 3, ...  <br/> |
+|Cell name:  <br/> |Para.BulletStr[ *i*  ]           where  *i*  = <1>, 2, 3, ... |
    
 To get a reference to the BulletString cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionParagraph** <br/> |
-|Row index:  <br/> |**visRowParagraph** +  *i*           where  *i*  = 0, 1, 2, ...  <br/> |
+|Row index:  <br/> |**visRowParagraph** +  *i*           where  *i*  = 0, 1, 2, ... |
 |Cell index:  <br/> |**visBulletString** <br/> |
    
 

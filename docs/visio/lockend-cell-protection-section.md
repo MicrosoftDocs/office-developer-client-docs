@@ -20,8 +20,8 @@ Locks the endpoint (EndX, EndY) of a 1-D shape to a specific location.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Endpoint is locked.  <br/> |
-| FALSE  <br/> | Endpoint is not locked.  <br/> |
+| TRUE  <br/> | Endpoint is locked. |
+| FALSE  <br/> | Endpoint is not locked. |
    
 ## Remarks
 

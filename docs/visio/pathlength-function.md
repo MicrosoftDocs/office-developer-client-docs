@@ -28,8 +28,8 @@ PATHLENGTH(** *section* ** ** *[,segment]* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path).  <br/> |
-| _segment_ <br/> |Optional  <br/> |**Integer** <br/> |The 1-based segment of the path to measure.  <br/> |
+| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path). |
+| _segment_ <br/> |Optional  <br/> |**Integer** <br/> |The 1-based segment of the path to measure. |
 
 ### Return value
 

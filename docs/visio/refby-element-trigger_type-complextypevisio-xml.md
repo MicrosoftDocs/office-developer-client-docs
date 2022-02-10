@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Provides instructions to Microsoft Visio to recalculate a relationship between document parts in a Visio file.  <br/> |
+|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Provides instructions to Microsoft Visio to recalculate a relationship between document parts in a Visio file. |
 
    
 ### Child elements
@@ -51,7 +51,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the ID attribute of a page in the drawing.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|T  <br/> |xsd:string  <br/> |required  <br/> |Specifies the reference type.  <br/> |Values of the xsd:string type.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the ID attribute of a page in the drawing. |Values of the xsd:unsignedInt type. |
+|T  <br/> |xsd:string  <br/> |required  <br/> |Specifies the reference type. |Values of the xsd:string type. |
    
 

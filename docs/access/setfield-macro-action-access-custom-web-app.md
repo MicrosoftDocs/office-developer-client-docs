@@ -28,8 +28,8 @@ The **SetField** action has the arguments listed in the following table.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-|**Name** <br/> |A string that identifies the field.  <br/> |
-|**Value** <br/> |An expression that specifies the value to assign to the field.  <br/> |
+|**Name** <br/> |A string that identifies the field. |
+|**Value** <br/> |An expression that specifies the value to assign to the field. |
    
 ## Remarks
 

@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Contains an **EventItem** element for each event to which an object should respond.  <br/> |
+|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Contains an **EventItem** element for each event to which an object should respond. |
    
 ### Child elements
 
@@ -50,11 +50,11 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Action  <br/> |xsd:unsignedShort  <br/> |required  <br/> |Specifies the action code of the parent **EventItem** element.  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|Enabled  <br/> |xsd:boolean  <br/> |optional  <br/> |Represents a flag indicating if the event is enabled or disabled.  <br/> |Values of the xsd:boolean type.  <br/> |
-|EventCode  <br/> |xsd:unsignedShort  <br/> |required  <br/> |A code indicating the event that triggers the add-on.  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The ID of the event.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Target  <br/> |xsd:string  <br/> |required  <br/> |Specifies the target of an event.  <br/> |Values of the xsd:string type.  <br/> |
-|TargetArgs  <br/> |xsd:string  <br/> |required  <br/> |Specifies a string containing arguments to be sent to the target of an event.  <br/> |Values of the xsd:string type.  <br/> |
+|Action  <br/> |xsd:unsignedShort  <br/> |required  <br/> |Specifies the action code of the parent **EventItem** element. |Values of the xsd:unsignedShort type. |
+|Enabled  <br/> |xsd:boolean  <br/> |optional  <br/> |Represents a flag indicating if the event is enabled or disabled. |Values of the xsd:boolean type. |
+|EventCode  <br/> |xsd:unsignedShort  <br/> |required  <br/> |A code indicating the event that triggers the add-on. |Values of the xsd:unsignedShort type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The ID of the event. |Values of the xsd:unsignedInt type. |
+|Target  <br/> |xsd:string  <br/> |required  <br/> |Specifies the target of an event. |Values of the xsd:string type. |
+|TargetArgs  <br/> |xsd:string  <br/> |required  <br/> |Specifies a string containing arguments to be sent to the target of an event. |Values of the xsd:string type. |
    
 

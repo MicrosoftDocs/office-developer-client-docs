@@ -20,10 +20,10 @@ The following table shows the members that are available on the **ISocialSession
   
 |**Name**|**Member type**|**Description**|
 |:-----|:-----|:-----|
-|[FollowPersonEx](isocialsession2-followpersonex.md) <br/> |Method  <br/> |Adds the person identified by the  _emailAddresses_ and  _displayName_ parameters as a friend for the logged-on user on the social network.  <br/> |
-|[GetActivitiesEx](isocialsession2-getactivitiesex.md) <br/> |Method  <br/> |Gets a string that represents a collection of activities of the users specified by the  _hashedAddresses_ parameter.  <br/> |
-|[GetPeopleDetails](isocialsession2-getpeopledetails.md) <br/> |Method  <br/> |Returns a string that contains a collection of person and picture details for the users specified by the  _personsAddresses_ parameter.  <br/> |
-|[LogonCached](isocialsession2-logoncached.md) <br/> |Method  <br/> |Logs on to the social network site using cached credentials.  <br/> |
+|[FollowPersonEx](isocialsession2-followpersonex.md) <br/> |Method  <br/> |Adds the person identified by the  _emailAddresses_ and  _displayName_ parameters as a friend for the logged-on user on the social network. |
+|[GetActivitiesEx](isocialsession2-getactivitiesex.md) <br/> |Method  <br/> |Gets a string that represents a collection of activities of the users specified by the  _hashedAddresses_ parameter. |
+|[GetPeopleDetails](isocialsession2-getpeopledetails.md) <br/> |Method  <br/> |Returns a string that contains a collection of person and picture details for the users specified by the  _personsAddresses_ parameter. |
+|[LogonCached](isocialsession2-logoncached.md) <br/> |Method  <br/> |Logs on to the social network site using cached credentials. |
    
 ## Remarks
 

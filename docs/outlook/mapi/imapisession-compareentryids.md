@@ -87,7 +87,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CbaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI uses the **IMAPISession::CompareEntryIDs** method to compare two entry IDs that a user enters.  <br/> |
+|BaseDialog.cpp  <br/> |CbaseDialog::OnCompareEntryIDs  <br/> |MFCMAPI uses the **IMAPISession::CompareEntryIDs** method to compare two entry IDs that a user enters. |
    
 ## See also
 

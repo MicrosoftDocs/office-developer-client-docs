@@ -39,18 +39,18 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Solutions](solutions-elementvisio-xml.md) <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |Stores the properties of the solutions stored in the document.  <br/> |
+|[Solutions](solutions-elementvisio-xml.md) <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |Stores the properties of the solutions stored in the document. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Specifies the relationship to a part with the solution XML associated with this solution.  <br/> |
+|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Specifies the relationship to a part with the solution XML associated with this solution. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Name  <br/> |xsd:string  <br/> |required  <br/> |The name of the solution.  <br/> |Values of the xsd:string type.  <br/> |
+|Name  <br/> |xsd:string  <br/> |required  <br/> |The name of the solution. |Values of the xsd:string type. |
    
 

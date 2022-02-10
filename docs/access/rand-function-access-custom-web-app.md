@@ -26,7 +26,7 @@ The **Rand** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Seed*  <br/> |An integer expression that gives the seed value. If *Seed* is not specified, a seed value is assigned at random.  <br/> |
+| *Seed*  <br/> |An integer expression that gives the seed value. If *Seed* is not specified, a seed value is assigned at random. |
 
 ## Remarks
 

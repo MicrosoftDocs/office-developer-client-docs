@@ -84,7 +84,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI uses the **IMAPIFormMgr::CreateForm** method to create a form before displaying it.  <br/> |
+|MAPIFormFunctions.cpp  <br/> |CreateAndDisplayNewMailInFolder  <br/> |MFCMAPI uses the **IMAPIFormMgr::CreateForm** method to create a form before displaying it. |
    
 ## See also
 

@@ -26,9 +26,9 @@ The rules for allocating and releasing memory for these types of parameters are 
   
 |**Type**|**Memory allocation**|**Memory release**|
 |:-----|:-----|:-----|
-|Input  <br/> |Caller is responsible and can use any mechanism.  <br/> |Caller is responsible and can use any mechanism.  <br/> |
-|Output  <br/> |Called function is responsible and must use **MAPIAllocateBuffer**. For more information, see [MAPIAllocateBuffer](mapiallocatebuffer.md).  <br/> |Caller is responsible and must use **MAPIFreeBuffer**. For more information, see [MAPIFreeBuffer](mapifreebuffer.md).  <br/> |
-|Input-output  <br/> |Caller is responsible for the initial allocation and called function can reallocate if necessary using **MAPIAllocateBuffer**.  <br/> |Called function is responsible for initial freeing if reallocation is necessary. Caller must free the final return value.  <br/> |
+|Input  <br/> |Caller is responsible and can use any mechanism. |Caller is responsible and can use any mechanism. |
+|Output  <br/> |Called function is responsible and must use **MAPIAllocateBuffer**. For more information, see [MAPIAllocateBuffer](mapiallocatebuffer.md). |Caller is responsible and must use **MAPIFreeBuffer**. For more information, see [MAPIFreeBuffer](mapifreebuffer.md). |
+|Input-output  <br/> |Caller is responsible for the initial allocation and called function can reallocate if necessary using **MAPIAllocateBuffer**. |Called function is responsible for initial freeing if reallocation is necessary. Caller must free the final return value. |
    
 During failure conditions, implementers of interface methods need to pay attention to output and input-output parameters because the caller generally has no way to clean them up. If an error is returned, then each output or input-output parameter must either be left at the value initialized by the caller or set to a value that can be cleaned up without any action on the part of the caller. For example, an output pointer-parameter of  `void ** ppv` must be left as it was on input or can be set to NULL (  `*ppv = NULL`).
   

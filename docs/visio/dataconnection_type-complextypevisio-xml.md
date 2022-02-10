@@ -65,12 +65,12 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|Command  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|ConnectionString  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|FileName  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
-|FriendlyName  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Timeout  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
+|AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|Command  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|ConnectionString  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|FileName  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
+|FriendlyName  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|Timeout  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
    
 

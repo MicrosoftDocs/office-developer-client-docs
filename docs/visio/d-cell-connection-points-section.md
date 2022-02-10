@@ -27,14 +27,14 @@ To get a reference to the D cell by name from another formula, or from a program
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Connections.D[  *i*  ]            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Connections.D[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the D cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionConnectionPts** <br/> |
-| Row index:  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCnnctD** <br/> |
    
 

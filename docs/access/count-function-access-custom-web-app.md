@@ -23,7 +23,7 @@ The **Count** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Expression*  <br/> |A string expression identifying the field that contains the data you want to count or an expression that performs a calculation using the data in the field. Operands in *Expression* can include the name of a table field or function (which can be either intrinsic or user-defined but not other SQL aggregate functions). You can count any kind of data, including text.  <br/> |
+| *Expression*  <br/> |A string expression identifying the field that contains the data you want to count or an expression that performs a calculation using the data in the field. Operands in *Expression* can include the name of a table field or function (which can be either intrinsic or user-defined but not other SQL aggregate functions). You can count any kind of data, including text. |
    
 ## Remarks
 

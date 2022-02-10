@@ -20,8 +20,8 @@ Determines whether a connector can route vertically through a shape.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Enable connectors to route vertically through a shape.  <br/> |
-|FALSE  <br/> |Do not let connectors route vertically through a shape.  <br/> |
+|TRUE  <br/> |Enable connectors to route vertically through a shape. |
+|FALSE  <br/> |Do not let connectors route vertically through a shape. |
    
 ## Remarks
 

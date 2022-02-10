@@ -168,8 +168,8 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI uses the **IMAPIProp::CopyProps** method to copy named properties from one message to another.  <br/> |
-|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI uses the **IMAPIProp::CopyProps** method to paste a property that has been copied from another object.  <br/> |
+|MAPIFunctions.cpp  <br/> |CopyNamedProps  <br/> |MFCMAPI uses the **IMAPIProp::CopyProps** method to copy named properties from one message to another. |
+|SingleMAPIPropListCtrl.cpp  <br/> |CSingleMAPIPropListCtrl::OnPasteProperty  <br/> |MFCMAPI uses the **IMAPIProp::CopyProps** method to paste a property that has been copied from another object. |
    
 ## See also
 

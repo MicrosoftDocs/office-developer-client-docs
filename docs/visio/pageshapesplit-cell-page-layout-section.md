@@ -20,8 +20,8 @@ Indicates whether shapes on the page can be automatically split.
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-|0  <br/> |Do not allow automatic shape splitting.  <br/> |**visPLOSplitNone** <br/> |
-|1  <br/> |Allow automatic shape splitting (the default).  <br/> |**visPLOSplitAllow** <br/> |
+|0  <br/> |Do not allow automatic shape splitting. |**visPLOSplitNone** <br/> |
+|1  <br/> |Allow automatic shape splitting (the default). |**visPLOSplitAllow** <br/> |
    
 ## Remarks
 

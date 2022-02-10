@@ -20,8 +20,8 @@ Indicates whether a line has an arrowhead or other line end format at its last v
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |No arrowhead.  <br/> |
-|1 - 45  <br/> |Assorted arrowhead styles that correspond to indexed entries in the **Line** dialog box.  <br/> |
+|0  <br/> |No arrowhead. |
+|1 - 45  <br/> |Assorted arrowhead styles that correspond to indexed entries in the **Line** dialog box. |
    
 ## Remarks
 

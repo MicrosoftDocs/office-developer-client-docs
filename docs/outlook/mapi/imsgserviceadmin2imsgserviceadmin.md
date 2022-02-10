@@ -37,7 +37,7 @@ Makes changes to a message service in a profile.
 
 |||
 |:-----|:-----|
-|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Adds a message service to the current profile and returns that newly added service UID.  <br/> |
+|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Adds a message service to the current profile and returns that newly added service UID. |
    
 ## Remarks
 

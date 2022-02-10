@@ -25,10 +25,10 @@ The **ChangeView** action has the following arguments.
   
 |**Action argument**|**Required**|**Description**|
 |:-----|:-----|:-----|
-|Table  <br/> |Yes  <br/> |The name of the table to open.  <br/> |
-|View  <br/> |Yes  <br/> |The name of the view to open.  <br/> |
-|Where  <br/> |No  <br/> |If specified, replaces the Where condition of the object record source.  <br/> |
-|Order By  <br/> |No  <br/> |A string expression that includes the name of the field or fields on which to sort records and the optional ASC or DESC keywords. By default, this argument is blank.  <br/> |
+|Table  <br/> |Yes  <br/> |The name of the table to open. |
+|View  <br/> |Yes  <br/> |The name of the view to open. |
+|Where  <br/> |No  <br/> |If specified, replaces the Where condition of the object record source. |
+|Order By  <br/> |No  <br/> |A string expression that includes the name of the field or fields on which to sort records and the optional ASC or DESC keywords. By default, this argument is blank. |
 
 ## Remarks
 

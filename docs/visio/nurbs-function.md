@@ -26,14 +26,14 @@ NURBS(** *knotLast* **, ** *degree* **, ** *xType* **, ** *yType* **, ** *x1* **
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _knotLast_ <br/> |Required  <br/> |**string** <br/> | The last knot.  <br/> |
-| _degree_ <br/> |Required  <br/> |**Numeric** <br/> |The spline's degree.  <br/> |
-| _xType_ <br/> |Required  <br/> |**Numeric** <br/> |Specifies how to interpret the  _x_ input data. If  _xType_ is 0, all  _x_ input data is interpreted as a percentage of Width. If  _xType_ is 1, all  _x_ input data is interpreted as local coordinates.  <br/> |
-| _yType_ <br/> |Required  <br/> |**Numeric** <br/> |Specifies how to interpret the  _y_ input data. If  _yType_ is 0, all  _y_ input data is interpreted as a percentage of Height. If  _yType_ is 1, all  _y_ input data is interpreted as local coordinates.  <br/> |
-| _x1_ <br/> |Required  <br/> |**String** <br/> |An x-coordinate.  <br/> |
-| _y1_ <br/> |Required  <br/> |**String** <br/> |A y-coordinate.  <br/> |
-| _knot1_ <br/> |Required  <br/> |**String** <br/> |A knot on the B-spline.  <br/> |
-| _weight1_ <br/> |Required  <br/> |**String** <br/> |A weight on the B-spline.  <br/> |
+| _knotLast_ <br/> |Required  <br/> |**string** <br/> | The last knot. |
+| _degree_ <br/> |Required  <br/> |**Numeric** <br/> |The spline's degree. |
+| _xType_ <br/> |Required  <br/> |**Numeric** <br/> |Specifies how to interpret the  _x_ input data. If  _xType_ is 0, all  _x_ input data is interpreted as a percentage of Width. If  _xType_ is 1, all  _x_ input data is interpreted as local coordinates. |
+| _yType_ <br/> |Required  <br/> |**Numeric** <br/> |Specifies how to interpret the  _y_ input data. If  _yType_ is 0, all  _y_ input data is interpreted as a percentage of Height. If  _yType_ is 1, all  _y_ input data is interpreted as local coordinates. |
+| _x1_ <br/> |Required  <br/> |**String** <br/> |An x-coordinate. |
+| _y1_ <br/> |Required  <br/> |**String** <br/> |A y-coordinate. |
+| _knot1_ <br/> |Required  <br/> |**String** <br/> |A knot on the B-spline. |
+| _weight1_ <br/> |Required  <br/> |**String** <br/> |A weight on the B-spline. |
    
 ## Remarks
 

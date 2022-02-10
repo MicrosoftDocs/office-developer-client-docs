@@ -193,23 +193,23 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Container  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ContainerType  <br/> |xsd:token  <br/> |optional  <br/> ||Values of the xsd:token type.  <br/> |
-|Document  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Master  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Page  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ParentWindow  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ReadOnly  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|Sheet  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ViewCenterX  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|ViewCenterY  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|ViewScale  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|WindowHeight  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|WindowLeft  <br/> |xsd:short  <br/> |optional  <br/> ||Values of the xsd:short type.  <br/> |
-|WindowState  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|WindowTop  <br/> |xsd:short  <br/> |optional  <br/> ||Values of the xsd:short type.  <br/> |
-|WindowType  <br/> |xsd:token  <br/> |required  <br/> ||Values of the xsd:token type.  <br/> |
-|WindowWidth  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
+|Container  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|ContainerType  <br/> |xsd:token  <br/> |optional  <br/> ||Values of the xsd:token type. |
+|Document  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|Master  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|Page  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|ParentWindow  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|ReadOnly  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|Sheet  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|ViewCenterX  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|ViewCenterY  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|ViewScale  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|WindowHeight  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|WindowLeft  <br/> |xsd:short  <br/> |optional  <br/> ||Values of the xsd:short type. |
+|WindowState  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|WindowTop  <br/> |xsd:short  <br/> |optional  <br/> ||Values of the xsd:short type. |
+|WindowType  <br/> |xsd:token  <br/> |required  <br/> ||Values of the xsd:token type. |
+|WindowWidth  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
    
 

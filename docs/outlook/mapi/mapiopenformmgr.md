@@ -61,7 +61,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MainDlg.cpp opens the form manager so a form can be selected.  <br/> |CMainDlg::OnSelectForm  <br/> |MFCMAPI uses the **MAPIOpenFormMgr** method to open the form manager so a form can be selected.  <br/> |
+|MainDlg.cpp opens the form manager so a form can be selected. |CMainDlg::OnSelectForm  <br/> |MFCMAPI uses the **MAPIOpenFormMgr** method to open the form manager so a form can be selected. |
    
 ## See also
 

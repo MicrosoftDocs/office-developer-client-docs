@@ -15,6 +15,6 @@ This section describes the interfaces that Outlook exports.
   
 |**Interface**|**Description**|
 |:-----|:-----|
-|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Supports rebasing appointments in a calendar folder.  <br/> |
+|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Supports rebasing appointments in a calendar folder. |
    
 

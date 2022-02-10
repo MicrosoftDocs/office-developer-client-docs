@@ -68,20 +68,20 @@ In a cross-forest configuration, **PR_DISPLAY_TYPE** has the value of DT_REMOTE_
   
 |**Type of Remote Entry**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|DT_AGENT  <br/> |((ULONG) 0x00000003)  <br/> |Dynamic distribution list.  <br/> |
-|DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Distribution list.  <br/> |
-|DT_EQUIPMENT  <br/> |((ULONG) 0x00000008)  <br/> |Equipment, for example, a printer or a projector.  <br/> |
-|DT_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |User with a mailbox.  <br/> |
-|DT_REMOTE_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |An address list entry in the Global Address List.  <br/> |
-|DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |Conference room.  <br/> |
-|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Security distribution list.  <br/> |
+|DT_AGENT  <br/> |((ULONG) 0x00000003)  <br/> |Dynamic distribution list. |
+|DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Distribution list. |
+|DT_EQUIPMENT  <br/> |((ULONG) 0x00000008)  <br/> |Equipment, for example, a printer or a projector. |
+|DT_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |User with a mailbox. |
+|DT_REMOTE_MAILUSER  <br/> |((ULONG) 0x00000000)  <br/> |An address list entry in the Global Address List. |
+|DT_ROOM  <br/> |((ULONG) 0x00000007)  <br/> |Conference room. |
+|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Security distribution list. |
    
 In both a single forest and in a cross-forest configuration, when **PR_DISPLAY_TYPE** has the value of DT_DISTLIST and DTE_IS_REMOTE_VALID is false, applying the DTE_LOCAL macro to the value of this property can let you obtain the type of the distribution list. The possible types of distribution list are the following: 
   
 |**Type of Distribution List**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Distribution list.  <br/> |
-|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Security distribution list.  <br/> |
+|DT_DISTLIST  <br/> |((ULONG) 0x00000001)  <br/> |Distribution list. |
+|DT_SEC_DISTLIST  <br/> |((ULONG) 0x00000009)  <br/> |Security distribution list. |
    
 ## Related resources
 

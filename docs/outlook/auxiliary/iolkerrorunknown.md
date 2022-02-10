@@ -1,7 +1,7 @@
 ---
 title: "IOlkErrorUnknown"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
@@ -16,15 +16,15 @@ Provides extra information about the last error.
 
 |||
 |:-----|:-----|
-|Inherits from:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
-|Provided by:  <br/> |Client  <br/> |
-|Interface identifier:  <br/> |IID_IOlkErrorUnknown  <br/> |
+|Inherits from:   |[IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown.md) |
+|Provided by:   |Client  |
+|Interface identifier:   |IID_IOlkErrorUnknown  |
    
 ## Vtable order
 
 |||
 |:-----|:-----|
-|[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Gets a message string for the specified error.  <br/> |
+|[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Gets a message string for the specified error. |
    
 ## Remarks
 
@@ -33,4 +33,3 @@ This interface provides extra information about an error in [IOlkAccountManager]
 ## See also
 
 - [About the Account Management API](about-the-account-management-api.md)
-

@@ -1,7 +1,7 @@
 ---
 title: "DTCTL"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d1589e9-b171-427a-9a3e-b4154ee8ceb6
-description: "Last modified: March 09, 2015"
+description: "Describes a control that will be used in a dialog box built from a display table."
 ---
 
 # DTCTL
@@ -22,7 +22,7 @@ Describes a control that will be used in a dialog box built from a display table
   
 |||
 |:-----|:-----|
-|Header file:  <br/> |Mapidefs.h  <br/> |
+|Header file:  <br/> |Mapidefs.h |
    
 ```cpp
 typedef struct
@@ -149,11 +149,11 @@ DT_SET_IMMEDIATE
     
 |**Character**|**Description**|
 |:-----|:-----|
-| `*` <br/> | Any character is allowed (for example, `"*"`).  <br/> |
-| `[ ]` <br/> |Defines a set of characters (for example, `"[0123456789]"`.)  <br/> |
-| `-` <br/> |Indicates a range of characters (for example, `"[a-z]"`).  <br/> |
-| `~` <br/> |Indicates that these characters are not allowed (for example, `"[~0-9]")`. <br/>|   
-| `\` <br/> |Used to quote any of the previous symbols (for example, `"[\-\\\[\]]"` means -, \, [, and ] characters are allowed).  <br/> |
+| `*`  | Any character is allowed (for example, `"*"`). |
+| `[ ]`|Defines a set of characters (for example, `"[0123456789]"`.) |
+| `-`  |Indicates a range of characters (for example, `"[a-z]"`). |
+| `~`  |Indicates that these characters are not allowed (for example, `"[~0-9]")`. |   
+| `\`  |Used to quote any of the previous symbols (for example, `"[\-\\\[\]]"` means -, \, [, and ] characters are allowed). |
    
 **ulItemID**
   
@@ -193,4 +193,3 @@ For an overview of display tables, see [Display Tables](display-tables.md). For 
 - [DTBLPAGE](dtblpage.md)
 - [DTBLRADIOBUTTON](dtblradiobutton.md)
 - [MAPI Structures](mapi-structures.md)
-

@@ -48,10 +48,10 @@ _rgAccts_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call succeeded.  <br/> |
-|E_ACCT_WRONG_SORT_ORDER  <br/> |The new sort order has a different number of accounts than the old sort order.  <br/> |
-|E_INVALIDARG  <br/> |One or more arguments are invalid.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
+|S_OK  <br/> |The call succeeded. |
+|E_ACCT_WRONG_SORT_ORDER  <br/> |The new sort order has a different number of accounts than the old sort order. |
+|E_INVALIDARG  <br/> |One or more arguments are invalid. |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use. |
    
 ## Remarks
 

@@ -42,11 +42,11 @@ Messaging users and distribution lists have a set of five properties that are kn
   
 |**Base address property**|**Description**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Type of address for the recipient. Each address type follows a particular format and is used with a particular messaging system.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Displayable name for the recipient.  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Address of the recipient.  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Entry identifier used to access the recipient.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Binary comparable key used to identify the recipient.  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Type of address for the recipient. Each address type follows a particular format and is used with a particular messaging system. |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Displayable name for the recipient. |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Address of the recipient. |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Entry identifier used to access the recipient. |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Binary comparable key used to identify the recipient. |
    
 MAPI defines many groups of properties that are variations of the base address properties. These other groups describe messaging users and distribution lists in different situations. For example, one group of properties describes the delegate sender of a message and another group the delegate recipient.
   

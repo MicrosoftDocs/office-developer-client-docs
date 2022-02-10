@@ -26,14 +26,14 @@ To get a reference to the Value cell by name from another formula, or from a pro
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Fields.Value[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Fields.Value[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Value cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionTextField** <br/> |
-|Row index:  <br/> |**visRowField** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowField** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visFieldCell** <br/> |
    
 

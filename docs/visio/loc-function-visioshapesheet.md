@@ -26,7 +26,7 @@ LOC(** *point* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Required  <br/> |**String** <br/> | A point defined in one shape's local coordinates.  <br/> |
+| _point_ <br/> |Required  <br/> |**String** <br/> | A point defined in one shape's local coordinates. |
    
 ### Return value
 

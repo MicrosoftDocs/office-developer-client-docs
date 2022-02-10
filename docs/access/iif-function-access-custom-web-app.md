@@ -24,9 +24,9 @@ The **IIf** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Condition*  <br/> |The expression that you want to evaluate.  <br/> |
-| *TrueValue*  <br/> |Value or expression returned if *Condition*  is True.  <br/> |
-| *FalseValue*  <br/> |Value or expression returned if *Condition*  is False.  <br/> |
+| *Condition*  <br/> |The expression that you want to evaluate. |
+| *TrueValue*  <br/> |Value or expression returned if *Condition*  is True. |
+| *FalseValue*  <br/> |Value or expression returned if *Condition*  is False. |
 
 ## Example
 

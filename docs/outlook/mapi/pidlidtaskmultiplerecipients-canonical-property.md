@@ -38,9 +38,9 @@ If set, this property must be set to a bitwise **OR** operation of zero or more 
   
 |**Name**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|Sent  <br/> |0x00000001  <br/> |The task has multiple primary recipients.  <br/> |
-|Received  <br/> |0x00000002  <br/> |Although the Sent hint was not present, the client detected that the task has multiple primary recipients.  <br/> |
-|Reserved  <br/> |0x00000004  <br/> |This value is reserved.  <br/> |
+|Sent  <br/> |0x00000001  <br/> |The task has multiple primary recipients. |
+|Received  <br/> |0x00000002  <br/> |Although the Sent hint was not present, the client detected that the task has multiple primary recipients. |
+|Reserved  <br/> |0x00000004  <br/> |This value is reserved. |
    
 ## Related resources
 

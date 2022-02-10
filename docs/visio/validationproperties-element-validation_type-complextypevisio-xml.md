@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stores information about diagram validation for the document.  <br/> |
+|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Stores information about diagram validation for the document. |
    
 ### Child elements
 
@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|LastValidated  <br/> |xsd:dateTime  <br/> |required  <br/> |The date and time that the document was last validated.  <br/> |Values of the xsd:dateTime type.  <br/> |
-|ShowIgnored  <br/> |xsd:boolean  <br/> |required  <br/> |Specifies whether to show ignored validation issues in the Issues window.  <br/> |Values of the xsd:boolean type.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |required  <br/> |The date and time that the document was last validated. |Values of the xsd:dateTime type. |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |required  <br/> |Specifies whether to show ignored validation issues in the Issues window. |Values of the xsd:boolean type. |
    
 
