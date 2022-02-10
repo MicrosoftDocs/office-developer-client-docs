@@ -37,9 +37,9 @@ The possible values for **PR_AGING_GRANULARITY** can be one of the following.
   
 |**Name**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** is defined in number of months.  <br/> |
-|**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** is defined in number of weeks.  <br/> |
-|**AG_DAYS** <br/> |2  <br/> |**PR_AGING_PERIOD** is defined in number of days.  <br/> |
+|**AG_MONTHS** <br/> |0  <br/> |**PR_AGING_PERIOD** is defined in number of months. |
+|**AG_WEEKS** <br/> |1  <br/> |**PR_AGING_PERIOD** is defined in number of weeks. |
+|**AG_DAYS** <br/> |2  <br/> |**PR_AGING_PERIOD** is defined in number of days. |
    
 The length of time that an item remains in a folder before the item is archived is determined by two properties, [PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md) and **PR_AGING_GRANULARITY**. **PR_AGING_PERIOD** represents the number of time units that the item remains in the folder before it is archived. 
   

@@ -34,8 +34,8 @@ _ppunk_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call succeeded.  <br/> |
-|S_FALSE  <br/> |The enumerator has reached the end.  <br/> |
+|S_OK  <br/> |The call succeeded. |
+|S_FALSE  <br/> |The enumerator has reached the end. |
    
 ## Remarks
 

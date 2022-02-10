@@ -25,6 +25,6 @@ The **MessageBox** action has the following argument.
   
 |**Action argument**|**Description**|
 |:-----|:-----|
-|Message  <br/> |The text in the message box. You can type up to 255 characters or enter an expression (preceded by an equal sign).  <br/> |
+|Message  <br/> |The text in the message box. You can type up to 255 characters or enter an expression (preceded by an equal sign). |
    
 

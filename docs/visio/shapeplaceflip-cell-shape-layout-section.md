@@ -20,11 +20,11 @@ Determines how a placeable shape flips, rotates, or both on the page when you ar
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-|0  <br/> |Use page default.  <br/> |**visLOFlipDefault** <br/> |
-|1  <br/> |Flip horizontal.  <br/> |**visLOFlipX** <br/> |
-|2  <br/> |Flip vertical.  <br/> |**visLOFlipY** <br/> |
-|4  <br/> |Flip in 90 degree increments between 0 and 270.  <br/> |**visLOFlipRotate** <br/> |
-|8  <br/> |Do not flip.  <br/> |**visLOFlipNone** <br/> |
+|0  <br/> |Use page default. |**visLOFlipDefault** <br/> |
+|1  <br/> |Flip horizontal. |**visLOFlipX** <br/> |
+|2  <br/> |Flip vertical. |**visLOFlipY** <br/> |
+|4  <br/> |Flip in 90 degree increments between 0 and 270. |**visLOFlipRotate** <br/> |
+|8  <br/> |Do not flip. |**visLOFlipNone** <br/> |
    
 ## Remarks
 

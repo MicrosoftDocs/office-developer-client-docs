@@ -27,6 +27,6 @@ The **Lower** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |A text expression.  <br/> |
+| *TextExpression*  <br/> |A text expression. |
    
 

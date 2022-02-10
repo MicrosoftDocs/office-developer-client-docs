@@ -65,11 +65,11 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Action  <br/> |xsd:unsignedShort  <br/> |required  <br/> ||Values of the xsd:unsignedShort type.  <br/> |
-|Enabled  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
-|EventCode  <br/> |xsd:unsignedShort  <br/> |required  <br/> ||Values of the xsd:unsignedShort type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|Target  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
-|TargetArgs  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
+|Action  <br/> |xsd:unsignedShort  <br/> |required  <br/> ||Values of the xsd:unsignedShort type. |
+|Enabled  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
+|EventCode  <br/> |xsd:unsignedShort  <br/> |required  <br/> ||Values of the xsd:unsignedShort type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|Target  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
+|TargetArgs  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
    
 

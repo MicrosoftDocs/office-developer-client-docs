@@ -36,10 +36,10 @@ Outlook exposes the following dispatch identifiers (dispids) so that developers 
   
 |**Associated constant**|**Dispid value**|**Description**|**Applicable interface**|
 |:-----|:-----|:-----|:-----|
-|**dispidFDirty** <br/> |0xF024  <br/> |Used to invoke the corresponding property on an item to verify whether the item has been modified but has not been saved.  <br/> |Item-level objects  <br/> |
-|**dispidShowSenderPhoto** <br/> |0xF0D0  <br/> |Used to invoke the corresponding method on the explorer or inspector to specify whether to display a contact's picture, based on a given argument.  <br/> |Explorer or inspector  <br/> |
-|**dispidBeforePrint** <br/> |0xFC8E  <br/> |Used to handle the event from the **IDispatch::Invoke** function that fires before a printing operation.  <br/> |Application  <br/> |
-|**dispidEventReadComplete** <br/> |0xFC8F  <br/> |Used to handle the event from the **IDispatch::Invoke** function that fires when Outlook has completed reading the properties of the item.  <br/> |Item-level objects  <br/> |
+|**dispidFDirty** <br/> |0xF024  <br/> |Used to invoke the corresponding property on an item to verify whether the item has been modified but has not been saved. |Item-level objects  <br/> |
+|**dispidShowSenderPhoto** <br/> |0xF0D0  <br/> |Used to invoke the corresponding method on the explorer or inspector to specify whether to display a contact's picture, based on a given argument. |Explorer or inspector  <br/> |
+|**dispidBeforePrint** <br/> |0xFC8E  <br/> |Used to handle the event from the **IDispatch::Invoke** function that fires before a printing operation. |Application  <br/> |
+|**dispidEventReadComplete** <br/> |0xFC8F  <br/> |Used to handle the event from the **IDispatch::Invoke** function that fires when Outlook has completed reading the properties of the item. |Item-level objects  <br/> |
    
 ## See also
 

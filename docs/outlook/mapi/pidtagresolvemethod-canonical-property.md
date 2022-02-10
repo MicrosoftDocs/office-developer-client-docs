@@ -37,9 +37,9 @@ This property on the folder containing the conflict resolution message will indi
   
 |||
 |:-----|:-----|
-|RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |Conflict resolve message should be generated.  <br/> |
-|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Overwrite target message with current changes being applied.  <br/> |
-|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |Do not send conflict notification message when generating conflict resolve message in public folder.  <br/> |
+|RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |Conflict resolve message should be generated. |
+|RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Overwrite target message with current changes being applied. |
+|RESOLVE_NO_CONFLICT_NOTIFICATION (0x00000002)  <br/> |Do not send conflict notification message when generating conflict resolve message in public folder. |
    
 A client or server must not generate a conflict resolve message for associated messages. These messages must be resolved by using **RESOLVE_METHOD_LAST_WRITER_WINS** semantics. 
   

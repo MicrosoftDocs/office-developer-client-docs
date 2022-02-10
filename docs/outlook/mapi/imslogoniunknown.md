@@ -37,13 +37,13 @@ Accesses resources in a message store logon object.
 
 |||
 |:-----|:-----|
-|[GetLastError](imslogon-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the last error that occurred for the message store object.  <br/> |
-|[Logoff](imslogon-logoff.md) <br/> |Logs off a message store provider.  <br/> |
-|[OpenEntry](imslogon-openentry.md) <br/> |Opens a folder or message object and returns a pointer to the object to provide further access.  <br/> |
-|[CompareEntryIDs](imslogon-compareentryids.md) <br/> |Compares two entry identifiers to determine whether they refer to the same object.  <br/> |
-|[Advise](imslogon-advise.md) <br/> |Registers an object with a message store provider for notifications about changes in the message store.  <br/> |
-|[Unadvise](imslogon-unadvise.md) <br/> |Removes an object's registration for notification of message store changes previously established by using a call to the **IMSLogon::Advise** method.  <br/> |
-|[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |Opens a status object.  <br/> |
+|[GetLastError](imslogon-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the last error that occurred for the message store object. |
+|[Logoff](imslogon-logoff.md) <br/> |Logs off a message store provider. |
+|[OpenEntry](imslogon-openentry.md) <br/> |Opens a folder or message object and returns a pointer to the object to provide further access. |
+|[CompareEntryIDs](imslogon-compareentryids.md) <br/> |Compares two entry identifiers to determine whether they refer to the same object. |
+|[Advise](imslogon-advise.md) <br/> |Registers an object with a message store provider for notifications about changes in the message store. |
+|[Unadvise](imslogon-unadvise.md) <br/> |Removes an object's registration for notification of message store changes previously established by using a call to the **IMSLogon::Advise** method. |
+|[OpenStatusEntry](imslogon-openstatusentry.md) <br/> |Opens a status object. |
    
 ## Remarks
 

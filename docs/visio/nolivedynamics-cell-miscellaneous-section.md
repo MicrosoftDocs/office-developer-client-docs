@@ -20,8 +20,8 @@ Determines whether a shape dynamically resizes or rotates as you are manipulatin
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Do not dynamically update the shape while you are manipulating it.  <br/> |
-| FALSE  <br/> | Dynamically update the shape while you are manipulating it.  <br/> |
+| TRUE  <br/> | Do not dynamically update the shape while you are manipulating it. |
+| FALSE  <br/> | Dynamically update the shape while you are manipulating it. |
    
 ## Remarks
 

@@ -38,9 +38,9 @@ This property must be one of the following values.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |The task is not assigned.  <br/> |
-|0x00000001  <br/> |The task is the task assigner's copy of the task.  <br/> |
-|0x00000002  <br/> |The task is the task assignee's copy of the task.  <br/> |
+|0x00000000  <br/> |The task is not assigned. |
+|0x00000001  <br/> |The task is the task assigner's copy of the task. |
+|0x00000002  <br/> |The task is the task assignee's copy of the task. |
    
 ## Related resources
 

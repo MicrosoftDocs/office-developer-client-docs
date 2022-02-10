@@ -32,7 +32,7 @@ Allows Microsoft Outlook 2010 and Microsoft Outlook 2013 solutions to find out i
 
 |||
 |:-----|:-----|
-|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Checks if a specified attachment is blocked by Outlook 2010 or Outlook 2013 for viewing and indexing.  <br/> |
+|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Checks if a specified attachment is blocked by Outlook 2010 or Outlook 2013 for viewing and indexing. |
    
 ## Remarks
 

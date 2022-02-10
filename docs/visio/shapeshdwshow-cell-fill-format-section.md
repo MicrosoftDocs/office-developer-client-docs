@@ -18,9 +18,9 @@ Determines whether the shape displays a shadow, as an integer from 0 to 2.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Always display the shadow if a shadow is specified. The shadows for sub-shapes are not displayed.  <br/> |
-|1  <br/> |Do not render a shadow unless the shape does not have a parent. Use sub-shape shadows if grouped together.  <br/> |
-|2  <br/> |Always display a shadow if a shadow is specified. The shadows for sub-shapes are displayed.  <br/> |
+|0  <br/> |Always display the shadow if a shadow is specified. The shadows for sub-shapes are not displayed. |
+|1  <br/> |Do not render a shadow unless the shape does not have a parent. Use sub-shape shadows if grouped together. |
+|2  <br/> |Always display a shadow if a shadow is specified. The shadows for sub-shapes are displayed. |
    
 ## Remarks
 

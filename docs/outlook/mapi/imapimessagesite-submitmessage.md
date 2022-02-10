@@ -58,7 +58,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI uses the **IMAPIMessageSite::SubmitMessage** method to save the message. First, it calls the **IPersistMessage::HandsOffMessage** method, and then it calls **SubmitMessage**.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::SubmitMessage  <br/> |MFCMAPI uses the **IMAPIMessageSite::SubmitMessage** method to save the message. First, it calls the **IPersistMessage::HandsOffMessage** method, and then it calls **SubmitMessage**. |
    
 ## See also
 

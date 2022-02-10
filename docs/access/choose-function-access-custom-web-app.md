@@ -23,8 +23,8 @@ The **Choose** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *IndexNumber*  <br/> |An integer expression that represents a 1-based index into the list of the items following it.  <br/> |
-| *Value*  <br/> |List of values of any data type.  <br/> |
+| *IndexNumber*  <br/> |An integer expression that represents a 1-based index into the list of the items following it. |
+| *Value*  <br/> |List of values of any data type. |
 
 ## Remarks
 

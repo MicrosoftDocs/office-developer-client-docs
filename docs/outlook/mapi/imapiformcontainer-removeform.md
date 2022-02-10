@@ -52,7 +52,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMAPIFormContainer::RemoveForm** method to delete a form from a form container.  <br/> |
+|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMAPIFormContainer::RemoveForm** method to delete a form from a form container. |
    
 ## See also
 

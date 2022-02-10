@@ -22,17 +22,17 @@ MAPI defines a set of interfaces that relate to message store providers. Because
   
 |**Interface**|**Status**|**Description**|
 |:-----|:-----|:-----|
-|[IMSProvider](imsprovideriunknown.md) <br/> |Required  <br/> |Logs on to and off of a message store.  <br/> |
-|[IMSLogon](imslogoniunknown.md) <br/> |Required  <br/> |Opens folders or messages, verifies the message store's identity, and handles notifications.  <br/> |
-|[IMsgStore](imsgstoreimapiprop.md) <br/> |Required  <br/> |Opens folders or messages, finds special folders, and handles message submissions.  <br/> |
-|[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Required  <br/> |Finds and manipulates messages and subfolders.  <br/> |
-|[IMessage](imessageimapiprop.md) <br/> |Required  <br/> |Manipulates attachments and sets some of a message's properties.  <br/> |
-|[IMAPITable](imapitableiunknown.md) <br/> |Required  <br/> |Enables other objects to present collections of data to various MAPI components.  <br/> |
-|[IMAPIStatus](imapistatusimapiprop.md) <br/> |Required  <br/> |Enables clients to validate the state of a message store and to perform some configuration tasks.  <br/> |
-|[IAttach](iattachimapiprop.md) <br/> |Optional  <br/> |Accesses message attachment properties if the store provider supports file attachments.  <br/> |
-|**IStorage** <br/> |Optional  <br/> |Manages structured storage objects if the store provider supports OLE object attachments.  <br/> |
-|**IStream** <br/> |Optional  <br/> |Enables message and attachment objects to read and write data to stream objects.  <br/> |
-|**IStreamDocfile** <br/> |Optional  <br/> |Enables some service providers to open a storage object, such as a compound file in the OLE 2.0 file format.  <br/> |
+|[IMSProvider](imsprovideriunknown.md) <br/> |Required  <br/> |Logs on to and off of a message store. |
+|[IMSLogon](imslogoniunknown.md) <br/> |Required  <br/> |Opens folders or messages, verifies the message store's identity, and handles notifications. |
+|[IMsgStore](imsgstoreimapiprop.md) <br/> |Required  <br/> |Opens folders or messages, finds special folders, and handles message submissions. |
+|[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Required  <br/> |Finds and manipulates messages and subfolders. |
+|[IMessage](imessageimapiprop.md) <br/> |Required  <br/> |Manipulates attachments and sets some of a message's properties. |
+|[IMAPITable](imapitableiunknown.md) <br/> |Required  <br/> |Enables other objects to present collections of data to various MAPI components. |
+|[IMAPIStatus](imapistatusimapiprop.md) <br/> |Required  <br/> |Enables clients to validate the state of a message store and to perform some configuration tasks. |
+|[IAttach](iattachimapiprop.md) <br/> |Optional  <br/> |Accesses message attachment properties if the store provider supports file attachments. |
+|**IStorage** <br/> |Optional  <br/> |Manages structured storage objects if the store provider supports OLE object attachments. |
+|**IStream** <br/> |Optional  <br/> |Enables message and attachment objects to read and write data to stream objects. |
+|**IStreamDocfile** <br/> |Optional  <br/> |Enables some service providers to open a storage object, such as a compound file in the OLE 2.0 file format. |
    
 The basic information you need to implement **IMAPIFolder**, **IMessage**, **IMAPIStatus**, and **IMAPITable** is documented in the reference topics for these interfaces. This section contains supplementary information that is more directly related to message store providers. The rest of the MAPI interfaces should be implemented according to the information in this section and in the appropriate reference topics. See the COM and ActiveX Object Services section in the Windows SDK for more information about implementing **IStorage**, **IStream**, and **IStreamDocFile**.
   

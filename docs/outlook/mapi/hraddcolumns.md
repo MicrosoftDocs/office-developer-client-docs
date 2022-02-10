@@ -24,7 +24,7 @@ Adds or moves columns to the beginning of an existing table.
 |:-----|:-----|
 |Header file:  <br/> |mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
-|Called by:  <br/> |Client applications and service providers.  <br/> |
+|Called by:  <br/> |Client applications and service providers. |
    
 ```cpp
 HRESULT HrAddColumns(

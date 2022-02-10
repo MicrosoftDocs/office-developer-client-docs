@@ -20,7 +20,7 @@ Determines the transparency level for the foreground (fill) color of the shape's
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0 - 100  <br/> |Represents the percentage of transparency. The default is 0% (completely opaque).  <br/> |
+|0 - 100  <br/> |Represents the percentage of transparency. The default is 0% (completely opaque). |
    
 ## Remarks
 

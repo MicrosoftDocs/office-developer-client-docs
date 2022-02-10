@@ -27,13 +27,13 @@ Data elements in this stream are stored in little-endian byte order, immediately
     
     |**Flag name**|**Value**|**Description**|
     |:-----|:-----|:-----|
-    |PDO_IS_CUSTOM  <br/> |0x00000001  <br/> |The FieldDefinition structure contains a definition of a user-defined field.  <br/> |
-    |PDO_REQUIRED  <br/> |0x00000002  <br/> |For a form control bound to this field, the check box for **A value is required for this field** is selected in the **Validation** tab of the **Properties** dialog box.  <br/> |
-    |PDO_PRINT_SAVEAS  <br/> |0x00000004  <br/> |For a form control bound to this field, the check box for **Include this field for printing and Save As** is selected in the **Validation** tab of the **Properties** dialog box.  <br/> |
-    |PDO_CALC_AUTO  <br/> |0x00000008  <br/> |For a form control bound to this field, the check box for **Calculate this formula automatically** is selected in the **Value** tab of the **Properties** dialog box.  <br/> |
-    |PDO_FT_CONCAT  <br/> |0x00000010  <br/> |This is a field of type **Combination** and it has the **Joining fields and any text fragments with each other** option selected in its **Combination Formula Field** dialog box.  <br/> |
-    |PDO_FT_SWITCH  <br/> |0x00000020  <br/> |This field is of type **Combination** and has the **Showing only the first non-empty field, ignoring subsequent ones** option selected in the **Combination Formula Field** dialog box.  <br/> |
-    |PDO_PRINT_SAVEAS_DEF  <br/> |0x00000040  <br/> |This flag is not used by Outlook, but it is included for all user-defined field definitions.  <br/> |
+    |PDO_IS_CUSTOM  <br/> |0x00000001  <br/> |The FieldDefinition structure contains a definition of a user-defined field. |
+    |PDO_REQUIRED  <br/> |0x00000002  <br/> |For a form control bound to this field, the check box for **A value is required for this field** is selected in the **Validation** tab of the **Properties** dialog box. |
+    |PDO_PRINT_SAVEAS  <br/> |0x00000004  <br/> |For a form control bound to this field, the check box for **Include this field for printing and Save As** is selected in the **Validation** tab of the **Properties** dialog box. |
+    |PDO_CALC_AUTO  <br/> |0x00000008  <br/> |For a form control bound to this field, the check box for **Calculate this formula automatically** is selected in the **Value** tab of the **Properties** dialog box. |
+    |PDO_FT_CONCAT  <br/> |0x00000010  <br/> |This is a field of type **Combination** and it has the **Joining fields and any text fragments with each other** option selected in its **Combination Formula Field** dialog box. |
+    |PDO_FT_SWITCH  <br/> |0x00000020  <br/> |This field is of type **Combination** and has the **Showing only the first non-empty field, ignoring subsequent ones** option selected in the **Combination Formula Field** dialog box. |
+    |PDO_PRINT_SAVEAS_DEF  <br/> |0x00000040  <br/> |This flag is not used by Outlook, but it is included for all user-defined field definitions. |
    
 - VT: WORD (2 bytes), the data type of the field, which is a constant from the [VARENUM](https://msdn.microsoft.com/library/system.runtime.interopservices.varenum.aspx) enumeration. 
     
@@ -64,12 +64,12 @@ Data elements in this stream are stored in little-endian byte order, immediately
     |iTypeBool  <br/> |4  <br/> |**Yes/No** <br/> |
     |iTypeDateTime  <br/> |5  <br/> |**Date/Time** <br/> |
     |iTypeDuration  <br/> |6  <br/> |**Duration** <br/> |
-    |iTypeCombination  <br/> |7  <br/> |**Combination**, with the **Showing only the first non-empty field, ignoring subsequent ones** option selected in the **Combination Formula Field** dialog box.  <br/> |
+    |iTypeCombination  <br/> |7  <br/> |**Combination**, with the **Showing only the first non-empty field, ignoring subsequent ones** option selected in the **Combination Formula Field** dialog box. |
     |iTypeFormula  <br/> |8  <br/> |**Formula** <br/> |
-    |iTypeResult  <br/> |9  <br/> |This type is not used for user-defined fields.  <br/> |
-    |iTypeVariant  <br/> |10  <br/> |This type is not used for user-defined fields.  <br/> |
-    |iTypeFloatResult  <br/> |11  <br/> |This type is not used for user-defined fields.  <br/> |
-    |iTypeConcat  <br/> |12  <br/> |**Combination**, with the **Joining fields and any text fragments with each other** option selected in the **Combination Formula Field** dialog box.  <br/> |
+    |iTypeResult  <br/> |9  <br/> |This type is not used for user-defined fields. |
+    |iTypeVariant  <br/> |10  <br/> |This type is not used for user-defined fields. |
+    |iTypeFloatResult  <br/> |11  <br/> |This type is not used for user-defined fields. |
+    |iTypeConcat  <br/> |12  <br/> |**Combination**, with the **Joining fields and any text fragments with each other** option selected in the **Combination Formula Field** dialog box. |
     |iTypeKeywords  <br/> |13  <br/> |**Keyword** <br/> |
     |iTypeInteger  <br/> |14  <br/> |**Integer** <br/> |
    

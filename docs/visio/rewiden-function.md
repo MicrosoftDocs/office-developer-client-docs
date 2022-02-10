@@ -26,9 +26,9 @@ REWIDEN(** *srcCharSet* **, ** *dstCharSet* **, ** *text* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _srcCharSet_ <br/> |Required  <br/> |**String** <br/> |The character set in the source document.  <br/> |
-| _dstCharSet_ <br/> |Required  <br/> |**String** <br/> | The character set in the destination document.  <br/> |
-| _text_ <br/> |Required  <br/> |**String** <br/> |The text to convert.  <br/> |
+| _srcCharSet_ <br/> |Required  <br/> |**String** <br/> |The character set in the source document. |
+| _dstCharSet_ <br/> |Required  <br/> |**String** <br/> | The character set in the destination document. |
+| _text_ <br/> |Required  <br/> |**String** <br/> |The text to convert. |
    
 ## Remarks
 

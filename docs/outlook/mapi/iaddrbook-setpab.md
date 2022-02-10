@@ -61,7 +61,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI uses the **SetPAB** method to make the specified container the PAB.  <br/> |
+|AbContDlg.cpp  <br/> |CAbContDlg::OnSetPAB  <br/> |MFCMAPI uses the **SetPAB** method to make the specified container the PAB. |
    
 ## See also
 

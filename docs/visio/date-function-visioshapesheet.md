@@ -26,9 +26,9 @@ DATE(** *year* **, ** *month* **, ** *day* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _year_ <br/> |Required  <br/> |**Integer** <br/> |The year.  <br/> |
-| _month_ <br/> |Required  <br/> |**Integer** <br/> |The month.  <br/> |
-| _day_ <br/> |Required  <br/> |**Integer** <br/> |The day.  <br/> |
+| _year_ <br/> |Required  <br/> |**Integer** <br/> |The year. |
+| _month_ <br/> |Required  <br/> |**Integer** <br/> |The month. |
+| _day_ <br/> |Required  <br/> |**Integer** <br/> |The day. |
    
 ## Example 1
 

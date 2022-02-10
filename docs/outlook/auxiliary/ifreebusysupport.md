@@ -26,7 +26,7 @@ Supports specification of interfaces that access free/busy data for specified us
 |:-----|:-----|
 |[Placeholder1](ifreebusysupport-placeholder1.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[Placeholder2](ifreebusysupport-placeholder2.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
-|[LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md) <br/> |Returns, for each specified user, an interface for enumerating free/busy blocks of data within a time range.  <br/> |
+|[LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md) <br/> |Returns, for each specified user, an interface for enumerating free/busy blocks of data within a time range. |
 |[Placeholder23](ifreebusysupport-placeholder23.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[Placeholder3](ifreebusysupport-placeholder3.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[Placeholder4](ifreebusysupport-placeholder4.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |

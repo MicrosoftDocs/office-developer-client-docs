@@ -32,7 +32,7 @@ To get a reference to the Frame cell by index from a program, use the **CellsSRC
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionHyperlink** <br/> |
-| Row index:  <br/> |**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visHLinkFrame** <br/> |
    
 

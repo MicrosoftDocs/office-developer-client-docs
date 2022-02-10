@@ -33,13 +33,13 @@ Provides synchronization methods. This interface retrieves the necessary informa
 
 |||
 |:-----|:-----|
-|[GetLastError](iostx-getlasterror.md) <br/> |Gets extended information about the last error.  <br/> |
-|[InitSync](iostx-initsync.md) <br/> |Informs the local store that synchronization is about to start.  <br/> |
-|[SyncBeg](iostx-syncbeg.md) <br/> |Prepares the local store for synchronization in a particular state and retrieves the necessary information to replicate.  <br/> |
-|[SyncEnd](iostx-syncend.md) <br/> |Ends synchronization in the current state and exits that state.  <br/> |
-|[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |Starts synchronization for a message header.  <br/> |
-|[SyncHdrEnd](iostx-synchdrend.md) <br/> |Ends synchronization for a message header.  <br/> |
-|[SetSyncResult](iostx-setsyncresult.md) <br/> |Sets the result of the synchronization.  <br/> |
+|[GetLastError](iostx-getlasterror.md) <br/> |Gets extended information about the last error. |
+|[InitSync](iostx-initsync.md) <br/> |Informs the local store that synchronization is about to start. |
+|[SyncBeg](iostx-syncbeg.md) <br/> |Prepares the local store for synchronization in a particular state and retrieves the necessary information to replicate. |
+|[SyncEnd](iostx-syncend.md) <br/> |Ends synchronization in the current state and exits that state. |
+|[SyncHdrBeg](iostx-synchdrbeg.md) <br/> |Starts synchronization for a message header. |
+|[SyncHdrEnd](iostx-synchdrend.md) <br/> |Ends synchronization for a message header. |
+|[SetSyncResult](iostx-setsyncresult.md) <br/> |Sets the result of the synchronization. |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
    
 ## Remarks

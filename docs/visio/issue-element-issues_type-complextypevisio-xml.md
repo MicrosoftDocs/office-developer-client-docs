@@ -40,20 +40,20 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contains all the **Issue** elements for the document.  <br/> |
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Contains all the **Issue** elements for the document. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |Depending on the target of the parent validation issue, specifies either the page, or both the page and the shape, associated with the parent validation issue.  <br/> |
-|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Specifies information about the validation rule that the parent validation issue pertains to.  <br/> |
+|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |Depending on the target of the parent validation issue, specifies either the page, or both the page and the shape, associated with the parent validation issue. |
+|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Specifies information about the validation rule that the parent validation issue pertains to. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the validation issue.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Ignored  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies information about the validation rule that the parent validation issue pertains to.  <br/> |Values of the xsd:boolean type.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the validation issue. |Values of the xsd:unsignedInt type. |
+|Ignored  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies information about the validation rule that the parent validation issue pertains to. |Values of the xsd:boolean type. |
    
 

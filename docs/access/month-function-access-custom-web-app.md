@@ -29,7 +29,7 @@ The **Month** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Date*  <br/> |An expression that can be resolved to a Date/Time value.  <br/> |
+| *Date*  <br/> |An expression that can be resolved to a Date/Time value. |
 
 ## Remarks
 

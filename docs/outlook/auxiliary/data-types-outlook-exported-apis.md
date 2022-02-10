@@ -15,8 +15,8 @@ This section describes the data types that Outlook exports.
   
 |**Data type**|**Description**|
 |:-----|:-----|
-|[TZDEFINITION](tzdefinition.md) <br/> |Represents an entire time zone including all historical, current, and future time zone shift rules for daylight saving time.  <br/> |
-|[TZREG](tzreg.md) <br/> |Defines when daylight saving time starts, when the return to standard time occurs, and how many hours the daylight saving shift is.  <br/> |
-|[TZRULE](tzrule.md) <br/> |Specifies information for a time zone rule about when daylight saving time starts, and the year in which that time zone rule first takes effect.  <br/> |
+|[TZDEFINITION](tzdefinition.md) <br/> |Represents an entire time zone including all historical, current, and future time zone shift rules for daylight saving time. |
+|[TZREG](tzreg.md) <br/> |Defines when daylight saving time starts, when the return to standard time occurs, and how many hours the daylight saving shift is. |
+|[TZRULE](tzrule.md) <br/> |Specifies information for a time zone rule about when daylight saving time starts, and the year in which that time zone rule first takes effect. |
    
 

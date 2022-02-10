@@ -81,7 +81,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI uses the **IMAPITable::CollapseRow** method to collapse a table category.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoExpandCollapse  <br/> |MFCMAPI uses the **IMAPITable::CollapseRow** method to collapse a table category. |
    
 ## See also
 

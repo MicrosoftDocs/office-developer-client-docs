@@ -38,11 +38,11 @@ The value of this property must be one of the following.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |This task was created to correspond to a task that was embedded in a task rejection but could not be found locally.  <br/> |
-|0x00000001  <br/> |The task is not assigned.  <br/> |
-|0x00000002  <br/> |The task is the task assignee's copy of an assigned task.  <br/> |
-|0x00000003  <br/> |The task is the task assigner's copy of an assigned task.  <br/> |
-|0x00000004  <br/> |The task is the task assigner's copy of a rejected task.  <br/> |
+|0x00000000  <br/> |This task was created to correspond to a task that was embedded in a task rejection but could not be found locally. |
+|0x00000001  <br/> |The task is not assigned. |
+|0x00000002  <br/> |The task is the task assignee's copy of an assigned task. |
+|0x00000003  <br/> |The task is the task assigner's copy of an assigned task. |
+|0x00000004  <br/> |The task is the task assigner's copy of a rejected task. |
    
 ## Related resources
 

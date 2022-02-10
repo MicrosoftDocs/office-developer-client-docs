@@ -27,7 +27,7 @@ The **Log10** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |The positive number for which you want the base-10 logarithm.  <br/> |
+| *NumericExpression*  <br/> |The positive number for which you want the base-10 logarithm. |
    
 ## Remarks
 

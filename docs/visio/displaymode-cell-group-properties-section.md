@@ -20,9 +20,9 @@ Determines how the group shape and its members are displayed.
   
 |**Value**|**Display Mode**|**Automation constant**|
 |:-----|:-----|:-----|
-|0  <br/> |Hides the group shape and text.  <br/> |**visGrpDispModeNone** <br/> |
-|1  <br/> |Displays the group shape behind member shapes.  <br/> |**visGrpDispModeBack** <br/> |
-|2  <br/> |Displays the group shape in front of member shapes.  <br/> |**visGrpDispModeFront** <br/> |
+|0  <br/> |Hides the group shape and text. |**visGrpDispModeNone** <br/> |
+|1  <br/> |Displays the group shape behind member shapes. |**visGrpDispModeBack** <br/> |
+|2  <br/> |Displays the group shape in front of member shapes. |**visGrpDispModeFront** <br/> |
    
 ## Remarks
 

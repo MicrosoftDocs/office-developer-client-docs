@@ -36,9 +36,9 @@ Passes the store provider as a field on the MAPISIB structure during a call to [
 
 |||
 |:-----|:-----|
-|[Progress](imapisyncprogresscallback-progress.md) <br/> |The store provider periodically calls this function to update the status in the Send/Receive dialog.  <br/> |
-|[Error](imapisyncprogresscallback-error.md) <br/> |If errors are encountered during synchronization, the store provider calls this function to provide details that are displayed in the Send/Receive dialog.  <br/> |
-|[Done](imapisyncprogresscallback-done.md) <br/> |The store provider calls this function to inform Outlook that synchronization has completed.  <br/> |
+|[Progress](imapisyncprogresscallback-progress.md) <br/> |The store provider periodically calls this function to update the status in the Send/Receive dialog. |
+|[Error](imapisyncprogresscallback-error.md) <br/> |If errors are encountered during synchronization, the store provider calls this function to provide details that are displayed in the Send/Receive dialog. |
+|[Done](imapisyncprogresscallback-done.md) <br/> |The store provider calls this function to inform Outlook that synchronization has completed. |
    
 ## See also
 

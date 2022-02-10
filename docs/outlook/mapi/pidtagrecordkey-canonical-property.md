@@ -61,7 +61,7 @@ The following table summarizes important differences among **PR_ENTRYID**, **PR_
 |Available before a call to **SaveChanges** <br/> |Maybe  <br/> |Maybe  <br/> |Messages Yes Others Maybe  <br/> |
 |Changed in a copy operation  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Changeable by a client after a copy  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
-|Unique within ...  <br/> |Entire world  <br/> |Provider instance  <br/> |Entire world  <br/> |
+|Unique within ... |Entire world  <br/> |Provider instance  <br/> |Entire world  <br/> |
 |Binary comparable (as with memcmp)  <br/> |No -- use **IMAPISupport:: CompareEntryIDs** <br/> |Yes  <br/> |Yes  <br/> |
    
 ## Related resources

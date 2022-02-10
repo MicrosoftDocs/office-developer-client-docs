@@ -89,7 +89,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnQueryIdentity  <br/> |MFCMAPI uses the **IMAPISession::QueryIdentity** method to open the address book entry for the primary identity of the session.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnQueryIdentity  <br/> |MFCMAPI uses the **IMAPISession::QueryIdentity** method to open the address book entry for the primary identity of the session. |
    
 ## See also
 

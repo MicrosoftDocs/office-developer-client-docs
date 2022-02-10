@@ -33,14 +33,14 @@ To get a reference to the Color cell by name from another formula, or from a pro
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Color[ *i*  ]           where  *i*  = <1>, 2, 3, ...  <br/> |
+|Cell name:  <br/> |Layers.Color[ *i*  ]           where  *i*  = <1>, 2, 3, ... |
    
 To get a reference to the Color cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*           where  *i*  = 0, 1, 2, ...  <br/> |
+|Row index:  <br/> |**visRowLayer** +  *i*           where  *i*  = 0, 1, 2, ... |
 |Cell index:  <br/> |**visLayerColor** <br/> |
    
 

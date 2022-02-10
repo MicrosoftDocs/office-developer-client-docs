@@ -26,7 +26,7 @@ GOTOPAGE(" ** *pagename* ** ")
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _pagename_ <br/> |Required  <br/> |**String** <br/> |The name of the page to go to.  <br/> |
+| _pagename_ <br/> |Required  <br/> |**String** <br/> |The name of the page to go to. |
    
 ## Remarks
 

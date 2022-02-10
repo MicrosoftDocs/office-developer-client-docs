@@ -26,7 +26,7 @@ HUE(** *expression* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**String** <br/> |An expression that evaluates to a color.  <br/> |
+| _expression_ <br/> |Required  <br/> |**String** <br/> |An expression that evaluates to a color. |
    
 ### Return value
 

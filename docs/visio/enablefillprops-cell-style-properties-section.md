@@ -20,8 +20,8 @@ Determines whether a style includes fill properties.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Include fill properties.  <br/> |
-|FALSE  <br/> |Exclude fill properties.  <br/> |
+|TRUE  <br/> |Include fill properties. |
+|FALSE  <br/> |Exclude fill properties. |
    
 ## Remarks
 

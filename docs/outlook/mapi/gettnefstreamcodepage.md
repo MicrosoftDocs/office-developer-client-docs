@@ -24,7 +24,7 @@ Determines the code page for a Transport-Neutral Encapsulation Format (TNEF) str
 |:-----|:-----|
 |Header file:  <br/> |tnef.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
-|Called by:  <br/> |Client applications and service providers.  <br/> |
+|Called by:  <br/> |Client applications and service providers. |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(

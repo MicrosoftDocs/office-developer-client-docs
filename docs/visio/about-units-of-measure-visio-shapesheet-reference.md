@@ -150,9 +150,9 @@ number  [unit , flag ]
 
 |||
 |:-----|:-----|
-| _number_ <br/> |The original value, such as 3.7, 1.7E-4, or 5 1/2.  <br/> |
-| _unit_ <br/> |The units in which  _number_ originally is expressed.  <br/> |
-| _flag_ <br/> |The measurement system to use when the implicit-value unit is displayed. See below for values.  <br/> |
+| _number_ <br/> |The original value, such as 3.7, 1.7E-4, or 5 1/2. |
+| _unit_ <br/> |The units in which  _number_ originally is expressed. |
+| _flag_ <br/> |The measurement system to use when the implicit-value unit is displayed. See below for values. |
    
 The parameter  _flag_ is one of the following letters (either uppercase or lowercase) indicating the measurement system that should be used when the implicit-value unit is displayed. 
   
@@ -174,10 +174,10 @@ Following are the default units of measure along with their equivalent settings 
   
 |**Default unit of measure**|**User interface equivalent**|
 |:-----|:-----|
-|**visDrawingUnits** <br/> |The units in the DrawingScale cell of the page or master containing the cell.  <br/> |
-|**visPageUnits** <br/> |The units selected in the **Measurement units** box on the **Page Properties** tab of the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow).  <br/> |
-|**visTypeUnits** <br/> |The units selected in the **Text** box under **Display** on the **Advanced** tab of the **Visio Options** dialog box (click the **File** tab, and then click **Options**).  <br/> |
-|**visAngleUnits** <br/> |The units selected in the **Angle** box under **Display** on the **Advanced** tab of the **Visio Options** dialog box.  <br/> |
-|**visDurationUnits** <br/> |The units selected in the **Duration** box under **Display** on the **Advanced** tab of the **Visio Options** dialog box.  <br/> |
+|**visDrawingUnits** <br/> |The units in the DrawingScale cell of the page or master containing the cell. |
+|**visPageUnits** <br/> |The units selected in the **Measurement units** box on the **Page Properties** tab of the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow). |
+|**visTypeUnits** <br/> |The units selected in the **Text** box under **Display** on the **Advanced** tab of the **Visio Options** dialog box (click the **File** tab, and then click **Options**). |
+|**visAngleUnits** <br/> |The units selected in the **Angle** box under **Display** on the **Advanced** tab of the **Visio Options** dialog box. |
+|**visDurationUnits** <br/> |The units selected in the **Duration** box under **Display** on the **Advanced** tab of the **Visio Options** dialog box. |
    
 

@@ -27,9 +27,9 @@ The **OpenPopup** action contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *View*  <br/> |The name of the view to open.  <br/> |
-| *Where=*  <br/> |A valid SQL WHERE clause (without the word WHERE) that restricts the records in the view.  <br/> |
-| *Order By*  <br/> |A string expression that includes the name of the field or fields on which to sort records and the optional ASC or DESC keywords. By default, this argument is blank.  <br/> |
+| *View*  <br/> |The name of the view to open. |
+| *Where=*  <br/> |A valid SQL WHERE clause (without the word WHERE) that restricts the records in the view. |
+| *Order By*  <br/> |A string expression that includes the name of the field or fields on which to sort records and the optional ASC or DESC keywords. By default, this argument is blank. |
 
 ## Remarks
 

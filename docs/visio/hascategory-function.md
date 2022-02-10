@@ -28,7 +28,7 @@ HASCATEGORY(** *category* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _category_ <br/> |Required  <br/> |**String** <br/> |The category to search for.  <br/> |
+| _category_ <br/> |Required  <br/> |**String** <br/> |The category to search for. |
    
 ### Return value
 

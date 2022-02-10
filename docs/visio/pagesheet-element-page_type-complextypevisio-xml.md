@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contains elements that define a page in the document.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Contains elements that define a page in the document. |
    
 ### Child elements
 
@@ -50,9 +50,9 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Specifies the ID of the style sheet from which to inherit fill formatting. It MUST be the value of the **ID** attribute associated with a **StyleSheet_Type** in the drawing.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|LineStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Specifies the ID of the style sheet from which to inherit line formatting. It MUST be the value of the **ID** attribute associated with a **StyleSheet_Type** in the drawing.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|TextStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Specifies the ID of the style sheet from which to inherit text formatting. It MUST be the value of the **ID** attribute associated with a **StyleSheet_Type** in the drawing.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|UniqueID  <br/> |xsd:string  <br/> |optional  <br/> |The unique ID of the element within its parent element.  <br/> |Values of the xsd:string type.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Specifies the ID of the style sheet from which to inherit fill formatting. It MUST be the value of the **ID** attribute associated with a **StyleSheet_Type** in the drawing. |Values of the xsd:unsignedInt type. |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Specifies the ID of the style sheet from which to inherit line formatting. It MUST be the value of the **ID** attribute associated with a **StyleSheet_Type** in the drawing. |Values of the xsd:unsignedInt type. |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Specifies the ID of the style sheet from which to inherit text formatting. It MUST be the value of the **ID** attribute associated with a **StyleSheet_Type** in the drawing. |Values of the xsd:unsignedInt type. |
+|UniqueID  <br/> |xsd:string  <br/> |optional  <br/> |The unique ID of the element within its parent element. |Values of the xsd:string type. |
    
 

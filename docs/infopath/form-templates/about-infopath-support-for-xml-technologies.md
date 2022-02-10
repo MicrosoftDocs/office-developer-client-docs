@@ -160,8 +160,8 @@ InfoPath fits well with the loosely coupled model of Web services, in which data
 
 |||
 |:-----|:-----|
-|**field group:** <br/> |A section, repeating section, optional section, or repeating table. Sections and repeating tables are controls on a form that contain other controls and that repeat as needed. Users can insert multiple sections or rows when filling out the form.  <br/> |
-|**DOM tree:** <br/> |The structure of the data source of the form. In particular, the collection of fields and groups that define and store the data for an InfoPath form.  <br/> |
+|**field group:** <br/> |A section, repeating section, optional section, or repeating table. Sections and repeating tables are controls on a form that contain other controls and that repeat as needed. Users can insert multiple sections or rows when filling out the form. |
+|**DOM tree:** <br/> |The structure of the data source of the form. In particular, the collection of fields and groups that define and store the data for an InfoPath form. |
    
 ## Conclusion
 

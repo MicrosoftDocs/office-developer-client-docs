@@ -108,7 +108,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI uses the **IMsgStore::OpenEntry** method to open the object associated with an entry ID.  <br/> |
+|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI uses the **IMsgStore::OpenEntry** method to open the object associated with an entry ID. |
    
 ## See also
 

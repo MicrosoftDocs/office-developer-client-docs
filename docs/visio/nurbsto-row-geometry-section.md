@@ -22,13 +22,13 @@ A NURBSTo row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the last control point of a NURBS.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the last control point of a NURBS.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |The second to the last knot of the NURBS.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |The last weight of the NURBS.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |The first knot of the NURBS.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |The first weight of the NURBS.  <br/> |
-|[E](e-cell-geometry-section.md) <br/> |A NURBS formula.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of the last control point of a NURBS. |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of the last control point of a NURBS. |
+|[A](a-cell-geometry-section.md) <br/> |The second to the last knot of the NURBS. |
+|[B](b-cell-geometry-section.md) <br/> |The last weight of the NURBS. |
+|[C](c-cell-geometry-section.md) <br/> |The first knot of the NURBS. |
+|[D](d-cell-geometry-section.md) <br/> |The first weight of the NURBS. |
+|[E](e-cell-geometry-section.md) <br/> |A NURBS formula. |
    
 ## Remarks
 

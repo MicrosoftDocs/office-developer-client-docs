@@ -40,22 +40,22 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |The root element of a Microsoft Visio document.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |The root element of a Microsoft Visio document. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Specifies a cell in a DocumentSheet.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Specifies a cell in a DocumentSheet. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|IsCustomName  <br/> |xsd:boolean  <br/> |optional  <br/> |Describes whether the name has been customized by the user.  <br/> |Values of the xsd:Boolean type.  <br/> |
-|IsCustomNameU  <br/> |xsd:boolean  <br/> |optional  <br/> |Describes whether the universal name has been customized by the user.  <br/> |Values of the xsd:Boolean type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the language-dependent name of the DocumentSheet.  <br/> |Values of the xsd:string type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the language- independent name of the DocumentSheet.  <br/> |Values of the xsd:string type.  <br/> |
-|UniqueID  <br/> |xsd:string  <br/> |optional  <br/> |Optional string. A GUID (globally unique identifier) identifying the shape.  <br/> |Values of the xsd:string type.  <br/> |
+|IsCustomName  <br/> |xsd:boolean  <br/> |optional  <br/> |Describes whether the name has been customized by the user. |Values of the xsd:Boolean type. |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |optional  <br/> |Describes whether the universal name has been customized by the user. |Values of the xsd:Boolean type. |
+|Name  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the language-dependent name of the DocumentSheet. |Values of the xsd:string type. |
+|NameU  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the language- independent name of the DocumentSheet. |Values of the xsd:string type. |
+|UniqueID  <br/> |xsd:string  <br/> |optional  <br/> |Optional string. A GUID (globally unique identifier) identifying the shape. |Values of the xsd:string type. |
    
 

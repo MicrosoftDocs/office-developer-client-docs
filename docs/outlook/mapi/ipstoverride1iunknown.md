@@ -35,9 +35,9 @@ Allows a Personal Folders file (PST) store provider to override the PSTDisableGr
 
 |||
 |:-----|:-----|
-|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Retrieves the list of registrations for the Personal Folders (.pst) file.  <br/> |
-|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Registers Personal Folders files for automatic unlocking, avoiding further calls to HrTrustedPSTOverrideHandlerCallback.  <br/> |
-|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Unlocks a Personal Folders file for growth.  <br/> |
+|[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Retrieves the list of registrations for the Personal Folders (.pst) file. |
+|[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Registers Personal Folders files for automatic unlocking, avoiding further calls to HrTrustedPSTOverrideHandlerCallback. |
+|[IPSTOVERRIDE1::OverridePSTDisableGrow](ipstoverride1-overridepstdisablegrow.md) <br/> |Unlocks a Personal Folders file for growth. |
    
 ## Remarks
 

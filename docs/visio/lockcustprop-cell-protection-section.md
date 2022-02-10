@@ -20,8 +20,8 @@ Determines whether the user can add, delete, or modify shape data in the user in
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The **Define Shape Data** command on the shortcut menu in the **Shape Data** window is disabled.  <br/> |
-|FALSE  <br/> |The **Define Shape Data** command on the shortcut menu in the **Shape Data** window is enabled (the default).  <br/> |
+|TRUE  <br/> |The **Define Shape Data** command on the shortcut menu in the **Shape Data** window is disabled. |
+|FALSE  <br/> |The **Define Shape Data** command on the shortcut menu in the **Shape Data** window is enabled (the default). |
    
 ## Remarks
 

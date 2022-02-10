@@ -26,7 +26,7 @@ PAR(** *point* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Required  <br/> |**Number, Number** <br/> |The coordinates of the point in the coordinate system of the current shape.  <br/> |
+| _point_ <br/> |Required  <br/> |**Number, Number** <br/> |The coordinates of the point in the coordinate system of the current shape. |
    
 ## Remarks
 

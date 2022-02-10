@@ -26,9 +26,9 @@ SUM(** *number1* **, ** *number2* **,..., ** *[numberN]* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number1_ <br/> |Required  <br/> |**Numeric** <br/> |The first number.  <br/> |
-| _number2_ <br/> |Required  <br/> |**Numeric** <br/> |The second number.  <br/> |
-| _numberN_ <br/> |Optional  <br/> |**Numeric** <br/> |The nth number.  <br/> |
+| _number1_ <br/> |Required  <br/> |**Numeric** <br/> |The first number. |
+| _number2_ <br/> |Required  <br/> |**Numeric** <br/> |The second number. |
+| _numberN_ <br/> |Optional  <br/> |**Numeric** <br/> |The nth number. |
    
 ### Return value
 

@@ -99,7 +99,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |MFCMAPI uses the **IMAPIForm::DoVerb** method to invoke a verb on a form.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CallDoVerb  <br/> |MFCMAPI uses the **IMAPIForm::DoVerb** method to invoke a verb on a form. |
    
 ## See also
 

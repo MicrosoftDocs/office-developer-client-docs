@@ -20,8 +20,8 @@ Determines whether the application lays out shapes based on an internal, invisib
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Use the internal page grid.  <br/> |
-|FALSE  <br/> |Do not use the internal page grid.  <br/> |
+|TRUE  <br/> |Use the internal page grid. |
+|FALSE  <br/> |Do not use the internal page grid. |
    
 ## Remarks
 

@@ -20,7 +20,7 @@ The **DeleteRecord** action has the following arguments.
   
 |**Argument**|**Description**|
 |:-----|:-----|
-|**Record Alias** <br/> |A string that identifies the record to delete. If the *Alias* argument is not specified, then the current record is deleted.  <br/> |
+|**Record Alias** <br/> |A string that identifies the record to delete. If the *Alias* argument is not specified, then the current record is deleted. |
 
 ## Remarks
 

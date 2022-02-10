@@ -53,8 +53,8 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnName  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
-|ContextType  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ContextTypeLabel  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
+|ColumnName  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
+|ContextType  <br/> |xsd:unsignedInt  <br/> |required  <br/> ||Values of the xsd:unsignedInt type. |
+|ContextTypeLabel  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
    
 

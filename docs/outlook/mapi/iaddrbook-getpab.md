@@ -57,7 +57,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI uses the **GetPAB** method to get the ID for the user's personal address book.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenPAB  <br/> |MFCMAPI uses the **GetPAB** method to get the ID for the user's personal address book. |
    
 ## See also
 

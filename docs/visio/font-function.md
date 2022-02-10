@@ -31,7 +31,7 @@ Version Added: Visio 2013
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _font_name_string_ <br/> |Required  <br/> |**string** <br/> |The name of the font.  <br/> |
+| _font_name_string_ <br/> |Required  <br/> |**string** <br/> |The name of the font. |
    
 ## Return value
 

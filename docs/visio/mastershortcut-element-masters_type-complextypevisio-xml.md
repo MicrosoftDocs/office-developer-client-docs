@@ -40,26 +40,26 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Masters](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contains the **Master** elements for the document.  <br/> |
+|[Masters](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Contains the **Master** elements for the document. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Icon](icon-element-mastershortcut_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |Specifies a MIME (Multipurpose Internet Mail Extensions) encoded binary icon (in .ico format) for a **Master** or **MasterShortcut** element in a document.  <br/> |
+|[Icon](icon-element-mastershortcut_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |Specifies a MIME (Multipurpose Internet Mail Extensions) encoded binary icon (in .ico format) for a **Master** or **MasterShortcut** element in a document. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlignName  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Specifies whether the element's text in the stencil window is aligned left, right, or center.  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|IconSize  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |The size of the element's icon.  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The unique ID of the element within its parent element.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |optional  <br/> |The name of the element.  <br/> |Values of the xsd:string type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |optional  <br/> |The universal name of the element.  <br/> |Values of the xsd:string type.  <br/> |
-|PatternFlags  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Determines whether a master behaves as a custom pattern.  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|Prompt  <br/> |xsd:string  <br/> |optional  <br/> |The status bar and tool tip prompt for the element.  <br/> |Values of the xsd:string type.  <br/> |
-|ShortcutHelp  <br/> |xsd:string  <br/> |optional  <br/> |A help string for the element.  <br/> |Values of the xsd:string type.  <br/> |
-|ShortcutURL  <br/> |xsd:string  <br/> |optional  <br/> |A URL to a **MasterShortcut** element.  <br/> |Values of the xsd:string type.  <br/> |
+|AlignName  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Specifies whether the element's text in the stencil window is aligned left, right, or center. |Values of the xsd:unsignedShort type. |
+|IconSize  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |The size of the element's icon. |Values of the xsd:unsignedShort type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The unique ID of the element within its parent element. |Values of the xsd:unsignedInt type. |
+|Name  <br/> |xsd:string  <br/> |optional  <br/> |The name of the element. |Values of the xsd:string type. |
+|NameU  <br/> |xsd:string  <br/> |optional  <br/> |The universal name of the element. |Values of the xsd:string type. |
+|PatternFlags  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Determines whether a master behaves as a custom pattern. |Values of the xsd:unsignedShort type. |
+|Prompt  <br/> |xsd:string  <br/> |optional  <br/> |The status bar and tool tip prompt for the element. |Values of the xsd:string type. |
+|ShortcutHelp  <br/> |xsd:string  <br/> |optional  <br/> |A help string for the element. |Values of the xsd:string type. |
+|ShortcutURL  <br/> |xsd:string  <br/> |optional  <br/> |A URL to a **MasterShortcut** element. |Values of the xsd:string type. |
    
 

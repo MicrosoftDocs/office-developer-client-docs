@@ -27,7 +27,7 @@ The **Or** operator uses the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *BooleanExpression*  <br/> |Any valid expression that returns TRUE or FALSE.  <br/> |
+| *BooleanExpression*  <br/> |Any valid expression that returns TRUE or FALSE. |
    
 ## Remarks
 

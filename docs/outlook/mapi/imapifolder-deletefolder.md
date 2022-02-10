@@ -100,9 +100,9 @@ Expect these return values under the following conditions.
   
 |**Condition**|**Return value**|
 |:-----|:-----|
-|**DeleteFolder** has successfully deleted every message and subfolder.  <br/> |S_OK  <br/> |
-|**DeleteFolder** was unable to successfully delete every message and subfolder.  <br/> |MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND  <br/> |
-|**DeleteFolder** was unable to complete.  <br/> |Any error value except MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder** has successfully deleted every message and subfolder. |S_OK  <br/> |
+|**DeleteFolder** was unable to successfully delete every message and subfolder. |MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND  <br/> |
+|**DeleteFolder** was unable to complete. |Any error value except MAPI_E_NOT_FOUND  <br/> |
    
 When **DeleteFolder** is unable to complete, do not assume that no work was done. **DeleteFolder** might have been able to delete one or more of the messages and subfolders before encountering the error. 
   
@@ -114,7 +114,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMAPIFolder::DeleteFolder** method to delete folders.  <br/> |
+|MsgStoreDlg.cpp  <br/> |CMsgStoreDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMAPIFolder::DeleteFolder** method to delete folders. |
    
 ## See also
 

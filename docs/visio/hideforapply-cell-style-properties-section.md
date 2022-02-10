@@ -20,8 +20,8 @@ Determines where a style is shown in the Microsoft Visio user interface.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Show the style only in the **Drawing Explorer**.  <br/> |
-| FALSE  <br/> | Show the style in the **Drawing Explorer**.  <br/> |
+| TRUE  <br/> | Show the style only in the **Drawing Explorer**. |
+| FALSE  <br/> | Show the style in the **Drawing Explorer**. |
    
 ## Remarks
 

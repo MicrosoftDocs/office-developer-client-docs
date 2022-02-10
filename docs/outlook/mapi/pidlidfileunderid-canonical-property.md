@@ -40,7 +40,7 @@ In the following table, the notation <PropertyName> is used to specify "the valu
   
 |**Value of the **dispidFileUnderId** property**|**Description of the **dispidFileUnder** property**|
 |:-----|:-----|
-|0x00000000  <br/> |Empty PT_UNICODE.  <br/> |
+|0x00000000  <br/> |Empty PT_UNICODE. |
 |0x00003001  <br/> |"\<PidTagDisplayName\>"  <br/> |
 |0x00003A06  <br/> |"\<PidTagGivenName\>"  <br/> |
 |0x00003A11  <br/> |"\<PidTagSurname\>"  <br/> |
@@ -57,9 +57,9 @@ In the following table, the notation <PropertyName> is used to specify "the valu
 |0x00008036  <br/> |"\<PidTagSurname\>\<space\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagGeneration\>"  <br/> |
 |0x00008037  <br/> |"\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagSurname\>\<space\>\<PidTagGeneration\>"  <br/> |
 |0x00008038  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\<space\>\<PidTagMiddleName\>\<space\>\<PidTagGeneration\>"  <br/> |
-|0xfffffffd  <br/> |Specifies that, when displaying the contact, the application should attempt to use the current value of **dispidFileUnder** and other contact properties to find a "best match" for **dispidFileUnderId** to one of the previous values in this table.  <br/> |
-|0xfffffffe  <br/> |Specifies that, when displaying the contact, the application should choose the appropriate default values (according to the language locale) for **dispidFileUnderId** and update **dispidFileUnder** to match the choice.  <br/> |
-|0xffffffff  <br/> |**dispidFileUnder** is a user-provided PT_UNICODE, and should not be changed when another contact name property changes.  <br/> |
+|0xfffffffd  <br/> |Specifies that, when displaying the contact, the application should attempt to use the current value of **dispidFileUnder** and other contact properties to find a "best match" for **dispidFileUnderId** to one of the previous values in this table. |
+|0xfffffffe  <br/> |Specifies that, when displaying the contact, the application should choose the appropriate default values (according to the language locale) for **dispidFileUnderId** and update **dispidFileUnder** to match the choice. |
+|0xffffffff  <br/> |**dispidFileUnder** is a user-provided PT_UNICODE, and should not be changed when another contact name property changes. |
    
 ## Related resources
 

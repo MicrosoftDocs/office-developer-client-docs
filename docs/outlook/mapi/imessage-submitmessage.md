@@ -70,7 +70,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |**CFolderDlg::OnSubmitMessage** <br/> |MFCMAPI uses the **IMessage::SubmitMessage** method to submit the selected message.  <br/> |
+|FolderDlg.cpp  <br/> |**CFolderDlg::OnSubmitMessage** <br/> |MFCMAPI uses the **IMessage::SubmitMessage** method to submit the selected message. |
    
 ## See also
 

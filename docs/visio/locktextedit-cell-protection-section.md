@@ -20,8 +20,8 @@ Locks the text of a shape so that it cannot be edited.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Text cannot be edited.  <br/> |
-| FALSE  <br/> | Text can be edited.  <br/> |
+|TRUE  <br/> |Text cannot be edited. |
+| FALSE  <br/> | Text can be edited. |
    
 ## Remarks
 

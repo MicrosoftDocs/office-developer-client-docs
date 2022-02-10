@@ -63,6 +63,6 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ShowCommentTags  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
+|ShowCommentTags  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
    
 

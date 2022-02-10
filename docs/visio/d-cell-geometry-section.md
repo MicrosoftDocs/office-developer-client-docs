@@ -21,10 +21,10 @@ Represents different information in different rows. This table describes the D c
   
 |Row|Description|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The ratio of an arc's major axis to its minor axis. Despite the usual meaning of these words, the "major" axis does not have to be greater than the "minor" axis, so this ratio does not have to be greater than 1. Setting this cell to a value less than or equal to 0 or greater than 1000 can lead to unpredictable results.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The first weight of the nonuniform rational B-spline (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | The degree of a spline (an integer from 1 to 25).  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | A  *y*  -coordinate of a point on an ellipse; paired with the  *x*  -coordinate represented by the [C](c-cell-geometry-section.md) cell.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | The ratio of an arc's major axis to its minor axis. Despite the usual meaning of these words, the "major" axis does not have to be greater than the "minor" axis, so this ratio does not have to be greater than 1. Setting this cell to a value less than or equal to 0 or greater than 1000 can lead to unpredictable results. |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | The first weight of the nonuniform rational B-spline (NURBS). |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | The degree of a spline (an integer from 1 to 25). |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | A  *y*  -coordinate of a point on an ellipse; paired with the  *x*  -coordinate represented by the [C](c-cell-geometry-section.md) cell. |
    
 ## Remarks
 
@@ -32,15 +32,15 @@ To get a reference to the D cell by name from another formula, or from a program
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Geometry  *i*  .D  *j*            where  *i*  and  *j*  = <1>, 2, 3...  <br/> |
-|| Geometry  *i*  .D1 (Ellipse row)            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Geometry  *i*  .D  *j*            where  *i*  and  *j*  = <1>, 2, 3... |
+|| Geometry  *i*  .D1 (Ellipse row)            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the D cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
-| Row index:  <br/> |**visRowVertex** +  *j*            where  *j*  = 0, 1, 2...  <br/> |
+| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
+| Row index:  <br/> |**visRowVertex** +  *j*            where  *j*  = 0, 1, 2... |
 ||**visRowVertex** (Ellipse row)  <br/> |
 | Cell index  <br/> |**visAspectRatio** (EllipticalArcTo row)  <br/> |
 ||**visNURBSWeightPrev** (NURBSTo row)  <br/> |

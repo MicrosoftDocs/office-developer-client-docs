@@ -35,9 +35,9 @@ The POP BLOB structure, as described in Table 1, begins with two fields, **Versi
 
 |**Field in BLOB**|**Size**|**Description**|
 |:-----|:-----|:-----|
-|**Version** <br/> |2 bytes  <br/> |Must be 3 (**PBLOB_VERSION_NUM**).  <br/> |
-|**Count** <br/> |2 bytes  <br/> |The number of resource tags in this BLOB.  <br/> |
-|Resource tag  <br/> |Variable  <br/> |0 or more null-terminated UTF-8 strings that encode the resource tags. The number of null-terminated strings must match **Count**.  <br/> |
+|**Version** <br/> |2 bytes  <br/> |Must be 3 (**PBLOB_VERSION_NUM**). |
+|**Count** <br/> |2 bytes  <br/> |The number of resource tags in this BLOB. |
+|Resource tag  <br/> |Variable  <br/> |0 or more null-terminated UTF-8 strings that encode the resource tags. The number of null-terminated strings must match **Count**. |
    
 Each resource tag specifies the operation that is applied to a message, some date-time metadata about the operation, and encodes the UID of the message. The format of a resource tag string is broken down as follows, and is further explained in Table 2. 
   
@@ -47,15 +47,15 @@ Each resource tag specifies the operation that is applied to a message, some dat
 
 |**Field in a resource tag**|**Size**|**Description**|
 |:-----|:-----|:-----|
-| `O` <br/> |1 character  <br/> |The operation performed on the email message. The value must be "+", "-", or "&amp;", which indicates a successful get, delete, or get-and-delete operation, respectively.  <br/> |
-| `c` <br/> |1 character  <br/> |The part of the message content involved in the operation. The value must be " ", "h", or "b", which indicates the content of none, header, or body, respectively.  <br/> |
-| `yyyy` <br/> |4 characters  <br/> |The four-digit year of the operation.  <br/> |
-| `MM` <br/> |2 characters  <br/> |The two-digit month of the operation.  <br/> |
-| `dd` <br/> |2 characters  <br/> |The two-digit day of the operation.  <br/> |
-| `hh` <br/> |2 characters  <br/> |The two-digit hour of the operation.  <br/> |
-| `mm` <br/> |2 characters  <br/> |The two-digit minute of the operation.  <br/> |
-| `ss` <br/> |2 characters  <br/> |The two-digit second of the operation.  <br/> |
-| `uuu…` <br/> |Variable length  <br/> |The encoded UID of a message.  <br/> |
+| `O` <br/> |1 character  <br/> |The operation performed on the email message. The value must be "+", "-", or "&amp;", which indicates a successful get, delete, or get-and-delete operation, respectively. |
+| `c` <br/> |1 character  <br/> |The part of the message content involved in the operation. The value must be " ", "h", or "b", which indicates the content of none, header, or body, respectively. |
+| `yyyy` <br/> |4 characters  <br/> |The four-digit year of the operation. |
+| `MM` <br/> |2 characters  <br/> |The two-digit month of the operation. |
+| `dd` <br/> |2 characters  <br/> |The two-digit day of the operation. |
+| `hh` <br/> |2 characters  <br/> |The two-digit hour of the operation. |
+| `mm` <br/> |2 characters  <br/> |The two-digit minute of the operation. |
+| `ss` <br/> |2 characters  <br/> |The two-digit second of the operation. |
+| `uuu…` <br/> |Variable length  <br/> |The encoded UID of a message. |
 
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_Example"> </a>
 

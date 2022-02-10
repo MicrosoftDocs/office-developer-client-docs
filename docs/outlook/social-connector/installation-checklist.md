@@ -194,9 +194,9 @@ The following procedure describes the installation checks outlined in Figure 1.
   
 |**Glink value**|**Function**|
 |:-----|:-----|
-|80  <br/> |Installs the latest version of OSC for Outlook 2003 or Outlook 2007.  <br/> |
-|82  <br/> |Installs the latest patch of 32-bit OSC for Outlook 2007, Outlook 2010, or Outlook Social Connector 2013.  <br/> |
-|83  <br/> |Installs the latest patch of 64-bit OSC for Outlook 2010 or Outlook Social Connector 2013.  <br/> |
+|80  <br/> |Installs the latest version of OSC for Outlook 2003 or Outlook 2007. |
+|82  <br/> |Installs the latest patch of 32-bit OSC for Outlook 2007, Outlook 2010, or Outlook Social Connector 2013. |
+|83  <br/> |Installs the latest patch of 64-bit OSC for Outlook 2010 or Outlook Social Connector 2013. |
    
 ## See also
 

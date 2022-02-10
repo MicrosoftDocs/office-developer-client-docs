@@ -20,8 +20,8 @@ Determines whether a style includes text properties.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Include text properties.  <br/> |
-|FALSE  <br/> |Exclude text properties.  <br/> |
+|TRUE  <br/> |Include text properties. |
+|FALSE  <br/> |Exclude text properties. |
    
 ## Remarks
 

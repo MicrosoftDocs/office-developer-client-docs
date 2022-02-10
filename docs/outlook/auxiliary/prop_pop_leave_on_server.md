@@ -28,11 +28,11 @@ The following table lists the possible values. See [Constants (Account managemen
   
 |**Possible values**|**Description**|
 |:-----|:-----|
-|**LEAVE_ON_SERVER** <br/> |Leaves a copy of the message on the POP server after downloading the message to a device.  <br/> |
-|**REMOVE_AFTER** <br/> |Removes the message from the POP server after downloading it to a device.  <br/> |
-|**REMOVE_ON_NUKE** <br/> |Removes the message from the POP server only after the user deletes the message from the Deleted Items folder.  <br/> |
-|**GET_REMOVE_AFTER_DAYS**( _ul_)  <br/> |Gets the number of days after which the message will be removed from the POP server.  <br/> |
-|**SET_REMOVE_AFTER_DAYS**( _days_)  <br/> |Sets the number of days after which the message will be removed from the POP server.  <br/> |
+|**LEAVE_ON_SERVER** <br/> |Leaves a copy of the message on the POP server after downloading the message to a device. |
+|**REMOVE_AFTER** <br/> |Removes the message from the POP server after downloading it to a device. |
+|**REMOVE_ON_NUKE** <br/> |Removes the message from the POP server only after the user deletes the message from the Deleted Items folder. |
+|**GET_REMOVE_AFTER_DAYS**( _ul_)  <br/> |Gets the number of days after which the message will be removed from the POP server. |
+|**SET_REMOVE_AFTER_DAYS**( _days_)  <br/> |Sets the number of days after which the message will be removed from the POP server. |
    
 ## See also
 

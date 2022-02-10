@@ -24,8 +24,8 @@ SHADE(** *color* **, ** *int* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _color_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the color.  <br/> |
-| _int_ <br/> |Required  <br/> |**Integer** <br/> |The amount by which to decrease the luminosity of the color. Can be positive or negative.  <br/> |
+| _color_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the color. |
+| _int_ <br/> |Required  <br/> |**Integer** <br/> |The amount by which to decrease the luminosity of the color. Can be positive or negative. |
    
 ### Return value
 

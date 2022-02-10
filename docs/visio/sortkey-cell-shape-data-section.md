@@ -43,7 +43,7 @@ To get a reference to the SortKey cell by index from a program, use the **CellsS
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionProp** <br/> |
-| Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCustPropsSortKey** <br/> |
    
 

@@ -20,9 +20,9 @@ Determines the fill pattern for the shape. To specify a custom fill pattern, use
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |None (transparent fill).  <br/> |
-|1  <br/> |Solid foreground color.  <br/> |
-|2 - 40  <br/> |Assorted fill patterns that correspond to indexed entries in the **Fill** dialog box.  <br/> |
+|0  <br/> |None (transparent fill). |
+|1  <br/> |Solid foreground color. |
+|2 - 40  <br/> |Assorted fill patterns that correspond to indexed entries in the **Fill** dialog box. |
    
 ## Remarks
 

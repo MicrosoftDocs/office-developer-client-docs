@@ -38,9 +38,9 @@ _pcch_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call succeeded.  <br/> |
-|E_OUTOFMEMORY  <br/> |The returned profile name is longer than the size of  _pwszIdentity_.  <br/> |
-|E_INVALIDARG  <br/> | _pcch_ is NULL.  <br/> |
+|S_OK  <br/> |The call succeeded. |
+|E_OUTOFMEMORY  <br/> |The returned profile name is longer than the size of  _pwszIdentity_. |
+|E_INVALIDARG  <br/> | _pcch_ is NULL. |
    
 ## Remarks
 

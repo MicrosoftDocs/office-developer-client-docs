@@ -43,20 +43,20 @@ To use dates and times within an expression (rather than as a single constant), 
 
 |**Function**|**Description**|
 |:-----|:-----|
-|[DATE](date-function-visioshapesheet.md) <br/> | Converts numbers to a date value.  <br/> |
-|[DATETIME](datetime-function.md) <br/> | Converts a string to a date and time value.  <br/> |
-|[DATEVALUE](datevalue-function-visioshapesheet.md) <br/> | Converts a string to a date value.  <br/> |
-|[NOW](now-function-visioshapesheet.md) <br/> | Returns the current system date as a date and time value.  <br/> |
-|[TIME](time-function-visioshapesheet.md) <br/> | Converts numbers to a time value.  <br/> |
-|[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | Converts a string to a time value.  <br/> |
-|[DAY](day-function-visioshapesheet.md) <br/> | Returns the day component in a date and time expression.  <br/> |
-|[DAYOFYEAR](dayofyear-function.md) <br/> | Returns the sequential day of the year in a date and time expression.  <br/> |
-|[HOUR](hour-function-visioshapesheet.md) <br/> | Returns the hours component in a date and time expression.  <br/> |
-|[MINUTE](minute-function-visioshapesheet.md) <br/> | Returns the minutes component in a date and time expression.  <br/> |
-|[MONTH](month-function-visioshapesheet.md) <br/> | Returns the month component in a date and time expression.  <br/> |
-|[SECOND](second-function-visioshapesheet.md) <br/> | Returns the seconds component in a date and time expression.  <br/> |
-|[WEEKDAY](weekday-function-visioshapesheet.md) <br/> | Returns the number of the weekday in a date and time expression.  <br/> |
-|[YEAR](year-function-visioshapesheet.md) <br/> | Returns the year component in a date and time expression.  <br/> |
+|[DATE](date-function-visioshapesheet.md) <br/> | Converts numbers to a date value. |
+|[DATETIME](datetime-function.md) <br/> | Converts a string to a date and time value. |
+|[DATEVALUE](datevalue-function-visioshapesheet.md) <br/> | Converts a string to a date value. |
+|[NOW](now-function-visioshapesheet.md) <br/> | Returns the current system date as a date and time value. |
+|[TIME](time-function-visioshapesheet.md) <br/> | Converts numbers to a time value. |
+|[TIMEVALUE](timevalue-function-visioshapesheet.md) <br/> | Converts a string to a time value. |
+|[DAY](day-function-visioshapesheet.md) <br/> | Returns the day component in a date and time expression. |
+|[DAYOFYEAR](dayofyear-function.md) <br/> | Returns the sequential day of the year in a date and time expression. |
+|[HOUR](hour-function-visioshapesheet.md) <br/> | Returns the hours component in a date and time expression. |
+|[MINUTE](minute-function-visioshapesheet.md) <br/> | Returns the minutes component in a date and time expression. |
+|[MONTH](month-function-visioshapesheet.md) <br/> | Returns the month component in a date and time expression. |
+|[SECOND](second-function-visioshapesheet.md) <br/> | Returns the seconds component in a date and time expression. |
+|[WEEKDAY](weekday-function-visioshapesheet.md) <br/> | Returns the number of the weekday in a date and time expression. |
+|[YEAR](year-function-visioshapesheet.md) <br/> | Returns the year component in a date and time expression. |
    
 ## Duration
 
@@ -66,11 +66,11 @@ Visio recognizes the units of duration in the following table.
   
 |**Unit**|**Abbreviation**|**Universal abbreviation**|
 |:-----|:-----|:-----|
-| elapsed day  <br/> | eday, ed.  <br/> | ed  <br/> |
-| elapsed hour  <br/> | ehour, eh.  <br/> | eh  <br/> |
-| elapsed minute  <br/> | eminute, em.  <br/> | em  <br/> |
-| elapsed second  <br/> | esecond, es.  <br/> | es  <br/> |
-| elapsed week  <br/> | eweek, ew.  <br/> | ew  <br/> |
+| elapsed day  <br/> | eday, ed. | ed  <br/> |
+| elapsed hour  <br/> | ehour, eh. | eh  <br/> |
+| elapsed minute  <br/> | eminute, em. | em  <br/> |
+| elapsed second  <br/> | esecond, es. | es  <br/> |
+| elapsed week  <br/> | eweek, ew. | ew  <br/> |
    
 You can add a date and time to a duration to calculate a new date and time. You can perform the operations listed in this table using dates, times, and durations.
   

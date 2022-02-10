@@ -39,24 +39,24 @@ If this property is used, it contains an array of blocks that specifies the entr
 
 |**Name**|**Type**|**Size**|**Description**|
 |:-----|:-----|:-----|:-----|
-|**PersistID** <br/> |WORD  <br/> |2  <br/> |Type identifier value for this **PersistData** entry. See the "PersistBlockType Values" table for the list of valid values.  <br/> |
-|**DataElementsSize** <br/> |WORD  <br/> |2  <br/> |Size, in bytes, of the **DataElements** field.  <br/> |
-|**DataElements** <br/> |array of **PersistElement** blocks  <br/> |variable  <br/> |Indicates how many **PersistElement** entries exist for the store. See the "PersistElement Block" table for the format of this structure.  <br/> |
+|**PersistID** <br/> |WORD  <br/> |2  <br/> |Type identifier value for this **PersistData** entry. See the "PersistBlockType Values" table for the list of valid values. |
+|**DataElementsSize** <br/> |WORD  <br/> |2  <br/> |Size, in bytes, of the **DataElements** field. |
+|**DataElements** <br/> |array of **PersistElement** blocks  <br/> |variable  <br/> |Indicates how many **PersistElement** entries exist for the store. See the "PersistElement Block" table for the format of this structure. |
    
 **PersistBlockType Values**
 
 |**Name**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|PERSIST_SENTINEL  <br/> |0x0000  <br/> |Indicates that no more **PersistData** blocks will be processed.  <br/> |
-|RSF_PID_RSS_SUBSCRIPTION  <br/> |0x8001  <br/> |Indicates that this block contains data for the RSS Subscriptions folder.  <br/> |
-|RSF_PID_SEND_AND_TRACK  <br/> |0x8002  <br/> |Indicates that this block contains data for the Tracked Mail Processing folder.  <br/> |
-|RSF_PID_TODO_SEARCH  <br/> |0x8004  <br/> |Indicates that this block contains data for the To-Do Search folder.  <br/> |
-|RSF_PID_CONV_ACTIONS  <br/> |0x8006  <br/> |Indicates that this block contains data for the Conversation Action Settings folder.  <br/> |
-|RSF_PID_COMBINED_ACTIONS  <br/> |0x8007  <br/> |This value is reserved.  <br/> |
-|RSF_PID_SUGGESTED_CONTACTS  <br/> |0x8008  <br/> |Indicates that this block contains data for the Suggested Contacts folder.  <br/> |
-|RSF_PID_CONTACT_SEARCH  <br/> |0x8009  <br/> |Indicates that this block contains data for the Contacts Search folder.  <br/> Used only by Outlook.  <br/> |
-|RSF_PID_BUDDYLIST_PDLS  <br/> |0x800A  <br/> |Indicates that this block contains data for the Instant Messaging (IM) Contact Lists folder. The referenced folder contains Personal Distribution Lists (PDLs) representing each group within the IM Contact list.  <br/> Used by both Outlook and Exchange.  <br/> |
-|RSF_PID_BUDDYLIST_CONTACTS  <br/> |0x800B  <br/> |Indicates that this block contains data for the IM Contacts folder. The referenced folder contains the individual contacts referenced by the IM Contact List groups.  <br/> Used by both Outlook and Exchange.  <br/> |
+|PERSIST_SENTINEL  <br/> |0x0000  <br/> |Indicates that no more **PersistData** blocks will be processed. |
+|RSF_PID_RSS_SUBSCRIPTION  <br/> |0x8001  <br/> |Indicates that this block contains data for the RSS Subscriptions folder. |
+|RSF_PID_SEND_AND_TRACK  <br/> |0x8002  <br/> |Indicates that this block contains data for the Tracked Mail Processing folder. |
+|RSF_PID_TODO_SEARCH  <br/> |0x8004  <br/> |Indicates that this block contains data for the To-Do Search folder. |
+|RSF_PID_CONV_ACTIONS  <br/> |0x8006  <br/> |Indicates that this block contains data for the Conversation Action Settings folder. |
+|RSF_PID_COMBINED_ACTIONS  <br/> |0x8007  <br/> |This value is reserved. |
+|RSF_PID_SUGGESTED_CONTACTS  <br/> |0x8008  <br/> |Indicates that this block contains data for the Suggested Contacts folder. |
+|RSF_PID_CONTACT_SEARCH  <br/> |0x8009  <br/> |Indicates that this block contains data for the Contacts Search folder. Used only by Outlook. |
+|RSF_PID_BUDDYLIST_PDLS  <br/> |0x800A  <br/> |Indicates that this block contains data for the Instant Messaging (IM) Contact Lists folder. The referenced folder contains Personal Distribution Lists (PDLs) representing each group within the IM Contact list. Used by both Outlook and Exchange. |
+|RSF_PID_BUDDYLIST_CONTACTS  <br/> |0x800B  <br/> |Indicates that this block contains data for the IM Contacts folder. The referenced folder contains the individual contacts referenced by the IM Contact List groups. Used by both Outlook and Exchange. |
    
 If the **PersistBlockType** value is not one of the ones defined here, the **PersistData** block is ignored and processing is continued until either a PERSIST_SENTINEL **PersistID** is processed or the end of the stream is reached. 
   
@@ -64,17 +64,17 @@ If the **PersistBlockType** value is not one of the ones defined here, the **Per
 
 |**Name**|**Type**|**Size**|**Description**|
 |:-----|:-----|:-----|:-----|
-|**ElementID** <br/> |WORD  <br/> |2  <br/> |Specifies the type identifier value for this **PersistElement** block. See the "PersistElementType Values" table for a list of valid values.  <br/> |
-|**ElementDataSize** <br/> |WORD  <br/> |2  <br/> |Specifies the size, in bytes, of the **ElementData** field.  <br/> |
-|**ElementData** <br/> |array of binary data  <br/> |variable  <br/> |Contains the data for this **PersistID** + **ElementID** pair.  <br/> |
+|**ElementID** <br/> |WORD  <br/> |2  <br/> |Specifies the type identifier value for this **PersistElement** block. See the "PersistElementType Values" table for a list of valid values. |
+|**ElementDataSize** <br/> |WORD  <br/> |2  <br/> |Specifies the size, in bytes, of the **ElementData** field. |
+|**ElementData** <br/> |array of binary data  <br/> |variable  <br/> |Contains the data for this **PersistID** + **ElementID** pair. |
    
 **PersistElementType Values**
 
 |**Name**|**Value**|**Value of ElementDataSize**|**Description**|
 |:-----|:-----|:-----|:-----|
-|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Indicates that this block's **ElementData** field contains a DWORD Header value. How this value is interpreted depends on the block's **PersistID** type.  <br/> For all **PersistID** types specified in [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx), this value is zero.  <br/> |
-|RSF_ELID_ENTRYID  <br/> |0x0001  <br/> |variable  <br/> |Indicates that this block contains the **EntryID** of the folder specified by **PersistID**.  <br/> |
-|ELEMENT_SENTINEL  <br/> |0x0000  <br/> |0x0000  <br/> |Indicates that no more **PersistElement** blocks will be processed.  <br/> |
+|RSF_ELID_HEADER  <br/> |0x0002  <br/> |0x0004  <br/> |Indicates that this block's **ElementData** field contains a DWORD Header value. How this value is interpreted depends on the block's **PersistID** type. For all **PersistID** types specified in [[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb.aspx), this value is zero. |
+|RSF_ELID_ENTRYID  <br/> |0x0001  <br/> |variable  <br/> |Indicates that this block contains the **EntryID** of the folder specified by **PersistID**. |
+|ELEMENT_SENTINEL  <br/> |0x0000  <br/> |0x0000  <br/> |Indicates that no more **PersistElement** blocks will be processed. |
    
 If the **PersistElementType** value is not one of the ones defined here, the **PersistElement** block is ignored and processing is continued until either an ELEMENT_SENTINEL **ElementID** is processed or the end of the stream is reached. 
   

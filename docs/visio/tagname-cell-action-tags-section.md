@@ -37,7 +37,7 @@ To get a reference to the TagName cell by index from a program, use the **CellsS
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visSmartTagName** <br/> |
    
 

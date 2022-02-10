@@ -26,10 +26,10 @@ INDEX(** *index* **," ** *list* ** "[,[ ** *delimiter* ** ][,[ ** *errorvalue* *
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |Required  <br/> |**Number** <br/> |The location that you want to find.  <br/> |
-| _list_ <br/> |Required  <br/> |**String** <br/> |The list in which you want to search.  <br/> |
-| _delimiter_ <br/> |Optional  <br/> |**String** <br/> | The string to use as a delimiter within  _list_. A  _delimiter_ string can be more than one character in length and include multibyte characters. The default is a semicolon.  <br/> |
-| _errorvalue_ <br/> |Optional  <br/> |**Number** <br/> | A user-specified value to return if the index is out of range. The default is an empty string.  <br/> |
+| _index_ <br/> |Required  <br/> |**Number** <br/> |The location that you want to find. |
+| _list_ <br/> |Required  <br/> |**String** <br/> |The list in which you want to search. |
+| _delimiter_ <br/> |Optional  <br/> |**String** <br/> | The string to use as a delimiter within  _list_. A  _delimiter_ string can be more than one character in length and include multibyte characters. The default is a semicolon. |
+| _errorvalue_ <br/> |Optional  <br/> |**Number** <br/> | A user-specified value to return if the index is out of range. The default is an empty string. |
    
 ## Remarks
 

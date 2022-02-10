@@ -119,7 +119,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI uses the **HrValidateIPMSubtree** method to add standard folders to a message store.  <br/> |
+|MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI uses the **HrValidateIPMSubtree** method to add standard folders to a message store. |
    
 ## See also
 

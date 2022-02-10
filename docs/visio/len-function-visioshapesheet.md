@@ -26,7 +26,7 @@ LEN (** *text* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Required  <br/> |**String** <br/> |The character string whose length you want to find.  <br/> |
+| _text_ <br/> |Required  <br/> |**String** <br/> |The character string whose length you want to find. |
    
 ### Return value
 

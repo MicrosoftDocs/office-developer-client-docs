@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataColumns](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |Contains all the **DataColumn** elements in a data recordset.  <br/> |
+|[DataColumns](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |Contains all the **DataColumn** elements in a data recordset. |
    
 ### Child elements
 
@@ -50,19 +50,19 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Calendar  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Calendar ID of the data column.  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|ColumnNameID  <br/> |xsd:string  <br/> |required  <br/> |External name of the data column. Appears in the headings in the **External Data** window and in labels in data graphics.  <br/> |Values of the xsd:string type.  <br/> |
-|Currency  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Currency ID of the data column.  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|DataType  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Type of the data in the data column.  <br/> |Values of the xsd:unsignedShort type.  <br/> |
-|Degree  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Specifies the degree (power) of the units, for example squared, or cubed. The default (attribute absent) is 1.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|DisplayOrder  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Defines the display position of the data column in the **External Data** window, from the left-most column (0) to the right-most column (largest value).  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|DisplayWidth  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Width of the data column in the **External Data** window.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Hyperlink  <br/> |xsd:boolean  <br/> |optional  <br/> |Whether the data column creates a hyperlink in a shape when the shape is linked to data.  <br/> |Values of the xsd:boolean type.  <br/> |
-|Label  <br/> |xsd:string  <br/> |required  <br/> |Label of the data column.  <br/> |Values of the xsd:string type.  <br/> |
-|LangID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The language ID of the data column.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Mapped  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies whether the column is visible in the **External Data** window. True (1) for the column to be visible; False (0) for the column not to be visible. The default (attribute absent) is for the column to be visible.  <br/> |Values of the xsd:boolean type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |required  <br/> |Internal name of the data column. Used as the row name for the shape-data item (custom property) added to a shape when the shape is linked to a data row.  <br/> |Values of the xsd:string type.  <br/> |
-|OrigLabel  <br/> |xsd:string  <br/> |optional  <br/> |Column label returned to Visio by the underlying ADO interface.  <br/> |Values of the xsd:string type.  <br/> |
-|UnitType  <br/> |xsd:string  <br/> |optional  <br/> |Unit type of the data in the data column.  <br/> |Values of the xsd:string type.  <br/> |
+|Calendar  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Calendar ID of the data column. |Values of the xsd:unsignedShort type. |
+|ColumnNameID  <br/> |xsd:string  <br/> |required  <br/> |External name of the data column. Appears in the headings in the **External Data** window and in labels in data graphics. |Values of the xsd:string type. |
+|Currency  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Currency ID of the data column. |Values of the xsd:unsignedShort type. |
+|DataType  <br/> |xsd:unsignedShort  <br/> |optional  <br/> |Type of the data in the data column. |Values of the xsd:unsignedShort type. |
+|Degree  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Specifies the degree (power) of the units, for example squared, or cubed. The default (attribute absent) is 1. |Values of the xsd:unsignedInt type. |
+|DisplayOrder  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Defines the display position of the data column in the **External Data** window, from the left-most column (0) to the right-most column (largest value). |Values of the xsd:unsignedInt type. |
+|DisplayWidth  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |Width of the data column in the **External Data** window. |Values of the xsd:unsignedInt type. |
+|Hyperlink  <br/> |xsd:boolean  <br/> |optional  <br/> |Whether the data column creates a hyperlink in a shape when the shape is linked to data. |Values of the xsd:boolean type. |
+|Label  <br/> |xsd:string  <br/> |required  <br/> |Label of the data column. |Values of the xsd:string type. |
+|LangID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The language ID of the data column. |Values of the xsd:unsignedInt type. |
+|Mapped  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies whether the column is visible in the **External Data** window. True (1) for the column to be visible; False (0) for the column not to be visible. The default (attribute absent) is for the column to be visible. |Values of the xsd:boolean type. |
+|Name  <br/> |xsd:string  <br/> |required  <br/> |Internal name of the data column. Used as the row name for the shape-data item (custom property) added to a shape when the shape is linked to a data row. |Values of the xsd:string type. |
+|OrigLabel  <br/> |xsd:string  <br/> |optional  <br/> |Column label returned to Visio by the underlying ADO interface. |Values of the xsd:string type. |
+|UnitType  <br/> |xsd:string  <br/> |optional  <br/> |Unit type of the data in the data column. |Values of the xsd:string type. |
    
 

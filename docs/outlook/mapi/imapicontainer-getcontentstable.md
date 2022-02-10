@@ -143,7 +143,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableDialog.cpp  <br/> |CContentsTableDlg::CContentsTableDlg  <br/> |The **CContentsTableDlg** class uses **GetContentsTable** to obtain the entries in a contents table.  <br/> |
+|ContentsTableDialog.cpp  <br/> |CContentsTableDlg::CContentsTableDlg  <br/> |The **CContentsTableDlg** class uses **GetContentsTable** to obtain the entries in a contents table. |
    
 ## See also
 

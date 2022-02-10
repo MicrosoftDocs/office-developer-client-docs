@@ -32,10 +32,10 @@ Depending on the type of event and the advise source, your **OnNotify** method c
   
 |**Type of event**|**Handling in OnNotify**|
 |:-----|:-----|
-|Object moved  <br/> |If the moved object's original parent is related to the new parent, update the view beginning with the folder or address book container highest in the hierarchy. If the two parent containers are unrelated, update both of their views.  <br/> |
-|New message  <br/> |Change the user interface to inform the user of the arrival of one or more new messages. Place the receive folder in the current view.  <br/> |
-|Error  <br/> |For all objects except the session, log the error if necessary and return. For the session object, log off if possible.  <br/> |
-|Search complete  <br/> |No processing necessary.  <br/> |
+|Object moved  <br/> |If the moved object's original parent is related to the new parent, update the view beginning with the folder or address book container highest in the hierarchy. If the two parent containers are unrelated, update both of their views. |
+|New message  <br/> |Change the user interface to inform the user of the arrival of one or more new messages. Place the receive folder in the current view. |
+|Error  <br/> |For all objects except the session, log the error if necessary and return. For the session object, log off if possible. |
+|Search complete  <br/> |No processing necessary. |
    
 > [!NOTE]
 > Notification handlers should be reentrant. 

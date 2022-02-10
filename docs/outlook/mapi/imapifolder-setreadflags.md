@@ -131,9 +131,9 @@ Expect these return values under the following conditions.
   
 |**Condition**|**Return value**|
 |:-----|:-----|
-|**SetReadFlags** has successfully processed every message.  <br/> |S_OK  <br/> |
-|**SetReadFlags** was unable to successfully process every message.  <br/> |MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND  <br/> |
-|**SetReadFlags** was unable to complete.  <br/> |Any error value except MAPI_E_NOT_FOUND  <br/> |
+|**SetReadFlags** has successfully processed every message. |S_OK  <br/> |
+|**SetReadFlags** was unable to successfully process every message. |MAPI_W_PARTIAL_COMPLETION or MAPI_E_NOT_FOUND  <br/> |
+|**SetReadFlags** was unable to complete. |Any error value except MAPI_E_NOT_FOUND  <br/> |
    
 When **SetReadFlags** is unable to complete, do not assume that no work was done. **SetReadFlags** might have been able to set or clear the MSGFLAG_READ flag for one or more of the messages before encountering the error. 
   
@@ -143,7 +143,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI uses the **IMAPIFolder::SetReadFlags** method to manually set the read status on the specified messages.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI uses the **IMAPIFolder::SetReadFlags** method to manually set the read status on the specified messages. |
    
 ## See also
 

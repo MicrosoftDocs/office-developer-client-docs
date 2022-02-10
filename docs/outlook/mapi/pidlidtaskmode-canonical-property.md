@@ -38,12 +38,12 @@ The value must be one of the following.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0x00000000  <br/> |The task is not assigned.  <br/> |
-|0x00000001  <br/> |The task is embedded in a task request.  <br/> |
-|0x00000002  <br/> |The task was accepted by the task assignee.  <br/> |
-|0x00000003  <br/> |The task was rejected by the task assignee.  <br/> |
-|0x00000004  <br/> |The task is embedded in a task update.  <br/> |
-|0x00000005  <br/> |The task was assigned to the task assigner.  <br/> |
+|0x00000000  <br/> |The task is not assigned. |
+|0x00000001  <br/> |The task is embedded in a task request. |
+|0x00000002  <br/> |The task was accepted by the task assignee. |
+|0x00000003  <br/> |The task was rejected by the task assignee. |
+|0x00000004  <br/> |The task is embedded in a task update. |
+|0x00000005  <br/> |The task was assigned to the task assigner. |
    
 ## Related resources
 

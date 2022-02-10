@@ -26,7 +26,7 @@ ISERROR(** *cellreference* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellreference_ <br/> |Required  <br/> |**String** <br/> |Reference to a cell.  <br/> |
+| _cellreference_ <br/> |Required  <br/> |**String** <br/> |Reference to a cell. |
    
 ## Example 1
 

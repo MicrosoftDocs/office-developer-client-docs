@@ -80,7 +80,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI uses the **IMsgServiceAdmin::AdminProviders** method to open a provider administration object for a service.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDisplayItem  <br/> |MFCMAPI uses the **IMsgServiceAdmin::AdminProviders** method to open a provider administration object for a service. |
    
 ## See also
 

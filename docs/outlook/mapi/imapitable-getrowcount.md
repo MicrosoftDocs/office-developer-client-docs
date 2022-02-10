@@ -81,7 +81,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI uses the **IMAPITable::GetRowCount** method to determine how many rows are in the source table so memory can be allocated to perform the copy.  <br/> |
+|MAPIFunctions.cpp  <br/> |CopyFolderContents  <br/> |MFCMAPI uses the **IMAPITable::GetRowCount** method to determine how many rows are in the source table so memory can be allocated to perform the copy. |
    
 ## See also
 

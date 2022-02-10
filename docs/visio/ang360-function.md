@@ -23,7 +23,7 @@ ANG360(***angle*** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle to be normalized.  <br/> |
+| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle to be normalized. |
    
 ## Remarks
 

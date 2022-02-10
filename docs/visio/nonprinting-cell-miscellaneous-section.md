@@ -20,8 +20,8 @@ Switches printing on and off for the selected shape.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Printing disabled, but the shape will be displayed in the drawing window.  <br/> |
-| FALSE  <br/> | Printing enabled.  <br/> |
+| TRUE  <br/> | Printing disabled, but the shape will be displayed in the drawing window. |
+| FALSE  <br/> | Printing enabled. |
    
 ## Remarks
 

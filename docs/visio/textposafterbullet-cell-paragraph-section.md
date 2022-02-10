@@ -27,14 +27,14 @@ To get a reference to the TextPosAfterBullet cell by name from another formula, 
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Para.TextPosAfterBullet[  *i*  ]            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Para.TextPosAfterBullet[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the TextPosAfterBullet cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionParagraph** <br/> |
-| Row index:  <br/> |**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visTextPosAfterBullet** <br/> |
    
 

@@ -37,8 +37,8 @@ This property can have exactly one of the following values:
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |Manual acknowledgment.  <br/> |
-|1  <br/> |Automatic acknowledgment.  <br/> |
+|0  <br/> |Manual acknowledgment. |
+|1  <br/> |Automatic acknowledgment. |
    
 ## Related resources
 

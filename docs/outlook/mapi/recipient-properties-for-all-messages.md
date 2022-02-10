@@ -24,12 +24,12 @@ The following properties are typically present for all message recipients. **PR_
 
 |**Property**|**Description**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Contains the messaging user's email address type, such as SMTP.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contains the display name for a given MAPI object.  <br/> |
-|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Contains a value used to associate an icon with a particular row of a table.  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Contains the messaging user's email address.  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contains a MAPI entry identifier used to open and edit properties of a particular MAPI object.  <br/> |
-|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Contains the type of an object.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contains a binary-comparable key that identifies correlated objects for a search.  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Contains the messaging user's email address type, such as SMTP. |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Contains the display name for a given MAPI object. |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Contains a value used to associate an icon with a particular row of a table. |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Contains the messaging user's email address. |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Contains a MAPI entry identifier used to open and edit properties of a particular MAPI object. |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Contains the type of an object. |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Contains a binary-comparable key that identifies correlated objects for a search. |
    
 

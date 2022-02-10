@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Issue](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Represents a single validation issue in the document.  <br/> |
+|[Issue](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Represents a single validation issue in the document. |
    
 ### Child elements
 
@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the page that is associated with the parent validation issue. If the target is the document, the PageID value can be 0xFFFFFFFF.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|ShapeID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the shape that is associated with the parent validation issue. If the target is the document or a page, the ShapeID value can be 0xFFFFFFFF.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the page that is associated with the parent validation issue. If the target is the document, the PageID value can be 0xFFFFFFFF. |Values of the xsd:unsignedInt type. |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the shape that is associated with the parent validation issue. If the target is the document or a page, the ShapeID value can be 0xFFFFFFFF. |Values of the xsd:unsignedInt type. |
    
 

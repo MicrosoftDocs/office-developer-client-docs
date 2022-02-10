@@ -130,7 +130,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI uses the **IMAPISession::OpenEntry** method to open an object.  <br/> |
+|MAPIFunctions.cpp  <br/> |CallOpenEntry  <br/> |MFCMAPI uses the **IMAPISession::OpenEntry** method to open an object. |
    
 ## See also
 

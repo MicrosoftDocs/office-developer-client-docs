@@ -24,7 +24,7 @@ Provides extra information about the last error.
 
 |||
 |:-----|:-----|
-|[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Gets a message string for the specified error.  <br/> |
+|[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Gets a message string for the specified error. |
    
 ## Remarks
 

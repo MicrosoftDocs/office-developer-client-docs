@@ -38,17 +38,17 @@ Must be set to a bitwise or zero or more of the following flags.
   
 |**Name**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|seOpenToDelete  <br/> |0x0001  <br/> |Additional processing is required on the message object when deleting.  <br/> |
-|seNoFrame  <br/> |0x0008  <br/> |No UI is associated with the message object.  <br/> |
-|seCoerceToInbox  <br/> |0x0010  <br/> |Additional processing is required on the message object when moving or copying to a folder object with a **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of "IPF.Note".  <br/> |
-|seOpenTocopy  <br/> |0x0020  <br/> |Additional processing is required on the message object when copying to another folder.  <br/> |
-|seOpenToMove  <br/> |0x0040  <br/> |Additional processing is required on the message object when moving to another folder.  <br/> |
-|seOpenForCtxMenu  <br/> |0x0100  <br/> |Additional processing is required on the message object when displaying verbs to the end-user.  <br/> |
-|seCannotUndoDelete  <br/> |0x0400  <br/> |Cannot undo delete operation, must not be set unless "seOpenToDelete" is set.  <br/> |
-|seCannotUndoCopy  <br/> |0x0800  <br/> |Cannot undo copy operation, must not be set unless "seOpenTocopy" is set.  <br/> |
-|seCannotUndoMove  <br/> |0x1000  <br/> |Cannot undo move operation, must not be set unless "seOpenToMove" is set.  <br/> |
-|seHasScript  <br/> |0x2000  <br/> |The message object contains end-user script.  <br/> |
-|seOpenToPermDelete  <br/> |0x4000  <br/> |Additional processing is required to permanently delete the message object.  <br/> |
+|seOpenToDelete  <br/> |0x0001  <br/> |Additional processing is required on the message object when deleting. |
+|seNoFrame  <br/> |0x0008  <br/> |No UI is associated with the message object. |
+|seCoerceToInbox  <br/> |0x0010  <br/> |Additional processing is required on the message object when moving or copying to a folder object with a **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of "IPF.Note". |
+|seOpenTocopy  <br/> |0x0020  <br/> |Additional processing is required on the message object when copying to another folder. |
+|seOpenToMove  <br/> |0x0040  <br/> |Additional processing is required on the message object when moving to another folder. |
+|seOpenForCtxMenu  <br/> |0x0100  <br/> |Additional processing is required on the message object when displaying verbs to the end-user. |
+|seCannotUndoDelete  <br/> |0x0400  <br/> |Cannot undo delete operation, must not be set unless "seOpenToDelete" is set. |
+|seCannotUndoCopy  <br/> |0x0800  <br/> |Cannot undo copy operation, must not be set unless "seOpenTocopy" is set. |
+|seCannotUndoMove  <br/> |0x1000  <br/> |Cannot undo move operation, must not be set unless "seOpenToMove" is set. |
+|seHasScript  <br/> |0x2000  <br/> |The message object contains end-user script. |
+|seOpenToPermDelete  <br/> |0x4000  <br/> |Additional processing is required to permanently delete the message object. |
    
 ## Related resources
 

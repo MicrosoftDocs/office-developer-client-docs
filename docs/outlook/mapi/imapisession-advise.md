@@ -136,7 +136,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI uses the **IMAPISession::Advise** method to register for notifications against the session.  <br/> |
+|BaseDialog.cpp  <br/> |CBaseDialog::OnNotificationsOn  <br/> |MFCMAPI uses the **IMAPISession::Advise** method to register for notifications against the session. |
    
 ## See also
 

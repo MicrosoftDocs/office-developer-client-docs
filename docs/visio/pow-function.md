@@ -26,8 +26,8 @@ POW(** *number* **, ** *exponent* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to raise to the power of an exponent.  <br/> |
-| _exponent_ <br/> |Required  <br/> |**Number** <br/> |The exponent.  <br/> |
+| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to raise to the power of an exponent. |
+| _exponent_ <br/> |Required  <br/> |**Number** <br/> |The exponent. |
    
 ## Remarks
 

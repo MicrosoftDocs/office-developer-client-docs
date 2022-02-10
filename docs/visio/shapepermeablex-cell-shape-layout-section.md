@@ -20,8 +20,8 @@ Determines whether a connector can route horizontally through a placeable shape.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Enable connectors to route horizontally through a placeable shape.  <br/> |
-|FALSE  <br/> |Do not let connectors route horizontally through a placeable shape.  <br/> |
+|TRUE  <br/> |Enable connectors to route horizontally through a placeable shape. |
+|FALSE  <br/> |Do not let connectors route horizontally through a placeable shape. |
    
 ## Remarks
 

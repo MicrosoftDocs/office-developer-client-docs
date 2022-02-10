@@ -59,7 +59,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MainDlg.cpp  <br/> |CMainDlg::OnOpenDefaultDir  <br/> |MFCMAPI uses the **GetDefaultDir** method to get the ID for the default address book container.  <br/> |
+|MainDlg.cpp  <br/> |CMainDlg::OnOpenDefaultDir  <br/> |MFCMAPI uses the **GetDefaultDir** method to get the ID for the default address book container. |
    
 ## See also
 

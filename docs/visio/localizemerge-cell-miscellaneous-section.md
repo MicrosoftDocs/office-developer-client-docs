@@ -20,8 +20,8 @@ Determines whether shapes are localized when copied between documents.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Localize a shape in the language of the destination document.  <br/> |
-| FALSE  <br/> | Do not localize a shape based on the language of the destination document (the default).  <br/> |
+| TRUE  <br/> | Localize a shape in the language of the destination document. |
+| FALSE  <br/> | Do not localize a shape based on the language of the destination document (the default). |
    
 ## Remarks
 

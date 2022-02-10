@@ -44,8 +44,8 @@ None.
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Contains elements that define a master for the document.  <br/> |
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Specifies a master shortcut defined in the document.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Contains elements that define a master for the document. |
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Specifies a master shortcut defined in the document. |
    
 ### Attributes
 

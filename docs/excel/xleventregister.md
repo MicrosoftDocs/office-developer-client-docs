@@ -36,8 +36,8 @@ Starting in Excel 2010, Excel supports the following events:
   
 |**Event**|**Description**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |Raised when Excel completes a calculation. You can free any resources allocated during the calculation after this event.  <br/> |
-|**xleventCalculationCanceled** <br/> |Raised when the user interrupts the calculation. The XLL should stop any asynchronous activities. The CalculationEnded event is raised immediately following this event.  <br/> |
+|**xleventCalculationEnded** <br/> |Raised when Excel completes a calculation. You can free any resources allocated during the calculation after this event. |
+|**xleventCalculationCanceled** <br/> |Raised when the user interrupts the calculation. The XLL should stop any asynchronous activities. The CalculationEnded event is raised immediately following this event. |
    
 ## Property value/Return value
 

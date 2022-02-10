@@ -25,8 +25,8 @@ The **RequeryRecords** action has the following arguments.
   
 |**Parameter**|**Required**|**Description**|
 |:-----|:-----|:-----|
-|**Where=** <br/> |No  <br/> |A SQL WHERE clause that restricts the records in the view. By default, this argument is blank.  <br/> |
-|**OrderBy** <br/> |No  <br/> |A string expression that includes the name of the field or fields on which to sort records and the optional ASC or DESC keywords. By default, this argument is blank.  <br/> |
+|**Where=** <br/> |No  <br/> |A SQL WHERE clause that restricts the records in the view. By default, this argument is blank. |
+|**OrderBy** <br/> |No  <br/> |A string expression that includes the name of the field or fields on which to sort records and the optional ASC or DESC keywords. By default, this argument is blank. |
 
 ## Remarks
 

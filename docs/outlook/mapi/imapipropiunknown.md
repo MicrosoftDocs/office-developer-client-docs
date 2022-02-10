@@ -27,7 +27,7 @@ Enables clients, service providers, and MAPI to work with properties. All object
 |||
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
-|Exposed by:  <br/> |No object exposes this interface directly.  <br/> |
+|Exposed by:  <br/> |No object exposes this interface directly. |
 |Implemented by:  <br/> |Service providers and MAPI  <br/> |
 |Called by:  <br/> |Client applications, service providers, and MAPI  <br/> |
 |Interface identifier:  <br/> |IID_IMAPIProp  <br/> |
@@ -38,17 +38,17 @@ Enables clients, service providers, and MAPI to work with properties. All object
 
 |||
 |:-----|:-----|
-|[GetLastError](imapiprop-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error.  <br/> |
-|[SaveChanges](imapiprop-savechanges.md) <br/> |Makes permanent any changes that were made to an object since the last save operation.  <br/> |
-|[GetProps](imapiprop-getprops.md) <br/> |Retrieves the property value of one or more properties of an object.  <br/> |
-|[GetPropList](imapiprop-getproplist.md) <br/> |Returns property tags for all properties.  <br/> |
-|[OpenProperty](imapiprop-openproperty.md) <br/> |Returns a pointer to an interface that can be used to access a property.  <br/> |
-|[SetProps](imapiprop-setprops.md) <br/> |Updates one or more properties.  <br/> |
-|[DeleteProps](imapiprop-deleteprops.md) <br/> |Deletes one or more properties from an object.  <br/> |
-|[CopyTo](imapiprop-copyto.md) <br/> |Copies or moves all properties, except for specifically excluded properties.  <br/> |
-|[CopyProps](imapiprop-copyprops.md) <br/> |Copies or moves selected properties.  <br/> |
-|[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Provides the property names that correspond to one or more property identifiers.  <br/> |
-|[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Provides the property identifiers that correspond to one or more property names.  <br/> |
+|[GetLastError](imapiprop-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error. |
+|[SaveChanges](imapiprop-savechanges.md) <br/> |Makes permanent any changes that were made to an object since the last save operation. |
+|[GetProps](imapiprop-getprops.md) <br/> |Retrieves the property value of one or more properties of an object. |
+|[GetPropList](imapiprop-getproplist.md) <br/> |Returns property tags for all properties. |
+|[OpenProperty](imapiprop-openproperty.md) <br/> |Returns a pointer to an interface that can be used to access a property. |
+|[SetProps](imapiprop-setprops.md) <br/> |Updates one or more properties. |
+|[DeleteProps](imapiprop-deleteprops.md) <br/> |Deletes one or more properties from an object. |
+|[CopyTo](imapiprop-copyto.md) <br/> |Copies or moves all properties, except for specifically excluded properties. |
+|[CopyProps](imapiprop-copyprops.md) <br/> |Copies or moves selected properties. |
+|[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Provides the property names that correspond to one or more property identifiers. |
+|[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Provides the property identifiers that correspond to one or more property names. |
    
 ## Remarks
 

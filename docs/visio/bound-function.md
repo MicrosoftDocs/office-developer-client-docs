@@ -26,11 +26,11 @@ BOUND (** *value* **, ** *type* **, ** *ignore* **, ** *value1* **, ** *value2* 
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _value_ <br/> |Required  <br/> |**Numeric** <br/> |The current value being constrained.  <br/> |
-| _type_ <br/> |Required  <br/> |**Numeric** <br/> |Whether the constraint is inclusive (0), exclusive (1), or disabled (2).  <br/> |
-| _ignore_ <br/> |Required  <br/> |**Boolean** <br/> | TRUE to ignore the range; FALSE to constrain the value of the cell to the range.  <br/> |
-| _value1_ <br/> |Required  <br/> |**Numeric** <br/> |First value in a range.  <br/> |
-| _value2_ <br/> |Required  <br/> |**Numeric** <br/> |Second value in a range.  <br/> |
+| _value_ <br/> |Required  <br/> |**Numeric** <br/> |The current value being constrained. |
+| _type_ <br/> |Required  <br/> |**Numeric** <br/> |Whether the constraint is inclusive (0), exclusive (1), or disabled (2). |
+| _ignore_ <br/> |Required  <br/> |**Boolean** <br/> | TRUE to ignore the range; FALSE to constrain the value of the cell to the range. |
+| _value1_ <br/> |Required  <br/> |**Numeric** <br/> |First value in a range. |
+| _value2_ <br/> |Required  <br/> |**Numeric** <br/> |Second value in a range. |
    
 ## Remarks
 

@@ -28,13 +28,13 @@ Commonly used macros are briefly described in the following table.
   
 |**Macro**|**Description**|
 |:-----|:-----|
-|**MAKE_HRESULT** <br/> |Constructs an HRESULT from its components.  <br/> |
-|**HR_SUCCEEDED** <br/> |Tests an HRESULT for a success or warning condition.  <br/> |
-|**HR_FAILED** <br/> |Tests an HRESULT for an error condition.  <br/> |
-|**HRESULT_CODE** <br/> |Extracts the error code part of the HRESULT.  <br/> |
-|**HRESULT_FACILITY** <br/> |Extracts the facility from the HRESULT.  <br/> |
-|**HRESULT_SEVERITY** <br/> |Extracts the severity bit from the SEVERITY.  <br/> |
-|**SUCCEEDED** <br/> |Tests an HRESULT for a success or warning condition.  <br/> |
-|**FAILED** <br/> |Tests an HRESULT for an error condition.  <br/> |
+|**MAKE_HRESULT** <br/> |Constructs an HRESULT from its components. |
+|**HR_SUCCEEDED** <br/> |Tests an HRESULT for a success or warning condition. |
+|**HR_FAILED** <br/> |Tests an HRESULT for an error condition. |
+|**HRESULT_CODE** <br/> |Extracts the error code part of the HRESULT. |
+|**HRESULT_FACILITY** <br/> |Extracts the facility from the HRESULT. |
+|**HRESULT_SEVERITY** <br/> |Extracts the severity bit from the SEVERITY. |
+|**SUCCEEDED** <br/> |Tests an HRESULT for a success or warning condition. |
+|**FAILED** <br/> |Tests an HRESULT for an error condition. |
    
 

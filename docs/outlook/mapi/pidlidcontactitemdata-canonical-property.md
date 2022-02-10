@@ -38,13 +38,13 @@ If present, the property must have six entries, each corresponding to a visible 
   
 |**One-based index into the multi-valued property**|**The value must be one of the following**|**Description**|
 |:-----|:-----|:-----|
-|1  <br/> |0x00000001  <br/> |The application should display the contact's home address.  <br/> |
-|1  <br/> |0x00000002 or 0x00000000  <br/> |The application should display the contact's work.  <br/> |
-|1  <br/> |0x00000003  <br/> |The application should display the contact's other address.  <br/> |
-|2  <br/> |0x00008080  <br/> |The application should display Email1.  <br/> |
-|2  <br/> |0x00008090  <br/> |The application should display Email2.  <br/> |
-|2  <br/> |0x000080A0  <br/> |The application should display Email3.  <br/> |
-|3,4,5,6  <br/> |PropertyID of any of the telephone properties or any of the fax numbers that are specified in [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx).  <br/> |The application should display the corresponding property.  <br/> |
+|1  <br/> |0x00000001  <br/> |The application should display the contact's home address. |
+|1  <br/> |0x00000002 or 0x00000000  <br/> |The application should display the contact's work. |
+|1  <br/> |0x00000003  <br/> |The application should display the contact's other address. |
+|2  <br/> |0x00008080  <br/> |The application should display Email1. |
+|2  <br/> |0x00008090  <br/> |The application should display Email2. |
+|2  <br/> |0x000080A0  <br/> |The application should display Email3. |
+|3,4,5,6  <br/> |PropertyID of any of the telephone properties or any of the fax numbers that are specified in [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx). |The application should display the corresponding property. |
    
 ## Related resources
 

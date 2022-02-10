@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[CommentList](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |Specifies the comments in a drawing.  <br/> |
+|[CommentList](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |Specifies the comments in a drawing. |
    
 ### Child elements
 
@@ -50,12 +50,12 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|AuthorID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A one-based value that identifies the author.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|CommentID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A unique value that identifies the comment in a drawing page.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Date  <br/> |xsd:dateTime  <br/> |required  <br/> |Specifies when a comment was created.  <br/> |Values of the xsd:dateTime type.  <br/> |
-|Done  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies the current state of the comment.  <br/> |Values of the xsd:boolean type.  <br/> |
-|EditDate  <br/> |xsd:dateTime  <br/> |optional  <br/> |Specifies when a comment was last changed.  <br/> |Values of the xsd:dateTime type.  <br/> |
-|PageID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A value that identifies the drawing page the comment is on.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|ShapeID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |A value that identifies the shape the comment is on. If no ShapeID is specified, the comment refers to the drawing page.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|AuthorID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A one-based value that identifies the author. |Values of the xsd:unsignedInt type. |
+|CommentID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A unique value that identifies the comment in a drawing page. |Values of the xsd:unsignedInt type. |
+|Date  <br/> |xsd:dateTime  <br/> |required  <br/> |Specifies when a comment was created. |Values of the xsd:dateTime type. |
+|Done  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies the current state of the comment. |Values of the xsd:boolean type. |
+|EditDate  <br/> |xsd:dateTime  <br/> |optional  <br/> |Specifies when a comment was last changed. |Values of the xsd:dateTime type. |
+|PageID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A value that identifies the drawing page the comment is on. |Values of the xsd:unsignedInt type. |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |A value that identifies the shape the comment is on. If no ShapeID is specified, the comment refers to the drawing page. |Values of the xsd:unsignedInt type. |
    
 

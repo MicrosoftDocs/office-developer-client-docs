@@ -18,8 +18,8 @@ Determines whether the theme variation applied to the page or shape can be chang
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |The current variation applied to the page or shape cannot be changed.  <br/> |
-|FALSE  <br/> |The variation of the page or shape can be changed.  <br/> |
+|TRUE  <br/> |The current variation applied to the page or shape cannot be changed. |
+|FALSE  <br/> |The variation of the page or shape can be changed. |
    
 ## Remarks
 

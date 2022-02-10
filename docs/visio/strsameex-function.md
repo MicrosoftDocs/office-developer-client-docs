@@ -26,10 +26,10 @@ STRSAMEEX (" ** *string1* ** ", " ** *string2* ** ", ** *localeID* **, ** *flag*
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string1_ <br/> |Required  <br/> |**String** <br/> |The first string to compare.  <br/> |
-| _string2_ <br/> |Required  <br/> |**String** <br/> | The second string to compare.  <br/> |
-| _localeID_ <br/> |Required  <br/> |**Numeric** <br/> |The locale ID code.  <br/> |
-| _flag_ <br/> |Required  <br/> |**Numeric** <br/> | A bit that specifies the type of comparison.  <br/> |
+| _string1_ <br/> |Required  <br/> |**String** <br/> |The first string to compare. |
+| _string2_ <br/> |Required  <br/> |**String** <br/> | The second string to compare. |
+| _localeID_ <br/> |Required  <br/> |**Numeric** <br/> |The locale ID code. |
+| _flag_ <br/> |Required  <br/> |**Numeric** <br/> | A bit that specifies the type of comparison. |
    
 ### Return value
 
@@ -43,11 +43,11 @@ You can use a combination of any of the following flags with the STRSAMEEX funct
   
 |**Flag**|**Description**|
 |:-----|:-----|
-|1  <br/> |Ignore case.  <br/> |
-|2  <br/> |Ignore non-spacing characters.  <br/> |
-|4  <br/> |Ignore symbols.  <br/> |
-|4096  <br/> |Treat punctuation the same as symbols.  <br/> |
-|65536  <br/> |Don't differentiate between Hiragana and Katakana characters.  <br/> |
-|131072  <br/> |Don't differentiate between a single-byte character and the same character as a double-byte character.  <br/> |
+|1  <br/> |Ignore case. |
+|2  <br/> |Ignore non-spacing characters. |
+|4  <br/> |Ignore symbols. |
+|4096  <br/> |Treat punctuation the same as symbols. |
+|65536  <br/> |Don't differentiate between Hiragana and Katakana characters. |
+|131072  <br/> |Don't differentiate between a single-byte character and the same character as a double-byte character. |
    
 

@@ -70,7 +70,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMsgServiceAdmin::DeleteMsgService** method to delete the selected service.  <br/> |
+|MsgServiceTableDlg.cpp  <br/> |CMsgServiceTableDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **IMsgServiceAdmin::DeleteMsgService** method to delete the selected service. |
    
 ## See also
 

@@ -24,8 +24,8 @@ ARG(***argName***,[ ***defaultValue*** ])
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _argName_ <br/> |Required  <br/> |**String** <br/> |The name of an argument that the calling cell can pass into the function.  <br/> |
-| _default Value_ <br/> |Optional  <br/> |**Numeric** <br/> |The value returned by ARG if the calling cell did not pass in a value for the  _argName_ parameter.  <br/> |
+| _argName_ <br/> |Required  <br/> |**String** <br/> |The name of an argument that the calling cell can pass into the function. |
+| _default Value_ <br/> |Optional  <br/> |**Numeric** <br/> |The value returned by ARG if the calling cell did not pass in a value for the  _argName_ parameter. |
    
 ## Remarks
 

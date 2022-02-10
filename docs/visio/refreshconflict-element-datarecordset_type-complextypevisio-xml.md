@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Stores, formats, refreshes, and exposes data queried from a database in Microsoft Visio. |
    
 ### Child elements
 
@@ -50,8 +50,8 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|PageID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Page ID of the shape involved in the conflict.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|RowID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The original row ID of the row now in conflict after data was refreshed .  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|ShapeID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Shape ID of the shape involved in the conflict.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|PageID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Page ID of the shape involved in the conflict. |Values of the xsd:unsignedInt type. |
+|RowID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The original row ID of the row now in conflict after data was refreshed . |Values of the xsd:unsignedInt type. |
+|ShapeID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Shape ID of the shape involved in the conflict. |Values of the xsd:unsignedInt type. |
    
 

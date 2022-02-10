@@ -57,7 +57,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI uses the **IMAPISession::AdminServices** method to access the profile to read the server name.  <br/> |
+|MAPIStoreFunctions.cpp  <br/> |GetServerName  <br/> |MFCMAPI uses the **IMAPISession::AdminServices** method to access the profile to read the server name. |
    
 ## See also
 

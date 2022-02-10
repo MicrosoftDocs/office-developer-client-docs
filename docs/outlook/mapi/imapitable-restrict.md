@@ -98,7 +98,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::ApplyRestriction  <br/> |MFCMAPI uses the **IMAPITable::Restrict** method to set a restriction on a table.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::ApplyRestriction  <br/> |MFCMAPI uses the **IMAPITable::Restrict** method to set a restriction on a table. |
    
 ## See also
 

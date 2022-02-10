@@ -37,10 +37,10 @@ If this value is not set, it must be assumed to be respNone. Otherwise, it must 
   
 |**Response status**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|respNone  <br/> |0x00000000  <br/> |No response is required for this object. This is the case for appointment objects and meeting response objects.  <br/> |
-|respTentative  <br/> |0x00000002  <br/> |This value on the attendee's meeting object indicates that the attendee has tentatively accepted the meeting request object.  <br/> |
-|respAccepted  <br/> |0x00000003  <br/> |This value on the attendee's meeting object indicates that the attendee has accepted the meeting request object.  <br/> |
-|respDeclined  <br/> |0x00000004  <br/> |This value on the attendee's meeting object indicates that the attendee has declined the meeting request object.  <br/> |
+|respNone  <br/> |0x00000000  <br/> |No response is required for this object. This is the case for appointment objects and meeting response objects. |
+|respTentative  <br/> |0x00000002  <br/> |This value on the attendee's meeting object indicates that the attendee has tentatively accepted the meeting request object. |
+|respAccepted  <br/> |0x00000003  <br/> |This value on the attendee's meeting object indicates that the attendee has accepted the meeting request object. |
+|respDeclined  <br/> |0x00000004  <br/> |This value on the attendee's meeting object indicates that the attendee has declined the meeting request object. |
    
 ## Related resources
 

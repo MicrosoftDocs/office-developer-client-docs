@@ -50,7 +50,7 @@ The following table summarizes important differences among this property, **PR_R
 |Required on message store objects  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Required on status objects  <br/> |Yes  <br/> |No  <br/> |No  <br/> |
 |Created by client  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
-|Available before call to **SaveChanges** <br/> |Depends on provider implementation  <br/> |Depends on provider implementation  <br/> |For messages, Yes. For others, depends on provider implementation.  <br/> |
+|Available before call to **SaveChanges** <br/> |Depends on provider implementation  <br/> |Depends on provider implementation  <br/> |For messages, Yes. For others, depends on provider implementation. |
 |Changed in a copy operation  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Changeable by client after a copy  <br/> |No  <br/> |No  <br/> |Yes  <br/> |
 |Unique within  <br/> |Entire world  <br/> |Provider instance  <br/> |Entire world  <br/> |

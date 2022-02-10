@@ -40,23 +40,23 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Includes a **RuleSet** element for each validation rule set in the document.  <br/> |
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Includes a **RuleSet** element for each validation rule set in the document. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |Represents a single validation rule in a diagram validation rule set.  <br/> |
-|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |Specifies rule-set properties.  <br/> |
+|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |Represents a single validation rule in a diagram validation rule set. |
+|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |Specifies rule-set properties. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|Description  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the description that appears in the user interface for the validation rule set. Default is an empty string.  <br/> |Values of the xsd:string type.  <br/> |
-|Enabled  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies whether the rules in the specified validation rule set are checked when validation is triggered for the current document. Default is True.  <br/> |Values of the xsd:boolean type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the validation rule set.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the local name of the validation rule set. Defaults to NameU attribute value.  <br/> |Values of the xsd:string type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |required  <br/> |Specifies the universal name of the validation rule set.  <br/> |Values of the xsd:string type.  <br/> |
+|Description  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the description that appears in the user interface for the validation rule set. Default is an empty string. |Values of the xsd:string type. |
+|Enabled  <br/> |xsd:boolean  <br/> |optional  <br/> |Specifies whether the rules in the specified validation rule set are checked when validation is triggered for the current document. Default is True. |Values of the xsd:boolean type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the validation rule set. |Values of the xsd:unsignedInt type. |
+|Name  <br/> |xsd:string  <br/> |optional  <br/> |Specifies the local name of the validation rule set. Defaults to NameU attribute value. |Values of the xsd:string type. |
+|NameU  <br/> |xsd:string  <br/> |required  <br/> |Specifies the universal name of the validation rule set. |Values of the xsd:string type. |
    
 

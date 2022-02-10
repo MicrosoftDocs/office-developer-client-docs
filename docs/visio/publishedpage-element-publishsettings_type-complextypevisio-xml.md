@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Specifies the settings that are used when the diagram is opened using Visio Services.  <br/> |
+|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Specifies the settings that are used when the diagram is opened using Visio Services. |
    
 ### Child elements
 
@@ -50,6 +50,6 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The identifier of a drawing page.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The identifier of a drawing page. |Values of the xsd:unsignedInt type. |
    
 

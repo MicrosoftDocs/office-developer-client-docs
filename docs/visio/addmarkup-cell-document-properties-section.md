@@ -20,8 +20,8 @@ Indicates whether the document is being reviewed for markup.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Document is being reviewed.  <br/> |
-|FALSE  <br/> |Document is not being reviewed (the default).  <br/> |
+|TRUE  <br/> |Document is being reviewed. |
+|FALSE  <br/> |Document is not being reviewed (the default). |
    
 ## Remarks
 

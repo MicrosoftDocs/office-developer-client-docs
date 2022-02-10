@@ -26,10 +26,10 @@ MAGNITUDE(** *constantA* **, ** *A* **, ** *constantB* **, ** *B* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _constantA_ <br/> |Required  <br/> |**Number** <br/> |The constant by which to multiply the rise.  <br/> |
-| _A_ <br/> |Required  <br/> |**Number** <br/> |The rise.  <br/> |
-| _constantB_ <br/> |Required  <br/> |**Number** <br/> |The constant by which to multiply the run.  <br/> |
-| _B_ <br/> |Required  <br/> |**Number** <br/> |The run.  <br/> |
+| _constantA_ <br/> |Required  <br/> |**Number** <br/> |The constant by which to multiply the rise. |
+| _A_ <br/> |Required  <br/> |**Number** <br/> |The rise. |
+| _constantB_ <br/> |Required  <br/> |**Number** <br/> |The constant by which to multiply the run. |
+| _B_ <br/> |Required  <br/> |**Number** <br/> |The run. |
    
 ## Remarks
 

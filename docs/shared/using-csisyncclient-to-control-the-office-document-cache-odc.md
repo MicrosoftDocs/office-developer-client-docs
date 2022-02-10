@@ -56,13 +56,13 @@ The string which identifies the ResourceID of the file. This value must be non-e
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |The given ResourceID is not in the cache.  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |Initialize has not been successfully called in the past.  <br/> |
-|E_LSC_PENDINGCHANGESINCACHE  <br/> |The file is currently synchronizing or open and cannot be deleted.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_FAIL  <br/> |The call failed. |
+|E_LSC_FILENOTFOUND  <br/> |The given ResourceID is not in the cache. |
+|E_LSC_NOTINITIALIZED  <br/> |Initialize has not been successfully called in the past. |
+|E_LSC_PENDINGCHANGESINCACHE  <br/> |The file is currently synchronizing or open and cannot be deleted. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::GetChanges
 <a name="ILSCLocalSyncClient_GetChanges"> </a>
@@ -89,10 +89,10 @@ An enumerator for the events handed to the consumer. Must not be null.
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::GetClientNetworkSyncPermission
 
@@ -114,10 +114,10 @@ Specifies whether the requested cost heuristic is currently overridden or not. M
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::GetFileStatus
 
@@ -151,12 +151,12 @@ A flag which will contain the status requested via  _sfRequestedStatus_ for the 
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |The file information specified by  _bstrResourceID_ does not exist in the cache.  <br/> |
-|E_LSC_LOCALFILEUNAVAILABLE  <br/> |LSCStatusFlag_LocalFileUnchanged was requested or the file specified by  _bstrResourceID_ is locked or missing.  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_FILENOTFOUND  <br/> |The file information specified by  _bstrResourceID_ does not exist in the cache. |
+|E_LSC_LOCALFILEUNAVAILABLE  <br/> |LSCStatusFlag_LocalFileUnchanged was requested or the file specified by  _bstrResourceID_ is locked or missing. |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::GetSupportedFileExtensions
 <a name="ILSCLocalSyncClient_GetSupportedFileExtensions"> </a>
@@ -177,10 +177,10 @@ A string to be set with a pipe-delimited set of file extensions supported by the
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::Initialize
 <a name="ILSCLocalSyncClient_Initialize"> </a>
@@ -215,12 +215,12 @@ Returns whether a new cache was created. If no cache is associated with the Supp
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_CACHEMISMATCH  <br/> |A SuppliedID already has a cache associated with it, but has a different ProgId or FileSystemDirectoryHint than the ones provided.  <br/> |
-|E_LSC_DIRECTORYHINTCONFLICT  <br/> |The FileSystemDirectoryHint (or a subfolder) already exists on a different cache.  <br/> |
-|E_LAC_PROGIDCONFLICT  <br/> |The ProgID already exists on a different cache.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_CACHEMISMATCH  <br/> |A SuppliedID already has a cache associated with it, but has a different ProgId or FileSystemDirectoryHint than the ones provided. |
+|E_LSC_DIRECTORYHINTCONFLICT  <br/> |The FileSystemDirectoryHint (or a subfolder) already exists on a different cache. |
+|E_LAC_PROGIDCONFLICT  <br/> |The ProgID already exists on a different cache. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::LocalFileChange
 <a name="ILSCLocalSyncClient_LocalFileChange"> </a>
@@ -249,19 +249,19 @@ A string which identifies the file on the server. This value must be non-empty, 
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_CONFLICTINGFILE  <br/> |The file specified by  _bstrFileSystemPath_ has a different ResourceID than specified. An event of type LSCEventType_OnFilePathConflict is sent when this error is returned. See [ILSCLocalSyncClient::GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges).  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |The file was deleted mid-operation.  <br/> |
-|E_LSC_FILENOTSUPPORTED  <br/> |The given file extension is not supported by the CsiSyncClient COM object. See [ILSCLocalSyncClient::GetSupportedFileExtensions ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetSupportedFileExtensions).  <br/> |
-|E_LSC_FILEUPTODATE  <br/> |The COM object did not schedule an upload because the file in the cache had the most recent changes from the disk.  <br/> |
-|E_LSC_LOCALFILEUNAVAILABLE  <br/> |The file specified by  _bstrFileSystemPath_ is missing or locked.  <br/> |
-|E_LSC_LOCALPATHNOTMAPPED  <br/> |The given FileSystemPath is not under the directory root specified by the FileSystemDirectoryHint when the call to Initialize was made.  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|E_LSC_PATHMISMATCH  <br/> |The file specified by  _bstrResourceID_ has a different FileSystemPath than specified.  <br/> |
-|E_LSC_PENDINGCHANGESINCACHE  <br/> |The file specified already has pending changes in a different cache and cannot yet be associated with the consumer's cache.  <br/> |
-|E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |The WebPath provided falls under a different cache.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_CONFLICTINGFILE  <br/> |The file specified by  _bstrFileSystemPath_ has a different ResourceID than specified. An event of type LSCEventType_OnFilePathConflict is sent when this error is returned. See [ILSCLocalSyncClient::GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges). |
+|E_LSC_FILENOTFOUND  <br/> |The file was deleted mid-operation. |
+|E_LSC_FILENOTSUPPORTED  <br/> |The given file extension is not supported by the CsiSyncClient COM object. See [ILSCLocalSyncClient::GetSupportedFileExtensions ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetSupportedFileExtensions). |
+|E_LSC_FILEUPTODATE  <br/> |The COM object did not schedule an upload because the file in the cache had the most recent changes from the disk. |
+|E_LSC_LOCALFILEUNAVAILABLE  <br/> |The file specified by  _bstrFileSystemPath_ is missing or locked. |
+|E_LSC_LOCALPATHNOTMAPPED  <br/> |The given FileSystemPath is not under the directory root specified by the FileSystemDirectoryHint when the call to Initialize was made. |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|E_LSC_PATHMISMATCH  <br/> |The file specified by  _bstrResourceID_ has a different FileSystemPath than specified. |
+|E_LSC_PENDINGCHANGESINCACHE  <br/> |The file specified already has pending changes in a different cache and cannot yet be associated with the consumer's cache. |
+|E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |The WebPath provided falls under a different cache. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::RenameFile
 <a name="ILSCLocalSyncClient_RenameFile"> </a>
@@ -292,14 +292,14 @@ Specifies whether uploads to the new location are allowed currently.
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_CONFLICTINGFILE  <br/> |The  _bstrNewFileSystemPath_ or  _bstrNewWebPath_ already exist on another file in any cache. An event of type LSCEventType_OnFilePathConflict is sent when this error is returned. See [ILSCLocalSyncClient::GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges).  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |The file information was deleted from the cache while this method was running.  <br/> |
-|E_LSC_LOCALPATHNOTMAPPED  <br/> |The given FileSystemPath is not under the directory root specified by the FileSystemDirectoryHint when the call to Initialize was made.  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|E_LSC_PENDINGCHANGESINCACHE  <br/> |The file specified is currently synchronizing in an Office application.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_CONFLICTINGFILE  <br/> |The  _bstrNewFileSystemPath_ or  _bstrNewWebPath_ already exist on another file in any cache. An event of type LSCEventType_OnFilePathConflict is sent when this error is returned. See [ILSCLocalSyncClient::GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges). |
+|E_LSC_FILENOTFOUND  <br/> |The file information was deleted from the cache while this method was running. |
+|E_LSC_LOCALPATHNOTMAPPED  <br/> |The given FileSystemPath is not under the directory root specified by the FileSystemDirectoryHint when the call to Initialize was made. |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|E_LSC_PENDINGCHANGESINCACHE  <br/> |The file specified is currently synchronizing in an Office application. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::ResetCache
 <a name="ILSCLocalSyncClient_ResetCache"> </a>
@@ -316,9 +316,9 @@ None
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |The call failed.  <br/> |
-|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) was not successfully called in the past.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |The call failed. |
+|E_LSC_NOTINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) was not successfully called in the past. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::ServerFileChange
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
@@ -333,25 +333,25 @@ This method will allow downloads if it was marked as downloads blocked previousl
 
 |Parameter|Description|
 |:-----|:-----|
-|bstrFileSystemPath  <br/> |A string which identifies the file on the client. This value must be a non-empty local path with a maximum of 256 characters. This path must be in the directory tree specified by the FileSystemDirectoryHint when the call to Initialize was made.  <br/> |
-|bstrResourceID  <br/> |A string which identifies the ResourceID of the file. This value must be non-empty with a maximum of 128 characters.  <br/> |
-|bstrWebPath  <br/> |A string which identifies the file on the server. This value must be a non-empty valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by https://support.microsoft.com/kb/208427.  <br/> |
+|bstrFileSystemPath  <br/> |A string which identifies the file on the client. This value must be a non-empty local path with a maximum of 256 characters. This path must be in the directory tree specified by the FileSystemDirectoryHint when the call to Initialize was made. |
+|bstrResourceID  <br/> |A string which identifies the ResourceID of the file. This value must be non-empty with a maximum of 128 characters. |
+|bstrWebPath  <br/> |A string which identifies the file on the server. This value must be a non-empty valid URL, but no longer than INTERNET_MAX_URL_LENGTH, as defined by https://support.microsoft.com/kb/208427. |
    
 ##### Return values
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |Failure to set the cache connectivity state.  <br/> |
-|E_LSC_CONFLICTINGFILE  <br/> |The file specified by  _bstrFileSystemPath_ has a different ResourceID than specified.  <br/> |
-|E_LSC_FILENOTSUPPORTED  <br/> |The given file extension is not supported by the CsiSyncClient COM object. See GetSupportedFileExtensions.  <br/> |
-|E_LSC_FILENOTFOUND  <br/> |The file was deleted in mid-operation.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_LOCALPATHNOTMAPPED  <br/> |The given FileSystemPath is not under the directory root specified by the FileSystemDirectoryHint when the call to Initialize was made.  <br/> |
-|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|E_LSC_PATHMISMATCH  <br/> |The file specified by  _bstrResourceID_ has a different FileSystemPath than specified.  <br/> |
-|E_LSC_PENDINGCHANGESINCACHE  <br/> |The specified file already has pending changes in a different cache and cannot yet be associated with the consumer's cache.  <br/> |
-|E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |The WebPath provided falls under a different cache.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |Failure to set the cache connectivity state. |
+|E_LSC_CONFLICTINGFILE  <br/> |The file specified by  _bstrFileSystemPath_ has a different ResourceID than specified. |
+|E_LSC_FILENOTSUPPORTED  <br/> |The given file extension is not supported by the CsiSyncClient COM object. See GetSupportedFileExtensions. |
+|E_LSC_FILENOTFOUND  <br/> |The file was deleted in mid-operation. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_LOCALPATHNOTMAPPED  <br/> |The given FileSystemPath is not under the directory root specified by the FileSystemDirectoryHint when the call to Initialize was made. |
+|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|E_LSC_PATHMISMATCH  <br/> |The file specified by  _bstrResourceID_ has a different FileSystemPath than specified. |
+|E_LSC_PENDINGCHANGESINCACHE  <br/> |The specified file already has pending changes in a different cache and cannot yet be associated with the consumer's cache. |
+|E_LSC_SERVERPATHINDIFFERENTCACHE  <br/> |The WebPath provided falls under a different cache. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::SetClientConnectivityState
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
@@ -370,10 +370,10 @@ A boolean determining the connectivity state of the cache.
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |Failure to set the cache connectivity state.  <br/> |
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |Failure to set the cache connectivity state. |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::SetClientNetworkSyncPermission
 <a name="ILSCLocalSyncClient_ServerFileChange"> </a>
@@ -396,9 +396,9 @@ Specifies whether to force synchronizing on, thus overriding that cost heuristic
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |Failure to override synchronizing heuristics.  <br/> |
-|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |Failure to override synchronizing heuristics. |
+|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|S_OK  <br/> |The call succeeded. |
    
 #### ILSCLocalSyncClient::Uninitialize
 <a name="ILSCLocalSyncClient_Uninitialize"> </a>
@@ -415,9 +415,9 @@ None.
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |Failure to uninitialize.  <br/> |
-|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past.  <br/> |
-|S_OK  <br/> |The call succeeded.  <br/> |
+|E_FAIL  <br/> |Failure to uninitialize. |
+|E_LSC_NOINITIALIZED  <br/> |[ILSCLocalSyncClient::Initialize ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_Initialize) has not been successfully called in the past. |
+|S_OK  <br/> |The call succeeded. |
    
 ### Interface IEnumLSCEvent
 
@@ -441,8 +441,8 @@ A pointer to an ILSCEvent interface.
 
 |Value|Description|
 |:-----|:-----|
-|E_FAIL  <br/> |There are no more events.  <br/> |
-|S_OK  <br/> |The call was successful.  <br/> |
+|E_FAIL  <br/> |There are no more events. |
+|S_OK  <br/> |The call was successful. |
    
 #### IEnumLSCEvent::Reset
 
@@ -530,8 +530,8 @@ The event type of this event. See [Enum LSCEventType](using-csisyncclient-to-con
 
 |Value|Description|
 |:-----|:-----|
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|S_OK  <br/> |The call was successful.  <br/> |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|S_OK  <br/> |The call was successful. |
    
 #### ILSCEvent::GetLocalWorkingPath
 
@@ -597,8 +597,8 @@ The error type associated with this event. See [Enum LSCEventType](using-csisync
 
 |Value|Description|
 |:-----|:-----|
-|E_INVALIDARG  <br/> |One or more parameters are invalid.  <br/> |
-|S_OK  <br/> |The call was successful.  <br/> |
+|E_INVALIDARG  <br/> |One or more parameters are invalid. |
+|S_OK  <br/> |The call was successful. |
    
 #### ILSCEvent::GetWebPath
 
@@ -639,9 +639,9 @@ A string to hold the error chain information. Must not be null.
 |Value|Description|
 |:-----|:-----|
 |E_NOTIMPL  <br/> |The installed version of Office does not support this interface  <br/> |
-|E_INVALIDARG  <br/> |One or more of the parameter values are invalid.  <br/> |
-|E_FAIL  <br/> |The error chain information is not available.  <br/> |
-|S_OK  <br/> |The call was successful.  <br/> |
+|E_INVALIDARG  <br/> |One or more of the parameter values are invalid. |
+|E_FAIL  <br/> |The error chain information is not available. |
+|S_OK  <br/> |The call was successful. |
    
 ### Interface IPartnerActivityCallback
 
@@ -676,11 +676,11 @@ This enumeration specifies the categories of errors that can occur while synchro
   
 |Enumerator|Description|
 |:-----|:-----|
-|LSCEventSyncErrorType_UserInterventionRequiredUnexpected  <br/> |The synchronizing error of this event was unexpected, and may require special consideration. By default, the user may have to intervene.  <br/> |
-|LSCEventSyncErrorType_NoInterventionRequired  <br/> |The synchronizing error of this event does not need special consideration. Office will handle it automatically.  <br/> |
-|LSCEventSyncErrorType_UserInterventionRequired  <br/> |The synchronizing error of this event requires a user to resolve it. For example, merge conflict error requires a user to open the document and merge it.  <br/> |
-|LSCEventSyncErrorType_WaitingOnClient  <br/> |The synchronizing error of this event requires the consumer to intervene, but should not require special consideration by the user.  <br/> |
-|LSCEventSyncErrorType_ClientInterventionRequired  <br/> |The synchronizing error of this event requires the consumer to intervene as a special case.  <br/> |
+|LSCEventSyncErrorType_UserInterventionRequiredUnexpected  <br/> |The synchronizing error of this event was unexpected, and may require special consideration. By default, the user may have to intervene. |
+|LSCEventSyncErrorType_NoInterventionRequired  <br/> |The synchronizing error of this event does not need special consideration. Office will handle it automatically. |
+|LSCEventSyncErrorType_UserInterventionRequired  <br/> |The synchronizing error of this event requires a user to resolve it. For example, merge conflict error requires a user to open the document and merge it. |
+|LSCEventSyncErrorType_WaitingOnClient  <br/> |The synchronizing error of this event requires the consumer to intervene, but should not require special consideration by the user. |
+|LSCEventSyncErrorType_ClientInterventionRequired  <br/> |The synchronizing error of this event requires the consumer to intervene as a special case. |
 |LSCEventSyncErrorType_Max  <br/> ||
    
 ### Enum LSCEventType
@@ -691,17 +691,17 @@ This enumeration specifies the type of events that can occur for a particular fi
 |Enumerator|Description|
 |:-----|:-----|
 |LSCEventType_None  <br/> ||
-|LSCEventType_OnLocalChanges  <br/> |Changes were made to a local file.  <br/> |
-|LSCEventType_OnOpenedByUser  <br/> |A user opened a file.  <br/> |
-|LSCEventType_OnServerChangesDownloaded  <br/> |Finished downloading file changes from the server.  <br/> |
-|LSCEventType_OnLocalChangesUploaded  <br/> |Finished uploading file changes to the server.  <br/> |
-|LSCEventType_OnLocalConflictStateChanged  <br/> |The merge conflict state of a file has changed.  <br/> |
-|LSCEventType_OnFileAdded  <br/> |A file was added.  <br/> |
-|LSCEventType_OnFileDeleted  <br/> |A file was deleted.  <br/> |
-|LSCEventType_OnSyncEnabled  <br/> |Synchronizing was enabled for a user's files.  <br/> |
-|LSCEventType_OnServerChangesDownloadStarted  <br/> |Started downloading file changes from the server.  <br/> |
-|LSCEventType_OnLocalChangesUploadStarted  <br/> |Started uploading file changes to the server.  <br/> |
-|LSCEventType_OnFilePathConflict  <br/> |This event is generated when a call to [ILSCLocalSyncClient::LocalFileChange ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_LocalFileChange), [ILSCLocalSyncClient::ServerFileChange ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ServerFileChange), or [ILSCLocalSyncClient::RenameFile ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile) causes a Web Path or Local Path collision with another file in the Office file cache.  <br/> |
+|LSCEventType_OnLocalChanges  <br/> |Changes were made to a local file. |
+|LSCEventType_OnOpenedByUser  <br/> |A user opened a file. |
+|LSCEventType_OnServerChangesDownloaded  <br/> |Finished downloading file changes from the server. |
+|LSCEventType_OnLocalChangesUploaded  <br/> |Finished uploading file changes to the server. |
+|LSCEventType_OnLocalConflictStateChanged  <br/> |The merge conflict state of a file has changed. |
+|LSCEventType_OnFileAdded  <br/> |A file was added. |
+|LSCEventType_OnFileDeleted  <br/> |A file was deleted. |
+|LSCEventType_OnSyncEnabled  <br/> |Synchronizing was enabled for a user's files. |
+|LSCEventType_OnServerChangesDownloadStarted  <br/> |Started downloading file changes from the server. |
+|LSCEventType_OnLocalChangesUploadStarted  <br/> |Started uploading file changes to the server. |
+|LSCEventType_OnFilePathConflict  <br/> |This event is generated when a call to [ILSCLocalSyncClient::LocalFileChange ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_LocalFileChange), [ILSCLocalSyncClient::ServerFileChange ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_ServerFileChange), or [ILSCLocalSyncClient::RenameFile ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_RenameFile) causes a Web Path or Local Path collision with another file in the Office file cache. |
 |LSCEventType_OnFileForked  <br/> ||
 |LSCEventType_Max  <br/> ||
    
@@ -712,8 +712,8 @@ This enumeration specifies the type of events that can occur. The consumer needs
   
 |Enumerator|Description|
 |:-----|:-----|
-|LSCEventTypeOccurred_GetChanges  <br/> |An ILSCEvent has occurred. The consumer should call [ILSCLocalSyncClient::GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges) to retrieve the data.  <br/> |
-|LSCEventTypeOccurred_GetSupportedFileExtensions  <br/> |The supported file extensions have changed. The consumer should call [ILSCLocalSyncClient::GetSupportedFileExtensions ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetSupportedFileExtensions) to retrieve the new list of supported extensions.  <br/> |
+|LSCEventTypeOccurred_GetChanges  <br/> |An ILSCEvent has occurred. The consumer should call [ILSCLocalSyncClient::GetChanges ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetChanges) to retrieve the data. |
+|LSCEventTypeOccurred_GetSupportedFileExtensions  <br/> |The supported file extensions have changed. The consumer should call [ILSCLocalSyncClient::GetSupportedFileExtensions ](using-csisyncclient-to-control-the-office-document-cache-odc.md#ILSCLocalSyncClient_GetSupportedFileExtensions) to retrieve the new list of supported extensions. |
    
 ### Enum LSCNetworkSyncPermissionType
 <a name="Enum_LSCNetworkSyncPermissionType"> </a>
@@ -722,8 +722,8 @@ This enumeration specifies the flags used for a network cost heuristic.
 
 |Enumerator|Description|
 |:-----|:-----|
-|LSCNetworkSyncPermissionType_HighCost  <br/> |True if the cost heuristic for expensive networks (such as 3G) is overridden.  <br/> |
-|LSCNetworkSyncPermissionType_HighPowerUsage  <br/> |True if the cost heuristic for power usage (such as a battery) is overridden.  <br/> |
+|LSCNetworkSyncPermissionType_HighCost  <br/> |True if the cost heuristic for expensive networks (such as 3G) is overridden. |
+|LSCNetworkSyncPermissionType_HighPowerUsage  <br/> |True if the cost heuristic for power usage (such as a battery) is overridden. |
    
 ### Enum LSCStatusFlag
 <a name="Enum_LSCStatusFlag"> </a>
@@ -733,8 +733,8 @@ This enumeration is used to represent the synchronize status of a file.
 |Enumerator|Description|
 |:-----|:-----|
 |LCSStatusFlag_None  <br/> ||
-|LSCStatusFlag_UploadPending  <br/> |True if there is pending data to send to the server file.  <br/> |
-|LSCStatusFlag_DownloadPending  <br/> |True if there is pending data to download from the server file.  <br/> |
-|LSCStatusFlag_LocalFileUnchanged  <br/> |True if the data Office has on the file in its cache is the most recent copy of the data on disk.  <br/> |
+|LSCStatusFlag_UploadPending  <br/> |True if there is pending data to send to the server file. |
+|LSCStatusFlag_DownloadPending  <br/> |True if there is pending data to download from the server file. |
+|LSCStatusFlag_LocalFileUnchanged  <br/> |True if the data Office has on the file in its cache is the most recent copy of the data on disk. |
    
 

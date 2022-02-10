@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[DataConnections](dataconnections-elementvisio-xml.md) <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |Contains the **DataConnection** elements for the document.  <br/> |
+|[DataConnections](dataconnections-elementvisio-xml.md) <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |Contains the **DataConnection** elements for the document. |
    
 ### Child elements
 
@@ -50,12 +50,12 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |optional  <br/> |The default value is false. See Remarks for more information.  <br/> |Values of the xsd:boolean type.  <br/> |
-|Command  <br/> |xsd:string  <br/> |optional  <br/> |The command string used to query the data source.  <br/> |Values of the xsd:string type.  <br/> |
-|ConnectionString  <br/> |xsd:string  <br/> |optional  <br/> |The connection string that defines the parameters necessary to connect to a data source.  <br/> |Values of the xsd:string type.  <br/> |
-|FileName  <br/> |xsd:string  <br/> |required  <br/> |The name of the connection file. See Remarks for more information.  <br/> |Values of the xsd:string type.  <br/> |
-|FriendlyName  <br/> |xsd:string  <br/> |optional  <br/> |A user provided name for the data connection.  <br/> |Values of the xsd:string type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The ID assigned by Visio for a given connection, unique within the document.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Timeout  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The wait time in minutes while trying to establish a connection before terminating the attempt.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|AlwaysUseConnectionFile  <br/> |xsd:boolean  <br/> |optional  <br/> |The default value is false. See Remarks for more information. |Values of the xsd:boolean type. |
+|Command  <br/> |xsd:string  <br/> |optional  <br/> |The command string used to query the data source. |Values of the xsd:string type. |
+|ConnectionString  <br/> |xsd:string  <br/> |optional  <br/> |The connection string that defines the parameters necessary to connect to a data source. |Values of the xsd:string type. |
+|FileName  <br/> |xsd:string  <br/> |required  <br/> |The name of the connection file. See Remarks for more information. |Values of the xsd:string type. |
+|FriendlyName  <br/> |xsd:string  <br/> |optional  <br/> |A user provided name for the data connection. |Values of the xsd:string type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The ID assigned by Visio for a given connection, unique within the document. |Values of the xsd:unsignedInt type. |
+|Timeout  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The wait time in minutes while trying to establish a connection before terminating the attempt. |Values of the xsd:unsignedInt type. |
    
 

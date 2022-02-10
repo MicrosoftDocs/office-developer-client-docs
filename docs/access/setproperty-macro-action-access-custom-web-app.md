@@ -25,9 +25,9 @@ The **SetProperty** action has the arguments listed in the following table.
   
 |**Action argument**|**Description**|
 |:-----|:-----|
-| _Control Name_ <br/> |Type the name of the field or control for which you want to set the property value. Leave this argument blank to set the property for the view.  <br/> |
-| _Property_ <br/> |Select the property that you want to set. See the **Remarks** section in this article for a list of the properties that can be set by using this action.  <br/> |
-| _Value_ <br/> |Type the value that the property is to be set to. For properties whose values are either Yes or No, use **-1** for Yes and **0** for No.  <br/> |
+| _Control Name_ <br/> |Type the name of the field or control for which you want to set the property value. Leave this argument blank to set the property for the view. |
+| _Property_ <br/> |Select the property that you want to set. See the **Remarks** section in this article for a list of the properties that can be set by using this action. |
+| _Value_ <br/> |Type the value that the property is to be set to. For properties whose values are either Yes or No, use **-1** for Yes and **0** for No. |
    
 ## Remarks
 

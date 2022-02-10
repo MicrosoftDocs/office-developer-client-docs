@@ -32,9 +32,9 @@ Message store providers support messages, attachments, and recipients through me
   
 |**Interface**|**Description**|
 |:-----|:-----|
-|[IMessage](imessageimapiprop.md) <br/> |Manages attachments and recipients, sends messages, sets read status.  <br/> |
-|[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Creates, copies, and moves messages and subfolders and manages message status.  <br/> |
-|[IAttach](iattachimapiprop.md) <br/> |Manages attachment properties.  <br/> |
+|[IMessage](imessageimapiprop.md) <br/> |Manages attachments and recipients, sends messages, sets read status. |
+|[IMAPIFolder](imapifolderimapicontainer.md) <br/> |Creates, copies, and moves messages and subfolders and manages message status. |
+|[IAttach](iattachimapiprop.md) <br/> |Manages attachment properties. |
    
 ## See also
 

@@ -24,17 +24,17 @@ Returns information about the cell, range of cells, command on a menu, tool on a
   
 |**Code called from**|**Returns**|
 |:-----|:-----|
-|DLL  <br/> |The Register ID.  <br/> |
-|A single cell  <br/> |A single-cell reference.  <br/> |
-|A multi-cell array formula  <br/> |A multi-cell reference.  <br/> |
-|A conditional formatting expression  <br/> |A reference to the cell to which the formatting condition is applied.  <br/> |
-|A menu  <br/> | A four-element single-row array:  <br/>  The bar ID.  <br/>  The menu position.  <br/>  The submenu position.  <br/>  The command position.  <br/> |
-|A toolbar  <br/> | A two-element single-row array:  <br/>  The toolbar number for built-in toolbars or the toolbar name for custom toolbars.  <br/>  The position on the toolbar.  <br/> |
-|A graphic object  <br/> |The object identifier (object name).  <br/> |
-|A command associated with an xlcOnEnter, ON.ENTER, event trap  <br/> |A reference to the cell or cells being entered.  <br/> |
-|A command associated with an xlcOnDoubleclick, ON.DOUBLECLICK, event trap.  <br/> |The cell that was double-clicked (not necessarily the active cell).  <br/> |
-|Auto_Open, AutoClose, Auto_Activate or Auto_Deactivate macro  <br/> |The name of the calling sheet.  <br/> |
-|Other methods not listed  <br/> |#REF! Error.  <br/> |
+|DLL  <br/> |The Register ID. |
+|A single cell  <br/> |A single-cell reference. |
+|A multi-cell array formula  <br/> |A multi-cell reference. |
+|A conditional formatting expression  <br/> |A reference to the cell to which the formatting condition is applied. |
+|A menu  <br/> | A four-element single-row array:  <br/>  The bar ID.  The menu position.  The submenu position.  The command position. |
+|A toolbar  <br/> | A two-element single-row array:  <br/>  The toolbar number for built-in toolbars or the toolbar name for custom toolbars.  The position on the toolbar. |
+|A graphic object  <br/> |The object identifier (object name). |
+|A command associated with an xlcOnEnter, ON.ENTER, event trap  <br/> |A reference to the cell or cells being entered. |
+|A command associated with an xlcOnDoubleclick, ON.DOUBLECLICK, event trap. |The cell that was double-clicked (not necessarily the active cell). |
+|Auto_Open, AutoClose, Auto_Activate or Auto_Deactivate macro  <br/> |The name of the calling sheet. |
+|Other methods not listed  <br/> |#REF! Error. |
    
 ```cs
 Excel12(xlfCaller, (LPXLOPER12) pxRes,0);

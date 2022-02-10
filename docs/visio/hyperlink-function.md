@@ -26,11 +26,11 @@ HYPERLINK(" ** *address* ** "[," ** *subaddress* ** "," ** *extrainfo* ** ", ** 
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _address_ <br/> |Required  <br/> |**String** <br/> |A full path or a relative path.  <br/> |
-| _subaddress_ <br/> |Optional  <br/> |**String** <br/> |Specifies a location within address to link to. For example, if address is a Microsoft Visio file, subaddress can be a page name; if a Microsoft Excel file, subaddress can be a worksheet or range within a worksheet; if a URL for an HTML page, subaddress can be an anchor.  <br/> |
-| _extrainfo_ <br/> |Optional  <br/> |**String** <br/> |Passes information used in resolving the URL, such as the coordinates of an image map.  <br/> |
-| _window_ <br/> |Optional  <br/> |**Boolean** <br/> |Specifies whether the hyperlink is opened in a new window. The default value is FALSE.  <br/> |
-| _frame_ <br/> |Optional  <br/> |**String** <br/> | Specifies the name of a frame to target when Visio is open as an Active document in an ActiveX browser, such as Microsoft Internet Explorer 3.0 or later. The default is an empty string.  <br/> |
+| _address_ <br/> |Required  <br/> |**String** <br/> |A full path or a relative path. |
+| _subaddress_ <br/> |Optional  <br/> |**String** <br/> |Specifies a location within address to link to. For example, if address is a Microsoft Visio file, subaddress can be a page name; if a Microsoft Excel file, subaddress can be a worksheet or range within a worksheet; if a URL for an HTML page, subaddress can be an anchor. |
+| _extrainfo_ <br/> |Optional  <br/> |**String** <br/> |Passes information used in resolving the URL, such as the coordinates of an image map. |
+| _window_ <br/> |Optional  <br/> |**Boolean** <br/> |Specifies whether the hyperlink is opened in a new window. The default value is FALSE. |
+| _frame_ <br/> |Optional  <br/> |**String** <br/> | Specifies the name of a frame to target when Visio is open as an Active document in an ActiveX browser, such as Microsoft Internet Explorer 3.0 or later. The default is an empty string. |
    
 ## Remarks
 

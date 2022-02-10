@@ -25,12 +25,12 @@ The **DateWithTimeFromParts** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *Year*  <br/> |Integer expression specifying a year.  <br/> |
-| *Month*  <br/> |Integer expression specifying a month.  <br/> |
-| *Day*  <br/> |Integer expression specifying a day.  <br/> |
-| *Hour*  <br/> |Integer expression specifying hours.  <br/> |
-| *Minute*  <br/> |Integer expression specifying minutes.  <br/> |
-| *Second*  <br/> |Integer expression specifying seconds.  <br/> |
+| *Year*  <br/> |Integer expression specifying a year. |
+| *Month*  <br/> |Integer expression specifying a month. |
+| *Day*  <br/> |Integer expression specifying a day. |
+| *Hour*  <br/> |Integer expression specifying hours. |
+| *Minute*  <br/> |Integer expression specifying minutes. |
+| *Second*  <br/> |Integer expression specifying seconds. |
 
 ## Remarks
 

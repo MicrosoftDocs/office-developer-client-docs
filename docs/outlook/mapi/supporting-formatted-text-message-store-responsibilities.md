@@ -40,8 +40,8 @@ The differences between these three levels are described in the following table.
   
 |**Level of support**|**Description**|
 |:-----|:-----|
-|Low  <br/> |Message store provider calls **RTFSync** whenever changes are saved to a message and extracts the data for the **PR_BODY** property from **PR_RTF_COMPRESSED** rather than requiring clients to set it. Both **PR_BODY** and **PR_RTF_COMPRESSED** are stored.  <br/> |
-|Middle  <br/> |Message store provider stores only the **PR_RTF_COMPRESSED** property, computing **PR_BODY** when necessary.  <br/> |
-|High  <br/> |Message store provider stores neither **PR_BODY** or the auxiliary RTF properties. **RTFSync** is called when the message text has changed and the formatting remains unchanged or when a new message is downloaded by a transport provider.  <br/> |
+|Low  <br/> |Message store provider calls **RTFSync** whenever changes are saved to a message and extracts the data for the **PR_BODY** property from **PR_RTF_COMPRESSED** rather than requiring clients to set it. Both **PR_BODY** and **PR_RTF_COMPRESSED** are stored. |
+|Middle  <br/> |Message store provider stores only the **PR_RTF_COMPRESSED** property, computing **PR_BODY** when necessary. |
+|High  <br/> |Message store provider stores neither **PR_BODY** or the auxiliary RTF properties. **RTFSync** is called when the message text has changed and the formatting remains unchanged or when a new message is downloaded by a transport provider. |
    
 

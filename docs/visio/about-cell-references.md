@@ -47,6 +47,6 @@ The syntax you use and whether you can refer to a shape by name depend on the re
 | Another page in the document  <br/> | Pages[PageName]!SheetName!CellReference  <br/> | Pages[Page-3]!Sheet.4!BeginX  <br/> |
 | A style  <br/> | Styles!SheetName!CellReference  <br/> | Styles!Manager!LineColor  <br/> |
 | The document  <br/> | TheDoc!CellReference  <br/> | TheDoc!PreviewQuality  <br/> |
-| A shape, page, master, document, or style with a nonstandard name.  <br/> | 'Sheetname'!CellName  <br/> | '1-D'!LineColor  <br/> |
+| A shape, page, master, document, or style with a nonstandard name. | 'Sheetname'!CellName  <br/> | '1-D'!LineColor  <br/> |
    
 

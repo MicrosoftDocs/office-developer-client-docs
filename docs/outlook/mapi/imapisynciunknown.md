@@ -37,7 +37,7 @@ The outbox is still in the default store. Outlook will continue to use the Trans
 
 |||
 |:-----|:-----|
-|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implemented by message store providers. This method is called by Outlook 2010 and Outlook 2013 to start synchronization.  <br/> |
+|[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implemented by message store providers. This method is called by Outlook 2010 and Outlook 2013 to start synchronization. |
    
 ## See also
 

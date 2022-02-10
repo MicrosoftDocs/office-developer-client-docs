@@ -22,11 +22,11 @@ The following table summarizes the MAPI objects implemented by standard messagin
   
 |**Client object**|**Description**|
 |:-----|:-----|
-|Advise sink  <br/> |Provides a callback function for events that occur in the message store, address book, or the session.  <br/> |
-|Message site  <br/> |Handles the manipulation of form objects.  <br/> |
-|Progress  <br/> |Displays a dialog box to show the progress of an operation.  <br/> |
-|View advise sink  <br/> |Provides callback functions for events that occur in a form.  <br/> |
-|View context  <br/> |Supports commands for printing and saving forms and for navigating between forms.  <br/> |
+|Advise sink  <br/> |Provides a callback function for events that occur in the message store, address book, or the session. |
+|Message site  <br/> |Handles the manipulation of form objects. |
+|Progress  <br/> |Displays a dialog box to show the progress of an operation. |
+|View advise sink  <br/> |Provides callback functions for events that occur in a form. |
+|View context  <br/> |Supports commands for printing and saving forms and for navigating between forms. |
    
 The following illustration shows the relationship between these different client objects, the interfaces from which they inherit, and the MAPI components that use them. 
   

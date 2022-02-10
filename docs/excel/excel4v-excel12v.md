@@ -19,13 +19,13 @@ ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
 
 # Excel4v/Excel12v
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Calls an internal Microsoft Excel worksheet function, macro sheet function or command, or XLL-only special function or command, from within a DLL, XLL, or code resource.
   
-All recent versions of Excel support **Excel4v**. Starting in Excel 2007, **Excel12v** is supported. 
+All recent versions of Excel support **Excel4v**. Starting in Excel 2007, **Excel12v** is supported.
   
-These functions can be called only when Excel has passed control to the DLL or XLL. They can also be called when Excel has passed control indirectly via a call to Visual Basic for Applications (VBA). They cannot be called at any other time. For example, they cannot be called during calls to the DllMain function or other times when the operating system has called the DLL, or from a thread created by the DLL. 
+These functions can be called only when Excel has passed control to the DLL or XLL. They can also be called when Excel has passed control indirectly via a call to Visual Basic for Applications (VBA). They cannot be called at any other time. For example, they cannot be called during calls to the DllMain function or other times when the operating system has called the DLL, or from a thread created by the DLL.
   
 The [Excel4 and Excel12](excel4-excel12.md) functions accept their arguments as a variable length list on the stack, whereas the **Excel4v** and **Excel12v** functions accept their arguments as an array. In all other respects, **Excel4** behaves the same as **Excel4v**, and **Excel12** behaves the same as **Excel12v**.
   
@@ -38,7 +38,7 @@ int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[
 
  _iFunction_ (**int**)
   
-A number that indicates the command, function, or special function you want to call. For a list of valid  _iFunction_ values, see the following Remarks section. 
+A number that indicates the command, function, or special function you want to call. For a list of valid _iFunction_ values, see the following Remarks section.
   
  _pxRes_ (**LPXLOPER** or **LPXLOPER12**)
   
@@ -50,7 +50,7 @@ The number of subsequent arguments that will be passed to the function. In versi
   
  _rgx_ (**LPXLOPER []** or **LPXLOPER12 []**)
   
-An array that contains the arguments to the function. All arguments in the array must be pointers to **XLOPER** or **XLOPER12** values. 
+An array that contains the arguments to the function. All arguments in the array must be pointers to **XLOPER** or **XLOPER12** values.
   
 ## Return value
 
@@ -62,13 +62,10 @@ These functions are useful where the number of arguments passed to the operator 
   
 ### Example
 
-For code examples, see the code for the **Excel** and **Excel12f** functions in the Excel 2010 XLL SDK, at the following location where you installed the SDK: 
+For code examples, see the code for the **Excel** and **Excel12f** functions in the Excel 2010 XLL SDK, at the following location where you installed the SDK:
   
 Samples\Framewrk\Framewrk.c
   
 ## See also
 
-
-
 [Excel4/Excel12](excel4-excel12.md)
-

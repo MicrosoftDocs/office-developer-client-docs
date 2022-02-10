@@ -26,7 +26,7 @@ ASIN(***number*** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The sine of the angle.  <br/> |
+| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The sine of the angle. |
    
 ## Remarks
 

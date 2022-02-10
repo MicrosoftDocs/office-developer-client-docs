@@ -17,8 +17,8 @@ Indicates whether a separator is inserted into the menu above this action.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |A separator is inserted into the menu above this action.  <br/> |
-|FALSE  <br/> |A separator is not inserted into the menu above this action (the default).  <br/> |
+|TRUE  <br/> |A separator is inserted into the menu above this action. |
+|FALSE  <br/> |A separator is not inserted into the menu above this action (the default). |
    
 ## Remarks
 
@@ -33,7 +33,7 @@ To get a reference to the BeginGroup cell by index from a program, use the **Cel
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visActionBeginGroup** <br/> |
    
 

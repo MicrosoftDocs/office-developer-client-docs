@@ -48,11 +48,11 @@ typedef struct _DTBLEDIT
     
 |**Character**|**Description**|
 |:-----|:-----|
-| `*` <br/> |Any character is allowed (for example,  `"*"`).  <br/> |
+| `*` <br/> |Any character is allowed (for example,  `"*"`). |
 | `[ ]` <br/> |Defines a set of characters (for example,  `"[0123456789]".`)  <br/> |
-| `-` <br/> |Indicates a range of characters (for example,  `"[a-z]"`).  <br/> |
-| `~` <br/> |Indicates that these characters are not allowed (for example,  `"[~0-9]"`).  <br/> |
-| `\` <br/> |Used to quote any of the previous symbols (for example,  `"[\-\\\[\]]"` means -, \, [, and ] characters are allowed).  <br/> |
+| `-` <br/> |Indicates a range of characters (for example,  `"[a-z]"`). |
+| `~` <br/> |Indicates that these characters are not allowed (for example,  `"[~0-9]"`). |
+| `\` <br/> |Used to quote any of the previous symbols (for example,  `"[\-\\\[\]]"` means -, \, [, and ] characters are allowed). |
    
  **ulFlags**
   

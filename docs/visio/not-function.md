@@ -26,7 +26,7 @@ NOT(** *logicalexpression* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _logicalexpression_ <br/> |Required  <br/> |**String** <br/> |The logical expression to evaluate.  <br/> |
+| _logicalexpression_ <br/> |Required  <br/> |**String** <br/> |The logical expression to evaluate. |
    
 ### Return value
 

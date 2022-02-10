@@ -38,19 +38,19 @@ Provides access to message store information and to messages and folders.
 
 |||
 |:-----|:-----|
-|[Advise](imsgstore-advise.md) <br/> |Registers to receive notification of specified events that affect the message store.  <br/> |
-|[Unadvise](imsgstore-unadvise.md) <br/> |Cancels the sending of notifications previously set up with a call to the **IMsgStore::Advise** method.  <br/> |
-|[CompareEntryIDs](imsgstore-compareentryids.md) <br/> |Compares two entry identifiers to determine whether they refer to the same entry in a message store.  <br/> |
-|[OpenEntry](imsgstore-openentry.md) <br/> |Opens a folder or message and returns an interface pointer for further access.  <br/> |
-|[SetReceiveFolder](imsgstore-setreceivefolder.md) <br/> |Establishes a folder as the destination for incoming messages of a particular message class.  <br/> |
-|[GetReceiveFolder](imsgstore-getreceivefolder.md) <br/> |Obtains the folder that was established as the destination for incoming messages of a specified message class or as the default receive folder for the message store.  <br/> |
-|[GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) <br/> |Provides access to the receive folder table, a table with information about all of the receive folders for the message store.  <br/> |
-|[StoreLogoff](imsgstore-storelogoff.md) <br/> |Enables the orderly logoff of the message store.  <br/> |
-|[AbortSubmit](imsgstore-abortsubmit.md) <br/> |Attempts to remove a message from the outgoing queue.  <br/> |
-|[GetOutgoingQueue](imsgstore-getoutgoingqueue.md) <br/> |Provides access to the outgoing queue table, a table that has information about all of the messages in the message store's outgoing queue.  <br/> |
-|[SetLockState](imsgstore-setlockstate.md) <br/> |Locks or unlocks a message.  <br/> |
-|[FinishedMsg](imsgstore-finishedmsg.md) <br/> |Enables the message store provider to perform processing on a sent message.  <br/> |
-|[NotifyNewMail](imsgstore-notifynewmail.md) <br/> |Informs the message store that a new message has arrived.  <br/> |
+|[Advise](imsgstore-advise.md) <br/> |Registers to receive notification of specified events that affect the message store. |
+|[Unadvise](imsgstore-unadvise.md) <br/> |Cancels the sending of notifications previously set up with a call to the **IMsgStore::Advise** method. |
+|[CompareEntryIDs](imsgstore-compareentryids.md) <br/> |Compares two entry identifiers to determine whether they refer to the same entry in a message store. |
+|[OpenEntry](imsgstore-openentry.md) <br/> |Opens a folder or message and returns an interface pointer for further access. |
+|[SetReceiveFolder](imsgstore-setreceivefolder.md) <br/> |Establishes a folder as the destination for incoming messages of a particular message class. |
+|[GetReceiveFolder](imsgstore-getreceivefolder.md) <br/> |Obtains the folder that was established as the destination for incoming messages of a specified message class or as the default receive folder for the message store. |
+|[GetReceiveFolderTable](imsgstore-getreceivefoldertable.md) <br/> |Provides access to the receive folder table, a table with information about all of the receive folders for the message store. |
+|[StoreLogoff](imsgstore-storelogoff.md) <br/> |Enables the orderly logoff of the message store. |
+|[AbortSubmit](imsgstore-abortsubmit.md) <br/> |Attempts to remove a message from the outgoing queue. |
+|[GetOutgoingQueue](imsgstore-getoutgoingqueue.md) <br/> |Provides access to the outgoing queue table, a table that has information about all of the messages in the message store's outgoing queue. |
+|[SetLockState](imsgstore-setlockstate.md) <br/> |Locks or unlocks a message. |
+|[FinishedMsg](imsgstore-finishedmsg.md) <br/> |Enables the message store provider to perform processing on a sent message. |
+|[NotifyNewMail](imsgstore-notifynewmail.md) <br/> |Informs the message store that a new message has arrived. |
    
 |**Required properties**|**Access level**|
 |:-----|:-----|

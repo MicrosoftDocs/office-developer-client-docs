@@ -38,8 +38,8 @@ _pVar_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The method call was successful.  <br/> |
-|E_INVALIDARG  <br/> |An invalid property tag was specified.  <br/> |
+|S_OK  <br/> |The method call was successful. |
+|E_INVALIDARG  <br/> |An invalid property tag was specified. |
    
 ## Remarks
 

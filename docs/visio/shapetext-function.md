@@ -26,8 +26,8 @@ SHAPETEXT (** *shapename!TheText* ** ** *[,flag]* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _shapename!TheText_ <br/> |Required  <br/> ||A reference to the cell named TheText in the target shape.  _Shapename!_ is the name of the shape from which you want to retrieve the text.  <br/> |
-| _flag_ <br/> |Optional  <br/> |**Numeric** <br/> |A bit that specifies the format of the text. The default flag (0) shows the text exactly as it is shown in the shape.  <br/> |
+| _shapename!TheText_ <br/> |Required  <br/> ||A reference to the cell named TheText in the target shape.  _Shapename!_ is the name of the shape from which you want to retrieve the text. |
+| _flag_ <br/> |Optional  <br/> |**Numeric** <br/> |A bit that specifies the format of the text. The default flag (0) shows the text exactly as it is shown in the shape. |
    
 ### Return value
 
@@ -39,14 +39,14 @@ You can use any combination of the following flags with the SHAPETEXT function.
   
 |**Flag**|**Description**|
 |:-----|:-----|
-|0  <br/> |Show text exactly as shown in shape.  <br/> |
-|1  <br/> |Include discretionary hyphens.  <br/> |
-|2  <br/> |Don't include expanded text in fields.  <br/> |
-|4  <br/> |Convert tabs to a single space.  <br/> |
-|8  <br/> |Convert tabs to a set of spaces.  <br/> |
-|16  <br/> |Convert carriage returns and line feeds to spaces.  <br/> |
-|32  <br/> |Convert typographer quotes to regular quotes.  <br/> |
-|64  <br/> |Convert adjacent white space to a single space.  <br/> |
+|0  <br/> |Show text exactly as shown in shape. |
+|1  <br/> |Include discretionary hyphens. |
+|2  <br/> |Don't include expanded text in fields. |
+|4  <br/> |Convert tabs to a single space. |
+|8  <br/> |Convert tabs to a set of spaces. |
+|16  <br/> |Convert carriage returns and line feeds to spaces. |
+|32  <br/> |Convert typographer quotes to regular quotes. |
+|64  <br/> |Convert adjacent white space to a single space. |
    
 ## Example 1
 

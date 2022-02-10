@@ -106,7 +106,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|PropertyEditor.cpp  <br/> |CPropertyEditor::WriteSPropValueToObject  <br/> |MFCMAPI uses the **IMAPIProp::SetProps** method to write a property back to an object after the property has been edited.  <br/> |
+|PropertyEditor.cpp  <br/> |CPropertyEditor::WriteSPropValueToObject  <br/> |MFCMAPI uses the **IMAPIProp::SetProps** method to write a property back to an object after the property has been edited. |
    
 ## See also
 

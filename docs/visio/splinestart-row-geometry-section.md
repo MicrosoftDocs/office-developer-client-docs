@@ -22,12 +22,12 @@ A SplineStart row contains the following cells.
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of a spline's second control point.  <br/> |
-|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of a spline's second control point.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |The second knot of the spline.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |The first knot of a spline.  <br/> |
-|[C](c-cell-geometry-section.md) <br/> |The last knot of a spline.  <br/> |
-|[D](d-cell-geometry-section.md) <br/> |The degree of a spline (an integer from 1 to 25).  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |The *x*  -coordinate of a spline's second control point. |
+|[Y](y-cell-geometry-section.md) <br/> |The *y*  -coordinate of a spline's second control point. |
+|[A](a-cell-geometry-section.md) <br/> |The second knot of the spline. |
+|[B](b-cell-geometry-section.md) <br/> |The first knot of a spline. |
+|[C](c-cell-geometry-section.md) <br/> |The last knot of a spline. |
+|[D](d-cell-geometry-section.md) <br/> |The degree of a spline (an integer from 1 to 25). |
    
 ## Remarks
 

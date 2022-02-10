@@ -20,9 +20,9 @@ Shows the current resize behavior setting for the shape.
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-|0  <br/> |Use group's setting.  <br/> |**visXFormResizeDontCare** <br/> |
-|1  <br/> |Reposition only.  <br/> |**visXFormResizeSpread** <br/> |
-|2  <br/> |Scale with group.  <br/> |**visXFormResizeScale** <br/> |
+|0  <br/> |Use group's setting. |**visXFormResizeDontCare** <br/> |
+|1  <br/> |Reposition only. |**visXFormResizeSpread** <br/> |
+|2  <br/> |Scale with group. |**visXFormResizeScale** <br/> |
    
 ## Remarks
 

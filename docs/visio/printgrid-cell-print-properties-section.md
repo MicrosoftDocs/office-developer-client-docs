@@ -20,8 +20,8 @@ Specifies whether to print the grid when printing a document page.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Show the grid when printing this page.  <br/> |
-|FALSE  <br/> |Do not show the grid when printing this page (the default).  <br/> |
+|TRUE  <br/> |Show the grid when printing this page. |
+|FALSE  <br/> |Do not show the grid when printing this page (the default). |
    
 ## Remarks
 

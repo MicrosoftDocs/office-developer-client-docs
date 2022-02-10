@@ -21,8 +21,8 @@ Specifies whether to open the hyperlink in a new window.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Open the linked page, document, or website in a new window.  <br/> |
-| FALSE  <br/> | Default. Do not open a new window for the hyperlink.  <br/> |
+| TRUE  <br/> | Open the linked page, document, or website in a new window. |
+| FALSE  <br/> | Default. Do not open a new window for the hyperlink. |
    
 ## Remarks
 
@@ -37,7 +37,7 @@ To get a reference to the NewWindow cell by index from a program, use the **Cell
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionHyperlink** <br/> |
-| Row index:  <br/> |**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2, ...  <br/> |
+| Row index:  <br/> |**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2, ... |
 | Cell index:  <br/> |**visHLinkNewWin** <br/> |
    
 

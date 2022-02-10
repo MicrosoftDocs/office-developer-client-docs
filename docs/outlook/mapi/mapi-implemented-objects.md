@@ -28,18 +28,18 @@ The following table summarizes the purpose for each object that MAPI implements.
   
 |**MAPI object**|**Description**|
 |:-----|:-----|
-|Address book  <br/> |Provides access to the integrated view of recipient information that belongs to all of the address book providers in the active profile.  <br/> |
-|Message service administration  <br/> |Provides access to message service information for configuration.  <br/> |
-|Profile administration  <br/> |Provides access to profile information for configuration.  <br/> |
-|Profile section  <br/> |A part of a profile used to describe a particular message service or service provider.  <br/> |
-|Property data  <br/> |Maintains access to properties and helps implement **IMAPIProp**.  <br/> |
-|Provider administration  <br/> |Provides access to service provider information for configuration.  <br/> |
-|Session  <br/> |Represents a connection to underlying messaging systems and provides clients with access to MAPI resources.  <br/> |
-|Status  <br/> |Provides access to the state of the MAPI subsystem, the address book, or the MAPI spooler.  <br/> |
-|Support  <br/> |Helps service providers handle client requests.  <br/> |
-|Table  <br/> |Provides access to a summary view of object data in row and column format, similar to a database table.  <br/> |
-|Table data  <br/> |Maintains access to underlying table data and implements table objects.  <br/> |
-|TNEF  <br/> |Supports the use of the Transport Neutral Encapsulation Format (TNEF).  <br/> |
+|Address book  <br/> |Provides access to the integrated view of recipient information that belongs to all of the address book providers in the active profile. |
+|Message service administration  <br/> |Provides access to message service information for configuration. |
+|Profile administration  <br/> |Provides access to profile information for configuration. |
+|Profile section  <br/> |A part of a profile used to describe a particular message service or service provider. |
+|Property data  <br/> |Maintains access to properties and helps implement **IMAPIProp**. |
+|Provider administration  <br/> |Provides access to service provider information for configuration. |
+|Session  <br/> |Represents a connection to underlying messaging systems and provides clients with access to MAPI resources. |
+|Status  <br/> |Provides access to the state of the MAPI subsystem, the address book, or the MAPI spooler. |
+|Support  <br/> |Helps service providers handle client requests. |
+|Table  <br/> |Provides access to a summary view of object data in row and column format, similar to a database table. |
+|Table data  <br/> |Maintains access to underlying table data and implements table objects. |
+|TNEF  <br/> |Supports the use of the Transport Neutral Encapsulation Format (TNEF). |
    
 The following illustration shows the relationship between the objects that MAPI implements, the interfaces from which they inherit, and the components that use them. 
   

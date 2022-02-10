@@ -44,9 +44,9 @@ Every provider in the message service responsible for supplying the primary iden
   
 |**Primary identity property**|**Set to**|
 |:-----|:-----|
-|**PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md))  <br/> |Display name of the object supplying the primary identity.  <br/> |
-|**PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md))  <br/> |Search key for the object supplying the primary identity.  <br/> |
-|**PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md))  <br/> |Entry identifier for the object supplying the primary identity.  <br/> |
+|**PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md))  <br/> |Display name of the object supplying the primary identity. |
+|**PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md))  <br/> |Search key for the object supplying the primary identity. |
+|**PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md))  <br/> |Entry identifier for the object supplying the primary identity. |
    
  **To retrieve the entry identifier for the object supplying the primary identity**
   

@@ -23,7 +23,7 @@ The **Concat** function contains the following arguments.
   
 |**Argument Name**|**Description**|
 |:-----|:-----|
-|Value  <br/> |A string value to concatenate to the other values.  <br/> |
+|Value  <br/> |A string value to concatenate to the other values. |
    
 ## Remarks
 

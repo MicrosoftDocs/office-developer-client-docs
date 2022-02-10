@@ -32,9 +32,9 @@ Call **IAddrBook::NewEntry** when you are creating recipients to be used either 
   
 |**Parameter pair**|**Description**|
 |:-----|:-----|
-| _cbEidContainer_ and  _lpEidContainer_ <br/> |Entry identifier for the container into which the new entry should be placed.  <br/> |
-| _cbEidNewEntryTpl_ and  _lpEidNewEntryTpl_ <br/> |Entry identifier for the template to be used to create the new entry.  <br/> |
-| _lpcbEidNewEntry_ and  _lppEidNewEntry_ <br/> |Entry identifier for the new entry.  <br/> |
+| _cbEidContainer_ and  _lpEidContainer_ <br/> |Entry identifier for the container into which the new entry should be placed. |
+| _cbEidNewEntryTpl_ and  _lpEidNewEntryTpl_ <br/> |Entry identifier for the template to be used to create the new entry. |
+| _lpcbEidNewEntry_ and  _lppEidNewEntry_ <br/> |Entry identifier for the new entry. |
    
 To create a recipient for an outgoing message, set  _cbEidContainer_ to zero and  _lpEidContainer_ to NULL. **NewEntry** creates a recipient with an entry identifier that conforms to the one-off format, the same type of recipient that is produced by a call to **IAddrBook::CreateOneOff**. 
   

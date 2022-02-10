@@ -20,11 +20,11 @@ Determines whether a 1-D shape uses static (point-to-point) or dynamic (shape-to
   
 |**Value**|**Description**|**Automation constant**|
 |:-----|:-----|:-----|
-| &amp;H0  <br/> | Default. Allow dynamic glue for the dynamic connector only; otherwise, use static glue.  <br/> |**visGlueTypeDefault** <br/> |
-| &amp;H1  <br/> | Allow dynamic glue.  <br/> | Obsolete in Visio 2002  <br/> |
-| &amp;H2  <br/> | Allow dynamic glue.  <br/> |**visGlueTypeWalking** <br/> |
-| &amp;H4  <br/> | Do not allow dynamic glue.  <br/> |**visGlueTypeNoWalking** <br/> |
-| &amp;H8  <br/> | Do not allow this 2-D shape to be connected to with dynamic glue.  <br/> |**visGlueTypeNoWalkingTo** <br/> |
+| &amp;H0  <br/> | Default. Allow dynamic glue for the dynamic connector only; otherwise, use static glue. |**visGlueTypeDefault** <br/> |
+| &amp;H1  <br/> | Allow dynamic glue. | Obsolete in Visio 2002  <br/> |
+| &amp;H2  <br/> | Allow dynamic glue. |**visGlueTypeWalking** <br/> |
+| &amp;H4  <br/> | Do not allow dynamic glue. |**visGlueTypeNoWalking** <br/> |
+| &amp;H8  <br/> | Do not allow this 2-D shape to be connected to with dynamic glue. |**visGlueTypeNoWalkingTo** <br/> |
    
 ## Remarks
 

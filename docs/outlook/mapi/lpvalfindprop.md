@@ -24,7 +24,7 @@ Searches for a specified property in a property set.
 |:-----|:-----|
 |Header file:  <br/> |mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
-|Called by:  <br/> |Client applications and service providers.  <br/> |
+|Called by:  <br/> |Client applications and service providers. |
    
 ```cpp
 LPSPropValue LpValFindProp(

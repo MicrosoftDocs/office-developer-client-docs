@@ -19,7 +19,7 @@ Indicates whether the values of specified cells in a master shape overwrite the 
 |**Value**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> | The text on the master shape overwrites the text on the old shape. In addition, the master shape overwrites the values of the cells in the following sections during a shape replacement operation:  <br/> **Text Fields** section  <br/> **Text Block Format** section  <br/> |
-|FALSE  <br/> |The replacement shape contains any text, text fields, or other text properties from the old shape that have been added to the shape.  <br/> When the replacement shape contains text properties from the old shape, the replacement shape also has the values from the **Character** and **Paragraph** sections of the old shape if they have more than one row.  <br/> |
+|FALSE  <br/> |The replacement shape contains any text, text fields, or other text properties from the old shape that have been added to the shape. When the replacement shape contains text properties from the old shape, the replacement shape also has the values from the **Character** and **Paragraph** sections of the old shape if they have more than one row. |
    
 If set to TRUE (1), the values of the shape Master replaces the values of the following on the shape being replaced:
   

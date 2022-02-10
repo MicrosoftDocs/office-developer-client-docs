@@ -84,15 +84,15 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|CompressionLevel  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|CompressionType  <br/> |xsd:token  <br/> |optional  <br/> ||Values of the xsd:token type.  <br/> |
-|ExtentX  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|ExtentY  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|ForeignType  <br/> |xsd:token  <br/> |required  <br/> ||Values of the xsd:token type.  <br/> |
-|MappingMode  <br/> |xsd:unsignedShort  <br/> |optional  <br/> ||Values of the xsd:unsignedShort type.  <br/> |
-|ObjectHeight  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|ObjectType  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type.  <br/> |
-|ObjectWidth  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type.  <br/> |
-|ShowAsIcon  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type.  <br/> |
+|CompressionLevel  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|CompressionType  <br/> |xsd:token  <br/> |optional  <br/> ||Values of the xsd:token type. |
+|ExtentX  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|ExtentY  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|ForeignType  <br/> |xsd:token  <br/> |required  <br/> ||Values of the xsd:token type. |
+|MappingMode  <br/> |xsd:unsignedShort  <br/> |optional  <br/> ||Values of the xsd:unsignedShort type. |
+|ObjectHeight  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|ObjectType  <br/> |xsd:unsignedInt  <br/> |optional  <br/> ||Values of the xsd:unsignedInt type. |
+|ObjectWidth  <br/> |xsd:double  <br/> |optional  <br/> ||Values of the xsd:double type. |
+|ShowAsIcon  <br/> |xsd:boolean  <br/> |optional  <br/> ||Values of the xsd:boolean type. |
    
 

@@ -24,25 +24,25 @@ Providers are encouraged to set the values for all of these properties in incomi
   
 |**Property name**|**Description**|
 |:-----|:-----|
-|**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |The subject of the message.  <br/> |
-|**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |Plain text message text.  <br/> |
-|**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))  <br/> |Compressed RTF message text.  <br/> |
-|**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |The date and time the message was delivered.  <br/> |
-|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |The display name of the message originator.  <br/> |
-|**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md))  <br/> |The address book entry of the message originator.  <br/> |
-|**PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md))  <br/> |The address book search key of the message originator.  <br/> |
-|**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |The time that the message was submitted to its messaging system by the sender's messaging client.  <br/> |
-|**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |The name of the representative delegate for sending.  <br/> |
-|**PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md))  <br/> |The address book entry of the sending delegate.  <br/> |
-|**PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md))  <br/> |The address book search key of the sending delegate.  <br/> |
-|**PR_RCVD_REPRESENTING_NAME** ([PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md))  <br/> |The name of the representative delegate for receiving.  <br/> |
-|**PR_RCVD_REPRESENTING_ENTRYID** ([PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md))  <br/> |The address book entry of the receiving delegate.  <br/> |
-|**PR_RCVD_REPRESENTING_SEARCH_KEY** ([PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md))  <br/> |The address book search key of the receiving delegate.  <br/> |
-|**PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md))  <br/> |The list of delegated recipient display names, separated by a semicolon and space ("; ").  <br/> |
-|**PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md))  <br/> |The list of delegated recipients for a reply.  <br/> |
-|**PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))  <br/> |Indicates that the recipient was specifically named as a "to" recipient (not in a group).  <br/> |
-|**PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))  <br/> |Indicates that the recipient was specifically named as a "cc" recipient (not in a group).  <br/> |
-|**PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))  <br/> |Indicates that the recipient was specifically named as a "to", "cc" or "bcc" recipient (not in a group).  <br/> |
+|**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |The subject of the message. |
+|**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |Plain text message text. |
+|**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))  <br/> |Compressed RTF message text. |
+|**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |The date and time the message was delivered. |
+|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |The display name of the message originator. |
+|**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md))  <br/> |The address book entry of the message originator. |
+|**PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md))  <br/> |The address book search key of the message originator. |
+|**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |The time that the message was submitted to its messaging system by the sender's messaging client. |
+|**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |The name of the representative delegate for sending. |
+|**PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md))  <br/> |The address book entry of the sending delegate. |
+|**PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md))  <br/> |The address book search key of the sending delegate. |
+|**PR_RCVD_REPRESENTING_NAME** ([PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md))  <br/> |The name of the representative delegate for receiving. |
+|**PR_RCVD_REPRESENTING_ENTRYID** ([PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md))  <br/> |The address book entry of the receiving delegate. |
+|**PR_RCVD_REPRESENTING_SEARCH_KEY** ([PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md))  <br/> |The address book search key of the receiving delegate. |
+|**PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md))  <br/> |The list of delegated recipient display names, separated by a semicolon and space ("; "). |
+|**PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md))  <br/> |The list of delegated recipients for a reply. |
+|**PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))  <br/> |Indicates that the recipient was specifically named as a "to" recipient (not in a group). |
+|**PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))  <br/> |Indicates that the recipient was specifically named as a "cc" recipient (not in a group). |
+|**PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))  <br/> |Indicates that the recipient was specifically named as a "to", "cc" or "bcc" recipient (not in a group). |
    
 Providers that have no apparent mappings can set the **PR_SENT_REPRESENTING** group of properties to the same values as the **PR_SENDER** group, the **PR_RCVD_REPRESENTING** group of properties to the same values as the **PR_RECEIVED_BY** group, and can build the **PR_REPLY_RECIPIENT** group of properties based on the values of the **PR_SENDER** group. For example, **PR_SENT_REPRESENTING_NAME** can be set to the same value as **PR_SENDER_NAME**.
   

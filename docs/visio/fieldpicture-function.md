@@ -26,7 +26,7 @@ FIELDPICTURE(** *code* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _code_ <br/> |Required  <br/> |**Number** <br/> | A text field format code.  <br/> |
+| _code_ <br/> |Required  <br/> |**Number** <br/> | A text field format code. |
    
 ### Return value
 

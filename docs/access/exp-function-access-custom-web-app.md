@@ -27,7 +27,7 @@ The **Exp** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |An expression of type Double or of a type that can be implicitly converted to Double.  <br/> |
+| *NumericExpression*  <br/> |An expression of type Double or of a type that can be implicitly converted to Double. |
    
 ## Remarks
 

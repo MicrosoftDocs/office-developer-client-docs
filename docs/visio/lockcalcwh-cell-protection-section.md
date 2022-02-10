@@ -20,8 +20,8 @@ Locks a shape's selection rectangle so it cannot be recalculated when a vertex i
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Width and height cannot be recalculated.  <br/> |
-| FALSE  <br/> | Width and height can be recalculated.  <br/> |
+| TRUE  <br/> | Width and height cannot be recalculated. |
+| FALSE  <br/> | Width and height can be recalculated. |
    
 ## Remarks
 

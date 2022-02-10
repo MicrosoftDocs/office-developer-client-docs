@@ -32,15 +32,15 @@ The following table describes all of the custom form objects.
   
 |**Form object**|**Description**|
 |:-----|:-----|
-|Form  <br/> |Controls the display and operation of a custom form for viewing messages of a specific class.  <br/> |
-|Form advise sink  <br/> |Handles notifications from the form viewer.  <br/> |
-|Form factory  <br/> |Creates an instance of a form and allows its server to remain in memory.  <br/> |
-|Form container  <br/> |Contains form information.  <br/> |
-|Form information  <br/> |Contains messages and other message containers.  <br/> |
-|Form manager  <br/> |Provides access to an integrated view of custom form information that is related to all of the installed forms. Also matches message classes with corresponding form class identifiers.  <br/> |
-|Message site  <br/> |Handles the manipulation of form objects from inside the client, and provides access to a form manager object.  <br/> |
-|View context  <br/> |Supports form commands for activating next and previous messages and for saving or printing.  <br/> |
-|View advise sink  <br/> |Handles notifications from the form server.  <br/> |
+|Form  <br/> |Controls the display and operation of a custom form for viewing messages of a specific class. |
+|Form advise sink  <br/> |Handles notifications from the form viewer. |
+|Form factory  <br/> |Creates an instance of a form and allows its server to remain in memory. |
+|Form container  <br/> |Contains form information. |
+|Form information  <br/> |Contains messages and other message containers. |
+|Form manager  <br/> |Provides access to an integrated view of custom form information that is related to all of the installed forms. Also matches message classes with corresponding form class identifiers. |
+|Message site  <br/> |Handles the manipulation of form objects from inside the client, and provides access to a form manager object. |
+|View context  <br/> |Supports form commands for activating next and previous messages and for saving or printing. |
+|View advise sink  <br/> |Handles notifications from the form server. |
    
 The following illustration shows the relationship between custom form components, the objects and interfaces that they implement, and the components that are users of the objects. Notice that, unlike most other MAPI objects, the form object implements two interfaces that are not related by direct inheritance. When an object exposes multiple independent interfaces, a user of the object that has a pointer to one of the interfaces can retrieve a pointer to any of the other interfaces. This ability to navigate between an object's interface implementations is a feature of the [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) method. 
   

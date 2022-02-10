@@ -57,7 +57,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **DeleteEntries** method to delete a specific entry from an address book container.  <br/> |
+|Abdlg.cpp  <br/> |CabDlg::OnDeleteSelectedItem  <br/> |MFCMAPI uses the **DeleteEntries** method to delete a specific entry from an address book container. |
    
 ## See also
 

@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Issue](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Represents a single validation issue in the document.  <br/> |
+|[Issue](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Represents a single validation issue in the document. |
    
 ### Child elements
 
@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|RuleID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the validation rule that the parent issue pertains to.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|RuleSetID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the validation rule set that the parent issue pertains to.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|RuleID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the validation rule that the parent issue pertains to. |Values of the xsd:unsignedInt type. |
+|RuleSetID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |Specifies the unique identifier of the validation rule set that the parent issue pertains to. |Values of the xsd:unsignedInt type. |
    
 

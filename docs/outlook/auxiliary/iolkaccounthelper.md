@@ -25,9 +25,9 @@ Provides helper functionality in the current MAPI session to manage accounts.
 |||
 |:-----|:-----|
 |[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
-|[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Gets the profile name of an account.  <br/> |
-|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Opens a MAPI session and maintains a reference to the session for the account manager.  <br/> |
-|[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Releases the MAPI session object that was returned by [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).  <br/> |
+|[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Gets the profile name of an account. |
+|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Opens a MAPI session and maintains a reference to the session for the account manager. |
+|[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Releases the MAPI session object that was returned by [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md). |
    
 ## Remarks
 

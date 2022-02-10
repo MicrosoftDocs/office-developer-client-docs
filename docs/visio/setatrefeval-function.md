@@ -26,7 +26,7 @@ SETATREFEVAL(** *expr* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expr_ <br/> |Required  <br/> |**Varies** <br/> | An expression that is evaluated when the SETATREF function redirects  _set_expression_ to another cell.  <br/> |
+| _expr_ <br/> |Required  <br/> |**Varies** <br/> | An expression that is evaluated when the SETATREF function redirects  _set_expression_ to another cell. |
    
 ## Remarks
 

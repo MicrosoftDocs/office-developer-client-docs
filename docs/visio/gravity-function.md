@@ -26,9 +26,9 @@ GRAVITY(** *angle* **,[ ** *limit1* ** ],[ ** *limit2* ** ])
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**String** <br/> | The shape's angle.  <br/> |
-| _limit1_ <br/> |Optional  <br/> |**String** <br/> |First limit of rotation. Default is 90 degrees.  <br/> |
-| _limit2_ <br/> |Optional  <br/> |**String** <br/> |Second limit of rotation. Default is 270 degrees.  <br/> |
+| _angle_ <br/> |Required  <br/> |**String** <br/> | The shape's angle. |
+| _limit1_ <br/> |Optional  <br/> |**String** <br/> |First limit of rotation. Default is 90 degrees. |
+| _limit2_ <br/> |Optional  <br/> |**String** <br/> |Second limit of rotation. Default is 270 degrees. |
    
 ### Return value
 

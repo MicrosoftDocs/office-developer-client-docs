@@ -39,26 +39,26 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Contains a collection of **StyleSheet** elements for the document.  <br/> |
+|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Contains a collection of **StyleSheet** elements for the document. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Specifies a single property.  <br/> |
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Specifies a collection of related properties.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Specifies a single property. |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Specifies a collection of related properties. |
    
 ### Attributes
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The ID of the StyleSheet element from which this style inherits fill formatting.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The unique ID of the element within its parent element.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|IsCustomName  <br/> |xsd:boolean  <br/> |optional  <br/> |Indicates whether the name has been customized by the user.  <br/> |Values of the xsd:boolean type.  <br/> |
-|IsCustomNameU  <br/> |xsd:boolean  <br/> |optional  <br/> |Indicates whether the universal name has been customized by the user.  <br/> |Values of the xsd:boolean type.  <br/> |
-|LineStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The ID of the StyleSheet element from which this style inherits line formatting.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |optional  <br/> |The name of the element.  <br/> |Values of the xsd:string type.  <br/> |
-|NameU  <br/> |xsd:string  <br/> |optional  <br/> |The universal name of the element.  <br/> |Values of the xsd:string type.  <br/> |
-|TextStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The ID of the StyleSheet element from which this style inherits text formatting.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The ID of the StyleSheet element from which this style inherits fill formatting. |Values of the xsd:unsignedInt type. |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |The unique ID of the element within its parent element. |Values of the xsd:unsignedInt type. |
+|IsCustomName  <br/> |xsd:boolean  <br/> |optional  <br/> |Indicates whether the name has been customized by the user. |Values of the xsd:boolean type. |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |optional  <br/> |Indicates whether the universal name has been customized by the user. |Values of the xsd:boolean type. |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The ID of the StyleSheet element from which this style inherits line formatting. |Values of the xsd:unsignedInt type. |
+|Name  <br/> |xsd:string  <br/> |optional  <br/> |The name of the element. |Values of the xsd:string type. |
+|NameU  <br/> |xsd:string  <br/> |optional  <br/> |The universal name of the element. |Values of the xsd:string type. |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |The ID of the StyleSheet element from which this style inherits text formatting. |Values of the xsd:unsignedInt type. |
    
 

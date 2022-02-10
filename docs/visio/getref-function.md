@@ -26,7 +26,7 @@ GETREF(** *cellname* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellname_ <br/> |Required  <br/> |**String** <br/> |The name of the cell to get a reference to.  <br/> |
+| _cellname_ <br/> |Required  <br/> |**String** <br/> |The name of the cell to get a reference to. |
    
 ## Example
 

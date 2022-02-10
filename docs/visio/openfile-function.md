@@ -26,7 +26,7 @@ Opens a Microsoft Visio document, if it's not already open, and activates the do
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _filename_ <br/> |Required  <br/> |**String** <br/> |The name of the file, including file path, you want to open.  <br/> |
+| _filename_ <br/> |Required  <br/> |**String** <br/> |The name of the file, including file path, you want to open. |
    
 ## Remarks
 

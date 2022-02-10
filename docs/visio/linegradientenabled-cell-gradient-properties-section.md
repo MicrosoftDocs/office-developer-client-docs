@@ -18,8 +18,8 @@ Determines whether a line gradient is enabled for a line or border of a shape.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Gradient is displayed on the line or border of a shape.  <br/> |
-|FALSE  <br/> |Gradients are not displayed on the line or border of a shape.  <br/> |
+|TRUE  <br/> |Gradient is displayed on the line or border of a shape. |
+|FALSE  <br/> |Gradients are not displayed on the line or border of a shape. |
    
 ## Remarks
 

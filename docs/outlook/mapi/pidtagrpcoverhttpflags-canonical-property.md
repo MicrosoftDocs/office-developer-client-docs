@@ -33,11 +33,11 @@ The **PR_ROH_FLAGS** property is stored in the Global Profile Section of a Messa
   
 |**Name**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connect to the Exchange Server using RPC over HTTP.  <br/> |
-|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Connect to the Exchange Server using Secure Socket Layer (SSL) only.  <br/> |
-|**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Mutually authenticate the session when connecting by using SSL.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |On fast networks, connect by using HTTP first. Then, connect by using TCP/IP.  <br/> |
-|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |On slow networks, connect by using HTTP first. Then, connect by using TCP/IP.  <br/> |
+|**ROHFLAGS_USE_ROH** <br/> |0x1  <br/> |Connect to the Exchange Server using RPC over HTTP. |
+|**ROHFLAGS_SSL_ONLY** <br/> |0x2  <br/> |Connect to the Exchange Server using Secure Socket Layer (SSL) only. |
+|**ROHFLAGS_MUTUAL_AUTH** <br/> |0x4  <br/> |Mutually authenticate the session when connecting by using SSL. |
+|**ROHFLAGS_HTTP_FIRST_ON_FAST** <br/> |0x8  <br/> |On fast networks, connect by using HTTP first. Then, connect by using TCP/IP. |
+|**ROHFLAGS_HTTP_FIRST_ON_SLOW** <br/> |0x20  <br/> |On slow networks, connect by using HTTP first. Then, connect by using TCP/IP. |
    
 For example, to set the **PR_ROH_FLAGS** property to turn on RPC over HTTP, to require SSL, and to specify that the HTTP protocol should be used first on slow connections, set the value of the **PR_ROH_FLAGS** property to  `ROHFLAGS_USE_ROH | ROHFLAGS_SSL_ONLY | ROHFLAGS_HTTP_FIRST_ON_SLOW` which is equal to 0x23. 
   

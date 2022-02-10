@@ -68,10 +68,10 @@ It is possible that neither **PR_DELETE_AFTER_SUBMIT** or **PR_SENTMAIL_ENTRYID*
   
 |||
 |:-----|:-----|
-|If neither property is set:  <br/> |Leave the message in the folder from which it was sent (typically the Outbox).  <br/> |
-|If both properties are set:  <br/> |Move the message to the indicated folder, if desired, and then delete it.  <br/> |
-|If PR_SENTMAIL_ENTRYID is set:  <br/> |Move the message to the indicated folder.  <br/> |
-|If PR_DELETE_AFTER_SUBMIT is set:  <br/> |Delete the message.  <br/> |
+|If neither property is set:  <br/> |Leave the message in the folder from which it was sent (typically the Outbox). |
+|If both properties are set:  <br/> |Move the message to the indicated folder, if desired, and then delete it. |
+|If PR_SENTMAIL_ENTRYID is set:  <br/> |Move the message to the indicated folder. |
+|If PR_DELETE_AFTER_SUBMIT is set:  <br/> |Delete the message. |
    
 After you have taken whatever action is appropriate, call the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method. 
   

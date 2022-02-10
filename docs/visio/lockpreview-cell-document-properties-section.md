@@ -20,8 +20,8 @@ Determines whether a preview is saved each time you save a drawing.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Do not save a preview each time a drawing is saved.  <br/> |
-| FALSE  <br/> | Save a preview each time a drawing is saved.  <br/> |
+| TRUE  <br/> | Do not save a preview each time a drawing is saved. |
+| FALSE  <br/> | Save a preview each time a drawing is saved. |
    
 ## Remarks
 

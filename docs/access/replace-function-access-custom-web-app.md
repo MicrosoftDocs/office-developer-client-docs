@@ -24,6 +24,6 @@ The **Replace** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *TextExpression*  <br/> |The string expression to be searched.  <br/> |
-| *Pattern*  <br/> |The substring to be found. *Pattern* cannot be an empty string ("").  <br/> |
-| *Replacement*  <br/> |The replacement string.  <br/> |
+| *TextExpression*  <br/> |The string expression to be searched. |
+| *Pattern*  <br/> |The substring to be found. *Pattern* cannot be an empty string (""). |
+| *Replacement*  <br/> |The replacement string. |

@@ -125,9 +125,9 @@ Expect the following return values under the following conditions:
   
 |**Condition**|**Return value**|
 |:-----|:-----|
-|**CopyFolder** successfully copied or moved the folder and all its subfolders, if applicable.  <br/> |S_OK  <br/> |
-|**CopyFolder** was unable to successfully copy or move all of the folders.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
-|**CopyFolder** was unable to complete.  <br/> |Any error value  <br/> |
+|**CopyFolder** successfully copied or moved the folder and all its subfolders, if applicable. |S_OK  <br/> |
+|**CopyFolder** was unable to successfully copy or move all of the folders. |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**CopyFolder** was unable to complete. |Any error value  <br/> |
    
 If **CopyFolder** returns an error value, do not proceed on the assumption that no work was done. One or more folders could have been copied or moved before **CopyFolder** experienced the failure. 
   

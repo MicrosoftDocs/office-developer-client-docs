@@ -92,7 +92,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|AdviseSink.h and AdviseSink.cpp  <br/> |CAdviseSink::OnNotifyDesc  <br/> |The CAdviseSink class is implemented to handle all notifications in MFCMAPI.  <br/> |
+|AdviseSink.h and AdviseSink.cpp  <br/> |CAdviseSink::OnNotifyDesc  <br/> |The CAdviseSink class is implemented to handle all notifications in MFCMAPI. |
    
 ## See also
 

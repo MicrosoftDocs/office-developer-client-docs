@@ -48,15 +48,15 @@ Setting the conflict resolution through Group Policy takes precedence over direc
   
 |Data  | Description  |
 |:-----|:-----|
-|0  <br/> |Common item resolution that requires a user decision, as used in Outlook 2002 and earlier versions.  <br/> |
-|1  <br/> |Common item resolution that requires minimal user intervention, as used in Outlook since Outlook 2003.  <br/> |
-|2  <br/> |Resolution specific to mail items.  <br/> |
-|3  <br/> |Resolution specific to meeting items.  <br/> |
-|4  <br/> |Resolution specific to appointment items.  <br/> |
-|5  <br/> |Resolution specific to contact items.  <br/> |
-|6  <br/> |Resolution specific to task items.  <br/> |
-|7  <br/> |Resolution specific to sticky note items.  <br/> |
-|8  <br/> |Resolution specific to journal items.  <br/> |
+|0  <br/> |Common item resolution that requires a user decision, as used in Outlook 2002 and earlier versions. |
+|1  <br/> |Common item resolution that requires minimal user intervention, as used in Outlook since Outlook 2003. |
+|2  <br/> |Resolution specific to mail items. |
+|3  <br/> |Resolution specific to meeting items. |
+|4  <br/> |Resolution specific to appointment items. |
+|5  <br/> |Resolution specific to contact items. |
+|6  <br/> |Resolution specific to task items. |
+|7  <br/> |Resolution specific to sticky note items. |
+|8  <br/> |Resolution specific to journal items. |
    
 If you specify one of the item-specific resolution schemes (key data 2 through 8), Outlook will try to resolve conflicts in item-specific fields (for example, **Start** and **End** fields of an appointment item) automatically without user intervention. If Outlook considers that the resolution may result in the loss of essential data, Outlook will retain conflicting copies in the Conflicts folder, and users can choose to go to the Conflicts folder to manually re-resolve these items and override the automatic resolution. 
   

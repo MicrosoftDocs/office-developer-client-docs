@@ -26,6 +26,6 @@ BLOB (** *bintext* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _bintext_ <br/> |Required  <br/> |**String** <br/> | A base64 encoded string.  <br/> |
+| _bintext_ <br/> |Required  <br/> |**String** <br/> | A base64 encoded string. |
    
 

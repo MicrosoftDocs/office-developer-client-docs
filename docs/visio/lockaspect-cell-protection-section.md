@@ -20,8 +20,8 @@ Locks the aspect ratio of the shape so that the shape can only be sized proporti
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Aspect ratio is locked.  <br/> |
-| FALSE  <br/> | Aspect ratio is not locked.  <br/> |
+| TRUE  <br/> | Aspect ratio is locked. |
+| FALSE  <br/> | Aspect ratio is not locked. |
    
 ## Remarks
 

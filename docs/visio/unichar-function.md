@@ -26,7 +26,7 @@ UNICHAR (** *number* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Integer** <br/> |An integer between 1 and 65,535 (inclusive), or the function returns an error.  <br/> |
+| _number_ <br/> |Required  <br/> |**Integer** <br/> |An integer between 1 and 65,535 (inclusive), or the function returns an error. |
    
 ## Remarks
 

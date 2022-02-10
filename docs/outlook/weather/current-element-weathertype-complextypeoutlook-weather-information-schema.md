@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[weather](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Specifies the weather conditions of a location.  <br/> |
+|[weather](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Specifies the weather conditions of a location. |
    
 ### Child elements
 
@@ -50,17 +50,17 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |xs:date  <br/> |required  <br/> |Specifies today's date.  <br/> |A value of the type xs:date  <br/> |
-|day  <br/> |xs:string  <br/> |optional  <br/> |Specifies a day for the forecast.  <br/> |A value of the type xs:string  <br/> |
-|feelslike  <br/> |xs:integer  <br/> |required  <br/> |Specifies the temperature of how the current weather feels like.  <br/> |A value of the type xs:integer  <br/> |
-|humidity  <br/> |xs:integer  <br/> |required  <br/> |Specifies the current numerical humidity value.  <br/> |A value of the type xs:integer  <br/> |
-|observationpoint  <br/> |xs:string  <br/> |required  <br/> |Specifies where the current weather information is observed from.  <br/> |A value of the type xs:string  <br/> |
-|observationtime  <br/> |xs:time  <br/> |required  <br/> |Specifies when the current weather information is observed at.  <br/> |A value of the type xs:time  <br/> |
-|shortday  <br/> |xs:string  <br/> |optional  <br/> |Specifies a day in abbreviated form.  <br/> |A value of the type xs:string  <br/> |
-|skycode  <br/> |xs:integer  <br/> |required  <br/> |Specifies an integer code for the current weather conditions.  <br/> |A value of the type xs:integer  <br/> |
-|skytext  <br/> |xs:string  <br/> |required  <br/> |Specifies one to two words describing current weather conditions.  <br/> |A value of the type xs:string  <br/> |
-|temperature  <br/> |xs:integer  <br/> |required  <br/> |Specifies the current temperature of the location.  <br/> |A value of the type xs:integer  <br/> |
-|winddisplay  <br/> |xs:string  <br/> |required  <br/> |A string that describes the current wind conditions.  <br/> |A value of the type xs:string  <br/> |
-|windspeed  <br/> |xs:integer  <br/> |required  <br/> |Specifies the current numerical wind speed value.  <br/> |A value of the type xs:integer  <br/> |
+|date  <br/> |xs:date  <br/> |required  <br/> |Specifies today's date. |A value of the type xs:date  <br/> |
+|day  <br/> |xs:string  <br/> |optional  <br/> |Specifies a day for the forecast. |A value of the type xs:string  <br/> |
+|feelslike  <br/> |xs:integer  <br/> |required  <br/> |Specifies the temperature of how the current weather feels like. |A value of the type xs:integer  <br/> |
+|humidity  <br/> |xs:integer  <br/> |required  <br/> |Specifies the current numerical humidity value. |A value of the type xs:integer  <br/> |
+|observationpoint  <br/> |xs:string  <br/> |required  <br/> |Specifies where the current weather information is observed from. |A value of the type xs:string  <br/> |
+|observationtime  <br/> |xs:time  <br/> |required  <br/> |Specifies when the current weather information is observed at. |A value of the type xs:time  <br/> |
+|shortday  <br/> |xs:string  <br/> |optional  <br/> |Specifies a day in abbreviated form. |A value of the type xs:string  <br/> |
+|skycode  <br/> |xs:integer  <br/> |required  <br/> |Specifies an integer code for the current weather conditions. |A value of the type xs:integer  <br/> |
+|skytext  <br/> |xs:string  <br/> |required  <br/> |Specifies one to two words describing current weather conditions. |A value of the type xs:string  <br/> |
+|temperature  <br/> |xs:integer  <br/> |required  <br/> |Specifies the current temperature of the location. |A value of the type xs:integer  <br/> |
+|winddisplay  <br/> |xs:string  <br/> |required  <br/> |A string that describes the current wind conditions. |A value of the type xs:string  <br/> |
+|windspeed  <br/> |xs:integer  <br/> |required  <br/> |Specifies the current numerical wind speed value. |A value of the type xs:integer  <br/> |
    
 

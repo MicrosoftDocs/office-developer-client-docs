@@ -19,14 +19,14 @@ Determines which theme color that a shape's shadow uses, as an integer from 0 to
 |||
 |:-----|:-----|
 |Value  <br/> |Description  <br/> |
-|0  <br/> |The shape shadow color inherits from the Dark theme color.  <br/> |
-|1  <br/> |The shape shadow color inherits from the Light theme color.  <br/> |
-|2  <br/> |The shape shadow color inherits from the Accent 1 theme color.  <br/> |
-|3  <br/> |The shape shadow color inherits from the Accent 2 theme color.  <br/> |
-|4  <br/> |The shape shadow color inherits from the Accent 3 theme color.  <br/> |
-|5  <br/> |The shape shadow color inherits from the Accent 4 theme color.  <br/> |
-|6  <br/> |The shape shadow color inherits from the Accent 5 theme color.  <br/> |
-|7  <br/> |The shape shadow color inherits from the Accent 6 theme color.  <br/> |
+|0  <br/> |The shape shadow color inherits from the Dark theme color. |
+|1  <br/> |The shape shadow color inherits from the Light theme color. |
+|2  <br/> |The shape shadow color inherits from the Accent 1 theme color. |
+|3  <br/> |The shape shadow color inherits from the Accent 2 theme color. |
+|4  <br/> |The shape shadow color inherits from the Accent 3 theme color. |
+|5  <br/> |The shape shadow color inherits from the Accent 4 theme color. |
+|6  <br/> |The shape shadow color inherits from the Accent 5 theme color. |
+|7  <br/> |The shape shadow color inherits from the Accent 6 theme color. |
    
 ## Remarks
 

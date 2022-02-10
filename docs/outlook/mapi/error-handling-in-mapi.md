@@ -32,11 +32,11 @@ The facility field in both versions indicates the area of responsibility for the
   
 |Facility|Description|
 |:-----|:-----|
-|FACILITY_NULL  <br/> |For broadly applicable common status codes such as S_OK or E_OUTOF_MEMORY; the value is zero.  <br/> |
-|FACILITY_ITF  <br/> |For most status codes returned from interface methods; the value is defined by the interface. That is, two HRESULT values with exactly the same 32-bit value returned from two different interfaces might have different meanings.  <br/> |
-|FACILITY_DISPATCH  <br/> |For late binding [IDispatch](https://msdn.microsoft.com/library/ms221608.aspx) interface errors.  <br/> |
-|FACILITY_RPC  <br/> |For status codes returned from remote procedure calls.  <br/> |
-|FACILITY_STORAGE  <br/> |For status codes returned from [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) or [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) method calls relating to structured storage. Status codes with code (lower 16 bits) values in the range of Windows error codes (that is, less than 256) have the same meaning as the corresponding Windows errors.  <br/> |
+|FACILITY_NULL  <br/> |For broadly applicable common status codes such as S_OK or E_OUTOF_MEMORY; the value is zero. |
+|FACILITY_ITF  <br/> |For most status codes returned from interface methods; the value is defined by the interface. That is, two HRESULT values with exactly the same 32-bit value returned from two different interfaces might have different meanings. |
+|FACILITY_DISPATCH  <br/> |For late binding [IDispatch](https://msdn.microsoft.com/library/ms221608.aspx) interface errors. |
+|FACILITY_RPC  <br/> |For status codes returned from remote procedure calls. |
+|FACILITY_STORAGE  <br/> |For status codes returned from [IStorage](https://msdn.microsoft.com/library/aa380015%28VS.85%29.aspx) or [IStream](https://msdn.microsoft.com/library/aa380034%28VS.85%29.aspx) method calls relating to structured storage. Status codes with code (lower 16 bits) values in the range of Windows error codes (that is, less than 256) have the same meaning as the corresponding Windows errors. |
    
 The code field is a unique number that is assigned to represent the error or warning.
   

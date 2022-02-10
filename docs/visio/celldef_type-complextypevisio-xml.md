@@ -59,10 +59,10 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|F  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|IX  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
-|S  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type.  <br/> |
-|T  <br/> |xsd:token  <br/> |required  <br/> ||Values of the xsd:token type.  <br/> |
+|F  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|IX  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
+|S  <br/> |xsd:unsignedByte  <br/> |optional  <br/> ||Values of the xsd:unsignedByte type. |
+|T  <br/> |xsd:token  <br/> |required  <br/> ||Values of the xsd:token type. |
    
 

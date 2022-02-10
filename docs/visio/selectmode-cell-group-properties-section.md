@@ -20,9 +20,9 @@ Determines how you select a group shape and its members.
   
 |**Value**|**Selection mode**|**Automation constant**|
 |:-----|:-----|:-----|
-|0  <br/> |Select the group shape only.  <br/> |**visGrpSelModeGroupOnly** <br/> |
-|1  <br/> |Select the group shape first.  <br/> |**visGrpSelModeGroup1st** <br/> |
-|2  <br/> |Select the members of the group first.  <br/> |**visGrpSelModeMembers1st** <br/> |
+|0  <br/> |Select the group shape only. |**visGrpSelModeGroupOnly** <br/> |
+|1  <br/> |Select the group shape first. |**visGrpSelModeGroup1st** <br/> |
+|2  <br/> |Select the members of the group first. |**visGrpSelModeMembers1st** <br/> |
    
 ## Remarks
 

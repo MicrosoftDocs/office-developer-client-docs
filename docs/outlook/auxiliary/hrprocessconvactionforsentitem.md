@@ -55,8 +55,8 @@ _dwFlags_
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |The call was successful.  <br/> |
-|E_INVALIDARG  <br/> | _dwFlags_ contains an unknown flag.  <br/> |
+|S_OK  <br/> |The call was successful. |
+|E_INVALIDARG  <br/> | _dwFlags_ contains an unknown flag. |
    
 ## Remarks
 

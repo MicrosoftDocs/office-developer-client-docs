@@ -134,10 +134,10 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 |**Result**|**Description**|
 |:-----|:-----|
-|**S_OK** <br/> |Action was successfully submitted to the Click-To-Run service for execution.  <br/> |
-|**E_ACCESSDENIED** <br/> |The caller is not running with elevated privileges.  <br/> |
-|**E_INVALIDARG** <br/> |Invalid parameters were passed.  <br/> |
-|**E_ILLEGAL_METHOD_CALL** <br/> |Action is not allowed at this time. See [Remarks](#bk_ApplyRemark) for more information.  <br/> |
+|**S_OK** <br/> |Action was successfully submitted to the Click-To-Run service for execution. |
+|**E_ACCESSDENIED** <br/> |The caller is not running with elevated privileges. |
+|**E_INVALIDARG** <br/> |Invalid parameters were passed. |
+|**E_ILLEGAL_METHOD_CALL** <br/> |Action is not allowed at this time. See [Remarks](#bk_ApplyRemark) for more information. |
 
 <a name="bk_ApplyRemark"></a>
 
@@ -171,7 +171,7 @@ HRESULT Cancel() // Cancel the download action.
 
 |**Result**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |Action was successfully submitted to the Click-to-Run service for execution.  <br/> |
+|S_OK  <br/> |Action was successfully submitted to the Click-to-Run service for execution. |
 |E_ILLEGAL_METHOD_CALL  <br/> |Action is not allowed at this time. See the [Remarks](#bk_CancelRemarks) section for more information  <br/> |
 
 <a name="bk_CancelRemarks"></a>
@@ -202,10 +202,10 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 |**Result**|**Description**|
 |:-----|:-----|
-|**S_OK** <br/> |Action was successfully submitted to the Click-To-Run service for execution.  <br/> |
-|**E_ACCESSDENIED** <br/> |The caller is not running with elevated privileges.  <br/> |
-|**E_INVALIDARG** <br/> |Invalid parameters were passed.  <br/> |
-|**E_ILLEGAL_METHOD_CALL** <br/> |Action is not allowed at this time. See [Remarks](#bk_DownloadRemark) for more information.  <br/> |
+|**S_OK** <br/> |Action was successfully submitted to the Click-To-Run service for execution. |
+|**E_ACCESSDENIED** <br/> |The caller is not running with elevated privileges. |
+|**E_INVALIDARG** <br/> |Invalid parameters were passed. |
+|**E_ILLEGAL_METHOD_CALL** <br/> |Action is not allowed at this time. See [Remarks](#bk_DownloadRemark) for more information. |
 
 <a name="bk_DownloadRemark"></a>
 
@@ -263,13 +263,13 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 |**Parameter**|**Description**|
 |:-----|:-----|
-| _pUpdateStatusReport_ <br/> |Pointer to an UPDATE_STATUS_REPORT structure.  <br/> |
+| _pUpdateStatusReport_ <br/> |Pointer to an UPDATE_STATUS_REPORT structure. |
    
 #### Return results
 
 |**Result**|**Description**|
 |:-----|:-----|
-|**S_OK** <br/> |The **Status** method always returns this result. Inspect the  `UPDATE_STATUS_RESULT` structure for the status of the current action.  <br/> |
+|**S_OK** <br/> |The **Status** method always returns this result. Inspect the  `UPDATE_STATUS_RESULT` structure for the status of the current action. |
    
 #### Remarks
 

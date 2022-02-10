@@ -171,21 +171,21 @@ PT_MV_BINARY
 |**Value Data**|**Number of Bytes**|
 |:-----|:-----|
 |Number of binary arrays X  <br/> |4  <br/> |
-|A run of bytes that contains X binary arrays. Each array should be interpreted exactly like the PT_BINARY byte run.  <br/> |Variable  <br/> |
+|A run of bytes that contains X binary arrays. Each array should be interpreted exactly like the PT_BINARY byte run. |Variable  <br/> |
    
 PT_MV_STRING8 (Outlook 2007, Outlook 2010, and Outlook 2013)
   
 |**Value Data**|**Number of Bytes**|
 |:-----|:-----|
 |Number of ANSI strings X  <br/> |4  <br/> |
-|A run of bytes that contains X ANSI strings. Each string should be interpreted exactly like the PT_STRING8 byte run.  <br/> |Variable  <br/> |
+|A run of bytes that contains X ANSI strings. Each string should be interpreted exactly like the PT_STRING8 byte run. |Variable  <br/> |
    
 PT_MV_UNICODE (Outlook 2007, Outlook 2010, Outlook 2013)
   
 |**Value Data**|**Number of Bytes**|
 |:-----|:-----|
 |Number of UNICODE strings X  <br/> |4  <br/> |
-|A run of bytes that contains X UNICODE strings. Each string should be interpreted exactly like the PT_UNICODE byte run.  <br/> |Variable  <br/> |
+|A run of bytes that contains X UNICODE strings. Each string should be interpreted exactly like the PT_UNICODE byte run. |Variable  <br/> |
    
 ## Significant properties
 
@@ -193,15 +193,15 @@ As mentioned previously in this topic, the binary blocks that represent properti
   
 |**Property Name**|**Property Tag**|**Description (see MSDN for more information)**|
 |:-----|:-----|:-----|
-|PR_NICK_NAME_W (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0x6001001f  <br/> |This property must be first in each recipient row. It functionally serves as a key identifier for the recipient row.  <br/> |
-|PR_ENTRYID  <br/> |0x0FFF0102  <br/> |The address book entry identifier for the recipient.  <br/> |
-|PR_DISPLAY_NAME_W  <br/> |0x3001001F  <br/> |The recipient's display name.  <br/> |
+|PR_NICK_NAME_W (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0x6001001f  <br/> |This property must be first in each recipient row. It functionally serves as a key identifier for the recipient row. |
+|PR_ENTRYID  <br/> |0x0FFF0102  <br/> |The address book entry identifier for the recipient. |
+|PR_DISPLAY_NAME_W  <br/> |0x3001001F  <br/> |The recipient's display name. |
 |PR_EMAIL_ADDRESS_W  <br/> |0x3003001F  <br/> |The recipient's email address (e.g. johndoe@contoso.com or /o=Contoso/OU=Foo/cn=Recipients/cn=johndoe)  <br/> |
-|PR_ADDRTYPE_W  <br/> |0x3002001F  <br/> |The recipient's address type (e.g. SMTP or EX).  <br/> |
-|PR_SEARCH_KEY  <br/> |0x300B0102  <br/> |The recipient's MAPI search key.  <br/> |
-|PR_SMTP_ADDRESS_W  <br/> |0x39FE001f  <br/> |The recipient's SMTP address.  <br/> |
-|PR_DROPDOWN_DISPLAY_NAME_W (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0X6003001f  <br/> |The display string that appears in the autocomplete list.  <br/> |
-|PR_NICK_NAME_WEIGHT (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0x60040003  <br/> |The weight of this autocomplete entry. The weight is used to determine in what order autocomplete entries occur when matching the autocomplete list. Entries with higher weight will show before entries with lower weight. The complete autocomplete list is sorted by this property. The weight periodically decreases over time and increases when the user sends an email to this recipient. See the description later in this topic for more information about this property.  <br/> |
+|PR_ADDRTYPE_W  <br/> |0x3002001F  <br/> |The recipient's address type (e.g. SMTP or EX). |
+|PR_SEARCH_KEY  <br/> |0x300B0102  <br/> |The recipient's MAPI search key. |
+|PR_SMTP_ADDRESS_W  <br/> |0x39FE001f  <br/> |The recipient's SMTP address. |
+|PR_DROPDOWN_DISPLAY_NAME_W (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0X6003001f  <br/> |The display string that appears in the autocomplete list. |
+|PR_NICK_NAME_WEIGHT (not transmitted on recipients, specific to autocomplete stream only)  <br/> |0x60040003  <br/> |The weight of this autocomplete entry. The weight is used to determine in what order autocomplete entries occur when matching the autocomplete list. Entries with higher weight will show before entries with lower weight. The complete autocomplete list is sorted by this property. The weight periodically decreases over time and increases when the user sends an email to this recipient. See the description later in this topic for more information about this property. |
    
 PR_NICK_NAME_WEIGHT
   

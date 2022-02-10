@@ -20,8 +20,8 @@ Determines text assignment for a group.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Text is added to the group shape.  <br/> |
-|FALSE  <br/> |Text is added to the shape in the group at the top of the stacking order.  <br/> |
+|TRUE  <br/> |Text is added to the group shape. |
+|FALSE  <br/> |Text is added to the shape in the group at the top of the stacking order. |
    
 ## Remarks
 

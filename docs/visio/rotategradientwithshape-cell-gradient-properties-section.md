@@ -18,8 +18,8 @@ Determines whether a fill gradient rotates with a shape in 2D rotation, as a boo
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The gradient rotates with the shape when the shape is rotated around the rotation pin. The "top" of the gradient is parallel to the rotation handle.  <br/> |
-|FALSE  <br/> |The gradient does not rotate with the shape when the shape is rotated around the rotation pin. The "top" of the gradient is parallel to the drawing canvas.  <br/> |
+|TRUE  <br/> |The gradient rotates with the shape when the shape is rotated around the rotation pin. The "top" of the gradient is parallel to the rotation handle. |
+|FALSE  <br/> |The gradient does not rotate with the shape when the shape is rotated around the rotation pin. The "top" of the gradient is parallel to the drawing canvas. |
    
 ## Remarks
 

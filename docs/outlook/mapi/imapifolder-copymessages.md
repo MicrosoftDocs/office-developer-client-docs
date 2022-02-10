@@ -115,9 +115,9 @@ Expect these return values under the following conditions.
   
 |**Condition**|**Return value**|
 |:-----|:-----|
-|**IMAPIFolder::CopyMessages** has successfully copied or moved every message.  <br/> |S_OK  <br/> |
-|**IMAPIFolder::CopyMessages** was unable to successfully copy or move every message.  <br/> |MAPI_W_PARTIAL_COMPLETION  <br/> |
-|**IMAPIFolder::CopyMessages** was unable to complete.  <br/> |Any error value  <br/> |
+|**IMAPIFolder::CopyMessages** has successfully copied or moved every message. |S_OK  <br/> |
+|**IMAPIFolder::CopyMessages** was unable to successfully copy or move every message. |MAPI_W_PARTIAL_COMPLETION  <br/> |
+|**IMAPIFolder::CopyMessages** was unable to complete. |Any error value  <br/> |
    
 When **IMAPIFolder::CopyMessages** is unable to complete, do not assume that no work was done. **IMAPIFolder::CopyMessages** might have been able to copy or move one or more messages before encountering the error. 
   

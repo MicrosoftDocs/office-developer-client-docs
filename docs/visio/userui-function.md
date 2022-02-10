@@ -26,9 +26,9 @@ USERUI(** *state* **, ** *defaultexpression* **, ** *userexpression* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _state_ <br/> |Required  <br/> |**Boolean** <br/> |Determines which expression to evaluate.  <br/> |
-| _defaultexpression_ <br/> |Required  <br/> |**String** <br/> |The default expression.  <br/> |
-| _userexpression_ <br/> |Required  <br/> |**String** <br/> |An expression supplied by the user.  <br/> |
+| _state_ <br/> |Required  <br/> |**Boolean** <br/> |Determines which expression to evaluate. |
+| _defaultexpression_ <br/> |Required  <br/> |**String** <br/> |The default expression. |
+| _userexpression_ <br/> |Required  <br/> |**String** <br/> |An expression supplied by the user. |
    
 ## Remarks
 

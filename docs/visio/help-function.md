@@ -26,7 +26,7 @@ HELP(" ** *filename.chm!keyword* ** ")
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _filename.chm!keyword_ <br/> |Required  <br/> |**String** <br/> | The filename of the Help file and the keyword to search for.  <br/> |
+| _filename.chm!keyword_ <br/> |Required  <br/> |**String** <br/> | The filename of the Help file and the keyword to search for. |
    
 ## Remarks
 

@@ -24,8 +24,8 @@ SATDIFF(** *color1* **, ** *color2* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the first color.  <br/> |
-| _color2_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the second color.  <br/> |
+| _color1_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the first color. |
+| _color2_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the second color. |
    
 ### Return value
 

@@ -75,9 +75,9 @@ NOTIFY_SENTDEFERRED
     
 |**_ulFlags_ setting**|**_lpvData_ value**|
 |:-----|:-----|
-|NOTIFY_CRITICAL_ERROR  <br/> |Information about the error.  <br/> |
-|NOTIFY_NEWMAIL_RECEIVED  <br/> |A **NEWMAIL_NOTIFICATION** structure that contains information about the newly delivered message.  <br/> |
-|NOTIFY_SENTDEFERRED  <br/> |An **SBinary** structure that contains the entry identifier of deferred message.  <br/> |
+|NOTIFY_CRITICAL_ERROR  <br/> |Information about the error. |
+|NOTIFY_NEWMAIL_RECEIVED  <br/> |A **NEWMAIL_NOTIFICATION** structure that contains information about the newly delivered message. |
+|NOTIFY_SENTDEFERRED  <br/> |An **SBinary** structure that contains the entry identifier of deferred message. |
    
 ## Return value
 

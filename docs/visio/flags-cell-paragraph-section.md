@@ -20,8 +20,8 @@ Indicates whether the text direction is left to right or right to left.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|0  <br/> |The text direction is left to right (the default).  <br/> |
-|1  <br/> |The text direction is right to left.  <br/> |
+|0  <br/> |The text direction is left to right (the default). |
+|1  <br/> |The text direction is right to left. |
    
 ## Remarks
 
@@ -31,14 +31,14 @@ To get a reference to the Flags cell by name from another formula, or from a pro
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Para.Flags[ *i*  ] where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Para.Flags[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Flags cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionParagraph** <br/> |
-|Row index:  <br/> |**visRowParagraph** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowParagraph** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visFlags** <br/> |
    
 

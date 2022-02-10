@@ -20,12 +20,12 @@ The following table shows the members that are available on the **ISocialPerson*
   
 |**Name**|**Member type**|**Description**|
 |:-----|:-----|:-----|
-|[GetActivities](isocialperson-getactivities.md) <br/> |Method  <br/> |This method has been deprecated since Outlook Social Connector 2013.  <br/> |
-|[GetDetails](isocialperson-getdetails.md) <br/> |Method  <br/> |Gets a string that represents details for the person, such as the first name, last name, and a URL to a profile picture.  <br/> |
-|[GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) <br/> |Method  <br/> |Gets a string that represents a collection of people.  <br/> |
-|[GetFriendsAndColleaguesIDs](isocialperson-getfriendsandcolleaguesids.md) <br/> |Method  <br/> |This method is currently not supported.  <br/> |
-|[GetPicture](isocialperson-getpicture.md) <br/> |Method  <br/> |Gets an array of bytes that contains the picture resource for the person.  <br/> |
-|[GetStatus](isocialperson-getstatus.md) <br/> |Method  <br/> |This method is currently not supported.  <br/> |
+|[GetActivities](isocialperson-getactivities.md) <br/> |Method  <br/> |This method has been deprecated since Outlook Social Connector 2013. |
+|[GetDetails](isocialperson-getdetails.md) <br/> |Method  <br/> |Gets a string that represents details for the person, such as the first name, last name, and a URL to a profile picture. |
+|[GetFriendsAndColleagues](isocialperson-getfriendsandcolleagues.md) <br/> |Method  <br/> |Gets a string that represents a collection of people. |
+|[GetFriendsAndColleaguesIDs](isocialperson-getfriendsandcolleaguesids.md) <br/> |Method  <br/> |This method is currently not supported. |
+|[GetPicture](isocialperson-getpicture.md) <br/> |Method  <br/> |Gets an array of bytes that contains the picture resource for the person. |
+|[GetStatus](isocialperson-getstatus.md) <br/> |Method  <br/> |This method is currently not supported. |
    
 ## Remarks
 

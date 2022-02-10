@@ -135,6 +135,6 @@ The following table lists the deprecated functions in Visio 2013.
   
 |**Deprecated function**|**Notes**|
 |:-----|:-----|
-|**CELLISTHEMED** <br/> |Replaced by [ISTHEMED](isthemed-function.md) function.  <br/> |
+|**CELLISTHEMED** <br/> |Replaced by [ISTHEMED](isthemed-function.md) function. |
    
 

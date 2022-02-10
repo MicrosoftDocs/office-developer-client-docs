@@ -28,7 +28,7 @@ The **SetLocalVar** action has the following arguments.
   
 |**Argument name**|**Required**|**Description**|
 |:-----|:-----|:-----|
-|**Name** <br/> |Yes  <br/> |A string that specifies the name of the variable.  <br/> |
-|**Expression** <br/> |Yes  <br/> |An expression that will be used to set the value for this temporary variable. Do not precede the expression with the equal sign (=). You can click the **Build** button to use the **Expression Builder** to set this argument.  <br/> |
+|**Name** <br/> |Yes  <br/> |A string that specifies the name of the variable. |
+|**Expression** <br/> |Yes  <br/> |An expression that will be used to set the value for this temporary variable. Do not precede the expression with the equal sign (=). You can click the **Build** button to use the **Expression Builder** to set this argument. |
    
 

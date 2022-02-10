@@ -110,7 +110,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI uses the **IMessage::SetReadFlag** method to set read flags on selected messages.  <br/> |
+|FolderDlg.cpp  <br/> |CFolderDlg::OnSetReadFlag  <br/> |MFCMAPI uses the **IMessage::SetReadFlag** method to set read flags on selected messages. |
    
 ## See also
 

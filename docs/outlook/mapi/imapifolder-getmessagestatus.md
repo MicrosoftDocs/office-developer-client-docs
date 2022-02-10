@@ -95,8 +95,8 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI uses the **IMAPIFolder::GetMessageStatus** method to get the status of the next message to be displayed.  <br/> |
-|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal and OpenMessageModal  <br/> |MFCMAPI uses the **IMAPIFolder::GetMessageStatus** method to get the status of the message to be displayed to pass to the form viewer, which is either CMyMAPIFormViewer or [IMAPISession::ShowForm](imapisession-showform.md).  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetNextMessage  <br/> |MFCMAPI uses the **IMAPIFolder::GetMessageStatus** method to get the status of the next message to be displayed. |
+|MAPIFormFunctions.cpp  <br/> |OpenMessageNonModal and OpenMessageModal  <br/> |MFCMAPI uses the **IMAPIFolder::GetMessageStatus** method to get the status of the message to be displayed to pass to the form viewer, which is either CMyMAPIFormViewer or [IMAPISession::ShowForm](imapisession-showform.md). |
    
 ## See also
 

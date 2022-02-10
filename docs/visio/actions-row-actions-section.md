@@ -25,16 +25,16 @@ Actions rows are named Actions. *name*  and contain the following cells. For mor
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[Action](action-cell-actions-section.md) <br/> |Contains the formula to be executed when a user chooses an item on a shortcut or action tag menu.  <br/> |
-|[Menu](menu-cell-actions-section.md) <br/> |Defines the name of the menu item that appears on a action tag or shortcut menu.  <br/> |
-|[TagName](tagname-cell-actions-section.md) <br/> |The logical name of the action tag in which this action should appear.  <br/> |
-|[ButtonFace](buttonface-cell-actions-section.md) <br/> |Identifies the icon that appears next to an item on a shortcut or action tag menu.  <br/> |
-|[SortKey](sortkey-cell-actions-section.md) <br/> |A number that determines the order of menu items on a action tag or shortcut menu.  <br/> |
-|[Checked](checked-cell-actions-section.md) <br/> |Indicates whether the menu item is checked on a action tag or shortcut menu.  <br/> |
-|[Disabled](disabled-cell-actions-section.md) <br/> |Indicates whether a menu item on a shortcut or action tag menu is disabled.  <br/> |
-|[ReadOnly](readonly-cell-actions-section.md) <br/> |Indicates whether the menu item is read-only (cannot be clicked).  <br/> |
-|[Invisible](invisible-cell-actions-section.md) <br/> |Indicates whether the menu item is visible on the action tag or shortcut menu.  <br/> |
-|[BeginGroup](begingroup-cell-actions-section.md) <br/> |Indicates whether to insert a separator into the menu, above the menu item.  <br/> |
+|[Action](action-cell-actions-section.md) <br/> |Contains the formula to be executed when a user chooses an item on a shortcut or action tag menu. |
+|[Menu](menu-cell-actions-section.md) <br/> |Defines the name of the menu item that appears on a action tag or shortcut menu. |
+|[TagName](tagname-cell-actions-section.md) <br/> |The logical name of the action tag in which this action should appear. |
+|[ButtonFace](buttonface-cell-actions-section.md) <br/> |Identifies the icon that appears next to an item on a shortcut or action tag menu. |
+|[SortKey](sortkey-cell-actions-section.md) <br/> |A number that determines the order of menu items on a action tag or shortcut menu. |
+|[Checked](checked-cell-actions-section.md) <br/> |Indicates whether the menu item is checked on a action tag or shortcut menu. |
+|[Disabled](disabled-cell-actions-section.md) <br/> |Indicates whether a menu item on a shortcut or action tag menu is disabled. |
+|[ReadOnly](readonly-cell-actions-section.md) <br/> |Indicates whether the menu item is read-only (cannot be clicked). |
+|[Invisible](invisible-cell-actions-section.md) <br/> |Indicates whether the menu item is visible on the action tag or shortcut menu. |
+|[BeginGroup](begingroup-cell-actions-section.md) <br/> |Indicates whether to insert a separator into the menu, above the menu item. |
    
 ## Remarks
 

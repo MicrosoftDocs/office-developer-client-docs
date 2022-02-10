@@ -29,14 +29,14 @@ To get a reference to the BulletSize cell by name from another formula, or from 
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Para.BulletFontSize[  *i*  ]            where  *i*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Para.BulletFontSize[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the BulletSize cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionParagraph** <br/> |
-| Row index:  <br/> |**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visBulletFontSize** <br/> |
    
 

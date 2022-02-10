@@ -16,18 +16,18 @@ Providers should return errors to the caller by using one of the error codes sho
   
 |**Error**|**Error code (hexadecimal)**|**Description**|
 |:-----|:-----|:-----|
-|OSC_E_AUTH_ERROR  <br/> |0x80041404  <br/> |Authentication failed on the network of the social network site.  <br/> |
-|OSC_E_COULDNOTCONNECT  <br/> |0x80041402  <br/> |No connection is available to connect to the social network site.  <br/> |
-|OSC_E_FAIL  <br/> |0x80004005  <br/> |General failure error.  <br/> |
-|OSC_E_INTERNAL_ERROR  <br/> |0x80041400  <br/> |An internal error occurred because of an invalid operation.  <br/> |
-|OSC_E_INVALIDARG (E_INVALIDARG)  <br/> |0x80070057  <br/> |An invalid argument was passed to a function.  <br/> |
-|OSC_E_NO_CHANGES  <br/> |0x80041406  <br/> |No changes have occurred since the last synchronization.  <br/> |
-|OSC_E_NOT_FOUND  <br/> |0x80041405  <br/> |A resource cannot be found.  <br/> |
-|OSC_E_NOT_IMPLEMENTED (E_NOTIMPL)  <br/> |0x80004001  <br/> |The request to the social network site is valid but has not been implemented by the social network site.  <br/> |
-|OSC_E_OUT_OF_MEMORY (E_OUTOFMEMORY)  <br/> |0x8007000E  <br/> |An out-of-memory error occurred.  <br/> |
-|OSC_E_PERMISSION_DENIED  <br/> |0x80041403  <br/> |The OSC provider denied permission for the resource.  <br/> |
-|OSC_E_SERVER_VERSION_NOT_SUPPORTED  <br/> |0x80041406  <br/> |The version of the server to configure the social network account is not supported.  <br/> |
-|OSC_E_VERSION  <br/> |0x80041401  <br/> |The provider does not support this version of OSC provider extensibility.  <br/> |
+|OSC_E_AUTH_ERROR  <br/> |0x80041404  <br/> |Authentication failed on the network of the social network site. |
+|OSC_E_COULDNOTCONNECT  <br/> |0x80041402  <br/> |No connection is available to connect to the social network site. |
+|OSC_E_FAIL  <br/> |0x80004005  <br/> |General failure error. |
+|OSC_E_INTERNAL_ERROR  <br/> |0x80041400  <br/> |An internal error occurred because of an invalid operation. |
+|OSC_E_INVALIDARG (E_INVALIDARG)  <br/> |0x80070057  <br/> |An invalid argument was passed to a function. |
+|OSC_E_NO_CHANGES  <br/> |0x80041406  <br/> |No changes have occurred since the last synchronization. |
+|OSC_E_NOT_FOUND  <br/> |0x80041405  <br/> |A resource cannot be found. |
+|OSC_E_NOT_IMPLEMENTED (E_NOTIMPL)  <br/> |0x80004001  <br/> |The request to the social network site is valid but has not been implemented by the social network site. |
+|OSC_E_OUT_OF_MEMORY (E_OUTOFMEMORY)  <br/> |0x8007000E  <br/> |An out-of-memory error occurred. |
+|OSC_E_PERMISSION_DENIED  <br/> |0x80041403  <br/> |The OSC provider denied permission for the resource. |
+|OSC_E_SERVER_VERSION_NOT_SUPPORTED  <br/> |0x80041406  <br/> |The version of the server to configure the social network account is not supported. |
+|OSC_E_VERSION  <br/> |0x80041401  <br/> |The provider does not support this version of OSC provider extensibility. |
    
 ## Remarks
 

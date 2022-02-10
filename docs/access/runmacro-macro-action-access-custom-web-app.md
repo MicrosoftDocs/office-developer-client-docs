@@ -25,7 +25,7 @@ The **RunMacro** action has the following arguments.
   
 |**Action argument**|**Description**|
 |:-----|:-----|
-|**Macro Name** <br/> |The name of the UI macro to run.  <br/> |
+|**Macro Name** <br/> |The name of the UI macro to run. |
    
 ## Remarks
 

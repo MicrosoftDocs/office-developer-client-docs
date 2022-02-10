@@ -26,9 +26,9 @@ HSL(** *hue* **, ** *saturation* **, ** *luminosity* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _hue_ <br/> |Required  <br/> |**Number** <br/> |The color's hue, expressed as a number in the range 0 to 239, inclusive, or an expression that evaluates to such a number.  <br/> |
-| _saturation_ <br/> |Required  <br/> |**Number** <br/> |The color's saturation, expressed as a number in the range 0 to 240, inclusive, or an expression that evaluates to such a number.  <br/> |
-| _luminosity_ <br/> |Required  <br/> |**Number** <br/> | The color's luminosity, expressed as a number in the range 0 to 240, inclusive, or an expression that evaluates to such a number.  <br/> |
+| _hue_ <br/> |Required  <br/> |**Number** <br/> |The color's hue, expressed as a number in the range 0 to 239, inclusive, or an expression that evaluates to such a number. |
+| _saturation_ <br/> |Required  <br/> |**Number** <br/> |The color's saturation, expressed as a number in the range 0 to 240, inclusive, or an expression that evaluates to such a number. |
+| _luminosity_ <br/> |Required  <br/> |**Number** <br/> | The color's luminosity, expressed as a number in the range 0 to 240, inclusive, or an expression that evaluates to such a number. |
    
 ### Return value
 

@@ -69,10 +69,10 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|F  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type.  <br/> |
-|U  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
-|V  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type.  <br/> |
+|E  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|F  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|N  <br/> |xsd:string  <br/> |required  <br/> ||Values of the xsd:string type. |
+|U  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
+|V  <br/> |xsd:string  <br/> |optional  <br/> ||Values of the xsd:string type. |
    
 

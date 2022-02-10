@@ -22,15 +22,15 @@ Hyperlink rows are named Hyperlink. *name*  and contain the following cells. For
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[Description](description-cell-hyperlinks-section.md) <br/> |A descriptive text string for a hyperlink.  <br/> |
-|[Address](address-cell-hyperlinks-section.md) <br/> |A URL address, MS-DOS file name, or UNC path to which to jump.  <br/> |
-|[SubAddress](subaddress-cell-hyperlinks-section.md) <br/> |A location within the target document to link to.  <br/> |
-|[ExtraInfo](extrainfo-cell-hyperlinks-section.md) <br/> |A string that passes information to be used in resolving a URL.  <br/> |
-|[Frame](frame-cell-hyperlinks-section.md) <br/> |The name of a frame to target when Microsoft Office Visio is open as an Active document in an ActiveX container. The default is an empty string.  <br/> |
-|[SortKey](sortkey-cell-hyperlinks-section.md) <br/> |Determines the order of hyperlinks as they appear on the shortcut menu.  <br/> |
-|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |Specifies whether to open the hyperlink in a new window. If TRUE, opens the linked page, document, or website in a new window. The default is FALSE.  <br/> |
-|[Default](default-cell-hyperlinks-section.md) <br/> |The default hyperlink for a shape or page.  <br/> |
-|[Invisible](invisible-cell-hyperlinks-section.md) <br/> |Indicates whether the hyperlink appears on the shortcut menu.  <br/> |
+|[Description](description-cell-hyperlinks-section.md) <br/> |A descriptive text string for a hyperlink. |
+|[Address](address-cell-hyperlinks-section.md) <br/> |A URL address, MS-DOS file name, or UNC path to which to jump. |
+|[SubAddress](subaddress-cell-hyperlinks-section.md) <br/> |A location within the target document to link to. |
+|[ExtraInfo](extrainfo-cell-hyperlinks-section.md) <br/> |A string that passes information to be used in resolving a URL. |
+|[Frame](frame-cell-hyperlinks-section.md) <br/> |The name of a frame to target when Microsoft Office Visio is open as an Active document in an ActiveX container. The default is an empty string. |
+|[SortKey](sortkey-cell-hyperlinks-section.md) <br/> |Determines the order of hyperlinks as they appear on the shortcut menu. |
+|[NewWindow](newwindow-cell-hyperlinks-section.md) <br/> |Specifies whether to open the hyperlink in a new window. If TRUE, opens the linked page, document, or website in a new window. The default is FALSE. |
+|[Default](default-cell-hyperlinks-section.md) <br/> |The default hyperlink for a shape or page. |
+|[Invisible](invisible-cell-hyperlinks-section.md) <br/> |Indicates whether the hyperlink appears on the shortcut menu. |
    
 ## Remarks
 

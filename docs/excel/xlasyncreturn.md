@@ -11,7 +11,7 @@ ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
 
 # xlAsyncReturn
 
-**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Used to return the result of an asynchronous user-defined function (UDF).
   
@@ -37,7 +37,7 @@ If successful, returns **TRUE** (**xltypeBool**). If unsuccessful, returns **FAL
 
 **xlAsyncReturn** is the only callback Excel allows on non-calculation threads during recalculation. The asynchronous portion of an asynchronous UDF must not perform any callbacks other than **xlAsyncReturn**. The XLL must free memory allocated to hold the return value.
   
-The _pxAsyncHandle_ and  _pxFunctionResult_ parameters can also be of type **xltypeMulti** when used to return an array of handles and corresponding values in a single callback. When using a single callback, pass an LPXLOPER12 that points to XLOPER12 structures that contain one dimensional arrays that contain the asynchronous handles and return values. These arrays must be in the same order for Excel to correctly match an asynchronous handle with its corresponding value. 
+The _pxAsyncHandle_ and _pxFunctionResult_ parameters can also be of type **xltypeMulti** when used to return an array of handles and corresponding values in a single callback. When using a single callback, pass an LPXLOPER12 that points to XLOPER12 structures that contain one dimensional arrays that contain the asynchronous handles and return values. These arrays must be in the same order for Excel to correctly match an asynchronous handle with its corresponding value.
   
 The following example shows how you can make a batch call using **xlAsyncReturn**.
   
@@ -71,4 +71,3 @@ int batchSize = 10;
 ## See also
 
 - [Asynchronous User-Defined Functions](asynchronous-user-defined-functions.md)
-

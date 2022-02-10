@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[AuthorList](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |Specifies the authors in a drawing.  <br/> |
+|[AuthorList](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |Specifies the authors in a drawing. |
    
 ### Child elements
 
@@ -50,9 +50,9 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A one-based value that identifies the author.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Initials  <br/> |xsd:string  <br/> |optional  <br/> |The initials of the author.  <br/> |Values of the xsd:string type.  <br/> |
-|Name  <br/> |xsd:string  <br/> |optional  <br/> |The name of the author.  <br/> |Values of the xsd:string type.  <br/> |
-|ResolutionID  <br/> |xsd:string  <br/> |optional  <br/> |A unique identifier for the author.  <br/> |Values of the xsd:string type.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A one-based value that identifies the author. |Values of the xsd:unsignedInt type. |
+|Initials  <br/> |xsd:string  <br/> |optional  <br/> |The initials of the author. |Values of the xsd:string type. |
+|Name  <br/> |xsd:string  <br/> |optional  <br/> |The name of the author. |Values of the xsd:string type. |
+|ResolutionID  <br/> |xsd:string  <br/> |optional  <br/> |A unique identifier for the author. |Values of the xsd:string type. |
    
 

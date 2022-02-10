@@ -38,11 +38,11 @@ Manages high-level operations on container objects such as address books, distri
 
 |||
 |:-----|:-----|
-|[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Returns a pointer to the container's contents table.  <br/> |
-|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Returns a pointer to the container's hierarchy table.  <br/> |
-|[OpenEntry](imapicontainer-openentry.md) <br/> |Opens an object in the container, returning an interface pointer for further access.  <br/> |
-|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Establishes search criteria for the container.  <br/> |
-|[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtains the search criteria for the container.  <br/> |
+|[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Returns a pointer to the container's contents table. |
+|[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Returns a pointer to the container's hierarchy table. |
+|[OpenEntry](imapicontainer-openentry.md) <br/> |Opens an object in the container, returning an interface pointer for further access. |
+|[SetSearchCriteria](imapicontainer-setsearchcriteria.md) <br/> |Establishes search criteria for the container. |
+|[GetSearchCriteria](imapicontainer-getsearchcriteria.md) <br/> |Obtains the search criteria for the container. |
    
 |**Required properties**|**Access**|
 |:-----|:-----|

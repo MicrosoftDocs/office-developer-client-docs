@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Specifies a primary key of a recordset.  <br/> |
+|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Specifies a primary key of a recordset. |
    
 ### Child elements
 
@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|RowID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A unique value that identifies a row of a recordset.  <br/> |Values of the xsd:unsignedInt type.  <br/> |
-|Value  <br/> |xsd:string  <br/> |required  <br/> |The value of the primary key for this row of the recordset.  <br/> |Values of the xsd:string type.  <br/> |
+|RowID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A unique value that identifies a row of a recordset. |Values of the xsd:unsignedInt type. |
+|Value  <br/> |xsd:string  <br/> |required  <br/> |The value of the primary key for this row of the recordset. |Values of the xsd:string type. |
    
 

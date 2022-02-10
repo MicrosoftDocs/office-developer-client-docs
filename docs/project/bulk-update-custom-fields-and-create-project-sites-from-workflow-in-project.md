@@ -14,8 +14,8 @@ To help customers get the most out of Project Online and improve our service ext
   
 |||
 |:-----|:-----|
-|**UpdateCustomFields** <br/> |Bulk updates project custom fields. For Project Online only. Available only in the REST API.  <br/> |
-|**CreateProjectSite** <br/> | Creates a Project site. For Project Online only. Available in the REST API, managed client object model, and JavaScript client object model.  <br/> |
+|**UpdateCustomFields** <br/> |Bulk updates project custom fields. For Project Online only. Available only in the REST API. |
+|**CreateProjectSite** <br/> | Creates a Project site. For Project Online only. Available in the REST API, managed client object model, and JavaScript client object model. |
    
 In addition to providing more flexibility, these methods also offer significant performance improvements when saving and publishing projects in a workflow. This article describes how to use the methods in the REST API and provides instructions for creating a workflow that bulk updates custom fields and a workflow that creates a Project site.
   

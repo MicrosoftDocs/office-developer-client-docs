@@ -26,7 +26,7 @@ SQRT(** *number* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The number whose square root you want to find.  <br/> |
+| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The number whose square root you want to find. |
    
 ### Return value
 

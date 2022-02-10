@@ -24,10 +24,10 @@ The following table summarizes the differences between publishing sandboxed and 
   
 ||**Sandboxed Solutions**|**Administrator-approved Solutions**|
 |:-----|:-----|:-----|
-|**Permissions Required** <br/> |Can be published by any site collection administrator.  <br/> |Can be deployed by a farm administrator.  <br/> |
-|**Publishing** <br/> |Can be published directly from InfoPath.  <br/> |Can be deployed using Central Administration or the stsadm command-line tool.  <br/> |
-|**Protection** <br/> |Code is run in a sandboxed environment. This helps protect the server from malicious code.  <br/> |Code can run with full trust and access any resource on the server.  <br/> |
-|**Recommended Use** <br/> |Forms that only require a small amount of code.  <br/> |Forms that contain many lines of code.  <br/> |
+|**Permissions Required** <br/> |Can be published by any site collection administrator. |Can be deployed by a farm administrator. |
+|**Publishing** <br/> |Can be published directly from InfoPath. |Can be deployed using Central Administration or the stsadm command-line tool. |
+|**Protection** <br/> |Code is run in a sandboxed environment. This helps protect the server from malicious code. |Code can run with full trust and access any resource on the server. |
+|**Recommended Use** <br/> |Forms that only require a small amount of code. |Forms that contain many lines of code. |
    
 ### Publishing Form Templates as Sandboxed Solutions
 

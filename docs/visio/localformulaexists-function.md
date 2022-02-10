@@ -26,7 +26,7 @@ LOCALFORMULAEXISTS (** *cellref* ** )
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Required  <br/> |**String** <br/> | The cell that you want to check for the presence of a formula.  <br/> |
+| _cellref_ <br/> |Required  <br/> |**String** <br/> | The cell that you want to check for the presence of a formula. |
    
 ### Return value
 

@@ -20,8 +20,8 @@ Determines whether markup appears in the drawing window.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Markup is displayed on the drawing.  <br/> |
-|FALSE  <br/> |Markup is not displayed (the default).  <br/> |
+|TRUE  <br/> |Markup is displayed on the drawing. |
+|FALSE  <br/> |Markup is not displayed (the default). |
    
 ## Remarks
 

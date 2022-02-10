@@ -38,12 +38,12 @@ The value of the **dispidABPArrayType** property must be a combination of flags 
   
 |**Bit**|**Description**|
 |:-----|:-----|
-|0x00000001  <br/> |Email1 is defined for the contact.  <br/> |
-|0x00000002  <br/> |Email2 is defined for the contact.  <br/> |
-|0x00000004  <br/> |Email3 is defined for the contact.  <br/> |
-|0x00000008  <br/> |Business fax is defined for the contact.  <br/> |
-|0x00000010  <br/> |Home fax is defined for the contact.  <br/> |
-|0x00000020  <br/> |Primary fax is defined for the contact.  <br/> |
+|0x00000001  <br/> |Email1 is defined for the contact. |
+|0x00000002  <br/> |Email2 is defined for the contact. |
+|0x00000004  <br/> |Email3 is defined for the contact. |
+|0x00000008  <br/> |Business fax is defined for the contact. |
+|0x00000010  <br/> |Home fax is defined for the contact. |
+|0x00000020  <br/> |Primary fax is defined for the contact. |
    
 ## Related resources
 

@@ -21,8 +21,8 @@ Determines whether the range of text has a double underline below it.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Text has a double underline below it.  <br/> |
-|FALSE  <br/> |Text does not have a double underline below it.  <br/> |
+|TRUE  <br/> |Text has a double underline below it. |
+|FALSE  <br/> |Text does not have a double underline below it. |
    
 ## Remarks
 
@@ -34,14 +34,14 @@ To get a reference to the DoubleULine cell by name from another formula, or from
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Char.DblUnderline[ *i*  ]           where  *i*  = <1>, 2, 3...  <br/> |
+|Cell name:  <br/> |Char.DblUnderline[ *i*  ]           where  *i*  = <1>, 2, 3... |
    
 To get a reference to the DoubleULine cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionCharacter** <br/> |
-|Row index:  <br/> |**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visCharacterDblUnderline** <br/> |
    
 

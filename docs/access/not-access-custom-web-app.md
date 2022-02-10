@@ -27,7 +27,7 @@ The **Not** operator contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *BooleanExpression*  <br/> |A valid Boolean expression.  <br/> |
+| *BooleanExpression*  <br/> |A valid Boolean expression. |
    
 ## Remarks
 

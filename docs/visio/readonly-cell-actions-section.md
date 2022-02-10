@@ -23,8 +23,8 @@ Controls whether the action on an action tag or shortcut menu is read-only.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |The action appears on the menu but is read-only.  <br/> |
-|FALSE  <br/> |The action appears on the menu and can be selected (the default).  <br/> |
+|TRUE  <br/> |The action appears on the menu but is read-only. |
+|FALSE  <br/> |The action appears on the menu and can be selected (the default). |
    
 ## Remarks
 
@@ -41,7 +41,7 @@ To get a reference to the ReadOnly cell by index from a program, use the **Cells
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*  where  *i*  = 0, 1, 2...  <br/> |
+|Row index:  <br/> |**visRowAction** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visActionReadOnly** <br/> |
    
 

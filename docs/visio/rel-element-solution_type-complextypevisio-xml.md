@@ -40,7 +40,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Specifies one instance of solution XML stored in the drawing.  <br/> |
+|[Solution](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Specifies one instance of solution XML stored in the drawing. |
    
 ### Child elements
 
@@ -50,7 +50,7 @@ None.
 
 |**Attribute**|**Type**|**Required**|**Description**|**Possible values**|
 |:-----|:-----|:-----|:-----|:-----|
-|r:id  <br/> |xsd:string  <br/> See Remarks.  <br/> |required  <br/> |Specifies a relationship to a part.  <br/> |"rId#"  <br/> See Remarks.  <br/> |
+|r:id  <br/> |xsd:string  <br/> See Remarks. |required  <br/> |Specifies a relationship to a part. |"rId#"  <br/> See Remarks. |
    
 ## Remarks
 

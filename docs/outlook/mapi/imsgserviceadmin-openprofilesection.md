@@ -97,7 +97,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI uses the **IMsgServiceAdmin::OpenProfileSection** method to open a profile section.  <br/> |
+|MAPIProfileFunctions.cpp  <br/> |OpenProfileSection  <br/> |MFCMAPI uses the **IMsgServiceAdmin::OpenProfileSection** method to open a profile section. |
    
 ## See also
 

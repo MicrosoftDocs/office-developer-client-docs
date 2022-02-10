@@ -20,8 +20,8 @@ Determines whether to enlarge the page to enclose the drawing after laying out s
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Enlarge the page.  <br/> |
-| FALSE  <br/> | Do not enlarge the page.  <br/> |
+| TRUE  <br/> | Enlarge the page. |
+| FALSE  <br/> | Do not enlarge the page. |
    
 ## Remarks
 

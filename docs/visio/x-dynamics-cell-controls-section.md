@@ -27,14 +27,14 @@ To get a reference to the X Dynamics cell by name from another formula, or from 
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Controls.  *name*  .XDynwhere Controls.  *name*  is the name of the controls row.  <br/> |
+| Cell name:  <br/> | Controls.  *name*  .XDynwhere Controls.  *name*  is the name of the controls row. |
    
 To get a reference to the X Dynamics cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionControls** <br/> |
-| Row index:  <br/> |**visRowControl** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowControl** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visCtlXDyn** <br/> |
    
 

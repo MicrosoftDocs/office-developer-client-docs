@@ -110,7 +110,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI uses the **IMAPITable::SetColumns** method to set the desired columns for the table.  <br/> |
+|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::DoSetColumns  <br/> |MFCMAPI uses the **IMAPITable::SetColumns** method to set the desired columns for the table. |
    
 ## See also
 

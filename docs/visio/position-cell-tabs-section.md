@@ -25,14 +25,14 @@ To get a reference to the Position cell by name from another formula, or from a 
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Tabs.  *ij*            where  *i*  and  *j*  = <1>, 2, 3...  <br/> |
+| Cell name:  <br/> | Tabs.  *ij*            where  *i*  and  *j*  = <1>, 2, 3... |
    
 To get a reference to the Position cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionTab** <br/> |
-| Row index:  <br/> |**visRowTab** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowTab** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> | (*j*  *3) + **visTabPos** <br/> |
    
 

@@ -22,19 +22,19 @@ Service providers implement many objects. Some are used primarily by MAPI and so
   
 |**Service provider object**|**Description**|
 |:-----|:-----|
-|Address book container  <br/> |Contains recipient information for one address book provider in the active profile; address book providers can have one or more address book containers.  <br/> |
-|Attachment  <br/> |Contains additional data, such as a file or OLE object, to be associated with a message.  <br/> |
-|Control  <br/> |Enables or disables a button and initiates processing when the button is clicked.  <br/> |
-|Distribution list  <br/> |Describes a grouping of individual message recipients.  <br/> |
-|Folder  <br/> |Contains messages and other message containers.  <br/> |
-|Logon  <br/> |Handles service provider event notification and client requests.  <br/> |
-|Messaging user  <br/> |Describes an individual recipient of a message.  <br/> |
-|Message  <br/> |Contains information that can be sent to one or more recipients.  <br/> |
-|Message store  <br/> |Acts as a hierarchically organized database of messages.  <br/> |
-|Provider  <br/> |Handles service provider startup and shutdown.  <br/> |
-|Spooler hook  <br/> |Performs special processing on inbound and outbound messages.  <br/> |
-|Status  <br/> |Provides access to the service provider's state.  <br/> |
-|Table  <br/> |Provides access to a summary view of object data in row and column format, similar to a database table.  <br/> |
+|Address book container  <br/> |Contains recipient information for one address book provider in the active profile; address book providers can have one or more address book containers. |
+|Attachment  <br/> |Contains additional data, such as a file or OLE object, to be associated with a message. |
+|Control  <br/> |Enables or disables a button and initiates processing when the button is clicked. |
+|Distribution list  <br/> |Describes a grouping of individual message recipients. |
+|Folder  <br/> |Contains messages and other message containers. |
+|Logon  <br/> |Handles service provider event notification and client requests. |
+|Messaging user  <br/> |Describes an individual recipient of a message. |
+|Message  <br/> |Contains information that can be sent to one or more recipients. |
+|Message store  <br/> |Acts as a hierarchically organized database of messages. |
+|Provider  <br/> |Handles service provider startup and shutdown. |
+|Spooler hook  <br/> |Performs special processing on inbound and outbound messages. |
+|Status  <br/> |Provides access to the service provider's state. |
+|Table  <br/> |Provides access to a summary view of object data in row and column format, similar to a database table. |
    
 All service providers implement a provider object and a logon object. Provider objects are strictly for bookkeeping; they are used by MAPI to control the startup and shutdown processes. Logon objects service some client requests indirectly. For example, the message store provider's logon object handles notification registration and requests to open message store objects. 
   

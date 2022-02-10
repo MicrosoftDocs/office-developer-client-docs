@@ -20,8 +20,8 @@ Prevents a shape from being selected.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | Shape cannot be selected.  <br/> |
-| FALSE  <br/> | Shape can be selected.  <br/> |
+| TRUE  <br/> | Shape cannot be selected. |
+| FALSE  <br/> | Shape can be selected. |
    
 ## Remarks
 

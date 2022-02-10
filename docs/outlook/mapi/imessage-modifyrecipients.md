@@ -106,7 +106,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI uses the **IMessage::ModifyRecipients** method to add a new recipient to a message.  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |MFCMAPI uses the **IMessage::ModifyRecipients** method to add a new recipient to a message. |
    
 ## See also
 

@@ -166,7 +166,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MAPIObjects.cpp  <br/> |CMapiObjects::MAPILogonEx  <br/> |MFCMAPI uses the MAPILogonEx method to log on to MAPI.  <br/> |
+|MAPIObjects.cpp  <br/> |CMapiObjects::MAPILogonEx  <br/> |MFCMAPI uses the MAPILogonEx method to log on to MAPI. |
    
 ## See also
 

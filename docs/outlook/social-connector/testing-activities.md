@@ -36,8 +36,8 @@ To verify that you are getting appropriate activities for friends and non-friend
   
 |**Scenario**|**Expected behavior**|
 |:-----|:-----|
-|Person selected in the People Pane is a friend with the logged-on user on the social network.  <br/> |The People Pane displays that person's profile and profile picture as posted on the social network.  <br/> |
-|Person selected in the People Pane is a non-friend of the logged-on user on the social network, but has allowed his or her profile to be viewed by non-friends.  <br/> |The People Pane displays that person's profile and profile picture as posted on the social network.  <br/> |
+|Person selected in the People Pane is a friend with the logged-on user on the social network. |The People Pane displays that person's profile and profile picture as posted on the social network. |
+|Person selected in the People Pane is a non-friend of the logged-on user on the social network, but has allowed his or her profile to be viewed by non-friends. |The People Pane displays that person's profile and profile picture as posted on the social network. |
    
 ## See also
 

@@ -24,8 +24,8 @@ Indicates whether an item is checked on the shortcut or action tag menu.
   
 |**Value**|**Description**|
 |:-----|:-----|
-|TRUE  <br/> |Check mark is displayed.  <br/> |
-|FALSE  <br/> |Check mark is not displayed (the default).  <br/> |
+|TRUE  <br/> |Check mark is displayed. |
+|FALSE  <br/> |Check mark is not displayed (the default). |
    
 ## Remarks
 
@@ -40,7 +40,7 @@ To get a reference to the Checked cell by index from a program, use the **CellsS
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2, ...  <br/> |
+|Row index:  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2, ... |
 |Cell index:  <br/> |**visActionChecked** <br/> |
    
 

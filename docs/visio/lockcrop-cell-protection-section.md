@@ -21,7 +21,7 @@ Locks an object from another program against being cropped with the **Crop** too
 |**Value**|**Description**|
 |:-----|:-----|
 | TRUE  <br/> | Shape cannot be cropped  <br/> |
-| FALSE  <br/> | Shape can be cropped.  <br/> |
+| FALSE  <br/> | Shape can be cropped. |
    
 ## Remarks
 

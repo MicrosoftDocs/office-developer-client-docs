@@ -24,8 +24,8 @@ Indicates whether the action tag appears in the drawing window.
   
 |**Value**|**Description**|
 |:-----|:-----|
-| TRUE  <br/> | The action tag is disabled.  <br/> |
-| FALSE  <br/> | The action tag is enabled (the default).  <br/> |
+| TRUE  <br/> | The action tag is disabled. |
+| FALSE  <br/> | The action tag is enabled (the default). |
    
 ## Remarks
 
@@ -42,7 +42,7 @@ To get a reference to the Disabled cell by index from a program, use the **Cells
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...  <br/> |
+| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
 | Cell index:  <br/> |**visSmartTagDisabled** <br/> |
    
 
