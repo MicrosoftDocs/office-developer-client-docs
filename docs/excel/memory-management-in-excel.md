@@ -1,7 +1,7 @@
 ---
 title: "Memory Management in Excel" 
 manager: lindalu
-ms.date: 02.09/2022
+ms.date: 02/09/2022
 ms.audience: Developer
 ms.topic: overview
 keywords:
