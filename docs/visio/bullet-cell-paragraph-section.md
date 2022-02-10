@@ -38,6 +38,7 @@ To get a reference to the BulletString cell by name from another formula, or fro
 |Cell name: |Para.Bullet[ *i*  ] where *i*  = <1>, 2, 3, ... |
 
 To get a reference to the Bullet cell by index from a program, use the **CellsSRC** property with the following arguments: 
+
 |||
 |:-----|:-----|
 |Section index: |**visSectionParagraph** |
