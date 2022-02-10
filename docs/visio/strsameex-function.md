@@ -20,7 +20,7 @@ Determines whether two strings are the same.
   
 ## Syntax
 
-STRSAMEEX (" ** *string1* ** ", " ** *string2* ** ", ** *localeID* **, ** *flag* ** ) 
+STRSAMEEX (" ***string1*** ", " ***string2*** ", ***localeID***, ***flag*** ) 
   
 ### Parameters
 
