@@ -21,9 +21,9 @@ Adds standard interpersonal message (IPM) folders to a message store.
   
 |||
 |:-----|:-----|
-|Header file:  <br/> |Mapiutil.h  <br/> |
-|Implemented by:  <br/> |MAPI  <br/> |
-|Called by:  <br/> |Client applications  <br/> |
+|Header file: |Mapiutil.h |
+|Implemented by: |MAPI |
+|Called by: |Client applications |
    
 ```cpp
 HrValidateIPMSubtree(
@@ -53,23 +53,16 @@ MAPI_FULL_IPM_TREE
   
 > The full set of IPM folders should be created in the message store's root folder. The folder titles in the hierarchy are:
     
-    - Folder Views
+ - Folder Views
+ - Common Views
+ - Search Root\*
+ - IPM Subtree\*
+ - Inbox
+ - Outbox
+ - Deleted Items\*
+ - Sent Items
     
-    - Common Views
-    
-    - Search Root\*
-    
-    - IPM Subtree\*
-    
-    - Inbox
-    
-    - Outbox
-    
-    - Deleted Items\*
-    
-    - Sent Items
-    
-    where the three folders marked with \* are the minimum set created even when the MAPI_FULL_IPM_TREE flag has not been set. A client application typically sets this flag when the message store in which the folders are to be created is the default store.
+where the three folders marked with \* are the minimum set created even when the MAPI_FULL_IPM_TREE flag has not been set. A client application typically sets this flag when the message store in which the folders are to be created is the default store.
     
  _lpcValues_
   
@@ -119,7 +112,7 @@ For MFCMAPI sample code, see the following table.
   
 |**File**|**Function**|**Comment**|
 |:-----|:-----|:-----|
-|MstStoreDlg.cpp  <br/> |CMsgStoreDlg::OnValidateIPMSubtree  <br/> |MFCMAPI uses the **HrValidateIPMSubtree** method to add standard folders to a message store. |
+|MstStoreDlg.cpp |CMsgStoreDlg::OnValidateIPMSubtree |MFCMAPI uses the **HrValidateIPMSubtree** method to add standard folders to a message store. |
    
 ## See also
 
