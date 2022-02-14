@@ -20,7 +20,7 @@ Returns an integer, 0 to 59, that represents the seconds component of  _datetime
   
 ## Syntax
 
-SECOND(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+SECOND(" ***datetime*** "| ***expression*** [, ***lcid*** ]) 
   
 ### Parameters
 
