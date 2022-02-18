@@ -33,7 +33,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[MentionsList](mentionslist-element-moderncommententry_Type-complextypevisio-xml.md) <br/> |[MentionsList_Type](mentionslist_type-complextypevisio-xml.md) <br/> |Specifies the list of mentions in a comment in a drawing. |
+|[MentionsList](mentionslist-element-moderncommententry_type-complextypevisio-xml.md) <br/> |[MentionsList_Type](mentionslist_type-complextypevisio-xml.md) <br/> |Specifies the list of mentions in a comment in a drawing. |
    
 ### Child elements
 

@@ -35,7 +35,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[PersonsList](personslist-element-persons_Type-complextypevisio-xml.md) <br/> |[PersonsList_Type](personslist_type-complextypevisio-xml.md) <br/> |Specifies properties used to identify the mentioned persons in the comments in a drawing.|
+|[PersonsList](personslist-element-persons_type-complextypevisio-xml.md) <br/> |[PersonsList_Type](personslist_type-complextypevisio-xml.md) <br/> |Specifies properties used to identify the mentioned persons in the comments in a drawing.|
    
 ### Attributes
 
