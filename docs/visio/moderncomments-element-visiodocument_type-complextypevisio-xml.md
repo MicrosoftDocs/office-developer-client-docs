@@ -14,7 +14,7 @@ Specifies properties used to identify the parent comments and mentions present i
 
 |||
 |:-----|:-----|
-|**Element type** <br/> |[ModernComments_Type](modernComments_type-complextypevisio-xml.md) <br/> |
+|**Element type** <br/> |[ModernComments_Type](moderncomments_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |moderncomments.xml  <br/> |
@@ -39,7 +39,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[ModernCommentsList](moderncommentslist-element-modernComments_type-complextypevisio-xml.md) <br/> |[ModernCommentsList_Type](moderncommentslist_type-complextypevisio-xml.md) <br/> |Specifies properties used to identify parent comment and list of mentions in all the comments in a drawing.  |
+|[ModernCommentsList](moderncommentslist-element-moderncomments_type-complextypevisio-xml.md) <br/> |[ModernCommentsList_Type](moderncommentslist_type-complextypevisio-xml.md) <br/> |Specifies properties used to identify parent comment and list of mentions in all the comments in a drawing.  |
    
 ### Attributes
 
