@@ -33,13 +33,13 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[ModernCommentsList](moderncommentslist-element-modernComments_Type-complextypevisio-xml.md) <br/> |[ModernCommentsList_Type](moderncommentslist_type-complextypevisio-xml.md) <br/> |Specifies properties used to identify parent comment and list of mentions in all the comments in a drawing. |
+|[ModernCommentsList](moderncommentslist-element-modernComments_type-complextypevisio-xml.md) <br/> |[ModernCommentsList_Type](moderncommentslist_type-complextypevisio-xml.md) <br/> |Specifies properties used to identify parent comment and list of mentions in all the comments in a drawing. |
    
 ### Child elements
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[MentionsList](mentionslist-element-moderncommententry_Type-complextypevisio-xml.md) <br/> |[MentionsList_Type](mentionslist_type-complextypevisio-xml.md) <br/> |Specifies the list of mentions in a comment in a drawing. |
+|[MentionsList](mentionslist-element-moderncommententry_type-complextypevisio-xml.md) <br/> |[MentionsList_Type](mentionslist_type-complextypevisio-xml.md) <br/> |Specifies the list of mentions in a comment in a drawing. |
   
 ### Attributes
 
@@ -47,5 +47,4 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 |:-----|:-----|:-----|:-----|:-----|
 |CommentID  <br/> |xsd:unsignedInt  <br/> |required  <br/> |A unique value that identifies the comment in the drawing. |Values of the xsd:unsignedInt type. |
 |ParentID  <br/> |xsd:unsignedInt  <br/> |optional  <br/> |A unique value that identifies the parent comment in the drawing. |Values of the xsd:unsignedInt type. |
-   
 

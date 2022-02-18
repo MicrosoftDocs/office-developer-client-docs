@@ -14,7 +14,7 @@ Specifies properties used to identify the mentioned persons in the comments in a
 
 |||
 |:-----|:-----|
-|**Element type** <br/> |[Persons_Type](persons_Type-complextypevisio-xml.md) <br/> |
+|**Element type** <br/> |[Persons_Type](persons_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |persons.xml  <br/> |
@@ -39,7 +39,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[PersonsList](personslist-element-persons_Type-complextypevisio-xml.md) <br/> |[PersonsList_Type](personslist_type-complextypevisio-xml.md) <br/> |Specifies the list of persons mentioned in the comments in a drawing. |
+|[PersonsList](personslist-element-persons_type-complextypevisio-xml.md) <br/> |[PersonsList_Type](personslist_type-complextypevisio-xml.md) <br/> |Specifies the list of persons mentioned in the comments in a drawing. |
    
 ### Attributes
 
