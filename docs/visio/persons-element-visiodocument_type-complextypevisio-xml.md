@@ -6,7 +6,7 @@ ms.date: 18/02/2022
 description: "Specifies properties used to identify the mentioned persons in the comments in a drawing"
 ---
 
-# Persons element (Persons_Type complexType) (Visio XML)
+# Persons element (VisioDocument_Type complexType) (Visio XML)
 
 Specifies properties used to identify the mentioned persons in the comments in a drawing
   

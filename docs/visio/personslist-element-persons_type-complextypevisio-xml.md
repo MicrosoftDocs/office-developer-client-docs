@@ -1,12 +1,12 @@
 ---
-title: "PersonsList element (PersonEntry_Type complexType) (Visio XML)"
+title: "PersonsList element (Persons_Type complexType) (Visio XML)"
  
  
 ms.date: 18/02/2022
 description: "Specifies the list of persons mentioned in the comments in a drawing."
 ---
 
-# CommentList element (Comments_Type complexType) (Visio XML)
+# PersonsList element (Persons_Type complexType) (Visio XML)
 
 Specifies the list of persons mentioned in the comments in a drawing.
   
@@ -14,7 +14,7 @@ Specifies the list of persons mentioned in the comments in a drawing.
 
 |||
 |:-----|:-----|
-|**Element type** <br/> |[MentionsList_Type](personslist_type-complextypevisio-xml.md) <br/> |
+|**Element type** <br/> |[PersonsList_Type](personslist_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Schema file** <br/> |VisioSchema15.xsd  <br/> |
 |**Document parts** <br/> |persons.xml  <br/> |
@@ -39,7 +39,7 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 
 |**Element**|**Type**|**Description**|
 |:-----|:-----|:-----|
-|[PersonEntry](personentry-element-personslist_type-complextypevisio-xml.md) <br/> |[MentionEntry_Type](personentry_type-complextypevisio-xml.md) <br/> ||
+|[PersonEntry](personentry-element-personslist_type-complextypevisio-xml.md) <br/> |[PersonEntry_Type](personentry_type-complextypevisio-xml.md) <br/> ||
    
 ### Attributes
 

@@ -6,7 +6,7 @@ ms.date: 18/02/2022
 description: "Specifies the list of mentions in a comment in a drawing."
 ---
 
-# CommentList element (Comments_Type complexType) (Visio XML)
+# MentionsList element (ModernCommentEntry_Type complexType) (Visio XML)
 
 Specifies the list of mentions in a comment in a drawing.
   
