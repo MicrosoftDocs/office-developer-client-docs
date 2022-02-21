@@ -2,7 +2,7 @@
 title: "PersonsList element (Persons_Type complexType) (Visio XML)"
  
  
-ms.date: 18/02/2022
+ms.date: 02/18/2022
 description: "Specifies the list of persons mentioned in the comments in a drawing."
 ---
 

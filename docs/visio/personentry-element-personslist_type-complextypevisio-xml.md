@@ -2,7 +2,7 @@
 title: "PersonEntry element (PersonsList_Type complexType) (Visio XML)"
  
  
-ms.date: 18/02/2022
+ms.date: 02/18/2022
 description: "Specifies properties used to identify a mentioned person in comments in a drawing."
 ---
 

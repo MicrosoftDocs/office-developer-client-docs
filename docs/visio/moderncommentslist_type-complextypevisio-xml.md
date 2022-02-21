@@ -2,7 +2,7 @@
 title: "ModernCommentsList_Type complexType (Visio XML)"
  
 
-ms.date: 18/02/2022
+ms.date: 02/18/2022
 ---
 
 # ModernCommentsList_Type complexType (Visio XML)

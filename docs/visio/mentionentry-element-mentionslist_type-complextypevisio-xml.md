@@ -2,7 +2,7 @@
 title: "MentionEntry element (MentionsList_Type complexType) (Visio XML)"
  
  
-ms.date: 18/02/2022
+ms.date: 02/18/2022
 description: "Specifies properties used to identify a mention in a comment in a drawing."
 ---
 
