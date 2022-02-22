@@ -20,7 +20,7 @@ Returns an integer from 1 to 12 that represents a month.
   
 ## Syntax
 
-MONTH(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+MONTH(" ***datetime*** "| ***expression*** [, ***lcid*** ]) 
   
 ### Parameters
 
