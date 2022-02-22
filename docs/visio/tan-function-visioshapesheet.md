@@ -1,7 +1,5 @@
 ---
 title: "TAN Function (VisioShapeSheet)"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,26 +18,25 @@ Returns the tangent of an angle.
   
 ## Syntax
 
-TAN(** *angle* ** ) 
+TAN(***angle*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the tangent. |
-   
+| *angle* <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the tangent. |
+
 ### Return value
 
 Numeric
   
 ## Remarks
 
-The TAN function uses radians unless you specify a different unit of measure in  *angle*  . 
+The TAN function uses radians unless you specify a different unit of measure in *angle*.
   
 ## Example
 
-TAN(45 deg) 
+TAN(45 deg)
   
-Returns 1. 
+Returns 1.
   
-

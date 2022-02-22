@@ -38,17 +38,17 @@ _ftmStart_
     
 _ftmEnd_
   
-> [in] The end time for the enumeration. It is expressed in **FILETIME**. 
-    
+> [in] The end time for the enumeration. It is expressed in **FILETIME**.
+
 ## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   
 ## Remarks
 
-This method is used to indicate the time range of calendar items for which to retrieve details. The values of  *ftmStart* and *ftmEnd* are cached and returned in a subsequent call of [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+This method is used to indicate the time range of calendar items for which to retrieve details. The values of *ftmStart* and *ftmEnd* are cached and returned in a subsequent call of [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
-A free/busy provider can also subsequently use the returned [IEnumFBBlock](ienumfbblock.md) interface to access the enumeration. 
+A free/busy provider can also subsequently use the returned [IEnumFBBlock](ienumfbblock.md) interface to access the enumeration.
   
 ## See also
 
@@ -56,4 +56,3 @@ A free/busy provider can also subsequently use the returned [IEnumFBBlock](ienum
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)
 - [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
-

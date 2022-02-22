@@ -32,13 +32,13 @@ _pclsidType_
   
 > [out] The class identifier for the account type. The value must be one of the following:
     
-   - CLSID_OlkPOP3Account 
+   - CLSID_OlkPOP3Account
     
-   - CLSID_OlkIMAP4Account 
+   - CLSID_OlkIMAP4Account
     
-   - CLSID_OlkMAPIAccount 
+   - CLSID_OlkMAPIAccount
     
-   - CLSID_OlkHotmailAccount 
+   - CLSID_OlkHotmailAccount
     
    - CLSID_OlkLDAPAccount
     
@@ -62,12 +62,11 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## Remarks
 
-After this method returns, you must free  *prgclsidCategory*  by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+After this method returns, you must free *prgclsidCategory* by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
-**IOlkAccount::GetAccountInfo** does not support the address book category for an Exchange account. If the account is an Exchange account (*pclsidType*  is **CLSID_OlkMAPIAccount** ), and the account implements the address book, calling **IOlkAccount::GetAccountInfo** will not return **CLSID_OlkAddressBook** as a category in  *prgclsidCategory*  . 
+**IOlkAccount::GetAccountInfo** does not support the address book category for an Exchange account. If the account is an Exchange account (*pclsidType* is **CLSID_OlkMAPIAccount** ), and the account implements the address book, calling **IOlkAccount::GetAccountInfo** will not return **CLSID_OlkAddressBook** as a category in *prgclsidCategory*.
   
 ## See also
 
 - [Constants (Account management API)](constants-account-management-api.md)  
 - [IOlkAccount::FreeMemory](iolkaccount-freememory.md)
-

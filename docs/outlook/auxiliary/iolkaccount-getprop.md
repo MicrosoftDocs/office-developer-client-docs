@@ -33,7 +33,7 @@ _dwProp_
 _pVar_
   
 > [out] The value of the specified property.
-    
+
 ## Return values
 
 |**HRESULT**|**Description**|
@@ -41,14 +41,13 @@ _pVar_
 |S_OK  <br/> |The call succeeded. |
 |E_ACCT_NOT_FOUND  <br/> |The property is not found for the given account. |
 |E_INVALIDARG  <br/> |An invalid property tag has been specified. |
-   
+
 ## Remarks
 
-After this method returns, if the value of the account property is a binary or string type, you must free  *pVar*  by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+After this method returns, if the value of the account property is a binary or string type, you must free *pVar* by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
 ## See also
 
-- [Constants (Account management API)](constants-account-management-api.md) 
+- [Constants (Account management API)](constants-account-management-api.md)
 - [IOlkAccount::FreeMemory](iolkaccount-freememory.md)  
 - [IOlkAccount::SetProp](iolkaccount-setprop.md)
-

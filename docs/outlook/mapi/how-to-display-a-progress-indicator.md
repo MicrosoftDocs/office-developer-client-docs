@@ -78,7 +78,7 @@ If the MAPI_TOP_LEVEL flag is not set, complete the following steps:
       
      - Set the  _ulCount_ parameter to 0. 
       
-     - Set the  _ulTotal_ parameter to 0. 
+     - Set the  _ulTotal_ parameter to 0.
     
 The following code example illustrates the logic required to show progress at all levels of an operation that copies the contents of a folder that contains five subfolders. 
   
@@ -111,7 +111,7 @@ else
                               ulMin + i * ulDelta, 0)
         CopyOneFolder(lpFolder(i), lpProgress)
         /* Pass 0 for ulCount and ulTotal because this is not the */
-        /* top-level display, and that information is unavailable  */
+        /* top-level display, and that information is unavailable */
         lpProgress->Progress( i * ulDelta, 0, 0)
     }
 }
@@ -121,4 +121,3 @@ else
 ## See also
 
 - [MAPI Progress Indicators](mapi-progress-indicators.md)
-

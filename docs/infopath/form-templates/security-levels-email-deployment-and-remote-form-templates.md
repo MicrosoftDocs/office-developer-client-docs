@@ -37,17 +37,17 @@ The Restricted security level does not allow any communication outside the form 
 - Managed Code
 - External Print View
 - Linked Images
-    
+
 ### Domain
 
 The Domain security level restricts a form to a particular Internet domain and its permissions are restricted to the Internet Explorer settings for the zone where the domain is located. The form is allowed to communicate with other data sources inside its own domain but is typically not allowed to retrieve data from other domains unless the zone allows cross-domain communication. This is the minimum security level allowed for browser-compatible form templates.
   
 ### Full Trust
 
-The Full Trust security level allows you to run a form with full trust on the computer where the form will be used. This security level can only be used when you are working with a form located on a server that is signed with a signature that matches a trusted root publisher on your computer, or by installing the form. Both methods require setting the **requireFullTrust** attribute to "yes". By using this setting, the form can access object model calls such as file save, and certain security prompts that appear when you run at a more restrictive security level are disabled. 
+The Full Trust security level allows you to run a form with full trust on the computer where the form will be used. This security level can only be used when you are working with a form located on a server that is signed with a signature that matches a trusted root publisher on your computer, or by installing the form. Both methods require setting the **requireFullTrust** attribute to "yes". By using this setting, the form can access object model calls such as file save, and certain security prompts that appear when you run at a more restrictive security level are disabled.
   
 > [!NOTE]
-> All forms generated in the InfoPath designer have a security level associated with them. InfoPath opens forms at their associated security level. If the security level associated with the form is higher than the security level that can be granted to it, the form will not open. 
+> All forms generated in the InfoPath designer have a security level associated with them. InfoPath opens forms at their associated security level. If the security level associated with the form is higher than the security level that can be granted to it, the form will not open.
   
 The Full Trust security level can only be set for installed or signed form templates; otherwise, the maximum trust level is Domain. InfoPath will not set a security level to Full Trust automatically.
   
@@ -55,7 +55,7 @@ Forms are granted security levels based on the location from which the form is o
   
 ## Trust levels
 
-The highest level of trust that can be granted to a form template is determined by the Opened From location and other verification code, as described in the following table. The attributes listed in the table (for example, HTTP, UNC,  *requireFullTrust*) are entries that are used to determine the level of trust that can be granted to a form, and apply to forms opened in the InfoPath client. 
+The highest level of trust that can be granted to a form template is determined by the Opened From location and other verification code, as described in the following table. The attributes listed in the table (for example, HTTP, UNC, *requireFullTrust*) are entries that are used to determine the level of trust that can be granted to a form, and apply to forms opened in the InfoPath client.
   
 |Highest Level of Trust Granted|Full Trust|Client Computer (Sandboxed)|Intranet (Sandboxed)|Internet (Sandboxed)|Restricted|
 |:-----|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -68,10 +68,10 @@ The highest level of trust that can be granted to a form template is determined 
 |**Installed Template (requireFullTrust="no")** <br/> ||X  <br/> ||||
 |**Template with trusted publisher certificate** <br/> |X  <br/> |||||
 |**Exported Form Files** <br/> |||X  <br/> |||
-   
+
 ## Form open behavior
 
-All form files opened in the InfoPath editor are bound by a set of conditions that determine the security level at which the form will open and whether it will open. When an InfoPath form is opened in the editor, it will be either opened with an appropriate security level, or it will not load. If a form requests a higher security level than it can be granted (a form can request a specific security level using the **trustLevel** or **requireFullTrust** attribute), it will not be allowed to load. Otherwise, it will be loaded with the security level it requests. If the form template is not allowed to open with the requested security level, the user will not be able to open the form and will receive an error message. 
+All form files opened in the InfoPath editor are bound by a set of conditions that determine the security level at which the form will open and whether it will open. When an InfoPath form is opened in the editor, it will be either opened with an appropriate security level, or it will not load. If a form requests a higher security level than it can be granted (a form can request a specific security level using the **trustLevel** or **requireFullTrust** attribute), it will not be allowed to load. Otherwise, it will be loaded with the security level it requests. If the form template is not allowed to open with the requested security level, the user will not be able to open the form and will receive an error message.
   
 The following table describes the conditions required for opening a form at each security level and the resultant behavior when the user attempts to open the form.
   
@@ -82,16 +82,16 @@ The following table describes the conditions required for opening a form at each
 |**Domain Trust: Intranet** <br/> |Fails to open  <br/> |Editor opens at Domain level  <br/> |Editor opens at Restricted level  <br/> |
 |**Domain Trust: Internet** <br/> |Fails to open  <br/> |Editor opens at Domain level  <br/> |Editor opens at Restricted level  <br/> |
 |**Restricted** <br/> |Fails to open  <br/> |Fails to open  <br/> |Editor opens at Restricted level  <br/> |
-   
+
 ## Specifying a security level
 
 The InfoPath form designer automatically selects the appropriate security level (either Restricted or Domain) based on the features that you are using in the form. The security setting is always as restrictive as possible, starting at Restricted, to help ensure a greater level of protection for you and your data. Users can manually override this automated setting to select a level of security that is more appropriate for the form by following these steps:
   
-1. Click the **File** tab, and then click **Form Options** on the **Info** tab. 
+1. Click the **File** tab, and then click **Form Options** on the **Info** tab.
     
 2. In the **Categories** list, click **Security and Trust**.
     
-3. Uncheck the **Automatically determine security level (recommended)** check box. 
+3. Uncheck the **Automatically determine security level (recommended)** check box.
     
 4. Select the desired security level.
     
@@ -103,11 +103,11 @@ Alternatively, if you have Microsoft SharePoint Server 2010 with InfoPath Forms 
   
 ## Understanding form identity
 
-All forms in the InfoPath designer are created with an identity. This identity information helps InfoPath associate forms with form templates in the cache and to retrieve updates to forms when they are posted to a shared location. By default, InfoPath creates two identities for form templates: a Form ID and an Access Path. 
+All forms in the InfoPath designer are created with an identity. This identity information helps InfoPath associate forms with form templates in the cache and to retrieve updates to forms when they are posted to a shared location. By default, InfoPath creates two identities for form templates: a Form ID and an Access Path.
   
 ### Form ID
 
-The Form ID is a unique identifier based on a prefix, the form name, and the form namespace. The identifier should be a unique name that can be used to correctly associate form files with the associated form template in the client computer cache. The Form ID is specified as the name attribute (for example,  `name="urn:MyForm:MyCompany:Template1:myXSD-1583-78-G3V94-23-47"`) in the form definition file (.xsf). 
+The Form ID is a unique identifier based on a prefix, the form name, and the form namespace. The identifier should be a unique name that can be used to correctly associate form files with the associated form template in the client computer cache. The Form ID is specified as the name attribute (for example,  `name="urn:MyForm:MyCompany:Template1:myXSD-1583-78-G3V94-23-47"`) in the form definition file (.xsf).
   
 ### Access Path
 
@@ -119,7 +119,7 @@ The Access Path is a location identifier that is used to determine the correct l
     
 3. Look for a form template in the cache with a matching Form ID.
     
-Once matched, the form will open with the associated form template. In cases in which the match was made with an Access Path, InfoPath will use the Access Path to retrieve updates to the form template. This method simplifies enterprise administration, maintenance, and update of forms. In cases in which the match cannot be made and the trust level is Domain, the form will not open. The Access Path is specified as the **publishUrl** attribute in the form definition file (.xsf). 
+Once matched, the form will open with the associated form template. In cases in which the match was made with an Access Path, InfoPath will use the Access Path to retrieve updates to the form template. This method simplifies enterprise administration, maintenance, and update of forms. In cases in which the match cannot be made and the trust level is Domain, the form will not open. The Access Path is specified as the **publishUrl** attribute in the form definition file (.xsf).
   
 Just as there are two identification properties for each form template, there is a set of heuristics to specifically determine the resulting entries in the cache, based on the condition of the form template (whether it has an Access Path, a Form ID, or both) and the state of the network connection.
   
@@ -167,7 +167,7 @@ Additionally, if a form template is signed, you get the added benefit of the aut
   
 ### Example: Updating domain or restricted templates
 
-The following example shows how an updated, signed form template requesting either Domain or Restricted access can overwrite an older copy: 
+The following example shows how an updated, signed form template requesting either Domain or Restricted access can overwrite an older copy:
   
 1. "A" sends a signed form template to "B".
     
@@ -245,4 +245,3 @@ For example, when a form matches a form template based on Form ID but not on Acc
 > [!NOTE]
 > InfoPath forms will not open when the domain is an Internet Explorer Restricted domain; therefore, there is no registry key for Internet Explorer Restricted Sites. 
   
-

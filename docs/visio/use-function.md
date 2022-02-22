@@ -1,7 +1,4 @@
 ---
-title: "USE Function"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,28 +17,26 @@ Applies the line pattern, fill pattern, or line end called  _name_ to the shape 
   
 ## Syntax
 
-USE(" ** *name* ** ") 
+USE(" ***name*** ")
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _name_ <br/> |Required  <br/> |**String** <br/> |Any string that is a valid master name. |
-   
+
 ### Return value
 
 Number
   
 ## Remarks
 
-If a master named  _name_ is present on the document stencil of the document, the pattern is applied as a line pattern, fill pattern, begin arrow, or end arrow. 
+If a master named  _name_ is present on the document stencil of the document, the pattern is applied as a line pattern, fill pattern, begin arrow, or end arrow.
   
 This function always returns 254.
   
 ## Example
 
-USE("Railroad Tracks") 
+USE("Railroad Tracks")
   
-Formats the shape by applying the master pattern named Railroad Tracks to the shape containing the formula. 
-  
-
+Formats the shape by applying the master pattern named Railroad Tracks to the shape containing the formula.

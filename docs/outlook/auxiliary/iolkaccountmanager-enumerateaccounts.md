@@ -42,7 +42,7 @@ _pclsidCategory_
 _pclsidType_
   
 > [in] The class identifier of the account type to enumerate. The value must be one of the following:
-    
+   
    - CLSID_OlkPOP3Account
     
    - CLSID_OlkIMAP4Account
@@ -52,30 +52,29 @@ _pclsidType_
    - CLSID_OlkHotmailAccount
     
    - CLSID_OlkLDAPAccount
-    
+   
 _dwFlags_
   
 > [in] Flags to modify behavior. The only supported value is OLK_ACCOUNT_NO_FLAGS.
-    
+   
 _ppEnum_
   
-> [out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface. 
-    
+> [out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface.
+   
 ## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded. |
 |E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use. |
-   
+
 ## Remarks
 
 Specifying NULL for category returns an enumerator of all accounts of the specified type. Similarly, specifying NULL for type returns an enumerator of all accounts of the specified category.
   
- **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. If the account is an Exchange account (*pclsidType*  is **CLSID_OlkMAPIAccount** ), and you are trying to enumerate accounts that implement the address book (*prgclsidCategory*  is **CLSID_OlkAddressBook** ), calling **IOlkAccountManager::EnumerateAccounts** will not return the Exchange account in the accounts enumerator  *ppEnum*  . 
+ **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. If the account is an Exchange account (*pclsidType* is **CLSID_OlkMAPIAccount** ), and you are trying to enumerate accounts that implement the address book (*prgclsidCategory* is **CLSID_OlkAddressBook** ), calling **IOlkAccountManager::EnumerateAccounts** will not return the Exchange account in the accounts enumerator *ppEnum*.
   
 ## See also
 
 - [Constants (Account management API)](constants-account-management-api.md)  
 - [IOlkEnum](iolkenum.md)
-

@@ -1,7 +1,5 @@
 ---
 title: "TANH Function"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,30 +14,29 @@ description: "Returns the hyperbolic tangent of an angle."
 
 # TANH Function
 
-Returns the hyperbolic tangent of an angle. 
+Returns the hyperbolic tangent of an angle.
   
 ## Syntax
 
-TANH(** *angle* ** ) 
+TANH(***angle*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hypbolic tangent. |
-   
+| *angle* <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hypbolic tangent. |
+
 ### Return value
 
 Numeric
   
 ## Remarks
 
-The TANH function uses radians unless you specify a different unit of measure in  *angle*  . 
+The TANH function uses radians unless you specify a different unit of measure in *angle*.
   
 ## Example
 
-TANH(-45) 
+TANH(-45)
   
-Returns -0.6558. 
+Returns -0.6558.
   
-

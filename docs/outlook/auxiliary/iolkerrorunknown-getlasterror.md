@@ -30,19 +30,18 @@ HRESULT IOlkErrorUnknown::GetLastError(
 _hr_
   
 > [in] The error code to look up.
-    
+
 _ppwszError_
   
-> [out] The error message that corresponds to  *hr*  . 
-    
+> [out] The error message that corresponds to *hr*.
+
 ## Return values
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded. |
 |E_INVALIDARG  <br/> |One or more arguments are invalid. |
-   
+
 ## See also
 
 - [Constants (Account management API)](constants-account-management-api.md)
-
