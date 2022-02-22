@@ -22,37 +22,37 @@ These URI schemes allow for office productivity applications to be invoked with 
 
 ### Full schema
 
-< *scheme-name*  >:<  *command-name*  >"|"<  *command-argument-descriptor*  > "|"<  *command-argument*  > 
+< *scheme-name* >:<  *command-name* >"|"<  *command-argument-descriptor* > "|"<  *command-argument* > 
   
-A URI as defined in this document may have one or more command arguments, each of which must include both the < *command-argument-descriptor*  > and the <  *command-argument*  > elements and be delimited by the vertical bar ("|") character. When more than one command argument is included in a URI there must be a vertical bar ("|") character separating each command argument from the following command argument. 
+A URI as defined in this document may have one or more command arguments, each of which must include both the < *command-argument-descriptor* > and the <  *command-argument* > elements and be delimited by the vertical bar ("|") character. When more than one command argument is included in a URI there must be a vertical bar ("|") character separating each command argument from the following command argument. 
   
 These schemes do not include an authority component as defined in section 3.2 of RFC 3986. Invocation of the commands specified in this document takes place in the context of the system invoking the command. For example, when the URI "ms-excel:ofv|u|https://contoso/Q4/budget.xls" is invoked from a personal computer running Microsoft Windows with Microsoft Office 2013 installed the expected result is that the local installation of Microsoft Excel will be launched and passed arguments to open the file at  *https://contoso/Q4/budget.xls*  in read-only mode. Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters. 
   
 The scheme syntax includes the following:
   
-1. < *scheme-name*  >: This refers to the type of application that should be invoked. For instance, the ms-word: scheme name is registered by Microsoft Word. 
+1. < *scheme-name* >: This refers to the type of application that should be invoked. For instance, the ms-word: scheme name is registered by Microsoft Word. 
     
 2. ":" separator
     
-3. < *command-name*  >: This describes the actions that the application should perform. For instance, opening a document for viewing. The list of command names is described in section 1.5. 
+3. < *command-name* >: This describes the actions that the application should perform. For instance, opening a document for viewing. The list of command names is described in section 1.5. 
     
 4. "|" (vertical bar) separator
     
-5. < *command-argument-descriptor*  >: This element gives more information about what the command argument is about. 
+5. < *command-argument-descriptor* >: This element gives more information about what the command argument is about. 
     
 6. "|" (vertical bar) separator
     
-7. < *command-argument*  >: The arguments vary depending on the command. One common argument is the URI to a document, typically using the http or https scheme. Note that within <  *command-argument*  > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
+7. < *command-argument* >: The arguments vary depending on the command. One common argument is the URI to a document, typically using the http or https scheme. Note that within <  *command-argument* > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
     
 ### Abbreviated schema
 
-An abbreviated form of the office URI schemes allows for a more compact request to launch a specified Office application to open the resource located at a given URI. This abbreviated form implies the < *command-name*  > "ofv" and the <  *command-argument-descriptor*  > "u". No further commands or command arguments are allowed in this schema. 
+An abbreviated form of the office URI schemes allows for a more compact request to launch a specified Office application to open the resource located at a given URI. This abbreviated form implies the < *command-name* > "ofv" and the <  *command-argument-descriptor* > "u". No further commands or command arguments are allowed in this schema. 
   
-< *scheme-name*  >:<  *command-argument*  > 
+< *scheme-name* >:<  *command-argument* > 
   
-1. < *scheme-name*  >: the type of application that should be invoked. For instance ms-word: for Microsoft Word. 
+1. < *scheme-name* >: the type of application that should be invoked. For instance ms-word: for Microsoft Word. 
     
-2. < *command-argument*  >: URI for the resource the application should open. Currently only URIs based on the http or https scheme are supported. 
+2. < *command-argument* >: URI for the resource the application should open. Currently only URIs based on the http or https scheme are supported. 
     
 ## 1.4 SCHEME NAMES AND OFFICE APPLICATION REGISTRATIONS
 
@@ -169,7 +169,7 @@ The ms-word URI Scheme is used by Microsoft Office 2013 to invoke Microsoft Word
 
 Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters.. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
   
-Within < *command-argument*  > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
+Within < *command-argument* > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
   
 ### A-7. Security Considerations
 
@@ -212,7 +212,7 @@ The ms-powerpoint URI Scheme is used by Microsoft Office 2013 to invoke Microsof
 
 Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
   
-Within < *command-argument*  > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
+Within < *command-argument* > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
   
 ### B-7. Security Considerations
 
@@ -255,7 +255,7 @@ The ms-excel URI Scheme is used by Microsoft Office 2013 to invoke Microsoft Exc
 
 Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
   
-Within < *command-argument*  > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
+Within < *command-argument* > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
   
 ### C-7. Security Considerations
 
@@ -298,7 +298,7 @@ The ms-visio URI Scheme is used by Microsoft Office 2013 to invoke Microsoft Vis
 
 Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
   
-Within < *command-argument*  > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
+Within < *command-argument* > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
   
 ### D-7. Security Considerations
 
@@ -382,7 +382,7 @@ The ms-project URI Scheme is used by Microsoft Office 2013 to invoke Microsoft P
 
 Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
   
-Within < *command-argument*  > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
+Within < *command-argument* > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
   
 ### F-7. Security Considerations
 
@@ -456,7 +456,7 @@ The ms-spd URI Scheme is used by Microsoft Office 2013 to invoke Microsoft Share
 
 Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
   
-Within < *command-argument*  > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
+Within < *command-argument* > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
   
 ### H-7. Security Considerations
 
@@ -491,7 +491,7 @@ The ms-infopath URI Scheme is used by Microsoft Office 2013 to invoke Microsoft 
 
 Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
   
-Within < *command-argument*  > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
+Within < *command-argument* > segments the RFC 3986 reserved characters ":" and "/" are part of the argument data, not delimiters, and are therefore included unescaped. 
   
 ### I-7. Security Considerations
 

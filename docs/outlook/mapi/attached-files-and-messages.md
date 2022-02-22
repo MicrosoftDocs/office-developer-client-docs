@@ -20,11 +20,11 @@ If MIME with TNEF is used while encoding message content,all attachment properti
   
 If MIME is used without TNEF, attached files are sent as MIME message content parts. The filename is placed in the *name* parameter to the *Content-type* header for the attachment. The character set for the attachment is placed in the *charset* parameter to the *Content-type*; it and the content-transfer-encoding are determined by scanning the entire attachment content. URL attachments are treated specially:
   
-- If the attachment is a URL (an attached file with extension .URL), and the access mode defined in it is anonymous FTP, it is encoded as an external message, and the content of the file (the URL) is copied into the header of the external message. *Content-type: message/external-body; access-type=anon-ftp*  (Content-Transfer-Encoding: 7bit is assumed.)
+- If the attachment is a URL (an attached file with extension .URL), and the access mode defined in it is anonymous FTP, it is encoded as an external message, and the content of the file (the URL) is copied into the header of the external message. *Content-type: message/external-body; access-type=anon-ftp* (Content-Transfer-Encoding: 7bit is assumed.)
 
 - If only 7-bit characters are found and no line exceeds 140 characters in length, the attachment is ASCII text. *Content-type: text/plain; charset=us-ascii Content-Transfer-Encoding: 7bit*
 
-- If long lines or up to 25% 8-bit characters are found, the attachment content is text and the character set is determined by the locale. It should be chosen from the character sets defined by ISO standard 8859. *Content-type: text/plain; charset=ISO-8859-1*  (for example)
+- If long lines or up to 25% 8-bit characters are found, the attachment content is text and the character set is determined by the locale. It should be chosen from the character sets defined by ISO standard 8859. *Content-type: text/plain; charset=ISO-8859-1* (for example)
 
      *Content-Transfer-Encoding: quoted-printable*
 
