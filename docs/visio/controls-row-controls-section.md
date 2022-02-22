@@ -1,7 +1,5 @@
 ---
-title: "Controls Row (Controls Section)"
- 
- 
+title: "Controls Row (Controls Section)" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -22,12 +20,12 @@ Controls rows are named Controls. *name*  and contain the following cells. For m
   
 |**Cell**|**Description**|
 |:-----|:-----|
-|[x](x-cell-controls-section.md) <br/> |Represents the *x* - coordinate that indicates the location of a shape's control handle in local coordinates. |
-|[y](y-cell-controls-section.md) <br/> |Represents the *y* - coordinate that indicates the location of a shape's control handle in local coordinates. |
-|[X Dynamics](x-dynamics-cell-controls-section.md) <br/> |Represents the *x* - coordinate for a control handle's anchor point in local coordinates. |
-|[Y Dynamics](y-dynamics-cell-controls-section.md) <br/> |Represents the *y* - coordinate for a control handle's anchor point in local coordinates. |
-|[X Behavior](x-behavior-cell-controls-section.md) <br/> |Controls the type of behavior the *x* - coordinate of the control handle will exhibit after the handle is moved. |
-|[Y Behavior](y-behavior-cell-controls-section.md) <br/> |Controls the type of behavior the *y* - coordinate of the control handle will exhibit after the handle is moved. |
+|[x](x-cell-controls-section.md) <br/> |Represents the *x* -coordinate that indicates the location of a shape's control handle in local coordinates. |
+|[y](y-cell-controls-section.md) <br/> |Represents the *y* -coordinate that indicates the location of a shape's control handle in local coordinates. |
+|[X Dynamics](x-dynamics-cell-controls-section.md) <br/> |Represents the *x* -coordinate for a control handle's anchor point in local coordinates. |
+|[Y Dynamics](y-dynamics-cell-controls-section.md) <br/> |Represents the *y* -coordinate for a control handle's anchor point in local coordinates. |
+|[X Behavior](x-behavior-cell-controls-section.md) <br/> |Controls the type of behavior the *x* -coordinate of the control handle will exhibit after the handle is moved. |
+|[Y Behavior](y-behavior-cell-controls-section.md) <br/> |Controls the type of behavior the *y* -coordinate of the control handle will exhibit after the handle is moved. |
 |[Can Glue](can-glue-cell-controls-section.md) <br/> |Determines whether a control handle can be glued to other shapes. |
 |[Tip](tip-cell-controls-section.md) <br/> |Represents a descriptive text string that appears as a ToolTip when a user pauses the pointer over a shape's control handle. |
 

@@ -37,7 +37,7 @@ NURBS(***knotLast***, ***degree***, ***xType***, ***yType***, ***x1***, ***y1***
 
 ## Remarks
 
-For every  *x*  argument, there must be a  *y*  argument; otherwise, an error is returned.
+For every  *x* argument, there must be a  *y* argument; otherwise, an error is returned.
   
-You must specify at least one  *x*, *y*, *knot*, and  *weight*  argument; otherwise, Visio returns an error.
+You must specify at least one  *x*, *y*, *knot*, and  *weight* argument; otherwise, Visio returns an error.
   

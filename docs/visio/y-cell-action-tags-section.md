@@ -17,27 +17,25 @@ description: "The y -coordinate position in the shape's local coordinates around
 
 # Y Cell (Action Tags Section)
 
-The *y*  -coordinate position in the shape's local coordinates around which the action tag button is placed. 
+The *y* -coordinate position in the shape's local coordinates around which the action tag button is placed.
   
 > [!NOTE]
-> In previous versions of Microsoft Visio, action tags are called smart tags. 
+> In previous versions of Microsoft Visio, action tags are called smart tags.
   
 ## Remarks
 
-The X and Y cells define a point in the shape's local coordinates, and the X Justify and Y Justify cells define where to place the action tag button in relation to that point. 
+The X and Y cells define a point in the shape's local coordinates, and the X Justify and Y Justify cells define where to place the action tag button in relation to that point.
   
-To get a reference to the Y cell by name from another formula, or from a program using the **CellsU** property, use: 
+To get a reference to the Y cell by name from another formula, or from a program using the **CellsU** property, use:
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | SmartTags.  *name*  .Y           where SmartTags. *name*  is the name of the action tag row  <br/> |
-   
-To get a reference to the Y cell by index from a program, use the **CellsSRC** property with the following arguments: 
+| Cell name:  <br/> | SmartTags. *name* .Y where SmartTags. *name* is the name of the action tag row. <br/> |
+
+To get a reference to the Y cell by index from a program, use the **CellsSRC** property with the following arguments:
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
+| Row index:  <br/> |**visRowSmartTag** + *i* where *i* = 0, 1, 2... |
 | Cell index:  <br/> |**visSmartTagY** <br/> |
-   
-

@@ -34,7 +34,7 @@ The **EOMonth** contains the following arguments.
 
 ## Remarks
 
-If *Date*  is not a valid date, **EOMonth** returns an error.
+If *Date* is not a valid date, **EOMonth** returns an error.
   
-If *Date*  plus  *NumberOfMonth*  yields an invalid date, **EOMonth** returns an error.
+If *Date* plus *NumberOfMonth* yields an invalid date, **EOMonth** returns an error.
   

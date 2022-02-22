@@ -31,7 +31,7 @@ You can view a ShapeSheet window and a drawing window simultaneously and see the
   
 ## Structure of the ShapeSheet window
 
-A ShapeSheet is divided into  *sections*  that control a particular aspect of a shape's behavior or appearance, for example, its geometry or its formatting. Each section contains one or more *rows* that contain *cells*. Each cell can contain a formula, its result (commonly called the cell value), and optional error information. A formula may be required or optional, depending on the particular cell. A cell's data (for example, its formula or value) may be locally defined or, more often, inherited from the equivalent cell in the shape's master or style.
+A ShapeSheet is divided into *sections* that control a particular aspect of a shape's behavior or appearance, for example, its geometry or its formatting. Each section contains one or more *rows* that contain *cells*. Each cell can contain a formula, its result (commonly called the cell value), and optional error information. A formula may be required or optional, depending on the particular cell. A cell's data (for example, its formula or value) may be locally defined or, more often, inherited from the equivalent cell in the shape's master or style.
   
 The following example shows the formula bar ![formula bar](media/callout1_ZA01036259.gif), a section ![section](media/callout2_ZA01036260.gif), a cell ![cell](media/callout3_ZA01036261.gif), and a row ![row](media/callout4_ZA01036262.gif) in the ShapeSheet window.
   

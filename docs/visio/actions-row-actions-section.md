@@ -21,7 +21,7 @@ Contains cells that specify the actions associated with a custom command on a sh
 > [!NOTE]
 > In previous versions of Microsoft Visio, action tags are called smart tags.
   
-Actions rows are named Actions. *name*  and contain the following cells. For more details, see the specific cell topics.
+Actions rows are named Actions.*name* and contain the following cells. For more details, see the specific cell topics.
   
 |**Cell**|**Description**|
 |:-----|:-----|
@@ -38,7 +38,7 @@ Actions rows are named Actions. *name*  and contain the following cells. For mor
 
 ## Remarks
 
- You can add as many Actions.  *name*  rows as you need, assign meaningful names to the rows, and set cell values. To add a custom command to an existing Actions section, right-click a row and click **Insert Row** on the shortcut menu.
+ You can add as many Actions. *name* rows as you need, assign meaningful names to the rows, and set cell values. To add a custom command to an existing Actions section, right-click a row and click **Insert Row** on the shortcut menu.
   
 You can reference these cells by their row name, which appears in a ShapeSheet window in red text. To assign a meaningful name to an Actions. *name* row, click the row, and then type a name such as *Custom*, for example, to create the row name Actions.Custom. You can then reference the Menu cell by using Actions.Custom.Menu.
   
