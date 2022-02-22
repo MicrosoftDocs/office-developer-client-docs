@@ -25,7 +25,7 @@ To get a reference to the Y Dynamics cell by name from another formula, or from 
   
 |||
 |:-----|:-----|
-| Cell name:  <br/> | Controls.  *name*  .YDynwhere Controls.  *name*  is the name of the controls row. |
+| Cell name:  <br/> | Controls.  *nameYDynwhere Controls.  *name*  is the name of the controls row. |
    
 To get a reference to the Y Dynamics cell by index from a program, use the **CellsSRC** property with the following arguments: 
   

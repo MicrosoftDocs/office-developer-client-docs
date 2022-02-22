@@ -1,7 +1,5 @@
 ---
-title: "About Cell References"
- 
- 
+title: "About Cell References" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -22,18 +20,16 @@ In a cell's formula, you can refer to a cell of the same shape or another object
   
 ## What cell references can include
 
-Cell references can include shape identifiers (IDs) or names. You can always refer to any shape on the page by its ID, whether the shape is named or not. If a shape hasn't been named, its default name is Sheet. *i*  , where  *i*  is the shape ID. The ID is assigned when the shape is created and does not change unless you move the shape to another page or document. If more than one shape on a page has the same name, you must include the assigned ID. 
+Cell references can include shape identifiers (IDs) or names. You can always refer to any shape on the page by its ID, whether the shape is named or not. If a shape hasn't been named, its default name is Sheet. *i*, where *i* is the shape ID. The ID is assigned when the shape is created and does not change unless you move the shape to another page or document. If more than one shape on a page has the same name, you must include the assigned ID.
   
 ## Cell reference syntax and examples
 
 The syntax you use and whether you can refer to a shape by name depend on the relationship between the two objects. These general rules apply:
   
 - If a shape is a peer of the shape whose formula you are editing, you can refer to the peer shape by name. If the peer shape is a group, you can refer by name to the group, but not its members. Neither can you refer by name to a shape's parent or its parent's peers.
-    
 - You can use Sheet.ID syntax to refer to any shape on the page, whether the shape is in a group or is a parent of a shape.
-    
 - Names that contain nonstandard characters must be enclosed in single quotation marks. Single quotation mark characters in a nonstandard name must be prefixed by a single quotation mark.
-    
+
 |**To reference a cell of**|**Use this syntax**|**Example**|
 |:-----|:-----|:-----|
 |The same shape  <br/> | CellName  <br/> | Width  <br/> |
@@ -48,5 +44,3 @@ The syntax you use and whether you can refer to a shape by name depend on the re
 | A style  <br/> | Styles!SheetName!CellReference  <br/> | Styles!Manager!LineColor  <br/> |
 | The document  <br/> | TheDoc!CellReference  <br/> | TheDoc!PreviewQuality  <br/> |
 | A shape, page, master, document, or style with a nonstandard name. | 'Sheetname'!CellName  <br/> | '1-D'!LineColor  <br/> |
-   
-

@@ -18,9 +18,8 @@ description: "Last modified: July 23, 2011"
 
 # IMAPIOfflineMgr::Unadvise
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+
+**Applies to**: Outlook 2013 | Outlook 2016
   
 Cancels callbacks for an offline object.
   
@@ -36,27 +35,22 @@ HRESULT COfflineObj::Unadvise(
  _ulFlags_
   
 > [in] Flags for canceling callback. Only the value MAPIOFFLINE_UNADVISE_DEFAULT is supported.
-    
+
  _ulAdviseToken_
   
-> [in] An advise token that identifies the callback registration that is to be canceled. 
-    
+> [in] An advise token that identifies the callback registration that is to be canceled.
+
 ## Return value
 
 S_OK
   
 > The call was successful. This call must return S_OK.
-    
+
 ## Remarks
 
-Removes the registration for the callback that was associated with  *ulAdviseToken*  returned from a prior call to **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Causes the **IMAPIOfflineMgr** object to release its reference on the **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** object associated with  *ulAdviseToken*  . 
+Removes the registration for the callback that was associated with _ulAdviseToken_ returned from a prior call to **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)**. Causes the **IMAPIOfflineMgr** object to release its reference on the **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)** object associated with _ulAdviseToken_.
   
 ## See also
 
-
-
 [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
-
-
 [MAPI Constants](mapi-constants.md)
-

@@ -1,7 +1,5 @@
 ---
 title: "MINUTE Function (VisioShapeSheet)"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,33 +14,33 @@ description: "Returns an integer from 0 to 59 that represents the minutes compon
 
 # MINUTE Function (VisioShapeSheet)
 
-Returns an integer from 0 to 59 that represents the minutes component of  *datetime*  or  *expression*  . 
+Returns an integer from 0 to 59 that represents the minutes component of *datetime* or *expression*.
   
 ## Syntax
 
-MINUTE(" *datetime*  "|  *expression*  [,  *lcid*  ]) 
+MINUTE(" *datetime*  "|  *expression*  [,  *lcid*  ])
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _datetime_ <br/> |Required  <br/> |**String** <br/> |Any string commonly recognized as a date and time or a reference to a cell containing a date and time. |
-| _expression_ <br/> |Required  <br/> |**String** <br/> | Any expression that yields a date and time. |
-| _lcid_ <br/> |Optional  <br/> |**Number** <br/> |The locale identifier to be used in evaluating a nonlocal datetime. The locale identifier is a number described in the system header files. |
-   
+| *datetime* <br/> |Required  <br/> |**String** <br/> |Any string commonly recognized as a date and time or a reference to a cell containing a date and time. |
+| *expression* <br/> |Required  <br/> |**String** <br/> | Any expression that yields a date and time. |
+| *lcid* <br/> |Optional  <br/> |**Number** <br/> |The locale identifier to be used in evaluating a nonlocal datetime. The locale identifier is a number described in the system header files. |
+
 ### Return value
 
 Integer
   
 ## Remarks
 
-The date component in  _datetime_ and  _expression_ is discarded. 
+The date component in *datetime* and *expression* is discarded.
   
-No rounding is done. If  _datetime_ is missing or cannot be converted to a valid result, the function returns an error. 
+No rounding is done. If *datetime* is missing or cannot be converted to a valid result, the function returns an error.
   
 The returned value is formatted according to the time style set by the system's current Regional Settings.
   
-The MINUTE function also accepts a single number value for  _expression_ where the decimal portion represents the fraction of a day since midnight. 
+The MINUTE function also accepts a single number value for *expression* where the decimal portion represents the fraction of a day since midnight.
   
 ## Example 1
 
@@ -62,4 +60,3 @@ MINUTE(0.575)
   
 Returns 48.
   
-

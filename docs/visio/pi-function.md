@@ -16,7 +16,7 @@ description: "Returns the mathematical constant pi , which is approximately 3.14
 
 # PI Function
 
-Returns the mathematical constant  *pi*  , which is approximately 3.1415926535898. 
+Returns the mathematical constant *pi*, which is approximately 3.1415926535898.
   
 ## Syntax
 
@@ -28,8 +28,7 @@ Number
   
 ## Example
 
-(14 in / 2)^2 \* PI( ) 
+(14 in / 2)^2 \* PI( )
   
-Returns 153.9380 inches, the area of a circle whose diameter is 14 inches. 
+Returns 153.9380 inches, the area of a circle whose diameter is 14 inches.
   
-
