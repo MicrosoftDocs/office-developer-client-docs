@@ -20,7 +20,7 @@ Returns an integer, 1 to 7, representing the weekday in  _datetime_ or  _express
   
 ## Syntax
 
-WEEKDAY(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+WEEKDAY(" ***datetime*** "| ***expression*** [, ***lcid*** ]) 
   
 ### Parameters
 
