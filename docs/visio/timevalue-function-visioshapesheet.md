@@ -20,7 +20,7 @@ Returns the time value represented by  _datetime_ or  _expression_, based on the
   
 ## Syntax
 
-TIMEVALUE(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+TIMEVALUE(" ***datetime*** "| ***expression*** [, ***lcid*** ]) 
   
 ### Parameters
 

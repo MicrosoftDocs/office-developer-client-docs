@@ -20,7 +20,7 @@ Converts a formula that produces 16-bit character codes that are widened single-
   
 ## Syntax
 
-REWIDEN(** *srcCharSet* **, ** *dstCharSet* **, ** *text* ** ) 
+REWIDEN(***srcCharSet***, ***dstCharSet***, ***text*** ) 
   
 ### Parameters
 

@@ -29,7 +29,7 @@ HRESULT Next(
 
 _celt_
   
-> [in] The number of free/busy data blocks in  *pblk*  to retrieve.
+> [in] The number of free/busy data blocks in *pblk*  to retrieve.
 
 _pblk_
   
