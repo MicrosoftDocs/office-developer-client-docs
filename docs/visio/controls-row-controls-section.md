@@ -14,7 +14,7 @@ description: "Contains cells that define the x - and y -coordinates and behavior
 
 # Controls Row (Controls Section)
 
-Contains cells that define the  *x*  - and  *y*  -coordinates and behavior of each control handle defined for a shape. A shape will contain one Controls row for each control handle.
+Contains cells that define the *x* - and *y* -coordinates and behavior of each control handle defined for a shape. A shape will contain one Controls row for each control handle.
   
 Controls rows are named Controls. *name*  and contain the following cells. For more details, see the specific cell topics.
   
@@ -31,7 +31,7 @@ Controls rows are named Controls. *name*  and contain the following cells. For m
 
 ## Remarks
 
- You can add as many Controls.  *name*  rows as you need, assign meaningful names to the rows, and set cell values. To add control handles to an existing Controls section, right-click a row and click **Insert Row** on the shortcut menu.
+ You can add as many Controls. *name* rows as you need, assign meaningful names to the rows, and set cell values. To add control handles to an existing Controls section, right-click a row and click **Insert Row** on the shortcut menu.
   
 You can reference these cells by their row name, which appears in a ShapeSheet window in red text. To assign meaningful names to Controls. *name* rows, click the row and then type *Custom*, for example, to create the row name Controls.Custom. You can then reference the X cell using Controls.Custom.X.
   

@@ -136,7 +136,7 @@ For URI command arguments, the maximum path length is 256 characters for all app
   
 ### Allowed characters in URI command arguments
 
-Allowed URIs must conform to the standards proposed in RFC 3987 - Internationalized Resource Identifiers (IRIs) . Characters identified as reserved in RFC 3986 should not be percent encoded. . Filenames must not contain any of the following characters: \ / : ? \< \> | " or \*.  
+Allowed URIs must conform to the standards proposed in RFC 3987 - Internationalized Resource Identifiers (IRIs). Characters identified as reserved in RFC 3986 should not be percent encoded. . Filenames must not contain any of the following characters: \ / : ? \< \> | " or \*.  
   
 ## APPENDIX A - URI SCHEME REGISTRATION TEMPLATE FOR MS-WORD SCHEME
 

@@ -1,7 +1,5 @@
 ---
-title: "ShapePlaceFlip Cell (Shape Layout Section)"
- 
- 
+title: "ShapePlaceFlip Cell (Shape Layout Section)" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,25 +23,23 @@ Determines how a placeable shape flips, rotates, or both on the page when you ar
 |2  <br/> |Flip vertical. |**visLOFlipY** <br/> |
 |4  <br/> |Flip in 90 degree increments between 0 and 270. |**visLOFlipRotate** <br/> |
 |8  <br/> |Do not flip. |**visLOFlipNone** <br/> |
-   
+
 ## Remarks
 
 The value in the ShapePlaceFlip cell helps orient a placeable shape toward the next placeable shape it is connected to.
   
-To set this behavior for  *all*  the shapes on the drawing page, use the PlaceFlip cell in the Page Layout section. 
+To set this behavior for *all* the shapes on the drawing page, use the PlaceFlip cell in the Page Layout section.
   
-To get a reference to the ShapePlaceFlip cell by name from another formula, or from a program by using the **CellsU** property, use: 
+To get a reference to the ShapePlaceFlip cell by name from another formula, or from a program by using the **CellsU** property, use:
   
 |||
 |:-----|:-----|
 |Cell name:  <br/> |ShapePlaceFlip  <br/> |
-   
-To get a reference to the ShapePlaceFlip cell by index from a program, use the **CellsSRC** property with the following arguments: 
+
+To get a reference to the ShapePlaceFlip cell by index from a program, use the **CellsSRC** property with the following arguments:
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionObject** <br/> |
 |Row index:  <br/> |**visRowShapeLayout** <br/> |
 |Cell index:  <br/> |**visSLOPlaceFlip** <br/> |
-   
-

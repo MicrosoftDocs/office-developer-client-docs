@@ -29,7 +29,7 @@ ROUND(***number***, ***numberofdigits*** )
 
 ## Remarks
 
-If  *numberofdigits* is greater than 0, *number* is rounded by *numberofdigits* to the right of the decimal. If *numberofdigits* is 0, *number* is rounded to an integer. If *numberofdigits* is less than 0, *number* is rounded by *numberofdigits* to the left of the decimal.
+If *numberofdigits* is greater than 0, *number* is rounded by *numberofdigits* to the right of the decimal. If *numberofdigits* is 0, *number* is rounded to an integer. If *numberofdigits* is less than 0, *number* is rounded by *numberofdigits* to the left of the decimal.
   
 ## Example 1
 

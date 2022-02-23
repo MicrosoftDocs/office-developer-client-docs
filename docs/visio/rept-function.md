@@ -1,7 +1,5 @@
 ---
-title: "REPT Function"
- 
- 
+title: "REPT Function" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,31 +14,30 @@ description: "Repeats text a given number of times."
 
 # REPT Function
 
-Repeats text a given number of times. 
+Repeats text a given number of times.
   
 ## Syntax
 
-REPT (** *text* **, ** *number_times* ** ) 
+REPT (***text***, ***number_times*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Required  <br/> |**String** <br/> | The text you want to repeat. |
-| _number_times_ <br/> |Required  <br/> |**Number** <br/> |A positive number specifying the number of times to repeat text. |
-   
+| *text* <br/> |Required  <br/> |**String** <br/> | The text you want to repeat. |
+| *number_times* <br/> |Required  <br/> |**Number** <br/> |A positive number specifying the number of times to repeat text. |
+
 ## Remarks
 
-If  *number_times*  is: 
+If *number_times* is:
   
 - Zero (0), REPT returns "" (empty text).
-    
+
 - Not an interger, it is truncated.
-    
+
 ## Example
 
-REPT ("\*", 5) 
+REPT ("\*", 5)
   
-Returns \*\*\*\*\*. 
+Returns \*\*\*\*\*.
   
-

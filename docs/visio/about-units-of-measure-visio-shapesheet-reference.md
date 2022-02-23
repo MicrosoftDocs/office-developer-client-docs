@@ -1,14 +1,11 @@
 ---
-title: "About Units of Measure (Visio ShapeSheet Reference)"
- 
- 
+title: "About Units of Measure (Visio ShapeSheet Reference)" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 f1_keywords:
-- Vis_DSS.chm82251828
- 
+- Vis_DSS.chm82251828 
 ms.localizationpriority: medium
 ms.assetid: 48f765a8-7485-03c0-3484-d4ec07822600
 description: "When you insert fields into text or build formulas, you often specify units of measure for the values you type."
@@ -70,9 +67,9 @@ For example, if you enter 45.635°, Visio displays the equivalent value as 45° 
 
 You can specify fractional units of measure in the **DrawingScale** cell to affect the number of ruler subdivisions that Visio displays in the drawing window. By default, Visio divides distances into tenths when drawing its rulers. If you use fractional units of measure in the **DrawingScale** cell, Visio divides distance into the following:
   
-- Eighths for *visInchFrac* and  visMileFrac*
+- Eighths for *visInchFrac* and visMileFrac*
 
-- Twelfths for  *visFeetAndInches*
+- Twelfths for *visFeetAndInches*
 
 Fractional units of measure have no effect in cells other than in the DrawingScale cell.
   
@@ -151,10 +148,10 @@ number  [unit , flag ]
 |||
 |:-----|:-----|
 | *number* <br/> |The original value, such as 3.7, 1.7E-4, or 5 1/2. |
-| *unit* <br/> |The units in which  *number* originally is expressed. |
+| *unit* <br/> |The units in which *number* originally is expressed. |
 | *flag* <br/> |The measurement system to use when the implicit-value unit is displayed. See below for values. |
 
-The parameter  *flag* is one of the following letters (either uppercase or lowercase) indicating the measurement system that should be used when the implicit-value unit is displayed.
+The parameter *flag* is one of the following letters (either uppercase or lowercase) indicating the measurement system that should be used when the implicit-value unit is displayed.
   
 |***Flag***|**Measurement system**|**Example**|
 |:-----|:-----|:-----|

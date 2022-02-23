@@ -54,7 +54,7 @@ The Project Service Application is a logical service provider that can manage mu
 
 ![Editing the Home page in Project Web Access](media/pj15_Programmability_PWAHome.gif "Editing the Home page in Project Web Access")
   
-To access the Site Settings page in Project Web App, choose the **Settings** icon in the top-right corner of the page. The Site Settings page (  `https://ServerName/ProjectServerName/_layouts/15/settings.aspx`) enables changing the look and feel and the site theme, adding custom Web Parts, and modifying or creating master pages for project sites.
+To access the Site Settings page in Project Web App, choose the **Settings** icon in the top-right corner of the page. The Site Settings page ( `https://ServerName/ProjectServerName/_layouts/15/settings.aspx`) enables changing the look and feel and the site theme, adding custom Web Parts, and modifying or creating master pages for project sites.
   
 Customization of the code in ASPX pages, or customization of Project Web App master pages with SharePoint Designer 2013, is not supported. Customization of the code in Project Web App pages can cause problems with Project Server updates and service packs.
   
@@ -69,7 +69,7 @@ For Project Online, you can add buttons to the Project Web App ribbon, but you c
 > [!CAUTION]
 > When you install a SharePoint package or an app package, the types of Project Server entities must appear in the order that the PSEntityProvision.xsd schema specifies or schema validation of the package fails and installation is not completed.
   
-The PSEntityProvision.xsd schema file is available in the Project 2013 SDK download, in the  `Documentation\Schemas\AppProvisioning` subdirectory. Figure 2 shows the XML Schema Explorer view in Visual Studio of the **PSEntityProvision** schema, where the **LookupTable** sequence is expanded.
+The PSEntityProvision.xsd schema file is available in the Project 2013 SDK download, in the `Documentation\Schemas\AppProvisioning` subdirectory. Figure 2 shows the XML Schema Explorer view in Visual Studio of the **PSEntityProvision** schema, where the **LookupTable** sequence is expanded.
   
 **Figure 2. Visual Studio view of the Project Server entity provisioning schema**
 
@@ -110,7 +110,7 @@ If your application primarily reads data from Project Server, you can use the re
 
 The PSI enables full-trust client applications, including Project Professional 2013, Project Web App, and LOB applications, to access Project Server data within a SharePoint farm. The PSI is built and used with .NET Framework 4 and provides advantages such as a well-known development environment with built-in security, error handling, and garbage collection.
   
-The PSI is accessed through WCF services or ASMX web services. The ASMX interface is based on WCF. Each PSI service typically contains a base class with CRUD methods for items within that class. Items are specified by related **DataSet** classes. For example, the **CustomFields** service contains the **CustomFields** class with methods such as [CreateCustomFields2](https://docs.microsoft.com/previous-versions/office/ee767959(v=office.14)) . Data for one or more enterprise custom fields are specified in the **CustomFieldDataSet**.
+The PSI is accessed through WCF services or ASMX web services. The ASMX interface is based on WCF. Each PSI service typically contains a base class with CRUD methods for items within that class. Items are specified by related **DataSet** classes. For example, the **CustomFields** service contains the **CustomFields** class with methods such as [CreateCustomFields2](https://docs.microsoft.com/previous-versions/office/ee767959(v=office.14)). Data for one or more enterprise custom fields are specified in the **CustomFieldDataSet**.
   
 > [!NOTE]
 > The ASMX web services interface of the PSI is deprecated in Project Server 2013. Although the ASMX interface is still available, new applications that use the PSI should use the WCF interface, or if possible, new applications should use the CSOM instead of the PSI. Future versions of Project Server will require an upgrade of existing ASMX-based applications to use the WCF interface of the PSI or to use the CSOM.
@@ -131,15 +131,15 @@ With the CSOM, you can develop apps that access Project Online or an on-premises
   
 The CSOM can be used by copying the following resources to your local development computer:
   
-- For .NET Framework 4 development, copy the  `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll` assembly.
+- For .NET Framework 4 development, copy the `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll` assembly.
 
   For documentation of the CSOM classes and members, see the [Microsoft.ProjectServer.Client](https://docs.microsoft.com/previous-versions/office/dn529530(v=office.15)) namespace. For an example application, see [Getting started with the CSOM and .NET](getting-started-with-the-project-server-csom-and-net.md).
 
-- For Microsoft Silverlight development, copy the  `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Silverlight.dll` assembly.
+- For Microsoft Silverlight development, copy the `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Silverlight.dll` assembly.
 
-- To develop apps for Windows Phone 8, copy the  `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Phone.dll` assembly.
+- To develop apps for Windows Phone 8, copy the `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Phone.dll` assembly.
 
-- To use JavaScript for developing web apps and apps for other devices, copy the  `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\PS.js` file and the  `PS.debug.js` file. For an example web app, see [Getting started with the Project Server 2013 JavaScript object model](getting-started-with-the-project-server-2013-javascript-object-model.md).
+- To use JavaScript for developing web apps and apps for other devices, copy the `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\PS.js` file and the `PS.debug.js` file. For an example web app, see [Getting started with the Project Server 2013 JavaScript object model](getting-started-with-the-project-server-2013-javascript-object-model.md).
 
 The CSOM internally calls the PSI; therefore, if the PSI cannot do a job, neither can the CSOM. For limitations of the CSOM, see [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md) and [What the PSI does and does not do](what-the-psi-does-and-does-not-do.md). For more information about developing with the CSOM, see [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md) and [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md).
   

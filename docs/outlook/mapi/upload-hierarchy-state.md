@@ -28,7 +28,7 @@ description: "Last modified: March 09, 2015"
   
 ## Description
 
-This state initiates uploading a folder tree hierarchy that has been specified in a preceding synchronize state. Outlook determines the number of folders that have been created or modified in that hierarchy and initializes *cEnt* in **UPHIER**. Outlook also keeps a count of the number of uploaded folders with another member *iEnt*. To upload each of the  *cEnt*  folders, the client moves the local store into the upload folder state, returning to the upload hierarchy state when the folder upload finishes.
+This state initiates uploading a folder tree hierarchy that has been specified in a preceding synchronize state. Outlook determines the number of folders that have been created or modified in that hierarchy and initializes *cEnt* in **UPHIER**. Outlook also keeps a count of the number of uploaded folders with another member *iEnt*. To upload each of the *cEnt* folders, the client moves the local store into the upload folder state, returning to the upload hierarchy state when the folder upload finishes.
   
 When the upload hierarchy state ends, the local store returns to the synchronize state.
   

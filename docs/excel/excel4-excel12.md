@@ -17,13 +17,13 @@ ms.assetid: 2404f10d-8641-4ee6-a909-1c5a26610f80
 
 # Excel4/Excel12
 
-**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Calls an internal Microsoft Excel worksheet function, macro sheet function or command, or XLL-only special function or command, from within a DLL/XLL or code resource.
   
-All recent versions of Excel support **Excel4**. Starting in Excel 2007, **Excel12** is supported. 
+All recent versions of Excel support **Excel4**. Starting in Excel 2007, **Excel12** is supported.
   
-These functions can be called only when Excel has passed control to the DLL or XLL. They can also be called when Excel has passed control indirectly via a call to Visual Basic for Applications (VBA). They cannot be called at any other time. For example, they cannot be called during calls to the [DllMain](/windows/win32/dlls/dllmain.md) function or other times when the operating system has called the DLL, or from a thread created by the DLL. 
+These functions can be called only when Excel has passed control to the DLL or XLL. They can also be called when Excel has passed control indirectly via a call to Visual Basic for Applications (VBA). They cannot be called at any other time. For example, they cannot be called during calls to the [DllMain](/windows/win32/dlls/dllmain.md) function or other times when the operating system has called the DLL, or from a thread created by the DLL.
   
 The [Excel4v and Excel12v](excel4v-excel12v.md) functions accept their arguments as an array, whereas the **Excel4** and **Excel12** functions accept their arguments as a variable-length list on the stack. In all other respects, **Excel4** behaves the same as **Excel4v**, and **Excel12** behaves the same as **Excel12v**.
   
@@ -36,7 +36,7 @@ int Excel12(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 argument1, .
 
  _iFunction_ (**int**)
   
-A number that indicates the command, function, or special function you want to call. For a list of valid _iFunction_ values, see the following Remarks section. 
+A number that indicates the command, function, or special function you want to call. For a list of valid _iFunction_ values, see the following Remarks section.
   
  _pxRes_ (**LPXLOPER** or **LPXLOPER12**)
   
@@ -48,7 +48,7 @@ The number of subsequent arguments that will be passed to the function. In versi
   
  _argument1, ..._ (**LPXLOPER** or **LPXLOPER12**)
   
-The optional arguments to the function. All arguments must be pointers to **XLOPER** or **XLOPER12** values. 
+The optional arguments to the function. All arguments must be pointers to **XLOPER** or **XLOPER12** values.
   
 ## Return value
 
@@ -80,23 +80,21 @@ Valid **iFunction** values are any of the **xlf...** or **xlc...** constants def
 |**xlCoerce** |**xlFree** |**xlGetName** |**xlStack** |
 |**xlDefineBinaryName** |**xlGetBinaryName** |**xlSet** |**xlUDF** |
 |**xlDisableXLMsgs** |**xlGetHwnd** |**xlSheetId** ||
-   
+
 ### Different Types of Functions
 
  **Excel4** and **Excel12** distinguish among three classes of functions. The functions are classified according to the three states in which Excel might call the DLL.
   
 - Class 1 applies when the DLL is called from a worksheet as a result of recalculation.
-    
 - Class 2 applies when the DLL is called from within a function macro or from a worksheet where it was registered with a number sign (#) in the type text.
-    
 - Class 3 applies when a DLL is called from an object, macro, menu, toolbar, shortcut key, **ExecuteExcel4Macro** method, or the **Tools/Macro/Run** command. For more information, see [Excel Commands, Functions, and States](excel-commands-functions-and-states.md).
-    
+
 The following table shows what functions are valid in each class.
   
 |**Class 1**|**Class 2**|**Class 3**|
 |:-----|:-----|:-----|
-|Any worksheet function  Any XLL-only **xl...** function except **xlSet**.  **xlfCaller** |Any worksheet function  Any **xl...** function except **xlSet**.  Macro sheet functions, including **xlfCaller**, that return a value but perform no action that affects the workspace or any open workbook.  |Any function, including **xlSet** and command-equivalent functions.  |
-   
+|Any worksheet function <br/>Any XLL-only **xl...** function except **xlSet**. **xlfCaller** |Any worksheet function  <br/>Any **xl...** function except **xlSet**.  <br/>Macro sheet functions, including **xlfCaller**, that return a value but perform no action that affects the workspace or any open workbook.  |Any function, including **xlSet** and command-equivalent functions.  |
+
 ### Display the Dialog Box for a Command-Equivalent Function
 
 If a command-equivalent function has an associated dialog box, you can set the **xlPrompt** bit in **iFunction**. This means that Excel displays the appropriate dialog box before carrying out the command.
@@ -134,4 +132,3 @@ short WINAPI Excel12Example(void)
 ## See also
 
 [Excel4v/Excel12v](excel4v-excel12v.md)
-

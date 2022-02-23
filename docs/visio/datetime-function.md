@@ -16,11 +16,11 @@ description: "Returns the date and time value represented by datetime or express
 
 # DATETIME Function
 
-Returns the date and time value represented by  _datetime_ or  _expression_.
+Returns the date and time value represented by _datetime_ or _expression_.
   
 ## Syntax
 
-DATETIME(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+DATETIME(" **_datetime_** "| **_expression_** [, ** _lcid_ ** ])
   
 ### Parameters
 
@@ -29,18 +29,18 @@ DATETIME(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
 | _datetime_ <br/> |Required  <br/> |**String** <br/> |Any string commonly recognized as a date and time or a reference to a cell containing a date and time. |
 | _expression_ <br/> |Required  <br/> |**String** <br/> |Any expression that yields a date and time. |
 | _lcid_ <br/> |Optional  <br/> |**Number** <br/> |Specifies the locale identifier to be used in evaluating a non-local datetime. The locale identifier is a number described in the system header files. |
-   
+
 ### Return value
 
 Datetime
   
 ## Remarks
 
-If  *datetime*  is missing or cannot be interpreted as a valid date or time, DATETIME returns a #VALUE! error. 
+If  _datetime_  is missing or cannot be interpreted as a valid date or time, DATETIME returns a #VALUE! error.
   
-The returned value is formatted according to the short date style and time style in the system's current Regional Settings. 
+The returned value is formatted according to the short date style and time style in the system's current Regional Settings.
   
-The DATETIME function also accepts a single number value for  *expression*  where the integer portion of the result represents the number of days since December 30, 1899, and the decimal portion represents the fraction of a day since midnight. 
+The DATETIME function also accepts a single number value for  _expression_  where the integer portion of the result represents the number of days since December 30, 1899, and the decimal portion represents the fraction of a day since midnight.
   
 ## Example 1
 
@@ -66,4 +66,3 @@ DATETIME(35580.6337)
   
 Returns the value representing 5/30/1997 3:12:32 PM.
   
-
