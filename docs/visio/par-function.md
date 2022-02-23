@@ -1,7 +1,5 @@
 ---
 title: "PAR Function"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,26 +14,25 @@ description: "Returns the x,y coordinates of a point in the coordinate system of
 
 # PAR Function
 
-Returns the  _x,y_ coordinates of a point in the coordinate system of the shape's parent. 
+Returns the  _x,y_ coordinates of a point in the coordinate system of the shape's parent.
   
 ## Syntax
 
-PAR(** *point* ** ) 
+PAR(***point*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _point_ <br/> |Required  <br/> |**Number, Number** <br/> |The coordinates of the point in the coordinate system of the current shape. |
-   
+
 ## Remarks
 
-In Microsoft Visio, a point is a single value that embodies a pair of  *x*  - and  *y*  -coordinates. If the shape is in a group, its parent is the group. If the shape is not in a group, its parent is the page. 
+In Microsoft Visio, a point is a single value that embodies a pair of *x* - and *y* -coordinates. If the shape is in a group, its parent is the group. If the shape is not in a group, its parent is the page.
   
 ## Example
 
-PAR(PNT(PinX,PinY)) 
+PAR(PNT(PinX,PinY))
   
-In this expression, PNT converts a pair of coordinates in the current shape into a point. PAR then converts the point into a pair of coordinates in relation to the lower-left corner of the page or group that contains the current shape. 
+In this expression, PNT converts a pair of coordinates in the current shape into a point. PAR then converts the point into a pair of coordinates in relation to the lower-left corner of the page or group that contains the current shape.
   
-

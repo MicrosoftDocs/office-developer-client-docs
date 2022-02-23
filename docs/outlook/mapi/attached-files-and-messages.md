@@ -32,6 +32,7 @@ If MIME is used without TNEF, attached files are sent as MIME message content pa
 
   - Content-Transfer-Encoding: base64 *
 
+
 On outbound messages, the content-type should be derived from the filename's three-letter extension. This mapping exists in the system registry; under there is a string value named "Content Type" that gives the MIME content type if one is defined. This example is for a TIFF image file:
   
 HKEY_LOCAL_MACHINE\

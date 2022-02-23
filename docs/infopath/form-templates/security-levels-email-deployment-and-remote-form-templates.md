@@ -244,4 +244,5 @@ For example, when a form matches a form template based on Form ID but not on Acc
   
 > [!NOTE]
 > InfoPath forms will not open when the domain is an Internet Explorer Restricted domain; therefore, there is no registry key for Internet Explorer Restricted Sites.
+
   

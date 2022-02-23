@@ -1,7 +1,5 @@
 ---
-title: "SQRT Function"
- 
- 
+title: "SQRT Function" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,30 +14,29 @@ description: "Returns the square root of a number."
 
 # SQRT Function
 
-Returns the square root of a number. 
+Returns the square root of a number.
   
 ## Syntax
 
-SQRT(** *number* ** ) 
+SQRT(***number*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Required  <br/> |**Numeric** <br/> |The number whose square root you want to find. |
-   
+
 ### Return value
 
 Numeric
   
 ## Remarks
 
-If  _number_ is negative, the SQRT function returns the error value #NUM!. 
+If *number* is negative, the SQRT function returns the error value #NUM!.
   
 ## Example
 
-SQRT(2) 
+SQRT(2)
   
-Returns 1.4142. 
+Returns 1.4142.
   
-

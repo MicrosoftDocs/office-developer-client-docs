@@ -33,18 +33,17 @@ _rtmStart_
 _rtmEnd_
   
 > [in] A relative time value for the end of free/busy information. This value is the number of minutes since January 1, 1601.
-    
+
 ## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   
 ## Remarks
 
-This method is used to indicate the time range of calendar items for which to retrieve details. The values of  *ftmStart*  and  *ftmEnd*  are cached and returned in a subsequent call of [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
+This method is used to indicate the time range of calendar items for which to retrieve details. The values of *ftmStart* and *ftmEnd* are cached and returned in a subsequent call of [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md).
   
 ## See also
 
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
-

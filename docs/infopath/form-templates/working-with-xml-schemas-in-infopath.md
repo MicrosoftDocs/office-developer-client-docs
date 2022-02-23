@@ -250,6 +250,7 @@ To illustrate why this XSD segment is nondeterministic, assume you have the foll
 ```
 
 In this XML fragment, it is not clear whether the  *\<file_path\>*  element is the required node from the first part of the choice declaration or the optional one from the second part of the choice declaration. This distinction is important for the following reasons:
+
   
 1. If the XML fragment is validated against the first part of the choice declaration, then the XML is valid against the schema.
 

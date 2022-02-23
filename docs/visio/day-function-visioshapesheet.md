@@ -20,7 +20,7 @@ Returns an integer, 1 to 31, representing the day in  _datetime_ or  _expression
   
 ## Syntax
 
-DAY(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+DAY(" ***datetime*** "| ***expression*** [, ***lcid*** ]) 
   
 ### Parameters
 
