@@ -151,7 +151,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |GeneralInvalidObject = 20009  <br/> |The object is not valid. |
 |GeneralSecurityAccessDenied = 20010  <br/> |Access is denied because of security permissions. |
 |GeneralInvalidOperation = 20011  <br/> |The operation is not valid. |
-|GeneralInvalidCharacters = 20012  <br/> |Some characters are not valid. In addition to the TAB character, the following characters are not valid in a project name:  `\ / " : ; < > | , . ' ? * #` <br/> |
+|GeneralInvalidCharacters = 20012  <br/> |Some characters are not valid. In addition to the TAB character, the following characters are not valid in a project name: `\ / " : ; < > | , . ' ? * #` <br/> |
 |GeneralNameTooLong = 20013  <br/> |The name is too long. |
 |GeneralNameCannotBeBlank = 20014  <br/> |The name cannot be blank. Do not use a null or empty string. |
 |GeneralInvalidOperationOnReadOnlyValue = 20016  <br/> |The attempted operation on a read-only value is not valid. |

@@ -1,15 +1,13 @@
 ---
-title: "SYNC"
- 
- 
-manager: soliver
-ms.date: 11/16/2014
+title: "SYNC" 
+manager: lindalu
+ms.date: 02/22/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3f07fddf-4c42-6ea7-162d-57022166a83f
-description: "Last modified: July 23, 2011"
+description: "Information for starting synchronization between a local store and a server."
 ---
 
 # SYNC
@@ -54,10 +52,8 @@ struct SYNC
 
   - [out] Synchronization was successful. The client sets this after uploading or a full synchronization completes.
 
--
-
-    > [!NOTE]
-    > Even though the client can either upload or fully synchronize (upload then download) folders and items with the Replication API, the client specifies *ulFlags* with only one direction of the replication at a time — either the **UPS_UPLOAD_ONLY** or **UPS_DNLOAD_ONLY** flag. In the case of a full synchronization, the client first does an upload with the **UPS_UPLOAD_ONLY** flag, and then a download with the **UPS_DNLOAD_ONLY** flag. 
+      > [!NOTE]
+      > Even though the client can either upload or fully synchronize (upload then download) folders and items with the Replication API, the client specifies *ulFlags* with only one direction of the replication at a time — either the **UPS_UPLOAD_ONLY** or **UPS_DNLOAD_ONLY** flag. In the case of a full synchronization, the client first does an upload with the **UPS_UPLOAD_ONLY** flag, and then a download with the **UPS_DNLOAD_ONLY** flag. 
   
  _pwzPath_
   

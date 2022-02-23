@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 85539a7f-74b6-4267-86ea-00da2c900c34
-description: "Last modified: March 09, 2015"
+description: "Learn how to choose a specific version of MAPI to load."
 ---
 
 # Choose a specific version of MAPI to load
@@ -18,15 +18,13 @@ When linking explicitly to an implementation of MAPI, you must carefully select 
   
 There are two methods to link explicitly to an implementation of MAPI.
   
-1. You can load the MAPI stub library, and specify in the registry a custom DLL to load and dispatch MAPI calls to.
+1. Load the MAPI stub library, and specify in the registry a custom DLL to load and dispatch MAPI calls to. Or,
 
-2. You can implement the MAPI client lookup algorithm to look up the version of MAPI used by the default mail client and load it.
+2. Implement the MAPI client lookup algorithm to look up the version of MAPI used by the default mail client and load it.
 
 Because you can change the [Mapi32.dll Stub Registry Settings](https://msdn.microsoft.com/library/ms531218%28EXCHG.10%29.aspx) to direct your application to use any implementation of MAPI, we recommend that you direct your application to use an implementation of MAPI that you have tested with. The following describes both methods of linking explicitly.
   
-## Reading from the registry
-
-### To read MAPI implementation information from the registry
+## Read MAPI implementation information from the registry
 
 1. The registry keys that indicate a custom DLL for a mail client are located under the `HKLM\Software\Clients\Mail` key of the mail client.
 
@@ -34,15 +32,15 @@ Because you can change the [Mapi32.dll Stub Registry Settings](https://msdn.micr
 
    |**Key**|**Description**|
    |:-----|:-----|
-   |MSIComponentID  <br/> |A Windows Installer PublishComponent category ID (GUID) that identifies the DLL that exports simple MAPI or MAPI calls. If set, this key takes precedence over the **DLLPath** or **DLLPathEx** key. |
-   |MSIApplicationLCID  <br/> |Locale identifier (LCID) for your application. The first string value identifies a sub-key from  HKLM\Software` and subsequent string values identify registry values underneath this key that contain locale information. |
-   |MSIOfficeLCID  <br/> |LCIDs for Microsoft Office. The first string value identifies a sub-key from `HKLM\Software` and subsequent string values identify registry values underneath this key. |
+   | MSIComponentID <br/> |A Windows Installer PublishComponent category ID (GUID) that identifies the DLL that exports simple MAPI or MAPI calls. If set, this key takes precedence over the **DLLPath** or **DLLPathEx** key. |
+   | MSIApplicationLCID <br/> |Locale identifier (LCID) for your application. The first string value identifies a sub-key from  HKLM\Software` and subsequent string values identify registry values underneath this key that contain locale information. |
+   | MSIOfficeLCID  <br/> |LCIDs for Microsoft Office. The first string value identifies a sub-key from `HKLM\Software` and subsequent string values identify registry values underneath this key. |
 
    Obtain the information from these keys.
 
 2. Pass the values that you obtained from the previous step to the [FGetComponentPath](fgetcomponentpath.md) function. **FGetComponentPath** is a function that is exported by the MAPI stub library Mapistub.dll. It returns the path of the custom version of MAPI.
 
-### To load the implementation of MAPI marked as default
+## Loading the implementation of MAPI marked as default
 
 1. Read the `HKLM\Software\Clients\Mail::(default)` registry value.
 
@@ -51,7 +49,7 @@ Because you can change the [Mapi32.dll Stub Registry Settings](https://msdn.micr
 > [!NOTE]
 > Note that the default mail client might not implement Extended MAPI.
   
-#### Example
+### Example
 
 To load MAPI as implemented by Outlook, look up the registry keys under `HKLM\Software\Clients\Mail\Microsoft Outlook` and pass them to **FGetComponentPath**. **FGetComponentPath** will return the path for Outlook's implementation of MAPI.
   
