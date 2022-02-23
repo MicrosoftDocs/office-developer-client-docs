@@ -16,24 +16,23 @@ The sample Outlook Social Connector (OSC) provider templates give you a framewor
   
 ### To apply an OSC provider template
 
-1. On the **Start** menu, right-click **Microsoft Visual Studio 2010** and click the **Run as administrator** command. When prompted, click **Yes** to run Visual Studio as an administrator. 
-    
+1. On the **Start** menu, right-click **Microsoft Visual Studio 2010** and click the **Run as administrator** command. When prompted, click **Yes** to run Visual Studio as an administrator.
+
 2. Change the project name and namespace in the template to your project name and namespace identifiers.
-    
-3. Modify the **AssemblyInfo** class to specify the appropriate assembly information. 
-    
-4. Implement the interface members marked as **To-Do** and add more dependencies and references, as required. 
-    
+
+3. Modify the **AssemblyInfo** class to specify the appropriate assembly information.
+
+4. Implement the interface members marked as **To-Do** and add more dependencies and references, as required.
+
 5. Build the project.
-    
-6. Ensure that the provider assembly ProgID is listed as a key under  `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`.
-    
+
+6. Ensure that the provider assembly ProgID is listed as a key under `HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\SocialConnector\SocialProviders`.
+
 7. To distribute the setup project, create a setup project in Visual Studio or a setup tool of your choice.
-    
+
 8. Your setup project should complete COM registration for your assembly and also create the ProgID key as listed in step 5.
-    
+
 ## See also
 
 - [Downloading the Samples](downloading-the-samples.md)
 - [OSC Sample Templates](osc-sample-templates.md)
-

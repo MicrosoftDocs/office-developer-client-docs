@@ -12,33 +12,33 @@ description: "The XML example in this topic is an activity feed XML string retur
 
 # Activity Feed XML Example
 
-The XML example in this topic is an activity feed XML string returned to the Outlook Social Connector (OSC) after it calls the [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) method for a social network. 
+The XML example in this topic is an activity feed XML string returned to the Outlook Social Connector (OSC) after it calls the [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) method for a social network.
   
-The example shows the **activityFeed** XML that contains the following four activities, each delimited by the **activityDetails** element and matching a template for display purposes: 
+The example shows the **activityFeed** XML that contains the following four activities, each delimited by the **activityDetails** element and matching a template for display purposes:
   
 - A profile picture update by Melissa Macbeth, whose **ownerID** on the social network is 4667647. This activity specifies three template variables of type **publisherVariable**, **listVariable**, and **pictureVariable** (which is enclosed in **listVariable**). These variables specify the person who published the activity feed item, and information for the picture to be updated (by using the **name**, **value**, **altText**, and **href** child elements of **pictureVariable**).
-    
+
 - A profile picture update by Michael Affronti whose **ownerID** on the social network is 5015012. Similar to the last activity, this activity specifies three template variables of type **publisherVariable**, **listVariable**, and **pictureVariable**. These variables specify the person who published the activity feed item and information for the picture to be updated.
-    
-- A status update by Michael Affronti, showing the same **ownerID** of 5015012 as the last activity. This activity specifies two template variables of type **publisherVariable** and **textVariable**. **publisherVariable** specifies the person who published the activity feed item, and **textVariable** includes a **value** of the status line  `is hiking on Mount Rainier this weekend!`
-    
+
+- A status update by Michael Affronti, showing the same **ownerID** of 5015012 as the last activity. This activity specifies two template variables of type **publisherVariable** and **textVariable**. **publisherVariable** specifies the person who published the activity feed item, and **textVariable** includes a **value** of the status line `is hiking on Mount Rainier this weekend!`
+
 - A blog post by Michael Affronti, showing the same **ownerID** of 5015012 as the last two activities. This activity specifies two template variables of type **publisherVariable** and **linkVariable**. **publisherVariable** specifies the person who published the activity feed item, and **linkVariable** includes further information (specified by the **name**, **text**, and **value** child elements of **linkVariable**) about the blog post.
-    
-Each of the four activities specifies a **templateID** value, which matches one of the three templates specified by the **templates** element. Each template is in its own **activityTemplateContainer** element, identified by a **templateID** value that is also used to display an activity that has the same **templateID** value. 
+
+Each of the four activities specifies a **templateID** value, which matches one of the three templates specified by the **templates** element. Each template is in its own **activityTemplateContainer** element, identified by a **templateID** value that is also used to display an activity that has the same **templateID** value.
   
-For a detailed description of the XML elements used in the example, see the following topics: 
+For a detailed description of the XML elements used in the example, see the following topics:
   
 - [Overview of XML for an Activity Feed Item](overview-of-xml-for-an-activity-feed-item.md)
-    
+
 - [activityDetails Element](activitydetails-element.md)
-    
+
 - [activityTemplateContainer Element](activitytemplatecontainer-element.md)
-    
+
 - [Template Variables](template-variables.md)
-    
+
 ## XML example
 
-The following example shows the **activityFeed** XML of four activities: two profile picture updates, a status update, and a blog post. The XML also specifies three activity display templates for displaying the corresponding activities. 
+The following example shows the **activityFeed** XML of four activities: two profile picture updates, a status update, and a blog post. The XML also specifies three activity display templates for displaying the corresponding activities.
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -176,8 +176,7 @@ The following example shows the **activityFeed** XML of four activities: two pro
 ## See also
 
 - [OSC Provider XML Examples](osc-provider-xml-examples.md)  
-- [XML for Activities](xml-for-activities.md) 
+- [XML for Activities](xml-for-activities.md)
 - [Capabilities XML Example](capabilities-xml-example.md)  
 - [Friends XML Example](friends-xml-example.md)
 - [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
-
