@@ -33,7 +33,7 @@ Because you can change the [Mapi32.dll Stub Registry Settings](https://msdn.micr
    |**Key**|**Description**|
    |:-----|:-----|
    | MSIComponentID <br/> |A Windows Installer PublishComponent category ID (GUID) that identifies the DLL that exports simple MAPI or MAPI calls. If set, this key takes precedence over the **DLLPath** or **DLLPathEx** key. |
-   | MSIApplicationLCID <br/> |Locale identifier (LCID) for your application. The first string value identifies a sub-key from  HKLM\Software` and subsequent string values identify registry values underneath this key that contain locale information. |
+   | MSIApplicationLCID <br/> |Locale identifier (LCID) for your application. The first string value identifies a sub-key from `HKLM\Software` and subsequent string values identify registry values underneath this key that contain locale information. |
    | MSIOfficeLCID  <br/> |LCIDs for Microsoft Office. The first string value identifies a sub-key from `HKLM\Software` and subsequent string values identify registry values underneath this key. |
 
    Obtain the information from these keys.
