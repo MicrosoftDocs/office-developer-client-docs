@@ -15,7 +15,7 @@ ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
 
 # xlfRegisterId
 
-**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Can be called from a DLL that has itself been called by Microsoft Excel. If a function is already registered, it returns the existing register ID for that function without reregistering it. If a function is not yet registered, it registers it and returns the resulting register ID.
   
@@ -45,11 +45,10 @@ Returns the register ID of the function (**xltypeNum**), which can be used in su
 
 This function is useful when you do not want to worry about maintaining a register ID, but you need one later for unregistering. It is also useful for assigning to menus, tools, and buttons when the function you want to assign is in a DLL.
   
-Where a DLL or XLL function has been registered with a valid  _pxFunctionText_ argument having been supplied to **xlfRegister**, its register ID can also be obtained by passing the  _pxFunctionText_ to the function **xlfEvaluate**.
+Where a DLL or XLL function has been registered with a valid _pxFunctionText_ argument having been supplied to **xlfRegister**, its register ID can also be obtained by passing the _pxFunctionText_ to the function **xlfEvaluate**.
   
 ## See also
 
 - [REGISTER](xlfregister-form-1.md)
 - [UNREGISTER](xlfunregister-form-1.md)
 - [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
-
