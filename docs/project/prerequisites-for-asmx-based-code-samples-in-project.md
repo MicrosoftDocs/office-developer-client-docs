@@ -50,7 +50,7 @@ Before running the code samples, you must set up the development environment, co
 
    1. **Install the correct version of Visual Studio.** Except where noted, the code samples are written in Visual C#. They can be used with Visual Studio 2010 or Visual Studio 2012. Ensure that you have the most recent service pack installed.
 
-   2. **Copy Project Server DLLs to the development computer.** Copy the following assemblies from  `[Program Files]\Microsoft Office Servers\15.0\Bin` on the Project Server computer to the development computer:
+   2. **Copy Project Server DLLs to the development computer.** Copy the following assemblies from `[Program Files]\Microsoft Office Servers\15.0\Bin` on the Project Server computer to the development computer:
 
       - Microsoft.Office.Project.Server.Events.Receivers.dll
       - Microsoft.Office.Project.Server.Library.dll
@@ -61,7 +61,7 @@ Before running the code samples, you must set up the development environment, co
 
     To use IntelliSense descriptions for classes and members in Project Server assemblies, copy the updated IntelliSense XML files from the Project 2013 SDK download to the same directory where the Project Server assemblies are located. For example, copy the Microsoft.Office.Project.Server.Library.xml file to the directory where your application will set a reference to the Microsoft.Office.Project.Server.Library.dll assembly.
 
-    IntelliSense descriptions for the PSI web services require that you create a PSI proxy assembly by using the CompileASMXProxyAssembly.cmd script in the  `Documentation\IntelliSense\WSDL` subdirectory in the Project 2013 SDK download. The script creates the ASMX-based ProjectServerServices.dll proxy assembly. For more information, see the [ReadMe_IntelliSense] file in the SDK download.
+    IntelliSense descriptions for the PSI web services require that you create a PSI proxy assembly by using the CompileASMXProxyAssembly.cmd script in the `Documentation\IntelliSense\WSDL` subdirectory in the Project 2013 SDK download. The script creates the ASMX-based ProjectServerServices.dll proxy assembly. For more information, see the [ReadMe_IntelliSense] file in the SDK download.
 
 ## Creating the application and adding a web service reference
 
@@ -105,11 +105,11 @@ Before running the code samples, you must set up the development environment, co
 
 ### Using a PSI proxy assembly and IntelliSense descriptions
 
-You can build and use the ProjectServerServices.dll proxy assembly for all ASMX-based web services in the PSI, by using the CompileASMXProxyAssembly.cmd script in the  `Documentation\IntelliSense\WSDL` folder of the Project 2013 SDK download. For a link to the download, see [Project 2013 developer documentation](project-2013-developer-documentation.md).
+You can build and use the ProjectServerServices.dll proxy assembly for all ASMX-based web services in the PSI, by using the CompileASMXProxyAssembly.cmd script in the `Documentation\IntelliSense\WSDL` folder of the Project 2013 SDK download. For a link to the download, see [Project 2013 developer documentation](project-2013-developer-documentation.md).
   
 > [!NOTE]
-> When you extract the proxy source files from the Source.zip file, the files in the  `Documentation\IntelliSense\WSDL\Source` folder are current as of the publication date of the Project 2013 SDK download. To generate updated PSI proxy source files, run the GenASMXProxyAssembly.cmd script on the Project Server computer.
-> The scripts in the  `Documentation\IntelliSense\WCF` folder do not work for ASMX-based applications. The GenWCFProxyAssembly.cmd script calls SvcUtil.exe, which generates source code files for the WCF services. The WCF proxy files include different attributes, the channel interface, and a client class for each PSI service. For example, the WCF-based Resource service includes the **ResourceChannel** interface, the **Resource** interface, and the **ResourceClient** class. The ASMX-based Resource web includes the **Resource** class with some different properties.
+> When you extract the proxy source files from the Source.zip file, the files in the `Documentation\IntelliSense\WSDL\Source` folder are current as of the publication date of the Project 2013 SDK download. To generate updated PSI proxy source files, run the GenASMXProxyAssembly.cmd script on the Project Server computer.
+> The scripts in the `Documentation\IntelliSense\WCF` folder do not work for ASMX-based applications. The GenWCFProxyAssembly.cmd script calls SvcUtil.exe, which generates source code files for the WCF services. The WCF proxy files include different attributes, the channel interface, and a client class for each PSI service. For example, the WCF-based Resource service includes the **ResourceChannel** interface, the **Resource** interface, and the **ResourceClient** class. The ASMX-based Resource web includes the **Resource** class with some different properties.
   
 Following is the GenASMXProxyAssembly.cmd script that generates WSDL output files for the PSI web services, and then compiles the assembly.
   
@@ -182,7 +182,7 @@ Disadvantages to using the proxy assembly are that the solution is larger and yo
 
 <a name="pj15_PrerequisitesASMX_AddingProxyFile"> </a>
 
-The Project 2013 SDK download includes the source files generated by the Wsdl.exe command for the proxy assembly. The source files are in Source.zip in the  `Documentation\IntelliSense\ASMX` subdirectory. Instead of setting a reference to the proxy assembly, you can add one or more of the source files to a Visual Studio solution. For example, after running the GenASMXProxyAssembly.cmd script, add the wsdl.Project.cs file to the solution. Instead of running the script, you can run the following commands to generate a single source file, for example:
+The Project 2013 SDK download includes the source files generated by the Wsdl.exe command for the proxy assembly. The source files are in Source.zip in the `Documentation\IntelliSense\ASMX` subdirectory. Instead of setting a reference to the proxy assembly, you can add one or more of the source files to a Visual Studio solution. For example, after running the GenASMXProxyAssembly.cmd script, add the wsdl.Project.cs file to the solution. Instead of running the script, you can run the following commands to generate a single source file, for example:
   
 ```MS-DOS
 set VDIR=https://ServerName/ProjectServerName/_vti_bin/psi
@@ -225,7 +225,7 @@ If you do not use the ASMX-based proxy assembly or add a WSDL output file, you c
 
 4. In the **URL** text box, type `https:// _ServerName_/ _ProjectServerName_/_vti_bin/psi/ _ServiceName_.asmx?wsdl`, and then press **Enter** or choose the **Go** icon. If you have Secure Sockets Layer (SSL) installed, you should use the HTTPS protocol instead of the HTTP protocol.
 
-   For example, use the following URL for the Project service on the  `https://MyServer/pwa` site for Project Web App: `https://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
+   For example, use the following URL for the Project service on the `https://MyServer/pwa` site for Project Web App: `https://MyServer/pwa/_vti_bin/psi/project.asmx?wsdl`
 
    Or, open your web browser, and navigate to `https://ServerName/ProjectServerName/_vti_bin/psi/ServiceName.asmx?wsdl`. Save the file to a local directory, such as `C:\Project\WebServices\ServiceName.wsdl`. In the **Add Web Reference** dialog box, for **URL**, type the file protocol and the path to the file. For example, type `file://C:\Project\WebServices\Project.wsdl`.
 

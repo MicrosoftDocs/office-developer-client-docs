@@ -42,7 +42,7 @@ Before running the code samples, you must set up the development environment, co
 
     1. **Install the correct version of Visual Studio.** Except where noted, the code samples are written in Visual C#. They can be used with Visual Studio 2010 or Visual Studio 2012. Ensure that you have the most recent service pack installed.
 
-    2. **Copy Project Server DLLs to the development computer.** Copy the following assemblies from  `[Program Files]\Microsoft Office Servers\15.0\Bin` on the Project Server computer to the development computer:
+    2. **Copy Project Server DLLs to the development computer.** Copy the following assemblies from `[Program Files]\Microsoft Office Servers\15.0\Bin` on the Project Server computer to the development computer:
 
        - Microsoft.Office.Project.Server.Events.Receivers.dll
 
@@ -54,7 +54,7 @@ Before running the code samples, you must set up the development environment, co
 
     To use IntelliSense descriptions for classes and members in Project Server assemblies, copy the updated IntelliSense XML files from the Project 2013 SDK download to the same directory where the Project Server assemblies are located. For example, copy the Microsoft.Office.Project.Server.Library.xml file to the directory where your application will set a reference to the Microsoft.Office.Project.Server.Library.dll assembly.
 
-    IntelliSense descriptions for the PSI services require that you create a PSI proxy assembly by using the CompileWCFProxyAssembly.cmd script in the  `Documentation\IntelliSense\WCF` subdirectory in the Project 2013 SDK download. The script creates the WCF-based ProjectServerServices.dll proxy assembly. For more information, see the [ReadMe_IntelliSense].mht file in the SDK download.
+    IntelliSense descriptions for the PSI services require that you create a PSI proxy assembly by using the CompileWCFProxyAssembly.cmd script in the `Documentation\IntelliSense\WCF` subdirectory in the Project 2013 SDK download. The script creates the WCF-based ProjectServerServices.dll proxy assembly. For more information, see the [ReadMe_IntelliSense].mht file in the SDK download.
 
 ## Creating the application and adding a service reference
 
@@ -100,14 +100,14 @@ Before running the code samples, you must set up the development environment, co
 
 <a name="pj15_PrerequisitesWCF_BuildingProxy"> </a>
 
-You can use a proxy assembly for all public WCF services in the PSI. Compile the ProjectServerServices.dll proxy assembly by using the  `Documentation\IntelliSense\WCF\CompileWCFProxyAssembly.cmd` script in the Project 2013 SDK download, and then copy the proxy assembly to your development computer. Copy the ProjectServerServices.xml file for IntelliSense to the same location. In Visual Studio, set a reference to the ProjectServerServices.dll proxy assembly.
+You can use a proxy assembly for all public WCF services in the PSI. Compile the ProjectServerServices.dll proxy assembly by using the `Documentation\IntelliSense\WCF\CompileWCFProxyAssembly.cmd` script in the Project 2013 SDK download, and then copy the proxy assembly to your development computer. Copy the ProjectServerServices.xml file for IntelliSense to the same location. In Visual Studio, set a reference to the ProjectServerServices.dll proxy assembly.
   
 For Project Server service packs and updates, you can update the proxy source files and create a new proxy assembly by using the GenWCFProxyAssembly.cmd script in the same SDK download folder. For a link to the SDK download, see [Project 2013 developer documentation](project-2013-developer-documentation.md). For more information, see the [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference) section.
   
 > [!NOTE]
-> When you extract the proxy source files from the Source.zip file, the files in the  `Documentation\IntelliSense\WCF\Source` folder are current as of the publication date of the Project 2013 SDK download. To generate updated PSI proxy source files, run the GenASMXProxyAssembly.cmd script on the Project Server computer. For more information, see [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference).
+> When you extract the proxy source files from the Source.zip file, the files in the `Documentation\IntelliSense\WCF\Source` folder are current as of the publication date of the Project 2013 SDK download. To generate updated PSI proxy source files, run the GenASMXProxyAssembly.cmd script on the Project Server computer. For more information, see [Adding a service reference](#pj15_PrerequisitesWCF_AddingServiceReference).
 >
-> The scripts in the  `Documentation\IntelliSense\ASMX` folder do not work for WCF-based applications. The GenASMXProxyAssembly.cmd script calls Wsdl.exe, which generates source code files for the ASMX services. The ASMX proxy files include different classes and properties. For example, the ASMX-based Resource web service includes the **Resource** class, whereas the WCF-based Resource service includes the **Resource** interface, the **ResourceChannel** interface, and the **ResourceClient** class.
+> The scripts in the `Documentation\IntelliSense\ASMX` folder do not work for WCF-based applications. The GenASMXProxyAssembly.cmd script calls Wsdl.exe, which generates source code files for the ASMX services. The ASMX proxy files include different classes and properties. For example, the ASMX-based Resource web service includes the **Resource** class, whereas the WCF-based Resource service includes the **Resource** interface, the **ResourceChannel** interface, and the **ResourceClient** class.
   
 The arbitrary namespaces created for both the ASMX web services and the WCF services are the same, so that the ProjectServerServices.xml file for IntelliSense works with either assembly. For example, the namespace of the Resource service in the WCF-based proxy assembly and in the ASMX-based proxy assembly is **SvcResource**. You can, of course, change the namespace names— if you ensure that they match in the proxy assembly and in the ProjectServerServices.xml IntelliSense file.
   
@@ -119,7 +119,7 @@ Advantages to using the WCF-based proxy assembly include the following:
 
 - The proxy assembly includes all PSI service namespaces, so you do not have to add multiple proxy files.
 
-- If you add the ProjectServerServices.xml file to the same directory where you set a reference to the ProjectServerServices.dll proxy assembly, you can get IntelliSense descriptions for the PSI classes and members. For more information, see the [ReadMe_IntelliSense] file in the  `Documentation\IntelliSense` folder of the Project 2013 SDK download.
+- If you add the ProjectServerServices.xml file to the same directory where you set a reference to the ProjectServerServices.dll proxy assembly, you can get IntelliSense descriptions for the PSI classes and members. For more information, see the [ReadMe_IntelliSense] file in the `Documentation\IntelliSense` folder of the Project 2013 SDK download.
 
 **Figure 2. Using IntelliSense for a method in the Resource service**
 
@@ -131,7 +131,7 @@ Disadvantages to using the proxy assembly are that the solution is larger and yo
 
 <a name="pj15_PrerequisitesWCF_AddingProxyFile"> </a>
 
-The Project 2013 SDK download includes the source files that are generated by the SvcUtil.exe command for the proxy assembly. The source files are in the Source.zip file in the  `Documentation\IntelliSense\WCF` subdirectory. Instead of setting a reference to the proxy assembly, you can add one or more of the source files to a Visual Studio solution. For example, to use the Project service and the Resource service, add the wcf.Project.cs and wcf.Resource.cs files to the solution.
+The Project 2013 SDK download includes the source files that are generated by the SvcUtil.exe command for the proxy assembly. The source files are in the Source.zip file in the `Documentation\IntelliSense\WCF` subdirectory. Instead of setting a reference to the proxy assembly, you can add one or more of the source files to a Visual Studio solution. For example, to use the Project service and the Resource service, add the wcf.Project.cs and wcf.Resource.cs files to the solution.
   
 In WCF, the primary class in each PSI service is defined by an interface and implemented in a client class for access to the members. For example, the **SvcProject.Resource** interface is implemented in the **SvcProject.ResourceClient** class. To define a **ResourceClient** object as a class variable named **resourceClient**, for example, use the following code. In the example, the **SetClientEndpoints** method creates a **resourceClient** object that uses the **basicHttp_Project** endpoint, which is defined in the app.config file. For more information about the app.config file, see the [Adding a service configuration file](#pj15_PrerequisitesWCF_AddConfig) section.
   
@@ -157,7 +157,7 @@ public void DisposeClients()
 
 <a name="pj15_PrerequisitesWCF_AddingServiceReference"> </a>
 
-If you do not use the WCF-based proxy assembly or add a proxy file for a PSI service, you can set one or more individual service references directly in Visual Studio. You can also use step 1 of the following procedure to create updated proxy files, to prepare for the  `Documentation\IntelliSense\WCF\GenWCFProxyAssembly.cmd` script that is included in the Project 2013 SDK download.
+If you do not use the WCF-based proxy assembly or add a proxy file for a PSI service, you can set one or more individual service references directly in Visual Studio. You can also use step 1 of the following procedure to create updated proxy files, to prepare for the `Documentation\IntelliSense\WCF\GenWCFProxyAssembly.cmd` script that is included in the Project 2013 SDK download.
   
 > [!NOTE]
 > To set a service reference, you must use Visual Studio on the Project Server computer. We recommend that you use the ProjectServerServices.dll proxy assembly or add proxy source files, instead of directly adding service references in Visual Studio.
@@ -172,7 +172,7 @@ The following steps show how to set a service reference by using Visual Studio 2
 
    You can get the name of the Project Server Service virtual directory in one of the following ways:
 
-   - Open the SharePoint 2013 Central Administration application in your browser. Choose **Manage service applications**, and then choose the Project Server PSI Service application that you want. For example, choose **ProjectServerService**. The URL of the Manage Project Web App Sites page contains the virtual directory name. For example, in  `https://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, the virtual directory name is  `534c37eb00d74ccfadcecf9827e95239` (the directory name contains no dashes).
+   - Open the SharePoint 2013 Central Administration application in your browser. Choose **Manage service applications**, and then choose the Project Server PSI Service application that you want. For example, choose **ProjectServerService**. The URL of the Manage Project Web App Sites page contains the virtual directory name. For example, in `https://ServerName:8080/_admin/pwa/managepwa.aspx?appid=534c37eb-00d7-4ccf-adce-cf9827e95239`, the virtual directory name is `534c37eb00d74ccfadcecf9827e95239` (the directory name contains no dashes).
 
    - Open the **Internet Information Services (IIS) Manager** dialog box on the Project Server computer. Expand the **SharePoint Web Services** node in the **Connections** pane, and then expand the service virtual directories below that, until you find the directory that includes a PSI folder. Select the directory, choose **Advanced Settings** in the **Actions** pane, and then copy the directory name in the **Virtual Path** field.
 
@@ -205,7 +205,7 @@ The following steps show how to set a service reference by using Visual Studio 2
       > [!NOTE]
       > Remove the dashes in the GUID to get the virtual directory name.
   
-   URLs such as  `https://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` are standard for Project Server services.
+   URLs such as `https://localhost:32843/534c37eb00d74ccfadcecf9827e95239/PSI/Resource.svc` are standard for Project Server services.
 
 4. After the service reference resolves, type the reference name in the **Namespace** text box. Code examples in the Project 2013 developer documentation use the arbitrary namespace name **Svc _ServiceName_**. For example, the Resource service in the code examples is named **SvcResource**.
 
@@ -213,7 +213,7 @@ The following steps show how to set a service reference by using Visual Studio 2
 
     ![Adding the WCF-based Resource service reference](media/pj15_PrerequisitesWCF_AddSvcReference.gif "Adding the WCF-based Resource service reference")
   
-5. Replace the temporary web.config file in the Project Service directory with the original (renamed to web.config), and then rerun  `iisreset`.
+5. Replace the temporary web.config file in the Project Service directory with the original (renamed to web.config), and then rerun `iisreset`.
 
 ## Setting other references
 
@@ -236,7 +236,7 @@ Local references for the code sample are listed in **using** statements at the t
 
 If an application programmatically configures the WCF services, it does not use a service configuration file. Otherwise, a Windows application or console application uses the **system.serviceModel** element in an app.config file; a web application includes **system.serviceModel** in web.config. For more information about using an app.config file or programmatically configuring the WCF services, see [Walkthrough: Developing PSI applications using WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
-When it generates a service proxy source file, the SvcUtil.exe command also creates an output.config file that is the basis for the default **system.serviceModel** element in an app.config file or web.config file. The Project 2013 SDK download includes a sample output.config file in  `Documentation\IntelliSense\WCF\Source.zip`. For example, the default output.config file that SvcUtil.exe creates for the Resource service includes two bindings, named **BasicHttpBinding_Resource** and **BasicHttpBinding_Resource1**. The **client** element includes two default endpoints. One endpoint is for the secure access to the HTTP address on port 32843 and the other is for normal access on port 32843, as follows:
+When it generates a service proxy source file, the SvcUtil.exe command also creates an output.config file that is the basis for the default **system.serviceModel** element in an app.config file or web.config file. The Project 2013 SDK download includes a sample output.config file in `Documentation\IntelliSense\WCF\Source.zip`. For example, the default output.config file that SvcUtil.exe creates for the Resource service includes two bindings, named **BasicHttpBinding_Resource** and **BasicHttpBinding_Resource1**. The **client** element includes two default endpoints. One endpoint is for the secure access to the HTTP address on port 32843 and the other is for normal access on port 32843, as follows:
   
 ```XML
 <client>
@@ -253,7 +253,7 @@ PSI service configuration does not use the default bindings and endpoints. Proje
   
 1. If you set a reference to the ProjectServerServices.dll proxy assembly, or add the proxy source file for a service, the application does not contain an app.config file. Add a new item to the Visual Studio project. In the **Add New Item** dialog box, choose the **Application Configuration File** template, name it app.config, and then choose **Add**.
 
-2. Delete all text in the app.config file, and then copy the following code into the file. You can use the same binding, for example  `basicHttpConf`, for each service endpoint. If you want to use more than one binding, for example, to bind both HTTP and HTTPS protocols, you must create a binding for each protocol.
+2. Delete all text in the app.config file, and then copy the following code into the file. You can use the same binding, for example `basicHttpConf`, for each service endpoint. If you want to use more than one binding, for example, to bind both HTTP and HTTPS protocols, you must create a binding for each protocol.
 
     ```XML
         <?xml version="1.0" encoding="utf-8" ?>
@@ -292,9 +292,9 @@ PSI service configuration does not use the default bindings and endpoints. Proje
         </configuration>
     ```
 
-3. Replace  `ServerName/ProjectServerName` in the client endpoint address with the name of your server and Project Web App instance.
+3. Replace `ServerName/ProjectServerName` in the client endpoint address with the name of your server and Project Web App instance.
 
-4. Replace  `ServiceName` with the name of the PSI service, such as Resource. Ensure that you replace all three instances of the service name, for example:
+4. Replace `ServiceName` with the name of the PSI service, such as Resource. Ensure that you replace all three instances of the service name, for example:
 
     ```XML
         <endpoint address="https://myserver/pwa/_vti_bin/PSI/ProjectServer.svc"
@@ -324,13 +324,13 @@ PSI service configuration does not use the default bindings and endpoints. Proje
         </client>
     ```
 
-You can edit an app.config file by using the **WCF Service Configuration Editor** in Visual Studio (on the **Tools** menu). Figure 4 shows how to set the **contract** element in the **Microsoft Service Configuration Editor** dialog box. If the solution is using the PSI proxy assembly, open ProjectServerServices.dll in the  `bin\debug` directory of the Visual Studio solution. The **Contract Type Browser** dialog box shows all of the WCF service contracts (see Figure 5).
+You can edit an app.config file by using the **WCF Service Configuration Editor** in Visual Studio (on the **Tools** menu). Figure 4 shows how to set the **contract** element in the **Microsoft Service Configuration Editor** dialog box. If the solution is using the PSI proxy assembly, open ProjectServerServices.dll in the `bin\debug` directory of the Visual Studio solution. The **Contract Type Browser** dialog box shows all of the WCF service contracts (see Figure 5).
   
 **Figure 4. Using the WCF Service Configuration Editor**
 
 ![Using the WCF Service Configuration Editor](media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "Using the WCF Service Configuration Editor")
   
-If the solution is using a service proxy file, such as wcfResource.cs, compile the application and then open the executable file in the  `bin\debug` directory. For more information about editing the app.config file, see [Walkthrough: Developing PSI applications using WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
+If the solution is using a service proxy file, such as wcfResource.cs, compile the application and then open the executable file in the `bin\debug` directory. For more information about editing the app.config file, see [Walkthrough: Developing PSI applications using WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
   
 **Figure 5. Using the Contract Type Browser in the WCF Service Configuration Editor**
 
