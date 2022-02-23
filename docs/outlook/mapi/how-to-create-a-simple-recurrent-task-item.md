@@ -12,7 +12,7 @@ description: "Last modified: July 23, 2011"
 
 # Create a simple recurrent task item
 
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 MAPI can be used to create to create task items. This topic describes how to create a simple recurrent task item.
   
@@ -21,29 +21,29 @@ For information about how to download, view, and run the code from the MFCMAPI a
 ### To create a task item
 
 1. Open a message store. For information on how to open a message store, see [Opening a Message Store](opening-a-message-store.md).
-    
+
 2. Open the Tasks folder in the message store. For more information, see **PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md)).
-    
-3. Call the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method on the Tasks folder to create the new task item. 
-    
+
+3. Call the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method on the Tasks folder to create the new task item.
+
 4. Set the **dispidTaskRecur** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) property and other task-related properties required to create a recurrent task.
-    
+
 5. Save the new task item.
-    
-The  `AddTask` function in the Tasks.cpp source file of the CreateOutlookItemsAddin project demonstrates these steps. The  `AddTask` function takes parameters from the **Add Task** dialog box that is displayed when you click **Add Task** on the **Addins** menu in the MFCMAPI sample application. The  `DisplayAddTaskDialog` function in Tasks.cpp displays the dialog box and passes values from the dialog box to the  `AddTask` function. The  `DisplayAddTaskDialog` function does not relate directly to creating a task item using MAPI, so it is not listed here. 
+
+The `AddTask` function in the Tasks.cpp source file of the CreateOutlookItemsAddin project demonstrates these steps. The `AddTask` function takes parameters from the **Add Task** dialog box that is displayed when you click **Add Task** on the **Addins** menu in the MFCMAPI sample application. The `DisplayAddTaskDialog` function in Tasks.cpp displays the dialog box and passes values from the dialog box to the `AddTask` function. The `DisplayAddTaskDialog` function does not relate directly to creating a task item using MAPI, so it is not listed here.
   
 > [!IMPORTANT]
-> The code in the MFCMAPI application does not ensure that the **Tasks** folder has been selected when you click the **Add Task** command on the **Addins** menu. Creating task items in a folder other than the **Tasks** folder can cause undefined behavior. Make sure that you have selected the **Tasks** folder before using the **Add Task** command in the MFCMAPI application. 
+> The code in the MFCMAPI application does not ensure that the **Tasks** folder has been selected when you click the **Add Task** command on the **Addins** menu. Creating task items in a folder other than the **Tasks** folder can cause undefined behavior. Make sure that you have selected the **Tasks** folder before using the **Add Task** command in the MFCMAPI application.
   
-The  `AddTask` function is listed below. Note that the  _lpFolder_ parameter passed to the  `AddTask` function is a pointer to an [IMAPIFolder](imapifolderimapicontainer.md) interface that represents the folder where the new task is created. Given the  _lpFolder_ that represents an **IMAPIFolder** interface, the code calls the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method. The **CreateMessage** method returns a success code and a pointer to a pointer to an **IMessage** interface. Most of the  `AddTask` function code handles the work of specifying properties in preparation for calling the [IMAPIProp::SetProps](imapiprop-setprops.md) method. If the call to the **SetProps** method succeeds, the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method is called to commit the changes to the store and create a new task item. 
+The `AddTask` function is listed below. Note that the  _lpFolder_ parameter passed to the `AddTask` function is a pointer to an [IMAPIFolder](imapifolderimapicontainer.md) interface that represents the folder where the new task is created. Given the  _lpFolder_ that represents an **IMAPIFolder** interface, the code calls the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method. The **CreateMessage** method returns a success code and a pointer to a pointer to an **IMessage** interface. Most of the `AddTask` function code handles the work of specifying properties in preparation for calling the [IMAPIProp::SetProps](imapiprop-setprops.md) method. If the call to the **SetProps** method succeeds, the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method is called to commit the changes to the store and create a new task item.
   
-The  `AddTask` function sets a number of named properties. For information about named properties and how they are created, see [Using MAPI to Create Outlook 2007 Items](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Because the named properties used for task items occupy multiple property sets, care must be taken when building parameters to pass to the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) method. 
+The `AddTask` function sets a number of named properties. For information about named properties and how they are created, see [Using MAPI to Create Outlook 2007 Items](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Because the named properties used for task items occupy multiple property sets, care must be taken when building parameters to pass to the [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) method.
   
-The  `AddTask` function uses the  `BuildWeeklyTaskRecurrencePattern` helper function to build a structure representing a task recurrence for setting the **dispidTaskRecur** property. For information on the task recurrence structure the  `BuildWeeklyTaskRecurrencePattern` function builds, see [PidLidTaskRecurrence Canonical Property](pidlidtaskrecurrence-canonical-property.md) and [PidLidRecurrencePattern Canonical Property](pidlidrecurrencepattern-canonical-property.md). 
+The `AddTask` function uses the `BuildWeeklyTaskRecurrencePattern` helper function to build a structure representing a task recurrence for setting the **dispidTaskRecur** property. For information on the task recurrence structure the `BuildWeeklyTaskRecurrencePattern` function builds, see [PidLidTaskRecurrence Canonical Property](pidlidtaskrecurrence-canonical-property.md) and [PidLidRecurrencePattern Canonical Property](pidlidrecurrencepattern-canonical-property.md).
 
-Note that while a large variety of recurrence patterns are possible, the  `BuildWeeklyTaskRecurrencePattern` function only builds a weekly recurrence pattern. It is also hard coded for a number of assumptions, such as the calendar type (Gregorian), the first day of the week (Sunday), and the number of modified or deleted instances (none). A more general purpose recurrence pattern creation function would need to accept these sorts of variables as parameters. 
+Note that while a large variety of recurrence patterns are possible, the `BuildWeeklyTaskRecurrencePattern` function only builds a weekly recurrence pattern. It is also hard coded for a number of assumptions, such as the calendar type (Gregorian), the first day of the week (Sunday), and the number of modified or deleted instances (none). A more general purpose recurrence pattern creation function would need to accept these sorts of variables as parameters.
   
-The following is the complete listing of the  `AddTask` function. 
+The following is the complete listing of the `AddTask` function.
   
 ```cpp
 HRESULT AddTask(LPMAPIFOLDER lpFolder,
@@ -174,4 +174,3 @@ HRESULT AddTask(LPMAPIFOLDER lpFolder,
 ## See also
 
 - [Using MAPI to Create Outlook 2007 Items](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
-

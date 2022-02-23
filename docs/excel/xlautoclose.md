@@ -18,11 +18,11 @@ ms.assetid: 147e46cd-d4d7-49eb-acdc-5a2ebc2fb6c2
 
 # xlAutoClose
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Called by Microsoft Excel whenever the XLL is deactivated. The add-in is deactivated when an Excel session ends normally. The add-in can be deactivated by the user during an Excel session, and this function will be called in that case.
   
-Excel does not require an XLL to implement and export this function, although it is advisable so that your XLL can unregister functions and commands, release resources, undo customizations, and so on. If functions and commands are not explicitly unregistered by the XLL, Excel does this after calling the **xlAutoClose** function. 
+Excel does not require an XLL to implement and export this function, although it is advisable so that your XLL can unregister functions and commands, release resources, undo customizations, and so on. If functions and commands are not explicitly unregistered by the XLL, Excel does this after calling the **xlAutoClose** function.
   
 ```cs
 int WINAPI xlAutoClose(void);
@@ -38,31 +38,31 @@ Your implementation of this function must return 1 (**int**).
   
 ## Remarks
 
-Excel calls the **xlAutoClose** function whenever the XLL is deactivated, that is, unloaded from memory. The XLL is deactivated in the following situations: 
+Excel calls the **xlAutoClose** function whenever the XLL is deactivated, that is, unloaded from memory. The XLL is deactivated in the following situations:
   
 - At the normal end of an Excel session if active during that session.
-    
+
 - If explicitly unloaded during an Excel session.
-    
+
 - An XLL can be unloaded in several ways:
-    
+
 - Using the Add-In Manager.
-    
-- From another XLL that calls [xlfUnregister](xlfunregister-form-1.md) with the name of this DLL as the only argument. 
-    
-- From an XLM macro sheet that calls [UNREGISTER](xlfunregister-form-1.md) with the name of this DLL as the only argument. 
-    
+
+- From another XLL that calls [xlfUnregister](xlfunregister-form-1.md) with the name of this DLL as the only argument.
+
+- From an XLM macro sheet that calls [UNREGISTER](xlfunregister-form-1.md) with the name of this DLL as the only argument.
+
 This function should do the following:
   
 - Remove any menus or menu items that were added by the XLL.
-    
+
 - Perform any necessary global cleanup.
-    
-- Delete any names that were created, especially names of exported functions. Remember that registering functions may cause some names to be created, if the fourth argument to **REGISTER** is present. 
-    
+
+- Delete any names that were created, especially names of exported functions. Remember that registering functions may cause some names to be created, if the fourth argument to **REGISTER** is present.
+
 ## Example
 
-See the files  `SAMPLES\EXAMPLE\EXAMPLE.C` and  `SAMPLES\GENERIC\GENERIC.C` for example implementations of this function. The following code is from  `SAMPLES\GENERIC\GENERIC.C`.
+See the files `SAMPLES\EXAMPLE\EXAMPLE.C` and `SAMPLES\GENERIC\GENERIC.C` for example implementations of this function. The following code is from `SAMPLES\GENERIC\GENERIC.C`.
   
 ```cs
 int WINAPI xlAutoClose(void)
@@ -109,10 +109,5 @@ int WINAPI xlAutoClose(void)
 
 ## See also
 
-
-
 [xlAutoOpen](xlautoopen.md)
-
-
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
-

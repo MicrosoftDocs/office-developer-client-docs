@@ -75,7 +75,7 @@ To modify the Project Web App ribbon, you can add a ribbon custom action. The [E
 
    - In the top text box, type the name that you want the app to display in Project Web App. For example, type Quick Status Update.
 
-   - For the site to use for debugging, type the URL of the Project Web App instance. For example, type  `https://ServerName/ProjectServerName` (replacing *ServerName* and *ProjectServerName* with your own values), and then choose **Validate**. If all goes well, Visual Studio shows **Connection successful**. If you get an error message, ensure that the Project Web App URL is correct and that the Project Server computer is configured for app isolation and sideloading of apps. For more information, see the [Prerequisites for creating an app for Project Server 2013](#pj15_StatusingApp_Prerequisites) section.
+   - For the site to use for debugging, type the URL of the Project Web App instance. For example, type `https://ServerName/ProjectServerName` (replacing *ServerName* and *ProjectServerName* with your own values), and then choose **Validate**. If all goes well, Visual Studio shows **Connection successful**. If you get an error message, ensure that the Project Web App URL is correct and that the Project Server computer is configured for app isolation and sideloading of apps. For more information, see the [Prerequisites for creating an app for Project Server 2013](#pj15_StatusingApp_Prerequisites) section.
 
    - In the **How do you want to host your app for SharePoint** drop-down list, choose **SharePoint-hosted**.
 
@@ -153,7 +153,7 @@ The bottom text box and button elements are within **div** elements, so that CSS
 
    The file includes two **asp:Content** elements: The element with the `ContentPlaceHolderID="PlaceHolderAdditionalPageHead"` attribute is added within the page header, and the element with the `ContentPlaceHolderID="PlaceHolderMain"` attribute is placed within the page **body** element.
 
-2. In the  `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">` control for the page header, add a reference to the PS.js file on the Project Server computer. For testing and debugging, you can use PS.debug.js.
+2. In the `<asp:Content ContentPlaceHolderID="PlaceHolderAdditionalPageHead" runat="server">` control for the page header, add a reference to the PS.js file on the Project Server computer. For testing and debugging, you can use PS.debug.js.
 
    ```HTML
      <script type="text/javascript" src="/_layouts/15/ps.debug.js"></script>
@@ -162,7 +162,7 @@ The bottom text box and button elements are within **div** elements, so that CSS
    The app infrastructure uses the `/_layouts/15/` virtual directory for the SharePoint site in IIS. The physical file is `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\PS.debug.js`.
 
    > [!NOTE]
-   > Before you deploy the app for production use, remove  `.debug` from the script references to improve performance.
+   > Before you deploy the app for production use, remove `.debug` from the script references to improve performance.
   
 3. In the `<asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">` control for the page body, delete the generated **div** element, and then add the HTML code for the UI objects. The **table** element contains only a header row. The **Task name** column includes a check box input control. Text for the **caption** element is replaced by the **onGetUserNameSuccess** callback for the **getUserInfo** function in the App.js file.
 
@@ -438,7 +438,7 @@ JavaScript functions in the **QuickStatus** app include the following:
         }
    ```
 
-7. Add the **exitToPwa** function, which uses the **SPHostUrl** query string parameter for the URL of the host Project Web App site. To navigate back to the Tasks page, append  `"/Tasks.aspx"` to the URL. For example, the **spHostUrl** variable would be set to  `https://ServerName/ProjectServerName/Tasks.aspx`.
+7. Add the **exitToPwa** function, which uses the **SPHostUrl** query string parameter for the URL of the host Project Web App site. To navigate back to the Tasks page, append `"/Tasks.aspx"` to the URL. For example, the **spHostUrl** variable would be set to `https://ServerName/ProjectServerName/Tasks.aspx`.
 
    The **getQueryStringParameter** function splits the URL of the **QuickStatus** page to extract and return the specified parameter in the URL options. Following is an example of the **document.URL** value for the **QuickStatus** document (all on one line):
 
@@ -453,7 +453,7 @@ JavaScript functions in the **QuickStatus** app include the following:
             %2Eofficeapps%2Eselfhost%2Ecorp%2Emicrosoft%2Ecom%2Fpwa%2FQuickStatus
    ```
 
-   For the previous URL, the **getQueryStringParameter** function returns the **SPHostUrl** query string value,  `https://ServerName/pwa`.
+   For the previous URL, the **getQueryStringParameter** function returns the **SPHostUrl** query string value, `https://ServerName/pwa`.
 
    ```js
         // Exit the QuickStatus page and go back to the Tasks page in Project Web App.
@@ -482,7 +482,7 @@ If you publish the **QuickStatus** app at this point and add it to Project Web A
 
 ### Adding a ribbon custom action
 
-Ribbon tabs, groups, and controls for Project Web App are specified in the pwaribbon.xml file, which is installed in the  `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\FEATURES\PWARibbon\listtemplates` directory on the computer running Project Server. To help design custom actions for the Project Web App ribbon, the Project 2013 SDK download includes a copy of pwaribbon.xml.
+Ribbon tabs, groups, and controls for Project Web App are specified in the pwaribbon.xml file, which is installed in the `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\FEATURES\PWARibbon\listtemplates` directory on the computer running Project Server. To help design custom actions for the Project Web App ribbon, the Project 2013 SDK download includes a copy of pwaribbon.xml.
   
 Project Web App uses different ribbon definitions for the Tasks page, depending on whether the Project Web App instance uses single entry mode that enables users to enter values for both the timesheet and task status. If you have administrative permissions for Project Web App, to determine the entry mode, choose **PWA Settings** in the drop-down settings menu at the top-right corner of the page. On the PWA Settings page, choose **Timesheet Settings and Defaults**, and then look at the **Single Entry Mode** check box at the bottom of the page.
   
@@ -568,7 +568,7 @@ Although the groups and controls in each region look similar, a control for the 
 
    1. In the **CustomAction** element, delete the **Sequence** attribute and the **Title** attribute.
 
-   2. To add a control to the **Submit** group, find the first group in the  `Ribbon.ContextualTabs.MyWork.Home.Groups` collection in the pwaribbon.xml file, which is the element that begins,  `<Group Id="Ribbon.ContextualTabs.MyWork.Home.Page" Command="PageGroup" Sequence="10" Title="$Resources:pwafeatures,PAGE_PDP_CM_SUBMIT"`. To add a child control to the **Submit** group, the following code shows the correct **Location** attribute of the **CommandUIDefinition** element in the Elements.xml file:
+   2. To add a control to the **Submit** group, find the first group in the `Ribbon.ContextualTabs.MyWork.Home.Groups` collection in the pwaribbon.xml file, which is the element that begins, `<Group Id="Ribbon.ContextualTabs.MyWork.Home.Page" Command="PageGroup" Sequence="10" Title="$Resources:pwafeatures,PAGE_PDP_CM_SUBMIT"`. To add a child control to the **Submit** group, the following code shows the correct **Location** attribute of the **CommandUIDefinition** element in the Elements.xml file:
 
       ```XML
         <CommandUIDefinitions>
@@ -597,15 +597,15 @@ Although the groups and controls in each region look similar, a control for the 
                     ToolTipDescription="Run the QuickStatus app" />
        ```
 
-       - To make the button the third control in the group, the **Sequence** attribute can be any number higher than the  `Sequence="20"` value of the existing **Send Status** control (which is a **FlyoutAnchor** element in pwaribbon.xml). By convention, the sequence numbers of groups and controls are  `10, 20, 30, …`, which enables elements to be inserted in intermediate positions.
+       - To make the button the third control in the group, the **Sequence** attribute can be any number higher than the `Sequence="20"` value of the existing **Send Status** control (which is a **FlyoutAnchor** element in pwaribbon.xml). By convention, the sequence numbers of groups and controls are `10, 20, 30, …`, which enables elements to be inserted in intermediate positions.
 
-       - The **Command** attribute specifies the command to run in the **CommandUIHandler** element (see the following step 5.d). You can simplify the command name to make it easier for the next developer. For example  `Command="Invoke_QuickStatus"` is easier to read than  `Command="Invoke_RibbonQuickStatusActionButtonRequest"`.
+       - The **Command** attribute specifies the command to run in the **CommandUIHandler** element (see the following step 5.d). You can simplify the command name to make it easier for the next developer. For example `Command="Invoke_QuickStatus"` is easier to read than `Command="Invoke_RibbonQuickStatusActionButtonRequest"`.
 
-       - The image attributes specify the 16 x 16-pixel icon and the 32 x 32-pixel icon for the button control. In the default Elements.xml file,  `Image32by32="_layouts/15/images/placeholder32x32.png"` specifies an orange dot. You can extract icons from the image map files (ps16x16.png and ps32x32.png) that are installed in the  `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\1033\IMAGES` directory on the computer running Project Server. For example, the 32 x 32-pixel icon is in the second column of icons from the left and the tenth row down from the top of the ps32x32.png image map (the top of the icon is after the end of the ninth row; 9 rows x 32 pixels/row = 288 pixels).
+       - The image attributes specify the 16 x 16-pixel icon and the 32 x 32-pixel icon for the button control. In the default Elements.xml file, `Image32by32="_layouts/15/images/placeholder32x32.png"` specifies an orange dot. You can extract icons from the image map files (ps16x16.png and ps32x32.png) that are installed in the `[Program Files]\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\1033\IMAGES` directory on the computer running Project Server. For example, the 32 x 32-pixel icon is in the second column of icons from the left and the tenth row down from the top of the ps32x32.png image map (the top of the icon is after the end of the ninth row; 9 rows x 32 pixels/row = 288 pixels).
 
        - To show a tool tip for the button control, add the **ToolTipTitle** attribute and the **ToolTipDescription** attribute.
 
-   4. Change the attributes of the **CommandUIHandler** element. For example, ensure that the **Command** attribute matches the **Command** attribute value for the **Button** element. For the **CommandAction** attribute,  `~appWebUrl` is a placeholder for the URL of the **QuickStatus** webpage. When the ribbon button invokes the **QuickStatus** app, the **{StandardTokens}** token is replaced by URL options that include **SPHostUrl**, **SPLanguage**, **SPClientTag**, **SPProductNumber**, and **SPAppWebUrl**.
+   4. Change the attributes of the **CommandUIHandler** element. For example, ensure that the **Command** attribute matches the **Command** attribute value for the **Button** element. For the **CommandAction** attribute, `~appWebUrl` is a placeholder for the URL of the **QuickStatus** webpage. When the ribbon button invokes the **QuickStatus** app, the **{StandardTokens}** token is replaced by URL options that include **SPHostUrl**, **SPLanguage**, **SPClientTag**, **SPProductNumber**, and **SPAppWebUrl**.
 
         ```XML
             <CommandUIHandlers>
@@ -646,13 +646,13 @@ There are several ways to deploy an app to a SharePoint web application such as 
 
    ![Using the Publish Wizard](media/pj15_CreateStatusingApp_PublishWizard.gif "Using the Publish Wizard")
   
-3. Copy the QuickStatus.app file from the  `~\QuickStatus\bin\Debug\app.publish\1.0.0.0` directory to a convenient directory on the local computer (or to the SharePoint computer for an on-premises installation).
+3. Copy the QuickStatus.app file from the `~\QuickStatus\bin\Debug\app.publish\1.0.0.0` directory to a convenient directory on the local computer (or to the SharePoint computer for an on-premises installation).
 
 4. In SharePoint Central Administration, choose **Apps** in the Quick Launch, and then choose **Manage App Catalog**.
 
 5. If an app catalog does not exist, create a site collection for the app catalog, by following the  *Configure the App Catalog site for a web application*  section in [Manage the App Catalog in SharePoint 2013](https://technet.microsoft.com/library/fp161234.aspx).
 
-   If an app catalog exists, navigate to the site URL on the Manage App Catalog page. For example, in the following steps, the app catalog site is  `https://ServerName/sites/TestApps`.
+   If an app catalog exists, navigate to the site URL on the Manage App Catalog page. For example, in the following steps, the app catalog site is `https://ServerName/sites/TestApps`.
 
 6. On the app catalog page, choose **Apps for SharePoint** in the Quick Launch. On the Apps for SharePoint page, on the **FILES** tab of the ribbon, choose **Upload Document**.
 
@@ -664,7 +664,7 @@ There are several ways to deploy an app to a SharePoint web application such as 
 
    2. **Description** field: Type Test app to update percent complete for tasks in multiple projects.
 
-   3. **Icon URL** fields: Add a 96 x 96-pixel image for the app icon to the site assets for the app catalog. For example, navigate to  `https://ServerName/sites/TestApps`, choose **Site contents** in the **Settings** drop-down menu, choose **Site Assets**, and then add the quickStatusApp.png image. Right-click the **quickStatusApp** item, choose **Properties**, and then copy the **Address (URL)** value in the **Properties** dialog box. For example, copy  `https://ServerName/sites/TestApps/SiteAssets/QuickStatusApp.png`, and then paste the value in the **Icon URL** web address field. Type a description for the icon, for example (as in Figure 9), type QuickStatus app icon. Test that the URL is valid.
+   3. **Icon URL** fields: Add a 96 x 96-pixel image for the app icon to the site assets for the app catalog. For example, navigate to `https://ServerName/sites/TestApps`, choose **Site contents** in the **Settings** drop-down menu, choose **Site Assets**, and then add the quickStatusApp.png image. Right-click the **quickStatusApp** item, choose **Properties**, and then copy the **Address (URL)** value in the **Properties** dialog box. For example, copy `https://ServerName/sites/TestApps/SiteAssets/QuickStatusApp.png`, and then paste the value in the **Icon URL** web address field. Type a description for the icon, for example (as in Figure 9), type QuickStatus app icon. Test that the URL is valid.
 
       **Figure 9. Adding an icon URL for the QuickStatus app**
 
@@ -791,7 +791,7 @@ Most importantly, the approach that the **QuickStatus** app uses, where it chang
 
 ### Default.aspx file
 
-The following code is in the  `Pages\Default.aspx` file of the **QuickStatus** project:
+The following code is in the `Pages\Default.aspx` file of the **QuickStatus** project:
   
 ```HTML
     <%-- The following lines are ASP.NET directives needed when using SharePoint components --%>
@@ -855,7 +855,7 @@ The following code is in the  `Pages\Default.aspx` file of the **QuickStatus** p
 
 ### App.js file
 
-The following code is in the  `Scripts\App.js` file of the **QuickStatus** project:
+The following code is in the `Scripts\App.js` file of the **QuickStatus** project:
   
 ```js
     var projContext;
@@ -1050,7 +1050,7 @@ The following code is in the  `Scripts\App.js` file of the **QuickStatus** proje
 
 ### App.css file
 
-The following CSS code is in the  `Content\App.css` file of the **QuickStatus** project:
+The following CSS code is in the `Content\App.css` file of the **QuickStatus** project:
   
 ```css
     /* Custom styles for the QuickStatus app. */
@@ -1125,7 +1125,7 @@ The following CSS code is in the  `Content\App.css` file of the **QuickStatus** 
 
 ### Elements.xml file for the ribbon
 
-The following XML definition, for the added button on the **TASKS** tab on the ribbon, is in the  `RibbonQuickStatusAction\Elements.xml` file of the **QuickStatus** project:
+The following XML definition, for the added button on the **TASKS** tab on the ribbon, is in the `RibbonQuickStatusAction\Elements.xml` file of the **QuickStatus** project:
   
 ```XML
     <?xml version="1.0" encoding="utf-8"?>

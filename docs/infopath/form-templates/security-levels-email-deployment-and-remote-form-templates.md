@@ -107,7 +107,7 @@ All forms in the InfoPath designer are created with an identity. This identity i
   
 ### Form ID
 
-The Form ID is a unique identifier based on a prefix, the form name, and the form namespace. The identifier should be a unique name that can be used to correctly associate form files with the associated form template in the client computer cache. The Form ID is specified as the name attribute (for example,  `name="urn:MyForm:MyCompany:Template1:myXSD-1583-78-G3V94-23-47"`) in the form definition file (.xsf).
+The Form ID is a unique identifier based on a prefix, the form name, and the form namespace. The identifier should be a unique name that can be used to correctly associate form files with the associated form template in the client computer cache. The Form ID is specified as the name attribute (for example, `name="urn:MyForm:MyCompany:Template1:myXSD-1583-78-G3V94-23-47"`) in the form definition file (.xsf).
   
 ### Access Path
 
