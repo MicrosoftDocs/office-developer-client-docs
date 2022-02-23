@@ -1,7 +1,5 @@
 ---
-title: "DirY / B Cell (Connection Points Section)"
- 
- 
+title: "DirY / B Cell (Connection Points Section)" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -17,24 +15,23 @@ description: "Determines the y -component for the required alignment vector of a
 
 # DirY / B Cell (Connection Points Section)
 
-Determines the  *y*  -component for the required alignment vector of a matching connection point. It is also used to orient the attached leg of a dynamic connector. This cell takes a floating point value. 
+Determines the *y* -component for the required alignment vector of a matching connection point. It is also used to orient the attached leg of a dynamic connector. This cell takes a floating point value.
   
 ## Remarks
 
-To get a reference to the DirY / B cell by name from another formula, or from a program using the **CellsU** property, use: 
+To get a reference to the DirY / B cell by name from another formula, or from a program using the **CellsU** property, use:
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Connections.DirY[ *i*  ]           where  *i*  = <1>, 2, 3... |
-   
-To get a reference to the DirY / B cell by index from a program, use the **CellsSRC** property with the following arguments: 
+|Cell name:  <br/> |Connections.DirY[*i*]           <br/>where *i* = <1>, 2, 3... |
+
+To get a reference to the DirY / B cell by index from a program, use the **CellsSRC** property with the following arguments:
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionConnectionPts** <br/> |
-|Row index:  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visCnnctDirY** (non-extended rows)           **visCnnctB** (extended rows)  <br/> |
-   
+|Row index:  <br/> |**visRowConnectionPts** + *i*           <br/>where *i* = 0, 1, 2... |
+|Cell index:  <br/> |**visCnnctDirY** (non-extended rows)          <br/>**visCnnctB** (extended rows)  <br/> |
+
 For information about non-extended and extended rows, see Connection Points row.
   
-

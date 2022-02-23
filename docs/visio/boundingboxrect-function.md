@@ -18,25 +18,25 @@ Returns the coordinate of the specified edge of the shape's bounding box.
   
 ## Version Information
 
-Version Added: Visio 2010 
+Version Added: Visio 2010
   
 ## Syntax
 
-BOUNDINGBOXRECT(** *Index* ** ) 
+BOUNDINGBOXRECT(***Index*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Index_ <br/> |Required  <br/> |**Integer** <br/> |The edge of the shape's bounding box for which to get the coordinate. See Remarks for possible values. |
-   
+| *Index* <br/> |Required  <br/> |**Integer** <br/> |The edge of the shape's bounding box for which to get the coordinate. See Remarks for possible values. |
+
 ### Return value
 
  **Number**
   
 ## Remarks
 
- *Index*  can be one of the following values. 
+ *Index* can be one of the following values.
   
 |**Item**|**Value**|
 |:-----|:-----|
@@ -44,7 +44,6 @@ BOUNDINGBOXRECT(** *Index* ** )
 |Right edge  <br/> |1  <br/> |
 |Top edge  <br/> |2  <br/> |
 |Bottom edge  <br/> |3  <br/> |
-   
+
 If the shape has a parent, the return value is in the coordinate system of that parent.
   
-

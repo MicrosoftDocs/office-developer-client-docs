@@ -1,7 +1,5 @@
 ---
 title: "ASIN Function"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,26 +9,26 @@ f1_keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 7d917be4-65b1-002f-48cc-6d81916a1157
-description: "Returns the arcsine of a number, for example, the angle whose sine is number ."
+description: "Returns the arcsine of a number, for example, the angle whose sine is number."
 ---
 
 # ASIN Function
 
-Returns the arcsine of a number, for example, the angle whose sine is  *number*  . 
+Returns the arcsine of a number, for example, the angle whose sine is *number*.
   
 ## Syntax
 
-ASIN(***number*** ) 
+ASIN(***number*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The sine of the angle. |
-   
+| *number* <br/> |Required  <br/> |**Numeric** <br/> |The sine of the angle. |
+
 ## Remarks
 
-The input value must be in the range -1 <=  *number*  <= 1, or a #NUM! error is returned. The resulting angle is in the range -PI/2 <=  *angle*  <= PI/2 radians (-90 <=  *angle*  <= 90 degrees). 
+The input value must be in the range -1 <=  *number*  <= 1, or a #NUM! error is returned. The resulting angle is in the range -PI/2 <= *angle* <= PI/2 radians (-90 <= *angle* <= 90 degrees).
   
 ## Example
 
@@ -38,4 +36,3 @@ ASIN(1)
   
 Returns 90 deg
   
-

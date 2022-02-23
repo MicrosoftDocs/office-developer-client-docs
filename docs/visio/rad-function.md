@@ -1,7 +1,5 @@
 ---
 title: "RAD Function"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,18 +18,16 @@ Converts the value of an angle from degrees to radians.
   
 ## Syntax
 
-RAD(** *angle* ** ) 
+RAD(***angle*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Number** <br/> |The angle to convert. |
-   
+| *angle* <br/> |Required  <br/> |**Number** <br/> |The angle to convert. |
+
 ## Example
 
-RAD(45) 
+RAD(45)
   
-Returns 0.7854. 
-  
-
+Returns 0.7854.

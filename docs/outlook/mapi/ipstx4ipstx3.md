@@ -18,9 +18,8 @@ description: "Last modified: March 09, 2015"
 
 # IPSTX4 : IPSTX3
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+
+**Applies to**: Outlook 2013 | Outlook 2016
   
 This interface provides helper functionality when performing replication through the IOSTX interface.
   
@@ -28,18 +27,14 @@ This interface provides helper functionality when performing replication through
 |:-----|:-----|
 |Provided by  <br/> |Query on [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Interface identifier:  <br/> |IID_IPSTX4  <br/> |
-   
+
 ## Vtable order
 
 |||
 |:-----|:-----|
-| *Placeholder member*  <br/> | *Not supported or documented*  . |
-   
+| *Placeholder member*  <br/> | *Not supported or documented*. |
+
 ## See also
 
-
-
 [About the Replication API](about-the-replication-api.md)
-  
 [MAPI Constants](mapi-constants.md)
-

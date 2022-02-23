@@ -1,7 +1,5 @@
 ---
 title: "Ask Cell (Shape Data Section)"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -23,23 +21,21 @@ Determines whether a user is queried to enter shape data for a shape when an ins
 |:-----|:-----|
 |TRUE  <br/> |Ask user to enter shape data in the **Define Shape Data** dialog box. |
 |FALSE  <br/> |Do not ask user to enter data. |
-   
+
 ## Remarks
 
 The value in this cell corresponds to the **Ask on drop** check box in the **Define Shape Data** dialog box (right-click the shape, point to **Data**, and then click **Define Shape Data**).
   
-To get a reference to the Ask cell by name from another formula, or from a program by using the **CellsU** property, use: 
+To get a reference to the Ask cell by name from another formula, or from a program by using the **CellsU** property, use:
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Prop. *name*  .Verify            where Prop.  *name*  is the name of the custom property row. |
-   
-To get a reference to the Ask cell by index from a program, use the **CellsSRC** property with the following arguments: 
+|Cell name:  <br/> |Prop. *name* .Verify            where Prop. *name* is the name of the custom property row. |
+
+To get a reference to the Ask cell by index from a program, use the **CellsSRC** property with the following arguments:
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionProp** <br/> |
 |Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2,... |
 |Cell index:  <br/> |**visCustPropsAsk** <br/> |
-   
-

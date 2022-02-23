@@ -1,7 +1,5 @@
 ---
-title: "ROUND Function (VisioShapeSheet)"
- 
- 
+title: "ROUND Function (VisioShapeSheet)" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,27 +9,27 @@ f1_keywords:
  
 ms.localizationpriority: medium
 ms.assetid: a374fe7d-7302-5365-81ab-64f5474d9d5c
-description: "Rounds a number to the precision represented by numberofdigits ."
+description: "Rounds a number to the precision represented by numberofdigits."
 ---
 
 # ROUND Function (VisioShapeSheet)
 
-Rounds a number to the precision represented by  *numberofdigits*  . 
+Rounds a number to the precision represented by *numberofdigits*.
   
 ## Syntax
 
-ROUND(** *number* **, ** *numberofdigits* ** ) 
+ROUND(***number***, ***numberofdigits*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round off. |
-| _numberofdigits_ <br/> |Required  <br/> |**Number** <br/> |The number of decimal places of precision. |
-   
+| *number* <br/> |Required  <br/> |**Number** <br/> |The number to round off. |
+| *numberofdigits* <br/> |Required  <br/> |**Number** <br/> |The number of decimal places of precision. |
+
 ## Remarks
 
-If  _numberofdigits_ is greater than 0,  _number_ is rounded by  _numberofdigits_ to the right of the decimal. If  _numberofdigits_ is 0,  _number_ is rounded to an integer. If  _numberofdigits_ is less than 0,  _number_ is rounded by  _numberofdigits_ to the left of the decimal. 
+If *numberofdigits* is greater than 0, *number* is rounded by *numberofdigits* to the right of the decimal. If *numberofdigits* is 0, *number* is rounded to an integer. If *numberofdigits* is less than 0, *number* is rounded by *numberofdigits* to the left of the decimal.
   
 ## Example 1
 
@@ -51,4 +49,3 @@ ROUND(123.654,-1)
   
 Returns 120.
   
-

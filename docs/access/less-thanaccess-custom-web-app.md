@@ -20,7 +20,7 @@ Compares two expressions. When you compare non-null expressions, the result is T
 
 `< (Less Than)`
 
-*expression*  \<  *expression* 
+*expression*  \< *expression* 
   
 *expression*  Is any valid expression. Both expressions must have implicitly convertible data types. The conversion depends on the rules of data type precedence. 
   

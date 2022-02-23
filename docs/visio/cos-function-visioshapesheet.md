@@ -1,14 +1,11 @@
 ---
-title: "COS Function (VisioShapeSheet)"
- 
- 
+title: "COS Function (VisioShapeSheet)" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
-- Vis_DSS.chm82251407
- 
+- Vis_DSS.chm82251407 
 ms.localizationpriority: medium
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: "Returns the cosine of an angle."
@@ -16,26 +13,25 @@ description: "Returns the cosine of an angle."
 
 # COS Function (VisioShapeSheet)
 
-Returns the cosine of an angle. 
+Returns the cosine of an angle.
   
 ## Syntax
 
-COS( *angle*) 
+COS( *angle*)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the cosine. |
-   
+| *angle* <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the cosine. |
+
 ## Remarks
 
-The COS function uses radians unless you specify a different unit of measure in  *angle*  . 
+The COS function uses radians unless you specify a different unit of measure in *angle*.
   
 ## Example
 
-COS(45 deg) 
+COS(45 deg)
   
-Returns 0.7071. 
+Returns 0.7071.
   
-

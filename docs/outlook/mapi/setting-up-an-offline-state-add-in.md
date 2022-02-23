@@ -10,7 +10,7 @@ description: "Last modified: July 05, 2012"
 
 # Setting up an offline state add-in
 
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 To implement an offline state add-in, you must implement connection, initialization, and other setup functions. In this topic, these connection, initialization, and setup functions are demonstrated by using code examples from the Sample Offline State Add-in. The Sample Offline State Add-in is a COM add-in that adds an **Offline State** menu to Outlook and uses the Offline State API. Through the **Offline State** menu, you can enable or disable state monitoring, check the current state, and change the current state. For more information about downloading and installing the Sample Offline State Add-in, see [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md). For more information about the Offline State API, see [About the Offline State API](about-the-offline-state-api.md).
   
@@ -18,7 +18,7 @@ After you set up an offline state add-in, you must implement functions to monito
   
 ## On Connection routine
 
-The **[IDTExtensibility2.OnConnection Method](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded. It is the entry point for the add-in, so the code you put in the  `OnConnection` function will be called when the add-in starts. In the following example, the  `OnConnection` function calls the  `HrInitAddin` function. 
+The **[IDTExtensibility2.OnConnection Method](https://msdn.microsoft.com/library/extensibility.idtextensibility2.onconnection%28v=VS.80%29.aspx)** is called every time an add-in is loaded. It is the entry point for the add-in, so the code you put in the `OnConnection` function will be called when the add-in starts. In the following example, the `OnConnection` function calls the `HrInitAddin` function.
   
 ### CMyAddin::OnConnection() example
 
@@ -41,7 +41,7 @@ STDMETHODIMP CMyAddin::OnConnection(
 
 ## Initialize Add-in routine
 
-The  `HrInitAddin` function calls the  `LoadLibraries`,  `HrCacheProfileName`, and  `HrAddMenuItems` functions to finish setting up the offline state add-in. 
+The `HrInitAddin` function calls the `LoadLibraries`, `HrCacheProfileName`, and `HrAddMenuItems` functions to finish setting up the offline state add-in.
   
 ### CMyAddin::HrInitAddin() example
 
@@ -60,7 +60,7 @@ HRESULT CMyAddin::HrInitAddin()
 
 ## Load Libraries routine
 
-The  `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires. 
+The `LoadLibraries` function loads the dynamic-link library (DLL) files that the add-in requires.
   
 ### LoadLibraries() example
 
@@ -163,7 +163,7 @@ void LoadLibraries()
 
 ## Cache Profile Name routine
 
-The  `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers. 
+The `HrCacheProfileName` function calls the **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** function to open a profile section for the current session, and then sets the profile for the button handlers.
   
 ### CMyAddin::HrCacheProfileName() example
 
@@ -209,7 +209,7 @@ HRESULT CMyAddin::HrCacheProfileName()
 
 ## Add Menu Items routine
 
-The  `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls  `DispEventAdvise` for each menu item. 
+The `HrAddMenuItems` function defines the menu options that appear under the **Offline State** menu that is created when the add-in is loaded in Outlook, and then calls `DispEventAdvise` for each menu item.
   
 ### CMyAddin::HrAddMenuItems() example
 
@@ -284,9 +284,8 @@ HRESULT CMyAddin::HrAddMenuItems()
 
 ## See also
 
-- [About the Offline State API](about-the-offline-state-api.md) 
+- [About the Offline State API](about-the-offline-state-api.md)
 - [Installing the Sample Offline State Add-in](installing-the-sample-offline-state-add-in.md)
 - [About the Sample Offline State Add-in](about-the-sample-offline-state-add-in.md)
 - [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
 - [Disconnecting an Offline State Add-in](disconnecting-an-offline-state-add-in.md)
-

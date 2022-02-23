@@ -134,7 +134,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |GeneralSessionInvalid = 76  <br/> |The session parameter is not valid. |
 |GeneralDependencyUidInvalid = 78  <br/> |The dependency GUID is not valid. |
 |GeneralNumberInvalid = 79  <br/> |A number is not valid. |
-|GeneralInvalidDataStore = 80  <br/> |The specified database does not exist. Use a database in [DataStoreEnum](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.DataStoreEnum.aspx) . |
+|GeneralInvalidDataStore = 80  <br/> |The specified database does not exist. Use a database in [DataStoreEnum](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.DataStoreEnum.aspx). |
 |GeneralDurationOrWorkFormatInvalid = 513  <br/> |The work duration or format is not valid. |
 |GeneralRateFormatInvalid = 518  <br/> |The rate format is not valid. |
 |GeneralQueueException = 9131  <br/> |Exception: There is a general error in the Queuing Service. |
@@ -258,7 +258,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |AdminGlobalCheckedOut = 28025  <br/> |The enterprise global template is already checked out during the call to **SetServerCurrency**. |
 |AdminInvalidDatabaseTimeout = 28026  <br/> |Timeout due to a database that is not valid. |
 |AdminInvalidDatabaseTimeoutType = 28027  <br/> |Timeout due to a database type that is not valid. |
-|AdminInvalidEntityType = 28028  <br/> |The entity type is not valid. See [EntityCollection](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.aspx) . |
+|AdminInvalidEntityType = 28028  <br/> |The entity type is not valid. See [EntityCollection](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.aspx). |
 |AdminInvalidCompatibilityModeChange = 28029  <br/> |The change to the compatibility mode is not valid. |
 |AdminInvalidCompatibilityMode = 28030  <br/> |The compatibility mode is not valid. |
 |AdminInvalidProjectProfessionalVersions = 28031  <br/> |The set of Project Professional versions is not valid. |
@@ -622,10 +622,10 @@ All error codes in Table 16 are for the Optimizer, which is a component used in 
 
 |Optimizer error code|Description|
 |:-----|:-----|
-|OptimizerDepInvalidDepType = 29000  <br/> |The optimizer **DEPENDENCY_TYPE** value in the [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) is not valid. See [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx) . |
+|OptimizerDepInvalidDepType = 29000  <br/> |The optimizer **DEPENDENCY_TYPE** value in the [OptimizerDependencyDataSet.OptimizerDependenciesRow](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependenciesRow.aspx) is not valid. See [Optimizer.DependencyTypes](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Optimizer.DependencyTypes.aspx). |
 |OptimizerDepInvalidEntityType = 29001  <br/> |The entity type is not valid. See the [Entities](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.EntityCollection.Entities.aspx) property. |
 |OptimizerDepInvalidPosition = 29003  <br/> |The [POSITION](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsRow.POSITION.aspx) value is not valid. |
-|OptimizerDepDuplicateDependentProjects = 29004  <br/> |There are duplicate projects in the [OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable.aspx) . |
+|OptimizerDepDuplicateDependentProjects = 29004  <br/> |There are duplicate projects in the [OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.OptimizerDependencyDataSet.OptimizerDependencyDetailsDataTable.aspx). |
 |OptimizerDepInvalidDependency = 29005  <br/> |The Optimizer dependency is not valid. |
 |OptimizerDepCircularDependency = 29006  <br/> |There is a circular dependency. |
 |OptimizerCannotDeleteDependency = 29007  <br/> |The dependency cannot be deleted. |
@@ -653,8 +653,8 @@ All error codes in Table 16 are for the Optimizer, which is a component used in 
 |OptimizerCannotUpdateMultiplePrioritizations = 29306  <br/> |Cannot update multiple driver prioritizations. |
 |OptimizerDriverRelationsNotFilled = 29307  <br/> |The DriverRelationsRow data is not complete. |
 |OptimizerDriversNotFilled = 29308  <br/> |There is not enough information in the project drivers for a solution. |
-|OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |There are inverse values in the [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx) . |
-|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |There is an inactive driver specified in the [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx) . Check the **DRIVER1_UID** and **DRIVER2_UID** properties. |
+|OptimizerDriverRelationsInvalidInversedValue = 29309  <br/> |There are inverse values in the [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). |
+|OptimizerCannotCreatePrioritizationUsingInactiveDrivers = 29310  <br/> |There is an inactive driver specified in the [DriverPrioritizationDataSet.DriverRelationsRow](https://msdn.microsoft.com/library/WebSvcDriver.DriverPrioritizationDataSet.DriverRelationsRow.aspx). Check the **DRIVER1_UID** and **DRIVER2_UID** properties. |
 |OptimizerCannotChangePrioritizationType = 29311  <br/> |Cannot change the prioritization type. |
 |OptimizerCannotSpecifyPriorityValuesForCalculatedPrioritizations = 29312  <br/> |If a priority is calculated, you cannot specify the priority value. |
 |OptimizerCannotNormalizePriorityValues = 29313  <br/> |Priority values cannot be normalized. |
@@ -768,8 +768,8 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 |PlannerInvalidEfficientFrontierUid = 28103  <br/> |The [FRONTIER_UID](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionEfficientFrontierRow.FRONTIER_UID.aspx) is not valid. |
 |PlannerInvalidProjectUid = 28104  <br/> |The project GUID is not valid. |
 |PlannerInvalidAllocationThreshold = 28105  <br/> |The allocation threshold is not valid. |
-|PlannerInvalidHiringType = 28109  <br/> |The [HIRING_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.HIRING_TYPE.aspx) is not valid. See [Planner.PlannerHiringType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.PlannerHiringType.aspx) . |
-|PlannerInvalidConstraintType = 28110  <br/> |The [CONSTRAINT_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_TYPE.aspx) is not valid. See [Planner.ConstraintType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.ConstraintType.aspx) . |
+|PlannerInvalidHiringType = 28109  <br/> |The [HIRING_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.HIRING_TYPE.aspx) is not valid. See [Planner.PlannerHiringType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.PlannerHiringType.aspx). |
+|PlannerInvalidConstraintType = 28110  <br/> |The [CONSTRAINT_TYPE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_TYPE.aspx) is not valid. See [Planner.ConstraintType](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.Planner.ConstraintType.aspx). |
 |PlannerInvalidConstraintValue = 28111  <br/> |The [CONSTRAINT_VALUE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.CONSTRAINT_VALUE.aspx) is not valid. |
 |PlannerInvalidRateTable = 28112  <br/> |The [RATE_TABLE](https://msdn.microsoft.com/library/WebSvcPortfolioAnalyses.PlannerSolutionDataSet.SolutionsRow.RATE_TABLE.aspx) is not valid. |
 |PlannerInvalidSolutionForConstraint = 28113  <br/> |The Planner solution is not valid for the constraint. Too many projects are forced in during the first pass of the planner. |
@@ -1327,7 +1327,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 |EnterpriseProjectTypeCannotDeleteEnterpriseProjectType = 35203  <br/> |Cannot delete the enterprise project type. |
 |EnterpriseProjectTypeCannotCreateMultipleEnterpriseProjectTypes = 35204  <br/> |Cannot create multiple enterprise project types. |
 |EnterpriseProjectTypeCannotUpdateMultipleEnterpriseProjectTypes = 35205  <br/> |Cannot update multiple enterprise project types. |
-|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |An enterprise project template (EPT) requires an associated project detail page (PDP) to create a project using the EPT. If the EPT is for a workflow, this error occurs during EPT validation when the project detail page (PDP) is not the  *Create*  type. Other PDP types are  *Normal*  for editing a project and  *Workflow Status*  for showing details of a project related to workflow. |
+|EnterpriseProjectTypeInvalidCreatePDPUid = 35206  <br/> |An enterprise project template (EPT) requires an associated project detail page (PDP) to create a project using the EPT. If the EPT is for a workflow, this error occurs during EPT validation when the project detail page (PDP) is not the *Create* type. Other PDP types are *Normal* for editing a project and *Workflow Status* for showing details of a project related to workflow. |
 |EnterpriseProjectTypeInvalidProjectPlanTemplateUid = 35207  <br/> |The [ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_PLAN_TEMPLATE_UID.aspx) is not valid. |
 |EnterpriseProjectTypeInvalidWorkspaceTemplateName = 35208  <br/> |The [ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.ENTERPRISE_PROJECT_WORKSPACE_TEMPLATE_NAME.aspx) is not valid. |
 |EnterpriseProjectTypeInvalidWorkflowAssociationUid = 35209  <br/> |The [WORKFLOW_ASSOCIATION_UID](https://msdn.microsoft.com/library/WebSvcWorkflow.WorkflowDataSet.EnterpriseProjectTypeRow.WORKFLOW_ASSOCIATION_UID.aspx) is not valid. |
@@ -1339,9 +1339,9 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 |EnterpriseProjectTypeCannotDeleteDefault = 35215  <br/> |Cannot delete the default enterprise project type. |
 |EnterpriseProjectTypeCannotChangeDefault = 35216  <br/> |Cannot change the default enterprise project type. |
 |EnterpriseProjectTypeHasProjectsCannotDelete = 35217  <br/> |Cannot delete an enterprise project type that has projects. |
-|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |An enterprise project template (EPT) for a workflow requires an associated  *Create*  type project detail page (PDP) to create a project using the EPT. This error occurs when the PDP is not included in the EPT definition. Other PDP types are  *Normal*  for editing a project and  *Workflow Status*  for showing details of a project related to workflow. |
-|EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |The EPT definition allows only one  *Create*  type project detail page. |
-|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |An enterprise project template (EPT) for a workflow requires an associated  *Create*  type project detail page (PDP) to create a project using the EPT. This error occurs when the PDP in the workflow EPT definition is of another type. Other PDP types are  *Normal*  for editing a project and  *Workflow Status*  for showing details of a project related to workflow. |
+|EnterpriseProjectTypeCreatePDPIsRequired = 35218  <br/> |An enterprise project template (EPT) for a workflow requires an associated *Create* type project detail page (PDP) to create a project using the EPT. This error occurs when the PDP is not included in the EPT definition. Other PDP types are *Normal* for editing a project and  Workflow Status* for showing details of a project related to workflow. |
+|EnterpriseProjectTypeOnlyOneCreatePDPAllowed = 35219  <br/> |The EPT definition allows only one *Create* type project detail page. |
+|EnterpriseProjectTypeHasWorkflowOnlyCreatePDPAllowed = 35220  <br/> |An enterprise project template (EPT) for a workflow requires an associated *Create* type project detail page (PDP) to create a project using the EPT. This error occurs when the PDP in the workflow EPT definition is of another type. Other PDP types are *Normal* for editing a project and *Workflow Status* for showing details of a project related to workflow. |
 |EnterpriseProjectTypeInvalidData = 35221  <br/> |The **WorkflowDataSet** for the enterprise project type has data that is not valid. |
 |EnterpriseProjectNoDefaultEnterpriseProjectTypeDefined = 35222  <br/> |No default enterprise project type is defined. |
 |EnterpriseProjectTypeAtLeastOnePDPIsRequired = 35223  <br/> |At least one project details page is required for the enterprise project type. |
@@ -1401,7 +1401,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 To get a list of errors if you get an exception when you call a PSI method, pass the **SoapException** object to the [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx) class constructor. You can then use [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) to store the error information in a **PSErrorInfo** array and enumerate the errors, as in the following example. 
   
 > [!NOTE]
-> The **PSErrorInfo** object does not include all of the information you might need. For example, if you use **Resource.CheckOutResources** where one of the resources is already checked out, **PSErrorInfo** shows the reason for failure for each resource that cannot be checked out, but does not include the resource name or GUID. For a way to get more information in an ASMX-based application, see [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx) . 
+> The **PSErrorInfo** object does not include all of the information you might need. For example, if you use **Resource.CheckOutResources** where one of the resources is already checked out, **PSErrorInfo** shows the reason for failure for each resource that cannot be checked out, but does not include the resource name or GUID. For a way to get more information in an ASMX-based application, see [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx). 
   
 ```cs
 using System;

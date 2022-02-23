@@ -34,7 +34,7 @@ The **Format** function contains the following arguments.
 
 ## Remarks
 
-For the  *Format*  parameter, you can pass strings that match any of the following patterns:
+For the *Format* parameter, pass strings that match any of the following patterns:
   
 - [Standard Numeric Format Strings](https://msdn.microsoft.com/library/dwhawy9k%28v=vs.110%29.aspx)
 

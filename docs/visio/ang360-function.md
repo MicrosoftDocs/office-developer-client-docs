@@ -17,17 +17,17 @@ Normalizes an angle's range to be 0 \<= result \< 2PI radians (0 \<= result \< 3
   
 ## Syntax
 
-ANG360(***angle*** ) 
+ANG360(***angle*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle to be normalized. |
-   
+| *angle* <br/> |Required  <br/> |**Numeric** <br/> |The angle to be normalized. |
+
 ## Remarks
 
-If  *angle*  is not specified by using angular units, it is interpreted as radians. If  *angle*  cannot be converted to a value, a #VALUE! error is returned. 
+If *angle* is not specified by using angular units, it is interpreted as radians. If *angle* cannot be converted to a value, a #VALUE! error is returned.
   
 ## Example 1
 
@@ -47,4 +47,3 @@ ANG360(45)
   
 Returns 58.31 deg (1.0177 rad)
   
-

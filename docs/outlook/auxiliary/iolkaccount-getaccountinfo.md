@@ -31,43 +31,42 @@ HRESULT IOlkAccount::GetAccountInfo(
 _pclsidType_
   
 > [out] The class identifier for the account type. The value must be one of the following:
-    
-   - CLSID_OlkPOP3Account 
-    
-   - CLSID_OlkIMAP4Account 
-    
-   - CLSID_OlkMAPIAccount 
-    
-   - CLSID_OlkHotmailAccount 
-    
-   - CLSID_OlkLDAPAccount
-    
+
+- CLSID_OlkPOP3Account
+
+- CLSID_OlkIMAP4Account
+
+- CLSID_OlkMAPIAccount
+
+- CLSID_OlkHotmailAccount
+
+- CLSID_OlkLDAPAccount
+
 _pcCategories_
   
 > [out] The number of categories in  _prgclsidCategory_.
-    
+
 _prgclsidCategory_
   
 > [out] An array of categories that this account is associated with. The array is of size * _pcCategories_. The value of each category in the array must be one of the following:
-    
-   - CLSID_OlkMail
-    
-   - CLSID_OlkAddressBook
-    
-   - CLSID_OlkStore
-    
+
+- CLSID_OlkMail
+
+- CLSID_OlkAddressBook
+
+- CLSID_OlkStore
+
 ## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
   
 ## Remarks
 
-After this method returns, you must free  *prgclsidCategory*  by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
+After this method returns, you must free _prgclsidCategory_ by using [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
-**IOlkAccount::GetAccountInfo** does not support the address book category for an Exchange account. If the account is an Exchange account (*pclsidType*  is **CLSID_OlkMAPIAccount** ), and the account implements the address book, calling **IOlkAccount::GetAccountInfo** will not return **CLSID_OlkAddressBook** as a category in  *prgclsidCategory*  . 
+**IOlkAccount::GetAccountInfo** does not support the address book category for an Exchange account. If the account is an Exchange account (_pclsidType_ is **CLSID_OlkMAPIAccount** ), and the account implements the address book, calling **IOlkAccount::GetAccountInfo** will not return **CLSID_OlkAddressBook** as a category in _prgclsidCategory_.
   
 ## See also
 
 - [Constants (Account management API)](constants-account-management-api.md)  
 - [IOlkAccount::FreeMemory](iolkaccount-freememory.md)
-

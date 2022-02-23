@@ -15,19 +15,19 @@ ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
 
 # xlfUnregister (Form 1)
 
-**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
-Can be called from a DLL or XLL command that has itself been called by Microsoft Excel. This is equivalent to calling **UNREGISTER** from an Excel XLM macro sheet. 
+Can be called from a DLL or XLL command that has itself been called by Microsoft Excel. This is equivalent to calling **UNREGISTER** from an Excel XLM macro sheet.
   
-**xlfUnregister** can be called in two forms: 
+**xlfUnregister** can be called in two forms:
   
 - Form 1: Unregisters an individual command or function.
-    
+
 - Form 2: Unloads and deactivates an XLL.
-    
+
 Called in Form 1, this function reduces the use count of a DLL function or command that was previously registered using **xlfRegister** or **REGISTER**. If the usage count is already zero, this function has no effect. When the use count of all the functions in a DLL reaches zero, the DLL is unloaded from memory.
   
-**xlfRegister** (Form 1) also defines a hidden name which is the function text argument,  _pxFunctionText_, and which evaluates to the function or command's registration ID. When unregistering the function, this name should be deleted using **xlfSetName** so that the function name is no longer listed by the Function Wizard. For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
+**xlfRegister** (Form 1) also defines a hidden name which is the function text argument, _pxFunctionText_, and which evaluates to the function or command's registration ID. When unregistering the function, this name should be deleted using **xlfSetName** so that the function name is no longer listed by the Function Wizard. For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel4(xlfUnregister, LPXLOPER pxRes, 1, LPXLOPER pxRegisterId);
@@ -45,11 +45,11 @@ If successful, returns **TRUE** (**xltypeBool**), otherwise it returns FALSE.
   
 ## Remarks
 
-The registration ID of the function is returned by **xlfRegister** when the function is first registered. It can also be obtained by calling the [xlfRegisterId function](xlfregisterid.md) or the [xlfEvaluate function](xlfevaluate.md). Note that xlfRegisterId tries to register the function if it has not already been registered. For this reason, if you are only trying to get the ID so that you can unregister the function, it is better to obtain it by passing the registered name to **xlfEvaluate**. If the function has not been registered, **xlfEvaluate** fails with a #NAME? error. 
+The registration ID of the function is returned by **xlfRegister** when the function is first registered. It can also be obtained by calling the [xlfRegisterId function](xlfregisterid.md) or the [xlfEvaluate function](xlfevaluate.md). Note that xlfRegisterId tries to register the function if it has not already been registered. For this reason, if you are only trying to get the ID so that you can unregister the function, it is better to obtain it by passing the registered name to **xlfEvaluate**. If the function has not been registered, **xlfEvaluate** fails with a #NAME? error.
   
 ## Example
 
-See the code for the **fExit** function in  `\SAMPLES\GENERIC\GENERIC.C`.
+See the code for the **fExit** function in `\SAMPLES\GENERIC\GENERIC.C`.
   
 ```cs
 int WINAPI fExit(void)
@@ -90,4 +90,3 @@ int WINAPI fExit(void)
 - [xlfRegisterId](xlfregisterid.md)
 - [xlfUnregister (Form 2)](xlfunregister-form-2.md)
 - [Essential and Useful C API XLM Functions](essential-and-useful-c-api-xlm-functions.md)
-

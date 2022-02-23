@@ -147,7 +147,7 @@ void OpenSchemaX2()
  TESTHR(pConnection2.CreateInstance(__uuidof(Connection))); 
  pConnection2->Open (strCnn, "", "", adConnectUnspecified); 
  
- // Create a safearray which takes four elements,and pass it as 
+ // Create a safearray which takes four elements, and pass it as 
  // 2nd parameter in OpenSchema method. 
  SAFEARRAY FAR* psa = NULL; 
  SAFEARRAYBOUND rgsabound; 

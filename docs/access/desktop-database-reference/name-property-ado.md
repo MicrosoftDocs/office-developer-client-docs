@@ -11,7 +11,6 @@ ms.localizationpriority: medium
 
 # Name property (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Indicates the name of an object.
@@ -30,5 +29,4 @@ For a **Field** object, **Name** is normally read-only. However, for new **Field
 
 For **Parameter** objects not yet appended to the [Parameters](parameters-collection-ado.md) collection, the **Name** property is read/write. For appended **Parameter** objects and all other objects, the **Name** property is read-only. Names do not have to be unique within a collection.
 
-You can retrieve the **Name** property of an object by an ordinal reference, after which you can refer to the object directly by name. For example, if rstMain.Properties(20).Name yields Updatability , you can subsequently refer to this property as yields Updatability , you can subsequently refer to this property as rstMain.Properties("Updatability") .
-
+You can retrieve the **Name** property of an object by an ordinal reference, after which you can refer to the object directly by name. For example, if rstMain.Properties(20).Name yields Updatability , you can subsequently refer to this property as yields Updatability , you can subsequently refer to this property as rstMain.Properties("Updatability").

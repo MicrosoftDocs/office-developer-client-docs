@@ -19,8 +19,7 @@ description: "Last modified: July 23, 2011"
 # IMSCapabilities::GetCapabilities
 
   
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 Gets information about what a store can support based on the specified selector.
   
@@ -35,19 +34,17 @@ MSCAP_SELECTOR mscapSelector
  *mscapSelector* 
   
 > [in] Selector indicating which capabilities to return.
-    
+
 ## Return value
 
 MSCAP_SECURE_FOLDER_HOMEPAGES
   
-> Support for folder homepages in a non-default store. This can be returned if **MSCAP_SEL_FOLDER** is specified in  *mscapSelector*  . 
-    
+> Support for folder homepages in a non-default store. This can be returned if **MSCAP_SEL_FOLDER** is specified in *mscapSelector*.
+
 MSCAP_RES_ANNOTATION
   
-> If a restriction contains any invalid arguments such as invalid properties, the store ignores the invalid arguments and processes only the valid arguments. This can be returned if **MSCAP_SEL_RESTRICTION** is specified in  *mscapSelector*  . 
-    
+> If a restriction contains any invalid arguments such as invalid properties, the store ignores the invalid arguments and processes only the valid arguments. This can be returned if **MSCAP_SEL_RESTRICTION** is specified in *mscapSelector*.
+
 NULL
   
 > The store does not support any capability based on the given selector.
-    
-

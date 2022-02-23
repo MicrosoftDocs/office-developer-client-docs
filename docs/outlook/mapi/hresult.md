@@ -18,9 +18,7 @@ description: "Last modified: July 23, 2011"
 
 # HRESULT
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 A 32-bit value that is used to describe an error or warning.
   
@@ -30,24 +28,24 @@ typedef LONG HRESULT;
 
 ## Remarks
 
-The **HRESULT** data type is the same as the [SCODE](scode.md) data type. 
-  
-An **HRESULT** value consists of the following fields: 
+The **HRESULT** data type is the same as the [SCODE](scode.md) data type.
+
+An **HRESULT** value consists of the following fields:
   
 - A 1-bit code indicating severity, where zero represents success and 1 represents failure.
-    
+
 - A 4-bit reserved value.
-    
+
 - An 11-bit code indicating responsibility for the error or warning, also known as a facility code.
-    
+
 - A 16-bit code describing the error or warning.
-    
-Most MAPI interface methods and functions return **HRESULT** values to provide detailed cause formation. **HRESULT** values are also used widely in OLE interface methods. OLE provides several macros for converting between **HRESULT** values and **SCODE** values, another common data type for error handling. 
+
+Most MAPI interface methods and functions return **HRESULT** values to provide detailed cause formation. **HRESULT** values are also used widely in OLE interface methods. OLE provides several macros for converting between **HRESULT** values and **SCODE** values, another common data type for error handling.
   
 > [!NOTE]
-> In 64-bit MAPI, **HRESULT** is still a 32-bit value. 
+> In 64-bit MAPI, **HRESULT** is still a 32-bit value.
   
-For information about the OLE use of **HRESULT** values, see the  *OLE Programmer's Reference*  . For more information about the use of these values in MAPI, see [Error Handling](error-handling-in-mapi.md) and any of the following interface methods: 
+For information about the OLE use of **HRESULT** values, see the  *OLE Programmer's Reference*. For more information about the use of these values in MAPI, see [Error Handling](error-handling-in-mapi.md) and any of the following interface methods:
   
 [IABLogon::GetLastError](iablogon-getlasterror.md)
   
@@ -63,10 +61,5 @@ For information about the OLE use of **HRESULT** values, see the  *OLE Programme
   
 ## See also
 
-
-
 [SCODE](scode.md)
-
-
 [MAPI Data Types](mapi-data-types.md)
-

@@ -21,15 +21,15 @@ The Post Office Protocol (POP) provider for Outlook allows users to retrieve and
   
 To get the messages download history for an Inbox:
   
-- Follow the steps in [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md) to find the [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) property, which contains a binary large object (BLOB) that represents the message history for a POP3 account. 
-    
+- Follow the steps in [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md) to find the [PidTagAttachDataBinary](https://msdn.microsoft.com/library/3b0a8b28-863e-4b96-a4c0-fdb8f40555b9%28Office.15%29.aspx) property, which contains a binary large object (BLOB) that represents the message history for a POP3 account.
+
 - Read this topic, which describes the structure of the BLOB, and shows an example BLOB to identify messages that have been downloaded or deleted for the Inbox of the POP3 account.
 
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_BLOBStructure"> </a>
 
 ## POP BLOB structure
 
-The POP BLOB structure, as described in Table 1, begins with two fields, **Version** and **Count**, followed by a **Count** number of resource tags, each of which is null-terminated. 
+The POP BLOB structure, as described in Table 1, begins with two fields, **Version** and **Count**, followed by a **Count** number of resource tags, each of which is null-terminated.
   
 **Table 1. Structure of the BLOB that represents the message download history of a POP3 account**
 
@@ -38,8 +38,8 @@ The POP BLOB structure, as described in Table 1, begins with two fields, **Versi
 |**Version** <br/> |2 bytes  <br/> |Must be 3 (**PBLOB_VERSION_NUM**). |
 |**Count** <br/> |2 bytes  <br/> |The number of resource tags in this BLOB. |
 |Resource tag  <br/> |Variable  <br/> |0 or more null-terminated UTF-8 strings that encode the resource tags. The number of null-terminated strings must match **Count**. |
-   
-Each resource tag specifies the operation that is applied to a message, some date-time metadata about the operation, and encodes the UID of the message. The format of a resource tag string is broken down as follows, and is further explained in Table 2. 
+
+Each resource tag specifies the operation that is applied to a message, some date-time metadata about the operation, and encodes the UID of the message. The format of a resource tag string is broken down as follows, and is further explained in Table 2.
   
 `Ocyyyymmddhhmmssuuu...`
   
@@ -61,7 +61,7 @@ Each resource tag specifies the operation that is applied to a message, some dat
 
 ## Example
 
-Figure 1 shows an example of a BLOB that represents the message download history of a POP account. 
+Figure 1 shows an example of a BLOB that represents the message download history of a POP account.
   
 **Figure 1. Example BLOB structure for the message download history of a POP3 account**
 
@@ -77,15 +77,14 @@ To parse the raw UID in each resource tag, be aware that the UID follows this en
 
 ![Converting raw UID in BLOB to actual message UID](media/OL15Con_AuxRef_ParsingMsgsHistory_BlobRscTag.gif)
   
-To interpret resource tag 1 in this BLOB: the message with the UID  `0BC535DB-EA63-11E1-A75C-00215AD7BB74` was successfully retrieved on September 6, 2012, at 13:11:38. 
+To interpret resource tag 1 in this BLOB: the message with the UID `0BC535DB-EA63-11E1-A75C-00215AD7BB74` was successfully retrieved on September 6, 2012, at 13:11:38.
   
 You can similarly parse the remaining 22 resource tags for that BLOB.
   
 ## See also
+
 <a name="OL15Con_AuxRef_ParsingMsgsHistory_AdditionalRsc"> </a>
 
-- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)    
-- [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md)    
+- [Managing message downloads for POP3 accounts](managing-message-downloads-for-pop3-accounts.md)
+- [Locating the message download history for a POP3 account](locating-the-message-download-history-for-a-pop3-account.md)
 - [Parsing the POP3 UIDL History](https://blogs.msdn.com/b/stephen_griffin/archive/2012/12/04/parsing-the-pop3-uidl-history.aspx)
-    
-

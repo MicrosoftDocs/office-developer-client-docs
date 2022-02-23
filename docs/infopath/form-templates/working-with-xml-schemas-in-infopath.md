@@ -13,7 +13,7 @@ description: "A form template that you create with Microsoft InfoPath uses an XM
 A form template that you create with Microsoft InfoPath uses an XML Schema (XSD) to perform structural and data validation on the XML that is input, edited, and output from an InfoPath form. Every form template created in the InfoPath form designer contains at least one XSD schema file (.xsd) that is used for validation at run time.
   
 > [!NOTE]
-> The information contained in this topic applies to form templates designed for use in the InfoPath editor. Browser-compatible form templates have stricter XSD Schema requirements. For more information, see the documentation about XML Schemas in browser-compatible form templates available on MSDN. 
+> The information contained in this topic applies to form templates designed for use in the InfoPath editor. Browser-compatible form templates have stricter XSD Schema requirements. For more information, see the documentation about XML Schemas in browser-compatible form templates available on MSDN.
   
 ## Using Externally-authored XML Schemas
 
@@ -22,27 +22,27 @@ To load an XSD schema file that was authored outside of InfoPath, follow these s
 ### To create a form template based on an external schema
 
 1. In the Backstage, click **New**, click **XML or Schema** under **Advanced Form Templates**, and then click **Design This Form**.
-    
-2. In the **Data Source Wizard**, specify the XSD schema file you want to use, and then click **Next** and complete the remaining pages of the wizard. 
-    
+
+2. In the **Data Source Wizard**, specify the XSD schema file you want to use, and then click **Next** and complete the remaining pages of the wizard.
+
 ## Unsupported XSD Constructs
 
 The following sections describe XSD constructs that InfoPath cannot handle at run time. Avoid these constructs when creating a form template in the InfoPath form designer.
   
 ## ENTITY and ENTITIES Types
 
-The **ENTITY** and **ENTITIES** types require a document type definition (DTD) for validation, which InfoPath does not support. InfoPath does not allow you to design a form template against such a schema and displays an error message that recommends changing the **ENTITY** type to the **NCName** type from which **ENTITY** derives. 
+The **ENTITY** and **ENTITIES** types require a document type definition (DTD) for validation, which InfoPath does not support. InfoPath does not allow you to design a form template against such a schema and displays an error message that recommends changing the **ENTITY** type to the **NCName** type from which **ENTITY** derives.
   
 > [!NOTE]
->  If you manually author an InfoPath form template outside of design mode, and it uses an XSD that includes **ENTITY** and **ENTITIES** types, the form template may work at run time if the Template.xml file contains the required DTD for these types. 
+> If you manually author an InfoPath form template outside of design mode, and it uses an XSD that includes **ENTITY** and **ENTITIES** types, the form template may work at run time if the Template.xml file contains the required DTD for these types.
   
 ## Required xsd:any Element
 
-An occurrence of an **xsd:any** wildcard element, that is, an occurrence of an **xsd:any** element with a **minOccurs** attribute value greater than zero ("required any"), prevents InfoPath from deterministically creating a valid instance for this schema fragment. InfoPath must be able to create a valid instance when generating a form that uses this schema fragment. As part of running the **Data Source Wizard**, schemas with required **xsd:any** elements require you to choose which schema element you want to use in place of the required **xsd:any** element. 
+An occurrence of an **xsd:any** wildcard element, that is, an occurrence of an **xsd:any** element with a **minOccurs** attribute value greater than zero ("required any"), prevents InfoPath from deterministically creating a valid instance for this schema fragment. InfoPath must be able to create a valid instance when generating a form that uses this schema fragment. As part of running the **Data Source Wizard**, schemas with required **xsd:any** elements require you to choose which schema element you want to use in place of the required **xsd:any** element.
   
 ## Elements with an Abstract Complex Type
 
-InfoPath design mode supports designing a form template against schemas that use abstract complex types. For example, if an element named  `shippingAddress` has an abstract complex type named  `address` that has two derivations,  `USAddress` and  `CanadianAddress`, InfoPath treats any instance of  `shippingAddress` as a choice between  `shippingAddress` with type  `USAddress` and  `shippingAddress` with type  `CanadianAddress` . In this example, if the provided schemas contain no types that derive from address, then InfoPath requests an additional schema that fulfills this requirement. 
+InfoPath design mode supports designing a form template against schemas that use abstract complex types. For example, if an element named `shippingAddress` has an abstract complex type named `address` that has two derivations, `USAddress` and `CanadianAddress`, InfoPath treats any instance of `shippingAddress` as a choice between `shippingAddress` with type `USAddress` and `shippingAddress` with type `CanadianAddress`. In this example, if the provided schemas contain no types that derive from address, then InfoPath requests an additional schema that fulfills this requirement.
   
 ## XSD Constructs with Reduced Functionality
 
@@ -50,7 +50,7 @@ The following sections describe XSD constructs that have reduced functionality w
   
 ## Substitution Groups
 
-All members of the substitution group appear in the **Fields** task pane. InfoPath represents the substitution possibilities as a choice of all the substitution groups (including the defining element, if it is not abstract). If there are no substitution groups for an abstract element, InfoPath prompts you to provide a schema that contains at least one element that is a substitution group. 
+All members of the substitution group appear in the **Fields** task pane. InfoPath represents the substitution possibilities as a choice of all the substitution groups (including the defining element, if it is not abstract). If there are no substitution groups for an abstract element, InfoPath prompts you to provide a schema that contains at least one element that is a substitution group.
   
 ## Unbounded Choice Elements
 
@@ -64,7 +64,7 @@ The following schema fragment shows an unbounded choice element:
 
 ```
 
-InfoPath displays repeating choice elements as repeating choices in the **Fields** task pane. There is a **Repeating Choice Group** control that you can use to represent the heterogeneous list defined by the repeating choice element in the XSD. 
+InfoPath displays repeating choice elements as repeating choices in the **Fields** task pane. There is a **Repeating Choice Group** control that you can use to represent the heterogeneous list defined by the repeating choice element in the XSD.
   
 ## Repeating Sequence
 
@@ -95,7 +95,7 @@ The following schema fragment shows the choice element containing several model 
 
 ```
 
-InfoPath design mode supports such XSD constructs without requiring any modification by the form designer. While InfoPath does not modify the meaning of the schema, it simplifies the choice construct above into an equivalent collapsed single choice in the **Fields** task pane. 
+InfoPath design mode supports such XSD constructs without requiring any modification by the form designer. While InfoPath does not modify the meaning of the schema, it simplifies the choice construct above into an equivalent collapsed single choice in the **Fields** task pane.
   
 ## Optional Sibling with Same Qualified Name
 
@@ -110,7 +110,7 @@ The following schema fragment shows an optional sibling with same qualified name
 
 ```
 
-**XPath** expressions for these nodes can be complex because every potential XML instance must be accounted for in the InfoPath form designer. InfoPath does not expose parts of the schema for which it may have difficulty creating correct **XPath** bindings. Warnings appear regarding the portions of the schema that are ignored. 
+**XPath** expressions for these nodes can be complex because every potential XML instance must be accounted for in the InfoPath form designer. InfoPath does not expose parts of the schema for which it may have difficulty creating correct **XPath** bindings. Warnings appear regarding the portions of the schema that are ignored.
   
 ## XSD Constructs with Special Meaning in InfoPath
 
@@ -118,7 +118,7 @@ The following sections describe XSD constructs that have special meaning when us
   
 ## Adding New Element Fields and Groups with the Fields Task Pane
 
-You can construct your schema so that you can use the **Fields** task pane to add new element fields and groups to an element at design time. To do so, you declare an element in your schema with an optional, unbounded **xsd:any** element that specifies the namespace attribute with the **##any** wildcard. Then, in design mode, you can use the **Fields** task pane to add new element fields and groups to that element. For example, you could add new content to the following element: 
+You can construct your schema so that you can use the **Fields** task pane to add new element fields and groups to an element at design time. To do so, you declare an element in your schema with an optional, unbounded **xsd:any** element that specifies the namespace attribute with the **##any** wildcard. Then, in design mode, you can use the **Fields** task pane to add new element fields and groups to that element. For example, you could add new content to the following element:
   
 ```XML
 <xsd:element name="open"> 
@@ -133,7 +133,7 @@ You can construct your schema so that you can use the **Fields** task pane to ad
 
 ## Adding New Attribute Fields with the Fields Task Pane
 
-Similarly to the element case, you can declare an attribute with an **anyAttribute** element that has the namespace attribute specified as the **##any** wildcard. At design time, you can use the **Fields** task pane to add new content to that schema attribute. 
+Similarly to the element case, you can declare an attribute with an **anyAttribute** element that has the namespace attribute specified as the **##any** wildcard. At design time, you can use the **Fields** task pane to add new content to that schema attribute.
   
 ```XML
 <xsd:element name="open"> 
@@ -146,7 +146,7 @@ Similarly to the element case, you can declare an attribute with an **anyAttribu
 
 ## Storing XML Signatures in the Data Source
 
-To enable users to digitally sign a form at run time, the schema of the data source must declare an element named signature for storing the XML Signatures (digital signature) information that is created when a user signs the form. You make this declaration by using the **xsd:any** element with the namespace attribute specified as the XML Signatures namespace with a wildcard character, as follows: "https://www.w3c.org/2000/09/xmldsig#" 
+To enable users to digitally sign a form at run time, the schema of the data source must declare an element named signature for storing the XML Signatures (digital signature) information that is created when a user signs the form. You make this declaration by using the **xsd:any** element with the namespace attribute specified as the XML Signatures namespace with a wildcard character, as follows: "<https://www.w3c.org/2000/09/xmldsig>#"
   
 ```XML
 <xsd:element name="signature"> 
@@ -162,7 +162,7 @@ To enable users to digitally sign a form at run time, the schema of the data sou
 
 ## Binding a Field to a Rich Text Box Control
 
- **Rich Text Box** controls in InfoPath generate generic XHTML; consequently, your schema must specify that any number of text and XHTML nodes is valid in the XML of the form instance. You can achieve this specification with the following XSD construct: 
+ **Rich Text Box** controls in InfoPath generate generic XHTML; consequently, your schema must specify that any number of text and XHTML nodes is valid in the XML of the form instance. You can achieve this specification with the following XSD construct:
   
 ```XML
 <xsd:element name="xhtml"> 
@@ -176,11 +176,11 @@ To enable users to digitally sign a form at run time, the schema of the data sou
 ```
 
 > [!NOTE]
-> InfoPath never modifies the content of the schema file (.xsd), but it may logically infer a subset of it for design purposes. The schema file is always untouched within the form template at both design time and run time. 
+> InfoPath never modifies the content of the schema file (.xsd), but it may logically infer a subset of it for design purposes. The schema file is always untouched within the form template at both design time and run time.
   
 ## Debugging Common XSD Errors
 
-If you load externally authored XSD files to create form templates in the InfoPath form designer, you may receive either of two types of error messages: MSXML error messages or InfoPath error messages. MSXML error messages appear in the **Details** section of an InfoPath error message dialog box, and they always begin with a reference to the name or path of the schema file that is raising the error. Some valid XSD schema constructs are not supported by InfoPath; these are discussed in the Unsupported XSD Constructs section. The following sections describe some common errors that can cause schemas to fail to load successfully in InfoPath. 
+If you load externally authored XSD files to create form templates in the InfoPath form designer, you may receive either of two types of error messages: MSXML error messages or InfoPath error messages. MSXML error messages appear in the **Details** section of an InfoPath error message dialog box, and they always begin with a reference to the name or path of the schema file that is raising the error. Some valid XSD schema constructs are not supported by InfoPath; these are discussed in the Unsupported XSD Constructs section. The following sections describe some common errors that can cause schemas to fail to load successfully in InfoPath.
   
 ## The XSD Namespace Declaration
 
@@ -196,7 +196,7 @@ Similar to all XML namespace declarations, the XML prefix (in this case 'xsd') c
   
 ## Importing and Including Schemas
 
-XSD schemas are extensible and can import and include other schemas. Generally, you should import a schema if the schema specified in the **targetNamespace** attribute differs from the current schema. You should include it if the schema specified in the **targetNamespace** attribute is the same as the current schema. 
+XSD schemas are extensible and can import and include other schemas. Generally, you should import a schema if the schema specified in the **targetNamespace** attribute differs from the current schema. You should include it if the schema specified in the **targetNamespace** attribute is the same as the current schema.
   
 The semantics for importing and including schemas are as follows:
   
@@ -206,12 +206,12 @@ The semantics for importing and including schemas are as follows:
 
 ```
 
-If the **schemaLocation** attribute is missing (as happens with some converters), then MSXML raises an error because it cannot find the file. If you get this error, also check to make sure that the resource or location specified in the schemaLocation attribute is accessible by users of the form template. Obviously, errors occur if the **schemaLocation** attribute references a server or directory that is down or nonexistent or if users do not have access permissions. Also, be sure to examine all imported and included schemas to make sure they are valid. 
+If the **schemaLocation** attribute is missing (as happens with some converters), then MSXML raises an error because it cannot find the file. If you get this error, also check to make sure that the resource or location specified in the schemaLocation attribute is accessible by users of the form template. Obviously, errors occur if the **schemaLocation** attribute references a server or directory that is down or nonexistent or if users do not have access permissions. Also, be sure to examine all imported and included schemas to make sure they are valid.
   
 > [!NOTE]
-> Errors caused by problems with the **schemaLocation** attribute are an issue only when InfoPath first imports the schemas; that is, when you first start designing a form based on an existing schema. After that, InfoPath works with cached versions of the schema files that are stored in the form template. 
+> Errors caused by problems with the **schemaLocation** attribute are an issue only when InfoPath first imports the schemas; that is, when you first start designing a form based on an existing schema. After that, InfoPath works with cached versions of the schema files that are stored in the form template.
   
-An empty namespace attribute is allowed when importing a schema, if that schema does not specify a **targetNamespace** attribute. In general, the namespace on the import must match the **targetNamespace** specified in the schema that you import. 
+An empty namespace attribute is allowed when importing a schema, if that schema does not specify a **targetNamespace** attribute. In general, the namespace on the import must match the **targetNamespace** specified in the schema that you import.
   
 ## Nondeterministic Schemas
 
@@ -249,15 +249,16 @@ To illustrate why this XSD segment is nondeterministic, assume you have the foll
 
 ```
 
-In this XML fragment, it is not clear whether the  *\<file_path\>*  element is the required node from the first part of the choice declaration or the optional one from the second part of the choice declaration. This distinction is important for the following reasons: 
+In this XML fragment, it is not clear whether the  *\<file_path\>*  element is the required node from the first part of the choice declaration or the optional one from the second part of the choice declaration. This distinction is important for the following reasons:
+
   
 1. If the XML fragment is validated against the first part of the choice declaration, then the XML is valid against the schema.
-    
-2. If the XML fragment is validated against the second part of the choice declaration, then the schema is not valid, because the required \<URI\> node is missing. 
-    
+
+2. If the XML fragment is validated against the second part of the choice declaration, then the schema is not valid, because the required \<URI\> node is missing.
+
 Some XSD validation systems err toward validating against this schema because there is a valid path. MSXML is stricter and raises an error stating that the schema is nondeterministic.
   
-What follows are a few more examples of nondeterministic schemas. The first deals with optional elements. These cases often arise from XDR to XSD converters because of differences in the default cardinalities in the two schema languages. The first case to consider is optional elements declared with **xsd:choice** and **xsd:sequence** elements. Optional elements declared in an **xsd:sequence** element usually validate properly, as long as you do not have elements with the same name more than once, with only optional elements in between. For example: 
+What follows are a few more examples of nondeterministic schemas. The first deals with optional elements. These cases often arise from XDR to XSD converters because of differences in the default cardinalities in the two schema languages. The first case to consider is optional elements declared with **xsd:choice** and **xsd:sequence** elements. Optional elements declared in an **xsd:sequence** element usually validate properly, as long as you do not have elements with the same name more than once, with only optional elements in between. For example:
   
 ```XML
 <xsd:element name="container"> 
@@ -283,7 +284,7 @@ To understand why this schema segment is nondeterministic, assume you have the f
 
 ```
 
-Looking at this fragment, you can see why it is invalid: there are two  `<aNode>` elements before the  `<anotherNode>` element, when only one is allowed. 
+Looking at this fragment, you can see why it is invalid: there are two `<aNode>` elements before the `<anotherNode>` element, when only one is allowed.
   
 Now assume that you have the following XML instance to validate:
   
@@ -295,9 +296,9 @@ Now assume that you have the following XML instance to validate:
 
 ```
 
-The challenge is to determine whether this instance is valid. Do you have two  `<aNode>` elements where only one is allowed, or do you have an  `<aNode>` element where it is allowed and another where it is allowed? The schema is nondeterministic because there is no way to know. 
+The challenge is to determine whether this instance is valid. Do you have two `<aNode>` elements where only one is allowed, or do you have an `<aNode>` element where it is allowed and another where it is allowed? The schema is nondeterministic because there is no way to know.
   
-Similarly, optional elements declared in an **xsd:choice** element are usually problematic. In the following simplified example, there is no way to determine whether the choice occurred once with the optional element not being there or whether it never occurred at all. 
+Similarly, optional elements declared in an **xsd:choice** element are usually problematic. In the following simplified example, there is no way to determine whether the choice occurred once with the optional element not being there or whether it never occurred at all.
   
 ```XML
 <xsd:choice> 
@@ -306,7 +307,7 @@ Similarly, optional elements declared in an **xsd:choice** element are usually p
 
 ```
 
-The final questionable practice is using an **xsd:any** element without a namespace definition, as in  `<xsd:any namespace="##other"/>` , after an **xsd:sequence** element. This construct is especially troublesome when it follows an optional element. If you revisit the previous example and change just the last node to an **xsd:any** element, you can see that all the previous arguments about nondeterminism still apply, as follows: 
+The final questionable practice is using an **xsd:any** element without a namespace definition, as in `<xsd:any namespace="##other"/>` , after an **xsd:sequence** element. This construct is especially troublesome when it follows an optional element. If you revisit the previous example and change just the last node to an **xsd:any** element, you can see that all the previous arguments about nondeterminism still apply, as follows:
   
 ```XML
 <xsd:element name="container"> 
@@ -351,13 +352,13 @@ The following is a more complex example:
 
 ```
 
-To understand why this example is invalid, you must understand how the type **xsd:NMTOKEN** is defined. The W3C data types specification defines the **NMTOKEN** type as follows: "An NMTOKEN (name token) is any mixture of name characters." 
+To understand why this example is invalid, you must understand how the type **xsd:NMTOKEN** is defined. The W3C data types specification defines the **NMTOKEN** type as follows: "An NMTOKEN (name token) is any mixture of name characters."
   
-If you investigate further, you find that '&' is not a valid name character, and therefore "M&Ms" does not validate as an **NMTOKEN** type. 
+If you investigate further, you find that '&' is not a valid name character, and therefore "M&Ms" does not validate as an **NMTOKEN** type.
   
 ## Empty Sequence or Choice Elements
 
-MSXML sometimes raises errors about schema declarations that contain empty **xsd:choice** or **xsd:sequence** elements, as shown in the following example. 
+MSXML sometimes raises errors about schema declarations that contain empty **xsd:choice** or **xsd:sequence** elements, as shown in the following example.
   
 ```XML
 <xsd:element name="emptyContainer"> 
@@ -368,15 +369,15 @@ MSXML sometimes raises errors about schema declarations that contain empty **xsd
 
 ```
 
-Removing the empty  `<xsd:choice />` tag should resolve this problem. 
+Removing the empty `<xsd:choice />` tag should resolve this problem.
   
 ## Regular Expressions
 
-MSXML 5.0 can have problems validating regular expression patterns on load. Regular expressions can be complicated, and you should be careful when you are using them. Every XSD parser seems to have flexible regular expression languages; that is, they implement the official XSD regular expression language plus elements from other regular expression languages. If InfoPath form designer has problems parsing a regular expression, then the sample data InfoPath generates might be invalid or might not be generated at all. This is acceptable at design time, because InfoPath uses only sample data for formatting. However, if you use a regular expression that MSXML does not support, then InfoPath cannot validate a value against it when a user is filling out a form. [XML Schema Part 0: Primer Second Edition](https://www.w3.org/TR/xmlschema-0/)describes what is supported in XSD regular expressions. For more information about XSD regular expressions and Unicode level 1 regular expressions, see [Unicode Regular Expressions](https://www.unicode.org/reports/tr18/) . 
+MSXML 5.0 can have problems validating regular expression patterns on load. Regular expressions can be complicated, and you should be careful when you are using them. Every XSD parser seems to have flexible regular expression languages; that is, they implement the official XSD regular expression language plus elements from other regular expression languages. If InfoPath form designer has problems parsing a regular expression, then the sample data InfoPath generates might be invalid or might not be generated at all. This is acceptable at design time, because InfoPath uses only sample data for formatting. However, if you use a regular expression that MSXML does not support, then InfoPath cannot validate a value against it when a user is filling out a form. [XML Schema Part 0: Primer Second Edition](https://www.w3.org/TR/xmlschema-0/)describes what is supported in XSD regular expressions. For more information about XSD regular expressions and Unicode level 1 regular expressions, see [Unicode Regular Expressions](https://www.unicode.org/reports/tr18/).
   
 ## targetNamespace Attribute Issues
 
-XSD is interesting in that, by default, the **targetNamespace** attribute refers to only the top-level declarations, although you can set  `attributeFormDefault=qualified` and  `elementFormDefault=qualified` to override this default behavior. As an example, assume that you have the following XSD. 
+XSD is interesting in that, by default, the **targetNamespace** attribute refers to only the top-level declarations, although you can set `attributeFormDefault=qualified` and `elementFormDefault=qualified` to override this default behavior. As an example, assume that you have the following XSD.
   
 ```XML
 <xsd:schema xmlns:xsd="https://www.w3.org/2001/XMLSchema" targetNamespace="https://ns" > 
@@ -435,7 +436,7 @@ This schema is invalid because "global" is in the namespace "https://ns". The si
 
 ```
 
-If your schema has the **targetNamespace** attribute specified, ensure that all global references are qualified with the correct namespace prefix. 
+If your schema has the **targetNamespace** attribute specified, ensure that all global references are qualified with the correct namespace prefix.
   
 ## XML Processing Instruction Encoding (Unicode vs. ANSII)
 
@@ -445,11 +446,11 @@ XML supports only Unicode character sets. Therefore, you may lose information if
 xml version="1.0" encoding="UTF-8"
 ```
 
-This processing instruction tag specifies that the encoding of the file is UTF-8. You must ensure that the file encoding is the same as the encoding stated in the processing instruction tag. You can determine the encoding by looking at the bytes of the file and looking for the Unicode byte order marks. But there is an easier way. If you have problems opening an XSD schema, specify the encoding as "UTF-8", open it in a text editor such as Notepad, and then save the file by using UTF-8 encoding (Notepad provides the **Encoding** drop-down list in the **Save As** dialog box). If you still have problems opening the file, it is not an encoding issue. 
+This processing instruction tag specifies that the encoding of the file is UTF-8. You must ensure that the file encoding is the same as the encoding stated in the processing instruction tag. You can determine the encoding by looking at the bytes of the file and looking for the Unicode byte order marks. But there is an easier way. If you have problems opening an XSD schema, specify the encoding as "UTF-8", open it in a text editor such as Notepad, and then save the file by using UTF-8 encoding (Notepad provides the **Encoding** drop-down list in the **Save As** dialog box). If you still have problems opening the file, it is not an encoding issue.
   
 ## maxOccurs Attribute Inside the xsd:all Element
 
-Due to the way nondeterminism is defined in the XML Schema recommendation, the only valid value for the **maxOccurs** attribute of an **xsd:element** element inside an **xsd:all** element is 1. For example, the following is valid. 
+Due to the way nondeterminism is defined in the XML Schema recommendation, the only valid value for the **maxOccurs** attribute of an **xsd:element** element inside an **xsd:all** element is 1. For example, the following is valid.
   
 ```XML
 <xsd:all> 
@@ -469,9 +470,9 @@ However, this example is not valid.
 
 ```
 
-This example is invalid because the validation system cannot determine whether two occurrences of  `<x/>` map to the single declaration or to the declaration and another invalid definition. Along the same lines, you cannot have two elements of the same name in an  `<xsd:all>` tag. 
+This example is invalid because the validation system cannot determine whether two occurrences of `<x/>` map to the single declaration or to the declaration and another invalid definition. Along the same lines, you cannot have two elements of the same name in an `<xsd:all>` tag.
   
-This example is also interesting because it allows you to have any number of  `<x/>` and  `<docs/>` nodes inside a containing element in any order. Although this construct is invalid, there is a workaround. By using the **xsd:choice** element, you can achieve the same result, as demonstrated in the following example. 
+This example is also interesting because it allows you to have any number of `<x/>` and `<docs/>` nodes inside a containing element in any order. Although this construct is invalid, there is a workaround. By using the **xsd:choice** element, you can achieve the same result, as demonstrated in the following example.
   
 ```XML
 <xsd:choice minOccurs="0" maxOccurs="unbounded"> 
@@ -487,7 +488,7 @@ The two examples in the following sections show how to edit or author a schema t
   
 ## Allowing User-defined Elements to Be Inserted in the Fields Task Pane
 
-To allow user-defined elements to appear under a parent element in the **Fields** task pane, you must insert an **xsd:any** element under the parent element. To allow user-defined elements to be inserted inside  `<your_node_name>` , the XSD declaration should resemble the following. 
+To allow user-defined elements to appear under a parent element in the **Fields** task pane, you must insert an **xsd:any** element under the parent element. To allow user-defined elements to be inserted inside `<your_node_name>`, the XSD declaration should resemble the following.
   
 ```XML
 <xsd:element name="your_node_name"> 
@@ -501,11 +502,11 @@ To allow user-defined elements to appear under a parent element in the **Fields*
 
 ```
 
-If you also want to allow user-defined attributes, then you must add  `<xsd:anyAttribute namespace="##any | ##other"/>` to the element declaration. 
+If you also want to allow user-defined attributes, then you must add `<xsd:anyAttribute namespace="##any | ##other"/>` to the element declaration.
   
 ## Allowing Rich Text Elements to be Bound in InfoPath Design and Edit Modes
 
-If you want to declare an element that can be bound to a **Rich Text Box** control, then it should have the following form, which includes the **xsd:any** element that has a namespace attribute set to "https://www.w3.org/1999/xhtml" as shown in the following example. 
+If you want to declare an element that can be bound to a **Rich Text Box** control, then it should have the following form, which includes the **xsd:any** element that has a namespace attribute set to "https://www.w3.org/1999/xhtml" as shown in the following example.
   
 ```XML
 <xsd:element name="your_node_name"> 
@@ -531,4 +532,3 @@ By taking advantage of InfoPath support for designing XML form solutions that ar
 - [W3C XML Schema Datatypes Reference](https://www.xml.com/pub/a/2000/11/29/schemas/dataref.html)
 - [XML Schema Tutorial](https://www.w3schools.com/xml/schema_intro.asp)
 - [XML Developer Center](https://msdn.microsoft.com/xml/default.aspx)
-

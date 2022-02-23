@@ -16,7 +16,7 @@ description: "Returns the substring at the zero-based location index in the list
 
 # INDEX Function
 
-Returns the substring at the zero-based location  _index_ in the _list_ delimited by  _delimiter_. Or, if the index is out of range, returns an empty string or the optional token provided as the  *errorvalue*  argument. 
+Returns the substring at the zero-based location  _index_ in the _list_ delimited by  _delimiter_. Or, if the index is out of range, returns an empty string or the optional token provided as the  *errorvalue* argument. 
   
 ## Syntax
 
@@ -35,7 +35,7 @@ INDEX(** *index* **," ** *list* ** "[,[ ** *delimiter* ** ][,[ ** *errorvalue* *
 
 If the list begins or ends with a delimiter, a null string is assumed to exist before or after the list. Consecutive delimiters imply a null string in between. 
   
-If the index is out of range, Visio returns an empty string or the optional token provided as the  *errorvalue*  argument. 
+If the index is out of range, Visio returns an empty string or the optional token provided as the  *errorvalue* argument. 
   
 ## Example 1
 

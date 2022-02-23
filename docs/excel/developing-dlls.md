@@ -86,7 +86,7 @@ The general syntax of a line that follows an **EXPORTS** statement is as follows
 
 Note that the C function has been decorated, but the DEF file explicitly forces the linker to expose the function using the original source code name (in this example). The linker implicitly exports the C++ function using the original code name, so that it is not necessary to include the decorated name in the DEF file.
   
-For 32-bit Windows API function calls, the convention for the decoration of C-compiled functions is as follows: **function_name** becomes  **function_name@** _n_ where _n_ is the number of bytes expressed as a decimal taken up by all the arguments, with the bytes for each rounded up to the nearest multiple of four.
+For 32-bit Windows API function calls, the convention for the decoration of C-compiled functions is as follows: **function_name** becomes **function_name@** _n_ where _n_ is the number of bytes expressed as a decimal taken up by all the arguments, with the bytes for each rounded up to the nearest multiple of four.
   
 > [!NOTE]
 > All pointers are four bytes wide in Win32. The return type has no impact on name decoration.

@@ -12,7 +12,7 @@ description: Constant definitions, MAPI interface declarations, and class and in
 
 # MAPI constants
 
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 This topic contains constant definitions, MAPI interface declarations, and class and interface identifiers used by the MAPI APIs.
   
@@ -29,13 +29,13 @@ This section contains constant definitions and interface identifiers for the Att
 DEFINE_GUID(IID_IAttachmentSecurity, 0xb2533636, 0xc3f3, 0x416f, 0xbf, 0x04, 0xae, 0xfe, 0x41, 0xab, 0xaa, 0xe2);
 ```
 
-Use the MAPIMETHOD macro defined in the Windows SDK header file mapidefs.h to define the pure virtual function **[IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)**. 
+Use the MAPIMETHOD macro defined in the Windows SDK header file mapidefs.h to define the pure virtual function **[IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md)**.
   
 ```cpp
 #define MAPI_IATTACHMENTSECURITY_METHODS(IPURE)         MAPIMETHOD(IsAttachmentBlocked)         (LPCWSTR pwszFileName, BOOL *pfBlocked) IPURE;
 ```
 
-Use the DECLARE_MAPI_INTERFACE_ macro defined in the Windows SDK header file mapidefs.h to define the virtual method table for **[IAttachmentSecurity](iattachmentsecurityiunknown.md)**. 
+Use the DECLARE_MAPI_INTERFACE_ macro defined in the Windows SDK header file mapidefs.h to define the virtual method table for **[IAttachmentSecurity](iattachmentsecurityiunknown.md)**.
   
 ```cpp
 DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown) 
@@ -50,8 +50,6 @@ DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown)
 
 This section contains constant definitions and class and interface identifiers for the MAPI-MIME Conversion API.
   
-### Constants
-
 |||
 |:-----|:-----|
 |CCSF_SMTP  <br/> |0x0002  <br/> |
@@ -64,7 +62,7 @@ This section contains constant definitions and class and interface identifiers f
 |CCSF_NO_MSGID  <br/> |0x4000  <br/> |
 |CCSF_GLOBAL_MESSAGE  <br/> |0x00200000  <br/> |
 |E_INVALIDARG  <br/> | *As defined in the Microsoft Windows Software Development Kit (SDK) header file winerror.h*  <br/> |
-   
+
 ### Class identifiers
 
 ```cpp
@@ -83,8 +81,6 @@ DEFINE_GUID(IID_IConverterSession, 0x4b401570, 0xb77b, 0x11d0, 0x9d, 0xa5, 0x0, 
 
 This section contains constant definitions and class and interface identifiers for the Offline State API.
   
-### Constants
-
 |||
 |:-----|:-----|
 |E_INVALIDARG  <br/> | *As defined in the Microsoft Windows Software Development Kit (SDK) header file winerror.h*  <br/> |
@@ -101,7 +97,7 @@ This section contains constant definitions and class and interface identifiers f
 |MAPIOFFLINE_STATE_OFFLINE_MASK  <br/> |0x00000003  <br/> |
 |MAPIOFFLINE_STATE_OFFLINE  <br/> |0x00000001  <br/> |
 |MAPIOFFLINE_STATE_ONLINE  <br/> |0x00000002  <br/> |
-   
+
 ### Class identifiers
 
 ```cpp
@@ -236,14 +232,12 @@ Refer to the section MAPI Store for the PSETID definitions.
 |mtgInfoUpdate  <br/> |0x00020000  <br/> |
 |mtgOutofDate  <br/> |0x00080000  <br/> |
 |mtgDelegated  <br/> |0x00100000  <br/> |
-   
+
 ## Replication API
 
 This section contains constant definitions, MAPI interface declarations, and class and interface identifiers for the Replication API.
   
-### Constants
-
-The following is a [MAPIUID](mapiuid.md) structure identifying a MAPI service provider: 
+The following is a [MAPIUID](mapiuid.md) structure identifying a MAPI service provider:
   
 ```cpp
 const MAPIUID g_muidProvPrvNST = 
@@ -308,7 +302,7 @@ const MAPIUID g_muidProvPrvNST =
 |UPV_ERROR  <br/> |0x00010000  <br/> |
 |UPV_DIRTY  <br/> |0x00020000  <br/> |
 |UPV_COMMIT  <br/> |0x00040000  <br/> |
-   
+
 ### Interface declarations
 
 ```cpp
@@ -356,8 +350,7 @@ DEFINE_GUID (IID_IPSTX6, 0x55f15323, 0x111b, 0x11d2, 0xa9, 0x99, 0x00, 0x60, 0x0
 DEFINE_GUID (IID_IOSTX, 0xd2d85db4,  0x840f, 0x49b8, 0x99, 0x82, 0x07, 0xd2, 0x40, 0x5e, 0xc6, 0xb7)
 ```
 
-
-Use the two following interface identifiers with [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), or [IMsgStore::OpenEntry](imsgstore-openentry.md) to open and ignore any provider check on a folder object and a message object, respectively. 
+Use the two following interface identifiers with [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), or [IMsgStore::OpenEntry](imsgstore-openentry.md) to open and ignore any provider check on a folder object and a message object, respectively.
   
 ```cpp
 //{57D333A0-F589-4b23-A3F9-85F82FEC153C}
@@ -373,8 +366,6 @@ DEFINE_GUID (IID_IMessageNoProvChk, 0xC3505457, 0x7B2E, 0x4c3b, 0xA8, 0xD6, 0x6D
 
 This section contains constant definitions and interface identifiers used by APIs that interface with a MAPI store.
   
-### Constants
-
 ||||
 |:-----|:-----|:-----|
 |fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |A store provider can specify **fnevIndexing** in the **ulEventType** member of the **[NOTIFICATION](notification.md)** structure to notify the indexer that an object is ready for indexing. The **info** member of the **NOTIFICATION** structure contains an **[EXTENDED_NOTIFICATION](extended_notification.md)** structure. |
@@ -383,16 +374,16 @@ This section contains constant definitions and interface identifiers used by API
 |INDEXING_SEARCH_OWNER  <br/> |((ULONG) 0x00000001)  <br/> |Identifies the process that is pushing a notification to an indexer that an object is ready for indexing. |
 |MNID_ID  <br/> |As defined in the Microsoft Windows Software Development Kit (SDK) header file mapidefs.h  <br/> |A value for the **ulKind** field of the **[MAPINAMEID](mapinameid.md)** structure. |
 |MNID_STRING  <br/> |As defined in the Microsoft Windows Software Development Kit (SDK) header file mapidefs.h. |A value for the **ulKind** field of the **[MAPINAMEID](mapinameid.md)** structure. |
-|MSCAP_RES_ANNOTATION  <br/> |((ULONG) 0x00000001)  <br/> |If a client specifies **MSCAP_SEL_RESTRICTION** in  *mscapSelector*  for **[IMSCapabilities::GetCapabilities](imscapabilities-getcapabilities.md)**, **GetCapabilities** can return this value if the store ignores invalid parameters in a restriction. |
-|MSCAP_SECURE_FOLDER_HOMEPAGES  <br/> |((ULONG) 0x00000001)  <br/> |If a client specifies **MSCAP_SEL_FOLDER** in  *mscapSelector*  for **IMSCapabilities::GetCapabilities**, **GetCapabilities** can return this value if the store is a non-default store that supports folder home pages. |
+|MSCAP_RES_ANNOTATION  <br/> |((ULONG) 0x00000001)  <br/> |If a client specifies **MSCAP_SEL_RESTRICTION** in *mscapSelector* for **[IMSCapabilities::GetCapabilities](imscapabilities-getcapabilities.md)**, **GetCapabilities** can return this value if the store ignores invalid parameters in a restriction. |
+|MSCAP_SECURE_FOLDER_HOMEPAGES  <br/> |((ULONG) 0x00000001)  <br/> |If a client specifies **MSCAP_SEL_FOLDER** in *mscapSelector* for **IMSCapabilities::GetCapabilities**, **GetCapabilities** can return this value if the store is a non-default store that supports folder home pages. |
 |STORE_PUSHER_OK  <br/> |((ULONG) 0x00800000)  <br/> |A client can get the property **[PR_SUPPORT_MASK](pidtagstoresupportmask-canonical-property.md)** to determine the characteristic of a message store. If the store provider sets the **STORE_PUSHER_OK** flag in the bitmask, that means the MAPI Protocol Handler will not crawl the store, and the store is responsible to push any changes through notifications to the indexer to have messages indexed. |
-   
+
 ### Definitions for namespaces
 
 The following globally unique identifiers (GUIDs) represent the namespaces of named properties. They are indexed by the MAPI Protocol Handler (PH), and are documented as read-only.
   
 > [!CAUTION]
-> The named properties should not be used to create or modify items. 
+> The named properties should not be used to create or modify items.
   
 ```cpp
 const GUID PS_INTERNET_HEADERS  = {0x00020386, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
@@ -485,7 +476,7 @@ DEFINE_GUID(IID_IFolderSupport, 0x00375ac3, 0xecaf, 0x4ef8, 0xa5, 0x27, 0x34, 0x
 DEFINE_PRXGUID(IID_IProxyStoreObject, 0x00000000L);
 ```
 
-Use the  `DEFINE_OLEGUID` macro defined in the Windows SDK header file guiddef.h to associate the following GUID symbolic name with its value. 
+Use the  `DEFINE_OLEGUID` macro defined in the Windows SDK header file guiddef.h to associate the following GUID symbolic name with its value.
   
 ```cpp
 //{00020393-0000-0000-C000-000000000046}
@@ -497,8 +488,6 @@ DEFINE_OLEGUID(IID_IMSCapabilities, 0x00020393, 0, 0)
 
 This section contains constant definitions for the MAPI Address Book.
   
-### Constants
-
 ||||
 |:-----|:-----|:-----|
 |CONTAB_ROOT  <br/> |((ULONG) 0x00000001)  <br/> |The root folder for a MAPI address book object. |
@@ -506,26 +495,26 @@ This section contains constant definitions for the MAPI Address Book.
 |CONTAB_CONTAINER  <br/> |((ULONG) 0x00000003)  <br/> |An address book container object. |
 |CONTAB_USER  <br/> |((ULONG) 0x00000004)  <br/> |A messaging user object. |
 |CONTAB_DISTLIST  <br/> |((ULONG) 0x00000005)  <br/> |A distribution list object. |
-   
+
 ## Additional MAPI constants
 
 This section contains constant definitions including error codes, and interface identifiers used by MAPI APIs that were not previously exposed and documented.
   
 ||||
 |:-----|:-----|:-----|
-|DIALOG_MODAL  <br/> |((ULONG) 0x00000001)  <br/> |When a client calls the [IAddrBook::Details](iaddrbook-details.md) method, the client must set the **DIALOG_MODAL** flag in the _ulFlags_ parameter to display the modal dialog box showing the details about a particular address book entry. This constant is defined in mapidefs.h. |
-|ITEMPROC_FORCE  <br/> |0x00000800  <br/> |In Outlook 2007, wrapped PST stores have rules and spam filtering processed on new messages before MAPI clients are notified of the new messages. A provider or client using the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method to create a new message in PST stores should set the **ITEMPROC_FORCE** flag in the _ulFlags_ parameter of the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to indicate to the PST store that the message is eligible for rules processing before the store notifies any listening client of the arrival of the new message. Note that such rules processing only applies to new messages created on a server that is not a Microsoft Exchange Server, because Exchange Server processes rules for messages on the server. Hence the provider or client creating the message must pass this flag in combination with **NON_EMS_XP_SAVE**, which indicates the server is not an Exchange server. |
-| MAPI_BG_SESSION  <br/> |0x00200000  <br/> |A client can call the [MAPILogonEx](mapilogonex.md) function, setting the **MAPI_BG_SESSION** flag in the _flFlags_ parameter to log on to a session and carry out any operations in the background. In general, if a client intends to do processing on a background thread or in a separate process in a manner that is unobtrusive to the foreground thread, it should call [MAPILogonEx](mapilogonex.md) with the **MAPI_BG_SESSION** flag. An example where this is used is a client application, such as an indexing engine, opening a Personal Folders File (PST) for background type access. |
-|MAPI_CACHE_ONLY  <br/> |0x00004000  <br/> |A client can call the [IAddrBook::OpenEntry](iaddrbook-openentry.md) method, setting the **MAPI_CACHE_ONLY** flag in the _ulFlags_ parameter to open an address book entry and to access it subsequently only from the cache. An example where this is used is a client application that wants to open the Global Address List in Cached Exchange mode and access an entry in that Address Book from the cache without creating traffic between the client and the server. |
-|MAPI_DIALOG_MODELESS  <br/> |0x0000000C  <br/> |This value can be passed to the Simple MAPI MAPISendMail function in the _ulFlags_ parameter to specify that a modeless dialog box is displayed by the default mail application. If neither this flag nor MAPI_DIALOG (0x00000008) is set, no dialog box is displayed. |
-|MAPI_NO_CACHE  <br/> |0x00000200  <br/> |If Microsoft Office Outlook is in Cached Exchange Mode and a store has been opened in cached mode, a client or service provider can call [IMsgStore::OpenEntry](imsgstore-openentry.md), setting the **MAPI_NO_CACHE** flag in the _ulFlags_ parameter to open an item or a folder on the remote store. Note that if you open the message store with the **MDB_ONLINE** flag on the remote server, you do not have to use the **MAPI_NO_CACHE** flag. |
-|MAPI_UNICODE  <br/> |0x80000000  <br/> |A client or service provider can call the [OpenIMsgOnIStg](openimsgonistg.md) function, setting the **MAPI_UNICODE** flag in the _ulFlags_ parameter to create Unicode .msg files. The resulting [IMessage : IMAPIProp](imessageimapiprop.md) file shows **STORE_UNICODE_OK** in its [PidTagStoreSupportMask Canonical Property](pidtagstoresupportmask-canonical-property.md) and supports Unicode properties. This constant is defined in mapidefs.h. |
-|MDB_ONLINE  <br/> |0x00000100  <br/> |If Outlook is in Cached Exchange Mode, a client or service provider can call the [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) method, setting the **MDB_ONLINE** flag in the _ulFlags_ parameter to override the connection to the local message store and open the store on the remote server. Note that you cannot open an Exchange store in cached mode and in non-cached mode at the same time in the same MAPI session. If you have already opened the cached message store, you must either close the store before you open it with this flag, or open a new MAPI session where you can open the Exchange store on the remote server by using this flag. |
-|NON_EMS_XP_SAVE  <br/> |0x00001000  <br/> |A client can call the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method, setting the **NON_EMS_XP_SAVE** flag in the _ulFlags_ parameter to indicate that the message has not been delivered from an Exchange server. This flag should be used in combination with the **ITEMPROC_FORCE** flag in the _ulFlags_ parameter to indicate to a PST store that the message is eligible for rules processing before the PST store notifies any listening client of the arrival of the message. This rules processing only applies to new messages that are created with [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) on a server that is not an Exchange server (in which case the Exchange server would have already processed rules on the message). |
-|SPAMFILTER_ONSAVE  <br/> |0x00000080  <br/> |A client can call [IMAPIProp::SaveChanges](imapiprop-savechanges.md), setting the **SPAMFILTER_ONSAVE** flag in the _ulFlags_ parameter to enable spam filtering on a message that is being saved. Spam filtering support is available only if the sender's email address type is Simple Mail Transfer Protocol (SMTP), and the message is being saved to a store for a Personal Folders file (PST). |
+|DIALOG_MODAL  <br/> |((ULONG) 0x00000001)  <br/> |When a client calls the [IAddrBook::Details](iaddrbook-details.md) method, the client must set the **DIALOG_MODAL** flag in the *ulFlags* parameter to display the modal dialog box showing the details about a particular address book entry. This constant is defined in mapidefs.h. |
+|ITEMPROC_FORCE  <br/> |0x00000800  <br/> |In Outlook 2007, wrapped PST stores have rules and spam filtering processed on new messages before MAPI clients are notified of the new messages. A provider or client using the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method to create a new message in PST stores should set the **ITEMPROC_FORCE** flag in the *ulFlags* parameter of the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to indicate to the PST store that the message is eligible for rules processing before the store notifies any listening client of the arrival of the new message. Note that such rules processing only applies to new messages created on a server that is not a Microsoft Exchange Server, because Exchange Server processes rules for messages on the server. Hence the provider or client creating the message must pass this flag in combination with **NON_EMS_XP_SAVE**, which indicates the server is not an Exchange server. |
+| MAPI_BG_SESSION  <br/> |0x00200000  <br/> |A client can call the [MAPILogonEx](mapilogonex.md) function, setting the **MAPI_BG_SESSION** flag in the *flFlags* parameter to log on to a session and carry out any operations in the background. In general, if a client intends to do processing on a background thread or in a separate process in a manner that is unobtrusive to the foreground thread, it should call [MAPILogonEx](mapilogonex.md) with the **MAPI_BG_SESSION** flag. An example where this is used is a client application, such as an indexing engine, opening a Personal Folders File (PST) for background type access. |
+|MAPI_CACHE_ONLY  <br/> |0x00004000  <br/> |A client can call the [IAddrBook::OpenEntry](iaddrbook-openentry.md) method, setting the **MAPI_CACHE_ONLY** flag in the *ulFlags* parameter to open an address book entry and to access it subsequently only from the cache. An example where this is used is a client application that wants to open the Global Address List in Cached Exchange mode and access an entry in that Address Book from the cache without creating traffic between the client and the server. |
+|MAPI_DIALOG_MODELESS  <br/> |0x0000000C  <br/> |This value can be passed to the Simple MAPI MAPISendMail function in the *ulFlags* parameter to specify that a modeless dialog box is displayed by the default mail application. If neither this flag nor MAPI_DIALOG (0x00000008) is set, no dialog box is displayed. |
+|MAPI_NO_CACHE  <br/> |0x00000200  <br/> |If Microsoft Office Outlook is in Cached Exchange Mode and a store has been opened in cached mode, a client or service provider can call [IMsgStore::OpenEntry](imsgstore-openentry.md), setting the **MAPI_NO_CACHE** flag in the *ulFlags* parameter to open an item or a folder on the remote store. Note that if you open the message store with the **MDB_ONLINE** flag on the remote server, you do not have to use the **MAPI_NO_CACHE** flag. |
+|MAPI_UNICODE  <br/> |0x80000000  <br/> |A client or service provider can call the [OpenIMsgOnIStg](openimsgonistg.md) function, setting the **MAPI_UNICODE** flag in the *ulFlags* parameter to create Unicode .msg files. The resulting [IMessage : IMAPIProp](imessageimapiprop.md) file shows **STORE_UNICODE_OK** in its [PidTagStoreSupportMask Canonical Property](pidtagstoresupportmask-canonical-property.md) and supports Unicode properties. This constant is defined in mapidefs.h. |
+|MDB_ONLINE  <br/> |0x00000100  <br/> |If Outlook is in Cached Exchange Mode, a client or service provider can call the [IMAPISession::OpenMsgStore](imapisession-openmsgstore.md) method, setting the **MDB_ONLINE** flag in the *ulFlags* parameter to override the connection to the local message store and open the store on the remote server. Note that you cannot open an Exchange store in cached mode and in non-cached mode at the same time in the same MAPI session. If you have already opened the cached message store, you must either close the store before you open it with this flag, or open a new MAPI session where you can open the Exchange store on the remote server by using this flag. |
+|NON_EMS_XP_SAVE  <br/> |0x00001000  <br/> |A client can call the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method, setting the **NON_EMS_XP_SAVE** flag in the *ulFlags* parameter to indicate that the message has not been delivered from an Exchange server. This flag should be used in combination with the **ITEMPROC_FORCE** flag in the _ulFlags_ parameter to indicate to a PST store that the message is eligible for rules processing before the PST store notifies any listening client of the arrival of the message. This rules processing only applies to new messages that are created with [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) on a server that is not an Exchange server (in which case the Exchange server would have already processed rules on the message). |
+|SPAMFILTER_ONSAVE  <br/> |0x00000080  <br/> |A client can call [IMAPIProp::SaveChanges](imapiprop-savechanges.md), setting the **SPAMFILTER_ONSAVE** flag in the *ulFlags* parameter to enable spam filtering on a message that is being saved. Spam filtering support is available only if the sender's email address type is Simple Mail Transfer Protocol (SMTP), and the message is being saved to a store for a Personal Folders file (PST). |
 |STORE_ITEMPROC  <br/> |0x00200000  <br/> |If this flag is set in the [PidTagStoreSupportMask Canonical Property](pidtagstoresupportmask-canonical-property.md) of a wrapped PST store, it indicates that when a new message arrives at the store, the store has rules and spam filtering processed on the message separately. The store then calls [IMAPISupport::Notify](imapisupport-notify.md), setting **fnevNewMail** in the [NOTIFICATION](notification.md) structure that is passed as a parameter, and passing the details of the new message to a listening client. Subsequently, when the listening client receives the notification, it does not process rules on the message. |
 |STORE_UNICODE_OK  <br/> |0x00040000  <br/> |If this flag is included in the [PidTagStoreSupportMask Canonical Property](pidtagstoresupportmask-canonical-property.md), it indicates that the store supports Unicode storage. A client can look for the presence of the flag to decide whether to request or to save Unicode information to the store. |
-   
+
 ### Definitions for archiving items in a folder
 
 The following constant definitions are values used to set the [PidTagAgingGranularity Canonical Property](pidtagaginggranularity-canonical-property.md).
@@ -559,17 +548,17 @@ The following constant and macro definitions are for displaying remote objects. 
 
 ### Definitions for Exchange address book and Message store error codes
 
-The following contains error code definitions for the Exchange Address Book and Message Store, which have reconnection capability. The last call to a disconnected Global Catalog (GC) may result in the **MAPI_E_END_OF_SESSION** error, which would need to be retried. 
+The following contains error code definitions for the Exchange Address Book and Message Store, which have reconnection capability. The last call to a disconnected Global Catalog (GC) may result in the **MAPI_E_END_OF_SESSION** error, which would need to be retried.
   
 Outlook's MAPI supports reconnection to a GC server without special reconfiguration, but some other error codes can be returned to the client.
   
 ||||
 |:-----|:-----|:-----|
 |MAPI_E_END_OF_SESSION  <br/> |0x80040200  <br/> |Returned when a connection has been disconnected. |
-|MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Returned when the Remote Procedure Call (RPC) connection token is out-of-date. If the token of the current transaction is different from the token of the connection that means it has reconnected, so **MAPI_E_RECONNECTED** is returned and can be treated the same as **MAPI_E_END_OF_SESSION**. The call should be retried. |
+|MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Returned when the Remote Procedure Call (RPC) connection token is out-of-date. If the token of the current transaction is different from the token of the connection that means it has reconnected, so **MAPI_E_RECONNECTED**is returned and can be treated the same as**MAPI_E_END_OF_SESSION**. The call should be retried. |
 |MAPI_E_OFFLINE  <br/> |0x80040126  <br/> |Returned when the connection is offline. Typically this means that something has occurred in the environment, such as server failure or loss of network connectivity. This error is most likely to occur when using a cached mode profile and attempting to bypass the cache to communicate with the server. If the cache was never able to initially establish a connection to the server, it may be in the offline state in which **MAPI_E_OFFLINE** could surface. |
-   
-Neither of the preceding two errors will be returned in all scenarios where they would likely appear to apply. In most cases, **MAPI\_E_NETWORK_ERROR** or **MAPI_E_CALL_FAILED** will be returned. Neither will appear using the [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](https://support.microsoft.com/kb/171440) download. 
+
+Neither of the preceding two errors will be returned in all scenarios where they would likely appear to apply. In most cases, **MAPI\_E_NETWORK_ERROR** or **MAPI_E_CALL_FAILED** will be returned. Neither will appear using the [Microsoft Exchange Server MAPI Client and Collaboration Data Objects 1.2.1](https://support.microsoft.com/kb/171440) download.
   
 ### Definitions for Exchange Server Mailbox cached mode quotas
 
@@ -596,13 +585,13 @@ The following constant definitions are values that are used to set the [PidTagMe
 
 ### Definitions for using RPC over HTTP
 
-See the [PidTagRpcOverHttpFlags Canonical Property](pidtagrpcoverhttpflags-canonical-property.md) topic for constant definitions used as flags to set the property. 
+See the [PidTagRpcOverHttpFlags Canonical Property](pidtagrpcoverhttpflags-canonical-property.md) topic for constant definitions used as flags to set the property.
   
-See the [PidTagRpcOverHttpProxyAuthScheme Canonical Property](pidtagrpcoverhttpproxyauthscheme-canonical-property.md) topic for constant definitions used to set the property. 
+See the [PidTagRpcOverHttpProxyAuthScheme Canonical Property](pidtagrpcoverhttpproxyauthscheme-canonical-property.md) topic for constant definitions used to set the property.
   
 ### Identifiers
 
-Use the  `DEFINE_OLEGUID` macro defined in the Microsoft Windows Software Development Kit (SDK) header file guiddef.h to associate the following GUID symbolic names with their values. 
+Use the  `DEFINE_OLEGUID` macro defined in the Microsoft Windows Software Development Kit (SDK) header file guiddef.h to associate the following GUID symbolic names with their values.
   
 ```cpp
 //{0002038A-0000-0000-C000-000000000046}
@@ -673,9 +662,8 @@ DEFINE_GUID(IID_IPSTOVERRIDE1, 0xfbb68d34, 0xf561, 0x44fb, 0xa8, 0xca, 0xae, 0x3
 
 ## See also
 
-- [About MAPI Additions](about-mapi-additions.md) 
+- [About MAPI Additions](about-mapi-additions.md)
 - [About Named Properties Used by Outlook](about-named-properties-used-by-outlook.md)
 - [Access a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)
 - [Open a Store on the Remote Server When Outlook is in Cached Exchange Mode](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Manage a Message in an OST Without Invoking a Synchronization in Cached Exchange Mode](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
-

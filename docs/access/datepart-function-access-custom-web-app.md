@@ -25,7 +25,7 @@ The **DatePart** function contains the following arguments.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *DatePart*  <br/> |The part of *Date*  (a date or time value) for which an integer will be returned. Refer to the Remarks section for the list of valid abbreviations. |
+| *DatePart*  <br/> |The part of *Date* (a date or time value) for which an integer will be returned. Refer to the Remarks section for the list of valid abbreviations. |
 | *Date*  <br/> |An expression that can be resolved to a Date/Time value. The *Date* argument expression, column expression, user-defined variable or string literal. |
 
 ## Remarks

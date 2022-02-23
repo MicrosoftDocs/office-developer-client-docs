@@ -23,17 +23,17 @@ BOUND (***value***, ***type***, ***ignore***, ***value1***, ***value2*** ***[,ig
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _value_ |Required |**Numeric** |The current value being constrained. |
-| _type_ |Required |**Numeric** |Whether the constraint is inclusive (0), exclusive (1), or disabled (2). |
-| _ignore_ |Required |**Boolean** | TRUE to ignore the range; FALSE to constrain the value of the cell to the range. |
-| _value1_ |Required |**Numeric** |First value in a range. |
-| _value2_ |Required |**Numeric** |Second value in a range. |
+| *value* |Required |**Numeric** |The current value being constrained. |
+| *type* |Required |**Numeric** |Whether the constraint is inclusive (0), exclusive (1), or disabled (2). |
+| *ignore* |Required |**Boolean** | TRUE to ignore the range; FALSE to constrain the value of the cell to the range. |
+| *value1* |Required |**Numeric** |First value in a range. |
+| *value2* |Required |**Numeric** |Second value in a range. |
 
 ## Remarks
 
 Use the BOUND function to restrict a cell's value to an upper and lower bound, for example, to control objects that should not be stretched above or below a minimum or maximum height. The constraint can be inclusive or exclusive with respect to the range or ranges. If the current value should not be constrained, set the *type* parameter to 2 (disabled).
   
-You can define multiple ranges by supplying multiple occurrences of the *ignore*, *value1*, and *value2* parameters. Use the  *ignore* parameter to disable constraints by a particular range.
+You can define multiple ranges by supplying multiple occurrences of the *ignore*, *value1*, and *value2* parameters. Use the *ignore* parameter to disable constraints by a particular range.
   
 The formula containing the BOUND function does not get overwritten when its value changes; instead, the formula is preserved and the new value is placed into the *value* parameter.
   

@@ -1,7 +1,5 @@
 ---
-title: "Shape Data Row (Shape Data Section)"
- 
- 
+title: "Shape Data Row (Shape Data Section)" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -30,13 +28,12 @@ Contains the information for a single shape data item associated with a shape. A
 |[Ask](ask-cell-shape-data-section.md) <br/> |Determines whether a user is queried to enter shape data information for a shape when an instance is created or the shape is duplicated or copied. |
 |[LangID](langid-cell-shape-data-section.md) <br/> |Specifies the language in which to display the shape data item value. |
 |[Calendar](calendar-cell-miscellaneous-section.md) <br/> |Specifies the type of calendar used when the Type of a shape data item is Date. |
-   
+
 ## Remarks
 
- You can add as many Prop.  *name*  rows as you need, assign meaningful names to the rows, and set cell values. To add a shape data item to an existing Shape Data section, right-click a row and click **Insert Row** on the shortcut menu. 
+ You can add as many Prop.  *name*  rows as you need, assign meaningful names to the rows, and set cell values. To add a shape data item to an existing Shape Data section, right-click a row and click **Insert Row** on the shortcut menu.
   
-You can reference these cells by their row name, which appears in a ShapeSheet window in red text. To assign meaningful names to Prop. *name*  rows, click the row, and then type a name such as  *Price*  , for example, to create the row name Prop.Price. You can then reference the Label cell by using Prop.Price.Label. 
+You can reference these cells by their row name, which appears in a ShapeSheet window in red text. To assign meaningful names to Prop. *name*  rows, click the row, and then type a name such as *Price*, for example, to create the row name Prop.Price. You can then reference the Label cell by using Prop.Price.Label.
   
 The row name you enter must be unique within the section.
   
-
