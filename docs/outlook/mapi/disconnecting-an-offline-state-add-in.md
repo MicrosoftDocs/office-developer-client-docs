@@ -10,7 +10,7 @@ description: "Last modified: December 07, 2015"
 
 # Disconnecting an Offline State Add-in
 
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 When the offline state add-in is disconnected, you must implement functions to properly terminate and clean up the add-in. For more information on setting up and using the offline state add-in to monitor connection state changes, see [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md) and [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md).
   
@@ -18,7 +18,7 @@ In this topic, these disconnection, terminate, and clean-up functions are demons
   
 ## On Disconnection Routine
 
-The **IDTExtensibility2.OnDisconnection** method is called when the Offline State Add-in is unloaded. You should implement clean up code in this function. In the following example, the **IDTExtensibility2.OnDisconnection** function calls the  `HrTermAddin` function. 
+The **IDTExtensibility2.OnDisconnection** method is called when the Offline State Add-in is unloaded. You should implement clean up code in this function. In the following example, the **IDTExtensibility2.OnDisconnection** function calls the `HrTermAddin` function.
   
 ### CMyAddin::OnDisconnection() example
 
@@ -34,7 +34,7 @@ STDMETHODIMP CMyAddin::OnDisconnection(ext_DisconnectMode /*RemoveMode*/, SAFEAR
 
 ## Terminate Add-in Function
 
-The  `HrTermAddin` function calls the  `inDeInitMonitor`,  `HrRemoveMenuItems`, and  `UnloadLibraries` functions to finish cleaning up the Offline State Add-in. 
+The `HrTermAddin` function calls the `inDeInitMonitor`, `HrRemoveMenuItems`, and `UnloadLibraries` functions to finish cleaning up the Offline State Add-in.
   
 ### CMyAddin::HrTermAddin() example
 
@@ -51,7 +51,7 @@ HRESULT CMyAddin::HrTermAddin()
 
 ## Deinitialize Monitor Routine
 
-The  `inDeInitMonitor` function calls the [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) function to cancel the callbacks for the offline object. 
+The `inDeInitMonitor` function calls the [IMAPIOfflineMgr::Unadvise](imapiofflinemgr-unadvise.md) function to cancel the callbacks for the offline object.
   
 ### DeInitMonitor() example
 
@@ -72,7 +72,7 @@ g_ulAdviseToken = NULL;
 
 ## Remove Menu Items Routine
 
-The  `HrRemoveMenuItems` function calls  `DispEventUnadvise` for each menu item under the **Offline State** menu, and then deletes the **Offline State** menu. 
+The `HrRemoveMenuItems` function calls `DispEventUnadvise` for each menu item under the **Offline State** menu, and then deletes the **Offline State** menu.
   
 ### CMyAddin::HrRemoveMenuItems() example
 
@@ -119,7 +119,7 @@ HRESULT CMyAddin::HrRemoveMenuItems()
 
 ## Unload Libraries Routine
 
-When the add-in is unloaded from Outlook, the  `UnloadLibraries` function unloads the dynamic-link libraries (DLLs) that the add-in required. 
+When the add-in is unloaded from Outlook, the `UnloadLibraries` function unloads the dynamic-link libraries (DLLs) that the add-in required.
   
 ### UnloadLibraries() example
 
@@ -145,4 +145,3 @@ void UnloadLibraries()
 - [About the Sample Offline State Add-in](about-the-sample-offline-state-add-in.md)
 - [Setting Up an Offline State Add-in](setting-up-an-offline-state-add-in.md)
 - [Monitoring Connection State Changes Using an Offline State Add-in](monitoring-connection-state-changes-using-an-offline-state-add-in.md)
-

@@ -32,35 +32,35 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 _pclsidCategory_
   
 > [in] The class identifier of the category to enumerate. The value must be one of the following:
-    
-   - CLSID_OlkMail 
-    
-   -  CLSID_OlkAddressBook 
-    
-   - CLSID_OlkStore 
-    
+
+- CLSID_OlkMail
+
+- CLSID_OlkAddressBook
+
+- CLSID_OlkStore
+
 _pclsidType_
   
 > [in] The class identifier of the account type to enumerate. The value must be one of the following:
-   
-   - CLSID_OlkPOP3Account
-    
-   - CLSID_OlkIMAP4Account
-    
-   - CLSID_OlkMAPIAccount
-    
-   - CLSID_OlkHotmailAccount
-    
-   - CLSID_OlkLDAPAccount
-   
+
+- CLSID_OlkPOP3Account
+
+- CLSID_OlkIMAP4Account
+
+- CLSID_OlkMAPIAccount
+
+- CLSID_OlkHotmailAccount
+
+- CLSID_OlkLDAPAccount
+
 _dwFlags_
   
 > [in] Flags to modify behavior. The only supported value is OLK_ACCOUNT_NO_FLAGS.
-   
+
 _ppEnum_
   
 > [out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface.
-   
+
 ## Return values
 
 |**HRESULT**|**Description**|
@@ -72,7 +72,7 @@ _ppEnum_
 
 Specifying NULL for category returns an enumerator of all accounts of the specified type. Similarly, specifying NULL for type returns an enumerator of all accounts of the specified category.
   
- **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. If the account is an Exchange account (*pclsidType* is **CLSID_OlkMAPIAccount** ), and you are trying to enumerate accounts that implement the address book (*prgclsidCategory* is **CLSID_OlkAddressBook** ), calling **IOlkAccountManager::EnumerateAccounts** will not return the Exchange account in the accounts enumerator *ppEnum*.
+ **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. If the account is an Exchange account (_pclsidType_ is **CLSID_OlkMAPIAccount** ), and you are trying to enumerate accounts that implement the address book (_prgclsidCategory_  is **CLSID_OlkAddressBook** ), calling **IOlkAccountManager::EnumerateAccounts** will not return the Exchange account in the accounts enumerator _ppEnum_.
   
 ## See also
 

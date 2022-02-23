@@ -10,23 +10,23 @@ description: "Last modified: August 13, 2013"
 
 # Obtain a contact message given a contacts address book entry
 
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
-This topic contains an example in C++, `HrOpenContact`, that shows how to use the [CONTAB_ENTRYID](contab_entryid.md) structure that identifies an entry in a Contacts Address Book to obtain the associated MAPI Contact message. 
+This topic contains an example in C++, `HrOpenContact`, that shows how to use the [CONTAB_ENTRYID](contab_entryid.md) structure that identifies an entry in a Contacts Address Book to obtain the associated MAPI Contact message.
   
-`HrOpenContact` has the following parameters: 
+`HrOpenContact` has the following parameters:
   
 -  *lpSession*  is an input parameter representing the current session. **LPMAPISESSION** is defined in the MAPI header file mapix.h as a pointer to [IMAPISession : IUnknown](imapisessioniunknown.md).
     
--  *cbEntryID*  is an input parameter representing the size of the entry identifier associated with  *lpEntryID*  . 
+-  *cbEntryID*  is an input parameter representing the size of the entry identifier associated with *lpEntryID*.
     
--  *lpEntryID*  is an input parameter representing a pointer to the entry identifier of an entry in a Contact Address Book. 
+-  *lpEntryID*  is an input parameter representing a pointer to the entry identifier of an entry in a Contact Address Book.
     
--  *ulFlags*  is an input parameter representing a bitmask containing object access flags to the MAPI Contact message. 
+-  *ulFlags*  is an input parameter representing a bitmask containing object access flags to the MAPI Contact message.
     
--  *lpContactMessage*  is an output parameter representing a pointer to the MAPI Contact message. 
+-  *lpContactMessage*  is an output parameter representing a pointer to the MAPI Contact message.
     
-To open the underlying MAPI Contact message,  `HrOpenContact` first casts  *lpEntryID*  to a pointer to **CONTAB_ENTRYID**. It then calls [IMAPISession::OpenEntry](imapisession-openentry.md) to obtain the MAPI Contact message, passing as parameters the  *cbeid*  and  *abeid*  fields of the entry in the Contacts Address Book that identify respectively the size of the entry identifier and the entry identifier of the MAPI Contact message. 
+To open the underlying MAPI Contact message,  `HrOpenContact` first casts  *lpEntryID*  to a pointer to **CONTAB_ENTRYID**. It then calls [IMAPISession::OpenEntry](imapisession-openentry.md) to obtain the MAPI Contact message, passing as parameters the  *cbeid*  and  *abeid*  fields of the entry in the Contacts Address Book that identify respectively the size of the entry identifier and the entry identifier of the MAPI Contact message.
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 
@@ -96,4 +96,3 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 ## See also
 
 - [IMAPISession::OpenEntry](imapisession-openentry.md)
-

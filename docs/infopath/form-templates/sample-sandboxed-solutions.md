@@ -19,23 +19,23 @@ A useful task that you can perform by using code in an InfoPath form is to sort 
 Before you start, make sure that you meet the following requirements.
   
 - You are a site collection administrator on the SharePoint Server 2010 or SharePoint Foundation 2010 site where you want to publish the form.
-    
+
 - Check with the farm administrator to make sure that the Microsoft SharePoint Foundation Sandboxed Code Service is running on the server. For more information, see [Publishing Forms with Code](publishing-forms-with-code.md).
-    
+
 - The programming language that you have selected for the form template is either **C#** or **Visual Basic** without any earlier version name after it. The InfoPath 2007-compatible and InfoPath 2003-compatible versions of the programming languages and object models are not supported for sandboxed solutions. For more information about how to specify the programming language, see [Develop with Visual Studio](how-to-develop-with-visual-studio.md).
-    
-Perform the following steps to create a form template that sorts the data in a **Repeating Table** control on the form. 
+
+Perform the following steps to create a form template that sorts the data in a **Repeating Table** control on the form.
   
 ### To create a form template that programmatically sorts data in the form
 
-1. Create a new form template in the InfoPath designer, and add a **Repeating Table** control to the form. The sample code for this example sorts the rows based on the first column in the table, but you can easily modify the code to work with any column. 
-    
-2. Add a **Button** control to the form. The code to sort the table will be added to the event handler for the button's **Clicked** event, but you could also use another event for this purpose. 
-    
+1. Create a new form template in the InfoPath designer, and add a **Repeating Table** control to the form. The sample code for this example sorts the rows based on the first column in the table, but you can easily modify the code to work with any column.
+
+2. Add a **Button** control to the form. The code to sort the table will be added to the event handler for the button's **Clicked** event, but you could also use another event for this purpose.
+
 3. Select the button, click the **Properties** tab, and then click **Custom Code**. If your form hasn't been saved yet, you are prompted to save it, and then the Code Editor will open with the cursor in the button's event handler.
-    
+
 4. Paste the following code into the button's event handler. The code puts the elements from the first column into an array, sorts the array, and then reorders the table based on the sorted array. This code assumes that the data being sorted is string data.
-    
+
    ```cs
     // Put the elements from the first column into an array.
     XPathNavigator root = this.CreateNavigator();
@@ -129,22 +129,22 @@ Perform the following steps to create a form template that sorts the data in a *
    ```
 
 5. Publish your form by using the following steps:
-    
-    1. Click **SharePoint Server** on the **Publish** tab in the Backstage. 
-        
-    2. Enter the URL of the SharePoint site to publish to, and then click **Next**. 
-        
+
+    1. Click **SharePoint Server** on the **Publish** tab in the Backstage.
+
+    2. Enter the URL of the SharePoint site to publish to, and then click **Next**.
+
        > [!IMPORTANT]
-       > You must be a site collection administrator on this site to publish this form template as a sandboxed solution. 
-    
+       > You must be a site collection administrator on this site to publish this form template as a sandboxed solution.
+
     3. Select **Form Library**, and then click **Next**.
-        
+
     4. Select **Create a new form library**, and then click **Next**.
-        
+
     5. Enter the name and descriptions for your form library, and then click **Next**.
-        
+
     6. Click **Publish**.
-    
+
 ## Example 2: Managing vendors in a SharePoint list
 
 This example involves programming against the Microsoft SharePoint Foundation 2010 object model. To do that, you must establish a reference to the Microsoft.SharePoint.dll assembly which is installed with a licensed copy of SharePoint Server 2010.
@@ -157,46 +157,46 @@ From code in an InfoPath form, you can use the SharePoint object model to create
   
 ### To create a form template that can add new items to a combo box based on a SharePoint list
 
-1. Create a simple custom list on a SharePoint Server 2010 server, and name it MyList. The following example uses a **Combo Box** bound to the **Title** field of this list. 
-    
+1. Create a simple custom list on a SharePoint Server 2010 server, and name it MyList. The following example uses a **Combo Box** bound to the **Title** field of this list.
+
 2. Create a new **Blank Form** in InfoPath Designer, insert a **Combo Box** control on your form, and rename the field bound to the combo box to myCombo.
-    
+
 3. Create the data connection to the list that will be used to populate the combo box by using the following steps:
-    
-    1. On the **Data** tab, click **From SharePoint List** button in the **Get External Data** group. 
-        
+
+    1. On the **Data** tab, click **From SharePoint List** button in the **Get External Data** group.
+
     2. Enter the URL for the site that contains the list, and then click **Next**.
-        
+
     3. Select the list, and then click **Next**.
-        
+
     4. Select the fields that you want to include, for this example, select Title and ID. Title contains the values for lookup. Click **Next**.
-        
-    5. Click **Next** on the following screen. 
-        
+
+    5. Click **Next** on the following screen.
+
     6. Name the data connection LookupList, and then click **Finish**.
-    
+
 4. Populate the values in the combo box from the list by using the following steps:
-    
+
     1. Select the combo box that you created in step 1.
-        
-    2. Click **Edit Choices** on the **Control Tools Properties** tab of the ribbon. 
-        
+
+    2. Click **Edit Choices** on the **Control Tools Properties** tab of the ribbon.
+
     3. Select **Get choices from an external data source**.
-        
-    4. Make sure that **Data source** is set to the data connection that you created in step 2. 
-        
+
+    4. Make sure that **Data source** is set to the data connection that you created in step 2.
+
     5. Set the value and display name to Title.
-        
-    6. On the **Browser forms** tab, select **Always** under **Postback settings**, and then click **OK** to close the properties dialog box. 
-    
-5. Make sure the combo box is still selected, and then click **Changed Event** on the **Developer** tab of the ribbon. 
-    
-    If your form is not saved yet, you are prompted to save it. And then, the code editor window opens with the cursor in the  `myCombo_Changed` event handler. 
-    
+
+    6. On the **Browser forms** tab, select **Always** under **Postback settings**, and then click **OK** to close the properties dialog box.
+
+5. Make sure the combo box is still selected, and then click **Changed Event** on the **Developer** tab of the ribbon.
+
+    If your form is not saved yet, you are prompted to save it. And then, the code editor window opens with the cursor in the `myCombo_Changed` event handler.
+
 6. Add a reference to the Microsoft.SharePoint.dll assembly as described earlier in this topic. For more information about referencing the Microsoft.SharePoint assembly, see [Use SharePoint Object Model Members](how-to-use-sharepoint-object-model-members.md).
-    
-7. Paste the following code into the  `myCombo_Changed` event handler. 
-    
+
+7. Paste the following code into the `myCombo_Changed` event handler.
+
    ```cs
     // Use InfoPath OM's ServerInfo.SharePointSiteUrl property to programmatically
     // specify the site where the form is published.
@@ -257,8 +257,8 @@ From code in an InfoPath form, you can use the SharePoint object model to create
     End Using
    ```
 
-8. The preceding code example depends on the  `GetDomValue` helper function. Paste the following code for the  `GetDomValue` helper function below the  `myCombo_Changed` event handler function. 
-    
+8. The preceding code example depends on the `GetDomValue` helper function. Paste the following code for the `GetDomValue` helper function below the `myCombo_Changed` event handler function.
+
    ```cs
     private string GetDomValue(string XpathToGet)
     {
@@ -273,22 +273,20 @@ From code in an InfoPath form, you can use the SharePoint object model to create
    ```
 
 9. Publish your form by using the following steps:
-    
-    1. Click **SharePoint Server** on the **Publish** tab in the Backstage. 
-        
-    2. Enter the URL of the SharePoint site to publish to, and then click **Next**. 
-        
-       > [!IMPORTANT]
-       > You must be a site collection administrator on this site to publish this form template as a sandboxed solution. 
-    
-    3. Select **Form Library**, and then click **Next**.
-        
-    4. Select **Create a new form library**, and then click **Next**.
-        
-    5. Enter the name and description for your form library, and then click **Next**.
-        
-    6. Click **Publish**.
-        
-    7. After the form is successfully published, open the form from the form library and add a new value into the combo box to test the code. When you exit the myCombo field, the new value will be written to the SharePoint list. 
-    
 
+    1. Click **SharePoint Server** on the **Publish** tab in the Backstage.
+
+    2. Enter the URL of the SharePoint site to publish to, and then click **Next**.
+
+       > [!IMPORTANT]
+       > You must be a site collection administrator on this site to publish this form template as a sandboxed solution.
+
+    3. Select **Form Library**, and then click **Next**.
+
+    4. Select **Create a new form library**, and then click **Next**.
+
+    5. Enter the name and description for your form library, and then click **Next**.
+
+    6. Click **Publish**.
+
+    7. After the form is successfully published, open the form from the form library and add a new value into the combo box to test the code. When you exit the myCombo field, the new value will be written to the SharePoint list.

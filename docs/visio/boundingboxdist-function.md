@@ -14,29 +14,29 @@ description: "Returns the measurement of the specified part of the shape's bound
 
 # BOUNDINGBOXDIST Function
 
-Returns the measurement of the specified part of the shape's bounding box. 
+Returns the measurement of the specified part of the shape's bounding box.
   
 ## Version Information
 
-Version Added: Visio 2010 
+Version Added: Visio 2010
   
 ## Syntax
 
-BOUNDINGBOXDIST(** *Index* ** ) 
+BOUNDINGBOXDIST(***Index*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _Index_ <br/> |Required  <br/> |**Number** <br/> |The part of the shape's bounding box to measure and return. See Remarks for possible values. |
-   
+| *Index* <br/> |Required  <br/> |**Number** <br/> |The part of the shape's bounding box to measure and return. See Remarks for possible values. |
+
 ### Return value
 
  **Number**
   
 ## Remarks
 
- *Index*  can be one of the following values. 
+ *Index* can be one of the following values.
   
 |**Item**|**Value**|
 |:-----|:-----|
@@ -48,5 +48,3 @@ BOUNDINGBOXDIST(** *Index* ** )
 |Bottom edge to shape pin  <br/> |5  <br/> |
 |Center of bounding box to PinX  <br/> |6  <br/> |
 |Center of bounding box to PinY  <br/> |7  <br/> |
-   
-

@@ -68,7 +68,7 @@ ADO objects have two types of properties: built-in and dynamic. To this point, o
 
 Built-in properties are those properties implemented in ADO and immediately available to any new object, using the syntax. They do not appear as **Property** objects in an object's **Properties** collection.
 
-Dynamic properties are defined by the underlying data provider, and appear in the **Properties** collection for the appropriate ADO object. For example, a property specific to the provider may indicate if a **Recordset** object supports transactions or updating. These additional properties will appear as **Property** objects in that **Recordset** object's **Properties** collection. Dynamic properties can be referenced only through the collection, using the syntax MyObject.Properties(0) or or MyObject.Properties("Name") .
+Dynamic properties are defined by the underlying data provider, and appear in the **Properties** collection for the appropriate ADO object. For example, a property specific to the provider may indicate if a **Recordset** object supports transactions or updating. These additional properties will appear as **Property** objects in that **Recordset** object's **Properties** collection. Dynamic properties can be referenced only through the collection, using the syntax MyObject.Properties(0) or or MyObject.Properties("Name").
 
 You cannot delete either kind of property.
 
@@ -84,7 +84,7 @@ A dynamic **Property** object has four built-in properties of its own:
 
 The **Properties** collection for the **Field** object contains additional metadata about the field. The contents of this collection vary depending upon the provider. The following code example examines the **Properties** collection of the sample **Recordset** introduced at the beginning of this chapter. It first looks at the contents of the collection. This code uses the [OLE DB Provider for SQL Server](microsoft-ole-db-provider-for-sql-server.md), so the **Properties** collection contains information relevant to that provider.
 
-```vb 
+```vb
  
 'BeginFieldProps 
  Dim objProp As ADODB.Property 
@@ -118,4 +118,3 @@ If the **adFldLong** bit in the **Attributes** property of a **Field** object is
 If there is no current record when you use the **GetChunk** or **AppendChunk** method on a **Field** object, error 3021 (no current record) occurs.
 
 For an example of using these methods to manipulate binary data, see the [AppendChunk Method](appendchunk-method-ado.md) and [GetChunk Method](getchunk-method-ado.md) examples in the *ADO programmer's reference*.
-

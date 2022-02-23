@@ -47,13 +47,13 @@ This function does not return a value and should be declared as returning void.
 
 When Excel is configured to use multithreaded workbook recalculation, **xlAutoFree**/ **xlAutoFree12** is called on the same thread used to call the function that returned it. The call to **xlAutoFree**/ **xlAutoFree12** is always made before any subsequent worksheet cells are evaluated on that thread. This simplifies thread-safe design in your XLL.
   
-If the **xlAutoFree**/ **xlAutoFree12** function you provide looks at the **xltype** field of _pxFree_, remember that the **xlbitDLLFree** bit will still be set. 
+If the **xlAutoFree**/ **xlAutoFree12** function you provide looks at the **xltype** field of _pxFree_, remember that the **xlbitDLLFree** bit will still be set.
   
 ## Example
 
  **Example Implementation 1**
   
-The first code from  `\SAMPLES\EXAMPLE\EXAMPLE.C` demonstrates a very specific implementation of **xlAutoFree**, which is designed to work with just one function, **fArray**. In general, your XLL will have more than just one function returning memory that needs to be freed, in which case a less restricted implementation is required.
+The first code from `\SAMPLES\EXAMPLE\EXAMPLE.C` demonstrates a very specific implementation of **xlAutoFree**, which is designed to work with just one function, **fArray**. In general, your XLL will have more than just one function returning memory that needs to be freed, in which case a less restricted implementation is required.
   
  **Example implementation 2**
   

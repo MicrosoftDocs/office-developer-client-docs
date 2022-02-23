@@ -18,7 +18,7 @@ ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
 
 # xlAutoAdd
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Added by Microsoft Excel whenever the user activates the XLL during an Excel session by using the Add-In Manager. This function is not called when Excel starts up and loads a pre-installed add-in.
   
@@ -44,7 +44,7 @@ Use this function if there is anything your XLL needs to do when it is added by 
   
 ## Example
 
-See `\SAMPLES\EXAMPLE\EXAMPLE.C` and  `\SAMPLES\GENERIC\GENERIC.C` for example implementations of this function. The following code is from  `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+See `\SAMPLES\EXAMPLE\EXAMPLE.C` and `\SAMPLES\GENERIC\GENERIC.C` for example implementations of this function. The following code is from `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
 ```cs
 int WINAPI xlAutoAdd(void)
@@ -60,10 +60,5 @@ int WINAPI xlAutoAdd(void)
 
 ## See also
 
-
-
 [xlAutoRemove](xlautoremove.md)
-
-
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
-

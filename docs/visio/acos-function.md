@@ -1,7 +1,5 @@
 ---
 title: "ACOS Function"
- 
- 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,11 +14,11 @@ description: "Returns the arccosine of number, for example, the angle whose cosi
 
 # ACOS Function
 
-Returns the arccosine of number, for example, the angle whose cosine is  *number*  . 
+Returns the arccosine of number, for example, the angle whose cosine is *number*.
   
 ## Syntax
 
-ACOS( *number*) 
+ACOS( *number*)
   
 ## Remarks
 
@@ -28,8 +26,7 @@ The input value must be in the range -1 \<= number \<= 1, or a #NUM! error is re
   
 ## Example
 
-ACOS(0) 
+ACOS(0)
   
-Returns 90 deg 
+Returns 90 deg
   
-

@@ -22,27 +22,9 @@ The **LogEvent** action writes information to the **USysApplicationLog** system 
 
 The **LogEvent** action has the following arguments.
 
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Argument</p></th>
-<th><p>Required</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><strong>Description</strong></p></td>
-<td><p>No</p></td>
-<td><p>A string expression that describes the condition that you want to log. The description cannot exceed 255 characters.</p></td>
-</tr>
-</tbody>
-</table>
+|Argument |Required   |Description|
+|:----------|:-----------|:------------|
+|Description |No       |A string expression that describes the condition that you want to log. The description cannot exceed 255 characters. |
 
 ## Remarks
 
@@ -52,13 +34,8 @@ When you use the **LogEvent** action to write to the **USysApplicationLog** tabl
 
 To see the **USysApplicationLog** table, use the following steps:
 
-1.  Click the **File** menu,and then click **Options**.
-
-2.  In the **Access Options** dialog box, click the **Current Database** tab.
-
-3.  In the **Navigation** section, click **Navigation Options**.
-
-4.  In the **Navigation Options** dialog box, click **Show System Objects**, and then click **OK**.
-
-5.  Click **OK** to dismiss the **Access Options** dialog box.
-
+1. Click the **File** menu, and then click **Options**.
+2. In the **Access Options** dialog box, click the **Current Database** tab.
+3. In the **Navigation** section, click **Navigation Options**.
+4. In the **Navigation Options** dialog box, click **Show System Objects**, and then click **OK**.
+5. Click **OK** to dismiss the **Access Options** dialog box.

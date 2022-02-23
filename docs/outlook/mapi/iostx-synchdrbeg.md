@@ -18,9 +18,7 @@ description: "Last modified: July 23, 2011"
 
 # IOSTX::SyncHdrBeg
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 Starts synchronization for a message header.
   
@@ -37,37 +35,26 @@ HRESULT SyncHdrBeg(
  _cbeid_
   
 > [in] The number of bytes in the entry ID for the message.
-    
+
  _lpeid_
   
 > [in] The entry ID for the message.
-    
+
  _ppv_
   
->  [in]/[out] Pointer to the **[HDRSYNC](hdrsync.md)** structure for the message header. 
-    
+> [in]/[out] Pointer to the **[HDRSYNC](hdrsync.md)** structure for the message header.
+
 ## Remarks
 
-Upon **IOSTX::SyncHdrBeg**, the local store transitions to the [download message header state](download-message-header-state.md). Outlook initializes for the client the **HDRSYNC** structure with the current representation of the message header in the store and the parent folder. The client must then download a full message item (as  *pmsgFull*  in **HDRSYNC** ). If this was successful, the client also sets  *ulFlags*  in **HDRSYNC** as **HSF_OK**. Upon **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)**, Outlook checks the result in **HDRSYNC** and uses the information in **HDRSYNC** to update the local message header. 
+Upon **IOSTX::SyncHdrBeg**, the local store transitions to the [download message header state](download-message-header-state.md). Outlook initializes for the client the **HDRSYNC** structure with the current representation of the message header in the store and the parent folder. The client must then download a full message item (as _pmsgFull_ in **HDRSYNC** ). If this was successful, the client also sets _ulFlags_ in **HDRSYNC** as **HSF_OK**. Upon **[IOSTX::SyncHdrEnd](iostx-synchdrend.md)**, Outlook checks the result in **HDRSYNC** and uses the information in **HDRSYNC** to update the local message header.
   
 ## See also
 
-
-
-[IOSTX::GetLastError](iostx-getlasterror.md)
-  
-[IOSTX::InitSync](iostx-initsync.md)
-  
-[IOSTX::SetSyncResult](iostx-setsyncresult.md)
-  
-[IOSTX::SyncBeg](iostx-syncbeg.md)
-  
-[IOSTX::SyncEnd](iostx-syncend.md)
-  
-[IOSTX::SyncHdrEnd](iostx-synchdrend.md)
-  
+[IOSTX::GetLastError](iostx-getlasterror.md)  
+[IOSTX::InitSync](iostx-initsync.md)  
+[IOSTX::SetSyncResult](iostx-setsyncresult.md)  
+[IOSTX::SyncBeg](iostx-syncbeg.md)  
+[IOSTX::SyncEnd](iostx-syncend.md)  
+[IOSTX::SyncHdrEnd](iostx-synchdrend.md)  
 [IOSTX : IUnknown](iostxiunknown.md)
-
-
 [MAPI Constants](mapi-constants.md)
-

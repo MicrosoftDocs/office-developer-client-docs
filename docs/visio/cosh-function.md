@@ -1,7 +1,5 @@
 ---
 title: "COSH Function"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,22 +18,21 @@ Returns the hyperbolic cosine of an angle.
   
 ## Syntax
 
-COSH( *angle*) 
+COSH( *angle*)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hyperbolic cosine. |
-   
+| *angle* <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hyperbolic cosine. |
+
 ## Remarks
 
-The COSH function uses radians unless you specify a different unit of measure in  *angle*  . 
+The COSH function uses radians unless you specify a different unit of measure in *angle*.
   
 ## Example
 
-COSH(45 deg) 
+COSH(45 deg)
   
-Returns 1.3246. 
+Returns 1.3246.
   
-

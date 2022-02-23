@@ -15,7 +15,7 @@ ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 
 # xlSheetId
 
-**Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+**Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Finds the sheet ID of a named sheet in order to construct external references.
   
@@ -27,18 +27,18 @@ Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 
 _pxSheetName_ (**xltypeStr**)
   
-(Optional). The name of the book and sheet you want to find out about. If omitted, the **xlSheetId** function returns the sheet ID of the active (front) sheet. 
+(Optional). The name of the book and sheet you want to find out about. If omitted, the **xlSheetId** function returns the sheet ID of the active (front) sheet.
   
 ## Return value
 
-Returns the sheet ID in  _pxRes-\>val.mref.idSheet_. 
+Returns the sheet ID in _pxRes-\>val.mref.idSheet_.
   
 > [!NOTE]
-> The  _pxRes-\>val.mref.lpmref_ array pointer is set to NULL after this call so that there is no need to call **xlFree** to release the memory that this type normally contains, although it is completely safe to do so. 
+> The _pxRes-\>val.mref.lpmref_ array pointer is set to NULL after this call so that there is no need to call **xlFree** to release the memory that this type normally contains, although it is completely safe to do so.
   
 ## Remarks
 
-The workbook containing the specified sheet must be open to use this function. There is no way to construct a reference to an unopened workbook from a DLL. For more information about using **xlSheetId** to construct references, see [Memory Management in Excel](memory-management-in-excel.md) for examples of **xltypeRef** construction. 
+The workbook containing the specified sheet must be open to use this function. There is no way to construct a reference to an unopened workbook from a DLL. For more information about using **xlSheetId** to construct references, see [Memory Management in Excel](memory-management-in-excel.md) for examples of **xltypeRef** construction.
   
 ## Example
 
@@ -61,4 +61,3 @@ short WINAPI xlSheetIdExample(void)
 
 - [xlSheetNm](xlsheetnm.md)
 - [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-

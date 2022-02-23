@@ -1,7 +1,5 @@
 ---
 title: "GUID"
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -18,8 +16,6 @@ description: "Last modified: March 09, 2015"
 
 # GUID
 
-  
-  
 **Applies to**: Outlook 2013 | Outlook 2016
   
 Describes a globally unique identifier (GUID).
@@ -27,7 +23,7 @@ Describes a globally unique identifier (GUID).
 |||
 |:-----|:-----|
 |Header file:  <br/> |Mapiguid.h  <br/> |
-  
+
 ```cpp
 typedef struct _GUID
 {
@@ -66,11 +62,11 @@ typedef struct _GUID
 - For interface identifiers.
 
 - In the property set names of named properties.
-  
+
 Message store and address book providers generate a **GUID** structure to use in their **MAPIUID** structure. By passing the resulting **MAPIUID** to [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), these service providers inform MAPI of their unique identifier.
   
-Also, they are used in the implementation of Microsoft Remote Procedure Call (RPC) and the Object Description Language (ODL). For more information about these uses, see the *Microsoft RPC Programmer's Guide and Reference*, *OLE Programmer's Reference*, and *Inside OLE*, *Second Edition*.
-  
+Also, they are used in the implementation of Microsoft Remote Procedure Call (RPC) and the Object Description Language (ODL). For more information about these uses, see the  *Microsoft RPC Programmer's Guide and Reference*, *OLE Programmer's Reference*, and  *Inside OLE*, *Second Edition*.
+
 The **GUID** structure is defined in the *Win32 Programmer's Reference*. Specific values for **GUID** structures that are used within MAPI are defined in the MAPI header file Mapiguid.h.
   
 ## See also

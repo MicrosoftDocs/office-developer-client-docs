@@ -93,7 +93,7 @@ The following table shows what functions are valid in each class.
   
 |**Class 1**|**Class 2**|**Class 3**|
 |:-----|:-----|:-----|
-|Any worksheet function  Any XLL-only **xl...** function except **xlSet**. **xlfCaller** |Any worksheet function  Any **xl...** function except **xlSet**.  Macro sheet functions, including **xlfCaller**, that return a value but perform no action that affects the workspace or any open workbook.  |Any function, including **xlSet** and command-equivalent functions.  |
+|Any worksheet function <br/>Any XLL-only **xl...** function except **xlSet**. **xlfCaller** |Any worksheet function  <br/>Any **xl...** function except **xlSet**.  <br/>Macro sheet functions, including **xlfCaller**, that return a value but perform no action that affects the workspace or any open workbook.  |Any function, including **xlSet** and command-equivalent functions.  |
 
 ### Display the Dialog Box for a Command-Equivalent Function
 

@@ -10,10 +10,10 @@ description: "Get the current ProjectContext instance; retrieve and iterate thro
 
 # Create, retrieve, update, and delete projects using Project Server JavaScript
 
-The scenarios in this article show how to get the current **ProjectContext** instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project by using the Project Server JavaScript object model; and change a project's properties. 
+The scenarios in this article show how to get the current **ProjectContext** instance; retrieve and iterate through the collection of published projects on the server; create, retrieve, check out, and delete a project by using the Project Server JavaScript object model; and change a project's properties.
   
 > [!NOTE]
-> These scenarios define custom code in the markup of a SharePoint application page but do not use the code-behind file that Visual Studio 2012 creates for the page. 
+> These scenarios define custom code in the markup of a SharePoint application page but do not use the code-behind file that Visual Studio 2012 creates for the page.
   
 ## Prerequisites for working with Project Server 2013 projects in the JavaScript object model
 
@@ -23,13 +23,14 @@ To perform the scenarios that are described in this article, you must install an
 - Project Server 2013
 - Visual Studio 2012
 - Office Developer Tools for Visual Studio 2012
-    
+
 You must also have permissions to deploy the extension to SharePoint Server 2013 and to contribute to projects.
   
 > [!NOTE]
-> These instructions assume that you are developing on the computer that is running Project Server 2013. 
+> These instructions assume that you are developing on the computer that is running Project Server 2013.
   
 ## Create the Visual Studio solution
+
 <a name="pj15_CRUDProjectsJSOM_Setup"> </a>
 
 The following steps create a Visual Studio 2012 solution that contains a SharePoint project and an application page. The page contains the logic for working with projects.
@@ -37,29 +38,29 @@ The following steps create a Visual Studio 2012 solution that contains a SharePo
 ### To create the SharePoint project in Visual Studio
 
 1. On the computer that is running Project Server 2013, run Visual Studio 2012 as an administrator.
-    
+
 2. On the menu bar, choose **File**, **New**, **Project**.
-    
-3. In the **New Project** dialog box, choose **.NET Framework 4.5** from the drop-down list at the top of the dialog box. 
-    
-4. In the **Office/SharePoint** template category, choose **SharePoint Solutions**, and then choose the **SharePoint 2013 Project** template. 
-    
-5. Name the project ProjectsJSOM, and then choose the **OK** button. 
-    
-6. In the **SharePoint Customization Wizard** dialog box, choose **Deploy as a farm solution**, and then choose the **Finish** button. 
-    
-7. Edit the value of the **Site URL** property for the **ProjectsJSOM** project to match the URL of the Project Web App instance (for example,  `https://ServerName/PWA`).
-    
+
+3. In the **New Project** dialog box, choose **.NET Framework 4.5** from the drop-down list at the top of the dialog box.
+
+4. In the **Office/SharePoint** template category, choose **SharePoint Solutions**, and then choose the **SharePoint 2013 Project** template.
+
+5. Name the project ProjectsJSOM, and then choose the **OK** button.
+
+6. In the **SharePoint Customization Wizard** dialog box, choose **Deploy as a farm solution**, and then choose the **Finish** button.
+
+7. Edit the value of the **Site URL** property for the **ProjectsJSOM** project to match the URL of the Project Web App instance (for example, `https://ServerName/PWA`).
+
 ### To create the application page in Visual Studio
 
-1. In **Solution Explorer**, open the shortcut menu for the **ProjectsJSOM** project, and then add a SharePoint "Layouts" mapped folder. 
-    
+1. In **Solution Explorer**, open the shortcut menu for the **ProjectsJSOM** project, and then add a SharePoint "Layouts" mapped folder.
+
 2. In the **Layouts** folder, open the shortcut menu for the **ProjectsJSOM** folder, and then add a new SharePoint application page named ProjectsList.aspx.
-    
+
 3. Open the shortcut menu for the **ProjectsList.aspx** page and choose **Set as Startup Item**.
-    
-4. In the markup for the **ProjectsList.aspx** page, define user interface controls inside the "Main" **asp:Content** tags, as follows. 
-    
+
+4. In the markup for the **ProjectsList.aspx** page, define user interface controls inside the "Main" **asp:Content** tags, as follows.
+
    ```HTML
     <table width="100%" id="tblProjects">
         <tr id="headerRow">
@@ -75,10 +76,10 @@ The following steps create a Visual Studio 2012 solution that contains a SharePo
    ```
 
    > [!NOTE]
-   > These controls may not be used in every scenario. For example, the "Create projects" scenario does not use the **textarea** and **button** controls. 
+   > These controls may not be used in every scenario. For example, the "Create projects" scenario does not use the **textarea** and **button** controls.
   
-5. After the closing **span** tag, add a **SharePoint:ScriptLink** tag, a **SharePoint:FormDigest** tag, and **script** tags, as follows. 
-    
+5. After the closing **span** tag, add a **SharePoint:ScriptLink** tag, a **SharePoint:FormDigest** tag, and **script** tags, as follows.
+
    ```HTML
     <SharePoint:ScriptLink id="ScriptLink" name="PS.js" runat="server" ondemand="false" localizable="false" loadafterui="true" />
     <SharePoint:FormDigest id="FormDigest" runat="server" />
@@ -87,34 +88,35 @@ The following steps create a Visual Studio 2012 solution that contains a SharePo
     </script>
    ```
 
-   The **SharePoint:ScriptLink** tag references the PS.js file, which defines the JavaScript object model for Project Server 2013. The **SharePoint:FormDigest** tag generates a message digest for security validation when required by operations that update server content. 
-    
+   The **SharePoint:ScriptLink** tag references the PS.js file, which defines the JavaScript object model for Project Server 2013. The **SharePoint:FormDigest** tag generates a message digest for security validation when required by operations that update server content.
+
 6. Replace the placeholder comment with the code from one of the following procedures:
-    
+
    - [Create Project Server 2013 projects by using the JavaScript object model](#pj15_CRUDProjectsJSOM_CreateProjects)
-    
+
    - [Update Project Server 2013 projects by using the JavaScript object model](#pj15_CRUDProjectsJSOM_UpdateProjects)
-    
+
    - [Delete Project Server 2013 projects by using the JavaScript object model](#pj15_CRUDProjectsJSOM_DeleteProjects)
-    
+
 7. To test the application page, on the menu bar, choose **Debug**, **Start Debugging**. If you are prompted to modify the web.config file, choose **OK**.
-    
+
 ## Create Project Server 2013 projects by using the JavaScript object model
+
 <a name="pj15_CRUDProjectsJSOM_CreateProjects"> </a>
 
 The procedure in this section creates projects by using the JavaScript object model. The procedure includes the following high-level steps:
   
-1. Get the current **ProjectContext** instance. 
-    
-2. Create a **ProjectCreationInformation** object to specify initial properties for your project. Specify the required **name** property by using the **ProjectCreationInformation.set_name** function. 
-    
-3. Retrieve the published projects from the server by using the **ProjectContext.get_projects** function. The **get_projects** function returns a **ProjectCollection** object. 
-    
-4. Add the new project to the collection by using the **ProjectCollection.add** function and passing in the **ProjectCreationInformation** object. 
-    
+1. Get the current **ProjectContext** instance.
+
+2. Create a **ProjectCreationInformation** object to specify initial properties for your project. Specify the required **name** property by using the **ProjectCreationInformation.set_name** function.
+
+3. Retrieve the published projects from the server by using the **ProjectContext.get_projects** function. The **get_projects** function returns a **ProjectCollection** object.
+
+4. Add the new project to the collection by using the **ProjectCollection.add** function and passing in the **ProjectCreationInformation** object.
+
 5. Update the collection by using the **ProjectCollection.update** function and the **ProjectContext.waitForQueueAsync** function. The **update** function returns a **QueueJob** object that you pass to **waitForQueueAsync**. This call also publishes the project.
-    
-Paste the following code between the **script** tags that you added in the **To create the application page in Visual Studio** procedure. 
+
+Paste the following code between the **script** tags that you added in the **To create the application page in Visual Studio** procedure.
   
 ```js
     // Declare a global variable to store the project collection.
@@ -183,25 +185,26 @@ Paste the following code between the **script** tags that you added in the **To 
 ```
 
 ## Update Project Server 2013 projects by using the JavaScript object model
+
 <a name="pj15_CRUDProjectsJSOM_UpdateProjects"> </a>
 
-The procedure in this section updates the **startDate** property of a project by using the JavaScript object model. The procedure includes the following high-level steps: 
+The procedure in this section updates the **startDate** property of a project by using the JavaScript object model. The procedure includes the following high-level steps:
   
-1. Get the current **ProjectContext** instance. 
-    
-2. Retrieve the published projects from the server by using the **ProjectContext.get_projects** function. The **get_projects** function returns a **ProjectCollection** object. 
-    
-3. Run the request on the server by using the **ProjectContext.load** function and the **ProjectContext.executeQueryAsync** function. 
-    
-4. Retrieve a **PublishedProject** object by using the **ProjectContext.getById** function. 
-    
-5. Check out the target project by using the **Project.checkOut** function. The **checkOut** function returns the draft version of the published project. 
-    
-6. Change the project's start date by using the **DraftProject.set_startDate** function. 
-    
+1. Get the current **ProjectContext** instance.
+
+2. Retrieve the published projects from the server by using the **ProjectContext.get_projects** function. The **get_projects** function returns a **ProjectCollection** object.
+
+3. Run the request on the server by using the **ProjectContext.load** function and the **ProjectContext.executeQueryAsync** function.
+
+4. Retrieve a **PublishedProject** object by using the **ProjectContext.getById** function.
+
+5. Check out the target project by using the **Project.checkOut** function. The **checkOut** function returns the draft version of the published project.
+
+6. Change the project's start date by using the **DraftProject.set_startDate** function.
+
 7. Publish the project by using the **DraftProject.publish** function and the **ProjectContext.waitForQueueAsync** function. The **publish** function returns a **QueueJob** object that you pass to **waitForQueueAsync**.
-    
-Paste the following code between the **script** tags that you added in the **To create the application page in Visual Studio** procedure. 
+
+Paste the following code between the **script** tags that you added in the **To create the application page in Visual Studio** procedure.
   
 ```js
     // Declare global variables.
@@ -266,23 +269,24 @@ Paste the following code between the **script** tags that you added in the **To 
 ```
 
 ## Delete Project Server 2013 projects by using the JavaScript object model
+
 <a name="pj15_CRUDProjectsJSOM_DeleteProjects"> </a>
 
 The procedure in this section deletes a project by using the JavaScript object model. The procedure includes the following high-level steps:
   
-1. Get the current **ProjectContext** instance. 
-    
-2. Retrieve the published projects from the server by using the **ProjectContext.get_projects** function. The **get_projects** function returns a **ProjectCollection** object. 
-    
-3. Run the request on the server by using the **ProjectContext.load** function and the **ProjectContext.executeQueryAsync** function. 
-    
-4. Retrieve a **PublishedProject** object by using the **ProjectCollection.getById** function. 
-    
-5. Delete the project by passing it to the **ProjectCollection.remove** function. 
-    
+1. Get the current **ProjectContext** instance.
+
+2. Retrieve the published projects from the server by using the **ProjectContext.get_projects** function. The **get_projects** function returns a **ProjectCollection** object.
+
+3. Run the request on the server by using the **ProjectContext.load** function and the **ProjectContext.executeQueryAsync** function.
+
+4. Retrieve a **PublishedProject** object by using the **ProjectCollection.getById** function.
+
+5. Delete the project by passing it to the **ProjectCollection.remove** function.
+
 6. Update the collection by using the **ProjectCollection.update** function and the **ProjectContext.waitForQueueAsync** function. The **update** function returns a **QueueJob** object that you pass to **waitForQueueAsync**.
-    
-Paste the following code between the **script** tags that you added in the **To create the application page in Visual Studio** procedure. 
+
+Paste the following code between the **script** tags that you added in the **To create the application page in Visual Studio** procedure.
   
 ```js
     // Declare global variables.
@@ -348,5 +352,3 @@ Paste the following code between the **script** tags that you added in the **To 
 
 - [Project programming tasks](project-programming-tasks.md)
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md)
-    
-

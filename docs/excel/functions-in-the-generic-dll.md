@@ -1,7 +1,5 @@
 ---
-title: "Functions in the Generic DLL"
- 
- 
+title: "Functions in the Generic DLL" 
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,20 +14,17 @@ ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
 
 # Functions in the Generic DLL
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
-The folder  `\EXAMPLES\GENERIC\` contains Microsoft Visual Studio project files and source code files that are needed to compile the example DLL GENERIC.xll. You can use this project as a template for writing your own Microsoft Excel XLLs. The source code in this project demonstrates many of the features of the Excel C API. 
+The folder `\EXAMPLES\GENERIC\` contains Microsoft Visual Studio project files and source code files that are needed to compile the example DLL GENERIC.xll. You can use this project as a template for writing your own Microsoft Excel XLLs. The source code in this project demonstrates many of the features of the Excel C API.
   
-When you load GENERIC.xll, it creates a new **Generic** menu with four commands: 
+When you load GENERIC.xll, it creates a new **Generic** menu with four commands:
   
-- **Dialog** - Displays a Microsoft Excel dialog box. 
-    
-- **Dance** - Moves the selection around until you press the **ESC** key. 
-    
-- **Native Dialog** - Displays a Windows dialog box. 
-    
-- **Exit** - Unloads GENERIC.xll and removes the **Generic** menu. 
-    
+- **Dialog** - Displays a Microsoft Excel dialog box.
+- **Dance** - Moves the selection around until you press the **ESC** key.
+- **Native Dialog** - Displays a Windows dialog box.
+- **Exit** - Unloads GENERIC.xll and removes the **Generic** menu.
+
 GENERIC.xll also provides three worksheet functions, Func1, FuncSum, and FuncFib, which can be used whenever GENERIC.xll is loaded. GENERIC.xll can be loaded using the Add-in Manager, or it is loaded if it was active at the normal end of the last Excel session.
   
 This project uses the framework library (FRMWRK32.lib).
@@ -60,7 +55,4 @@ This project uses the framework library (FRMWRK32.lib).
   
 ## See also
 
-
-
 [Functions in the Framework Library](functions-in-the-framework-library.md)
-

@@ -18,13 +18,13 @@ ms.assetid: fff0de4d-605d-49e6-a5be-a000410c09d8
 
 # xlAutoRemove
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Called by Microsoft Excel whenever the user deactivates the XLL during an Excel session by using the Add-In Manager. This function is not called when an Excel session closes, normally or abnormally, with the add-in installed.
   
 This function can be used to display a custom dialog box telling the user that the add-in has been deactivated, or to read from or write to the registry, for example.
   
-Excel does not require an XLL to implement and export this function. 
+Excel does not require an XLL to implement and export this function.
   
 ```cs
 int WINAPI xlAutoRemove(void);
@@ -44,7 +44,7 @@ Use this function if your XLL needs to complete any task when it is removed by t
   
 ## Example
 
-See the files  `\SAMPLES\EXAMPLE\EXAMPLE.C` and  `\SAMPLES\GENERIC\GENERIC.C` for example implementations of this function. The following code is from  `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+See the files`\SAMPLES\EXAMPLE\EXAMPLE.C` and `\SAMPLES\GENERIC\GENERIC.C` for example implementations of this function. The following code is from `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
 ```cs
 int WINAPI xlAutoRemove(void)
@@ -59,10 +59,5 @@ int WINAPI xlAutoRemove(void)
 
 ## See also
 
-
-
 [xlAutoAdd](xlautoadd.md)
-
-
 [Add-in Manager and XLL Interface Functions](add-in-manager-and-xll-interface-functions.md)
-

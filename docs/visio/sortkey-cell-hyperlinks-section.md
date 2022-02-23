@@ -1,7 +1,5 @@
 ---
-title: "SortKey Cell (Hyperlinks Section)"
- 
- 
+title: "SortKey Cell (Hyperlinks Section)" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,20 +18,18 @@ A number that determines the order of hyperlinks that appear on a shortcut menu.
   
 ## Remarks
 
-The hyperlinks on a shortcut menu appear on the menu sorted from lowest to highest, with lower numbers appearing at the top of the menu. If two hyperlink rows have the same SortKey cell value, the order is determined by physical row order. The default is 0 (zero). 
+The hyperlinks on a shortcut menu appear on the menu sorted from lowest to highest, with lower numbers appearing at the top of the menu. If two hyperlink rows have the same SortKey cell value, the order is determined by physical row order. The default is 0 (zero).
   
-To get a reference to the SortKey cell by name from another formula, or from a program using the **CellsU** property, use: 
+To get a reference to the SortKey cell by name from another formula, or from a program using the **CellsU** property, use:
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Hyperlink. *name*  .SortKey where Hyperlink  *.name*  is the row name  <br/> |
-   
-To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments: 
+|Cell name:  <br/> |Hyperlink. *name* .SortKey where Hyperlink  *.name*  is the row name.  <br/> |
+
+To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments:
   
 |||
 |:-----|:-----|
 |Section index:  <br/> |**visSectionHyperlink** <br/> |
 |Row index:  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
 |Cell index:  <br/> |**visHLinkSortKey** <br/> |
-   
-

@@ -27,9 +27,9 @@ Searches a text expression for another text expression and returns its starting 
 
 ## Remarks
 
-If either *TextExpression*  or *WithinText*  is NULL, *CharIndex* returns NULL.
+If either *TextExpression* or *WithinText* is NULL, *CharIndex* returns NULL.
   
-If *TextExpression*  is not found within *WithinText*, *CharIndex* returns 0.
+If *TextExpression* is not found within *WithinText*, *CharIndex* returns 0.
   
 The starting position returned is 1-based, not 0-based.
   

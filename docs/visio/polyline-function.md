@@ -33,7 +33,7 @@ POLYLINE(** *xType* **, ** *yType* **, ** *x1* **, ** *y1* **...)
    
 ## Remarks
 
-For every  *x*  argument, there must be a  *y*  argument; otherwise, an error is returned. 
+For every  *x* argument, there must be a  *y* argument; otherwise, an error is returned. 
   
 ## Example
 

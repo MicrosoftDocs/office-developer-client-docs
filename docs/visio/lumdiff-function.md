@@ -14,17 +14,15 @@ description: "Returns the difference in luminosity between color1 and color2 ."
 
 # LUMDIFF Function
 
-Returns the difference in luminosity between  *color1*  and  *color2*  . 
+Returns the difference in luminosity between *color1* and *color2*.
   
 ## Syntax
 
-LUMDIFF(** *color1* **, ** *color2* ** ) 
+LUMDIFF(***color1***, ***color2*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the first color. |
-| _color2_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the second color. |
-   
-
+| *color1* <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the first color. |
+| *color2* <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the second color. |

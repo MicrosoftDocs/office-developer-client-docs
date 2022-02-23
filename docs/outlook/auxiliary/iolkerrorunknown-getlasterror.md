@@ -11,7 +11,7 @@ description: "Gets a message string for the specified error."
 
 # IOlkErrorUnknown::GetLastError
 
-Gets a message string for the specified error. 
+Gets a message string for the specified error.
   
 ## Quick info
 
@@ -33,7 +33,7 @@ _hr_
 
 _ppwszError_
   
-> [out] The error message that corresponds to *hr*.
+> [out] The error message that corresponds to _hr_.
 
 ## Return values
 
