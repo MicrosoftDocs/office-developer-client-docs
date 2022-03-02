@@ -1,7 +1,5 @@
 ---
-title: "IMSProvider  IUnknown"
- 
- 
+title: "IMSProvider  IUnknown" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -18,11 +16,9 @@ description: "Last modified: March 09, 2015"
 
 # IMSProvider : IUnknown
 
+**Applies to**: Outlook 2013 | Outlook 2016
   
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
-  
-Provides access to a message store provider through a message store provider object. This message store provider object is returned at provider logon by the message store provider's [MSProviderInit](msproviderinit.md) entry point function. The message store provider object is primarily used by client applications and the MAPI spooler to open message stores. 
+Provides access to a message store provider through a message store provider object. This message store provider object is returned at provider logon by the message store provider's [MSProviderInit](msproviderinit.md) entry point function. The message store provider object is primarily used by client applications and the MAPI spooler to open message stores.
   
 |||
 |:-----|:-----|
@@ -32,7 +28,7 @@ Provides access to a message store provider through a message store provider obj
 |Called by:  <br/> |MAPI and the MAPI spooler  <br/> |
 |Interface identifier:  <br/> |IID_IMSProvider  <br/> |
 |Pointer type:  <br/> |LPMSPROVIDER  <br/> |
-   
+
 ## Vtable order
 
 |||
@@ -41,22 +37,17 @@ Provides access to a message store provider through a message store provider obj
 |[Logon](imsprovider-logon.md) <br/> |Logs MAPI on to one instance of a message store provider. |
 |[SpoolerLogon](imsprovider-spoolerlogon.md) <br/> |Logs the MAPI spooler on to a message store. |
 |[CompareStoreIDs](imsprovider-comparestoreids.md) <br/> |Compares two message store entry identifiers to determine whether they refer to the same store object. |
-   
+
 ## Remarks
 
-MAPI uses one message store provider object per session, no matter how many message stores are opened by the store provider. If a second MAPI session logs on to any open stores, MAPI calls **MSProviderInit** a second time to create a new message store provider object for that session to use. 
+MAPI uses one message store provider object per session, no matter how many message stores are opened by the store provider. If a second MAPI session logs on to any open stores, MAPI calls **MSProviderInit** a second time to create a new message store provider object for that session to use.
   
 A message store provider object must contain the following to operate correctly:
   
-- An  _lpMalloc_ memory-allocation routine pointer for use by all stores opened by using this provider object. 
-    
-- The  _lpfAllocateBuffer_,  _ lpfAllocateMore _, and  _lpfFreeBuffer_ routine pointers to the [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) memory allocation functions. 
-    
+- An _lpMalloc_ memory-allocation routine pointer for use by all stores opened by using this provider object.
+- The _lpfAllocateBuffer_, _lpfAllocateMore_, and _lpfFreeBuffer_ routine pointers to the [MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md) memory allocation functions.
 - A linked list of all the stores opened by using this provider object and not yet closed.
-    
+
 ## See also
 
-
-
 [MAPI Interfaces](mapi-interfaces.md)
-

@@ -19,7 +19,7 @@ See [IFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT EnumBlocks( 
-     IEnumFBBlock **ppenumfb,  
+     IEnumFBBlock **ppenumfb
      FILETIME ftmStart, 
      FILETIME ftmEnd 
 );
