@@ -10,13 +10,11 @@ ms.assetid: b63a6024-910d-4569-a3b4-c3ebf0b32c3d
 description: "Last modified: July 23, 2011"
 ---
 
-# Create a distribution list
+# Create a distribution list in the PAB
 
 **Applies to**: Outlook 2013 | Outlook 2016
   
 Clients can create a distribution list directly into a modifiable container such as the personal address book (PAB).
-  
-## To create a distribution list in the PAB
   
 1. Create a sized property tag array with one property tag, **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)), as follows:
 
