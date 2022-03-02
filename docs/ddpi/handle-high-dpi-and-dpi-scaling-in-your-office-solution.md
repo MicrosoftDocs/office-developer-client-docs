@@ -7,9 +7,9 @@ ms.localizationpriority: medium
 
 # Handle high DPI and DPI scaling in your Office solution
 
-Many computer and display configurations now support high DPI (dots-per-inch) resolutions, and can connect multiple monitors with different sizes and pixel densities. This requires applications to adjust when the user moves the app to a monitor with a different DPI, or changes the zoom level. Applications that don’t support DPI scaling might look fine on low DPI monitors, but will look stretched and blurry when shown on a high DPI monitor. 
+Many computer and display configurations now support high DPI (dots-per-inch) resolutions, and can connect multiple monitors with different sizes and pixel densities. This requires applications to adjust when the user moves the app to a monitor with a different DPI, or changes the zoom level. Applications that don’t support DPI scaling might look fine on low DPI monitors, but will look stretched and blurry when shown on a high DPI monitor.
 
-Office 2016 applications, such as Word and Excel, have been updated to respond to changes in scale factor. However, your Office solution must also respond to changes to draw correctly when the DPI changes. This article describes how Office supports dynamic DPI, and what steps you can take to ensure the best viewing experience for your Office extensibility solution to handle DPI scaling. 
+Office 2016 applications, such as Word and Excel, have been updated to respond to changes in scale factor. However, your Office solution must also respond to changes to draw correctly when the DPI changes. This article describes how Office supports dynamic DPI, and what steps you can take to ensure the best viewing experience for your Office extensibility solution to handle DPI scaling.
 
 ## DPI scaling symptoms in your solution
 
@@ -47,6 +47,7 @@ The most significant factor in determining how your Office solution can handle D
 ![Excel hosting an ActiveX control and custom task pane as child windows. A separate VSTO/COM add-in runs as a top-level window. Office is a top-level window.](./media/office-dpi-awareness-for-solution-types.png)
 
 In this image:
+
 - The COM/VSTO top-level window is Per Monitor DPI aware.
 - The ActiveX control child window is System DPI aware.
 - The Office top-level window is Per Monitor DPI aware.
@@ -58,13 +59,13 @@ When the host Office app starts, its main thread runs in Per Monitor DPI aware c
 
 ### Creating new threads with the correct DPI context
 
-If your solution creates additional threads, Office will force the threads into Per Monitor DPI aware context. If your code expects a different context, you need to use the [SetThreadDpiAwarenessContext](/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) function to set the expected thread DPI awareness. 
+If your solution creates additional threads, Office will force the threads into Per Monitor DPI aware context. If your code expects a different context, you need to use the [SetThreadDpiAwarenessContext](/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) function to set the expected thread DPI awareness.
 
 ### Build a context block for incoming thread calls
 
 ![Diagram showing context block in Office app switching the thread to System Aware context on calls to your top-level window.](./media/thread-dpi-awareness-context-block.png)
 
-Your solution will interact with its host Office app, so you will have incoming calls to your solution from Office such as event callbacks. When Office calls your solution, it has a context block that forces the thread context to be in System DPI Aware context. You must change the thread context to match the DPI awareness of your window. You can implement a similar context block to switch the thread context on incoming calls. Use the [SetThreadDpiAwarenessContext](/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) function to change the context to match your window context. 
+Your solution will interact with its host Office app, so you will have incoming calls to your solution from Office such as event callbacks. When Office calls your solution, it has a context block that forces the thread context to be in System DPI Aware context. You must change the thread context to match the DPI awareness of your window. You can implement a similar context block to switch the thread context on incoming calls. Use the [SetThreadDpiAwarenessContext](/windows/desktop/api/winuser/nf-winuser-setthreaddpiawarenesscontext) function to change the context to match your window context.
 
 > [!NOTE]
 > Your context block should restore the original DPI thread context before calling other components outside of your solution code.
@@ -222,7 +223,7 @@ You will see two different DPI modes applied to your child window, depending on 
 
 ### Office DPI behavior on Windows Fall Creators Update (1709)
 
-Because Office apps use Per Monitor awareness mode, your solution’s child windows will also be created in Per Monitor DPI awareness mode. This means Windows expects your solution to update when drawing in a new DPI.  Because your window cannot get DPI change notifications, your solution’s UI might be incorrect. 
+Because Office apps use Per Monitor awareness mode, your solution’s child windows will also be created in Per Monitor DPI awareness mode. This means Windows expects your solution to update when drawing in a new DPI.  Because your window cannot get DPI change notifications, your solution’s UI might be incorrect.
 
 ![Diagram showing child windows running in Per Monitor DPI aware context on Windows Fall Creators Update (1709).](./media/office-dpi-behavior-on-windows-fall-creators-update.png)
 
@@ -243,9 +244,9 @@ When users encounter add-ins or solutions that are not rendering correctly, some
 
 <h3 id="office-compatibility">Configure Office to optimize for compatibility</h3>
 
-Office has a setting to optimize for compatibility when moving to different DPI scales on different screens. The compatibility mode disables DPI scaling so that everything in Office is bitmap stretched when moved to a display using different DPI scaling. 
+Office has a setting to optimize for compatibility when moving to different DPI scales on different screens. The compatibility mode disables DPI scaling so that everything in Office is bitmap stretched when moved to a display using different DPI scaling.
 
-The compatibility mode forces Office to run in System DPI aware mode. This causes application windows to bitmap stretch and can have a side effect of a blurry appearance. Your Office solution cannot control this setting because the user chooses it. Using the display compatibility mode solves most drawing problems. For more information, see [Office support for high definition displays](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d). 
+The compatibility mode forces Office to run in System DPI aware mode. This causes application windows to bitmap stretch and can have a side effect of a blurry appearance. Your Office solution cannot control this setting because the user chooses it. Using the display compatibility mode solves most drawing problems. For more information, see [Office support for high definition displays](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
 ### Configure Windows to fix blurry apps
 
@@ -256,76 +257,76 @@ Windows 10 (Version 1803) and later has a setting to fix apps so they’re not b
 Some solutions can receive and respond to DPI changes. Some have a workaround if they cannot receive notifications. The following table lists the details for each solution type.
 
 <table>
-	<thead>
+ <thead>
         <tr>
-		    <th>Solution Type</th>
-		    <th>Window type</th>
-		    <th>Can respond to DPI scaling</th>
-		    <th>More details</th>
+      <th>Solution Type</th>
+      <th>Window type</th>
+      <th>Can respond to DPI scaling</th>
+      <th>More details</th>
         </tr>
-	</thead>
+ </thead>
 <tbody>
-	<tr>
-		<td rowspan="2"><a href="#vsto-add-ins">VSTO Add-in</a></td>
-		<td>Top and its descendants</td>
-		<td>Yes</td>
-		<td>See <a href="#vsto-add-ins">VSTO add-in guidance</a>.</td>
-	</tr>
+ <tr>
+  <td rowspan="2"><a href="#vsto-add-ins">VSTO Add-in</a></td>
+  <td>Top and its descendants</td>
+  <td>Yes</td>
+  <td>See <a href="#vsto-add-ins">VSTO add-in guidance</a>.</td>
+ </tr>
 <tr>
-		<td>Child parented to Office window</td>
-		<td>No</td>
-		<td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
+  <td>Child parented to Office window</td>
+  <td>No</td>
+  <td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
 </tr>
-	<tr>
-		<td rowspan="2"><a href="#custom-task-panes">Custom task pane</a></td>
-		<td>Top and its descendants</td>
-		<td>Yes</td>
-		<td>See <a href="#top-level-window-management">top-level window guidance</a>.</td>
-	</tr>
+ <tr>
+  <td rowspan="2"><a href="#custom-task-panes">Custom task pane</a></td>
+  <td>Top and its descendants</td>
+  <td>Yes</td>
+  <td>See <a href="#top-level-window-management">top-level window guidance</a>.</td>
+ </tr>
 <tr>
-		<td>Child parented to Office window</td>
-		<td>No</td>
-		<td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
+  <td>Child parented to Office window</td>
+  <td>No</td>
+  <td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
 </tr>
-	<tr>
-		<td rowspan="2"><a href="#com-add-ins">COM Add-in</a></td>
-		<td>Top and its descendants</td>
-		<td>Yes</td>
-		<td>See <a href="#com-add-ins">COM Add-in guidance</a>.</td>
-	</tr>
+ <tr>
+  <td rowspan="2"><a href="#com-add-ins">COM Add-in</a></td>
+  <td>Top and its descendants</td>
+  <td>Yes</td>
+  <td>See <a href="#com-add-ins">COM Add-in guidance</a>.</td>
+ </tr>
 <tr>
-		<td>Child parented to Office window</td>
-		<td>No</td>
-		<td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
+  <td>Child parented to Office window</td>
+  <td>No</td>
+  <td>See <a href="#office-compatibility">Configure Office to optimize for compatibility</a>.</td>
 </tr>
-	<tr>
-		<td rowspan="2"><a href="#activex-controls">ActiveX control</a></td>
-		<td>Top and its descendants</td>
-		<td>Yes</td>
-		<td>See <a href="#activex-controls">ActiveX control guidance</a>.</td>
-	</tr>
-	<tr>
-		<td>Child parented to Office window</td>
-		<td>Yes</td>
-	</tr>
-	<tr>
-		<td><a href="#web-add-ins">Web Add-in</a></td>
-		<td>NA</td>
-		<td>Yes</td>
-		<td>See <a href="#web-add-ins">Office web add-in guidance</a>.</td>
-	</tr>
-	<tr>
-		<td><a href="#ribbon-extensibility">Ribbon extension</a></td>
-		<td>NA</td>
-		<td>NA</td>
-		<td>See <a href="#ribbon-extensibility">Ribbon extension guidance</a>.</td>
-	</tr>
-	<tr>
-		<td><a href="#ole">OLE server or client</a></td>
-		<td>NA</td>
-		<td>NA</td>
-		<td>See <a href="#ole">OLE server/client guidance</a>.</td>
-	</tr>
+ <tr>
+  <td rowspan="2"><a href="#activex-controls">ActiveX control</a></td>
+  <td>Top and its descendants</td>
+  <td>Yes</td>
+  <td>See <a href="#activex-controls">ActiveX control guidance</a>.</td>
+ </tr>
+ <tr>
+  <td>Child parented to Office window</td>
+  <td>Yes</td>
+ </tr>
+ <tr>
+  <td><a href="#web-add-ins">Web Add-in</a></td>
+  <td>NA</td>
+  <td>Yes</td>
+  <td>See <a href="#web-add-ins">Office web add-in guidance</a>.</td>
+ </tr>
+ <tr>
+  <td><a href="#ribbon-extensibility">Ribbon extension</a></td>
+  <td>NA</td>
+  <td>NA</td>
+  <td>See <a href="#ribbon-extensibility">Ribbon extension guidance</a>.</td>
+ </tr>
+ <tr>
+  <td><a href="#ole">OLE server or client</a></td>
+  <td>NA</td>
+  <td>NA</td>
+  <td>See <a href="#ole">OLE server/client guidance</a>.</td>
+ </tr>
 </tbody>
 </table>
 
@@ -333,7 +334,7 @@ Some solutions can receive and respond to DPI changes. Some have a workaround if
 
 If your VSTO add-in creates child windows that are parented to any Office windows, be sure they match the DPI awareness of their parent window. You can use the [GetWindowdpiAwarenessContext](/windows/desktop/api/winuser/nf-winuser-getwindowdpiawarenesscontext) function to get the DPI awareness of the parent window. Your child windows will not get any DPI change notifications. If your solution is not rendering correctly, users will need to put Office into compatibility mode.
 
-For any top-level windows your VSTO add-in creates, you can set them to any DPI awareness mode. The following sample code shows how to set up the desired DPI awareness, and how to respond to DPI changes. You will also need to adjust your app.config, as described in the [High DPI support in Windows Forms](/dotnet/framework/winforms/high-dpi-support-in-windows-forms) article. 
+For any top-level windows your VSTO add-in creates, you can set them to any DPI awareness mode. The following sample code shows how to set up the desired DPI awareness, and how to respond to DPI changes. You will also need to adjust your app.config, as described in the [High DPI support in Windows Forms](/dotnet/framework/winforms/high-dpi-support-in-windows-forms) article.
 
 ```csharp
 using System;
@@ -451,7 +452,7 @@ namespace SharedModule
 
 <h3 id="custom-task-panes">Custom task panes</h3>
 
-A custom task pane is created as a child window by Office. When running on Windows Fall Creators Update (1709), your custom task pane will run using the same DPI awareness mode as Office. When running on Windows April 2018 Update (1803) and later, your custom task pane will run using System DPI awareness mode. 
+A custom task pane is created as a child window by Office. When running on Windows Fall Creators Update (1709), your custom task pane will run using the same DPI awareness mode as Office. When running on Windows April 2018 Update (1803) and later, your custom task pane will run using System DPI awareness mode.
 
 Because custom task panes are child windows, they cannot receive DPI notifications. If they are drawing incorrectly, the user will need to use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 If your custom task pane creates top-level windows, those windows can run in any DPI awareness mode and receive DPI change notifications. For more information, see the [Top-level window management](#top-level-window-management) section in this article.
@@ -460,7 +461,7 @@ If your custom task pane creates top-level windows, those windows can run in any
 
 COM add-ins that create top-level windows can receive DPI notifications. You should create a [context block](#build-a-context-block-for-incoming-thread-calls) to set the thread to the DPI awareness that you want for your window, then create your window. There’s a lot to handling the DPI notifications correctly, so be sure to read [High DPI Desktop Application Development on Windows](/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#related-topics) for more details.
 
-The [WM_DPICHANGED](/windows/desktop/hidpi/wm-dpichanged) message is sent when the DPI for a window has changed.  In unmanaged code, this message is handled by the [Window Procedure](/windows/desktop/winmsg/using-window-procedures) for the HWND.  Sample DPI change handler code can be found in the WM_DPICHANGED article. 
+The [WM_DPICHANGED](/windows/desktop/hidpi/wm-dpichanged) message is sent when the DPI for a window has changed.  In unmanaged code, this message is handled by the [Window Procedure](/windows/desktop/winmsg/using-window-procedures) for the HWND.  Sample DPI change handler code can be found in the WM_DPICHANGED article.
 
 COM add-ins that show child windows that are parented to a window in Office cannot receive DPI notifications. If they are drawing incorrectly, the user will need to use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
@@ -470,9 +471,9 @@ How to support DPI scaling in ActiveX controls depends on whether the control is
 
 #### Windowed ActiveX controls
 
-Windowed ActiveX controls receive a WM_SIZE message each time the control is resized.  When this event is triggered, the event handler code can call the [GetDpiForWindow](/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) function using the HWND of the control to get the DPI, calculate the scale factor differences, and adjust as needed. 
+Windowed ActiveX controls receive a WM_SIZE message each time the control is resized.  When this event is triggered, the event handler code can call the [GetDpiForWindow](/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) function using the HWND of the control to get the DPI, calculate the scale factor differences, and adjust as needed.
 
-The following example enables an MFC-based ActiveX control to respond to the **OnSize** event. 
+The following example enables an MFC-based ActiveX control to respond to the **OnSize** event.
 
 ```cpp
 void ChangeWindowFontDPI(HWND hWnd, UINT dpi) 
@@ -527,16 +528,15 @@ m_currentDPI = ::GetDpiForWindow(this->GetSafeHwnd());
 
 #### Windowless ActiveX controls
 
-Windowless ActiveX controls are not guaranteed have an HWND.  When an ActiveX control is inserted onto a document canvas, it is put into design mode.  In Office applications, the hosting container will return 0 for the call to hDC->GetWindow() in the ::OnDraw event when the control is in design mode.  A reliable DPI cannot be retrieved in this case. 
+Windowless ActiveX controls are not guaranteed have an HWND.  When an ActiveX control is inserted onto a document canvas, it is put into design mode.  In Office applications, the hosting container will return 0 for the call to hDC->GetWindow() in the ::OnDraw event when the control is in design mode.  A reliable DPI cannot be retrieved in this case.
 
-However, when the control is in runtime mode, Office will return the HWND where the control is to be drawn.  In this case, the control developer can call [GetDpiForWindow](/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) and get the current DPI and scale fonts, controls, and so on. 
+However, when the control is in runtime mode, Office will return the HWND where the control is to be drawn.  In this case, the control developer can call [GetDpiForWindow](/windows/desktop/api/winuser/nf-winuser-getdpiforwindow) and get the current DPI and scale fonts, controls, and so on.
 
 <h3 id="ribbon-extensibility">Custom ribbon extensibility</h3>
 
 Any callbacks from Office for custom ribbon controls will be in a DPI thread awareness of System DPI aware.  If your solution is expecting a different DPI thread awareness, you should implement a context block to set the thread awareness as expected. For more information, see [Build a context block](#build-a-context-block-for-incoming-thread-calls).
 
 <h3 id="ole">OLE clients and servers</h3>
-
 
 When an OLE server is hosted within an OLE client container, you currently can’t provide current or supported DPI information. This can cause problems because some combinations of parent to child window mixed modes are not supported by the current Windows architecture.
 
@@ -547,13 +547,13 @@ If Word or Excel detect that there are multiple monitors with different DPI scal
 #### After Office 365 version 2109
 
 Starting with version 2109 for Excel and PowerPoint, both applications allow in-place activation in Per Monitor DPI Aware modes when certain conditions are met. When in-place activated as OLE servers, Office applications will check the `DPI_AWARENESS_CONTEXT` of the parent window provided by the container and allow in-place activation depending on which of the following [Office DPI display modes](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) is selected by the user:
+
 - "Optimize for best appearance" will allow in-place activation if the window provided by the container is Per Monitor DPI Aware (`DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE` or `DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2`).
 - "Optimize for compatibility" will allow in-place activation if the window provided by the container is System DPI Aware (`DPI_AWARENESS_CONTEXT_SYSTEM_AWARE`) and both the container application and the Office application have the same system DPI.
 
 This DPI awareness context compatibility check means that DPI Unaware OLE containers will not be able to in-place activate either of the apps. The workaround is to change the DPI awareness of the container app to System DPI Aware (and use the "Optimize for compatibility" setting in the Office app). This can be done via [SetProcessDpiAwareness](/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness), [embedded or external manifest](/windows/win32/hidpi/setting-the-default-dpi-awareness-for-a-process). External manifest is especially useful for existing VB Forms solutions, as it does not require the solution to be recompiled.
 
 When acting as an OLE container, both Excel and PowerPoint defer to the server to check DPI awareness compatibility, and they do not prevent in-place activation.
-
 
 <h3 id="web-add-ins">Office Web Add-ins</h3>
 
@@ -579,7 +579,7 @@ You might also find these additional techniques helpful:
 - [Mixed-Mode DPI Scaling and DPI-aware APIs](/windows/desktop/hidpi/high-dpi-improvements-for-desktop-applications) has a list of APIs related to DPI.
 - [Developer Guide - Per Monitor DPI](https://github.com/microsoft/WPF-Samples/tree/main/PerMonitorDPI) covers the WPF app development guide for building DPI-aware WPF apps.
 - [Office support for high definition displays](https://support.office.com/article/Office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) provides information about how a user can set Office to optimize for compatibility if your Office solution is not supported properly when the DPI changes.
-- [Display Scaling changes for the Windows 10 Anniversary Update](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) is a blog post that covers changes introduce with the Windows 10 Anniversary update. 
+- [Display Scaling changes for the Windows 10 Anniversary Update](https://blogs.technet.microsoft.com/askcore/2016/08/16/display-scaling-changes-for-the-windows-10-anniversary-update/) is a blog post that covers changes introduce with the Windows 10 Anniversary update.
 - [DPI_AWARENESS_CONTEXT handle](/windows/desktop/hidpi/dpi-awareness-context) has programming details on the DPI_AWARENESS_CONTEXT values and definitions.
 - [High DPI Desktop Application Development on Windows](/windows/desktop/hidpi/high-dpi-desktop-application-development-on-windows#testing-your-changes) includes information about testing in the Testing Your Changes section.
 
