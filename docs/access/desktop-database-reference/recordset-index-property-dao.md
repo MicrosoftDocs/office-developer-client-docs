@@ -37,14 +37,13 @@ You can create a new index for the table by creating a new **Index** object, set
 
 Records returned from a table-type **Recordset** object can be ordered only by the indexes defined for the underlying **TableDef** object. To sort records in some other order, you can open a dynaset–, snapshot–, or forward–only–type **Recordset** object by using an SQL statement with an ORDER BY clause.
 
-
 > [!NOTE]
+>
 > - You don't have to create indexes for tables. With large, unindexed tables, accessing a specific record or creating a **Recordset** object can take a long time. On the other hand, creating too many indexes slows down update, append, and delete operations because all indexes are automatically updated.
 > - Records read from tables without indexes are returned in no particular sequence.
 > - The **[Attributes](field-attributes-property-dao.md)** property of each **[Field](field-object-dao.md)** object in the **Index** object determines the order of records and consequently determines the access techniques to use for that index.
 > - A unique index helps optimize finding records.
 > - Indexes don't affect the physical order of a base table, indexes affect only how the records are accessed by the table-type **Recordset** object when a particular index is chosen or when **Recordset** is opened.
-
 
 ## Example
 
@@ -90,7 +89,6 @@ This example uses the **Index** property to set different record orders for a ta
     End Sub 
 ```
 
-
 This example demonstrates the **Seek** method by allowing the user to search for a product based on an ID number.
 
 ```vb
@@ -105,7 +103,7 @@ This example demonstrates the **Seek** method by allowing the user to search for
        Dim varBookmark As Variant 
      
        Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
-       ' You must open a table-type Recordset to use an index,  
+       ' You must open a table-type Recordset to use an index, 
        ' and hence the Seek method. 
        Set rstProducts = _ 
           dbsNorthwind.OpenRecordset("Products", dbOpenTable) 
@@ -150,7 +148,6 @@ This example demonstrates the **Seek** method by allowing the user to search for
      
     End Sub 
 ```
-
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
