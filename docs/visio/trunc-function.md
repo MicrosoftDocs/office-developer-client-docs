@@ -20,22 +20,22 @@ Returns a number truncated to the specified number of digits.
   
 ## Syntax
 
-TRUNC(** *number* **, ** *numberofdigits* ** ) 
+TRUNC(***number***, ***numberofdigits*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> |The number to truncate. |
-| _numberofdigits_ <br/> |Required  <br/> |**Numeric** <br/> |The number of digits to which to truncate  _number_. |
-   
+| *number* <br/> |Required  <br/> |**Numeric** <br/> |The number to truncate. |
+| *numberofdigits* <br/> |Required  <br/> |**Numeric** <br/> |The number of digits to which to truncate  *number*. |
+
 ### Return value
 
 Numeric.
   
 ## Remarks
 
-If  _numberofdigits_ is greater than 0,  _number_ is truncated to  _numberofdigits_ to the right of the decimal. If  _numberofdigits_ is 0,  _number_ is truncated to an integer. If  _numberofdigits_ is less than 0,  _number_ is truncated to  _numberofdigits_ to the left of the decimal. 
+If  *numberofdigits* is greater than 0, *number* is truncated to _numberofdigits_ to the right of the decimal. If _numberofdigits_ is 0, _number_ is truncated to an integer. If _numberofdigits_ is less than 0, _number_ is truncated to _numberofdigits_ to the left of the decimal.
   
 ## Example 1
 
@@ -55,4 +55,3 @@ TRUNC(123.654,-1)
   
 Returns 120.
   
-

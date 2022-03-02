@@ -19,7 +19,7 @@ See [IFreeBusyData](ifreebusydata.md).
   
 ```cpp
 HRESULT GetFBPublishRange( 
-     LONG *prtmStart,  
+     LONG *prtmStart, 
      LONG *prtmEnd 
 );
 
