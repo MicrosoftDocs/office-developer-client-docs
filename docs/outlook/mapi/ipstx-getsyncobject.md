@@ -34,7 +34,7 @@ HRESULT GetSyncObject(
 
  _ppostx_
   
->  [out] Pointer to the **IOSTX** interface to get. 
+> [out] Pointer to the **IOSTX** interface to get. 
     
 ## Remarks
 

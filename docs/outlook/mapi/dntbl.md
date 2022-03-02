@@ -70,31 +70,31 @@ _pstmReserved4_
 
 _pxicc_
   
->  [out] Pointer to the **IExchangeImportContentsChanges** contents interface that supports downloading content changes. For more information on **IExchangeImportContentsChanges**, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+> [out] Pointer to the **IExchangeImportContentsChanges** contents interface that supports downloading content changes. For more information on **IExchangeImportContentsChanges**, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
 
 _pxihc_
   
->  [out] Pointer to the **IExchangeImportHierarchyChanges** hierarchy interface that supports downloading incremental hierarchy changes. For more information on **IExchangeImportHierarchyChanges**, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+> [out] Pointer to the **IExchangeImportHierarchyChanges** hierarchy interface that supports downloading incremental hierarchy changes. For more information on **IExchangeImportHierarchyChanges**, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
 
 _pszName_
   
->  [out] Name of the folder.
+> [out] Name of the folder.
 
 _ftLastMod_
   
->  [out] Last modification time of the folder.
+> [out] Last modification time of the folder.
 
 _ulRights_
   
->  [out] Value of the **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** property of the folder.
+> [out] Value of the **[PR_RIGHTS](https://msdn.microsoft.com/library/ee238052%28v=EXCHG.80%29.aspx)** property of the folder.
 
 _feid_
   
->  [out] Entry ID of the folder.
+> [out] Entry ID of the folder.
 
 _uintReserved_
   
->  [out] This member is reserved for the internal use of Outlook and is not supported.
+> [out] This member is reserved for the internal use of Outlook and is not supported.
 
 _rgte_
   
@@ -102,19 +102,19 @@ _rgte_
 
 _lpsrReserved_
   
->  [in]/[out] This member is reserved for the internal use of Outlook and is not supported.
+> [in]/[out] This member is reserved for the internal use of Outlook and is not supported.
 
 _boReserved_
   
->  [in]This member is reserved for the internal use of Outlook and is not supported.
+> [in]This member is reserved for the internal use of Outlook and is not supported.
 
 _pReserved1_
   
->  [out]This member is reserved for the internal use of Outlook and is not supported.
+> [out]This member is reserved for the internal use of Outlook and is not supported.
 
 _pReserved2_
   
->  [in]This member is reserved for the internal use of Outlook and is not supported.
+> [in]This member is reserved for the internal use of Outlook and is not supported.
 
 ## See also
 

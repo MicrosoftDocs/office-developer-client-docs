@@ -29,7 +29,7 @@ HRESULT Restrict(
 
 _ftmStart_
   
->  [in] The start time to restrict the enumeration. 
+> [in] The start time to restrict the enumeration. 
     
 _ftmEnd_
   

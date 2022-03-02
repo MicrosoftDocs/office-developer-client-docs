@@ -32,7 +32,7 @@ struct UPFLD
 
 _ulFlags_
   
->  [out]/[in] Flags to determine appropriate actions for the uplaod. 
+> [out]/[in] Flags to determine appropriate actions for the uplaod. 
     
   - UPF_NEW
     

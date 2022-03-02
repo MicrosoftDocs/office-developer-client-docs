@@ -34,7 +34,7 @@ HRESULT SetSyncResult(
 
  _hrSync_
   
->  [in] The result of the synchronization. 
+> [in] The result of the synchronization. 
     
 ## Remarks
 

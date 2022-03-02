@@ -1,14 +1,10 @@
 ---
-title: "Respond to Form Events"
- 
- 
+title: "Respond to Form Events" 
 manager: soliver
 ms.date: 03/09/2015
-ms.audience: Developer
- 
+ms.audience: Developer 
 keywords:
-- order of events [infopath 207],events [InfoPath 2007], responding,events [InfoPath 2007], order,InfoPath 2007, reponding to events,EventArgs classes [InfoPath 2007]
- 
+- order of events [infopath 207],events [InfoPath 2007], responding,events [InfoPath 2007], order,InfoPath 2007, reponding to events,EventArgs classes [InfoPath 2007] 
 ms.localizationpriority: medium
 ms.assetid: 754db64b-179f-4385-8dd9-c20c9407b186
 description: "You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you add event handlers while working with a form template in design mode."
@@ -18,26 +14,26 @@ description: "You can write code to respond to various events that can occur as 
 
 You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you add event handlers while working with a form template in design mode.
   
-InfoPath event handlers should always be created in design mode because InfoPath automatically adds the correct declaration for sinking the event to the **InternalStartup** method and inserts the event handler's code skeleton into a form's code file (FormCode.cs or FormCode.vb). After you have created an event handler, you should not alter its declaration in the form's code file. 
+InfoPath event handlers should always be created in design mode because InfoPath automatically adds the correct declaration for sinking the event to the **InternalStartup** method and inserts the event handler's code skeleton into a form's code file (FormCode.cs or FormCode.vb). After you have created an event handler, you should not alter its declaration in the form's code file.
   
 For information about creating the InfoPath event handlers, see [Add an Event Handler](how-to-add-an-event-handler.md).
   
 ## Overview of the Event Classes
 
-The InfoPath model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace implements three classes that implement the 12 events that can be raised and handled by form template business logic. The following table lists each of the InfoPath event objects, the events they are associated with, and a description of the functionality they provide. 
+The InfoPath model provided by the [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) namespace implements three classes that implement the 12 events that can be raised and handled by form template business logic. The following table lists each of the InfoPath event objects, the events they are associated with, and a description of the functionality they provide.
   
 |**Name**|**Events**|**Description**|
 |:-----|:-----|:-----|
 |[ButtonEvent](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.aspx) <br/> |[Clicked](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) <br/> |The **ButtonEvent** class implements the **Clicked** event that is raised when a **Button** control is clicked on a form. |
 |[FormEvents](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.aspx) <br/> |[ContextChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ContextChanged.aspx) <br/> [Loading](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) <br/> [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) <br/> [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Save.aspx) <br/> [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) <br/> [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Submit.aspx) <br/> [VersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.VersionUpgrade.aspx) <br/> [ViewSwitched](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.ViewSwitched.aspx) <br/> |The **FormEvents** class implements the events that are specific to an InfoPath form template itself:  <br/> **ContextChanged** <br/> Occurs after the context node changes. **Loading** <br/> Occurs when the form template has been loaded, but before any views have been initialized. **Merge** <br/> Occurs when the **Merge Forms** command is invoked from the user interface, or InfoPath is started with the  `/aggregate` command-line switch. **Save** <br/> Occurs when the **Save** or **Save As** commands are used from the user interface, or when the [Save](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Save.aspx) and [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx) methods of the [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) class are used. **Sign** <br/> Occurs after a set of signed data has been selected to sign through the **Digital Signatures** dialog box. **Submit** <br/> Occurs when the **Submit** command is used from the user interface, or the [Submit](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx) method of the **XmlForm** class is used. **VersionUpgrade** <br/> Occurs when the version number of the form being opened is older than the version number of the form template on which it is based. **ViewSwitched** <br/> Occurs after a view of a form has been successfully switched. |
 |[XmlEvent](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.aspx) <br/> |[Changed](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Changed.aspx) <br/> [Changing](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Changing.aspx) <br/> [Validating](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Validating.aspx) <br/> |Implements the events raised by changes to the data in the underlying XML document of a form instance:  <br/> **Changed** <br/> Occurs after changes to a form's underlying XML document have been accepted and after the **Validating** event has occurred. **Changing** <br/> Occurs after changes to a form's underlying XML document have been made but before the changes have been accepted. **Validating** <br/> Occurs after changes to a form's underlying XML document have been accepted but before the **Changed** event has occurred. The **XmlEvent** class also implements the [RaiseUndoRedoForChanged](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.RaiseUndoRedoForChanged.aspx) property, which gets or sets whether the **Changed** event will be raised when an undo or redo operation occurs. |
-   
+
 > [!NOTE]
->  The **Changed** and **Changing** events fire only once when a change is made in a non-blank field in the form, whereas the comparable events in InfoPath 2003 and the InfoPath 2003-compatible object model provided by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace ( [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx) and [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) ) fire twice on changes to a non-blank field: once when the old value is deleted, and again when the new value is inserted. 
+> The **Changed** and **Changing** events fire only once when a change is made in a non-blank field in the form, whereas the comparable events in InfoPath 2003 and the InfoPath 2003-compatible object model provided by the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace ( [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx) and [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) ) fire twice on changes to a non-blank field: once when the old value is deleted, and again when the new value is inserted.
   
 ## Overview of the EventArgs Classes
 
-Each of the 12 events have an **EventArgs** object associated with the event that are passed to the event handler for the event to provide state information and other functionality that can be used in the event handler code. The following table lists the InfoPath events with their associated **EventArgs** objects and a brief description of the functionality provided by the properties and methods of the object. For details on the specific properties and methods of the object, click the name of the **EventArgs** object in the table, and then click on the Members link in the topic. 
+Each of the 12 events have an **EventArgs** object associated with the event that are passed to the event handler for the event to provide state information and other functionality that can be used in the event handler code. The following table lists the InfoPath events with their associated **EventArgs** objects and a brief description of the functionality provided by the properties and methods of the object. For details on the specific properties and methods of the object, click the name of the **EventArgs** object in the table, and then click on the Members link in the topic.
   
 |**Event**|**EventsArgs Class**|**Description**|
 |:-----|:-----|:-----|
@@ -53,12 +49,12 @@ Each of the 12 events have an **EventArgs** object associated with the event tha
 |**Changed** <br/> |[XmlEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEventArgs.aspx) <br/> |Gets an **XPathExpression** object which contains an XPath expression that returns the node that is currently being changed. Gets the new value for the node being changed. Gets an **XPathNavigator** object pointing to the node which is the parent of the node being deleted. Gets the original value of the node that is being changed. Gets an [XmlOperation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlOperation.aspx) enumeration that indicates the type of operation that occurred when the node was changed. Gets an **XPathNavigator** object pointing at the node that is being changed. Gets a value that indicates whether the node being changed is part of an undo or redo operation. |
 |**Changing** <br/> |[XmlChangingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlChangingEventArgs.aspx) <br/> |Gets an **XmlFormCancelEventArgs** object associated with the event. Inherits all of the functionality listed above for the **XmlEventArgs** object. |
 |**Validating** <br/> |[XmlValidatingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.aspx) <br/> |Creates a [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) object that contains custom error information with the specified values and adds it to the [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) object of the form. Inherits all of the functionality listed above for the **XmlEventArgs** object. |
-   
+
 ## Using the EventArgs Objects
 
-When you create an event handler, InfoPath creates the event handler's declaration in the project's form code. In the declaration of the event handler, InfoPath uses **e** as the name of the parameter that is passed to the event handler. This parameter contains the **EventArgs** object that is associated with the event handler for providing state information and other functionality when the event occurs. 
+When you create an event handler, InfoPath creates the event handler's declaration in the project's form code. In the declaration of the event handler, InfoPath uses **e** as the name of the parameter that is passed to the event handler. This parameter contains the **EventArgs** object that is associated with the event handler for providing state information and other functionality when the event occurs.
   
-For example, when you create an event handler for the **Loading** event in design mode (by clicking **Loading Event** menu on the **Developer** tab), InfoPath adds the declaration for the event handler that receives the [LoadingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.LoadingEventArgs.aspx) object to the form code file, and then opens the code editor so that you can add your code to the following event handler declaration. 
+For example, when you create an event handler for the **Loading** event in design mode (by clicking **Loading Event** menu on the **Developer** tab), InfoPath adds the declaration for the event handler that receives the [LoadingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.LoadingEventArgs.aspx) object to the form code file, and then opens the code editor so that you can add your code to the following event handler declaration.
   
 ```cs
 public void FormEvents_Loading(object sender, LoadingEventArgs e)
@@ -106,5 +102,3 @@ Public Sub field1_Changing(ByVal sender As Object, _
    End If
 End Sub
 ```
-
-

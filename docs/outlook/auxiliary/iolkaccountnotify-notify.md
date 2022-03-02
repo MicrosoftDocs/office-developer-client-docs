@@ -48,7 +48,7 @@ _dwNotify_
     
  _dwFlags_
   
->  [in] Not used. OLK_ACCOUNT_NO_FLAGS is the only supported value. 
+> [in] Not used. OLK_ACCOUNT_NO_FLAGS is the only supported value. 
     
 ## Return values
 

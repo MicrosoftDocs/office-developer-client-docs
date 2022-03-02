@@ -32,7 +32,7 @@ HRESULT EmulateSpooler(
 
  _fEmulate_
   
->  [in] Set this parameter to True if the local store should emulate the spooler; set it to False if not. 
+> [in] Set this parameter to True if the local store should emulate the spooler; set it to False if not. 
     
 ## Remarks
 

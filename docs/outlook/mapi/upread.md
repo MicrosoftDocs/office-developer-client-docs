@@ -34,11 +34,11 @@ struct UPREAD
 
  _pupre_
   
->  [out] Vector of **[UPREADE](upreade.md)** entries. 
+> [out] Vector of **[UPREADE](upreade.md)** entries. 
     
  _cEnt_
   
->  [out] Number of **UPREADE** entries. 
+> [out] Number of **UPREADE** entries. 
     
 ## See also
 

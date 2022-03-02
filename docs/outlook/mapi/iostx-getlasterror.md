@@ -36,15 +36,15 @@ HRESULT GetLastError(
 
  _hResult_
   
->  [in] Error code. 
+> [in] Error code. 
     
  _ulFlags_
   
->  [in] Flags to modify behavior. This must be 0. 
+> [in] Flags to modify behavior. This must be 0. 
     
  _lppMAPIError_
   
->  [out] Pointer to the **MAPIERROR** structure that contains the extended information for the error. See mapidefs.h for the type definition of **LPMAPIERROR**. 
+> [out] Pointer to the **MAPIERROR** structure that contains the extended information for the error. See mapidefs.h for the type definition of **LPMAPIERROR**. 
     
 ## See also
 
