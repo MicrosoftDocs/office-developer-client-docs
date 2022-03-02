@@ -37,11 +37,11 @@ Each object can be contained in its corresponding collection. For example, an [E
 <td><p>Constructs an ADO <strong>Recordset</strong> object from an OLE DB <strong>Rowset</strong> object in a C/C++ application.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Command</a></p></td>
+<td><p><a href="command-object-ado.md">Command</a></p></td>
 <td><p>Defines a specific command that you intend to execute against a data source.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="field-object-ado.md">Connection</a></p></td>
+<td><p><a href="connection-object-ado.md">Connection</a></p></td>
 <td><p>Represents an open connection to a data source.</p></td>
 </tr>
 <tr class="odd">
