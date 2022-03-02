@@ -36,5 +36,3 @@ An error will occur if the provider does not support setting access rights for g
 
 > [!NOTE]
 > When calling **SetPermissions**, setting Actions to **adAccessRevoke** overrides any settings of the *Rights* parameter. Do not set *Actions* to **adAccessRevoke** if you want the rights specified in the *Rights* parameter to take effect.
-
-

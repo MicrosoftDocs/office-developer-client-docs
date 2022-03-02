@@ -49,9 +49,7 @@ The *ActiveConnection* argument corresponds to the [ActiveConnection](activeconn
 For the other arguments that correspond directly to properties of a **Recordset** object (*Source*, *CursorType*, and *LockType*), the relationship of the arguments to the properties is as follows:
 
 - The property is read/write before the **Recordset** object is opened.
-
 - The property settings are used unless you pass the corresponding arguments when executing the **Open** method. If you pass an argument, it overrides the corresponding property setting, and the property setting is updated with the argument value.
-
 - After you open the **Recordset** object, these properties become read-only.
 
 > [!NOTE]
@@ -78,5 +76,3 @@ If you have set the [CursorLocation](cursorlocation-property-ado.md) property to
 
 > [!NOTE]
 > URLs using the http scheme will automatically invoke the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). For more information, see [Absolute and relative URLs](absolute-and-relative-urls.md).
-
-

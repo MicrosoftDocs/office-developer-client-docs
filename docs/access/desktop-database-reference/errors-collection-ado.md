@@ -11,7 +11,6 @@ ms.localizationpriority: medium
 
 # Errors collection (ADO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 Contains all the [Error](error-object-ado.md) objects created in response to a single provider-related failure provider.
@@ -28,8 +27,5 @@ The set of **Error** objects in the **Errors** collection describes all errors t
 
 Some properties and methods return warnings that appear as **Error** objects in the **Errors** collection but do not halt a program's execution. Before you call the [Resync](resync-method-ado.md), [UpdateBatch](updatebatch-method-ado.md), or [CancelBatch](cancelbatch-method-ado.md) methods on a [Recordset](recordset-object-ado.md) object, the [Open](open-method-ado-connection.md) method on a **Connection** object, or set the [Filter](filter-property-ado.md) property on a **Recordset** object, call the **Clear** method on the **Errors** collection. That way you can read the [Count](count-property-ado.md) property of the **Errors** collection to test for returned warnings.
 
-
 > [!NOTE]
 > See the **Error** object topic for a more detailed explanation of the way a single ADO operation can generate multiple errors.
-
-

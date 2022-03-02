@@ -24,7 +24,7 @@ To follow the steps in this example, you need:
   
 - Access 2013
 - A SharePoint 2013 development environment
-    
+
 > [!NOTE]
 > For more information about setting up your SharePoint development environment, see [Set up a general development environment for SharePoint 2013](https://msdn.microsoft.com/library/08e4e4e1-d960-43fa-85df-f3c279ed6927%28Office.15%29.aspx).
 > For more information about obtaining Access 2013 and SharePoint 2013, see [Downloads](https://msdn.microsoft.com/office/apps/fp123627).

@@ -98,7 +98,8 @@ Pass the value of the **PR_SERVICE_UID** property in the _lpuidService_ paramete
 > [!IMPORTANT]
 > The IMsgServiceAdmin2 interface is exposed by the same object that implements the IMsgServiceAdmin interface, and has been available using Outlook's implementation of the MAPI subsystem since Outlook 2003. Its IID is defined as follows:
 > `#if !defined(INITGUID) || defined(USES_IID_IMsgServiceAdmin2)`
-> `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);`> The _ulFlags_ SERVICE_NO_RESTART_WARNING might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following value: > `#define SERVICE_NO_RESTART_WARNING 0x00000080`
+> `DEFINE_OLEGUID(IID_IMsgServiceAdmin2,0x00020387, 0, 0);`> The _ulFlags_ SERVICE_NO_RESTART_WARNING might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following value: 
+> `#define SERVICE_NO_RESTART_WARNING 0x00000080`
   
 ## See also
 
