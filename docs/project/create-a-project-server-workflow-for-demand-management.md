@@ -286,7 +286,7 @@ You can also create or edit the workflow in Visio 2013 and import the file into 
       When you hover over the Stage shape and choose the **Properties** icon, the selection is disabled. You can set the stage and action properties after you import the workflow diagram to SharePoint Designer 2013.
 
       > [!NOTE]
-      >  The only shape stencils you should use are the following in the list of Flowchart shapes:
+      > The only shape stencils you should use are the following in the list of Flowchart shapes:
       >
       > - **Actions - SharePoint 2013 Workflow**
       > - **Components - SharePoint 2013 Workflow**

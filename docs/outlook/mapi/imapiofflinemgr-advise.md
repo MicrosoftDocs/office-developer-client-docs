@@ -36,7 +36,7 @@ HRESULT COfflineObj::Advise(
 
  _ulFlags_
   
->  [in] Flags that modify behavior. Only the value MAPIOFFLINE_ADVISE_DEFAULT is supported. 
+> [in] Flags that modify behavior. Only the value MAPIOFFLINE_ADVISE_DEFAULT is supported. 
     
  _pAdviseInfo_
   

@@ -24,7 +24,7 @@ The ADO library must be referenced by your project.
 1. In Visual Basic, from the **Project** menu, select **References...**.
 
 2. Select **Microsoft ActiveX Data Objects x.x Library** from the list. Verify that at least the following libraries are also selected:
-   
+
    - Visual Basic for Applications
    - Visual Basic runtime objects and procedures
    - Visual Basic objects and procedures
@@ -41,7 +41,7 @@ You can use ADO just as easily with Visual Basic for Applications, using Microso
 2. From the **Tools** menu, select **References...**.
 
 3. Select **Microsoft ActiveX Data Objects x.x Library** from the list. Verify that at least the following libraries are also selected:
-    
+
    - Visual Basic for Applications
    - Microsoft Access 11.0 Object Library (or later)
 
@@ -55,14 +55,14 @@ To create an automation variable and an instance of an object for that variable,
 
 You can use the **New** keyword with **Dim** to declare and instantiate ADO objects in one step:
 
-```vb 
+```vb
  
 Dim conn As New ADODB.Connection 
 ```
 
 Alternately, the **Dim** statement declaration and object instantiation can also be two steps:
 
-```vb 
+```vb
  
 Dim conn As ADODB.Connection 
 Set conn = New ADODB.Connection 
@@ -70,18 +70,18 @@ Set conn = New ADODB.Connection
 
 > [!NOTE]
 > It is not required to explicitly use the ADODB progid with the **Dim** statement, assuming you have properly referenced the ADO library in your project. However, using it ensures that you won't have naming conflicts with other libraries.
-> 
+>
 > For example, if you include references to both ADO and DAO in the same project, you should include a qualifier to specify which object model to use when instantiating **Recordset** objects, as in the following code:  
-> 
+>
 > `Dim adoRS As ADODB.Recordset`  
->   
-> `Dim daoRS As DAO.Recordset`
+>
+> `Dim adoRS As DAO.Recordset`
 
 ### CreateObject
 
 With the **CreateObject** method, the declaration and object instantiation must be two discrete steps:
 
-```vb 
+```vb
  
 Dim conn1 
 Set conn1 = CreateObject("ADODB.Connection") As Object 
@@ -89,7 +89,7 @@ Set conn1 = CreateObject("ADODB.Connection") As Object
 
 Objects instantiated with **CreateObject** are late-bound, which means that they are not strongly typed and command-line completion is disabled. However, it does allow you to skip referencing the ADO library from your project, and enables you to instantiate specific versions of objects. For example:
 
-```vb 
+```vb
  
 Set conn1 = CreateObject("ADODB.Connection.2.0") As Object 
 ```
@@ -105,4 +105,3 @@ To handle ADO events in Microsoft Visual Basic, you must declare a module-level 
 ## Visual Basic examples
 
 Many Visual Basic examples are included with the ADO documentation. For more information, see [ADO code examples in Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md).
-

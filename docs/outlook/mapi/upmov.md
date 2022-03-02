@@ -54,42 +54,42 @@ _ulFlags_
     
 _pReserved_
   
->  [out] This member is reserved for the internal use of Outlook and is not supported. 
+> [out] This member is reserved for the internal use of Outlook and is not supported. 
     
 _pstmReserved_
   
->  [out] This member is reserved for the internal use of Outlook and is not supported. 
+> [out] This member is reserved for the internal use of Outlook and is not supported. 
     
 _pszName_
   
->  [out] Name of the destination folder. 
+> [out] Name of the destination folder. 
     
   > [!NOTE]
   > This member does not support UNICODE. 
   
 _feid_
   
->  [out] Entry ID of destination folder. 
+> [out] Entry ID of destination folder. 
     
 _pfld_
   
->  [in] Pointer to server folder. 
+> [in] Pointer to server folder. 
     
 _pxicc_
   
->  [in] Pointer to the **IExchangeImportContentsChanges** contents interface that supports uploading content changes when using Incremental Change Synchronization (ICS). For more information on **IExchangeImportContentsChanges** and ICS, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+> [in] Pointer to the **IExchangeImportContentsChanges** contents interface that supports uploading content changes when using Incremental Change Synchronization (ICS). For more information on **IExchangeImportContentsChanges** and ICS, see [ICS Evaluation Criteria](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _dwReserved_
   
->  [out] This member is reserved for the internal use of Outlook and is not supported. 
+> [out] This member is reserved for the internal use of Outlook and is not supported. 
     
 _pupmovNext_
   
->  [out] Next move context. 
+> [out] Next move context. 
     
 _cEntMov_
   
->  [in] Number of items moved here. 
+> [in] Number of items moved here. 
     
 ## See also
 

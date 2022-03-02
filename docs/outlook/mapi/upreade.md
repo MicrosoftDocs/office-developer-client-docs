@@ -30,7 +30,7 @@ struct UPREADE
 
 _ulFlags_
   
->  [out]/[in] Flags to determine the appropriate behavior during the upload. 
+> [out]/[in] Flags to determine the appropriate behavior during the upload. 
     
   - UPR_ASSOC
     

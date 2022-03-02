@@ -12,26 +12,27 @@ f1_keywords:
 keywords:
 - psi, error codes,Error codes, Project Server,PSErrorID,Project Server Interface, error codes,Project Server, error codes
 ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
-description: "This topic contains tables of error codes for the Project Server Interface (PSI) in Project Server 2013. The tables are arranged by functional area and by error code range."
+description: "Error codes for the Project Server Interface (PSI) in Project Server 2013. The tables are arranged by functional area and by error code range."
 ms.localizationpriority: high
 ---
 
 # Project Server error codes
 
 This topic contains tables of error codes for the Project Server Interface (PSI) in Project Server 2013. The tables are arranged by functional area and by error code range.
-   
-Project Server 2013 processes and PSI methods have error code numbers that are generally arranged by functional area. The [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) enumeration is duplicated in [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx); they list the error codes in alphabetical order by name. This topic lists the error codes in tables that are arranged by the PSI class or functional area and by the error identifier (ID) number. 
+
+Project Server 2013 processes and PSI methods have error code numbers that are generally arranged by functional area. The [Microsoft.Office.Project.Server.Library.PSErrorID](https://msdn.microsoft.com/library/microsoft.office.project.server.library.pserrorid_di_pj14mref(v=office.14).aspx) enumeration is duplicated in [WebSvcProject.PSErrorID](https://msdn.microsoft.com/library/office/websvcproject.pserrorid_di_pj14mref.aspx); they list the error codes in alphabetical order by name. This topic lists the error codes in tables that are arranged by the PSI class or functional area and by the error identifier (ID) number.
   
 > [!NOTE]
->  Many of the error codes are general and can have multiple possible causes. For more information about errors, you can do the following: 
-> - For ASMX-based applications, use **System.Web.Services.Protocols.SoapException** with the **PSClientError** object to show a list or hierarchy of errors in a PSI method call. See [Error Code Example for ASMX](#pj15_ErrorCodes_ASMXExample). 
-> - For WCF-based applications, you can use **System.ServiceModel.FaultException** to get a **PSClientError** object and also to get additional error information. See [Error Code Example for WCF](#pj15_ErrorCodes_WCFExample). 
+> Many of the error codes are general and can have multiple possible causes. For more information about errors, you can do the following:
+>
+> - For ASMX-based applications, use **System.Web.Services.Protocols.SoapException** with the **PSClientError** object to show a list or hierarchy of errors in a PSI method call. See [Error Code Example for ASMX](#pj15_ErrorCodes_ASMXExample).
+> - For WCF-based applications, you can use **System.ServiceModel.FaultException** to get a **PSClientError** object and also to get additional error information. See [Error Code Example for WCF](#pj15_ErrorCodes_WCFExample).
 > - Use the application event log on the Project Server computer.
-> - Use the Unified Logging Service (ULS) trace logs. For an explanation, see the *Checking Errors* section in [Getting Started with Development for Project 2010](https://msdn.microsoft.com/library/gg607685.aspx). 
-> - For more information about using ULS logs, see the Project Support blog article [Project Server 2010: What to Expect when you get the Unexpected](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx), and search the blog for "reading ULS logs." 
-> - To help find or watch for specific issues in ULS data, use the [ULS Viewer](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer). 
-> - Use the Microsoft SQL Server Profiler to help catch or monitor database errors. For more information, see [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx). 
-> - Many of the error codes are used only internally. For example, because the **ExchangeSync** and **PWA** web services are not supported for third-party development, you are not likely to see error codes from methods in those areas, such as the **Rules** and **StatusReports** methods. However, tables in this article include all Project Server error codes for completeness. 
+> - Use the Unified Logging Service (ULS) trace logs. For an explanation, see the *Checking Errors* section in [Getting Started with Development for Project 2010](https://msdn.microsoft.com/library/gg607685.aspx).
+> - For more information about using ULS logs, see the Project Support blog article [Project Server 2010: What to Expect when you get the Unexpected](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx), and search the blog for "reading ULS logs."
+> - To help find or watch for specific issues in ULS data, use the [ULS Viewer](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer).
+> - Use the Microsoft SQL Server Profiler to help catch or monitor database errors. For more information, see [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx).
+> - Many of the error codes are used only internally. For example, because the **ExchangeSync** and **PWA** web services are not supported for third-party development, you are not likely to see error codes from methods in those areas, such as the **Rules** and **StatusReports** methods. However, tables in this article include all Project Server error codes for completeness.
   
 ## Table 1. Error code functional areas and related number ranges
 
@@ -66,7 +67,7 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |[Table 29: User delegation](#pj15_ErrorCodes_UserDelegation) <br/> |43000 - 43500  <br/> |
 |[Table 30: Workflow](#pj15_ErrorCodes_Workflow) <br/> |35000 - 35999: Workflow  <br/> |
 |[Table 31: WSSInterop and ObjectLinkProvider (SharePoint integration)](#pj15_ErrorCodes_WSS) <br/> |16400 - 16499: SharePoint integration and project workspaces  <br/> 18000 - 18099: Object Link Provider and SharePoint project import  <br/> |
-   
+
 ## Table 2. Error code table by number range
 
 |Error code range|Error code table|
@@ -514,11 +515,11 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |LookupTableMaskHasGaps = 11002  <br/> |The lookup table code mask has gaps. |
 |LookupTableMaskSequenceTypeLimitedToOneLevelDeep = 11003  <br/> |The code mask sequence type is limited to one level. |
 |LookupTableMaskSequenceTypeInvalid = 11004  <br/> |The code mask sequence type is not valid. |
-|LookupTableMaskSequenceRequiresAnyLength = 11005  <br/> |The code mask sequence requires a length of  _Any_. |
+|LookupTableMaskSequenceRequiresAnyLength = 11005  <br/> |The code mask sequence requires a length of  *Any*. |
 |LookupTableMaskSeparatorTooLong = 11006  <br/> |The code mask separator has too many characters. |
 |LookupTableMaskLevelMustBeBlankAcrossLCIDs = 11007  <br/> |The code mask level must be blank across the locale identifiers (language IDs). |
 |LookupTableMaskSeparatorInvalid = 11008  <br/> |A code mask separator character is not valid. |
-|LookupTableMaskBlankSeparatorInvalidAfterAnyLengthSequence = 11009  <br/> |A blank separator character is not valid after a sequence length of  _Any_. |
+|LookupTableMaskBlankSeparatorInvalidAfterAnyLengthSequence = 11009  <br/> |A blank separator character is not valid after a sequence length of  *Any*. |
 |LookupTableMaskSequenceLengthInvalid = 11010  <br/> |The code mask sequence length is not valid. |
 |LookupTableMaskLevelMustBeOneOrMore = 11011  <br/> |The code mask must be level 1 or greater. |
 |LookupTableItemDoesNotFitMask = 11050  <br/> |The lookup table item does not fit the code mask definition. |
@@ -546,14 +547,14 @@ Project Server 2013 processes and PSI methods have error code numbers that are g
 |LookupTableAlreadyExists = 11076  <br/> |The lookup table already exists. |
 |LookupTableInvalidUID = 11078  <br/> |The lookup table GUID is not valid. |
 |LookupTableFilterInvalid = 11079  <br/> |The lookup table filter is not valid. |
-|LookupTableLanguageParameterInvalidWithXmlFilter = 11080  <br/> |A language parameter is not valid with a lookup table  _xmlFilter_ parameter. |
+|LookupTableLanguageParameterInvalidWithXmlFilter = 11080  <br/> |A language parameter is not valid with a lookup table  *xmlFilter* parameter. |
 |LookupTableInvalidParentStructUid = 11081  <br/> |The GUID for a lookup table parent structure is not valid. |
 |LookupTableItemContainsListSeparator = 11082  <br/> |The lookup table item contains a list separator. |
-   
+
 Error codes in Table 14 include items for project detail pages (PDPs), Exchange synchronization, the Project Web App timeline, and database errors. Many of the miscellaneous error codes in Table 14 are used internally.
   
 > [!NOTE]
-> The auditing error codes are not used in Project Server 2013. 
+> The auditing error codes are not used in Project Server 2013.
 
 <a name="pj15_ErrorCodes_Miscellaneous"></a>
 
@@ -613,7 +614,7 @@ Error codes in Table 14 include items for project detail pages (PDPs), Exchange 
 |NotificationEMailDeliveryFailed = 16080  <br/> |Notification email message delivery failed. |
 |NotificationQueueMessageFailed = 16082  <br/> |Notification queue message failed. |
 |NotificationXSLTTransformationError = 16084  <br/> |Error in the notification XSLT transformation. |
-   
+
 All error codes in Table 16 are for the Optimizer, which is a component used in project portfolio analysis.
 
 <a name="pj15_ErrorCodes_Optimizer"></a>
@@ -734,7 +735,7 @@ All error codes in Table 16 are for the Optimizer, which is a component used in 
 |OptimizerInvalidForceLookupTableValue = 29727  <br/> |The force lookup table value is not valid. |
 |OptimizerCannotCreateSolutionWhileAnalysisUpdateIsPending = 29728  <br/> |Cannot create an Optimizer solution while an analysis update is pending. |
 |OptimizerProjectSelectorAtLeastOne = 29800  <br/> |There must be at least one project selected for the Optimizer. |
-   
+
 The error codes in Table 17 are for the Planner, which is a component used in project portfolio analysis.
 
 <a name="pj15_ErrorCodes_Planner"></a>
@@ -1040,8 +1041,8 @@ The error codes in Table 17 are for the Planner, which is a component used in pr
 |ResourcePlanAlreadyExists = 30010  <br/> |Resource plan already exists. |
 |ResourcePlanInvalidProjectUID = 30011  <br/> |The project GUID for the resource plan is not valid. |
 |ResourcePlanResourceAlreadyExists = 30012  <br/> |The resource already exists in the resource plan. |
-   
-The error codes in Table 22 are for **Rules** methods in the **PWA** web service. They are used internally. 
+
+The error codes in Table 22 are for **Rules** methods in the **PWA** web service. They are used internally.
 
 <a name="pj15_ErrorCodes_Rules"></a>
 
@@ -1137,7 +1138,7 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 
 <a name="pj15_ErrorCodes_Statusing"></a>
 
-## Table 25. Statusing web service 
+## Table 25. Statusing web service
 
 |Statusing web service error code|Description|
 |:-----|:-----|
@@ -1167,18 +1168,18 @@ The error codes in Table 22 are for **Rules** methods in the **PWA** web service
 |StatusingMissingNameAttribute = 3126  <br/> |Missing name attribute for **Statusing**. |
 |StatusingInvalidNameAttribute = 3127  <br/> |The name attribute for **Statusing** is not valid. |
 |StatusingInvalidData = 3128  <br/> |The **Statusing** data is not valid. |
-|StatusingInvalidChangelist = 3130  <br/> |The XML data is not valid in the _changexml_ parameter of the **UpdateStatus** method. |
+|StatusingInvalidChangelist = 3130  <br/> |The XML data is not valid in the *changexml* parameter of the **UpdateStatus** method. |
 |StatusingInsufficientAssignmentRights = 3131  <br/> |**SetAssignmentWorkData** cannot update an assignment because the user does not have permission. |
 |StatusingInvalidChangeNumber = 3132  <br/> |The **Statusing** change number is not valid. |
 |StatusingPidNotEditable = 3133  <br/> |The **Statusing** property identification number is not editable. |
 |StatusingCannotSetTimephasedDataInManualTasks = 3134  <br/> |Cannot set timephased data in manual tasks for **Statusing**. |
 |StatusingCannotChangeTaskMode = 3135  <br/> |Cannot change the task mode for **Statusing**. |
-   
-The error codes in Table 26 are for **StatusReports** methods in the **PWA** web service. They are used internally in Project Web App. 
+
+The error codes in Table 26 are for **StatusReports** methods in the **PWA** web service. They are used internally in Project Web App.
 
 <a name="pj15_ErrorCodes_StatusReports"></a>
 
-## Table 26. StatusReports 
+## Table 26. StatusReports
 
 |Status report error code|Description|
 |:-----|:-----|
@@ -1189,7 +1190,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_Tasks"></a>
 
-## Table 27. Task 
+## Table 27. Task
 
 |Task error code|Description|
 |:-----|:-----|
@@ -1238,7 +1239,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_Timesheets"></a>
 
-## Table 28. Timesheet 
+## Table 28. Timesheet
 
 |Timesheet error code|Description|
 |:-----|:-----|
@@ -1258,7 +1259,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_UserDelegation"></a>
 
-## Table 29. User delegation 
+## Table 29. User delegation
 
 |User delegation error code|Description|
 |:-----|:-----|
@@ -1276,7 +1277,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 <a name="pj15_ErrorCodes_Workflow"></a>
 
-## Table 30. Workflow 
+## Table 30. Workflow
 
 |Workflow error code|Description|
 |:-----|:-----|
@@ -1398,10 +1399,10 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 
 ## Error code example for ASMX
 
-To get a list of errors if you get an exception when you call a PSI method, pass the **SoapException** object to the [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx) class constructor. You can then use [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) to store the error information in a **PSErrorInfo** array and enumerate the errors, as in the following example. 
+To get a list of errors if you get an exception when you call a PSI method, pass the **SoapException** object to the [Microsoft.Office.Project.Server.Library.PSClientError](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.aspx) class constructor. You can then use [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) to store the error information in a **PSErrorInfo** array and enumerate the errors, as in the following example.
   
 > [!NOTE]
-> The **PSErrorInfo** object does not include all of the information you might need. For example, if you use **Resource.CheckOutResources** where one of the resources is already checked out, **PSErrorInfo** shows the reason for failure for each resource that cannot be checked out, but does not include the resource name or GUID. For a way to get more information in an ASMX-based application, see [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx). 
+> The **PSErrorInfo** object does not include all of the information you might need. For example, if you use **Resource.CheckOutResources** where one of the resources is already checked out, **PSErrorInfo** shows the reason for failure for each resource that cannot be checked out, but does not include the resource name or GUID. For a way to get more information in an ASMX-based application, see [CheckOutResources](https://msdn.microsoft.com/library/WebSvcResource.Resource.CheckOutResources.aspx).
   
 ```cs
 using System;
@@ -1447,7 +1448,7 @@ catch (SoapException ex)
 
 ## Error code example for WCF
 
-To get a list of errors if you get a **System.ServiceModel.FaultException** when you call a PSI method in a WCF-based application, you can extract a **PSClientError** object from the **FaultException** object. You can then use [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) to store the error information in a **PSErrorInfo** array and enumerate the errors, as in the previous ASMX example. 
+To get a list of errors if you get a **System.ServiceModel.FaultException** when you call a PSI method in a WCF-based application, you can extract a **PSClientError** object from the **FaultException** object. You can then use [GetAllErrors](https://msdn.microsoft.com/library/Microsoft.Office.Project.Server.Library.PSClientError.GetAllErrors.aspx) to store the error information in a **PSErrorInfo** array and enumerate the errors, as in the previous ASMX example.
   
 ```cs
 using System;
@@ -1569,8 +1570,7 @@ public static PSLibrary.PSClientError GetPSClientError(FaultException e,
 
 ```
 
-
-In addition to the data in the **PSClientError** object, the **FaultException** object can include other types of errors, such as failure to connect to Project Server. The _errOut_ parameter of the **GetPSClientError** method in the previous example shows additional information. For example, the **CreateProject4Department** code sample in the [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) method includes comments that show how to create errors when setting properties in the **ProjectCustomFields** table. When the application is run, the _errOut_ parameter includes the **errinfo** element and other data (formatted here from the console output). 
+In addition to the data in the **PSClientError** object, the **FaultException** object can include other types of errors, such as failure to connect to Project Server. The *errOut* parameter of the **GetPSClientError** method in the previous example shows additional information. For example, the **CreateProject4Department** code sample in the [QueueCreateProject](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueCreateProject.aspx) method includes comments that show how to create errors when setting properties in the **ProjectCustomFields** table. When the application is run, the _errOut_ parameter includes the **errinfo** element and other data (formatted here from the console output).
   
 ```XML
 ==============================
@@ -1607,5 +1607,3 @@ CustomFieldRequiredValueNotProvided
 - [SQL Server Profiler](https://msdn.microsoft.com/library/3ad5f33d-559e-41a4-bde6-bb98792f7f1a.aspx)
 - [Project Server 2010: What to Expect when you get the Unexpected](https://blogs.msdn.com/b/brismith/archive/2010/03/24/project-server-2010-what-to-expect-when-you-get-the-unexpected.aspx)
 - [ULS Viewer](https://www.codeproject.com/Articles/458052/ULS-Log-Viewer)
-    
-

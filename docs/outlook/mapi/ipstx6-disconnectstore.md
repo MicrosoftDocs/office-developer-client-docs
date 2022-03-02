@@ -34,7 +34,7 @@ HRESULT DisconnectStore(
 
  _ulFlags_
   
->  [in] Flags to modify behavior. This parameter must always be set to 0. 
+> [in] Flags to modify behavior. This parameter must always be set to 0. 
     
 ## See also
 

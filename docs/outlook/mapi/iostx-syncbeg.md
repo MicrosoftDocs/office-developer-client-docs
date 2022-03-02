@@ -35,7 +35,7 @@ HRESULT SyncBeg(
 
  _uiSync_
   
->  [in] The state that the local store will enter. The following is a list of state identifers: 
+> [in] The state that the local store will enter. The following is a list of state identifers: 
     
 LR_SYNC_IDLE
   
@@ -83,7 +83,7 @@ LR_SYNC_DOWNLOAD_TABLE
     
  _ppv_
   
->  [in]/[out] Pointer to the data structure corresponding to the state to enter. 
+> [in]/[out] Pointer to the data structure corresponding to the state to enter. 
     
 [DNHIER](dnhier.md)
   

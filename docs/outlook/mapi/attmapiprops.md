@@ -7,43 +7,39 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 806270c1-30e4-494e-9b03-7d1f2fc04099
-description: "Last modified: July 23, 2011"
- 
- 
+description: "Last modified: July 23, 2011" 
 ---
 
 # attMAPIProps
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 The **attMAPIProps** attribute is special in that it can be used to encode any MAPI property that does not have a counterpart in the set of existing TNEF-defined attributes. The attribute data is a counted set of MAPI properties laid end-to-end. The format of this encoding, which allows for any set of MAPI properties, is as follows:  
   
  _Property_Seq:_
   
-> property-count  _Property_Value,..._
-    
-There must be as many  _Property_Value_ items as the property-count value indicates. 
+> property-count _Property_Value,..._
+
+There must be as many _Property_Value_ items as the property-count value indicates.
   
  _Property_Value:_
   
-> property-tag  _Property_property-tag  _Proptag_Name Property_
-    
+> property-tag _Property_property-tag_Proptag_Name Property_
+
 The property-tag is simply the value associated with the property identifier, such as 0x0037001F for **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
   
  _Property:_
   
->  _Value_ value-count  _Value,..._
-    
+> _Value_ value-count _Value,..._
+
  _Value:_
   
 > value-data value-size value-data padding value-size value-IID value-data padding
-    
+
  _Proptag_Name:_
   
 > name-guid name-kind name-id name-guid name-kind name-string-length name-string padding
-    
+
 The encapsulation of each property varies based on the property identifier and the property type. Property tags, identifiers, and types are defined in the Mapitags.h and Mapidefs.h header files.
   
 If the property is a named property, then the property tag is immediately followed by the MAPI property name, consisting of a globally unique identifier (GUID), a type, and either an identifier or a Unicode string.
@@ -54,4 +50,3 @@ If the property is of type PT_OBJECT, the value-size is followed by the interfac
   
 If the object is an embedded message (that is, it has a property type of PT_OBJECT and an interface identifier of IID_Imessage), the value data is encoded as an embedded TNEF stream. The actual encoding of an embedded message in TNEF implementation is done by opening a second TNEF object for the original stream and processing the stream inline.
   
-
