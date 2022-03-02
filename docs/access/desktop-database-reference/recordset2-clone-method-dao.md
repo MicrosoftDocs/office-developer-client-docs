@@ -33,7 +33,8 @@ You can use the **Clone** method when you want to perform an operation on a reco
 
 Using the **[Close](connection-close-method-dao.md)** method on either the original or duplicate object doesn't affect the other object. For example, using **Close** on the original recordset doesn't close the clone.
 
-> [!NOTE]>
+> [!NOTE]
+> 
 > - Closing a clone recordset within a pending transaction will cause an implicit **Rollback** operation.
 > - When you clone a table-type **Recordset** object in a Microsoft Access workspace, the **[Index](recordset2-index-property-dao.md)** property setting is not cloned on the new copy of the recordset. You must copy the **Index** property setting manually.
 
