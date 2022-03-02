@@ -31,19 +31,19 @@ HRESULT SetOrder(
 _pclsidCategory_
   
 > [in] The category class ID for which to set the order. The value must be one of the following:
-    
-   - CLSID_OlkAddressBook
-    
-   - CLSID_OlkStore
-    
+
+- CLSID_OlkAddressBook
+
+- CLSID_OlkStore
+
 _cAccts_
   
 > [in] The number of accounts.
-    
+
 _rgAccts_
   
-> [in] An array of account IDs. The size of the array is  _cAccts_.
-    
+> [in] An array of account IDs. The size of the array is _cAccts_.
+
 ## Return values
 
 |**HRESULT**|**Description**|
@@ -52,13 +52,12 @@ _rgAccts_
 |E_ACCT_WRONG_SORT_ORDER  <br/> |The new sort order has a different number of accounts than the old sort order. |
 |E_INVALIDARG  <br/> |One or more arguments are invalid. |
 |E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use. |
-   
+
 ## Remarks
 
-The caller allocates memory for the array pointer  _prgAccts_ as well as for the array at which  _prgAccts_ points. 
+The caller allocates memory for the array pointer _prgAccts_ as well as for the array at which _prgAccts_ points.
   
 ## See also
 
 - [Constants (Account management API)](constants-account-management-api.md)  
 - [IOlkAccountManager::GetOrder](iolkaccountmanager-getorder.md)
-

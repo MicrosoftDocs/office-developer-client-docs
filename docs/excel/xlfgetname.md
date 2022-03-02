@@ -25,7 +25,7 @@ Excel12(xlfGetName, LPXLOPER12 pxRes, 2, LPXLOPER12 pxNameText, LPXLOPER12 pxInf
 
 _pxNameText_ (**xltypeStr**)
   
-Can be a name defined on the sheet; an external reference to a name defined on the active workbook, for example, `"!Sales"`; or an external reference to a name defined on a particular open workbook, for example, `"[Book1]SHEET1!Sales"`.  _pxNameText_ can also be a hidden name.
+Can be a name defined on the sheet; an external reference to a name defined on the active workbook, for example, `"!Sales"`; or an external reference to a name defined on a particular open workbook, for example, `"[Book1]SHEET1!Sales"`. _pxNameText_ can also be a hidden name.
   
 _pxInfoType_ (**xltypeBool**)
   
@@ -35,13 +35,13 @@ Specifies the type of information to return about the name. If **FALSE** or omit
 
 _pxRes_ (**xltypeStr**, **xltypeBool**, or **xltypeErr**)
   
-Depending on the value passed for  _pxInfoType_, returns the definition of the specified name (**xltypeStr**), or **TRUE** or **FALSE** (**xltypeBool**).
+Depending on the value passed for _pxInfoType_, returns the definition of the specified name (**xltypeStr**), or **TRUE** or **FALSE** (**xltypeBool**).
   
 ## Remarks
 
-If the **Protect worksheet and contents of locked cells** check box has been selected in the **Protect Sheet** dialog box to protect the workbook containing the name, **xlfGetName** returns the  `#N/A` error value. To see the **Protect Sheet** dialog box, click **Protect Sheet** in the **Changes** section of the **Review** tab.
+If the **Protect worksheet and contents of locked cells** check box has been selected in the **Protect Sheet** dialog box to protect the workbook containing the name, **xlfGetName** returns the `#N/A` error value. To see the **Protect Sheet** dialog box, click **Protect Sheet** in the **Changes** section of the **Review** tab.
   
-The following table lists three examples of the values returned by a call to **xlfGetDef** with the specified  _pxNameText_ argument.
+The following table lists three examples of the values returned by a call to **xlfGetDef** with the specified _pxNameText_ argument.
   
 |**Definition in Excel**|**_pxNameText_**|**Value Returned**|
 |:-----|:-----|:-----|

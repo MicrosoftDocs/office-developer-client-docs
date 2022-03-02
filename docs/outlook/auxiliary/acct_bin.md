@@ -27,10 +27,8 @@ typedef struct {
 
 _cb_
   
-> Number of bytes that  _pb_ points to. 
-    
+> Number of bytes that _pb_ points to.
+
 _pb_
   
 > Pointer to binary information.
-    
-

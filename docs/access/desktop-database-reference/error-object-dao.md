@@ -11,7 +11,6 @@ ms.localizationpriority: medium
 
 # Error object (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 **Error** object contains details about data access errors, each of which pertains to a single operation involving DAO.
@@ -26,27 +25,24 @@ The set of **Error** objects in the **Errors** collection describes one error. T
 
 Enumerating the specific errors in the **Errors** collection enables your error-handling routines to more precisely determine the cause and origin of an error, and take appropriate steps to recover. You can read the **Error** object's properties to obtain specific details about each error, including:
 
-  - The **[Description](error-description-property-dao.md)** property, which contains the text of the error alert that will be displayed on the screen if the error is not trapped.
+- The **[Description](error-description-property-dao.md)** property, which contains the text of the error alert that will be displayed on the screen if the error is not trapped.
 
-  - The **[Number](error-number-property-dao.md)** property, which contains the Long integer value of the error constant.
+- The **[Number](error-number-property-dao.md)** property, which contains the Long integer value of the error constant.
 
-  - The **[Source](error-source-property-dao.md)** property, which identifies the object that raised the error. This is particularly useful when you have several **Error** objects in the **Errors** collection following a request to an ODBC data source.
+- The **[Source](error-source-property-dao.md)** property, which identifies the object that raised the error. This is particularly useful when you have several **Error** objects in the **Errors** collection following a request to an ODBC data source.
 
-  - The **HelpFile** and **HelpContext** properties, which indicate the appropriate Microsoft Windows Help file and Help topic, respectively, (if any exist) for the error.
-    
+- The **HelpFile** and **HelpContext** properties, which indicate the appropriate Microsoft Windows Help file and Help topic, respectively, (if any exist) for the error.
 
     > [!NOTE]
-    > When programming in Microsoft Visual Basic for Applications (VBA), if you use the **New** keyword to create an object that subsequently causes an error before that object has been appended to a collection, the **DBEngine** object's **Errors** collection won't contain an entry for that object's error, because the new object is not associated with the **DBEngine** object. However, the error information is available in the VBA **Err** object. Your VBA error-handling code should examine the **Errors** collection whenever you anticipate a data access error. 
-    > 
+    > When programming in Microsoft Visual Basic for Applications (VBA), if you use the **New** keyword to create an object that subsequently causes an error before that object has been appended to a collection, the **DBEngine** object's **Errors** collection won't contain an entry for that object's error, because the new object is not associated with the **DBEngine** object. However, the error information is available in the VBA **Err** object. Your VBA error-handling code should examine the **Errors** collection whenever you anticipate a data access error.
+    >
     > If you are writing a centralized error handler, test the VBA **Err** object to determine if the error information in the **Errors** collection is valid. If the **Number** property of the last element of the **Errors** collection (DBEngine.Errors.Count - 1) and the value of the **Err** object match, you can then use a series of **Select Case** statements to identify the particular DAO error or errors that occurred. If they do not match, use the [Refresh](errors-refresh-method-dao.md) method on the **Errors** collection.
-
-
 
 ## Example
 
 This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting **Error** object.
 
-```vb 
+```vb
 Sub DescriptionX() 
  
    Dim dbsTest As Database 
@@ -85,4 +81,3 @@ ErrorHandler:
 End Sub 
  
 ```
-

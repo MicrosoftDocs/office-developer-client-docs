@@ -44,7 +44,7 @@ _pclsidType_
 
 _pcCategories_
   
-> [out] The number of categories in  _prgclsidCategory_.
+> [out] The number of categories in _prgclsidCategory_.
 
 _prgclsidCategory_
   

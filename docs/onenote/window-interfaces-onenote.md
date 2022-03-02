@@ -18,11 +18,8 @@ The **Window** and **Windows** interfaces are OneNote 2013 API objects that enab
 The following list shows the four view modes that you can use for OneNote windows:
   
 - Normal view—Displays the default OneNote window in which the Notebook and Page navigation panes are visible.
-
 - Full Page view—Displays a minimal user-interface (UI) view in which the Notebook and Page panes are not displayed.
-
 - Quick note—Displays a small window that allows users to take short notes. You would usually access quick notes through the OneNote icon in the Windows notification area, but you can also access them through the **View** tab in OneNote.
-
 - Dock to Desktop—Displays a OneNote window that you can dock to any side of the desktop (similar to the taskbar). This view reduces the size of the desktop to fit the window. You can dock only one window at any time, and the window is always visible without blocking the desktop.
 
 The following figure shows what the Full Page view, Dock to Desktop view, and quick notes look like on your desktop.
@@ -76,7 +73,7 @@ You can use the following methods of the **Window** interface to navigate to spe
 |:-----|:-----|
 |**Description** <br/> |Navigates to the specified object in the OneNote window. For example, you can navigate to sections, pages, and outline elements within pages. |
 |**Syntax** <br/> | `HRESULT NavigateTo(`           ` [in]BSTR bstrHierarchyObjectID, `           ` [in]BSTR bstrObjectID); ` <br/> |
-|**Parameters** <br/> | _bstrHierarchyObjectID_—The hierarchy OneNote ID of the object you want to navigate to. The object ID can reference a OneNote notebook, section, section group, or page.  _bstrObjectID_—The OneNote ID of the specific object to navigate to within a OneNote page. If the user does not want to navigate to a specific object on a page, this parameter is set to null. |
+|**Parameters** <br/> | _bstrHierarchyObjectID_—The hierarchy OneNote ID of the object you want to navigate to. The object ID can reference a OneNote notebook, section, section group, or page. _bstrObjectID_—The OneNote ID of the specific object to navigate to within a OneNote page. If the user does not want to navigate to a specific object on a page, this parameter is set to null. |
 
 **NavigateToUrl**
 
@@ -92,7 +89,7 @@ You can use the following methods of the **Window** interface to navigate to spe
 |:-----|:-----|
 |**Description** <br/> |Docks the window to the location specified by **dockLocation** and the monitor at **ptMonitor**. |
 |**Syntax** <br/> | `HRESULT SetDockedLocation`(           `[in] DockLocation dockLocation,`           `[in] POINT ptMonitor);` <br/> |
-|**Parameters** <br/> | _dockLocation_ - Indicates the docked location of a OneNote 2013 window.  _ptMonitor_ - (Optional) Indicates in x,y co-ordinates which monitor the window should be docked to. |
+|**Parameters** <br/> | _dockLocation_ - Indicates the docked location of a OneNote 2013 window. _ptMonitor_ - (Optional) Indicates in x,y co-ordinates which monitor the window should be docked to. |
 
 ## Example
 
