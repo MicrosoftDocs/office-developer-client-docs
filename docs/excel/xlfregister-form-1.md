@@ -22,12 +22,12 @@ Can be called from a DLL or XLL command that has itself been called by Microsoft
 **xlfRegister** can be called in two forms:
   
 - xlfRegister (Form 1): Registers a single command or function.
-    
+
 - [xlfRegister (Form 2)](xlfregister-form-2.md): Loads and activates an XLL.
-    
+
 Called in Form 1, this function makes a DLL function or command available to Excel, sets its use count to 1, and returns its registration ID, which can be used to call the function later by using the [xlUDF](xludf.md) or the **xlfCall** function. The registration ID is also used to unregister the function using [xlfUnregister (Form 1)](xlfunregister-form-1.md). If the function has been registered, calling **xlfRegister** again increments its use count.
   
-This form of the function also defines a hidden name which is the function text argument,  _pxFunctionText_, and which evaluates to the registration ID of the function or command. When you unregister the function, delete this name using the [xlfSetName](xlfsetname.md). For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
+This form of the function also defines a hidden name which is the function text argument, _pxFunctionText_, and which evaluates to the registration ID of the function or command. When you unregister the function, delete this name using the [xlfSetName](xlfsetname.md). For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, int iCount,
@@ -65,7 +65,7 @@ The function name as it will appear in the Function Wizard. This argument is opt
   
 _pxArgumentText_ (**xltypeStr**)
   
-An optional text string that describes the arguments to the function. The user sees this in the Function Wizard. If it is omitted, Excel constructs basic descriptions from  _pxTypeText_.
+An optional text string that describes the arguments to the function. The user sees this in the Function Wizard. If it is omitted, Excel constructs basic descriptions from _pxTypeText_.
   
 _pxMacroType_ (**xltypeNum** or **xltypeInt**)
   
@@ -96,7 +96,7 @@ A one-character, case-sensitive string that specifies the control key assigned t
   
 _pxHelpTopic_ (**xltypeStr**)
   
-An optional reference to the Help file (.chm or .hlp) to display when the user clicks the Help button (when your custom function is displayed). Can be in the form `filepath!HelpContextID` or `https://address/path_to_file_in_site!0`. Both parts before and after the "!" are required. *HelpContextID* must not contain single quotes, and will be converted by Excel to an unsigned integer 4 bytes long, in decimal form. When using the URL form, Excel opens only the referenced help file.
+An optional reference to the Help file (.chm or .hlp) to display when the user clicks the Help button (when your custom function is displayed). Can be in the form `filepath!HelpContextID` or `https://address/path_to_file_in_site!0`. Both parts before and after the "!" are required. _HelpContextID_ must not contain single quotes, and will be converted by Excel to an unsigned integer 4 bytes long, in decimal form. When using the URL form, Excel opens only the referenced help file.
   
 _pxFunctionHelp_ (**xltypeStr**)
   
@@ -114,7 +114,7 @@ If registration was successful, this function returns the register ID of the fun
 
 ### Data types
 
-The  _pxTypeText_ argument specifies the data type of the return value and the data types of all arguments to the DLL function or code resource. The first character of  _pxTypeText_ specifies the data type of the return value. The remaining characters indicate the data types of all the arguments. For example, a DLL function that returns a floating-point number and takes an integer and a floating-point number as arguments would require "BIB" for the  _pxTypeText_ argument.
+The _pxTypeText_ argument specifies the data type of the return value and the data types of all arguments to the DLL function or code resource. The first character of _pxTypeText_ specifies the data type of the return value. The remaining characters indicate the data types of all the arguments. For example, a DLL function that returns a floating-point number and takes an integer and a floating-point number as arguments would require "BIB" for the _pxTypeText_ argument.
   
 The data types and structures used by Excel to exchange data with XLLs are summarized in the following two tables.
   
@@ -191,7 +191,7 @@ The **K** and **K%** data types use pointers to the variable-sized FP and FP12 s
 
 The **O** and **O%** data types can only be used for arguments, not return values, although values can be returned my modifying an **O** or **O%** type argument in place. Each passes three items: a pointer to the number of rows in an array, a pointer to the number of columns in an array, and a pointer to a two-dimensional array of floating-point numbers.
   
-To modify an array passed by the O or O% data type in place, you could use ">O" or ">O%" as the  _pxTypeText_ argument. For more information about modifying an array, see the "Modifying in Place: Functions Declared as Void" section in this topic.
+To modify an array passed by the O or O% data type in place, you could use ">O" or ">O%" as the _pxTypeText_ argument. For more information about modifying an array, see the "Modifying in Place: Functions Declared as Void" section in this topic.
   
 The **O** data type was created for direct compatibility with Fortran DLLs, which pass arguments by reference.
   
@@ -216,11 +216,11 @@ There are two cases that call for declaring a function as returning void. In bot
   
 #### Modifying in place
 
-You can use a single digit  _n_ for the return type code in  _pxTypeText_, where  _n_ is a number from 1 through 9. This instructs Excel to take the value of the variable in the location pointed to by the  _n_th argument in  _pxTypeText_ as the return value. This is also known as modifying in place. The  _n_th argument must be a pass-by-reference data type (C, D, E, F, F%, G, G%, K, K%, L, M, N, O, O%, P, Q, R, or U). The DLL function or code resource must also be declared with the **void** keyword in the C/C++ languages (or the **procedure** keyword in the Pascal language).
+You can use a single digit _n_ for the return type code in _pxTypeText_, where _n_ is a number from 1 through 9. This instructs Excel to take the value of the variable in the location pointed to by the _n_th argument in_pxTypeText_as the return value. This is also known as modifying in place. The_n_th argument must be a pass-by-reference data type (C, D, E, F, F%, G, G%, K, K%, L, M, N, O, O%, P, Q, R, or U). The DLL function or code resource must also be declared with the **void** keyword in the C/C++ languages (or the **procedure** keyword in the Pascal language).
   
-For example, a DLL function that takes a null-terminated string and two pointers to integers as arguments can modify the string in place. Use "1FMM" as the  _pxTypeText_ argument, and declare the function as void.
+For example, a DLL function that takes a null-terminated string and two pointers to integers as arguments can modify the string in place. Use "1FMM" as the _pxTypeText_ argument, and declare the function as void.
   
-Previous versions of Excel used **\>** at the start of  _pxTypeText_ to signify that the function was declared as void and that the first argument was to be modified in place—there was no way to modify any argument other than the first. The **\>** is equivalent to  _n_ = 1 in current Excel versions and this use of **\>** in synchronous functions is supported for backward compatibility only.
+Previous versions of Excel used **\>** at the start of _pxTypeText_ to signify that the function was declared as void and that the first argument was to be modified in place—there was no way to modify any argument other than the first. The **\>** is equivalent to _n_ = 1 in current Excel versions and this use of **\>** in synchronous functions is supported for backward compatibility only.
 
 #### Asynchronous functions
 
@@ -228,7 +228,7 @@ An asynchronous function, denoted by using a parameter of type X in **pxTypeText
 
 ### Registering worksheet functions as macro sheet equivalents (handling uncalculated cells)
 
-Placing a **#** character after the last parameter code in  _pxTypeText_ gives the function the same calling permissions as functions on a macro sheet. These are as follows:
+Placing a **#** character after the last parameter code in _pxTypeText_ gives the function the same calling permissions as functions on a macro sheet. These are as follows:
   
 - The function can retrieve the values of cells that have not yet been calculated in this recalculation cycle.
 
@@ -238,10 +238,10 @@ Placing a **#** character after the last parameter code in  _pxTypeText_ gives t
 
 ### Registering worksheet functions as thread-safe
 
-Starting in Excel 2007, Excel can perform multithreaded workbook recalculation. This means that it can assign different instances of a thread-safe function to concurrent threads for reevaluation. Starting in Excel 2007, most of the built-in worksheet functions are thread-safe. Starting in Excel 2007, Excel also allows XLLs to register worksheet functions as thread-safe. To do this, include a **$** character after the last parameter code in  _pxTypeText_.
+Starting in Excel 2007, Excel can perform multithreaded workbook recalculation. This means that it can assign different instances of a thread-safe function to concurrent threads for reevaluation. Starting in Excel 2007, most of the built-in worksheet functions are thread-safe. Starting in Excel 2007, Excel also allows XLLs to register worksheet functions as thread-safe. To do this, include a **$** character after the last parameter code in _pxTypeText_.
   
 > [!NOTE]
-> Only worksheet functions can be declared as thread-safe. Excel does not consider a macro sheet equivalent function to be thread-safe, so that you cannot append both **#** and **$** characters to the  _pxTypeText_ argument.
+> Only worksheet functions can be declared as thread-safe. Excel does not consider a macro sheet equivalent function to be thread-safe, so that you cannot append both **#** and **$** characters to the _pxTypeText_ argument.
   
 If you have registered a function as thread-safe, you must ensure that it behaves in a thread-safe way, although Excel rejects any thread-unsafe calls via the C API. For example, if a thread-safe function tries to call **xlfGetCell**, the call fails with the **xlretNotThreadSafe** error.
   
@@ -252,7 +252,7 @@ Starting in Excel 2010, Excel can offload function calls to a designated compute
 If you have registered a function as cluster-safe, you must ensure that it behaves in a cluster-safe way. For more information, see [Cluster Safe Functions](cluster-safe-functions.md).
   
 > [!NOTE]
-> Only worksheet functions can be declared as cluster-safe. Excel does not consider a macro sheet equivalent function to be cluster-safe, so that you cannot append both **#** and **&amp;** characters to the  _pxTypeText_ argument. Worksheet functions can be declared as both cluster-safe and thread-safe. In this case, Excel will allow these functions to take part in multithreaded recalculation when cluster offloading is disabled.
+> Only worksheet functions can be declared as cluster-safe. Excel does not consider a macro sheet equivalent function to be cluster-safe, so that you cannot append both **#** and **&amp;** characters to the _pxTypeText_ argument. Worksheet functions can be declared as both cluster-safe and thread-safe. In this case, Excel will allow these functions to take part in multithreaded recalculation when cluster offloading is disabled.
   
 ### Category names
 
@@ -262,7 +262,7 @@ Use the following guidelines to determine which category to put your XLL functio
 - If the function returns information about the state of the add-in or any other useful information, you should put the function in the **Information** category.
 - An add-in should never add functions or commands to the **User Defined** category. This category is for the exclusive use of end users.
 
--The category is specified using the  _pxCategory_ parameter to **xlfRegister**. This can be a number or text that corresponds to one of the hard-coded standard categories, or the text of a new category specified by the DLL. If the text given does not already exist, Excel creates a new category with that name.
+-The category is specified using the _pxCategory_ parameter to **xlfRegister**. This can be a number or text that corresponds to one of the hard-coded standard categories, or the text of a new category specified by the DLL. If the text given does not already exist, Excel creates a new category with that name.
   
 The following table lists the standard categories that are visible when you view the **Paste Function** dialog box from within a worksheet.
   

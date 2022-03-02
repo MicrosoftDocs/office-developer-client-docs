@@ -10,9 +10,9 @@ description: "Last modified: October 05, 2012"
 
 # Initializing a wrapped PST store provider
 
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
-To implement a wrapped Personal Folders file (PST) store provider, you must initialize the wrapped PST store provider by using the **[MSProviderInit](msproviderinit.md)** function as an entry point. After the provider's DLL is initialized, the **[MSGSERVICEENTRY](msgserviceentry.md)** function configures the wrapped PST store provider. 
+To implement a wrapped Personal Folders file (PST) store provider, you must initialize the wrapped PST store provider by using the **[MSProviderInit](msproviderinit.md)** function as an entry point. After the provider's DLL is initialized, the **[MSGSERVICEENTRY](msgserviceentry.md)** function configures the wrapped PST store provider.
   
 In this topic, the **MSProviderInit** function and the **MSGSERVICEENTRY** function are demonstrated by using code examples from the Sample Wrapped PST Store Provider. The sample implements a wrapped PST provider that is intended to be used in conjunction with the Replication API. For more information about downloading and installing the Sample Wrapped PST Store Provider, see [Installing the Sample Wrapped PST Store Provider](installing-the-sample-wrapped-pst-store-provider.md). For more information about the Replication API, see [About the Replication API](about-the-replication-api.md).
   
@@ -20,7 +20,7 @@ After you have initialized a wrapped PST store provider, you must implement func
   
 ## Initialization routine
 
-All wrapped PST store providers must implement the **[MSProviderInit](msproviderinit.md)** function as an entry point to initialize the provider's DLL. **MSProviderInit** checks to see if the version number of the service provider interface,  `ulMAPIVer`, is compatible with the current version number,  `CURRENT_SPI_VERSION`. The function saves the MAPI memory management routines into the  `g_lpAllocateBuffer`,  `g_lpAllocateMore`, and  `g_lpFreeBuffer` parameters. These memory management routines should be used throughout the wrapped PST store implementation for memory allocation and deallocation. 
+All wrapped PST store providers must implement the **[MSProviderInit](msproviderinit.md)** function as an entry point to initialize the provider's DLL. **MSProviderInit** checks to see if the version number of the service provider interface, `ulMAPIVer`, is compatible with the current version number, `CURRENT_SPI_VERSION`. The function saves the MAPI memory management routines into the `g_lpAllocateBuffer`, `g_lpAllocateMore`, and `g_lpFreeBuffer` parameters. These memory management routines should be used throughout the wrapped PST store implementation for memory allocation and deallocation.
   
 ### MSProviderInit() example
 
@@ -103,7 +103,7 @@ STDINITMETHODIMP MSProviderInit (
 
 ### Wrapped PST and Unicode paths
 
-To retrofit the original sample prepared in Microsoft Visual Studio 2008 to use Unicode paths to the NST for use in Unicode-enabled Microsoft Outlook 2010 and Outlook 2013, the **CreateStoreEntryID** routine, which produces the entry identifier, should use one format for ASCII paths, and another for Unicode paths. These are represented as structures in the following example. 
+To retrofit the original sample prepared in Microsoft Visual Studio 2008 to use Unicode paths to the NST for use in Unicode-enabled Microsoft Outlook 2010 and Outlook 2013, the **CreateStoreEntryID** routine, which produces the entry identifier, should use one format for ASCII paths, and another for Unicode paths. These are represented as structures in the following example.
   
 ```cpp
 typedef struct                              // short format
@@ -126,11 +126,11 @@ typedef struct                              // Long format to support Unicode pa
 ```
 
 > [!IMPORTANT]
-> The differences in these structures are two NULL bytes prior to a Unicode path. If you need to interpret the entry identifier in the "Service Entry Routine" that follows, one way to determine whether that is the case or not would be to cast as EIDMS first, then check whether the szPath[0] is NULL. If it is, cast it as EIDMSW instead. 
+> The differences in these structures are two NULL bytes prior to a Unicode path. If you need to interpret the entry identifier in the "Service Entry Routine" that follows, one way to determine whether that is the case or not would be to cast as EIDMS first, then check whether the szPath[0] is NULL. If it is, cast it as EIDMSW instead.
   
 ## Service Entry routine
 
-The **[MSGSERVICEENTRY](msgserviceentry.md)** function is the message service entry point where the wrapped PST store provider is configured. The function calls  `GetMemAllocRoutines()` to get the MAPI memory management routines. The function uses the  `lpProviderAdmin` parameter to locate the profile section for the provider and sets the properties in the profile. 
+The **[MSGSERVICEENTRY](msgserviceentry.md)** function is the message service entry point where the wrapped PST store provider is configured. The function calls  `GetMemAllocRoutines()` to get the MAPI memory management routines. The function uses the  `lpProviderAdmin` parameter to locate the profile section for the provider and sets the properties in the profile.
   
 ### ServiceEntry() example
 
@@ -243,4 +243,3 @@ HRESULT STDAPICALLTYPE ServiceEntry (
 - [Logging On to a Wrapped PST Store Provider](logging-on-to-a-wrapped-pst-store-provider.md)
 - [Using a Wrapped PST Store Provider](using-a-wrapped-pst-store-provider.md)
 - [Shutting Down a Wrapped PST Store Provider](shutting-down-a-wrapped-pst-store-provider.md)
-

@@ -28,7 +28,7 @@ The **[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md)** f
 
 ```cpp
 STDMETHODIMP CSupport::OpenProfileSection( 
-    LPMAPIUID lpUid,     
+    LPMAPIUID lpUid, 
     ULONG ulFlags, 
     LPPROFSECT * lppProfileObj) 
 { 

@@ -189,13 +189,9 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 #### Parameters
 
 - _displaylevel_: **true** to show the installation status, including errors, during the update process; **false** to hide the installation status, including errors, during the update process. The default is **false**.
-
 - _updatebaseurl_: URL to the alternate download source.
-
 - _updatetoversion_: The version to update Office to. Define this parameter if you want to update to an older version than the version that is currently installed.
-
 - _downloadsource_: CLSID of the customized **IBackgroundCopyManager** implementation (BITS manager).
-
 - _contentid_: Identifies the content to download from the content server through the customized BITS manager. This value is passed through the BITS interface for interpretation.
 
 #### Return results
@@ -211,9 +207,9 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 #### Remarks
 
-- You must specify  _downloadsource_ and  _contentid_ as a pair. If not, the **Download** method will return an **E_INVALIDARG** error.
+- You must specify _downloadsource_ and _contentid_ as a pair. If not, the **Download** method will return an **E_INVALIDARG** error.
 
-- If  _downloadsource_,  _contentid_, and  _updatebaseurl_ are provided,  _updatebaseurl_ will be ignored.
+- If _downloadsource_, _contentid_, and _updatebaseurl_ are provided, _updatebaseurl_ will be ignored.
 
 - This action can only be triggered when the COM status is one of the following:
 
@@ -239,7 +235,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
   "downloadsource=CLSIDofBITSInterface contentid=BITSServerContentIdentifier"
   ```
 
-- To download the content from the Office Content Delivery Network (CDN): Call the **download()** function without specifying the  _downloadsource_,  _contentid_, or  _updatebaseurl_ parameters.
+- To download the content from the Office Content Delivery Network (CDN): Call the **download()** function without specifying the _downloadsource_, _contentid_, or _updatebaseurl_ parameters.
 
 - To download the content from a customized location: Call the **download()** function passing the following parameter:
 
@@ -421,11 +417,11 @@ The minimum requirement for a customized BITS interface to work with Office C2R 
 
   - cmbits is hard coded, and stands for customized BITS.
 
-  - _\<contentid\>_ is the  _contentid_ parameter for the **Download()** method.
+  - _\<contentid\>_ is the _contentid_ parameter for the **Download()** method.
 
   - _\<relative path to target file\>_ provides the location and file name of the file to download.
 
-    For example, if you have provided a  _contentid_ of `f732af58-5d86-4299-abe9-7595c35136ef` to the **Download()** method, and Office C2R wants to download the version cab file, such as `v32.cab` file, it will call **AddFile()** with the following `RemoteUrl`:
+    For example, if you have provided a _contentid_ of `f732af58-5d86-4299-abe9-7595c35136ef` to the **Download()** method, and Office C2R wants to download the version cab file, such as `v32.cab` file, it will call **AddFile()** with the following `RemoteUrl`:
 
   ```cpp
   cmbits://f732af58-5d86-4299-abe9-7595c35136ef/Office/Data/V32.cab

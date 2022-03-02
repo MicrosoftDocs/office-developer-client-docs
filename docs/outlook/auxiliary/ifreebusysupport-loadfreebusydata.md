@@ -11,7 +11,7 @@ description: "Returns, for each specified user, an interface for enumerating fre
 
 # IFreeBusySupport::LoadFreeBusyData
 
-Returns, for each specified user, an interface for enumerating free/busy blocks of data within a time range. 
+Returns, for each specified user, an interface for enumerating free/busy blocks of data within a time range.
   
 ## Quick info
 
@@ -19,9 +19,9 @@ See [IFreeBusySupport](ifreebusysupport.md).
   
 ```cpp
 HRESULT LoadFreeBusyData( 
-    ULONG cMax,  
+    ULONG cMax, 
     FBUser *rgfbuser, 
-    IFreeBusyData **prgfbdata,  
+    IFreeBusyData **prgfbdata, 
     HRESULT *phrStatus, 
     ULONG *pcRead 
 );
@@ -31,27 +31,27 @@ HRESULT LoadFreeBusyData(
 
 _cMax_
   
-> [in] The number of [IFreeBusyData](ifreebusydata.md) interfaces to return. 
-    
+> [in] The number of [IFreeBusyData](ifreebusydata.md) interfaces to return.
+
 _rgfbuser_
   
 > [in] The array of free/busy users to retrieve data for.
-    
+
 _prgfbdata_
   
-> [in][out] The array of **IFreeBusyData** interfaces that correspond to the  _rgfbuser_ array of [FBUser](fbuser.md) structures. 
-    
+> [in][out] The array of **IFreeBusyData** interfaces that correspond to the _rgfbuser_ array of [FBUser](fbuser.md) structures.
+
    > [!NOTE]
-   > This array of pointers is allocated by the caller and freed by the caller. The actual interfaces pointed to are released when the caller is done with them. 
+   > This array of pointers is allocated by the caller and freed by the caller. The actual interfaces pointed to are released when the caller is done with them.
   
 _phrStatus_
   
-> [out] The array of **HRESULT** results for retrieving each corresponding **IFreeBusyData** interface. The value may be NULL. A result is set to S_OK if corresponding  _prgfbdata_ is valid. 
-    
+> [out] The array of **HRESULT** results for retrieving each corresponding **IFreeBusyData** interface. The value may be NULL. A result is set to S_OK if corresponding _prgfbdata_ is valid.
+
 _pcRead_
   
->  [out] The actual number of users for which an **IFreeBusyData** interface has been found. 
-    
+> [out] The actual number of users for which an **IFreeBusyData** interface has been found.
+
 ## Return values
 
 S_OK if the call succeeded; otherwise, an error code.
@@ -59,4 +59,3 @@ S_OK if the call succeeded; otherwise, an error code.
 ## See also
 
 - [Constants (Free/busy API)](constants-free-busy-api.md)
-

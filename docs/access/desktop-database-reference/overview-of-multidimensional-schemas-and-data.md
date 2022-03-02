@@ -38,11 +38,11 @@ The Geography dimension has the following set of members:
 ```text
  
 {All, North America, Europe, Canada, USA, UK, Germany, Canada-West, 
-Canada-East, USA-NW, USA-SW, USA-NE, USA-SE, England, Scotland,  
-Wales,Ireland, Germany-North, Germany-South, Ottawa, Toronto,  
-Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston,  
-Shreveport, Miami, Boston, New York, London, Dover, Glasgow,  
-Edinburgh, Cardiff, Pembroke, Belfast, Berlin,  
+Canada-East, USA-NW, USA-SW, USA-NE, USA-SE, England, Scotland, 
+Wales,Ireland, Germany-North, Germany-South, Ottawa, Toronto, 
+Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, 
+Shreveport, Miami, Boston, New York, London, Dover, Glasgow, 
+Edinburgh, Cardiff, Pembroke, Belfast, Berlin, 
 Hamburg, Munich, Stuttgart} 
 ```
 
@@ -56,15 +56,15 @@ In the example Geography dimension pictured in the previous figure, each box rep
 
 Each level has a set of members, as follows:
 
-  - The World = {All}
+- The World = {All}
 
-  - Continents = {North America, Europe}
+- Continents = {North America, Europe}
 
-  - Countries = {Canada, USA, UK, Germany}
+- Countries = {Canada, USA, UK, Germany}
 
-  - Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
+- Regions = {Canada-East, Canada-West, USA-NE, USA-NW, USA-SE, USA-SW, England, Ireland, Scotland, Wales, Germany-North, Germany-South}
 
-  - Cities = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
+- Cities = {Ottawa, Toronto, Vancouver, Calgary, Seattle, Boise, Los Angeles, Houston, Shreveport, Miami, Boston, New York, London, Dover, Glasgow, Edinburgh, Cardiff, Pembroke, Belfast, Berlin, Hamburg, Munich, Stuttgart}
 
 ## Members
 

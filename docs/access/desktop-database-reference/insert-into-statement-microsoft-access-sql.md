@@ -70,7 +70,6 @@ The INSERT INTO statement has these parts:
 </tbody>
 </table>
 
-
 ## Remarks
 
 You can use the INSERT INTO statement to add a single record to a table using the single-record append query syntax as shown above. In this case, your code specifies the name and value for each field of the record. You must specify each of the fields of the record that a value is to be assigned to and a value for that field. When you do not specify each field, the default value or **Null** is inserted for missing columns. Records are added to the end of the table.
@@ -125,7 +124,6 @@ This example selects all records in a hypothetical New Customers table and adds 
     End Sub
 ```
 
-
 This example creates a new record in the Employees table.
 
 ```vb
@@ -138,7 +136,7 @@ This example creates a new record in the Employees table.
         Set dbs = OpenDatabase("Northwind.mdb") 
          
         ' Create a new record in the Employees table. The  
-        ' first name is Harry, the last name is Washington,  
+        ' first name is Harry, the last name is Washington, 
         ' and the job title is Trainee. 
         dbs.Execute " INSERT INTO Employees " _ 
             & "(FirstName,LastName, Title) VALUES " _ 
@@ -148,4 +146,3 @@ This example creates a new record in the Employees table.
      
     End Sub 
 ```
-

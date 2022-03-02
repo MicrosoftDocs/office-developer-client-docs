@@ -1,7 +1,5 @@
 ---
-title: "HrDecomposeEID"
- 
- 
+title: "HrDecomposeEID" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -18,9 +16,7 @@ description: "Last modified: March 09, 2015"
 
 # HrDecomposeEID
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 Separates the compound entry identifier of an object, usually a message in a message store, into the entry identifier of that object in the store and the store's entry identifier.
   
@@ -29,7 +25,7 @@ Separates the compound entry identifier of an object, usually a message in a mes
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications  <br/> |
-   
+
 ```cpp
 HrDecomposeEID(
   LPMAPISESSION psession,
@@ -46,42 +42,41 @@ HrDecomposeEID(
 
  _psession_
   
-> [in] Pointer to the session in use by the client application. 
-    
+> [in] Pointer to the session in use by the client application.
+
  _cbEID_
   
-> [in] Size, in bytes, of the compound entry identifier to be separated. 
-    
+> [in] Size, in bytes, of the compound entry identifier to be separated.
+
  _pEID_
   
-> [in] Pointer to the compound entry identifier to be separated. 
-    
+> [in] Pointer to the compound entry identifier to be separated.
+
  _pcbStoreEID_
   
-> [out] Pointer to the returned size, in bytes, of the entry identifier of the message store that contains the object. If the  _pEID_ parameter points to a noncompound entry identifier, then the  _pcbStoreEID_ parameter points to a value of zero. 
-    
+> [out] Pointer to the returned size, in bytes, of the entry identifier of the message store that contains the object. If the _pEID_ parameter points to a noncompound entry identifier, then the  _pcbStoreEID_ parameter points to a value of zero.
+
  _ppStoreEID_
   
-> [out] Pointer to a pointer to the returned entry identifier of the message store that contains the object. If the  _pEID_ parameter points to a noncompound entry identifier, NULL is returned in the _ppStoreEID_ parameter. 
-    
+> [out] Pointer to a pointer to the returned entry identifier of the message store that contains the object. If the _pEID_ parameter points to a noncompound entry identifier, NULL is returned in the _ppStoreEID_ parameter.
+
  _pcbMsgEID_
   
-> [out] Pointer to the returned size, in bytes, of the entry identifier of the object. If the  _pEID_ parameter points to a noncompound entry identifier, then the  _pcbMsgEID_ parameter is equal to the value of the  _cbEID_ parameter. 
-    
+> [out] Pointer to the returned size, in bytes, of the entry identifier of the object. If the _pEID_ parameter points to a noncompound entry identifier, then the _pcbMsgEID_ parameter is equal to the value of the _cbEID_ parameter.
+
  _ppMsgEID_
   
-> [out] Pointer to a pointer to the returned entry identifier of the object. If the  _pEID_ parameter points to a noncompound entry identifier,  _ppMsgEID_ points to a pointer to a copy of the noncompound entry identifier. 
-    
+> [out] Pointer to a pointer to the returned entry identifier of the object. If the _pEID_ parameter points to a noncompound entry identifier, _ppMsgEID_ points to a pointer to a copy of the noncompound entry identifier.
+
 ## Return value
 
 None.
   
 ## Remarks
 
-If the identifier specified by the  _pEID_ parameter is compound, it is split into the entry identifier of the object within its message store and the store's entry identifier. Noncompound entry identifier strings are simply copied. The compound identifier to be separated is usually one created by the [HrComposeEID](hrcomposeeid.md) function. 
+If the identifier specified by the  _pEID_ parameter is compound, it is split into the entry identifier of the object within its message store and the store's entry identifier. Noncompound entry identifier strings are simply copied. The compound identifier to be separated is usually one created by the [HrComposeEID](hrcomposeeid.md) function.
   
 ## Notes to callers
 
-The memory that holds the  _pEID_ parameter is released upon successful completion of this function. The calling implementation is responsible for freeing memory for the output parameters. 
+The memory that holds the  _pEID_ parameter is released upon successful completion of this function. The calling implementation is responsible for freeing memory for the output parameters.
   
-

@@ -9,45 +9,32 @@ description: "Last modified: July 06, 2012"
 ---
 
 # Programmatically set the resolution order for address lists
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
-  
+
+**Applies to**: Outlook 2013 | Outlook 2016
+
 This topic contains a code sample in C++ that programmatically sets the order of address lists by which recipients in email messages and attendees in meeting requests are resolved.
-  
-In MAPI, each profile can support multiple address lists and each address list resides in its own container. MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution. To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the  *lpSearchPath*  parameter. The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book. 
-  
+
+In MAPI, each profile can support multiple address lists and each address list resides in its own container. MAPI supports the **[SetSearchPath](https://support.microsoft.com/kb/292590)** method in the interface that allows you to set a new search path in the profile that is used for name resolution. To use the **IAddrBook::SetSearchPath** method, you have to define the desired resolution order in a **[SRowSet](srowset.md)** array that holds the containers of the relevant address books in the desired order, and then specify the array as the *lpSearchPath* parameter. The first property for each entry in the **SRowSet** array must be the **[PR_ENTRYID](pidtagentryid-canonical-property.md)** property of the corresponding address book.
+
 The code sample sets the resolution order in the following steps:
-  
-1. Initializes  `numANR` to the number of containers to match, and specifies the names and resolution order of the desired address lists in an  `ANROrder` array. 
-    
-2. Initializes MAPI by using the **MAPIInitialize** function. 
-    
-3.  Logs on to MAPI and allows the user to choose a profile. 
-    
-4.  Gets a pointer to the address book from the current session. 
-    
+
+1. Initializes `numANR` to the number of containers to match, and specifies the names and resolution order of the desired address lists in an `ANROrder` array.
+2. Initializes MAPI by using the **MAPIInitialize** function.
+3. Logs on to MAPI and allows the user to choose a profile.
+4. Gets a pointer to the address book from the current session.
 5. Opens the Address Book.
-    
 6. Opens the container for the root Address Book.
-    
 7. Opens the hierarchy table of the root address book container.
-    
 8. Gets the list of address book containers in the hierarchy.
-    
-9. Looks for the entry IDs of the desired address lists by comparing the names of the desired address lists in  `ANROrder` to the existing names in the address book hierarchy. 
-    
-10. Sets the appropriate entry IDs to the **SRowSet** array,  `pNewRows`.
-    
-11. Calls and passes  `pNewRows` as the  *lpSearchPath*  parameter to **IAddrBook::SetSearchPath** to set the search path. 
-    
+9. Looks for the entry IDs of the desired address lists by comparing the names of the desired address lists in `ANROrder` to the existing names in the address book hierarchy.
+10. Sets the appropriate entry IDs to the **SRowSet** array, `pNewRows`.
+11. Calls and passes `pNewRows` as the *lpSearchPath* parameter to **IAddrBook::SetSearchPath** to set the search path.
 12. Cleans up internal buffers and pointers.
-    
 13. Logs off from MAPI.
-    
 14. Uninitalizes MAPI.
-    
-This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**. You must run the sample after Outlook is started and is running on an initialized profile. The sample works well with names that are in one language (for example, all names are in English). It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build. 
-  
+
+This code sample uses address lists that are available in the default installation of Microsoft Office Outlook: **All Contacts**, **All Groups**, and **Contacts**. You must run the sample after Outlook is started and is running on an initialized profile. The sample works well with names that are in one language (for example, all names are in English). It is not designed to work in multi-lingual deployments, for example the **Contacts** folder localized for a user running a non-English Outlook build.
+
 ```cpp
 #include "stdafx.h" 
 #include <mapix.h> 
@@ -60,7 +47,7 @@ This code sample uses address lists that are available in the default installati
 //Number of address lists to resolve against 
 const int numANR = 3; 
 WCHAR *ANROrder[numANR] = {_T("All Contacts"), _T("All Groups"), _T("Contacts")}; 
-UINT  numContainersFound [numANR] = {0}; 
+UINT numContainersFound [numANR] = {0}; 
  
 // Temporary structure to allocate buffer in MAPI. This will be used as a parent buffer to free space later. 
 LPVOID tempLink; 
@@ -262,4 +249,3 @@ STDMETHODIMP CopySBinary(
 ## See also
 
 - [About Setting the Resolution Order for Address Lists in Outlook](about-setting-the-resolution-order-for-address-lists-in-outlook.md)
-

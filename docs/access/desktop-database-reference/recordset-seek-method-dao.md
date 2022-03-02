@@ -58,7 +58,6 @@ Locates the record in an indexed table-type **Recordset** object that satisfies 
 </tbody>
 </table>
 
-
 ## Remarks
 
 You must set the current index with the **Index** property before you use **Seek**. If the index identifies a nonunique key field, **Seek** locates the first record that satisfies the criteria.
@@ -97,7 +96,7 @@ This example demonstrates the **Seek** method by allowing the user to search for
        Dim varBookmark As Variant 
      
        Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
-       ' You must open a table-type Recordset to use an index,  
+       ' You must open a table-type Recordset to use an index, 
        ' and hence the Seek method. 
        Set rstProducts = _ 
           dbsNorthwind.OpenRecordset("Products", dbOpenTable) 
@@ -142,7 +141,6 @@ This example demonstrates the **Seek** method by allowing the user to search for
      
     End Sub 
 ```
-
 
 This example uses the **NoMatch** property to determine whether a **Seek** and a **FindFirst** were successful, and if not, to give appropriate feedback. The SeekMatch and FindMatch procedures are required for this procedure to run.
 
@@ -264,7 +262,6 @@ This example uses the **NoMatch** property to determine whether a **Seek** and a
      
     End Sub 
 ```
-
 
 The following example shows how to use the Seek method to find a record in a linked table.
 
