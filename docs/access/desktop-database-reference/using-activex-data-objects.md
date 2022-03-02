@@ -196,7 +196,6 @@ The following table lists the functionality provided by each compared to DAO.
 </tbody>
 </table>
 
-
 \* Only available when working with Microsoft Access databases. Future versions of the SQL Provider may provide this functionality in Microsoft Access projects (.adp).
 
 \*\* Only available when working with Access projects.
@@ -211,8 +210,5 @@ The following table lists the functionality provided by each compared to DAO.
 
 4 Uses **JetEngine** object to reference database.
 
-
 > [!NOTE]
 > Unlike DAO, ADO and ADOX objects can perform the marked actions in databases other than Jet as long as the provider for those databases supports that action.
-
-

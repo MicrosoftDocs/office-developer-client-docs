@@ -81,7 +81,6 @@ The CONSTRAINT clause has these parts:
 </tbody>
 </table>
 
-
 ## Remarks
 
 You use the syntax for a single-field constraint in the field-definition clause of an ALTER TABLE or CREATE TABLE statement immediately following the specification of the field's data type.
@@ -93,30 +92,30 @@ Using CONSTRAINT you can designate a field as one of the following types of cons
 - You can use the UNIQUE reserved word to designate a field as a unique key. This means that no two records in the table can have the same value in this field. You can constrain any field or list of fields as unique. If a multiple-field constraint is designated as a unique key, the combined values of all fields in the index must be unique, even if two or more records have the same value in just one of the fields.
 
 - You can use the PRIMARY KEY reserved words to designate one field or set of fields in a table as a primary key. All values in the primary key must be unique and not **Null**, and there can be only one primary key for a table.
-    
+
   > [!NOTE]
   > Do not set a PRIMARY KEY constraint on a table that already has a primary key; if you do, an error occurs.
 
 - You can use the FOREIGN KEY reserved words to designate a field as a foreign key. If the foreign table's primary key consists of more than one field, you must use a multiple-field constraint definition, listing all of the referencing fields, the name of the foreign table, and the names of the referenced fields in the foreign table in the same order that the referencing fields are listed. If the referenced field or fields are the foreign table's primary key, you do not have to specify the referenced fields. By default the database engine behaves as if the foreign table's primary key is the referenced fields. Foreign key constraints define specific actions to be performed when a corresponding primary key value is changed:
 
 - You can specify actions to be performed on the foreign table based on a corresponding action performed on a primary key in the table on which the CONSTRAINT is defined. For example, consider the following definition for the table Customers:
-    
+
   ``` sql
     CREATE TABLE Customers (CustId INTEGER PRIMARY KEY, CLstNm NCHAR VARYING (50))
   ```
-    
+
   Consider the following definition of the table Orders, which defines a foreign key relationship referencing the primary key of the Customers table:
-    
+
   ``` sql
     CREATE TABLE Orders (OrderId INTEGER PRIMARY KEY, CustId INTEGER, OrderNotes NCHAR VARYING (255), CONSTRAINT FKOrdersCustId FOREIGN KEY (CustId) REFERENCES Customers ON UPDATE CASCADE ON DELETE CASCADE
   ```
-    
+
   Both an ON UPDATE CASCADE and an ON DELETE CASCADE clause are defined on the foreign key. The ON UPDATE CASCADE clause means that if a customer's identifier (CustId) is updated in the Customer table, the update will be cascaded through the Orders table. Each order containing a corresponding customer identifier value will be updated automatically with the new value. The ON DELETE CASCADE clause means that if a customer is deleted from the Customer table, all rows in the Orders table containing the same customer identifier value will also be deleted. Consider the following different definition of the table Orders, using the SET NULL action instead of the CASCADE action:
   
   ``` sql
     CREATE TABLE Orders (OrderId INTEGER PRIMARY KEY, CustId INTEGER, OrderNotes NCHAR VARYING (255), CONSTRAINT FKOrdersCustId FOREIGN KEY (CustId) REFERENCES Customers ON UPDATE SET NULL ON DELETE SET NULL
   ```
-    
+
   The ON UPDATE SET NULL clause means that if a customer's identifier (CustId) is updated in the Customer table, the corresponding foreign key values in the Orders table will automatically be set to NULL. Similarly, the ON DELETE SET NULL clause means that if a customer is deleted from the Customer table, all corresponding foreign keys in the Orders table will automatically be set to NULL.
 
 To prevent the automatic creation of indexes for foreign keys, the modifier NO INDEX can be used. This form of foreign key definition should be used only in cases where the resulting index values would be frequently duplicated. Where the values in a foreign key index are frequently duplicated, using an index can be less efficient than simply performing a table scan. Maintaining this type of index, with rows inserted and deleted from the table, degrades performance and does not provide any benefit.
@@ -125,7 +124,7 @@ To prevent the automatic creation of indexes for foreign keys, the modifier NO I
 
 This example creates a new table called ThisTable with two text fields.
 
-```vb 
+```vb
  Sub CreateTableX1()    
 Dim dbs As Database 
  
@@ -141,7 +140,6 @@ Dim dbs As Database
  
 End Sub
 ```
-
 
 This example creates a new table called MyTable with two text fields, a Date/Time field, and a unique index made up of all three fields.
 
@@ -168,7 +166,6 @@ This example creates a new table called MyTable with two text fields, a Date/Tim
     End Sub
 ```
 
-
 This example creates a new table with two text fields and an **Integer** field. The SSN field is the primary key.
 
 ```vb
@@ -191,5 +188,3 @@ This example creates a new table with two text fields and an **Integer** field. 
      
     End Sub
 ```
-
-

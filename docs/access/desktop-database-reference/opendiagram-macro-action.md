@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 In an Access project, you can use the **OpenDiagram** action to open a database diagram in Design view.
 
 > [!NOTE]
-> This action will not be allowed if the database is not trusted. 
+> This action will not be allowed if the database is not trusted.
 
 ## Setting
 
@@ -53,4 +53,3 @@ This action is similar to double-clicking a database diagram in the Navigation P
 > You can drag a database diagram from the Navigation Pane to a macro action row. This automatically creates an **OpenDiagram** action that opens the database diagram in Design view.
 
 To run the **OpenDiagram** action in a Visual Basic for Applications (VBA) module, use the **OpenDiagram** method of the **DoCmd** object.
-
