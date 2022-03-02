@@ -115,16 +115,11 @@ Programmatic access to Project Online requires a CSOM that is built on the Share
   
 Following are the principles and features of the CSOM in Project Server 2013:
   
-- The CSOM is designed for ease of use. For example, methods and properties directly use or provide data by name, rather than requiring many GUIDs,  _changeXml_ parameters, or passing around datasets.
-
+- The CSOM is designed for ease of use. For example, methods and properties directly use or provide data by name, rather than requiring many GUIDs, _changeXml_ parameters, or passing around datasets.
 - The Project Server CSOM implements a subset of the PSI functionality, based on the most common requirements for third-party solutions.
-
 - The CSOM internally calls the PSI, but is factored differently. For example, updates for all statusing changes are done through the **StatusAssignmentCollection.SubmitAllStatusUpdates** method, not by the **Statusing.SubmitStatus** PSI method for the user or the **SubmitStatusForResource** method for other resources.
-
 - The CSOM is accessible through one WCF service (Client.svc), rather than through the 22 public services of the PSI.
-
 - Initialization of the Project Server CSOM is directly through the [ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) class with the Project Web App URL, not by using a WCF reference or proxy assembly.
-
 - The CSOM implements multiple client libraries and interfaces, which are supported by the internal SharePoint CSOM infrastructure. The client libraries and interfaces include the following:
 
   - Microsoft .NET client library in the Microsoft.ProjectServer.Client.dll assembly
@@ -140,7 +135,6 @@ Following are the principles and features of the CSOM in Project Server 2013:
   - Native support for LINQ queries with filtering, to limit the amount of data that is returned
 
 - The CSOM can be used both for Project Online solutions and for on-premises solutions, independently of the PSI and other Project Server assemblies such as Microsoft.Office.Project.Server.Library.dll.
-
 - Additional functionality of the Project Server 2013 CSOM may be considered for cumulative updates and service packs, based on requests by Project Server partners and the developer community.
 
 > [!NOTE]
@@ -169,7 +163,7 @@ https://ServerName /ProjectServerName /_api/ProjectData/Projects?$filter=startsw
 
 To import project data into PowerPivot in Excel 2013, on the DATA ribbon, select **From OData data feed** in the **From Other Sources** drop-down menu. In the **Data Connection Wizard** dialog box, type <https://ServerName/ProjectServerName/_api/ProjectData/> in the data feed location, choose **Next**, and then select the **Projects** table in the **Select Tables** page of the wizard. Name and save the .odc file, and then choose **Finish**. In the **Import Data** dialog box, choose **PivotTable Report**. On the Excel worksheet, choose fields for the pivot table rows and columns that you want to show.
   
-On-premises Project Server users, who have the correct permissions, can directly access the reporting tables and views through Microsoft SQL Server to create reports, as they do in Project Server 2010. In Project Server 2013, users can also access the on-premises reporting tables through the OData interface. You can retrieve Project Server data online or on-premises through REST endpoints for the OData service. For example, the dbo.MSP_PROJECT table and the dbo.MSP_EpmProject_UserView view can be used for reports. Any tables or views that have a  `draft`,  `pub`, or  `ver` prefix are for internal use by Project Server only, and are not for reporting use. For example, the draft.MSP_TASKS table and the pub.MSP_PROJECTS_WORKING_VIEW view are not documented and are for internal use only.
+On-premises Project Server users, who have the correct permissions, can directly access the reporting tables and views through Microsoft SQL Server to create reports, as they do in Project Server 2010. In Project Server 2013, users can also access the on-premises reporting tables through the OData interface. You can retrieve Project Server data online or on-premises through REST endpoints for the OData service. For example, the dbo.MSP_PROJECT table and the dbo.MSP_EpmProject_UserView view can be used for reports. Any tables or views that have a `draft`, `pub`, or `ver` prefix are for internal use by Project Server only, and are not for reporting use. For example, the draft.MSP_TASKS table and the pub.MSP_PROJECTS_WORKING_VIEW view are not documented and are for internal use only.
   
 > [!NOTE]
 > You can extend on-premises reporting by adding tables, views, fields, and stored procedures in a separate database. You should not modify the existing reporting tables and views in the Project Server database.
@@ -247,7 +241,7 @@ If your solutions use deprecated features, they should be tested thoroughly befo
   
 - **ASMX interface for the PSI** The PSI includes duplicate interfaces for developing on-premises Project Server extensions. The ASMX web services interface was introduced with the first implementation of the PSI in Office Project Server 2007. Project Server 2010 added the WCF services interface, where the object model essentially duplicates the ASMX web services. Although Project Server 2013 continues to support both ASMX and WCF, new solutions that require the PSI should use the WCF services. If possible, new solutions should be written using the CSOM.
   
-  The ASMX web services of the PSI are deprecated in Project Server 2013. To work in future Project Server versions, solutions that use the ASMX web services must be rewritten to use either the WCF services or the CSOM. For more information, see the  _Upgrading applications with the Project Server APIs_  section in [Project Server programmability](project-server-programmability.md).
+  The ASMX web services of the PSI are deprecated in Project Server 2013. To work in future Project Server versions, solutions that use the ASMX web services must be rewritten to use either the WCF services or the CSOM. For more information, see the _Upgrading applications with the Project Server APIs_  section in [Project Server programmability](project-server-programmability.md).
   
 - **Object Link Provider (OLP)** In previous versions of Project Server, the **ObjectLinkProvider** service in the PSI (see [WebSvcObjectLinkProvider](https://docs.microsoft.com/previous-versions/office/ms481347(v=office.14)) provides a way to manage web object links between enterprise project tasks and specialized SharePoint lists in the project site for issues, risks, deliverables, and documents. In Project Server 2013, the OLP is deprecated.
   

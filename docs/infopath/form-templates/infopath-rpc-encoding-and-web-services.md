@@ -26,20 +26,20 @@ The prerequisites for creating such a proxy Microsoft .NET Web service are a Mic
   
 ## Creating a Proxy Web Service Using Visual Studio
 
-1. Create a new **ASP.NET Web Service Application** project. 
-    
-2. In the **Solution Explorer**, right-click the **References** folder of your new project, and then click **Add Web Reference**. 
-    
+1. Create a new **ASP.NET Web Service Application** project.
+
+2. In the **Solution Explorer**, right-click the **References** folder of your new project, and then click **Add Web Reference**.
+
 3. In the **Add Web Reference** dialog box, type in the URL of the RPC/encoded Web service that you want to work with, and then click **Go**.
-    
-4. Click **Add Reference**. 
-    
+
+4. Click **Add Reference**.
+
 5. Open the .asmx file for your Web service and add one Web Service method to call each Web Service method from the referenced RPC/encoded Web service.
-    
-6. To view a list of the methods in the reference RPC/encoded Web server, display the **Class View** window. For each Web Service method, you will see three methods. For example, if the Web Service method is called  `doSearch`, then you will see three methods called  `doSearch`,  `BegindoSearch`, and  `EnddoSearch`. You only have to create a wrapper Web Service method for the  `doSearch` method. Be sure to match the exact method signature and return type. 
-    
-7. Within each wrapper method, you have to write code to make a call to the referenced RPC/encoded Web service as shown in the following example. 
-    
+
+6. To view a list of the methods in the reference RPC/encoded Web server, display the **Class View** window. For each Web Service method, you will see three methods. For example, if the Web Service method is called  `doSearch`, then you will see three methods called  `doSearch`, `BegindoSearch`, and  `EnddoSearch`. You only have to create a wrapper Web Service method for the  `doSearch` method. Be sure to match the exact method signature and return type.
+
+7. Within each wrapper method, you have to write code to make a call to the referenced RPC/encoded Web service as shown in the following example.
+
    ```cs
     [WebMethod] 
     public string[] doSearch(string keyword) 
@@ -50,15 +50,15 @@ The prerequisites for creating such a proxy Microsoft .NET Web service are a Mic
     
    ```
 
-8. If the RPC/encoded Web service requires authentication, you can hard code the credentials required to connect to the RPC/encoded Web service into the source code for the proxy .NET Web service, or you can use code like the following example. 
-    
+8. If the RPC/encoded Web service requires authentication, you can hard code the credentials required to connect to the RPC/encoded Web service into the source code for the proxy .NET Web service, or you can use code like the following example.
+
    ```cs
     myProxy.Credentials = System.Net.CredentialCache.DefaultCredentials; 
     
    ```
 
-For more information, search for the Microsoft Knowledge Base article "HOW TO: Pass Current Credentials to an ASP.NET Web Service" on https://support.microsoft.com/.
-    
+For more information, search for the Microsoft Knowledge Base article "HOW TO: Pass Current Credentials to an ASP.NET Web Service" on <https://support.microsoft.com/>.
+
 ## Creating a Proxy Web Service Without Visual Studio .NET
 
 Alternatively, you can create a proxy Web service by using the tools that are provided with the .NET Framework Software Development Kit, which can be downloaded from MSDN.
@@ -114,5 +114,3 @@ public class GoogleSearchServiceWrapper : System.Web.Services.WebService
     } 
 }
 ```
-
-

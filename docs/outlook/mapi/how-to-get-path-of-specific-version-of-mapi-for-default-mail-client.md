@@ -11,16 +11,16 @@ description: "Last modified: July 23, 2011"
 # Get the path of a specific version of MAPI for the default mail client
 
 **Applies to**: Outlook 2013 | Outlook 2016
-  
+ 
 This topic includes a code sample in C++ that shows how to obtain the path of a specific version of MAPI that is used by the default mail client on a computer. MAPI mail clients have an option to specify in the registry a custom DLL that the MAPI stub library should load and dispatch MAPI calls to. The registry key to set for this custom DLL for a default mail client is **MSIComponentID**, under the **HKLM\Software\Clients\Mail** key of the default mail client. The [FGetComponentPath](fgetcomponentpath.md) function, exported by the MAPI stub library, mapistub.dll, can return the path to the custom version of MAPI specified by the **MSIComponentID** registry key.
-  
-This code sample includes two functions:  `HrGetRegMultiSZValueA` and  `GetMAPISVCPath`. The  `GetMAPISVCPath` function uses [FGetComponentPath](fgetcomponentpath.md) to obtain the path to the custom version of MAPI. It assumes that the default mail client is Microsoft Office Outlook 2007, and passes to **FGetComponentPath** the value,  `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, that Outlook 2007 sets as the component ID of MAPI for the **MSIComponentID** registry key.
-  
+ 
+This code sample includes two functions: `HrGetRegMultiSZValueA` and `GetMAPISVCPath`. The `GetMAPISVCPath` function uses [FGetComponentPath](fgetcomponentpath.md) to obtain the path to the custom version of MAPI. It assumes that the default mail client is Microsoft Office Outlook 2007, and passes to **FGetComponentPath** the value, `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, that Outlook 2007 sets as the component ID of MAPI for the **MSIComponentID** registry key.
+ 
 > [!NOTE]
-> In practice, you should not assume the value,  `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, is always the component ID of MAPI and directly pass it to **FGetComponentPath**. To reliably find out which version of MAPI Outlook uses on a computer, you must read from the registry the value of **MSIComponentID** and pass it to **FGetComponentPath**.
-  
-The following steps describe how  `GetMAPISVCPath` does this.
-  
+> In practice, you should not assume the value, `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, is always the component ID of MAPI and directly pass it to **FGetComponentPath**. To reliably find out which version of MAPI Outlook uses on a computer, you must read from the registry the value of **MSIComponentID** and pass it to **FGetComponentPath**.
+ 
+The following steps describe how `GetMAPISVCPath` does this.
+ 
 1. Loads the MAPI stub library, mapistub.dll, from the system directory.
 
 2. Assumes that mapistub.dll exports the **FGetComponentPath** function, it tries to get the address of this function from mapistub.dll.
@@ -29,10 +29,10 @@ The following steps describe how  `GetMAPISVCPath` does this.
 
 4. If getting the address of **FGetComponentPath** succeeds, it opens the registry and uses the  `HrGetRegMultiSZValueA` function to read the registry values under **HKLM\Software\Clients\Mail\Microsoft Outlook**.
 
-5. Calls **FGetComponentPath**, specifying the value,  `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, to obtain the path to the version of MAPI that Outlook 2007 uses.
+5. Calls **FGetComponentPath**, specifying the value, `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, to obtain the path to the version of MAPI that Outlook 2007 uses.
 
 Note that to support localized copies of MAPI for English and non-English locales, the code sample reads the values for the **MSIApplicationLCID** and **MSIOfficeLCID** subkeys and calls **FGetComponentPath**, first specifying **MSIApplicationLCID** as *szQualifier*, and then again specifying **MSIOfficeLCID** as *szQualifier*. For more information about registry keys for mail clients that support non-English languages, see [Setting Up the MSI Keys for Your MAPI DLL](https://msdn.microsoft.com/library/ee909494%28VS.85%29.aspx).
-  
+ 
 ```cpp
 // HrGetRegMultiSZValueA 
 // Get a REG_MULTI_SZ registry value - allocating memory using new to hold it. 

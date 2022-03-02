@@ -20,7 +20,7 @@ ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
 Can be called from a DLL that has itself been called by Microsoft Excel. If a function is already registered, it returns the existing register ID for that function without reregistering it. If a function is not yet registered, it registers it and returns the resulting register ID.
   
 ```cs
-Excel12(xlfRegisterId, LPXLOPER12 pxRes, 3,     LPXLOPER12 pxModuleText, LPXLOPER12 pxProcedure, LPXLOPER12 pxTypeText);
+Excel12(xlfRegisterId, LPXLOPER12 pxRes, 3, LPXLOPER12 pxModuleText, LPXLOPER12 pxProcedure, LPXLOPER12 pxTypeText);
 ```
 
 ## Parameters

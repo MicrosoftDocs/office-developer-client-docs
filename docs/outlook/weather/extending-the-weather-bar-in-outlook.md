@@ -40,7 +40,7 @@ A user can specify a different weather data service for the Weather Bar, as long
 
    - outputview=search: This parameter indicates that the request is a location search.
 
-   - weasearchstr= _city_: This parameter indicates the location,  _city_, for which the user wants a weather forecast (for example, London).
+   - weasearchstr= _city_: This parameter indicates the location, _city_, for which the user wants a weather forecast (for example, London).
 
    - culture= _LCID_: This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](https://www.ietf.org/rfc/rfc4646.txt)
 
@@ -56,7 +56,7 @@ A user can specify a different weather data service for the Weather Bar, as long
 
    - wealocations= _code_: _code_ in this parameter is a location code that Outlook obtains from Step 2, and that maps to the location that the user is interested in.
 
-   - weadegreetype= _degreetype_: This parameter specifies whether to use metric or imperial units of measurement for temperature. Specify c for metric, f for imperial for  _degreetype_. This parameter is optional and does not always exist in the web service request.
+   - weadegreetype= _degreetype_: This parameter specifies whether to use metric or imperial units of measurement for temperature. Specify c for metric, f for imperial for _degreetype_. This parameter is optional and does not always exist in the web service request.
 
    - culture= _LCID_: This parameter indicates the culture of the version of Office installed for the user on that computer. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](https://www.ietf.org/rfc/rfc4646.txt)
 

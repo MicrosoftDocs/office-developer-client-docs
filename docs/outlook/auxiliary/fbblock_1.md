@@ -30,18 +30,17 @@ typedef struct  tagFBBlock_1
 _m_tmStart_
   
 > The start time for the block, expressed in relative time. For more information, see [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md).
-    
+
 _m_tmEnd_
   
 > The end time for the block, expressed in relative time.
-    
+
 _m_fbStatus_
   
-> The free/busy status for this block, indicating whether the user is out-of-office, busy, tentative, or free, during the time period between  _m_tmStart_ and  _m_tmEnd_.
-    
+> The free/busy status for this block, indicating whether the user is out-of-office, busy, tentative, or free, during the time period between _m_tmStart_ and _m_tmEnd_.
+
 ## See also
 
 - [FBStatus](fbstatus.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)
 - [Use relative time to access free/busy data](how-to-use-relative-time-to-access-free-busy-data.md)
-

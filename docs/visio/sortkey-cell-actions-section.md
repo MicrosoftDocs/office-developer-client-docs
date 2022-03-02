@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm1027286
- ms.localizationpriority: medium
+ms.localizationpriority: medium
 ms.assetid: c0c4b668-f31b-336f-4434-e94a4804ff7c
 description: "A number that determines the order of actions that appear on a shortcut or action tag menu."
 ---
@@ -26,7 +26,7 @@ To get a reference to the SortKey cell by name from another formula, or from a p
   
 |||
 |:-----|:-----|
-|Cell name:  <br/> |Actions. *name* .SortKeywhere Actions. *name* is the name of the Actions row  <br/> |
+|Cell name:  <br/> |Actions. *name* .SortKeywhere Actions. *name* is the name of the Actions row.  <br/> |
 
 To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments:
   
