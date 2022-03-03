@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b9bd389a-6975-41a2-a2f4-e501312e434b
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormFactory::LockServer

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb161d7b-ae5b-4f8e-a506-8346ac5e583d
-description: "Last modified: July 23, 2011"
 ---
 
 # IProfAdmin::GetLastError

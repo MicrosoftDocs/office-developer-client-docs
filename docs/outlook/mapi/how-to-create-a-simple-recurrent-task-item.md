@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e9ee8865-0983-439e-8405-7946c5ec8762
-description: "Last modified: July 23, 2011"
 ---
 
 # Create a simple recurrent task item

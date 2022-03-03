@@ -5,7 +5,6 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 89814eec-67c1-40b6-91d9-a58c3da0f15e
-description: "Last modified: July 23, 2011"
  
  
 ---

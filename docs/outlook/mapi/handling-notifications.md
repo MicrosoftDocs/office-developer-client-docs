@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 451b71da-a888-4d8f-9814-12f9f846de05
-description: "Last modified: July 23, 2011"
 ---
 
 # Handling notifications

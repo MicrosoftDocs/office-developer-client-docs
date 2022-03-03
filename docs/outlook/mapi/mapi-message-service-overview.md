@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 58f36a6b-bcc5-4ebb-9761-6f420a718d97
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPI message service overview

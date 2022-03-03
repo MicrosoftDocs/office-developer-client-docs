@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 763cab41-f6f6-4cb0-8cb8-170fdf2a92e6
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgServiceAdmin::SetPrimaryIdentity

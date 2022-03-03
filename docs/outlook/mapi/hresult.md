@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b248ed11-3d8a-4d4c-9b84-fa5bee7979c7
-description: "Last modified: July 23, 2011"
 ---
 
 # HRESULT

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 853ddee5-24d6-423d-b483-6a07a12de51f
-description: "Last modified: July 23, 2011"
 ---
 
 # IProviderAdmin::GetLastError

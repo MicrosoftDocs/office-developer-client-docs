@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c3bdae-a3a8-4334-b6d2-a89c6820d72e
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::GetSvcConfigSupportObj

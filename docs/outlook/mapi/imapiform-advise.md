@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 961318d6-bebe-4f4b-98ff-921cafc68d24
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIForm::Advise

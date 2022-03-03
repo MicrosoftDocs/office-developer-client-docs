@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c630ecaf-b19c-4991-9779-e13cc492c755
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::MakeInvalid

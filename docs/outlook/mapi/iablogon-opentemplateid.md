@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 751c36d3-c39e-4357-a60a-88685a378de0
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::OpenTemplateID

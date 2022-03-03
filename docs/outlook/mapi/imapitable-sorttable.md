@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ff5f78ac-06cf-46fb-93da-5f4a3a5d1b22
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::SortTable

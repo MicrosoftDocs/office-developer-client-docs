@@ -7,7 +7,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f7fcb385-186d-d5fe-7104-fe0af09d5768
-description: "Last modified: July 23, 2011"
 ---
 
 # UPTBLE
@@ -34,27 +33,27 @@ struct UPTBLE
 
  _iEntMod_
   
->  [out] Index to track uploading the  _cEntMod_ number of new or modified items. 
+> [out] Index to track uploading the  _cEntMod_ number of new or modified items. 
     
  _cEntMod_
   
->  [out] Number of new or modified items in the folder. 
+> [out] Number of new or modified items in the folder. 
     
  _iEntRead_
   
->  [out] Index to track uploading the number of  _cEntRead_ read items. 
+> [out] Index to track uploading the number of  _cEntRead_ read items. 
     
  _cEntRead_
   
->  [out] Number of read items in the folder. 
+> [out] Number of read items in the folder. 
     
  _iEntDel_
   
->  [out] Index to track uploading the number of  _cEntDel_ deleted items. 
+> [out] Index to track uploading the number of  _cEntDel_ deleted items. 
     
  _cEntDel_
   
->  [out] Number of deleted items in the folder. 
+> [out] Number of deleted items in the folder. 
     
 ## See also
 

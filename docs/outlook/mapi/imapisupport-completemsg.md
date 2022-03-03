@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7932433-abe0-4341-95e0-91b37c848145
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::CompleteMsg

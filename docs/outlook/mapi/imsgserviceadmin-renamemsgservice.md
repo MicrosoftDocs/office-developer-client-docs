@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: eba0e7f2-03c1-4713-aa36-3d0b398cd197
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgServiceAdmin::RenameMsgService

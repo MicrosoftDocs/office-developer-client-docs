@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6ddf9158-3c10-408a-aeaf-5a382c4339e7
-description: "Last modified: July 23, 2011"
 ---
 
 # Form storage

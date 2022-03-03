@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1f630c6-9e95-49c0-9757-4685c98184dc
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPLogon::FlushQueues

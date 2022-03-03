@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d700b40f-e5b2-4d37-bf1f-8fd3dfa0dda5
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormAdviseSink::OnChange

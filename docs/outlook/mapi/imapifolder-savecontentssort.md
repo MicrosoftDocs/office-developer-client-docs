@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ae3fdf0-6193-4c1f-bd2e-d69c56d69773
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFolder::SaveContentsSort

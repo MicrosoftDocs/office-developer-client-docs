@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b850dc08-73c3-4b19-ae29-1892d6a2ff2f
-description: "Last modified: July 23, 2011"
 ---
 
 # IExchangeModifyTable::GetLastError

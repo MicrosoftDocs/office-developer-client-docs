@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7180bff2-91ad-4e11-923e-2a9acefa3215
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgServiceAdmin::GetProviderTable

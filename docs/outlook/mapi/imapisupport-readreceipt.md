@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef31b61a-93b6-4ae8-bc71-f5ef5caf43f4
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::ReadReceipt

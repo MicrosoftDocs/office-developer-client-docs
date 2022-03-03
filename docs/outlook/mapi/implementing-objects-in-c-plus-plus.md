@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
-description: "Last modified: July 23, 2011"
 ---
 
 # Implementing objects in C++

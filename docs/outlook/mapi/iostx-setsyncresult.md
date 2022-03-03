@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f083ee0-bf36-0059-1589-66e454fe0098
-description: "Last modified: July 23, 2011"
 ---
 
 # IOSTX::SetSyncResult
@@ -34,7 +33,7 @@ HRESULT SetSyncResult(
 
  _hrSync_
   
->  [in] The result of the synchronization. 
+> [in] The result of the synchronization. 
     
 ## Remarks
 

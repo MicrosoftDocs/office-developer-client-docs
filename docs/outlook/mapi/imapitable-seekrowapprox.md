@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce5e8c43-06af-4afc-9138-5cc51d8fc401
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::SeekRowApprox

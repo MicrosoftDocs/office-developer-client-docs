@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 14a4c123-776d-4a32-9688-8a4402dd1f53
-description: "Last modified: July 23, 2011"
 ---
 
 # Displaying a folder contents table

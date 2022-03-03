@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3dc0b79f-e346-416d-ac81-42eba6b6d3b2
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPI object inheritance hierarchy

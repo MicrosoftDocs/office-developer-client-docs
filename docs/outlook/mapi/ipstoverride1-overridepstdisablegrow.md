@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea8c003f-91d6-4641-aff9-fcf807150c6f
-description: "Last modified: July 23, 2011"
 ---
 
 # IPSTOVERRIDE1::OverridePSTDisableGrow

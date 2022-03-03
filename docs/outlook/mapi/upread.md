@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 568f2336-cb4d-3f2c-a304-d29cdb0bcbcc
-description: "Last modified: July 23, 2011"
 ---
 
 # UPREAD
@@ -34,11 +33,11 @@ struct UPREAD
 
  _pupre_
   
->  [out] Vector of **[UPREADE](upreade.md)** entries. 
+> [out] Vector of **[UPREADE](upreade.md)** entries. 
     
  _cEnt_
   
->  [out] Number of **UPREADE** entries. 
+> [out] Number of **UPREADE** entries. 
     
 ## See also
 

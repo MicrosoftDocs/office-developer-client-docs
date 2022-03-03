@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 864dbc3e-2039-435a-a279-385d79d1d13f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIProp::SaveChanges

@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 810f54bf-5b78-46b8-a617-4f61ff816400
-description: "Last modified: July 23, 2011"
 ---
 
 # Install the samples used in this section

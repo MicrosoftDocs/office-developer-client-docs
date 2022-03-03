@@ -7,7 +7,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 6da9d6b6-a016-ccef-77da-3e037c30450d
-description: "Last modified: July 23, 2011"
 ---
 
 # UPFLD
@@ -32,7 +31,7 @@ struct UPFLD
 
 _ulFlags_
   
->  [out]/[in] Flags to determine appropriate actions for the uplaod. 
+> [out]/[in] Flags to determine appropriate actions for the uplaod. 
     
   - UPF_NEW
     

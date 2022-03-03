@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a3dc2c0f-b1fd-d758-e847-a0f101efe7f1
-description: "Last modified: July 23, 2011"
 ---
 
 # OlFlagIcon

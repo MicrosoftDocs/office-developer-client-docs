@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8316ff89-104d-43fd-902b-476fe567e23b
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgStore::GetOutgoingQueue

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73291a5b-b626-494c-b5d9-f7709e34bac2
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::Abort

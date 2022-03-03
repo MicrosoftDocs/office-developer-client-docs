@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 66f1e246-a67a-4f8a-ae3a-6a8ec8c2b367
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::OpenStatusEntry

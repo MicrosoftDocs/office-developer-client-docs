@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e568917e-6085-4094-8728-89ba90a78c40
-description: "Last modified: July 23, 2011"
 ---
 
 # IMessage::GetAttachmentTable

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: da9e8fdc-dfc5-4ecc-9f9b-b76921b92d7c
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::IStorageFromStream

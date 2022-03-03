@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPI sessions

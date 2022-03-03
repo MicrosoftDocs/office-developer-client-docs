@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e296f6d-4833-4c68-9b84-df0b09878474
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSLogon::GetLastError

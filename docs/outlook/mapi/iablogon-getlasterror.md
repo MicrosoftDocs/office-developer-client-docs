@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d157e29e-7731-4e47-b4a7-e8622b223001
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::GetLastError

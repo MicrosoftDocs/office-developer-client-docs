@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 1bafd92e-e044-c902-4fd0-df432bae777d
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPIOFFLINE_CALLBACK_TYPE

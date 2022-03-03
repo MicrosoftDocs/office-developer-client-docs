@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 87a452e6-dedf-414d-b7cf-07c8b02dd94a
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPI message store provider objects

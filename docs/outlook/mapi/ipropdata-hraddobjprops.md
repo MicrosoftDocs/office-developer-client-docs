@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
-description: "Last modified: July 23, 2011"
 ---
 
 # IPropData::HrAddObjProps

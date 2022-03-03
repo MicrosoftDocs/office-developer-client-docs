@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 309d2b3d-dc71-4222-b293-4bfc467b5429
-description: "Last modified: July 23, 2011"
 ---
 
 # Getting and setting properties with GetProps and SetProps

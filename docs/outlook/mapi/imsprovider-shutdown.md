@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSProvider::Shutdown

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d8aaeb7-57d7-ba4c-95d1-a5368cfc4afe
-description: "Last modified: July 23, 2011"
 ---
 
 # IFolderSupport::GetSupportMask

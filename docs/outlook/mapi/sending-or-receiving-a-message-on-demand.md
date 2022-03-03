@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 479404c5-4926-402a-aa12-75dd23276d75
-description: "Last modified: July 23, 2011"
 ---
 
 # Sending or receiving a message on demand

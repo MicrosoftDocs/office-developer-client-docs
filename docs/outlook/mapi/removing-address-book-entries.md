@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 107ebcd7-b612-4139-b676-c3851f15bc74
-description: "Last modified: July 23, 2011"
 ---
 
 # Removing address book entries

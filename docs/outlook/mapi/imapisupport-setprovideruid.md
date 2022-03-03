@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58855843-9a2b-4e5d-9332-b1bfad8b45e4
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::SetProviderUID

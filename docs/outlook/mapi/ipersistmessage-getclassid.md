@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77eeb468-3432-4ccd-9c1e-1df9ce605193
-description: "Last modified: July 23, 2011"
 ---
 
 # IPersistMessage::GetClassID

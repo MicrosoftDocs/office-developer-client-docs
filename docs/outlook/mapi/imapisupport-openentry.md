@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84662230-6a25-4403-b87e-871427a40c6e
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::OpenEntry

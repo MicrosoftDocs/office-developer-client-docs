@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
-description: "Last modified: July 23, 2011"
 ---
 
 # IID

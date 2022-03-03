@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c9386b98-615f-488c-8212-11d9abebbdcf
-description: "Last modified: July 23, 2011"
 ---
 
 # Displaying configuration property sheets

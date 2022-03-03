@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fb321b48-3e5f-4b99-9af0-a57b66f26a2e
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIControl::GetState

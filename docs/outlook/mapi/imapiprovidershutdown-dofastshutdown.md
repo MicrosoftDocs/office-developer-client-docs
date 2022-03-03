@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d2b66a8e-2e28-4c32-af95-38d345c7bbd7
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIProviderShutdown::DoFastShutdown

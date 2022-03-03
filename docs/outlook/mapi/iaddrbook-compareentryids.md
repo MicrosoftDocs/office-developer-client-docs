@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7dabc1d3-5ea4-482f-91a9-9ef3009eddd2
-description: "Last modified: July 23, 2011"
 ---
 
 # IAddrBook::CompareEntryIDs

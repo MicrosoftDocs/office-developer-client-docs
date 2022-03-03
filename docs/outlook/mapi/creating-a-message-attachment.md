@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 711b6765-7763-41ae-9ff8-61ca6ddd459d
-description: "Last modified: July 23, 2011"
 ---
 
 # Creating a message attachment

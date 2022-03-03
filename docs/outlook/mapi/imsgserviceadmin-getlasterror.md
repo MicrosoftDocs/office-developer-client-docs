@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e3c8d6e-74be-46a7-94ed-74a969caf165
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgServiceAdmin::GetLastError

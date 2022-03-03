@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ead51434-ae19-4c34-aa7a-bdeeccca5bd9
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPI address book provider overview

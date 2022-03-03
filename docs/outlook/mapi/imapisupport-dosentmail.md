@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bb65c2a-9926-42da-9161-47836e8de40a
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::DoSentMail

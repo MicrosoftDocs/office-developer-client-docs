@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b1d85f6-7996-4839-b985-abf83e305651
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormFactory::GetLastError

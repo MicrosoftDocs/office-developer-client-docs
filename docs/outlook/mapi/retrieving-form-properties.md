@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9dec5ad6-af34-4c5e-848b-5c3909d0c0a1
-description: "Last modified: July 23, 2011"
  
  
 ---

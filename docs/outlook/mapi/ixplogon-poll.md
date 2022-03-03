@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPLogon::Poll

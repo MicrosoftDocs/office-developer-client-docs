@@ -7,7 +7,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: e03c5a87-4513-2133-ae0a-11d242f80e4b
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPIOFFLINE_NOTIFY

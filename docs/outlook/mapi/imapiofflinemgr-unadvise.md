@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIOfflineMgr::Unadvise

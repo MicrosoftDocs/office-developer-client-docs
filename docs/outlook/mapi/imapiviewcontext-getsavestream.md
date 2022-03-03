@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8316bfa1-3077-401f-aa1e-e9492aca12a8
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIViewContext::GetSaveStream

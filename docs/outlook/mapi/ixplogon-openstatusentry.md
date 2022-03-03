@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 261d5f7c-bb61-4e1d-aa41-cca224c63f8e
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPLogon::OpenStatusEntry

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIContainer::OpenEntry

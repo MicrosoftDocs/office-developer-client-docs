@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ea282d7-388a-4f05-9780-f8dbc5c5d395
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIMessageSite::GetLastError

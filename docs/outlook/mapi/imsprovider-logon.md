@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 890d9cbe-3570-4cf0-aeae-667c0e5ba181
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSProvider::Logon

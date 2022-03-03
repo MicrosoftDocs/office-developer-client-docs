@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e2a47be-497b-4031-87ce-60b2635e25f7
-description: "Last modified: July 23, 2011"
 ---
 
 # ITableData::HrGetView

@@ -27,7 +27,7 @@ HRESULT Skip(
 
 _celt_
   
->  [in] The number of free/busy blocks to skip. 
+> [in] The number of free/busy blocks to skip. 
     
 ## Return values
 

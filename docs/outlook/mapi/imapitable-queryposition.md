@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::QueryPosition

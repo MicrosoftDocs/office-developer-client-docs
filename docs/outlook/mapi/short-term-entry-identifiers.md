@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 948e007a-ad68-4abd-9720-204c6584beb5
-description: "Last modified: July 23, 2011"
 ---
 
 # Short-term entry identifiers

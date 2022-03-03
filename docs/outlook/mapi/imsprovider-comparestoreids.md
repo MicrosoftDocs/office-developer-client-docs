@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSProvider::CompareStoreIDs

@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3d3c309f-fe60-43a9-beda-16b09ec769db
-description: "Last modified: July 23, 2011"
 ---
 
 # Implementing Service Provider Logon

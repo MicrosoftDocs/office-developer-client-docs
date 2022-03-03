@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
-description: "Last modified: July 23, 2011"
 ---
 
 # IAddrBook::NewEntry

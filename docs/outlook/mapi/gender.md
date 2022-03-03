@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f60c65e3-b55f-cb68-746e-d0a8cd862d4d
-description: "Last modified: July 23, 2011"
 ---
 
 # Gender

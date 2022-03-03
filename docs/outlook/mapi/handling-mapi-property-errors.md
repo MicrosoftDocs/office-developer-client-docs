@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 23d68d8b-b0b6-4c32-8404-6acd23802db0
-description: "Last modified: July 23, 2011"
 ---
 
 # Handling MAPI property errors

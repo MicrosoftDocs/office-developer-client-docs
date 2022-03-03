@@ -5,7 +5,6 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: c482ddce-f2b6-222b-aa30-824b1c6f3b14
-description: "Last modified: July 23, 2011"
 ---
 
 # Monitoring connection state changes using an offline state add-in

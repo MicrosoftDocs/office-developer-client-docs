@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPProvider::Shutdown

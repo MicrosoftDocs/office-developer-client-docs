@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3306e37a-2500-4281-96c3-ca0d5c81909d
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIViewContext::GetLastError

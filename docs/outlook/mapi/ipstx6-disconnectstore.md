@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d840aac9-f572-958b-2e1c-aea5c01c42b2
-description: "Last modified: July 23, 2011"
 ---
 
 # IPSTX6::DisconnectStore
@@ -34,7 +33,7 @@ HRESULT DisconnectStore(
 
  _ulFlags_
   
->  [in] Flags to modify behavior. This parameter must always be set to 0. 
+> [in] Flags to modify behavior. This parameter must always be set to 0. 
     
 ## See also
 

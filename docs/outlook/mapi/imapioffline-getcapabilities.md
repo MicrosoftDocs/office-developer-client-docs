@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIOffline::GetCapabilities

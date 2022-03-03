@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: faafde3d-3989-4182-91f1-a0cf0f1b5388
-description: "Last modified: July 23, 2011"
 ---
 
 # Updating MAPI properties

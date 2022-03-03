@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 23b6ad1a-0b50-429f-8819-ab72c56581c2
-description: "Last modified: July 23, 2011"
 ---
 
 # Implementing a sample object

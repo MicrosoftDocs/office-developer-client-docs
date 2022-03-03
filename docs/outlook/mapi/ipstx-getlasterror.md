@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 68dc0ecc-881e-de69-faaa-90acb9857031
-description: "Last modified: July 23, 2011"
 ---
 
 # IPSTX::GetLastError
@@ -36,15 +35,15 @@ HRESULT GetLastError(
 
  _hResult_
   
->  [in] Error code. 
+> [in] Error code. 
     
  _ulFlags_
   
->  [in] Flags to modify behavior. This must be 0. 
+> [in] Flags to modify behavior. This must be 0. 
     
  _lppMAPIError_
   
->  [out] Pointer to the **MAPIERROR** structure that contains the extended information for the error. See mapidefs.h for the type definition of **LPMAPIERROR**. 
+> [out] Pointer to the **MAPIERROR** structure that contains the extended information for the error. See mapidefs.h for the type definition of **LPMAPIERROR**. 
     
 ## See also
 

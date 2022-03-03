@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIOfflineMgr::Advise
@@ -36,7 +35,7 @@ HRESULT COfflineObj::Advise(
 
  _ulFlags_
   
->  [in] Flags that modify behavior. Only the value MAPIOFFLINE_ADVISE_DEFAULT is supported. 
+> [in] Flags that modify behavior. Only the value MAPIOFFLINE_ADVISE_DEFAULT is supported. 
     
  _pAdviseInfo_
   

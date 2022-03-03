@@ -7,7 +7,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d146ee74-0c3a-5fdd-b1aa-af6498550801
-description: "Last modified: July 23, 2011"
 ---
 
 # UPREADE
@@ -30,7 +29,7 @@ struct UPREADE
 
 _ulFlags_
   
->  [out]/[in] Flags to determine the appropriate behavior during the upload. 
+> [out]/[in] Flags to determine the appropriate behavior during the upload. 
     
   - UPR_ASSOC
     

@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3b23291d-3355-d772-4647-d4bbd64b0b53
-description: "Last modified: July 23, 2011"
 ---
 
 # UPDEL
