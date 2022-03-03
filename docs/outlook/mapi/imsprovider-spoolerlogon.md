@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSProvider::SpoolerLogon

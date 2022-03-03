@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 10cda14a-8f93-41e0-b1fb-500098bdc392
-description: "Last modified: July 23, 2011"
 ---
 
 # IProfAdmin::CreateProfile

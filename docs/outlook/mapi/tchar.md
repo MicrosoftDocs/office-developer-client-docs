@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a92060b-4c30-4eba-993f-36f5f9231a4b
-description: "Last modified: July 23, 2011"
 ms.localizationpriority: high
 ---
 

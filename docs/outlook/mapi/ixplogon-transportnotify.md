@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c712fc17-f436-41cf-9aa3-186c9a86d56e
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPLogon::TransportNotify

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2af7516-3a97-4422-874d-b1e3a0d4f316
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormMgr::ResolveMessageClass

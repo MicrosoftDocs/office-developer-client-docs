@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83c349f7-dcac-4268-befe-fb2bc0cd9c50
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPLogon::StartMessage

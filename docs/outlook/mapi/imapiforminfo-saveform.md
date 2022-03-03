@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormInfo::SaveForm

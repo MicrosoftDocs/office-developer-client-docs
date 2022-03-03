@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1fbe6dc1-254b-4557-92c8-9fa42a8efd64
-description: "Last modified: July 23, 2011"
 ---
 
 # IABProvider::Shutdown

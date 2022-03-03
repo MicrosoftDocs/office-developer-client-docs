@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98548b50-342e-434a-9ad3-c37ba418c5ce
-description: "Last modified: July 23, 2011"
 ---
 
 # ITableData::HrNotify

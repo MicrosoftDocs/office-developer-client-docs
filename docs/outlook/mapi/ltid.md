@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 17a412ba-3f74-ba94-0ffa-01dae63fc157
-description: "Last modified: July 23, 2011"
 ---
 
 # LTID

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d8da8be1-3efe-410a-bcce-49e522602d80
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::OpenAddressBook

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 396db029-1d4a-203d-2256-3353d03c6767
-description: "Last modified: July 23, 2011"
 ---
 
 # IPSTX2::SetSpoolSuspendState

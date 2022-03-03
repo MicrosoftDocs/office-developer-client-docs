@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 534929f2-36a2-463d-8c4c-d86060cde127
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPProvider::TransportLogon

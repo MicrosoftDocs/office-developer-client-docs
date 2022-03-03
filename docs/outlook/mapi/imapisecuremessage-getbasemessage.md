@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 573f40c5-e0d2-4281-8c22-10a1ae1f0dee
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISecureMessage::GetBaseMessage

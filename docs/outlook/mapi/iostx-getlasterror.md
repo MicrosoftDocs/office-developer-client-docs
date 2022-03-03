@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25c9288-b391-6303-3643-5a5b66b75c48
-description: "Last modified: July 23, 2011"
 ---
 
 # IOSTX::GetLastError

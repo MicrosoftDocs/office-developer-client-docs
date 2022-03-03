@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c3bcbda5-820d-4ef5-bffd-c254eea9dff6
-description: "Last modified: July 23, 2011"
 ---
 
 # Objects and the MAPI architecture

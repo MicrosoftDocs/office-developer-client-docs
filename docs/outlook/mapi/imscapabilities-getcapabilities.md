@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c77a8ef1-0730-d458-b35f-451d3f450fac
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSCapabilities::GetCapabilities

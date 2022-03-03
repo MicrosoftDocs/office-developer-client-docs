@@ -7,7 +7,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a75ca0dd-9c50-2a9f-6c59-1f8020833a01
-description: "Last modified: July 23, 2011"
 ---
 
 # UPHIER

@@ -6,8 +6,7 @@ ms.audience: Developer
 ms.localizationpriority: medium
 api_type:
 - COM
-ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
-description: "Last modified: July 23, 2011" 
+ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8 
 ---
 
 # Control Object Implementation

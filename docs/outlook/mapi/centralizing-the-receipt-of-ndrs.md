@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fbe1f4f6-28f8-40b8-b551-192c0ba48c18
-description: "Last modified: July 23, 2011"
 ---
 
 # Centralizing the receipt of NDRs

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
-description: "Last modified: July 23, 2011"
 ---
 
 # IABContainer::ResolveNames

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
-description: "Last modified: July 23, 2011"
 ---
 
 # IPersistMessage::IsDirty

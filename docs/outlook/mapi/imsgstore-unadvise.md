@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1394039b-d509-49a5-8421-b7362d906879
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgStore::Unadvise

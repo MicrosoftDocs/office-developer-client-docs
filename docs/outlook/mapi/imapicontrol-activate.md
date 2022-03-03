@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIControl::Activate

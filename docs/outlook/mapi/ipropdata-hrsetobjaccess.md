@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01bd3235-22cc-4ff3-b2b6-341ce622128b
-description: "Last modified: July 23, 2011"
 ---
 
 # IPropData::HrSetObjAccess

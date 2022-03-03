@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a13c6757-358f-421a-9a76-de7483501613
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgServiceAdmin::CopyMsgService

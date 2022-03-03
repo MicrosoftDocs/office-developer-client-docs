@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1940feb0-9e0f-4d96-9fb9-b9a35a0aa661
-description: "Last modified: July 23, 2011"
 ---
 
 # Opening a view descriptor

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a304ca8f-e404-4535-be76-0b673f2061a0
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::ModifyStatusRow

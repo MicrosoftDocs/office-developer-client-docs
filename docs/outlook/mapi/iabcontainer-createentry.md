@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
-description: "Last modified: July 23, 2011"
 ---
 
 # IABContainer::CreateEntry

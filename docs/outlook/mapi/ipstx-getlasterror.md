@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 68dc0ecc-881e-de69-faaa-90acb9857031
-description: "Last modified: July 23, 2011"
 ---
 
 # IPSTX::GetLastError

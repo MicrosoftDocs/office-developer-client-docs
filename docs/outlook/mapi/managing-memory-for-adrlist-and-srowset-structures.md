@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d009f6b6-d151-4d52-b7cc-a15127142354
-description: "Last modified: July 23, 2011"
 ---
 
 # Managing memory for ADRLIST and SRowSet structures"

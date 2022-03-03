@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a111d7b7-6e87-4958-8f9b-0f2adbeb8b63
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPIOFFLINE_NOTIFY_TYPE

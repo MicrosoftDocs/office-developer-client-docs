@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIStatus::FlushQueues

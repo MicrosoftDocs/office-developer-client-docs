@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a575cac-dbfd-4f42-9c10-4b7e355a065e
-description: "Last modified: July 23, 2011"
 ---
 
 # IProfAdmin::RenameProfile

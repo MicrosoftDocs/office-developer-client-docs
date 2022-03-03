@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0aa0df2-79f9-2558-7eb6-accae9bef4b2
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIOffline::SetCurrentState

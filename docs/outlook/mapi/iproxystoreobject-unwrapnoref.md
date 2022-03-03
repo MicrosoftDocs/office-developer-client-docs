@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1122b6e0-e7e1-e68a-e090-435777343d04
-description: "Last modified: July 23, 2011"
 ---
 
 # IProxyStoreObject::UnwrapNoRef

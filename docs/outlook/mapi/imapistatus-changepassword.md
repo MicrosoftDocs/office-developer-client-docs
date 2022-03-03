@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0cd1026a-342d-4d05-91ed-d3decced5bf3
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIStatus::ChangePassword

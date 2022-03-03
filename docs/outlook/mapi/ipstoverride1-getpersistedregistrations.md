@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 027092f0-f2d6-49e8-a8d0-8926824953a2
-description: "Last modified: July 23, 2011"
 ---
 
 # IPSTOVERRIDE1::GetPersistedRegistrations

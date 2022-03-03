@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ca86ee8-1bf6-4ec8-95b3-575c22fbb170
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormMgr::IsInConflict

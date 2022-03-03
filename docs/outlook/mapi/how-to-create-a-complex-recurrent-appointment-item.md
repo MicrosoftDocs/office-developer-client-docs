@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: da9626da-5ba5-4f18-954c-4e23971d23e8
-description: "Last modified: July 23, 2011"
 ---
 
 # Create a complex recurrent appointment item

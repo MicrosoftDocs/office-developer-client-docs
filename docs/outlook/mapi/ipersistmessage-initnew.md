@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4bf37c35-4f72-438a-912c-402f3711a5ea
-description: "Last modified: July 23, 2011"
 ---
 
 # IPersistMessage::InitNew

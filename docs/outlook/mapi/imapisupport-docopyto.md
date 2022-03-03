@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84019475-5176-4fc5-a3ee-871095077498
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::DoCopyTo

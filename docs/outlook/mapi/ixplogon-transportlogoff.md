@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b2b368ce-4486-4f90-985f-59e50ca95229
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPLogon::TransportLogoff

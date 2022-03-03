@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f1e2a526-40ad-4a93-908f-8ab9a65928a8
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIForm::ShutdownForm

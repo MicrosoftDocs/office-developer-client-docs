@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f9468715-1674-4d14-81c8-2f24dbaa0453
-description: "Last modified: July 23, 2011"
 ---
 
 # IABProvider::Logon

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
-description: "Last modified: July 23, 2011"
 ---
 
 # IAddrBook::PrepareRecips

@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80c1449a-6cd9-4b93-a300-395979894b71
-description: "Last modified: July 23, 2011"
 ---
 
 # IProviderAdmin::CreateProvider

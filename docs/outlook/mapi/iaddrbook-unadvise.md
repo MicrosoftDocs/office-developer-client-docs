@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e0db9e86-9528-43de-b8ba-a5af8b7bda4b
-description: "Last modified: July 23, 2011"
 ---
 
 # IAddrBook::Unadvise

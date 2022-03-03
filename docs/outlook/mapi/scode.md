@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2348cce1-07c3-49ed-ae03-79e477d3c6c2
-description: "Last modified: July 23, 2011"
 ---
 
 # SCODE

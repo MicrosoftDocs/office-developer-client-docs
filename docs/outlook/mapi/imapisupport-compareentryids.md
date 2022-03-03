@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: be6991d9-6353-4838-bc6b-39de51a94d8d
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::CompareEntryIDs

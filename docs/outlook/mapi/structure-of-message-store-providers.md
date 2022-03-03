@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
-description: "Last modified: July 23, 2011"
 ---
 
 # Structure of message store providers

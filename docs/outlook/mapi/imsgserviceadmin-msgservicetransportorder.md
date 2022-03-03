@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgServiceAdmin::MsgServiceTransportOrder

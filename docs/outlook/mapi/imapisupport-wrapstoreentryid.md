@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::WrapStoreEntryID

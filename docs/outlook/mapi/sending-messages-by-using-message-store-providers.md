@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7632d784-00d8-48fd-a73b-73778efbef7f
-description: "Last modified: July 23, 2011"
 ---
 
 # Sending messages by using message store providers

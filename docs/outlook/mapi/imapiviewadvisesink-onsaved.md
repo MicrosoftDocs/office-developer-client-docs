@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c327e31a-7b62-4e21-9b69-b27442f1eaca
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIViewAdviseSink::OnSaved

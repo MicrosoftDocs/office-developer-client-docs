@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a3702a4-8a6b-4c0c-a90f-02be3a2bfa05
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISession::EnumAdrTypes

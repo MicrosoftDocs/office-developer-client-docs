@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
-description: "Last modified: July 23, 2011"
 ---
 
 # IProviderAdmin::DeleteProvider

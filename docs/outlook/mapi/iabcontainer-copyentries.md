@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e775228-5ceb-4002-9b68-999fb5889b86
-description: "Last modified: July 23, 2011"
 ---
 
 # IABContainer::CopyEntries

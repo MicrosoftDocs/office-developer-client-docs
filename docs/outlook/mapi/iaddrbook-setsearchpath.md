@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
-description: "Last modified: July 23, 2011"
 ---
 
 # IAddrBook::SetSearchPath

@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bb6ab537-2876-474b-be7a-84734ace2bae
-description: "Last modified: July 23, 2011"
 ---
 
 # Supporting message service configuration

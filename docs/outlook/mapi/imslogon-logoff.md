@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b0d1b52-6651-4de3-9381-86772d9d52a1
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSLogon::Logoff

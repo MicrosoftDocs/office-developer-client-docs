@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e56b21d-0a2e-4fe6-83f4-c9daab2f3055
-description: "Last modified: July 23, 2011"
 ---
 
 # IPersistMessage::HandsOffMessage

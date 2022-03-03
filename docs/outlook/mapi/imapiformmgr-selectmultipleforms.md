@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 172f8f53-b837-4286-9236-3f72806d7f1f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormMgr::SelectMultipleForms

@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 35d68d27-7e58-4484-be55-a64f467c75cd
-description: "Last modified: July 23, 2011"
 ---
 
 # Improving client performance

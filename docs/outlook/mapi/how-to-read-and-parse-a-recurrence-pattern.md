@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
-description: "Last modified: July 23, 2011"
 ---
 
 # Read and parse a recurrence pattern

@@ -5,7 +5,6 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 24e3cf95-88f1-444a-b9b9-738077db714a
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPI concepts

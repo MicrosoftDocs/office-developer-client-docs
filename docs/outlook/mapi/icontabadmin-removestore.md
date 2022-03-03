@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a5fcf5c-8a5a-4774-b8c9-1ac1ff27947d
-description: "Last modified: July 23, 2011"
 ---
 
 # IContabAdmin::RemoveStore

@@ -7,7 +7,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f7fcb385-186d-d5fe-7104-fe0af09d5768
-description: "Last modified: July 23, 2011"
 ---
 
 # UPTBLE

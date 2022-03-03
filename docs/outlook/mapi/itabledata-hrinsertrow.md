@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
-description: "Last modified: July 23, 2011"
 ---
 
 # ITableData::HrInsertRow

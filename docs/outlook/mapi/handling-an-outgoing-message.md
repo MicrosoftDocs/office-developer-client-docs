@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f40c2e0b-1a35-4901-868f-af6c191c921e
-description: "Last modified: July 23, 2011"
 ---
 
 # Handling an outgoing message

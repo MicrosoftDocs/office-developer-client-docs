@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: dceb21b1-be5e-418d-b0c9-db39195fc82e
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormFactory::CreateClassFactory

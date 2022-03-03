@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: bf6892d0-a923-e926-5361-59efa49ebdc0
-description: "Last modified: July 23, 2011"
 ---
 
 # HDRSYNC

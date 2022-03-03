@@ -7,7 +7,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 44bfaadf-36f9-bd8e-6158-646533f6849e
-description: "Last modified: July 23, 2011"
 ---
 
 # OLFI

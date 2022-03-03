@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 31325e8f-1cf9-49b2-8118-953996b0037f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::SetCollapseState

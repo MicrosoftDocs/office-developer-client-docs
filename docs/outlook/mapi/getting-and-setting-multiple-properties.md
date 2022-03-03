@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 29b7f5f1-afc1-45d9-8867-9312c072e74b
-description: "Last modified: July 23, 2011"
 ---
 
 # Getting and setting multiple properties

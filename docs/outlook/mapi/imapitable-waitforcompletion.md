@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7663c640-396e-4720-9345-370d0856bd49
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::WaitForCompletion

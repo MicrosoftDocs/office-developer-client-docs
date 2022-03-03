@@ -6,7 +6,6 @@ ms.audience: Developer
 api_type:
 - COM
 ms.assetid: 0500dee8-a39d-45ce-87b1-c515e92e083d
-description: "Last modified: July 23, 2011"
  
  
 ms.localizationpriority: high
