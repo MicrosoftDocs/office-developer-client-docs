@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::QuerySortOrder

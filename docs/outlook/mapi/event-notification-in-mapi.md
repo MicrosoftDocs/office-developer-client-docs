@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7b3b625b-6dea-4b12-99a9-152935bdfe39
-description: "Last modified: July 23, 2011"
 ---
 
 # Event notification in MAPI

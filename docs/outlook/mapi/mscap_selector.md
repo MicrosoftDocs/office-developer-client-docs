@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
-description: "Last modified: July 23, 2011"
 ---
 
 # MSCAP_SELECTOR

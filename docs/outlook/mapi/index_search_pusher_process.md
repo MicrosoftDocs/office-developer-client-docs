@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 6b39504f-6eed-2605-048d-2707f38a7d9a
-description: "Last modified: July 23, 2011"
 ---
 
 # INDEX_SEARCH_PUSHER_PROCESS

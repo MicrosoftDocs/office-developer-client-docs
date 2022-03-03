@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 581db5d9-35f7-43ad-aef3-a5d5da310150
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIGetSession::GetMAPISession

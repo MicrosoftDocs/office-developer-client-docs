@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2446ef52-578a-4004-9719-de9b0207ccad
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::DoCopyProps

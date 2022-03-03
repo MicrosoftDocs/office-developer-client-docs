@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::CreateBookmark

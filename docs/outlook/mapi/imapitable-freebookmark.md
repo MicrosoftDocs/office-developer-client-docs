@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPITable::FreeBookmark

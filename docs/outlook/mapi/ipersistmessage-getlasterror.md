@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 32cc3a1f-1310-4788-b0f4-93c1e4940f37
-description: "Last modified: July 23, 2011"
 ---
 
 # IPersistMessage::GetLastError

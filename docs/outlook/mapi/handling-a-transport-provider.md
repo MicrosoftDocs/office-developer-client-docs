@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
-description: "Last modified: July 23, 2011"
 ---
 
 # Handling a transport provider

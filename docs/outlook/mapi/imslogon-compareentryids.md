@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 481812d6-8e94-4510-b288-55501dd5757c
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSLogon::CompareEntryIDs

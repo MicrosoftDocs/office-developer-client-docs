@@ -6,8 +6,7 @@ ms.audience: Developer
 ms.localizationpriority: medium
 api_type:
 - COM
-ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055
-description: "Last modified: July 23, 2011" 
+ms.assetid: 8b0dcbfe-6bed-4fb8-a906-009f1d009055 
 ---
 
 # Implementing a Provider One-Off Table

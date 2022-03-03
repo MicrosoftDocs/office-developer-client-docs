@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4846dc3-0236-44ed-a1b1-8c13d48fb58a
-description: "Last modified: July 23, 2011"
 ---
 
 # IProfAdmin::CopyProfile

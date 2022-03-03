@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09e4b427-316b-4630-9f3d-81e74f040d7b
-description: "Last modified: July 23, 2011"
 ---
 
 # ITnef::SetProps

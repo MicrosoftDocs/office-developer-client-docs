@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0c43546a-4788-4852-bc89-d6baa4f33c94
-description: "Last modified: July 23, 2011"
 ---
 
 # Generating and using entry identifiers in message store providers

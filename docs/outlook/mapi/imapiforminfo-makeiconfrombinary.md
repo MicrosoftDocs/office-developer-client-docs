@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4daeddd7-3f0c-4178-ae8d-f74814090d40
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormInfo::MakeIconFromBinary

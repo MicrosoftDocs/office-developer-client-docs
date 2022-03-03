@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::Logoff

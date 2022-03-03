@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3649daa-cba1-48e3-9ffb-069c1bcf8228
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPLogon::ValidateState

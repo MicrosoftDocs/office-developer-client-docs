@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 20ff2b63-e4a3-4ba9-bad0-2c1873fb69b5
-description: "Last modified: July 23, 2011"
 ---
 
 # Searching the address book

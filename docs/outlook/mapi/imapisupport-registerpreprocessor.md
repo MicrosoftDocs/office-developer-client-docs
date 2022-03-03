@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b5659ab-2b49-41ab-92ce-ca343e35d670
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::RegisterPreprocessor

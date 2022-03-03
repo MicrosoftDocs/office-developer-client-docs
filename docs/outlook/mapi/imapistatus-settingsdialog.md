@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e931246e-7fff-4116-a9fc-f685988e21e8
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIStatus::SettingsDialog

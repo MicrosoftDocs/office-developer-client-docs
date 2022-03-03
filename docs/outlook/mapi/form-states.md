@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
-description: "Last modified: July 23, 2011"
 ---
 
 # Form states

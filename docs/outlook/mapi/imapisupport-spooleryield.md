@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5c6ba8f-4ef5-4d60-b4e6-5b9160ec4e99
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::SpoolerYield

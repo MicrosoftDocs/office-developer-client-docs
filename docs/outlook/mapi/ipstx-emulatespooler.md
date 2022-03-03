@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
-description: "Last modified: July 23, 2011"
 ---
 
 # IPSTX::EmulateSpooler

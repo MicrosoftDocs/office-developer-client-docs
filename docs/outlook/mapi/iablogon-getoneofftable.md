@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ac2a8d4-6890-4346-a6b6-34deca9dab50
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::GetOneOffTable

@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
-description: "Last modified: July 23, 2011"
 ---
 
 # Forms and MAPI client applications

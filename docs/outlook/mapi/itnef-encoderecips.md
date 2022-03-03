@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3ce4b0e-4f48-4a7e-a30c-c4754bccb12c
-description: "Last modified: July 23, 2011"
 ---
 
 # ITnef::EncodeRecips

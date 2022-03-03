@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f8ca7cf-ac0b-9b77-c1dd-9f1d0871d603
-description: "Last modified: July 23, 2011"
 ---
 
 # IOSTX::SyncHdrBeg

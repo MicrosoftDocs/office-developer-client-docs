@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::DoConfigPropsheet

@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1087b8d6-0ac4-4290-86d2-b70d2619fd75
-description: "Last modified: July 23, 2011"
 ---
 
 # Form server interactions

@@ -5,7 +5,6 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 2a93ab3e-798f-5741-d5e0-bba8c6b437c7
-description: "Last modified: July 23, 2011"
 ---
 
 # Access a message on an IMAP store without downloading the entire message

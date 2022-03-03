@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a335dfca-44da-452e-b16f-25d314b1758f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMessage::GetRecipientTable

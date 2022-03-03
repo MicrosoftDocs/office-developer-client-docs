@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a41f707a-5c84-49aa-aeb6-469b2600e181
-description: "Last modified: July 23, 2011"
 ---
 
 # IProfAdmin::ChangeProfilePassword

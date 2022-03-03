@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7ffec274-ee90-44c7-ab2e-7dfb502517a6
-description: "Last modified: July 23, 2011"
 ---
 
 # Displaying recipient information

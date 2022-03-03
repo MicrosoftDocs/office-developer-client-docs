@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6800fd3a-aa43-45fe-9cc2-102d0ef43edf
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::GetOneOffTable

@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d556ff4d-e2f3-4c83-a93f-b1bfda5abc8c
-description: "Last modified: July 23, 2011"
 ---
 
 # Disk Instances and Cache Tables

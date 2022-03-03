@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 57933d44-d47a-4e7f-ba95-b49b4934d0a5
-description: "Last modified: July 23, 2011"
 ---
 
 # Implementing One-Off Tables

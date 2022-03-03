@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b0465a67-3c4c-422b-9aa0-7c4c556cbd50
-description: "Last modified: July 23, 2011"
 ---
 
 # attRecipTable

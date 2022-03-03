@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 86e4ebd9-6df2-4346-9ce9-580f80a83884
-description: "Last modified: July 23, 2011"
 ---
 
 # File format of form configuration files

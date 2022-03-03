@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ac67bb83-e4f3-4c82-995b-c11a2a195e90
-description: "Last modified: July 23, 2011"
 ---
 
 # Gateway mapping responsibilities

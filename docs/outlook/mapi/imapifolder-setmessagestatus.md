@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFolder::SetMessageStatus

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 532f7af0-b2cc-49dd-b1de-e3ec1dc9a3e7
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::OpenTemplateID

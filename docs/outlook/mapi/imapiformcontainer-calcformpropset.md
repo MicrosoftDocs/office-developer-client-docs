@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 594e3aac-a00f-422e-8e7a-949e4c9a3f8d
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormContainer::CalcFormPropSet

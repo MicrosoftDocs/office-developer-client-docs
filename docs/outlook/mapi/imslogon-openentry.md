@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
-description: "Last modified: July 23, 2011"
 ---
 
 # IMSLogon::OpenEntry

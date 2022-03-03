@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b4290d9-230f-416a-9644-188578565c7b
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::GetLastError

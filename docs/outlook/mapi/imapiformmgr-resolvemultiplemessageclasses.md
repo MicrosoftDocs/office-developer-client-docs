@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d3cc6658-e46d-42dd-b1ac-65c88cfef8ca
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormMgr::ResolveMultipleMessageClasses

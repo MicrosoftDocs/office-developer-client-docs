@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
-description: "Last modified: July 23, 2011"
 ---
 
 # Install MAPI header files

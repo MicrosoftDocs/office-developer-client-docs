@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01711aca-c598-438c-88d7-0719b6691e34
-description: "Last modified: July 23, 2011"
 ---
 
 # IMessage::CreateAttach

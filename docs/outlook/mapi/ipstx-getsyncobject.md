@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b93dae79-4305-9a3a-7b93-42319f7e26ba
-description: "Last modified: July 23, 2011"
 ---
 
 # IPSTX::GetSyncObject

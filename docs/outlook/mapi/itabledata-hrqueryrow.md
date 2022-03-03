@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 66ce8f36-2b2b-4a8e-b9b2-43782d8357a1
-description: "Last modified: July 23, 2011"
 ---
 
 # ITableData::HrQueryRow

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb4a38ff-2fdd-40ac-a613-12c3f11a1df9
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::CompareEntryIDs

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIViewContext::GetPrintSetup

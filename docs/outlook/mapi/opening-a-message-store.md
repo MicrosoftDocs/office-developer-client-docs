@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
-description: "Last modified: July 23, 2011"
 ---
 
 # Opening a message store

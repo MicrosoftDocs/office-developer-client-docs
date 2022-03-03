@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: aaa8eb56-f22f-4c5a-a224-807ff001e0ca
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISyncProgressCallback::Done

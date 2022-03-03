@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISession::OpenProfileSection

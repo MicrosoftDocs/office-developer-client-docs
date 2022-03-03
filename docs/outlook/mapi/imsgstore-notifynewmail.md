@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d0d003b0-f12f-4422-b71f-26886169461f
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgStore::NotifyNewMail

@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
-description: "Last modified: July 23, 2011"
 ---
 
 # Implementing IUnknown in C++

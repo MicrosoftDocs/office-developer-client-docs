@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70d5b34c-85b3-4d1f-860e-2838947ba428
-description: "Last modified: July 23, 2011"
 ---
 
 # ITnef::OpenTaggedBody

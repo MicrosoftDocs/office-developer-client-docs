@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b63a6024-910d-4569-a3b4-c3ebf0b32c3d
-description: "Last modified: July 23, 2011"
 ---
 
 # Create a distribution list in the PAB

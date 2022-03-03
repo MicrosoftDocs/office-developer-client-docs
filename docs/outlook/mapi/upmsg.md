@@ -7,7 +7,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5fe3956b-819a-3edf-0e49-7a44bcfbabcd
-description: "Last modified: July 23, 2011"
 ---
 
 # UPMSG

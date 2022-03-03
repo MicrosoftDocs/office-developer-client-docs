@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::CopyMessages

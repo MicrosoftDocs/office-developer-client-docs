@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bbf99c4b-3008-4475-a60a-648eaed59d01
-description: "Last modified: July 23, 2011"
 ---
 
 # Create a simple mail item

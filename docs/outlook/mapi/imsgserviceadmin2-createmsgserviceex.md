@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4910dabd-9380-4fde-a440-5c64d74c0bba
-description: "Last modified: July 23, 2011"
 ---
 
 # IMsgServiceAdmin2::CreateMsgServiceEx

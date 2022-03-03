@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 017a62c0-49c6-47fb-acce-db58e6bb9cc5
-description: "Last modified: July 23, 2011"
 ---
 
 # Opening address book entries

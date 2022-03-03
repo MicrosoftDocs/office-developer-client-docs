@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 32627ebb-547f-4fac-a406-e7243ec5521b
-description: "Last modified: July 23, 2011"
 ---
 
 # Designing a message service

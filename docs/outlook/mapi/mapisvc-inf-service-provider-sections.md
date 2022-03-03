@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ab17dcf2-409b-4a57-9cc4-5794f995cd3e
-description: "Last modified: July 23, 2011"
 ---
 
 # MapiSvc.inf Service Provider Sections

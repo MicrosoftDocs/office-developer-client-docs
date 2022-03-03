@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
-description: "Last modified: July 23, 2011"
 ---
 
 # FGetComponentPath

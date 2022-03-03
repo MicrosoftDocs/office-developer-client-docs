@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: c3d0f6c4-4597-784f-8d44-6e5d905895b4
-description: "Last modified: July 23, 2011"
 ---
 
 # FollowUpStatus

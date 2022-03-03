@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee57d6e0-9de0-4427-97ce-371c1c01f3de
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::CreateOneOff

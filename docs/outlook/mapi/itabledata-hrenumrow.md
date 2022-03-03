@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b25d9f2b-9454-4983-98f7-6a051a3b8a04
-description: "Last modified: July 23, 2011"
 ---
 
 # ITableData::HrEnumRow

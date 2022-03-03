@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
-description: "Last modified: July 23, 2011"
 ---
 
 # Display a progress indicator

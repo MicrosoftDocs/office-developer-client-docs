@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
-description: "Last modified: July 23, 2011"
 ---
 
 # ITableData::HrDeleteRows

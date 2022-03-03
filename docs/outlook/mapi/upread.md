@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 568f2336-cb4d-3f2c-a304-d29cdb0bcbcc
-description: "Last modified: July 23, 2011"
 ---
 
 # UPREAD

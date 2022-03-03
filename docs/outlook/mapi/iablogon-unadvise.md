@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
-description: "Last modified: July 23, 2011"
 ---
 
 # IABLogon::Unadvise

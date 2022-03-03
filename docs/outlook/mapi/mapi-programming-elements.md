@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 69b466b6-3f65-479a-8148-644443331927
-description: "Last modified: July 23, 2011"
 ---
 
 # MAPI programming elements

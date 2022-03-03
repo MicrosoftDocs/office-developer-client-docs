@@ -7,7 +7,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a0aac5e9-4d66-41fc-a2da-dec6ab1f1035
-description: "Last modified: July 23, 2011"
 ---
 
 # attOriginalMessageClass

@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPISupport::GetMemAllocRoutines

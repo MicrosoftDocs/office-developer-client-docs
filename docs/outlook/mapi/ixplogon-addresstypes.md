@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
-description: "Last modified: July 23, 2011"
 ---
 
 # IXPLogon::AddressTypes

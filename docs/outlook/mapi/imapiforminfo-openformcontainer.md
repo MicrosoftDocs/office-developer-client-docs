@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
-description: "Last modified: July 23, 2011"
 ---
 
 # IMAPIFormInfo::OpenFormContainer

@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcdd0688-0897-47d7-9601-f592ba453b39
-description: "Last modified: July 23, 2011"
 ---
 
 # ITnef::FinishComponent

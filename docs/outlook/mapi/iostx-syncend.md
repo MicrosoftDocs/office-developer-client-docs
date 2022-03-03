@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
-description: "Last modified: July 23, 2011"
 ---
 
 # IOSTX::SyncEnd
