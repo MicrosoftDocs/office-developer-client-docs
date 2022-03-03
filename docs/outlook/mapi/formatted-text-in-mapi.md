@@ -21,8 +21,6 @@ Formatted text can be implemented in a variety of ways. The most common way is w
   
 MAPI defines these two message text properties and mechanisms for conversion between them so that RTF-aware clients can interoperate with clients and messaging systems that do not support formatted text.
   
-###
-
 [Synchronizing Text and Formatting](synchronizing-text-and-formatting.md)
   
 > Describes how to keep RTF message text synchronized with the formatting.
