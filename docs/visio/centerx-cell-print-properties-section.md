@@ -29,16 +29,16 @@ By default, drawing pages are justified to the top and left of the printer page.
   
 To get a reference to the CenterX cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | CenterX  <br/> |
+| **Cell name:**  <br/> | CenterX  <br/> |
    
 To get a reference to the CenterX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPrintProperties** <br/> |
-| Cell index:  <br/> |**visPrintPropertiesCenterX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPrintProperties** <br/> |
+| **Cell index:**  <br/> |**visPrintPropertiesCenterX** <br/> |
    
 

@@ -30,16 +30,16 @@ You can also set the value of this cell in the **Line** dialog box (on the **Hom
   
 To get a reference to the LineCap cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LineCap  <br/> |
+|**Cell name:**  <br/> |LineCap  <br/> |
    
 To get a reference to the LineCap cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLine** <br/> |
-|Cell index:  <br/> |**visLineEndCap** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLine** <br/> |
+|**Cell index:**  <br/> |**visLineEndCap** <br/> |
    
 

@@ -74,12 +74,21 @@ Returns one of the following integer (**int**) values.
 
 Valid **iFunction** values are any of the **xlf...** or **xlc...** constants defined in the Xlcall.h header file or any of the following special functions.
   
-|||||
-|:-----|:-----|:-----|:-----|
-|**xlAbort** |**xlEnableXLMsgs** |**xlGetInst** |**xlSheetNm** |
-|**xlCoerce** |**xlFree** |**xlGetName** |**xlStack** |
-|**xlDefineBinaryName** |**xlGetBinaryName** |**xlSet** |**xlUDF** |
-|**xlDisableXLMsgs** |**xlGetHwnd** |**xlSheetId** ||
+- **xlAbort**
+- **xlEnableXLMsgs**
+- **xlGetInst**
+- **xlSheetNm**
+- **xlCoerce**
+- **xlFree**
+- **xlGetName**
+- **xlStack**
+- **xlDefineBinaryName**
+- **xlGetBinaryName**
+- **xlSet**
+- **xlUDF**
+- **xlDisableXLMsgs**
+- **xlGetHwnd**
+- **xlSheetId**
 
 ### Different Types of Functions
 

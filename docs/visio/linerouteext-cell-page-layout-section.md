@@ -28,16 +28,16 @@ Determines the default appearance for all connectors on a drawing page.
 
 To get a reference to the LineRouteExt cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LineRouteExt  <br/> |
+| **Cell name:**  <br/> | LineRouteExt  <br/> |
    
 To get a reference to the LineRouteExt cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOLineRouteExt** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOLineRouteExt** <br/> |
    
 
