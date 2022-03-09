@@ -20,22 +20,21 @@ Returns the natural logarithm of a number. The number must be positive, or LN re
   
 ## Syntax
 
-LN(** *number* ** ) 
+LN(***number***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> | The number whose natural logarithm you want to find. |
-   
+| *number* <br/> |Required  <br/> |**Numeric** <br/> | The number whose natural logarithm you want to find. |
+
 ### Return value
 
 Numeric
   
 ## Example
 
-LN(42) 
+LN(42)
   
-Returns 3.7377. 
+Returns 3.7377.
   
-

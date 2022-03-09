@@ -16,11 +16,11 @@ description: "Rounds a number toward 0 (zero), to the next integer, or to the ne
 
 # FLOOR Function
 
-Rounds a number toward 0 (zero), to the next integer, or to the next instance of  _multiple_.
+Rounds a number toward 0 (zero), to the next integer, or to the next instance of _multiple_.
   
 ## Syntax
 
-FLOOR(** *number* **, ** *multiple* ** ) 
+FLOOR(***number***, ***multiple*** )
   
 ### Parameters
 
@@ -28,16 +28,16 @@ FLOOR(** *number* **, ** *multiple* ** )
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round. |
 | _multiple_ <br/> |Required  <br/> |**Number** <br/> |The multiple to which to round. |
-   
+
 ### Return value
 
 Number
   
 ## Remarks
 
-If  _multiple_ is not specified, the number rounds toward 0 to the next integer. 
+If _multiple_ is not specified, the number rounds toward 0 to the next integer.
   
- _Number_ and  _multiple_ must have the same signs, or a #NUM! error is returned. If either  _number_ or  _multiple_ cannot be converted to a value, a #VALUE! error is returned. If either  _number_ or  _multiple_ is 0, the result is 0. 
+ _Number_ and _multiple_ must have the same signs, or a #NUM! error is returned. If either _number_ or _multiple_ cannot be converted to a value, a #VALUE! error is returned. If either _number_ or _multiple_ is 0, the result is 0.
   
 ## Example 1
 
@@ -57,4 +57,3 @@ FLOOR(3.7, 0.5)
   
 Returns 3.5.
   
-

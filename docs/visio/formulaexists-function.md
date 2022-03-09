@@ -16,20 +16,19 @@ description: "Indicates whether the referenced cell contains a formula."
 
 # FORMULAEXISTS Function
 
-Indicates whether the referenced cell contains a formula. 
+Indicates whether the referenced cell contains a formula.
   
 ## Syntax
 
-FORMULAEXISTS (** *cellref* ** ) 
+FORMULAEXISTS (***cellref*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Required  <br/> |**String** <br/> |The cell that you want to check for the presence of a formula. |
-   
+| *cellref* <br/> |Required  <br/> |**String** <br/> |The cell that you want to check for the presence of a formula. |
+
 ## Remarks
 
-The FORMULAEXISTS function returns 1 if the cell contains a formula; if it does not contain a formula, it returns zero (0). 
+The FORMULAEXISTS function returns 1 if the cell contains a formula; if it does not contain a formula, it returns zero (0).
   
-

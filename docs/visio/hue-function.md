@@ -20,21 +20,21 @@ Returns the value of a color's hue component.
   
 ## Syntax
 
-HUE(** *expression* ** ) 
+HUE(***expression*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**String** <br/> |An expression that evaluates to a color. |
-   
+| *expression* <br/> |Required  <br/> |**String** <br/> |An expression that evaluates to a color. |
+
 ### Return value
 
 Number
   
 ## Remarks
 
-The return value is a number in the range 0 to 239, inclusive. The input is an index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result. The function returns 0 for invalid input. 
+The return value is a number in the range 0 to 239, inclusive. The input is an index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result. The function returns 0 for invalid input.
   
 ## Example 1
 
@@ -54,4 +54,3 @@ HUE(HSL(10, 20, 30) )
   
 Returns 10.
   
-

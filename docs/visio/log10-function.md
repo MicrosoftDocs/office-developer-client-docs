@@ -20,22 +20,21 @@ Returns the base 10 logarithm of a number. The number must be positive or LOG10 
   
 ## Syntax
 
-LOG10(** *number* ** ) 
+LOG10(***number*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Numeric** <br/> | The number whose base 10 logarithm you want to find. |
-   
+| *number* <br/> |Required  <br/> |**Numeric** <br/> | The number whose base 10 logarithm you want to find. |
+
 ### Return value
 
 Numeric
   
 ## Example
 
-LOG10(42) 
+LOG10(42)
   
-Returns 1.6232. 
+Returns 1.6232.
   
-

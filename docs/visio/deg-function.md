@@ -1,9 +1,7 @@
 ---
-title: "DEG Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "DEG Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -20,18 +18,17 @@ Converts the value of an angle from radians to degrees.
   
 ## Syntax
 
-DEG(** *angle* ** ) 
+DEG(***angle*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**String** <br/> |The value of the angle in radians. |
-   
+| *angle* <br/> |Required  <br/> |**String** <br/> |The value of the angle in radians. |
+
 ## Example
 
-DEG(PI( )/4) 
+DEG(PI( )/4)
   
-Returns 45 
+Returns 45
   
-

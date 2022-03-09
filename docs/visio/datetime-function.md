@@ -20,7 +20,7 @@ Returns the date and time value represented by _datetime_ or _expression_.
   
 ## Syntax
 
-DATETIME(" **_datetime_** "| **_expression_** [, ** _lcid_ ** ])
+DATETIME(" **_datetime_** "| **_expression_** [, **_lcid_** ])
   
 ### Parameters
 
@@ -36,11 +36,11 @@ Datetime
   
 ## Remarks
 
-If  _datetime_  is missing or cannot be interpreted as a valid date or time, DATETIME returns a #VALUE! error.
+If _datetime_  is missing or cannot be interpreted as a valid date or time, DATETIME returns a #VALUE! error.
   
 The returned value is formatted according to the short date style and time style in the system's current Regional Settings.
   
-The DATETIME function also accepts a single number value for  _expression_  where the integer portion of the result represents the number of days since December 30, 1899, and the decimal portion represents the fraction of a day since midnight.
+The DATETIME function also accepts a single number value for _expression_  where the integer portion of the result represents the number of days since December 30, 1899, and the decimal portion represents the fraction of a day since midnight.
   
 ## Example 1
 

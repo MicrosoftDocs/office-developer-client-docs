@@ -20,16 +20,16 @@ Returns a transformed point in local coordinates in the destination coordinate s
   
 ## Syntax
 
-LOCTOLOC(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
+LOCTOLOC(***srcPoint***, ***srcRef***, ***dstRef*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _srcPoint_ <br/> |Required  <br/> |**String** <br/> | A point in local coordinates in the source coordinate system. |
-| _srcRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object. |
-| _dstRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the destination object. |
-   
+| *srcPoint* <br/> |Required  <br/> |**String** <br/> | A point in local coordinates in the source coordinate system. |
+| *srcRef* <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object. |
+| *dstRef* <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the destination object. |
+
 ### Return value
 
 String
@@ -49,5 +49,3 @@ The following formula converts the local pin of the shape associated with the fo
 ```vb
 LOCTOLOC(PNT(LocPinX, LocPinY), Width, ThePage!PageWidth)
 ```
-
-

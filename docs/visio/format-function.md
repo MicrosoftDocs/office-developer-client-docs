@@ -16,11 +16,11 @@ description: "Returns the result of expression as a string formatted according t
 
 # FORMAT Function
 
-Returns the result of  _expression_ as a string formatted according to  _formatpicture_.
+Returns the result of _expression_ as a string formatted according to _formatpicture_.
   
 ## Syntax
 
-FORMAT(** *expression* **," ** *formatpicture* ** ") 
+FORMAT(***expression***," ***formatpicture*** ")
   
 ### Parameters
 
@@ -28,16 +28,16 @@ FORMAT(** *expression* **," ** *formatpicture* ** ")
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Required  <br/> |**String** <br/> |A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. |
 | _formatpicture_ <br/> |Required  <br/> |**String** <br/> |The format picture used to fomat the string. |
-   
+
 ### Return value
 
 String
   
 ## Remarks
 
-The type of the expression and the type specified in the format picture govern the behavior of the returned string. The  _formatpicture_ must be appropriate for the type of expression. For more information about specifying format pictures, see [About format pictures](about-format-pictures.md).
+The type of the expression and the type specified in the format picture govern the behavior of the returned string. The _formatpicture_ must be appropriate for the type of expression. For more information about specifying format pictures, see [About format pictures](about-format-pictures.md).
   
-Returns an error if the result of  _expression_ and the type expected in  _formatpicture_ are of a different kind or if there are syntax errors in  _formatpicture_.
+Returns an error if the result of _expression_ and the type expected in _formatpicture_ are of a different kind or if there are syntax errors in _formatpicture_.
   
 ## Example 1
 
@@ -57,4 +57,3 @@ FORMAT(1cm/4, "0.0 u")
   
 Returns "0.3 cm."
   
-

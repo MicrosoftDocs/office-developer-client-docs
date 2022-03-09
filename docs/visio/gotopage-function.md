@@ -16,24 +16,23 @@ description: "Displays the page that has the name pagename in the currently acti
 
 # GOTOPAGE Function
 
-Displays the page that has the name  *pagename*  in the currently active window. 
+Displays the page that has the name  *pagename*  in the currently active window.
   
 ## Syntax
 
-GOTOPAGE(" ** *pagename* ** ") 
+GOTOPAGE(" ***pagename*** ")
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _pagename_ <br/> |Required  <br/> |**String** <br/> |The name of the page to go to. |
-   
+| *pagename* <br/> |Required  <br/> |**String** <br/> |The name of the page to go to. |
+
 ## Remarks
 
-If a window is already displaying the page, that window becomes active. If  *pagename*  does not exist, the application attempts to navigate to https://  *pagename*  /. If Visio is acting as an in-place server, the GOTOPAGE function has no effect. 
+If a window is already displaying the page, that window becomes active. If *pagename* does not exist, the application attempts to navigate to https://  *pagename*  /. If Visio is acting as an in-place server, the GOTOPAGE function has no effect.
   
-You can use the HYPERLINK function to navigate to any DOS, UNC, or URL path. 
+You can use the HYPERLINK function to navigate to any DOS, UNC, or URL path.
   
-In earlier versions of Visio products, this function appears as _GOTOPAGE. Visio versions 4.0 and later accept either style. 
+In earlier versions of Visio products, this function appears as _GOTOPAGE. Visio versions 4.0 and later accept either style.
   
-

@@ -20,23 +20,22 @@ Creates a cell reference dependency.
   
 ## Syntax
 
-DEPENDSON(** *cellref* ** [, ** *cellref2* **,...]) 
+DEPENDSON(***cellref*** [, ***cellref2***,...])
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Required  <br/> |**String** <br/> |The first cell reference. |
-| _cellref2_ <br/> |Optional  <br/> |**String** <br/> |The second cell reference. |
-   
+| *cellref* <br/> |Required  <br/> |**String** <br/> |The first cell reference. |
+| *cellref2* <br/> |Optional  <br/> |**String** <br/> |The second cell reference. |
+
 ## Remarks
 
-This function always returns FALSE. It has no effect when used in an Event row or an Action cell. 
+This function always returns FALSE. It has no effect when used in an Event row or an Action cell.
   
 ## Example
 
-OPENTEXTWIN() + DEPENDSON(PinX,PinY) 
+OPENTEXTWIN() + DEPENDSON(PinX,PinY)
   
-Opens the text block for a shape whenever the shape's PinX or PinY cells change. 
+Opens the text block for a shape whenever the shape's PinX or PinY cells change.
   
-
