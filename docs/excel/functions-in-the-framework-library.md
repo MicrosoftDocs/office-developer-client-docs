@@ -41,7 +41,7 @@ Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 |[InitFramework](initframework.md) <br/> |
 |[QuitFramework](quitframework.md) <br/> |
 
-|**Functions Used with XLOPERs**|**Functions Used with XLOPER12s**|
+|**Functions used with XLOPERs**|**Functions used with XLOPER12s**|
 |:-----|:-----|
 |[Excel](excel-excel12f.md) <br/> |[Excel12f](excel-excel12f.md) <br/> |
 |[TempNum](tempnum-tempnum12.md) <br/> |[TempNum12](tempnum-tempnum12.md) <br/> |

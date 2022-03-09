@@ -1,9 +1,7 @@
 ---
-title: "PidTagIpmContactEntryId Canonical Property"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "PidTagIpmContactEntryId Canonical Property" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -13,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fccbbb15-dd08-4310-83d7-bf57eb3ed5de
-description: "Last modified: March 09, 2015"
+description: "Contains the **EntryID** of the Outlook Contacts folder."
 ---
 
 # PidTagIpmContactEntryId Canonical Property
@@ -22,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the **EntryID** of the Outlook Contacts folder.
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IPM_CONTACT_ENTRYID  <br/> |
 |Identifier:  <br/> |0x36D1  <br/> |
