@@ -20,23 +20,22 @@ Returns a number raised to the power of an exponent.
   
 ## Syntax
 
-POW(** *number* **, ** *exponent* ** ) 
+POW(***number***, ***exponent***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to raise to the power of an exponent. |
-| _exponent_ <br/> |Required  <br/> |**Number** <br/> |The exponent. |
-   
+| *number* <br/> |Required  <br/> |**Number** <br/> |The number to raise to the power of an exponent. |
+| *exponent* <br/> |Required  <br/> |**Number** <br/> |The exponent. |
+
 ## Remarks
 
-Both  _number_ and  _exponent_ may be non-integers, and they may be negative. If  _number_ is not 0 and  _exponent_ is 0, this function returns 1. If  _number_ is 0 and  _exponent_ is negative, this function returns 0.0. If both  _number_ and  _exponent_ are 0, or if  _number_ is negative and  _exponent_ is not an integer, this function returns 0.0. If both  _number_ and  _exponent_ are negative, this function returns -1.#IND. 
+Both  *number* and  *exponent* may be non-integers, and they may be negative. If _number_ is not 0 and _exponent_ is 0, this function returns 1. If _number_ is 0 and _exponent_ is negative, this function returns 0.0. If both _number_ and _exponent_ are 0, or if _number_ is negative and _exponent_ is not an integer, this function returns 0.0. If both _number_ and _exponent_ are negative, this function returns -1.#IND.
   
 ## Example
 
-POW(5,2) 
+POW(5,2)
   
-Returns 25. 
+Returns 25.
   
-

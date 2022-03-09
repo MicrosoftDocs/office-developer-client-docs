@@ -16,20 +16,20 @@ description: "Determines whether strings are the same. It returns TRUE if they a
 
 # STRSAME Function
 
-Determines whether strings are the same. It returns TRUE if they are the same and FALSE if they aren't. 
+Determines whether strings are the same. It returns TRUE if they are the same and FALSE if they aren't.
   
 ## Syntax
 
-STRSAME (" ** *string1* ** ", " ** *string2* ** ", ** *ignoreCase* ** ) 
+STRSAME (" ***string1*** ", " ***string2*** ", ***ignoreCase*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _string1_ <br/> |Required  <br/> |**String** <br/> |The first string to compare. |
-| _string2_ <br/> |Required  <br/> |**String** <br/> |The second string to compare. |
-| _ignoreCase_ <br/> |Optional  <br/> |**Boolean** <br/> |TRUE to ignore the case and FALSE to compare the case. The default is FALSE. |
-   
+| *string1* <br/> |Required  <br/> |**String** <br/> |The first string to compare. |
+| *string2* <br/> |Required  <br/> |**String** <br/> |The second string to compare. |
+| *ignoreCase* <br/> |Optional  <br/> |**Boolean** <br/> |TRUE to ignore the case and FALSE to compare the case. The default is FALSE. |
+
 ### Return value
 
 Boolean
@@ -80,4 +80,3 @@ STRSAME("cät,"CÄT", TRUE)
   
 Returns TRUE.
   
-

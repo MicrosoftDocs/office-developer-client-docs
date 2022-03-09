@@ -18,17 +18,16 @@ Returns the 1-based segment number at the specified percentage mark along the sp
   
 ## Syntax
 
-PATHSEGMENT(** *section* **, ** *travel* ** ) 
+PATHSEGMENT(***section***, ***travel***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _section_ <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path). |
-| _travel_ <br/> |Required  <br/> |**Double** <br/> |The percentage of the path traversed, from the begin point to the end point. Must be between 0 and 1. |
-   
+| *section* <br/> |Required  <br/> |**String** <br/> |The Geometry section that represents the path, specified by a reference to its Path cell (for example, Geometry1.Path). |
+| *travel* <br/> |Required  <br/> |**Double** <br/> |The percentage of the path traversed, from the begin point to the end point. Must be between 0 and 1. |
+
 ### Return value
 
 Integer
   
-

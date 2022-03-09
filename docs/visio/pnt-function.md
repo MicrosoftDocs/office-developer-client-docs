@@ -16,30 +16,29 @@ description: "Returns the point represented by the coordinates x and y as a sing
 
 # PNT Function
 
-Returns the point represented by the coordinates  _x_ and  _y_ as a single value. 
+Returns the point represented by the coordinates _x_ and _y_ as a single value.
   
 ## Syntax
 
-PNT(** *x,y* ** ) 
+PNT(***x,y*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _x,y_ <br/> |Required  <br/> |**Number, Number** <br/> |The coordinates of the point in the coordinate system of the current shape. |
-   
+
 ### Return value
 
 Point
   
 ## Remarks
 
-Converting coordinates to points allows you to change a shape's geometry without having to manipulate  *x*  - and  *y*  -coordinates separately. 
+Converting coordinates to points allows you to change a shape's geometry without having to manipulate _x_ - and _y_ -coordinates separately.
   
 ## Example
 
-PNT(PinX,PinY) 
+PNT(PinX,PinY)
   
-Returns the point represented by PinX and PinY. 
+Returns the point represented by PinX and PinY.
   
-

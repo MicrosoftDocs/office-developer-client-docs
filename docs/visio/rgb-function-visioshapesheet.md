@@ -16,20 +16,20 @@ description: "Returns a value representing an index in the document's color pale
 
 # RGB Function (VisioShapeSheet)
 
-Returns a value representing an index in the document's color palette. It specifies a color by its red, green, and blue components, where each is a number in the range 0 to 255, inclusive, or an expression that evaluates to such a number. 
+Returns a value representing an index in the document's color palette. It specifies a color by its red, green, and blue components, where each is a number in the range 0 to 255, inclusive, or an expression that evaluates to such a number.
   
 ## Syntax
 
-RGB(** *red* **, ** *green* **, ** *blue* ** ) 
+RGB(***red***, **green***,***blue*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _red_ <br/> |Required  <br/> |**Number** <br/> |The red component. |
-| _green_ <br/> |Required  <br/> |**Number** <br/> |The green component. |
-| _blue_ <br/> |Required  <br/> |**Nmber** <br/> |The blue component. |
-   
+| *red* <br/> |Required  <br/> |**Number** <br/> |The red component. |
+| *green* <br/> |Required  <br/> |**Number** <br/> |The green component. |
+| *blue* <br/> |Required  <br/> |**Nmber** <br/> |The blue component. |
+
 ### Return value
 
 Number
@@ -50,7 +50,7 @@ The following table lists some standard colors and their red, green, and blue va
 |Magenta  <br/> |255  <br/> |0  <br/> |255  <br/> |
 |Yellow  <br/> |255  <br/> |255  <br/> |0  <br/> |
 |White  <br/> |255  <br/> |255  <br/> |255  <br/> |
-   
+
 ## Example 1
 
 RGB(0,0,255)
@@ -63,4 +63,3 @@ RGB(RED(Sheet.1!FillForegnd),120,0)
   
 Returns the index for a color whose red component mirrors Sheet.1's fill foreground.
   
-

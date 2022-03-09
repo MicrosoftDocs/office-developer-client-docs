@@ -18,14 +18,14 @@ Returns the number of line segments that make up the path.
   
 ## Syntax
 
-SEGMENTCOUNT(** *pathRef* ** ) 
+SEGMENTCOUNT(***pathRef***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _pathRef_ <br/> |Required  <br/> |**Integer** <br/> |The Geometry section that represents the path, specified by a reference to Path cell (for example, Geometry1.Path). |
-   
+| *pathRef* <br/> |Required  <br/> |**Integer** <br/> |The Geometry section that represents the path, specified by a reference to Path cell (for example, Geometry1.Path). |
+
 ### Return value
 
 Integer
@@ -34,4 +34,3 @@ Integer
 
 Line jumps are not included in the total number of segments returned.
   
-
