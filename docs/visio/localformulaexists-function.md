@@ -16,24 +16,23 @@ description: "Indicates whether the referenced cell contains a local formula."
 
 # LOCALFORMULAEXISTS Function
 
-Indicates whether the referenced cell contains a local formula. 
+Indicates whether the referenced cell contains a local formula.
   
 ## Syntax
 
-LOCALFORMULAEXISTS (** *cellref* ** ) 
+LOCALFORMULAEXISTS (***cellref*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellref_ <br/> |Required  <br/> |**String** <br/> | The cell that you want to check for the presence of a formula. |
-   
+| *cellref* <br/> |Required  <br/> |**String** <br/> | The cell that you want to check for the presence of a formula. |
+
 ### Return value
 
 Boolean
   
 ## Remarks
 
-The LOCALFORMULAEXISTS function returns 1 if the cell contains a local formula; if there is no formula, or if the formula is inherited, it returns 0 (zero). 
+The LOCALFORMULAEXISTS function returns 1 if the cell contains a local formula; if there is no formula, or if the formula is inherited, it returns 0 (zero).
   
-
