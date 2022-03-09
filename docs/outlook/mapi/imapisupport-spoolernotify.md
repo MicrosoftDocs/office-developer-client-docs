@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f153b2-939f-4153-85fb-dc510193848c
-description: "Last modified: March 09, 2015"
+description: "Notifies the MAPI spooler of a change in status or a request for service."
 ---
 
 # IMAPISupport::SpoolerNotify
