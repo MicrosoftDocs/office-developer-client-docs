@@ -1,7 +1,7 @@
 ---
 title: "Functions in the Framework Library"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: overview
 keywords:
@@ -33,9 +33,7 @@ The simplified code looks like the following example.
 Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 ```
 
-The following functions are included in the Framework library:
-  
-||
+|**The following functions are included in the Framework library:**|
 |:-----|
 |[debugPrintf](debugprintf.md) <br/> |
 |**GetTempMemory** <br/> |
