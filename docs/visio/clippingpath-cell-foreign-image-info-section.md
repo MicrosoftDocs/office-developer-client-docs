@@ -22,17 +22,17 @@ If the **ClippingPath** cell points to a valid path, the image is clipped so tha
   
 To get a reference to the **ClippingPath** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ClippingPath  <br/> |
+| **Cell name:**  <br/> | ClippingPath  <br/> |
 
 To get a reference to the **ClippingPath** cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowForeign** <br/> |
-| Cell index:  <br/> |**visFrgnImgClippingPath** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowForeign** <br/> |
+| **Cell index:**  <br/> |**visFrgnImgClippingPath** <br/> |
 
 ## Example
 

@@ -25,14 +25,14 @@ Determines whether a fill gradient is enabled for this shape.
 
 To get a reference to the **FillGradientEnabled** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
-| Cell name:  <br/> | FillGradientEnabled  <br/> |
+| **Cell name:**  <br/> | FillGradientEnabled  <br/> |
 
 To get a reference to the **FillGradientEnabled** cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowGradientProperties** <br/> |
-| Cell index:  <br/> |**visFillGradientEnabled** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowGradientProperties** <br/> |
+| **Cell index:**  <br/> |**visFillGradientEnabled** <br/> |
