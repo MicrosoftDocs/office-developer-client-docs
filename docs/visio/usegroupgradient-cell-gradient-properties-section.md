@@ -17,13 +17,13 @@ Determines whether the shape takes on a gradient when the shape is grouped toget
 
 To get a reference to the **UseGroupGradient** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:
   
-||Value|
+|**Value**|**Description**|
 |:-----|:-----|
 | Cell name:  <br/> | UseGroupGradient  <br/> |
 
 To get a reference to the **UseGroupGradient** cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-||Value|
+|**Value**|**Description**|
 |:-----|:-----|
 | Section index:  <br/> |**visSectionObject** <br/> |
 | Row index:  <br/> |**visRowGradientProperties** <br/> |
