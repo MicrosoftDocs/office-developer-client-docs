@@ -20,14 +20,14 @@ Returns the page name as a string.
   
 ## Syntax
 
-PAGENAME (** *langID_opt* ** ) 
+PAGENAME (***langID_opt***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _langID_opt_ <br/> |Optional  <br/> |**Number** <br/> |Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language. |
-   
+| *langID_opt* <br/> |Optional  <br/> |**Number** <br/> |Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language. |
+
 ### Return value
 
 String
@@ -36,4 +36,3 @@ String
 
 If you pass an illegal language code, the local language is used.
   
-

@@ -16,26 +16,25 @@ description: "Returns the x-coordinate of a point."
 
 # PNTX Function
 
-Returns the  _x_-coordinate of a point.
+Returns the _x_-coordinate of a point.
   
 ## Syntax
 
-PNTX(** *point* ** ) 
+PNTX(**_point_** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Required  <br/> |**Number** <br/> |The  _x_-coordinate of the point. |
-   
+| _point_ <br/> |Required  <br/> |**Number** <br/> |The _x_-coordinate of the point. |
+
 ### Return value
 
 Number
   
 ## Example
 
-PNTX(PNT(7,12)) 
+PNTX(PNT(7,12))
   
-Returns 7. 
+Returns 7.
   
-

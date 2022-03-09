@@ -18,7 +18,7 @@ Contains an **EventItem** element for each event to which an object should respo
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

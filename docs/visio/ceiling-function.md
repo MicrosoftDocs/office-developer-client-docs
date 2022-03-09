@@ -1,9 +1,7 @@
 ---
-title: "CEILING Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "CEILING Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -16,11 +14,11 @@ description: "Rounds a number away from 0 (zero) to the next instance of multipl
 
 # CEILING Function
 
-Rounds a number away from 0 (zero) to the next instance of  _multiple_. If  _multiple_ is not specified, the number rounds away from 0 to the next integer. 
+Rounds a number away from 0 (zero) to the next instance of _multiple_. If _multiple_ is not specified, the number rounds away from 0 to the next integer.
   
 ## Syntax
 
-CEILING(** *number* **, ** *multiple* ** ) 
+CEILING(***number***, ***multiple*** )
   
 ### Parameters
 
@@ -28,10 +26,10 @@ CEILING(** *number* **, ** *multiple* ** )
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round. |
 | _multiple_ <br/> |Required  <br/> |**Number** <br/> |The multiple to round to. |
-   
+
 ## Remarks
 
- _Number_ and  _multiple_ must have the same signs, or a #NUM! error is returned. If either  _number_ or  _multiple_ cannot be converted to a value, a #VALUE! error is returned. If either  _number_ or  _multiple_ is 0, the result is 0. 
+ _Number_ and _multiple_ must have the same signs, or a #NUM! error is returned. If either _number_ or _multiple_ cannot be converted to a value, a #VALUE! error is returned. If either _number_ or _multiple_ is 0, the result is 0.
   
 ## Example 1
 
@@ -51,4 +49,3 @@ CEILING(3.7, 0.25)
   
 Returns 3.75
   
-

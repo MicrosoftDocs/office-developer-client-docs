@@ -20,7 +20,7 @@ Runs _string_ and passes the command line _arguments_ to the program as a string
   
 ## Syntax
 
-RUNADDONWARGS(" ** _string_ ** "," ** _arguments_ ** ")
+RUNADDONWARGS(" **_string_** "," **_arguments_** ")
   
 ### Parameters
 

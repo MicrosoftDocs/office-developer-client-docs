@@ -20,29 +20,28 @@ Returns the last character or characters in a text string, based on the number o
   
 ## Syntax
 
-RIGHT(** *text* ** [, ** *num_chars_opt* ** ]) 
+RIGHT(***text*** [, ***num_chars_opt*** ])
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Required  <br/> |**String** <br/> | The text string containing the characters you want to extract. |
-| _num_chars_opt_ <br/> |Optional  <br/> |**Number** <br/> |The number of characters you want to extract. The default is 1. |
-   
+| *text* <br/> |Required  <br/> |**String** <br/> | The text string containing the characters you want to extract. |
+| *num_chars_opt* <br/> |Optional  <br/> |**Number** <br/> |The number of characters you want to extract. The default is 1. |
+
 ### Return value
 
 String
   
 ## Remarks
 
-The value of  _num_chars_opt_ must be greater than or equal to zero (0). 
+The value of *num_chars_opt* must be greater than or equal to zero (0).
   
-If  _num_chars_opt_ is greater than the length of the text, RIGHT returns all of the text. If  _num_chars_opt_ is omitted, it is assumed to be 1. 
+If *num_chars_opt* is greater than the length of the text, RIGHT returns all of the text. If _num_chars_opt_ is omitted, it is assumed to be 1.
   
 ## Example
 
-RIGHT ("January 1, 2004", 4) 
+RIGHT ("January 1, 2004", 4)
   
-Returns the value 2004. 
+Returns the value 2004.
   
-

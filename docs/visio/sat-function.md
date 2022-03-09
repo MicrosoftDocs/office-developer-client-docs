@@ -16,18 +16,18 @@ description: "Returns the value of a color's saturation component."
 
 # SAT Function
 
-Returns the value of a color's saturation component. 
+Returns the value of a color's saturation component.
   
 ## Syntax
 
-SAT(** *expression* ** ) 
+SAT(***expression*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**Varies** <br/> |An index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result. |
-   
+| *expression* <br/> |Required  <br/> |**Varies** <br/> |An index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result. |
+
 ### Return value
 
 Numeric
@@ -54,4 +54,3 @@ SAT(HSL(10, 20, 30))
   
 Returns 20.
   
-
