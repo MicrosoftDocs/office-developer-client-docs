@@ -1,9 +1,7 @@
 ---
-title: "TEXTHEIGHT Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "TEXTHEIGHT Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -16,19 +14,19 @@ description: "Returns the height of the composed text in a shape where no text l
 
 # TEXTHEIGHT Function
 
-Returns the height of the composed text in a shape where no text line exceeds  _maximumwidth_. 
+Returns the height of the composed text in a shape where no text line exceeds _maximumwidth_.
   
 ## Syntax
 
-TEXTHEIGHT(** *shapename!TheText* ** ** *[,maximumwidth]* ** ) 
+TEXTHEIGHT(***shapename!TheText*** ***[,maximumwidth]***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _shapename!theText_ <br/> |Required  <br/> |**String** <br/> |A reference to the cell named TheText in the target shape.  _shapename!_ is the name of the shape from which you want to retrieve the text. |
+| _shapename!theText_ <br/> |Required  <br/> |**String** <br/> |A reference to the cell named TheText in the target shape. _shapename!_ is the name of the shape from which you want to retrieve the text. |
 | _maximumwidth_ <br/> |Optional  <br/> |**Numeric** <br/> |The maximum width of the text block. |
-   
+
 ### Return value
 
 String
@@ -39,8 +37,7 @@ The returned value includes the height of the text including the space before an
   
 ## Example
 
-TEXTHEIGHT(TheText,(Width - 0.5 in)) 
+TEXTHEIGHT(TheText,(Width - 0.5 in))
   
-Returns the height of the text when wrapped to the width of the shape minus 0.5 inches. 
+Returns the height of the text when wrapped to the width of the shape minus 0.5 inches.
   
-

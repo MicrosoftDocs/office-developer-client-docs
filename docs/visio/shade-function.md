@@ -1,9 +1,7 @@
 ---
 title: "SHADE Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
  
@@ -14,11 +12,11 @@ description: "Modifies the color by decreasing its luminosity by the amount (pos
 
 # SHADE Function
 
-Modifies the color by decreasing its luminosity by the amount (positive or negative) specified in the _int_ parameter. 
+Modifies the color by decreasing its luminosity by the amount (positive or negative) specified in the _int_ parameter.
   
 ## Syntax
 
-SHADE(** *color* **, ** *int* ** ) 
+SHADE(**_color_**, **_int_** )
   
 ### Parameters
 
@@ -26,15 +24,14 @@ SHADE(** *color* **, ** *int* ** )
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the color. |
 | _int_ <br/> |Required  <br/> |**Integer** <br/> |The amount by which to decrease the luminosity of the color. Can be positive or negative. |
-   
+
 ### Return value
 
  **RGB**
   
 ## Remarks
 
-The upper and lower limits of luminosity are 0 and 240 respectively. There is no limit on the size of the integer you can pass for the  _int_ parameter, but luminosity never exceeds these limits. 
+The upper and lower limits of luminosity are 0 and 240 respectively. There is no limit on the size of the integer you can pass for the _int_ parameter, but luminosity never exceeds these limits.
   
 ![Upper and lower limits of luminosity](media/image199_ZA10173627.gif)
   
-

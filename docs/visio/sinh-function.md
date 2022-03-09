@@ -16,30 +16,29 @@ description: "Returns the hyperbolic sine of an angle."
 
 # SINH Function
 
-Returns the hyperbolic sine of an angle. 
+Returns the hyperbolic sine of an angle.
   
 ## Syntax
 
-SINH(** *angle* ** ) 
+SINH(***angle*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _angle_ <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hyperbolic sine. |
-   
+| *angle* <br/> |Required  <br/> |**Numeric** <br/> |The angle of which to get the hyperbolic sine. |
+
 ### Return value
 
 Number
   
 ## Remarks
 
-The SINH function uses radians unless you specify a different unit of measure in  _angle_.
+The SINH function uses radians unless you specify a different unit of measure in *angle*.
   
 ## Example
 
-SINH(45 deg) 
+SINH(45 deg)
   
-Returns 0.8687. 
+Returns 0.8687.
   
-

@@ -20,22 +20,21 @@ Returns a string converted to uppercase.
   
 ## Syntax
 
-UPPER(** *expression* ** ) 
+UPPER(***expression***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**Varies** <br/> | A string, a cell reference, or an expression; the result is converted to a string, which is then converted to uppercase. |
-   
+| *expression* <br/> |Required  <br/> |**Varies** <br/> | A string, a cell reference, or an expression; the result is converted to a string, which is then converted to uppercase. |
+
 ## Remarks
 
-The case conversion is locale-specific, based on the current user settings. 
+The case conversion is locale-specific, based on the current user settings.
   
 ## Example
 
-UPPER("mIxEd CAse") 
+UPPER("mIxEd CAse")
   
-Returns "MIXED CASE". 
+Returns "MIXED CASE".
   
-

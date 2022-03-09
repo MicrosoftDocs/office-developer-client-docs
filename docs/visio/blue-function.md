@@ -1,7 +1,5 @@
 ---
-title: "BLUE Function"
- 
- 
+title: "BLUE Function" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,14 +18,14 @@ Returns the blue component of a color. The return value is an integer in the ran
   
 ## Syntax
 
-BLUE(** *expression* ** ) 
+BLUE(***expression*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**String** <br/> |An index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result. |
-   
+| *expression* <br/> |Required  <br/> |**String** <br/> |An index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result. |
+
 ### Return value
 
 Integer
@@ -50,4 +48,3 @@ BLUE(RGB(10, 20, 30))
   
 Returns 30.
   
-

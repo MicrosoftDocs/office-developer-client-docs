@@ -1,7 +1,5 @@
 ---
-title: "BLOB Function"
- 
- 
+title: "BLOB Function" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,16 +14,14 @@ description: "Decodes a base64 string and stores it as binary data."
 
 # BLOB Function
 
-Decodes a base64 string and stores it as binary data. 
+Decodes a base64 string and stores it as binary data.
   
 ## Syntax
 
-BLOB (** *bintext* ** ) 
+BLOB (***bintext*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _bintext_ <br/> |Required  <br/> |**String** <br/> | A base64 encoded string. |
-   
-
+| *bintext* <br/> |Required  <br/> |**String** <br/> | A base64 encoded string. |

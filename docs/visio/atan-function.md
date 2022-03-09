@@ -1,7 +1,5 @@
 ---
-title: "ATAN Function"
- 
- 
+title: "ATAN Function" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -16,22 +14,21 @@ description: "Returns the arctangent of a number, for example, the angle whose t
 
 # ATAN Function
 
-Returns the arctangent of a number, for example, the angle whose tangent is  _number_. The resulting angle is in the range -PI/2 <= angle <= PI/2 radians (-90 <= angle <= 90 degrees). 
+Returns the arctangent of a number, for example, the angle whose tangent is _number_. The resulting angle is in the range -PI/2 <= angle <= PI/2 radians (-90 <= angle <= 90 degrees).
   
 ## Syntax
 
-ATAN(** *number* ** ) 
+ATAN(***number*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _number_ <br/> |Required  <br/> |**Numeric** <br/> |The tangent of the angle. |
-   
+
 ## Example
 
-ATAN(1) 
+ATAN(1)
   
-Returns 45 deg 
+Returns 45 deg
   
-
