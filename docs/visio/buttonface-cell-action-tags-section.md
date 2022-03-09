@@ -28,14 +28,14 @@ The IDs that can be used in the ButtonFace cell are the same as the IDs used wit
   
 To get a reference to the ButtonFace cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | SmartTags.  *name* .ButtonFace           where SmartTags. *name*. is the name of the action tag row.  <br/> |
+| **Cell name:**  <br/> | SmartTags.  *name* .ButtonFace           where SmartTags. *name*. is the name of the action tag row.  <br/> |
 
 To get a reference to the ButtonFace cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visSmartTagButtonFace** <br/> |
+| **Section index:**  <br/> |**visSectionSmartTag** <br/> |
+| **Row index:**  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visSmartTagButtonFace** <br/> |

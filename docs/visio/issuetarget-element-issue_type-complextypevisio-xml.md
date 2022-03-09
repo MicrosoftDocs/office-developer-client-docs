@@ -18,7 +18,7 @@ Depending on the target of the parent validation issue, specifies either the pag
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

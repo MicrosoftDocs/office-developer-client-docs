@@ -20,16 +20,16 @@ Event cells are evaluated only when the event occurs, not upon formula entry.
   
 To refer to the EventMultiDrop cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |EventMultiDrop  <br/> |
+|**Cell name:**  <br/> |EventMultiDrop  <br/> |
    
 To refer to the EventMultiDrop cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowEvent** <br/> |
-|Cell index:  <br/> |**visEvtCellMultiDrop** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowEvent** <br/> |
+|**Cell index:**  <br/> |**visEvtCellMultiDrop** <br/> |
    
 

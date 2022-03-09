@@ -32,7 +32,7 @@ The simplified code looks like the following example.
 ```cs
 Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 ```
-  
+
 |**The following functions are included in the Framework library:**|
 |:-----|
 |[debugPrintf](debugprintf.md) <br/> |

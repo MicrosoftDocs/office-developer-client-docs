@@ -31,11 +31,11 @@ Determines the line jump style for line jumps on a dynamic connector.
 |8  <br/> |6 sides  <br/> |**visLOJumpStyle5Point** <br/> |
 |9  <br/> |7 sides  <br/> |**visLOJumpStyle6Point** <br/> |
    
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowShapeLayout** <br/> |
-|Cell index:  <br/> |**visSLOJumpStyle** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowShapeLayout** <br/> |
+|**Cell index:**  <br/> |**visSLOJumpStyle** <br/> |
    
 ## Remarks
 
@@ -43,9 +43,9 @@ You can also set the value of this cell by selecting a dynamic connector, clicki
   
 To get a reference to the ConLineJumpStyle cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ConLineJumpStyle  <br/> |
+|**Cell name:**  <br/> |ConLineJumpStyle  <br/> |
    
 To get a reference to the ConLineJumpStyle cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
