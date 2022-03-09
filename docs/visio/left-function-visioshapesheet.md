@@ -20,29 +20,28 @@ Returns the left-most character or characters in a text string, based on the num
   
 ## Syntax
 
-LEFT(** *text* **, [, ** *num_chars_opt* ** ]) 
+LEFT(***text***, [, ***num_chars_opt*** ])
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Required  <br/> |**String** <br/> |The text string that contains the characters you want to extract. |
-| _num_chars_opt_ <br/> |Optional  <br/> |**Numeric** <br/> |The number of characters you want to extract. |
-   
+| *text* <br/> |Required  <br/> |**String** <br/> |The text string that contains the characters you want to extract. |
+| *num_chars_opt* <br/> |Optional  <br/> |**Numeric** <br/> |The number of characters you want to extract. |
+
 ### Return value
 
 String
   
 ## Remarks
 
-The value of  _num_chars_opt_ must be greater than or equal to zero (0). 
+The value of *num_chars_opt* must be greater than or equal to zero (0).
   
-If  _num_chars_opt_ is greater than the length of the text, LEFT returns all of the text. If  _num_chars_opt_ is omitted, it is assumed to be 1. 
+If *num_chars_opt* is greater than the length of the text, LEFT returns all of the text. If *num_chars_opt* is omitted, it is assumed to be 1.
   
 ## Example
 
-LEFT ("January 1, 2004", 3) 
+LEFT ("January 1, 2004", 3)
   
-Returns the value "Jan". 
+Returns the value "Jan".
   
-

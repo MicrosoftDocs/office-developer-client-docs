@@ -20,24 +20,23 @@ Returns the largest number from a list. Largest means closest to positive infini
   
 ## Syntax
 
-MAX(** *number1* **, ** *number2* **,..., ** *numberN* ** ) 
+MAX(***number1***, ***number2***,..., ***numberN*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number1_ <br/> |Required  <br/> |**Varies** <br/> |The first number in the list. |
-| _number2_ <br/> |Optional  <br/> |**Varies** <br/> | The second number in the list. |
-| _numberN_ <br/> |Optional  <br/> |**Varies** <br/> |The nth number in the list. |
-   
+| *number1* <br/> |Required  <br/> |**Varies** <br/> |The first number in the list. |
+| *number2* <br/> |Optional  <br/> |**Varies** <br/> | The second number in the list. |
+| *numberN* <br/> |Optional  <br/> |**Varies** <br/> |The nth number in the list. |
+
 ### Return value
 
 Varies
   
 ## Example
 
-MAX(13 in,1 ft, 20 cm) 
+MAX(13 in,1 ft, 20 cm)
   
-Returns 13 inches. 
+Returns 13 inches.
   
-

@@ -20,7 +20,7 @@ Returns a transformed point in parent coordinates in the destination coordinate 
   
 ## Syntax
 
-LOCTOPAR(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** ) 
+LOCTOPAR(**_srcPoint_**, **_srcRef_**, **_dstRef_** )
   
 ### Parameters
 
@@ -29,25 +29,24 @@ LOCTOPAR(** *srcPoint* **, ** *srcRef* **, ** *dstRef* ** )
 | _srcPoint_ <br/> |Required  <br/> |**String** <br/> | A point in local coordinates in the source coordinate system. |
 | _srcRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the source object. |
 | _dstRef_ <br/> |Required  <br/> |**String** <br/> | A reference to a cell in the destination object. |
-   
+
 ### Return value
 
 String
   
 ## Remarks
 
-Converts a point from local coordinates in a source shape to parent coordinates in a destination shape. You can use the LOCTOPAR function to set parent coordinates in cells, such as PinX, PinY, BeginX, and BeginY in a shape using another point from another coordinate system. 
+Converts a point from local coordinates in a source shape to parent coordinates in a destination shape. You can use the LOCTOPAR function to set parent coordinates in cells, such as PinX, PinY, BeginX, and BeginY in a shape using another point from another coordinate system.
   
-This function works even when the source and destination shapes are within groups. It also adjusts for rotation and flips in the intermediate transformation. 
+This function works even when the source and destination shapes are within groups. It also adjusts for rotation and flips in the intermediate transformation.
   
-The source and destination coordinates must be on the same page. 
+The source and destination coordinates must be on the same page.
   
-If the destination is a page, which has no parent, the result is expressed in the page's local coordinates. 
+If the destination is a page, which has no parent, the result is expressed in the page's local coordinates.
   
 ## Example
 
-LOCTOPAR(PNT(LocPinX, LocPinY), Width, Sheet.4!Width) 
+LOCTOPAR(PNT(LocPinX, LocPinY), Width, Sheet.4!Width)
   
-Converts the local pin of the shape associated with the formula to parent coordinates of Sheet.4. 
+Converts the local pin of the shape associated with the formula to parent coordinates of Sheet.4.
   
-
