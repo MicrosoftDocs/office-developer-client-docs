@@ -20,16 +20,16 @@ Determines the transparency level for the color used for the stroke of the shape
 
 To get a reference to the **GlowColorTrans** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | GlowColorTrans  <br/> |
+| **Cell name:**  <br/> | GlowColorTrans  <br/> |
    
 To get a reference to the **GlowColorTrans** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Cell index:  <br/> |**visGlowColorTrans** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowOtherEffectProperties** <br/> |
+| **Cell index:**  <br/> |**visGlowColorTrans** <br/> |
    
 

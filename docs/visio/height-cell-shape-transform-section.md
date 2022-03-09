@@ -22,16 +22,16 @@ Determines the height of the shape in drawing units.
 
 To get a reference to the Height cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Height  <br/> |
+| **Cell name:**  <br/> | Height  <br/> |
    
 To get a reference to the Height cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowXFormOut** <br/> |
-| Cell index:  <br/> |**visXFormHeight** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowXFormOut** <br/> |
+| **Cell index:**  <br/> |**visXFormHeight** <br/> |
    
 

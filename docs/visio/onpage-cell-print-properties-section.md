@@ -29,14 +29,14 @@ This value corresponds to the **Fit to** option on the **Print Setup** tab in th
   
 To get a reference to the OnPage cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |OnPage  <br/> |
+|**Cell name:**  <br/> |OnPage  <br/> |
 
 To get a reference to the OnPage cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPrintProperties** <br/> |
-|Cell index:  <br/> |**visPrintPropertiesOnPage** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPrintProperties** <br/> |
+|**Cell index:**  <br/> |**visPrintPropertiesOnPage** <br/> |

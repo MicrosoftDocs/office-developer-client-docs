@@ -27,16 +27,16 @@ Indicates whether a hyperlink appears on the shortcut menu for a shape or page.
 
 To get a reference to the Invisible cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Hyperlink. *name*  .Invisible where Hyperlink  *.name*  is the row name  <br/> |
+|**Cell name:**  <br/> |Hyperlink. *name*  .Invisible where Hyperlink  *.name*  is the row name  <br/> |
    
 To get a reference to the Invisible cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionHyperlink** <br/> |
-|Row index:  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visHLinkInvisible** <br/> |
+|**Section index:**  <br/> |**visSectionHyperlink** <br/> |
+|**Row index:**  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visHLinkInvisible** <br/> |
    
 

@@ -24,14 +24,14 @@ You can also set the value of this cell in the **Hyperlinks** dialog box (click 
   
 To get a reference to the Description cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Hyperlink. *Name* .Description where Hyperlink. *Name* is the name of the hyperlink row.  <br/> |
+| **Cell name:**  <br/> | Hyperlink. *Name* .Description where Hyperlink. *Name* is the name of the hyperlink row.  <br/> |
 
 To get a reference to the Description cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionHyperlink** <br/> |
-| Row index:  <br/> |**visRow1stHyperlink** + *i*           <br/>where *i* = 0, 1, 2... |
-| Cell index:  <br/> |**visHLinkDescription** <br/> |
+| **Section index:**  <br/> |**visSectionHyperlink** <br/> |
+| **Row index:**  <br/> |**visRow1stHyperlink** + *i*           <br/>where *i* = 0, 1, 2... |
+| **Cell index:**  <br/> |**visHLinkDescription** <br/> |

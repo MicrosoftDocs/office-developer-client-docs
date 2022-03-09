@@ -69,7 +69,7 @@ You can use the following methods of the **Window** interface to navigate to spe
   
 **NavigateTo**
 
-|||
+||Value |
 |:-----|:-----|
 |**Description** <br/> |Navigates to the specified object in the OneNote window. For example, you can navigate to sections, pages, and outline elements within pages. |
 |**Syntax** <br/> | `HRESULT NavigateTo(`           ` [in]BSTR bstrHierarchyObjectID, `           ` [in]BSTR bstrObjectID); ` <br/> |
@@ -77,7 +77,7 @@ You can use the following methods of the **Window** interface to navigate to spe
 
 **NavigateToUrl**
 
-|||
+||Value |
 |:-----|:-----|
 |**Description** <br/> |If passed a OneNote link (onenote://), opens the OneNote window to the corresponding location in OneNote. However, if the link is an external link, such as https:// or file://, a security dialog box will appear. Upon dismissal, OneNote attempts to open up the link and an HResult.hrObjectDoesNotExist error is returned. |
 |**Syntax** <br/> | `HRESULT NavigateToUrl (`           ` [in]BSTR bstrUrl); ` <br/> |
@@ -85,7 +85,7 @@ You can use the following methods of the **Window** interface to navigate to spe
 
 **SetDockedLocation**
 
-|||
+||Value |
 |:-----|:-----|
 |**Description** <br/> |Docks the window to the location specified by **dockLocation** and the monitor at **ptMonitor**. |
 |**Syntax** <br/> | `HRESULT SetDockedLocation`(           `[in] DockLocation dockLocation,`           `[in] POINT ptMonitor);` <br/> |
