@@ -1,7 +1,7 @@
 ---
 title: "Quick Filing dialog box interfaces (OneNote)"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: overview
 ms.localizationpriority: medium
@@ -50,7 +50,7 @@ This interface allows the user to customize and run the dialog box. The user can
 
 **SetRecentResults**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Sets what recent result list will be displayed in the Quick Filing dialog box, and indicates whether to include some special filing locations in the list. Users can select a recent result list from the [RecentResultType](enumerations-onenote-developer-reference.md#odc_RecentResultType) enumeration. Users can also choose to add the following options to the list: Current Section, Current Page, or Unfiled Notes. If **RecentResultType.rrtNone** is selected, no recent result list is shown. |
 |**Syntax** <br/> | `HRESULT SetRecentResults (`<br/>`[in]RecentResultType recentResults,`<br/>`[in]VARIANT_BOOL fShowCurrentSection,`<br/>`[in]VARIANT_BOOL fShowCurrentPage,`<br/>`[in]VARIANT_BOOL fShowUnfiledNotes);` <br/> |
@@ -79,7 +79,7 @@ The following example uses the **SetRecentResults** method to display the curren
 
 **AddButton**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Allows users to add and customize buttons in the dialog box. Users can specify the text on the buttons and what elements of the OneNote hierarchy can be selected by each button. |
 |**Syntax** <br/> | `HRESULT AddButton (`<br/>`[in]BSTR bstrText,`<br/>`[in]HierarchyElement allowedElements,`<br/>`[in]HierarchyElement allowedReadOnlyElements,`<br/>`[in]VARIANT_BOOL fDefault);` <br/> |
@@ -113,7 +113,7 @@ The following example adds three buttons to the Quick Filing dialog box. The fir
 
 **Run**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Displays the Quick Filing dialog box from a new thread. It takes a reference to the **IQuickFilingDialogCallback** interface, whose **OnDialogClosed** method will be called once the dialog box closes. |
 |**Syntax** <br/> | `HRESULT Run (`<br/>`[in]IQuickFilingDialogCallback piCallback);` <br/> |
@@ -140,7 +140,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 
 **TreeCollapsedState**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Indicates whether the hierarchy tree should be expanded or collapsed. |
 |**Syntax** <br/> | `HRESULT TreeCollapsedState(`<br/>`[in] TreeCollapsedStateType tcs);` <br/> |
@@ -148,7 +148,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 
 **NotebookFilterOut**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Filters the list of notebooks shown by type. |
 |**Syntax** <br/> | `HRESULT NotebookFilterOut(`<br/>`[in] NotebookFilterOutType nfo);` <br/> |
@@ -156,7 +156,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 
 **ShowCreateNewNotebook**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Displays the create new notebook option in the dialog. |
 |**Syntax** <br/> | `HRESULT ShowCreateNewNotebook ();` <br/> |
@@ -164,7 +164,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 
 **AddInitialEditor**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Adds a user as an initial editor to a notebook in the Quick Filing dialog box. |
 |**Syntax** <br/> | `HRESULT AddInitialEditor (BSTR initialEditor);` <br/> |
@@ -172,7 +172,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 
 **ClearInitialEditors**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Removes all initial editors from the Quick Filing dialog box. |
 |**Syntax** <br/> | `HRESULT ClearInitialEditors ();` <br/> |
@@ -180,7 +180,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 
 **ShowSharingHyperlink**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Displays the Sharing Help Topic Hyperlink in the Quick Filing dialog box. |
 |**Syntax** <br/> | `HRESULT ShowSharingHyperlink();` <br/> |
@@ -200,7 +200,7 @@ The following section describes the methods associated with the interfaces detai
   
 **OnDialogClosed**
 
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Description** <br/> |Enables users to add functionality to capture and use the user selection from the dialog box. This method is called after the Quick Filing dialog box is closed. This method is a function that **IQuickFilingDialogCallback** interfaces have to define. |
 |**Syntax** <br/> | `HRESULT OnDialogClosed (`<br/>`[in]IQuickFilingDialog dialog);` <br/> |
