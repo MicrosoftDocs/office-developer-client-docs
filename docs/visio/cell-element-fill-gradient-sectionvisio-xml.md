@@ -1,12 +1,9 @@
 ---
-title: "Cell element (Fill Gradient Section) (Visio XML)"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "Cell element (Fill Gradient Section) (Visio XML)" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
-ms.topic: reference
- 
+ms.topic: reference 
 ms.localizationpriority: medium
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
 description: "Contains the color, transparency, and position of a gradient stop for a fill gradient."
@@ -18,7 +15,7 @@ Contains the color, transparency, and position of a gradient stop for a fill gra
   
 ## Element information
 
-||Value |
+|**Value**|**Description**|
 |:-----|:-----|
 |**Element type** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
@@ -66,6 +63,4 @@ The **N** attribute of this **Cell** element must be one of a limited set of val
 |:-----|:-----|:-----|
 |GradientStopColor  <br/> |The color value of the gradient stop. This value can be expressed as the index number of a color in the document palette or by using the **RGB**, **THEMEVAL**, or **HSL** functions. |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
 |GradientStopColorTrans  <br/> |The amount of transparency of the gradient color stop, as a percentage. |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
-|GradientStopPosition  <br/> |The position of the gradient stop along the direction of the line gradient, as a percentage from the point of origin of the gradient to the outer edge of the gradient. |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
-   
-
+|GradientStopPosition  <br/> |The position of the gradient stop along the direction of the line gradient, as a percentage from the point of origin of the gradient to the outer edge of the gradient. |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |  

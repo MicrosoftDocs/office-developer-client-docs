@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the **EntryID** of the Outlook Notes folder.
   
-||Value|
+|**Value**|**Description**|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IPM_NOTE_ENTRYID  <br/> |
 |Identifier:  <br/> |0x36D3  <br/> |
@@ -41,9 +41,7 @@ This property is stored in the Inbox folder as well as the root folder of the me
 
 5. If opening the root folder is successful, then use the returned reference to the **IMAPIFolder** object and **IMAPIProp::GetProps** to obtain the desired property.
 
-## Related resources
-
-### Protocol specifications
+## Protocol specifications
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
@@ -57,7 +55,7 @@ This property is stored in the Inbox folder as well as the root folder of the me
   
 > Specifies methods for connecting to and configuring mailboxes as delegates, and interactions with message and calendar objects when they act on behalf of another user.
 
-### Header files
+## Header files
 
 Mapidefs.h
   
@@ -69,10 +67,7 @@ Mapitags.h
 
 ## See also
 
-[MAPI Properties](mapi-properties.md)
-  
-[MAPI Canonical Properties](mapi-canonical-properties.md)
-  
-[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
-  
+[MAPI Properties](mapi-properties.md)  
+[MAPI Canonical Properties](mapi-canonical-properties.md)  
+[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)  
 [Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
