@@ -1,9 +1,7 @@
 ---
-title: "IMAPITableAdvise"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "IMAPITableAdvise" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -13,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e8b5d21e-dc14-4b61-96b3-a51bcfa0d232
-description: "Last modified: March 09, 2015"
+description: "Registers an advise sink object to receive notification of specified events affecting the table."
 ---
 
 # IMAPITable::Advise

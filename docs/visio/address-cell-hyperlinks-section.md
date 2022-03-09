@@ -24,13 +24,13 @@ You can also set the value of the Address cell in the **Hyperlinks** dialog box 
   
 To get a reference to the Address cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-||Value|
+|**Value**|**Description**|
 |:-----|:-----|
 |Cell name:  <br/> |Hyperlink. *name*  .Address  where Hyperlink. *name* is the name of the hyperlink row  <br/> |
 
 To get a reference to the Address cell by name from another formula, or from a program, by using the **CellsU** property, use:
   
-||Value|
+|**Value**|**Description**|
 |:-----|:-----|
 | Section index:  <br/> |**visSectionHyperlink** <br/> |
 | Row index:  <br/> |**visRow1stHyperlink** +  *i*            where  *i*  = 0, 1, 2... |

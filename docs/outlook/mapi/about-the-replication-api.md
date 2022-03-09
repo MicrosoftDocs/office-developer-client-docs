@@ -1,12 +1,11 @@
 ---
 title: "About the Replication API"
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 5133045a-b1e2-7728-5cd5-6d85eb940cf9
-description: "Last modified: June 25, 2012"
- 
+description: "Provides the functionality for a MAPI message store provider to synchronize Outlook items between a server and a private .pst-based local store that is created for that provider."
  
 ---
 

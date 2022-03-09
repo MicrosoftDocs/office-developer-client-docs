@@ -1,9 +1,7 @@
 ---
-title: "ADRENTRY"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "ADRENTRY" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -22,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes zero or more properties that belong to a recipient.
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 

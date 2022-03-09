@@ -9,7 +9,7 @@ f1_keywords:
  
 ms.localizationpriority: medium
 ms.assetid: 86fe25ed-590d-b2f0-5dfe-9746a19c6b04
-description: "Determines the amount of horizontal space between shapes on the drawing page when you lay out shapes by using the Configure Layout dialog box (on the Design tab, in the Layout group, click Re-Layout Page, and then click More Layout Options)."
+description: "Determines the amount of horizontal space between shapes on the drawing page when you lay out shapes by using the Configure Layout dialog box."
 ---
 
 # AvenueSizeX Cell (Page Layout Section)
@@ -24,13 +24,13 @@ The dynamic grid uses the setting in the AvenueSizeX cell when only one shape is
   
 To get a reference to the AvenueSizeX cell by name from another formula, or from a program by using the **CellsU** property, use:
   
-||Value|
+|**Value**|**Description**|
 |:-----|:-----|
 | Cell name:  <br/> | AvenueSizeY  <br/> |
 
 To get a reference to the AvenueSizeX cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-||Value|
+|**Value**|**Description**|
 |:-----|:-----|
 | Section index:  <br/> |**visSectionObject** <br/> |
 | Row index:  <br/> |**visRowPageLayout** <br/> |
