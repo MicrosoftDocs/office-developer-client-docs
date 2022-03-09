@@ -14,11 +14,11 @@ description: "Returns the difference in saturation between color1 and color2."
 
 # SATDIFF Function
 
-Returns the difference in saturation between  _color1_ and  _color2_.
+Returns the difference in saturation between _color1_ and _color2_.
   
 ## Syntax
 
-SATDIFF(** *color1* **, ** *color2* ** ) 
+SATDIFF(***color1***, ***color2*** )
   
 ### Parameters
 
@@ -26,9 +26,8 @@ SATDIFF(** *color1* **, ** *color2* ** )
 |:-----|:-----|:-----|:-----|
 | _color1_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the first color. |
 | _color2_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the second color. |
-   
+
 ### Return value
 
 Numeric
   
-

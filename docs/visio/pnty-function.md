@@ -16,26 +16,25 @@ description: "Returns the y-coordinate of a point."
 
 # PNTY Function
 
-Returns the  _y_-coordinate of a point.
+Returns the _y_-coordinate of a point.
   
 ## Syntax
 
-PNTX(** *point* ** ) 
+PNTX(* _point_** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _point_ <br/> |Required  <br/> |**Number** <br/> |The  _y_-coordinate of the point. |
-   
+| _point_ <br/> |Required  <br/> |**Number** <br/> |The _y_-coordinate of the point. |
+
 ### Return value
 
 Number
   
 ## Example
 
-PNTY(PNT(7,12)) 
+PNTY(PNT(7,12))
   
-Returns 12. 
+Returns 12.
   
-

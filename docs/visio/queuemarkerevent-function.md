@@ -16,28 +16,27 @@ description: "Causes the application to fire a marker event to your add-on, Micr
 
 # QUEUEMARKEREVENT Function
 
-Causes the application to fire a marker event to your add-on, Microsoft Visual Basic for Applications (VBA) code, or COM add-in. 
+Causes the application to fire a marker event to your add-on, Microsoft Visual Basic for Applications (VBA) code, or COM add-in.
   
 ## Syntax
 
-QUEUEMARKEREVENT (** *event_string* ** ) 
+QUEUEMARKEREVENT (***event_string*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _event_string_ <br/> |Required  <br/> |**String** <br/> | The string to pass to your event handler. |
-   
+| *event_string* <br/> |Required  <br/> |**String** <br/> | The string to pass to your event handler. |
+
 ## Remarks
 
-The QUEUEMARKEREVENT function provides developers with a way to notify their code from a ShapeSheet cell, and pass solution-specific information. When the cell containing the formula with the QUEUEMARKEREVENT function is evaluated, the application fires a marker event and passes  _event_string_ to all event handlers that are listening to the **MarkerEvent** event. 
+The QUEUEMARKEREVENT function provides developers with a way to notify their code from a ShapeSheet cell, and pass solution-specific information. When the cell containing the formula with the QUEUEMARKEREVENT function is evaluated, the application fires a marker event and passes *event_string* to all event handlers that are listening to the **MarkerEvent** event.
   
-For more information about marker events, see the **QueueMarkerEvent** method and **MarkerEvent** event topics in the Microsoft Visio Automation Reference. 
+For more information about marker events, see the **QueueMarkerEvent** method and **MarkerEvent** event topics in the Microsoft Visio Automation Reference.
   
 ## Example
 
-QUEUEMARKEREVENT ("MyCustomNotification") 
+QUEUEMARKEREVENT ("MyCustomNotification")
   
-Causes the application to fire a marker event, and passes the string "MyCustomNotification" to event handlers that are listening to the **MarkerEvent** event. 
+Causes the application to fire a marker event, and passes the string "MyCustomNotification" to event handlers that are listening to the **MarkerEvent** event.
   
-

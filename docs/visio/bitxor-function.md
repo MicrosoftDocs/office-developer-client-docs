@@ -20,15 +20,15 @@ Returns a 16-bit binary number in which each bit is set to 1 if the correspondin
   
 ## Syntax
 
-BITXOR(** *binary number1* **, ** *binary number2* ** ) 
+BITXOR(***binary number1***, ***binary number2*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _binary number1_ <br/> |Required  <br/> |**Numeric** <br/> |The first 16-bit binary number. |
-| _binary number2_ <br/> |Required  <br/> |**Numeric** <br/> |The second 16-bit binary number. |
-   
+| *binary number1* <br/> |Required  <br/> |**Numeric** <br/> |The first 16-bit binary number. |
+| *binary number2* <br/> |Required  <br/> |**Numeric** <br/> |The second 16-bit binary number. |
+
 ### Return value
 
 16-bit Binary
@@ -39,4 +39,3 @@ BITXOR(12,6)
   
 Returns 10. The 12 = 0...01100. The 6 = 0...00110. Therefore, BITXOR(12,6) = 0...01010.
   
-

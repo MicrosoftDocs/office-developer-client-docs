@@ -14,11 +14,11 @@ description: "Modifies the color by increasing its luminosity by the amount (pos
 
 # TINT Function
 
-Modifies the color by increasing its luminosity by the amount (positive or negative) specified in the _int_ parameter. 
+Modifies the color by increasing its luminosity by the amount (positive or negative) specified in the _int_ parameter.
   
 ## Syntax
 
-TINT(** *color* **, ** *int* ** ) 
+TINT(***color***, ***int*** )
   
 ### Parameters
 
@@ -26,13 +26,12 @@ TINT(** *color* **, ** *int* ** )
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the color. |
 | _int_ <br/> |Required  <br/> |**Integer** <br/> |The amount by which to increase the luminosity of the color. Can be positive or negative. |
-   
+
 ### Return value
 
  **RGB**
   
 ## Remarks
 
-The upper and lower limits of luminosity are 0 and 240 respectively. There is no limit on the size of the integer you can pass for the  _int_ parameter, but luminosity never exceeds these limits. 
+The upper and lower limits of luminosity are 0 and 240 respectively. There is no limit on the size of the integer you can pass for the _int_ parameter, but luminosity never exceeds these limits.
   
-

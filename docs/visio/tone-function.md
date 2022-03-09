@@ -14,11 +14,11 @@ description: "Modifies the color by decreasing its saturation by the amount spec
 
 # TONE Function
 
-Modifies the color by decreasing its saturation by the amount specified in the _int_ parameter. 
+Modifies the color by decreasing its saturation by the amount specified in the _int_ parameter.
   
 ## Syntax
 
-TONE(** *color* **, ** *int* ** ) 
+TONE(***color***, ***int***)
   
 ### Parameters
 
@@ -26,13 +26,12 @@ TONE(** *color* **, ** *int* ** )
 |:-----|:-----|:-----|:-----|
 | _color_ <br/> |Required  <br/> |**Numeric** <br/> |The Microsoft Visio color index or RGB value of the color. |
 | _int_ <br/> |Required  <br/> |**Integer** <br/> |The amount by which to decrease the saturation of the color. Can be positive or negative. |
-   
+
 ### Return value
 
  **RGB**
   
 ## Remarks
 
-The upper and lower limits of saturation are 0 and 240 respectively. There is no limit on the size of the integer you can pass for the  _int_ parameter, but saturation never exceeds these limits. 
+The upper and lower limits of saturation are 0 and 240 respectively. There is no limit on the size of the integer you can pass for the _int_ parameter, but saturation never exceeds these limits.
   
-

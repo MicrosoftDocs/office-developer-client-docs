@@ -1,7 +1,5 @@
 ---
-title: "BITNOT Function"
- 
- 
+title: "BITNOT Function" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,14 +18,14 @@ Returns a 16-bit binary number in which each bit is set to 1 only if the corresp
   
 ## Syntax
 
-BITNOT(** *binary number* ** ) 
+BITNOT(***binary number*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _binary number_ <br/> |Required  <br/> |**Numeric** <br/> |A 16-bit binary number. |
-   
+| *binary number* <br/> |Required  <br/> |**Numeric** <br/> |A 16-bit binary number. |
+
 ### Return value
 
 16-bit Binary
@@ -38,4 +36,3 @@ BITNOT(6)
   
 Returns 65529. The 6 = 0...00110. Therefore, BITNOT(6) = 1...11001.
   
-

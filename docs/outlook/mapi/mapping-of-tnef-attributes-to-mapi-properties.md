@@ -14,9 +14,7 @@ description: "Last modified: March 09, 2015"
 
 # Mapping of TNEF Attributes to MAPI Properties
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 The following table lists all the attributes defined in the TNEF implementation and their mappings to MAPI properties. In some cases, multiple MAPI properties are encoded as a single attribute. Some attributes have extended descriptions later in this section.
   
@@ -43,7 +41,7 @@ The following table lists all the attributes defined in the TNEF implementation 
 |**attMessageClass** <br/> |**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |
 |**attMessageID** <br/> |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) See [TNEF Correlation in X.400 Gateways and Transports](tnef-correlation-in-x-400-gateways-and-transports.md). |
 |**attMessageStatus** <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
-|**attOriginalMessageClass** <br/> |**PR_ORIG_MESSAGE_CLASS ** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md))  <br/> |
+|**attOriginalMessageClass** <br/> |**PR_ORIG_MESSAGE_CLASS** ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md))  <br/> |
 |**attOwner** <br/> |See [attOwner](attowner.md). |
 |**attParentID** <br/> |**PR_PARENT_KEY** (**PidTagParentKey**) This property has been deprecated. See [API Elements Deprecated in This Edition](api-elements-deprecated-in-this-edition.md) for more information. |
 |**attPriority** <br/> |**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
@@ -51,5 +49,3 @@ The following table lists all the attributes defined in the TNEF implementation 
 |**attRequestRes** <br/> |**PR_RESPONSE_REQUESTED** ([PidTagResponseRequested](pidtagresponserequested-canonical-property.md))  <br/> |
 |**attSentFor** <br/> |**PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md))  <br/> |
 |**attSubject** <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
-   
-

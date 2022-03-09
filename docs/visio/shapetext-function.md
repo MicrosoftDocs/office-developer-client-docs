@@ -1,9 +1,7 @@
 ---
-title: "SHAPETEXT Function"
- 
- 
+title: "SHAPETEXT Function" 
 manager: soliver
-ms.date: 03/09/2015
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -16,19 +14,19 @@ description: "Gets the text from a shape."
 
 # SHAPETEXT Function
 
-Gets the text from a shape. 
+Gets the text from a shape.
   
 ## Syntax
 
-SHAPETEXT (** *shapename!TheText* ** ** *[,flag]* ** ) 
+SHAPETEXT (***shapename!TheText*** ***[,flag]*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _shapename!TheText_ <br/> |Required  <br/> ||A reference to the cell named TheText in the target shape.  _Shapename!_ is the name of the shape from which you want to retrieve the text. |
-| _flag_ <br/> |Optional  <br/> |**Numeric** <br/> |A bit that specifies the format of the text. The default flag (0) shows the text exactly as it is shown in the shape. |
-   
+| *shapename!TheText* <br/> |Required  <br/> ||A reference to the cell named TheText in the target shape. *Shapename!* is the name of the shape from which you want to retrieve the text. |
+| *flag* <br/> |Optional  <br/> |**Numeric** <br/> |A bit that specifies the format of the text. The default flag (0) shows the text exactly as it is shown in the shape. |
+
 ### Return value
 
 String
@@ -47,7 +45,7 @@ You can use any combination of the following flags with the SHAPETEXT function.
 |16  <br/> |Convert carriage returns and line feeds to spaces. |
 |32  <br/> |Convert typographer quotes to regular quotes. |
 |64  <br/> |Convert adjacent white space to a single space. |
-   
+
 ## Example 1
 
 SHAPETEXT(sheetN!theText)
@@ -66,4 +64,3 @@ SHAPETEXT(theText, 84)
   
 Returns the text of the current shape. It also converts adjacent white space to a single space (64), converts carriage returns and line feeds to spaces (16), and converts tabs to a single space (4). The sum of these flags is 84.
   
-

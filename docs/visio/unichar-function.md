@@ -16,26 +16,25 @@ description: "Returns the Unicode character from a number."
 
 # UNICHAR Function
 
-Returns the Unicode character from a number. 
+Returns the Unicode character from a number.
   
 ## Syntax
 
-UNICHAR (** *number* ** ) 
+UNICHAR (***number***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Integer** <br/> |An integer between 1 and 65,535 (inclusive), or the function returns an error. |
-   
+| *number* <br/> |Required  <br/> |**Integer** <br/> |An integer between 1 and 65,535 (inclusive), or the function returns an error. |
+
 ## Remarks
 
-The resulting string is one Unicode character (two characters) in length. 
+The resulting string is one Unicode character (two characters) in length.
   
 ## Example
 
-UNICHAR(65) 
+UNICHAR(65)
   
-Returns A (Latin Capital Letter A) 
+Returns A (Latin Capital Letter A)
   
-
