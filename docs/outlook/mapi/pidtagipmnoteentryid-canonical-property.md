@@ -1,9 +1,7 @@
 ---
-title: "PidTagIpmNoteEntryId Canonical Property"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "PidTagIpmNoteEntryId Canonical Property" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -22,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the **EntryID** of the Outlook Notes folder.
   
-|||
+||Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IPM_NOTE_ENTRYID  <br/> |
 |Identifier:  <br/> |0x36D3  <br/> |

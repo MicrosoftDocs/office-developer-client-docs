@@ -30,16 +30,16 @@ You can also set this value using the slider control in the **Fill** dialog box 
   
 To get a reference to the FillForegndTrans cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |FillForegndTrans  <br/> |
+|**Cell name:**  <br/> |FillForegndTrans  <br/> |
    
 To get a reference to the FillForegndTrans cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowFill** <br/> |
-|Cell index:  <br/> |**visFillForegndTrans** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowFill** <br/> |
+|**Cell index:**  <br/> |**visFillForegndTrans** <br/> |
    
 
