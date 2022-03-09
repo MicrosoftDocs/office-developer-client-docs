@@ -20,22 +20,21 @@ Returns a background page name as a string.
   
 ## Syntax
 
-BKGPAGENAME (** *langID_opt* ** ) 
+BKGPAGENAME (***langID_opt*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _langID_opt_ <br/> |Optional  <br/> |**Numeric** <br/> |Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language. |
-   
+| *langID_opt* <br/> |Optional  <br/> |**Numeric** <br/> |Use to specify a language for the string the function returns. Use 0 (default value) to specify the local language. Use 750 to specify universal language. |
+
 ### Return value
 
 String
   
 ## Remarks
 
-If the page for which you are using the function doesn't have a background page, the string "\<no background\>" is returned. 
+If the page for which you are using the function doesn't have a background page, the string "\<no background\>" is returned.
   
-If you pass an illegal language code, the local language is used. 
+If you pass an illegal language code, the local language is used.
   
-
