@@ -18,18 +18,16 @@ Determines the effect scheme of the theme applied to a shape, as an integer.
   
 ## Remarks
 
-To get a reference to the **EffectSchemeIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
+To get a reference to the **EffectSchemeIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:
   
 |||
 |:-----|:-----|
 | Cell name:  <br/> | EffectSchemeIndex  <br/> |
-   
-To get a reference to the **EffectSchemeIndex** cell by index from a program, use the **CellsSRC** property with the following arguments: 
+
+To get a reference to the **EffectSchemeIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionObject** <br/> |
 | Row index:  <br/> |**visRowThemeProperties** <br/> |
-| Cell index:  <br/> |**visEffectSchemeIndex ** <br/> |
-   
-
+| Cell index:  <br/> |**visEffectSchemeIndex** <br/> |

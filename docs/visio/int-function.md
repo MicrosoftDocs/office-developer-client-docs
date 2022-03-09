@@ -20,14 +20,14 @@ Rounds a number down to the next integer.
   
 ## Syntax
 
-INT(** *number* ** ) 
+INT(***number*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round down. |
-   
+| *number* <br/> |Required  <br/> |**Number** <br/> |The number to round down. |
+
 ## Example 1
 
 INT(7.2)
@@ -40,4 +40,3 @@ INT(-7.2)
   
 Returns -8.
   
-

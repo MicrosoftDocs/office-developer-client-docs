@@ -20,19 +20,19 @@ Returns the result of expression evaluated in srcUnit as a string formatted acco
   
 ## Syntax
 
-FORMATEX(** *expression* **," ** *format* ** ",[ ** *srcUnit* ** ],[ ** *dstUnit* ** ],[ ** *langID* ** ][, ** *calID* ** ]) 
+FORMATEX(***expression***," ***format*** ",[ ***srcUnit*** ],[ ***dstUnit*** ],[ ***langID*** ][, ***calID*** ])
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**String** <br/> |A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. |
-| _format_ <br/> |Required  <br/> |**String** <br/> |The format picture used to format the string. For more information about format pictures, see [About Format Pictures](about-format-pictures.md). |
-| _srcUnit_ <br/> |Optional  <br/> |**String** <br/> | Units used to evaluate expression (in, cm, and so forth). |
-| _dstUnit_ <br/> |Optional  <br/> |**String** <br/> |Units to use for the result of expression (in, cm, and so forth). |
-| _langID_ <br/> |Optional  <br/> |**Number** <br/> |The language used when formatting Microsoft Office System date/time pictures. |
-| _calID_ <br/> |Optional  <br/> |**Number** <br/> |The calendar used when formatting Microsoft Office System date/time pictures. |
-   
+| *expression* <br/> |Required  <br/> |**String** <br/> |A combination of constants, operators, functions, and references to ShapeSheet cells that results in a value. |
+| *format* <br/> |Required  <br/> |**String** <br/> |The format picture used to format the string. For more information about format pictures, see [About Format Pictures](about-format-pictures.md). |
+| *srcUnit* <br/> |Optional  <br/> |**String** <br/> | Units used to evaluate expression (in, cm, and so forth). |
+| *dstUnit* <br/> |Optional  <br/> |**String** <br/> |Units to use for the result of expression (in, cm, and so forth). |
+| *langID* <br/> |Optional  <br/> |**Number** <br/> |The language used when formatting Microsoft Office System date/time pictures. |
+| *calID* <br/> |Optional  <br/> |**Number** <br/> |The calendar used when formatting Microsoft Office System date/time pictures. |
+
 ### Return value
 
 String
@@ -49,8 +49,7 @@ Returns an error if the result of expression and the type expected in format are
   
 ## Example
 
-FORMATEX(5.5, "0.00 u", "cm", "ft") 
+FORMATEX(5.5, "0.00 u", "cm", "ft")
   
-Returns 0.18 feet. 
+Returns 0.18 feet.
   
-

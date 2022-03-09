@@ -14,27 +14,25 @@ description: "Determines whether a fill gradient is enabled for this shape."
 
 # FillGradientEnabled Cell (Gradient Properties Section)
 
-Determines whether a fill gradient is enabled for this shape. 
+Determines whether a fill gradient is enabled for this shape.
   
 |**Value**|**Description**|
 |:-----|:-----|
 |TRUE  <br/> |Gradient fill is displayed on the shape. |
 |FALSE  <br/> |Gradient fills are not displayed on the shape. |
-   
+
 ## Remarks
 
-To get a reference to the **FillGradientEnabled** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
+To get a reference to the **FillGradientEnabled** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:
   
 |||
 |:-----|:-----|
 | Cell name:  <br/> | FillGradientEnabled  <br/> |
-   
-To get a reference to the **FillGradientEnabled** cell by index from a program, use the **CellsSRC** property with the following arguments: 
+
+To get a reference to the **FillGradientEnabled** cell by index from a program, use the **CellsSRC** property with the following arguments:
   
 |||
 |:-----|:-----|
 | Section index:  <br/> |**visSectionObject** <br/> |
 | Row index:  <br/> |**visRowGradientProperties** <br/> |
-| Cell index:  <br/> |**visFillGradientEnabled ** <br/> |
-   
-
+| Cell index:  <br/> |**visFillGradientEnabled** <br/> |

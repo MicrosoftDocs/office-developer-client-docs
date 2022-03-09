@@ -1,9 +1,7 @@
 ---
-title: "DAYOFYEAR Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "DAYOFYEAR Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -16,11 +14,11 @@ description: "Returns an integer, 1 to 366, that represents the sequential day o
 
 # DAYOFYEAR Function
 
-Returns an integer, 1 to 366, that represents the sequential day of the year in  _datetime_ or  _expression_. The DAYOFYEAR function uses the Gregorian calendar.
+Returns an integer, 1 to 366, that represents the sequential day of the year in _datetime_ or _expression_. The DAYOFYEAR function uses the Gregorian calendar.
   
 ## Syntax
 
-DAYOFYEAR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+DAYOFYEAR(" ***datetime*** "| ***expression*** [, ***lcid*** ])
   
 ### Parameters
 
@@ -29,18 +27,18 @@ DAYOFYEAR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
 | _datetime_ <br/> |Required  <br/> |**String** <br/> |Any string commonly recognized as a date and time or a reference to a cell containing a date and time. |
 | _expression_ <br/> |Required  <br/> |**String** <br/> |Any expression that yields a date and time. |
 | _lcid_ <br/> |Optional  <br/> |**Number** <br/> |Specifies the locale identifier to be used in evaluating a non-local datetime. The locale identifier is a number described in the system header files. |
-   
+
 ### Return value
 
 Integer
   
 ## Remarks
 
-Any time component in  _datetime_ or  _expression_ is discarded. 
+Any time component in _datetime_ or _expression_ is discarded.
   
-The result corresponds to January 1 to December 31. No rounding is done. If  _datetime_ is missing or cannot be interpreted as a valid date or time, the function returns an error. 
+The result corresponds to January 1 to December 31. No rounding is done. If _datetime_ is missing or cannot be interpreted as a valid date or time, the function returns an error.
   
-The DAYOFYEAR function also accepts a single number value for  _expression_ where the integer portion of the result represents the number of days since December 30, 1899. 
+The DAYOFYEAR function also accepts a single number value for _expression_ where the integer portion of the result represents the number of days since December 30, 1899.
   
 ## Example 1
 
@@ -60,4 +58,3 @@ DAYOFYEAR(35580.6337)
   
 Returns 150.
   
-

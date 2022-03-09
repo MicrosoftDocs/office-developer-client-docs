@@ -20,18 +20,17 @@ Gets the value of a cell and doesn't recalculate the formula when the cell's val
   
 ## Syntax
 
-GETVAL(** *cellname* ** ) 
+GETVAL(***cellname*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellname_ <br/> |Required  <br/> |**String** <br/> |The name of the cell to get the value of. |
-   
+| *cellname* <br/> |Required  <br/> |**String** <br/> |The name of the cell to get the value of. |
+
 ## Example
 
-GETVAL(PinX) + GETVAL(PinY) + Width 
+GETVAL(PinX) + GETVAL(PinY) + Width
   
-Returns the sum of the value of the PinX, PinY, and Width cells. 
+Returns the sum of the value of the PinX, PinY, and Width cells.
   
-
