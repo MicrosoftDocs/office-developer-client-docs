@@ -22,16 +22,16 @@ Adjusts the brightness of a bitmap image. Decrease brightness of an image by ent
 
 To get a reference to the Brightness cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Brightness  <br/> |
+| **Cell name:**  <br/> | Brightness  <br/> |
    
 To get a reference to the Brightness cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowImage** <br/> |
-| Cell index:  <br/> |**visImageBrightness** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowImage** <br/> |
+| **Cell index:**  <br/> |**visImageBrightness** <br/> |
    
 

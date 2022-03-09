@@ -22,16 +22,16 @@ Determines the distance between the left border of the text block and the text i
 
 To get a reference to the LeftMargin cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LeftMargin  <br/> |
+| **Cell name:**  <br/> | LeftMargin  <br/> |
    
 To get a reference to the LeftMargin cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowText** <br/> |
-| Cell index:  <br/> |**visTxtBlkLeftMargin** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowText** <br/> |
+| **Cell index:**  <br/> |**visTxtBlkLeftMargin** <br/> |
    
 

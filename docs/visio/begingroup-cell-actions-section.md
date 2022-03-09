@@ -24,16 +24,16 @@ Indicates whether a separator is inserted into the menu above this action.
 
 To get a reference to the BeginGroup cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Actions. *name*.BeginGroup where Actions. *name* is the name of the Actions row  <br/> |
+|**Cell name:**  <br/> |Actions. *name*.BeginGroup where Actions. *name* is the name of the Actions row  <br/> |
    
 To get a reference to the BeginGroup cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visActionBeginGroup** <br/> |
+|**Section index:**  <br/> |**visSectionAction** <br/> |
+|**Row index:**  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visActionBeginGroup** <br/> |
    
 

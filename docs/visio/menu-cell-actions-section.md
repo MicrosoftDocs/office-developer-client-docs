@@ -25,14 +25,14 @@ To insert a separator into the menu above this item, use the BeginGroup cell. To
   
 To get a reference to the Menu cell by name from another formula, or from a program by using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Actions. *name*  .Menuwhere Actions. *name* is the name of the Actions row.  <br/> |
+|**Cell name:**  <br/> |Actions. *name*  .Menuwhere Actions. *name* is the name of the Actions row.  <br/> |
 
 To get a reference to the Menu cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*  where i = 0, 1, 2, ... |
-|Cell index:  <br/> |**visActionMenu** <br/> |
+|**Section index:**  <br/> |**visSectionAction** <br/> |
+|**Row index:**  <br/> |**visRowAction** +  *i*  where i = 0, 1, 2, ... |
+|**Cell index:**  <br/> |**visActionMenu** <br/> |

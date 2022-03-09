@@ -31,16 +31,16 @@ You can also set the value of this cell on the **Layout and Routing** tab in the
   
 To get a reference to the LineAdjustTo cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LineAdjustTo  <br/> |
+|**Cell name:**  <br/> |LineAdjustTo  <br/> |
    
 To get a reference to the LineAdjustTo cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPageLayout** <br/> |
-|Cell index:  <br/> |**visPLOLineAdjustTo** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPageLayout** <br/> |
+|**Cell index:**  <br/> |**visPLOLineAdjustTo** <br/> |
    
 
