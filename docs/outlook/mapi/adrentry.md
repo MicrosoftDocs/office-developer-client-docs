@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5fa091a4-3a84-4881-91b3-e34fd9ca6f38
-description: "Last modified: March 09, 2015"
+description: "Describes zero or more properties that belong to a recipient."
 ---
 
 # ADRENTRY
