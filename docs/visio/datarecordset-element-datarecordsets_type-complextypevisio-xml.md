@@ -18,7 +18,7 @@ Stores, formats, refreshes, and exposes data queried from a database in Microsof
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

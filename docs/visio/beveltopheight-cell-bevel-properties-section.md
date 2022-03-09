@@ -20,16 +20,16 @@ Determines the height of a shape's top bevel in points.
 
 To get a reference to the **BevelTopHeight** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | BevelTopHeight  <br/> |
+| **Cell name:**  <br/> | BevelTopHeight  <br/> |
    
 To get a reference to the **BevelTopHeight** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowBevelProperties** <br/> |
-| Cell index:  <br/> |**visBevelTopHeight** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowBevelProperties** <br/> |
+| **Cell index:**  <br/> |**visBevelTopHeight** <br/> |
    
 

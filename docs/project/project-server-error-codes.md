@@ -1367,7 +1367,7 @@ The error codes in Table 26 are for **StatusReports** methods in the **PWA** web
 |WSSURIInvalidFormat = 16409  <br/> |The format for a SharePoint web URI is not valid. |
 |WSSSyncReportingDataFailed = 16410  <br/> |Failed to synchronize reporting data for SharePoint. |
 |WSSWorkspaceUrlPathTooLong = 16411  <br/> |SharePoint project workspace URL path too long. |
-|WSSWorkspaceNameContainsIllegalChars = 16412  <br/> |One or more characters in a SharePoint project site name are not valid. The following characters are not valid in a project name: / " : \< \> | , . ' ? \* #  <br/> |
+|WSSWorkspaceNameContainsIllegalChars = 16412  <br/> |One or more characters in a SharePoint project site name are not valid. The following characters are not valid in a project name: / " : \< \> \| , . ' ? \* #  <br/> |
 |WSSInvalidWssServerUid = 16413  <br/> |The SharePoint server GUID is not valid. |
 |WSSSyncUsersFailed = 16414  <br/> |Failed to synchronize Project Server users with SharePoint. |
 |WSSWrongWebTemplateLCID = 16415  <br/> |The SharePoint web template locale identifier (language ID) is not valid. |
