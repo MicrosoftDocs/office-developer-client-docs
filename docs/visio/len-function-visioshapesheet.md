@@ -20,22 +20,21 @@ Returns the number of characters in a text string.
   
 ## Syntax
 
-LEN (** *text* ** ) 
+LEN (***text*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Required  <br/> |**String** <br/> |The character string whose length you want to find. |
-   
+| *text* <br/> |Required  <br/> |**String** <br/> |The character string whose length you want to find. |
+
 ### Return value
 
 Numeric
   
 ## Example
 
-LEN ("Seattle, WA") 
+LEN ("Seattle, WA")
   
-Returns 11. 
+Returns 11.
   
-

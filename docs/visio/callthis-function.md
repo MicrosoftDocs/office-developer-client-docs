@@ -20,7 +20,7 @@ Calls a procedure in a Microsoft Visual Basic for Applications (VBA) project.
   
 ## Syntax
 
-CALLTHIS(" ***procedure*** ",[" ** *project* ** "],[ ** *arg1* **, ** *arg2* **,...])
+CALLTHIS(" ***procedure*** ",[" ***project*** "],[ ***arg1* **, ***arg2* **,...])
   
 ### Parameters
 

@@ -17,16 +17,14 @@ description: "Returns the identifier (ID) of the specified font."
 Returns the identifier (ID) of the specified font.
   
 > [!NOTE]
-> It is recommended to use [FONT](font-function.md) function, which is similar to the **FONTTOID** function. In Microsoft Visio 2013, the **FONT** function was introduced to replace **FONTTOID**. 
+> It is recommended to use [FONT](font-function.md) function, which is similar to the **FONTTOID** function. In Microsoft Visio 2013, the **FONT** function was introduced to replace **FONTTOID**.
   
 ## Syntax
 
-FONTTOID(** *font_name* ** ) 
+FONTTOID(***font_name*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _font_name_ <br/> |Required  <br/> |**String** <br/> |The name of the font. |
-   
-
+| *font_name* <br/> |Required  <br/> |**String** <br/> |The name of the font. |

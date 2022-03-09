@@ -20,21 +20,21 @@ Returns the value of a color's luminosity component.
   
 ## Syntax
 
-LUM(** *expression* ** ) 
+LUM(**_expression_** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Required  <br/> |**Numeric** <br/> |The index of a color in the document's color table, or a reference to a cell that contains a color index. |
-   
+
 ### Return value
 
 Number
   
 ## Remarks
 
-The return value is a number in the range 0 to 240, inclusive. The function returns 0 for invalid input. 
+The return value is a number in the range 0 to 240, inclusive. The function returns 0 for invalid input.
   
 ## Example 1
 
@@ -54,4 +54,3 @@ LUM(HSL(10, 20, 30))
   
 Returns 30.
   
-

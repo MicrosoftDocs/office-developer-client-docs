@@ -16,11 +16,11 @@ description: "Returns an integer, 0 to 23, representing the hour of the day of d
 
 # HOUR Function (VisioShapeSheet)
 
-Returns an integer, 0 to 23, representing the hour of the day of  _datetime_ or  _expression_.
+Returns an integer, 0 to 23, representing the hour of the day of _datetime_ or _expression_.
   
 ## Syntax
 
-HOUR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ]) 
+HOUR(" **_datetime_** "| **_expression_** [, **_lcid_** ])
   
 ### Parameters
 
@@ -29,16 +29,16 @@ HOUR(" ** *datetime* ** "| ** *expression* ** [, ** *lcid* ** ])
 | _datetime_ <br/> |Required  <br/> |**String** <br/> | A string commonly recognized as a date and time or a reference to a cell containing a date and time. |
 | _expression_ <br/> |Required  <br/> |**Varies** <br/> |An expression that yields a date and time. |
 | _lcid_ <br/> |Optional  <br/> |**Number** <br/> | A locale identifier to be used in evaluating a nonlocal datetime. The locale identifier is a number described in the system header files. |
-   
+
 ## Remarks
 
-The date component in  *datetime*  and  *expression*  is discarded. 
+The date component in _datetime_ and _expression_ is discarded.
   
-No rounding is done. If the  *datetime*  is missing or cannot be converted to a valid result, the function returns an error. 
+No rounding is done. If the _datetime_ is missing or cannot be converted to a valid result, the function returns an error.
   
-The returned value is formatted according to the time style set by the system's current Regional Settings. 
+The returned value is formatted according to the time style set by the system's current Regional Settings.
   
-The HOUR function also accepts a single number value for  *expression*  where the decimal portion of the result represents the fraction of a day since midnight. 
+The HOUR function also accepts a single number value for _expression_ where the decimal portion of the result represents the fraction of a day since midnight.
   
 ## Example 1
 
@@ -64,4 +64,3 @@ HOUR("5/30/1997")
   
 Returns 0.
   
-

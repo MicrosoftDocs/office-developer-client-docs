@@ -30,7 +30,7 @@ The **EditRecord** data block has the following arguments.
 
 After the **EditRecord** statement, you can insert a block of commands that will execute before the changes to the record are committed. The following actions are available in an **EditRecord** data block. 
   
-||
+|Action |
 |:-----|
 |[CancelRecordChange Macro Action](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
 |[Comment Macro Statement](comment-macro-block-access-custom-web-app.md) <br/> |

@@ -23,12 +23,13 @@ The Quick Filing dialog box in OneNote 2013 is a customizable dialog box that al
   
 Within the dialog box, users can navigate the All Notebooks hierarchy to look for specific locations or search the OneNote tree structure by typing into the text box. Aspects of the dialog box that can be customized include the title, description, recent results list, check box text and state, tree depth, buttons, and selectable location types.
 
-You can access the Quick Filing dialog box functionality through two OneNote 2013 interfaces. The **IQuickFilingDialog** interface allows users to instantiate, set up, and run the dialog box. The **IQuickFilingDialogCallback** interface is called after the dialog box is closed. The dialog box is run in the OneNote process, so a mechanism is needed to keep the dialog box's thread running and then to capture the user's selection and the state of the dialog box when it is closed. 
+You can access the Quick Filing dialog box functionality through two OneNote 2013 interfaces. The **IQuickFilingDialog** interface allows users to instantiate, set up, and run the dialog box. The **IQuickFilingDialogCallback** interface is called after the dialog box is closed. The dialog box is run in the OneNote process, so a mechanism is needed to keep the dialog box's thread running and then to capture the user's selection and the state of the dialog box when it is closed.
   
 ## IQuickFilingDialog interface
+
 <a name="odc_IQuickFilingDialog"> </a>
 
-This interface allows the user to customize and run the dialog box. The user can instantiate a dialog box through the **Application** class by using the **Application.QuickFilingDialog** method. The method returns an instance of the dialog box. Once the properties of the dialog box are set, the **IQuickFilingDialog.Run** method is used to run the dialog box. This method runs the dialog box on a new thread. 
+This interface allows the user to customize and run the dialog box. The user can instantiate a dialog box through the **Application** class by using the **Application.QuickFilingDialog** method. The method returns an instance of the dialog box. Once the properties of the dialog box are set, the **IQuickFilingDialog.Run** method is used to run the dialog box. This method runs the dialog box on a new thread.
   
 **Properties**
 
@@ -44,7 +45,7 @@ This interface allows the user to customize and run the dialog box. The user can
 |**Position** <br/> |tagPOINT  <br/> |Gets or sets the position of the window in relation to the screen. By default, the dialog box appears in the middle of the parent window or the desktop. |
 |**SelectedItem** <br/> |string  <br/> |Gets the object ID of the OneNote location selected by the user when the dialog box is closed. If the user clicks the **Cancel** button, the object is set to null. |
 |**PressedButton** <br/> |ulong  <br/> |Gets which button was clicked when the dialog box was closed. If the **Cancel** button was clicked, this property returns a value of -1. All other buttons are assigned integer values from 0, incremented by 1 for each button added to the dialog box. The integer value of the default **OK** button is 0. |
-   
+
 ### Methods
 
 **SetRecentResults**
@@ -53,12 +54,12 @@ This interface allows the user to customize and run the dialog box. The user can
 |:-----|:-----|
 |**Description** <br/> |Sets what recent result list will be displayed in the Quick Filing dialog box, and indicates whether to include some special filing locations in the list. Users can select a recent result list from the [RecentResultType](enumerations-onenote-developer-reference.md#odc_RecentResultType) enumeration. Users can also choose to add the following options to the list: Current Section, Current Page, or Unfiled Notes. If **RecentResultType.rrtNone** is selected, no recent result list is shown. |
 |**Syntax** <br/> | `HRESULT SetRecentResults (`<br/>`[in]RecentResultType recentResults,`<br/>`[in]VARIANT_BOOL fShowCurrentSection,`<br/>`[in]VARIANT_BOOL fShowCurrentPage,`<br/>`[in]VARIANT_BOOL fShowUnfiledNotes);` <br/> |
-|**Parameters** <br/> | _recentResults_ &ndash; An object of type **RecentResultType** that indicates which recent result list, if any, should appear. If **rrtNone** is selected, no recent result list appears in the dialog box.<br/><br/>  _fShowCurrentSection_ &ndash; A Boolean value that indicates whether the current section should be included in the recent result list.<br/><br/>  _fShowCurrentPage_ &ndash; A Boolean value that indicates whether the current page should be included in the recent result list.<br/><br/>  _fShowUnfiledNotes_ &ndash; A Boolean value that indicates whether the Unfiled Notes section should be included in the recent result list. |
-   
+|**Parameters** <br/> | _recentResults_ &ndash; An object of type **RecentResultType** that indicates which recent result list, if any, should appear. If **rrtNone** is selected, no recent result list appears in the dialog box.<br/><br/>  _fShowCurrentSection_ &ndash; A Boolean value that indicates whether the current section should be included in the recent result list.<br/><br/> _fShowCurrentPage_ &ndash; A Boolean value that indicates whether the current page should be included in the recent result list.<br/><br/> _fShowUnfiledNotes_ &ndash; A Boolean value that indicates whether the Unfiled Notes section should be included in the recent result list. |
+
 > [!NOTE]
-> If a special filing location cannot be selected by using any of the buttons in the dialog box, it is not shown in the list. If no selectable item in the recent results list is found, no recent result list is displayed. 
+> If a special filing location cannot be selected by using any of the buttons in the dialog box, it is not shown in the list. If no selectable item in the recent results list is found, no recent result list is displayed.
   
-The following example uses the **SetRecentResults** method to display the current section, current page, and the Unfiled Notes section in the recent result list. 
+The following example uses the **SetRecentResults** method to display the current section, current page, and the Unfiled Notes section in the recent result list.
   
 ```cs
         static void Main(string[] args)
@@ -82,8 +83,8 @@ The following example uses the **SetRecentResults** method to display the curren
 |:-----|:-----|
 |**Description** <br/> |Allows users to add and customize buttons in the dialog box. Users can specify the text on the buttons and what elements of the OneNote hierarchy can be selected by each button. |
 |**Syntax** <br/> | `HRESULT AddButton (`<br/>`[in]BSTR bstrText,`<br/>`[in]HierarchyElement allowedElements,`<br/>`[in]HierarchyElement allowedReadOnlyElements,`<br/>`[in]VARIANT_BOOL fDefault);` <br/> |
-|**Parameters** <br/> | _bstrText_ &ndash; A string that specifies the text to appear on the button. To customize the default **OK** button, pass in a null value as **bstrText**.<br/>_allowedElements_ &ndash; A **HierarchyElement** that indicates what non-read-only OneNote hierarchy elements a user is allowed to select by using the button. For selecting multiple items, the user should pass in the **OR** operator for all the uint equivalent values of the **HierarchyElement** types allowed as a **HierarchyElement**.<br/><br/>  _allowedReadOnlyElements_ &ndash; A **HierarchyElement** that indicates what OneNote read-only hierarchy elements a user is allowed to select by using the button. For selecting multiple items, the user should pass in the **OR** operator for all the **uint** equivalents values of the **HierarchyElement** types allowed as a **HierarchyElement**.<br/><br/>  _fDefault_ &ndash; A Boolean value that specifies whether this button should be the default button. If multiple buttons are set as default, the last specified button becomes the default button. |
-   
+|**Parameters** <br/> | _bstrText_ &ndash; A string that specifies the text to appear on the button. To customize the default **OK** button, pass in a null value as **bstrText**.<br/>_allowedElements_ &ndash; A **HierarchyElement** that indicates what non-read-only OneNote hierarchy elements a user is allowed to select by using the button. For selecting multiple items, the user should pass in the **OR** operator for all the uint equivalent values of the **HierarchyElement** types allowed as a **HierarchyElement**.<br/><br/> _allowedReadOnlyElements_ &ndash; A **HierarchyElement** that indicates what OneNote read-only hierarchy elements a user is allowed to select by using the button. For selecting multiple items, the user should pass in the **OR** operator for all the **uint** equivalents values of the **HierarchyElement** types allowed as a **HierarchyElement**.<br/><br/> _fDefault_ &ndash; A Boolean value that specifies whether this button should be the default button. If multiple buttons are set as default, the last specified button becomes the default button. |
+
 The following example adds three buttons to the Quick Filing dialog box. The first one, **All**, can be selected by all elements in the OneNote hierarchy tree. The others, **Notebooks** and **Pages**, can be selected only if their corresponding elements, Notebooks and Pages, are selected.
   
 ```cs
@@ -117,8 +118,8 @@ The following example adds three buttons to the Quick Filing dialog box. The fir
 |**Description** <br/> |Displays the Quick Filing dialog box from a new thread. It takes a reference to the **IQuickFilingDialogCallback** interface, whose **OnDialogClosed** method will be called once the dialog box closes. |
 |**Syntax** <br/> | `HRESULT Run (`<br/>`[in]IQuickFilingDialogCallback piCallback);` <br/> |
 |**Parameters** <br/> | _piCallback_ &ndash; A reference to the **IQuickFilingDialogCallback** interface that will be instantiated once the dialog box closes. |
-   
-The following example uses the **Run** method to display the Quick Filing dialog box from a new thread. 
+
+The following example uses the **Run** method to display the Quick Filing dialog box from a new thread.
   
 ```cs
     class OpenQuickFilingDialog
@@ -144,7 +145,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 |**Description** <br/> |Indicates whether the hierarchy tree should be expanded or collapsed. |
 |**Syntax** <br/> | `HRESULT TreeCollapsedState(`<br/>`[in] TreeCollapsedStateType tcs);` <br/> |
 |**Parameters** <br/> | _tcs_ - Specifies whether the tree is expanded or collapsed. |
-   
+
 **NotebookFilterOut**
 
 |||
@@ -152,7 +153,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 |**Description** <br/> |Filters the list of notebooks shown by type. |
 |**Syntax** <br/> | `HRESULT NotebookFilterOut(`<br/>`[in] NotebookFilterOutType nfo);` <br/> |
 |**Parameters** <br/> | _nfo_ - Specifies the set of notebooks that are to be filtered out of the list  <br/> |
-   
+
 **ShowCreateNewNotebook**
 
 |||
@@ -160,7 +161,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 |**Description** <br/> |Displays the create new notebook option in the dialog. |
 |**Syntax** <br/> | `HRESULT ShowCreateNewNotebook ();` <br/> |
 |**Parameters** <br/> |None  <br/> |
-   
+
 **AddInitialEditor**
 
 |||
@@ -168,7 +169,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 |**Description** <br/> |Adds a user as an initial editor to a notebook in the Quick Filing dialog box. |
 |**Syntax** <br/> | `HRESULT AddInitialEditor (BSTR initialEditor);` <br/> |
 |**Parameters** <br/> | _initialEditor_ - The email address of the user you wish to add as an editor to the notebook. When the notebook is created via the Quick Filing dialog box, it is automatically shared with all Initial Editors. |
-   
+
 **ClearInitialEditors**
 
 |||
@@ -176,7 +177,7 @@ The following example uses the **Run** method to display the Quick Filing dialog
 |**Description** <br/> |Removes all initial editors from the Quick Filing dialog box. |
 |**Syntax** <br/> | `HRESULT ClearInitialEditors ();` <br/> |
 |**Parameters** <br/> |None  <br/> |
-   
+
 **ShowSharingHyperlink**
 
 |||
@@ -184,11 +185,12 @@ The following example uses the **Run** method to display the Quick Filing dialog
 |**Description** <br/> |Displays the Sharing Help Topic Hyperlink in the Quick Filing dialog box. |
 |**Syntax** <br/> | `HRESULT ShowSharingHyperlink();` <br/> |
 |**Parameters** <br/> |None  <br/> |
-   
+
 ## IQuickFilingDialogCallback interface
+
 <a name="odc_IQuickFilingDialog"> </a>
 
-This interface allows the user to access the dialog box properties after the dialog box closes. Once the dialog box closes, OneNote 2013 calls the **IQuickFilingDialogCallback.OnDialogClose** method in this interface. 
+This interface allows the user to access the dialog box properties after the dialog box closes. Once the dialog box closes, OneNote 2013 calls the **IQuickFilingDialogCallback.OnDialogClose** method in this interface.
   
 A class that inherits this interface has to be defined.
   
@@ -203,8 +205,8 @@ The following section describes the methods associated with the interfaces detai
 |**Description** <br/> |Enables users to add functionality to capture and use the user selection from the dialog box. This method is called after the Quick Filing dialog box is closed. This method is a function that **IQuickFilingDialogCallback** interfaces have to define. |
 |**Syntax** <br/> | `HRESULT OnDialogClosed (`<br/>`[in]IQuickFilingDialog dialog);` <br/> |
 |**Parameters** <br/> | _dialog_ &ndash; The **IQuickFilingDialog** object that called the **OnDialogClose** method. |
-   
-The following example is a sample **IQuickFilingDialogCallback** interface. The **OnDialogClose** method prints the user's selection from the Quick Filing dialog box to the console. 
+
+The following example is a sample **IQuickFilingDialogCallback** interface. The **OnDialogClose** method prints the user's selection from the Quick Filing dialog box to the console.
   
 ```cs
     class Callback : IQuickFilingDialogCallback
@@ -221,6 +223,7 @@ The following example is a sample **IQuickFilingDialogCallback** interface. The 
 ```
 
 ## Example
+
 <a name="odc_IQuickFilingDialog"> </a>
 
 The following code example opens a Quick Filing dialog box that has a customized title, description, recent result list, tree depth, check box, and buttons. The user's selected item, pressed button, and check-box state will be displayed in a console window when the dialog box is closed. To see the page button enabled, the user will have to search for a page and select it, because the tree depth is set down to sections. The dialog box is not a child of any window.
@@ -300,4 +303,3 @@ namespace SampleQFD
 ## See also
 
 - [OneNote developer reference](onenote-developer-reference.md)
-

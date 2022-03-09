@@ -1,9 +1,7 @@
 ---
-title: "MODULUS Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "MODULUS Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -20,24 +18,24 @@ Returns the remainder (modulus) that results when a number is divided by a divis
   
 ## Syntax
 
-MODULUS(** *number* **, ** *divisor* ** ) 
+MODULUS(***number***, ***divisor*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The dividend. |
-| _divisor_ <br/> |Required  <br/> |**Number** <br/> |The divisor. |
-   
+| *number* <br/> |Required  <br/> |**Number** <br/> |The dividend. |
+| *divisor* <br/> |Required  <br/> |**Number** <br/> |The divisor. |
+
 ### Return value
 
 Number
   
 ## Remarks
 
-The result has the same sign as the divisor. A #DIV/0! error is returned if the divisor is 0. 
+The result has the same sign as the divisor. A #DIV/0! error is returned if the divisor is 0.
   
-In almost all situations, the MODULUS function should be used rather than the MOD function. 
+In almost all situations, the MODULUS function should be used rather than the MOD function.
   
 ## Example 1
 
@@ -63,4 +61,3 @@ MODULUS(-5, -1.4)
   
 Returns -0.8.
   
-

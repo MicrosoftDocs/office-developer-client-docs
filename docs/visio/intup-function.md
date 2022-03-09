@@ -1,9 +1,7 @@
 ---
-title: "INTUP Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "INTUP Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -20,14 +18,14 @@ Rounds a number up to the next integer.
   
 ## Syntax
 
-INTUP(** *number* ** ) 
+INTUP(***number*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Required  <br/> |**Number** <br/> |The number to round up. |
-   
+| *number* <br/> |Required  <br/> |**Number** <br/> |The number to round up. |
+
 ## Example 1
 
 INTUP(3.2)
@@ -46,4 +44,3 @@ INTUP(3)
   
 Returns 3.
   
-

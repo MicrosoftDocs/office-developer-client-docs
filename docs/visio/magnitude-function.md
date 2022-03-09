@@ -16,11 +16,11 @@ description: "Returns the magnitude of the vector whose rise is A and whose run 
 
 # MAGNITUDE Function
 
-Returns the magnitude of the vector whose rise is  _A_ and whose run is  _B_, multiplied by the respective constants  _constantA_ and  _constantB_. 
+Returns the magnitude of the vector whose rise is _A_ and whose run is _B_, multiplied by the respective constants _constantA_ and _constantB_.
   
 ## Syntax
 
-MAGNITUDE(** *constantA* **, ** *A* **, ** *constantB* **, ** *B* ** ) 
+MAGNITUDE(***constantA***, ***A***, ***constantB***, ***B*** )
   
 ### Parameters
 
@@ -30,7 +30,7 @@ MAGNITUDE(** *constantA* **, ** *A* **, ** *constantB* **, ** *B* ** )
 | _A_ <br/> |Required  <br/> |**Number** <br/> |The rise. |
 | _constantB_ <br/> |Required  <br/> |**Number** <br/> |The constant by which to multiply the run. |
 | _B_ <br/> |Required  <br/> |**Number** <br/> |The run. |
-   
+
 ## Remarks
 
 MAGNITUDE is calculated according to the following formula:
@@ -39,8 +39,7 @@ SQRT((constantA \* A)^2 + (constantB \* B)^2)
   
 ## Example
 
-MAGNITUDE(1, 3, 1, 4) 
+MAGNITUDE(1, 3, 1, 4)
   
-Returns 5. 
+Returns 5.
   
-

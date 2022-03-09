@@ -16,26 +16,25 @@ description: "Opens an HTML Help file with the specifed keyword in the Search bo
 
 # HELP Function
 
-Opens an HTML Help file with the specifed  *keyword*  in the **Search** box. 
+Opens an HTML Help file with the specifed  *keyword*  in the **Search** box.
   
 ## Syntax
 
-HELP(" ** *filename.chm!keyword* ** ") 
+HELP(" ***filename.chm!keyword*** ")
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _filename.chm!keyword_ <br/> |Required  <br/> |**String** <br/> | The filename of the Help file and the keyword to search for. |
-   
+| *filename.chm!keyword* <br/> |Required  <br/> |**String** <br/> | The filename of the Help file and the keyword to search for. |
+
 ## Remarks
 
-If no  *keyword*  is specified, the HELP function opens the contents page of the Help file. 
+If no  *keyword*  is specified, the HELP function opens the contents page of the Help file.
   
 ## Example
 
-HELP("visio.chm!shapesheet") 
+HELP("visio.chm!shapesheet")
   
-Opens the Visio Help file and displays a list of the topic(s) whose keyword is "shapesheet." 
+Opens the Visio Help file and displays a list of the topic(s) whose keyword is "shapesheet."
   
-

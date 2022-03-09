@@ -20,18 +20,17 @@ References a cell and doesn't recalculate the formula when the referenced cell c
   
 ## Syntax
 
-GETREF(** *cellname* ** ) 
+GETREF(***cellname*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _cellname_ <br/> |Required  <br/> |**String** <br/> |The name of the cell to get a reference to. |
-   
+| *cellname* <br/> |Required  <br/> |**String** <br/> |The name of the cell to get a reference to. |
+
 ## Example
 
-SETF(GETREF(PinX),5.1) 
+SETF(GETREF(PinX),5.1)
   
-Sets the formula of the PinX cell to 5.1. 
+Sets the formula of the PinX cell to 5.1.
   
-

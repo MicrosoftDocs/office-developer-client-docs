@@ -22,16 +22,16 @@ Determines the distance the object is offset vertically from the origin of the o
 
 To get a reference to the ImgOffsetY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ImgOffsetY  <br/> |
+| **Cell name:**  <br/> | ImgOffsetY  <br/> |
    
 To get a reference to the ImgOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowForeign** <br/> |
-| Cell index:  <br/> |**visFrgnImgOffsetY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowForeign** <br/> |
+| **Cell index:**  <br/> |**visFrgnImgOffsetY** <br/> |
    
 

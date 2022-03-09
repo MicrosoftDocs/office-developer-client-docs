@@ -20,14 +20,14 @@ Returns a format-picture string that matches the Microsoft Visio internal text f
   
 ## Syntax
 
-FIELDPICTURE(** *code* ** ) 
+FIELDPICTURE(**code*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _code_ <br/> |Required  <br/> |**Number** <br/> | A text field format code. |
-   
+| *code* <br/> |Required  <br/> |**Number** <br/> | A text field format code. |
+
 ### Return value
 
 String
@@ -38,8 +38,7 @@ Format picture strings are used in the FORMAT function to define the expansion o
   
 ## Example
 
-FIELDPICTURE(0) 
+FIELDPICTURE(0)
   
-Returns the format picture string "esc(0)", which specifies a number that has one decimal place and a lowercase unit description when used in the FORMAT function. 
+Returns the format picture string "esc(0)", which specifies a number that has one decimal place and a lowercase unit description when used in the FORMAT function.
   
-

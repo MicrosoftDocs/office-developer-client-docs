@@ -34,16 +34,16 @@ You can also set the value of this cell by selecting a dynamic connector, clicki
   
 To get a reference to the ConFixedCode cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ConFixedCode  <br/> |
+|**Cell name:**  <br/> |ConFixedCode  <br/> |
    
 To get a reference to the ConFixedCode cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowShapeLayout** <br/> |
-|Cell index:  <br/> |**visSLOConFixedCode** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowShapeLayout** <br/> |
+|**Cell index:**  <br/> |**visSLOConFixedCode** <br/> |
    
 

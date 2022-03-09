@@ -29,16 +29,16 @@ The value in this cell corresponds to the **Active** setting in the **Layer Prop
   
 To get a reference to the Active cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Active[ *i*  ]           where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Layers.Active[ *i*  ]           where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Active cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*           where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visLayerActive** <br/> |
+|**Section index:**  <br/> |**visSectionLayer** <br/> |
+|**Row index:**  <br/> |**visRowLayer** +  *i*           where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visLayerActive** <br/> |
    
 

@@ -1,9 +1,7 @@
 ---
-title: "BLEND Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "BLEND Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
  
@@ -14,11 +12,11 @@ description: "Blends two colors in the proportion specified by the float paramet
 
 # BLEND Function
 
-Blends two colors in the proportion specified by the  _float_ parameter. 
+Blends two colors in the proportion specified by the _float_ parameter.
   
 ## Syntax
 
-BLEND(** *color1* **, ** *color2* **, ** *float[0,1]* ** ) 
+BLEND(***color1***, **_color2_ **, ***float[0,1]*** )
   
 ### Parameters
 
@@ -26,16 +24,15 @@ BLEND(** *color1* **, ** *color2* **, ** *float[0,1]* ** )
 |:-----|:-----|:-----|:-----|
 | _color1_ <br/> |Required  <br/> |**Numeric** <br/> |The Visio color index or RGB value of the first color. |
 | _color2_ <br/> |Required  <br/> |**Numeric** <br/> |The Visio color index or RGB value of the second color. |
-| _float[0,1]_ <br/> |Required  <br/> |**Float** <br/> |The proportion in which to blend  _color2_ and  _color1_, respectively. A real number from 0 to 1 inclusive. |
-   
+| _float[0,1]_ <br/> |Required  <br/> |**Float** <br/> |The proportion in which to blend _color2_ and _color1_, respectively. A real number from 0 to 1 inclusive. |
+
 ### Return value
 
  **RGB**
   
 ## Remarks
 
-The color returned is determined by the relative proportions in which to blend  _color2_ and  _color1_, respectively, as specified by the  _float_ parameter. For example, if  _float_ is 0.25, the color returned is composed 75% of  _color1_ and 25% of  _color2_. 
+The color returned is determined by the relative proportions in which to blend _color2_ and _color1_, respectively, as specified by the _float_ parameter. For example, if _float_ is 0.25, the color returned is composed 75% of _color1_ and 25% of _color2_.
   
-Another way to think about it is that the  _float_ value corresponds to the point along the color spectrum from  _color1_ to  _color2_. Therefore, smaller numbers (closer to zero) for  _float_ produce blends closer to  _color1_, while larger numbers (closer to 1) produce blends closer to  _color2_.
+Another way to think about it is that the _float_ value corresponds to the point along the color spectrum from _color1_ to _color2_. Therefore, smaller numbers (closer to zero) for _float_ produce blends closer to _color1_, while larger numbers (closer to 1) produce blends closer to _color2_.
   
-

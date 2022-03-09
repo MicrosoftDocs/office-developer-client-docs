@@ -1,9 +1,7 @@
 ---
-title: "NOT Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "NOT Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -16,26 +14,24 @@ description: "Returns TRUE (1) if logicalexpression is FALSE. Otherwise, it retu
 
 # NOT Function
 
-Returns TRUE (1) if  _logicalexpression_ is FALSE. Otherwise, it returns FALSE (0). 
+Returns TRUE (1) if _logicalexpression_ is FALSE. Otherwise, it returns FALSE (0).
   
 ## Syntax
 
-NOT(** *logicalexpression* ** ) 
+NOT(**_logicalexpression_**)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _logicalexpression_ <br/> |Required  <br/> |**String** <br/> |The logical expression to evaluate. |
-   
+
 ### Return value
 
 Boolean
   
 ## Example
 
-NOT(Height \> 0.75 in) 
+NOT(Height \> 0.75 in)
   
-Returns 1 if Height is less than or equal to 0.75 inches. Returns 0 if Height is greater than 0.75 inches. 
-  
-
+Returns 1 if Height is less than or equal to 0.75 inches. Returns 0 if Height is greater than 0.75 inches.

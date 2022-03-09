@@ -20,26 +20,25 @@ Returns a string converted to lowercase.
   
 ## Syntax
 
-LOWER(** *expression* ** ) 
+LOWER(***expression***)
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**Varies** <br/> | A string, a cell reference, or an expression; the result is converted to a string which is then converted to lowercase. |
-   
+| *expression* <br/> |Required  <br/> |**Varies** <br/> | A string, a cell reference, or an expression; the result is converted to a string which is then converted to lowercase. |
+
 ### Return value
 
 String
   
 ## Remarks
 
-The case conversion is locale-specific, based on the current user settings. 
+The case conversion is locale-specific, based on the current user settings.
   
 ## Example
 
-LOWER("mIxEd CAse") 
+LOWER("mIxEd CAse")
   
-Returns "mixed case". 
+Returns "mixed case".
   
-

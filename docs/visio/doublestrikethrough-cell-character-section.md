@@ -23,16 +23,16 @@ Determines whether text is formatted as double strikethrough.
 
 To get a reference to the DoubleStrikethrough cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Char.DoubleStrikethrough[  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Char.DoubleStrikethrough[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the DoubleStrikethrough cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionCharacter** <br/> |
-| Row index:  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCharacterDoubleStrikethrough** <br/> |
+| **Section index:**  <br/> |**visSectionCharacter** <br/> |
+| **Row index:**  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCharacterDoubleStrikethrough** <br/> |
    
 

@@ -20,17 +20,17 @@ Executes a verb for the OLE object.
   
 ## Syntax
 
-DOOLEVERB(" ** *verb* ** ") 
+DOOLEVERB(" ***verb*** ")
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _"verb"_ <br/> |Required  <br/> |**String** <br/> |The verb to execute. |
-   
+| *"verb"* <br/> |Required  <br/> |**String** <br/> |The verb to execute. |
+
 ## Remarks
 
-In earlier versions of Visio, this function appears as _DOOLEVERB. Visio versions 4.0 and later accept either style. 
+In earlier versions of Visio, this function appears as _DOOLEVERB. Visio versions 4.0 and later accept either style.
   
 ## Example
 
@@ -38,4 +38,3 @@ DOOLEVERB("edit")
   
 Runs the OLE object program and displays the linked or embedded object so that it can be edited.
   
-

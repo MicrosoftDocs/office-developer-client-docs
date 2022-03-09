@@ -1,7 +1,5 @@
 ---
-title: "GREEN Function"
- 
- 
+title: "GREEN Function" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,21 +18,21 @@ Returns the green component of a color.
   
 ## Syntax
 
-GREEN(** *expression* ** ) 
+GREEN(***expression*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _expression_ <br/> |Required  <br/> |**Varies** <br/> |An index of a color in the document's color table, an expression that resolves to a custom color (such as RGB or HSL), or a reference to a cell that contains a color index or color result. |
-   
+| *expression* <br/> |Required  <br/> |**Varies** <br/> |An index of a color in the document's color table, an expression that resolves to a custom color (such as RGB or HSL), or a reference to a cell that contains a color index or color result. |
+
 ### Return value
 
 Integer
   
 ## Remarks
 
-The return value is a number in the range 0 to 255, inclusive, or a cell reference that resolves to an index. If  *expression*  is invalid, it returns 0 (black). 
+The return value is a number in the range 0 to 255, inclusive, or a cell reference that resolves to an index. If  *expression*  is invalid, it returns 0 (black).
   
 ## Example 1
 
@@ -54,4 +52,3 @@ GREEN(RGB(10, 20, 30))
   
 Returns 20.
   
-

@@ -16,32 +16,31 @@ description: "Evaluates the text in shapename as if it were a formula and return
 
 # EVALTEXT Function
 
-Evaluates the text in  _shapename_ as if it were a formula and returns the result. 
+Evaluates the text in _shapename_ as if it were a formula and returns the result.
   
 ## Syntax
 
-EVALTEXT(** *shapename!theText* ** ) 
+EVALTEXT(***shapename!theText*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _shapename!theText_ <br/> |Required  <br/> |**String** <br/> |A cell that is triggered when the associated shape's text composition changes. |
-   
+
 ### Return value
 
 String
   
 ## Remarks
 
- _shapename_ can be used to refer to the text of a shape other than the current shape. 
+ _shapename_ can be used to refer to the text of a shape other than the current shape.
   
 If there is no text, the result is zero. If the text cannot be evaluated, the function returns an error.
   
 ## Example
 
-EVALTEXT(Line.2!theText) 
+EVALTEXT(Line.2!theText)
   
-Evaluates the text contained in the shape Line.2. For example, if Line.2 contains "4 ft + 0.5 ft", returns the value 4.5 ft. 
+Evaluates the text contained in the shape Line.2. For example, if Line.2 contains "4 ft + 0.5 ft", returns the value 4.5 ft.
   
-

@@ -16,25 +16,25 @@ description: "Returns TRUE if the value of cellreference is any error type excep
 
 # ISERR Function
 
-Returns TRUE if the value of  _cellreference_ is any error type except #N/A; otherwise, it returns FALSE. The ISERR function is used in formulas that refer to another cell. 
+Returns TRUE if the value of _cellreference_ is any error type except #N/A; otherwise, it returns FALSE. The ISERR function is used in formulas that refer to another cell.
   
 ## Syntax
 
-ISERR(** *cellreference* ** ) 
+ISERR(***cellreference*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _cellreference_ <br/> |Required  <br/> |**String** <br/> |Reference to a cell. |
-   
+
 ## Example 1
 
 |**Cell**|**Formula**|**Value returned**|
 |:-----|:-----|:-----|
 |Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch.B1  <br/> |=ISERR(Scratch.A1)  <br/> |FALSE  <br/> |
-   
+
 Returns FALSE because the #N/A! error is not recognized by the ISERR function. Use ISERROR to find all error types.
   
 ## Example 2
@@ -43,7 +43,6 @@ Returns FALSE because the #N/A! error is not recognized by the ISERR function. U
 |:-----|:-----|:-----|
 |Scratch.X1  <br/> |="House"  <br/> |#VALUE!  <br/> |
 |Scratch.A1  <br/> |=ISERR(Scratch.X1)  <br/> |TRUE  <br/> |
-   
+
 Returns TRUE because the #VALUE! error is recognized by the ISERR function.
   
-

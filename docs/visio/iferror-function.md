@@ -18,21 +18,20 @@ Returns the evaluated result of a primary expression, if it does not evaluate to
   
 ## Version Information
 
-Version Added: Visio 2010 
+Version Added: Visio 2010
   
 ## Syntax
 
-IFERROR(** *primary expression* **, ** *alternate expression* ** ) 
+IFERROR(***primary expression***, ***alternate expression*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _primary expression_ <br/> |Required  <br/> |**String** <br/> |The first expression to evaluate. |
-| _alternate expression_ <br/> |Required  <br/> |**String** <br/> |The alternate expression to evaluate if the primary expression evaluates to an error. |
-   
+| *primary expression* <br/> |Required  <br/> |**String** <br/> |The first expression to evaluate. |
+| *alternate expression* <br/> |Required  <br/> |**String** <br/> |The alternate expression to evaluate if the primary expression evaluates to an error. |
+
 ### Return value
 
 Varies
   
-

@@ -16,25 +16,25 @@ description: "Returns TRUE if the value of cellreference is error type #N/A! (no
 
 # ISERRNA Function
 
-Returns TRUE if the value of  _cellreference_ is error type #N/A! (not available); otherwise, it returns FALSE. The ISERRNA function is used in formulas that refer to another cell. 
+Returns TRUE if the value of _cellreference_ is error type #N/A! (not available); otherwise, it returns FALSE. The ISERRNA function is used in formulas that refer to another cell.
   
 ## Syntax
 
-ISERRNA(** *cellreference* ** ) 
+ISERRNA(***cellreference*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _cellreference_ <br/> |Required  <br/> |**String** <br/> |Reference to a cell. |
-   
+
 ## Example 1
 
 |**Cell**|**Formula**|**Value returned**|
 |:-----|:-----|:-----|
 |Scratch.A1  <br/> |="5 + 3"  <br/> |"8"  <br/> |
 |Scratch.B1  <br/> |=ISERRNA(Scratch.A1)  <br/> |FALSE  <br/> |
-   
+
 Returns FALSE because the value returned is available.
   
 ## Example 2
@@ -43,7 +43,6 @@ Returns FALSE because the value returned is available.
 |:-----|:-----|:-----|
 |Scratch.A1  <br/> |=NA( )  <br/> |#N/A!  <br/> |
 |Scratch.B1  <br/> |=ISERRNA(Scratch.A1)  <br/> |TRUE  <br/> |
-   
+
 Returns TRUE because the value returned is error type #N/A!
   
-
