@@ -22,16 +22,16 @@ Adjusts the contrast of a bitmap image. Decrease the contrast of an image by ent
 
 To get a reference to the Contrast cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Contrast  <br/> |
+| **Cell name:**  <br/> | Contrast  <br/> |
    
 To get a reference to the Contrast cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowImage** <br/> |
-| Cell index:  <br/> |**visImageContrast** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowImage** <br/> |
+| **Cell index:**  <br/> |**visImageContrast** <br/> |
    
 
