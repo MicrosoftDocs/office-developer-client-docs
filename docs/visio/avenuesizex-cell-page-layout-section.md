@@ -1,9 +1,7 @@
 ---
-title: "AvenueSizeX Cell (Page Layout Section)"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "AvenueSizeX Cell (Page Layout Section)" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -16,7 +14,7 @@ description: "Determines the amount of horizontal space between shapes on the dr
 
 # AvenueSizeX Cell (Page Layout Section)
 
-Determines the amount of horizontal space between shapes on the drawing page when you lay out shapes by using the **Configure Layout** dialog box (on the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click ** More Layout Options **).
+Determines the amount of horizontal space between shapes on the drawing page when you lay out shapes by using the **Configure Layout** dialog box (on the **Design** tab, in the **Layout** group, click **Re-Layout Page**, and then click **More Layout Options**).
   
 ## Remarks
 
@@ -24,18 +22,16 @@ You can also set this value in the **Layout and Routing Spacing** dialog box (on
   
 The dynamic grid uses the setting in the AvenueSizeX cell when only one shape is available for calculating horizontal spacing. To use the dynamic grid, on the **View** tab, in the **Visual Aids** group, select **Dynamic Grid**.
   
-To get a reference to the AvenueSizeX cell by name from another formula, or from a program by using the **CellsU** property, use: 
+To get a reference to the AvenueSizeX cell by name from another formula, or from a program by using the **CellsU** property, use:
   
-|||
+||Value|
 |:-----|:-----|
 | Cell name:  <br/> | AvenueSizeY  <br/> |
-   
-To get a reference to the AvenueSizeX cell by index from a program, use the **CellsSRC** property with the following arguments: 
+
+To get a reference to the AvenueSizeX cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value|
 |:-----|:-----|
 | Section index:  <br/> |**visSectionObject** <br/> |
 | Row index:  <br/> |**visRowPageLayout** <br/> |
 | Cell index:  <br/> |**visPLOAvenueSizeX** <br/> |
-   
-
