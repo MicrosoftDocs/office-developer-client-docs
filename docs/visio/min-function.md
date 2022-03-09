@@ -20,24 +20,23 @@ Returns the smallest number from a list. Smallest means closest to negative infi
   
 ## Syntax
 
-MIN(** *number1* **, ** *number2* **,..., ** *numberN* ** ) 
+MIN(***number1***, ***number2***,..., ***numberN*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _number1_ <br/> |Required  <br/> |**Varies** <br/> |The first number in the list. |
-| _number2_ <br/> |Optional  <br/> |**Varies** <br/> | The second number in the list. |
-| _numberN_ <br/> |Optional  <br/> |**Varies** <br/> |The nth number in the list. |
-   
+| *number1* <br/> |Required  <br/> |**Varies** <br/> |The first number in the list. |
+| *number2* <br/> |Optional  <br/> |**Varies** <br/> | The second number in the list. |
+| *numberN* <br/> |Optional  <br/> |**Varies** <br/> |The nth number in the list. |
+
 ### Return value
 
 Varies
   
 ## Example
 
-MIN(13 in,1 ft, 20 cm) 
+MIN(13 in,1 ft, 20 cm)
   
-Returns 20 centimeters. 
+Returns 20 centimeters.
   
-

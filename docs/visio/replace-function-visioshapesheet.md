@@ -1,9 +1,7 @@
 ---
-title: "REPLACE Function (VisioShapeSheet)"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "REPLACE Function (VisioShapeSheet)" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -20,17 +18,17 @@ Replaces part of a text string, based on the number of characters you specify, w
   
 ## Syntax
 
-REPLACE (** *old_text* **, ** *start_num* **, ** *num_chars* **, ** *new_text* ** ) 
+REPLACE (***old_text***, ***start_num***, ***num_chars***, ***new_text*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _old_text_ <br/> |Required  <br/> |**String** <br/> |The text in which you want to replace some characters. |
-| _start_num_ <br/> |Required  <br/> |**Number** <br/> |The position of the character in  _old_text_ that you want to replace with  _new_text_. The first character in the string is position 1. |
-| _num_chars_ <br/> |Required  <br/> |**Number** <br/> |The number of characters in  _old_text_ that you want to replace  <br/> |
-| _new_text_ <br/> |Required  <br/> |**String** <br/> |The text that will replace characters in  _old_text_. |
-   
+| *old_text* <br/> |Required  <br/> |**String** <br/> |The text in which you want to replace some characters. |
+| *start_num* <br/> |Required  <br/> |**Number** <br/> |The position of the character in *old_text* that you want to replace with *new_text*. The first character in the string is position 1. |
+| *num_chars* <br/> |Required  <br/> |**Number** <br/> |The number of characters in *old_text* that you want to replace  <br/> |
+| *new_text* <br/> |Required  <br/> |**String** <br/> |The text that will replace characters in *old_text*. |
+
 ### Return value
 
 String
@@ -41,8 +39,7 @@ Use the REPLACE function when you want to replace text that occurs in a specific
   
 ## Example
 
-REPLACE ("01/03/2002",9,2,"03") 
+REPLACE ("01/03/2002",9,2,"03")
   
-Returns 01/03/2003. 
+Returns 01/03/2003.
   
-

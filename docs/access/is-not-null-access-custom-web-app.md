@@ -1,12 +1,9 @@
 ---
-title: "IS [NOT] NULL (Access custom web app)"
- 
- 
-manager: kelbow
-ms.date: 09/05/2017
+title: "IS [NOT] NULL (Access custom web app)" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
-ms.topic: reference
-  
+ms.topic: reference  
 ms.assetid: b941a0c7-9753-4920-bb6d-cbba94ba9422
 description: "Determines whether a specified expression is NULL."
 ms.localizationpriority: high
@@ -25,11 +22,11 @@ Determines whether a specified expression is NULL.
   
 The **IS [NOT] NULL** predicate contains the following arguments.
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 | *expression*  <br/> |Any valid expression. |
 | *NOT*  <br/> |Specifies that the Boolean result be negated. The predicate reverses its return values, returning TRUE if the value is not NULL, and FALSE if the value is NULL. |
-   
+
 ## Remarks
 
 If the value of *expression* is NULL, IS NULL returns TRUE; otherwise, it returns FALSE.

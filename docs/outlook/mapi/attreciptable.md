@@ -19,4 +19,4 @@ _Row_Seq:_
   
 > _row-count_ _Property_Sequence,_...
 
-The format of  _Property_Seq_ is the same as in the [attMAPIProps](attmapiprops.md) attribute.
+The format of _Property_Seq_ is the same as in the [attMAPIProps](attmapiprops.md) attribute.

@@ -16,21 +16,21 @@ description: "Returns TRUE if the value of cellreference is error type #VALUE, w
 
 # ISERRVALUE Function
 
-Returns TRUE if the value of  _cellreference_ is error type #VALUE, where an argument in the formula is the wrong type. The ISERRVALUE function is used in logical expressions that refer to another cell. 
+Returns TRUE if the value of _cellreference_ is error type #VALUE, where an argument in the formula is the wrong type. The ISERRVALUE function is used in logical expressions that refer to another cell.
   
 ## Syntax
 
-ISERRVALUE(** *cellreference* ** ) 
+ISERRVALUE(**_cellreference_** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _cellreference_ <br/> |Required  <br/> |**String** <br/> |Reference to a cell. |
-   
+
 ## Remarks
 
-Scratch cells A through D won't return a #VALUE! error because the formula can contain numbers and letters in the same string. Cells X and Y must contain numbers only. 
+Scratch cells A through D won't return a #VALUE! error because the formula can contain numbers and letters in the same string. Cells X and Y must contain numbers only.
   
 ## Example 1
 
@@ -38,7 +38,7 @@ Scratch cells A through D won't return a #VALUE! error because the formula can c
 |:-----|:-----|:-----|
 |Scratch.X1  <br/> |= "House"  <br/> |#VALUE!  <br/> |
 |Scratch.A1  <br/> |= If (ISERRVALUE(Scratch.X1),2,Scratch.X1)  <br/> |2  <br/> |
-   
+
 Returns 2 because the value returned is a #VALUE! error, and the expression instructs Microsoft Visio to return a 2 in place of the error.
   
 ## Example 2
@@ -47,7 +47,6 @@ Returns 2 because the value returned is a #VALUE! error, and the expression inst
 |:-----|:-----|:-----|
 |Scratch.A1  <br/> |="5 + 7"  <br/> |5 + 7  <br/> |
 |Scratch.B1  <br/> |=If (ISERRVALUE(Scratch.A1),2,Scratch.A1)  <br/> |5 + 7  <br/> |
-   
+
 Returns 12 because the value returned is not a #VALUE! error, and the expression instructs Visio to return the value of the original cell.
   
-
