@@ -1,7 +1,7 @@
 ---
 title: "ADRPARM"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 35cd57b4-9901-456c-bf06-1f84e274eb4e
-description: "Last modified: March 09, 2015"
+description: "Describes the display and behavior of the common address dialog box."
 ---
 
 # ADRPARM
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes the display and behavior of the common address dialog box.
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 
