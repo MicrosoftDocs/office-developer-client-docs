@@ -31,16 +31,16 @@ Groups created in versions earlier than Visio 2000 have a default value of FALSE
   
 To get a reference to the IsTextEditTarget cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |IsTextEditTarget  <br/> |
+|**Cell name:**  <br/> |IsTextEditTarget  <br/> |
    
 To get a reference to the IsTextEditTarget cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowGroup** <br/> |
-|Cell index:  <br/> |**visGroupIsTextEditTarget** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowGroup** <br/> |
+|**Cell index:**  <br/> |**visGroupIsTextEditTarget** <br/> |
    
 

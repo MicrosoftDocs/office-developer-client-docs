@@ -24,16 +24,16 @@ Determines the height of the object's image within its border. The default formu
 
 To get a reference to the ImgHeight cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ImgHeight  <br/> |
+| **Cell name:**  <br/> | ImgHeight  <br/> |
    
 To get a reference to the ImgHeight cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowForeign** <br/> |
-| Cell index:  <br/> |**visFrgnImgHeight** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowForeign** <br/> |
+| **Cell index:**  <br/> |**visFrgnImgHeight** <br/> |
    
 

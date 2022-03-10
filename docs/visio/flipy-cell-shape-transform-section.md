@@ -27,16 +27,16 @@ Indicates whether the shape has been flipped vertically.
 
 To get a reference to the FlipY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | FlipY  <br/> |
+| **Cell name:**  <br/> | FlipY  <br/> |
    
 To get a reference to the FlipY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowXFormOut** <br/> |
-| Cell index:  <br/> |**visXFormFlipY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowXFormOut** <br/> |
+| **Cell index:**  <br/> |**visXFormFlipY** <br/> |
    
 

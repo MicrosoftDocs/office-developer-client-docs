@@ -22,16 +22,16 @@ Determines whether the row is a child flyout menu of the last row above it that 
 
 To get a reference to the FlyoutChild cell by name from another formula, or from a program by using the **CellsU** property, use the following. 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Actions. *name*  .FlyoutChildwhere Actions.  *name*  is the name of the Actions row  <br/> |
+|**Cell name:**  <br/> |Actions. *name*  .FlyoutChildwhere Actions.  *name*  is the name of the Actions row  <br/> |
    
 To get a reference to the FlyoutChild cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visActionFlyoutChild** <br/> |
+|**Section index:**  <br/> |**visSectionAction** <br/> |
+|**Row index:**  <br/> |**visRowAction** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visActionFlyoutChild** <br/> |
    
 

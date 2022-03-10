@@ -29,16 +29,16 @@ You can also set this value by selecting the group, clicking **Behavior** on the
   
 To get a reference to the IsSnapTarget cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |IsSnapTarget  <br/> |
+|**Cell name:**  <br/> |IsSnapTarget  <br/> |
    
 To get a reference to the IsSnapTarget cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowGroup** <br/> |
-|Cell index:  <br/> |**visGroupIsSnapTarget** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowGroup** <br/> |
+|**Cell index:**  <br/> |**visGroupIsSnapTarget** <br/> |
    
 

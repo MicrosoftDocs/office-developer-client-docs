@@ -15,10 +15,6 @@ description: "The Project Server Interface (PSI) can help to automate many serve
 # What the PSI does and does not do
 
 The Project Server Interface (PSI) can help to automate many server-side processes in on-premises installations of Project Server 2013. But, several functions require the use of Microsoft Project Professional 2013.
-  
-|||
-|:-----|:-----|
-|||
 
 The PSI is designed to complement the capabilities of Project Professional 2013, rather than provide a server-based alternative for all Project Professional functions. Third-party developers can use the PSI to help create Web Parts for on-premises installations of Project Web App and project workspaces, create custom Windows applications and web applications that interact with on-premises Project Server data, develop workflow logic for project portfolio management, develop local full-trust event handlers, and integrate Project Server with other applications. The PSI cannot be used for development of apps for the Office Store, mobile devices, or tablets; for that, you can use the client-side object model (CSOM).
   

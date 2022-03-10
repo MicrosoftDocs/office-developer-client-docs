@@ -26,16 +26,16 @@ Cropping the object changes the factor by which Width is multiplied.
 
 To get a reference to the ImgWidth cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ImgWidth  <br/> |
+| **Cell name:**  <br/> | ImgWidth  <br/> |
    
 To get a reference to the ImgWidth cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowForeign** <br/> |
-| Cell index:  <br/> |**visFrgnImgWidth** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowForeign** <br/> |
+| **Cell index:**  <br/> |**visFrgnImgWidth** <br/> |
    
 

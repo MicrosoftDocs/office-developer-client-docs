@@ -12,10 +12,6 @@ ms.localizationpriority: high
 
 The client-side object model (CSOM) is a set of APIs for Project Server 2013 that are designed for both online and on-premises use in apps that can be developed for PCs, mobile devices, and tablets. This article includes some typical scenarios for using the CSOM and also lists limitations of the CSOM.
   
-|||
-|:-----|:-----|
-|||
-
 The CSOM enables the development of apps for Project Server 2013 and integration of Project Server with other applications. The apps can be developed to run on PCs, mobile devices such as Windows Phone 7.5, tablets such as Windows 8 devices, and iOS and Android devices. The CSOM provides APIs that cover functionality of the twelve most commonly used PSI services in Project Server. The CSOM APIs are organized differently and are easier to use than the ASMX-based and WCF-based PSI services. The CSOM does not use ADO.NET datasets and is accessible through the OData protocol. You can develop with the CSOM by using .NET Framework 4 libraries, JavaScript, or Representational State Transfer (REST) queries.
   
 For an overview of the CSOM and articles that show how to use JavaScript and .NET Framework 4 with the CSOM, see [Client-side object model (CSOM) for Project Server](client-side-object-model-csom-for-project-2013.md). For more information about the CSOM assemblies, classes, and members, see the [Microsoft.ProjectServer.Client](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.aspx) namespace reference.

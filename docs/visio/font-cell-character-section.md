@@ -23,16 +23,16 @@ Represents the number of the font used to format the text. Font numbers vary acc
 
 To get a reference to the Font cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Char.Font[  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Char.Font[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Font cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionCharacter** <br/> |
-| Row index:  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCharacterFont** <br/> |
+| **Section index:**  <br/> |**visSectionCharacter** <br/> |
+| **Row index:**  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCharacterFont** <br/> |
    
 
