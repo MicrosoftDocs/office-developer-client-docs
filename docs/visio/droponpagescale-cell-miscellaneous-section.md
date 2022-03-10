@@ -32,16 +32,16 @@ This value is 100% for measured shapes on scaled drawings or unmeasured shapes o
   
 To get a reference to the DropOnPageScale cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | DropOnPageScale  <br/> |
+| **Cell name:**  <br/> | DropOnPageScale  <br/> |
    
 To get a reference to the DropOnPageScale cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visObjDropOnPageScale** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visObjDropOnPageScale** <br/> |
    
 

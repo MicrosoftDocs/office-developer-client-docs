@@ -16,7 +16,7 @@ description: "Determines whether pages in the document can be duplicated, as a B
 
 Determines whether pages in the document can be duplicated, as a Boolean.
   
-|||
+||Value |
 |:-----|:-----|
 |TRUE  <br/> |**Duplicate** in the page shortcut menu and the **Page.Duplicate** automation method are both disabled. |
 |FALSE  <br/> |The page can be duplicated. |
@@ -25,16 +25,16 @@ Determines whether pages in the document can be duplicated, as a Boolean.
 
 To get a reference to the **DocLockDuplicatePage** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | DocLockDuplicatePage  <br/> |
+| **Cell name:**  <br/> | DocLockDuplicatePage  <br/> |
    
 To get a reference to the **DocLockDuplicatePage** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowDoc** <br/> |
-| Cell index:  <br/> |**visDocLockDuplicatePage** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowDoc** <br/> |
+| **Cell index:**  <br/> |**visDocLockDuplicatePage** <br/> |
    
 

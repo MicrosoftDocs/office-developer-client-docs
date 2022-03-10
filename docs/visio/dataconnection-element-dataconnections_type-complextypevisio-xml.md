@@ -18,7 +18,7 @@ Abstracts communication between one or more **DataRecordset** elements and a non
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

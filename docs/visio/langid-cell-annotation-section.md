@@ -28,16 +28,16 @@ This value is the locale ID (LCID) of the language that is active on the languag
   
 To get a reference to the LangID cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Annotation.LangID[  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Annotation.LangID[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the LangID cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionAnnotation** <br/> |
-| Row index:  <br/> |**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visAnnotationLangID** <br/> |
+| **Section index:**  <br/> |**visSectionAnnotation** <br/> |
+| **Row index:**  <br/> |**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visAnnotationLangID** <br/> |
    
 
