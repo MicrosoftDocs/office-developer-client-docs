@@ -24,16 +24,16 @@ When you glue a 1-D shape to another shape using dynamic glue, the application g
   
 To get a reference to the BegTrigger cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | BegTrigger  <br/> |
+| **Cell name:**  <br/> | BegTrigger  <br/> |
    
 To get a reference to the BegTrigger cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowGroup** <br/> |
-| Cell index:  <br/> |**visBegTrigger** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowGroup** <br/> |
+| **Cell index:**  <br/> |**visBegTrigger** <br/> |
    
 

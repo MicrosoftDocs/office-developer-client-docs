@@ -27,16 +27,16 @@ Locks the width of the shape so that its width remains unchanged when the shape 
 
 To get a reference to the LockWidth cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LockWidth  <br/> |
+| **Cell name:**  <br/> | LockWidth  <br/> |
    
 To get a reference to the LockWidth cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowLock** <br/> |
-| Cell index:  <br/> |**visLockWidth** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowLock** <br/> |
+| **Cell index:**  <br/> |**visLockWidth** <br/> |
    
 

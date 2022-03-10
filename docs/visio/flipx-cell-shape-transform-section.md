@@ -27,16 +27,16 @@ Indicates whether the shape has been flipped horizontally.
 
 To get a reference to the FlipX cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | FlipX  <br/> |
+| **Cell name:**  <br/> | FlipX  <br/> |
    
 To get a reference to the FlipX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowXFormOut** <br/> |
-| Cell index:  <br/> |**visXFormFlipX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowXFormOut** <br/> |
+| **Cell index:**  <br/> |**visXFormFlipX** <br/> |
    
 
