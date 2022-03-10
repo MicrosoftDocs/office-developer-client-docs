@@ -29,16 +29,16 @@ You can disable dynamics to increase your solution's performance. For example, i
   
 To get a reference to the DynamicsOff cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | DynamicsOff  <br/> |
+| **Cell name:**  <br/> | DynamicsOff  <br/> |
    
 To get a reference to the DynamicsOff cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLODynamicsOff** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLODynamicsOff** <br/> |
    
 
