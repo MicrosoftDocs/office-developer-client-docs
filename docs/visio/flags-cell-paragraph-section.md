@@ -29,16 +29,16 @@ The value in this cell corresponds to the **Direction** setting on the **Paragra
   
 To get a reference to the Flags cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Para.Flags[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Para.Flags[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Flags cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionParagraph** <br/> |
-|Row index:  <br/> |**visRowParagraph** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visFlags** <br/> |
+|**Section index:**  <br/> |**visSectionParagraph** <br/> |
+|**Row index:**  <br/> |**visRowParagraph** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visFlags** <br/> |
    
 

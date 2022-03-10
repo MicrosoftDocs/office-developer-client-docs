@@ -12,7 +12,7 @@ Specifies the list of mentions in a comment in a drawing.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[MentionsList_Type](mentionslist_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

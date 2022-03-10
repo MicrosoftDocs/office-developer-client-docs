@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c003f7b9-b0cd-4656-98fa-3466fda6832c
-description: "Last modified: March 09, 2015"
+description: "Contains the EntryID of the Outlook Notes folder."
 ---
 
 # PidTagIpmNoteEntryId Canonical Property

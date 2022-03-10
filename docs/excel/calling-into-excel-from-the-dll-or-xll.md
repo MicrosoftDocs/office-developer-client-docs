@@ -157,7 +157,7 @@ int WINAPI InternationlExample(void)
 
 Excel supports a small number of functions that are only accessible from a DLL or XLL. These are defined in the header file as `(n | xlSpecial)` where `n` is a decimal number greater than or equal to 0 and `xlSpecial` is defined as 0x4000 hexadecimal. These functions are listed in the following table and documented in the [API Function Reference](excel-xll-sdk-api-function-reference.md).
   
-||||
+|Function |n |xlSpecial |Description |
 |:-----|:-----|:-----|
 |[xlFree](xlfree.md) |0 | xlSpecial  |Frees Excel-allocated memory resources.  |
 |[xlStack](xlstack.md) |1 | xlSpecial  |Returns the free space on the Excel stack.  |
