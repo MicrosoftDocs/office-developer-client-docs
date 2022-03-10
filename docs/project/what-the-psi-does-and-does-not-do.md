@@ -236,4 +236,4 @@ For the project summary task, the PSI limitations are the same as for Project Pr
 - [What the CSOM does and does not do](what-the-csom-does-and-does-not-do.md)  
 - [Project Server programmability](project-server-programmability.md)
 - [Remote Authentication in SharePoint Online Using Claims-Based Authentication](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx)  
-- [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+- [Office Add-ins](/office/dev/add-ins/overview/office-add-ins)
