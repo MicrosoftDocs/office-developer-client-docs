@@ -16,7 +16,7 @@ description: "Determines whether pages in the document can be duplicated, as a B
 
 Determines whether pages in the document can be duplicated, as a Boolean.
   
-||Value |
+|Value |Description |
 |:-----|:-----|
 |TRUE  <br/> |**Duplicate** in the page shortcut menu and the **Page.Duplicate** automation method are both disabled. |
 |FALSE  <br/> |The page can be duplicated. |
