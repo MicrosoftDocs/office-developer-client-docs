@@ -36,7 +36,7 @@ To get a reference to the A cell by name from another formula, or from a program
 ||Value |
 |:-----|:-----|
 | **Cell name:**  <br/> | Geometry  *i*  .A  *j*            where  *i*  and  *j*  = <1>, 2, 3... |
-|| Geometry  *i*  .A1 (InfiniteLine and Ellipse rows)            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Geometry  *i*  .A1 (InfiniteLine and Ellipse rows)            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the A cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
@@ -44,14 +44,14 @@ To get a reference to the A cell by index from a program, use the **CellsSRC** p
 |:-----|:-----|
 | **Section index:**  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
 | **Row index:**  <br/> |**visRowVertex** +  *j*            where  *j*  = 0, 1, 2... |
-||**visRowVertex** (InfiniteLine and Ellipse rows)  <br/> |
+| **Row index:**  <br/> |**visRowVertex** (InfiniteLine and Ellipse rows)  <br/> |
 | **Cell index:**  <br/> |**visBow** (ArcTo row)  <br/> |
-||**visControlX** (EllipticalArcTo row)  <br/> |
-||**visControlY** (EllipticalArcTo row)  <br/> |
-||**visPolylineData** (Polyline row)  <br/> |
-||**visNURBSKnot** (NURBSTo row)  <br/> |
-||**visSplineKnot** (SplineStart and SplineKnot rows)  <br/> |
-||**visInfiniteLineX2** (InfiniteLine row)  <br/> |
-||**visEllipseMajorX** (Ellipse row)  <br/> |
+| **Cell index:**  <br/> |**visControlX** (EllipticalArcTo row)  <br/> |
+| **Cell index:**  <br/> |**visControlY** (EllipticalArcTo row)  <br/> |
+| **Cell index:**  <br/> |**visPolylineData** (Polyline row)  <br/> |
+| **Cell index:**  <br/> |**visNURBSKnot** (NURBSTo row)  <br/> |
+| **Cell index:**  <br/> |**visSplineKnot** (SplineStart and SplineKnot rows)  <br/> |
+| **Cell index:**  <br/> |**visInfiniteLineX2** (InfiniteLine row)  <br/> |
+| **Cell index:**  <br/> |**visEllipseMajorX** (Ellipse row)  <br/> |
    
 
