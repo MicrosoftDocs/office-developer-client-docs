@@ -18,7 +18,7 @@ Contains the text string that appears in the left portion of a document's header
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[HeaderLeft_Type](headerleft_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
