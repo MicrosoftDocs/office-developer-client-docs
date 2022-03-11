@@ -28,16 +28,16 @@ Determines the output format for a drawing. Drawing pages are usually formatted 
 
 To get a reference to the OutputFormat cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | OutputFormat  <br/> |
+| **Cell name:**  <br/> | OutputFormat  <br/> |
    
 To get a reference to the OutputFormat cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowDoc** <br/> |
-| Cell index:  <br/> |**visDocOutputFormat** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowDoc** <br/> |
+| **Cell index:**  <br/> |**visDocOutputFormat** <br/> |
    
 

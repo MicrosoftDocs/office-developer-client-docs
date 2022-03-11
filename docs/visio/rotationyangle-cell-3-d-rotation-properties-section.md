@@ -20,16 +20,16 @@ Determines the angle of rotation along the Y-axis, in degrees (0.0 - 359.9).
 
 To get a reference to the **RotationYAngle** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |RotationYAngle  <br/> |
+|**Cell name:**  <br/> |RotationYAngle  <br/> |
    
 To get a reference to the **RotationYAngle** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRow3DRotationProperties** <br/> |
-|Cell index:  <br/> |**visRotationYAngle** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRow3DRotationProperties** <br/> |
+|**Cell index:**  <br/> |**visRotationYAngle** <br/> |
    
 

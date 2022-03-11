@@ -32,16 +32,16 @@ To specify a custom line pattern, use the USE function in this cell.
   
 To get a reference to the LinePattern cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LinePattern  <br/> |
+|**Cell name:**  <br/> |LinePattern  <br/> |
    
 To get a reference to the LinePattern cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLine** <br/> |
-|Cell index:  <br/> |**visLinePattern** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLine** <br/> |
+|**Cell index:**  <br/> |**visLinePattern** <br/> |
    
 
