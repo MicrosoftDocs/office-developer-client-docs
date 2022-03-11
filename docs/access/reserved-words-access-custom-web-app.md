@@ -1,7 +1,7 @@
 ---
 title: "Reserved keywords (Access custom web app)"
-manager: kelbow
-ms.date: 08/18/2017
+manager: lindalu
+ms.date: 03/11/2022
 ms.audience: Developer
 ms.topic: overview 
 ms.localizationpriority: medium

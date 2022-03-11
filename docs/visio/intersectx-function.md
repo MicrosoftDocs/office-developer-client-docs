@@ -1,9 +1,7 @@
 ---
-title: "INTERSECTX Function"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "INTERSECTX Function" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
@@ -16,39 +14,38 @@ description: "Returns the x -coordinate (in the local coordinate system) of the 
 
 # INTERSECTX Function
 
-Returns the  *x*  -coordinate (in the local coordinate system) of the point where two lines intersect. 
+Returns the  *x*  -coordinate (in the local coordinate system) of the point where two lines intersect.
   
 ## Syntax
 
-INTERSECTX(***x1***, ***y1***, ***angle1***, ***x2***, ***y2***, ***angle2*** ) 
+INTERSECTX(***x1***, ***y1***, ***angle1***, ***x2***, ***y2***, ***angle2*** )
   
 ### Parameters
 
 |**Name**|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
-| _x1_ <br/> |Required  <br/> |**Number** <br/> |The  _x_-coordinate of a point on the first line. |
-| _y1_ <br/> |Required  <br/> |**Number** <br/> |The  _y_-coordinate of a point on the first line. |
-| _angle1_ <br/> |Required  <br/> |**Number** <br/> | The value of the Angle cell for the first line. |
-| _x2_ <br/> |Required  <br/> |**Number** <br/> |The  _x_-coordinate of a point on the second line. |
-| _y2_ <br/> |Required  <br/> |**Number** <br/> |The  _y_-coordinate of a point on the second line. |
-| _angle2_ <br/> |Required  <br/> |**Number** <br/> |The value of the Angle cell for the second line. |
-   
+| *x1* <br/> |Required  <br/> |**Number** <br/> |The  *x*-coordinate of a point on the first line. |
+| *y1* <br/> |Required  <br/> |**Number** <br/> |The  *y*-coordinate of a point on the first line. |
+| *angle1* <br/> |Required  <br/> |**Number** <br/> | The value of the Angle cell for the first line. |
+| *x2* <br/> |Required  <br/> |**Number** <br/> |The  *x*-coordinate of a point on the second line. |
+| *y2* <br/> |Required  <br/> |**Number** <br/> |The  *y*-coordinate of a point on the second line. |
+| *angle2* <br/> |Required  <br/> |**Number** <br/> |The value of the Angle cell for the second line. |
+
 ### Return value
 
 Number
   
 ## Remarks
 
-Each line is defined as a point (*x,y*) and an angle. 
+Each line is defined as a point (*x,y*) and an angle.
   
-Microsoft Visio uses this function in the PinX cell of a shape glued to a rotated guide. 
+Microsoft Visio uses this function in the PinX cell of a shape glued to a rotated guide.
   
-If the lines don't intersect, the function returns a divide-by-zero error (#DIV/0!), which Visio ignores, restoring the last known value for the point. 
+If the lines don't intersect, the function returns a divide-by-zero error (#DIV/0!), which Visio ignores, restoring the last known value for the point.
   
 ## Example
 
-INTERSECTX(VertGuide!PinX,VertGuide!PinY,VertGuide!Angle, HorzGuide!PinX,HorzGuide!PinY,HorzGuide!Angle) 
+INTERSECTX(VertGuide!PinX,VertGuide!PinY,VertGuide!Angle, HorzGuide!PinX,HorzGuide!PinY,HorzGuide!Angle)
   
-Returns the  *x*  -coordinate of the intersection point of VertGuide and HorzGuide in page units. 
+Returns the  *x*  -coordinate of the intersection point of VertGuide and HorzGuide in page units.
   
-

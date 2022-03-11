@@ -1,9 +1,7 @@
 ---
-title: "CbFLATENTRYLIST"
- 
- 
-manager: soliver
-ms.date: 03/09/2015
+title: "CbFLATENTRYLIST" 
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
 ms.prod: office-online-server
@@ -13,22 +11,20 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
-description: "Last modified: March 09, 2015"
+description: "Computes the number of bytes in an existing FLATENTRYLIST structure."
 ---
 
 # CbFLATENTRYLIST
 
+**Applies to**: Outlook 2013 | Outlook 2016
   
+Computes the number of bytes in an existing [FLATENTRYLIST](flatentrylist.md) structure.
   
-**Applies to**: Outlook 2013 | Outlook 2016 
-  
-Computes the number of bytes in an existing [FLATENTRYLIST](flatentrylist.md) structure. 
-  
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**FLATENTRYLIST** <br/> |
-   
+
 ```cpp
 CbFLATENTRYLIST(_lplist)
 ```
@@ -37,14 +33,9 @@ CbFLATENTRYLIST(_lplist)
 
  __lplist_
   
-> Pointer to the **FLATENTRYLIST** structure in question. 
-    
+> Pointer to the **FLATENTRYLIST** structure in question.
+
 ## See also
 
-
-
 [FLATENTRYLIST](flatentrylist.md)
-
-
 [Macros Related to Structures](macros-related-to-structures.md)
-
