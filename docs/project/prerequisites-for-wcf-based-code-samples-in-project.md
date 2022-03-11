@@ -168,7 +168,7 @@ The following steps show how to set a service reference by using Visual Studio 2
 
 2. In **Solution Explorer**, right-click the **References** folder, and then choose **Add Service Reference**.
 
-3. In the **Add Service Reference** dialog box, in the **Address** text box, type <https://localhost:32843/> _GUID_/psi/ _ServiceName_.svc, and then press **Enter**. Replace  _GUID_ with the virtual directory name of the Project Server service application, such as 534c37eb00d74ccfadcecf9827e95239. Replace  _ServiceName_ with the name of the service, such as Resource (see Figure 3).
+3. In the **Add Service Reference** dialog box, in the **Address** text box, type <https://localhost:32843/> _GUID_/psi/ _ServiceName_.svc, and then press **Enter**. Replace _GUID_ with the virtual directory name of the Project Server service application, such as 534c37eb00d74ccfadcecf9827e95239. Replace _ServiceName_ with the name of the service, such as Resource (see Figure 3).
 
    You can get the name of the Project Server Service virtual directory in one of the following ways:
 
@@ -346,7 +346,7 @@ Authentication of on-premises Project Server users, whether by Windows authentic
 
 To fix the problem for WCF, all calls to PSI methods should be within an **OperationContextScope** that is defined for each PSI service. Do not nest scopes for multiple services; for example, when using calls to the Resource and Project services, each set of calls should be within its own scope.
   
-In the following example, the **DisableFormsAuth** method can be called from every **OperationContextScope** section in an application. The method removes any header value that previously disabled Forms authentication, so that Forms authentication can proceed if the _isWindowsAuth_ parameter is **false**. If  _isWindowsAuth_ is **true**, the **DisableFormsAuth** method disables Forms authentication.
+In the following example, the **DisableFormsAuth** method can be called from every **OperationContextScope** section in an application. The method removes any header value that previously disabled Forms authentication, so that Forms authentication can proceed if the _isWindowsAuth_ parameter is **false**. If _isWindowsAuth_ is **true**, the **DisableFormsAuth** method disables Forms authentication.
   
 In the **WcfSample** method, the **projectClient** object is an instance of the PSI **SvcProject.ProjectClient** class.
   
@@ -387,7 +387,7 @@ private void WcfSample()
 
 <a name="pj15_PrerequisitesWCF_ChangeValues"> </a>
 
-Most samples have one or more variables that you must update for the sample to work properly in your environment. In the following example, if you have SSL installed, use the HTTPS protocol instead of the HTTP protocol. Replace  _ServerName_ with the name of the server that you are using. Replace  _ProjectServerName_ with the virtual directory name of your project server site, such as PWA.
+Most samples have one or more variables that you must update for the sample to work properly in your environment. In the following example, if you have SSL installed, use the HTTPS protocol instead of the HTTP protocol. Replace _ServerName_ with the name of the server that you are using. Replace _ProjectServerName_ with the virtual directory name of your project server site, such as PWA.
   
 ```cs
 const string PROJECT_SERVER_URI = "https://ServerName/ProjectServerName/";

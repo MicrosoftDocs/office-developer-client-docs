@@ -18,9 +18,7 @@ Microsoft Access uses reserved keywords for defining, manipulating, and accessin
   
 ## Access reserved keywords
 
-The following table lists Access reserved keywords.
-  
-||||
+|**The following table lists Access reserved keywords.**|||
 |:-----|:-----|:-----|
 |ADD  <br/> |FILLFACTOR  <br/> |Quarter  <br/> |
 |ALL  <br/> |Float  <br/> |RAISERROR  <br/> |
