@@ -22,16 +22,16 @@ Determines whether the drawing page resizes automatically to fit the diagram.
 
 To get a reference to the DrawingResizeType cell by name from another formula, or from a program by using the **CellsU** property, use the following. 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |DrawingResizeType  <br/> |
+|**Cell name:**  <br/> |DrawingResizeType  <br/> |
    
 To get a reference to the DrawingResizeType cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPage** <br/> |
-|Cell index:  <br/> |**visPageDrawResizeType** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPage** <br/> |
+|**Cell index:**  <br/> |**visPageDrawResizeType** <br/> |
    
 

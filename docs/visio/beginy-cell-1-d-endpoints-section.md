@@ -22,16 +22,16 @@ Represents the  *y*  -coordinate of the begin point of the 1-D shape, in relatio
 
 To get a reference to the BeginY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | BeginY  <br/> |
+| **Cell name:**  <br/> | BeginY  <br/> |
    
 To get a reference to the BeginY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowXForm1D** <br/> |
-| Cell index:  <br/> |**vis1DBeginY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowXForm1D** <br/> |
+| **Cell index:**  <br/> |**vis1DBeginY** <br/> |
    
 

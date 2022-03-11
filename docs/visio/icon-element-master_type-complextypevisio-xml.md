@@ -18,7 +18,7 @@ Specifies a MIME (Multipurpose Internet Mail Extensions) encoded binary icon (in
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

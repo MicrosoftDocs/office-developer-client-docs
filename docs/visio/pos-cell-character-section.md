@@ -29,16 +29,16 @@ Determines the position of the shape's text relative to the baseline.
 
 To get a reference to the Pos cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Char.Pos[  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Char.Pos[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Pos cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionCharacter** <br/> |
-| Row index:  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCharacterPos** <br/> |
+| **Section index:**  <br/> |**visSectionCharacter** <br/> |
+| **Row index:**  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCharacterPos** <br/> |
    
 

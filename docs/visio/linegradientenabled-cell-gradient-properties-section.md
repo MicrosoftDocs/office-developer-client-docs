@@ -25,16 +25,16 @@ Determines whether a line gradient is enabled for a line or border of a shape.
 
 To get a reference to the **LineGradientEnabled** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LineGradientEnabled  <br/> |
+| **Cell name:**  <br/> | LineGradientEnabled  <br/> |
    
 To get a reference to the **LineGradientEnabled** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowGradientProperties** <br/> |
-| Cell index:  <br/> |**visLineGradientEnabled** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowGradientProperties** <br/> |
+| **Cell index:**  <br/> |**visLineGradientEnabled** <br/> |
    
 

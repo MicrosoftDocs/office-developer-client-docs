@@ -146,16 +146,16 @@ The following table contains a list of languages and their corresponding LCIDs.
    
 To get a reference to the DocLangID cell by name from another formula or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |DocLangID  <br/> |
+|**Cell name:**  <br/> |DocLangID  <br/> |
    
 To get a reference to the DocLangID cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowDoc** <br/> |
-|Cell index:  <br/> |**visDocLangID** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowDoc** <br/> |
+|**Cell index:**  <br/> |**visDocLangID** <br/> |
    
 

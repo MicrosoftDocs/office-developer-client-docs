@@ -47,14 +47,14 @@ The units of the formula in the DrawingScale cell determine the measurement unit
 
 To get a reference to the DrawingScale cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |DrawingScale  <br/> |
+|**Cell name:**  <br/> |DrawingScale  <br/> |
 
 To get a reference to the DrawingScale cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPage** <br/> |
-|Cell index:  <br/> |**visPageDrawingScale** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPage** <br/> |
+|**Cell index:**  <br/> |**visPageDrawingScale** <br/> |
