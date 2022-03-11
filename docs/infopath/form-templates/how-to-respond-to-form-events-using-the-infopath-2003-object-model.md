@@ -18,13 +18,13 @@ description: "You can write code to respond to various events that can occur as 
 
 You can write code to respond to various events that can occur as a user fills out a form. To work with events in InfoPath, you create event handlers in the InfoPath designer.
   
-InfoPath event handlers should be created in the InfoPath designer because, when using the InfoPath 2003-compatible object model, InfoPath automatically adds the correct declaration and applies an attribute ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) in a form's code file (FormCode.cs or FormCode.vb) to identify and sink the event handler. After you have created an event handler, you should not alter its declaration and attribute in the form's code file. 
+InfoPath event handlers should be created in the InfoPath designer because, when using the InfoPath 2003-compatible object model, InfoPath automatically adds the correct declaration and applies an attribute ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) in a form's code file (FormCode.cs or FormCode.vb) to identify and sink the event handler. After you have created an event handler, you should not alter its declaration and attribute in the form's code file.
   
 For information about creating the InfoPath event handlers, see [Add an Event Handler Using the InfoPath 2003 Object Model](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## Overview of the Event Objects
 
-The InfoPath 2003-compatible object model implements nine event objects that are exposed in the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace. The following table lists each of the InfoPath event objects, the event handlers they are associated with, and a description of the functionality they provide. 
+The InfoPath 2003-compatible object model implements nine event objects that are exposed in the [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) namespace. The following table lists each of the InfoPath event objects, the event handlers they are associated with, and a description of the functionality they provide.
   
 |**Name**|**Event handlers**|**Description**|
 |:-----|:-----|:-----|
@@ -37,12 +37,12 @@ The InfoPath 2003-compatible object model implements nine event objects that are
 |[SaveEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Returns a number of properties and methods that can be used during a save operation from the **OnSaveRequest** event handler to programmatically interact with a form's underlying XML document, determine save properties, and perform the save operation. |
 |[SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) <br/> |[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Used to add additional data to the digital signature. |
 |[VersionUpgradeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent.aspx) <br/> |[OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) <br/> |Returns a reference to a form's underlying XML document, the return status, and the document and solution version numbers during the version upgrade operation. |
-   
+
 ## Using the Event Objects
 
-When you create an event handler, InfoPath creates the event handler's declaration in the project's form code file (FormCode.cs or FormCode.vb). In the declaration of the event handler, InfoPath uses **e** as the name of the parameter that is passed to the event handler. This parameter contains the event object that is associated with the event handler. 
+When you create an event handler, InfoPath creates the event handler's declaration in the project's form code file (FormCode.cs or FormCode.vb). In the declaration of the event handler, InfoPath uses **e** as the name of the parameter that is passed to the event handler. This parameter contains the event object that is associated with the event handler.
   
-For example, when you create an event handler for the **OnLoad** event in design mode (by clicking **On Load Event** on the **Developer** tab), InfoPath adds the declaration for the event handler that receives the **DocReturnEvent** object to the form code file, and then opens the Code Editor so that you can add your code to the following event handler declaration. 
+For example, when you create an event handler for the **OnLoad** event in design mode (by clicking **On Load Event** on the **Developer** tab), InfoPath adds the declaration for the event handler that receives the **DocReturnEvent** object to the form code file, and then opens the Code Editor so that you can add your code to the following event handler declaration.
   
 ```cs
 // The following function handler is created by Microsoft Office 
@@ -83,7 +83,7 @@ public void field1_OnBeforeChange(DataDOMEvent e)
 ```
 
 ```vb
-<InfoPathEventHandler(MatchPath:="/my:myFields/my:field1", _ EventType:=InfoPathEventType.OnBeforeChange)> _
+<InfoPathEventHandler(MatchPath:="/my:myFields/my:field1", _EventType:=InfoPathEventType.OnBeforeChange)> _
 Public Sub field1_OnBeforeChange(ByVal e As DataDOMEvent)
    ' Determine whether there is a new value.
    If (e.NewValue = "") Then
@@ -97,6 +97,5 @@ End Sub
 ```
 
 > [!NOTE]
-> Each of the InfoPath event objects in the InfoPath 2003-compatible object model implements different properties and methods. For more information about a particular event object, click the appropriate object in the Event Objects table shown earlier. 
+> Each of the InfoPath event objects in the InfoPath 2003-compatible object model implements different properties and methods. For more information about a particular event object, click the appropriate object in the Event Objects table shown earlier.
   
-
