@@ -24,16 +24,16 @@ You can also set this value in the **Layout and Routing Spacing** dialog box (on
   
 To get a reference to the BlockSizeX cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |BlockSizeX  <br/> |
+|**Cell name:**  <br/> |BlockSizeX  <br/> |
    
 To get a reference to the BlockSizeX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOBlockSizeX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOBlockSizeX** <br/> |
    
 

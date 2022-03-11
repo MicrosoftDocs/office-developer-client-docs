@@ -40,16 +40,16 @@ Changing this value from allowing to not allowing dynamic glue does not sever or
   
 To get a reference to the GlueType cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | GlueType  <br/> |
+| **Cell name:**  <br/> | GlueType  <br/> |
    
 To get a reference to the GlueType cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visGlueType** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visGlueType** <br/> |
    
 
