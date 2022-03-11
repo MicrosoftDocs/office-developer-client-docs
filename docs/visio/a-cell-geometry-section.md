@@ -33,19 +33,19 @@ Represents different information in different rows. This table describes the A c
 
 To get a reference to the A cell by name from another formula, or from a program, using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Geometry  *i*  .A  *j*            where  *i*  and  *j*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Geometry  *i*  .A  *j*            where  *i*  and  *j*  = <1>, 2, 3... |
 || Geometry  *i*  .A1 (InfiniteLine and Ellipse rows)            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the A cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
-| Row index:  <br/> |**visRowVertex** +  *j*            where  *j*  = 0, 1, 2... |
+| **Section index:**  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowVertex** +  *j*            where  *j*  = 0, 1, 2... |
 ||**visRowVertex** (InfiniteLine and Ellipse rows)  <br/> |
-| Cell index:  <br/> |**visBow** (ArcTo row)  <br/> |
+| **Cell index:**  <br/> |**visBow** (ArcTo row)  <br/> |
 ||**visControlX** (EllipticalArcTo row)  <br/> |
 ||**visControlY** (EllipticalArcTo row)  <br/> |
 ||**visPolylineData** (Polyline row)  <br/> |

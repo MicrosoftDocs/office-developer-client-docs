@@ -24,16 +24,16 @@ You can also set the value of this cell in the **Layout and Routing Spacing** di
   
 To get a reference to the LineToLineX cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LineToLineX  <br/> |
+|**Cell name:**  <br/> |LineToLineX  <br/> |
    
 To get a reference to the LineToLineX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPageLayout** <br/> |
-|Cell index:  <br/> |**visPLOLineToLineX** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPageLayout** <br/> |
+|**Cell index:**  <br/> |**visPLOLineToLineX** <br/> |
    
 

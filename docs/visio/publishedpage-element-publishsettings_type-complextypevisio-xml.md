@@ -18,7 +18,7 @@ Specifies whether a drawing page is viewable in the browser using Visio Services
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

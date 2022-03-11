@@ -27,16 +27,16 @@ You can enter this value as an explicit point size or as a percentage. If you sp
   
 To get a reference to the ComplexScriptSize cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Char.ComplexScriptSize[ *i*  ]           where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Char.ComplexScriptSize[ *i*  ]           where  *i*  = <1>, 2, 3... |
    
 To get a reference to the ComplexScriptSize cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionCharacter** <br/> |
-|Row index:  <br/> |**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visCharacterComplexScriptSize** <br/> |
+|**Section index:**  <br/> |**visSectionCharacter** <br/> |
+|**Row index:**  <br/> |**visRowCharacter** +  *i*           where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visCharacterComplexScriptSize** <br/> |
    
 
