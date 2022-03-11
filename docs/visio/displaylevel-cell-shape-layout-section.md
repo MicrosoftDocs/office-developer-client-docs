@@ -30,16 +30,16 @@ You can change the Z-order of shapes within a band by using the commands **Bring
   
 To get a reference to the DisplayLevel cell by name from another formula or from a program by using the **CellsU** property, use the following. 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |DisplayLevel  <br/> |
+|**Cell name:**  <br/> |DisplayLevel  <br/> |
    
 To get a reference to the DisplayLevel cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowShapeLayout** <br/> |
-|Cell index:  <br/> |**visSLODisplayLevel** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowShapeLayout** <br/> |
+|**Cell index:**  <br/> |**visSLODisplayLevel** <br/> |
    
 

@@ -27,16 +27,16 @@ Determines whether a style includes text properties.
 
 To get a reference to the EnableTextProps cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |EnableTextProps  <br/> |
+|**Cell name:**  <br/> |EnableTextProps  <br/> |
    
 To get a reference to the EnableTextProps cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowStyle** <br/> |
-|Cell index:  <br/> |**visStyleIncludesText** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowStyle** <br/> |
+|**Cell index:**  <br/> |**visStyleIncludesText** <br/> |
    
 

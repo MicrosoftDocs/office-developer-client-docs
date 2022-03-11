@@ -24,16 +24,16 @@ This value corresponds to the value in the **Y Offset** setting in the **Shadow*
   
 To get a reference to the ShapeShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ShapeShdwOffsetY  <br/> |
+| **Cell name:**  <br/> | ShapeShdwOffsetY  <br/> |
    
 To get a reference to the ShapeShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowFill** <br/> |
-| Cell index:  <br/> |**visFillShdwOffsetY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowFill** <br/> |
+| **Cell index:**  <br/> |**visFillShdwOffsetY** <br/> |
    
 

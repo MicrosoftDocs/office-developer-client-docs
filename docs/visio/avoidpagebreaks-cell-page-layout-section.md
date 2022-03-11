@@ -22,16 +22,16 @@ Determines whether shapes can be placed over page breaks when the shapes are inc
 
 To get a reference to the AvoidPageBreaks cell by name from another formula, or from a program by using the **CellsU** property, use the following. 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |AvoidPageBreaks  <br/> |
+|**Cell name:**  <br/> |AvoidPageBreaks  <br/> |
    
 To get a reference to the AvoidPageBreaks cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPageLayout** <br/> |
-|Cell index:  <br/> |**visPLOAvoidPageBreaks** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPageLayout** <br/> |
+|**Cell index:**  <br/> |**visPLOAvoidPageBreaks** <br/> |
    
 
