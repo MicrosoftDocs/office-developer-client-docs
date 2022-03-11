@@ -1,7 +1,7 @@
 ---
 title: "Reserved keywords (Access custom web app)"
-manager: kelbow
-ms.date: 08/18/2017
+manager: lindalu
+ms.date: 03/11/2022
 ms.audience: Developer
 ms.topic: overview 
 ms.localizationpriority: medium
@@ -18,7 +18,9 @@ Microsoft Access uses reserved keywords for defining, manipulating, and accessin
   
 ## Access reserved keywords
 
-|**The following table lists Access reserved keywords.**|||
+The following table lists Access reserved keywords.
+  
+|Keyword |Keyword |Keyword |
 |:-----|:-----|:-----|
 |ADD  <br/> |FILLFACTOR  <br/> |Quarter  <br/> |
 |ALL  <br/> |Float  <br/> |RAISERROR  <br/> |
@@ -101,7 +103,7 @@ The following words are reserved for use in ODBC function calls. These words do 
   
 This is the current list of ODBC reserved keywords.
   
-||||
+|Keyword |Keyword |Keyword |
 |:-----|:-----|:-----|
 |ABSOLUTE  <br/> |EXEC  <br/> |OVERLAPS  <br/> |
 |ACTION  <br/> |EXECUTE  <br/> |PAD  <br/> |
@@ -187,7 +189,7 @@ This is the current list of ODBC reserved keywords.
 
 The following keywords could be reserved in future releases of SQL Server as new features are implemented. Consider avoiding the use of these words as identifiers.
   
-||||
+|Keyword |Keyword |Keyword |
 |:-----|:-----|:-----|
 |ABSOLUTE  <br/> |HOST  <br/> |RELATIVE  <br/> |
 |ACTION  <br/> |HOUR  <br/> |RELEASE  <br/> |

@@ -24,14 +24,14 @@ The dynamic grid uses the setting in the AvenueSizeX cell when only one shape is
   
 To get a reference to the AvenueSizeX cell by name from another formula, or from a program by using the **CellsU** property, use:
   
-|**Value**|**Description**|
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | AvenueSizeY  <br/> |
+| **Cell name:**  <br/> | AvenueSizeY  <br/> |
 
 To get a reference to the AvenueSizeX cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|**Value**|**Description**|
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOAvenueSizeX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOAvenueSizeX** <br/> |

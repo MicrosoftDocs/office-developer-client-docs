@@ -16,7 +16,7 @@ ms.assetid: 7b36eb8f-d1af-9bbc-2822-0c3d09dfc2a9
 
 ## Type information
 
-|||
+||Value |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Schema file** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |

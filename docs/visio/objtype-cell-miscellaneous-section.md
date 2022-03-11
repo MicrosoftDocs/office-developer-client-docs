@@ -34,16 +34,16 @@ The value of the ObjType cell can be a combination of values. If the non-placeab
   
 To get a reference to the ObjType cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ObjType  <br/> |
+|**Cell name:**  <br/> |ObjType  <br/> |
    
 To get a reference to the ObjType cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowMisc** <br/> |
-|Cell index:  <br/> |**visLOFlags** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowMisc** <br/> |
+|**Cell index:**  <br/> |**visLOFlags** <br/> |
    
 

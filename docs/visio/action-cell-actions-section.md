@@ -27,16 +27,16 @@ An Action cell is evaluated only when the action occurs, not when the formula is
   
 To get a reference to the the Action cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Actions.  *name*  .Action           where Actions. *name*  is the name of the actions row  <br/> |
+| **Cell name:**  <br/> | Actions.  *name*  .Action           where Actions. *name*  is the name of the actions row  <br/> |
    
 To get a reference to thethe Action cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionAction** <br/> |
-| Row index:  <br/> |**visRowAction** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visActionAction** <br/> |
+| **Section index:**  <br/> |**visSectionAction** <br/> |
+| **Row index:**  <br/> |**visRowAction** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visActionAction** <br/> |
    
 

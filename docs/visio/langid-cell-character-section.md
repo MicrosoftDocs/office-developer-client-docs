@@ -25,16 +25,16 @@ For a list of languages supported by Microsoft Office applications, see the [Doc
   
 To get a reference to the LangID cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Char.LangID[  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Char.LangID[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the LangID cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionCharacter** <br/> |
-| Row index:  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCharacterLangID** <br/> |
+| **Section index:**  <br/> |**visSectionCharacter** <br/> |
+| **Row index:**  <br/> |**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCharacterLangID** <br/> |
    
 

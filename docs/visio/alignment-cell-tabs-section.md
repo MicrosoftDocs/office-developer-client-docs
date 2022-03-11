@@ -30,16 +30,16 @@ Specifies the tab alignment.
 
 To get a reference to the Alignment cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Tabs.  *ij*            where  *i and j =*  <1>, 2, 3  <br/> |
+| **Cell name:**  <br/> | Tabs.  *ij*            where  *i and j =*  <1>, 2, 3  <br/> |
    
 To get a reference to the Alignment cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionTab** <br/> |
-| Row index:  <br/> |**visRowTab +** *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> | (*j*  *3) **+ visTabAlign** <br/> |
+| **Section index:**  <br/> |**visSectionTab** <br/> |
+| **Row index:**  <br/> |**visRowTab +** *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> | (*j*  *3) **+ visTabAlign** <br/> |
    
 

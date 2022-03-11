@@ -20,16 +20,16 @@ Determines the Quick Style line style that the shape inherits, as an integer fro
 
 To get a reference to the **QuickStyleLineMatrix** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | QuickStyleLineMatrix  <br/> |
+| **Cell name:**  <br/> | QuickStyleLineMatrix  <br/> |
    
 To get a reference to the **QuickStyleLineMatrix** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowQuickStyleProperties** <br/> |
-| Cell index:  <br/> |**visQuickStyleLineMatrix** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowQuickStyleProperties** <br/> |
+| **Cell index:**  <br/> |**visQuickStyleLineMatrix** <br/> |
    
 

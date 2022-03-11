@@ -12,7 +12,7 @@ description: "To help customers get the most out of Project Online and improve o
 
 To help customers get the most out of Project Online and improve our service extensibility and flexibility, we've added two methods to the client-side object model that you can use in Project Online apps and workflows.
   
-|||
+||Value |
 |:-----|:-----|
 |**UpdateCustomFields** <br/> |Bulk updates project custom fields. For Project Online only. Available only in the REST API. |
 |**CreateProjectSite** <br/> | Creates a Project site. For Project Online only. Available in the REST API, managed client object model, and JavaScript client object model. |

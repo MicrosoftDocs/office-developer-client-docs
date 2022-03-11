@@ -24,16 +24,16 @@ This value represents physical units and is unaffected by scale or drawing units
   
 To get a reference to the PageRightMargin cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | PageRightMargin  <br/> |
+| **Cell name:**  <br/> | PageRightMargin  <br/> |
    
 To get a reference to the PageRightMargin cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPrintProperties** <br/> |
-| Cell index:  <br/> |**visPrintPropertiesRightMargin** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPrintProperties** <br/> |
+| **Cell index:**  <br/> |**visPrintPropertiesRightMargin** <br/> |
    
 

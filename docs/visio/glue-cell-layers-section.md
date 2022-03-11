@@ -29,16 +29,16 @@ This cell corresponds to the **Glue** option in the **Layer Properties** dialog 
   
 To get a reference to the Glue cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Glue[  *i*  ] where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Layers.Glue[  *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Glue cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visLayerGlue** <br/> |
+|**Section index:**  <br/> |**visSectionLayer** <br/> |
+|**Row index:**  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visLayerGlue** <br/> |
    
 
