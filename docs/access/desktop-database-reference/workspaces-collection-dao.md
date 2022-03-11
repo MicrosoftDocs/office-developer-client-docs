@@ -11,7 +11,6 @@ ms.localizationpriority: medium
 
 # Workspaces collection (DAO)
 
-
 **Applies to**: Access 2013, Office 2013
 
 A **Workspaces** collection contains all active, unhidden **Workspace** objects of the **DBEngine** object. (Hidden **Workspace** objects are not appended to the collection and referenced by the variable to which they are assigned.)
@@ -32,17 +31,14 @@ To refer to a **Workspace** object in a collection by its ordinal number or by i
 
 **DBEngine**.**Workspaces**\!\[name\]
 
-
 > [!NOTE]
 > ODBCDirect workspaces are not supported in Microsoft Access 2013. Use ADO if you want to access external data sources without using the Microsoft Access database engine.
-
-
 
 ## Example
 
 This example creates a new Microsoft Access Workspace object and appends it to the **Workspaces** collection. It then enumerates the **Workspaces** collections and the **Properties** collection of the **Workspace** object.
 
-```vb 
+```vb
 Sub WorkspaceX() 
  
  Dim wrkNewAcc As Workspace 
@@ -73,10 +69,9 @@ Sub WorkspaceX()
 End Sub 
 ```
 
-
 This example uses the **CreateWorkspace** method to create a Microsoft Access workspace. It then lists the properties of theworkspace.
 
-```vb 
+```vb
 Sub CreateWorkspaceX() 
  
  Dim wrkAcc As Workspace 
@@ -113,4 +108,3 @@ Sub CreateWorkspaceX()
 End Sub 
  
 ```
-
