@@ -27,16 +27,16 @@ Indicates whether a shape's text will ignore the shape's rotation in 3-D. Does n
 
 To get a reference to the **KeepTextFlat** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |KeepTextFlat  <br/> |
+|**Cell name:**  <br/> |KeepTextFlat  <br/> |
    
 To get a reference to the **KeepTextFlat** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRow3DRotationProperties** <br/> |
-|Cell index:  <br/> |**visKeepTextFlat** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRow3DRotationProperties** <br/> |
+|**Cell index:**  <br/> |**visKeepTextFlat** <br/> |
    
 
