@@ -35,7 +35,7 @@ The record created by **CreateRecord** automatically becomes the current record.
   
 After **CreateRecord** statement, you can insert a block of commands that will execute before the new record is committed. The following actions are available in a **CreateRecord** data block. 
   
-||
+|Action |
 |:-----|
 |[CancelRecordChange Macro Action](cancelrecordchange-macro-action-access-custom-web-app.md) <br/> |
 |[Comment Macro Statement](comment-macro-block-access-custom-web-app.md) <br/> |

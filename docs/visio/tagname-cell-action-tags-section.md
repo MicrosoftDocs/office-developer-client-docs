@@ -28,16 +28,16 @@ Name of the action tag that is used as a key to associate the action tag with it
   
 To get a reference to the TagName cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | SmartTags.  *name*  .TagName           where SmartTags. *name*  is the name of the action tag row  <br/> |
+| **Cell name:**  <br/> | SmartTags.  *name*  .TagName           where SmartTags. *name*  is the name of the action tag row  <br/> |
    
 To get a reference to the TagName cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visSmartTagName** <br/> |
+| **Section index:**  <br/> |**visSectionSmartTag** <br/> |
+| **Row index:**  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visSmartTagName** <br/> |
    
 

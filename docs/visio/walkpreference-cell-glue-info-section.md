@@ -29,16 +29,16 @@ This cell has no effect on dynamic connectors. A dynamic connector's behavior is
   
 To get a reference to the WalkPreference cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | WalkPreference  <br/> |
+| **Cell name:**  <br/> | WalkPreference  <br/> |
    
 To get a reference to the WalkPreference cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visWalkPref** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visWalkPref** <br/> |
    
 

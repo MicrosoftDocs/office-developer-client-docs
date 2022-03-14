@@ -18,7 +18,7 @@ Specifies the beginning of a paragraph properties run. The run is defined to the
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
