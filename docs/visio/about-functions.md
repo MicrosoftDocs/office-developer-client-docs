@@ -24,7 +24,7 @@ A function performs a single well-defined task. Most functions take a number of 
 | ,  <br/> | Arguments are separated by a comma. |
 | ... | Used for notation only; do not include in a function. |
 | [ ]  <br/> | Optional argument. Used for notation only; do not include in a function. |
-| |  <br/> | A choice; you can include  _argumentA_ or  _argument_. Used for notation only; do not include in a function. |
+| \|  <br/> | A choice; you can include  _argumentA_ or  _argument_. Used for notation only; do not include in a function. |
 
 Many functions that you can use in formulas resemble those you have seen in spreadsheet programs: mathematical, such as SUM or SQRT; trigonometric, such as SIN or COS; or logical, such as IF or NOT. Many other functions are unique to Microsoft Office Visio, such as GUARD, GRAVITY, and RUNADDON.
   

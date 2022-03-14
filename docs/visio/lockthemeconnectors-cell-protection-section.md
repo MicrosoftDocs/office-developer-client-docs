@@ -25,16 +25,16 @@ Prevents the **ConnectorsSchemeIndex** cell in the **Theme Properties** row from
 
 To get a reference to the **LockThemeConnectors** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LockThemeConnectors  <br/> |
+| **Cell name:**  <br/> | LockThemeConnectors  <br/> |
    
 To get a reference to the **LockThemeConnectors** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowLock** <br/> |
-| Cell index:  <br/> |**visLockThemeConnectors** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowLock** <br/> |
+| **Cell index:**  <br/> |**visLockThemeConnectors** <br/> |
    
 

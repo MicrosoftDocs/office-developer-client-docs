@@ -22,16 +22,16 @@ Determines the distance between the top border of the text block and the first l
 
 To get a reference to the TopMargin cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | TopMargin  <br/> |
+| **Cell name:**  <br/> | TopMargin  <br/> |
    
 To get a reference to the TopMargin cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowText** <br/> |
-| Cell index:  <br/> |**visTxtBlkTopMargin** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowText** <br/> |
+| **Cell index:**  <br/> |**visTxtBlkTopMargin** <br/> |
    
 

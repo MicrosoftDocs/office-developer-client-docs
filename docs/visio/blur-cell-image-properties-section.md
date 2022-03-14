@@ -22,16 +22,16 @@ Blurs or softens a bitmap image. The default value is 0%.
 
 To get a reference to the Blur cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Blur  <br/> |
+| **Cell name:**  <br/> | Blur  <br/> |
    
 To get a reference to the Blur cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowImage** <br/> |
-| Cell index:  <br/> |**visImageBlur** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowImage** <br/> |
+| **Cell index:**  <br/> |**visImageBlur** <br/> |
    
 

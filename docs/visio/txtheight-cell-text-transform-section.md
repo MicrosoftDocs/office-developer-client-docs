@@ -24,16 +24,16 @@ Determines the height of the text block. The default formula is:
 
 To get a reference to the TxtHeight cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | TxtHeight  <br/> |
+| **Cell name:**  <br/> | TxtHeight  <br/> |
    
 To get a reference to the TxtHeight cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowTextXForm** <br/> |
-| Cell index:  <br/> |**visXFormHeight** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowTextXForm** <br/> |
+| **Cell index:**  <br/> |**visXFormHeight** <br/> |
    
 
