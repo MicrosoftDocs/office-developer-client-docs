@@ -29,16 +29,16 @@ Determines the method by which the drawing is analyzed before creating the layou
 
 To get a reference to the PlaceDepth cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | PlaceDepth  <br/> |
+| **Cell name:**  <br/> | PlaceDepth  <br/> |
    
 To get a reference to the PlaceDepth cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOPlaceDepth** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOPlaceDepth** <br/> |
    
 
