@@ -34,16 +34,16 @@ For a list of predefined simple and oblique shadow types, see the **Style** list
   
 To get a reference to the ShdwType cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ShdwType  <br/> |
+| **Cell name:**  <br/> | ShdwType  <br/> |
    
 To get a reference to the ShapeShdwOffsetX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPage** <br/> |
-| Cell index:  <br/> |**visPageShdwType** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPage** <br/> |
+| **Cell index:**  <br/> |**visPageShdwType** <br/> |
    
 

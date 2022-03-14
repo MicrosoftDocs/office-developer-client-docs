@@ -27,16 +27,16 @@ Locks the vertices of a shape so that they cannot be edited.
 
 To get a reference to the LockVtxEdit cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LockVtxEdit  <br/> |
+|**Cell name:**  <br/> |LockVtxEdit  <br/> |
    
 To get a reference to the LockVtxEdit cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLock** <br/> |
-|Cell index:  <br/> |**visLockVtxEdit** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLock** <br/> |
+|**Cell index:**  <br/> |**visLockVtxEdit** <br/> |
    
 
