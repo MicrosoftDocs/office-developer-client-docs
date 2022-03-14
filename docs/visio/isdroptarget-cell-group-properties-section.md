@@ -31,16 +31,16 @@ To add a shape to a group by dropping it on the group, you must also enable simi
   
 To get a reference to the IsDropTarget cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |IsDropTarget  <br/> |
+|**Cell name:**  <br/> |IsDropTarget  <br/> |
    
 To get a reference to the IsDropTarget cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowGroup** <br/> |
-|Cell index:  <br/> |**visGroupIsDropTarget** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowGroup** <br/> |
+|**Cell index:**  <br/> |**visGroupIsDropTarget** <br/> |
    
 

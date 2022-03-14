@@ -23,16 +23,16 @@ Represents the  *x*  -coordinate for a connection point in local coordinates.
 
 To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Connections.X  *i*            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Connections.X  *i*            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionConnectionPts** <br/> |
-| Row index:  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visX** <br/> |
+| **Section index:**  <br/> |**visSectionConnectionPts** <br/> |
+| **Row index:**  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visX** <br/> |
    
 
