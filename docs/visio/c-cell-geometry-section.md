@@ -28,19 +28,19 @@ Represents different information in different rows. This table describes the C c
 
 To get a reference to the C cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Geometry *i* .C *j*           where *i* and *j* = <1>, 2, 3... |
-|| Geometry *i* .C1 (Ellipse row)  <br/> |
+| **Cell name:**  <br/> | Geometry *i* .C *j*           where *i* and *j* = <1>, 2, 3... |
+| **Cell name:**  <br/> | Geometry *i* .C1 (Ellipse row)  <br/> |
 
 To get a reference to the C cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** + *i*           where *i* = 0, 1, 2... |
-| Row index:  <br/> |**visRowVertex** + *j*           where *j* = 0, 1, 2... |
-||**visRowVertex** (Ellipse row)  <br/> |
-| Cell index:  <br/> |**visEccentricityAngle** (EllipticalArcTo row)  <br/> |
-||**visNURBSKnotPrev** (NURBSTo row)  <br/> |
-||**visSplineKnot3** (SplineStart row)  <br/> |
-||**visEllipseMinorX** (Ellipse row)  <br/> |
+| **Section index:**  <br/> |**visSectionFirstComponent** + *i*           where *i* = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowVertex** + *j*           where *j* = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowVertex** (Ellipse row)  <br/> |
+| **Cell index:**  <br/> |**visEccentricityAngle** (EllipticalArcTo row)  <br/> |
+| **Cell index:**  <br/> |**visNURBSKnotPrev** (NURBSTo row)  <br/> |
+| **Cell index:**  <br/> |**visSplineKnot3** (SplineStart row)  <br/> |
+| **Cell index:**  <br/> |**visEllipseMinorX** (Ellipse row)  <br/> |

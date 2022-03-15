@@ -18,7 +18,7 @@ Contains a MIME (Multipurpose Internet Mail Extensions) encoded BLOB of picture 
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
