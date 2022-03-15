@@ -21,7 +21,7 @@ USE(" ***name*** ")
   
 ### Parameters
 
-|**Name**|**Required/Optional**|**Data Type**|**Description**|
+|Name|**Required/Optional**|**Data Type**|**Description**|
 |:-----|:-----|:-----|:-----|
 | _name_ <br/> |Required  <br/> |**String** <br/> |Any string that is a valid master name. |
 
