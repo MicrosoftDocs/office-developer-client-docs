@@ -31,17 +31,17 @@ You can also set the connection point type by choosing the **Connector** tool, s
   
 To get a reference to the Type / C cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Connections.Type[  *i*  ]            where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Connections.Type[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Type / C cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionConnectionPts** <br/> |
-|Row index:  <br/> |**visRowConnectionPts** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visCnnctType** (non-extended rows) **visCnnctC** (extended rows)  <br/> |
+|**Section index:**  <br/> |**visSectionConnectionPts** <br/> |
+|**Row index:**  <br/> |**visRowConnectionPts** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visCnnctType** (non-extended rows) **visCnnctC** (extended rows)  <br/> |
    
 For information about non-extended and extended rows, see Connection Points row.
   

@@ -22,16 +22,16 @@ For best results, the ideal range of values for the **SketchLineChange** cell is
   
 To get a reference to the **SketchLineChange** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | SketchLineChange  <br/> |
+| **Cell name:**  <br/> | SketchLineChange  <br/> |
    
 To get a reference to the **SketchLineChange** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Cell index:  <br/> |**visSketchLineChange** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowOtherEffectProperties** <br/> |
+| **Cell index:**  <br/> |**visSketchLineChange** <br/> |
    
 

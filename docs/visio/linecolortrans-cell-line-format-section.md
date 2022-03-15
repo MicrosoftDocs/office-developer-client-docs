@@ -30,16 +30,16 @@ You can also set this value by using the slider control in the **Line** dialog b
   
 To get a reference to the LineColorTrans cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LineColorTrans  <br/> |
+|**Cell name:**  <br/> |LineColorTrans  <br/> |
    
 To get a reference to the LineColorTrans cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLine** <br/> |
-|Cell index:  <br/> |**visLineColorTrans** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLine** <br/> |
+|**Cell index:**  <br/> |**visLineColorTrans** <br/> |
    
 

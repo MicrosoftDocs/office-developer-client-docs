@@ -22,14 +22,14 @@ Determines whether a shape can be selected or dragged when the user clicks the f
 
 To get a reference to the NoQuickDrag cell by name from another formula, or from a program by using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Geometry  *i*  .NoQuickDrag, where  *i* - <1>, 2, 3... |
+|**Cell name:**  <br/> |Geometry  *i*  .NoQuickDrag, where  *i* - <1>, 2, 3... |
 
 To get a reference to the NoQuickDrag cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionFirstComponent** + *i*, where  *i*  = 0, 1, 2... |
-|Row index:  <br/> |**visRowComponent** <br/> |
-|Cell index:  <br/> |**visCompNoQuickDrag** <br/> |
+|**Section index:**  <br/> |**visSectionFirstComponent** + *i*, where  *i*  = 0, 1, 2... |
+|**Row index:**  <br/> |**visRowComponent** <br/> |
+|**Cell index:**  <br/> |**visCompNoQuickDrag** <br/> |

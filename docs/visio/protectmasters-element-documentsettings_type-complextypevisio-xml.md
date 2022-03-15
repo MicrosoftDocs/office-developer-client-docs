@@ -20,7 +20,7 @@ The range of possible values for this element is either '0' or '1'. A value of '
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

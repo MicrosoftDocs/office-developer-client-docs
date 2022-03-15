@@ -26,16 +26,16 @@ The dynamic grid uses the setting in the AvenueSizeY cell when only one shape is
   
 To get a reference to the AvenueSizeY cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | AvenueSizeY  <br/> |
+| **Cell name:**  <br/> | AvenueSizeY  <br/> |
    
 To get a reference to the AvenueSizeY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOAvenueSizeY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOAvenueSizeY** <br/> |
    
 
