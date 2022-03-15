@@ -1,6 +1,5 @@
 ---
 title: SetFilter macro action
-
 TOCTitle: SetFilter macro action
 ms:assetid: dee699e2-0840-1612-23ce-199ef8d30566
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835438(v=office.15)
@@ -23,6 +22,7 @@ You can use the **SetFilter** action to apply a filter to the records in the act
 ## Setting
 
 The **SetFilter** action has the following arguments.
+
 |Action argument  |Description   |
 |----------|-----------|
 |Filter Name  |If provided, the name of a query or of a filter saved as a query. This argument or the WhereCondition argument is required in a client database. In a web database, this argument is not available.|
