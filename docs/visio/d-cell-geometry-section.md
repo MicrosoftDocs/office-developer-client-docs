@@ -42,9 +42,9 @@ To get a reference to the D cell by index from a program, use the **CellsSRC** p
 | **Section index:**  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
 | **Row index:**  <br/> |**visRowVertex** +  *j*            where  *j*  = 0, 1, 2... |
 | **Row index:**  <br/> |**visRowVertex** (Ellipse row)  <br/> |
-| Cell index  <br/> |**visAspectRatio** (EllipticalArcTo row)  <br/> |
-| Cell index  <br/> |**visNURBSWeightPrev** (NURBSTo row)  <br/> |
-| Cell index  <br/> |**visSplineDegree** (SplineStart row)  <br/> |
-| Cell index  <br/> |**visEllipseMinorY** (Ellipse row)  <br/> |
+| **Cell index:**  <br/> |**visAspectRatio** (EllipticalArcTo row)  <br/> |
+| **Cell index:**  <br/> |**visNURBSWeightPrev** (NURBSTo row)  <br/> |
+| **Cell index:**  <br/> |**visSplineDegree** (SplineStart row)  <br/> |
+| **Cell index:**  <br/> |**visEllipseMinorY** (Ellipse row)  <br/> |
    
 
