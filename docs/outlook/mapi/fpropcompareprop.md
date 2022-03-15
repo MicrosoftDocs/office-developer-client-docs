@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
-description: "Last modified: March 09, 2015"
+description: "Compares two property values using a specified relational operator."
 ---
 
 # FPropCompareProp
