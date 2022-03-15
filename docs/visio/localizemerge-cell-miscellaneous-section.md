@@ -27,16 +27,16 @@ Determines whether shapes are localized when copied between documents.
 
 To get a reference to the LocalizeMerge cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LocalizeMerge  <br/> |
+| **Cell name:**  <br/> | LocalizeMerge  <br/> |
    
 To get a reference to the LocalizeMerge cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visObjLocalizeMerge** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visObjLocalizeMerge** <br/> |
    
 

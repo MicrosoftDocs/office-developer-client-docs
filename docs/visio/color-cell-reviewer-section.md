@@ -27,16 +27,16 @@ Comments entered on the original drawing page are always colored yellow, regardl
   
 To get a reference to the Color cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Reviewer.Color [  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Reviewer.Color [  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Color cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionReviewer** <br/> |
-| Row index:  <br/> |**visRowReviewer** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visReviewerColor** <br/> |
+| **Section index:**  <br/> |**visSectionReviewer** <br/> |
+| **Row index:**  <br/> |**visRowReviewer** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visReviewerColor** <br/> |
    
 
