@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 586c901f-d9f9-44f2-a328-051775a81265
-description: "Last modified: March 09, 2015"
+description: "MAPI provides three methods for creating recipients."
  
  
 ---
