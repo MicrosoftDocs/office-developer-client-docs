@@ -31,16 +31,16 @@ When you enable this feature, the application aligns each placeable shape's cent
   
 To get a reference to the EnableGrid cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |EnableGrid  <br/> |
+|**Cell name:**  <br/> |EnableGrid  <br/> |
    
 To get a reference to the EnableGrid cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPageLayout** <br/> |
-|Cell index:  <br/> |**visPLOEnableGrid** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPageLayout** <br/> |
+|**Cell index:**  <br/> |**visPLOEnableGrid** <br/> |
    
 

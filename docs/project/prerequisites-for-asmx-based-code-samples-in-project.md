@@ -373,7 +373,7 @@ The fix for a WCF-based application is different. For more information, see the 
 
 <a name="pj15_PrerequisitesASMX_ChangeValues"> </a>
 
-Most samples have one or more variables that you must update for the sample to work properly in your environment. In the following example, if you have SSL installed, use the HTTPS protocol instead of the HTTP protocol. Replace  _ServerName_ with the name of the server that you are using. Replace  _ProjectServerName_ with the virtual directory name of your Project Server site, such as PWA.
+Most samples have one or more variables that you must update for the sample to work properly in your environment. In the following example, if you have SSL installed, use the HTTPS protocol instead of the HTTP protocol. Replace _ServerName_ with the name of the server that you are using. Replace _ProjectServerName_ with the virtual directory name of your Project Server site, such as PWA.
   
 ```cs
 const string PROJECT_SERVER_URI = "https://ServerName/ProjectServerName/";

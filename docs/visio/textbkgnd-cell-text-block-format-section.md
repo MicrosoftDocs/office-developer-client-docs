@@ -28,16 +28,16 @@ You can set the transparency of the text background color in the TextBkgndTrans 
   
 To get a reference to the TextBkgnd cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |TextBkgnd  <br/> |
+|**Cell name:**  <br/> |TextBkgnd  <br/> |
    
 To get a reference to the TextBkgnd cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowText** <br/> |
-|Cell index:  <br/> |**visTxtBlkBkgnd** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowText** <br/> |
+|**Cell index:**  <br/> |**visTxtBlkBkgnd** <br/> |
    
 

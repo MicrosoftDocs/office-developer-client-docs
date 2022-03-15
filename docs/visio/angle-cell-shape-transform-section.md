@@ -22,16 +22,16 @@ Represents the shape's current angle of rotation in relation to its parent. The 
 
 To get a reference to the Angle cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Angle  <br/> |
+| **Cell name:**  <br/> | Angle  <br/> |
    
 To get a reference to the Angle cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowXFormOut** <br/> |
-| Cell index:  <br/> |**visXFormAngle** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowXFormOut** <br/> |
+| **Cell index:**  <br/> |**visXFormAngle** <br/> |
    
 

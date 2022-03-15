@@ -1,7 +1,7 @@
 ---
 title: "XML for capabilities" 
-manager: soliver
-ms.date: 11/16/2014
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -12,17 +12,17 @@ description: "The capabilities element in the (OSC) provider XML schema allows a
 
 # XML for capabilities
 
-The **capabilities** element in the (OSC) provider XML schema allows an OSC provider to specify its functionality. Such functionality includes the following: 
+The **capabilities** element in the (OSC) provider XML schema allows an OSC provider to specify its functionality. Such functionality includes the following:
   
 - Whether the provider supports getting, caching, or dynamically looking up friends and activities from the social network.
-    
+
 - How the OSC should display certain logon user interfaces.
-    
+
 - Whether the OSC should use forms-based authentication or automatically configure the social network and logs on the user on the social network.
-    
-The XML schema for **capabilities** is critical because it identifies to the OSC the functionality supported by the provider. An OSC provider must implement the [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) method that returns a  _result_ string. The OSC calls **ISocialProvider::GetCapabilities** to obtain information about the capabilities of the OSC provider in the _result_ string, which complies with the XML schema definition for the **capabilities** element. This information enables subsequent calls from the OSC to the OSC provider to operate correctly. 
+
+The XML schema for **capabilities** is critical because it identifies to the OSC the functionality supported by the provider. An OSC provider must implement the [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) method that returns a _result_ string. The OSC calls **ISocialProvider::GetCapabilities** to obtain information about the capabilities of the OSC provider in the _result_ string, which complies with the XML schema definition for the **capabilities** element. This information enables subsequent calls from the OSC to the OSC provider to operate correctly.
   
-To specify capabilities of an OSC provider as an output parameter of the **ISocialProvider::GetCapabilities** method, you must conform to the OSC provider extensibility XML schema. The following figure shows the **capabilities** XML structure. 
+To specify capabilities of an OSC provider as an output parameter of the **ISocialProvider::GetCapabilities** method, you must conform to the OSC provider extensibility XML schema. The following figure shows the **capabilities** XML structure.
   
 **Figure 1. \<capabilities\> XML structure**
 
@@ -37,4 +37,3 @@ For detailed descriptions of child elements of the **capabilities** element, see
 - [XML for Friends](xml-for-friends.md)  
 - [XML for Activities](xml-for-activities.md)
 - [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
-

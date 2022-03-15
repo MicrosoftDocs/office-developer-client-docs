@@ -1,7 +1,7 @@
 ---
 title: "Extending the Weather Bar in Outlook"
-manager: soliver
-ms.date: 03/09/2015
+manager: lindalu
+ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: overview
 ms.prod: office-online-server
@@ -114,7 +114,7 @@ If the user has chosen to not receive updates for Office, the Weather Bar is als
   
 An administrator can also use Group Policy to disable all online content, including the Weather Bar, by setting the following key in the Windows registry:
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Common\Internet  <br/> |
 |**Value name** <br/> |**UseOnlineContent** <br/> |
@@ -138,7 +138,7 @@ Contoso Weather provides the following base URL for their weather data service:
   
 ### Getting a location code
 
-Outlook appends the parameters described in Step 2 above to the base URL to obtain the location code for a geographic location  _city_:
+Outlook appends the parameters described in Step 2 above to the base URL to obtain the location code for a geographic location _city_:
   
 https://service.contoso.com/data.aspx?outputview=search&amp;weasearchstr= _city_
   

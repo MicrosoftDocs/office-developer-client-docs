@@ -20,16 +20,16 @@ Determines the size of the blur for a shape's shadow, in points (0.00 to 100.00)
 
 To get a reference to the **ShapeShdwBlur** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ShapeShdwBlur  <br/> |
+| **Cell name:**  <br/> | ShapeShdwBlur  <br/> |
    
 To get a reference to the **ShapeShdwBlur** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowFill** <br/> |
-| Cell index:  <br/> |**visFillShdwBlur** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowFill** <br/> |
+| **Cell index:**  <br/> |**visFillShdwBlur** <br/> |
    
 

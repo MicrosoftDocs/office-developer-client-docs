@@ -26,16 +26,16 @@ The *x*  -coordinate of the comment marker in page coordinates.
 
 To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Annotation.X[  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Annotation.X[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionAnnotation** <br/> |
-| Row index:  <br/> |**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visAnnotationX** <br/> |
+| **Section index:**  <br/> |**visSectionAnnotation** <br/> |
+| **Row index:**  <br/> |**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visAnnotationX** <br/> |
    
 

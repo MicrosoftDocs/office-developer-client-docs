@@ -20,16 +20,16 @@ Determines the distance that a reflection is offset from a shape, in points from
 
 To get a reference to the **ReflectionDist** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ReflectionDist  <br/> |
+| **Cell name:**  <br/> | ReflectionDist  <br/> |
    
 To get a reference to the **ReflectionDist** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Cell index:  <br/> |**visReflectionDist** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowOtherEffectProperties** <br/> |
+| **Cell index:**  <br/> |**visReflectionDist** <br/> |
    
 

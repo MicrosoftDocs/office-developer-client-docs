@@ -18,7 +18,7 @@ Contains a floating point number that specifies a snap angle in degrees.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

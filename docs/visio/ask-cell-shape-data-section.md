@@ -28,14 +28,14 @@ The value in this cell corresponds to the **Ask on drop** check box in the **Def
   
 To get a reference to the Ask cell by name from another formula, or from a program by using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Prop. *name* .Verify            where Prop. *name* is the name of the custom property row. |
+|**Cell name:**  <br/> |Prop. *name* .Verify            where Prop. *name* is the name of the custom property row. |
 
 To get a reference to the Ask cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionProp** <br/> |
-|Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2,... |
-|Cell index:  <br/> |**visCustPropsAsk** <br/> |
+|**Section index:**  <br/> |**visSectionProp** <br/> |
+|**Row index:**  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2,... |
+|**Cell index:**  <br/> |**visCustPropsAsk** <br/> |

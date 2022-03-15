@@ -31,16 +31,16 @@ In addition to enabling this behavior for a shape, you must also enable a group 
   
 To get a reference to the IsDropSource cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |IsDropSource  <br/> |
+|**Cell name:**  <br/> |IsDropSource  <br/> |
    
 To get a reference to the IsDropSource cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowMisc** <br/> |
-|Cell index:  <br/> |**visDropSource** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowMisc** <br/> |
+|**Cell index:**  <br/> |**visDropSource** <br/> |
    
 
