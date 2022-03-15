@@ -22,16 +22,16 @@ The value of the LockThemeColors cell corresponds to the **From theme colors** c
   
 To refer to the LockThemeColors cell by name from another formula, or from a program, using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LockThemeColors  <br/> |
+|**Cell name:**  <br/> |LockThemeColors  <br/> |
    
 To refer to the LockThemeColors cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLock** <br/> |
-|Cell index:  <br/> |**visLockThemeColors** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLock** <br/> |
+|**Cell index:**  <br/> |**visLockThemeColors** <br/> |
    
 

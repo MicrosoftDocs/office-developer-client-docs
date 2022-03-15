@@ -28,16 +28,16 @@ Determines the vertical alignment of text within the text block.
 
 To get a reference to the VerticalAlign cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | VerticalAlign  <br/> |
+| **Cell name:**  <br/> | VerticalAlign  <br/> |
    
 To get a reference to the VerticalAlign cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowText** <br/> |
-| Cell index:  <br/> |**visTxtBlkVerticalAlign** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowText** <br/> |
+| **Cell index:**  <br/> |**visTxtBlkVerticalAlign** <br/> |
    
 
