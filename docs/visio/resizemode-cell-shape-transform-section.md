@@ -28,16 +28,16 @@ Shows the current resize behavior setting for the shape.
 
 You can also set this value on the **Behavior** tab in the **Behavior** dialog box (on the [Developer](run-in-developer-mode-display-the-developer-tab.md)tab, in the **Shape Design** group, click **Behavior**). To get a reference to the ResizeMode cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ResizeMode  <br/> |
+|**Cell name:**  <br/> |ResizeMode  <br/> |
    
 To get a reference to the ResizeMode cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowXFormOut** <br/> |
-|Cell index:  <br/> |**visXFormResizeMode** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowXFormOut** <br/> |
+|**Cell index:**  <br/> |**visXFormResizeMode** <br/> |
    
 

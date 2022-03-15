@@ -145,7 +145,7 @@ To enter units implicitly, use the following syntax.
 number  [unit , flag ]
 ```
 
-|||
+||Value |
 |:-----|:-----|
 | *number* <br/> |The original value, such as 3.7, 1.7E-4, or 5 1/2. |
 | *unit* <br/> |The units in which *number* originally is expressed. |
