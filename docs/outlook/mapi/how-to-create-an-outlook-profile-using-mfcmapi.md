@@ -65,7 +65,7 @@ For non-developers, it is recommended that you use the Outlook user interface to
 |**Property**|**Value**|**Description**|
 |:-----|:-----|:-----|
 |PR_PROFILE_UNRESOLVED_NAME<sup>1</sup> <br/> |mailbox alias  <br/> |The alias for the target mailbox; for example, Administrator  <br/> |
-|PR_PROFILE_UNRESOLVED_SERVER<sup>1</sup> <br/> |personalized server id  <br/> |The value retrieved from **Autodiscover**. in the format <guid>@tenant.onmicrosoft.com; for example, F5FA2827-5978-43cd-8FA8-E07BC3BB5591@contoso.onmicrosoft.com  <br/>  *Autodiscover Node*  : Response/Account/Protocol/Server (EXCH)  <br/> |
+|PR_PROFILE_UNRESOLVED_SERVER<sup>1</sup> <br/> |personalized server id  <br/> |The value retrieved from **Autodiscover**. in the format *guid*@tenant.onmicrosoft.com; for example, F5FA2827-5978-43cd-8FA8-E07BC3BB5591@contoso.onmicrosoft.com  <br/>  *Autodiscover Node*  : Response/Account/Protocol/Server (EXCH)  <br/> |
 |PR_ROH_PROXY_SERVER  <br/> |outlook.office365.com  <br/> | *Autodiscover Node*  : Response/Account/Protocol/Server (EXPR) <sup>2</sup> <br/> |
 |PR_ROH_FLAGS  <br/> |ROHFLAGS_USE_ROH (0x1)  <br/> ROH_FLAGS_USE_SSL (0x2)  <br/>  ROHFLAGS_MUTUAL_AUTH (0x4)  <br/>  ROHFLAGS_HTTP_FIRST_ON_FAST (0x8)  <br/>  ROHFLAGS_HTTP_FIRST_ON_SLOW (0x20)  <br/> |Contains the settings in a profile used by Outlook to connect to Microsoft Exchange Server by using a remote procedure call (RPC) over Hypertext Transfer Protocol (HTTP). *Autodiscover Node*  : Response/Account/Protocol/SSL (EXPR) <sup>2</sup> <br/> |
 | PR_ROH_PROXY_AUTH_SCHEME  <br/> | RPC_C_HTTP_AUTHN_SCHEME_BASIC (0x1)  <br/> |Represents the authentication protocol to be used for this profile *Autodiscover Node*  : Response/Account/Protocol/AuthPackage (EXPR) <sup>2</sup> <br/> |
@@ -77,7 +77,7 @@ For non-developers, it is recommended that you use the Outlook user interface to
 |**Property**|**Value**|**Description**|
 |:-----|:-----|:-----|
 |PR_PROFILE_UNRESOLVED_NAME<sup>1</sup> <br/> |mailbox alias  <br/> |The alias for the target mailbox; for example, Administrator  <br/> |
-|PR_PROFILE_UNRESOLVED_SERVER<sup>1</sup> <br/> |personalized server id  <br/> |The value retrieved from **Autodiscover**. in the format <guid>@tenant.onmicrosoft.com; for example, F5FA2827-5978-43cd-8FA8-E07BC3BB5591@contoso.onmicrosoft.com  <br/>  *Autodiscover Node*  : Response/Account/Protocol/Server (EXCH)  <br/> |
+|PR_PROFILE_UNRESOLVED_SERVER<sup>1</sup> <br/> |personalized server id  <br/> |The value retrieved from **Autodiscover**. in the format *guid*@tenant.onmicrosoft.com; for example, F5FA2827-5978-43cd-8FA8-E07BC3BB5591@contoso.onmicrosoft.com  <br/>  *Autodiscover Node*  : Response/Account/Protocol/Server (EXCH)  <br/> |
 |PR_ROH_PROXY_SERVER  <br/> | client access server domain name  <br/> | The fully qualified domain name (FQDN); for example, e2013cas.contoso.com  *Autodiscover Node*  : Response/Account/Protocol/Server (EXPR) <sup>2</sup> <br/> |
 |PR_ROH_FLAGS  <br/> |ROHFLAGS_USE_ROH (0x1)  <br/>  ROHFLAGS_HTTP_FIRST_ON_FAST (0x8)  <br/> ROHFLAGS_HTTP_FIRST_ON_SLOW (0x20))  <br/> |Contains the settings in a profile used by Outlook to connect to Microsoft Exchange Server by using a remote procedure call (RPC) over Hypertext Transfer Protocol (HTTP) *Autodiscover Node*  : Response/Account/Protocol/SSL (EXPR) <sup>2</sup> <br/> |
 | PR_ROH_PROXY_AUTH_SCHEME  <br/> | RPC_C_HTTP_AUTHN_SCHEME_NTLM (0x2)  <br/> |Represents the authentication protocol to be used for this profile *Autodiscover Node*  : Response/Account/Protocol/AuthPackage (EXPR) <sup>2</sup> <br/> |
