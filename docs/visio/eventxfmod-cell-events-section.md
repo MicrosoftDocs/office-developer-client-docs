@@ -24,16 +24,16 @@ Event cells are evaluated only when the event occurs, not upon formula entry.
   
 To get a reference to the EventXFMod cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | EventXFMod  <br/> |
+| **Cell name:**  <br/> | EventXFMod  <br/> |
    
 To get a reference to the EventXFMod cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowEvent** <br/> |
-| Cell index:  <br/> |**visEvtCellXFMod** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowEvent** <br/> |
+| **Cell index:**  <br/> |**visEvtCellXFMod** <br/> |
    
 

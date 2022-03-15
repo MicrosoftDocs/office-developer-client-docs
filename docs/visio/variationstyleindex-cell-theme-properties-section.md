@@ -20,16 +20,16 @@ Determines the style index of the active theme variation on the page, as an inte
 
 To get a reference to the **VariationStyleIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | VariationStyleIndex  <br/> |
+| **Cell name:**  <br/> | VariationStyleIndex  <br/> |
    
 To get a reference to the **VariationStyleIndex** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowThemeProperties** <br/> |
-| Cell index:  <br/> |**visVariationStyleIndex** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowThemeProperties** <br/> |
+| **Cell index:**  <br/> |**visVariationStyleIndex** <br/> |
    
 
