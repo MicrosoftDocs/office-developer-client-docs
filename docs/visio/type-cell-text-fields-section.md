@@ -32,16 +32,16 @@ You can also set the value of this cell using the **Field** dialog box (with a s
   
 To get a reference to the Type cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Fields.Type[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Type cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionTextField** <br/> |
-|Row index:  <br/> |**visRowField** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visFieldType** <br/> |
+|**Section index:**  <br/> |**visSectionTextField** <br/> |
+|**Row index:**  <br/> |**visRowField** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visFieldType** <br/> |
    
 

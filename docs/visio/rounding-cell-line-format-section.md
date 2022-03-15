@@ -24,16 +24,16 @@ You can also set this value in the **Line** dialog box (on the **Home** tab, in 
   
 To get a reference to the Rounding cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Rounding  <br/> |
+|**Cell name:**  <br/> |Rounding  <br/> |
    
 To get a reference to the Rounding cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLine** <br/> |
-|Cell index:  <br/> |**visLineRounding** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLine** <br/> |
+|**Cell index:**  <br/> |**visLineRounding** <br/> |
    
 

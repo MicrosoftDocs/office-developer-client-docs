@@ -18,7 +18,7 @@ Includes a **RuleSet** element for each validation rule set in the document.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
