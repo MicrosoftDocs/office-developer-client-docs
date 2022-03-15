@@ -76,7 +76,7 @@ The administrator or power user can use the **WeatherServiceUrl** registry key t
   
 The following table describes the **WeatherServiceUrl** key.
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Value name** <br/> |**WeatherServiceUrl** <br/> |
@@ -96,7 +96,7 @@ First, verify that **Show weather on the calendar** is selected in the **Calenda
   
 Note that an administrator can also use Group Policy to disable the Weather Bar in Outlook 2013 entirely by setting the following key in the Windows registry:
   
-|||
+|**Value**|**Description**|
 |:-----|:-----|
 |**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Value name** <br/> |**DisableWeather** <br/> |
