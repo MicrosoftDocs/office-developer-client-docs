@@ -30,16 +30,16 @@ You can also set this value in the **Behavior** dialog box (with the group shape
   
 To get a reference to the SelectMode cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |SelectMode  <br/> |
+|**Cell name:**  <br/> |SelectMode  <br/> |
    
 To get a reference to the SelectMode cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowGroup** <br/> |
-|Cell index:  <br/> |**visGroupSelectMode** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowGroup** <br/> |
+|**Cell index:**  <br/> |**visGroupSelectMode** <br/> |
    
 

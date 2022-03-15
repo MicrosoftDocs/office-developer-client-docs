@@ -31,16 +31,16 @@ The value of this cell is TRUE for groups in masters and groups in instances of 
   
 To get a reference to the DontMoveChildren cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | DontMoveChildren  <br/> |
+| **Cell name:**  <br/> | DontMoveChildren  <br/> |
    
 To get a reference to the DontMoveChildren cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowGroup** <br/> |
-| Cell index:  <br/> |**visGroupDontMoveChildren** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowGroup** <br/> |
+| **Cell index:**  <br/> |**visGroupDontMoveChildren** <br/> |
    
 
