@@ -12,7 +12,7 @@ Specifies properties used to identify the mentioned persons in the comments in a
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[Persons_Type](persons_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

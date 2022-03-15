@@ -26,16 +26,16 @@ The numeric values in this cell map to constants (prefixed with DMBIN) defined f
   
 To get a reference to the PaperSource cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |PaperSource  <br/> |
+|**Cell name:**  <br/> |PaperSource  <br/> |
    
 To get a reference to the PaperSource cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPrintProperties** <br/> |
-|Cell index:  <br/> |**visPrintPropertiesPaperSource** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPrintProperties** <br/> |
+|**Cell index:**  <br/> |**visPrintPropertiesPaperSource** <br/> |
    
 
