@@ -18,7 +18,7 @@ Shows the formatting attributes for a text run of the shape, such as font, color
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

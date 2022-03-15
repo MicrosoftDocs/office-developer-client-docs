@@ -18,7 +18,7 @@ Defines how a data column appears in the **External Data** window in the Visio u
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
