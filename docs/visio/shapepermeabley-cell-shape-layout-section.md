@@ -31,16 +31,16 @@ In versions earlier than Visio 2000, you set this behavior by using the ObjInter
   
 To get a reference to the ShapePermeableY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ShapePermeableY  <br/> |
+|**Cell name:**  <br/> |ShapePermeableY  <br/> |
    
 To get a reference to the ShapePermeableY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowShapeLayout** <br/> |
-|Cell index:  <br/> |**visSLOPermY** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowShapeLayout** <br/> |
+|**Cell index:**  <br/> |**visSLOPermY** <br/> |
    
 

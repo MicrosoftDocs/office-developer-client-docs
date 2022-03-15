@@ -45,7 +45,7 @@ This topic lists the error codes in the OneNote 2013 object model.
 |hrSectionEncryptedAndLocked  <br/> |0x8004201b  <br/> |The section is encrypted and locked. |
 |hrDisabledByPolicy  <br/> |0x8004201c  <br/> |The action is disabled by a policy. |
    
-||||
+|**HResult**|**Value**|**Description**|
 |:-----|:-----|:-----|
 |hrNotYetSynchronized  <br/> |0x8004201d  <br/> |OneNote has not yet synchronized content. |
 |hrLegacySection  <br/> |0x8004201E  <br/> |The section is from OneNote 2007 or earlier. |
