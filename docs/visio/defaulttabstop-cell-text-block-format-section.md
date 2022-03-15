@@ -24,16 +24,16 @@ The default value is 0.5 inches for documents created in imperial units and 1.5 
   
 To get a reference to the DefaultTabstop cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |DefaultTabstop  <br/> |
+|**Cell name:**  <br/> |DefaultTabstop  <br/> |
    
 To get a reference to the DefaultTabstop cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowText** <br/> |
-|Cell index:  <br/> |**visTxtBlkDefaultTabStop** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowText** <br/> |
+|**Cell index:**  <br/> |**visTxtBlkDefaultTabStop** <br/> |
    
 

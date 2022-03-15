@@ -26,16 +26,16 @@ If no label text is found, Visio displays the row name (Prop.Row) in the **Shape
   
 To get a reference to the Label cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Prop. *Name*  .Label where Prop.  *Name*  is the row name  <br/> |
+|**Cell name:**  <br/> |Prop. *Name*  .Label where Prop.  *Name*  is the row name  <br/> |
    
 To get a reference to the Label cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionProp** <br/> |
-|Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visCustPropsLabel** <br/> |
+|**Section index:**  <br/> |**visSectionProp** <br/> |
+|**Row index:**  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visCustPropsLabel** <br/> |
    
 

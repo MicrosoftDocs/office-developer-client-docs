@@ -24,16 +24,16 @@ You can also set this value in the **Layout and Routing Spacing** dialog box (on
   
 To get a reference to the BlockSizeY cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | BlockSizeY  <br/> |
+| **Cell name:**  <br/> | BlockSizeY  <br/> |
    
 To get a reference to the BlockSizeY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOBlockSizeY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOBlockSizeY** <br/> |
    
 
