@@ -34,16 +34,16 @@ Following is an example of using sort keys to display the shape data in the **Sh
    
 To get a reference to the SortKey cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Prop.  *Name*  .SortKey where Prop.  *Name*  is the name of the custom property row  <br/> |
+| **Cell name:**  <br/> | Prop.  *Name*  .SortKey where Prop.  *Name*  is the name of the custom property row  <br/> |
    
 To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionProp** <br/> |
-| Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCustPropsSortKey** <br/> |
+| **Section index:**  <br/> |**visSectionProp** <br/> |
+| **Row index:**  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCustPropsSortKey** <br/> |
    
 
