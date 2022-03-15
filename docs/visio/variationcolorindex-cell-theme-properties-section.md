@@ -20,16 +20,16 @@ Determines the color index of the active theme variation on the page, as an inte
 
 To get a reference to the **VariationColorIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | VariationColorIndex  <br/> |
+| **Cell name:**  <br/> | VariationColorIndex  <br/> |
    
 To get a reference to the **VariationColorIndex** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowThemeProperties** <br/> |
-| Cell index:  <br/> |**visVariationColorIndex** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowThemeProperties** <br/> |
+| **Cell index:**  <br/> |**visVariationColorIndex** <br/> |
    
 

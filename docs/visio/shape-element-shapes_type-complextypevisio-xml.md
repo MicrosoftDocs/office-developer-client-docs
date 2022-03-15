@@ -18,7 +18,7 @@ Contains elements that define a shape in a **Master**, **Page**, or group shape 
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
