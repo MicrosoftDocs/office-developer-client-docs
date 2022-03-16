@@ -15,7 +15,7 @@ Specifies whether to use Secure Socket Layer (SSL) protocol for the SMTP account
   
 ## Quick info
 
-|||
+|Key |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0202  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

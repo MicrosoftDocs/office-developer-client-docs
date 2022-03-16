@@ -26,16 +26,16 @@ This formula evaluates to the horizontal center of the text block.
 
 To get a reference to the TxtLocPinX cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | TxtLocPinX  <br/> |
+| **Cell name:**  <br/> | TxtLocPinX  <br/> |
    
 To get a reference to the TxtLocPinX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowTextXForm** <br/> |
-| Cell index:  <br/> |**visXFormLocPinX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowTextXForm** <br/> |
+| **Cell index:**  <br/> |**visXFormLocPinX** <br/> |
    
 

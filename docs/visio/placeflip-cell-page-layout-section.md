@@ -34,16 +34,16 @@ To set this behavior for a particular shape, use the ShapePlaceFlip cell in the 
   
 To get a reference to the PlaceFlip cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |PlaceFlip  <br/> |
+|**Cell name:**  <br/> |PlaceFlip  <br/> |
    
 To get a reference to the PlaceFlip cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPageLayout** <br/> |
-|Cell index:  <br/> |**visPLOPlaceFlip** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPageLayout** <br/> |
+|**Cell index:**  <br/> |**visPLOPlaceFlip** <br/> |
    
 

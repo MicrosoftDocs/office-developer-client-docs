@@ -29,16 +29,16 @@ You can also set this value by using the **Print** option in the **Layer Propert
   
 To get a reference to the Print cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Layers.Print[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Print cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visDocPreviewScope** <br/> |
+|**Section index:**  <br/> |**visSectionLayer** <br/> |
+|**Row index:**  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visDocPreviewScope** <br/> |
    
 
