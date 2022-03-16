@@ -291,7 +291,7 @@ In addition, these categories are also visible when you view the **Paste Functio
 
 ### Example
 
-See the code for the **xlAutoOpen** function in  `\SAMPLES\GENERIC\GENERIC.C`.
+See the code for the **xlAutoOpen** function in `\SAMPLES\GENERIC\GENERIC.C`.
   
 ## See also
 
