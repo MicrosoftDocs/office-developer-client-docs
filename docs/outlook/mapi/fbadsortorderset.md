@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Validates a sort order set by verifying its memory allocation. 
   
-|||
+|Key|Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapival.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

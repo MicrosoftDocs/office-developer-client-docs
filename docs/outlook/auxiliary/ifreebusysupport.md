@@ -14,7 +14,7 @@ Supports specification of interfaces that access free/busy data for specified us
   
 ## Quick info
 
-|||
+|Key |Value |
 |:-----|:-----|
 |Inherits from:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Provided by:  <br/> |Free/busy provider  <br/> |
@@ -22,7 +22,7 @@ Supports specification of interfaces that access free/busy data for specified us
    
 ## Vtable order
 
-|||
+|Member |Value |
 |:-----|:-----|
 |[Placeholder1](ifreebusysupport-placeholder1.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[Placeholder2](ifreebusysupport-placeholder2.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |

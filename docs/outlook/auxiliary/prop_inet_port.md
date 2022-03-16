@@ -15,7 +15,7 @@ Represents the port number for a general Internet mailbox.
   
 ## Quick info
 
-|||
+|Key |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0104  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

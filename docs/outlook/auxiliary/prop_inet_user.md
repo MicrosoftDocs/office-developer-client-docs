@@ -15,7 +15,7 @@ Represents the user name for a general Internet mailbox.
   
 ## Quick info
 
-|||
+|Key |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0101  <br/> |
 |Property type:  <br/> |PT_UNICODE  <br/> |

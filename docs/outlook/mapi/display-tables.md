@@ -46,7 +46,7 @@ The type of implementation depends on the characteristics of the data to be disp
   
 Display tables have the following properties in their required column set:
   
-|||
+||Value |
 |:-----|:-----|
 |**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md))  <br/> |**PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md))  <br/> |
 |**PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md))  <br/> |**PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md))  <br/> |

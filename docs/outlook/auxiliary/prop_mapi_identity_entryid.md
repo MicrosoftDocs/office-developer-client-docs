@@ -17,7 +17,7 @@ Retrieves or sets the address book entry ID for the account.
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x2002  <br/> |
 |Property type:  <br/> |PT_BINARY  <br/> |

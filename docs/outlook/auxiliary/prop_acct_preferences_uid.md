@@ -17,7 +17,7 @@ Retrieves the unique identifier (UID) for the profile section that stores the ac
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0022  <br/> |
 |Property type:  <br/> |PT_BINARY  <br/> |

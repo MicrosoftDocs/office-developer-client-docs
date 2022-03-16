@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes the properties of a directory entry id.
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Header file:  <br/> |entryid.h  <br/> |
    
