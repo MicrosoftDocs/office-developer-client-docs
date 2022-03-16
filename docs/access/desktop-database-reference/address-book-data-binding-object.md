@@ -44,8 +44,8 @@ The following table describes the parameters associated with the OBJECT tag.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -72,8 +72,8 @@ The following table describes the parameters specific to the **RDS.DataControl**
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
