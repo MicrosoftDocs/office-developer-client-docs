@@ -29,16 +29,16 @@ Setting the LockGroupCell value to TRUE also prevents deletion of any shapes tha
   
 To get a reference to the LockGroup cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LockGroup  <br/> |
+|**Cell name:**  <br/> |LockGroup  <br/> |
    
 To get a reference to the LockGroup cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLock** <br/> |
-|Cell index:  <br/> |**visLockGroup** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLock** <br/> |
+|**Cell index:**  <br/> |**visLockGroup** <br/> |
    
 

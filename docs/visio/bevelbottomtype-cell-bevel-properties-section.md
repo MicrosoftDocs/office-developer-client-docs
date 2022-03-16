@@ -36,16 +36,16 @@ Specifies the bottom bevel type of a shape's bevel.
 
 To get a reference to the **BevelBottomType** cell by name from another formula, by value of the **N** attribute of a **Cell** element in the .vsdx file format, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | BevelBottomType  <br/> |
+| **Cell name:**  <br/> | BevelBottomType  <br/> |
    
 To get a reference to the **BevelBottomType** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowBevelProperties** <br/> |
-| Cell index:  <br/> |**visBevelBottomType** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowBevelProperties** <br/> |
+| **Cell index:**  <br/> |**visBevelBottomType** <br/> |
    
 

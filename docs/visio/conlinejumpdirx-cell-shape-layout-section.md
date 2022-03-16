@@ -30,16 +30,16 @@ To set the default horizontal direction for  *all*  connector jumps on a page, u
   
 To get a reference to the ConLineJumpDirX cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ConLineJumpDirX  <br/> |
+| **Cell name:**  <br/> | ConLineJumpDirX  <br/> |
    
 To get a reference to the ConLineJumpDirX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowShapeLayout** <br/> |
-| Cell index:  <br/> |**visSLOJumpDirX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowShapeLayout** <br/> |
+| **Cell index:**  <br/> |**visSLOJumpDirX** <br/> |
    
 

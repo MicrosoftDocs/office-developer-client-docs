@@ -18,7 +18,7 @@ Represents an open window in a Microsoft Visio instance. This element contains i
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

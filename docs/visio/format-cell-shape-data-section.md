@@ -41,16 +41,16 @@ A number (type = 2) can represent a dimension, scalar, angle, date, time, or cur
   
 To get a reference to the Format cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Prop.  *name*  .Format            where Prop.  *name*  is the row name  <br/> |
+| **Cell name:**  <br/> | Prop.  *name*  .Format            where Prop.  *name*  is the row name  <br/> |
    
 To get a reference to the Format cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionProp** <br/> |
-| Row index:  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCustPropsFormat** <br/> |
+| **Section index:**  <br/> |**visSectionProp** <br/> |
+| **Row index:**  <br/> |**visRowProp** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCustPropsFormat** <br/> |
    
 

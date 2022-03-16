@@ -18,7 +18,7 @@ Contains the cells for a particular control handle defined for a shape.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

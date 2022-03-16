@@ -25,16 +25,16 @@ Determines the amount of distortion for a sketch effect, as an integer between 0
 
 To get a reference to the **SketchAmount** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | SketchAmount  <br/> |
+| **Cell name:**  <br/> | SketchAmount  <br/> |
    
 To get a reference to the **SketchAmount** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Cell index:  <br/> |**visSketchAmount** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowOtherEffectProperties** <br/> |
+| **Cell index:**  <br/> |**visSketchAmount** <br/> |
    
 

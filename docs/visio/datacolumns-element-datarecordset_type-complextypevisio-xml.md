@@ -18,7 +18,7 @@ Contains all the **DataColumn** elements in a data recordset.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

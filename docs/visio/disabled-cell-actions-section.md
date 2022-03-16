@@ -31,16 +31,16 @@ Indicates whether an item on a shortcut or action tag menu is disabled.
 
 To get a reference to the Disabled cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Actions. *name*  .Disabled           where Actions. *name*  is the name of the Actions row  <br/> |
+|**Cell name:**  <br/> |Actions. *name*  .Disabled           where Actions. *name*  is the name of the Actions row  <br/> |
    
 To get a reference to the Disabled cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visActionDisabled** <br/> |
+|**Section index:**  <br/> |**visSectionAction** <br/> |
+|**Row index:**  <br/> |**visRowAction** +  *i*           where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visActionDisabled** <br/> |
    
 

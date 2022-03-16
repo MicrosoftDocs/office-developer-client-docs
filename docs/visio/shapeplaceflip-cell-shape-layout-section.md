@@ -32,14 +32,14 @@ To set this behavior for *all* the shapes on the drawing page, use the PlaceFlip
   
 To get a reference to the ShapePlaceFlip cell by name from another formula, or from a program by using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ShapePlaceFlip  <br/> |
+|**Cell name:**  <br/> |ShapePlaceFlip  <br/> |
 
 To get a reference to the ShapePlaceFlip cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowShapeLayout** <br/> |
-|Cell index:  <br/> |**visSLOPlaceFlip** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowShapeLayout** <br/> |
+|**Cell index:**  <br/> |**visSLOPlaceFlip** <br/> |

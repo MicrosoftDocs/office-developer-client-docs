@@ -1,5 +1,5 @@
 ---
-title: "Outlook Social Connector 2013 provider reference copyright notice"
+title: "Outlook Social Connector 2013 provider reference copyright notice, Weather"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
 description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it."
 ---
 
-# Outlook Social Connector 2013 provider reference copyright notice
+# Outlook Social Connector 2013 provider reference copyright notice, Weather
 
 This document is provided "as-is". Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it.
   

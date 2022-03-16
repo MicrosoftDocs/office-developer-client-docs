@@ -29,16 +29,16 @@ You can also set the value of this cell by using the **Text** dialog box (on the
   
 To get a reference to the Strikethru cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Char.Strikethru[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Char.Strikethru[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Strikethru cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionCharacter** <br/> |
-|Row index:  <br/> |**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visCharacterStrikethru** <br/> |
+|**Section index:**  <br/> |**visSectionCharacter** <br/> |
+|**Row index:**  <br/> |**visRowCharacter** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visCharacterStrikethru** <br/> |
    
 

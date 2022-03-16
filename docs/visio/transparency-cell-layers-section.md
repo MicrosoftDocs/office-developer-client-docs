@@ -28,16 +28,16 @@ Values are rounded to the nearest half percent. A value of 100% is completely tr
   
 To get a reference to the Transparency cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Layers.ColorTrans[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Layers.ColorTrans[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Transparency cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visLayerColorTrans** <br/> |
+|**Section index:**  <br/> |**visSectionLayer** <br/> |
+|**Row index:**  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visLayerColorTrans** <br/> |
    
 

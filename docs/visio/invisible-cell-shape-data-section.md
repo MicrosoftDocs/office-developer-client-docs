@@ -29,16 +29,16 @@ The value in this cell corresponds to the **Hidden** check box in the **Define S
   
 To get a reference to the Invisible cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Prop.  *name*  .Invisible where Prop.  *name*  is the row name  <br/> |
+| **Cell name:**  <br/> | Prop.  *name*  .Invisible where Prop.  *name*  is the row name  <br/> |
    
 To get a reference to the Invisible cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionProp** <br/> |
-| Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCustPropsInvis** <br/> |
+| **Section index:**  <br/> |**visSectionProp** <br/> |
+| **Row index:**  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCustPropsInvis** <br/> |
    
 

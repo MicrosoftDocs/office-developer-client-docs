@@ -18,7 +18,7 @@ Specifies the objects that shapes snap to when snap is active in the window.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

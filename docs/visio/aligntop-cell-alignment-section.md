@@ -22,16 +22,16 @@ Determines the vertical position, relative to the origin of its parent, of a hor
 
 To get a reference to the AlignTop cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | AlignTop  <br/> |
+| **Cell name:**  <br/> | AlignTop  <br/> |
    
 To get a reference to the AlignTop cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowAlign** <br/> |
-| Cell index:  <br/> |**visAlignTop** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowAlign** <br/> |
+| **Cell index:**  <br/> |**visAlignTop** <br/> |
    
 

@@ -22,16 +22,16 @@ Determines the distance between the bottom border of the text block and the last
 
 To get a reference to the BottomMargin cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | BottomMargin  <br/> |
+| **Cell name:**  <br/> | BottomMargin  <br/> |
    
 To get a reference to the BottomMargin cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowText** <br/> |
-| Cell index:  <br/> |**visTxtBlkBottomMargin** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowText** <br/> |
+| **Cell index:**  <br/> |**visTxtBlkBottomMargin** <br/> |
    
 
