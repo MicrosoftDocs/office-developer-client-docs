@@ -15,7 +15,7 @@ Supports rebasing appointments in a calendar folder.
   
 ## Quick info
 
-|||
+||Value |
 |:-----|:-----|
 |Inherits from:  <br/> |**IUnknown** <br/> |
 |Header file:  <br/> |tzmovelib.h  <br/> |
@@ -25,7 +25,7 @@ Supports rebasing appointments in a calendar folder.
    
 ## Vtable order
 
-|||
+||Value |
 |:-----|:-----|
 |**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing. |
 |**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing. |

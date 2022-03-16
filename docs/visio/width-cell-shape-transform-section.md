@@ -24,16 +24,16 @@ Contains the width of the selected shape in drawing units. The default formula f
 
 To get a reference to the Width cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Width  <br/> |
+| **Cell name:**  <br/> | Width  <br/> |
    
 To get a reference to the Width cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowXFormOut** <br/> |
-| Cell index:  <br/> |**visXFormWidth** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowXFormOut** <br/> |
+| **Cell index:**  <br/> |**visXFormWidth** <br/> |
    
 

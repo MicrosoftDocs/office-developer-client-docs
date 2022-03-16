@@ -24,16 +24,16 @@ You can also set the value of the PageScale cell on the **Drawing Scale** tab in
   
 To get a reference to the PageScale cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |PageScale  <br/> |
+|**Cell name:**  <br/> |PageScale  <br/> |
    
 To get a reference to the PageScale cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPage** <br/> |
-|Cell index:  <br/> |**visPageScale** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPage** <br/> |
+|**Cell index:**  <br/> |**visPageScale** <br/> |
    
 

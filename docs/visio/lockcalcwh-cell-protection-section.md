@@ -27,16 +27,16 @@ Locks a shape's selection rectangle so it cannot be recalculated when a vertex i
 
 To get a reference to the LockCalcWH cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LockCalcWH  <br/> |
+| **Cell name:**  <br/> | LockCalcWH  <br/> |
    
 To get a reference to the LockCalcWH cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowLock** <br/> |
-| Cell index:  <br/> |**visLockCalcWH** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowLock** <br/> |
+| **Cell index:**  <br/> |**visLockCalcWH** <br/> |
    
 
