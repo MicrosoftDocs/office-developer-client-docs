@@ -20,16 +20,16 @@ Determines whether a sketch effect is displayed on the shape or not, as a Boolea
 
 To get a reference to the **SketchEnabled** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | SketchEnabled  <br/> |
+| **Cell name:**  <br/> | SketchEnabled  <br/> |
    
 To get a reference to the **SketchEnabled** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Cell index:  <br/> |**visSketchEnabled** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowOtherEffectProperties** <br/> |
+| **Cell index:**  <br/> |**visSketchEnabled** <br/> |
    
 
