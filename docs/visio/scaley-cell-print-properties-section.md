@@ -24,16 +24,16 @@ This value is used only when the OnPage cell value is FALSE. The ScaleX and Scal
   
 To get a reference to the ScaleY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ScaleY  <br/> |
+|**Cell name:**  <br/> |ScaleY  <br/> |
    
 To get a reference to the ScaleY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPrintProperties** <br/> |
-|Cell index:  <br/> |**visPrintPropertiesScaleY** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPrintProperties** <br/> |
+|**Cell index:**  <br/> |**visPrintPropertiesScaleY** <br/> |
    
 
