@@ -1,5 +1,5 @@
 ---
-title: "Outlook auxiliary reference copyright notice"
+title: "Outlook auxiliary reference copyright notice, Weather"
  
  
 manager: soliver
@@ -12,7 +12,7 @@ ms.assetid: 94e13811-04ec-e381-99ff-cb8f42d4bf1e
 description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it."
 ---
 
-# Outlook auxiliary reference copyright notice
+# Outlook auxiliary reference copyright notice, Weather
 
 This document is provided "as-is". Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it.
   

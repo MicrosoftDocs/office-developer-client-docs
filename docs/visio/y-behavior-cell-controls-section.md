@@ -36,16 +36,16 @@ Controls the type of behavior the  *y*  -coordinate of the control handle will e
 
 To get a reference to the Y Behavior cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Controls.  *name*  .YConwhere Controls.  *name*  is the name of the controls row. |
+| **Cell name:**  <br/> | Controls.  *name*  .YConwhere Controls.  *name*  is the name of the controls row. |
    
 To get a reference to the Y Behavior cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionControls** <br/> |
-| Row index:  <br/> |**visRowControl** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCtlYCon** <br/> |
+| **Section index:**  <br/> |**visSectionControls** <br/> |
+| **Row index:**  <br/> |**visRowControl** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCtlYCon** <br/> |
    
 

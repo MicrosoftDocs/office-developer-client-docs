@@ -28,16 +28,16 @@ You can set the transparency of the foreground color of the shape's drop shadow 
   
 To get a reference to the ShdwForegnd cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ShdwForegnd  <br/> |
+| **Cell name:**  <br/> | ShdwForegnd  <br/> |
    
 To get a reference to the ShdwForegnd cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowFill** <br/> |
-| Cell index:  <br/> |**visFillShdwForegnd** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowFill** <br/> |
+| **Cell index:**  <br/> |**visFillShdwForegnd** <br/> |
    
 

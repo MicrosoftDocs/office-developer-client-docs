@@ -37,16 +37,16 @@ You can also set the value of this cell on the **Layout and Routing** tab in the
   
 To get a reference to the LineJumpStyle cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LineJumpStyle  <br/> |
+|**Cell name:**  <br/> |LineJumpStyle  <br/> |
    
 To get a reference to the LineJumpStyle cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPageLayout** <br/> |
-|Cell index:  <br/> |**visPLOJumpStyle** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPageLayout** <br/> |
+|**Cell index:**  <br/> |**visPLOJumpStyle** <br/> |
    
 

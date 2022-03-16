@@ -24,7 +24,7 @@ To use dates and times within an expression (rather than as a single constant), 
   
 ## Valid dates
 
-||||
+|Valid dates |Valid dates |Valid dates |
 |:-----|:-----|:-----|
 | "2/28"  <br/> | "2/28/99"  <br/> | "2/28/1999"  <br/> |
 | "2-28"  <br/> | "2-28-99"  <br/> | "2-28/1999"  <br/> |
@@ -34,7 +34,7 @@ To use dates and times within an expression (rather than as a single constant), 
    
 ## Valid times
 
-||||
+|Valid times |Valid times |Valid times |
 |:-----|:-----|:-----|
 | "3:45"  <br/> | "3:45:27"  <br/> | "7a"  <br/> |
 | "7 am"  <br/> | "7 p"  <br/> | "7:30 PM"  <br/> |

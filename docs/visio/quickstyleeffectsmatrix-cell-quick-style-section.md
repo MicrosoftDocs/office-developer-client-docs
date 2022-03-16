@@ -20,16 +20,16 @@ Determines the Quick Style effects that the shape inherits from the active theme
 
 To get a reference to the **QuickStyleEffectsMatrix** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | QuickStyleEffectsMatrix  <br/> |
+| **Cell name:**  <br/> | QuickStyleEffectsMatrix  <br/> |
    
 To get a reference to the **QuickStyleEffectsMatrix** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowQuickStyleProperties** <br/> |
-| Cell index:  <br/> |**visQuickStyleEffectsMatrix** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowQuickStyleProperties** <br/> |
+| **Cell index:**  <br/> |**visQuickStyleEffectsMatrix** <br/> |
    
 
