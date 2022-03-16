@@ -26,16 +26,16 @@ The numeric values in this cell map to constants (prefixed with DMPAPER) defined
   
 To get a reference to the PaperKind cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |PaperKind  <br/> |
+|**Cell name:**  <br/> |PaperKind  <br/> |
    
 To get a reference to the PaperKind cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPrintProperties** <br/> |
-|Cell index:  <br/> |**visPrintPropertiesPaperKind** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPrintProperties** <br/> |
+|**Cell index:**  <br/> |**visPrintPropertiesPaperKind** <br/> |
    
 
