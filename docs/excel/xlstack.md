@@ -43,7 +43,7 @@ If you suspect that you are overrunning the stack, call this function frequently
   
 ## Example
 
-The first example displays an alert message containing the amount of stack space left and is contained in  `\SAMPLES\EXAMPLE\EXAMPLE.C`. The second example does the same thing, working with **XLOPER**s and is not contained in the SDK example code.
+The first example displays an alert message containing the amount of stack space left and is contained in `\SAMPLES\EXAMPLE\EXAMPLE.C`. The second example does the same thing, working with **XLOPER**s and is not contained in the SDK example code.
   
 ```cs
 short WINAPI xlStackExample(void)
@@ -68,4 +68,3 @@ short int WINAPI xlStackExample_XLOPER(void)
 ## See also
 
 - [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-
