@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Computes the number of bytes to be allocated for a new [SRowSet](srowset.md) structure that contains a specified number of rows represented by [SRow](srow.md) structures. 
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SRowSet** <br/> |

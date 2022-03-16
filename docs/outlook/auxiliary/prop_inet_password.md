@@ -15,7 +15,7 @@ Represents the user password for a general Internet mailbox.
   
 ## Quick info
 
-|||
+|Key |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0102  <br/> |
 |Property type:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |

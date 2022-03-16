@@ -17,7 +17,7 @@ Represents the Entry ID of the default folder for sent items for the account.
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0020  <br/> |
 |Property type:  <br/> |PT_BINARY  <br/> |

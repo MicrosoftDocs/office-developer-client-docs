@@ -16,9 +16,8 @@ description: "Determines which theme color that a shape's line uses, as an integ
 
 Determines which theme color that a shape's line uses, as an integer from 0 to 7.
   
-|||
-|:-----|:-----|
 |Value  <br/> |Description  <br/> |
+|:-----|:-----|
 |0  <br/> |The shape line color inherits from the Dark theme color. |
 |1  <br/> |The shape line color inherits from the Light theme color. |
 |2  <br/> |The shape line color inherits from the Accent 1 theme color  <br/> |
@@ -32,16 +31,16 @@ Determines which theme color that a shape's line uses, as an integer from 0 to 7
 
 To get a reference to the **QuickStyleLineColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | QuickStyleLineColor  <br/> |
+| **Cell name:**  <br/> | QuickStyleLineColor  <br/> |
    
 To get a reference to the **QuickStyleLineColor** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowQuickStyleProperties** <br/> |
-| Cell index:  <br/> |**visQuickStyleLineColor** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowQuickStyleProperties** <br/> |
+| **Cell index:**  <br/> |**visQuickStyleLineColor** <br/> |
    
 
