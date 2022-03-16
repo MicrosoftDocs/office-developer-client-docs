@@ -28,16 +28,16 @@ Determines whether other shapes snap to a path.
 
 To get a reference to the NoSnap cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Geometry  *i*  .NoSnap            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Geometry  *i*  .NoSnap            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the NoSnap cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
-| Row index:  <br/> |**visRowComponent** <br/> |
-| Cell index:  <br/> |**visCompNoSnap** <br/> |
+| **Section index:**  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowComponent** <br/> |
+| **Cell index:**  <br/> |**visCompNoSnap** <br/> |
    
 

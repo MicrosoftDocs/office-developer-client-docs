@@ -31,16 +31,16 @@ You can set the transparency of the layer color in the Transparency cell.
   
 To get a reference to the Color cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Color[ *i*  ]           where  *i*  = <1>, 2, 3, ... |
+|**Cell name:**  <br/> |Layers.Color[ *i*  ]           where  *i*  = <1>, 2, 3, ... |
    
 To get a reference to the Color cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*           where  *i*  = 0, 1, 2, ... |
-|Cell index:  <br/> |**visLayerColor** <br/> |
+|**Section index:**  <br/> |**visSectionLayer** <br/> |
+|**Row index:**  <br/> |**visRowLayer** +  *i*           where  *i*  = 0, 1, 2, ... |
+|**Cell index:**  <br/> |**visLayerColor** <br/> |
    
 

@@ -24,16 +24,16 @@ Event cells are evaluated only when the event occurs, not upon formula entry.
   
 To get a reference to the EventDrop cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | EventDrop  <br/> |
+| **Cell name:**  <br/> | EventDrop  <br/> |
    
 To get a reference to the EventDrop cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowEvent** <br/> |
-| Cell index:  <br/> |**visEvtCellDrop** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowEvent** <br/> |
+| **Cell index:**  <br/> |**visEvtCellDrop** <br/> |
    
 

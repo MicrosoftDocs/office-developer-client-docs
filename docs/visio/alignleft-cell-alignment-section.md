@@ -22,16 +22,16 @@ Determines the horizontal position, relative to the origin of its parent, of a v
 
 To get a reference to the AlignLeft cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | AlignLeft  <br/> |
+| **Cell name:**  <br/> | AlignLeft  <br/> |
    
 To get a reference to the AlignLeft cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowAlign** <br/> |
-| Cell index:  <br/> |**visAlignLeft** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowAlign** <br/> |
+| **Cell index:**  <br/> |**visAlignLeft** <br/> |
    
 
