@@ -15,7 +15,7 @@ Supports rebasing appointments in a calendar folder.
   
 ## Quick info
 
-||Value |
+|Key |Value |
 |:-----|:-----|
 |Inherits from:  <br/> |**IUnknown** <br/> |
 |Header file:  <br/> |tzmovelib.h  <br/> |
