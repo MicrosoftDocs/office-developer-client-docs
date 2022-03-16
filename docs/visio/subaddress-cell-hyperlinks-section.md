@@ -26,16 +26,16 @@ You can also set the value of this cell in the **Hyperlinks** dialog box (in the
   
 To get a reference to the SubAddress cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Hyperlink.  *name*  .SubAddress where Hyperlink  *.name*  is the row name  <br/> |
+| **Cell name:**  <br/> | Hyperlink.  *name*  .SubAddress where Hyperlink  *.name*  is the row name  <br/> |
    
 To get a reference to the **SubAddress** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionHyperlink** <br/> |
-| Row index:  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visHLinkSubAddress** <br/> |
+| **Section index:**  <br/> |**visSectionHyperlink** <br/> |
+| **Row index:**  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visHLinkSubAddress** <br/> |
    
 

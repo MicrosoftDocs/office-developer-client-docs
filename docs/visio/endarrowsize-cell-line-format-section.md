@@ -34,16 +34,16 @@ You can also set this value in the **Line** dialog box (on the **Home** tab, in 
   
 To get a reference to the EndArrowSize cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |EndArrowSize  <br/> |
+|**Cell name:**  <br/> |EndArrowSize  <br/> |
    
 To get a reference to the EndArrowSize cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLine** <br/> |
-|Cell index:  <br/> |**visLineEndArrowSize** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLine** <br/> |
+|**Cell index:**  <br/> |**visLineEndArrowSize** <br/> |
    
 
