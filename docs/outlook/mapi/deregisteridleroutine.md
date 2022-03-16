@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Removes a [FNIDLE](fnidle.md) based idle routine from the MAPI system. 
   
-||Value |
+|Key |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
