@@ -18,7 +18,7 @@ Specifies the group of merged stencil windows of which the window is a member.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

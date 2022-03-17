@@ -25,16 +25,16 @@ To access the D cell, right-click a row, and then click **Change Row Type** on t
   
 To get a reference to the D cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Connections.D[  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Connections.D[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the D cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionConnectionPts** <br/> |
-| Row index:  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visCnnctD** <br/> |
+| **Section index:**  <br/> |**visSectionConnectionPts** <br/> |
+| **Row index:**  <br/> |**visRowConnectionPts** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visCnnctD** <br/> |
    
 

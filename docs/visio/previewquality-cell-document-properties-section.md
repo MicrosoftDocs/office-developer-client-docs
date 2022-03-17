@@ -29,16 +29,16 @@ You can also set this value on the **Summary** tab in the **Properties** dialog 
   
 To get a reference to the PreviewQuality cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | PreviewQuality  <br/> |
+| **Cell name:**  <br/> | PreviewQuality  <br/> |
    
 To get a reference to the PreviewQuality cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowDoc** <br/> |
-| Cell index:  <br/> |**visDocPreviewQuality** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowDoc** <br/> |
+| **Cell index:**  <br/> |**visDocPreviewQuality** <br/> |
    
 

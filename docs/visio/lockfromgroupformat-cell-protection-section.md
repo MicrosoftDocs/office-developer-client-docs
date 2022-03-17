@@ -20,17 +20,17 @@ The value of the LockFromGroupFormat cell corresponds to the **From group format
   
 To refer to the LockFromGroupFormat cell by name from another formula, or from a program, using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LockFromGroupFormat  <br/> |
+|**Cell name:**  <br/> |LockFromGroupFormat  <br/> |
    
 To refer to the LockFromGroupFormat cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLock** <br/> |
-|Cell index:  <br/> |**visLockFromGroupFormat** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLock** <br/> |
+|**Cell index:**  <br/> |**visLockFromGroupFormat** <br/> |
    
 The default value for the cell is 0 (False).
   

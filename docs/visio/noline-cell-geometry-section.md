@@ -30,16 +30,16 @@ When you change the color of a line to white, the line still exists even though 
   
 To get a reference to the NoLine cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Geometry  *i*  .NoLine            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Geometry  *i*  .NoLine            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the NoLine cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
-| Row index:  <br/> |**visRowComponent** <br/> |
-| Cell index:  <br/> |**visCompNoLine** <br/> |
+| **Section index:**  <br/> |**visSectionFirstComponent** +  *i*            where  *i*  = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowComponent** <br/> |
+| **Cell index:**  <br/> |**visCompNoLine** <br/> |
    
 
