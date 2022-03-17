@@ -30,8 +30,8 @@ For a **Field** object, use of the **ValidationText** property depends on the ob
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -46,8 +46,8 @@ The Microsoft Access database engine uses the Text folder entries as follows.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -103,9 +103,9 @@ The **Access Connectivity Engine\\ISAM Formats\\Text** folder contains the follo
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -188,9 +188,9 @@ The **Access Connectivity Engine\\ISAM Formats\\HTML Import** folder contains th
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -262,9 +262,9 @@ The **Access Connectivity Engine\\ISAM Formats\\HTML Export** folder contains th
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -415,8 +415,8 @@ The Microsoft Access database engine uses the Schema.ini entries as follows.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

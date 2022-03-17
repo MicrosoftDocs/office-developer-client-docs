@@ -18,9 +18,9 @@ Specifies the character used as a line separator in text [Stream](stream-object-
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
