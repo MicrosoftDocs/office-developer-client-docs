@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
-description: "Last modified: March 09, 2015"
+description: "Allocates and initializes an OLE IStream object to access the contents of a file."
 ---
 
 # OpenStreamOnFileW
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Allocates and initializes an OLE **IStream** object to access the contents of a file. This function takes UNICODE strings as arguments, unlike the ANSI version of this function [OpenStreamOnFile](openstreamonfile.md), and thus allows for arbitrary characters in the file name including the path and file extension.
   
-|||
+|**Info**|**Value**|
 |:-----|:-----|
 |Exported by:  <br/> |olmapi32.dll  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
