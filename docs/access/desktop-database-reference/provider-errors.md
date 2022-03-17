@@ -61,8 +61,8 @@ By examining an **Error** object you can determine what error occurred, and more
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

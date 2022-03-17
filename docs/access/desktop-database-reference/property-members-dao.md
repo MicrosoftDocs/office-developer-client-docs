@@ -20,8 +20,8 @@ A Property object represents a built-in or user-defined characteristic of a DAO 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

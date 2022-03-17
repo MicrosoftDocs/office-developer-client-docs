@@ -28,8 +28,8 @@ For a **QueryDef** object, the possible settings and return values are shown in 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -30,8 +30,8 @@ When this service provider is invoked, the following additional keywords are rel
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -54,8 +54,8 @@ When this service provider is invoked, the following dynamic properties are adde
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

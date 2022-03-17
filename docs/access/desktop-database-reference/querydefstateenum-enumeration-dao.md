@@ -18,9 +18,9 @@ Used with the **Prepare** property to specify the method used to specify how a q
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
