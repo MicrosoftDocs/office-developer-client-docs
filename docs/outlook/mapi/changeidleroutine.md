@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0a24fe3b-a1ef-4748-b3b3-3bf747473c9d
-description: "Last modified: March 09, 2015"
+description: "Changes some or all of the characteristics of a FNIDLE based idle routine."
 ---
 
 # ChangeIdleRoutine
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Changes some or all of the characteristics of a [FNIDLE](fnidle.md) based idle routine.
   
-|Key |Value |
+|**Value**|**Description**|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
