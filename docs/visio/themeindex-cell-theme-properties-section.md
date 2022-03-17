@@ -20,16 +20,16 @@ Stores the enumeration of the built-in Microsoft Visio theme applied to the docu
 
 To get a reference to the **ThemeIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ThemeIndex  <br/> |
+| **Cell name:**  <br/> | ThemeIndex  <br/> |
    
 To get a reference to the **ThemeIndex** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowThemeProperties** <br/> |
-| Cell index:  <br/> |**visThemeIndex** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowThemeProperties** <br/> |
+| **Cell index:**  <br/> |**visThemeIndex** <br/> |
    
 

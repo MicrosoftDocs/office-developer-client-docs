@@ -18,7 +18,7 @@ Contains cells for shapes or styles that control tab stop position and alignment
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

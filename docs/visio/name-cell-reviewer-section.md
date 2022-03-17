@@ -24,16 +24,16 @@ Contains the name of a document reviewer.
   
 To get a reference to the Name cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Reviewer.Name [  *i*  ] where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Reviewer.Name [  *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Name cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionReviewer** <br/> |
-| Row index:  <br/> |**visRowReviewer** +  *i*  where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visReviewerName** <br/> |
+| **Section index:**  <br/> |**visSectionReviewer** <br/> |
+| **Row index:**  <br/> |**visRowReviewer** +  *i*  where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visReviewerName** <br/> |
    
 
