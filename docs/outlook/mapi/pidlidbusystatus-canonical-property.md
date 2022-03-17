@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the user's availability for an appointment.
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidBusyStatus  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

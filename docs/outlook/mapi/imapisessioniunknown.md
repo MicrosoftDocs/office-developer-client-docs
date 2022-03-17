@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Manages objects associated with a MAPI logon session.
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Exposed by:  <br/> |Session objects  <br/> |
@@ -35,7 +35,7 @@ Manages objects associated with a MAPI logon session.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](imapisession-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous session error. |
 |[GetMsgStoresTable](imapisession-getmsgstorestable.md) <br/> |Provides access to the message store table that contains information about all the message stores in the session profile. |

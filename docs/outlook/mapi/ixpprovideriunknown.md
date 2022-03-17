@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Initializes a transport provider object and shuts down the object when it is no longer needed.
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Exposed by:  <br/> |Transport provider objects  <br/> |
@@ -35,7 +35,7 @@ Initializes a transport provider object and shuts down the object when it is no 
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Shutdown](ixpprovider-shutdown.md) <br/> |Closes down a transport provider in an orderly fashion. |
 |[TransportLogon](ixpprovider-transportlogon.md) <br/> |Establishes a session in which a client application logs on to a transport provider. |

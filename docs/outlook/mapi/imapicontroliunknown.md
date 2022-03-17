@@ -26,7 +26,7 @@ Enables and disables a button control, and performs tasks when a user of a clien
   
 For more information about how to work with display tables and control objects, see [Display Tables](display-tables.md).
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Control objects  <br/> |
@@ -37,7 +37,7 @@ For more information about how to work with display tables and control objects, 
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](imapicontrol-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous button control error. |
 |[Activate](imapicontrol-activate.md) <br/> |Performs a task such as displaying a dialog box or starting a programmatic operation when a client application user clicks the button control. |

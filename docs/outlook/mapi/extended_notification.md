@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes information that relates to an event that is service provider-specific. 
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

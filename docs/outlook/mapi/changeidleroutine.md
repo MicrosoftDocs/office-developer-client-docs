@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Changes some or all of the characteristics of a [FNIDLE](fnidle.md) based idle routine.
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides information for an offline object.
   
-|||
+|Key |Value |
 |:-----|:-----|
 |Provided by:  <br/> |Query on [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) <br/> |
 |Called by:  <br/> |Client  <br/> |
@@ -32,7 +32,7 @@ Provides information for an offline object.
    
 ## Vtable order
 
-|||
+||Value |
 |:-----|:-----|
 |**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Sets the current state of an offline object to online or offline. |
 |**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Gets the conditions for which callbacks are supported by an offline object. |
