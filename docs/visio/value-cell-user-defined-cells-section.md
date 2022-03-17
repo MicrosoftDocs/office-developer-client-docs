@@ -25,16 +25,16 @@ To refer to this value in another cell, specify the user-defined name entered in
   
 To get a reference to the Value cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | User.  *Name*  .Value            where User.  *Name*  is the row name  <br/> |
+| **Cell name:**  <br/> | User.  *Name*  .Value            where User.  *Name*  is the row name  <br/> |
    
 To get a reference to the Value cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionUser** <br/> |
-| Row index:  <br/> |**visRowUser** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visUserValue** <br/> |
+| **Section index:**  <br/> |**visSectionUser** <br/> |
+| **Row index:**  <br/> |**visRowUser** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visUserValue** <br/> |
    
 

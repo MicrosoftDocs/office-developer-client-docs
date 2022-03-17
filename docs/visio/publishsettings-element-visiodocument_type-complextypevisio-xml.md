@@ -18,7 +18,7 @@ Specifies the settings that are used when the diagram is opened using Visio Serv
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

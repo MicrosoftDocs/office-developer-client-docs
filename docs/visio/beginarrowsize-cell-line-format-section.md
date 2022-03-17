@@ -34,16 +34,16 @@ You can also set the size of the arrowhead in the **Line** dialog box.
   
 To get a reference to the BeginArrowSize cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | BeginArrowSize  <br/> |
+| **Cell name:**  <br/> | BeginArrowSize  <br/> |
    
 To get a reference to the BeginArrowSize cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowLine** <br/> |
-| Cell index:  <br/> |**visLineBeginArrowSize** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowLine** <br/> |
+| **Cell index:**  <br/> |**visLineBeginArrowSize** <br/> |
    
 

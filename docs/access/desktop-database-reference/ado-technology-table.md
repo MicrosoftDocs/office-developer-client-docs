@@ -17,8 +17,8 @@ The following table lists the Microsoft products, tools, and technologies discus
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

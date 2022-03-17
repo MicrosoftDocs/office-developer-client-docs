@@ -33,16 +33,16 @@ This cell corresponds to the **Show Markup** command in the **Markup** group on 
   
 To get a reference to the ViewMarkup cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ViewMarkup  <br/> |
+|**Cell name:**  <br/> |ViewMarkup  <br/> |
    
 To get a reference to the ViewMarkup cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowDoc** <br/> |
-|Cell index:  <br/> |**visDocViewMarkup** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowDoc** <br/> |
+|**Cell index:**  <br/> |**visDocViewMarkup** <br/> |
    
 

@@ -47,14 +47,11 @@ typedef struct
  **aPropAttr**
   
 > An array of property attributes. Valid values for attributes are as follows:
-    
-    - PROPATTR_MANDATORY
-    
-    - PROPATTR_READABLE
-    
-    - PROPATTR_WRITEABLE
-    
-    - PROPATTR_NOT_PRESENT
+
+  - PROPATTR_MANDATORY
+  - PROPATTR_READABLE
+  - PROPATTR_WRITEABLE
+  - PROPATTR_NOT_PRESENT
     
 ## Remarks
 

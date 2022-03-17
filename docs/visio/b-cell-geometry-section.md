@@ -29,21 +29,21 @@ Represents different information in different rows. This table describes the B c
 
 To get a reference to the B cell by name from another formula, or from a program, using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Geometry *i* .B *j*           where *i* and *j* = <1>, 2, 3... |
-|| Geometry *i* .B1 (InfiniteLine and Ellipse rows)  <br/> |
+| **Cell name:**  <br/> | Geometry *i* .B *j*           where *i* and *j* = <1>, 2, 3... |
+| **Cell name:**  <br/> | Geometry *i* .B1 (InfiniteLine and Ellipse rows)  <br/> |
 
 To get a reference to the B cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** + *i*           where *i* = 0, 1, 2... |
-| Row index:  <br/> |**visRowVertex** + *j*           where *j* = 0, 1, 2... |
-||**visRowVertex** (InfiniteLine and Ellipse rows)  <br/> |
-| Cell index:  <br/> |**visControlX** (EllipticalArcTo row)  <br/> |
-||**visControlY** (EllipticalArcTo row)  <br/> |
-||**visNURBSWeight** (NURBSTo row)  <br/> |
-||**visSplineKnot2** (SplineStart row)  <br/> |
-||**visInfiniteLineY2** (InfiniteLine row)  <br/> |
-||**visEllipseMajorY** (Ellipse row)  <br/> |
+| **Section index:**  <br/> |**visSectionFirstComponent** + *i*           where *i* = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowVertex** + *j*           where *j* = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowVertex** (InfiniteLine and Ellipse rows)  <br/> |
+| **Cell index:**  <br/> |**visControlX** (EllipticalArcTo row)  <br/> |
+| **Cell index:**  <br/> |**visControlY** (EllipticalArcTo row)  <br/> |
+| **Cell index:**  <br/> |**visNURBSWeight** (NURBSTo row)  <br/> |
+| **Cell index:**  <br/> |**visSplineKnot2** (SplineStart row)  <br/> |
+| **Cell index:**  <br/> |**visInfiniteLineY2** (InfiniteLine row)  <br/> |
+| **Cell index:**  <br/> |**visEllipseMajorY** (Ellipse row)  <br/> |

@@ -39,9 +39,8 @@ The **ISTHEMED** function lets you assign appropriate parts of a theme's formatt
   
 ## Example
 
-||||
-|:-----|:-----|:-----|
 |Cell  <br/> |Formula  <br/> |Result  <br/> |
+|:-----|:-----|:-----|
 |Char.Font  <br/> |IF(ISTHEMED(), THEMEVAL(), FONT("Calibri"))  <br/> |If the shape has a themed applied to it, the shape text accepts the font formatting from the theme. If the shape is not themed, the shape text is formatted with the "Calibri" font. |
 |LineColor  <br/> |IF(ISTHEMED, RGB(255, 0, 0), RGB(0, 255, 0))  <br/> |If the shape has a themed applied to it, the shape's line color is red. If the shape is not themed, the shape's line color is green. |
    
