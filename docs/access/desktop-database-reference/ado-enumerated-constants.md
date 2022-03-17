@@ -18,8 +18,8 @@ To assist in debugging, the ADO enumerations list a value for each constant. How
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

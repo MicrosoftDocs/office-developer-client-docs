@@ -28,13 +28,13 @@ Fully trusted forms are identified by their URN and whether the **requireFullTru
   
 For a detailed discussion of how fully trusted forms work and how to create and deploy them, see [Understanding Fully Trusted Forms](understanding-fully-trusted-forms.md).
   
-## Trusting Installed Forms
+## Trusting installed forms
 
 The ability to use trusted forms can be enabled or disabled on individual computers. When a computer is configured to trust installed forms, users can fill out forms that require access to their computer's resources.
   
 In the InfoPath editor, you configure a computer to trust installed forms in the Backstage by clicking **Options**, **Trust Center**, **Trust Center Settings**, and then selecting the **Allow fully trusted forms to run on my computer** check box on the **Trusted Publishers** tab of the **Trust Center** dialog box.
   
-## Using Security Features in InfoPath
+## Using security features in InfoPath
 
 The InfoPath security model helps protect users against the following threats posed by maliciously authored templates:
   
@@ -42,27 +42,27 @@ The InfoPath security model helps protect users against the following threats po
 - The malicious use of ActiveX controls.
 - The malicious use of properties and methods from the InfoPath object model.
 
-## Cross-domain Data Access
+## Cross-domain data access
 
 Of security risk scenarios is referred as cross-domain data access.
   
 The Internet Explorer security model that InfoPath is built upon provides a setting called **Access data sources across domains**. By default, this setting disables cross-domain access for InfoPath forms that reside in the Internet and Restricted sites security zones. It prompts the user to allow or disallow cross-domain access for InfoPath forms that reside in the Local intranet security zone, and it enables cross-domain access for InfoPath forms that reside in the **Trusted sites** or **Local Machine** zones.
   
-## Use of the InfoPath HTML Task Pane
+## Use of the InfoPath HTML task pane
 
 The InfoPath HTML task pane enables rendering of Web pages, such as .htm, .asp, and .hta files. The pages referenced from task panes can be located inside or outside the form template. The only restriction on what can be referenced from outside the form template is that the Web page must be in the same domain as the form template, or the security zone in which the template resides must allow cross-domain access permissions to load the task pane.
   
 The task pane does not expose an address bar or status bar, and therefore, the user has no way of confirming the location of the source for the task pane or whether that location is being accessed over a encrypted channel (https). For this reason, you should avoid using the task pane for displaying or entering sensitive information. The task pane was designed for displaying dynamic help information and controls for navigating between views and other elements of an integrated solution. Additionally, a form template's business logic and script in the task pane can interact with one another. However, this interaction is allowed only if the form template and the task pane are in the same domain, which helps prevent information from being exchanged across domains.
   
-## Cross-domain Data Access Prompts
+## Cross-domain data access prompts
 
 If a form template that requires cross-domain data access is located in a security zone that is set to prompt for cross-domain data access (the default setting for the Local intranet zone), then the user will be prompted whether to allow access. The user's choice will then persist for the rest of the time that the form is opened. If you must deploy InfoPath form templates that require cross-domain data access, you should deploy these templates as fully trusted forms, or make them available on a server that is in the Trusted sites security zone, to avoid prompting users to allow access. Users should not be instructed to lower the security level of the Local intranet zone to avoid these prompts.
   
-## Forms Without a publishURL Attribute
+## Forms without a publishURL attribute
 
 If InfoPath loads a form template from the local computer and it has a blank **publishUrl** attribute or the attribute is missing, the form will be placed in a more restrictive security zone. This is performed to reduce the threat of a malicious form template being distributed by email. As a result, if the user saves this form template to disk, it will be unable to run with the permissions of a form that resides in the **Local Machine** zone.
   
-## Unsafe ActiveX Controls
+## Unsafe ActiveX controls
 
 The most common scenario for the malicious use of ActiveX controls can occur if an author uses script with an ActiveX control that provides methods for accessing the file system to retrieve personal files and password lists, to delete files, or to disable the user's system. An InfoPath form can use ActiveX controls only from script in the main scripting file of a form (script.js) or from script in a task pane. InfoPath does not allow script in InfoPath views to run ActiveX controls.
   
@@ -77,7 +77,7 @@ The Internet Explorer security model that Microsoft InfoPath is built upon provi
 |My Computer  <br/> |Prompt  <br/> |
 |Fully trusted form  <br/> |Enable  <br/> |
 
-## Malicious Use of the InfoPath Object Model
+## Malicious use of the InfoPath Object Model
 
 Similarly to ActiveX controls called from script, InfoPath methods and properties called from code can present different levels of risk. For example, the [SaveAs(String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx) method of the [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) class can be used to write data anywhere in the file system.
   
@@ -97,9 +97,9 @@ To help protect against malicious use of InfoPath object model members, the Info
 
 The following table summarizes the default permissions for each method of form deployment in InfoPath. Permissions are based on the security zone for the domain from which the form template originates.
   
-|**Security Zone**|**Deployment**|**Default Permissions**|
-|:-----|:-----|:-----|
-||**URL-based** <br/> |**URN-based** <br/> |**ActiveX Marked Unsafe for Scripting** <br/> |**Cross-domain Data Access** <br/> |**Object Model Security Level** <br/> |
+|**Security Zone**|**Deployment**|**Default Permissions**| | | |
+|:-----|:-----|:-----|:-----|:-----|:-----|
+| |**URL-based** <br/> |**URN-based** <br/> |**ActiveX Marked Unsafe for Scripting** <br/> |**Cross-domain Data Access** <br/> |**Object Model Security Level** <br/> |
 |Restricted sites  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |
 |Internet  <br/> |X  <br/> ||Disable  <br/> |Disable  <br/> |2  <br/> |
 |Local intranet  <br/> |X  <br/> ||Disable  <br/> |Prompt  <br/> |2  <br/> |
