@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Supports access to the MAPI address book and includes operations such as displaying common dialog boxes; opening containers, messaging users, and distribution lists; and performing name resolution.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Exposed by:  <br/> |Address book objects  <br/> |
@@ -36,7 +36,7 @@ Supports access to the MAPI address book and includes operations such as display
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[OpenEntry](iaddrbook-openentry.md) <br/> |Opens an address book entry and returns a pointer to an interface that can be used to access the entry. |
 |[CompareEntryIDs](iaddrbook-compareentryids.md) <br/> |Compares two entry identifiers that belong to a particular address book provider to determine whether they refer to the same address book object. |

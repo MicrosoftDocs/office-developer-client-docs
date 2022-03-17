@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry ID of the contacts folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |msomapiutil.h  <br/> |
    

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value the message sender can use to match a report with the original message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTENT_CORRELATOR  <br/> |
 |Identifier:  <br/> |0x0007  <br/> |
