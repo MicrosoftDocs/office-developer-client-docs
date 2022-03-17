@@ -20,8 +20,8 @@ A Workspaces collection contains all active, unhidden Workspace objects of the D
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -50,8 +50,8 @@ A Workspaces collection contains all active, unhidden Workspace objects of the D
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

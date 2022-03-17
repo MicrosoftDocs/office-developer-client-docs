@@ -93,8 +93,8 @@ The System topic is a standard topic for all Microsoft Windows–based applicati
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -148,8 +148,8 @@ The *database* topic supports the following items.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -224,8 +224,8 @@ _databasename_ ; **SQL** [ _sqlstring_ ]
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -258,8 +258,8 @@ The following table lists the valid items for the TABLE *tablename*, QUERY *quer
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
