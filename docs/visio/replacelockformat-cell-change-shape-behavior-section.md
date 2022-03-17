@@ -45,16 +45,16 @@ The **ReplaceLockFormat** cell determines whether the master shape overwrites th
     
 To get a reference to the **ReplaceLockFormat** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ReplaceLockFormat  <br/> |
+| **Cell name:**  <br/> | ReplaceLockFormat  <br/> |
    
 To get a reference to the **ReplaceLockFormat** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowReplaceBehaviors** <br/> |
-| Cell index:  <br/> |**visReplaceLockFormat** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowReplaceBehaviors** <br/> |
+| **Cell index:**  <br/> |**visReplaceLockFormat** <br/> |
    
 

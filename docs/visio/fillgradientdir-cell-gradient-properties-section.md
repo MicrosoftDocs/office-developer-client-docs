@@ -32,16 +32,16 @@ Determines the direction of the fill gradient. A gradient can be linear, radial,
 
 To get a reference to the **FillGradientDir** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | FillGradientDir  <br/> |
+| **Cell name:**  <br/> | FillGradientDir  <br/> |
    
 To get a reference to the **FillGradientDir** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowGradientProperties** <br/> |
-| Cell index:  <br/> |**visFillGradientDir** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowGradientProperties** <br/> |
+| **Cell index:**  <br/> |**visFillGradientDir** <br/> |
    
 

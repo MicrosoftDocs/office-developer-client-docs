@@ -23,16 +23,16 @@ Specifies a descriptive prompt or comment for the user-defined cell. The applica
 
 To get a reference to the Prompt cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | User.  *Name*  .Prompt            where User.  *Name*  is the row name  <br/> |
+| **Cell name:**  <br/> | User.  *Name*  .Prompt            where User.  *Name*  is the row name  <br/> |
    
 To get a reference to the Prompt cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionUser** <br/> |
-| Row index:  <br/> |**visRowUser +** *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visUserPrompt** <br/> |
+| **Section index:**  <br/> |**visSectionUser** <br/> |
+| **Row index:**  <br/> |**visRowUser +** *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visUserPrompt** <br/> |
    
 

@@ -18,7 +18,7 @@ Contains an arbitrary string value that is used to supply additional information
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

@@ -37,16 +37,16 @@ To cause a 1-D shape to be splittable, see the ShapeSplittable cell.
   
 To get a reference to the ShapeSplit cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ShapeSplit  <br/> |
+| **Cell name:**  <br/> | ShapeSplit  <br/> |
    
 To get a reference to the ShapeSplit cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowShapeLayout** <br/> |
-| Cell index:  <br/> |**visSLOSplit** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowShapeLayout** <br/> |
+| **Cell index:**  <br/> |**visSLOSplit** <br/> |
    
 

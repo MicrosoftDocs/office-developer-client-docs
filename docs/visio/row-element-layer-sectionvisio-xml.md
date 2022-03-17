@@ -18,7 +18,7 @@ Contains elements that define a single layer and its properties for a page.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[LayerRow_Type](layerrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

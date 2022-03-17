@@ -35,7 +35,7 @@ If you are passing an internal reference (**xltypeSef**), **xlSheetNm** returns 
   
 ## Property value/Return value
 
-Returns the name of the sheet (**xltypeStr**) in the form  `[Book1]Sheet1`.
+Returns the name of the sheet (**xltypeStr**) in the form `[Book1]Sheet1`.
   
 ## Example
 
@@ -59,4 +59,3 @@ short WINAPI xlSheetNmExample(void)
 
 - [xlSheetId](xlsheetid.md)
 - [C API Functions That Can Be Called Only from a DLL or XLL](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
-

@@ -16,8 +16,8 @@ ms.localizationpriority: medium
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">
@@ -73,8 +73,8 @@ Also, the **Catalog** object is connected to an ADO **Connection** object, which
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

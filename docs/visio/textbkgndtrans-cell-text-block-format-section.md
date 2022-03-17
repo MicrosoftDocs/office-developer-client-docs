@@ -30,16 +30,16 @@ You can also set this value using the slider control on the **Font** tab of the 
   
 To get a reference to the TextBkgndTrans cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |TextBkgndTrans  <br/> |
+|**Cell name:**  <br/> |TextBkgndTrans  <br/> |
    
 To get a reference to the TextBkgndTrans cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowText** <br/> |
-|Cell index:  <br/> |**visTxtBlkBkgndTrans** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowText** <br/> |
+|**Cell index:**  <br/> |**visTxtBlkBkgndTrans** <br/> |
    
 

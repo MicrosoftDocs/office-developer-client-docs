@@ -29,16 +29,16 @@ You can still format text by applying a style in the **Text** dialog box (on the
   
 To get a reference to the LockTextEdit cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LockTextEdit  <br/> |
+| **Cell name:**  <br/> | LockTextEdit  <br/> |
    
 To get a reference to the LockTextEdit cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowLock** <br/> |
-| Cell index:  <br/> |**visLockTextEdit** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowLock** <br/> |
+| **Cell index:**  <br/> |**visLockTextEdit** <br/> |
    
 

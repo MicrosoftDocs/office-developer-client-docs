@@ -22,16 +22,16 @@ Determines the vertical position, relative to the origin of its parent, of a hor
 
 To get a reference to the AlignBottom cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | AlignBottom  <br/> |
+| **Cell name:**  <br/> | AlignBottom  <br/> |
    
 To get a reference to the AlignBottom cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowAlign** <br/> |
-| Cell index:  <br/> |**visAlignBottom** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowAlign** <br/> |
+| **Cell index:**  <br/> |**visAlignBottom** <br/> |
    
 

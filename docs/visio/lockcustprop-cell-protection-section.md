@@ -29,16 +29,16 @@ A value of TRUE does not prevent a user from changing the value of a shape data 
   
 To get a reference to the LockCustProp cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LockCustProp  <br/> |
+|**Cell name:**  <br/> |LockCustProp  <br/> |
    
 To get a reference to the LockCustProp cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLock** <br/> |
-|Cell index:  <br/> |**visLockCustProp** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLock** <br/> |
+|**Cell index:**  <br/> |**visLockCustProp** <br/> |
    
 
