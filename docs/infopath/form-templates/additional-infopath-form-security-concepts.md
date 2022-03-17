@@ -96,20 +96,19 @@ To help protect against malicious use of InfoPath object model members, the Info
 ## Summary
 
 The following table summarizes the default permissions for each method of form deployment in InfoPath. Permissions are based on the security zone for the domain from which the form template originates.
-  
-|**Security Zone**|**Deployment**|**Default Permissions**| | | |
+
+|**Security Zone**  |**URL-based** |**URN-based** |**ActiveX Marked Unsafe for Scripting**  |**Cross-domain Data Access**  |**Object Model Security Level**  |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| |**URL-based** <br/> |**URN-based** <br/> |**ActiveX Marked Unsafe for Scripting** <br/> |**Cross-domain Data Access** <br/> |**Object Model Security Level** <br/> |
-|Restricted sites  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |
-|Internet  <br/> |X  <br/> ||Disable  <br/> |Disable  <br/> |2  <br/> |
-|Local intranet  <br/> |X  <br/> ||Disable  <br/> |Prompt  <br/> |2  <br/> |
-|Trusted sites  <br/> |X  <br/> ||Prompt  <br/> |Enable  <br/> |2  <br/> |
-|Local Machine  <br/> |X  <br/> |X  <br/> |Disable  <br/> |Prompt  <br/> |2  <br/> |
-|Fully trusted form  <br/> |X (signed by a Trusted Publisher)  <br/> |X  <br/> |Enable  <br/> |Enable  <br/> |3  <br/> |
-|Fully trusted form  <br/> ||X  <br/> |Enable  <br/> |Enable  <br/> |3  <br/> |
-|Restricted  <br/> ||X  <br/> |No ActiveX (except a limited hard-coded list)  <br/> |Disable  <br/> |2  <br/> |
-|Restricted  <br/> |X  <br/> ||No ActiveX (except a limited hard-coded list)  <br/> |Disable  <br/> |2  <br/> |
-|Restricted  <br/> |X  <br/> |X  <br/> |No ActiveX (except a limited hard-coded list)z  <br/> |Disable  <br/> |2  <br/> |
+|Restricted sites <br/> |N/A <br/> |N/A <br/> |N/A <br/> |N/A <br/> |N/A <br/> |
+|Internet <br/>      |X  <br/> |     |Disable  <br/> |Disable  <br/> |2  <br/> |
+|Local intranet <br/>|X  <br/> ||Disable  <br/> |Prompt  <br/> |2  <br/> |
+|Trusted sites <br/> |X  <br/> ||Prompt  <br/> |Enable  <br/> |2  <br/> |
+|Local Machine <br/> |X  <br/> |X  <br/> |Disable  <br/> |Prompt  <br/> |2  <br/> |
+|Fully trusted form <br/> |X (signed by a Trusted Publisher)  <br/> |X <br/> |Enable <br/> |Enable <br/> |3 <br/> |
+|Fully trusted form <br/> | |X  <br/> |Enable  <br/> |Enable  <br/> |3  <br/> |
+|Restricted <br/> |         |X  <br/> |No ActiveX (except a limited hard-coded list)  <br/> |Disable  <br/> |2 <br/> |
+|Restricted <br/> |X  <br/> |         |No ActiveX (except a limited hard-coded list)  <br/> |Disable  <br/> |2 <br/> |
+|Restricted <br/> |X  <br/> |X  <br/> |No ActiveX (except a limited hard-coded list)  <br/> |Disable  <br/> |2 <br/> |
 
 For information about general security guidelines when you develop forms, see [Security Guidelines for Developing InfoPath Forms](security-guidelines-for-developing-infopath-forms.md).
   
