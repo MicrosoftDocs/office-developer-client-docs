@@ -24,16 +24,16 @@ This cell corresponds to the vertical **Grid origin** option in the **Ruler &amp
   
 To get a reference to the YGridOrigin cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |YGridOrigin  <br/> |
+|**Cell name:**  <br/> |YGridOrigin  <br/> |
    
 To get a reference to the YGridOrigin cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowRulerGrid** <br/> |
-|Cell index:  <br/> |**visYGridOrigin** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowRulerGrid** <br/> |
+|**Cell index:**  <br/> |**visYGridOrigin** <br/> |
    
 

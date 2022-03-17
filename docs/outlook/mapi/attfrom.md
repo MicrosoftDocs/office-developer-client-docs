@@ -15,7 +15,7 @@ ms.assetid: 2d405268-bb33-4863-be38-2d17e8fc956e
   
 The **attFrom** attribute is encoded as a **TRP** structure which encodes the display name and email address of the sender, followed by the display name and address of the sender, followed by any necessary padding. The format for **attFrom** is as follows:
   
-**attFrom**: _TRP-structure_ sender-display-name  _sender-address_ padding
+**attFrom**: _TRP-structure_ sender-display-name _sender-address_ padding
 
 The sender-display-name is a null-terminated string that is padded with an additional null character, if necessary, to reach a 2-byte boundary. The padding at the end of the **attFrom** encoding consists of as many null characters as needed to reach a **sizeof(TRP)** boundary.
   

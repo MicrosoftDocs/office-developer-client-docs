@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01fa459f-597d-4b16-b340-a79fb270cd71
-description: "Last modified: March 09, 2015"
+description: "Allocates and initializes an OLE IStream object to access the contents of a file."
 ---
 
 # OpenStreamOnFile
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Allocates and initializes an OLE **IStream** object to access the contents of a file. This function takes an ANSI string as the file name including the path and the file extension, therefore, use of the Unicode version of this function, [OpenStreamOnFileW](openstreamonfilew.md), is recommended.
   
-|||
+|**Item**|**Value**|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
@@ -109,7 +109,7 @@ MAPI uses the functions pointed to by _lpAllocateBuffer_ and _lpFreeBuffer_ for 
   
 ## Notes to callers
 
-The SOF_UNIQUEFILENAME flag is used to create a temporary file with a name unique to the messaging system. If this flag is set, the _lpszFileName_ parameter specifes the path for the temporary file, and the _lpszPrefix_ parameter contains the prefix characters of the filename. The constructed filename is <prefix>HHHH.TMP, where HHHH is a hexadecimal number. If  _lpszFileName_ is NULL, the file will be created in the temporary file directory that is returned from the Windows function **GetTempPath**, or the current directory if no temporary file directory has been designated.
+The SOF_UNIQUEFILENAME flag is used to create a temporary file with a name unique to the messaging system. If this flag is set, the _lpszFileName_ parameter specifes the path for the temporary file, and the _lpszPrefix_ parameter contains the prefix characters of the filename. The constructed filename is \<prefix>HHHH.TMP, where HHHH is a hexadecimal number. If  _lpszFileName_ is NULL, the file will be created in the temporary file directory that is returned from the Windows function **GetTempPath**, or the current directory if no temporary file directory has been designated.
   
 If the SOF_UNIQUEFILENAME flag is not set, _lpszPrefix_ is ignored, and _lpszFileName_ should contain the fully qualified path and filename of the file to be opened or created. The file will be opened or created based on the other flags that are set in _ulFlags_.
   

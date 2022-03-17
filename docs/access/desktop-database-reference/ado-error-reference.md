@@ -17,9 +17,9 @@ The **ErrorValueEnum** constant describes the ADO error values. For a complete l
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -13,16 +13,13 @@ ms.assetid: 346608d7-f7de-497e-9852-4d4d7696177e
 
 # Deleting a Message Service
 
-  
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
  **To delete a message service from a profile**
   
-1. Call **IMAPISession::GetMsgServiceTable** to access the message service table. 
-    
-2. Locate the row for the message service and pass its **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column in the _lpuid_ parameter to [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md). 
-    
- **DeleteMsgService** calls the message service's entry point function with the  _ulContext_ parameter set to MSG_SERVICE_DELETE. Message services perform any clean up tasks at this time before they are removed from the profile. 
-  
+1. Call **IMAPISession::GetMsgServiceTable** to access the message service table.
 
+2. Locate the row for the message service and pass its **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) column in the _lpuid_ parameter to [IMsgServiceAdmin::DeleteMsgService](imsgserviceadmin-deletemsgservice.md).
+
+ **DeleteMsgService** calls the message service's entry point function with the _ulContext_ parameter set to MSG_SERVICE_DELETE. Message services perform any clean up tasks at this time before they are removed from the profile.
+  

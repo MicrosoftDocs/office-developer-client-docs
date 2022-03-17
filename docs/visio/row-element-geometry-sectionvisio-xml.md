@@ -18,7 +18,7 @@ Contains rows that list the coordinates of the vertices for the lines and arcs t
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[GeometryRow_Type](geometry_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

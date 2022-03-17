@@ -18,8 +18,8 @@ Each collection can contain its corresponding object. For example, an [Error](er
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="even">

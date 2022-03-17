@@ -54,16 +54,16 @@ In versions earlier than Visio 2000, you set this behavior using the ObjBehavior
   
 To get a reference to the ShapeRouteStyle cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ShapeRouteStyle  <br/> |
+|**Cell name:**  <br/> |ShapeRouteStyle  <br/> |
    
 To get a reference to the ShapeRouteStyle cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowShapeLayout** <br/> |
-|Cell index:  <br/> |**visSLORouteStyle** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowShapeLayout** <br/> |
+|**Cell index:**  <br/> |**visSLORouteStyle** <br/> |
    
 

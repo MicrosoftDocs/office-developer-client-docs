@@ -31,7 +31,7 @@ You can access the Quick Filing dialog box functionality through two OneNote 201
 
 This interface allows the user to customize and run the dialog box. The user can instantiate a dialog box through the **Application** class by using the **Application.QuickFilingDialog** method. The method returns an instance of the dialog box. Once the properties of the dialog box are set, the **IQuickFilingDialog.Run** method is used to run the dialog box. This method runs the dialog box on a new thread.
   
-**Properties**
+## Properties
 
 |**Name**|**Type**|**Description**|
 |:-----|:-----|:-----|
@@ -54,7 +54,7 @@ This interface allows the user to customize and run the dialog box. The user can
 |:-----|:-----|
 |**Description** <br/> |Sets what recent result list will be displayed in the Quick Filing dialog box, and indicates whether to include some special filing locations in the list. Users can select a recent result list from the [RecentResultType](enumerations-onenote-developer-reference.md#odc_RecentResultType) enumeration. Users can also choose to add the following options to the list: Current Section, Current Page, or Unfiled Notes. If **RecentResultType.rrtNone** is selected, no recent result list is shown. |
 |**Syntax** <br/> | `HRESULT SetRecentResults (`<br/>`[in]RecentResultType recentResults,`<br/>`[in]VARIANT_BOOL fShowCurrentSection,`<br/>`[in]VARIANT_BOOL fShowCurrentPage,`<br/>`[in]VARIANT_BOOL fShowUnfiledNotes);` <br/> |
-|**Parameters** <br/> | _recentResults_ &ndash; An object of type **RecentResultType** that indicates which recent result list, if any, should appear. If **rrtNone** is selected, no recent result list appears in the dialog box.<br/><br/>  _fShowCurrentSection_ &ndash; A Boolean value that indicates whether the current section should be included in the recent result list.<br/><br/> _fShowCurrentPage_ &ndash; A Boolean value that indicates whether the current page should be included in the recent result list.<br/><br/> _fShowUnfiledNotes_ &ndash; A Boolean value that indicates whether the Unfiled Notes section should be included in the recent result list. |
+|**Parameters** <br/> | _recentResults_ &ndash; An object of type **RecentResultType** that indicates which recent result list, if any, should appear. If **rrtNone** is selected, no recent result list appears in the dialog box.<br/><br/> _fShowCurrentSection_ &ndash; A Boolean value that indicates whether the current section should be included in the recent result list.<br/><br/> _fShowCurrentPage_ &ndash; A Boolean value that indicates whether the current page should be included in the recent result list.<br/><br/> _fShowUnfiledNotes_ &ndash; A Boolean value that indicates whether the Unfiled Notes section should be included in the recent result list. |
 
 > [!NOTE]
 > If a special filing location cannot be selected by using any of the buttons in the dialog box, it is not shown in the list. If no selectable item in the recent results list is found, no recent result list is displayed.

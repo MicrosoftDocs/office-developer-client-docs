@@ -18,7 +18,7 @@ Specifies whether a specific snap extension setting is enabled or disabled for t
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
