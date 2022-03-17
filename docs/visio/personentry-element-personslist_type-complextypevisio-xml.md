@@ -12,7 +12,7 @@ Specifies properties used to identify a mentioned person in comments in a drawin
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[PersonEntry_Type](personentry_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

@@ -23,16 +23,16 @@ Represents the distance the first line of each paragraph in the shape's text blo
 
 To get a reference to the IndFirst cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Para.IndFirst[  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Para.IndFirst[  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the IndFirst cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionParagraph** <br/> |
-| Row index:  <br/> |**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visIndentFirst** <br/> |
+| **Section index:**  <br/> |**visSectionParagraph** <br/> |
+| **Row index:**  <br/> |**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visIndentFirst** <br/> |
    
 
