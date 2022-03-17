@@ -1,7 +1,5 @@
 ---
-title: "Display Server Folder Sizes Property"
- 
- 
+title: "Display Server Folder Sizes Property" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
-description: "Last modified: March 09, 2015"
+description: "Displays the sizes of specified folders on the server in the Outlook Folder Size dialog box."
 ---
 
 # Display Server Folder Sizes Property
