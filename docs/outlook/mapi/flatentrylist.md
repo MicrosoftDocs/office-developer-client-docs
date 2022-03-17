@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b465d015-9b62-4986-b0df-118121f60602
-description: "Last modified: March 09, 2015"
+description: "Contains an array of FLATENTRY structures."
 ---
 
 # FLATENTRYLIST
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of [FLATENTRY](flatentry.md) structures.
   
-|||
+|**Info**|**Value**|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbFLATENTRYLIST](cbflatentrylist.md), [CbNewFLATENTRYLIST](cbnewflatentrylist.md) <br/> |
