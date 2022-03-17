@@ -22,16 +22,16 @@ Removes noise (pixels with randomly distributed color levels) from a bitmap imag
 
 To get a reference to the Denoise cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Denoise  <br/> |
+| **Cell name:**  <br/> | Denoise  <br/> |
    
 To get a reference to the Denoise cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowImage** <br/> |
-| Cell index:  <br/> |**visImageDenoise** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowImage** <br/> |
+| **Cell index:**  <br/> |**visImageDenoise** <br/> |
    
 

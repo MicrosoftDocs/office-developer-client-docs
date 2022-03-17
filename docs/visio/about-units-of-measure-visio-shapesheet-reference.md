@@ -145,11 +145,11 @@ To enter units implicitly, use the following syntax.
 number  [unit , flag ]
 ```
 
-|||
+||Value |
 |:-----|:-----|
-| *number* <br/> |The original value, such as 3.7, 1.7E-4, or 5 1/2. |
-| *unit* <br/> |The units in which *number* originally is expressed. |
-| *flag* <br/> |The measurement system to use when the implicit-value unit is displayed. See below for values. |
+| **number** <br/> |The original value, such as 3.7, 1.7E-4, or 5 1/2. |
+| **unit** <br/> |The units in which *number* originally is expressed. |
+| **flag** <br/> |The measurement system to use when the implicit-value unit is displayed. See below for values. |
 
 The parameter *flag* is one of the following letters (either uppercase or lowercase) indicating the measurement system that should be used when the implicit-value unit is displayed.
   

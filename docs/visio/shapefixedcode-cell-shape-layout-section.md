@@ -37,16 +37,16 @@ In versions earlier than Visio 2000, you set this behavior using the ObjInteract
   
 To get a reference to the ShapeFixedCode cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ShapeFixedCode  <br/> |
+|**Cell name:**  <br/> |ShapeFixedCode  <br/> |
    
 To get a reference to the ShapeFixedCode cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowShapeLayout** <br/> |
-|Cell index:  <br/> |**visSLOFixedCode** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowShapeLayout** <br/> |
+|**Cell index:**  <br/> |**visSLOFixedCode** <br/> |
    
 

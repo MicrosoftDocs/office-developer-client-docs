@@ -36,18 +36,18 @@ Represents an  *x*  -coordinate on a shape in local coordinates. This table desc
 
 To get a reference to the X cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Geometry *i* .X  *j*            where  *i*  and  *j*  = <1>, 2, 3... |
-|| Geometry *i* .X1 (InfiniteLine and Ellipse rows)            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Geometry *i* .X  *j*            where  *i*  and  *j*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Geometry *i* .X1 (InfiniteLine and Ellipse rows)            where  *i*  = <1>, 2, 3... |
 
 To get a reference to the X cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionFirstComponent** + *i*           where *i* = 0, 1, 2... |
-| Row index:  <br/> |**visRowVertex** + *j*           where *j* = 0, 1, 2... |
-||**visRowVertex** (InfiniteLine and Ellipse rows)  <br/> |
-| Cell index:  <br/> |**visX** (MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, Polyline, SplineStart, and SplineKnot rows)  <br/> |
-||**visInfiniteLineX1** (InfiniteLine row)  <br/> |
-||**visEllipseCenterX** (Ellipse row)  <br/> |
+| **Section index:**  <br/> |**visSectionFirstComponent** + *i*           where *i* = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowVertex** + *j*           where *j* = 0, 1, 2... |
+| **Row index:**  <br/> |**visRowVertex** (InfiniteLine and Ellipse rows)  <br/> |
+| **Cell index:**  <br/> |**visX** (MoveTo, LineTo, ArcTo, EllipticalArcTo, NURBSTo, Polyline, SplineStart, and SplineKnot rows)  <br/> |
+| **Cell index:**  <br/> |**visInfiniteLineX1** (InfiniteLine row)  <br/> |
+| **Cell index:**  <br/> |**visEllipseCenterX** (Ellipse row)  <br/> |

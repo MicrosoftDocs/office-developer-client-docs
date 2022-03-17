@@ -29,16 +29,16 @@ When you base a new style on a style that is hidden, the new style does not inhe
   
 To get a reference to the HideForApply cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | HideForApply  <br/> |
+| **Cell name:**  <br/> | HideForApply  <br/> |
    
 To get a reference to the HideForApply cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowStyle** <br/> |
-| Cell index:  <br/> |**visStyleHidden** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowStyle** <br/> |
+| **Cell index:**  <br/> |**visStyleHidden** <br/> |
    
 

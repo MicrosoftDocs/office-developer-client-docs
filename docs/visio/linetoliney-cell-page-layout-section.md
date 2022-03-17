@@ -24,16 +24,16 @@ You can also set the value of this cell in the **Layout and Routing Spacing** di
   
 To get a reference to the LineToLineY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LineToLineY  <br/> |
+|**Cell name:**  <br/> |LineToLineY  <br/> |
    
 To get a reference to the LineToLineY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPageLayout** <br/> |
-|Cell index:  <br/> |**visPLOLineToLineY** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPageLayout** <br/> |
+|**Cell index:**  <br/> |**visPLOLineToLineY** <br/> |
    
 

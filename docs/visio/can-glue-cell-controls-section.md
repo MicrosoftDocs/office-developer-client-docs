@@ -28,14 +28,14 @@ Determines whether a control handle can be glued to other shapes.
 
 To get a reference to the Can Glue cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Controls. *name* .CanGluewhere Controls. *name* is the name of the controls row. |
+| **Cell name:**  <br/> | Controls. *name* .CanGluewhere Controls. *name* is the name of the controls row. |
 
 To get a reference to the Can Glue cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionControls** <br/> |
-| Row index:  <br/> |**visRowControl** +  *i*            where  *i*  = 0, 1, 2, ... |
-| Cell index:  <br/> |**visCtlGlue** <br/> |
+| **Section index:**  <br/> |**visSectionControls** <br/> |
+| **Row index:**  <br/> |**visRowControl** +  *i*            where  *i*  = 0, 1, 2, ... |
+| **Cell index:**  <br/> |**visCtlGlue** <br/> |

@@ -24,16 +24,16 @@ This value corresponds to the value in the **X Offset** setting in the **Shadow*
   
 To get a reference to the ShapeShdwOffsetX cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ShapeShdwOffsetX  <br/> |
+| **Cell name:**  <br/> | ShapeShdwOffsetX  <br/> |
    
 To get a reference to the ShapeShdwOffsetX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowFill** <br/> |
-| Cell index:  <br/> |**visFillShdwOffsetX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowFill** <br/> |
+| **Cell index:**  <br/> |**visFillShdwOffsetX** <br/> |
    
 

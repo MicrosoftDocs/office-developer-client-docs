@@ -20,16 +20,16 @@ Determines the additional thickness added to line weight as the result of a sket
 
 To get a reference to the **SketchLineWeight** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | SketchLineWeight  <br/> |
+| **Cell name:**  <br/> | SketchLineWeight  <br/> |
    
 To get a reference to the **SketchLineWeight** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Cell index:  <br/> |**visSketchLineWeight** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowOtherEffectProperties** <br/> |
+| **Cell index:**  <br/> |**visSketchLineWeight** <br/> |
    
 

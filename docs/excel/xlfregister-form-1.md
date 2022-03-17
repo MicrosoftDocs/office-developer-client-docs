@@ -71,9 +71,8 @@ _pxMacroType_ (**xltypeNum** or **xltypeInt**)
   
 An optional argument that indicates the type of XLL entry point. The default value, if it is omitted, is 1.
   
-|||||
-|:-----|:-----|:-----|:-----|
 | _pxMacroType value_ <br/> |0  <br/> |1  <br/> |2  <br/> |
+|:-----|:-----|:-----|:-----|
 |Can be called from a worksheet  <br/> |Yes  <br/> |Yes  <br/> |No  <br/> |
 |Can be called from a macro sheet  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
 |Can be called from a defined name definition  <br/> |Yes  <br/> |Yes  <br/> |Yes  <br/> |
@@ -132,7 +131,7 @@ The first table lists the types supported in all versions of Excel.
 |FP  <br/> ||K  <br/> |Floating-point array structure  <br/> |
 |Array  <br/> ||O  <br/> |Three arguments are passed:<br/>- unsigned short int \*<br/>- unsigned short int \*<br/>- double []  <br/> |
 |XLOPER  <br/> ||P  <br/> |Variable-type worksheet values and arrays  <br/> |
-|||R  <br/> |Values, arrays, and range references  <br/> |
+||Value |R  <br/> |Values, arrays, and range references  <br/> |
 
 In Excel 2007 the following data types were introduced to support the larger grids and long Unicode strings.
   
@@ -143,7 +142,7 @@ In Excel 2007 the following data types were introduced to support the larger gri
 |FP12  <br/> ||K%  <br/> |Larger grid floating-point array structure  <br/> |
 |Array  <br/> ||O%  <br/> |Three arguments are passed:<br/>- signed int \* / RW \*<br/>- signed int \* / COL \*<br/>- double []  <br/> |
 |XLOPER12  <br/> ||Q  <br/> |Variable-type worksheet values and arrays  <br/> |
-|||U  <br/> |Values, arrays, and range references  <br/> |
+||Value |U  <br/> |Values, arrays, and range references  <br/> |
 
 Starting in Excel 2010 the following data types were introduced:
   

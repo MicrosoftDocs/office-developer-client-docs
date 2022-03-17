@@ -22,16 +22,16 @@ Adjusts or corrects the intensity of an image for a particular output device, su
 
 To get a reference to the Gamma cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Gamma  <br/> |
+| **Cell name:**  <br/> | Gamma  <br/> |
    
 To get a reference to the Gamma cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowImage** <br/> |
-| Cell index:  <br/> |**visImageGamma** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowImage** <br/> |
+| **Cell index:**  <br/> |**visImageGamma** <br/> |
    
 

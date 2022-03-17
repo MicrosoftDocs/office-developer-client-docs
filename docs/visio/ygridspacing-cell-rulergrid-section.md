@@ -24,16 +24,16 @@ Corresponds to the vertical **Minimum spacing** option in the **Ruler &amp; Grid
   
 To get a reference to the YGridSpacing cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |YGridSpacing  <br/> |
+|**Cell name:**  <br/> |YGridSpacing  <br/> |
    
 To get a reference to the YGridSpacing cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowRulerGrid** <br/> |
-|Cell index:  <br/> |**visYGridSpacing** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowRulerGrid** <br/> |
+|**Cell index:**  <br/> |**visYGridSpacing** <br/> |
    
 

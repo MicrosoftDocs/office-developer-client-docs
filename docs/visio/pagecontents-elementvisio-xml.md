@@ -18,7 +18,7 @@ Specifies the information about the shapes in a master or drawing page of a draw
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

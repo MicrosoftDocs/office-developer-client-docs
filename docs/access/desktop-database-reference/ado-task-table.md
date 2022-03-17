@@ -17,8 +17,8 @@ The following table lists programming tasks contained in the *ADO programmer's g
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

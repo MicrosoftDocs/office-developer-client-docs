@@ -27,16 +27,16 @@ Determines whether a style includes line properties.
 
 To get a reference to the EnableLineProps cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |EnableLineProps  <br/> |
+|**Cell name:**  <br/> |EnableLineProps  <br/> |
    
 To get a reference to the EnableLineProps cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowStyle** <br/> |
-|Cell index:  <br/> |**visStyleIncludesLine** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowStyle** <br/> |
+|**Cell index:**  <br/> |**visStyleIncludesLine** <br/> |
    
 

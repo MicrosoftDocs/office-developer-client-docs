@@ -22,9 +22,8 @@ If a formula references a cell that contains an error value, that formula also d
   
 **Error values**
 
-||||
-|:-----|:-----|:-----|
 |**If the cell displays** <br/> |**The formula includes** <br/> |**Example** <br/> |
+|:-----|:-----|:-----|
 | #DIV/0!  <br/> |Division by 0  <br/> |10/0  <br/> |
 | #VALUE!  <br/> | An argument or operand of the wrong type  <br/> | 5 + "House"  <br/> |
 | #REF!  <br/> | A reference to a cell that does not exist  <br/> | A cell that refers to another cell that no longer exists  <br/> |

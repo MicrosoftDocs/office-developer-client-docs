@@ -18,7 +18,7 @@ Contains rows that describe menu items on a shortcut or action tag menu of a sha
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

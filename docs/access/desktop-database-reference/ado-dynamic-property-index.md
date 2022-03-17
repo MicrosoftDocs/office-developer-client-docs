@@ -45,8 +45,8 @@ Note numbers used in the cross-index:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -317,8 +317,8 @@ Note that the **Dynamic Properties** of the **Recordset** object go out of scope
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -22,16 +22,16 @@ Represents the  *x*  -coordinate of the endpoint of the 1-D shape, in relation t
 
 To get a reference to the EndX cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | EndX  <br/> |
+| **Cell name:**  <br/> | EndX  <br/> |
    
 To get a reference to the EndX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowXForm1D** <br/> |
-| Cell index:  <br/> |**vis1DEndX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowXForm1D** <br/> |
+| **Cell index:**  <br/> |**vis1DEndX** <br/> |
    
 

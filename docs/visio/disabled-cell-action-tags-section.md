@@ -33,16 +33,16 @@ When an action tag is disabled, it does not appear at all until it is re-enabled
   
 To get a reference to the Disabled cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | SmartTags.  *name*  .Disabled           where SmartTags. *name*  is the name of the action tag row  <br/> |
+| **Cell name:**  <br/> | SmartTags.  *name*  .Disabled           where SmartTags. *name*  is the name of the action tag row  <br/> |
    
 To get a reference to the Disabled cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visSmartTagDisabled** <br/> |
+| **Section index:**  <br/> |**visSectionSmartTag** <br/> |
+| **Row index:**  <br/> |**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visSmartTagDisabled** <br/> |
    
 

@@ -23,16 +23,16 @@ Specifies the position of a tab stop. The tab position is independent of the sca
 
 To get a reference to the Position cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Tabs.  *ij*            where  *i*  and  *j*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Tabs.  *ij*            where  *i*  and  *j*  = <1>, 2, 3... |
    
 To get a reference to the Position cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionTab** <br/> |
-| Row index:  <br/> |**visRowTab** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> | (*j*  *3) + **visTabPos** <br/> |
+| **Section index:**  <br/> |**visSectionTab** <br/> |
+| **Row index:**  <br/> |**visRowTab** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> | (*j*  *3) + **visTabPos** <br/> |
    
 

@@ -22,14 +22,14 @@ The hyperlinks on a shortcut menu appear on the menu sorted from lowest to highe
   
 To get a reference to the SortKey cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Hyperlink. *name* .SortKey where Hyperlink  *.name*  is the row name.  <br/> |
+|**Cell name:**  <br/> |Hyperlink. *name* .SortKey where Hyperlink  *.name*  is the row name.  <br/> |
 
 To get a reference to the SortKey cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionHyperlink** <br/> |
-|Row index:  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visHLinkSortKey** <br/> |
+|**Section index:**  <br/> |**visSectionHyperlink** <br/> |
+|**Row index:**  <br/> |**visRow1stHyperlink** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visHLinkSortKey** <br/> |

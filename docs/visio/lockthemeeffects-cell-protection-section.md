@@ -22,16 +22,16 @@ Corresponds to the **From theme effects** check box setting in the **Protection*
   
 To refer ti the LockThemeColors cell by name from another formula, or from a program, using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |LockThemeEffects  <br/> |
+|**Cell name:**  <br/> |LockThemeEffects  <br/> |
    
 To refer to the LockThemeEffects cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowLock** <br/> |
-|Cell index:  <br/> |**visLockThemeEffects** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowLock** <br/> |
+|**Cell index:**  <br/> |**visLockThemeEffects** <br/> |
    
 

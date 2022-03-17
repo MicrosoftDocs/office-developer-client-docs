@@ -28,14 +28,14 @@ The X and Y cells define a point in the shape's local coordinates, and the X Jus
   
 To get a reference to the Y cell by name from another formula, or from a program using the **CellsU** property, use:
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | SmartTags. *name* .Y where SmartTags. *name* is the name of the action tag row. <br/> |
+| **Cell name:**  <br/> | SmartTags. *name* .Y where SmartTags. *name* is the name of the action tag row. <br/> |
 
 To get a reference to the Y cell by index from a program, use the **CellsSRC** property with the following arguments:
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionSmartTag** <br/> |
-| Row index:  <br/> |**visRowSmartTag** + *i* where *i* = 0, 1, 2... |
-| Cell index:  <br/> |**visSmartTagY** <br/> |
+| **Section index:**  <br/> |**visSectionSmartTag** <br/> |
+| **Row index:**  <br/> |**visRowSmartTag** + *i* where *i* = 0, 1, 2... |
+| **Cell index:**  <br/> |**visSmartTagY** <br/> |

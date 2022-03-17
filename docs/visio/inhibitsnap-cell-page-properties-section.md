@@ -27,16 +27,16 @@ Determines whether the shapes on a foreground page snap to other objects on the 
 
 To get a reference to the InhibitSnap cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | InhibitSnap  <br/> |
+| **Cell name:**  <br/> | InhibitSnap  <br/> |
    
 To get a reference to the InhibitSnap cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPage** <br/> |
-| Cell index:  <br/> |**visPageInhibitSnap** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPage** <br/> |
+| **Cell index:**  <br/> |**visPageInhibitSnap** <br/> |
    
 

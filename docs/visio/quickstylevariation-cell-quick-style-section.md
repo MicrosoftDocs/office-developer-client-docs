@@ -32,16 +32,16 @@ The QuickStyleVariation value overrides the value produced by the THEMEVAL funct
   
 To get a reference to the **QuickStyleVariation** cell by name from another formula, by getting the value of the **N** attribute of a **Cell** element, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |QuickStyleVariation  <br/> |
+|**Cell name:**  <br/> |QuickStyleVariation  <br/> |
    
 To get a reference to the **QuickStyleVariation** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowQuickStyleProperties** <br/> |
-|Cell index:  <br/> |**visQuickStyleVariation** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowQuickStyleProperties** <br/> |
+|**Cell index:**  <br/> |**visQuickStyleVariation** <br/> |
    
 

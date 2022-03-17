@@ -24,16 +24,16 @@ This value represents physical units and is unaffected by scale or drawing units
   
 To get a reference to the PageTopMargin cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | PageTopMargin  <br/> |
+| **Cell name:**  <br/> | PageTopMargin  <br/> |
    
 To get a reference to the PageTopMargin cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPrintProperties** <br/> |
-| Cell index:  <br/> |**visPrintPropertiesTopMargin** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPrintProperties** <br/> |
+| **Cell index:**  <br/> |**visPrintPropertiesTopMargin** <br/> |
    
 
