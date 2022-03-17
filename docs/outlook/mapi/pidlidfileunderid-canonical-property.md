@@ -1,7 +1,5 @@
 ---
-title: "PidLidFileUnderId Canonical Property"
- 
- 
+title: "PidLidFileUnderId Canonical Property" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,18 +11,16 @@ api_name:
 api_type:
 - COM
 ms.assetid: 917431a9-fd90-4b4d-b042-886e3dbf47c0
-description: "Last modified: March 09, 2015"
+description: "Specifies how to generate and recompute the value of the dispidFileUnder property when other contact name properties change."
 ---
 
 # PidLidFileUnderId Canonical Property
-
-  
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
 Specifies how to generate and recompute the value of the **dispidFileUnder** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) property when other contact name properties change.
   
-|||
+|**Property**|**Value**|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFileUnderId  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |
@@ -66,28 +62,22 @@ In the following table, the notation \<PropertyName> is used to specify "the val
 ### Protocol specifications
 
 [[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
-  
+
 > Provides property set definitions and references to related Exchange Server protocol specifications.
-    
+ 
 [[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
-  
+
 > Specifies the properties and operations that are permissible for contacts and personal distribution lists.
-    
+
 ### Header files
 
 Mapidefs.h
-  
+
 > Provides data type definitions.
     
 ## See also
 
-
-
-[MAPI Properties](mapi-properties.md)
-  
-[MAPI Canonical Properties](mapi-canonical-properties.md)
-  
-[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)
-  
+[MAPI Properties](mapi-properties.md)  
+[MAPI Canonical Properties](mapi-canonical-properties.md)  
+[Mapping Canonical Property Names to MAPI Names](mapping-canonical-property-names-to-mapi-names.md)  
 [Mapping MAPI Names to Canonical Property Names](mapping-mapi-names-to-canonical-property-names.md)
-
