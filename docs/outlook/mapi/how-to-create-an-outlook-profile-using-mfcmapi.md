@@ -54,7 +54,7 @@ For non-developers, it is recommended that you use the Outlook user interface to
 
 ### Outlook 2016
   
-|**Property**|**Tag**|**Description**|
+|Property**|**Tag**|**Description**|
 |:-----|:-----|:-----|
 |PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W  <br/> |0x6641001F  <br/> |SMTP Address of the user  <br/> |
 |PR_DISPLAY_NAME_W  <br/> |0x3001001F  <br/> |The display name of the user  <br/> |
