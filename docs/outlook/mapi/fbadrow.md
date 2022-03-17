@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Validates a row in a table.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapival.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

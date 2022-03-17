@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the second email address of the contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidEmail2EmailAddress  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

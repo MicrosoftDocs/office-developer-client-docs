@@ -49,7 +49,7 @@ For more information about explicit linking, see Linking Explicitly.
     
     1. Load mapi32.dll from the appropriate system directory. 
         
-       |||
+       |Property |Value |
        |:-----|:-----|
        |x64 or x86 natively  <br/> |**%windir%\system32\mapi32.dll** <br/> |
        |x86 on WoW mode  <br/> |**%windir%\syswow64\mapi32.dll** <br/> |

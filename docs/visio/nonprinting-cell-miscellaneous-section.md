@@ -29,16 +29,16 @@ You can print a guide by selecting it, and then setting the value of its NonPrin
   
 To get a reference to the NonPrinting cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | NonPrinting  <br/> |
+| **Cell name:**  <br/> | NonPrinting  <br/> |
    
 To get a reference to the NonPrinting cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visNonPrinting** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visNonPrinting** <br/> |
    
 

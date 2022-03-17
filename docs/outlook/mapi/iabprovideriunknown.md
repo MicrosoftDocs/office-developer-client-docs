@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides a method to log on to an address book provider object and a method to invalidate an address book provider object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Exposed by:  <br/> |Address book provider objects  <br/> |
@@ -35,7 +35,7 @@ Provides a method to log on to an address book provider object and a method to i
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Logon](iabprovider-logon.md) <br/> |Establishes a connection to an active session. |
 |[Shutdown](iabprovider-shutdown.md) <br/> |Cancels a connection to an active session. |

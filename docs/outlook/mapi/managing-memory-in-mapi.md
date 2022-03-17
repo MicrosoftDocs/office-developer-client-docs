@@ -30,7 +30,7 @@ When clients and service providers use these functions, the issue of who "owns" 
   
 The memory macros are used to allocate structures or arrays of structures of a specific size. Clients and service providers should use these macros rather than allocate the memory manually. For example, if a client needs to perform name resolution processing on a recipient list with three entries, the **SizedADRLIST** macro can be used to create an **ADRLIST** structure to pass to **IAddrBook::ResolveName** with the correct number of **ADRENTRY** members. All of the memory macros are defined in the MAPIDEFS.H header file. These macros are: 
   
-|||
+|Macro |Macro |
 |:-----|:-----|
 |[SizedADRLIST](sizedadrlist.md) <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |
 |[SizedDtblButton](sizeddtblbutton.md) <br/> |[SizedENTRYID](sizedentryid.md) <br/> |
