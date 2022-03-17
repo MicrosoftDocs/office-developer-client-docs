@@ -22,7 +22,7 @@ description: "Validates all strings in an array of Unicode strings."
   
 Validates all strings in an array of Unicode strings.
   
-|||
+|**Info**|**Value**|
 |:-----|:-----|
 |Header file:  <br/> |Mapival.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
