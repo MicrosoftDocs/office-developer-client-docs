@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Computes the number of bytes that should be allocated for a new [FLATMTSIDLIST](flatmtsidlist.md) structure that contains several [MTSID](mtsid.md) structures of a specified size. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**FLATMTSIDLIST** <br/> |

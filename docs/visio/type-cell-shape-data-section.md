@@ -33,16 +33,16 @@ Specifies a data type for the shape data value.
 
 To get a reference to the Type cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Prop. *Name*  .Type where Prop.  *Name*  is the row name  <br/> |
+|**Cell name:**  <br/> |Prop. *Name*  .Type where Prop.  *Name*  is the row name  <br/> |
    
 To get a reference to the Type cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionProp** <br/> |
-|Row index:  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visCustPropsType** <br/> |
+|**Section index:**  <br/> |**visSectionProp** <br/> |
+|**Row index:**  <br/> |**visRowProp** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visCustPropsType** <br/> |
    
 

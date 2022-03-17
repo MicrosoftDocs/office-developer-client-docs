@@ -24,16 +24,16 @@ This cell corresponds to the vertical **Ruler zero** option in the **Ruler &amp;
   
 To get a reference to the YRulerOrigin cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |YRulerOrigin  <br/> |
+|**Cell name:**  <br/> |YRulerOrigin  <br/> |
    
 To get a reference to the YRulerOrigin cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowRulerGrid** <br/> |
-|Cell index:  <br/> |**visYRulerOrigin** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowRulerGrid** <br/> |
+|**Cell index:**  <br/> |**visYRulerOrigin** <br/> |
    
 

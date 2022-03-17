@@ -24,16 +24,16 @@ This value is used only when the OnPage cell is set to TRUE.
   
 To get a reference to the PagesY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | PagesY  <br/> |
+| **Cell name:**  <br/> | PagesY  <br/> |
    
 To get a reference to the PagesY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPrintProperties** <br/> |
-| Cell index:  <br/> |**visPrintPropertiesPagesY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPrintProperties** <br/> |
+| **Cell index:**  <br/> |**visPrintPropertiesPagesY** <br/> |
    
 
