@@ -16,7 +16,7 @@ ms.localizationpriority: medium
 
 The following Visual Basic for Applications functions can be used in data shaping CALC expressions:
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col />
 <col />
