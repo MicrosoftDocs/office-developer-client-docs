@@ -17,7 +17,7 @@ Returns or sets the user display name.
 
 See [IOlkAccount](iolkaccount.md).
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x000B  <br/> |
 |Property type:  <br/> |PT_UNICODE  <br/> |

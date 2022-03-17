@@ -14,7 +14,7 @@ Supports enumerating accounts as [IUnknown](/windows/desktop/api/unknwn/nn-unknw
   
 ## Quick info
 
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Inherits from:  |[IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown.md) |
 |Implemented by: |Outlook  |

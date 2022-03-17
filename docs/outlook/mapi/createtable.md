@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Creates structures and an object handle for an [ITableData](itabledataiunknown.md) object which can be used to create table contents.
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

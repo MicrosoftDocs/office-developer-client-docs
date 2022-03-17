@@ -15,7 +15,7 @@ Specifies whether to use Secure Socket Layer (SSL) for a general Internet mailbo
   
 ## Quick info
 
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0105  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

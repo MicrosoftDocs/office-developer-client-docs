@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Calls an internal function to validate debugging parameters on service provider methods called by MAPI. 
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapival.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
