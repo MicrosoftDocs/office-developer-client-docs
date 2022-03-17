@@ -18,9 +18,9 @@ Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followe
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
