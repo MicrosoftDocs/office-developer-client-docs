@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Creates an ASCII string representing a compound entry identifier for an object, usually a message in a message store.
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

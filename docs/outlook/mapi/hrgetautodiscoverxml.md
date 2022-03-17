@@ -22,7 +22,7 @@ Returns an Extensible Markup Language (XML) stream that represents information r
 
 ## Quick info
 
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Exported by:  <br/> |olmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |

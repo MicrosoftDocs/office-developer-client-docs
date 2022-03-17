@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides information for an offline object.
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Provided by:  <br/> |Query on [IMAPIOfflineMgr](imapiofflinemgrimapioffline.md) <br/> |
 |Called by:  <br/> |Client  <br/> |

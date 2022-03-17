@@ -17,7 +17,7 @@ Returns the account stamp.
 
 See [IOlkAccount](iolkaccount.md).
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x000D  <br/> |
 |Property type:  <br/> |PT_UNICODE  <br/> |

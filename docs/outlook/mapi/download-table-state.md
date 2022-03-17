@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 ## Quick info
 
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |State Identifier:  <br/> |**LR_SYNC_DOWNLOAD_TABLE** <br/> |
 |Related Data Structure:  <br/> |**[DNTBL](dntbl.md)** <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Manages objects associated with a MAPI logon session.
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Exposed by:  <br/> |Session objects  <br/> |

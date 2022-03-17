@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the message classification should persist with the message if the message is forwarded or replied.
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidClassKeep  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

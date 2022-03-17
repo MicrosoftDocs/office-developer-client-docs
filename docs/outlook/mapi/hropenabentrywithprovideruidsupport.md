@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Performs the same function as the [HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) function except that the **HrOpenABEntryWithProviderUIDSupport** function opens the entry using the given support object instead of using the session and the address book. 
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |abhelp.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

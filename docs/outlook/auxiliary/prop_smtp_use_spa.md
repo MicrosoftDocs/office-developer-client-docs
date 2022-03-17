@@ -15,7 +15,7 @@ Specifies whether to use Secure Password Authentication (SPA) for the SMTP accou
   
 ## Quick info
 
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0207  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

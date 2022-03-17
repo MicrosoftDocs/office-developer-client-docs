@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Computes the number of bytes that should be allocated for a new [SPropAttrArray](spropattrarray.md) structure that contains a specified number of property attributes. 
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Related structure:  <br/> |**SPropAttrArray** <br/> |

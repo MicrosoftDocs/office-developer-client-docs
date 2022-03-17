@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Forces dispatching of all queued notifications. 
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

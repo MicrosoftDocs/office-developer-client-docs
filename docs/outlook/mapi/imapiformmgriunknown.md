@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables form viewers to obtain information about and activate form servers. 
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Form manager objects  <br/> |

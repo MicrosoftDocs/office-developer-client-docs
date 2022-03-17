@@ -15,7 +15,7 @@ Returns the account stamp of the account that delivered the message.
   
 ## Quick info
 
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidInetAcctStamp  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
@@ -36,7 +36,7 @@ Usually, the Outlook Protocol Manager delivers messages, and Outlook sets the **
   
 To support these named properties, store providers should expect Outlook to use **IMAPIProp::GetIDsFromNames** to obtain the property tag for this property. Outlook specifies the following values for the [MAPINAMEID](https://msdn.microsoft.com/library/9a92e9cd-8282-4cf0-93af-4089b3763594%28Office.15%29.aspx) structure that corresponds to this named property, which is passed as part of the array pointed at by the input parameter  *lppPropNames*  of **IMAPIProp::GetIDsFromNames**.
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |lpGuid:  <br/> |PSETID_Common  <br/> |
 |ulKind:  <br/> |MNID_ID  <br/> |

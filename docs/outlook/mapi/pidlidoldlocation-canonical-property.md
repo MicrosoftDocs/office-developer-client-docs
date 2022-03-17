@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the original value of the **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) property before a meeting update.
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidOldLocation  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

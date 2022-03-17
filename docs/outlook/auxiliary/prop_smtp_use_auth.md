@@ -15,7 +15,7 @@ Specifies whether to use authentication for the SMTP account.
   
 ## Quick info
 
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0203  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

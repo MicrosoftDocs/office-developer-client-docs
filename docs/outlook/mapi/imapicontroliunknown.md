@@ -26,7 +26,7 @@ Enables and disables a button control, and performs tasks when a user of a clien
   
 For more information about how to work with display tables and control objects, see [Display Tables](display-tables.md).
   
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Control objects  <br/> |
