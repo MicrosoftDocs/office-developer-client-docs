@@ -43,9 +43,9 @@ The following macro uses the **OnError** action with the **Next** argument to su
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -25,9 +25,9 @@ The **CreateRecord** data block has the following arguments.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,7 +59,7 @@ After **CreateRecord** statement, you can insert a block of commands that will e
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

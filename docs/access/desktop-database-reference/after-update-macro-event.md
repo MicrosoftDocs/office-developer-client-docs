@@ -52,8 +52,8 @@ The following table lists macro commands can be used in the**After Update** even
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
