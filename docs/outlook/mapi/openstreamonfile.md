@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01fa459f-597d-4b16-b340-a79fb270cd71
-description: "Last modified: March 09, 2015"
+description: "Allocates and initializes an OLE IStream object to access the contents of a file."
 ---
 
 # OpenStreamOnFile
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Allocates and initializes an OLE **IStream** object to access the contents of a file. This function takes an ANSI string as the file name including the path and the file extension, therefore, use of the Unicode version of this function, [OpenStreamOnFileW](openstreamonfilew.md), is recommended.
   
-|||
+|**Item**|**Value**|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
