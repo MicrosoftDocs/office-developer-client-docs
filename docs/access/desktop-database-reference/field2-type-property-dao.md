@@ -30,8 +30,8 @@ For a **Field2** object, the possible settings and return values are described i
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

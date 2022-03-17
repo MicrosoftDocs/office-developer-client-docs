@@ -29,10 +29,10 @@ Temporarily overrides values for the Microsoft Access database engine keys in th
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -65,8 +65,8 @@ Each constant refers to the corresponding registry key in the path HKEY\_LOCAL\_
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

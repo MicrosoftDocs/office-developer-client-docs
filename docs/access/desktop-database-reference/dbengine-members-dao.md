@@ -20,8 +20,8 @@ The DBEngine object is the top level object in the DAO object model.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -84,8 +84,8 @@ The DBEngine object is the top level object in the DAO object model.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
