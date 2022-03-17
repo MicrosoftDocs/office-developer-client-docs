@@ -15,7 +15,7 @@ Reports progress for enumeration and rebasing of appointments.
   
 ## Quick info
 
-|Key |Value |
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |tzmovelib.h  <br/> |
 |Implemented by:  <br/> |MAPI client applications  <br/> |
