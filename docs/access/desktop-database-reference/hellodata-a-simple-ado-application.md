@@ -36,9 +36,9 @@ For a detailed description of the code, see [HelloData Details](hellodata-detail
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

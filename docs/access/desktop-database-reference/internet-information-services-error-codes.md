@@ -17,9 +17,9 @@ The following table lists Microsoft Internet Information Services (IIS) error co
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
