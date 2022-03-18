@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Increments the MAPI subsystem reference count and initializes global data for the MAPI DLL. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

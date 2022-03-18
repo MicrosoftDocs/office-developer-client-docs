@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Manipulates messages and is implemented by the form viewer code (typically a client application) that responds to such manipulation.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Message site objects  <br/> |
@@ -35,7 +35,7 @@ Manipulates messages and is implemented by the form viewer code (typically a cli
    
 ## Vtable order
 
-|||
+|Member | Description |
 |:-----|:-----|
 |[GetSession](imapimessagesite-getsession.md) <br/> |Returns the MAPI session in which the current message was created or opened. |
 |[GetStore](imapimessagesite-getstore.md) <br/> |Returns the message store that contains the current message, if such a store exists. |

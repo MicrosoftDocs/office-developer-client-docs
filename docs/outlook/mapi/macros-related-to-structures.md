@@ -24,7 +24,7 @@ The topics in this section describe the macros related to MAPI structures. For m
   
 The following table lists macros that are related to MAPI structures:
   
-|||
+|Macro |Macro |
 |:-----|:-----|
 |[CbADRLIST](cbadrlist.md) <br/> |[CbFLATENTRY](cbflatentry.md) <br/> |
 |[CbFLATENTRYLIST](cbflatentrylist.md) <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md) <br/> |

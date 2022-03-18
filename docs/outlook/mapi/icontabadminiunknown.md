@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |cabadmin.h  <br/> |
 |Exposed by:  <br/> ||
@@ -35,7 +35,7 @@ Removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 20
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy. |
    

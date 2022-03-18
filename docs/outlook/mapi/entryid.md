@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an entry identifier for a MAPI object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewENTRYID](cbnewentryid.md), [SizedENTRYID](sizedentryid.md) <br/> |

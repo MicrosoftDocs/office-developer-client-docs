@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the type of the remote shared folder. This is a property of a sharing message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingRemoteType  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

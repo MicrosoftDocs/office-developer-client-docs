@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Performs operations on the messages and subfolders in a folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Folder objects  <br/> |
@@ -36,7 +36,7 @@ Performs operations on the messages and subfolders in a folder.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[CreateMessage](imapifolder-createmessage.md) <br/> |Creates a new message. |
 |[CopyMessages](imapifolder-copymessages.md) <br/> |Copies or moves one or more messages. |

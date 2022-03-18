@@ -22,16 +22,16 @@ Recalculates the selection rectangle whenever a control handle is moved.
 
 To get a reference to the UpdateAlignBox cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | UpdateAlignBox  <br/> |
+| **Cell name:**  <br/> | UpdateAlignBox  <br/> |
    
 To get a reference to the UpdateAlignBox cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visUpdateAlignBox** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visUpdateAlignBox** <br/> |
    
 

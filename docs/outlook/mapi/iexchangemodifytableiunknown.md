@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Supports access to Microsoft Exchange Server table objects, specifically system access control list (SACL) table objects and rule table objects on Microsoft Exchange Server folders. This interface resembles the [IMAPITable : IUnknown](imapitableiunknown.md) interface, but it adds support for Microsoft Exchange Server-specific structures that are used to control SACLs and rules. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Exposed by:  <br/> |None  <br/> |
 |Implemented by:  <br/> |Server table objects  <br/> |
@@ -35,7 +35,7 @@ Supports access to Microsoft Exchange Server table objects, specifically system 
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Returns information about the last error that occurred in a table object. |
 |[GetTable](iexchangemodifytable-gettable.md) <br/> |Returns a pointer to an interface for a MAPI table object. |

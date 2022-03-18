@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |State Identifier:  <br/> |**LR_SYNC_DOWNLOAD_HIERARCHY** <br/> |
 |Related Data Structure:  <br/> |**[DNHIER](dnhier.md)** <br/> |

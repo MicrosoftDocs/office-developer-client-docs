@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 The date when the user expects to begin the task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskStartDate  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |
