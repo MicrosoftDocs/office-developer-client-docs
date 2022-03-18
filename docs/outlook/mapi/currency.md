@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a signed 64-bit integer representing a currency value. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

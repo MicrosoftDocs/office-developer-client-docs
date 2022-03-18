@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables form viewers to obtain information about and activate form servers. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Form manager objects  <br/> |
@@ -35,7 +35,7 @@ Enables form viewers to obtain information about and activate form servers.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[LoadForm](imapiformmgr-loadform.md) <br/> |Starts a form to open an existing message. |
 |[ResolveMessageClass](imapiformmgr-resolvemessageclass.md) <br/> |Resolves a message class to its form within a form container, and returns a form information object for that form. |
