@@ -18,9 +18,9 @@ Specifies whether a line separator is appended to the string written to a [Strea
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

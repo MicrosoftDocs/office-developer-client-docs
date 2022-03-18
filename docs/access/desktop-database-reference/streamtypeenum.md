@@ -18,9 +18,9 @@ Specifies the type of data stored in a [Stream](stream-object-ado.md) object.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
