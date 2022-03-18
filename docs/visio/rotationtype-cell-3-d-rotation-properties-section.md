@@ -30,16 +30,16 @@ Determines whether the shape follows a parallel rotation, a perspective rotation
 
 To get a reference to the **RotationType** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |RotationType  <br/> |
+|**Cell name:**  <br/> |RotationType  <br/> |
    
 To get a reference to the **RotationType** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRow3DRotationProperties** <br/> |
-|Cell index:  <br/> |**visRotationType** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRow3DRotationProperties** <br/> |
+|**Cell index:**  <br/> |**visRotationType** <br/> |
    
 
