@@ -17,8 +17,8 @@ The XML persistence format in ADO uses the following four namespaces.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

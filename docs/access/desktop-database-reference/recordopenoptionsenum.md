@@ -18,9 +18,9 @@ Specifies options for opening a [Record](record-object-ado.md). These values may
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
