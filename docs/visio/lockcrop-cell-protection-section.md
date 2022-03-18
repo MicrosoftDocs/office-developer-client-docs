@@ -27,16 +27,16 @@ Locks an object from another program against being cropped with the **Crop** too
 
 To get a reference to the LockCrop cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LockCrop  <br/> |
+| **Cell name:**  <br/> | LockCrop  <br/> |
    
 To get a reference to the LockCrop cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowLock** <br/> |
-| Cell index:  <br/> |**visLockCrop** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowLock** <br/> |
+| **Cell index:**  <br/> |**visLockCrop** <br/> |
    
 

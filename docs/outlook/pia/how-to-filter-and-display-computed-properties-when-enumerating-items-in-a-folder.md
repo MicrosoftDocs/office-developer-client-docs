@@ -23,9 +23,9 @@ The [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) object r
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -68,9 +68,9 @@ The following table lists known invalid properties that cannot be added to the *
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

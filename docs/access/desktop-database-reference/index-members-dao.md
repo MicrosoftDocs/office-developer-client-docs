@@ -20,8 +20,8 @@ Index objects specify the order of records accessed from database tables and whe
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -46,8 +46,8 @@ Index objects specify the order of records accessed from database tables and whe
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

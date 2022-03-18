@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a tabbed page that will be used in a dialog box that is built from a display table. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblPage](sizeddtblpage.md) <br/> |

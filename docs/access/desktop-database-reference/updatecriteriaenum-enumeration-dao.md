@@ -18,9 +18,9 @@ Used with the **UpdateOptions** method to specify how a batch update is construc
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

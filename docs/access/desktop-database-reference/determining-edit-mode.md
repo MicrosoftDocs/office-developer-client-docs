@@ -20,8 +20,8 @@ ADO maintains an editing buffer associated with the current record. The **EditMo
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

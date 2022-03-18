@@ -27,16 +27,16 @@ Switches the display of the selection rectangle on and off for the selected shap
 
 To get a reference to the NoAlignBox cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | NoAlignBox  <br/> |
+| **Cell name:**  <br/> | NoAlignBox  <br/> |
    
 To get a reference to the NoAlignBox cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visNoAlignBox** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visNoAlignBox** <br/> |
    
 

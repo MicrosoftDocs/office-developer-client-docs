@@ -18,9 +18,9 @@ Specifies whether an existing **Record** should be opened or a new **Record** cr
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

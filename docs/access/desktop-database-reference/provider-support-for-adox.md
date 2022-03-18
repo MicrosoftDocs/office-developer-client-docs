@@ -20,8 +20,8 @@ Certain features of ADOX are unsupported, depending upon your OLE DB data provid
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,8 +70,8 @@ Certain features of ADOX are unsupported, depending upon your OLE DB data provid
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -120,8 +120,8 @@ Certain features of ADOX are unsupported, depending upon your OLE DB data provid
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -51,16 +51,16 @@ Specifies how shapes are placed on the page when shapes are laid out in the **Co
    
 To refer to the ShapePlaceStyle cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |ShapePlaceStyle  <br/> |
+|**Cell name:**  <br/> |ShapePlaceStyle  <br/> |
    
 To refer to the ShapePlaceStyle cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowShapeLayout** <br/> |
-|Cell index:  <br/> |**visSLOPlaceStyle** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowShapeLayout** <br/> |
+|**Cell index:**  <br/> |**visSLOPlaceStyle** <br/> |
    
 

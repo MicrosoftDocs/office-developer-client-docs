@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a callback function that can release a table data object when a table view is being released. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Defined function implemented by:  <br/> |Client applications and service providers  <br/> |

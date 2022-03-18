@@ -12,7 +12,7 @@ Specifies the list of persons mentioned in the comments in a drawing.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[PersonsList_Type](personslist_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

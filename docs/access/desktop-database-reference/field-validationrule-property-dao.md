@@ -32,8 +32,8 @@ For a **[Field](field-object-dao.md)** object, use of the **ValidationRule** pro
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

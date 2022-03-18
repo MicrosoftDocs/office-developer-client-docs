@@ -117,8 +117,8 @@ The following constants are available for filtering **Recordsets**.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

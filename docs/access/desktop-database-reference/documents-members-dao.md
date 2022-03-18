@@ -20,8 +20,8 @@ A Documents collection contains all of the Document objects for a specific type 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -42,8 +42,8 @@ A Documents collection contains all of the Document objects for a specific type 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -20,16 +20,16 @@ Determines the transparency of the reflection, as a percentage from 0 to 100%.
 
 To get a reference to the **ReflectionTrans** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ReflectionTrans  <br/> |
+| **Cell name:**  <br/> | ReflectionTrans  <br/> |
    
 To get a reference to the **ReflectionTrans** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Cell index:  <br/> |**visReflectionTrans** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowOtherEffectProperties** <br/> |
+| **Cell index:**  <br/> |**visReflectionTrans** <br/> |
    
 

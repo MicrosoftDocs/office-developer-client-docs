@@ -25,16 +25,16 @@ Sets whether a document stored on a Microsoft SharePoint 2013 server or Microsof
 
 To get a reference to the **NoCoauth** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | NoCoauth  <br/> |
+| **Cell name:**  <br/> | NoCoauth  <br/> |
    
 To get a reference to the **NoCoauth** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowDoc** <br/> |
-| Cell index:  <br/> |**visDocNoCoauth** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowDoc** <br/> |
+| **Cell index:**  <br/> |**visDocNoCoauth** <br/> |
    
 

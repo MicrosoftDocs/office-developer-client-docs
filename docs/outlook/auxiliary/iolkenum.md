@@ -14,7 +14,7 @@ Supports enumerating accounts as [IUnknown](/windows/desktop/api/unknwn/nn-unknw
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Inherits from:  |[IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown.md) |
 |Implemented by: |Outlook  |
@@ -24,7 +24,7 @@ Supports enumerating accounts as [IUnknown](/windows/desktop/api/unknwn/nn-unknw
    
 ## Vtable order
 
-|||
+|Member |Value |
 |:-----|:-----|
 |[GetCount](iolkenum-getcount.md) |Gets the number of accounts in the enumerator. |
 |[Reset](iolkenum-reset.md)  |Resets the enumerator to the beginning. |

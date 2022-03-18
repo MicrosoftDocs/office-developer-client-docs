@@ -24,16 +24,16 @@ This cell corresponds to the horizontal **Minimum spacing** option in the **Rule
   
 To get a reference to the XGridSpacing cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |XGridSpacing  <br/> |
+|**Cell name:**  <br/> |XGridSpacing  <br/> |
    
 To get a reference to the XGridSpacing cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowRulerGrid** <br/> |
-|Cell index:  <br/> |**visXGridSpacing** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowRulerGrid** <br/> |
+|**Cell index:**  <br/> |**visXGridSpacing** <br/> |
    
 

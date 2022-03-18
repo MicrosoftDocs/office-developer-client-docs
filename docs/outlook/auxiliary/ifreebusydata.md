@@ -14,7 +14,7 @@ For a given user, gets and sets a time range and returns an interface for enumer
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Inherits from:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Provided by:  <br/> |Free/busy provider  <br/> |
@@ -22,7 +22,7 @@ For a given user, gets and sets a time range and returns an interface for enumer
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Placeholder1](ifreebusydata-placeholder1.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[EnumBlocks](ifreebusydata-enumblocks.md) <br/> |Gets an interface that enumerates free/busy blocks of data for a user within a specified time range. |

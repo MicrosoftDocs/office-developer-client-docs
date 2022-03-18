@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Converts a binary number into a string representation of a hexadecimal number. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

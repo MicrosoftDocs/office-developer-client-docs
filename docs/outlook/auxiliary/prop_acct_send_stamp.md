@@ -17,7 +17,7 @@ Returns the account "send" stamp.
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x000E  <br/> |
 |Property type:  <br/> |PT_UNICODE  <br/> |

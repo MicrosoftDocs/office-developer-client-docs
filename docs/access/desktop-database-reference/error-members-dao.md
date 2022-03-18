@@ -20,8 +20,8 @@ Error object contains details about data access errors, each of which pertains t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

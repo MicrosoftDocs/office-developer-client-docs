@@ -20,8 +20,8 @@ An Errors collection contains all stored Error objects, each of which pertains t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -42,8 +42,8 @@ An Errors collection contains all stored Error objects, each of which pertains t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

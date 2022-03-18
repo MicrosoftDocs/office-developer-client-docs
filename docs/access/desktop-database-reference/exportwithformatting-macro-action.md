@@ -26,8 +26,8 @@ The **ExportWithFormatting** action has the following arguments.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

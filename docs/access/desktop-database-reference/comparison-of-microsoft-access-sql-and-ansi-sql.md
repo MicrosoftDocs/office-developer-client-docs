@@ -29,9 +29,9 @@ Microsoft Access database engine SQL is generally ANSI-89 Level 1 compliant. How
     
     <table>
     <colgroup>
-    <col style="width: 33%" />
-    <col style="width: 33%" />
-    <col style="width: 33%" />
+    <col />
+    <col />
+    <col />
     </colgroup>
     <thead>
     <tr class="header">

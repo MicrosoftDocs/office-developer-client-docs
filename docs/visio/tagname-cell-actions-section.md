@@ -35,16 +35,16 @@ The TagName cell in the Actions section works together with the TagName cell in 
     
 To get a reference to the TagName cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Actions. *name*  .TagNamewhere Actions.  *name*  is the name of the Actions row  <br/> |
+|**Cell name:**  <br/> |Actions. *name*  .TagNamewhere Actions.  *name*  is the name of the Actions row  <br/> |
    
 To get a reference to the TagName cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionAction** <br/> |
-|Row index:  <br/> |**visRowAction** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visActionTagName** <br/> |
+|**Section index:**  <br/> |**visSectionAction** <br/> |
+|**Row index:**  <br/> |**visRowAction** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visActionTagName** <br/> |
    
 

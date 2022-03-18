@@ -27,16 +27,16 @@ Locks the height of the shape so that its height remains unchanged when the shap
 
 To get a reference to the LockHeight cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LockHeight  <br/> |
+| **Cell name:**  <br/> | LockHeight  <br/> |
    
 To get a reference to the LockHeight cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowLock** <br/> |
-| Cell index:  <br/> |**visLockHeight** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowLock** <br/> |
+| **Cell index:**  <br/> |**visLockHeight** <br/> |
    
 

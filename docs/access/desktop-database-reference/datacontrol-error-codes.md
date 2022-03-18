@@ -18,9 +18,9 @@ The following table lists the [RDS.DataControl](datacontrol-object-rds.md) objec
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

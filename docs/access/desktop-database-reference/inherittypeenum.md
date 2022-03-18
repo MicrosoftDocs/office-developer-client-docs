@@ -18,9 +18,9 @@ Specifies how objects will inherit permissions set with [SetPermissions](setperm
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

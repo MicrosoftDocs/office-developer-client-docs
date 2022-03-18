@@ -29,16 +29,16 @@ In Visio version 5.0 Japanese products, the value of this cell was stored in the
   
 To get a reference to the TextDirection cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | TextDirection  <br/> |
+| **Cell name:**  <br/> | TextDirection  <br/> |
    
 To get a reference to the TextDirection cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowText** <br/> |
-| Cell index:  <br/> |**visTxtBlkDirection** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowText** <br/> |
+| **Cell index:**  <br/> |**visTxtBlkDirection** <br/> |
    
 

@@ -26,16 +26,16 @@ References in the **ReplaceCopyCells** cell override protection set on cells as 
   
 To get a reference to the **ReplaceCopyCells** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ReplaceCopyCells  <br/> |
+| **Cell name:**  <br/> | ReplaceCopyCells  <br/> |
    
 To get a reference to the **ReplaceCopyCells** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowReplaceBehaviors** <br/> |
-| Cell index:  <br/> |**visReplaceCopyCells** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowReplaceBehaviors** <br/> |
+| **Cell index:**  <br/> |**visReplaceCopyCells** <br/> |
    
 

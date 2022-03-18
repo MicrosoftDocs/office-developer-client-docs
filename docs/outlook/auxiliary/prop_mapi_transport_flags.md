@@ -17,7 +17,7 @@ Represents transport settings that Outlook uses to determine the necessary synch
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x2010  <br/> |
 |Property type:  <br/> |PT_BINARY  <br/> |

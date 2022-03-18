@@ -18,7 +18,7 @@ Identifies one or more primary-key columns in the data recordset.
   
 ## Element information
 
-|||
+||Value |
 |:-----|:-----|
 |**Element type** <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |

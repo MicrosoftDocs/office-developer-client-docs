@@ -24,16 +24,16 @@ Represents the  *x*  -coordinate of the shape's pin (center of rotation) in rela
 
 To get a reference to the LocPinX cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LocPinX  <br/> |
+| **Cell name:**  <br/> | LocPinX  <br/> |
    
 To get a reference to the LocPinX cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowXFormOut** <br/> |
-| Cell index:  <br/> |**visXFormLocPinX** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowXFormOut** <br/> |
+| **Cell index:**  <br/> |**visXFormLocPinX** <br/> |
    
 

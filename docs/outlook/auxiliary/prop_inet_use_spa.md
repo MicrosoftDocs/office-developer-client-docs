@@ -15,7 +15,7 @@ Specifies whether to use Secure Password Authentication (SPA) for a general Inte
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0108  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

@@ -37,8 +37,8 @@ The availability of the **OrdinalPosition** property depends on the object that 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

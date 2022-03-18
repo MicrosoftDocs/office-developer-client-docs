@@ -25,8 +25,8 @@ The LEFT JOIN and RIGHT JOIN operations have these parts:
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

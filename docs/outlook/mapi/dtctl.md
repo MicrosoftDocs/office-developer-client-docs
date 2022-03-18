@@ -20,7 +20,7 @@ description: "Describes a control that will be used in a dialog box built from a
   
 Describes a control that will be used in a dialog box built from a display table. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h |
    

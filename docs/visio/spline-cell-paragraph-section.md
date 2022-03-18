@@ -29,16 +29,16 @@ Determines the distance between one line of text and the next, expressed as a pe
 
 To get a reference to the SpLine cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | Para. SpLine [  *i*  ]            where  *i*  = <1>, 2, 3... |
+| **Cell name:**  <br/> | Para. SpLine [  *i*  ]            where  *i*  = <1>, 2, 3... |
    
 To get a reference to the SpLine cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionParagraph** <br/> |
-| Row index:  <br/> |**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2... |
-| Cell index:  <br/> |**visSpaceLine** <br/> |
+| **Section index:**  <br/> |**visSectionParagraph** <br/> |
+| **Row index:**  <br/> |**visRowParagraph** +  *i*            where  *i*  = 0, 1, 2... |
+| **Cell index:**  <br/> |**visSpaceLine** <br/> |
    
 

@@ -19,8 +19,8 @@ A Parameter object represents a value supplied to a query. The parameter is asso
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

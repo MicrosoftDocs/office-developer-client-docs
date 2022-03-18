@@ -29,16 +29,16 @@ As you resize or rotate a two-dimensional (2-D) shape without live dynamics, you
   
 To get a reference to the NoLiveDynamics cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | NoLiveDynamics  <br/> |
+| **Cell name:**  <br/> | NoLiveDynamics  <br/> |
    
 To get a reference to the NoLiveDynamics cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visNoLiveDynamics** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visNoLiveDynamics** <br/> |
    
 

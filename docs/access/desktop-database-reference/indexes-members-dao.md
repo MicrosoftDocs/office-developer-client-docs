@@ -20,8 +20,8 @@ An Indexes collection contains all the stored Index objects of a TableDef object
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -50,8 +50,8 @@ An Indexes collection contains all the stored Index objects of a TableDef object
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

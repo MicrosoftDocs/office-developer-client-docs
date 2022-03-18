@@ -27,16 +27,16 @@ Determines whether to enlarge the page to enclose the drawing after laying out s
 
 To get a reference to the ResizePage cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | ResizePage  <br/> |
+| **Cell name:**  <br/> | ResizePage  <br/> |
    
 To get a reference to the ResizePage cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOResizePage** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOResizePage** <br/> |
    
 

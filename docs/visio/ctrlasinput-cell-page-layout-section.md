@@ -27,16 +27,16 @@ Determines which shape is the parent when using shapes with control handles. Thi
 
 To get a reference to the CtrlAsInput cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | CtrlAsInput  <br/> |
+| **Cell name:**  <br/> | CtrlAsInput  <br/> |
    
 To get a reference to the CtrlAsInput cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOCtrlAsInput** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOCtrlAsInput** <br/> |
    
 

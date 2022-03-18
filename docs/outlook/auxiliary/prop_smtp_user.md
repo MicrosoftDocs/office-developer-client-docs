@@ -15,7 +15,7 @@ Represents the user name for the SMTP account.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0204  <br/> |
 |Property type:  <br/> |PT_UNICODE  <br/> |

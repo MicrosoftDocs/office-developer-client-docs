@@ -18,8 +18,8 @@ Each object can be contained in its corresponding collection. For example, a **T
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

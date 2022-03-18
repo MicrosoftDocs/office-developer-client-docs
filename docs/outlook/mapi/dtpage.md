@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes the dialog box that is built from a display table by the [BuildDisplayTable](builddisplaytable.md) function. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
