@@ -33,8 +33,8 @@ Details for each of the data providers currently available from Microsoft are li
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
