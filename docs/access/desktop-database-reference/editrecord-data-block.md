@@ -25,8 +25,8 @@ The **EditRecord** data block has the following arguments.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -48,7 +48,7 @@ After **EditRecord** statement, you can insert a block of commands that will exe
 
 <table>
 <colgroup>
-<col style="width: 100%" />
+<col />
 </colgroup>
 <tbody>
 <tr class="odd">

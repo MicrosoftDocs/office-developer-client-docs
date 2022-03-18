@@ -33,8 +33,8 @@ The value specifies characteristics of the field represented by the **Field2** o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -79,8 +79,8 @@ For an object not yet appended to a collection, this property is read/write. For
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
