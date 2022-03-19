@@ -20,7 +20,7 @@ With such a proliferation of Office solutions, upgrading versions of Office can 
   
 The Telemetry Log for Office 2013, a tool built upon Excel 2013, helps developers and experienced users diagnose compatibility issues by displaying events that occur within select Office 2013 applications. Using this tool, users can determine potential issues with add-ins that they use in their work environment, giving enterprise decision-makers the information that they need to decide whether to upgrade to Office 2013. The Telemetry Log also gives detailed feedback about specific changes or deprecations in the object models for the Office 2013 applications, which helps developers quickly identify and refactor problematic code or controls. IT professionals can view trends in solution health across multiple clients by using the Telemetry Dashboard for Office 2013, a companion tool to the Telemetry Log.
   
-For more information, see [Deploy Office Telemetry Dashboard](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717).
+For more information, see [Deploy Office Telemetry Dashboard](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard).
   
 ## How the Telemetry Log works
 
@@ -86,7 +86,7 @@ Use the following procedure to display the recorded Office issues in the Telemet
 4. To review information about the computer on which Office 2013 and Telemetry Log are installed, review the information displayed on the **System Info** worksheet.
 
 > [!NOTE]
-> It is not necessary to save the Telemetry Log workbook in Excel 2013 to keep a record of the results, because the information is stored in the local data store (which is separate from the Telemetry Log). However, saving the workbook does not damage the Telemetry Log.
+> It isn't necessary to save the Telemetry Log workbook in Excel 2013 to keep a record of the results, because the information is stored in the local data store (which is separate from the Telemetry Log). However, saving the workbook does not damage the Telemetry Log.
   
 The Telemetry Log displays some simple information about the recorded events. Each record displayed in the Telemetry Log contains a title and lists the severity of the event displayed. For errors, the records also include a description of the error together with steps to address the issue. Keep in mind that not all of the records displayed represent errors caused by Office solutions; the Telemetry Log also shows when solutions and files are loaded or closed successfully.
   
@@ -144,7 +144,7 @@ Use the following table (Table 2) to interpret the records that are displayed in
 |19  <br/> |Add-in encountered runtime error  <br/> |Critical  <br/> |The Office Add-in had a problem that caused it to fail. For more details, look at the Microsoft Office Alerts log using the Windows Event Viewer on the computer that encountered the error. |
 |20  <br/> |Add-in failed to verify licensing  <br/> |Critical  <br/> |The licensing information for the Office Add-in could not be verified and may have expired. For more details, look at the Microsoft Office Alerts log using the Windows Event Viewer on the computer that encountered the error. |
 |21 <br/>|Macro encountered a compile error <br/>|Warning <br/>| The file contains a macro that failed to compile and couldn't be run. For more details, review the error message presented when attempting to compile the macro from the macro editor.<br/>|
-|22 <br/>|Macro encountered a runtime error<br/>| Warning <br/>| The file contains a macro that encountered a runtime error. For more details, review the error message presented when attempting to execute the macro from the macro editor and see the [Visual Basic for Applications Reference](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975%28v=vs.60%29).<br/>|
+|22 <br/>|Macro encountered a runtime error<br/>| Warning <br/>| The file contains a macro that encountered a runtime error. For more details, review the error message presented when attempting to execute the macro from the macro editor and see the [Visual Basic for Applications Trappable Errors Reference](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975(v=vs.60)).<br/>|
 |Various  <br/> |"OM Behavior Change: ..."  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that behaves differently from previous versions of Office.<br/><br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md). |
 |Various  <br/> |"OM Removed: …"  <br/> |Critical  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the object model.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md). |
 |Various  <br/> |"OM Hidden: …"  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been hidden in the object model.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md). |
@@ -160,7 +160,6 @@ The Telemetry Log provides large enterprises, individual users, and developers w
 
 <a name="OEV_Additional"> </a>
 
-- [Office Developer Center](https://msdn.microsoft.com/office/aa905340.aspx)
+- [Office Developer Center](https://developer.microsoft.com/office)
 - [Compatibility issues in Office](compatibility-issues-in-office.md)
-- [Deploy Office Telemetry Dashboard](https://technet.microsoft.com/library/f69cde72-689d-421f-99b8-c51676c77717)
-- [Office Developer Center](https://msdn.microsoft.com/office/aa905340)
+- [Deploy Office Telemetry Dashboard](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard)
