@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to address book containers. MAPI and client applications call the methods of **IABContainer** to perform name resolution and to create, copy, and delete recipients. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Address book container objects  <br/> |
@@ -32,7 +32,7 @@ Provides access to address book containers. MAPI and client applications call th
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[CreateEntry](iabcontainer-createentry.md) <br/> |Creates a new entry, which can be a messaging user, a distribution list, or another container. |
 |[CopyEntries](iabcontainer-copyentries.md) <br/> |Copies one or more entries, typically messaging users or distribution lists. |

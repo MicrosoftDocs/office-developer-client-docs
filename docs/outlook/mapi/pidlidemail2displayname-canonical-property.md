@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the user-readable display name for the second email address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidEmail2DisplayName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Uniquely identifies a connection between an advise sink, an advise source, and MAPI.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
    
