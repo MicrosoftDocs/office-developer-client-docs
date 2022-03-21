@@ -24,13 +24,13 @@ description: "Last modified: March 09, 2015"
   
 Allows Microsoft Outlook 2010 and Microsoft Outlook 2013 solutions to find out if an attachment is considered unsafe and blocked for viewing and indexing.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Interface identifier:  <br/> |IID_IAttachmentSecurity  <br/> |
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Checks if a specified attachment is blocked by Outlook 2010 or Outlook 2013 for viewing and indexing. |
    

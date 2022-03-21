@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's List-Unsubscribe header field.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A, PR_LIST_UNSUBSCRIBE_W  <br/> |
 |Identifier:  <br/> |0x1045  <br/> |

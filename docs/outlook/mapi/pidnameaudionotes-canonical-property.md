@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the textual notes that are attached to a voice message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |UMAudioNotes  <br/> |
 |Property set:  <br/> |PSETID_UnifiedMessaging  <br/> |

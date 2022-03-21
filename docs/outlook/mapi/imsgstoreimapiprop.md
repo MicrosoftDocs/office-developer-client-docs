@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to message store information and to messages and folders.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Message store object  <br/> |
@@ -36,7 +36,7 @@ Provides access to message store information and to messages and folders.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Advise](imsgstore-advise.md) <br/> |Registers to receive notification of specified events that affect the message store. |
 |[Unadvise](imsgstore-unadvise.md) <br/> |Cancels the sending of notifications previously set up with a call to the **IMsgStore::Advise** method. |

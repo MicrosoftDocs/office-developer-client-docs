@@ -18,7 +18,7 @@ Specifies the weather conditions of a location.
   
 ## Type information
 
-|||
+||Value |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Schema file** <br/> |getweatherinfo.xsd  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the mail user's other country/region.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OTHER_ADDRESS_COUNTRY, PR_OTHER_ADDRESS_COUNTRY_A, PR_OTHER_ADDRESS_COUNTRY_W  <br/> |
 |Identifier:  <br/> |0x3A60  <br/> |

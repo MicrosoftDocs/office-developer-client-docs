@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether to encode an item with Transport Neutral Encapsulation Format (TNEF). 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFShouldTNEF  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

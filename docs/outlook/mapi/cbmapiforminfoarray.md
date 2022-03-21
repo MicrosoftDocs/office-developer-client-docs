@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Computes the number of bytes in an existing [SMAPIFormInfoArray](smapiforminfoarray.md) structure that contains a specified number of form information objects. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related structure:  <br/> |**SMAPIFormInfoArray** <br/> |

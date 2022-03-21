@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the progress the user has made on a task. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidPercentComplete  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |
