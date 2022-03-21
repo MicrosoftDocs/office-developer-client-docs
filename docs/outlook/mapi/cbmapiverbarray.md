@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Computes the number of bytes in an existing [SMAPIVerbArray](smapiverbarray.md) structure that contains a specified number of [SMAPIVerb](smapiverb.md) structures. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related structure:  <br/> |**SMAPIVerbArray** <br/> |

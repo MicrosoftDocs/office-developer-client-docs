@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains user-customization details for displaying a contact as a business card.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidBCDisplayDefinition  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

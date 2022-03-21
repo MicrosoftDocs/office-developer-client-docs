@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the names of the companies that are associated with an item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidCompanies  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
