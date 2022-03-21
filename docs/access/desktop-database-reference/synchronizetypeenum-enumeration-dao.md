@@ -18,9 +18,9 @@ Used with the **Synchronize** method to determine the type of synchronization to
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

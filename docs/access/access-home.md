@@ -28,10 +28,10 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Access video training](https://support.microsoft.com/office/access-video-training-a5ffb1ef-4cc4-4d79-a862-e2dda6ef38e6?ui=en-us&rs=en-us&ad=us)
 - [Access 2013](/sharepoint/dev/general-development/develop-access-web-apps.md)
 - [Access 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff604965(v=office.14)) 
-- [Office VBA Object library reference](/office/vba/api/overview/library-reference.md)  
+- [Office VBA Object library reference](/office/vba/api/overview/library-reference/reference-object-library-reference-for-office.md)  
 - [Office VBA language reference](/office/vba/api/overview/language-reference.md) 
 - [Open XML SDK](/office/open-xml/open-xml-sdk.md) 
-- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true )
   
 ### Support
   
@@ -39,5 +39,3 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Ask a question about Access development on Microsoft Q&A](https://docs.microsoft.com/answers/topics/office-access-dev.html) 
 - [Suggest an idea](https://techcommunity.microsoft.com/t5/microsoft-365-developer-platform/idb-p/Microsoft365DeveloperPlatform)
 - [Access development on Stack Overflow](https://stackoverflow.com/questions/tagged/ms-access)
-  
-

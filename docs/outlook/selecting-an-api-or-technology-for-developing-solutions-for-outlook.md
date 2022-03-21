@@ -276,7 +276,7 @@ For more information about scenarios that the object model and PIA support, see 
 In general, use the object model or the PIA if your solution customizes the Outlook user interface or relies on Outlook's business logic. Following are the major baseline scenarios for which Outlook solutions use the object model or the PIA. 
   
 - [Customize the Outlook user interface](#OLSelectAPI_CustomizeTheOutlookInterface)
-- [Add, remove, read, write, filter, search, or sort Outlook items](/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects.md)
+- [Add, remove, read, write, filter, search, or sort Outlook items](/office/vba/outlook/how-to/items-folders-and-stores/outlook-item-objects.md)
 - [Customize item properties, fields, and forms](#OLSelectAPI_ItemPropFieldsForms)
 - [Process Outlook events such as switching folders or opening an item](#OLSelectAPI_Events)
 - [Automate Outlook and integrate with other Office applications](#OLSelectAPI_AutomateOutlook)
@@ -290,7 +290,7 @@ In general, use the object model or the PIA if your solution customizes the Outl
 
 ### Scenarios supported by the object model or PIA since Outlook 2007
 
-In addition to the baseline scenarios, if your Outlook solution supports any of the scenarios shown in the following list, and your solution is intended to run on Outlook 2007 or a later version but not earlier versions, you can use the object model or the PIA as well. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md) interface in the Visual Studio automation object model, and the [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility.md) interface in the Office object model, which you can integrate with the Outlook object model). 
+In addition to the baseline scenarios, if your Outlook solution supports any of the scenarios shown in the following list, and your solution is intended to run on Outlook 2007 or a later version but not earlier versions, you can use the object model or the PIA as well. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md&preserve-view=true) interface in the Visual Studio automation object model, and the [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility.md) interface in the Office object model, which you can integrate with the Outlook object model). 
 
 - [Customize the Outlook UI: Office Fluent Ribbon, Navigation pane, Task pane](#OLSelectAPI_CustomizeTheOutlookInterface)
 - [Customize forms as form regions and deploy them by add-ins](#OLSelectAPI_CustomFormRegions)

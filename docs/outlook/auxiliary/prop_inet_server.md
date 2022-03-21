@@ -15,7 +15,7 @@ Represents the server name of a general Internet mailbox.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0100  <br/> |
 |Property type:  <br/> |PT_UNICODE  <br/> |

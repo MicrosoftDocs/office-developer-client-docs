@@ -23,8 +23,8 @@ When you create a new recurring appointment, the recurrence pattern is based on 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

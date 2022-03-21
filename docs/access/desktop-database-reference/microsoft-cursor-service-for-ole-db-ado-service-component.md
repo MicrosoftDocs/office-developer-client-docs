@@ -53,8 +53,8 @@ If your application requires the Cursor Service, but you need to set dynamic pro
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -139,8 +139,8 @@ The Cursor Service for OLE DB also affects the behavior of certain built-in prop
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -18,9 +18,9 @@ Used with the **RecordStatus** property to indicate the update status of the cur
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

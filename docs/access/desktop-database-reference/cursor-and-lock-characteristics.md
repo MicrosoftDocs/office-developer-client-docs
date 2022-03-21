@@ -17,9 +17,9 @@ While the characteristics of a cursor depend upon capabilities of the provider, 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

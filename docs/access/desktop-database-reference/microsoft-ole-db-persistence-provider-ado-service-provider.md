@@ -33,8 +33,8 @@ The following errors issued by this provider can be detected in your application
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -27,16 +27,16 @@ Switches the display of control handles on and off for the selected shape.
 
 To get a reference to the NoCtlHandles cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | NoCtlHandles  <br/> |
+| **Cell name:**  <br/> | NoCtlHandles  <br/> |
    
 To get a reference to the NoCtlHandles cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowMisc** <br/> |
-| Cell index:  <br/> |**visNoCtlHandles** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowMisc** <br/> |
+| **Cell index:**  <br/> |**visNoCtlHandles** <br/> |
    
 

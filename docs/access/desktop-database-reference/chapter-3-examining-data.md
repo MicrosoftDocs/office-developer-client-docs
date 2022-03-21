@@ -55,9 +55,9 @@ This SQL query returns a **Recordset** with five rows (records) and three column
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

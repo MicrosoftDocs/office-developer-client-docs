@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a multi-valued list that will be displayed in a dialog box that is built from a display table.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Compares two address book **entryIDs** safely in a Multiple Exchange profile. This function is a replacement function for [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |abhelp.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -17,7 +17,7 @@ Represents the Entry ID of the default delivery store for the account.
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0018  <br/> |
 |Property type:  <br/> |PT_BINARY  <br/> |

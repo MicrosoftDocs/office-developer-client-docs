@@ -37,7 +37,7 @@ The call to **IMAPIProp::OpenProperty** involves accessing the hierarchy table b
   
 The following properties make up the required column set in a hierarchy table:
   
-|||
+||Value |
 |:-----|:-----|
 |**PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md))  <br/> |**PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |
@@ -72,7 +72,7 @@ Message-store hierarchy tables include these properties in their required column
 
 Address book providers must support the following **IMAPITable** methods in their hierarchy table implementations because they are required by the MAPI integrated address book:
   
-|||
+|Method |Method |
 |:-----|:-----|
 |[IMAPITable::QueryColumns](imapitable-querycolumns.md) <br/> |[IMAPITable::QueryPosition](imapitable-queryposition.md) <br/> |
 |[IMAPITable::SeekRow](imapitable-seekrow.md) <br/> |[IMAPITable::SeekRowApprox](imapitable-seekrowapprox.md) <br/> |

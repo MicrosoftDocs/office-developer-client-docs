@@ -28,8 +28,8 @@ The return value is a **Long** value or constant that can be one of the followin
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

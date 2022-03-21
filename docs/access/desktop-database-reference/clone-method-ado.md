@@ -53,8 +53,8 @@ The following table provided a full listing of all **Recordset** events and indi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

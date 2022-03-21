@@ -1,7 +1,7 @@
 ---
 title: "Integrating manageability applications with Microsoft 365 Apps Click-to-Run installer"
 manager: lindalu
-ms.date: 09/14/2021
+ms.date: 03/22/2022
 ms.audience: ITPro
 ms.localizationpriority: medium
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
@@ -112,7 +112,7 @@ In the following API reference documentation:
 
 - The parameters are not case-sensitive.
 
-- For more information, see [About Office Click-to-Run installations and about related anti-malware applications](/office/troubleshoot/office-suite-issues/office-click-to-run-installation.md).
+- For more information, see [Information about Office Click-to-Run installations and about related anti-malware applications](/office/troubleshoot/office-suite-issues/office-click-to-run-installation.md).
 
 - Summary of IUpdateNotify2 interface is now included.
 
@@ -478,7 +478,7 @@ Optional query parameters
 
 |**Name**|**Description**|
 |:-----|:-----|
-| channel <br/>| Specifies the channel name  <br/> Optional – default to ‘SemiAnnual’ <br/> Supported values <https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element> |
+| channel <br/>| Specifies the channel name  <br/> Optional – default to ‘SemiAnnual’ <br/> Supported values </DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element.md> |
 | version <br/>| Specifies the update version <br/> Optional – defaults to the latest version available for the specified channel |
 | arch <br/>| Specifies client architecture <br/> Optional – defaults to ‘x64’ <br/> Supported values: x64, x86 |
 | lid <br/>| Specifies the language files to include <br/> Optional – defaults to none <br/> To specify multiple languages, include an lid query parameter for each language <br/> Use the language identifier format, ex. ‘en-us’, ‘fr-fr’ |

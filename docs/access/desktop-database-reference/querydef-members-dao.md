@@ -20,8 +20,8 @@ A QueryDef object is a stored definition of a query in a Microsoft Access databa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -59,8 +59,8 @@ A QueryDef object is a stored definition of a query in a Microsoft Access databa
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

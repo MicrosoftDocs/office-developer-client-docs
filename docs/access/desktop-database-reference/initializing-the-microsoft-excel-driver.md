@@ -39,8 +39,8 @@ The Microsoft Access database engine uses the Excel folder entries as follows.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -77,9 +77,9 @@ The **Access Connectivity Engine\\Engines\\Excel 8.0** folder contains the follo
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -14,7 +14,7 @@ Provides extra information about the last error.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Inherits from:   |[IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown.md) |
 |Provided by:   |Client  |
@@ -22,7 +22,7 @@ Provides extra information about the last error.
    
 ## Vtable order
 
-|||
+|Member | Description |
 |:-----|:-----|
 |[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Gets a message string for the specified error. |
    

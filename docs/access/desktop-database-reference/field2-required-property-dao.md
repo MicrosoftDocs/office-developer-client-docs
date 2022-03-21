@@ -31,8 +31,8 @@ The availability of the **Required** property depends on the object that contain
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

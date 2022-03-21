@@ -17,7 +17,7 @@ Represents an [ACCT_BIN](acct_bin.md) structure that contains the UID of an Exch
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x2009  <br/> |
 |Property type:  <br/> |PT_BINARY  <br/> |

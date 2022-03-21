@@ -20,7 +20,7 @@ description: "Describes a combo box control that will be used in a dialog box bu
   
 Describes a combo box control that will be used in a dialog box built from a display table.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  |Mapidefs.h |
 |Related macro: [SizedDtblComboBox](sizeddtblcombobox.md) |

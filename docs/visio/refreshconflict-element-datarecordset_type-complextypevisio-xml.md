@@ -18,7 +18,7 @@ Indicates a row in the data recordset linked to a shape that is in conflict afte
   
 ## Element information
 
-|||
+| |Value |
 |:-----|:-----|
 |**Element type** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
