@@ -6,6 +6,7 @@ ms.topic: overview
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Excel."
 ms.localizationpriority: high
+adobe-target: true
 ---
 
 # Develop solutions and customize Excel
@@ -36,7 +37,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference.md)  
 - [Office VBA language reference](/office/vba/api/overview/language-reference.md)  
 - [Open XML SDK](/office/open-xml/open-xml-sdk.md)  
-- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true)
   
 ### Support
   

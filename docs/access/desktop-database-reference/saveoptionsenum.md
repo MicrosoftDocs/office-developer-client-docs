@@ -18,9 +18,9 @@ Specifies whether a file should be created or overwritten when saving from a [St
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
