@@ -81,7 +81,7 @@ Provides implementations for tasks that are typically performed by service provi
 
 Address books, message stores, transport providers, and message services each have their own support objects. Service providers and message services call the methods in their support objects as part of their implementations of other interface methods. Each different support object has complete implementations of the methods that apply to its caller; the methods that are not applicable return MAPI_E_NO_SUPPORT. Address book provider support objects have implementations for the following methods:
   
-|Method |Method |Method |
+|Method |... |... |
 |:-----|:-----|:-----|
 |**Address** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**Details** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
@@ -94,7 +94,7 @@ Address books, message stores, transport providers, and message services each ha
    
 Message store provider support objects have implementations for the following methods:
   
-|Method |Method |Method |
+|Method |... |... |
 |:-----|:-----|:-----|
 |**CompareEntryIDs** <br/> |**CompleteMsg** <br/> |**CopyFolder** <br/> |
 |**CopyMessages** <br/> |**CreateOneOff** <br/> |**DoCopyProps** <br/> |
@@ -110,7 +110,7 @@ Message store provider support objects have implementations for the following me
    
 Transport provider support objects have implementations for the following methods:
   
-|Method |Method |Method |
+|Method |... |... |
 |:-----|:-----|:-----|
 |**DoConfigPropsheet** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**GetMemAllocRoutines** <br/> |**GetSvcConfigSupportObj** <br/> |**GetLastError** <br/> |
@@ -122,7 +122,7 @@ Transport provider support objects have implementations for the following method
    
 Message service support objects have implementations for the following methods:
   
-|Method |Method |
+|Method |... |
 |:-----|:-----|
 |**DoConfigPropsheet** <br/> |**GetLastError** <br/> |
 |**GetMemAllocRoutines** <br/> |**GetSvcConfigSupportObj** <br/> |
