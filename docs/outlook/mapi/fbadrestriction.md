@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Validates a restriction used to limit a table view. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapival.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

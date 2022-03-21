@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the task was originally created by the current user or user agent instead of by processing a task request.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskFCreator  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

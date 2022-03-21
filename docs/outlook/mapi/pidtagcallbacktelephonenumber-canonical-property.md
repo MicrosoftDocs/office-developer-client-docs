@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a telephone number that the message recipient can use to reach the sender. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CALLBACK_TELEPHONE_NUMBER, PR_CALLBACK_TELEPHONE_NUMBER_A, PR_CALLBACK_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A02  <br/> |

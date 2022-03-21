@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
   
 Do not use this function.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |abhelp.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 object identifier specifying the application that supplied an attachment. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_TAG  <br/> |
 |Identifier:  <br/> |0x370A  <br/> |

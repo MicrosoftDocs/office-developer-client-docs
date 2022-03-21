@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the date and time when an appointment begins.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptStartWhole  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

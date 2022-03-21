@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the list of EntryIds of the objects that correspond to the members of the personal distribution list.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidDLMembers  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

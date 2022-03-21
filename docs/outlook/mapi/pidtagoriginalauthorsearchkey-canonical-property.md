@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the search key of the author of the first version of a message, that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_AUTHOR_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x0056  <br/> |

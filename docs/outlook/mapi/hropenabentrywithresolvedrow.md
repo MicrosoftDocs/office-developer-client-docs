@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
   
 Performs the same function as [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) except that it automatically gets the **emsabpUID** from the resolved row and opens the **entryID**.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |abhelp.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

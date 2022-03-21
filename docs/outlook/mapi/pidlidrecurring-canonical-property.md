@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether an appointment message is recurrent.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRecurring  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

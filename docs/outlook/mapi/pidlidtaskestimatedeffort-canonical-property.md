@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the amount of time, in minutes, that the user expects to perform a task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskEstimatedEffort  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

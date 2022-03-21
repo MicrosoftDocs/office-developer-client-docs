@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a property of type PT_BINARY.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

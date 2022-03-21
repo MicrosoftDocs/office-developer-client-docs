@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name that the recipient prefers to be called.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PREFERRED_BY_NAME, PR_PREFERRED_BY_NAME_A, PR_PREFERRED_BY_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A47  <br/> |

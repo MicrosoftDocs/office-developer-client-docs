@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the entry ID of the remote folder being shared. This is a property of a sharing message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingRemoteUid  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

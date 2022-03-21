@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates a proposed end time of a meeting.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_PROPOSEDENDTIME  <br/> |
 |Identifier:  <br/> |0x5FE4  <br/> |

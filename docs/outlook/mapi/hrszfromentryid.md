@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Encodes an entry identifier into an ASCII string. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

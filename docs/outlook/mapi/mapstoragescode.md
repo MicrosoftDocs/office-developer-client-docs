@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps an SCODE return value from an OLE storage object to an HRESULT type. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

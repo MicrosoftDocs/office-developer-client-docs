@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the image to use on a business card.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidBCCardPicture  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

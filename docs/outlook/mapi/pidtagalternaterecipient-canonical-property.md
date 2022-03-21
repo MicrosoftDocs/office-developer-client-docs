@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of entry identifiers for alternate recipients designated by the original recipient. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ALTERNATE_RECIPIENT  <br/> |
 |Identifier:  <br/> |0x3A01  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Sets the MVI_FLAG for a specified property. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |[SPropValue](spropvalue.md) <br/> |

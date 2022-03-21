@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a host map of available forms. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_HOST_MAP  <br/> |
 |Identifier:  <br/> |0x3306  <br/> |

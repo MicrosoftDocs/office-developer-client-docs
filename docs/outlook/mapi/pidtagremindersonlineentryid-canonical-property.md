@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the **EntryID** of the reminders folder. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REM_ONLINE_ENTRYID  <br/> |
 |Identifier:  <br/> |0x36D5  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains extended folder flags that apply to the search folder container for the search folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WB_SF_EFP_FLAGS  <br/> |
 |Identifier:  <br/> |0x6848  <br/> |

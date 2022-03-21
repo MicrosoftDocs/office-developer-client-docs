@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the primary telephone number of the recipient's place of business. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_BUSINESS_TELEPHONE_NUMBER, PR_BUSINESS_TELEPHONE_NUMBER_A, PR_BUSINESS_TELEPHONE_NUMBER_W, PR_OFFICE_TELEPHONE_NUMBER, PR_OFFICE_TELEPHONE_NUMBER_A, PR_OFFICE_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A08  <br/> |

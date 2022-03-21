@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a dynamically generated GUID used to determine an account when you are using multiple Microsoft Exchange Server accounts.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EMSMDB_SECTION_UID  <br/> |
 |Identifier:  <br/> |0x3d150102  <br/> |

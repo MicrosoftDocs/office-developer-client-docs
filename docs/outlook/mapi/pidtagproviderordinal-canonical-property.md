@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the zero-based index of a service provider's position in the provider table.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROVIDER_ORDINAL  <br/> |
 |Identifier:  <br/> |0x300D  <br/> |

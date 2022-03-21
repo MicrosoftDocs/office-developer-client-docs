@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the primary telephone number of the recipient's home. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME_TELEPHONE_NUMBER, PR_HOME_TELEPHONE_NUMBER_A, PR_HOME_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A09  <br/> |

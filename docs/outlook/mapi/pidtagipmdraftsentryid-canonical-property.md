@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the **EntryID** of the Outlook Drafts folder. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IPM_DRAFTS_ENTRYID  <br/> |
 |Identifier:  <br/> |0x36D7  <br/> |

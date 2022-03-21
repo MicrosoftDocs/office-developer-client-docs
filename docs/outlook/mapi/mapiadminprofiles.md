@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a profile administration object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

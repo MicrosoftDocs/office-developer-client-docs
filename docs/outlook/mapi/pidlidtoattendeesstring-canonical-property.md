@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of all the sendable attendees who are also required attendees.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidToAttendeesString  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

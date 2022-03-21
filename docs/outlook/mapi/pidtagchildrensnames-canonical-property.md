@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of names of children
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CHILDRENS_NAMES, PR_CHILDRENS_NAMES_A, PR_CHILDRENS_NAMES_W  <br/> |
 |Identifier:  <br/> |0x3A58  <br/> |

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named [SPropTagArray](sproptagarray.md) structure that includes a specified number of property tags. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SPropTagArray** <br/> |

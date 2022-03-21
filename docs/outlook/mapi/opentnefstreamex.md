@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a Transport-Neutral Encapsulation Format (TNEF) object that can be used to encode or decode a message object into a TNEF data stream for use by transports or gateways and message stores. This is the entry point for TNEF access. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Tnef.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

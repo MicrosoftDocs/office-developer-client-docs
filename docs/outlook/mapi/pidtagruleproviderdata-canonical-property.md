@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 An opaque property that the client sets for the exclusive use of the client. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_PROVIDER_DATA  <br/> |
 |Identifier:  <br/> |0x6684  <br/> |

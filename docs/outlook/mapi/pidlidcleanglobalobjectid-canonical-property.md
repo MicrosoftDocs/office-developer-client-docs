@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the clean global **ObjectID**.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidCleanGlobalObjId  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

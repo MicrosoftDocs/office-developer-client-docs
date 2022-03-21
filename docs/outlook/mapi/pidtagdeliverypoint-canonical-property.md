@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the nature of the functional entity by means of which a message was or would have been delivered to the recipient. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DELIVERY_POINT  <br/> |
 |Identifier:  <br/> |0x0C07  <br/> |

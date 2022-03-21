@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the **EntryId** of the object that corresponds to the first email address. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidEmail1OriginalEntryID  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

@@ -26,7 +26,7 @@ Hides the option to send meeting updates to only added or deleted attendees.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Exposed on:  <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) object  <br/> |
 |Created by:  <br/> |Store provider  <br/> |
@@ -40,7 +40,7 @@ To provide any of the store functionality, the store provider must implement [IM
   
 To retrieve the value of this property, the client should first use [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) to obtain the property tag, and then specify this property tag in [IMAPIProp::GetProps](imapiprop-getprops.md) to get the value. When calling [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), specify the following values for the [MAPINAMEID](mapinameid.md) structure pointed at by the input parameter  _lppPropNames_:
   
-|||
+|Property |Value |
 |:-----|:-----|
 |lpGuid:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |

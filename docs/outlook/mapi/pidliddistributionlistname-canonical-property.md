@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the name of the personal distribution list.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidDLName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the telephone number for the contact's text telephone (TTY) or telecommunication device for the deaf (TDD).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A4B  <br/> |

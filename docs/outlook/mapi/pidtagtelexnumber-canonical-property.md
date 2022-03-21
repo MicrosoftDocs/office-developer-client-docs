@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's telex number.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TELEX_NUMBER, PR_TELEX_NUMBER_A, PR_TELEX_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A2C  <br/> |

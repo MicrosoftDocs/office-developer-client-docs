@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the message body text in HTML format.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HTML  <br/> |
 |Identifier:  <br/> |0x1013  <br/> |

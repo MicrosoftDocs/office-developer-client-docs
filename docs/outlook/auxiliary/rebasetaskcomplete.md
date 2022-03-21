@@ -15,7 +15,7 @@ Reports completion for rebasing of appointments.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |tzmovelib.h  <br/> |
 |Implemented by:  <br/> |MAPI client applications  <br/> |

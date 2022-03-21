@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the identifier of a table member that has the described rights on a Microsoft Exchange Server folder or mailbox.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MEMBER_ID  <br/> |
 |Identifier:  <br/> |0x6671  <br/> |

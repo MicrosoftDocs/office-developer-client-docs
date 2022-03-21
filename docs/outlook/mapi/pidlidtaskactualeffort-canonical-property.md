@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the number of minutes that the user performed a task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskActualEffort  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |
