@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the address type of the messaging user on whose behalf the original message was sent.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE, PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_A, PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W  <br/> |
 |Identifier:  <br/> |0x0068  <br/> |

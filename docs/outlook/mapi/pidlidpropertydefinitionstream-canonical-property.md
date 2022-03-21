@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents definitions of user-defined fields and data-binding settings of built-in fields of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidPropDefStream  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

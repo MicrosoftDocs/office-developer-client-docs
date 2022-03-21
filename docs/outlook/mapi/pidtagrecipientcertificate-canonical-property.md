@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a message recipient's ASN.1 certificate for use in a report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_CERTIFICATE  <br/> |
 |Identifier:  <br/> |0x0C13  <br/> |

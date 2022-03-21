@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a string value for use in a property restriction on an address book container contents table. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ANR, PR_ANR_A, PR_ANR_W  <br/> |
 |Identifier:  <br/> |0x360C  <br/> |

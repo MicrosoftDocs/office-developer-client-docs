@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables a MAPI client to carry out fast shutdown of the client process. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |[IMAPISession](imapisessioniunknown.md) object  <br/> |
@@ -35,7 +35,7 @@ Enables a MAPI client to carry out fast shutdown of the client process.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) <br/> |Queries the MAPI subsystem for fast shutdown support that is provided by loaded MAPI providers. |
 |[NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) <br/> |Indicates the intention of the MAPI client to proceed with shut down. |

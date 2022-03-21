@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the email address of the originally intended recipient of an autoforwarded message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x007C  <br/> |

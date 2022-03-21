@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables form viewers to work with form view contexts and form notification, to perform form verbs, and to shut down forms.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Form objects  <br/> |
@@ -35,7 +35,7 @@ Enables form viewers to work with form view contexts and form notification, to p
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[SetViewContext](imapiform-setviewcontext.md) <br/> |Establishes a view context for the form. |
 |[GetViewContext](imapiform-getviewcontext.md) <br/> |Returns the current view context for the form. |
