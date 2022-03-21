@@ -24,8 +24,8 @@ The **SetField** action has the arguments listed in the following table.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

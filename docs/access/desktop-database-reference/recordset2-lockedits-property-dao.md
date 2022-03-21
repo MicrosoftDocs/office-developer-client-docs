@@ -27,8 +27,8 @@ The setting or return value indicates the type of locking, as specified in the f
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
