@@ -31,7 +31,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference/reference-object-library-reference-for-office.md)  
 - [Office VBA language reference](/office/vba/api/overview/language-reference.md) 
 - [Open XML SDK](/office/open-xml/open-xml-sdk.md) 
-- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true )
   
 ### Support
   
