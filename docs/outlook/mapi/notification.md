@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains information about an event that has occurred and the data that has been affected by the event.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

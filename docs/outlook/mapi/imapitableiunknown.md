@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides a read-only view of a table. **IMAPITable** is used by clients and service providers to manipulate the way a table appears. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Table objects  <br/> |
@@ -35,7 +35,7 @@ Provides a read-only view of a table. **IMAPITable** is used by clients and serv
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](imapitable-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure containing information about the previous error on the table. |
 |[Advise](imapitable-advise.md) <br/> |Registers to receive notification of specified events affecting the table. |

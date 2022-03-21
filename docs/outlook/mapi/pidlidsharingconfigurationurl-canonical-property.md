@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Designates as a property of a sharing message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingConfigUrl  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

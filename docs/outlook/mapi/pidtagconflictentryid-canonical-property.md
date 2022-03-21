@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the EntryID of the conflict resolution message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONFLICT_ENTRYID  <br/> |
 |Identifier:  <br/> |0x3FF0  <br/> |

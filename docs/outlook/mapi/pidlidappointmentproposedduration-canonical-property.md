@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the proposed value for the **dispidApptDuration** ([PidLidAppointmentDuration](pidlidappointmentduration-canonical-property.md)) property for a counter proposal.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptProposedDuration  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |
