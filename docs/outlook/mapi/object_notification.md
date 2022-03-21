@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: de3a2297-e0cc-427b-a978-52bade4d9bce
-description: "Last modified: March 09, 2015"
+description: "Contains information about an object that has undergone a change, such as being copied or modified."
 ---
 
 # OBJECT_NOTIFICATION

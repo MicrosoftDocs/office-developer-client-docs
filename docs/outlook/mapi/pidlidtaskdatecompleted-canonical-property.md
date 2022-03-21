@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ae384529-55e2-4da1-9a41-acc292591a7c
-description: "Last modified: March 09, 2015"
+description: "Specifies the date when the user completes the task."
 ---
 
 # PidLidTaskDateCompleted Canonical Property

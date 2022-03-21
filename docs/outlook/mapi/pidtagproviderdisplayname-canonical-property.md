@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6aaf4b2c-2e78-47f0-a2df-53738c36cbb9
-description: "Last modified: March 09, 2015"
+description: "Contains the display name of a provider."
 ---
 
 # PidTagProviderDisplayName Canonical Property

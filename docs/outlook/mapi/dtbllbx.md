@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
-description: "Last modified: March 09, 2015"
+description: "Describes a list that will be used in a dialog box that is built from a display table."
 ---
 
 # DTBLLBX

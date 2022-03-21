@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb671826-8c60-4c30-9a9e-ad3184e8a50f
-description: "Last modified: March 09, 2015"
+description: "Contains the name of the task owner."
 ---
 
 # PidLidTaskOwner Canonical Property

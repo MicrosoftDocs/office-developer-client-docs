@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4071307-6205-4079-ab65-7499d14f145c
-description: "Last modified: March 09, 2015"
+description: "Represents the last time the folder was accessed."
 ---
 
 # PidTagSearchFolderLastUsed Canonical Property

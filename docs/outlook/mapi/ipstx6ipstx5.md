@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
-description: "Last modified: March 09, 2015"
+description: "This interface provides helper functionality when performing replication through the IOSTX interface."
 ---
 
 # IPSTX6 : IPSTX5

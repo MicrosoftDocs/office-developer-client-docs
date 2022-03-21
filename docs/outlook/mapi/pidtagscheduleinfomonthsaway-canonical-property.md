@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 282a8ba1-b786-4d17-b6c5-17e935e59a6b
-description: "Last modified: March 09, 2015"
+description: "Contains a list of the months for which free/busy data of type out of office (OOF) is present in the free/busy message."
 ---
 
 # PidTagScheduleInfoMonthsAway Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 21d9fbcc-67b3-4475-b5c1-ff6af92404da
-description: "Last modified: March 09, 2015"
+description: "Indicates whether the task assignee has been requested to send a task update when the assigned task changes."
 ---
 
 # PidLidTaskUpdates Canonical Property

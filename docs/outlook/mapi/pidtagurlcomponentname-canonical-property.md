@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a21906f9-5408-41ba-a89b-273ab60eeef3
-description: "Last modified: March 09, 2015"
+description: "The URL component name for a message."
 ---
 
 # PidTagUrlComponentName Canonical Property

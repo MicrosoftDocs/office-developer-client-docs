@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of flags indicating details about a message submission."
 ---
 
 # PidTagSubmitFlags Canonical Property

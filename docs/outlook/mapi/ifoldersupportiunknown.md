@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a4b03a66-cf6d-cd20-f1df-b247d3ee87aa
-description: "Last modified: March 09, 2015"
+description: "Provides information about a folder's support for sharing."
 ---
 
 # IFolderSupport : IUnknown

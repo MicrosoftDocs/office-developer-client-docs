@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
-description: "Last modified: March 09, 2015"
+description: "Contains the password of the personal storage table (.pst file) being configured."
 ---
 
 # PidTagPstPasswordSzOld Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 77442ad2-7f89-4364-8327-5f95c59b720d
-description: "Last modified: March 09, 2015"
+description: "Maps to the MIME Control header."
 ---
 
 # PidTagInternetControl Canonical Property

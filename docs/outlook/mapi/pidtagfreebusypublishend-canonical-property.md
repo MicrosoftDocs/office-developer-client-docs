@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: df239741-6a63-4cd4-9bbb-42c0f5c668a5
-description: "Last modified: March 09, 2015"
+description: "Contains the end time of the publishing range."
 ---
 
 # PidTagFreeBusyPublishEnd Canonical Property

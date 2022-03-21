@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 383906b9-4471-456e-9de1-c3d898051627
-description: "Last modified: March 09, 2015"
+description: "Specifies the phonetic pronunciation of the contact's given name."
 ---
 
 # PidLidYomiFirstName Canonical Property

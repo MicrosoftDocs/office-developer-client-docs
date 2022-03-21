@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ac09578-892b-4c72-92f6-c2419ac2efe8
-description: "Last modified: March 09, 2015"
+description: "This property contains TRUE if the profile wizard is to suppress the personal message store (PST) page."
 ---
 
 # PidTagWizardNoPstPage Canonical Property

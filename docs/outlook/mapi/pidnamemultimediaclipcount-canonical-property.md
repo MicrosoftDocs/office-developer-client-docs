@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 82242de7-e6f6-4882-bd2e-d62c8d6701b7
-description: "Last modified: March 09, 2015"
+description: "Specifies the number of multimedia clips in the file that is attached to the document."
 ---
 
 # PidNameMultimediaClipCount Canonical Property

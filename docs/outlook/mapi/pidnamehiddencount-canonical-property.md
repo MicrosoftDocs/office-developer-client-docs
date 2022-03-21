@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1e0e0df-356b-47eb-8572-37b7f3d52887
-description: "Last modified: March 09, 2015"
+description: "Specifies the hidden value of the file that is attached to the document."
 ---
 
 # PidNameHiddenCount Canonical Property

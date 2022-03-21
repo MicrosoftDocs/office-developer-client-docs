@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 90333258-8913-4f98-aefb-4cc2ab34abcf
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if this messaging user is specifically named as a primary (To), CC, or BCC recipient of this message and is not part of a distribution list."
 ---
 
 # PidTagMessageRecipientMe Canonical Property

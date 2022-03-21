@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e675bfdd-7598-45f3-a5aa-23b4734670dc
-description: "Last modified: March 09, 2015"
+description: "Contains a RecurrencePattern structure that provides information about recurring tasks."
 ---
 
 # PidLidTaskRecurrence Canonical Property

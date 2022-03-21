@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 177b2b87-7a06-4d53-8f03-5bec5632c2dd
-description: "Last modified: March 09, 2015"
+description: "Specifies the entry identifier of the appointment that represents the contact's anniversary."
 ---
 
 # PidLidAnniversaryEventEntryId Canonical Property

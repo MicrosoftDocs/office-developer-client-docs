@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f598fc57-75d3-473b-8eb0-9d8a3b92e9f2
-description: "Last modified: March 09, 2015"
+description: "Implements an advise sink object for handling notification. A pointer to an advise sink object is passed in a call to a service provider's Advise method."
 ---
 
 # IMAPIAdviseSink : IUnknown

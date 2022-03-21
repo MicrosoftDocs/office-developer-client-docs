@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73064a22-68bf-4d3f-91f5-1eec807debf8
-description: "Last modified: March 09, 2015"
+description: "Indicates the original value of the **dispidApptStartWhole** property before a meeting update."
 ---
 
 # PidLidOldWhenStartWhole Canonical Property

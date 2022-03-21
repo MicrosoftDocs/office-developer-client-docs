@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6adb8e85-ae56-4542-8b19-ed3cfe7fe522
-description: "Last modified: March 09, 2015"
+description: "Specifies an identifier for the parent of a folder or an item in a store."
 ---
 
 # PidTagProviderParentItemId Canonical Property

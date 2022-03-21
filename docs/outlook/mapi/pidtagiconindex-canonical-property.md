@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 35bb0d6d-41d4-47d6-b161-be3721894201
-description: "Last modified: March 09, 2015"
+description: "Contains a number that indicates which icon to use when you display a group of email objects."
 ---
 
 # PidTagIconIndex Canonical Property
