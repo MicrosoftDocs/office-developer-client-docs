@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies what voting responses the user can make in response to the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidVerbStream  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

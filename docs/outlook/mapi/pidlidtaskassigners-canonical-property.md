@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a stack of entries that represent task assigners. The most recent task assigner appears at the top of the stack.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskMyDelegators  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

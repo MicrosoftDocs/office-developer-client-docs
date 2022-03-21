@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes information that relate to the arrival of a new message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

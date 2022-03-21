@@ -41,7 +41,7 @@ HANDLE          *phSyncDoneEvent;
   
 > A flag that indicates the type of sync. It must be one of the following values:
     
-||||
+|Flag |Value |Description |
 |:-----|:-----|:-----|
 |SYNC_OUTGOING_MAIL  <br/> |0x00000200  <br/> |Send the message to the server (not currently in use). |
 |SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |Push hierarchy changes to the server. |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the list of Address Book **EntryIDs** linked to by this message object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidContactLinkEntry  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

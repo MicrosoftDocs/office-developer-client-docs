@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's radio telephone number.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RADIO_TELEPHONE_NUMBER, PR_RADIO_TELEPHONE_NUMBER_A, PR_RADIO_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A1D  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether an attachment is hidden from the end user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACHMENT_HIDDEN  <br/> |
 |Identifier:  <br/> |0x7FFE  <br/> |

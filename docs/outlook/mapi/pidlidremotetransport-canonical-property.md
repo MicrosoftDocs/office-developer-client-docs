@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Identifies what account the header item is associated with, primarily to implement the POP Leave on Server functionality. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated Properties  <br/> |dispidRemoteXP  <br/> |
 |Property set:  <br/> |PSETID_Remote  <br/> |

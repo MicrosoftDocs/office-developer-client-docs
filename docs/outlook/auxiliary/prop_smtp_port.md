@@ -15,7 +15,7 @@ Represents the port number of the SMTP account.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0201  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |
