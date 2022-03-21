@@ -18,9 +18,9 @@ Specifies the rule to follow when a [Key](key-object-adox.md) is deleted.
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -20,8 +20,8 @@ A Recordsets collection contains all open Recordset objects in a Connection or D
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -42,8 +42,8 @@ A Recordsets collection contains all open Recordset objects in a Connection or D
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
