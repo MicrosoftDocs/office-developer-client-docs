@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the task owner.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskOwner  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

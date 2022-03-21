@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a history showing how a distribution list has been expanded during message transmission. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DL_EXPANSION_HISTORY  <br/> |
 |Identifier:  <br/> |0x0013  <br/> |

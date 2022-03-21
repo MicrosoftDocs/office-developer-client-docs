@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the last time the folder was accessed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WB_SF_LAST_USED  <br/> |
 |Identifier:  <br/> |0x6834  <br/> |

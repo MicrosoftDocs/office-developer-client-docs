@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the phonetic pronunciation of the contact's given name.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidYomiFirstName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

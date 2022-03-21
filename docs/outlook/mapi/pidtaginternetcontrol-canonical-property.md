@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps to the MIME Control header.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_CONTROL, PR_INTERNET_CONTROL_A, PR_INTERNET_CONTROL_W  <br/> |
 |Identifier:  <br/> |0x1031  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a RecurrencePattern structure that provides information about recurring tasks.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskRecur  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

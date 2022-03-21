@@ -24,14 +24,14 @@ description: "Last modified: March 09, 2015"
   
 Provides information about a folder's support for sharing.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Provided by:  <br/> |Message store provider  <br/> |
 |Interface identifier:  <br/> |IID_IFolderSupport  <br/> |
    
 ## Vtable order
 
-|||
+|Property |Value |
 |:-----|:-----|
 |**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Gets information about a folder's support for sharing. |
    

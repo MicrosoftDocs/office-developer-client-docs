@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the end time of the publishing range.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FREEBUSY_PUBLISH_END  <br/> |
 |Identifier:  <br/> |0x6848  <br/> |

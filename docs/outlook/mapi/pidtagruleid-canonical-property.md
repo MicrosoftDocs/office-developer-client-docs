@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies a unique identifier the messaging server generates for each rule when the rule is first created. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_ID  <br/> |
 |Identifier:  <br/> |0x6674  <br/> |

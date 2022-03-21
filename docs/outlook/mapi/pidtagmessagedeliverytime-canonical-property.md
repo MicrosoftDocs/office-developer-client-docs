@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time when a message was delivered. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_DELIVERY_TIME  <br/> |
 |Identifier:  <br/> |0x0E06  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies an identifier for the parent of a folder or an item in a store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROVIDER_PARENT_ITEMID  <br/> |
 |Identifier:  <br/> |0x0EA4  <br/> |

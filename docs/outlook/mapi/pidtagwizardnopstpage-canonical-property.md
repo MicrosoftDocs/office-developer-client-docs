@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains TRUE if the profile wizard is to suppress the personal message store (PST) page.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WIZARD_NO_PST_PAGE  <br/> |
 |Identifier:  <br/> |0x6700  <br/> |

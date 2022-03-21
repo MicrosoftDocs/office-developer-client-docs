@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the post office box for a contact's other address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OTHER_ADDRESS_POST_OFFICE_BOX, PR_OTHER_ADDRESS_POST_OFFICE_BOX_A, PR_OTHER_ADDRESS_POST_OFFICE_BOX_W  <br/> |
 |Identifier:  <br/> |0x3A64  <br/> |

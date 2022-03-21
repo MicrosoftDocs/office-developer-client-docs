@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a message transfer system (MTS) identifier for the message transfer agent (MTA).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_SUBMISSION_ID  <br/> |
 |Identifier:  <br/> |0x0047  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the type of meeting request or meeting update.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidMeetingType  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

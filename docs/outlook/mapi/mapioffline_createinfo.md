@@ -52,7 +52,7 @@ typedef struct
   
 > A bit mask of the following capability flags.
 
-|||
+|Value |Description |
 |:-----|:-----|
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |The offline object is capable of going offline. |
 |MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |The offline object is capable of going online. |

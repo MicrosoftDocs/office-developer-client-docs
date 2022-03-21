@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Searches for the last occurrence of a character in a null-terminated string. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

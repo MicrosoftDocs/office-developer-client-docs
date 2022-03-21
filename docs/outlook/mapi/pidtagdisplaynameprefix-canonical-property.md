@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name prefix (such as Miss, Mr., Mrs.) for the messaging user. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISPLAY_NAME_PREFIX, PR_DISPLAY_NAME_PREFIX_A, PR_DISPLAY_NAME_PREFIX_W  <br/> |
 |Identifier:  <br/> |0x3A45  <br/> |

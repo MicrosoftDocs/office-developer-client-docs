@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Displays the name of the owner of the mailbox.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MAILBOX_OWNER_NAME, PR_MAILBOX_OWNER_NAME_A, PR_MAILBOX_OWNER_NAME_W  <br/> |
 |Identifier:  <br/> |0x001F  <br/> |

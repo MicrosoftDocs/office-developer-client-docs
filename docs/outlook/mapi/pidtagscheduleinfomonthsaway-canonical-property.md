@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of the months for which free/busy data of type out of office (OOF) is present in the free/busy message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_MONTHS_OOF  <br/> |
 |Identifier:  <br/> |0x6855  <br/> |

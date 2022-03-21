@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of a provider.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W  <br/> |
 |Identifier:  <br/> |0x3418  <br/> |

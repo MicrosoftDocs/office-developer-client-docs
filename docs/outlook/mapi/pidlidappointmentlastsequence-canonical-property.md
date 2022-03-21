@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates to the organizer the last sequence number that was sent to any attendee.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptLastSequence  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

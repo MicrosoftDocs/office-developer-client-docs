@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the task assignee has been requested to send a task update when the assigned task changes.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskUpdates  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

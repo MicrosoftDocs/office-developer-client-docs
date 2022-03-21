@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains information about an object that has undergone a change, such as being copied or modified.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

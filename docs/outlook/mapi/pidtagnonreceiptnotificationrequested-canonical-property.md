@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message sender wants notification of non-receipt for a specified recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NON_RECEIPT_NOTIFICATION_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0C06  <br/> |

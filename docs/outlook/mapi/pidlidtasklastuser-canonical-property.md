@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Names the most recent user who was the task owner.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskLastUser  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

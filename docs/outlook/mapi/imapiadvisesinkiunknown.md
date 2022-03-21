@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Implements an advise sink object for handling notification. A pointer to an advise sink object is passed in a call to a service provider's **Advise** method, the mechanism used to register for notification. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Advise sink objects  <br/> |
@@ -35,7 +35,7 @@ Implements an advise sink object for handling notification. A pointer to an advi
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[OnNotify](imapiadvisesink-onnotify.md) <br/> |Responds to a notification by performing one or more tasks. The tasks performed depend on the type of event and the object that generates the notification. |
    

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a folder name used for address book entries.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_FOLDER_NAME, PR_CONTAB_FOLDER_NAME_W  <br/> |
 |Identifier:  <br/> |0x6613  <br/> |

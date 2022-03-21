@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the password of the personal storage table (.pst file) being configured.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W  <br/> |
 |Identifier:  <br/> |0x6703  <br/> |

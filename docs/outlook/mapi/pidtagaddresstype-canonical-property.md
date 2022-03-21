@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the messaging user's email address type, such as SMTP.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ADDRTYPE, PR_ADDRTYPE_A, PR_ADDRTYPE_W  <br/> |
 |Identifier:  <br/> |0x3002  <br/> |

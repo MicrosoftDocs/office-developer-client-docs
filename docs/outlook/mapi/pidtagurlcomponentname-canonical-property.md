@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 The URL component name for a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_URL_COMP_NAME, PR_URL_COMP_NAME_A, PR_URL_COMP_NAME_W  <br/> |
 |Identifier:  <br/> |0x10F3  <br/> |

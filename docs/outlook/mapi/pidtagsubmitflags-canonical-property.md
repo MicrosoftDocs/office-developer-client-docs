@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags indicating details about a message submission.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SUBMIT_FLAGS  <br/> |
 |Identifier:  <br/> |0x0E14  <br/> |

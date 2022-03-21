@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the entry identifier of the appointment that represents the contact's anniversary.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidAnniversaryEventEID  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

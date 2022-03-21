@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the middle name of a contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MIDDLE_NAME, PR_MIDDLE_NAME_A, PR_MIDDLE_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A44  <br/> |
