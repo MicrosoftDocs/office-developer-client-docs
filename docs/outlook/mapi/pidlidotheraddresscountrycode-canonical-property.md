@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5358432-dbd3-4216-af0f-4fd01eacec69
-description: "Last modified: March 09, 2015"
+description: "Specifies the country code portion of the contact's other address."
 ---
 
 # PidLidOtherAddressCountryCode Canonical Property

@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
-description: "Last modified: March 09, 2015"
+description: "An outgoing queue table contains information about all the outgoing messages for a message store."
  
  
 ---

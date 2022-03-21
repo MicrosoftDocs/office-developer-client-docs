@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 90741a98-0941-454e-a3c0-886583bb576e
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient's office location."
 ---
 
 # PidTagOfficeLocation Canonical Property

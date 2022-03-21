@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 32676003-ba32-886f-1185-4760cb0e30e3
-description: "Last modified: March 09, 2015"
+description: "Makes a backup copy of the current copy of mapi32.dll on the client computer, and restores mapi32.dll with the MAPI stub library, mapistub.dll."
 ---
 
 # FixMAPI

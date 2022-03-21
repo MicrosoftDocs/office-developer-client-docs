@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
-description: "Last modified: March 09, 2015"
+description: "This topic describes what happens during the synchronize contents state of the replication state machine."
  
  
 ---

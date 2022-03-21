@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
-description: "Last modified: March 09, 2015"
+description: "Represents the user's email address."
 ---
 
 # PidTagAutoConfigurationUserEmail Canonical Property

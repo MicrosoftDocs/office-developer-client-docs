@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 931a004f-3f20-452b-8d9e-422ee2dba106
-description: "Last modified: March 09, 2015"
+description: "Specifies the category of the file attached to the document."
 ---
 
 # PidNameCategory Canonical Property

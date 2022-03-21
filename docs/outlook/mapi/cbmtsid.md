@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
-description: "Last modified: March 09, 2015"
+description: "Computes the number of bytes in an existing MTSID structure. "
 ---
 
 # CbMTSID

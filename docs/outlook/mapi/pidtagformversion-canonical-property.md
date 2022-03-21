@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
-description: "Last modified: March 09, 2015"
+description: "Contains the version of a form. "
 ---
 
 # PidTagFormVersion Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07fcb881-d873-45bf-b048-30f41d0d8d85
-description: "Last modified: March 09, 2015"
+description: "Contains a subject prefix that typically indicates some action on a message. "
 ---
 
 # PidTagSubjectPrefix Canonical Property

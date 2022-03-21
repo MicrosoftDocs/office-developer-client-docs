@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: db8c3014-fa17-4b76-8a76-e352a0be8233
-description: "Last modified: March 09, 2015"
+description: "Specifies the email type of the contact's home fax address."
 ---
 
 # PidLidFax2EmailType Canonical Property

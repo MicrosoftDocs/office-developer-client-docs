@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b53c307-1a01-4c94-b6db-9fcb840ce390
-description: "Last modified: March 09, 2015"
+description: "Specifies the email address of the contact's other fax address."
 ---
 
 # PidLidFax3EmailAddress Canonical Property

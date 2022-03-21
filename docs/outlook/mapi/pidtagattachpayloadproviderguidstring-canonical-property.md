@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9d4b561-53b3-492b-9324-9376dd7abddf
-description: "Last modified: March 09, 2015"
+description: "Contains the value of a MIME X-Payload-Provider-Guid header field."
 ---
 
 # PidTagAttachPayloadProviderGuidString Canonical Property

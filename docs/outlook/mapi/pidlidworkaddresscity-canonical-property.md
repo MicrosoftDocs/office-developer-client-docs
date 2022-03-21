@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cbded5d-5aa6-47c5-aa25-416ed9bd3bbe
-description: "Last modified: March 09, 2015"
+description: "Specifies the city or locality portion of the contact's work address."
 ---
 
 # PidLidWorkAddressCity Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3a504594-204c-472c-8be7-dca154c94ea2
-description: "Last modified: March 09, 2015"
+description: "Specifies whether a delegate can view the delegator's private message objects."
 ---
 
 # PidTagDelegateFlags Canonical Property

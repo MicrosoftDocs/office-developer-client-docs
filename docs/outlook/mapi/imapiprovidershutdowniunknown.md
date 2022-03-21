@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
-description: "Last modified: March 09, 2015"
+description: "Allows the MAPI subsystem to inform a MAPI provider of the fast shutdown of a MAPI client, so that the MAPI provider can respond to the shutdown."
 ---
 
 # IMAPIProviderShutdown : IUnknown

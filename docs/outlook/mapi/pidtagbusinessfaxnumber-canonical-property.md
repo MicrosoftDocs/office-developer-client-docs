@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3f77a7e4-342e-49da-970f-3ef02f227724
-description: "Last modified: March 09, 2015"
+description: "Contains the telephone number of the recipient's business fax machine."
 ---
 
 # PidTagBusinessFaxNumber Canonical Property

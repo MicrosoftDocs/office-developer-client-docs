@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
-description: "Last modified: March 09, 2015"
+description: "Specifies the sequence number of a Meeting object."
 ---
 
 # PidLidAppointmentSequence Canonical Property

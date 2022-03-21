@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f40cd807-7aac-49f4-8e82-b0e5e1634b08
-description: "Last modified: March 09, 2015"
+description: "Contains X.509 version 3 security certificates for a messaging user."
 ---
 
 # PidLidUserX509Certificate Canonical Property

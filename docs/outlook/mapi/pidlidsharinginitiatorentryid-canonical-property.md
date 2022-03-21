@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47f00706-83df-49cb-bda7-ef572d76a020
-description: "Last modified: March 09, 2015"
+description: "Designates as a property of a sharing message."
 ---
 
 # PidLidSharingInitiatorEntryId Canonical Property

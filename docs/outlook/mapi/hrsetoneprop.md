@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14ae3242-fddf-4199-a9a7-4ab153b31064
-description: "Last modified: March 09, 2015"
+description: "Sets or changes the value of a single property on a property interface, that is, an interface derived from IMAPIProp."
 ---
 
 # HrSetOneProp
