@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of a MIME X-Payload-Provider-Guid header field.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_PAYLOAD_PROV_GUID_STR, PR_ATTACH_PAYLOAD_PROV_GUID_STR_A, PR_ATTACH_PAYLOAD_PROV_GUID_STR_W  <br/> |
 |Identifier:  <br/> |0x3719  <br/> |

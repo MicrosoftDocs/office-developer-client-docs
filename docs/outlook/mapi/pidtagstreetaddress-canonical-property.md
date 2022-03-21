@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's street address. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STREET_ADDRESS, PR_STREET_ADDRESS_A, PR_STREET_ADDRESS_W, PR_BUSINESS_ADDRESS_STREET, PR_BUSINESS_ADDRESS_STREET_A, PR_BUSINESS_ADDRESS_STREET_W  <br/> |
 |Identifier:  <br/> |0x3A29  <br/> |

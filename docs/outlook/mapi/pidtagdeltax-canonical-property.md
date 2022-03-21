@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the width of a dialog box control in standard Windows dialog units.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DELTAX  <br/> |
 |Identifier:  <br/> |0x3F03  <br/> |

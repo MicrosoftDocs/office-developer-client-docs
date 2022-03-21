@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an embedded display table object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DETAILS_TABLE  <br/> |
 |Identifier:  <br/> |0x3605  <br/> |

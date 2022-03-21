@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's office location.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OFFICE_LOCATION, PR_OFFICE_LOCATION_A, PR_OFFICE_LOCATION_W  <br/> |
 |Identifier:  <br/> |0x3A19  <br/> |

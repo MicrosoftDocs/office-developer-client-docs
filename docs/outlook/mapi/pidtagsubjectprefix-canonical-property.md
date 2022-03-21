@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SUBJECT_PREFIX, PR_SUBJECT_PREFIX_A, PR_SUBJECT_PREFIX_W  <br/> |
 |Identifier:  <br/> |0x003D  <br/> |

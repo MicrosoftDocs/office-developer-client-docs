@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the postal code for the mail user's other postal address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OTHER_ADDRESS_POSTAL_CODE, PR_OTHER_ADDRESS_POSTAL_CODE_A, PR_OTHER_ADDRESS_POSTAL_CODE_W  <br/> |
 |Identifier:  <br/> |0x3A61  <br/> |

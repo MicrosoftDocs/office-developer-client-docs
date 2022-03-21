@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a table of a message store's receive folder settings.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECEIVE_FOLDER_SETTINGS  <br/> |
 |Identifier:  <br/> |0x3415  <br/> |

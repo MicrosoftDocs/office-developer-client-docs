@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time when the messaging system can invalidate the content of a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXPIRY_TIME  <br/> |
 |Identifier:  <br/> |0x0015  <br/> |

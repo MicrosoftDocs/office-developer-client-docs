@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the location of the object in the personal folder store to create or configure.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PST_PATH, PR_PST_PATH_A, PR_PST_PATH_W  <br/> |
 |Identifier:  <br/> |0x6700  <br/> |

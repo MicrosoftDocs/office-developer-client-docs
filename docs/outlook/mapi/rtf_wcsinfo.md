@@ -42,7 +42,7 @@ typedef struct {
   
 > This is the bitmask of option flags for the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function. The supported option flags are: 
     
-|||
+|Flag |Description |
 |:-----|:-----|
 |MAPI_MODIFY  <br/> |This indicates whether the client intends to write the wrapped stream interface that is returned. |
 |STORE_UNCOMPRESSED_RTF  <br/> |This indicates whether the decompressed RTF is supposed to be written to the stream that is pointed to by the  _lpCompressedRTFStream_ pointer of the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function. |

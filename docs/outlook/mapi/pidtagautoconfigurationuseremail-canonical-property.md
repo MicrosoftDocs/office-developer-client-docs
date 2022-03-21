@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the user's email address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AUTOCFG_USER_EMAIL_W  <br/> |
 |Identifier:  <br/> |0x67FD  <br/> |

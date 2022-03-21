@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the version of a form. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W  <br/> |
 |Identifier:  <br/> |0x3301  <br/> |

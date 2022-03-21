@@ -22,7 +22,7 @@ Makes a backup copy of the current copy of mapi32.dll on the client computer, an
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Exported by:  <br/> |mapistub.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |

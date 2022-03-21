@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains TRUE if the remote viewer is allowed to call the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REMOTE_VALIDATE_OK  <br/> |
 |Identifier:  <br/> |0x3E0D  <br/> |

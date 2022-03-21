@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a folder contains subfolders.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SUBFOLDERS  <br/> |
 |Identifier:  <br/> |0x360A  <br/> |

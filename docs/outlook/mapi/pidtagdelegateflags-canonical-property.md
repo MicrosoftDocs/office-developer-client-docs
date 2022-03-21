@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether a delegate can view the delegator's private message objects.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DELEGATE_FLAGS  <br/> |
 |Identifier:  <br/> |0x686B  <br/> |

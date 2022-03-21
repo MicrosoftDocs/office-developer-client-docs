@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the transfer time, in seconds, for a remote item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRemoteXferTime  <br/> |
 |Property set:  <br/> |PSETID_Remote  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the date and time in Coordinated Universal Time (UTC) that the message object was flagged as completed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FLAG_COMPLETE_TIME  <br/> |
 |Identifier:  <br/> |0x1091  <br/> |

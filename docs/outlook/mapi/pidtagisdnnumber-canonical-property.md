@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's ISDN-capable telephone number. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ISDN_NUMBER, PR_ISDN_NUMBER_A, PR_ISDN_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A2D  <br/> |

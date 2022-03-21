@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates that a message sender has requested a message content conversion for a particular recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXPLICIT_CONVERSION  <br/> |
 |Identifier:  <br/> |0x0C01  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the UID that identifies this session of the Contact Address Book.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_UID  <br/> |
 |Identifier:  <br/> |0x6601  <br/> |

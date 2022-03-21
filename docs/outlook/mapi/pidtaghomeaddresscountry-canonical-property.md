@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the county in a contact's address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME_ADDRESS_COUNTRY, PR_HOME_ADDRESS_COUNTRY_A, PR_HOME_ADDRESS_COUNTRY_W  <br/> |
 |Identifier:  <br/> |0x3A5A  <br/> |

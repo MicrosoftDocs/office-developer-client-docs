@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the directory object entry identifier of a system access control list (SACL) table member.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MEMBER_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0FFF  <br/> |

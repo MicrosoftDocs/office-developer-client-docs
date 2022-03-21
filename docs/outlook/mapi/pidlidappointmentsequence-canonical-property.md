@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the sequence number of a Meeting object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptSequence  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Locates an existing task, by using a GUID, upon receipt of a task response or task update.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskGlobalObjId  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

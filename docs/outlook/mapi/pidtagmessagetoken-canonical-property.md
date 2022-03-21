@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 security token for a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |Identifier:  <br/> |0x0C03  <br/> |

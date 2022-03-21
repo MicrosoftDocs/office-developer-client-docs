@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the proposed value for the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property for a counter proposal.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptProposedEndWhole  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

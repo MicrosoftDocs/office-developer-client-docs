@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Adds a [FNIDLE](fnidle.md) function-based idle routine to the MAPI system. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

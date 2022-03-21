@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the type of Message object to which this attachment is linked.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACHMENT_LINKID  <br/> |
 |Identifier:  <br/> |0x7FFA  <br/> |
