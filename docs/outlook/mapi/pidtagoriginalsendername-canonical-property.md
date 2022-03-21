@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of the sender of the first version of a message, that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENDER_NAME, PR_ORIGINAL_SENDER_NAME_A, PR_ORIGINAL_SENDER_NAME_W  <br/> |
 |Identifier:  <br/> |0x005A  <br/> |

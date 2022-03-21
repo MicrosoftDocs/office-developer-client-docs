@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the entry identifier of the global address book for the Exchange service identified by  _pEmsmdbUID_. The returned entry identifier should be freed using [MAPIFreeBuffer](mapifreebuffer.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |abhelp.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

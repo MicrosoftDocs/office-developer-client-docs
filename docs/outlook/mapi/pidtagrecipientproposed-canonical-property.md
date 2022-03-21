@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether a meeting attendee has responded.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_PROPOSED  <br/> |
 |Identifier:  <br/> |0x5FE1  <br/> |

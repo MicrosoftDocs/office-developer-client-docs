@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the address type of the third email address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidEmail3AddrType  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

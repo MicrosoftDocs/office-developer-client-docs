@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the URL of the RSS or Atom feed from which the XML file came.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidPostRssChannelLink  <br/> |
 |Property set:  <br/> |PSETID_PostRss  <br/> |

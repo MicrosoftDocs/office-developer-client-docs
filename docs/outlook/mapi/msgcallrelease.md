@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a callback function that can free an **IStorage** interface after the final release of an **IMessage** object built on top of it with the [OpenIMsgOnIStg](openimsgonistg.md) function. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Defined function implemented by:  <br/> |Client applications and service providers  <br/> |

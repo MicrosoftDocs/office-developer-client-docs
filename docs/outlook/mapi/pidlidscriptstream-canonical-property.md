@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the code written in Visual Basic Scripting Edition (VBScript) behind the custom form associated with the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidScriptStream  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
