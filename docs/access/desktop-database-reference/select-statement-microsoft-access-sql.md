@@ -4,7 +4,7 @@ TOCTitle: SELECT statement (Microsoft Access SQL)
 ms:assetid: a5c9da94-5f9e-0fc0-767a-4117f38a5ef3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821148(v=office.15)
 ms:contentKeyID: 48546837
-ms.date: 10/18/2018
+ms.date: 03/22/2022
 mtps_version: v=office.15
 dev_langs:
 - sql
@@ -23,49 +23,15 @@ SELECT \[*predicate*\] { \* | *table*.\* | \[*table*.\]*field1* \[AS *alias1*\] 
 
 The SELECT statement has these parts:
 
-<table>
-<colgroup>
-<col />
-<col />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Part</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><em>predicate</em></p></td>
-<td><p>One of the following predicates: <a href="https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql">ALL, DISTINCT, DISTINCTROW, or TOP</a>. You use the predicate to restrict the number of records returned. If none is specified, the default is ALL.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>*</em></p></td>
-<td><p>Specifies that all fields from the specified table or tables are selected.</p></td>
-</tr>
-<tr class="odd">
-<td><p><em>table</em></p></td>
-<td><p>The name of the table containing the fields from which records are selected.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>field1</em>, <em>field2</em></p></td>
-<td><p>The names of the fields containing the data you want to retrieve. If you include more than one field, they are retrieved in the order listed.</p></td>
-</tr>
-<tr class="odd">
-<td><p><em>alias1</em>, <em>alias2</em></p></td>
-<td><p>The names to use as column headers instead of the original column names in <em>table</em>.</p></td>
-</tr>
-<tr class="even">
-<td><p><em>tableexpression</em></p></td>
-<td><p>The name of the table or tables containing the data you want to retrieve.</p></td>
-</tr>
-<tr class="odd">
-<td><p><em>externaldatabase</em></p></td>
-<td><p>The name of the database containing the tables in <em>tableexpression</em> if they are not in the current database.</p></td>
-</tr>
-</tbody>
-</table>
-
+|**Part**|**Description**|
+|:-----------|:-----------|
+| *predicate* | One of the following predicates: [ALL, DISTINCT, DISTINCTROW, or TOP](/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql.md). Use the predicate to restrict the number of records returned. If none is specified, the default is ALL.</br>|
+| * | Specifies that all fields from the specified table or tables are selected.</br>|
+| *table* | The name of the table containing the fields from which records are selected.</br>|
+| *field1, field2* |The names of the fields containing the data you want to retrieve. If you include more than one field, they are retrieved in the order listed.</br>|
+| *alias1, alias2* |The names to use as column headers instead of the original column names in *table*.</br>|
+| *tableexpression* | The name of the table or tables containing the data you want to retrieve.</br>|
+| *externaldatabase* | The name of the database containing the tables in *tableexpression* if they are not in the current database.</br>|
 
 ## Remarks
 
@@ -79,7 +45,7 @@ The minimum syntax for a SELECT statement is:
 
 SELECT *fields* FROM *table*
 
-You can use an asterisk (\*) to select all fields in a table. The following example selects all of the fields in the Employees table:
+You can use an asterisk (\*) to select all fields in a table. The following example selects all of the fields in the Employees table.
 
 ```sql
 SELECT * FROM Employees;
@@ -147,7 +113,6 @@ This example creates a dynaset-type **Recordset** based on an SQL statement that
     End Sub
 ```
 
-
 This example counts the number of records that have an entry in the PostalCode field and names the returned field Tally.
 
 ```sql
@@ -175,7 +140,6 @@ This example counts the number of records that have an entry in the PostalCode f
      
     End Sub 
 ```
-
 
 This example shows the number of employees and the average and maximum salaries.
 
@@ -207,7 +171,6 @@ This example shows the number of employees and the average and maximum salaries.
      
     End Sub 
 ```
-
 
 The **Sub** procedure EnumFields is passed a **Recordset** object from the calling procedure. The procedure then formats and prints the fields of the **Recordset** to the **Debug** window. The variable is the desired printed field width. Some fields may be truncated.
 
@@ -282,7 +245,3 @@ The **Sub** procedure EnumFields is passed a **Recordset** object from the calli
      
     End Sub 
 ```
-
-
-
-

@@ -4,7 +4,7 @@ TOCTitle: RecordsetType Property
 ms:assetid: a66d4043-08cc-ead1-f9ff-efc7d7ea21bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821178(v=office.15)
 ms:contentKeyID: 48546853
-ms.date: 09/18/2015
+ms.date: 03/22/2022
 mtps_version: v=office.15
 f1_keywords:
 - vbaac10.chm13361
@@ -29,69 +29,21 @@ You can use the **RecordsetType** property to specify what kind of recordset is 
 
 The **RecordsetType** property uses the following settings in a Microsoft Access database.
 
-<table>
-<colgroup>
-<col />
-<col />
-<col />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Setting</p></th>
-<th><p>Type of Recordset</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>0</p></td>
-<td><p>Dynaset</p></td>
-<td><p>(Default) You can edit bound controls based on a single table or tables with a one-to-one relationship. For controls bound to fields based on tables with a one-to-many relationship, you can't edit data from the join field on the &quot;one&quot; side of the relationship unless cascade update is enabled between the tables.</p></td>
-</tr>
-<tr class="even">
-<td><p>1</p></td>
-<td><p>Dynaset (Inconsistent Updates)</p></td>
-<td><p>All tables and controls bound to their fields can be edited.</p></td>
-</tr>
-<tr class="odd">
-<td><p>2</p></td>
-<td><p>Snapshot</p></td>
-<td><p>No tables or the controls bound to their fields can be edited.</p></td>
-</tr>
-</tbody>
-</table>
+|**Setting**|**Type of Recordset**|**Description**|
+|:----------|:--------------------|:--------------|
+| 0 | Dynaset (Default)  | You can edit bound controls based on a single table or tables with a one-to-one relationship. For controls bound to fields based on tables with a one-to-many relationship, you can't edit data from the join field on the &quot;one&quot; side of the relationship unless cascade update is enabled between the tables.</br>|
+| 1 | Dynaset (Inconsistent Updates) | All tables and controls bound to their fields can be edited.</br>|
+| 2| Snapshot | No tables or the controls bound to their fields can be edited.</br>|
 
 > [!NOTE]
 > If you don't want data in bound controls to be edited when a form is in Form view or Datasheet view, you can set the **RecordsetType** property to 2.
 
 The **RecordsetType** property uses the following settings in a Microsoft Access project (.adp).
 
-<table>
-<colgroup>
-<col />
-<col />
-<col />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Setting</p></th>
-<th><p>Type of Recordset</p></th>
-<th><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>3</p></td>
-<td><p>Snapshot</p></td>
-<td><p>No tables or the controls bound to their fields can be edited.</p></td>
-</tr>
-<tr class="even">
-<td><p>4</p></td>
-<td><p>Updatable Snapshot</p></td>
-<td><p>(Default) All tables and controls bound to their fields can be edited.</p></td>
-</tr>
-</tbody>
-</table>
+|**Setting**|**Type of Recordset**|**Description**|
+|:----------|:--------------------|:--------------|
+| 3 | Snapshot | No tables or the controls bound to their fields can be edited.</br>|
+| 4 | Updatable Snapshot | (Default) All tables and controls bound to their fields can be edited.</br>|
 
 > [!NOTE]
 > Changing the **RecordsetType** property of an open form or report causes an automatic recreation of the recordset.
@@ -115,6 +67,4 @@ In the following example, only if the user ID is ADMIN can records be updated. T
 
 ## See also
 
-- [Form Object](https://docs.microsoft.com/office/vba/api/Access.Form)
-
-
+- [Form Object](/office/vba/api/Access.Form.md)
