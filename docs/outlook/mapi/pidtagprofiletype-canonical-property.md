@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the type of information store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROFILE_TYPE  <br/> |
 |Identifier:  <br/> |0x660A  <br/> |

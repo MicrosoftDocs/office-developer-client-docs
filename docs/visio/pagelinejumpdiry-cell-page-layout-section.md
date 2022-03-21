@@ -28,16 +28,16 @@ Determines the direction of line jumps on vertical dynamic connectors on the dra
 
 To get a reference to the PageLineJumpDirY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | PageLineJumpDirY  <br/> |
+| **Cell name:**  <br/> | PageLineJumpDirY  <br/> |
    
 To get a reference to the PageLineJumpDirY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPageLayout** <br/> |
-| Cell index:  <br/> |**visPLOJumpDirY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPageLayout** <br/> |
+| **Cell index:**  <br/> |**visPLOJumpDirY** <br/> |
    
 

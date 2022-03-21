@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Supports the use of configurable run-time forms in distributed computing environments. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Form factory objects  <br/> |
@@ -35,7 +35,7 @@ Supports the use of configurable run-time forms in distributed computing environ
    
 ## Vtable order
 
-|||
+|Property |Value |
 |:-----|:-----|
 |[CreateClassFactory](imapiformfactory-createclassfactory.md) <br/> |Returns a class factory object for the form. |
 |[GetLastError](imapiformfactory-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error occurring to the form factory object. |

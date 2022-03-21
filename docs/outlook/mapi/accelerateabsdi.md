@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a callback function to process accelerator keys in a modeless address book dialog box.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Defined function implemented by:  <br/> |MAPI  <br/> |

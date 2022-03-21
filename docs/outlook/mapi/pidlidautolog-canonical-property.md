@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether to create a journal for each action associated with this contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidAutoLog  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

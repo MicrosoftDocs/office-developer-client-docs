@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the URL for the home page of a folder in Microsoft Outlook. This property contains a binary stream called **WebViewPersistenceObject**.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FOLDER_WEBVIEWINFO  <br/> |
 |Identifier:  <br/> |0x36DF  <br/> |

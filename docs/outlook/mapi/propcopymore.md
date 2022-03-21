@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies a single property value from a source location to a destination location. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

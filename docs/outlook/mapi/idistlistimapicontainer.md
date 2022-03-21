@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to distribution lists in modifiable address book containers. **IDistList** can create, copy, and delete distribution lists, in addition to performing name resolution. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Distribution list objects  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies a URL path from which a client can retrieve free/busy information for the contact as an iCal file, as specified in [[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFreeBusyLocation  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

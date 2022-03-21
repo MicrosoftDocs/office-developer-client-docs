@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of address types for a contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTACT_ADDRTYPES, PR_CONTACT_ADDRTYPES_A, PR_CONTACT_ADDRTYPES_W  <br/> |
 |Identifier:  <br/> |0x3A54  <br/> |

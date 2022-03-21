@@ -15,7 +15,7 @@ Specifies the type of encrypted connection to use for an SMTP account.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x020A  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

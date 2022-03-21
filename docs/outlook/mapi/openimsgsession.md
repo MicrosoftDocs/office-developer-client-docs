@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Creates and opens a message session that groups the messages created within it.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

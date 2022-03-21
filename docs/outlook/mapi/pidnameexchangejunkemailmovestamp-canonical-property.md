@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the persisted message value that indicates that the message should not be processed by a spam filter because the message was either already processed or is safe.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

@@ -15,7 +15,7 @@ Specifies leaving a copy of a message on the server for a POP account.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x1000  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

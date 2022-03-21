@@ -15,7 +15,7 @@ Initializes an [IOlkApptRebaser](iolkapptrebaser.md) object for use in rebasing 
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |tzmovelib.h  <br/> |
 |Implemented by:  <br/> |tzmovelib.dll  <br/> |

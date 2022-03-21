@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a 7-bit ASCII representation of a messaging user's name. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_7BIT_DISPLAY_NAME, PR_7BIT_DISPLAY_NAME_A, PR_7BIT_DISPLAY_NAME_W  <br/> |
 |Identifier:  <br/> |0x39FF  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 A byte-order independent version of a [GUID](guid.md) structure that is used to uniquely identify a service provider. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[IsEqualMAPIUID](isequalmapiuid.md) <br/> |

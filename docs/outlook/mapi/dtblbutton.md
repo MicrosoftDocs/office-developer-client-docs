@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains information about a button control for a dialog box built from a display table.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macro:  <br/> |[SizedDtblButton](sizeddtblbutton.md) <br/> |

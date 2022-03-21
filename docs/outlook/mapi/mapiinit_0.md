@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Conveys options to the [MAPIInitialize](mapiinitialize.md) function. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |MAPIX.H  <br/> |
    

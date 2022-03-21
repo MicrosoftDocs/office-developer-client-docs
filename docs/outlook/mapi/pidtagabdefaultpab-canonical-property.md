@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the address book container to use as the personal address book (PAB). 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AB_DEFAULT_PAB  <br/> |
 |Identifier:  <br/> |0x3D07  <br/> |

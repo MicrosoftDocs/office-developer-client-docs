@@ -15,7 +15,7 @@ Specifies the authentication method to use for the SMTP account.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0208  <br/> |
 |Property type:  <br/> |PT_DWORD  <br/> |

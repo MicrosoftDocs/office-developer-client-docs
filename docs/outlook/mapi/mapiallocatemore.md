@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Allocates a memory buffer that is linked to another buffer previously allocated with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Manages forms in form libraries. This interface is used to create application-specific form libraries. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Form container objects  <br/> |
@@ -35,7 +35,7 @@ Manages forms in form libraries. This interface is used to create application-sp
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[InstallForm](imapiformcontainer-installform.md) <br/> |Installs a form into a form container. |
 |[RemoveForm](imapiformcontainer-removeform.md) <br/> |Removes a particular form from a form container. |

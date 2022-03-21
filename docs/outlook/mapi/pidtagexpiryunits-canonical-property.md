@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes the unit of time when the **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) property multiplies.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXPIRY_UNITS  <br/> |
 |Identifier:  <br/> |0x3FEE  <br/> |
@@ -35,7 +35,7 @@ Describes the unit of time when the **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](p
 
 This property, if set, must be one of the following values:
   
-|||
+|Property |Value |
 |:-----|:-----|
 |PidTagExpiryUnits  <br/> |Description (TimeOf)  <br/> |
 |0x00000000  <br/> |Minutes, for example 60 seconds  <br/> |

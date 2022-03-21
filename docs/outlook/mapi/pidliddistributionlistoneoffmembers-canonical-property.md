@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the list of one-off EntryIds that correspond to the members of the personal distribution list.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidDLOneOffMembers  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

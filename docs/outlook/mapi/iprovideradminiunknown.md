@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Works with service providers in a message service. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Provider administration objects  <br/> |
@@ -35,7 +35,7 @@ Works with service providers in a message service.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](iprovideradmin-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error that occurred to the provider administration object. |
 |[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Provides access to the message service's provider table, a list of the service providers in the message service. |

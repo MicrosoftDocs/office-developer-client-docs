@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value indicating a control type for a control used in a dialog box. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTROL_TYPE  <br/> |
 |Identifier:  <br/> |0x3F02  <br/> |

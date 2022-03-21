@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 proof of submission value.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROOF_OF_SUBMISSION_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0028  <br/> |

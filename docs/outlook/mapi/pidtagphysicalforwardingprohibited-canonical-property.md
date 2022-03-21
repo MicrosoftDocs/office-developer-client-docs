@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message sender prohibits physical message forwarding for a specific recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PHYSICAL_FORWARDING_PROHIBITED  <br/> |
 |Identifier:  <br/> |0x0C0F  <br/> |

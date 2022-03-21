@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Computes the number of bytes in an existing [SPropAttrArray](spropattrarray.md) structure. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Related structure:  <br/> |**SPropAttrArray** <br/> |

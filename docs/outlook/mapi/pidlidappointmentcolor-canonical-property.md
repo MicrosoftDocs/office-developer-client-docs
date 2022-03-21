@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the color to use when displaying the calendar.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptColor  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

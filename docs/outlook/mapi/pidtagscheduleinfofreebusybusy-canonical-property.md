@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the blocks of time for which the status is busy.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_FREEBUSY_BUSY  <br/> |
 |Identifier:  <br/> |0x6854  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Allows a Personal Folders file (PST) store provider to override the PSTDisableGrow policy.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Inherits from:  <br/> |IUnknown  <br/> |
 |Implemented by:  <br/> |PST store provider  <br/> |
@@ -33,7 +33,7 @@ Allows a Personal Folders file (PST) store provider to override the PSTDisableGr
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[IPSTOVERRIDE1::GetPersistedRegistrations](ipstoverride1-getpersistedregistrations.md) <br/> |Retrieves the list of registrations for the Personal Folders (.pst) file. |
 |[IPSTOVERRIDE1::SetPersistedRegistrations](ipstoverride1-setpersistedregistrations.md) <br/> |Registers Personal Folders files for automatic unlocking, avoiding further calls to HrTrustedPSTOverrideHandlerCallback. |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a binary value that indicates the relative position of this message within a conversation thread. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONVERSATION_INDEX  <br/> |
 |Identifier:  <br/> |0x0071  <br/> |

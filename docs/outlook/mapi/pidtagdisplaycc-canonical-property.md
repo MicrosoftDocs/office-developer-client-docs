@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASCII list of the display names of any carbon copy (CC) message recipients, separated by semicolons (;). 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISPLAY_CC, PR_DISPLAY_CC_A, PR_DISPLAY_CC_W  <br/> |
 |Identifier:  <br/> |0x0E03  <br/> |

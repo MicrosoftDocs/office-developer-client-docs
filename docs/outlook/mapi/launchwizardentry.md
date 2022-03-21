@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a function that starts the Profile Wizard application for the purpose of adding one or more message services to a profile. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiwz.h  <br/> |
 |Defined function implemented by:  <br/> |MAPI  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the point in time when a reminder transitions from pending to overdue.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidReminderNextTime  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

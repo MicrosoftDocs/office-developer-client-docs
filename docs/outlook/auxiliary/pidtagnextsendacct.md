@@ -15,7 +15,7 @@ Specifies the secondary account "send" stamp for the message.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |Identifier:  <br/> |0x0E29  <br/> |

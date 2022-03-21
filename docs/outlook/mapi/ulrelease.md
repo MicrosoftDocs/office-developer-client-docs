@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides an alternative way to invoke the OLE method **IUnknown::Release**. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

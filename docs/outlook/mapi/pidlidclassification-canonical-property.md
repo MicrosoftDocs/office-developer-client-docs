@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the name of the message classification.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidClassification  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
