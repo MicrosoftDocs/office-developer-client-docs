@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a form is to be suppressed from display by compose menus and dialog boxes. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_HIDDEN  <br/> |
 |Identifier:  <br/> |0x3307  <br/> |

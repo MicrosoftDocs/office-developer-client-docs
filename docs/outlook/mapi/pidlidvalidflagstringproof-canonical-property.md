@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Validates whether the **dispidRequest** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) property's value was set by an agent who knew the value of the **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidValidFlagStringProof  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

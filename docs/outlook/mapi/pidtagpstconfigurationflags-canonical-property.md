@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 Specfies configuration flags for a personal storage table (.pst file).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PST_CONFIG_FLAGS  <br/> |
 |Identifier:  <br/> |0x6770  <br/> |

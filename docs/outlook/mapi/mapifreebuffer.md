@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Frees a memory buffer allocated with a call to the [MAPIAllocateBuffer](mapiallocatebuffer.md) function or the [MAPIAllocateMore](mapiallocatemore.md) function. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

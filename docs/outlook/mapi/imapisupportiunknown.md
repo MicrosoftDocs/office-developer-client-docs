@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides implementations for tasks that are typically performed by service providers and message service entry point functions. Service providers receive a pointer to their support object when MAPI calls their provider object's logon method. Message services receive their support object pointer in the call to their entry point function.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Exposed by:  <br/> |Support objects  <br/> |
@@ -35,7 +35,7 @@ Provides implementations for tasks that are typically performed by service provi
    
 ## Vtable order
 
-|||
+|Member |Description|
 |:-----|:-----|
 |[GetLastError](imapisupport-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous support object error. |
 |[GetMemAllocRoutines](imapisupport-getmemallocroutines.md) <br/> |Retrieves the addresses of the MAPI memory allocation and deallocation functions ([MAPIAllocateBuffer](mapiallocatebuffer.md), [MAPIAllocateMore](mapiallocatemore.md), and [MAPIFreeBuffer](mapifreebuffer.md)). |
@@ -81,7 +81,7 @@ Provides implementations for tasks that are typically performed by service provi
 
 Address books, message stores, transport providers, and message services each have their own support objects. Service providers and message services call the methods in their support objects as part of their implementations of other interface methods. Each different support object has complete implementations of the methods that apply to its caller; the methods that are not applicable return MAPI_E_NO_SUPPORT. Address book provider support objects have implementations for the following methods:
   
-||||
+|Method |Method |Method |
 |:-----|:-----|:-----|
 |**Address** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**Details** <br/> |**DoConfigPropsheet** <br/> |**DoProgressDialog** <br/> |
@@ -94,7 +94,7 @@ Address books, message stores, transport providers, and message services each ha
    
 Message store provider support objects have implementations for the following methods:
   
-||||
+|Method |Method |Method |
 |:-----|:-----|:-----|
 |**CompareEntryIDs** <br/> |**CompleteMsg** <br/> |**CopyFolder** <br/> |
 |**CopyMessages** <br/> |**CreateOneOff** <br/> |**DoCopyProps** <br/> |
@@ -110,7 +110,7 @@ Message store provider support objects have implementations for the following me
    
 Transport provider support objects have implementations for the following methods:
   
-||||
+|Method |Method |Method |
 |:-----|:-----|:-----|
 |**DoConfigPropsheet** <br/> |**CompareEntryIDs** <br/> |**CreateOneOff** <br/> |
 |**GetMemAllocRoutines** <br/> |**GetSvcConfigSupportObj** <br/> |**GetLastError** <br/> |
@@ -122,7 +122,7 @@ Transport provider support objects have implementations for the following method
    
 Message service support objects have implementations for the following methods:
   
-|||
+|Method |Method |
 |:-----|:-----|
 |**DoConfigPropsheet** <br/> |**GetLastError** <br/> |
 |**GetMemAllocRoutines** <br/> |**GetSvcConfigSupportObj** <br/> |
