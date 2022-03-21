@@ -6,6 +6,7 @@ ms.topic: overview
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Excel."
 ms.localizationpriority: high
+adobe-target: true
 ---
 
 # Develop solutions and customize Excel
