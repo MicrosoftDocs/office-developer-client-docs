@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a comment about the purpose or content of an object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_COMMENT, PR_COMMENT_A, PR_COMMENT_W  <br/> |
 |Identifier:  <br/> |0x3004  <br/> |

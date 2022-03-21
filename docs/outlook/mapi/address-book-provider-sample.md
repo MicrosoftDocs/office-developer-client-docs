@@ -23,7 +23,7 @@ This sample supports a single read-only container for display names and email ad
 You can download this sample from [Outlook Messaging API (MAPI) Code Samples](https://go.microsoft.com/fwlink/?LinkId=129740
 ).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Executable:  <br/> |SABP32.dll  <br/> |
 | Source code directory:  <br/> |SampleAddressBookProvider\SABP  <br/> |

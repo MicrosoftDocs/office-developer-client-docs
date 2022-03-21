@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables form servers to receive notifications from form viewers. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Form advise sink objects  <br/> |
@@ -35,7 +35,7 @@ Enables form servers to receive notifications from form viewers.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[OnChange](imapiformadvisesink-onchange.md) <br/> |Indicates that a change has occurred in the status of the form viewer. |
 |[OnActivateNext](imapiformadvisesink-onactivatenext.md) <br/> |Indicates whether the form can handle the message class of the next message to display. |

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Ensures that the **OpenEntry** method is opened by the expected Exchange address book provider. This function works similarly to [IAddrBook::Details](iaddrbook-details.md) but opens **entryID** using the Exchange address book identified by  _pEmsabpUID_.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |abhelp.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether Transport Neutral Encapsulation Format (TNEF) should be included on a message when that message is converted from MAPI to Multipurpose Internet Mail Extensions (MIME) or Simple Mail Transfer Protocol (SMTP) format.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidUseTNEF  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

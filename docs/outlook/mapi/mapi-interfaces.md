@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 The documentation for each interface consists of an introductory section that includes a brief description of the interface's purpose followed by a table that contains the following information.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |The header file where the interface is defined and that must be included when you compile your source code. |
 |Exposed by:  <br/> |The object that exposes the interface. |

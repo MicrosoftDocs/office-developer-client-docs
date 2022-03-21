@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the **EntryId** of an optional appointment that represents the contact's birthday. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidBirthdayEventEID  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |
