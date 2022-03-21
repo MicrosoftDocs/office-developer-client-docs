@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65aed75f-7e4e-4de9-b219-64dde8891a79
-description: "Last modified: March 09, 2015"
+description: "Denotes the time at which a message recall was initiated."
 ---
 
 # PidLidRecallTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Denotes the time at which a message recall was initiated.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRecallTime  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

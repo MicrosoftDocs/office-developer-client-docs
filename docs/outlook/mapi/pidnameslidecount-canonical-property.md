@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c410a34a-f71e-4fe7-815b-13bb6433a7fa
-description: "Last modified: March 09, 2015"
+description: "Specifies the number of slides in the file that is attached to the document."
 ---
 
 # PidNameSlideCount Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the number of slides in the file that is attached to the document.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

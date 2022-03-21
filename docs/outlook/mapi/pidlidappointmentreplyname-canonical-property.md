@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f3a44d1-600f-412e-bc89-078841db5308
-description: "Last modified: March 09, 2015"
+description: "Specifies the user who last replied to the meeting request or meeting update object."
 ---
 
 # PidLidAppointmentReplyName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the user who last replied to the meeting request or meeting update object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptReplyName  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

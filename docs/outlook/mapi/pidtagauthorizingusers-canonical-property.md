@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d291777e-c0c6-4de2-9bf5-5c1d95f3db6c
-description: "Last modified: March 09, 2015"
+description: "Contains a list of entry identifiers for users who have authorized the sending of a message."
 ---
 
 # PidTagAuthorizingUsers Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of entry identifiers for users who have authorized the sending of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AUTHORIZING_USERS  <br/> |
 |Identifier:  <br/> |0x0003  <br/> |

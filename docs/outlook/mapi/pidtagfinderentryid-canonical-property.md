@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a3895f90-7561-4b41-92af-ecc8614e4211
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier for the folder where search results are typically created."
 ---
 
 # PidTagFinderEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier for the folder where search results are typically created.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FINDER_ENTRYID  <br/> |
 |Identifier:  <br/> |0x35E7  <br/> |

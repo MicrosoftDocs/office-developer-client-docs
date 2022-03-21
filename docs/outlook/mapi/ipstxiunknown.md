@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
-description: "Last modified: March 09, 2015"
+description: "This interface provides helper functionality when performing replication through the IOSTX interface."
 ---
 
 # IPSTX : IUnknown
@@ -24,14 +24,14 @@ description: "Last modified: March 09, 2015"
   
 This interface provides helper functionality when performing replication through the **[IOSTX](iostxiunknown.md)** interface. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Provided by  <br/> |Query on [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Interface identifier:  <br/> |IID_IPSTX  <br/> |
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |**[GetLastError](ipstx-getlasterror.md)** <br/> |Gets extended information about the last error. |
 |**[GetSyncObject](ipstx-getsyncobject.md)** <br/> |Gets the associated **[IOSTX](iostxiunknown.md)** interface. |

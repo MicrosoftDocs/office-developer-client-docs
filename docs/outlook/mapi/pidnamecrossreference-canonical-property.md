@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d16e1adf-c911-427e-9c98-678a303e6791
-description: "Last modified: March 09, 2015"
+description: "Contains an RFC3282 Xref header field value."
 ---
 
 # PidNameCrossReference Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an [RFC3282] Xref header field value.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_INTERNET_HEADERS  <br/> |

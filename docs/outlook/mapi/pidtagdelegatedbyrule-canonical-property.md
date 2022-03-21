@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
-description: "Last modified: March 09, 2015"
+description: "Indicates whether a folder's message is delegated by a rule."
 ---
 
 # PidTagDelegatedByRule Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether a folder's message is delegated by a rule.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DELEGATED_BY_RULE  <br/> |
 |Identifier:  <br/> |0x3FE3  <br/> |

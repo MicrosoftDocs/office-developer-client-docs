@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
-description: "Last modified: March 09, 2015"
+description: "Contains the sum, in bytes, of the sizes of all properties on a message object."
 ---
 
 # PidTagMessageSize Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the sum, in bytes, of the sizes of all properties on a message object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_SIZE  <br/> |
 |Identifier:  <br/> |0x0E08  <br/> |

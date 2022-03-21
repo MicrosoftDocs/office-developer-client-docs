@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
-description: "Last modified: March 09, 2015"
+description: "Provides utility methods for working with tables. MAPI provides table data objects or objects that implement ITableData to help service providers perform table maintenance."
 ---
 
 # ITableData : IUnknown
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides utility methods for working with tables. MAPI provides table data objects or objects that implement **ITableData** to help service providers perform table maintenance. To obtain a table data object, service providers call the [CreateTable](createtable.md) function. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Exposed by:  <br/> |Table data objects  <br/> |
@@ -35,7 +35,7 @@ Provides utility methods for working with tables. MAPI provides table data objec
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[HrGetView](itabledata-hrgetview.md) <br/> |Creates a table view, returning a pointer to an [IMAPITable](imapitableiunknown.md) implementation. |
 |[HrModifyRow](itabledata-hrmodifyrow.md) <br/> |Inserts a new table row, possibly replacing an existing row. |

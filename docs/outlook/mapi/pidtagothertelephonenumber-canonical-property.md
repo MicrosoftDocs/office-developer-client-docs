@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60b11733-20c2-4fe9-8406-c3103b2852ba
-description: "Last modified: March 09, 2015"
+description: "Contains an alternate telephone number for the recipient."
 ---
 
 # PidTagOtherTelephoneNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an alternate telephone number for the recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OTHER_TELEPHONE_NUMBER, PR_OTHER_TELEPHONE_NUMBER_A, PR_OTHER_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A1F  <br/> |

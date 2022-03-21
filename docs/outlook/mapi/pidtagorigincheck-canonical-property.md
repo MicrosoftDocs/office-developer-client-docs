@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
-description: "Last modified: March 09, 2015"
+description: "Contains a binary verification value that enables a delivery report recipient to verify the origin of the original message."
 ---
 
 # PidTagOriginCheck Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a binary verification value that enables a delivery report recipient to verify the origin of the original message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGIN_CHECK  <br/> |
 |Identifier:  <br/> |0x0027  <br/> |

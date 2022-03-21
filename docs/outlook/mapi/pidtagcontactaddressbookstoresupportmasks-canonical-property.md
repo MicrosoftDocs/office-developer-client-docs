@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
-description: "Last modified: March 09, 2015"
+description: "Contains flags indicating the store's supported features."
 ---
 
 # PidTagContactAddressBookStoreSupportMasks Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains flags indicating the store's supported features.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_STORE_SUPPORT_MASKS  <br/> |
 |Identifier:  <br/> |0x6621  <br/> |

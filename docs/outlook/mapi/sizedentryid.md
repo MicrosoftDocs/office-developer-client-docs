@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 491170af-db35-4d7e-a912-44ffe8c7506b
-description: "Last modified: March 09, 2015"
+description: "Creates a named ENTRYID structure that contains an ab member of a specified size."
 ---
 
 # SizedENTRYID
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named [ENTRYID](entryid.md) structure that contains an **ab** member of a specified size. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**ENTRYID** <br/> |

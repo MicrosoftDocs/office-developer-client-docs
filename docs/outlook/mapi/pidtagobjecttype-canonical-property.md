@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 37da4ff5-300d-479f-a8b4-6fc36df997d9
-description: "Last modified: March 09, 2015"
+description: "Contains the type of an object."
 ---
 
 # PidTagObjectType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the type of an object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OBJECT_TYPE  <br/> |
 |Identifier:  <br/> |0x0FFE  <br/> |
