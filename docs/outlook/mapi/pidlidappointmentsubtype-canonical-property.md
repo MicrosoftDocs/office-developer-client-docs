@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2e00af3-1fb3-4314-936a-f480674d3d83
-description: "Last modified: March 09, 2015"
+description: "Specifies whether or not the event is all day."
 ---
 
 # PidLidAppointmentSubType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether or not the event is all day.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptSubType  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

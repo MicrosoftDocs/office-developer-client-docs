@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
-description: "Last modified: March 09, 2015"
+description: "Provides information about what a store can support."
 ---
 
 # IMSCapabilities : IUnknown
@@ -24,14 +24,14 @@ description: "Last modified: March 09, 2015"
   
 Provides information about what a store can support.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Provided by:  <br/> |Message store provider  <br/> |
 |Interface identifier:  <br/> |IID_IMSCapabilities  <br/> |
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Returns capabilities of a store based on the specified selection. |
    

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1009f0ea-6f35-484d-b04d-5b6e844c14dd
-description: "Last modified: March 09, 2015"
+description: "Specifies the filename of the sound that a client should play when the reminder for that object becomes overdue."
 ---
 
 # PidLidReminderFileParameter Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the filename of the sound that a client should play when the reminder for that object becomes overdue.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidReminderFileParam  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

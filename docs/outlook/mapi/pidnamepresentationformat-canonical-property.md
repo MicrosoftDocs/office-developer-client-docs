@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dcc7c79a-5036-4e62-bb54-6fe952acbddb
-description: "Last modified: March 09, 2015"
+description: "Specifies the presentation format of the file that is attached to the document."
 ---
 
 # PidNamePresentationFormat Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the presentation format of the file that is attached to the document.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

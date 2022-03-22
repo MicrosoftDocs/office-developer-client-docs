@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9c97df9f-08d7-4223-864f-47286f674e11
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if this message should be returned with a report."
 ---
 
 # PidTagIpmReturnRequested Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if this message should be returned with a report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IPM_RETURN_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0C02  <br/> |

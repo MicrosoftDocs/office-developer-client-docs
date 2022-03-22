@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
-description: "Last modified: March 09, 2015"
+description: "Copies the properties defined by an array of SPropValue structures to a new destination."
 ---
 
 # ScCopyProps
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies the properties defined by an array of [SPropValue](spropvalue.md) structures to a new destination. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

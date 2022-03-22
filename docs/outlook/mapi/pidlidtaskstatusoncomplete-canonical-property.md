@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dfe66d5d-7b82-46c6-871b-2ce809bbca7e
-description: "Last modified: March 09, 2015"
+description: "Indicates whether the task assignee has been requested to send an email message update when they complete the assigned task."
 ---
 
 # PidLidTaskStatusOnComplete Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the task assignee has been requested to send an email message update when they complete the assigned task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskSOC  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
-description: "Last modified: March 09, 2015"
+description: "Contains the display name for the object that is used to design the form."
 ---
 
 # PidTagFormDesignerName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name for the object that is used to design the form. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_DESIGNER_NAME, PR_FORM_DESIGNER_NAME_A, PR_FORM_DESIGNER_NAME_W  <br/> |
 |Identifier:  <br/> |0x3308  <br/> |

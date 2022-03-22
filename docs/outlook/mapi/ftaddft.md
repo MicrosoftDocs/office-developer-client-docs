@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
-description: "Last modified: March 09, 2015"
+description: "Adds one unsigned 64-bit integer to another."
 ---
 
 # FtAddFt
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Adds one unsigned 64-bit integer to another.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

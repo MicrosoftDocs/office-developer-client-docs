@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22f497de-4afe-4433-965d-c3b5a66b05da
-description: "Last modified: March 09, 2015"
+description: "Accesses resources of a Personal Folders file (PST) store provider."
 ---
 
 # IPSTOVERRIDEREQ : IUnknown
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Accesses resources of a Personal Folders file (PST) store provider.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Inherits from:  <br/> |IUnknown  <br/> |
 |Implemented by:  <br/> |PST store provider  <br/> |
@@ -33,7 +33,7 @@ Accesses resources of a Personal Folders file (PST) store provider.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[IPSTOVERRIDEREQ::RegisterTrustedPSTOverrideHandler](ipstoverridereq-registertrustedpstoverridehandler.md) <br/> |Initiates the unlocking procedure for a Personal Folders (.pst) file. |
    

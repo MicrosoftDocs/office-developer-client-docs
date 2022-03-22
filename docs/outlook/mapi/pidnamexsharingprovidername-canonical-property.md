@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d385754-5132-4ae3-9e5d-686d58857b5b
-description: "Last modified: March 09, 2015"
+description: "Represents a user-displayable name of the sharing provider identified by the dispidSharingProviderGuid property."
 ---
 
 # PidNameXSharingProviderName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents a user-displayable name of the sharing provider identified by the **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_INTERNET_HEADERS  <br/> |

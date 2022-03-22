@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c42f2539-f7d6-464a-a82c-f0ac51823168
-description: "Last modified: March 09, 2015"
+description: "A value used to determine the order in which rules are evaluated and executed."
 ---
 
 # PidTagRuleSequence Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 A value used to determine the order in which rules are evaluated and executed. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_SEQUENCE  <br/> |
 |Identifier:  <br/> |0x6676  <br/> |

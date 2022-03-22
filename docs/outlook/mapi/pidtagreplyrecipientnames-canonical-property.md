@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5ae6124-3e44-400f-95c2-24b19f3085b5
-description: "Last modified: March 09, 2015"
+description: "Contains a list of display names for recipients that are to get a reply."
 ---
 
 # PidTagReplyRecipientNames Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of display names for recipients that are to get a reply.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPLY_RECIPIENT_NAMES, PR_REPLY_RECIPIENT_NAMES_A, PR_REPLY_RECIPIENT_NAMES_W  <br/> |
 |Identifier:  <br/> |0x0050  <br/> |

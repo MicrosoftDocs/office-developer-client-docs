@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: acc96b0a-bffb-46ef-8c46-b831d165a346
-description: "Last modified: March 09, 2015"
+description: "Specifies the proposed value for dispidApptStartWhole for a counter proposal."
 ---
 
 # PidLidAppointmentProposedStartWhole Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the proposed value for **dispidApptStartWhole** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) for a counter proposal.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptProposedStartWhole  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |
