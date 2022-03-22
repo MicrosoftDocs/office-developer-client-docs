@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0846415b-6fe1-4504-8620-108af6719015
-description: "Creates a display table from the property page data contained in one or more [DTPAGE](dtpage.md) structures."
+description: "Creates a display table from the property page data contained in one or more DTPAGE structures."
 ---
 
 # BuildDisplayTable

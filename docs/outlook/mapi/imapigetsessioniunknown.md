@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d1b662e2-1516-46b2-ba94-4092d79b5a39
-description: "Provides access to the current MAPI session associated with the support object. MAPI Providers can query their MAPI Support Object for this interface. For more information on support objects, see Support Object Overview."
+description: "Provides access to the current MAPI session associated with the support object. MAPI Providers can query their MAPI Support Object for this interface."
 ---
 
 # IMAPIGetSession : IUnknown
@@ -32,7 +32,7 @@ Provides access to the current MAPI session associated with the support object. 
    
 ## Vtable order
 
-|Member |Value |
+|Member |Description |
 |:-----|:-----|
 |[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Called to obtain a pointer to the current MAPI session. |
    
