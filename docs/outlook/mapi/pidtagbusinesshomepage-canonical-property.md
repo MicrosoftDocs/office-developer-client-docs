@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd3e4568-9730-4648-ba31-28813b5bb471
-description: "Contains the URL of the home page for the business."
+description: "Contains the URL of the home page for the business. These properties are used as a link to the contact's business home page."
 ---
 
 # PidTagBusinessHomePage Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 014ce1aa-30b9-4106-82a1-447c370853cf
-description: "Contains the display name prefix (such as Miss, Mr., Mrs.) for the messaging user. "
+description: "Contains the display name prefix (such as Miss, Mr., Mrs.) for the messaging user. The content is defined by the user and the user's organization."
 ---
 
 # PidTagDisplayNamePrefix Canonical Property

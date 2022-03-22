@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 539aa31d-7dec-4dbb-93f7-fa060c43565a
-description: "This structure is used with HrCreateOfflineObj."
+description: "The MAPIOFFLINE_CREATEINFO structure is used with HrCreateOfflineObj."
 ---
 
 # MAPIOFFLINE_CREATEINFO

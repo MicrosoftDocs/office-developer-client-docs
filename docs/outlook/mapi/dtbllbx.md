@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 971b4837-6823-4f28-9803-3c22b2ec091f
-description: "Describes a list that will be used in a dialog box that is built from a display table."
+description: "Describes a list that will be used in a dialog box that is built from a display table. It shows multiple items and lets a user select one or more of the items."
 ---
 
 # DTBLLBX

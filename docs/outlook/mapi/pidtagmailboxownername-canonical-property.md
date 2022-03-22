@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c8e7acb7-7596-4710-85ba-1feeac464703
-description: "Displays the name of the owner of the mailbox."
+description: "Displays the name of the owner of the mailbox for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagMailboxOwnerName Canonical Property

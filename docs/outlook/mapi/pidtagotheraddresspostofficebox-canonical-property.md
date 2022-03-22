@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: be5d0e43-d8ff-41f9-a472-044b53821667
-description: "Contains the post office box for a contact's other address."
+description: "Contains the post office box for a contact's other address, defined by the user or the user's organization."
 ---
 
 # PidTagOtherAddressPostOfficeBox Canonical Property

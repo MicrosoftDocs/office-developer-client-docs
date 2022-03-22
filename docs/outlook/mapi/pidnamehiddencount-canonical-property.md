@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1e0e0df-356b-47eb-8572-37b7f3d52887
-description: "Specifies the hidden value of the file that is attached to the document."
+description: "Specifies the hidden value of the file that is attached to the document for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameHiddenCount Canonical Property

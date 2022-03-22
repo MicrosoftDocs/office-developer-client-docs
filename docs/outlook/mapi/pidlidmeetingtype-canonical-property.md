@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 290b290c-7836-4a7e-bf1a-8d0225a07e56
-description: "Indicates the type of meeting request or meeting update."
+description: "Indicates the type of meeting request or meeting update. The value of this property must be set to one of the values described here."
 ---
 
 # PidLidMeetingType Canonical Property

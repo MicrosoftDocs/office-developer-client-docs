@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb671826-8c60-4c30-9a9e-ad3184e8a50f
-description: "Contains the name of the task owner."
+description: "Contains the name of the task owner for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidTaskOwner Canonical Property

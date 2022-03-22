@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6149da2f-6e42-429c-bcdb-d517d21df720
-description: "Contains a folder name used for address book entries."
+description: "Contains a folder name used for address book entries for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagContactAddressBookFolderName Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
-description: "Contains a message transfer system (MTS) identifier for the message transfer agent (MTA)."
+description: "Contains a MTS identifier for the MTA. This property is returned by the MTA upon successful completion of message submission."
 ---
 
 # PidTagMessageSubmissionId Canonical Property

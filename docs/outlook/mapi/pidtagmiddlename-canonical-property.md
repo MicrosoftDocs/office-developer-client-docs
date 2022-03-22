@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 25ee04fd-7ea1-4011-a45e-cd2d323e5d69
-description: "Contains the middle name of a contact."
+description: "Contains the middle name of a contact for Outlook 2013 or Outlook 2016. These properties are defined by the user."
 ---
 
 # PidTagMiddleName Canonical Property

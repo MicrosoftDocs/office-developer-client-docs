@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3330ce33-fec5-472b-bb28-16b1410b0eab
-description: "Indicates the entry ID of a remote item."
+description: "Indicates the entry ID of a remote item for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidRemoteEntryId Canonical Property

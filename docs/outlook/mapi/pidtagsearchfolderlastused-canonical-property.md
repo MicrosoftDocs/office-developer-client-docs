@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4071307-6205-4079-ab65-7499d14f145c
-description: "Represents the last time the folder was accessed."
+description: "Represents the last time the folder was accessed, formatted as the number of minutes since midnight UTC January 1, 1601."
 ---
 
 # PidTagSearchFolderLastUsed Canonical Property

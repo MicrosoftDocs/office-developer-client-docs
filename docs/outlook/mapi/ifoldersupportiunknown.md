@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a4b03a66-cf6d-cd20-f1df-b247d3ee87aa
-description: "Provides information about a folder's support for sharing."
+description: "Provides information about a folder's support for sharing. Generally, Outlook requires a MAPI store provider to implement this interface to share a folder."
 ---
 
 # IFolderSupport : IUnknown
