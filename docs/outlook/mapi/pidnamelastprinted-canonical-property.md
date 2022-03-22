@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6ec8a610-7782-4bb1-9b91-fc43c877268c
-description: "Last modified: March 09, 2015"
+description: "Specifies the time when the file was last printed."
 ---
 
 # PidNameLastPrinted Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the time when the file was last printed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

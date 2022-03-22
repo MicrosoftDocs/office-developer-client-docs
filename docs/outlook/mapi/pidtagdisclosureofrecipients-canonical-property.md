@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d77d46cd-6e21-485a-bb0d-dffece562a28
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if disclosure of recipients is allowed."
 ---
 
 # PidTagDisclosureOfRecipients Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if disclosure of recipients is allowed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISCLOSURE_OF_RECIPIENTS  <br/> |
 |Identifier:  <br/> |0x0012  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2e027c0c-2370-437a-ad98-2bbb5e41e525
-description: "Last modified: March 09, 2015"
+description: "Contains the original submission date and time of the message in the report."
 ---
 
 # PidTagOriginalSubmitTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the original submission date and time of the message in the report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SUBMIT_TIME  <br/> |
 |Identifier:  <br/> |0x004E  <br/> |

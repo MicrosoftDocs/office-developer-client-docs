@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 886b4fdd-5d97-4b66-8329-052301e637fc
-description: "Last modified: March 09, 2015"
+description: "If set on a nondelivery report, denotes the name of the failed Send-As user."
 ---
 
 # PidTagNonDeliveryReportFromName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 If set on a nondelivery report, denotes the name of the failed Send-As user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NDR_FROM_NAME  <br/> |
 |Identifier:  <br/> |0x6905  <br/> |

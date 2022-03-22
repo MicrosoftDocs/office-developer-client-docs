@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: beb23742-d844-4d90-9b13-1ad376d4206c
-description: "Last modified: March 09, 2015"
+description: "Contains the display name of the author of the first version of a message, that is, the message before being forwarded or replied to."
 ---
 
 # PidTagOriginalAuthorName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of the author of the first version of a message, that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_AUTHOR_NAME, PR_ORIGINAL_AUTHOR_NAME_A, PR_ORIGINAL_AUTHOR_NAME_W  <br/> |
 |Identifier:  <br/> |0x004D  <br/> |

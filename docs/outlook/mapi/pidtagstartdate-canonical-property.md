@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 908c2d9f-53f4-4aa8-b309-2f3ac2dca5b5
-description: "Last modified: March 09, 2015"
+description: "Contains the starting date and time of an appointment as managed by a scheduling application."
 ---
 
 # PidTagStartDate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the starting date and time of an appointment as managed by a scheduling application.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_START_DATE  <br/> |
 |Identifier:  <br/> |0x0060  <br/> |

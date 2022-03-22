@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
-description: "Last modified: March 09, 2015"
+description: "Retrieves all rows of a table. "
 ---
 
 # HrQueryAllRows
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Retrieves all rows of a table. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

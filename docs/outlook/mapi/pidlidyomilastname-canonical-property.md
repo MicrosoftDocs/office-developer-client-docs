@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d13f8f3-42fb-4942-b8fd-4cad66924811
-description: "Last modified: March 09, 2015"
+description: "Specifies the phonetic pronunciation of the contact's surname."
 ---
 
 # PidLidYomiLastName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the phonetic pronunciation of the contact's surname.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidYomiLastName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

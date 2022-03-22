@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
-description: "Last modified: March 09, 2015"
+description: "Contains a table of attachments for a message."
 ---
 
 # PidTagMessageAttachments Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a table of attachments for a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_ATTACHMENTS  <br/> |
 |Identifier:  <br/> |0x0E13  <br/> |

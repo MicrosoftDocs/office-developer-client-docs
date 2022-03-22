@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6efe9dc3-e988-4042-ab02-2863b5e0f294
-description: "Last modified: March 09, 2015"
+description: "Contains a cyclic redundancy check (CRC) value on the message text."
 ---
 
 # PidTagBodyCrc Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a cyclic redundancy check (CRC) value on the message text.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_BODY_CRC  <br/> |
 |Identifier:  <br/> |0x0E1C  <br/> |

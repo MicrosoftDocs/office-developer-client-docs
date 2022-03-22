@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
-description: "Last modified: March 09, 2015"
+description: "Indicates the receipt status for messages that request receipts."
 ---
 
 # PidTagReportDisposition Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the receipt status for messages that request receipts. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_DISPOSITION, PR_REPORT_DISPOSITION_A, PR_REPORT_DISPOSITION_W  <br/> |
 |Identifier:  <br/> |0x0080  <br/> |

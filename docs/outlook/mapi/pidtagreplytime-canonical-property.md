@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d01f89bd-012e-4f08-9afa-e33aad9679a4
-description: "Last modified: March 09, 2015"
+description: "Contains the deadline on a message."
 ---
 
 # PidTagReplyTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the deadline on a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPLY_TIME  <br/> |
 |Identifier:  <br/> |0x0030  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f489f55-46d4-8a88-6ebe-9db6446e69a5
-description: "Last modified: March 09, 2015"
+description: "Treats a secondary store as private."
 ---
 
 # Make Store Type Private Property
@@ -26,7 +26,7 @@ Treats a secondary store as private.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Exposed on:  <br/> |[IMsgStore : IMAPIProp](imsgstoreimapiprop.md) object  <br/> |
 |Created by:  <br/> |Store provider  <br/> |
@@ -40,7 +40,7 @@ To provide any of the store functionality, the store provider must implement [IM
   
 To retrieve the value of this property, the client should first use [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) to obtain the property tag, and then specify this property tag in [IMAPIProp::GetProps](imapiprop-getprops.md) to get the value. When calling [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), specify the following values for the [MAPINAMEID](mapinameid.md) structure pointed at by the input parameter  _lppPropNames_:
   
-|||
+|Property |Value |
 |:-----|:-----|
 |lpGuid:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |

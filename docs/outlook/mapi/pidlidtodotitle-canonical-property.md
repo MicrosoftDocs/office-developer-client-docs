@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 94cf031f-4c78-441d-9c01-55905b4974e0
-description: "Last modified: March 09, 2015"
+description: "Contains user-specifiable text to identify this message object in a consolidated to-do list."
 ---
 
 # PidLidToDoTitle Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains user-specifiable text to identify this message object in a consolidated to-do list.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidToDoTitle  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
