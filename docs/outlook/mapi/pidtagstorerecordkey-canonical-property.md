@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27347302-bd52-4f62-98f1-6c37f9a66463
-description: "Last modified: March 09, 2015"
+description: "Contains the unique binary-comparable identifier (record key) of the message store in which an object resides."
 ---
 
 # PidTagStoreRecordKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the unique binary-comparable identifier (record key) of the message store in which an object resides.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STORE_RECORD_KEY  <br/> |
 |Identifier:  <br/> |0x0FFA  <br/> |
