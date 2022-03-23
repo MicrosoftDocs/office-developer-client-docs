@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: df239741-6a63-4cd4-9bbb-42c0f5c668a5
-description: "Last modified: March 09, 2015"
+description: "Contains the end time of the publishing range. This value is expressed as the number of minutes since midnight, January 1, 1601, UTC."
 ---
 
 # PidTagFreeBusyPublishEnd Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the end time of the publishing range.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FREEBUSY_PUBLISH_END  <br/> |
 |Identifier:  <br/> |0x6848  <br/> |

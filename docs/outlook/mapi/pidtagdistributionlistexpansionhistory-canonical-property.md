@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fc1e0162-d655-4761-92e7-b469579c270b
-description: "Last modified: March 09, 2015"
+description: "Contains a history showing how a distribution list has been expanded during message transmission."
 ---
 
 # PidTagDistributionListExpansionHistory Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a history showing how a distribution list has been expanded during message transmission. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DL_EXPANSION_HISTORY  <br/> |
 |Identifier:  <br/> |0x0013  <br/> |

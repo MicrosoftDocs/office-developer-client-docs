@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6aaf4b2c-2e78-47f0-a2df-53738c36cbb9
-description: "Last modified: March 09, 2015"
+description: "Contains the display name of a provider for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagProviderDisplayName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of a provider.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W  <br/> |
 |Identifier:  <br/> |0x3418  <br/> |

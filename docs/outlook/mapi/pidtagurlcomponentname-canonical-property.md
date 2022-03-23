@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a21906f9-5408-41ba-a89b-273ab60eeef3
-description: "Last modified: March 09, 2015"
+description: "The URL component name for a message. If not set when the message is created, the message store should set these properties based on various message properties."
 ---
 
 # PidTagUrlComponentName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 The URL component name for a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_URL_COMP_NAME, PR_URL_COMP_NAME_A, PR_URL_COMP_NAME_W  <br/> |
 |Identifier:  <br/> |0x10F3  <br/> |
