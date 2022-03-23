@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a246d1aa-a08c-4687-a24e-168803cfdd6f
-description: "Last modified: March 09, 2015"
+description: "Contains the location of the object in the personal folder store to create or configure for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagPstPath Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the location of the object in the personal folder store to create or configure.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PST_PATH, PR_PST_PATH_A, PR_PST_PATH_W  <br/> |
 |Identifier:  <br/> |0x6700  <br/> |

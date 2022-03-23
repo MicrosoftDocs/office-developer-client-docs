@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3aae4f5-7f00-45bf-b007-370041ba360e
-description: "Last modified: March 09, 2015"
+description: "Specifies the date and time, in UTC, within the recurrence pattern that the exception will replace."
 ---
 
 # PidLidExceptionReplaceTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the date and time within the recurrence pattern that the exception will replace.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidExceptionReplaceTime  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

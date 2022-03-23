@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e336d2ec-57cb-4d08-bd6e-330ef7d9939e
-description: "Last modified: March 09, 2015"
+description: "This property contains TRUE if the remote viewer is allowed to call the IMAPIStatus::ValidateState method."
 ---
 
 # PidTagRemoteValidateOk Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains TRUE if the remote viewer is allowed to call the [IMAPIStatus::ValidateState](imapistatus-validatestate.md) method. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REMOTE_VALIDATE_OK  <br/> |
 |Identifier:  <br/> |0x3E0D  <br/> |

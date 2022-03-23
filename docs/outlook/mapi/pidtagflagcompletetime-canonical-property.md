@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: effc738a-30f4-4a5e-b21d-04b50dad1f45
-description: "Last modified: March 09, 2015"
+description: "Specifies the date and time in Coordinated Universal Time (UTC) that the message object was flagged as completed."
 ---
 
 # PidTagFlagCompleteTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the date and time in Coordinated Universal Time (UTC) that the message object was flagged as completed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FLAG_COMPLETE_TIME  <br/> |
 |Identifier:  <br/> |0x1091  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 97387a82-8e40-4c76-818c-2229fac12e01
-description: "Last modified: March 09, 2015"
+description: "Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's List-Subscribe header field."
 ---
 
 # PidTagListSubscribe Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's List-Subscribe header field.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LIST_SUBSCRIBE, PR_LIST_SUBSCRIBE_A, PR_LIST_SUBSCRIBE_W  <br/> |
 |Identifier:  <br/> |0x1044  <br/> |

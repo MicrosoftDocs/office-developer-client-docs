@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4b57dbad-19b8-4357-b8b1-11f735eafcca
-description: "Last modified: March 09, 2015"
+description: "Indicates the encoding method and HTML inclusion for attachments that should be set on outgoing mail."
 ---
 
 # PidTagInternetMailOverrideFormat Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the encoding method and HTML inclusion for attachments that should be set on outgoing mail.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INETMAIL_OVERRIDE_FORMAT  <br/> |
 |Identifier:  <br/> |0x5902  <br/> |

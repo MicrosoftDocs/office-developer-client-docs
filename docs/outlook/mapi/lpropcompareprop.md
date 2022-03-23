@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
-description: "Last modified: March 09, 2015"
+description: "Compares two property values to determine whether they are equal. Use this function only if the types of the two properties to be compared are the same."
 ---
 
 # LPropCompareProp
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Compares two property values to determine whether they are equal. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

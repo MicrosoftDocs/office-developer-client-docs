@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 45ac19f2-67b4-4a8e-9b56-8941db095464
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient's ISDN-capable telephone number. These properties are defined by the recipient and their organization."
 ---
 
 # PidTagIsdnNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's ISDN-capable telephone number. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ISDN_NUMBER, PR_ISDN_NUMBER_A, PR_ISDN_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A2D  <br/> |

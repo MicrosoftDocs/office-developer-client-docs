@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 34f649c8-29bf-470f-9b05-31b69d069259
-description: "Last modified: March 09, 2015"
+description: "Contains the PR_STORE_SUPPORT_MASK property obtained from the store that contains the Contacts folder."
 ---
 
 # PidTagContactAddressBookStoreSupportMask Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)) property obtained from the store that contains the Contacts folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_STORE_SUPPORT_MASK  <br/> |
 |Identifier:  <br/> |0x6611  <br/> |

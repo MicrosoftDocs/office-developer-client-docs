@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
-description: "Last modified: March 09, 2015"
+description: "Represents a To-Do item's flagged condition for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagToDoItemFlags Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents a To-Do item's flagged condition.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TODO_ITEM_FLAGS  <br/> |
 |Identifier:  <br/> |0x0E2B  <br/> |
@@ -35,9 +35,8 @@ Represents a To-Do item's flagged condition.
 
 This property is a bit field in which each bit should be set to 1 if the associated condition in the following table applies, otherwise 0.
   
-||||
-|:-----|:-----|:-----|
 |Numeric value  <br/> |Name  <br/> |Description  <br/> |
+|:-----|:-----|:-----|
 |Not present  <br/> |N/A  <br/> |Unflagged  <br/> |
 |1  <br/> |todoTimeFlagged  <br/> |Object is time flagged  <br/> |
 |8  <br/> |todoRecipientFlagged  <br/> |Should only be set on a draft message object, and it means that the object is flagged for recipients. |

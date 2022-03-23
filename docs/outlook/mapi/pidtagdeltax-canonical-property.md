@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9bbe996b-1cfc-46d7-bb0a-291c760500ef
-description: "Last modified: March 09, 2015"
+description: "Contains the width of a dialog box control in standard Windows dialog units. This is one of the properties that determine the position and size the dialog box."
 ---
 
 # PidTagDeltaX Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the width of a dialog box control in standard Windows dialog units.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DELTAX  <br/> |
 |Identifier:  <br/> |0x3F03  <br/> |

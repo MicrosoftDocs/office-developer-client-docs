@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 74ed968b-c7bb-41a4-a6f1-9ceba8cdc703
-description: "Last modified: March 09, 2015"
+description: "Represents the value of the dispidSharingRemoteType property for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameXSharingRemoteType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the value of the **dispidSharingRemoteType** ([PidLidSharingRemoteType](pidlidsharingremotetype-canonical-property.md)) property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_INTERNET_HEADERS  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b2545c7a-03da-94d9-1bad-b1637a90080f
-description: "Last modified: March 09, 2015"
+description: "The IPSTX3 : IPSTX2 interface provides helper functionality when performing replication through the IOSTX interface."
 ---
 
 # IPSTX3 : IPSTX2
@@ -24,14 +24,14 @@ description: "Last modified: March 09, 2015"
   
 This interface provides helper functionality when performing replication through the IOSTX interface.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Provided by  <br/> |Query on [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Interface identifier:  <br/> |IID_IPSTX3  <br/> |
    
 ## Vtable order
 
-|||
+|Property |Value |
 |:-----|:-----|
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
    

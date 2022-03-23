@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cf0cf25-d302-44a4-bee8-53f5cff62647
-description: "Last modified: March 09, 2015"
+description: "Specifies the time at which the recipient of the sharing request sent a sharing response. This is a property of a sharing message."
 ---
 
 # PidLidSharingResponseTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the time at which the recipient of the sharing request sent a sharing response. This is a property of a sharing message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingResponseTime  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

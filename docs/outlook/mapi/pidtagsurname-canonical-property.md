@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1663f032-4cdc-43ed-8fdc-a91a3a6a84ff
-description: "Last modified: March 09, 2015"
+description: "Contains the last or surname of the recipient. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagSurname Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the last or surname of the recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SURNAME, PR_SURNAME_A, PR_SURNAME_W  <br/> |
 |Identifier:  <br/> |0x3A11  <br/> |

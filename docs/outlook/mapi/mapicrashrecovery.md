@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4172e2d3-6343-385b-c691-a64c1e198051
-description: "Last modified: March 09, 2015"
+description: "The MAPICrashRecovery function checks the state of the Personal Folders file (PST) or Offline Folders file (OST) shared memory."
 ---
 
 # MAPICrashRecovery
@@ -22,7 +22,7 @@ The **MAPICrashRecovery** function checks the state of the Personal Folders file
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Exported by:  <br/> |olmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |

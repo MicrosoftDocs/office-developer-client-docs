@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e56142fd-204b-497e-83b9-59f9acda6cb4
-description: "Last modified: March 09, 2015"
+description: "Specifies the response status of an attendee for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidResponseStatus Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the response status of an attendee.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidResponseStatus  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

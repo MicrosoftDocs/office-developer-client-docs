@@ -18,7 +18,7 @@ Defines the parameters about the weather conditions of a location.
   
 ## Type information
 
-|||
+|Property |Value |
 |:-----|:-----|
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Schema file** <br/> |getweatherlocation.xsd  <br/> |

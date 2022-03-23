@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
-description: "Last modified: March 09, 2015"
+description: "The message service table contains information about the message services in the current profile. There is one message service table for every MAPI session."
  
  
 ---
@@ -26,7 +26,7 @@ Clients access the message service table by calling the [IMsgServiceAdmin::GetMs
   
 The following properties make up the required column set in the message service table:
   
-|||
+|Property |... |
 |:-----|:-----|
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
 |**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
