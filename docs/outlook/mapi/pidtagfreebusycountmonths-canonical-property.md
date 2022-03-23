@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 278a77f2-65ec-4281-b406-942cc416a476
-description: "Last modified: March 09, 2015"
+description: "Contains the value for calculating the start and end dates of the range of free/busy data to be published to public folders."
 ---
 
 # PidTagFreeBusyCountMonths Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value for calculating the start and end dates of the range of free/busy data to be published to public folders.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FREEBUSY_COUNT_MONTHS  <br/> |
 |Identifier:  <br/> |0x6869  <br/> |

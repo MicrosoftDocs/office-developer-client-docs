@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07fcb881-d873-45bf-b048-30f41d0d8d85
-description: "Last modified: March 09, 2015"
+description: "Contains a subject prefix that typically indicates some action on a message. These properties are recommended on all message objects."
 ---
 
 # PidTagSubjectPrefix Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a subject prefix that typically indicates some action on a message, such as "FW: " for forwarding. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SUBJECT_PREFIX, PR_SUBJECT_PREFIX_A, PR_SUBJECT_PREFIX_W  <br/> |
 |Identifier:  <br/> |0x003D  <br/> |

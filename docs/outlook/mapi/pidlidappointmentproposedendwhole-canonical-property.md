@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6749e7b1-7a66-4aca-92b0-9a23a87fc121
-description: "Last modified: March 09, 2015"
+description: "Specifies the proposed value for the dispidApptEndWhole property for a counter proposal. This value must be specified in UTC."
 ---
 
 # PidLidAppointmentProposedEndWhole Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the proposed value for the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property for a counter proposal.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptProposedEndWhole  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

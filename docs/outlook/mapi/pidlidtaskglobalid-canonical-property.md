@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 369d8c78-3cf6-4a55-ba14-9da0377d6ccf
-description: "Last modified: March 09, 2015"
+description: "Locates an existing task, by using a GUID, upon receipt of a task response or task update. This property is left unset for unassigned tasks."
 ---
 
 # PidLidTaskGlobalId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Locates an existing task, by using a GUID, upon receipt of a task response or task update.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskGlobalObjId  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

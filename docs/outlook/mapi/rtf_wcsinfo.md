@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 0c94501e-0ec7-e836-33a7-adcf5a61b375
-description: "Last modified: March 09, 2015"
+description: "This structure enables you to specify information to decompress the body of a message in compressed RTF and, return the body stream in its native format."
 ---
 
 # RTF_WCSINFO
@@ -42,7 +42,7 @@ typedef struct {
   
 > This is the bitmask of option flags for the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function. The supported option flags are: 
     
-|||
+|Flag |Description |
 |:-----|:-----|
 |MAPI_MODIFY  <br/> |This indicates whether the client intends to write the wrapped stream interface that is returned. |
 |STORE_UNCOMPRESSED_RTF  <br/> |This indicates whether the decompressed RTF is supposed to be written to the stream that is pointed to by the  _lpCompressedRTFStream_ pointer of the [WrapCompressedRTFStreamEx](wrapcompressedrtfstreamex.md) function. |

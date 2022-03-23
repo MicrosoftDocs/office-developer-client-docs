@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cf3a86f4-016e-49d2-a71d-7f3f68e69867
-description: "Last modified: March 09, 2015"
+description: "Contains the county in a contact's address, as defined by the user or the user's organization."
 ---
 
 # PidTagHomeAddressCountry Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the county in a contact's address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME_ADDRESS_COUNTRY, PR_HOME_ADDRESS_COUNTRY_A, PR_HOME_ADDRESS_COUNTRY_W  <br/> |
 |Identifier:  <br/> |0x3A5A  <br/> |

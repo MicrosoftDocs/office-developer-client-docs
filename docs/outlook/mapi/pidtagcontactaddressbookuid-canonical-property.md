@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
-description: "Last modified: March 09, 2015"
+description: "Contains the UID that identifies this session of the Contact Address Book. If you have multiple address books, this property must be set for each one."
 ---
 
 # PidTagContactAddressBookUid Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the UID that identifies this session of the Contact Address Book.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_UID  <br/> |
 |Identifier:  <br/> |0x6601  <br/> |

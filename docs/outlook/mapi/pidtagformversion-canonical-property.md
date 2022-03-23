@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
-description: "Last modified: March 09, 2015"
+description: "Contains the version of a form. The version is defined and maintained by the form's designer. It's not necessarily related to any MAPI component version."
 ---
 
 # PidTagFormVersion Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the version of a form. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_VERSION, PR_FORM_VERSION_A, PR_FORM_VERSION_W  <br/> |
 |Identifier:  <br/> |0x3301  <br/> |

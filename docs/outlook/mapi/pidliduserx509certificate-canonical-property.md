@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f40cd807-7aac-49f4-8e82-b0e5e1634b08
-description: "Last modified: March 09, 2015"
+description: "Contains X.509 version 3 security certificates for a messaging user for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidUserX509Certificate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains X.509 version 3 security certificates for a messaging user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidEMSAbX509Cert  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

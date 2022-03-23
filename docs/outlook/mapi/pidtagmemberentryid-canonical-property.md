@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
-description: "Last modified: March 09, 2015"
+description: "Contains the directory object entry identifier of a system access control list (SACL) table member."
 ---
 
 # PidTagMemberEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the directory object entry identifier of a system access control list (SACL) table member.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MEMBER_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0FFF  <br/> |
