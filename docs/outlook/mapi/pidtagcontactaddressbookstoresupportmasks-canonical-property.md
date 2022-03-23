@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
-description: "Contains flags indicating the store's supported features."
+description: "Contains flags indicating the store's supported features. This property is obtained from the stores which contains the Contacts folders."
 ---
 
 # PidTagContactAddressBookStoreSupportMasks Canonical Property

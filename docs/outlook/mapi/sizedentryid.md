@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 491170af-db35-4d7e-a912-44ffe8c7506b
-description: "Creates a named ENTRYID structure that contains an ab member of a specified size."
+description: "Creates a named ENTRYID structure that contains an ab member of a specified size. Use this macro to create an entry identifier with explicit bounds."
 ---
 
 # SizedENTRYID

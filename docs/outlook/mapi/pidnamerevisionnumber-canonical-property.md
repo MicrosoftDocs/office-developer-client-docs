@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f0ea9833-81b8-4d9d-b91d-1a141c3f3725
-description: "Specifies the revision number of the file that is attached to the document."
+description: "Specifies the revision number of the file that is attached to the document for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameRevisionNumber Canonical Property

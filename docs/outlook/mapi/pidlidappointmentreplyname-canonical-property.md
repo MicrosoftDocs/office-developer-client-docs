@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f3a44d1-600f-412e-bc89-078841db5308
-description: "Specifies the user who last replied to the meeting request or meeting update object."
+description: "Specifies the user who last replied to the meeting request or meeting update object. This property is only set for a delegator when a delegate responded."
 ---
 
 # PidLidAppointmentReplyName Canonical Property

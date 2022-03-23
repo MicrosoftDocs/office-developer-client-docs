@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d29e1f8e-bde8-4a6e-aee8-188cee94fe1a
-description: "Computes the number of bytes in an existing SRowSet structure. "
+description: "Computes the number of bytes in an existing SRowSet structure for Outlook 2013 or Outlook 2016."
 ---
 
 # CbSRowSet

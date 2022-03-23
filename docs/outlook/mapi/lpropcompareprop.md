@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f14ad568-fe45-4875-957d-415d39dc6f28
-description: "Compares two property values to determine whether they are equal. "
+description: "Compares two property values to determine whether they are equal. Use this function only if the types of the two properties to be compared are the same."
 ---
 
 # LPropCompareProp

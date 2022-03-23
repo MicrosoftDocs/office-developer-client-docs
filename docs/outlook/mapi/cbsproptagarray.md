@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5053f27-e23d-4a65-b079-5f33765c33f7
-description: "Computes the number of bytes in an existing SPropTagArray structure."
+description: "Computes the number of bytes in an existing SPropTagArray structure for Outlook 2013 or Outlook 2016."
 ---
 
 # CbSPropTagArray

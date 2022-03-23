@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac7ae09f-ce19-45cf-8963-fad5bba75452
-description: "Provides utility methods for working with tables. MAPI provides table data objects or objects that implement ITableData to help service providers perform table maintenance."
+description: "Provides utility methods for working with tables. MAPI provides objects that implement ITableData to help service providers perform table maintenance."
 ---
 
 # ITableData : IUnknown

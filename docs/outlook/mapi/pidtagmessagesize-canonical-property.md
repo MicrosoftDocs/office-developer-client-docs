@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
-description: "Contains the sum, in bytes, of the sizes of all properties on a message object."
+description: "Contains the sum, in bytes, of the sizes of all properties on a message object. The size indicates the number of bytes that are transferred when the message is moved."
 ---
 
 # PidTagMessageSize Canonical Property

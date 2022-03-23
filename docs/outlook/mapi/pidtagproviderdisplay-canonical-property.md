@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
-description: "Contains the vendor-defined display name for a service provider."
+description: "Contains the vendor-defined display name for a service provider. These properties and PR_PROVIDER_DLL_NAME are defined only on profile sections of service providers."
 ---
 
 # PidTagProviderDisplay Canonical Property

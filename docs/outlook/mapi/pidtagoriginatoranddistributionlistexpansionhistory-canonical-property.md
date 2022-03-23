@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
-description: "Contains information about a message originator and a distribution list expansion history."
+description: "Contains information about a message originator and a distribution list expansion history. This property is used in report generation."
 ---
 
 # PidTagOriginatorAndDistributionListExpansionHistory Canonical Property

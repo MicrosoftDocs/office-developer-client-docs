@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 37da4ff5-300d-479f-a8b4-6fc36df997d9
-description: "Contains the type of an object."
+description: "Contains the type of an object. The object corresponds to the primary interface available for an object accessible through the OpenEntry interface."
 ---
 
 # PidTagObjectType Canonical Property

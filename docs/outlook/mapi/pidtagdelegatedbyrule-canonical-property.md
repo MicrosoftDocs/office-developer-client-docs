@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 284b5001-5de6-4c4e-8e5c-0593ae1b301f
-description: "Indicates whether a folder's message is delegated by a rule."
+description: "Indicates whether a folder's message is delegated by a rule for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagDelegatedByRule Canonical Property

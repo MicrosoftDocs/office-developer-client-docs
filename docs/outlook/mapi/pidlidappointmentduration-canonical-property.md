@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92c07a81-9dec-4118-af1f-02ecad340f07
-description: "Represents the length of time, in minutes, when an appointment is scheduled."
+description: "Represents the length of time, in minutes, when an appointment is scheduled. The value must fall between the value of dispidApptStartWhole and dispidApptEndWhole."
 ---
 
 # PidLidAppointmentDuration Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb7ccb45-ce08-4d22-9259-db15cd267e34
-description: "Represents a To-Do item's flagged condition."
+description: "Represents a To-Do item's flagged condition for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagToDoItemFlags Canonical Property

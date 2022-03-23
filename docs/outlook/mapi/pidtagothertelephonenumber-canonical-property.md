@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60b11733-20c2-4fe9-8406-c3103b2852ba
-description: "Contains an alternate telephone number for the recipient."
+description: "Contains an alternate telephone number for the recipient. These properties are defined by the recipient and their organization."
 ---
 
 # PidTagOtherTelephoneNumber Canonical Property

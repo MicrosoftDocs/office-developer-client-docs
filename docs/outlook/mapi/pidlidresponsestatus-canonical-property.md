@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e56142fd-204b-497e-83b9-59f9acda6cb4
-description: "Specifies the response status of an attendee."
+description: "Specifies the response status of an attendee for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidResponseStatus Canonical Property

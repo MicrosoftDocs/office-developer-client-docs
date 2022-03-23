@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f9ebe20-b037-422b-9991-69f85122a706
-description: "Contains the email address for the messaging user who receives the message."
+description: "Contains the email address for the messaging user who receives the message. These properties must be set by the incoming transport provider."
 ---
 
 # PidTagReceivedByEmailAddress Canonical Property

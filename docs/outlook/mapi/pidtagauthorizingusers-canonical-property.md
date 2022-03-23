@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d291777e-c0c6-4de2-9bf5-5c1d95f3db6c
-description: "Contains a list of entry identifiers for users who have authorized the sending of a message."
+description: "Contains a list of entry identifiers for users who have authorized the sending of a message. The message store does not maintain this property."
 ---
 
 # PidTagAuthorizingUsers Canonical Property

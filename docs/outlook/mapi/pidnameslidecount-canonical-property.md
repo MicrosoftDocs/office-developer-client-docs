@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c410a34a-f71e-4fe7-815b-13bb6433a7fa
-description: "Specifies the number of slides in the file that is attached to the document."
+description: "Specifies the number of slides in the file that is attached to the document for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameSlideCount Canonical Property

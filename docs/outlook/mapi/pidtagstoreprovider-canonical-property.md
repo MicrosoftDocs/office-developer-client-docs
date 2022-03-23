@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f6cc66f-a08e-4f8e-b33a-d3674319248e
-description: "Contains a provider-defined MAPIUID structure that indicates the type of the message store."
+description: "Contains a provider-defined MAPIUID structure that indicates the type of the message store. The value is computed by providers on message store objects."
 ---
 
 # PidTagStoreProvider Canonical Property

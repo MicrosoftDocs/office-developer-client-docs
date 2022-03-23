@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cd9e6a46-2112-4663-891e-5e57b22c0950
-description: "Contains the entry identifier of the predefined common view folder."
+description: "Contains the entry identifier of the predefined common view folder. The common view folder contains a predefined set of standard view specifiers."
 ---
 
 # PidTagCommonViewsEntryId Canonical Property

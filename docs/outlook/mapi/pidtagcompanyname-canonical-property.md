@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 87bc5753-ef39-4275-a850-cfeb340a4a8b
-description: "Contains the recipient's company name."
+description: "Contains the recipient's company name. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagCompanyName Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a3895f90-7561-4b41-92af-ecc8614e4211
-description: "Contains the entry identifier for the folder where search results are typically created."
+description: "Contains the entry identifier for the folder where search results are typically created. This identifier has the same format as the ENTRYID structure."
 ---
 
 # PidTagFinderEntryId Canonical Property

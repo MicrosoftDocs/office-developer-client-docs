@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d16e1adf-c911-427e-9c98-678a303e6791
-description: "Contains an RFC3282 Xref header field value."
+description: "Contains an RFC3282 Xref header field value. To set the value of this property, MIME clients must write the desired value to an XRef header field."
 ---
 
 # PidNameCrossReference Canonical Property

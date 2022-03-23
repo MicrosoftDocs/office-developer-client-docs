@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a03df7e-9ce9-4720-8e58-bc7fa61eb932
-description: "Specifies the postal code (ZIP code) portion of the contact's work address."
+description: "Specifies the postal code (ZIP code) portion of the contact's work address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidWorkAddressPostalCode Canonical Property

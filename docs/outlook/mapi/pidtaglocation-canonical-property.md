@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 99dffcd9-83dc-462e-b0ce-e2101e546cc6
-description: "Contains the location of the recipient in a format that is useful to the recipient's organization. "
+description: "Contains the location of the recipient in a format that is useful to the recipient's organization. These properties are defined by the recipient and their organization."
 ---
 
 # PidTagLocation Canonical Property

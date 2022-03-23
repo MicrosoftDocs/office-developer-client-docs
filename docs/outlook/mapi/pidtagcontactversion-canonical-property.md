@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
-description: "Contains the version of a recipient's contact information."
+description: "Contains the version of a recipient's contact information. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagContactVersion Canonical Property

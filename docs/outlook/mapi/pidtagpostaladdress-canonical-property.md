@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cf400713-3b42-4ee7-9dea-d52b8bf03ac3
-description: "Contains the recipient's postal address."
+description: "Contains the recipient's postal address. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagPostalAddress Canonical Property

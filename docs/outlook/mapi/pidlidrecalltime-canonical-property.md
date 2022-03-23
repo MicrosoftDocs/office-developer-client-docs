@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65aed75f-7e4e-4de9-b219-64dde8891a79
-description: "Denotes the time at which a message recall was initiated."
+description: "Denotes the time at which a message recall was initiated for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidRecallTime Canonical Property
