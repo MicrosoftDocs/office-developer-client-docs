@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
-description: "Contains a table of attachments for a message."
+description: "Contains a table of attachments for a message. This property can be used for subobject restriction by specifying it in the SSubRestriction structure."
 ---
 
 # PidTagMessageAttachments Canonical Property

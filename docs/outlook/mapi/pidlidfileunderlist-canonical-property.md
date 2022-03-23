@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a84d8143-5fe7-4a33-bce4-aebf7a824d5f
-description: "Specifies a list of possible values for the dispidFileUnderId property."
+description: "Specifies a list of possible values for the dispidFileUnderId property. Each value in the multi-value property must be one of the allowed values for dispidFileUnderId."
 ---
 
 # PidLidFileUnderList Canonical Property

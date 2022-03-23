@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 369c2d5c-8c2b-4314-9cb2-aaa89580aa2b
-description: "Describes a row from a table that contains selected properties for a specific object."
+description: "Describes a row from a table that contains selected properties for a specific object. When more than one row needs to be described, an SRowSet structure is used."
 ---
 
 # SRow

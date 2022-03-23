@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
-description: "Contains the name of a contact for information about a form."
+description: "Contains the name of a contact for information about a form. The contact typically contains the person responsible for maintaining the form."
 ---
 
 # PidTagFormContactName Canonical Property

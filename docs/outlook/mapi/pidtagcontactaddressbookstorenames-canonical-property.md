@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d1c3b6d9-75aa-4bc2-9a10-4b9664a8d42e
-description: "Contains the display names of the stores associated with the Address Book."
+description: "Contains the display names of the stores associated with the Address Book. These properties are on a Contact Address Book profile section."
 ---
 
 # PidTagContactAddressBookStoreNames Canonical Property

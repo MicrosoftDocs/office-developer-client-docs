@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 008cadb1-4c8e-4ef7-a072-aa1d75a448cf
-description: "Contains an RFC3282 Content-Transfer-Encoding header field value."
+description: "Contains an RFC3282 Content-Transfer-Encoding header field value for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameContentTransferEncoding Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6d13f8f3-42fb-4942-b8fd-4cad66924811
-description: "Specifies the phonetic pronunciation of the contact's surname."
+description: "Specifies the phonetic pronunciation of the contact's surname for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidYomiLastName Canonical Property

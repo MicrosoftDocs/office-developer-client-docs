@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a418c76-ebc7-47f2-ac91-797162e6e099
-description: "Contains the PR_ENTRYID, expressed as a permanent entry ID format."
+description: "Contains the PR_ENTRYID, expressed as a permanent entry ID format. This value must be present for all address book objects on an NSPI server."
 ---
 
 # PidTagTemplateid Canonical Property

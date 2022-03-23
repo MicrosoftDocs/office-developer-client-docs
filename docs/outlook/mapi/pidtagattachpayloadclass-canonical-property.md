@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bc4de217-8241-45e7-9e97-8f0c1b16691a
-description: "Contains the value of a MIME X-Payload-Class header field."
+description: "Contains the value of a MIME X-Payload-Class header field. MIME readers must copy this header field value to the value of the corresponding property."
 ---
 
 # PidTagAttachPayloadClass Canonical Property

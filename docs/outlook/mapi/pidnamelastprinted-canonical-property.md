@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6ec8a610-7782-4bb1-9b91-fc43c877268c
-description: "Specifies the time when the file was last printed."
+description: "Specifies the time when the file was last printed for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameLastPrinted Canonical Property

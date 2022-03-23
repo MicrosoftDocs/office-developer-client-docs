@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f0d34dd6-7ddb-4843-b848-c89923ff80cc
-description: "Contains the estimated time to download a message from a remote server to a local message store."
+description: "Contains the estimated time, in seconds, to download a message from a remote server to a local message store."
 ---
 
 # PidTagMessageDownloadTime Canonical Property

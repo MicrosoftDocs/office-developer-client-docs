@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 886b4fdd-5d97-4b66-8329-052301e637fc
-description: "If set on a nondelivery report, denotes the name of the failed Send-As user."
+description: "If set on a nondelivery report, denotes the name of the failed Send-As user for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagNonDeliveryReportFromName Canonical Property

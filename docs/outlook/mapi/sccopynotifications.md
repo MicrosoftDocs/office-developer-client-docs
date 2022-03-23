@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac31cf65-a2bc-4c8e-91a4-d2903aa98776
-description: "Copies a group of event notifications to a single block of memory."
+description: "Copies a group of event notifications to a single block of memory for Outlook 2013 or Outlook 2016."
 ---
 
 # ScCopyNotifications

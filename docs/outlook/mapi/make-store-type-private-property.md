@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f489f55-46d4-8a88-6ebe-9db6446e69a5
-description: "Treats a secondary store as private."
+description: "Treats a secondary store as private. A store provider can use this property to have Outlook treat it as private when it is a secondary store for a user."
 ---
 
 # Make Store Type Private Property

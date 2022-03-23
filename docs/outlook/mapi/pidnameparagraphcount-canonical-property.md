@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb7bd25e-5938-4abd-ba2c-c1ad86c75922
-description: "Specifies the number of paragraphs in the file that is attached to the document."
+description: "Specifies the number of paragraphs in the file that is attached to the document for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameParagraphCount Canonical Property

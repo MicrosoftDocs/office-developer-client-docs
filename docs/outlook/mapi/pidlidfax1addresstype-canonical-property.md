@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57b59e5c-fae7-48da-bb4d-90e4482a6e70
-description: "Specifies the address type for the business fax address for a contact."
+description: "Specifies the address type for the business fax address for a contact. This property, if present, must be set to FAX."
 ---
 
 # PidLidFax1AddressType Canonical Property

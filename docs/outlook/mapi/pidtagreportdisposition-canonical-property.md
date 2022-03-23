@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
-description: "Indicates the receipt status for messages that request receipts."
+description: "Indicates the receipt status for messages that request receipts for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReportDisposition Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f311dd2-853e-46f7-966a-c2ab7a1fb6c5
-description: "Contains the message sender's entry identifier."
+description: "Contains the message sender's entry identifier. This property must be set by the outgoing transport provider, which should never propagate previous values."
 ---
 
 # PidTagSenderEntryId Canonical Property

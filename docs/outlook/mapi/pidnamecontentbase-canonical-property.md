@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ab197ace-6e7d-4ec5-9f6d-4a63a1eda11c
-description: "Contains an RFC3282 Content-Base header field value."
+description: "Contains an RFC3282 Content-Base header field value. To set the value, MIME clients must write the value to a Content-Base header field on a MIME entity to message body."
 ---
 
 # PidNameContentBase Canonical Property

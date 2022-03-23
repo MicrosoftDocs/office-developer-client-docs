@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d01f89bd-012e-4f08-9afa-e33aad9679a4
-description: "Contains the deadline on a message."
+description: "Contains the deadline on a message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReplyTime Canonical Property

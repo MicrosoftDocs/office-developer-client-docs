@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b08fadcf-cdf3-48b7-9489-d7f745266482
-description: "Retrieves all rows of a table. "
+description: "Retrieves all rows of a table. A client application or service provider has no control over the number of rows it attempts to retrieve."
 ---
 
 # HrQueryAllRows

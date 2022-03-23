@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2e027c0c-2370-437a-ad98-2bbb5e41e525
-description: "Contains the original submission date and time of the message in the report."
+description: "Contains the original submission date and time of the message in the report. It is not changed when the message is forwarded."
 ---
 
 # PidTagOriginalSubmitTime Canonical Property

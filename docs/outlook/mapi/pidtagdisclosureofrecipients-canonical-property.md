@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d77d46cd-6e21-485a-bb0d-dffece562a28
-description: "Contains TRUE if disclosure of recipients is allowed."
+description: "Contains TRUE if disclosure of recipients is allowed for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagDisclosureOfRecipients Canonical Property

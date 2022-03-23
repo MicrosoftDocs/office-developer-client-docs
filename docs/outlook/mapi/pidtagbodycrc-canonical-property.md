@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6efe9dc3-e988-4042-ab02-2863b5e0f294
-description: "Contains a cyclic redundancy check (CRC) value on the message text."
+description: "Contains a cyclic redundancy check (CRC) value on the message text. The message store can use any CRC algorithm that generates a PT_LONG value."
 ---
 
 # PidTagBodyCrc Canonical Property
