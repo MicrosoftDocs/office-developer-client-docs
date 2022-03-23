@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d8cb407e-5c3a-4b4c-b20e-78efcd373081
-description: "Last modified: March 09, 2015"
+description: "Contains a name for the department in which the recipient works. These properties are defined by the recipient and their organization. "
 ---
 
 # PidTagDepartmentName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a name for the department in which the recipient works. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEPARTMENT_NAME, PR_DEPARTMENT_NAME_A, PR_DEPARTMENT_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A18  <br/> |

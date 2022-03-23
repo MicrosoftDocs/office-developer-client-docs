@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 27b7cbfc-4a76-4ae9-830a-6475dfa18459
-description: "Last modified: March 09, 2015"
+description: "Contains the first or given name of the recipient. These properties are defined by the recipient and their organization."
 ---
 
 # PidTagGivenName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the first or given name of the recipient. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_GIVEN_NAME, PR_GIVEN_NAME_A, PR_GIVEN_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A06  <br/> |

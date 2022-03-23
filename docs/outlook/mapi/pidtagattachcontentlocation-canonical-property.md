@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: af2f776c-1b77-4942-827a-4363eda3924f
-description: "Last modified: March 09, 2015"
+description: "Contains the content location header of a Multipurpose Internet Mail Extensions (MIME) message attachment."
 ---
 
 # PidTagAttachContentLocation Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the content location header of a Multipurpose Internet Mail Extensions (MIME) message attachment. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_CONTENT_LOCATION, PR_ATTACH_CONTENT_LOCATION_A, PR_ATTACH_CONTENT_LOCATION_W  <br/> |
 |Identifier:  <br/> |0x3713  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5004dc1f-6bd3-4764-b83c-d04d83161dba
-description: "Last modified: March 09, 2015"
+description: "Contains a reason why a message transfer agent (MTA) has discarded a message to use in a nondelivery report for the message."
 ---
 
 # PidTagDiscardReason Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a reason why a message transfer agent (MTA) has discarded a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISCARD_REASON  <br/> |
 |Identifier:  <br/> |0x0011  <br/> |

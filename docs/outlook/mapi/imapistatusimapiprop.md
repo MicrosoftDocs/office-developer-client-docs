@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
-description: "Last modified: March 09, 2015"
+description: "Provides status information about the MAPI subsystem, the integrated address book, and the MAPI spooler."
 ---
 
 # IMAPIStatus : IMAPIProp
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides status information about the MAPI subsystem, the integrated address book, and the MAPI spooler. A service provider implements **IMAPIStatus** to supply information about its own status. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Status objects  <br/> |
@@ -36,7 +36,7 @@ Provides status information about the MAPI subsystem, the integrated address boo
    
 ## Vtable order
 
-|||
+|Property |Value |
 |:-----|:-----|
 |[ValidateState](imapistatus-validatestate.md) <br/> |Confirms the external status information available for the MAPI resource or the service provider. |
 |[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Displays a property sheet that enables the user to change a service provider's configuration. |

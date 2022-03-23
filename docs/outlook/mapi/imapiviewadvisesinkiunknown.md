@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
-description: "Last modified: March 09, 2015"
+description: "Receives notifications from forms for Outlook 2013 and Outlook 2016."
 ---
 
 # IMAPIViewAdviseSink : IUnknown
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Receives notifications from forms. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |View advise sink objects  <br/> |
@@ -35,7 +35,7 @@ Receives notifications from forms.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Notifies the form viewer that a form is being closed. |
 |[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Notifies the form viewer that either a new or an existing message has been loaded in a form. |

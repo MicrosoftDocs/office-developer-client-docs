@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
-description: "Last modified: September 07, 2016"
+description: "Contains a MAPI-defined constant representing the way the contents of an attachment can be accessed."
 ---
 
 # PidTagAttachMethod Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: September 07, 2016"
   
 Contains a MAPI-defined constant representing the way the contents of an attachment can be accessed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_METHOD  <br/> |
 |Identifier:  <br/> |0x3705  <br/> |

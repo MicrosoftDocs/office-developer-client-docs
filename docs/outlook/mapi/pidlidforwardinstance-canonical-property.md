@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 055bdcaf-5002-44a6-b2b6-87244b2bea93
-description: "Last modified: March 09, 2015"
+description: "Indicates that the meeting request represents an exception to a recurring series, and it was forwarded rather than being an invitation sent by the organizer."
 ---
 
 # PidLidForwardInstance Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates that the meeting request represents an exception to a recurring series, and it was forwarded (even when forwarded by the organizer) rather than being an invitation sent by the organizer.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFwrdInstance  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

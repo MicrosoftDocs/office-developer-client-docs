@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a903fd22-a3f2-464f-99b0-c087e211b124
-description: "Last modified: March 09, 2015"
+description: "Contains a sized array of entry identifiers for recipients that are to get a reply. This property contains a structure and is not a multivalued property."
 ---
 
 # PidTagReplyRecipientEntries Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a sized array of entry identifiers for recipients that are to get a reply.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPLY_RECIPIENT_ENTRIES  <br/> |
 |Identifier:  <br/> |0x004F  <br/> |

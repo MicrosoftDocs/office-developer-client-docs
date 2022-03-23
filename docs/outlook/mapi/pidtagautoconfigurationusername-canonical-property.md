@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 05dfa0e2-4ab1-4f57-9009-6a815aca87bd
-description: "Last modified: March 09, 2015"
+description: "Represents the user's display name for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagAutoConfigurationUserName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the user's display name.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AUTOCFG_USER_NAME_W  <br/> |
 |Identifier:  <br/> |0x67FE  <br/> |

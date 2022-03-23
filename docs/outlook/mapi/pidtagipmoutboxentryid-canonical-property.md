@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fa03d819-2621-4990-80ae-4140b83a8a85
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the standard interpersonal message (IPM) Outbox folder. Outbound messages are usually created in the Outbox folder."
 ---
 
 # PidTagIpmOutboxEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the standard interpersonal message (IPM) Outbox folder. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IPM_OUTBOX_ENTRYID  <br/> |
 |Identifier:  <br/> |0x35E2  <br/> |
