@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 59c84b1f-13b5-484b-b703-2fb9fcc6c7eb
-description: "Contains a Unicode string that specifies a custom icon or icons to be displayed for a MAPI provider in the Microsoft Office Outlook status bar in both online and offline states."
+description: "Contains a Unicode string that specifies a custom icon or icons to be displayed for a MAPI provider in the Outlook status bar in online and offline states."
 ---
 
 # PidTagProviderIcon Canonical Property

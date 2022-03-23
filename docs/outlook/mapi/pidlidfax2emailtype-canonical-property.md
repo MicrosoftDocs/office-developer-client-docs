@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: db8c3014-fa17-4b76-8a76-e352a0be8233
-description: "Specifies the email type of the contact's home fax address."
+description: "Specifies the email type of the contact's home fax address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidFax2EmailType Canonical Property

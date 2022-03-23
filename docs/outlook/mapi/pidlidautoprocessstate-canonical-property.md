@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e724af6-5b56-4eb3-a94c-1015ebce197c
-description: "Specifies the options that are used in automatic processing of email messages."
+description: "Specifies the options that are used in automatic processing of email messages. The property may be absent."
 ---
 
 # PidLidAutoProcessState Canonical Property

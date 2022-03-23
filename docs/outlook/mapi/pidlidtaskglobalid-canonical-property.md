@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 369d8c78-3cf6-4a55-ba14-9da0377d6ccf
-description: "Locates an existing task, by using a GUID, upon receipt of a task response or task update."
+description: "Locates an existing task, by using a GUID, upon receipt of a task response or task update. This property is left unset for unassigned tasks."
 ---
 
 # PidLidTaskGlobalId Canonical Property

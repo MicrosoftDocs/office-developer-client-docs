@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
-description: "The message service table contains information about the message services in the current profile."
+description: "The message service table contains information about the message services in the current profile. There is one message service table for every MAPI session."
  
  
 ---

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b456b07b-4d83-46bf-a305-4f322ea7dbd1
-description: "Contains TRUE if a folder contains subfolders."
+description: "Contains TRUE if a folder contains subfolders. Message stores must supply this property for all folders."
 ---
 
 # PidTagSubfolders Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 90741a98-0941-454e-a3c0-886583bb576e
-description: "Contains the recipient's office location."
+description: "Contains the recipient's office location, as defined by the recipient and their organization."
 ---
 
 # PidTagOfficeLocation Canonical Property

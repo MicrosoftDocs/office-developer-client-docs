@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cf3a86f4-016e-49d2-a71d-7f3f68e69867
-description: "Contains the county in a contact's address."
+description: "Contains the county in a contact's address, as defined by the user or the user's organization."
 ---
 
 # PidTagHomeAddressCountry Canonical Property

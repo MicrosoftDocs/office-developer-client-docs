@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f0b1679-05b0-4580-b6d2-474fe3f9d012
-description: "Contains a table of a message store's receive folder settings."
+description: "Contains a table of a message store's receive folder settings. Its contents should be accessed by the IMAPIProp::OpenProperty method."
 ---
 
 # PidTagReceiveFolderSettings Canonical Property

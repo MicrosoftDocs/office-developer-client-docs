@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
-description: "Computes the number of bytes in an existing MTSID structure. "
+description: "Computes the number of bytes in an existing MTSID structure for Outlook 2013 or Outlook 2016."
 ---
 
 # CbMTSID

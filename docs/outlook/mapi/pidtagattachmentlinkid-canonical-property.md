@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5d0daae7-248d-459f-9d96-cb949b86f590
-description: "Indicates the type of Message object to which this attachment is linked."
+description: "Indicates the type of Message object to which this attachment is linked. Must be 0, unless overridden by other protocols that extend the protocol."
 ---
 
 # PidTagAttachmentLinkId Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 41262e7a-5f5f-4830-b80c-f1be3e9a3276
-description: "Contains the recipient's street address."
+description: "Contains the recipient's street address, defined by the recipient and the recipient's organization."
 ---
 
 # PidTagStreetAddress Canonical Property

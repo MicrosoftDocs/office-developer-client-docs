@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f6f0491-2a77-4faf-aa8f-303ebf0ea411
-description: "Contains the postal code for the mail user's other postal address."
+description: "Contains the postal code for the mail user's other postal address. These properties are defined by the user or the user's organization."
 ---
 
 # PidTagOtherAddressPostalCode Canonical Property

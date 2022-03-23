@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cbded5d-5aa6-47c5-aa25-416ed9bd3bbe
-description: "Specifies the city or locality portion of the contact's work address."
+description: "Specifies the city or locality portion of the contact's work address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidWorkAddressCity Canonical Property

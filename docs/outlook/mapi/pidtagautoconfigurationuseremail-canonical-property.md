@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
-description: "Represents the user's email address."
+description: "Represents the user's email address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagAutoConfigurationUserEmail Canonical Property

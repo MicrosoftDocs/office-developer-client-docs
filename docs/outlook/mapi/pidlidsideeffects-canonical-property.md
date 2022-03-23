@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
-description: "Controls how a message object is handled by the client when acting on end-user input."
+description: "Contains flags that control how a message object is handled by the client when acting on end-user input."
 ---
 
 # PidLidSideEffects Canonical Property

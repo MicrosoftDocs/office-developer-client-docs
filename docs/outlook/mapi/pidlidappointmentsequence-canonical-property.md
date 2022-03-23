@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
-description: "Specifies the sequence number of a Meeting object."
+description: "Specifies the sequence number of a Meeting object for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidAppointmentSequence Canonical Property

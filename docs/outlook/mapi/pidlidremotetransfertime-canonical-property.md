@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 58f0bae4-0c05-421e-9890-7ac929fe1435
-description: "Indicates the transfer time, in seconds, for a remote item."
+description: "Indicates the transfer time, in seconds, for a remote item for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidRemoteTransferTime Canonical Property

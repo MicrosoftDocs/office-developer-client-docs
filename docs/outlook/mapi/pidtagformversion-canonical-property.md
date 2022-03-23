@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f2220060-65ea-4969-88d7-8348bd5aa242
-description: "Contains the version of a form. "
+description: "Contains the version of a form. The version is defined and maintained by the form's designer. It's not necessarily related to any MAPI component version."
 ---
 
 # PidTagFormVersion Canonical Property
