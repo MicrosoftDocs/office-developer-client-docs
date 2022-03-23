@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b0f5393b-f923-4802-8ea0-daf58cd4bace
-description: "Last modified: March 09, 2015"
+description: "Contains the Entry IDs of the stores in which folders that act as contact address book entries are found."
 ---
 
 # PidTagContactAddressBookStoreEntryIds Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the Entry IDs of the stores in which folders that act as contact address book entries are found.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_STORE_ENTRYIDS  <br/> |
 |Identifier:  <br/> |0x6626  <br/> |

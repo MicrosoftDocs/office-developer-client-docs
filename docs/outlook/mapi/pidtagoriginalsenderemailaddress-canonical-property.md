@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cc86505c-e264-435f-ae21-4a10f0bbf082
-description: "Last modified: March 09, 2015"
+description: "Contains the email address of the sender of the first version of a message, that is, the message before being forwarded or replied to."
 ---
 
 # PidTagOriginalSenderEmailAddress Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the email address of the sender of the first version of a message, that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENDER_EMAIL_ADDRESS, PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A, PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x0067  <br/> |

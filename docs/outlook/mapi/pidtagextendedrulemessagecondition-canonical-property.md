@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 891851e1-e4a4-4c20-a26c-7223bcca35f7
-description: "Last modified: March 09, 2015"
+description: "Contains information about any named properties that are contained inside of extended rule conditions."
 ---
 
 # PidTagExtendedRuleMessageCondition Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains information about any named properties that are contained inside of extended rule conditions.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXTENDED_RULE_MSG_CONDITION  <br/> |
 |Identifier:  <br/> |0x0E9A  <br/> |

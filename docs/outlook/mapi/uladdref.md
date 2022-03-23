@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
-description: "Last modified: March 09, 2015"
+description: "Provides an alternative way to invoke the OLE method IUnknown::AddRef for Outlook 2013 or Outlook 2016."
 ---
 
 # UlAddRef
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides an alternative way to invoke the OLE method **IUnknown::AddRef**. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

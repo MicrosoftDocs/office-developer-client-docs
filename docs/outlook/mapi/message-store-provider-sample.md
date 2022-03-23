@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f1e4077b-7a95-440d-a326-a8dc9cdab4fe
-description: "Last modified: March 09, 2015"
+description: "The Sample Wrapped PST Store Provider uses a Personal Folders file (PST) provider as the back end for storing data."
  
  
 ---
@@ -24,7 +24,7 @@ The Replication API enables you to replicate items from a back-end data reposito
   
 Most of the functions in the Sample Wrapped PST Store Provider pass their arguments directly to the underlying PST provider. Certain functions require special implementation and are described in the following topics.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Executable:  <br/> |WrpPST32.dll  <br/> |
 |Source code directory:  <br/> |SampleWrappedPSTStoreProvider\WrapPST  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 81c2e479-84a1-42ba-a9ce-25e3fc8d80cb
-description: "Last modified: March 09, 2015"
+description: "Contains a generational abbreviation that follows the full name of the recipient. Common values include Jr., Sr., and III."
 ---
 
 # PidTagGeneration Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a generational abbreviation that follows the full name of the recipient. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_GENERATION, PR_GENERATION_A, PR_GENERATION_W  <br/> |
 |Identifier:  <br/> |0x3A05  <br/> |
