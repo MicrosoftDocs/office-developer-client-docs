@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7c3e5a71-7b78-4328-b8ee-265cc4da4be5
-description: "Last modified: March 09, 2015"
+description: "Searches for the last occurrence of a character in a null-terminated string. If the character does not occur, a value of NULL is returned."
 ---
 
 # SzFindLastCh
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Searches for the last occurrence of a character in a null-terminated string. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

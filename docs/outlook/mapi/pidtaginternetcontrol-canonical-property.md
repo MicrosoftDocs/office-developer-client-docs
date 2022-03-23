@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 77442ad2-7f89-4364-8327-5f95c59b720d
-description: "Last modified: March 09, 2015"
+description: "Maps to the MIME Control header for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagInternetControl Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps to the MIME Control header.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_CONTROL, PR_INTERNET_CONTROL_A, PR_INTERNET_CONTROL_W  <br/> |
 |Identifier:  <br/> |0x1031  <br/> |
