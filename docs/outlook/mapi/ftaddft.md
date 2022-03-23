@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341ad06b-1caa-49bb-b859-cb512f6fb55d
-description: "Adds one unsigned 64-bit integer to another."
+description: "Adds one unsigned 64-bit integer to another for Outlook 2013 or Outlook 2016."
 ---
 
 # FtAddFt

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2e00af3-1fb3-4314-936a-f480674d3d83
-description: "Specifies whether or not the event is all day."
+description: "Specifies whether or not the event is all day, as specified by the user."
 ---
 
 # PidLidAppointmentSubType Canonical Property

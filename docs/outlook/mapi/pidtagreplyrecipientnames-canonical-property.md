@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5ae6124-3e44-400f-95c2-24b19f3085b5
-description: "Contains a list of display names for recipients that are to get a reply."
+description: "Contains a list of display names for recipients that are to get a reply. These properties contain the display names separated by semicolons."
 ---
 
 # PidTagReplyRecipientNames Canonical Property

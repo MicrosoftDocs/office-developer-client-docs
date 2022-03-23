@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
-description: "Contains the display name for the object that is used to design the form."
+description: "Contains the display name for the object that is used to design the form for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagFormDesignerName Canonical Property

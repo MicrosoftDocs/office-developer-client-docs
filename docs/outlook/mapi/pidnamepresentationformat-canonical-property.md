@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dcc7c79a-5036-4e62-bb54-6fe952acbddb
-description: "Specifies the presentation format of the file that is attached to the document."
+description: "Specifies the presentation format of the file that is attached to the document for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNamePresentationFormat Canonical Property

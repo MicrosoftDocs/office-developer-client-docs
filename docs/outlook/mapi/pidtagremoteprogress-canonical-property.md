@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
-description: "This property contains a number that indicates the status of a remote transfer."
+description: "This property contains a number that indicates the status of a remote transfer. If no transfer is in progress, this property should be set to 1."
 ---
 
 # PidTagRemoteProgress Canonical Property

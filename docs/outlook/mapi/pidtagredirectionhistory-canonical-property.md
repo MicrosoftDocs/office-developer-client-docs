@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 380ea11c-b1ac-4f54-9034-c52edec4f700
-description: "Contains information about the route covered by a delivered message."
+description: "Contains information about the route covered by a delivered message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRedirectionHistory Canonical Property

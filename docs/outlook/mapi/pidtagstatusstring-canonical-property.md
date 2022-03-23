@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42cd946c-c55a-4371-99ee-05e2248fdd5f
-description: "Contains a message that indicates the current status of a session resource."
+description: "Contains a message that indicates the current status of a session resource, such as the integrated address book or a particular service provider."
 ---
 
 # PidTagStatusString Canonical Property

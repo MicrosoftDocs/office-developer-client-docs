@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 480ec0dc-6c04-4284-99da-aa4b26f5d7d0
-description: "Contains the name of the mail user's other locality, such as the town or city."
+description: "Contains the name of the mail user's other locality, such as the town or city. These properties are defined by the user or the user's organization."
 ---
 
 # PidTagOtherAddressCity Canonical Property

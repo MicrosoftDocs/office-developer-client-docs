@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4f4c40b-b6a8-45f3-b750-07b92c535322
-description: "Contains the search key for the recipient that should get reports for this message."
+description: "Contains the search key for the recipient that should get reports for this message. A client application that must route reports should set this property at submission time."
 ---
 
 # PidTagReportSearchKey Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c42f2539-f7d6-464a-a82c-f0ac51823168
-description: "A value used to determine the order in which rules are evaluated and executed."
+description: "A value used to determine the order in which rules are evaluated and executed. The evaluation order for rules that have the same value in this property is undefined."
 ---
 
 # PidTagRuleSequence Canonical Property

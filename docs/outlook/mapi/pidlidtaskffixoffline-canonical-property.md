@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bbaf7df4-2de0-4da3-9125-eb24dfa94cd8
-description: "Indicates the accuracy of the dispidTaskOwner property."
+description: "Indicates the accuracy of the dispidTaskOwner property for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidTaskFFixOffline Canonical Property

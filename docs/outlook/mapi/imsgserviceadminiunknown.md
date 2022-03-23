@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5905b9e9-c462-451d-a49f-1f3a8aa506a6
-description: "Makes changes to a message service in a profile."
+description: "Makes changes to a message service in a profile. If a client requires the ability to make changes to the active profile, then IMAPISession::AdminServices should be called."
 ---
 
 # IMsgServiceAdmin : IUnknown

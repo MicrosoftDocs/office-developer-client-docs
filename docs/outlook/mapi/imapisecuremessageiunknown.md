@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e6e63104-23db-41a7-a961-d25e2017822e
-description: "Defines methods used to manage secure messages."
+description: "Defines methods used to manage secure messages for Outlook 2013 or Outlook 2016."
 ---
 
 # IMAPISecureMessage : IUnknown

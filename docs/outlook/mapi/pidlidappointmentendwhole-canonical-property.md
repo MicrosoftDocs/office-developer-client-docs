@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6fd33d6-04fb-4801-a004-fb80a14ca79d
-description: "Represents the date and time that an appointment ends."
+description: "Represents the date and time that an appointment ends. This property corresponds to the dispidApptEndWhole property of the appointment in the Outlook object model."
 ---
 
 # PidLidAppointmentEndWhole Canonical Property

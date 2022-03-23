@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: acc96b0a-bffb-46ef-8c46-b831d165a346
-description: "Specifies the proposed value for dispidApptStartWhole for a counter proposal."
+description: "Specifies the proposed value for dispidApptStartWhole for a counter proposal, specified in UTC."
 ---
 
 # PidLidAppointmentProposedStartWhole Canonical Property

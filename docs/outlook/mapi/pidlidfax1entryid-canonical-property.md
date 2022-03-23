@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9aa0b71e-1ee7-411c-a595-cccc5b7c4b0e
-description: "Specifies the EntryID of the contact's business fax address."
+description: "Specifies the EntryID of the contact's business fax address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidFax1EntryId Canonical Property

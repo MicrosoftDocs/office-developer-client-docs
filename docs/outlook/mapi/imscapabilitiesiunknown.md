@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
-description: "Provides information about what a store can support."
+description: "Provides information about what a store can support for Outlook 2013 or Outlook 2016."
 ---
 
 # IMSCapabilities : IUnknown

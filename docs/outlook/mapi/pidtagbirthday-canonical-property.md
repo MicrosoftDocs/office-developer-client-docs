@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 949910b2-2312-4791-9510-c11cca38ec0a
-description: "Contains the birthday of the contact."
+description: "Contains the birthday of the contact. These properties are defined by the user and the user's organization."
 ---
 
 # PidTagBirthday Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b8c0c871-51d8-4752-ad4b-607463a9f837
-description: "Represents the start date and time for the journal message."
+description: "Represents the start date and time, in UTC, for the journal message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidLogStart Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08bc256c-9706-4f3e-9a12-3e9cca5e4caa
-description: "Copies the properties defined by an array of SPropValue structures to a new destination."
+description: "Copies the properties defined by an array of SPropValue structures to a new destination.  ScCopyProps maintains the original property order for the copied property array."
 ---
 
 # ScCopyProps

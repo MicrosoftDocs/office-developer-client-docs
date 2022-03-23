@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9c97df9f-08d7-4223-864f-47286f674e11
-description: "Contains TRUE if this message should be returned with a report."
+description: "Contains TRUE if this message should be returned with a report for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagIpmReturnRequested Canonical Property
