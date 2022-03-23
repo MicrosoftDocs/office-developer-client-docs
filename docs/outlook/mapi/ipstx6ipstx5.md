@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
-description: "Last modified: March 09, 2015"
+description: "This interface provides helper functionality when performing replication through the IOSTX interface."
 ---
 
 # IPSTX6 : IPSTX5
@@ -24,14 +24,14 @@ description: "Last modified: March 09, 2015"
   
 This interface provides helper functionality when performing replication through the IOSTX interface.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Provided by  <br/> |Query on [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Interface identifier:  <br/> |IID_IPSTX6  <br/> |
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |

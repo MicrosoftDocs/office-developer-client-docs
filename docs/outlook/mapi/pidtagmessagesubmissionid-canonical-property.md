@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
-description: "Last modified: March 09, 2015"
+description: "Contains a MTS identifier for the MTA. This property is returned by the MTA upon successful completion of message submission."
 ---
 
 # PidTagMessageSubmissionId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a message transfer system (MTS) identifier for the message transfer agent (MTA).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_SUBMISSION_ID  <br/> |
 |Identifier:  <br/> |0x0047  <br/> |

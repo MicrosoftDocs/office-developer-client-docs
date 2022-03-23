@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 986719d2-8837-46b4-8d04-c24508f5e19a
-description: "Last modified: March 09, 2015"
+description: "Contains the messaging user's email address type, such as SMTP. It specifies which messaging system MAPI uses to handle a given message."
 ---
 
 # PidTagAddressType Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the messaging user's email address type, such as SMTP.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ADDRTYPE, PR_ADDRTYPE_A, PR_ADDRTYPE_W  <br/> |
 |Identifier:  <br/> |0x3002  <br/> |

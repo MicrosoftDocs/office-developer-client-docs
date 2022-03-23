@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
-description: "Last modified: March 09, 2015"
+description: "Contains the password of the personal storage table (.pst file) being configured for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagPstPasswordSzOld Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the password of the personal storage table (.pst file) being configured.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W  <br/> |
 |Identifier:  <br/> |0x6703  <br/> |

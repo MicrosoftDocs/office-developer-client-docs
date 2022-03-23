@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
-description: "Last modified: March 09, 2015"
+description: "Contains the physical forwarding address of a message recipient and is used only with message reports."
 ---
 
 # PidTagPhysicalForwardingAddress Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the physical forwarding address of a message recipient and is used only with message reports.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PHYSICAL_FORWARDING_ADDRESS  <br/> |
 |Identifier:  <br/> |0x0C0D  <br/> |

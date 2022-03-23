@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 341e8db0-52b7-4ba7-aaa6-eedf2783b4e8
-description: "Last modified: March 09, 2015"
+description: "Specifies a unique identifier the messaging server generates for each rule when the rule is first created."
 ---
 
 # PidTagRuleId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies a unique identifier the messaging server generates for each rule when the rule is first created. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_ID  <br/> |
 |Identifier:  <br/> |0x6674  <br/> |
