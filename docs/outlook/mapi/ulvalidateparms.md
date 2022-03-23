@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02c66b46-1f01-43fb-832c-bac27aaae19f
-description: "Calls an internal function to check the parameters client applications have passed to service providers and MAPI."
+description: "Calls an internal function to check the parameters client applications that have passed to service providers and MAPI."
 ---
 
 # UlValidateParms
