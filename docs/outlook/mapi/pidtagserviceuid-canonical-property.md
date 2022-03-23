@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d99a3b6-d0b4-4e8a-8f08-f46fdeb6b3e7
-description: "Last modified: March 09, 2015"
+description: "Contains the structure for a message service. This property is computed by MAPI on profile section objects. MAPI uses it to group providers."
 ---
 
 # PidTagServiceUid Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the [MAPIUID](mapiuid.md) structure for a message service. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICE_UID  <br/> |
 |Identifier:  <br/> |0x3D0C  <br/> |

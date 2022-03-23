@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
-description: "Last modified: March 09, 2015"
+description: "Indicates the client's access level to the object. This property is read-only for the client."
 ---
 
 # PidTagAccessLevel Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the client's access level to the object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ACCESS_LEVEL  <br/> |
 |Identifier:  <br/> |0x0FF7  <br/> |

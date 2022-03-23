@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 19b0b8a5-4907-4d3d-8301-d45591f582c3
-description: "Last modified: March 09, 2015"
+description: "Specifies the country code of the contact's mailing address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidAddressCountryCode Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the country code of the contact's mailing address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidAddressCountryCode  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

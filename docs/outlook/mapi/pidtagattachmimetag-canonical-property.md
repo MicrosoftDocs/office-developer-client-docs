@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
-description: "Last modified: March 09, 2015"
+description: "Contains formatting information about a MIME attachment. These properties are copied from the Content-type parameter of the inbound MIME header."
 ---
 
 # PidTagAttachMimeTag Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains formatting information about a Multipurpose Internet Mail Extensions (MIME) attachment. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_MIME_TAG, PR_ATTACH_MIME_TAG_A, PR_ATTACH_MIME_TAG_W  <br/> |
 |Identifier:  <br/> |0x370E  <br/> |

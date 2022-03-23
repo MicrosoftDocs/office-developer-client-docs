@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the messaging user is allowed to send and receive messages. Use FALSE in a corporate directory where some of the entries are not email-enabled."
 ---
 
 # PidTagMailPermission Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the messaging user is allowed to send and receive messages. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MAIL_PERMISSION  <br/> |
 |Identifier:  <br/> |0x3A0E  <br/> |

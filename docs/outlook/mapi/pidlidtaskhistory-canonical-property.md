@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 104ef21c-b607-48b7-9b06-bc53b7d9b68a
-description: "Last modified: March 09, 2015"
+description: "Indicates the type of change that was last made to the task. When this property is set, dispidTaskLastUpdate must be set to the current time."
 ---
 
 # PidLidTaskHistory Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the type of change that was last made to the task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskHistory  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

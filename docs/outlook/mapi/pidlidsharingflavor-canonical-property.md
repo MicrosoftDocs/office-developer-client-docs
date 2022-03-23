@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c91ab5c7-82ac-4895-bf54-2863ca5e2410
-description: "Last modified: March 09, 2015"
+description: "Designates as a property of a sharing message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidSharingFlavor Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Designates as a property of a sharing message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingFlavor  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

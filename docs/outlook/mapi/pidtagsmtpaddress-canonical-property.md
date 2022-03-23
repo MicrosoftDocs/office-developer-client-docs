@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0ee2db8-7cea-4af4-9646-c02ac7fdeaa3
-description: "Last modified: March 09, 2015"
+description: "Contains the SMTP address for the address book object for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSmtpAddress Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the SMTP address for the address book object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SMTP_ADDRESS, PR_SMTP_ADDRESS_A, PR_SMTP_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x39FE  <br/> |

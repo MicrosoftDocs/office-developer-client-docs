@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
-description: "Last modified: March 09, 2015"
+description: "Indicates where in a message thread a message belongs for Outlook 2013 or Outlook 2016."
 ---
 
 # ScCreateConversationIndex
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates where in a message thread a message belongs. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

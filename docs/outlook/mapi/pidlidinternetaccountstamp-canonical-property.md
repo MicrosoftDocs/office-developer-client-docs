@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 819179fe-e58e-415c-abc7-1949036745ee
-description: "Last modified: March 09, 2015"
+description: "Specifies the email account ID through which the email message is sent. This property can be used by the client to determine which server to direct the mail to."
 ---
 
 # PidLidInternetAccountStamp Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the email account ID through which the email message is sent.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidInetAcctStamp  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

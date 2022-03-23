@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4530dbcf-9436-4f29-b79e-1bb0f791f60b
-description: "Last modified: March 09, 2015"
+description: "Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's Return-Path header field. The email address of the message's sender."
 ---
 
 # PidTagInternetReturnPath Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's Return-Path header field. The email address of the message's sender.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_RETURN_PATH, PR_INTERNET_RETURN_PATH_A, PR_INTERNET_RETURN_PATH_W  <br/> |
 |Identifier:  <br/> |0x1046  <br/> |
@@ -35,7 +35,7 @@ Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's R
 
 To retrieve the value of this property, first use [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) to obtain the property tag, and then specify this property tag in [IMAPIProp::GetProps](imapiprop-getprops.md) to get the value. When calling [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md), specify the following values for the [MAPINAMEID](mapinameid.md) structure pointed at by the input parameter  _lppPropNames_:
   
-|||
+|Property |Value |
 |:-----|:-----|
 |lpGuid:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |ulKind:  <br/> |MNID_STRING  <br/> |

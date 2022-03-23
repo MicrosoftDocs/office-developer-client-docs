@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 240f1144-0805-4cd1-9e7d-f2a550a2f160
-description: "Last modified: March 09, 2015"
+description: "Returns the size of a single property value. The function disregards the size of the remainder of the SPropValue structure."
 ---
 
 # UlPropSize
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the size of a single property value. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
