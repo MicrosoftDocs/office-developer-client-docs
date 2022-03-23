@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ba69a557-120c-4b1e-bbb7-0e901e7d1ebf
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if a client application wants MAPI to delete the associated message after submission. "
 ---
 
 # PidTagDeleteAfterSubmit Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a client application wants MAPI to delete the associated message after submission. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DELETE_AFTER_SUBMIT  <br/> |
 |Identifier:  <br/> |0x0E01  <br/> |

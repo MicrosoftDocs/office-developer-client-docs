@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ae384529-55e2-4da1-9a41-acc292591a7c
-description: "Last modified: March 09, 2015"
+description: "Specifies the date when the user completes the task. If set, this property must have a time component of midnight in the local time zone, converted to UTC."
 ---
 
 # PidLidTaskDateCompleted Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the date when the user completes the task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskDateCompleted  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |
