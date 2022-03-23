@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b20107e3-5e23-4cde-9cd6-670c914ea70a
-description: "Last modified: March 09, 2015"
+description: "Converts a message store's internal entry identifier to an entry identifier more usable by the messaging system."
 ---
 
 # WrapStoreEntryID
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Converts a message store's internal entry identifier to an entry identifier more usable by the messaging system. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
