@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 23074402-6ac1-47f1-8a49-b8909f98a26e
-description: "Last modified: March 09, 2015"
+description: "Contains the type of an entry, with respect to how the entry should be displayed in a row in a table for the Global Address List."
 ---
 
 # PidTagDisplayTypeEx Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the type of an entry, with respect to how the entry should be displayed in a row in a table for the Global Address List. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISPLAY_TYPE_EX  <br/> |
 |Identifier:  <br/> |0x3905  <br/> |

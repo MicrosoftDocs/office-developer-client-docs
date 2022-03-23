@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
-description: "Last modified: March 09, 2015"
+description: "This topic contains an overview of the state machine for Microsoft Outlook 2013 and Microsoft Outlook 2010 data replication."
  
  
 ---
@@ -40,9 +40,8 @@ A client calls **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd](iostx-
 > [!NOTE]
 > The following table lists all the valid states in the replication state machine, along with the corresponding state identifiers and data structures. In the **Data Replicated** column, the term "items" includes mail, calendar, contact, note, journal, and task items. When replicating changes from the local store to the server, use state identifiers specifying "UPLOAD" and data structures with the "UP" prefix (for example, **LR_SYNC_UPLOAD_HIERARCHY** and **[UPHIER](uphier.md)** ). When replicating changes from the server to the local store, use state identifiers specifying "DOWNLOAD" and data structures with the "DN" prefix (for example, **LR_SYNC_DOWNLOAD_HIERARCHY** and **[DNHIER](dnhier.md)** ). 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |**State** <br/> |**Data Replicated** <br/> |**State Identifier** <br/> |**Data Structure** <br/> |
+|:-----|:-----|:-----|:-----|
 |[Idle state](idle-state.md) <br/> | *None*  <br/> |**LR_SYNC_IDLE** <br/> | *None*  <br/> |
 |[Synchronize state](synchronize-state.md) <br/> |Folders or items  <br/> |**LR_SYNC** <br/> |**[SYNC](sync.md)** <br/> |
 |[Upload hierarchy state](upload-hierarchy-state.md) <br/> |Folders  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**[UPHIER](uphier.md)** <br/> |
@@ -61,9 +60,8 @@ A client calls **[IOSTX::SyncBeg](iostx-syncbeg.md)**, **[IOSTX::SyncEnd](iostx-
 
  When uploading a hierarchy of folders, the following sequence of steps takes place: 
   
-|||||
-|:-----|:-----|:-----|:-----|
 |**Step** <br/> |**Action** <br/> |**State** <br/> |**Related Data Structure** <br/> |
+|:-----|:-----|:-----|:-----|
 |1. |The client initiates the hierarchy upload with **IOSTX::SyncBeg**. |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |2. |Outlook 2013 or Outlook 2010 populates **UPHIER** with information for the client. This includes initializing the [out] parameters:  *iEnt*  is set to 0, and  *cEnt*  to the number of folders in the hierarchy that needs uploading. |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |**UPHIER** <br/> |
 |3. |The client does the actual hierarchy upload. As an example, if  *cEnt*  is 10, for each of the 10 folders, the client calls **IOSTX::SyncBeg**, specifying the appropriate state identifier and data structure for uploading a folder. |**LR_SYNC_UPLOAD_FOLDER** <br/> |**UPFLD** <br/> |

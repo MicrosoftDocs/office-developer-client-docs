@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 92a07f7b-d34c-4085-ab11-eadcd918fa1b
-description: "Last modified: March 09, 2015"
+description: "An attachment table contains information about all of the attachment objects that are associated with a submitted message or a message under composition."
 ---
 
 # Attachment tables
@@ -56,7 +56,7 @@ For information about rendering an attachment in formatted text such as Rich Tex
   
 Some of the properties message store providers commonly include in an attachment table because they are easy to compute or retrieve are:
   
-|||
+|Property |... |
 |:-----|:-----|
 |**PR_ATTACH_ENCODING** ([PidTagAttachEncoding](pidtagattachencoding-canonical-property.md))  <br/> |**PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md))  <br/> |
 |**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md))  <br/> |**PR_ATTACH_LONG_FILENAME** ([PidTagAttachLongFilename](pidtagattachlongfilename-canonical-property.md))  <br/> |
