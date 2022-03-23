@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 73752f57-6fbc-0201-bf95-0e75c56c04e6
-description: "This interface provides helper functionality when performing replication through the IOSTX interface."
+description: "This interface provides helper functionality when performing replication by using the IOSTX interface."
 ---
 
 # IPSTX : IUnknown
