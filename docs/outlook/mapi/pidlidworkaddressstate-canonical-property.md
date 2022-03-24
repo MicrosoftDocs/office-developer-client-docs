@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 835f805e-5bf3-4ae6-a69e-41eadb76f450
-description: "Last modified: March 09, 2015"
+description: "Specifies the state or province portion of the contact's work mailing address for Outlook 2013 and Outlook 2016."
 ---
 
 # PidLidWorkAddressState Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the state or province portion of the contact's work mailing address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidWorkAddressState  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

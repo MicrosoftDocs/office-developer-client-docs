@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: da0ad17b-08ac-4c50-ac1d-13062b890dfd
-description: "Last modified: March 09, 2015"
+description: "Contains the date and time when the original message was delivered. This property is a per-recipient property."
 ---
 
 # PidTagDeliverTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time when the original message was delivered. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DELIVER_TIME  <br/> |
 |Identifier:  <br/> |0x0010  <br/> |

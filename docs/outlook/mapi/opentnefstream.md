@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Called by a transport provider to initiate a MAPI Transport Neutral Encapsulation Format (TNEF) session. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Tnef.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

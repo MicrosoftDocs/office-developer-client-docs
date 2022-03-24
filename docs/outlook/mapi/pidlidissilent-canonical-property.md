@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates that the user did not include any text in the body of the meeting response.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |LID_IS_SILENT  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

@@ -50,7 +50,7 @@ DECLARE_MAPI_INTERFACE_(IAttachmentSecurity, IUnknown)
 
 This section contains constant definitions and class and interface identifiers for the MAPI-MIME Conversion API.
   
-|||
+|Constant|Definition|
 |:-----|:-----|
 |CCSF_SMTP  <br/> |0x0002  <br/> |
 |CCSF_NOHEADERS  <br/> |0x0004  <br/> |
@@ -81,7 +81,7 @@ DEFINE_GUID(IID_IConverterSession, 0x4b401570, 0xb77b, 0x11d0, 0x9d, 0xa5, 0x0, 
 
 This section contains constant definitions and class and interface identifiers for the Offline State API.
   
-|||
+|Constant|Definition|
 |:-----|:-----|
 |E_INVALIDARG  <br/> | *As defined in the Microsoft Windows Software Development Kit (SDK) header file winerror.h*  <br/> |
 |E_NOINTERFACE  <br/> | *As defined in the Windows (SDK) header file winerror.h*  <br/> |
@@ -220,7 +220,7 @@ Refer to the section MAPI Store for the PSETID definitions.
   
 ### Other constants
 
-|||
+|Constant|Definition|
 |:-----|:-----|
 |INSP_ONEOFFFLAGS  <br/> |0xD000000  <br/> |
 |INSP_PROPDEFINITION  <br/> |0x2000000  <br/> |
@@ -245,7 +245,7 @@ const MAPIUID g_muidProvPrvNST =
       0x83, 0xB8, 0x7D, 0xE5, 0x22, 0xAA, 0x49, 0x48 };
 ```
 
-|||
+|Constant|Definition|
 |:-----|:-----|
 |DNH_OK  <br/> |0x00010000  <br/> |
 |DNT_OK  <br/> |0x00010000  <br/> |
@@ -366,7 +366,7 @@ DEFINE_GUID (IID_IMessageNoProvChk, 0xC3505457, 0x7B2E, 0x4c3b, 0xA8, 0xD6, 0x6D
 
 This section contains constant definitions and interface identifiers used by APIs that interface with a MAPI store.
   
-||||
+|Constant|Definition|Description|
 |:-----|:-----|:-----|
 |fnevIndexing  <br/> |((ULONG) 0x00010000)  <br/> |A store provider can specify **fnevIndexing** in the **ulEventType** member of the **[NOTIFICATION](notification.md)** structure to notify the indexer that an object is ready for indexing. The **info** member of the **NOTIFICATION** structure contains an **[EXTENDED_NOTIFICATION](extended_notification.md)** structure. |
 |FS_NONE  <br/> |0x00  <br/> |A client can call **[IFolderSupport::GetSupportMask](ifoldersupport-getsupportmask.md)** and check for the returned bitmask. **FS_NONE** indicates that the folder does not support sharing. |
@@ -488,7 +488,7 @@ DEFINE_OLEGUID(IID_IMSCapabilities, 0x00020393, 0, 0)
 
 This section contains constant definitions for the MAPI Address Book.
   
-||||
+|Constant|Definition|Description|
 |:-----|:-----|:-----|
 |CONTAB_ROOT  <br/> |((ULONG) 0x00000001)  <br/> |The root folder for a MAPI address book object. |
 |CONTAB_SUBROOT  <br/> |((ULONG) 0x00000002)  <br/> |A subfolder contained within the root folder of the MAPI address book object. |
@@ -500,7 +500,7 @@ This section contains constant definitions for the MAPI Address Book.
 
 This section contains constant definitions including error codes, and interface identifiers used by MAPI APIs that were not previously exposed and documented.
   
-||||
+|Constant|Definition|Description|
 |:-----|:-----|:-----|
 |DIALOG_MODAL  <br/> |((ULONG) 0x00000001)  <br/> |When a client calls the [IAddrBook::Details](iaddrbook-details.md) method, the client must set the **DIALOG_MODAL** flag in the *ulFlags* parameter to display the modal dialog box showing the details about a particular address book entry. This constant is defined in mapidefs.h. |
 |ITEMPROC_FORCE  <br/> |0x00000800  <br/> |In Outlook 2007, wrapped PST stores have rules and spam filtering processed on new messages before MAPI clients are notified of the new messages. A provider or client using the [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) method to create a new message in PST stores should set the **ITEMPROC_FORCE** flag in the *ulFlags* parameter of the [IMAPIProp::SaveChanges](imapiprop-savechanges.md) method to indicate to the PST store that the message is eligible for rules processing before the store notifies any listening client of the arrival of the new message. Note that such rules processing only applies to new messages created on a server that is not a Microsoft Exchange Server, because Exchange Server processes rules for messages on the server. Hence the provider or client creating the message must pass this flag in combination with **NON_EMS_XP_SAVE**, which indicates the server is not an Exchange server. |
@@ -552,7 +552,7 @@ The following contains error code definitions for the Exchange Address Book and 
   
 Outlook's MAPI supports reconnection to a GC server without special reconfiguration, but some other error codes can be returned to the client.
   
-||||
+|Constant|Definition|Description|
 |:-----|:-----|:-----|
 |MAPI_E_END_OF_SESSION  <br/> |0x80040200  <br/> |Returned when a connection has been disconnected. |
 |MAPI_E_RECONNECTED  <br/> |0x80040125  <br/> |Returned when the Remote Procedure Call (RPC) connection token is out-of-date. If the token of the current transaction is different from the token of the connection that means it has reconnected, so **MAPI_E_RECONNECTED**is returned and can be treated the same as**MAPI_E_END_OF_SESSION**. The call should be retried. |

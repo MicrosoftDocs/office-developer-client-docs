@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
-description: "Last modified: March 09, 2015"
+description: "Enables Microsoft Outlook 2010 and Microsoft Outlook 2013 to choose the most appropriate GAL or contact folder for the current mailbox."
 ---
 
 # PidTagAddressBookChooseDirectoryAutomatically Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Enables Microsoft Outlook 2010 and Microsoft Outlook 2013 to choose the most appropriate global address list (GAL) or contact folder for the current mailbox.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY  <br/> |
 |Identifier:  <br/> |0x3D1C000B  <br/> |

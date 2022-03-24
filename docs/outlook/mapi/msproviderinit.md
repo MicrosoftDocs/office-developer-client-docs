@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Initializes a message store provider for operation.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Implemented by:  <br/> |Message store providers  <br/> |

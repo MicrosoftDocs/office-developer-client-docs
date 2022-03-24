@@ -14,7 +14,7 @@ Supports getting and setting of properties and other information about an accoun
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Inherits from:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
@@ -24,7 +24,7 @@ Supports getting and setting of properties and other information about an accoun
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
 | *Placeholder member*  <br/> | *Not supported or documented.*  <br/> |
@@ -44,7 +44,7 @@ Supports getting and setting of properties and other information about an accoun
    
 ## Properties
 
-|||
+|Property |Value |
 |:-----|:-----|
 |[PROP_ACCT_DELIVERY_FOLDER](prop_acct_delivery_folder.md) <br/> |Represents the Entry ID of the default delivery folder for the account. |
 |[PROP_ACCT_DELIVERY_STORE](prop_acct_delivery_store.md) <br/> |Represents the Entry ID of the default delivery store for the account. |

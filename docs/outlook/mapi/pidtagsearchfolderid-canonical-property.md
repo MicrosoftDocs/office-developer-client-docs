@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2a587d8c-f28b-45a6-a3da-cc33052988dc
-description: "Last modified: March 09, 2015"
+description: "Contains a globally unique identifier (GUID) that identifies the search folder for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSearchFolderId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a globally unique identifier (GUID) that identifies the search folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WB_SF_ID  <br/> |
 |Identifier:  <br/> |0x6842  <br/> |

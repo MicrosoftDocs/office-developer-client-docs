@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the name under which the contact is filed when displaying a list of contacts.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFileUnder  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

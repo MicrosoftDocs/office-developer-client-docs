@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Determines the state of a document file on a server that implements [MS-LISTSWS].
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties  <br/> |dispidOfflineStatus  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

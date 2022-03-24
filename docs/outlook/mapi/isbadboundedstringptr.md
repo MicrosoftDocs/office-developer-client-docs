@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Verifies that the calling process has read access to the specified range of memory.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |mapiwin.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

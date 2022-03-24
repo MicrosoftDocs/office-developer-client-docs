@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c3bea11c-3197-4060-8672-f1b4bf352112
-description: "Last modified: March 09, 2015"
+description: "Specifies whether a photo attachment exists for a contact. If this property is TRUE, the attachment table contains a PR_ATTACHMENT_CONTACTPHOTO property set to TRUE."
 ---
 
 # PidLidHasPicture Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether a photo attachment exists for a contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidHasPicture  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

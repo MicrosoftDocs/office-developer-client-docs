@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 131211b3-e6f9-4dd4-b6d9-b65361bff775
-description: "Last modified: March 09, 2015"
+description: "Contains a value used by the MAPI spooler to track the progress of an outbound message through the outgoing transport providers."
 ---
 
 # PidTagTransportKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value used by the MAPI spooler to track the progress of an outbound message through the outgoing transport providers.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TRANSPORT_KEY  <br/> |
 |Identifier:  <br/> |0x0E16  <br/> |

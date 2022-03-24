@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 802321fb-4261-4c3e-9de3-8b4f490dae13
-description: "Last modified: March 09, 2015"
+description: "Indicates that the object that represents an exception, including an orphan instance."
 ---
 
 # PidLidIsException Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates that the object that represents an exception (including an orphan instance).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |LID_IS_EXCEPTION  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

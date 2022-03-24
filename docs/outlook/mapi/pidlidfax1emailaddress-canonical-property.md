@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the email address of the contact's business fax.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFax1EmailAddress  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

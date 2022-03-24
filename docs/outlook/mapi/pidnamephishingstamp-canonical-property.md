@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
-description: "Last modified: March 09, 2015"
+description: "Contains the message value that identifies and marks messages that are likely to be phishing."
 ---
 
 # PidNamePhishingStamp Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the message value that identifies and marks messages that are likely to be phishing.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

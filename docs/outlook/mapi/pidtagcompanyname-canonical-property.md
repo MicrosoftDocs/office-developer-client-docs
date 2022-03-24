@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 87bc5753-ef39-4275-a850-cfeb340a4a8b
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient's company name. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagCompanyName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's company name. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_COMPANY_NAME, PR_COMPANY_NAME_A, PR_COMPANY_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A16  <br/> |

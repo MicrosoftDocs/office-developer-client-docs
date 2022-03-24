@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd86c8a5-f251-46c3-ace9-515e94e504ac
-description: "Last modified: March 09, 2015"
+description: "Allows the MAPI subsystem to inform a MAPI provider of the fast shutdown of a MAPI client, so that the MAPI provider can respond to the shutdown."
 ---
 
 # IMAPIProviderShutdown : IUnknown
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Allows the MAPI subsystem to inform a MAPI provider of the fast shutdown of a MAPI client, so that the MAPI provider can respond to the shutdown.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Provider objects: [IXPProvider](ixpprovideriunknown.md), [IABProvider](iabprovideriunknown.md), or [IMSProvider](imsprovideriunknown.md) <br/> |
@@ -35,7 +35,7 @@ Allows the MAPI subsystem to inform a MAPI provider of the fast shutdown of a MA
    
 ## Vtable order
 
-|||
+|Property |Value |
 |:-----|:-----|
 |[QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) <br/> |Queries the MAPI provider for fast shutdown support. |
 |[NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) <br/> |Indicates to the MAPI provider that a MAPI client is going to do a fast shutdown, so that the provider can take actions to prevent data loss. |

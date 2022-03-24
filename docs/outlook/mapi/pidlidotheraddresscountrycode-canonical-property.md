@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5358432-dbd3-4216-af0f-4fd01eacec69
-description: "Last modified: March 09, 2015"
+description: "Specifies the country code portion of the contact's other address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidOtherAddressCountryCode Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the country code portion of the contact's other address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidOtherAddressCountryCode  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

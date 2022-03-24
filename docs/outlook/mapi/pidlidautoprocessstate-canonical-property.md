@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e724af6-5b56-4eb3-a94c-1015ebce197c
-description: "Last modified: March 09, 2015"
+description: "Specifies the options that are used in automatic processing of email messages. The property may be absent."
 ---
 
 # PidLidAutoProcessState Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the options that are used in automatic processing of email messages.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSniffState  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

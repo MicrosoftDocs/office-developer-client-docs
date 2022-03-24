@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Opens an [IMAPIFormMgr](imapiformmgriunknown.md) interface on a form library provider object in the context of an existing session. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

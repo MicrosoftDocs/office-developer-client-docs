@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 914c55e9-cb36-46a4-b5ee-382413fa25f9
-description: "Last modified: March 09, 2015"
+description: "Names the most recent user who was the task owner. Before a client sends a task request, acceptance, or rejection, it sets this property."
 ---
 
 # PidLidTaskLastUser Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Names the most recent user who was the task owner.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskLastUser  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

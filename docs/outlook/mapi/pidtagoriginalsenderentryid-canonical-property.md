@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd182589-afea-4967-92f5-ba1914e4db3f
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the sender of the first version of a message, that is, the message before being forwarded or replied to."
 ---
 
 # PidTagOriginalSenderEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the sender of the first version of a message, that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENDER_ENTRYID  <br/> |
 |Identifier:  <br/> |0x005B  <br/> |

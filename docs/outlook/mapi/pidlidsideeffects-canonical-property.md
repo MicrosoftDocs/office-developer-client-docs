@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 90d601d9-5eeb-40b6-885d-ccd8a95ae322
-description: "Last modified: March 09, 2015"
+description: "Contains flags that control how a message object is handled by the client when acting on end-user input."
 ---
 
 # PidLidSideEffects Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Controls how a message object is handled by the client when acting on end-user input.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSideEffects  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

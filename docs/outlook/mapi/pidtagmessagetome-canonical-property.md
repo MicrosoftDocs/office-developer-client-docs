@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: aeb0fa71-f471-46c5-ad9c-f8afb3fed533
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if this messaging user is specifically named as a primary (To) recipient of this message and is not part of a distribution list."
 ---
 
 # PidTagMessageToMe Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if this messaging user is specifically named as a primary (To) recipient of this message and is not part of a distribution list. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_TO_ME  <br/> |
 |Identifier:  <br/> |0x0057  <br/> |

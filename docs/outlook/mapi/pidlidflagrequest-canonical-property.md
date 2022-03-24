@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 38981f07-14b8-47c2-93df-e6aed91896e4
-description: "Last modified: March 09, 2015"
+description: "Represents the status of a meeting request. In Outlook, a meeting request is an appointment item."
 ---
 
 # PidLidFlagRequest Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the status of a meeting request.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRequest  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

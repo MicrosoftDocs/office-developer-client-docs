@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: dcbd12b4-4b50-4be6-a201-45e5d4611ce0
-description: "Last modified: March 09, 2015"
+description: "Contains a flag that is TRUE when contacts should be sorted by File Under and FALSE when they should be sorted by Display Name."
 ---
 
 # PidTagContactAddressBookSortFlag Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a flag that is TRUE when contacts should be sorted by File Under and FALSE when they should be sorted by Display Name. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_SORT_FLAG  <br/> |
 |Identifier:  <br/> |0x6602  <br/> |

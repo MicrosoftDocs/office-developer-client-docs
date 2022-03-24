@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the 32-bit cyclic redundancy check (CRC-32) polynomial checksum for a personal distribution list.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidDLChecksum  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

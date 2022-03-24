@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the contents of the \<title\> field from the XML of the Atom \<feed\> or RSS \<channel\>.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidPostRssChannel  <br/> |
 |Property set:  <br/> |PSETID_PostRss  <br/> |

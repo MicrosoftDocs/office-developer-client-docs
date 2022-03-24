@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents data in custom properties that are saved with the message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFormPropStream  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
