@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 45066528-2447-4178-aaa3-7513ed0b3ba4
-description: "Last modified: March 09, 2015"
+description: "Describes a MAPI verb for Outlook 2013 and Outlook 2016."
 ---
 
 # SMAPIVerb
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a MAPI verb.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    

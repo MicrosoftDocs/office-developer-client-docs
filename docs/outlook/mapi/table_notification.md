@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48e478c4-6e9a-40ab-a7bb-e6219b743b08
-description: "Last modified: March 09, 2015"
+description: "Describes a row in a table that has been affected by some type of event, such as a change or an error. This causes a table notification to be generated."
 ---
 
 # TABLE_NOTIFICATION
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a row in a table that has been affected by some type of event, such as a change or an error. This causes a table notification to be generated. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

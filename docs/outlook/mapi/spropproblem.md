@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
-description: "Last modified: March 09, 2015"
+description: "Describes an error that relate to an operation involving a property for Outlook 2013 and Outlook 2016."
 ---
 
 # SPropProblem
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes an error that relate to an operation involving a property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

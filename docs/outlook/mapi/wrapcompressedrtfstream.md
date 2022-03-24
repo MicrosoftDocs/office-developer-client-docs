@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
-description: "Last modified: March 09, 2015"
+description: "Creates a text stream in uncompressed Rich Text Format from the compressed format used in the PR_RTF_COMPRESSED property."
 ---
 
 # WrapCompressedRTFStream
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a text stream in uncompressed Rich Text Format (RTF) from the compressed format used in the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

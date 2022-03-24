@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6fee29ce-9a34-4e0c-bb71-03120c3f1117
-description: "Last modified: March 09, 2015"
+description: "Describes an OR restriction which is used to apply a logical OR operation to a restriction. "
 ---
 
 # SOrRestriction
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes an **OR** restriction which is used to apply a logical **OR** operation to a restriction. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

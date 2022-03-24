@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e807c6b5-06cd-4ade-9d9e-69ba6abd1614
-description: "Last modified: March 09, 2015"
+description: "Defines a service provider entry point function which the Profile Wizard calls to retrieve information to display the provider's configuration property sheets."
 ---
 
 # WIZARDENTRY
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a service provider entry point function which the Profile Wizard calls to retrieve enough information to display the provider's configuration property sheets. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiwz.h  <br/> |
 |Defined function implemented by:  <br/> |Service providers  <br/> |

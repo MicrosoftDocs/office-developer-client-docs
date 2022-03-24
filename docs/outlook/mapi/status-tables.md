@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f2b2aca7-757f-4260-96a5-d0af55189711
-description: "Last modified: March 09, 2015"
+description: "The status table contains information relating to the state of the current session. There is one status table for every MAPI session."
  
  
 ---
@@ -34,7 +34,7 @@ If the status object provides an identity, it should set **PR_IDENTITY_DISPLAY**
   
 Four properties are computed by MAPI for each status table row:
   
-|||
+|Property |... |
 |:-----|:-----|
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
 |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |**PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30dd19d9-0840-49e9-aec6-ec8d19b1f91d
-description: "Last modified: March 09, 2015"
+description: "Contains a list of attributes for properties of an object. The SPropAttrArray structure is used by property data objects that implement the IPropData:IMAPIProp interface."
 ---
 
 # SPropAttrArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of attributes for properties of an object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Related macros:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 115d845b-4168-4d49-b880-219ee28baa9a
-description: "Last modified: March 09, 2015"
+description: "Contains an array of STnefProblem structures describing one or more processing problems that occurred during the encoding or decoding of a TNEF stream."
 ---
 
 # STnefProblemArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of **STnefProblem** structures describing one or more processing problems that occurred during the encoding or decoding of a Transport Neutral Encapsulation Format (TNEF) stream. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Tnef.h  <br/> |
    
