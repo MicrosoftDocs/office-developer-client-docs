@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a prototype for a message service entry point function to support message service configuration. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Defined function implemented by:  <br/> |Message services  <br/> |

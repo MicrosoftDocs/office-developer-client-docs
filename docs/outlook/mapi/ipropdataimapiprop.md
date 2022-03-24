@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides the ability to retrieve and change the access for an object's properties. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Exposed by:  <br/> |Property data object  <br/> |

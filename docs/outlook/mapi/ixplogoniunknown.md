@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Gives the MAPI spooler access to a transport provider. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Exposed by:  <br/> |Transport logon objects  <br/> |

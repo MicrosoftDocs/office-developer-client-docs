@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Works with the properties of profile section objects. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Exposed by:  <br/> |Profile section objects  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This interface provides helper functionality when performing replication through the **[IOSTX](iostxiunknown.md)** interface. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Provided by  <br/> |Query on [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Interface identifier:  <br/> |IID_IPSTX2  <br/> |

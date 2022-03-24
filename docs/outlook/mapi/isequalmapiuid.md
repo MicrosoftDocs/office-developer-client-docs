@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Tests two [MAPIUID](mapiuid.md) structures to determine whether they contain the same identifier. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**MAPIUID** <br/> |
