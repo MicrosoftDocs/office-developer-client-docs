@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a12fb9a2-799d-4112-b26c-4b2854c47cc2
-description: "Last modified: March 09, 2015"
+description: "Contains a unique binary-comparable identifier for a specific object. This property cannot be used to open an object."
 ---
 
 # PidTagRecordKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a unique binary-comparable identifier for a specific object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECORD_KEY  <br/> |
 |Identifier:  <br/> |0x0FF9  <br/> |

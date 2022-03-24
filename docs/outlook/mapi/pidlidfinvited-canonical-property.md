@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether or not invitations have been sent for the meeting that this meeting represents.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFInvited  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

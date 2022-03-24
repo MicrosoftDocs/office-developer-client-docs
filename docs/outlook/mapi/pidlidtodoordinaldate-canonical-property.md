@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6a500fc-07f4-4788-ae46-d179a96a48e2
-description: "Last modified: March 09, 2015"
+description: "Determines the sort order of objects in a consolidated to-do list. When an object is flagged, this property should be set to the current time."
 ---
 
 # PidLidToDoOrdinalDate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Determines the sort order of objects in a consolidated to-do list.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidToDoOrdinalDate  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

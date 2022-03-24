@@ -14,7 +14,7 @@ Supports accessing and enumerating free/busy blocks of data for a user within a 
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Inherits from:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Provided by:  <br/> |Free/busy provider  <br/> |
@@ -22,7 +22,7 @@ Supports accessing and enumerating free/busy blocks of data for a user within a 
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Next](ienumfbblock-next.md) <br/> |Gets the next specified number of blocks of free/busy data in an enumeration. |
 |[Skip](ienumfbblock-skip.md) <br/> |Skips a specified number of blocks of free/busy data. |

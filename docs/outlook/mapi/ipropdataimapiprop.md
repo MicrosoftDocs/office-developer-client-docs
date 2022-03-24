@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides the ability to retrieve and change the access for an object's properties. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Exposed by:  <br/> |Property data object  <br/> |
@@ -36,7 +36,7 @@ Provides the ability to retrieve and change the access for an object's propertie
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |Sets the access level for the object. |
 |[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Sets the access level and status for one or more of the object's properties. |

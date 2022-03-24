@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0b648ef6-86ed-40ee-b068-8fcde7e0fe75
-description: "Last modified: March 09, 2015"
+description: "Specifies the second display name that corresponds to the email address specified for the contact."
 ---
 
 # PidLidEmail2OriginalDisplayName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the second display name that corresponds to the email address specified for the contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidEmail2OriginalDisplayName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

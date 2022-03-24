@@ -23,14 +23,14 @@ description: "Last modified: March 09, 2015"
   
 This interface provides helper functionality when performing replication through the IOSTX interface.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Provided by  <br/> |Query on [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Interface identifier:  <br/> |IID_IPSTX4  <br/> |
 
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 | *Placeholder member*  <br/> | *Not supported or documented*. |
 

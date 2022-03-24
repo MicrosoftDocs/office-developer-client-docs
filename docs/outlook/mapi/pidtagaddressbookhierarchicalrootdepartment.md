@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c611640b-1a70-4a76-b7ff-c8ad8d320892
-description: "Last modified: March 09, 2015"
+description: "Contains the distinguished name (DN) of the hierarchical address root (HAB). This property is only present in the offline address book."
 ---
 
 # PidTagAddressBookHierarchicalRootDepartment
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
  Contains the distinguished name (DN) of the hierarchical address root (HAB). 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EMS_AB_HAB_ROOT_DEPARTMENT, PR_EMS_AB_HAB_ROOT_DEPARTMENT_A  <br/> |
 |Property set:  <br/> |Address Book  <br/> |

@@ -20,7 +20,7 @@ description: "Compares two property values using a specified relational operator
   
 Compares two property values using a specified relational operator.
   
-|**Value**|**Description**|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

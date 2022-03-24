@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of unsendable attendees.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptUnsendableRecips  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

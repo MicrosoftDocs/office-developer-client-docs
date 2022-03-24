@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Computes the number of bytes in an existing [SMessageClassArray](smessageclassarray.md) structure that contains a specified number of string pointers to message classes. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SMessageClassArray** <br/> |

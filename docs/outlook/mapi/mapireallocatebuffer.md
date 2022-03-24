@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Reallocates a memory buffer. It is used with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |omapix.h  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |

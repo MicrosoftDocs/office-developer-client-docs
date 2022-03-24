@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d348988d-a84e-4318-8d48-62e4982ebaf1
-description: "Last modified: March 09, 2015"
+description: "Specifies the start date and time of the event for single instance calendar objects or midnight on the date of the first instance for a recurring series."
 ---
 
 # PidLidClipStart Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the start date and time of the event in Coordinated Universal Times (UTC) for single instance calendar objects, and specifies midnight on the date of the first instance in UTC for a recurring series.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidClipStart  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

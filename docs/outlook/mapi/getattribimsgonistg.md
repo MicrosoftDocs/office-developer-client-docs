@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Retrieves attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

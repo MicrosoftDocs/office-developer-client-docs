@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8636774b-1fff-4b29-bc12-4d0bd63fcba2
-description: "Last modified: March 09, 2015"
+description: "Specifies whether adding additional recipients, when forwarding the message, is prohibited for the email message."
 ---
 
 # PidTagRecipientReassignmentProhibited Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether adding additional recipients, when forwarding the message, is prohibited for the email message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_REASSIGNMENT_PROHIBITED  <br/> |
 |Identifier:  <br/> |0x002B  <br/> |

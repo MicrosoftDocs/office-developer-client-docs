@@ -53,9 +53,8 @@ On a computer, all store providers that want to be indexed must be registered un
 
 The MAPI property **[PR_MDB_PROVIDER](pidtagstoreprovider-canonical-property.md)** specifies the GUID of a MAPI store. The GUIDs for the store providers that Outlook indexes are described in the following table. 
   
-||||
+|Type of Store Provider |GUID |Notes |
 |:-----|:-----|:-----|
-|**Type of Store Provider** <br/> |**GUID** <br/> |**Notes** <br/> |
 |Personal Folders files (.PST)  <br/> |{4154494E-BFF9-01B8-00AA-0037D96E0000}  <br/> |GUID is documented in the public header file mspst.h as **MSPST_UID_PROVIDER** <br/> |
 |Exchange  <br/> |{C0A19454-7F29-1B10-A587-08002B2A2517}  <br/> |GUID is documented in the public header file edkmdb.h as **pbExchangeProviderPrimaryUserGuid** <br/> |
 |Public folders  <br/> |{70fab278-f7af-cd11-9bc8-00aa002fc45a}  <br/> |GUID is documented in the public header file edkmdb.h as **pbExchangeProviderPublicGuid** <br/> |

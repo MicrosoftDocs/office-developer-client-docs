@@ -25,16 +25,16 @@ Indicates whether the **Replace Shape** button should be disabled for this page.
 
 To get a reference to the **PageLockReplace** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | PageLockReplace  <br/> |
+| **Cell name:**  <br/> | PageLockReplace  <br/> |
    
 To get a reference to the **PageLockReplace** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowPage** <br/> |
-| Cell index:  <br/> |**visPageLockReplace** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowPage** <br/> |
+| **Cell index:**  <br/> |**visPageLockReplace** <br/> |
    
 

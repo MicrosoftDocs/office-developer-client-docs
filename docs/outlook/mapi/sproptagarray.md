@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a9e1579-bebe-4a51-8ced-6dba9c3bcb63
-description: "Last modified: March 09, 2015"
+description: "Contains an array of property tags. A property tag is a 32-bit unsigned integer that consists of two parts."
 ---
 
 # SPropTagArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of property tags. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewSPropTagArray](cbnewsproptagarray.md), [CbSPropTagArray](cbsproptagarray.md), [SizedSPropTagArray](sizedsproptagarray.md) <br/> |

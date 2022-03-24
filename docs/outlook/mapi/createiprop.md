@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a property data object, that is, an [IPropData](ipropdataimapiprop.md) object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
