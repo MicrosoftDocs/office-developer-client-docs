@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the value of the CalendarType field from the **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) property.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |LID_CALENDAR_TYPE  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

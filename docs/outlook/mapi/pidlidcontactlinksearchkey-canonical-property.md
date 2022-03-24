@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the list of **SearchKeys** for the contact linked to by this message object. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidContactLinkSearchKey  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

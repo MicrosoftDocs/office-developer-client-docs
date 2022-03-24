@@ -20,7 +20,7 @@ Message service entry point function for a MAPI store provider to wrap a PST-bas
   
 ## Quick info
 
-|||
+|Property|Value|
 |:-----|:-----|
 |Implemented by:  <br/> |MAPI provider  <br/> |
 |Called by:  <br/> |MAPI  <br/> |
