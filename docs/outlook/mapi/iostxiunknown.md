@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f
-description: "Last modified: March 09, 2015"
+description: "Provides synchronization methods. This interface retrieves necessary information to replicate local changes to the server and server changes to the local store."
 ---
 
 # IOSTX : IUnknown
@@ -24,14 +24,14 @@ description: "Last modified: March 09, 2015"
   
 Provides synchronization methods. This interface retrieves the necessary information to replicate local changes to the server and server changes to the local store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Provided by:  <br/> |[IPSTX::GetSyncObject](iostx-setsyncresult.md) <br/> |
 |Interface identifier:  <br/> |IID_IOSTX  <br/> |
    
 ## Vtable order
 
-|||
+|Property |Value |
 |:-----|:-----|
 |[GetLastError](iostx-getlasterror.md) <br/> |Gets extended information about the last error. |
 |[InitSync](iostx-initsync.md) <br/> |Informs the local store that synchronization is about to start. |

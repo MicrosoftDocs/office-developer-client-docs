@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 164eb9dd-e553-459e-99c1-3da0284bb01f
-description: "Last modified: March 09, 2015"
+description: "Contains the search key for the sender of the first version of a message, that is, the message before being forwarded or replied to."
 ---
 
 # PidTagOriginalSenderSearchKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the search key for the sender of the first version of a message, that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENDER_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x005C  <br/> |

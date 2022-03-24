@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f4bd5ddb-f1e7-4e2a-b312-b1884f78cc1a
-description: "Last modified: March 09, 2015"
+description: "Contains the category of a form. The category name is defined by a client application in a way that is appropriate to the application."
 ---
 
 # PidTagFormCategory Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the category of a form. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_CATEGORY, PR_FORM_CATEGORY_A, PR_FORM_CATEGORY_W  <br/> |
 |Identifier:  <br/> |0x3304  <br/> |

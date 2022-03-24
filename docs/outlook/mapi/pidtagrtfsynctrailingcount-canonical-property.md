@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
-description: "Last modified: March 09, 2015"
+description: "Contains a count of the ignorable characters that appear after the significant characters of the message."
 ---
 
 # PidTagRtfSyncTrailingCount Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a count of the ignorable characters that appear after the significant characters of the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RTF_SYNC_TRAILING_COUNT  <br/> |
 |Identifier:  <br/> |0x1011  <br/> |

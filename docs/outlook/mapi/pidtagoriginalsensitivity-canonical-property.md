@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70a87cf8-2011-4669-90fd-2711c3352e30
-description: "Last modified: March 09, 2015"
+description: "Contains the sensitivity value assigned by the sender of the first version of a message that is, the message before being forwarded or replied to."
 ---
 
 # PidTagOriginalSensitivity Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the sensitivity value assigned by the sender of the first version of a message that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENSITIVITY  <br/> |
 |Identifier:  <br/> |0x002E  <br/> |

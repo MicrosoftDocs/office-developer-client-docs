@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 53d94bdb-b95b-48de-bbad-1263ff53e379
-description: "Last modified: March 09, 2015"
+description: "Contains a secondary telephone number at the recipient's place of business. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagBusiness2TelephoneNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a secondary telephone number at the recipient's place of business. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_BUSINESS2_TELEPHONE_NUMBER, PR_BUSINESS2_TELEPHONE_NUMBER_A, PR_BUSINESS2_TELEPHONE_NUMBER_W, PR_OFFICE2_TELEPHONE_NUMBER, PR_OFFICE2_TELEPHONE_NUMBER_A, PR_OFFICE2_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A1B  <br/> |

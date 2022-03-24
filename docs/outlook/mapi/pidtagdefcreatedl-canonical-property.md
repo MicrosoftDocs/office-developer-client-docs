@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 172dc15b-7bda-403f-a93a-446b2f9ff1d3
-description: "Last modified: March 09, 2015"
+description: "Contains the template entry identifier for a default distribution list. Client applications use this property to create a distribution list within a container."
 ---
 
 # PidTagDefCreateDl Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the template entry identifier for a default distribution list. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEF_CREATE_DL  <br/> |
 |Identifier:  <br/> |0x3611  <br/> |
