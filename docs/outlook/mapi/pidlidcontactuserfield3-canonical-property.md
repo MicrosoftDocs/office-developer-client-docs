@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the third field on the contact that is intended for miscellaneous use for the contact.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidContactUserField3  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |
