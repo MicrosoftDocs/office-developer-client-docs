@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
-description: "Specifies the weather conditions of a location."
+description: "Specifies the weather conditions for a location."
 ---
 
 # weather element (weatherdata element) (Outlook Weather Information Schema)

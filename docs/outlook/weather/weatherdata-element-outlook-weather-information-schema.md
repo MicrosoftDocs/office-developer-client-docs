@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 84b16927-964e-24be-feaa-e0c11cf062f3
-description: "Defines the weather element."
+description: "Defines a weather element."
 ---
 
 # weatherdata element (Outlook Weather Information Schema)

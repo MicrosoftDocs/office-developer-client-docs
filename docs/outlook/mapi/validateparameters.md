@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
-description: "Calls an internal function to check the parameters client applications have passed to service providers."
+description: "Calls an internal function to check the parameters client applications have passed to service providers for Outlook 2013 and Outlook 2016."
 ---
 
 # ValidateParameters
