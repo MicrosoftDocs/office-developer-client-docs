@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 694d40e9-cff2-435e-ad90-446044c306d2
-description: "Last modified: March 09, 2015"
+description: "Maps an enumerated integer value to a display name for that value for Outlook 2013 and Outlook 2016."
 ---
 
 # SMAPIFormPropEnumVal
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps an enumerated integer value to a display name for that value. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    

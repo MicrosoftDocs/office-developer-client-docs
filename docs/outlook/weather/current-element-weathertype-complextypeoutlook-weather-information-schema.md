@@ -18,7 +18,7 @@ Specifies the current weather conditions.
   
 ## Element information
 
-|||
+|Property |Value |
 |:-----|:-----|
 |**Element type** <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |

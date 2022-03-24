@@ -18,7 +18,7 @@ Defines the weather element.
   
 ## Element information
 
-|||
+|Property |Value |
 |:-----|:-----|
 |**Element type** <br/> ||
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
-description: "Last modified: March 09, 2015"
+description: "Contains an array of pointers to form information objects for Outlook 2013 and Outlook 2016."
 ---
 
 # SMAPIFormInfoArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of pointers to form information objects. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related macro:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |

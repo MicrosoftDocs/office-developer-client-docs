@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1ae24ad-1bbb-4dee-b414-b5226593b6fa
-description: "Last modified: March 09, 2015"
+description: "Contains an array of character strings that are used to describe a property of type PT_MV_UNICODE."
 ---
 
 # SWStringArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of character strings that are used to describe a property of type PT_MV_UNICODE. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

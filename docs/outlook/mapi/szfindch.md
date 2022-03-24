@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3406d060-bfea-4cea-8253-2a9aeb9e8147
-description: "Last modified: March 09, 2015"
+description: "Searches for the first occurrence of a character in a null-terminated string. Searches in the Unicode and DBCS formats are supported."
 ---
 
 # SzFindCh
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Searches for the first occurrence of a character in a null-terminated string. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
-description: "Last modified: March 09, 2015"
+description: "Calls an internal function to check the parameters client applications have passed to service providers."
 ---
 
 # ValidateParameters
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Calls an internal function to check the parameters client applications have passed to service providers. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapival.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

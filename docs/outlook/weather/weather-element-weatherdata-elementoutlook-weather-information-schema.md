@@ -18,7 +18,7 @@ Specifies the weather conditions of a location.
   
 ## Element information
 
-|||
+|Property |Value |
 |:-----|:-----|
 |**Element type** <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
 |**Namespace** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |

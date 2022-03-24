@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
-description: "Last modified: March 09, 2015"
+description: "Decompresses the the body of an email message that is in compressed RTF indicates the format of the stream, and returns the decompressed or converted native stream."
 ---
 
 # WrapCompressedRTFStreamEx
@@ -18,7 +18,7 @@ Decompresses the the body of an email message that is in compressed Rich Text Fo
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Exported by:  <br/> |msmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |

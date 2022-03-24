@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e7340d1-3cb9-4276-b83f-1c8f94acb909
-description: "Last modified: March 09, 2015"
+description: "Describes a size restriction which is used to test the size of a property value for Outlook 2013 and Outlook 2016."
 ---
 
 # SSizeRestriction
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a size restriction which is used to test the size of a property value. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8736f75c-3e95-42dd-9bc1-2f0bd23c4a02
-description: "Last modified: March 09, 2015"
+description: "Contains an array of SMAPIVerb structures that describe MAPI verbs for Outlook 2013 and Outlook 2016."
 ---
 
 # SMAPIVerbArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related macro:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |

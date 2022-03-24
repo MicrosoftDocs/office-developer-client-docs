@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
-description: "Last modified: March 09, 2015"
+description: "Describes a NOT restriction, which is used to apply a logical NOT operation to a restriction."
 ---
 
 # SNotRestriction
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a **NOT** restriction, which is used to apply a logical **NOT** operation to a restriction. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
