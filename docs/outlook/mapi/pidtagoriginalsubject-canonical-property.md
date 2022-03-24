@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8668ba4f-3236-4a87-a5aa-9cf7eea3d87b
-description: "Last modified: March 09, 2015"
+description: "Contains the subject of an original message for use in a report about the message."
 ---
 
 # PidTagOriginalSubject Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the subject of an original message for use in a report about the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SUBJECT, PR_ORIGINAL_SUBJECT_A, PR_ORIGINAL_SUBJECT_W  <br/> |
 |Identifier:  <br/> |0x0049  <br/> |

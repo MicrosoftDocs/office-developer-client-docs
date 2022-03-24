@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6ac438a1-d36f-424f-b4b4-d6f2d26fd350
-description: "Last modified: March 09, 2015"
+description: "Specifies the value of the PR_CONTAINER_CLASS property of the folder that is being shared. This is a property of a sharing message."
 ---
 
 # PidLidSharingLocalType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the value of the **PR_CONTAINER_CLASS** ([PidTagContainerClass](pidtagcontainerclass-canonical-property.md)) property of the folder that is being shared. This is a property of a sharing message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingLocalType  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

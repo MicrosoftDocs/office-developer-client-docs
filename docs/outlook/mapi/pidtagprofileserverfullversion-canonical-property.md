@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
-description: "Last modified: March 09, 2015"
+description: "Specifies complete version and build information about the Microsoft Exchange Server to which accounts in a profile are connected."
 ---
 
 # PidTagProfileServerFullVersion Canonical Property
@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies complete version and build information about the Microsoft Exchange Server to which accounts in a profile are connected.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROFILE_SERVER_FULL_VERSION  <br/> |
 |Identifier:  <br/> |0x663B  <br/> |

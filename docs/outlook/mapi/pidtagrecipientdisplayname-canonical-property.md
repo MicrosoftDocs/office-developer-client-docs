@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8373edff-ef3e-4491-8cf3-e6609e1cb9b0
-description: "Last modified: March 09, 2015"
+description: "Contains the value of the PR_DISPLAY_NAME property for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRecipientDisplayName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_A, PR_RECIPIENT_DISPLAY_NAME_W  <br/> |
 |Identifier:  <br/> |0x5FF6  <br/> |

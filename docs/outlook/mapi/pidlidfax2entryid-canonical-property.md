@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0a67151-769b-4034-a182-3e4a5a86deb0
-description: "Last modified: March 09, 2015"
+description: "Specifies the EntryID of the contact's home fax address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidFax2EntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the EntryID of the contact's home fax address.
   
-|Property|Value|
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFax2EntryID  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0c2014a-6112-4c90-9be0-babb2e377402
-description: "Last modified: March 09, 2015"
+description: "Contains the mileage information that is associated with an item for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidMileage Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the mileage information that is associated with an item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidMileage  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

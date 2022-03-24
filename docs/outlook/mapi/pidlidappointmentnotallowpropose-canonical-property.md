@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8be9e2aa-2dc1-406d-8864-7f556de22809
-description: "Last modified: March 09, 2015"
+description: "Indicates whether attendees are not allowed to propose a new date/time for the meeting."
 ---
 
 # PidLidAppointmentNotAllowPropose Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether attendees are not allowed to propose a new date/time for the meeting.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptNotAllowPropose  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

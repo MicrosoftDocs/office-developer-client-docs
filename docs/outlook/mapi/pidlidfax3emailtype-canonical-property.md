@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 31076833-363f-4914-ba60-ab6f478d0cf5
-description: "Last modified: March 09, 2015"
+description: "Specifies the email type of the contact's other fax address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidFax3EmailType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the email type of the contact's other fax address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFax3EmailType  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

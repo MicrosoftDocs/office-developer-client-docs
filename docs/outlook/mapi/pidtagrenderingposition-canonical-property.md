@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bce46687-17dc-4a3f-96be-303d8755158e
-description: "Last modified: March 09, 2015"
+description: "Contains an offset, in characters, to use in rendering an attachment within the main message text. This property should not be used with Rich Text Format (RTF) text."
 ---
 
 # PidTagRenderingPosition Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an offset, in characters, to use in rendering an attachment within the main message text.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RENDERING_POSITION  <br/> |
 |Identifier:  <br/> |0x370B  <br/> |

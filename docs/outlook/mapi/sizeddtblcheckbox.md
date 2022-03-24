@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
-description: "Last modified: March 09, 2015"
+description: "Creates a named structure that includes a DTBLCHECKBOX structure for describing a check box control and a label of a specified length."
 ---
 
 # SizedDtblCheckBox
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named structure that includes a [DTBLCHECKBOX](dtblcheckbox.md) structure for describing a check box control and a label of a specified length. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLCHECKBOX** <br/> |

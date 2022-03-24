@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 124b9f05-032d-42f1-a3d3-4f4c9b9f7a06
-description: "Last modified: March 09, 2015"
+description: "Contains an organizational ID number for the contact, such as an employee ID number. These are optional. The messaging user or organization determine their use."
 ---
 
 # PidTagOrganizationalIdNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an organizational ID number for the contact, such as an employee ID number.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORGANIZATIONAL_ID_NUMBER, PR_ORGANIZATIONAL_ID_NUMBER_A, PR_ORGANIZATIONAL_ID_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A10  <br/> |

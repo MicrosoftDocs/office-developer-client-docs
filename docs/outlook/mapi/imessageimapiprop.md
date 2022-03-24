@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
-description: "Last modified: March 09, 2015"
+description: "Manages messages, attachments, and recipients. Read-only properties are set by the provider when a client calls a message's IMAPIProp::SaveChanges method."
 ---
 
 # IMessage : IMAPIProp
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Manages messages, attachments, and recipients.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Message object  <br/> |
@@ -36,7 +36,7 @@ Manages messages, attachments, and recipients.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetAttachmentTable](imessage-getattachmenttable.md) <br/> |Returns the message's attachment table. |
 |[OpenAttach](imessage-openattach.md) <br/> |Opens an attachment. |

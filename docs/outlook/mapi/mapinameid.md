@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a92e9cd-8282-4cf0-93af-4089b3763594
-description: "Last modified: March 09, 2015"
+description: "Describes a named property. Named properties enable clients to define custom properties in a larger namespace than the MAPI-defined property identifier range."
 ---
 
 # MAPINAMEID
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a named property. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

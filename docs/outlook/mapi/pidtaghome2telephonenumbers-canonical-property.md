@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5a3cc16a-145f-4a40-bca9-99871a26b0ef
-description: "Last modified: March 09, 2015"
+description: "Contains a list of secondary telephone numbers at the recipient's home for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagHome2TelephoneNumbers Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of secondary telephone numbers at the recipient's home.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME2_TELEPHONE_NUMBER_A_MV  <br/> |
 |Identifier:  <br/> |0x3A2F  <br/> |

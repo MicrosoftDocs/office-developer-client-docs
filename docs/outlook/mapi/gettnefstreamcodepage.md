@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
-description: "Last modified: March 09, 2015"
+description: "Determines the code page for a Transport-Neutral Encapsulation Format (TNEF) stream. Use this function to read the attOemCodepage attribute."
 ---
 
 # GetTnefStreamCodepage
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Determines the code page for a Transport-Neutral Encapsulation Format (TNEF) stream.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |tnef.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

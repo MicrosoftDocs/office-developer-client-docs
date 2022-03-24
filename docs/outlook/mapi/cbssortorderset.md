@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0131b4b-9b25-47d3-8eeb-abe29c353ebc
-description: "Last modified: March 09, 2015"
+description: "Computes the number of bytes in an existing SSortOrderSet structure for Outlook 2013 or Outlook 2016."
 ---
 
 # CbSSortOrderSet
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Computes the number of bytes in an existing [SSortOrderSet](ssortorderset.md) structure. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SSortOrderSet** <br/> |

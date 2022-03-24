@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 17cba69b-2b25-4b99-99d9-ec68fb8a35b5
-description: "Last modified: March 09, 2015"
+description: "Performs the same function as HrOpenABEntryWithExchangeContext except that it uses the legacy emsmdbUID as the _pEmsmdbUID_ parameter."
 ---
 
 # HrOpenABEntryUsingDefaultContext
@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
   
 Performs the same function as [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) except that it uses the legacy **emsmdbUID** as the _pEmsmdbUID_ parameter. Do not use this function unless you cannot obtain the correct **emsmdbUID** for the call to [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |abhelp.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

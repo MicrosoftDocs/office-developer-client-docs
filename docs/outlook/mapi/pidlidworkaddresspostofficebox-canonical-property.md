@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98e4d2e3-95fc-4644-8aa8-a9787717de68
-description: "Last modified: March 09, 2015"
+description: "Specifies the post office box portion of the contact's work for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidWorkAddressPostOfficeBox Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the post office box portion of the contact's work.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidWorkAddressPostOfficeBox  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

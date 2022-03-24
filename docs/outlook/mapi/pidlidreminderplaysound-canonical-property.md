@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
-description: "Last modified: March 09, 2015"
+description: "Specifies whether the client should play a sound when the reminder becomes overdue for Outlook 2013 and Outlook 2016."
 ---
 
 # PidLidReminderPlaySound Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether the client should play a sound when the reminder becomes overdue.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidReminderPlaySound  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

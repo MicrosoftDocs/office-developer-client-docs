@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: e39c4198-4913-5e86-900a-32e5ba5d801c
-description: "Last modified: March 09, 2015" 
+description: " This topic describes what happens during the upload hierarchy state of the replication state machine." 
 ---
 
 # Upload Hierarchy State
@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |State Identifier:  <br/> |**LR_SYNC_UPLOAD_HIERARCHY** <br/> |
 |Related Data Structure:  <br/> |**[UPHIER](uphier.md)** <br/> |

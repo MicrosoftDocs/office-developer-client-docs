@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ca2bbfab-6f4f-4a9a-b3ef-61d7c41e4767
-description: "Last modified: March 09, 2015"
+description: "Contains the 128-bit Object Linking and Embedding (OLE) globally unique identifier (GUID) of a form."
 ---
 
 # PidTagFormClassId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the 128-bit Object Linking and Embedding (OLE) globally unique identifier (GUID) of a form. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_CLSID  <br/> |
 |Identifier:  <br/> |0x3302  <br/> |

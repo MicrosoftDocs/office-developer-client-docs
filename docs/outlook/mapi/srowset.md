@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
-description: "Last modified: March 09, 2015"
+description: "Contains an array of SRow structures. Each SRow structure describes a row from a table."
 ---
 
 # SRowSet
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of [SRow](srow.md) structures. Each **SRow** structure describes a row from a table. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewSRowSet](cbnewsrowset.md), [CbSRowSet](cbsrowset.md), [SizedSRowSet](sizedsrowset.md) <br/> |

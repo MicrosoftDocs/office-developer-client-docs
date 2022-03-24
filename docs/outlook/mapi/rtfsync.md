@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
-description: "Last modified: March 09, 2015"
+description: "Makes sure that the RTF message text matches the plain text version. Call this function before reading the RTF version and after modifying the RTF version."
 ---
 
 # RTFSync
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Makes sure that the Rich Text Format (RTF) message text matches the plain text version. It is necessary to call this function before reading the RTF version and after modifying the RTF version. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

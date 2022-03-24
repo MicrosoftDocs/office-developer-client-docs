@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 327516e8-ed3f-40fc-9604-03a70aecef5a
-description: "Last modified: March 09, 2015"
+description: "Indicates that the exception embedded message object has a body that differs from the recurring calendar object."
 ---
 
 # PidLidFExceptionalBody Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates that the exception embedded message object has a body that differs from the recurring calendar object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFExceptionalBody  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |
