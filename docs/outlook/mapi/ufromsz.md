@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
-description: "Converts a null-terminated string of decimal digits into an unsigned integer. If the string does not begin with at least one decimal digit, zero is returned."
+description: "Converts a null-terminated string of decimal digits into an unsigned integer. If the string doesn't begin with at least one decimal digit, zero is returned."
 ---
 
 # UFromSz
