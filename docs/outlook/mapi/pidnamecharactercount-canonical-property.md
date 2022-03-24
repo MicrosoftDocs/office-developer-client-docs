@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c7960a9-ccfa-4872-9729-e707bfd9b68e
-description: "Specifies the character count of the file that is attached to the document Outlook 2013 and Outlook 2016."
+description: "Specifies the character count of the file that is attached to the document for Outlook 2013 and Outlook 2016."
 ---
 
 # PidNameCharacterCount Canonical Property

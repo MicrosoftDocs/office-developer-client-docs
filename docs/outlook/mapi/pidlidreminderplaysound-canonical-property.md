@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8a25719d-7799-4f11-9550-e4cc42be483a
-description: "Specifies whether the client should play a sound when the reminder becomes overdue Outlook 2013 and Outlook 2016."
+description: "Specifies whether the client should play a sound when the reminder becomes overdue for Outlook 2013 and Outlook 2016."
 ---
 
 # PidLidReminderPlaySound Canonical Property
