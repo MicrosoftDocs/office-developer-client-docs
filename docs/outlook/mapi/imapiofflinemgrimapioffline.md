@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Supports registering for notification callbacks about connection state changes of a user account.
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Exported by:  <br/> |msmapi32.dll  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
@@ -33,7 +33,7 @@ Supports registering for notification callbacks about connection state changes o
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Advise](imapiofflinemgr-advise.md) <br/> |Registers for notification callbacks about connection changes. |
 |[Unadvise](imapiofflinemgr-unadvise.md) <br/> |Removes a given registration for notification callbacks. |

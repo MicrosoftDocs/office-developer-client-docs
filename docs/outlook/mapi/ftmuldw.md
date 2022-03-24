@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Multiplies an unsigned 64-bit integer by an unsigned 32-bit integer.
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 An array of entry identifiers representing MAPI object that uses the same implementation as the [SBinaryArray](sbinaryarray.md) structure. 
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

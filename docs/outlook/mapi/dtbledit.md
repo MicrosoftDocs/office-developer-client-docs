@@ -20,7 +20,7 @@ description: "Describes an edit control that will be used in a dialog box built 
   
 Describes an edit control that will be used in a dialog box built from a display table.
 
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file: |Mapidefs.h |
 |Related macro: |[SizedDtblEdit](sizeddtbledit.md) |

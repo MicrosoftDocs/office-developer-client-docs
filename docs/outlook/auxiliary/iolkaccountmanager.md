@@ -14,7 +14,7 @@ Manages access to accounts and sets up notifications about account changes.
   
 ## Quick info
 
-|||
+|Property|Description|
 |:-----|:-----|
 |Inherits from:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
@@ -24,7 +24,7 @@ Manages access to accounts and sets up notifications about account changes.
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Init](iolkaccountmanager-init.md) <br/> |Initializes the account manager for use. |
 |[DisplayAccountList](iolkaccountmanager-displayaccountlist.md) <br/> |Displays either the **Account Settings** or **Add New Account** dialog box. |

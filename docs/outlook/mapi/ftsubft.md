@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Subtracts one unsigned 64-bit integer from another. 
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -15,7 +15,7 @@ Represents the server name of the SMTP account.
   
 ## Quick info
 
-|||
+|Property|Description|
 |:-----|:-----|
 |Identifier:  <br/> |0x0200  <br/> |
 |Property type:  <br/> |PT_UNICODE  <br/> |

@@ -14,7 +14,7 @@ Provides a callback to the client for changes to an account.
   
 ## Quick info
 
-|||
+|Property|Description|
 |:-----|:-----|
 |Inherits from:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Provided by:  <br/> | Client  <br/> |
@@ -22,7 +22,7 @@ Provides a callback to the client for changes to an account.
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Notify](iolkaccountnotify-notify.md) <br/> |Notifies the client of changes to the specified account. |
    

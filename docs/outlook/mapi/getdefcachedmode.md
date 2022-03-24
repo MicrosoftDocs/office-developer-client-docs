@@ -22,7 +22,7 @@ Indicates whether Cached Exchange Mode for the private Exchange store is enabled
   
 ## Quick info
 
-|||
+|Property|Description|
 |:-----|:-----|
 |Exported by:  <br/> |msmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables form viewers to handle the storage of a form and to transition between the various states.
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Persist message objects  <br/> |
@@ -35,7 +35,7 @@ Enables form viewers to handle the storage of a form and to transition between t
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[GetLastError](ipersistmessage-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error in the form object. |
 |[GetClassID](ipersistmessage-getclassid.md) <br/> |Returns an identifier that represents the form server that can manage the form. |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables clients, service providers, and MAPI to work with properties. All objects that support properties implement this interface.
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |No object exposes this interface directly. |
@@ -36,7 +36,7 @@ Enables clients, service providers, and MAPI to work with properties. All object
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[GetLastError](imapiprop-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error. |
 |[SaveChanges](imapiprop-savechanges.md) <br/> |Makes permanent any changes that were made to an object since the last save operation. |

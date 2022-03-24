@@ -15,7 +15,7 @@ Creates an object that a client can access in a preferred character format.
   
 ## Quick info
 
-|||
+|Field|Value|
 |:-----|:-----|
 |Exported by:  <br/> |msmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |

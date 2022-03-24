@@ -26,7 +26,7 @@ Provides a mechanism for synchronizing email instead of using the Transport API.
   
 The outbox is still in the default store. Outlook will continue to use the Transport APIs to send mail because the outgoing message cannot be in the external store.
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Exposed by:  <br/> |Store and transport providers  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |
@@ -35,7 +35,7 @@ The outbox is still in the default store. Outlook will continue to use the Trans
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[SynchronizeInBackground](imapisyncsynchronizeinbackground.md) <br/> |Implemented by message store providers. This method is called by Outlook 2010 and Outlook 2013 to start synchronization. |
    

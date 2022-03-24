@@ -24,14 +24,14 @@ description: "Last modified: March 09, 2015"
   
 Supports Microsoft Outlook 2010 and Microsoft Outlook 2013 in sending notification callbacks to a client.
   
-|||
+|Property|Descrption|
 |:-----|:-----|
 |Provided by:  <br/> |Client  <br/> |
 |Interface identifier:  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Notify](imapiofflinenotify-notify.md) <br/> |Sends notifications to a client about changes in connection state. |
    
