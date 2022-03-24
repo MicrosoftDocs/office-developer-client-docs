@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns an interface pointer to the local form library. 
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

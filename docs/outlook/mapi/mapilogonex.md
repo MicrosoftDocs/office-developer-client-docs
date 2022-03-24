@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Logs a client application on to a session with the messaging system. 
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

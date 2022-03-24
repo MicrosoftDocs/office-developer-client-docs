@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Searches for a specified property in a property set.
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Gives the MAPI spooler access to a transport provider. 
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Exposed by:  <br/> |Transport logon objects  <br/> |
@@ -35,7 +35,7 @@ Gives the MAPI spooler access to a transport provider.
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[AddressTypes](ixplogon-addresstypes.md) <br/> |Returns the types of recipients that the transport provider handles. |
 |**RegisterOptions** <br/> | *Not supported or documented.*  <br/> |

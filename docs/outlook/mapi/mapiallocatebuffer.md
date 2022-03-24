@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Allocates a memory buffer. 
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

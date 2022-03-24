@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an X.400 message transport system (MTS) entry identifier. 
   
-|||
+|Property|Description|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md) <br/> |
