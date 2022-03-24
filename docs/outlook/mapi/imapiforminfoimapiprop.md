@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a9fda518-11ba-42aa-85ef-dd2279e0319d
-description: "Last modified: March 09, 2015"
+description: "Gives client applications access to properties that are particular to form definition. The provider can describe a form without activating the form."
 ---
 
 # IMAPIFormInfo : IMAPIProp
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Gives client applications access to properties that are particular to form definition. By keeping form information in a separate object, the form library provider can describe a form to a client without activating the form.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |Form information objects  <br/> |
@@ -36,7 +36,7 @@ Gives client applications access to properties that are particular to form defin
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Returns a pointer to the complete set of properties that a form uses. |
 |[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Returns a pointer to the complete set of verbs that a form uses. |

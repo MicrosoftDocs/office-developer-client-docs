@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
-description: "Last modified: March 09, 2015"
+description: "Accesses resources in a message store logon object. The message store logon object is the part of an open message store provider that MAPI calls directly."
 ---
 
 # IMSLogon : IUnknown
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Accesses resources in a message store logon object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Exposed by:  <br/> |Message store logon objects  <br/> |
@@ -35,7 +35,7 @@ Accesses resources in a message store logon object.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetLastError](imslogon-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the last error that occurred for the message store object. |
 |[Logoff](imslogon-logoff.md) <br/> |Logs off a message store provider. |

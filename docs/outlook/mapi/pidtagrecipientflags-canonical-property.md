@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9fbe537f-b5fe-48a2-803c-653c50c82efd
-description: "Last modified: March 09, 2015"
+description: "Specifies a bit field that describes the recipient status. This property is not required."
 ---
 
 # PidTagRecipientFlags Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies a bit field that describes the recipient status.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_FLAGS  <br/> |
 |Identifier:  <br/> |0x5FFD  <br/> |

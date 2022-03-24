@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d566ff39-92c1-4a14-85e5-1c406825f805
-description: "Last modified: March 09, 2015"
+description: "Manages a form in a client application's form viewer for Outlook 2013 and Outlook 2016."
 ---
 
 # IMAPIViewContext : IUnknown
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Manages a form in a client application's form viewer. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Exposed by:  <br/> |View context objects  <br/> |
@@ -35,7 +35,7 @@ Manages a form in a client application's form viewer.
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Manages a form's registration to receive notifications about changes in the viewer. |
 |[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Activates the next or previous message in the form viewer. |

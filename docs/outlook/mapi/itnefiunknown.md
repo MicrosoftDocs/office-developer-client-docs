@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eddca896-9497-4425-9904-87ef3cbae298
-description: "Last modified: March 09, 2015"
+description: "Provides methods for encapsulating MAPI properties that are not supported by a messaging system into binary streams that can be attached to messages."
 ---
 
 # ITnef : IUnknown
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides methods for encapsulating MAPI properties that are not supported by a messaging system into binary streams that can be attached to messages. The format used for this encapsulation is the Transport-Neutral Encapsulation Format (TNEF). The target transport provider or MAPI-based client application can then, on receiving a message that includes a TNEF attachment, recover the properties from the attachment.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Tnef.h  <br/> |
 |Exposed by:  <br/> |TNEF objects  <br/> |
@@ -35,7 +35,7 @@ Provides methods for encapsulating MAPI properties that are not supported by a m
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[AddProps](itnef-addprops.md) <br/> |Enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment. |
 |[ExtractProps](itnef-extractprops.md) <br/> |Extracts the properties from a TNEF encapsulation. |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d9457fea-4b1e-4cf6-9c4b-14c98fbec2a1
-description: "Last modified: March 09, 2015"
+description: "Obtains the long-term entry identifier of an item. This property can be used to get the entry identifier of an item as a long-term entry identifier."
 ---
 
 # PidTagLongTermEntryIdFromTable Canonical Property
@@ -22,9 +22,9 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Obtains the long- term entry identifier of an item.
+Obtains the long-term entry identifier of an item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LONGTERM_ENTRYID_FROM_TABLE  <br/> |
 |Identifier:  <br/> |0x6670  <br/> |

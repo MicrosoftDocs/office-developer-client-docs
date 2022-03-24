@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: afccacf1-0b8b-410c-b701-bf1bd8dcca99
-description: "Last modified: March 09, 2015"
+description: "Specifies the original EntryID of the contact's other fax address for Outlook 2013 and Outlook 2016."
 ---
 
 # PidLidFax3OriginalEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the original EntryID of the contact's other fax address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFax3OriginalEntryID  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

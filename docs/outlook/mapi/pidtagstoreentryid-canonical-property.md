@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0d705667-19f4-4eda-a068-e65ea8f00d9b
-description: "Last modified: March 09, 2015"
+description: "Contains the unique entry identifier of the message store where an object resides. This property is used to open a message store with the IMAPISession::OpenMsgStore method."
 ---
 
 # PidTagStoreEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the unique entry identifier of the message store where an object resides.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STORE_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0FFB  <br/> |

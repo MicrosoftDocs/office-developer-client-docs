@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b7dfe87-f87f-43e3-8332-a0d9c3f70d16
-description: "Last modified: March 09, 2015"
+description: "Describes an AND restriction, which is used to join a group of restrictions using a logical AND operation."
 ---
 
 # SAndRestriction
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes an **AND** restriction, which is used to join a group of restrictions using a logical **AND** operation. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

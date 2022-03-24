@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a658d027-03a2-4cde-bf99-563e8521cb31
-description: "Last modified: March 09, 2015"
+description: "Creates a named structure that includes a DTBLEDIT structure for describing an edit control and the number of characters that can be entered in the control."
 ---
 
 # SizedDtblEdit
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named structure that includes a [DTBLEDIT](dtbledit.md) structure for describing an edit control and the maximum number of characters that can be entered in the control. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLEDIT** <br/> |

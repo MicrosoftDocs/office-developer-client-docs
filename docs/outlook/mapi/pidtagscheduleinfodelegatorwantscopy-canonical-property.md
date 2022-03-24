@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48e48e3a-1186-46c4-8ff9-34e03905fb93
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the delegator wants to receive copies of the meeting-related objects that are sent to the delegate."
 ---
 
 # PidTagScheduleInfoDelegatorWantsCopy Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the delegator wants to receive copies of the meeting-related objects that are sent to the delegate.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_BOSS_WANTS_COPY  <br/> |
 |Identifier:  <br/> |0x6842  <br/> |

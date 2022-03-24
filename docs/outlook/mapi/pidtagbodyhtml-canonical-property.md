@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 93b9215a-5900-411c-a0ae-6bba62cd5a1e
-description: "Last modified: March 09, 2015"
+description: "Contains the HTML version of the message text. These properties contain the same message text as the PR_BODY_CONTENT_LOCATION, but in HTML."
 ---
 
 # PidTagBodyHtml Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the Hypertext Markup Language (HTML) version of the message text. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_BODY_HTML, PR_BODY_HTML_A, PR_BODY_HTML_W  <br/> |
 |Identifier:  <br/> |0x1013  <br/> |

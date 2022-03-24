@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3aa4f9d7-8105-435d-af68-424a079e1a84
-description: "Last modified: March 09, 2015"
+description: "Indicates the start date and time of the exception in the local time zone of the machine when the exception is created."
 ---
 
 # PidTagExceptionStartTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the start date and time of the exception in the local time zone of the machine when the exception is created.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXCEPTION_STARTTIME  <br/> |
 |Identifier:  <br/> |0x7FFB  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a82ee90-10a1-49e0-8f3a-a2cd9f490f99
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of a transport's tightly coupled message store for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagOwnStoreEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of a transport's tightly coupled message store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OWN_STORE_ENTRYID  <br/> |
 |Identifier:  <br/> |0x3E06  <br/> |

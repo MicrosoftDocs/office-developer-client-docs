@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c0527ea-e922-4514-b913-d3520350c452
-description: "Last modified: March 09, 2015"
+description: "Specifies which electronic address properties are set on the contact. Each PT_LONG value in this property must be unique in the property."
 ---
 
 # PidLidAddressBookProviderEmailList Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies which electronic address properties are set on the contact. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidABPEmailList  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

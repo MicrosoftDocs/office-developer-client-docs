@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f4d7d42f-688a-4199-b972-dd42528c0cdf
-description: "Last modified: March 09, 2015"
+description: "A remote viewer in a client application provides controlled access to messages stored on another computer."
 ---
 
 # Writing a remote viewer
@@ -34,7 +34,7 @@ A remote viewer is a window in a client application that provides controlled acc
     
 6. Call the status object's [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) method, passing IID_IMAPIFolder as the interface identifier, to retrieve the remote folder. The remote folder is not a complete folder implementation; it supports only a subset of folder methods and properties. One of the required methods, [IMAPIProp::GetProps](imapiprop-getprops.md), supports the retrieval of the following properties:
     
-    |||
+    |Property |Value |
     |:-----|:-----|
     |**PR\_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md))  <br/> |**PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md))  <br/> |
     |**PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> |**PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md))  <br/> |
@@ -44,7 +44,7 @@ A remote viewer is a window in a client application that provides controlled acc
     
     Remote folders must also support the [IMAPIProp::GetPropList](imapiprop-getproplist.md), [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md), and [IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) methods. Remote folder contents tables typically support the following columns: 
         
-    |||
+    |Column |Value |
     |:-----|:-----|
     |**PR\_DISPLAY\_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |**PR\_ENTRYID** <br/> |
     |**PR\_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md))  <br/> |**PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))  <br/> |
