@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Copies one value within a multivalued property to a single-valued property of the same type. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |MAPIUTIL.H  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

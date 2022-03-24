@@ -17,7 +17,7 @@ True if the account is an Exchange account.
 
 See [IOlkAccount](iolkaccount.md).
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Identifier:  <br/> |0x0014  <br/> |
 |Property type:  <br/> |PT_LONG  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Makes changes to a message service in a profile.
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiaux.h  <br/> |
 |Exposed by:  <br/> |Message service administration objects  <br/> |

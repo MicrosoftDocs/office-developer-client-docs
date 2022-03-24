@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of [MTSID](mtsid.md) structures, each of which contains an X.400 message transport system (MTS) entry identifier. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbFLATMTSIDLIST](cbflatmtsidlist.md), [CbNewFLATMTSIDLIST](cbnewflatmtsidlist.md) <br/> |

@@ -17,7 +17,7 @@ Returns an account identifier that is unique across Outlook profiles.
 
 See [IOlkAccount](iolkaccount.md).
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Identifier:  <br/> |0x0003  <br/> |
 |Property type:  <br/> |PT_LONG  <br/> |

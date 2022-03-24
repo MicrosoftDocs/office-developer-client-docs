@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Supports registering for notification callbacks about connection state changes of a user account.
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Exported by:  <br/> |msmapi32.dll  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |

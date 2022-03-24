@@ -66,7 +66,7 @@ In your implementation of **FinishedMsg**, unlock the message identified by  _lp
   
 It is possible that neither **PR_DELETE_AFTER_SUBMIT** or **PR_SENTMAIL_ENTRYID** is set, both are set, or one or the other is set. The following table describes the action you should take based on the settings: 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |If neither property is set:  <br/> |Leave the message in the folder from which it was sent (typically the Outbox). |
 |If both properties are set:  <br/> |Move the message to the indicated folder, if desired, and then delete it. |

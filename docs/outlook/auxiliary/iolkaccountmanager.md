@@ -14,7 +14,7 @@ Manages access to accounts and sets up notifications about account changes.
   
 ## Quick info
 
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Inherits from:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |

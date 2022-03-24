@@ -26,7 +26,7 @@ Provides a mechanism for synchronizing email instead of using the Transport API.
   
 The outbox is still in the default store. Outlook will continue to use the Transport APIs to send mail because the outgoing message cannot be in the external store.
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Exposed by:  <br/> |Store and transport providers  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |

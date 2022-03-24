@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Enables clients, service providers, and MAPI to work with properties. All objects that support properties implement this interface.
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |No object exposes this interface directly. |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Supports the administration of profiles. 
   
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Exposed by:  <br/> |Profile administration object  <br/> |

@@ -14,7 +14,7 @@ Provides a callback to the client for changes to an account.
   
 ## Quick info
 
-|Property|Description|
+|Property|Value|
 |:-----|:-----|
 |Inherits from:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Provided by:  <br/> | Client  <br/> |
