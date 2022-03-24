@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether or not the object is associated with a recurring series.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |LID_IS_RECURRING  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

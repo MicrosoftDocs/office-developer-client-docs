@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the document was printed during journaling.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidLogDocPrinted  <br/> |
 |Property set:  <br/> |PSETID_Log  <br/> |

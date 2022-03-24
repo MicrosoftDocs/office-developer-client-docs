@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the duration, in minutes, of a journal message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidLogDuration  <br/> |
 |Property set:  <br/> |PSETID_Log  <br/> |
