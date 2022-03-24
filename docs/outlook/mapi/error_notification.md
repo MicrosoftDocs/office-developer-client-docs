@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c5bb383-f8e2-4d79-bcf2-aa86c130e8b1
-description: "Last modified: March 09, 2015"
+description: "Describes information that relate to a critical error. This causes an error notification to be generated."
 ---
 
 # ERROR_NOTIFICATION
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes information that relate to a critical error. This causes an error notification to be generated. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

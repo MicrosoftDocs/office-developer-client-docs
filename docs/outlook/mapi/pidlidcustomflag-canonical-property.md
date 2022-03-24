@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 A bitmask that specifies how a message is customized, for example, saved with custom properties.
 
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidCustomFlag  <br/> |
 |Long ID (LID):  <br/> |0x00008251  <br/> |

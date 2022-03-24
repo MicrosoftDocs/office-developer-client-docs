@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e0b8dc9c-cc46-4d27-9497-7a55a0bfdff5
-description: "Last modified: March 09, 2015"
+description: "Releases utility functions called explicitly by the ScInitMapiUtil function or implicitly by the MAPIInitialize function. "
 ---
 
 # DeinitMapiUtil
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Releases utility functions called explicitly by the [ScInitMapiUtil](scinitmapiutil.md) function or implicitly by the [MAPIInitialize](mapiinitialize.md) function. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 380ea11c-b1ac-4f54-9034-c52edec4f700
-description: "Last modified: March 09, 2015"
+description: "Contains information about the route covered by a delivered message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRedirectionHistory Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains information about the route covered by a delivered message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REDIRECTION_HISTORY  <br/> |
 |Identifier:  <br/> |0x002C  <br/> |

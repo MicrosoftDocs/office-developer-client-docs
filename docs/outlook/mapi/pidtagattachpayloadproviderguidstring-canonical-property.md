@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9d4b561-53b3-492b-9324-9376dd7abddf
-description: "Last modified: March 09, 2015"
+description: "Contains the value of a MIME X-Payload-Provider-Guid header field. MIME clients should write an X-Payload-Provider-Guid header field to a MIME entity."
 ---
 
 # PidTagAttachPayloadProviderGuidString Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of a MIME X-Payload-Provider-Guid header field.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_PAYLOAD_PROV_GUID_STR, PR_ATTACH_PAYLOAD_PROV_GUID_STR_A, PR_ATTACH_PAYLOAD_PROV_GUID_STR_W  <br/> |
 |Identifier:  <br/> |0x3719  <br/> |

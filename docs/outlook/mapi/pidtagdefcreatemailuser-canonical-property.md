@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e8293dc9-f2f1-4065-89f4-e734a8db63df
-description: "Last modified: March 09, 2015"
+description: "Contains the template entry identifier for a default messaging user object. Client applications use this property to create a messaging user object within a container."
 ---
 
 # PidTagDefCreateMailuser Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the template entry identifier for a default messaging user object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEF_CREATE_MAILUSER  <br/> |
 |Identifier:  <br/> |0x3612  <br/> |

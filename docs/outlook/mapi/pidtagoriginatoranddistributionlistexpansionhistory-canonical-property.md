@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
-description: "Last modified: March 09, 2015"
+description: "Contains information about a message originator and a distribution list expansion history. This property is used in report generation."
 ---
 
 # PidTagOriginatorAndDistributionListExpansionHistory Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains information about a message originator and a distribution list expansion history.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY  <br/> |
 |Identifier:  <br/> |0x1002  <br/> |

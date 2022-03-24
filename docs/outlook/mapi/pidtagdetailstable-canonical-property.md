@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
-description: "Last modified: March 09, 2015"
+description: "Contains an embedded display table object. MAPI uses this table to display property sheets for an address book object in response to an IAddrBook::Details call."
 ---
 
 # PidTagDetailsTable Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an embedded display table object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DETAILS_TABLE  <br/> |
 |Identifier:  <br/> |0x3605  <br/> |

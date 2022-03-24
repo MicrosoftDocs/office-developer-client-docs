@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the distance, in pixels, from the top edge of the screen where a user interface displays a note.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidNoteY  <br/> |
 |Property set:  <br/> |PSETID_Note  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e15599c5-f40f-46a6-a726-7359efd09ff8
-description: "Last modified: March 09, 2015"
+description: "Contains the message sender's search key. This property must be set by the outgoing transport provider, which should never propagate any previous values."
 ---
 
 # PidTagSenderSearchKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the message sender's search key.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENDER_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x0C1D  <br/> |

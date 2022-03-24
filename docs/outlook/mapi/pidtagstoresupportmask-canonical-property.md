@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ada5694a-b5b1-471f-be33-906fc052681a
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of flags that client applications query to determine the characteristics of a message store."
 ---
 
 # PidTagStoreSupportMask Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags that client applications query to determine the characteristics of a message store. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STORE_SUPPORT_MASK  <br/> |
 |Identifier:  <br/> |0x340D  <br/> |

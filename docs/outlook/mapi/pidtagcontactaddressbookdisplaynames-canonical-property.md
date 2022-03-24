@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
-description: "Last modified: March 09, 2015"
+description: "Contains a list of display names for messaging users in the contact address book. These properties are defined by the user and the user's organization."
 ---
 
 # PidTagContactAddressBookDisplayNames Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of display names for messaging users in the contact address book.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_DISPLAY_NAMES, PR_CONTAB_DISPLAY_NAMES_A, PR_CONTAB_DISPLAY_NAMES_W  <br/> |
 |Identifier:  <br/> |0x6624  <br/> |

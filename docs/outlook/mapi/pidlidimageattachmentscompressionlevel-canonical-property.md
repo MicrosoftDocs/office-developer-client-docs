@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a compression level to apply on image attachments.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidImgAttchmtsCompressLevel  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ee206c2d-8371-4d19-b42b-78f6479e13ca
-description: "Last modified: March 09, 2015"
+description: "Indicates a time when a client would like to defer sending a message. If the value is earlier than the current time, the message is sent immediately. "
 ---
 
 # PidTagDeferredSendTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates a time when a client would like to defer sending a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEFERRED_SEND_TIME  <br/> |
 |Identifier:  <br/> |0x3FEF  <br/> |

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Compares two property values, generally strings or binary arrays, to see if one contains the other. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

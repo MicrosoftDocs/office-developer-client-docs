@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 539aa31d-7dec-4dbb-93f7-fa060c43565a
-description: "Last modified: March 09, 2015"
+description: "The MAPIOFFLINE_CREATEINFO structure is used with HrCreateOfflineObj."
 ---
 
 # MAPIOFFLINE_CREATEINFO
@@ -52,7 +52,7 @@ typedef struct
   
 > A bit mask of the following capability flags.
 
-|||
+|Value |Description |
 |:-----|:-----|
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |The offline object is capable of going offline. |
 |MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |The offline object is capable of going online. |

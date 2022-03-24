@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the end-user wants this message object hidden from other users who have access to the message object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidPrivate  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

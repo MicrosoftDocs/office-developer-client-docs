@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: be5d0e43-d8ff-41f9-a472-044b53821667
-description: "Last modified: March 09, 2015"
+description: "Contains the post office box for a contact's other address, defined by the user or the user's organization."
 ---
 
 # PidTagOtherAddressPostOfficeBox Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the post office box for a contact's other address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OTHER_ADDRESS_POST_OFFICE_BOX, PR_OTHER_ADDRESS_POST_OFFICE_BOX_A, PR_OTHER_ADDRESS_POST_OFFICE_BOX_W  <br/> |
 |Identifier:  <br/> |0x3A64  <br/> |

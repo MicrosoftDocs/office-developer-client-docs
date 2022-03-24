@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Provides access to a message store provider through a message store provider object. This message store provider object is returned at provider logon by the message store provider's [MSProviderInit](msproviderinit.md) entry point function. The message store provider object is primarily used by client applications and the MAPI spooler to open message stores.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Exposed by:  <br/> |Message store provider objects  <br/> |
@@ -31,7 +31,7 @@ Provides access to a message store provider through a message store provider obj
 
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Shutdown](imsprovider-shutdown.md) <br/> |Closes a message store provider in an orderly fashion. |
 |[Logon](imsprovider-logon.md) <br/> |Logs MAPI on to one instance of a message store provider. |

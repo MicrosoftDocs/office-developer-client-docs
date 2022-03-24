@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Adds one unsigned 64-bit integer to another, optionally using a carry flag.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Implemented by:  <br/> |MAPI  <br/> |
 |Called by:  <br/> |Client applications and service providers  <br/> |

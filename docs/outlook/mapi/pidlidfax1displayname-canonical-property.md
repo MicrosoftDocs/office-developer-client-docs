@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the display name of the business fax address for a contact.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFax1DisplayName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

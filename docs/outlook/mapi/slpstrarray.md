@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f570d9b-eb3d-4fc7-bcbe-348a0b8fe9e9
-description: "Last modified: March 09, 2015"
+description: "Contains an array of string values that are used to describe a property of type PT_MV_STRING8."
 ---
 
 # SLPSTRArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of string values that are used to describe a property of type PT_MV_STRING8.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

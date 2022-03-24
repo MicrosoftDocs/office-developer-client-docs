@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cd1fbb0-a7d3-49d5-80d0-08a7a2b8831f
-description: "Last modified: March 09, 2015"
+description: "Specifies the template of the file that is attached to the document for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameTemplate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the template of the file that is attached to the document.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

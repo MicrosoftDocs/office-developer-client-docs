@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d1f3f589-dc2d-4538-a13f-278dad29bcc7
-description: "Last modified: March 09, 2015"
+description: "Contains an embedded contents table object that provides information about the associated contents table."
 ---
 
 # PidTagFolderAssociatedContents Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an embedded contents table object that provides information about the associated contents table. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FOLDER_ASSOCIATED_CONTENTS  <br/> |
 |Identifier:  <br/> |0x3610  <br/> |

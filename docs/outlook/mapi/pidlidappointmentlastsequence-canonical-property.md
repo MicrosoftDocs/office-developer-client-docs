@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 52fa57be-746d-4b80-92b6-2ba83f796325
-description: "Last modified: March 09, 2015"
+description: "Indicates to the organizer the last sequence number that was sent to any attendee. This property has no meaning for an attendee."
 ---
 
 # PidLidAppointmentLastSequence Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates to the organizer the last sequence number that was sent to any attendee.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptLastSequence  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

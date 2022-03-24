@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
-description: "Last modified: March 09, 2015"
+description: "Represents the user's email address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagAutoConfigurationUserEmail Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the user's email address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AUTOCFG_USER_EMAIL_W  <br/> |
 |Identifier:  <br/> |0x67FD  <br/> |

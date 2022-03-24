@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6e4d4ee9-c6b1-4987-b02e-684c2af3d21c
-description: "Last modified: March 09, 2015"
+description: "Contains the date and time when the messaging system can invalidate the content of a message."
 ---
 
 # PidTagExpiryTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time when the messaging system can invalidate the content of a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXPIRY_TIME  <br/> |
 |Identifier:  <br/> |0x0015  <br/> |

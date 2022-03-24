@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies a list of the **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) property of tasks that are related to the calendar. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidLinkedTaskItems  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

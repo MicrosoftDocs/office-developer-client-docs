@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 35c10264-6998-4c46-8cef-82708c96d9c7
-description: "Last modified: March 09, 2015"
+description: "Contains the content base header of a Multipurpose Internet Mail Extensions (MIME) message attachment."
 ---
 
 # PidTagAttachContentBase Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the content base header of a Multipurpose Internet Mail Extensions (MIME) message attachment.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_CONTENT_BASE, PR_ATTACH_CONTENT_BASE_A, PR_ATTACH_CONTENT_BASE_W  <br/> |
 |Identifier:  <br/> |0x3711  <br/> |

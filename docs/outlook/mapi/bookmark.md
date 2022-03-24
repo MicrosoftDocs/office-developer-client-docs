@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines bookmarks data for remembering a position in a table. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related methods:  <br/> |[IMAPITable::CreateBookmark](imapitable-createbookmark.md)[IMAPITable::FreeBookmark](imapitable-freebookmark.md) <br/> |

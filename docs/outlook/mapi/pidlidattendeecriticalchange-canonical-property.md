@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the date and time when the meeting-related object was sent.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |LID_ATTENDEE_CRITICAL_CHANGE  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

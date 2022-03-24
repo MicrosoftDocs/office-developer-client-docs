@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4db67ea7-09bd-4bab-809c-7bbd4c92614f
-description: "Last modified: March 09, 2015"
+description: "Specifies the sequence number of a Meeting object for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidAppointmentSequence Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the sequence number of a Meeting object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptSequence  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

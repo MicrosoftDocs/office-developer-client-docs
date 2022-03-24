@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f4e54dc-80e5-49a7-9703-0225d8133492
-description: "Last modified: March 09, 2015"
+description: "Decrements the reference count, cleans up, and deletes per-instance global data for the MAPI DLL."
 ---
 
 # MAPIUninitialize
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Decrements the reference count, cleans up, and deletes per-instance global data for the MAPI DLL. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

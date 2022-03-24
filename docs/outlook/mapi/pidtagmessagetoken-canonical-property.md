@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fcb93346-db92-44b5-a447-59fd95f98f45
-description: "Last modified: March 09, 2015"
+description: "Contains an ASN.1 security token for a message. This property conveys protected security-related information from its originator to its recipient."
 ---
 
 # PidTagMessageToken Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 security token for a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |Identifier:  <br/> |0x0C03  <br/> |

@@ -30,13 +30,13 @@ You can also set this value on the **Summary** tab in the **Properties** dialog 
   
 To get a reference to the PreviewScope cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+|Label|Value|
 |:-----|:-----|
 | Cell name:  <br/> | PreviewScope  <br/> |
    
 To get a reference to the PreviewScope cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+|Index|Argument|
 |:-----|:-----|
 | Section index:  <br/> |**visSectionObject** <br/> |
 | Row index:  <br/> |**visRowDoc** <br/> |

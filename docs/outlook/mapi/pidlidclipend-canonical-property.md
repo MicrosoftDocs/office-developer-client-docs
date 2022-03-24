@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 17c8db96-80dd-4a7a-9a1b-ab1b37ba616c
-description: "Last modified: March 09, 2015"
+description: "Specifies the end date and time of the event in Coordinated Universal Time (UTC) for single instance calendar objects."
 ---
 
 # PidLidClipEnd Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the end date and time of the event in Coordinated Universal Time (UTC) for single instance calendar objects. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidClipEnd  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

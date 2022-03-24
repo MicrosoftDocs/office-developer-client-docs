@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
-description: "Last modified: March 09, 2015"
+description: "Describes a globally unique identifier (GUID). Message store and address book providers generate a GUID to use in their MAPIUID structure."
 ---
 
 # GUID
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a globally unique identifier (GUID).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiguid.h  <br/> |
 

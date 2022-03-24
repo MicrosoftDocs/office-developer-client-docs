@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
-description: "Last modified: March 09, 2015"
+description: "A long value that indicates the level of spam filtering for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSpamThreshold Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 A long value that indicates the level of spam filtering.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SPAM_THRESHOLD  <br/> |
 |Long ID (LID):  <br/> | 0x041B  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
-description: "Last modified: March 09, 2015"
+description: "Determines the size, in bytes, of a property value array and validates the memory associated with the array. "
 ---
 
 # ScCountProps
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Determines the size, in bytes, of a property value array and validates the memory associated with the array. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
