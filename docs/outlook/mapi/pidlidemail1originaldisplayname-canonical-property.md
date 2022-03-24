@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the first display name that corresponds to the email address that is specified for the contact.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidEmail1OriginalDisplayName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |
