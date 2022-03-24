@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2000e6e8-d908-4814-8093-28f8011250c8
-description: "Last modified: March 09, 2015"
+description: "Contains the message subject with any prefix removed for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagNormalizedSubject Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the message subject with any prefix removed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NORMALIZED_SUBJECT, PR_NORMALIZED_SUBJECT_A, PR_NORMALIZED_SUBJECT_W  <br/> |
 |Identifier:  <br/> |0x0E1D  <br/> |

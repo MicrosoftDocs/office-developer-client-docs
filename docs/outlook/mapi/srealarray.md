@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
-description: "Last modified: March 09, 2015"
+description: "Contains an array of float values that are used to describe a property of type PT_MV_R4."
 ---
 
 # SRealArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of float values that are used to describe a property of type PT_MV_R4. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

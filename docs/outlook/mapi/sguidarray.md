@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
-description: "Last modified: March 09, 2015"
+description: "Contains an array of GUID structures that are used to describe a property of type PT_MV_CLSID."
 ---
 
 # SGuidArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of [GUID](guid.md) structures that are used to describe a property of type PT_MV_CLSID. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

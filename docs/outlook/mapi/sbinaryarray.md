@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
-description: "Last modified: March 09, 2015"
+description: "Contains an array of binary values. The SBinaryArray structure is used to describe properties of type PT_MV_BINARY."
 ---
 
 # SBinaryArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of binary values. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

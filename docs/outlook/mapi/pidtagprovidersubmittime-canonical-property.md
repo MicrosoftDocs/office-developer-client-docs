@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9e5161d9-fefe-4a12-b7f7-5600f1d2e95b
-description: "Last modified: March 09, 2015"
+description: "Contains the date and time a transport provider passed a message to its underlying messaging system."
 ---
 
 # PidTagProviderSubmitTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time a transport provider passed a message to its underlying messaging system.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROVIDER_SUBMIT_TIME  <br/> |
 |Identifier:  <br/> |0x0048  <br/> |

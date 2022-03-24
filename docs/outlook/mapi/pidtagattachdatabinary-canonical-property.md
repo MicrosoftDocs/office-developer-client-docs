@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3b0a8b28-863e-4b96-a4c0-fdb8f40555b9
-description: "Last modified: March 09, 2015"
+description: "Contains binary attachment data typically accessed through the Object Linking and Embedding (OLE) IStream interface."
 ---
 
 # PidTagAttachDataBinary Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains binary attachment data typically accessed through the Object Linking and Embedding (OLE) **IStream** interface. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_DATA_BIN  <br/> |
 |Identifier:  <br/> |0x3701  <br/> |

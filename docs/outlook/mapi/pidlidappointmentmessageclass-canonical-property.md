@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b8c8484-0cb4-4842-8b11-de42d97e0140
-description: "Last modified: March 09, 2015"
+description: "Indicates the PR_MESSAGE_CLASS property of the meeting that is to be generated from the meeting request."
 ---
 
 # PidLidAppointmentMessageClass Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) property of the meeting that is to be generated from the meeting request.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptMessageClass  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

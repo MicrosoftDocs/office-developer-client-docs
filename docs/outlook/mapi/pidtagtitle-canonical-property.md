@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f35bbcc3-15dd-40ab-9bf4-bdb21f95d464
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient's job title. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagTitle Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's job title.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TITLE, PR_TITLE_A, PR_TITLE_W  <br/> |
 |Identifier:  <br/> |0x3A17  <br/> |

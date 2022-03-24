@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 534c3881-e12f-f228-7760-788fe2b72ae8
-description: "Last modified: March 09, 2015"
+description: "Contains a Unicode string that is being queried in attachment contents on the store for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSearchAttachments Canonical Property
@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a Unicode string that is being queried in attachment contents on the store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SEARCH_ATTACHMENTS_W  <br/> |
 |Identifier:  <br/> |0x0EA5  <br/> |

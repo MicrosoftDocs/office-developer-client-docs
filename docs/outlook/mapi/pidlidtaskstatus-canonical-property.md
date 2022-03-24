@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 809776b7-ff00-4a52-84b9-8b5fb5f5c3e3
-description: "Last modified: March 09, 2015"
+description: "Specifies the status of the user's progress on the task for Outlook 2013 and Outlook 2016."
 ---
 
 # PidLidTaskStatus Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the status of the user's progress on the task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskStatus  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |
