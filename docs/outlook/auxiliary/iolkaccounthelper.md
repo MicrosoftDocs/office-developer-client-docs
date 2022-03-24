@@ -14,7 +14,7 @@ Provides helper functionality in the current MAPI session to manage accounts.
   
 ## Quick info
 
-|||
+|Property|Value|
 |:-----|:-----|
 |Inherits from:  <br/> |[IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Provided by:  <br/> |Client  <br/> |
@@ -22,7 +22,7 @@ Provides helper functionality in the current MAPI session to manage accounts.
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *This member is a placeholder and is not supported.*  <br/> |
 |[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Gets the profile name of an account. |

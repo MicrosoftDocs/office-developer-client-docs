@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Makes changes to a message service in a profile.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiaux.h  <br/> |
 |Exposed by:  <br/> |Message service administration objects  <br/> |
@@ -35,7 +35,7 @@ Makes changes to a message service in a profile.
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Adds a message service to the current profile and returns that newly added service UID. |
    

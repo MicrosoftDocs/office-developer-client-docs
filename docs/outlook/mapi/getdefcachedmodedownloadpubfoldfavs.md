@@ -22,7 +22,7 @@ Indicates whether Cached Exchange Mode for the **Public Folder Favorites** folde
   
 ## Quick info
 
-|||
+|Property|Value|
 |:-----|:-----|
 |Exported by:  <br/> |msmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |
