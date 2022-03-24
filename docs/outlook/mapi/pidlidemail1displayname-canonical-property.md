@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the user-readable display name for the first email address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidEmail1DisplayName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

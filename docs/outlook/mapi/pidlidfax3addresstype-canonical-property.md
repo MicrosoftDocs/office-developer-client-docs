@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the address type for the other contact's fax address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFax3AddrType  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |
