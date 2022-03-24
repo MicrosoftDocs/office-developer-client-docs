@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c85b7862-18bc-4e17-94db-9097e0ac4a02
-description: "Last modified: March 09, 2015"
+description: "Contains an entry identifier for an alternate recipient designated by the sender. This property is used in autoforwarded messages."
 ---
 
 # PidTagOriginatorRequestedAlternateRecipient Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an entry identifier for an alternate recipient designated by the sender.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINATOR_REQUESTED_ALTERNATE_RECIPIENT  <br/> |
 |Identifier:  <br/> |0x0C09  <br/> |

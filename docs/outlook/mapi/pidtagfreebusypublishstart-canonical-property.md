@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d059f913-3d61-4bec-8215-5b07f0fba488
-description: "Last modified: March 09, 2015"
+description: "Contains the start time of the publishing range. The value for this property is the number of minutes since midnight, January 1, 1601."
 ---
 
 # PidTagFreeBusyPublishStart Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the start time of the publishing range.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FREEBUSY_PUBLISH_START  <br/> |
 |Identifier:  <br/> |0x6847  <br/> |

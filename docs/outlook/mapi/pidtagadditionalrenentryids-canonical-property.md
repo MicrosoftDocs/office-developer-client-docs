@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8c6e7ca2-1824-4cca-bf69-3c1ea52727de
-description: "Last modified: March 09, 2015"
+description: "Contains the entry IDs of certain special folders for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagAdditionalRenEntryIds Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry IDs of certain special folders. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ADDITIONAL_REN_ENTRYIDS  <br/> |
 |Identifier:  <br/> |0x36D8  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a167e199-a9b2-47f9-a90e-2abc7c29828c
-description: "Last modified: March 09, 2015"
+description: "Specifies the character set used for this contact. Applications can use this property to aid in generating a character-set dependent list of choices."
 ---
 
 # PidLidContactCharacterSet Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the character set used for this contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidContactCharSet  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

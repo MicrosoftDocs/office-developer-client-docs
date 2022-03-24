@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a64e5300-6865-4588-8e1b-158cfd9c60c2
-description: "Last modified: March 09, 2015"
+description: "Contains the date and time when the object or subobject was last modified. This property is initially set to the same value as the PR_CREATION_TIME property. "
 ---
 
 # PidTagLastModificationTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time when the object or subobject was last modified. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LAST_MODIFICATION_TIME  <br/> |
 |Identifier:  <br/> |0x3008  <br/> |

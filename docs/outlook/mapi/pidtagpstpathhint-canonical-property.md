@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
-description: "Last modified: March 09, 2015"
+description: "Provides the personal storage table (.pst file) name, which the user can edit, for the configuration dialog box."
 ---
 
 # PidTagPstPathHint Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Provides the personal storage table (.pst file) name, which the user can edit, for the configuration dialog box. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PST_PATH_HINT, PR_PST_PATH_HINT_A, PR_PST_PATH_HINT_W  <br/> |
 |Identifier:  <br/> |0x6771  <br/> |

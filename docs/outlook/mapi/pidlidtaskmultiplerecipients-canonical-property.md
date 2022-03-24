@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 28ba9997-72dd-465f-94a7-35a317a361ef
-description: "Last modified: March 09, 2015"
+description: "Provides optimization hints about the recipients of a task Outlook 2013 and Outlook 2016."
 ---
 
 # PidLidTaskMultipleRecipients Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides optimization hints about the recipients of a task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskMultRecips  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

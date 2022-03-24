@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5036638-8350-464f-ab44-19c4a1bf50b3
-description: "Last modified: March 09, 2015"
+description: "This property contains an ASN.1 proof of delivery value Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagProofOfDelivery Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains an ASN.1 proof of delivery value.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROOF_OF_DELIVERY  <br/> |
 |Identifier:  <br/> |0x0C11  <br/> |

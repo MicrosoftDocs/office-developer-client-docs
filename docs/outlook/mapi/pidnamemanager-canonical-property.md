@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d1883d22-5eca-4d00-8222-3fc74782c7a9
-description: "Last modified: March 09, 2015"
+description: "Specifies the manager of the file that is attached to the document for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameManager Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the manager of the file that is attached to the document.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |
