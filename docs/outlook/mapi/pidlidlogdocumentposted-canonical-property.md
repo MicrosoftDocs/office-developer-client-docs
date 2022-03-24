@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the document was sent by email or posted to a server folder during journaling.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidLogDocPosted  <br/> |
 |Property set:  <br/> |PSETID_Log  <br/> |

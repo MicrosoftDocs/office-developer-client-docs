@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value for each attendee that is listed in the **dispidNonSendableBCC** ([PidLidNonSendableBcc](pidlidnonsendablebcc-canonical-property.md)) property.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidNonSendBccTrackStatus  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
