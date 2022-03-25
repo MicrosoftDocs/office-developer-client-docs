@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f85ce31c-f621-47ed-badf-4f59a45ec0a1
-description: "Last modified: March 09, 2015"
+description: "Contains the email address for the messaging user who is represented by the receiving user. This property is set by the incoming transport provider."
 ---
 
 # PidTagReceivedRepresentingEmailAddress Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the email address for the messaging user who is represented by the receiving user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RCVD_REPRESENTING_EMAIL_ADDRESS, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_A, PR_RCVD_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x0078  <br/> |

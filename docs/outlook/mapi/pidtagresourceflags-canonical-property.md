@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69be9ad3-006a-459e-9cd4-eb3f609d71ad
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of flags for message services and providers. This property describes characteristics of a message service, service provider, or status object."
 ---
 
 # PidTagResourceFlags Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags for message services and providers.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RESOURCE_FLAGS  <br/> |
 |Identifier:  <br/> |0x3009  <br/> |

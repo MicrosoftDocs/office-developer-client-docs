@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 67e31027-6bc2-4a40-9b00-d61baef4ab0f
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient type for a message recipient. The recipient type contained in this property consists of one required value and one optional flag."
 ---
 
 # PidTagRecipientType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient type for a message recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_TYPE  <br/> |
 |Identifier:  <br/> |0x0C15  <br/> |

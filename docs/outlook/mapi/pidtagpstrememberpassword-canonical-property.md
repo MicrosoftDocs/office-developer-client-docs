@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2f8eff88-848c-4ad4-a6be-b1744a0ce4ce
-description: "Last modified: March 09, 2015"
+description: "Determines whether to remember the password in the profile for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagPstRememberPassword Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Determines whether to remember the password in the profile.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PST_REMEMBER_PW  <br/> |
 |Identifier:  <br/> |0x6701  <br/> |

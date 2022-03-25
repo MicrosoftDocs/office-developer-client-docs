@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d097ed0f-cd41-4f11-9195-56e936308087
-description: "Last modified: March 09, 2015"
+description: "Represents the recipient number of a recipient on the message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRecipientNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the recipient number of a recipient on the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_NUMBER  <br/> |
 |Identifier:  <br/> |0x6662  <br/> |

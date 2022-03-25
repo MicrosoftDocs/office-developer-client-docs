@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
-description: "Last modified: March 09, 2015"
+description: "Specifies an identifier for a folder or an item in a store. Store providers use this property to identify search results returned from a search engine."
 ---
 
 # PidTagProviderItemId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies an identifier for a folder or an item in a store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROVIDER_ITEMID  <br/> |
 |Identifier:  <br/> |0x0EA3  <br/> |

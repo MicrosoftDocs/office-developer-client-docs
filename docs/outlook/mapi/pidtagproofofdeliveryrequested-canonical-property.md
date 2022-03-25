@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d752d3f-bf36-4711-b1d4-68cd575a062f
-description: "Last modified: March 09, 2015"
+description: "This property contains TRUE if a message sender requests proof of delivery for a particular recipient."
 ---
 
 # PidTagProofOfDeliveryRequested Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains TRUE if a message sender requests proof of delivery for a particular recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROOF_OF_DELIVERY_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0C12  <br/> |
