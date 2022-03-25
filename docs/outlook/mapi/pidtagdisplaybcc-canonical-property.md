@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASCII list of the display names of any blind carbon copy (BCC) message recipients, separated by semicolons (;).
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISPLAY_BCC, PR_DISPLAY_BCC_A, PR_DISPLAY_BCC_W  <br/> |
 |Identifier:  <br/> |0x0E02  <br/> |
