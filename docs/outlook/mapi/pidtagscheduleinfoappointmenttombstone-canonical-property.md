@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b82e2ee-992f-4cbe-bdcb-e7465e556640
-description: "Contains a list of data blocks that represent meetings that have been declined for Outlook 2013 or Outlook 2016."
+description: "Contains a list of data blocks that represent meetings which have been declined for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagScheduleInfoAppointmentTombstone Canonical Property

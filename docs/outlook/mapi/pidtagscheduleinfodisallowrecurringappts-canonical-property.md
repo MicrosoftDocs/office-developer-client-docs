@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 61e082dd-f5bc-479b-990a-c9c0360f883e
-description: "Contains TRUE when the automatic response to recurring appointments is decline. This property is only meaningful when the value of PR_SCHDINFO_AUTO_ACCEPT_APPTS is TRUE."
+description: "Contains TRUE when the automatic response to recurring appointments is declined. This property is only meaningful when the value of PR_SCHDINFO_AUTO_ACCEPT_APPTS is TRUE."
 ---
 
 # PidTagScheduleInfoDisallowRecurringAppts Canonical Property

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 25787ee0-0cd3-e448-a54e-a6aa03b8b718
-description: "Contains the URL of the proxy server that is used to connect Outlook to Exchange Server without the HTTP or HTTPS protocol that comes before the URL."
+description: "Contains the URL of the proxy server that's used to connect Outlook to Exchange Server without the HTTP or HTTPS protocol that comes before the URL."
 ---
 
 # PidTagRpcOverHttpProxyServer Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b7267be4-8d5c-4dc7-86b2-651e03e84f9b
-description: "Contains a count of the significant characters of the message text. These properties are not intended to be used directly by client applications."
+description: "Contains a count of the significant characters of the message text. These properties aren't intended to be used directly by client applications."
 ---
 
 # PidTagRtfSyncBodyCount Canonical Property

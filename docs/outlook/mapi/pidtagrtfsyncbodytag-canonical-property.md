@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2dab5018-4214-4162-93bc-e5565f3ac24c
-description: "Contains significant characters that appear at the beginning of the message text. These properties are not intended to be used directly by client applications."
+description: "Contains significant characters that appear at the beginning of the message text. These properties aren't intended to be used directly by client applications."
 ---
 
 # PidTagRtfSyncBodyTag Canonical Property

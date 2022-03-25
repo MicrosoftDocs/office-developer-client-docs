@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 64f80a03-9ba4-495a-9666-b3a909335cb6
-description: "Contains the name of the application that sets a rule. Deferred actions need these properties to identify the code that must interpret and execute the rule action."
+description: "Contains the name of the application that sets a rule. Deferred actions need these properties to identify the code that must interpret and run the rule action."
 ---
 
 # PidTagRuleProvider Canonical Property

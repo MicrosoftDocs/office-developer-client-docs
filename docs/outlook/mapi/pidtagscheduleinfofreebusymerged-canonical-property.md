@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ebfccb6-967a-4f8e-9d94-94c50ba65438
-description: "Contains the times for which the free/busy status is set to busy or OOF for Outlook 2013 or Outlook 2016."
+description: "Contains the times for which the free status is set to busy or OOF for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagScheduleInfoFreeBusyMerged Canonical Property

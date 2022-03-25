@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f9dd58c7-4119-90db-54f3-e1dd8e48451e
-description: "Contains the principal name of the proxy server that is used by Outlook to connect to Exchange Server by using an RPC over HTTP."
+description: "Contains the principal name of the proxy server that's used by Outlook to connect to Exchange Server by using an RPC over HTTP."
 ---
 
 # PidTagRpcOverHttpProxyPrincipalName Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2b15ac5-9e89-4ee2-812d-102d0b2ac56e
-description: "Contains a count of the ignorable characters that appear before the significant characters of the message. These properties are not intended for use by client applications."
+description: "Contains a count of the ignorable characters that appear before the significant characters of the message. These properties aren't intended for use by client applications."
 ---
 
 # PidTagRtfSyncPrefixCount Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b13b5d7b-413e-4405-8a35-0422477a9e86
-description: "Contains a list of the months for which free/busy data of type busy or an out of office (OOF) message is present in the free/busy message."
+description: "Contains a list of the months for which free data of type busy or an out of office (OOF) message is present in the free message."
 ---
 
 # PidTagScheduleInfoMonthsMerged Canonical Property

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce55b50e-3dbf-4690-9102-c08f35ada82e
-description: "Contains an arbitrary XML stream. Other properties in the message may imply specific schemas to use in this property."
+description: "Contains an arbitrary XML stream. Other properties in the message might imply specific schemas to use in this property."
 ---
 
 # PidTagRoamingXmlStream Canonical Property
