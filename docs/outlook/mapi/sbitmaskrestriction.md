@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ddd42180-6e4f-410c-9f78-d868a91452dc
-description: "Last modified: March 09, 2015"
+description: "Describes a bitmask restriction, which is used to perform a bitwise AND operation and test the result."
 ---
 
 # SBitMaskRestriction
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a bitmask restriction, which is used to perform a bitwise **AND** operation and test the result. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

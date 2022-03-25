@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22de5d38-7be6-48b3-90a7-bc553dcdb042
-description: "Last modified: March 09, 2015"
+description: "Adjusts a pointer within a specified event notification array for Outlook 2013 or Outlook 2016."
 ---
 
 # ScRelocNotifications
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Adjusts a pointer within a specified event notification array. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

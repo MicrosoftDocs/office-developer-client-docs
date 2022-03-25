@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e2d5190-e67a-470d-8177-0f0ba20c7b82
-description: "Last modified: March 09, 2015"
+description: "A callback function invoked by the Profile Wizard for a service provider to react to user events when the provider's property sheets or pages are being shown."
 ---
 
 # SERVICEWIZARDDLGPROC
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a callback function invoked by the Profile Wizard to allow a service provider to react to user events when the provider's property sheets or pages are being shown. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiwz.h  <br/> |
 |Defined function implemented by:  <br/> |Service providers  <br/> |

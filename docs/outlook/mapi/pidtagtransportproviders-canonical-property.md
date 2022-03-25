@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
-description: "Last modified: March 09, 2015"
+description: "Contains a list of identifiers of transport providers in the current profile. Do not use this property. It is reserved for use by MAPI."
 ---
 
 # PidTagTransportProviders Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of identifiers of transport providers in the current profile.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TRANSPORT_PROVIDERS  <br/> |
 |Identifier:  <br/> |0x3D02  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83a44aee-5269-42a8-8078-4bc063bb6e29
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of flags that indicate the validity of the entry identifiers of the folders in a message store."
 ---
 
 # PidTagValidFolderMask Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags that indicate the validity of the entry identifiers of the folders in a message store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_VALID_FOLDER_MASK  <br/> |
 |Identifier:  <br/> |0x35DF  <br/> |

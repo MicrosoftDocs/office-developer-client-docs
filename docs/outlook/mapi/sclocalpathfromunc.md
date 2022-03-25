@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef5eb5c6-251e-4a3a-8855-7c28804a29ab
-description: "Last modified: March 09, 2015"
+description: "Locates a local path counterpart to the given universal naming convention (UNC) path for Outlook 2013 or Outlook 2016."
 ---
 
 # ScLocalPathFromUNC
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Locates a local path counterpart to the given universal naming convention (UNC) path. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

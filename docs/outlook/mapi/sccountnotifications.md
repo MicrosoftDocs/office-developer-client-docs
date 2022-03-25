@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 13e80bdc-cb59-47a5-8de0-404e22f87f82
-description: "Last modified: March 09, 2015"
+description: "Determines the size, in bytes, of an array of event notifications, and validates the memory associated with the array."
 ---
 
 # ScCountNotifications
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Determines the size, in bytes, of an array of event notifications, and validates the memory associated with the array.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
