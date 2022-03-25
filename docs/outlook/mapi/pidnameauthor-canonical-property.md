@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the author of the file that is attached to the document.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

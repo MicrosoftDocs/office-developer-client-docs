@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the recipient's administrative assistant. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ASSISTANT, PR_ASSISTANT_A, PR_ASSISTANT_W  <br/> |
 |Identifier:  <br/> |0x3A30  <br/> |

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the number of time units that are used to determine the length of time that an item remains in a folder before the item is archived.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AGING_PERIOD  <br/> |
 |Identifier:  <br/> |0x36EC  <br/> |

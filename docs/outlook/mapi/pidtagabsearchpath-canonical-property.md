@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of entry identifiers for address book containers that are to be searched to resolve names. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AB_SEARCH_PATH  <br/> |
 |Identifier:  <br/> |0x3D05  <br/> |

@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Determines whether a personal folders file (PST) store provider is configured as a Microsoft SharePoint 2010 PST.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
 |Identifier:  <br/> |0x0EA00048  <br/> |
