@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8f14dc15-d7d7-4894-b6a8-0d589f576c42
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the folder where the message should be moved after submission."
 ---
 
 # PidTagSentMailEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the folder where the message should be moved after submission.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENTMAIL_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0E0A  <br/> |

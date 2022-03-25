@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
-description: "Last modified: March 09, 2015"
+description: "Contains a Unicode string that is being queried in the email addresses or display names of recipients that are addressed in the To line of messages."
 ---
 
 # PidTagSearchRecipientEmailTo Canonical Property
@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a Unicode string that is being queried in the list of email addresses or display names of recipients that are addressed in the **To** line of messages on the store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SEARCH_RECIP_EMAIL_TO_W  <br/> |
 |Identifier:  <br/> |0x0EA6  <br/> |

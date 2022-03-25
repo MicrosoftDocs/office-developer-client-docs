@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a651af84-1711-449e-ba7e-5ce09cafa02b
-description: "Last modified: March 09, 2015"
+description: "Contains the filename of the DLL containing the message service provider entry point function to call for configuration."
 ---
 
 # PidTagServiceDllName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the filename of the DLL containing the message service provider entry point function to call for configuration.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICE_DLL_NAME, PR_SERVICE_DLL_NAME_A, PR_SERVICE_DLL_NAME_W  <br/> |
 |Identifier:  <br/> |0x3D0A  <br/> |

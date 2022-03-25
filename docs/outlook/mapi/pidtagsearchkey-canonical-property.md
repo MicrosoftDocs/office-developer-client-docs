@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fcab369a-a1f4-4425-a272-e35046914a4d
-description: "Last modified: March 09, 2015"
+description: "Contains a binary-comparable key that identifies correlated objects for a search. This property provides a trace for related objects, such as message copies."
 ---
 
 # PidTagSearchKey Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a binary-comparable key that identifies correlated objects for a search.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x300B  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
-description: "Last modified: March 09, 2015"
+description: "Contains a list of filenames that are to be deleted when the message service is uninstalled. MAPI works only with filenames in the ANSI character set."
 ---
 
 # PidTagServiceDeleteFiles Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of filenames that are to be deleted when the message service is uninstalled.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICE_DELETE_FILES, PR_SERVICE_DELETE_FILES_A, PR_SERVICE_DELETE_FILES_W  <br/> |
 |Identifier:  <br/> |0x3D10  <br/> |

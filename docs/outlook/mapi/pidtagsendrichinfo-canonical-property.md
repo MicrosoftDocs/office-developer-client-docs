@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85fc766-197a-484f-b600-68cd28a052a2
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the recipient can receive all message content, including Rich Text Format (RTF) and Object Linking and Embedding (OLE) objects."
 ---
 
 # PidTagSendRichInfo Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the recipient can receive all message content, including Rich Text Format (RTF) and Object Linking and Embedding (OLE) objects. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SEND_RICH_INFO  <br/> |
 |Identifier:  <br/> |0x3A40  <br/> |

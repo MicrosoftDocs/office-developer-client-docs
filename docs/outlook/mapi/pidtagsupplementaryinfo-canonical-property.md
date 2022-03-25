@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d4231b5-4096-4c0d-b694-65e2d04172b8
-description: "Last modified: March 09, 2015"
+description: "Contains additional information for use in a report. The property is used for delivery or nondelivery report text from the underlying messaging system."
 ---
 
 # PidTagSupplementaryInfo Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains additional information for use in a report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SUPPLEMENTARY_INFO, PR_SUPPLEMENTARY_INFO_A, PR_SUPPLEMENTARY_INFO_W  <br/> |
 |Identifier:  <br/> |0x0C1B  <br/> |

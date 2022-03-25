@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5ed122a2-0967-4de3-a2ee-69f81ae77b16
-description: "Last modified: March 09, 2015"
+description: "Contains the Simple Mail Transport Protocol (SMTP) email address for the messaging user who is represented by the sender."
 ---
 
 # PidTagSentRepresentingSmtpAddress Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the Simple Mail Transport Protocol (SMTP) email address for the messaging user who is represented by the sender.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENT_REPRESENTING_SMTP_ADDRESS, PR_SENT_REPRESENTING_SMTP_ADDRESS_A, PR_SENT_REPRESENTING_SMTP_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x5D02  <br/> |

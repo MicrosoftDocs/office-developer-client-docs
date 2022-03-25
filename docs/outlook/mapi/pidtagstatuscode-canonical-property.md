@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e29190c5-52c3-4ef7-98db-699487c54325
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of flags that indicate the current status of a session resource. The status code must appear in the Mapisvc.inf file for all providers."
 ---
 
 # PidTagStatusCode Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags that indicate the current status of a session resource. All service providers set status codes as does MAPI to report on the status of the subsystem, the MAPI spooler, and the integrated address book.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STATUS_CODE  <br/> |
 |Identifier:  <br/> |0x3E04  <br/> |

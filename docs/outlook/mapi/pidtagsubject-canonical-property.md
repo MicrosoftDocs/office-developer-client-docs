@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: aa7ba4d9-c5e0-4ce7-a34e-65f675223bc9
-description: "Last modified: March 09, 2015"
+description: "Contains the full subject of a message. These properties are recommended on all message objects."
 ---
 
 # PidTagSubject Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the full subject of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SUBJECT, PR_SUBJECT_A, PR_SUBJECT_W  <br/> |
 |Identifier:  <br/> |0x0037  <br/> |

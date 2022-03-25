@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d347c949-d0c3-4a36-8447-3fa01111cdc1
-description: "Last modified: March 09, 2015"
+description: "Contains a message attachment's character set value. This property's data is derived from a Content-Type MIME header field that starts with 'text/'."
 ---
 
 # PidTagTextAttachmentCharset Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a message attachment's character set value.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |None  <br/> |
 |Identifier:  <br/> |0x371B  <br/> |
