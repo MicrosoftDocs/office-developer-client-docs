@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags describing capabilities of an address book container. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAINER_FLAGS  <br/> |
 |Identifier:  <br/> |0x3600  <br/> |

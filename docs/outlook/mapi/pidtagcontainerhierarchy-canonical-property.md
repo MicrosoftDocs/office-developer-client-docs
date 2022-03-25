@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an embedded hierarchy table object that provides information about the child containers. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAINER_HIERARCHY  <br/> |
 |Identifier:  <br/> |0x360E  <br/> |

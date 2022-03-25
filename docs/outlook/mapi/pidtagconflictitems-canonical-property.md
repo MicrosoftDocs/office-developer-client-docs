@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains one or more entry IDs of items that have been involved in an automatic conflict resolution.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONFLICT_ITEMS  <br/> |
 |Identifier:  <br/> |0x1098  <br/> |

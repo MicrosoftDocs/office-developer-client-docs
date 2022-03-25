@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a file name extension that indicates the document type of an attachment. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_EXTENSION, PR_ATTACH_EXTENSION_A, PR_ATTACH_EXTENSION_W  <br/> |
 |Identifier:  <br/> |0x3703  <br/> |

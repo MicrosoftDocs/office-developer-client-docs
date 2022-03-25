@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the main telephone number for a company
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_COMPANY_MAIN_PHONE_NUMBER, PR_COMPANY_MAIN_PHONE_NUMBER_A, PR_COMPANY_MAIN_PHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A57  <br/> |

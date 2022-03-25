@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the content identification header of a Multipurpose Internet Mail Extensions (MIME) message attachment. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A, PR_ATTACH_CONTENT_ID_W  <br/> |
 |Identifier:  <br/> |0x3712  <br/> |
