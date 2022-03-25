@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the original date and time when the instance in the recurrence pattern would have occurred if it were not an exception.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXCEPTION_REPLACETIME  <br/> |
 |Identifier:  <br/> |0x7FF9  <br/> |

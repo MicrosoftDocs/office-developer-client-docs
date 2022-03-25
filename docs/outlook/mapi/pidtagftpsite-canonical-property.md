@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the contact's File Transfer Protocol (FTP) URL. FTP is a protocol that is used to transfer data, as specified in [RFC959].
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FTP_SITE, PR_FTP_SITE_A, PR_FTP_SITE_W  <br/> |
 |Identifier:  <br/> |0x3A4C  <br/> |

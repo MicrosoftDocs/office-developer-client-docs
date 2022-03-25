@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines the expiry send time in conjunction with the **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)) property.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXPIRY_NUMBER  <br/> |
 |Identifier:  <br/> |0x3FED  <br/> |

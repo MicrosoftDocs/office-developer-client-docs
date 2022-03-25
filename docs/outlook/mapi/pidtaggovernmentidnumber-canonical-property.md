@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a government identifier for the recipient. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_GOVERNMENT_ID_NUMBER, PR_GOVERNMENT_ID_NUMBER_A, PR_GOVERNMENT_ID_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A07  <br/> |

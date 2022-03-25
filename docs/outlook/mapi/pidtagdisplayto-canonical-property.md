@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of the display names of the primary (To) message recipients, separated by semicolons (;). 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISPLAY_TO, PR_DISPLAY_TO_A, PR_DISPLAY_TO_W  <br/> |
 |Identifier:  <br/> |0x0E04  <br/> |

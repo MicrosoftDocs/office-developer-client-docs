@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the unique identifier for the object that is used to design a form.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_DESIGNER_GUID  <br/> |
 |Identifier:  <br/> |0x3309  <br/> |
