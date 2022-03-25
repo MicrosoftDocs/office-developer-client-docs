@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the unit of time by which the **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)) property value should be multiplied.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEFERRED_SEND_UNITS  <br/> |
 |Identifier:  <br/> |0x3FEC  <br/> |
@@ -35,9 +35,8 @@ Specifies the unit of time by which the **PR_DEFERRED_SEND_NUMBER** ([PidTagDefe
 
 If set, this property must have one of the following values:
   
-|||
-|:-----|:-----|
 |**PidTagDeferredSendUnits** <br/> |Description  <br/> |
+|:-----|:-----|
 |0  <br/> |Minutes, for example 60 seconds  <br/> |
 |1  <br/> |Hours, for example 60x60 seconds  <br/> |
 |2  <br/> |Day, for example 24x60x60 seconds  <br/> |

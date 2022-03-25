@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a messaging user profile is the MAPI default profile.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEFAULT_PROFILE  <br/> |
 |Identifier:  <br/> |0x3D04  <br/> |

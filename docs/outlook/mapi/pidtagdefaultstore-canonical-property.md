@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message store is the default message store in the message store table. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEFAULT_STORE  <br/> |
 |Identifier:  <br/> |0x3400  <br/> |

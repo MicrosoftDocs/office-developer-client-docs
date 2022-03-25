@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an embedded table object that contains dialog box template entry identifiers. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CREATE_TEMPLATES  <br/> |
 |Identifier:  <br/> |0x3604  <br/> |

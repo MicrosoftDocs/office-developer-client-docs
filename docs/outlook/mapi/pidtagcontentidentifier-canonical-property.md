@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a key value that enables the message recipient to identify its content.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTENT_IDENTIFIER, PR_CONTENT_IDENTIFIER_A, PR_CONTENT_IDENTIFIER_W  <br/> |
 |Identifier:  <br/> |0x0008  <br/> |
