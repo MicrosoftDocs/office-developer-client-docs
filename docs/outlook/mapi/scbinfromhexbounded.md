@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: edac715c-6edb-4b05-82e5-c08c3c7cb6d4
-description: "Last modified: March 09, 2015"
+description: "Converts the specified portion of a string representation of a hexadecimal number into a binary number."
 ---
 
 # ScBinFromHexBounded
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Converts the specified portion of a string representation of a hexadecimal number into a binary number. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

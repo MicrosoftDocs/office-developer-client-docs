@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e689ee4-9e89-4328-beb9-05c80a6544a0
-description: "Last modified: March 09, 2015"
+description: "Contains the name of a view descriptor. These properties must be set to a non-empty string for a FAI message that contains view definitions."
 ---
 
 # PidTagViewDescriptorName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of a view descriptor.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_VD_NAME, PR_VD_NAME_A, PR_VD_NAME_W  <br/> |
 |Identifier:  <br/> |0x7006  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: aadd9086-b936-4067-bf7d-f54fc50e3c83
-description: "Last modified: March 09, 2015"
+description: "Contains a recipient's display name in a secure form that cannot be changed. A client application can use this property to prevent alteration of entries."
 ---
 
 # PidTagTransmittableDisplayName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a recipient's display name in a secure form that cannot be changed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TRANSMITABLE_DISPLAY_NAME, PR_TRANSMITABLE_DISPLAY_NAME_A, PR_TRANSMITABLE_DISPLAY_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A20  <br/> |

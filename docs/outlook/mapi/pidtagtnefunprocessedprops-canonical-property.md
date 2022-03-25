@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
-description: "Last modified: March 09, 2015"
+description: "Serializes properties when filtering Transport Neutral Encapsulation Format (TNEF). Used for saving the original TNEF if it contains named properties not created in the store."
 ---
 
 # PidTagTnefUnprocessedProps Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Serializes properties when filtering Transport Neutral Encapsulation Format (TNEF).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |
 |Identifier:  <br/> |0x0E9C  <br/> |

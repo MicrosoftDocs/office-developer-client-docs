@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 278bb9e4-3ff6-4bef-b208-7924f7a5e9b1
-description: "Last modified: March 09, 2015"
+description: "Contains X.509 version 3 security certificates for a messaging user. This property is used by applications that utilize public-key security."
 ---
 
 # PidTagUserX509Certificate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains X.509 version 3 security certificates for a messaging user. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_USER_X509_CERTIFICATE  <br/> |
 |Identifier:  <br/> |0x3A70  <br/> |

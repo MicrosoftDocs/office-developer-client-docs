@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 683d0d00-1b93-445d-86ff-180a3e6d2323
-description: "Last modified: March 09, 2015"
+description: "Sets or alters attributes of properties on an IMessage object supplied by the OpenIMsgOnIStg function."
 ---
 
 # SetAttribIMsgOnIStg
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Sets or alters attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

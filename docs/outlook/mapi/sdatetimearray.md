@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a0dff65-1055-487c-9d15-4cfe336f2ad7
-description: "Last modified: March 09, 2015"
+description: "Contains an array of time values that are used to describe a property of type PT_MV_SYSTIME for Outlook 2013 or Outlook 2016."
 ---
 
 # SDateTimeArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of time values that are used to describe a property of type PT_MV_SYSTIME.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

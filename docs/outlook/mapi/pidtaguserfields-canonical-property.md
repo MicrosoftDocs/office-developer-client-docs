@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
-description: "Last modified: March 09, 2015"
+description: "Contains the name, data type, and other information about a user-defined field for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagUserFields Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name, data type, and other information about a user-defined field.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_USERFIELDS  <br/> |
 |Identifier:  <br/> |0x36E3  <br/> |

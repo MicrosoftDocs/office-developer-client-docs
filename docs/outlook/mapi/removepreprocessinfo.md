@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25f46937-abac-4a0b-83db-eeac9451c112
-description: "Last modified: March 09, 2015"
+description: "Removes preprocessed information written by a PreprocessMessage based function from a message for Outlook 2013 or Outlook 2016."
 ---
 
 # RemovePreprocessInfo
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Removes preprocessed information written by a [PreprocessMessage](preprocessmessage.md) based function from a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Defined function implemented by:  <br/> |Transport providers  <br/> |

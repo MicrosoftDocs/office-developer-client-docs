@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3231a91a-1ef2-4dd8-9f3e-79ca56d2eae9
-description: "Last modified: March 09, 2015"
+description: "Describes a compare property restriction, which tests two properties using a relational operator."
 ---
 
 # SComparePropsRestriction
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a compare property restriction, which tests two properties using a relational operator. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
