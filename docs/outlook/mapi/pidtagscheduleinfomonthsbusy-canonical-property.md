@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b15447d6-89aa-40ad-93fc-21fbfa5e3d0e
-description: "Last modified: March 09, 2015"
+description: "Contains the months for which free/busy data of type busy is present in the free/busy message."
 ---
 
 # PidTagScheduleInfoMonthsBusy Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the months for which free/busy data of type busy is present in the free/busy message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_MONTHS_BUSY  <br/> |
 |Identifier:  <br/> |0x6853  <br/> |

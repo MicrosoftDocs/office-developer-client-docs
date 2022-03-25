@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eb326037-bc44-4b04-812c-7d1adf854cc9
-description: "Last modified: March 09, 2015"
+description: "Specifies the user-readable name of the rule for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRuleName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the user-readable name of the rule.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_NAME  <br/> |
 |Identifier:  <br/> |0x6682  <br/> |

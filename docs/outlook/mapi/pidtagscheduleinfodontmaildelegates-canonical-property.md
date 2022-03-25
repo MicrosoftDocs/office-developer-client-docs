@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e932966e-cb7a-4d8b-8f06-6406fce1b3e6
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the delegate doesn't want to receive updates. This property must be set in the delegate information object."
 ---
 
 # PidTagScheduleInfoDontMailDelegates Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the delegate does not want to receive updates.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_DONT_MAIL_DELEGATES  <br/> |
 |Identifier:  <br/> |0x6843  <br/> |

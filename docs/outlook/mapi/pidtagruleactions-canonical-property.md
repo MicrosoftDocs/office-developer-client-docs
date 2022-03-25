@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ec4259a-8fe9-46c3-82b8-42c6907b8515
-description: "Last modified: March 09, 2015"
+description: "Contains the set of actions associated with the rule for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRuleActions Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the set of actions associated with the rule. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_ACTIONS  <br/> |
 |Identifier:  <br/> |0x6680  <br/> |

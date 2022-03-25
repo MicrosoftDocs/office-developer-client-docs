@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce55b50e-3dbf-4690-9102-c08f35ada82e
-description: "Last modified: March 09, 2015"
+description: "Contains an arbitrary XML stream. Other properties in the message might imply specific schemas to use in this property."
 ---
 
 # PidTagRoamingXmlStream Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an arbitrary XML stream.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROAMING_XMLSTREAM  <br/> |
 |Identifier:  <br/> |0x7C08  <br/> |

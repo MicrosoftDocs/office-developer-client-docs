@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the original message is being returned with a nonread report. An X.400 transport provider sets this property in the unread report."
 ---
 
 # PidTagReturnedMessageid Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the original message is being returned with a nonread report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RETURNED_IPM  <br/> |
 |Identifier:  <br/> |0x0033  <br/> |

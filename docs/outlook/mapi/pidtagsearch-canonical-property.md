@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a1929ab8-4813-468b-9768-cdf7f848cfce
-description: "Last modified: March 09, 2015"
+description: "Contains a container object that's used for advanced searches for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSearch Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a container object that is used for advanced searches.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SEARCH  <br/> |
 |Identifier:  <br/> |0x3607  <br/> |

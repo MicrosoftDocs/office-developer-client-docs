@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 443cc68e-7898-4285-a606-f916fcd18554
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the PR_RTF_COMPRESSED property has the same text content as the PR_BODY property for this message."
 ---
 
 # PidTagRtfInSync Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) property has the same text content as the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property for this message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RTF_IN_SYNC  <br/> |
 |Identifier:  <br/> |0x0E1F  <br/> |

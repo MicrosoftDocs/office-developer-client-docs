@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eefbcdd4-9841-4742-b976-e85c8e686dda
-description: "Last modified: March 09, 2015"
+description: "Contains the name of an extended rule for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRuleMsgName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of an extended rule.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_MSG_NAME  <br/> |
 |Identifier:  <br/> |0x65EC  <br/> |
