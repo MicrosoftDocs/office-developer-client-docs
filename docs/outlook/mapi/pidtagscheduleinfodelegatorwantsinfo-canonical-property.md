@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d88b5b0-cb61-4714-8cef-9916c6e85854
-description: "Last modified: March 09, 2015"
+description: "Contains the delegator who wants to receive informational updates for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagScheduleInfoDelegatorWantsInfo Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the delegator who wants to receive informational updates.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_BOSS_WANTS_INFO  <br/> |
 |Identifier:  <br/> |0x684B  <br/> |

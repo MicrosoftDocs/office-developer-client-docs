@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 25787ee0-0cd3-e448-a54e-a6aa03b8b718
-description: "Last modified: March 09, 2015"
+description: "Contains the URL of the proxy server that is used to connect Outlook to Exchange Server without the HTTP or HTTPS protocol that comes before the URL."
 ---
 
 # PidTagRpcOverHttpProxyServer Canonical Property
@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the URL of the proxy server that is used to connect Microsoft Outlook to Microsoft Exchange Server without the HTTP protocol or the Hypertext Transfer Protocol Secure (HTTPS) protocol that comes before the URL.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROH_PROXY_SERVER  <br/> |
 |Identifier:  <br/> |0x6622  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2dab5018-4214-4162-93bc-e5565f3ac24c
-description: "Last modified: March 09, 2015"
+description: "Contains significant characters that appear at the beginning of the message text. These properties are not intended to be used directly by client applications."
 ---
 
 # PidTagRtfSyncBodyTag Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains significant characters that appear at the beginning of the message text.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RTF_SYNC_BODY_TAG, PR_RTF_SYNC_BODY_TAG_A, PR_RTF_SYNC_BODY_TAG_W  <br/> |
 |Identifier:  <br/> |0x1008  <br/> |

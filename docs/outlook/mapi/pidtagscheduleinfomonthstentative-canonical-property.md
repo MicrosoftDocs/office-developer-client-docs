@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3179442c-6499-464a-93af-eb0a7a5b0d30
-description: "Last modified: March 09, 2015"
+description: "Contains the months marked tentative in the free/busy message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagScheduleInfoMonthsTentative Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the months marked tentative in the free/busy message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_MONTHS_TENTATIVE  <br/> |
 |Identifier:  <br/> |0x6851  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 27978a09-daf7-4a50-927a-96d9c4a97d02
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if overlapping appointments are disallowed. This property is only meaningful when the value of PR_SCHDINFO_AUTO_ACCEPT_APPTS is TRUE."
 ---
 
 # PidTagScheduleInfoDisallowOverlappingAppts Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if overlapping appointments are disallowed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS  <br/> |
 |Identifier:  <br/> |0x686F  <br/> |

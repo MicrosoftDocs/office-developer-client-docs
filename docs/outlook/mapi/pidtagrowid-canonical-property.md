@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0fdcb55a-2971-4c7d-b61e-7ada2d19d0e6
-description: "Last modified: March 09, 2015"
+description: "Contains a unique ID for a recipient in a recipient table or status table. This is a temporary value that is valid for the life of the object that owns the table."
 ---
 
 # PidTagRowid Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a unique identifier for a recipient in a recipient table or status table.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROWID  <br/> |
 |Identifier:  <br/> |0x3000  <br/> |

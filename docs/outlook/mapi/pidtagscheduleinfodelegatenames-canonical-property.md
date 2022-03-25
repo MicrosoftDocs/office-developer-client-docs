@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 592d9c78-4487-4c68-8ae7-4cd3d6265685
-description: "Last modified: March 09, 2015"
+description: "Contains the names of the delegates for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagScheduleInfoDelegateNames Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the names of the delegates.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_DELEGATE_NAMES, PR_SCHDINFO_DELEGATE_NAMES_A, PR_SCHDINFO_DELEGATE_NAMES_W  <br/> |
 |Identifier:  <br/> |0x6844  <br/> |

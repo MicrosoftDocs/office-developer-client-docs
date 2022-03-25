@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
-description: "Last modified: March 09, 2015"
+description: "Represents the authentication protocol to be used for this profile. This property can be set for either basic authentication or NT LAN Manager authentication."
 ---
 
 # PidTagRpcOverHttpProxyAuthScheme Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the authentication protocol to be used for this profile.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROH_PROXY_AUTH_SCHEME  <br/> |
 |Identifier:  <br/> |0x6627  <br/> |

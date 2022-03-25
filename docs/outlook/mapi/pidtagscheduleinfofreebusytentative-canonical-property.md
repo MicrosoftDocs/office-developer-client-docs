@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 28453d29-30c5-405b-84d2-5bb5f281756c
-description: "Last modified: March 09, 2015"
+description: "Contains the blocks of times for which the free/busy status is tentative for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagScheduleInfoFreeBusyTentative Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the blocks of times for which the free/busy status is tentative.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_FREEBUSY_TENTATIVE  <br/> |
 |Identifier:  <br/> |0x6852  <br/> |

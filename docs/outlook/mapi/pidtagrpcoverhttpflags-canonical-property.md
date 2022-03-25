@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: c8b30768-cf83-450d-9fe2-567a5e0c2f57
-description: "Last modified: March 09, 2015"
+description: "Contains the settings in a profile used by Outlook to connect to Microsoft Exchange Server by using an RPC over HTTP."
 ---
 
 # PidTagRpcOverHttpFlags Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the settings in a profile used by Microsoft Office Outlook to connect to Microsoft Exchange Server by using a remote procedure call (RPC) over Hypertext Transfer Protocol (HTTP).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROH_FLAGS  <br/> |
 |Identifier:  <br/> |0x6623  <br/> |
