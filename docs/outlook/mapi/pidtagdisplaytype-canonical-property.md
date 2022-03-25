@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value used to associate an icon with a particular row of a table. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISPLAY_TYPE  <br/> |
 |Identifier:  <br/> |0x3900  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a secondary telephone number at the recipient's home. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME2_TELEPHONE_NUMBER, PR_HOME2_TELEPHONE_NUMBER_A, PR_HOME2_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A2F  <br/> |

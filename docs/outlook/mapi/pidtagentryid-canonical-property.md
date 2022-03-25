@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a MAPI entry identifier used to open and edit properties of a particular MAPI object. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0FFF  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the state or province portion of a user's address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME_ADDRESS_STATE_OR_PROVINCE, PR_HOME_ADDRESS_STATE_OR_PROVINCE_A, PR_HOME_ADDRESS_STATE_OR_PROVINCE_W  <br/> |
 |Identifier:  <br/> |0x3A5C  <br/> |

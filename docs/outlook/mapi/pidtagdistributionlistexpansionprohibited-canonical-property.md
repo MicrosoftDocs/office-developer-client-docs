@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message transfer agent (MTA) is prohibited from expanding distribution lists.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DL_EXPANSION_PROHIBITED  <br/> |
 |Identifier:  <br/> |0x0014  <br/> |

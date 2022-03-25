@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the flag state of the message object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FLAG_STATUS  <br/> |
 |Identifier:  <br/> |0x1090  <br/> |

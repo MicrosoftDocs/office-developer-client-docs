@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the ending date and time of an appointment as managed by a scheduling application. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_END_DATE  <br/> |
 |Identifier:  <br/> |0x0061  <br/> |

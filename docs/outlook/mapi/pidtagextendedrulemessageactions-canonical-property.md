@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains additional information about the named properties used in a Folder Associated Information (FAI) message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXTENDED_RULE_MSG_ACTIONS  <br/> |
 |Identifier:  <br/> |0x0E99  <br/> |
