@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an [RFC3282] attachment value that is comprised of appropriate header and resource fork data used by Macintosh-based email clients.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PSETID_Attachment  <br/> |

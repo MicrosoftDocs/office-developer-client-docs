@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a table that consists of all the system access control lists (SACL) applied to a folder.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ACL_TABLE  <br/> |
 |Identifier:  <br/> |0x3FE0  <br/> |

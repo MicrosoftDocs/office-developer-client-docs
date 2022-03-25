@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains special folder entry IDs for a store object. Each entry in this multi-valued property can be mapped to one or more entry IDs, that is, there is a one-to-many relationship between an entry and its associated entry IDs.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ADDITIONAL_REN_ENTRYIDS_EX  <br/> |
 |Identifier:  <br/> |0x36D9  <br/> |
