@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
  Names the user who most recently assigned or was assigned the task. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskLastDelegate  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

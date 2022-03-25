@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the reference [ENTRYID](entryid.md) for the contact. 
   
-|||
+|Property|value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidReferenceEID  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

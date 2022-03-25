@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the user-displayable name of the sharing provider that is identified by **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)). This is a property of a sharing message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingProviderName  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |
