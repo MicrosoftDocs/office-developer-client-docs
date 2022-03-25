@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the message text.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_BODY, PR_BODY_A, PR_BODY_W  <br/> |
 |Identifier:  <br/> |0x1000  <br/> |

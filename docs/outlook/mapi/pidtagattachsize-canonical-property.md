@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the sum, in bytes, of the sizes of all properties on an attachment. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_SIZE  <br/> |
 |Identifier:  <br/> |0x0E20  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of an attachment file modified so that it can be associated with TNEF messages. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_TRANSPORT_NAME, PR_ATTACH_TRANSPORT_NAME_A, PR_ATTACH_TRANSPORT_NAME_W  <br/> |
 |Identifier:  <br/> |0x370C  <br/> |

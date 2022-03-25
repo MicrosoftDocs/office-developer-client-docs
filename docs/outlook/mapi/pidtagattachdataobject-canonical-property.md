@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an attachment object typically accessed through the Object Linking and Embedding (OLE) **IStorage** interface. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_DATA_OBJ  <br/> |
 |Identifier:  <br/> |0x3701  <br/> |
