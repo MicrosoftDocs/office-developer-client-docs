@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9cec22cd-798d-41f6-9ebd-c7354f2162c2
-description: "Last modified: March 09, 2015"
+description: "This property contains TRUE if the profile wizard is to suppress the personal address book (PAB) page."
 ---
 
 # PidTagWizardNoPabPage Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains TRUE if the profile wizard is to suppress the personal address book (PAB) page.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WIZARD_NO_PAB_PAGE  <br/> |
 |Identifier:  <br/> |0x6701  <br/> |

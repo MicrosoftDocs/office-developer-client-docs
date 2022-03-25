@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether future instances of recurring tasks need reminders, even though **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) is FALSE.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskResetReminder  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

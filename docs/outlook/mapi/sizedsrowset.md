@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
-description: "Last modified: March 09, 2015"
+description: "Creates a named SRowSet structure that contains a specified number of rows for Outlook 2013 or Outlook 2016."
 ---
 
 # SizedSRowSet
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named [SRowSet](srowset.md) structure that contains a specified number of rows. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SRowSet** <br/> |

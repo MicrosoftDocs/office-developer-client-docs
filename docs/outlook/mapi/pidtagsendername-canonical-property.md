@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33fb53a8-4c7b-4418-8849-b6f9a1580172
-description: "Last modified: March 09, 2015"
+description: "Contains the message sender's display name. This property must be set by the outgoing transport provider, which should never propagate any existing values."
 ---
 
 # PidTagSenderName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the message sender's display name.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENDER_NAME, PR_SENDER_NAME_A, PR_SENDER_NAME_W  <br/> |
 |Identifier:  <br/> |0x0C1A  <br/> |

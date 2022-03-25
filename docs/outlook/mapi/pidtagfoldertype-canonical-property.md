@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a constant that indicates the folder type. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FOLDER_TYPE  <br/> |
 |Identifier:  <br/> |0x3601  <br/> |

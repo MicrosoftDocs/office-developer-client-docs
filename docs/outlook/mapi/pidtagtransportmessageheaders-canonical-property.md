@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f8e3f20-6454-4dfd-9b35-e0401abac6b3
-description: "Last modified: March 09, 2015"
+description: "Contains transport-specific message envelope information. The client can choose whether or not to display the information."
 ---
 
 # PidTagTransportMessageHeaders Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains transport-specific message envelope information.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TRANSPORT_MESSAGE_HEADERS, PR_TRANSPORT_MESSAGE_HEADERS_A, PR_TRANSPORT_MESSAGE_HEADERS_W  <br/> |
 |Identifier:  <br/> |0x007D  <br/> |

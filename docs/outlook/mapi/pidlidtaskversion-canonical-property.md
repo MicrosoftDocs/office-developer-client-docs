@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates which copy is the latest update of a task.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskVersion  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

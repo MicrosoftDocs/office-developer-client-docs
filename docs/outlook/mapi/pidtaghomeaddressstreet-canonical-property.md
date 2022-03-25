@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the street portion of a user's address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME_ADDRESS_STREET, PR_HOME_ADDRESS_STREET_A, PR_HOME_ADDRESS_STREET_W  <br/> |
 |Identifier:  <br/> |0x3A5D  <br/> |

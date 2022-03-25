@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a7f05c8c-59b4-4d5b-8e70-ebcde5f2ed45
-description: "Last modified: March 09, 2015"
+description: "Contains a value that correlates a Transport Neutral Encapsulation Format (TNEF) attachment with a message."
 ---
 
 # PidTagTnefCorrelationKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that correlates a Transport Neutral Encapsulation Format (TNEF) attachment with a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TNEF_CORRELATION_KEY  <br/> |
 |Identifier:  <br/> |0x007F  <br/> |

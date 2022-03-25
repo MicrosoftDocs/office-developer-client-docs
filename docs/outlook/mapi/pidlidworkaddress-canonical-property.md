@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the contact's complete work address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidWorkAddress  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

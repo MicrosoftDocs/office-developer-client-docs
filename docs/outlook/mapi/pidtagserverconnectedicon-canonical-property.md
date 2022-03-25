@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8adbc29b-8fb1-474f-b128-b8fc58283b92
-description: "Last modified: March 09, 2015"
+description: "Specifies the icon displayed in the status bar for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagServerConnectedIcon Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the icon displayed in the status bar.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVER_CONNECTED_ICON  <br/> |
 |Identifier:  <br/> |0x341E  <br/> |

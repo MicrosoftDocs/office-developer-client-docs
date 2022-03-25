@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the city for the recipient's home address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME_ADDRESS_CITY, PR_HOME_ADDRESS_CITY_A, PR_HOME_ADDRESS_CITY_W  <br/> |
 |Identifier:  <br/> |0x3A59  <br/> |

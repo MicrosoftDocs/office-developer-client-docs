@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 55b3e692-753d-45e9-a40d-22adc81b75da
-description: "Last modified: March 09, 2015"
+description: "Outgoing messages, after they have been sent, can be left in the Outbox folder, moved to a folder designated to hold sent messages, or deleted."
  
  
 ---
@@ -30,7 +30,7 @@ Either one or the other, or neither of these properties should be set, but not b
   
 The following table describes how these properties affect what you do with sent messages.
   
-|||
+|Property |Description |
 |:-----|:-----|
 |If neither property is set:  <br/> |Leave the message in the folder from which it was sent (typically the Outbox). |
 |If **PR_SENTMAIL_ENTRYID** is set:  <br/> |Move the message to the indicated folder. |

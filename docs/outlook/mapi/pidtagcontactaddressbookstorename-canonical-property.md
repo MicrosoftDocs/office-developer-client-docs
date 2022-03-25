@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of the store associated with the Address Book provider. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_STORE_NAME, PR_CONTAB_STORE_NAME_A, PR_CONTAB_STORE_NAME_W  <br/> |
 |Identifier:  <br/> |0x6612  <br/> |

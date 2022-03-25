@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
-description: "Last modified: March 09, 2015"
+description: "Describes a sub-object restriction which is used to filter the rows of a message's attachment or recipient table."
 ---
 
 # SSubRestriction
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a sub-object restriction which is used to filter the rows of a message's attachment or recipient table.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 

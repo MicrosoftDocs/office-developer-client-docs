@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the acceptance state of the task.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskDelegValue  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

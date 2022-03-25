@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 36e49cf5-1411-42c5-9112-09958243996d
-description: "Last modified: March 09, 2015"
+description: "Contains a flag that describes the state of the message store. This property is dynamic and can change based on user actions."
 ---
 
 # PidTagStoreState Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a flag that describes the state of the message store. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STORE_STATE  <br/> |
 |Identifier:  <br/> |0x340E  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2ac14c43-36c1-4f2f-97b0-2462f2360575
-description: "Last modified: March 09, 2015"
+description: "Contains an ASN.1 authentication certificate for a messaging user for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagUserCertificate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 authentication certificate for a messaging user. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_USER_CERTIFICATE  <br/> |
 |Identifier:  <br/> |0x3A22  <br/> |

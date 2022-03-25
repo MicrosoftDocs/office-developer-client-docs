@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8e3f0094-e64b-4828-ba8f-5eed35f85366
-description: "Last modified: March 09, 2015"
+description: "Contains a semicolon-delimited list of email addresses and domains that are made up of trusted senders."
 ---
 
 # PidTagSpamTrustedSenders Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a semicolon-delimited list of email addresses and domains that are made up of trusted senders.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SPAM_TRUSTED_SENDERS_W  <br/> |
 |Long ID (LID):  <br/> |0x0418  <br/> |

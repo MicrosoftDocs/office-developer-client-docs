@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
-description: "Last modified: March 09, 2015"
+description: "Defines a collection of sort keys for a table that is used for standard or categorized sorting."
 ---
 
 # SSortOrderSet
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a collection of sort keys for a table that is used for standard or categorized sorting.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CbNewSSortOrderSet](cbnewssortorderset.md), [CbSSortOrderSet](cbssortorderset.md), [SizedSSortOrderSet](sizedssortorderset.md) <br/> |

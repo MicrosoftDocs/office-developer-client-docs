@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the task includes a recurrence pattern.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskFRecur  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of a folder's default view.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEFAULT_VIEW_ENTRYID  <br/> |
 |Identifier:  <br/> |0x3616  <br/> |

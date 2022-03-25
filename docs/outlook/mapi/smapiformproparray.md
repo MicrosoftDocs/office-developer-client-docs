@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
-description: "Last modified: March 09, 2015"
+description: "Contains an array of SMAPIFormProp structures for Outlook 2013 and Outlook 2016."
 ---
 
 # SMAPIFormPropArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of [SMAPIFormProp](smapiformprop.md) structures. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related macro:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |

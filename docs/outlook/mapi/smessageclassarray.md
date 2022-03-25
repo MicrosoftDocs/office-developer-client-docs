@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
-description: "Last modified: March 09, 2015"
+description: "Contains an array of pointers to message class strings for Outlook 2013 and Outlook 2016."
 ---
 
 # SMessageClassArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of pointers to message class strings.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
 |Related macro:  <br/> |[CbMessageClassArray](cbmessageclassarray.md) <br/> |

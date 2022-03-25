@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the height of a dialog box control in standard Windows dialog units. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DELTAY  <br/> |
 |Identifier:  <br/> |0x3F04  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an attachment's fully-qualified path and filename.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_PATHNAME, PR_ATTACH_PATHNAME_A, PR_ATTACH_PATHNAME_W  <br/> |
 |Identifier:  <br/> |0x3708  <br/> |

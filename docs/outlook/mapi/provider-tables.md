@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
-description: "Last modified: March 09, 2015"
+description: "A provider table contains information about service providers. There are two different provider tables, both implemented by MAPI and used by clients."
  
  
 ---
@@ -24,7 +24,7 @@ These two tables have another difference. The provider table available through *
   
 The following properties make up the required column set in both types of provider tables:
   
-|||
+|Property |Value |
 |:-----|:-----|
 |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
 |**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2d6b6bf-f96d-460c-859a-21961ac9237c
-description: "Last modified: March 09, 2015"
+description: "Converts a null-terminated string of hexadecimal digits into an unsigned long integer."
 ---
 
 # UlFromSzHex
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Converts a null-terminated string of hexadecimal digits into an unsigned long integer. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a63d647-7504-42fc-b317-6b02b89070eb
-description: "Last modified: March 09, 2015"
+description: "Contains the name of a message service as set by the user in the MapiSvc.inf file. The name contained in these properties is specific to the message service."
 ---
 
 # PidTagServiceName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of a message service as set by the user in the MapiSvc.inf file.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICE_NAME, PR_SERVICE_NAME_A, PR_SERVICE_NAME_W  <br/> |
 |Identifier:  <br/> |0x3D09  <br/> |

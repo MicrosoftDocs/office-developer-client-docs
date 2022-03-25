@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the creation date and time of a message. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CREATION_TIME  <br/> |
 |Identifier:  <br/> |0x3007  <br/> |

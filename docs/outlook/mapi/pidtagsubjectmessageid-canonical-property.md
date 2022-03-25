@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4b1a087-0986-467a-aaa9-fc643f7c56fc
-description: "Last modified: March 09, 2015"
+description: "Contains a binary value that is copied from the message for which a report is being generated. This property can correlate a report with the original message."
 ---
 
 # PidTagSubjectMessageId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a binary value that is copied from the message for which a report is being generated. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SUBJECT_IPM  <br/> |
 |Identifier:  <br/> |0x0038  <br/> |

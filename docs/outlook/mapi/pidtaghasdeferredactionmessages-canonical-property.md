@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message has at least one deferred action rule.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HAS_DAMS  <br/> |
 |Identifier:  <br/> |0x3FEA  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
-description: "Last modified: March 09, 2015"
+description: "Describes a status object that has been affected by a change."
 ---
 
 # STATUS_OBJECT_NOTIFICATION
@@ -22,9 +22,9 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Describes a status object that has been affected by a change. 
+Describes a status object that has been affected by a change for Outlook 2013 and Outlook 2016. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

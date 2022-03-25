@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the identifier of the mode for message acknowledgment.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ACKNOWLEDGEMENT_MODE  <br/> |
 |Identifier:  <br/> |0x0001  <br/> |

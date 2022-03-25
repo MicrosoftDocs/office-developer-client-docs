@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d8c9d18c-4043-41f3-8501-8be8e3a2c9ac
-description: "Last modified: March 09, 2015"
+description: "Returns a property tag created by combining a specified property type and identifier for Outlook 2013 and Outlook 2016."
 ---
 
 # PROP_TAG
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Returns a property tag created by combining a specified property type and identifier. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |[SPropValue](spropvalue.md) <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the distribution list is also a departmental group. This property is available only on distribution lists.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EMS_AB_HAB_IS_HIERARCHICAL_GROUP  <br/> |
 |Property set:  <br/> |Address Book  <br/> |

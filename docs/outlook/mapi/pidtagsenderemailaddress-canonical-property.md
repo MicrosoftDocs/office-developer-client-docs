@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6e1531ac-489b-4224-921a-8fd13ace9497
-description: "Last modified: March 09, 2015"
+description: "Contains the message sender's email address. This property must be set by the outgoing transport provider, which should never propagate any existing values."
 ---
 
 # PidTagSenderEmailAddress Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the message sender's email address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENDER_EMAIL_ADDRESS, PR_SENDER_EMAIL_ADDRESS_A, PR_SENDER_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x0C1F  <br/> |

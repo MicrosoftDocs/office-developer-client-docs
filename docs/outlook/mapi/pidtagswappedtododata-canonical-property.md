@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d2a82fc8-de5d-4819-906e-b8314fd06ea0
-description: "Last modified: March 09, 2015"
+description: "Maintains a second set of property values that do not affect the flagged state of the Message object."
 ---
 
 # PidTagSwappedToDoData Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maintains a second set of property values that do not affect the flagged state of the Message object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SWAPPED_TODO_DATA  <br/> |
 |Identifier:  <br/> |0x0E2D  <br/> |

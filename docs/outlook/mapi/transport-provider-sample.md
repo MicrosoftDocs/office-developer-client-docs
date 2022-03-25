@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ec6eb6c0-bfe3-4989-9071-89a14c0e7bdd
-description: "Last modified: March 09, 2015"
+description: "This sample uses files and directories to transmit and receive messages. It implements a simple preprocessor that appends a line of text to each outbound message."
  
  
 ---
@@ -20,7 +20,7 @@ This sample uses files and directories to transmit and receive messages. It impl
   
 You can download this sample from [Outlook Messaging API (MAPI) Code Samples](https://go.microsoft.com/fwlink/?LinkId=129740).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Executable:  <br/> |mrxp32.dll  <br/> |
 |Source code directory:  <br/> |SampleTransportProvider\MRXP  <br/> |

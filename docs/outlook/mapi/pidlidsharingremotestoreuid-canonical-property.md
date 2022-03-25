@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the hexadecimal string representation of the value of the **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) property on the shared folder. This is a property of a sharing message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingRemoteStoreUid  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

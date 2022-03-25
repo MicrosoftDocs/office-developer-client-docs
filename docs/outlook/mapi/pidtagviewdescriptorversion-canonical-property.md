@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: aaf48f2b-8c57-473c-8be4-f93619255eb8
-description: "Last modified: March 09, 2015"
+description: "Indicates the version of a view descriptor for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagViewDescriptorVersion Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the version of a view descriptor.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_VD_VERSION  <br/> |
 |Identifier:  <br/> |0x7007  <br/> |

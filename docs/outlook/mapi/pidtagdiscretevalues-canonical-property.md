@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a nondelivery report applies only to discrete members of a distribution list rather than the entire list. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISCRETE_VALUES  <br/> |
 |Identifier:  <br/> |0x0E0E  <br/> |

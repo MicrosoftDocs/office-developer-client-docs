@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the unit of time that is used in determining the length of time an item remains in a folder before the item is archived.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AGING_GRANULARITY  <br/> |
 |Identifier:  <br/> |0x36EE  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the messaging user's email address. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EMAIL_ADDRESS, PR_EMAIL_ADDRESS_A, PR_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x3003  <br/> |

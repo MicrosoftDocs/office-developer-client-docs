@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if message conversions are prohibited by default for the associated messaging user.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONVERSION_PROHIBITED  <br/> |
 |Identifier:  <br/> |0x3A03  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the encoded information types (EITs) that are applied to a message in transit to describe conversions.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONVERSION_EITS  <br/> |
 |Identifier:  <br/> |0x000C  <br/> |

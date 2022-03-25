@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of a custom form Message class.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEF_POST_MSGCLASS  <br/> |
 |Identifier:  <br/> |0x36E5  <br/> |

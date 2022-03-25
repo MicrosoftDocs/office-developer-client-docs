@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8350a37c-6f42-4bef-82e0-35aa12b09fcf
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the user-defined Views folder for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagViewsEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the user-defined Views folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_VIEWS_ENTRYID  <br/> |
 |Identifier:  <br/> |0x35E5  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a67faa2-8c2e-49a7-8c92-690a0a65c8f7
-description: "Last modified: March 09, 2015"
+description: "Converts a null-terminated string of decimal digits into an unsigned integer. If the string doesn't begin with at least one decimal digit, zero is returned."
 ---
 
 # UFromSz
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Converts a null-terminated string of decimal digits into an unsigned integer. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

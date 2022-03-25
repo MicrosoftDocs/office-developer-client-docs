@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates which folder a message was in before it was filtered into the junk email folder.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSpamOriginalFolder  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

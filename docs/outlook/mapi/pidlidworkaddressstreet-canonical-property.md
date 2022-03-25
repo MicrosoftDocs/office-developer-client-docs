@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the street portion of the contact's work mailing address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidWorkAddressStreet  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

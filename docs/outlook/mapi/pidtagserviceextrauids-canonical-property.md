@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4838a9af-7818-49aa-ace8-cb94dda8471f
-description: "Last modified: March 09, 2015"
+description: "Contains a list of MAPIUID structures that identify additional profile sections for the message service."
 ---
 
 # PidTagServiceExtraUids Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of [MAPIUID](mapiuid.md) structures that identify additional profile sections for the message service. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICE_EXTRA_UIDS  <br/> |
 |Identifier:  <br/> |0x3D0D  <br/> |

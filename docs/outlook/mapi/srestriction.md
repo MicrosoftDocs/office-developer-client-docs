@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c12b4409-da6f-480b-87af-1e5baea2e8bd
-description: "Last modified: March 09, 2015"
+description: "Describes a filter for limiting the view of a table to particular rows for Outlook 2013 and Outlook 2016."
 ---
 
 # SRestriction
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a filter for limiting the view of a table to particular rows. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    
@@ -104,7 +104,7 @@ RES_SUBRESTRICTION
   
 > Union of restriction structures describing the filter to be applied. The specific structure included in the **res** member depends on the value of the **rt** member. The mapping between restriction type and structure is listed in the following table. 
     
-|||
+|Property |Value |
 |:-----|:-----|
 |**Restriction type** <br/> |**Restriction structure** <br/> |
 |RES_AND  <br/> |[SAndRestriction](sandrestriction.md) <br/> |

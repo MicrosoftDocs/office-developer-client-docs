@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
-description: "Last modified: March 09, 2015"
+description: "Creates a named SSortOrderSet structure that contains a specified number of sort orders for Outlook 2013 or Outlook 2016."
 ---
 
 # SizedSSortOrderSet
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named [SSortOrderSet](ssortorderset.md) structure that contains a specified number of sort orders. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**SSortOrderSet** <br/> |

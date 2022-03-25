@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of a MIME Content-Location header field.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_BODY_CONTENT_LOCATION, PR_BODY_CONTENT_LOCATION_A, PR_BODY_CONTENT_LOCATION_W  <br/> |
 |Identifier:  <br/> |0x1014  <br/> |

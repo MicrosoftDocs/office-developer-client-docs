@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of telephone numbers for a business.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_BUSINESS2_TELEPHONE_NUMBER_A_MV  <br/> |
 |Identifier:  <br/> |0x3A1B  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an attachment's long filename and extension, excluding path. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A, PR_ATTACH_LONG_FILENAME_W  <br/> |
 |Identifier:  <br/> |0x3707  <br/> |

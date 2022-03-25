@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the end date and time of the exception in the local time zone of the machine when the exception is created.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXCEPTION_ENDTIME  <br/> |
 |Identifier:  <br/> |0x7FFC  <br/> |

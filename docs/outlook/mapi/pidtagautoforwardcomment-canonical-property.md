@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a comment added by the auto-forwarding agent.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AUTO_FORWARD_COMMENT, PR_AUTO_FORWARD_COMMENT_A, PR_AUTO_FORWARD_COMMENT_W  <br/> |
 |Identifier:  <br/> |0x0004  <br/> |

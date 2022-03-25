@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the recipient's country/region. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_COUNTRY, PR_COUNTRY_A, PR_COUNTRY_W, PR_BUSINESS_ADDRESS_COUNTRY, PR_BUSINESS_ADDRESS_COUNTRY_A, PR_BUSINESS_ADDRESS_COUNTRY_W  <br/> |
 |Identifier:  <br/> |0x3A26  <br/> |

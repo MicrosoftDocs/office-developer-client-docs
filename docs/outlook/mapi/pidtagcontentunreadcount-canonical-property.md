@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the number of unread messages in a folder, as computed by the message store. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTENT_UNREAD  <br/> |
 |Identifier:  <br/> |0x3603  <br/> |

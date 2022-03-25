@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a Microsoft Windows metafile with rendering information for an attachment. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_RENDERING  <br/> |
 |Identifier:  <br/> |0x3709  <br/> |

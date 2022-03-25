@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 38fe217d-cf2e-51de-c97a-acb015129fd3
-description: "Last modified: March 09, 2015"
+description: "Contains a Unicode string that is being queried in the email addresses or display names of recipients that are addressed in the CC line of messages."
 ---
 
 # PidTagSearchRecipientEmailCc Canonical Property
@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a Unicode string that is being queried in the list of email addresses or display names of recipients that are addressed in the **CC** line of messages on the store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SEARCH_RECIP_EMAIL_CC_W  <br/> |
 |Identifier:  <br/> |0x0EA7  <br/> |

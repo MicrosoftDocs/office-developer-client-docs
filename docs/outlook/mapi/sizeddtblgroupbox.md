@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7ca01bf7-5185-41cc-907e-01f256345997
-description: "Last modified: March 09, 2015"
+description: "Creates a named structure that includes a DTBLGROUPBOX structure for describing a group box control and a label of a specified length."
 ---
 
 # SizedDtblGroupBox
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named structure that includes a [DTBLGROUPBOX](dtblgroupbox.md) structure for describing a group box control and a label of a specified length. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLGROUPBOX** <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d83b8ea8-a3b8-4038-a226-de1869c5d722
-description: "Last modified: March 09, 2015"
+description: "Replaces MAPIInitialize when only select utility functions are being used for Outlook 2013 or Outlook 2016."
 ---
 
 # ScInitMapiUtil
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Replaces [MAPIInitialize](mapiinitialize.md) when only select utility functions are being used. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

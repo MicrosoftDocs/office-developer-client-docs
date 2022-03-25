@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the time when the data was published.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FREEBUSY_RANGE_TIMESTAMP  <br/> |
 |Identifier:  <br/> |0x6868  <br/> |

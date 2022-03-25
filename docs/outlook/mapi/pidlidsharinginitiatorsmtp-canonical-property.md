@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the SMTP address of the user who initiated the sharing message. This is a property of a sharing message. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingInitiatorSmtp  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

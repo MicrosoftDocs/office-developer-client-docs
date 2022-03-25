@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
-description: "Last modified: March 09, 2015"
+description: "Setting a bookmark makes it possible to return to a position at a later time, a feature that can significantly improve the performance of table operations."
  
  
 ---
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 A bookmark is a resource that indicates a particular location in a table. Setting a bookmark makes it possible to return to a position at a later time, a feature that can significantly improve the performance of table operations. MAPI defines three standard bookmarks: 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |BOOKMARK_CURRENT  <br/> |Points to the current row in a table. |
 |BOOKMARK_BEGINNING  <br/> |Points to the first row in a table. |

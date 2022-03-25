@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the flag color of the message object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FOLLOWUP_ICON  <br/> |
 |Identifier:  <br/> |0x1095  <br/> |

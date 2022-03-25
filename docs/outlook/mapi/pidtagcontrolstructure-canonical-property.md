@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a pointer to a structure for a control used in a dialog box. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTROL_STRUCTURE  <br/> |
 |Identifier:  <br/> |0x3F01  <br/> |
@@ -35,7 +35,7 @@ Contains a pointer to a structure for a control used in a dialog box.
 
 This property represents a long pointer that is cast to one of the control structures. The control structures include:
   
-|||
+|Control Structure|Control Structure (continued)|
 |:-----|:-----|
 |[DTBLBUTTON](dtblbutton.md) <br/> |[DTBLCHECKBOX](dtblcheckbox.md) <br/> |
 |[DTBLCOMBOBOX](dtblcombobox.md) <br/> |[DTBLDDLBX](dtblddlbx.md) <br/> |

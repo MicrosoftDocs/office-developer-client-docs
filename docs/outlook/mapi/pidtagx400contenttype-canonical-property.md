@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c8959592-53f3-48cf-b623-91d199df0629
-description: "Last modified: March 09, 2015"
+description: "This property contains the content type for a submitted message for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagX400ContentType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains the content type for a submitted message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_X400_CONTENT_TYPE  <br/> |
 |Identifier:  <br/> |0x003C  <br/> |

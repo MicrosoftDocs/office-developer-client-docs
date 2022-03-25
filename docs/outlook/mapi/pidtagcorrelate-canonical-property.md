@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the sender of a message requests the correlation feature of the messaging system.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CORRELATE  <br/> |
 |Identifier:  <br/> |0x0E0C  <br/> |

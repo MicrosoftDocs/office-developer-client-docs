@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the names of the Contacts folders where mail users are kept.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_FOLDER_NAMES  <br/> |
 |Identifier:  <br/> |0x6623  <br/> |

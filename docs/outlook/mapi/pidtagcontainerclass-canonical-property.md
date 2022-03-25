@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a text string describing the type of a folder. Although this property is generally ignored, versions of Microsoft® Exchange Server prior to Exchange Server 2003 Mailbox Manager expect this property to be present.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAINER_CLASS, PR_CONTAINER_CLASS_A, PR_CONTAINER_CLASS_W  <br/> |
 |Identifier:  <br/> |0x3613  <br/> |

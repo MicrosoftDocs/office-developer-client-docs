@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1dd14858-2ce6-4629-a2f1-82d23cd6576b
-description: "Last modified: March 09, 2015"
+description: "The component ID of the provider. These properties may be used as the component parameter of an MsiProvideQualifiedComponent call to install the provider."
 ---
 
 # PidTagServiceInstallId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 The component ID of the provider.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICE_INSTALL_ID, PR_SERVICE_INSTALL_ID_A, PR_SERVICE_INSTALL_ID_W  <br/> |
 |Identifier:  <br/> |0x3D13  <br/> |

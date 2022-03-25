@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains keywords or categories for the message object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |
