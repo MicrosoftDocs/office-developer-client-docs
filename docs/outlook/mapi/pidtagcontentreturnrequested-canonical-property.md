@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message should be returned with a nondelivery report. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTENT_RETURN_REQUESTED  <br/> |
 |Identifier:  <br/> |0x000A  <br/> |

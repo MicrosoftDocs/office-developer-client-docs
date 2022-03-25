@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message transfer agent (MTA) is prohibited from making message text conversions that lose information. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONVERSION_WITH_LOSS_PROHIBITED  <br/> |
 |Identifier:  <br/> |0x000D  <br/> |

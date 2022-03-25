@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags governing the behavior of a control used in a dialog box built from a display table.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTROL_FLAGS  <br/> |
 |Identifier:  <br/> |0x3F00  <br/> |

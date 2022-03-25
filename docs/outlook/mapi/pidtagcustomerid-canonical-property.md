@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the contact's customer ID number.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CUSTOMER_ID, PR_CUSTOMER_ID_A, PR_CUSTOMER_ID_W  <br/> |
 |Identifier:  <br/> |0x3A4A  <br/> |

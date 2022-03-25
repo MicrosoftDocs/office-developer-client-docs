@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time when a message sender wants a message delivered. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEFERRED_DELIVERY_TIME  <br/> |
 |Identifier:  <br/> |0x000F  <br/> |

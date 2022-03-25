@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 content integrity check value that allows a message sender to protect message content from disclosure to unauthorized recipients.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTENT_INTEGRITY_CHECK  <br/> |
 |Identifier:  <br/> |0x0C00  <br/> |
