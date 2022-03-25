@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the client requests an X-MS-Exchange-Organization-AutoForwarded header field.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AUTO_FORWARDED  <br/> |
 |Identifier:  <br/> |0x0005  <br/> |

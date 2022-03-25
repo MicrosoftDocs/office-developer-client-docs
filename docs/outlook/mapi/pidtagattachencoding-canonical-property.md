@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 object identifier that specifies the encoding for an attachment. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_ENCODING  <br/> |
 |Identifier:  <br/> |0x3702  <br/> |
