@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eeecd957-dd50-4849-9698-8bc7106301e9
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the entry in the one-off table can be selected. This property is used primarily for visual formatting of a one-off table."
 ---
 
 # PidTagSelectable Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the entry in the one-off table can be selected. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SELECTABLE  <br/> |
 |Identifier:  <br/> |0x3609  <br/> |

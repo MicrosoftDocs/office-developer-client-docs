@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56288f55-b3ba-42df-9c90-f9b5857f19a1
-description: "Last modified: March 09, 2015"
+description: "Contains the ID of the template that is being used for the search. This property on the message defines the search folder identifies its corresponding template."
 ---
 
 # PidTagSearchFolderTemplateId Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the ID of the template that is being used for the search.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WB_SF_TEMPLATE_ID  <br/> |
 |Identifier:  <br/> |0x6841  <br/> |

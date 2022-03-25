@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 59f43316-3ff6-4ed0-bc29-b31039192b08
-description: "Last modified: March 09, 2015"
+description: "Contains a semicolon-delimited list of email addresses and domains that represent the trusted recipients."
 ---
 
 
@@ -17,7 +17,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a semicolon-delimited list of email addresses and domains that represent the trusted recipients.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SPAM_TRUSTED_RECIPIENTS_W  <br/> |
 |Long ID (LID):  <br/> |0x0419  <br/> |

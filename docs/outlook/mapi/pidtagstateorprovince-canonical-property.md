@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f17874f-fab5-4119-b2eb-845c1f70d882
-description: "Last modified: March 09, 2015"
+description: "Contains the name of the recipient's state or province. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagStateOrProvince Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the recipient's state or province.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STATE_OR_PROVINCE, PR_STATE_OR_PROVINCE_A, PR_STATE_OR_PROVINCE_W, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_W  <br/> |
 |Identifier:  <br/> |0x3A28  <br/> |

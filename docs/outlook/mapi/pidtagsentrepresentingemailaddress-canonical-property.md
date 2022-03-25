@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5fa4edde-475c-4568-946b-73eb08f97a61
-description: "Last modified: March 09, 2015"
+description: "Contains the email address for the messaging user who is represented by the sender for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSentRepresentingEmailAddress Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the email address for the messaging user who is represented by the sender.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENT_REPRESENTING_EMAIL_ADDRESS, PR_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x0065  <br/> |

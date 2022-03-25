@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a10d86fc-3a73-49dc-b974-ed852ec715e9
-description: "Last modified: March 09, 2015"
+description: "Contains the status of the message based on information that is available to the MAPI spooler. This property is computed by MAPI on message objects."
 ---
 
 # PidTagSpoolerStatus Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the status of the message based on information that is available to the MAPI spooler.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SPOOLER_STATUS  <br/> |
 |Identifier:  <br/> |0x0E10  <br/> |

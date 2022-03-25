@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 01ac66b3-1868-6b1e-7026-ab61380c8cc5
-description: "Last modified: March 09, 2015"
+description: "Contains the process ID of the process that is sending notifications to the indexer about objects ready for indexing."
 ---
 
 # PidTagSearchOwnerId Canonical Property
@@ -22,7 +22,7 @@ Contains the process ID of the process that is sending notifications to the inde
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SEARCH_OWNER_ID  <br/> |
 |Exposed by:  <br/> |Message store object  <br/> |

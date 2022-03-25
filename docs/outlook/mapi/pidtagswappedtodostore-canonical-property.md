@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1edae9ac-fc9a-4bfe-b053-99de848c5144
-description: "Last modified: March 09, 2015"
+description: "Determines the need for post-transmit processing of an email. If this property is set on a draft message, its value must be the value of PR_STORE_ENTRYID property."
 ---
 
 # PidTagSwappedToDoStore Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Determines the need for post-transmit processing of an email.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SWAPPED_TODO_STORE  <br/> |
 |Identifier:  <br/> |0x0E2C  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f23bde8b-94cc-48c8-891a-166aa39aa3ee
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier for the messaging user represented by the sender for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSentRepresentingEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier for the messaging user represented by the sender.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENT_REPRESENTING_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0041  <br/> |

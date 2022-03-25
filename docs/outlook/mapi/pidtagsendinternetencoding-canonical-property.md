@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ae408b4f-dee3-484b-a19c-f472cfa95996
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of encoding preferences. Set this property to indicate the encoding options used."
 ---
 
 # PidTagSendInternetEncoding Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of encoding preferences. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SEND_INTERNET_ENCODING  <br/> |
 |Identifier:  <br/> |0x3A71  <br/> |

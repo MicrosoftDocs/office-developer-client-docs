@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
-description: "Last modified: March 09, 2015"
+description: "Contains a value that indicates the message sender's opinion of the sensitivity of a message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSensitivity Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that indicates the message sender's opinion of the sensitivity of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENSITIVITY  <br/> |
 |Identifier:  <br/> |0x0036  <br/> |

@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b7a88387-72ff-49e5-b73a-8bafab635658
-description: "Last modified: March 09, 2015"
+description: "Contains the value used to synchronize this definition message with the matching search folder container."
 ---
 
 # PidTagSearchFolderTag Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value used to synchronize this definition message with the matching search folder container.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WB_SF_TAG  <br/> |
 |Identifier:  <br/> |0x6847  <br/> |

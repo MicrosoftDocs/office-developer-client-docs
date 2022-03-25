@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: fb4837d1-b8b9-4773-84f1-3a10cda616da
-description: "Last modified: March 09, 2015"
+description: "Specifies the icon displayed in the Account Picker for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagServerAccountIcon Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the icon displayed in the **Account Picker**.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVER_ACCOUNT_ICON  <br/> |
 |Identifier:  <br/> |0x341F  <br/> |

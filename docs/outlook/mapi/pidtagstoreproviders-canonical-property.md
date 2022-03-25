@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2c4a933-b371-43ec-af0f-6140d8b5c7ea
-description: "Last modified: March 09, 2015"
+description: "Contains a list of identifiers of message store providers in the current profile. Do not use this property. It is reserved for use by MAPI."
 ---
 
 # PidTagStoreProviders Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of identifiers of message store providers in the current profile.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STORE_PROVIDERS  <br/> |
 |Identifier:  <br/> |0x3D00  <br/> |

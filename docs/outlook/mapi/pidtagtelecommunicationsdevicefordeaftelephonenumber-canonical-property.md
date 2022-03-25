@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9b1bea60-1946-48ea-8312-c85fcbe944a8
-description: "Last modified: March 09, 2015"
+description: "Contains the messaging user's Telecommunications Device for the Deaf (TTYTDD) telephone number. The content is defined by the messaging user and the messaging user's organization."
 ---
 
 # PidTagTelecommunicationsDeviceForDeafTelephoneNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the messaging user's Telecommunications Device for the Deaf (TTYTDD) telephone number.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_TTYTDD_PHONE_NUMBER, PR_TTYTDD_PHONE_NUMBER_A, PR_TTYTDD_PHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A4B  <br/> |
