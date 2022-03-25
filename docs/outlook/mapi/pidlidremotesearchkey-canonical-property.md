@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the search key of a remote item.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRemoteSearchKey  <br/> |
 |Property set:  <br/> |PSETID_Remote  <br/> |

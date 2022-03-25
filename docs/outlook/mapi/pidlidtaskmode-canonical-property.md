@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the assignment status of the task.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskMode  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

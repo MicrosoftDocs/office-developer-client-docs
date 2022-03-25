@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 If set on a nondelivery report, denotes the time the message was resent.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidResendTime  <br/> |
 |Property set:  <br/> |PSETID_Report  <br/> |

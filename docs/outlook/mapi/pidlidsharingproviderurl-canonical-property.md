@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the URL that is related to the sharing provider and identified by the **dispidSharingProviderGuid** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)) property. This is a property of a sharing message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingProviderUrl  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

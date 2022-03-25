@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a stream that maps to the persisted format of a [TZREG](https://msdn.microsoft.com/library/bb820983%28v=office.12%29.aspx) structure, which describes the time zone to be used for the start and end time of a recurring appointment or meeting request. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTimeZoneStruct  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

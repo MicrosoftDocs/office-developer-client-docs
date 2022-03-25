@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies information about the time zone of a recurring meeting.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |LID_TIME_ZONE  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

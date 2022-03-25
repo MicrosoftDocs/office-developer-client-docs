@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the initial signal time for a reminder.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidReminderTime  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
