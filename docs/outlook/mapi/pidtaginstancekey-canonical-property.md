@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that uniquely identifies a row in a table. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INSTANCE_KEY  <br/> |
 |Identifier:  <br/> |0x0FF6  <br/> |

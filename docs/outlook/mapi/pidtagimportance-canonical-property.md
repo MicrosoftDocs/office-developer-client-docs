@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that indicates the message sender's opinion of the importance of a message. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IMPORTANCE  <br/> |
 |Identifier:  <br/> |0x0017  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the code page that is used for the message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_CODEPAGE  <br/> |
 |Identifier:  <br/> |0x3FFD  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's References header field.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_REFERENCES, PR_INTERNET_REFERENCES_A, PR_INTERNET_REFERENCES_W  <br/> |
 |Identifier:  <br/> |0x1039  <br/> |

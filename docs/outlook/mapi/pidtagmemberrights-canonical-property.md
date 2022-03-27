@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a set of bits that indicated the rights of this member on a folder or mailbox.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MEMBER_RIGHTS  <br/> |
 |Identifier:  <br/> |0x6673  <br/> |

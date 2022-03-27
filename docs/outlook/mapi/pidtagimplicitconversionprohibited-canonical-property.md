@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message transfer agent (MTA) is prohibited from making implicit message text conversions.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IMPLICIT_CONVERSION_PROHIBITED  <br/> |
 |Identifier:  <br/> |0x0016  <br/> |

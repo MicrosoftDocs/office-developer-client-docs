@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps to the MIME Lines header.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_LINES  <br/> |
 |Identifier:  <br/> |0x1034  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the recipient's locality, such as the town or city. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LOCALITY, PR_LOCALITY_A, PR_LOCALITY_W, PR_BUSINESS_ADDRESS_LOCALITY, PR_BUSINESS_ADDRESS_LOCALITY_A, PR_BUSINESS_ADDRESS_LOCALITY_W  <br/> |
 |Identifier:  <br/> |0x3A27  <br/> |

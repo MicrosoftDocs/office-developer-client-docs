@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether email addresses of the contacts in the Contacts folder are treated specially with respect to the spam filter.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_JUNK_INCLUDE_CONTACTS  <br/> |
 |Identifier:  <br/> |0x6100  <br/> |

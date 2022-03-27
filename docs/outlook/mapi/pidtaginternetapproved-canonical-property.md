@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps to the MIME Approved header.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_APPROVED, PR_INTERNET_APPROVED_A, PR_INTERNET_APPROVED_W  <br/> |
 |Identifier:  <br/> |0x1030  <br/> |

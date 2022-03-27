@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASCII list of the languages that are incorporated in a message. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LANGUAGES, PR_LANGUAGES_A, PR_LANGUAGES_W  <br/> |
 |Identifier:  <br/> |0x002F  <br/> |

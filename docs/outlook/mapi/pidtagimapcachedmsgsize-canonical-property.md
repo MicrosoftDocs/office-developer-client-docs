@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the size of the cached Internet Message Access Protocol message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |None  <br/> |
 |Identifier:  <br/> |0x10F0  <br/> |

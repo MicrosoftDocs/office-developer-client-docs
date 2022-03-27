@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps to the MIME Organization header.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_ORGANIZATION, PR_INTERNET_ORGANIZATION_A, PR_INTERNET_ORGANIZATION_W  <br/> |
 |Identifier:  <br/> |0x1037  <br/> |
