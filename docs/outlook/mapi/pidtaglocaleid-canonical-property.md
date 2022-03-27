@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Establishes the language locale for translating system-generated messages, such as delivery reports.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LOCALE_ID  <br/> |
 |Identifier:  <br/> |0x66A1  <br/> |

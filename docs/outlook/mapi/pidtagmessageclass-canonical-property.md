@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a text string that identifies the sender-defined message class, such as IPM.Note. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_CLASS, PR_MESSAGE_CLASS_A, PR_MESSAGE_CLASS_W  <br/> |
 |Identifier:  <br/> |0x001A  <br/> |

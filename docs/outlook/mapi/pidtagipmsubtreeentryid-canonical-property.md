@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the root of the interpersonal message (IPM) folder subtree in the message store's folder tree. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IPM_SUBTREE_ENTRYID  <br/> |
 |Identifier:  <br/> |0x35E0  <br/> |

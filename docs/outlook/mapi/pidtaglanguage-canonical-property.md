@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that indicates the language in which the messaging user is writing messages.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LANGUAGE, PR_LANGUAGE_A, PR_LANGUAGE_W  <br/> |
 |Identifier:  <br/> |0x3A0C  <br/> |

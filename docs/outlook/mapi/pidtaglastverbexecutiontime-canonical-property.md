@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the time when the last verb was executed.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LAST_VERB_EXECUTION_TIME  <br/> |
 |Identifier:  <br/> |0x1082  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether or not the mail recipients are to be added to the safe senders list.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_JUNK_ADD_RECIPS_TO_SSL  <br/> |
 |Identifier:  <br/> |0x6103  <br/> |

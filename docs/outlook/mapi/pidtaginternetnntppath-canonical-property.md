@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps to the MIME Path header.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_NNTP_PATH, PR_INTERNET_NNTP_PATH_A, PR_INTERNET_NNTP_PATH_W  <br/> |
 |Identifier:  <br/> |0x1038  <br/> |

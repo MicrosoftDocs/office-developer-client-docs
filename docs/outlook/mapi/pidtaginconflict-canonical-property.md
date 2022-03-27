@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE when the attachment represents an alternate replica.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IN_CONFLICT  <br/> |
 |Identifier:  <br/> |0x666C  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps to the MIME Followup-To header.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_FOLLOWUP_TO, PR_INTERNET_FOLLOWUP_TO_A, PR_INTERNET_FOLLOWUP_TO_W  <br/> |
 |Identifier:  <br/> |0x1033  <br/> |

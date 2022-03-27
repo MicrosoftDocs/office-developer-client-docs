@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a table of restrictions that can be applied to a contents table to find all messages that contain recipient subobjects that meet the restrictions. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_RECIPIENTS  <br/> |
 |Identifier:  <br/> |0x0E12  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a security label for a message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_SECURITY_LABEL  <br/> |
 |Identifier:  <br/> |0x001E  <br/> |

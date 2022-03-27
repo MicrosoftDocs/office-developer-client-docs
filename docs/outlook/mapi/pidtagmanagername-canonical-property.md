@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the recipient's manager. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MANAGER_NAME, PR_MANAGER_NAME_A, PR_MANAGER_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A4E  <br/> |
