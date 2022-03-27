@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the telephone number of the recipient's home fax machine. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME_FAX_NUMBER, PR_HOME_FAX_NUMBER_A, PR_HOME_FAX_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A25  <br/> |

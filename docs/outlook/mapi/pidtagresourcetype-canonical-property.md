@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48b634d7-deea-422b-8944-a8d929d83838
-description: "Last modified: March 09, 2015"
+description: "Contains a value that indicates the service provider type for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagResourceType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that indicates the service provider type.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RESOURCE_TYPE  <br/> |
 |Identifier:  <br/> |0x3E03  <br/> |

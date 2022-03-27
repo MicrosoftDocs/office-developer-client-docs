@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 54e65b23-7c5f-4ef3-9e32-329f5f461e1e
-description: "Last modified: March 09, 2015"
+description: "Contains obsolete information. This property should not be set and must be ignored."
 ---
 
 # PidTagScheduleInfoFreeBusy Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains obsolete information.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_FREEBUSY  <br/> |
 |Identifier:  <br/> |0x686C  <br/> |

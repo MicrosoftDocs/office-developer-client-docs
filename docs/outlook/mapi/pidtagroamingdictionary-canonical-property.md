@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40b50181-f88c-40ee-b3d0-a36dd36c158e
-description: "Last modified: March 09, 2015"
+description: "Contains an XML document that describes the roaming dictionary. This property contains a UNICODE XML document that's using UTF8 encoding."
 ---
 
 # PidTagRoamingDictionary Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an XML document that describes the roaming dictionary.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROAMING_DICTIONARY  <br/> |
 |Identifier:  <br/> |0x7C07  <br/> |

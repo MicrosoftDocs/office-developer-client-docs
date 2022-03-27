@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f62f3055-b855-4203-aa5c-6ba28b58c6f7
-description: "Last modified: March 09, 2015"
+description: "A value interpreted as a bitmask combination of flags that specify the state of the rule for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRuleState Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 A value interpreted as a bitmask combination of flags that specify the state of the rule.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_STATE  <br/> |
 |Identifier:  <br/> |0x6677  <br/> |

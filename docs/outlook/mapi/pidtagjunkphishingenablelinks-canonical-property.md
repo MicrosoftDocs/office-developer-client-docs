@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Signifies, if TRUE, that the phishing stamp on the message should be ignored.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_JUNK_PHISHING_ENABLE_LINKS  <br/> |
 |Identifier:  <br/> |0x6107  <br/> |

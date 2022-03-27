@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f253378-0a2d-47e3-82d3-8055b5f776dd
-description: "Last modified: March 09, 2015"
+description: "Contains a value that must be set to zero (0) for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagScheduleInfoResourceType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that must be set to zero (0).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_RESOURCE_TYPE  <br/> |
 |Identifier:  <br/> |0x6841  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e52bb48c-7107-4ac4-b030-885409759ee7
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the message sender wants a response to a meeting request. The receiving client application should prompt the user to accept or decline the request and then send this response back to the sender."
 ---
 
 # PidTagResponseRequested Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the message sender wants a response to a meeting request.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RESPONSE_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0063  <br/> |

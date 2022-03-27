@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a flag that indicates that a message has been read, but not marked as read.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ITEM_TMPFLAGS  <br/> |
 |Identifier:  <br/> |0x1097  <br/> |

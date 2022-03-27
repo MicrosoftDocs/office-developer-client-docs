@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name for a service provider's identity as defined within a messaging system. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IDENTITY_DISPLAY, PR_IDENTITY_DISPLAY_A, PR_IDENTITY_DISPLAY_W  <br/> |
 |Identifier:  <br/> |0x3E00  <br/> |

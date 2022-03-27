@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3336b61-01b6-47a7-9498-0a03878e91cb
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask that indicates which stream properties exist on the message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRoamingDatatypes Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask that indicates which stream properties exist on the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROAMING_DATATYPES  <br/> |
 |Identifier:  <br/> |0x7C06  <br/> |

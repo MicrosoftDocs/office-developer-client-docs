@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac49538e-6ee8-4ab4-9d79-88a83c7d0149
-description: "Last modified: March 09, 2015"
+description: "Contains a path to the service provider's server. The definition of these properties is provider specific."
 ---
 
 # PidTagResourcePath Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a path to the service provider's server.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RESOURCE_PATH, PR_RESOURCE_PATH_A, PR_RESOURCE_PATH_W  <br/> |
 |Identifier:  <br/> |0x3E07  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b1a30543-250d-4afb-87f2-448d90ee7cf9
-description: "Last modified: March 09, 2015"
+description: "Contains the exit level of a rule for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRuleLevel Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the exit level of a rule.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_LEVEL  <br/> |
 |Identifier:  <br/> |0x6683  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier for a service provider's identity as defined within a messaging system. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IDENTITY_ENTRYID  <br/> |
 |Identifier:  <br/> |0x3E01  <br/> |

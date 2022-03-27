@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a61056e7-365c-4972-abf7-26e2ab07105d
-description: "Last modified: March 09, 2015"
+description: "Contains data that specifies the search criteria for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSearchFolderDefinition Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains data that specifies the search criteria.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WB_SF_DEFINITION  <br/> |
 |Identifier:  <br/> |0x6845  <br/> |

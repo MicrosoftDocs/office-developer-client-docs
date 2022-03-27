@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the Windows LCID of the end user who created this message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_LOCALE_ID  <br/> |
 |Identifier:  <br/> |0x3FF1  <br/> |

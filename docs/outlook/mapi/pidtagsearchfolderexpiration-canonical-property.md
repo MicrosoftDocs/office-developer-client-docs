@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5746090-c850-4e95-b1e7-a07e42c87179
-description: "Last modified: March 09, 2015"
+description: "Contains the time at which the search folder container will be stale and should be updated or recreated."
 ---
 
 # PidTagSearchFolderExpiration Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the time at which the search folder container will be stale and should be updated or recreated.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WB_SF_EXPIRATION  <br/> |
 |Identifier:  <br/> |0x683A  <br/> |

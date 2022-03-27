@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95db4837-400f-476f-b313-60e8baa1c6d1
-description: "Last modified: March 09, 2015"
+description: "Contains the cyclical redundancy check (CRC) computed for the message text. These properties aren't intended to be used directly by client applications."
 ---
 
 # PidTagRtfSyncBodyCrc Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the cyclical redundancy check (CRC) computed for the message text.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RTF_SYNC_BODY_CRC  <br/> |
 |Identifier:  <br/> |0x1006  <br/> |

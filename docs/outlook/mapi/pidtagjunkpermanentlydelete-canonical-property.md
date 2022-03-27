@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Signifies, if set to 1, that messages identified as spam may be permanently deleted.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_JUNK_PERMANENTLY_DELETE  <br/> |
 |Identifier:  <br/> |0x6102  <br/> |

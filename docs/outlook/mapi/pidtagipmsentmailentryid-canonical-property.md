@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the standard interpersonal message (IPM) Sent Items folder. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_IPM_SENTMAIL_ENTRYID  <br/> |
 |Identifier:  <br/> |0x35E4  <br/> |

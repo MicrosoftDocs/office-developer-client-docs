@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
-description: "Last modified: March 09, 2015"
+description: "This property is set by the client for the exclusive use of the client. The server must preserve the value of this property if it was set by the client."
 ---
 
 # PidTagRuleUserFlags Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property is set by the client for the exclusive use of the client. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_USER_FLAGS  <br/> |
 |Identifier:  <br/> |0x6678  <br/> |

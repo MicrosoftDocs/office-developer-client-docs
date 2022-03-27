@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a message transfer system (MTS) identifier for a message delivered to a client application.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_DELIVERY_ID  <br/> |
 |Identifier:  <br/> |0x001B  <br/> |

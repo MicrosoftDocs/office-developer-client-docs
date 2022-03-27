@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: fc520720-8190-4dff-8f6c-1bebf7080b57
-description: "Last modified: March 09, 2015"
+description: "Contains a table with all rules applied to a folder. This property is present on all folder objects on an Exchange Server that have rules."
 ---
 
 # PidTagRulesTable Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a table with all rules applied to a folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULES_TABLE  <br/> |
 |Identifier:  <br/> |0x3FE1  <br/> |

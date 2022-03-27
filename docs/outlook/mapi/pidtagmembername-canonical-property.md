@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of a member of the access control list (ACL) table.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MEMBER_NAME, PR_MEMBER_NAME_A, PR_MEMBER_NAME_W  <br/> |
 |Identifier:  <br/> |0x6672  <br/> |

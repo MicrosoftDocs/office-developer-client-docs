@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Maps to the MIME Distribution header.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_DISTRIBUTION, PR_INTERNET_DISTRIBUTION_A, PR_INTERNET_DISTRIBUTION_W  <br/> |
 |Identifier:  <br/> |0x1032  <br/> |

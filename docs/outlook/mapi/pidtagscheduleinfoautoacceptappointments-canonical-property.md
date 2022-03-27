@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 79505b29-2706-472b-b084-ab74be7b3405
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if a client or server should automatically respond to all meeting requests for the attendee or resource."
 ---
 
 # PidTagScheduleInfoAutoAcceptAppointments Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a client or server should automatically respond to all meeting requests for the attendee or resource.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
 |Identifier:  <br/> |0x686D  <br/> |

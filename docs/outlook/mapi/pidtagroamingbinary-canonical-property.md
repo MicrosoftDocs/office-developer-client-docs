@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
-description: "Last modified: March 09, 2015"
+description: "Contains a message stream associated with a subclass of the IPM.Configuration class. The format of the stream depends on the message class."
 ---
 
 # PidTagRoamingBinary Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a message stream associated with a subclass of the **IPM.Configuration** class. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROAMING_BINARYSTREAM  <br/> |
 |Identifier:  <br/> |0x7C09  <br/> |

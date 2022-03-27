@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 A number associated with an item in a message store.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_ARTICLE_NUMBER  <br/> |
 |Identifier:  <br/> |0x0E23  <br/> |

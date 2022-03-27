@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the code page used for **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) or **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)) properties.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_CPID  <br/> |
 |Identifier:  <br/> |0x3FDE  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8a11e846-c62f-4c06-876f-94623d50cc3b
-description: "Last modified: March 09, 2015"
+description: "The condition used when you evaluate the rule. The condition is expressed as a Restriction and the PropertyValue buffer contains the Restriction structure."
 ---
 
 # PidTagRuleCondition Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 The condition used when you evaluate the rule.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RULE_CONDITION  <br/> |
 |Identifier:  <br/> |0x6679  <br/> |
