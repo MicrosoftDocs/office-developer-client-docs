@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ce4cb8b-b1f7-420a-b0b2-322c70e4b0f3
-description: "Last modified: March 09, 2015"
+description: "Contains the URL of a user's personal home page. These properties are defined by the user or the user's organization."
 ---
 
 # PidTagPersonalHomePage Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the URL of a user's personal home page.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PERSONAL_HOME_PAGE, PR_PERSONAL_HOME_PAGE_A, PR_PERSONAL_HOME_PAGE_W  <br/> |
 |Identifier:  <br/> |0x3A50  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 03ad4bd7-3c0f-4355-9a19-51c99e6c6f7d
-description: "Last modified: March 09, 2015"
+description: "Shows the entry ID of the NON_IPM_SUBTREE folder in an Exchange Public Folder store for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagNonIpmSubtreeEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Shows the entry ID of the **NON_IPM_SUBTREE** folder in an Exchange Public Folder store. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NON_IPM_SUBTREE_ENTRYID  <br/> |
 |Identifier:  <br/> |0x6620  <br/> |

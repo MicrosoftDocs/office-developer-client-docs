@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b7429c2e-0d9d-4921-9f56-9ecad817f8cb
-description: "Last modified: March 09, 2015"
+description: "Specifies the server that a client is currently attempting to use to send email. The format of this property is implementation dependent."
 ---
 
 # PidTagNextSendAcct Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the server that a client is currently attempting to use to send email.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NEXT_SEND_ACCT  <br/> |
 |Identifier:  <br/> |0x0E29  <br/> |

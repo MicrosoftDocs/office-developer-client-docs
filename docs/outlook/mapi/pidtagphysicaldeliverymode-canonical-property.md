@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of flags that define the physical delivery mode for a message designated for a specific recipient."
 ---
 
 # PidTagPhysicalDeliveryMode Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags that define the physical delivery mode (for example, special delivery) for a message designated for a specific recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PHYSICAL_DELIVERY_MODE  <br/> |
 |Identifier:  <br/> |0x0C0B  <br/> |

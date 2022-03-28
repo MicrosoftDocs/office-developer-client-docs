@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 55e08ace-493c-4246-8ebf-c304f4abc56a
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the folder that contains a folder or message. This property is computed by message stores for all folders and messages."
 ---
 
 # PidTagParentEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the folder that contains a folder or message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PARENT_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0E09  <br/> |

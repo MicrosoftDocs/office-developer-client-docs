@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 700ccfc9-493a-483b-aca0-aa2d7f6bb229
-description: "Last modified: March 09, 2015"
+description: "Contains a copy of the original message's delivery date and time in a thread for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagOriginalDeliveryTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a copy of the original message's delivery date and time in a thread. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_DELIVERY_TIME  <br/> |
 |Identifier:  <br/> |0x0055  <br/> |

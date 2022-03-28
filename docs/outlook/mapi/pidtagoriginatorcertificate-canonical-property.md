@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 65f890d8-9d25-408e-ab29-89991278b92d
-description: "Last modified: March 09, 2015"
+description: "Contains an ASN.1 certificate for the message originator for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagOriginatorCertificate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 certificate for the message originator.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINATOR_CERTIFICATE  <br/> |
 |Identifier:  <br/> |0x0022  <br/> |

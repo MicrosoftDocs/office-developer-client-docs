@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c1cf14c-0339-4ced-8f68-4bfaa1e4d3e9
-description: "Last modified: March 09, 2015"
+description: "Contains the display names of the primary (To) recipients of the original message. It is furnished by MAPI and is copied directly from PR_DISPLAY_TO."
 ---
 
 # PidTagOriginalDisplayTo Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display names of the primary (To) recipients of the original message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_DISPLAY_TO, PR_ORIGINAL_DISPLAY_TO_A, PR_ORIGINAL_DISPLAY_TO_W  <br/> |
 |Identifier:  <br/> |0x0074  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6cef620b-e3b7-47b9-9727-8e609465c268
-description: "Last modified: March 09, 2015"
+description: "Contains an ASN.1 object identifier that is used for rendering message attachments."
 ---
 
 # PidTagPhysicalRenditionAttributes Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an ASN.1 object identifier that is used for rendering message attachments.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PHYSICAL_RENDITION_ATTRIBUTES  <br/> |
 |Identifier:  <br/> |0x0C10  <br/> |

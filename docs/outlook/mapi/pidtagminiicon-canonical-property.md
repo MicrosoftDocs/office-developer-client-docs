@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a436b590-63f3-413c-a9c2-7664567e0ff0
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmap of a half-size icon for a form. Only the upper left 16 × 16 pixels are considered significant."
 ---
 
 # PidTagMiniIcon Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmap of a half-size icon for a form.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MINI_ICON  <br/> |
 |Identifier:  <br/> |0x0FFC  <br/> |

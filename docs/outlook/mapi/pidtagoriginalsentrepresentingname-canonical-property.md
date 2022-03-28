@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1be45cad-05a2-44cb-8c3d-7f6ac092fa0d
-description: "Last modified: March 09, 2015"
+description: "Contains the display name of the messaging user on whose behalf the original message was sent."
 ---
 
 # PidTagOriginalSentRepresentingName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of the messaging user on whose behalf the original message was sent.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENT_REPRESENTING_NAME, PR_ORIGINAL_SENT_REPRESENTING_NAME_A, PR_ORIGINAL_SENT_REPRESENTING_NAME_W  <br/> |
 |Identifier:  <br/> |0x005D  <br/> |

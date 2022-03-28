@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ee0070b-11ac-4add-9c19-4558a1f88577
-description: "Last modified: March 09, 2015"
+description: "Contains the profession of the user. These properties are defined by the user or the user's organization."
 ---
 
 # PidTagProfession Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the profession of the user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROFESSION, PR_PROFESSION_A, PR_PROFESSION_W  <br/> |
 |Identifier:  <br/> |0x3A46  <br/> |
