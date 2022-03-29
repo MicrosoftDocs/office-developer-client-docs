@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8197d2c7-8665-41b8-bd3a-e9c1c2e642e9
-description: "Last modified: March 09, 2015"
+description: "Contains the original entry identifier for an entry copied from an address book to a personal address book or other writeable address book."
 ---
 
 # PidTagOriginalEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the original entry identifier for an entry copied from an address book to a personal address book or other writeable address book.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_ENTRYID  <br/> |
 |Identifier:  <br/> |0x3A12  <br/> |

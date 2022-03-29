@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f268b3b-2e4c-4aea-8879-bdd0ac1df35c
-description: "Last modified: March 09, 2015"
+description: "Contains a string that names the first server that is used to send the message. The format of these properties is implementation dependent."
 ---
 
 # PidTagPrimarySendAccount Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a string that names the first server that is used to send the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PRIMARY_SEND_ACCOUNT  <br/> |
 |Identifier:  <br/> |0x0E28  <br/> |

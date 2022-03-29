@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e34070ae-4f7a-4506-9749-1dadd60a7d2e
-description: "Last modified: March 09, 2015"
+description: "Contains the mode of a report to be delivered to a particular message recipient upon completion of message delivery or delivery by the message handling system."
 ---
 
 # PidTagPhysicalDeliveryReportRequest Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the mode of a report to be delivered to a particular message recipient upon completion of physical message delivery or delivery by the message handling system.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PHYSICAL_DELIVERY_REPORT_REQUEST  <br/> |
 |Identifier:  <br/> |0x0C0C  <br/> |

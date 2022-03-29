@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a95330ab-fde7-4ad1-82ce-143ff2120306
-description: "Last modified: March 09, 2015"
+description: "Contains the telephone number of the recipient's primary fax machine. These properties are defined by the recipient and their organization. "
 ---
 
 # PidTagPrimaryFaxNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the telephone number of the recipient's primary fax machine.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PRIMARY_FAX_NUMBER, PR_PRIMARY_FAX_NUMBER_A, PR_PRIMARY_FAX_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A23  <br/> |

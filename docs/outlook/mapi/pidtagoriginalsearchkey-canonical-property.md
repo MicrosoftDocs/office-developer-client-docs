@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac5eb91d-31c9-459b-bb22-f4ccfc92d1db
-description: "Last modified: March 09, 2015"
+description: "Contains the original search key for an entry copied from an address book to a personal address book or other writeable address book."
 ---
 
 # PidTagOriginalSearchKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the original search key for an entry copied from an address book to a personal address book or other writeable address book.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x3A14  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: eac130cd-51d1-4c73-a301-a7eafa3b7749
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient's primary telephone number. These properties are defined by the recipient and the recipient's organization. "
 ---
 
 # PidTagPrimaryTelephoneNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's primary telephone number.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PRIMARY_TELEPHONE_NUMBER, PR_PRIMARY_TELEPHONE_NUMBER_A, PR_PRIMARY_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A1A  <br/> |

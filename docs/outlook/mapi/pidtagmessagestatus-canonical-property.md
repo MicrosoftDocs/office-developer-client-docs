@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e479e863-a8de-4f7e-9eae-3f721cd16e9a
-description: "Last modified: March 09, 2015"
+description: "Defines the status of a message in a contents table. A message can exist in a contents table and search-results tables, and each with a different status."
 ---
 
 # PidTagMessageStatus Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a 32-bit bitmask of flags that defines the status of a message in a contents table. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MSG_STATUS  <br/> |
 |Identifier:  <br/> |0x0E17  <br/> |

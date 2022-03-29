@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9908039e-6b88-428f-b241-b04144cbcf5c
-description: "Last modified: March 09, 2015"
+description: "Contains a copy of the original encoded information types (EITs) for message text for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagOriginalEits Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a copy of the original encoded information types (EITs) for message text.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_EITS  <br/> |
 |Identifier:  <br/> |0x0021  <br/> |

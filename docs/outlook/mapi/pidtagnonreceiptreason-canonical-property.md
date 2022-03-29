@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
-description: "Last modified: March 09, 2015"
+description: "Contains reasons why a message was not received that forms part of a non-delivery report for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagNonReceiptReason Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains reasons why a message was not received that forms part of a non-delivery report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NON_RECEIPT_REASON  <br/> |
 |Identifier:  <br/> |0x003E  <br/> |

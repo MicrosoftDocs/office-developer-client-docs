@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
-description: "Last modified: March 09, 2015"
+description: "Contains the encoded name of the originally intended recipient of an autoforwarded message for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagOriginallyIntendedRecipientName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the encoded name of the originally intended recipient of an autoforwarded message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINALLY_INTENDED_RECIPIENT_NAME  <br/> |
 |Identifier:  <br/> |0x0020  <br/> |

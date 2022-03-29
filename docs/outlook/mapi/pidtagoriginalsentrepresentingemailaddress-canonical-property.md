@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e2c3d2c3-5451-45cb-b0ec-bdbf5b39a0ba
-description: "Last modified: March 09, 2015"
+description: "Contains the email address of the messaging user on whose behalf the original message was sent."
 ---
 
 # PidTagOriginalSentRepresentingEmailAddress Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the email address of the messaging user on whose behalf the original message was sent.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x0069  <br/> |

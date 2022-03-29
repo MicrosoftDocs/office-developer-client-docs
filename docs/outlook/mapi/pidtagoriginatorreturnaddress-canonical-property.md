@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1884d83a-826e-494a-a643-c58fa9bdf812
-description: "Last modified: March 09, 2015"
+description: "Contains the binary-encoded return address of the message originator for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagOriginatorReturnAddress Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the binary-encoded return address of the message originator.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINATOR_RETURN_ADDRESS  <br/> |
 |Identifier:  <br/> |0x0024  <br/> |
