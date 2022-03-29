@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 67b3c76a-f6f7-462b-955c-dc7b53e7e7eb
-description: "Last modified: March 09, 2015"
+description: "Indicates the disposition of the receipt for messages that request receipts for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReportDispositionMode Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the disposition of the receipt for messages that request receipts. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_DISPOSITION_MODE, PR_REPORT_DISPOSITION_MODE_A, PR_REPORT_DISPOSITION_MODE_W  <br/> |
 |Identifier:  <br/> |0x0081  <br/> |

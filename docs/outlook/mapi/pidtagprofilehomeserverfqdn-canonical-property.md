@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
-description: "Last modified: March 09, 2015"
+description: "Enables Kerberos authentication of a profile configuration. Setting this property to the Domain Name of the user's directory server allows direct connection to the Domain Controller."
 ---
 
 # PidTagProfileHomeServerFQDN Canonical Property
@@ -22,7 +22,7 @@ Enables Kerberos authentication of a profile configuration.
   
 ****
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROFILE_HOME_SERVER_FQDN  <br/> |
 |Identifier:  <br/> |0x662A001F  <br/> |

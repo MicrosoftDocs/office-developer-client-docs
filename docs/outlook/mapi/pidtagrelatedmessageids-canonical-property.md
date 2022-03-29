@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
-description: "Last modified: March 09, 2015"
+description: "Contains a list of identifiers for messages to which a message is related. The identifiers use the same construction rules as for the PR_SEARCH_KEY property."
 ---
 
 # PidTagRelatedMessageIds Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of identifiers for messages to which a message is related.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RELATED_IPMS  <br/> |
 |Identifier:  <br/> |0x002D  <br/> |

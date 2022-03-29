@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5d41a536-81ff-733c-2fd7-460798e057c8
-description: "Last modified: March 09, 2015"
+description: "Specifies the version of Exchange Server to which accounts in an Outlook profile are connected. A profile can specify accounts that connect to an Exchange Server."
 ---
 
 # PidTagProfileServerVersion Canonical Property
@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies information about the version of Microsoft Exchange Server to which accounts in a Microsoft Outlook profile are connected.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROFILE_SERVER_VERSION  <br/> |
 |Identifier:  <br/> |0x661B  <br/> |

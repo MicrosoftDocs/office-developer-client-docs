@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0ea5628-1393-4ab8-bc34-a58cf130db51
-description: "Last modified: March 09, 2015"
+description: "Contains a search key for the messaging user to which the messaging system should direct a read report for a message."
 ---
 
 # PidTagReadReceiptSearchKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a search key for the messaging user to which the messaging system should direct a read report for a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_READ_RECEIPT_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x0053  <br/> |

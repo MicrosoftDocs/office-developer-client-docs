@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 204f8ef2-c7ec-41c5-ab7d-6ef7a864dcb9
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if a message sender requests a reply from a recipient for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReplyRequested Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message sender requests a reply from a recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPLY_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0C17  <br/> |

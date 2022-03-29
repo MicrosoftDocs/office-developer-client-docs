@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 23ae2473-8b0b-4c6c-80a7-09c9e7a1a27d
-description: "Last modified: March 09, 2015"
+description: "Contains the EntryID of the recipient for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRecipientEntryId Canonical Property
@@ -22,9 +22,9 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Contains the **EntryID** of the recipient 
+Contains the **EntryID** of the recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_ENTRYID  <br/> |
 |Identifier:  <br/> |0x5FF7  <br/> |

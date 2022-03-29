@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
-description: "Last modified: March 09, 2015"
+description: "Contains the name of the profile. Service providers compute these properties. The ServiceEntry function can use these properties to discover the profile name."
 ---
 
 # PidTagProfileName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the profile.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROFILE_NAME, PR_PROFILE_NAME_A, PR_PROFILE_NAME_W  <br/> |
 |Identifier:  <br/> |0x3D12  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ea2bcc06-0089-4999-b115-06a14de4a0f1
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier for the recipient who should receive reports for this message. A client application should set this property at submission time."
 ---
 
 # PidTagReportEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier for the recipient who should receive reports for this message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0045  <br/> |

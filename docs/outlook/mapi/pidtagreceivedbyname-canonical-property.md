@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: edd29217-74bb-4321-82fd-65f0fbfd05f8
-description: "Last modified: March 09, 2015"
+description: "Contains the display name of the messaging user who receives the message. This property is set by the incoming transport provider."
 ---
 
 # PidTagReceivedByName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of the messaging user who receives the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECEIVED_BY_NAME, PR_RECEIVED_BY_NAME_A, PR_RECEIVED_BY_NAME_W  <br/> |
 |Identifier:  <br/> |0x0040  <br/> |

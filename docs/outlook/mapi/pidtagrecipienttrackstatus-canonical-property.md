@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d619b5e7-2867-44fc-9b42-123bb1bf7bde
-description: "Last modified: March 09, 2015"
+description: "Indicates the response status returned by the attendee. If this value is not set, it must be assumed to be respNone."
 ---
 
 # PidTagRecipientTrackStatus Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the response status returned by the attendee.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_TRACKSTATUS  <br/> |
 |Identifier:  <br/> |0x5FFF  <br/> |

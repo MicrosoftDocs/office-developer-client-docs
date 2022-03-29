@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
-description: "Last modified: March 09, 2015"
+description: "Contains a MAPIUID structure of the service provider that's handling a message. This property is computed by all service providers."
 ---
 
 # PidTagProviderUid Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a **MAPIUID** structure of the service provider that is handling a message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROVIDER_UID  <br/> |
 |Identifier:  <br/> |0x300C  <br/> |

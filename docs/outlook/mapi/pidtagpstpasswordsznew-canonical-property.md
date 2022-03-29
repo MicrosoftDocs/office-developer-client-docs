@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e4c5ca77-328c-4f5a-bf94-b9e90e837557
-description: "Last modified: March 09, 2015"
+description: "Contains the new password to use for future access to the personal folder store for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagPstPasswordSzNew Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the new password to use for future access to the personal folder store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PST_PW_SZ_NEW, PR_PST_PW_SZ_NEW_A, PR_PST_PW_SZ_NEW_W  <br/> |
 |Identifier:  <br/> |0x6704  <br/> |
