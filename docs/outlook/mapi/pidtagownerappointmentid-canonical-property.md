@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eea554-6bca-42d1-b943-1327f0d70584
-description: "Last modified: March 09, 2015"
+description: "Contains an identifier for an appointment in the owner's schedule. This property is used in meeting requests."
 ---
 
 # PidTagOwnerAppointmentId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an identifier for an appointment in the owner's schedule.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OWNER_APPT_ID  <br/> |
 |Identifier:  <br/> |0x0062  <br/> |

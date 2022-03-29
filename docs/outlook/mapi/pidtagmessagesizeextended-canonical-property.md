@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e6413cb9-2633-44a0-b408-b5688c47433e
-description: "Last modified: March 09, 2015"
+description: "Contains a 64 bit integer version of the PR_MESSAGE_SIZE property for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagMessageSizeExtended Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a 64 bit integer version of the **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)) property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_SIZE_EXTENDED  <br/> |
 |Identifier:  <br/> |0x0E08  <br/> |

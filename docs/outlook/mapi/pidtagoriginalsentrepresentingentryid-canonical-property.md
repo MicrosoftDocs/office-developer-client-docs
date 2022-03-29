@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: ece3df57-47f3-4d27-854f-b511c920ac75
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the messaging user on whose behalf the original message was sent. It is used in a conversation thread."
 ---
 
 # PidTagOriginalSentRepresentingEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the messaging user on whose behalf the original message was sent.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENT_REPRESENTING_ENTRYID  <br/> |
 |Identifier:  <br/> |0x005E  <br/> |

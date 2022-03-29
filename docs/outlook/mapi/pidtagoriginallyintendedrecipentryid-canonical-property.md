@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fc288a7a-1927-484e-b860-9cc118672ed2
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the originally intended recipient of an auto-forwarded message. This property corresponds to the X.400 report per-recipient attribute."
 ---
 
 # PidTagOriginallyIntendedRecipEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the originally intended recipient of an auto-forwarded message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ENTRYID  <br/> |
 |Identifier:  <br/> |0x1012  <br/> |

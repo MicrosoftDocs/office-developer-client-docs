@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 737f8584-fc52-4324-ac40-2fc554a3095d
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the messaging user who actually receives the message. This property is set by the incoming transport provider."
 ---
 
 # PidTagReceivedByEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the messaging user who actually receives the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECEIVED_BY_ENTRYID  <br/> |
 |Identifier:  <br/> |0x003F  <br/> |

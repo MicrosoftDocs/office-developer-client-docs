@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49deb153-03c6-4be2-a3a5-53cca01accba
-description: "Last modified: March 09, 2015"
+description: "Contains the class of the original message for use in a report for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagOriginalMessageClass Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the class of the original message for use in a report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIG_MESSAGE_CLASS, PR_ORIG_MESSAGE_CLASS_A, PR_ORIG_MESSAGE_CLASS_W  <br/> |
 |Identifier:  <br/> |0x004B  <br/> |

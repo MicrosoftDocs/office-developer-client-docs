@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b74d4350-4ad6-4c3f-8326-bd28537dfa0f
-description: "Last modified: March 09, 2015"
+description: "This property contains a string that indicates the status of a remote transfer. A numeric code associated with this text is passed in the PR_REMOTE_PROGRESS property."
 ---
 
 # PidTagRemoteProgressText Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains a string that indicates the status of a remote transfer.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W  <br/> |
 |Identifier:  <br/> |0x3E0C  <br/> |

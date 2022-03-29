@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a36f4fb-17c0-4271-87d4-a92895f35f23
-description: "Last modified: March 09, 2015"
+description: "Contains the display name of the folder where a message was found during a search. These properties only appear in the contents table of a search-results folder."
 ---
 
 # PidTagParentDisplay Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of the folder where a message was found during a search.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PARENT_DISPLAY, PR_PARENT_DISPLAY_A, PR_PARENT_DISPLAY_W  <br/> |
 |Identifier:  <br/> |0x0E05  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d5f7bd94-6696-474a-a3f3-40928fd3086c
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient's cellular telephone number. These properties are defined by the recipient and their organization. "
 ---
 
 # PidTagMobileTelephoneNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's cellular telephone number.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MOBILE_TELEPHONE_NUMBER, PR_MOBILE_TELEPHONE_NUMBER_A, PR_MOBILE_TELEPHONE_NUMBER_W, PR_CELLULAR_TELEPHONE_NUMBER, PR_CELLULAR_TELEPHONE_NUMBER_A, PR_CELLULAR_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A1C  <br/> |

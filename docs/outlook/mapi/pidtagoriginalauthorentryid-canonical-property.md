@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 34654660-b003-42f5-9fcd-24ebaccd735d
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier of the author of the first version of a message, which is the message before being forwarded or replied to."
 ---
 
 # PidTagOriginalAuthorEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier of the author of the first version of a message, that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_AUTHOR_ENTRYID  <br/> |
 |Identifier:  <br/> |0x004C  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dd8e04b3-8959-4df4-ba2c-f6371180929b
-description: "Last modified: March 09, 2015"
+description: "Contains the postal code for the recipient's postal address. These properties are defined by the recipient and their organization. "
 ---
 
 # PidTagPostalCode Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the postal code for the recipient's postal address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_POSTAL_CODE, PR_POSTAL_CODE_A, PR_POSTAL_CODE_W, PR_BUSINESS_ADDRESS_POSTAL_CODE, PR_BUSINESS_ADDRESS_POSTAL_CODE_A, PR_BUSINESS_ADDRESS_POSTAL_CODE_W  <br/> |
 |Identifier:  <br/> |0x3A2A  <br/> |

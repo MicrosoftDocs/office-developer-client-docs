@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f440905-8690-489c-ae96-2bc391524de9
-description: "Last modified: March 09, 2015"
+description: "Contains the mail user's other street address. These properties are defined by the user or the user's organization."
 ---
 
 # PidTagOtherAddressStreet Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the mail user's other street address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OTHER_ADDRESS_STREET, PR_OTHER_ADDRESS_STREET_A, PR_OTHER_ADDRESS_STREET_W  <br/> |
 |Identifier:  <br/> |0x3A63  <br/> |

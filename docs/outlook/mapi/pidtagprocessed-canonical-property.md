@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 44884f60-7e36-45b2-9712-4f9821a0dc1f
-description: "Last modified: March 09, 2015"
+description: "Set to TRUE when the meeting request has been processed. This property ensures that meeting requests get processed once."
 ---
 
 # PidTagProcessed Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Set to TRUE when the meeting request has been processed.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROCESSED  <br/> |
 |Identifier:  <br/> |0x7D01  <br/> |

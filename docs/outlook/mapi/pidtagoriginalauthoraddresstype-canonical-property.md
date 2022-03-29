@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7cdedb1a-e441-469b-be50-2f18203eb30d
-description: "Last modified: March 09, 2015"
+description: "Contains the address type of the author of the first version of a message, that is, the message before being forwarded or replied to."
 ---
 
 # PidTagOriginalAuthorAddressType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the address type of the author of the first version of a message, that is, the message before being forwarded or replied to.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_AUTHOR_ADDRTYPE, PR_ORIGINAL_AUTHOR_ADDRTYPE_A, PR_ORIGINAL_AUTHOR_ADDRTYPE_W  <br/> |
 |Identifier:  <br/> |0x0079  <br/> |

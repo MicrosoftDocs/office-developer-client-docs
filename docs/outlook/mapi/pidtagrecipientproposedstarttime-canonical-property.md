@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6687ff62-7ac6-409c-8c87-4e09d38e45f1
-description: "Last modified: March 09, 2015"
+description: "Indicates a proposed starting time of a meeting for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRecipientProposedStartTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates a proposed starting time of a meeting.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_PROPOSEDSTARTTIME  <br/> |
 |Identifier:  <br/> |0x5FE3  <br/> |

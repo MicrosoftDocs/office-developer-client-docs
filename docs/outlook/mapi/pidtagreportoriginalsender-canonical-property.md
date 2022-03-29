@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 429811c4-73fe-4a05-9c42-e5ac8e974f29
-description: "Last modified: March 09, 2015"
+description: "Indicates the original sender of the message for messages that request receipts for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReportOriginalSender Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the original sender of the message for messages that request receipts.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_ORIGINAL_SENDER, PR_REPORT_ORIGINAL_SENDER_A, PR_REPORT_ORIGINAL_SENDER_W  <br/> |
 |Identifier:  <br/> |0x0082  <br/> |

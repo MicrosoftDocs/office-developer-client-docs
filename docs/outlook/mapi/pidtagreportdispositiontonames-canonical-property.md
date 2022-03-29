@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 322b915f-d5b8-40cb-b41a-62d08f3d08f9
-description: "Last modified: March 09, 2015"
+description: "Indicates the names of the report recipients for messages that request receipts for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReportDispositionToNames Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the names of the report recipients for messages that request receipts.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_DISPOSITION_TO_NAMES, PR_REPORT_DISPOSITION_TO_NAMES_A, PR_REPORT_DISPOSITION_TO_NAMES_W  <br/> |
 |Identifier:  <br/> |0x0083  <br/> |

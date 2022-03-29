@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 192cdab8-c615-47b9-9f04-a1414eaf0c77
-description: "Last modified: March 09, 2015"
+description: "Represents a null value or setting of a property or reserves array space. This allows for computed properties to be filled in an inexpensive way."
 ---
 
 # PidTagNull Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents a null value or setting of a property or reserves array space.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NULL  <br/> |
 |Identifier:  <br/> |0x0000  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ffc71a7-d281-4f17-87ec-4d7ea53be77f
-description: "Last modified: March 09, 2015"
+description: "Contains the name of the mail user's referral for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReferredByName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the mail user's referral.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REFERRED_BY_NAME, PR_REFERRED_BY_NAME_A, PR_REFERRED_BY_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A47  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
-description: "Last modified: March 09, 2015"
+description: "Contains a binary tag value that the messaging system should copy to any report generated for the message."
 ---
 
 # PidTagReportTag Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a binary tag value that the messaging system should copy to any report generated for the message. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_TAG  <br/> |
 |Identifier:  <br/> |0x0031  <br/> |

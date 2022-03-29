@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: cc55089b-e389-405e-8174-f5b5ec352f78
-description: "Last modified: March 09, 2015"
+description: "This property contains a binary array of delivery methods (service providers), in the order of a message sender's preference."
 ---
 
 # PidTagRequestedDeliveryMethod Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains a binary array of delivery methods (service providers), in the order of a message sender's preference.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REQUESTED_DELIVERY_METHOD  <br/> |
 |Identifier:  <br/> |0x0C18  <br/> |

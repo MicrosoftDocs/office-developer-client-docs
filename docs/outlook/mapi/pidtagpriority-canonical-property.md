@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0f3a628f-5f8e-4716-98cc-868bd3400ba9
-description: "Last modified: March 09, 2015"
+description: "Contains the relative priority of a message. The priority of a report message should be the same as the priority of the original message being reported."
 ---
 
 # PidTagPriority Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the relative priority of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PRIORITY  <br/> |
 |Identifier:  <br/> |0x0026  <br/> |

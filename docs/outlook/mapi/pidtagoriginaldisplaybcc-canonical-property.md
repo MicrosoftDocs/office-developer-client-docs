@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7bf66f0c-3095-4b4a-a32e-db278e1adc5a
-description: "Last modified: March 09, 2015"
+description: "Contains the display names of any BCC recipients of the original message. They is furnished by MAPI and are copied directly from PR_DISPLAY_BCC."
 ---
 
 # PidTagOriginalDisplayBcc Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display names of any blind carbon copy (BCC) recipients of the original message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_DISPLAY_BCC, PR_ORIGINAL_DISPLAY_BCC_A, PR_ORIGINAL_DISPLAY_BCC_W  <br/> |
 |Identifier:  <br/> |0x0072  <br/> |

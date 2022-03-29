@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dcfb6bd5-bff5-4a50-aec7-4bdfdabf7631
-description: "Last modified: March 09, 2015"
+description: "Contains the address type of the originally intended recipient of an autoforwarded message. It must be set by the automatic agent that has forwarded the message."
 ---
 
 # PidTagOriginallyIntendedRecipAddrtype Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the address type of the originally intended recipient of an autoforwarded message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_A, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_W  <br/> |
 |Identifier:  <br/> |0x007B  <br/> |

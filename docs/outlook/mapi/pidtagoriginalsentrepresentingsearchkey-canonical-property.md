@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0fb1b803-f8b4-4d6d-8e2a-836daa98ac63
-description: "Last modified: March 09, 2015"
+description: "Contains the search key of the messaging user on whose behalf the original message was sent. It is used in a conversation thread."
 ---
 
 # PidTagOriginalSentRepresentingSearchKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the search key of the messaging user on whose behalf the original message was sent.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x005F  <br/> |

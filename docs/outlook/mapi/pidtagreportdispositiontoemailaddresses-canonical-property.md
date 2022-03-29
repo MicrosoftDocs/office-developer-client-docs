@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e5014abf-eabc-4691-844c-f317a503c41b
-description: "Last modified: March 09, 2015"
+description: "Indicates email addresses of the report recipients for messages that request receipts for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReportDispositionToEmailAddresses Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates email addresses of the report recipients for messages that request receipts.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_A, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_W  <br/> |
 |Identifier:  <br/> |0x0084  <br/> |

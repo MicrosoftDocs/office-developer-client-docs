@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d8b83072-15b9-4b26-875d-147cb6535b2c
-description: "Last modified: March 09, 2015"
+description: "Contains the display name of a distribution list where the messaging system delivers a report for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReportingDistributionListName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of a distribution list where the messaging system delivers a report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORTING_DL_NAME  <br/> |
 |Identifier:  <br/> |0x1003  <br/> |

@@ -1,7 +1,5 @@
 ---
-title: "PidTagMessageCodepage Canonical Property"
- 
- 
+title: "PidTagMessageCodepage Canonical Property" 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,12 +11,11 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: eef73e34-470c-4c37-94ce-ea95fe83bc10
-description: "Last modified: March 09, 2015"
+description: "PidTagMessageCodepage canonical property contains the code page that is used for the message."
+
 ---
 
 # PidTagMessageCodepage Canonical Property
-
-  
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
