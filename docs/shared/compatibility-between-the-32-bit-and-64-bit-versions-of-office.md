@@ -220,7 +220,7 @@ No.
   
 #### When should I convert Long parameters to LongPtr?
   
-You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa.md) provides the following signature.
+You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa) provides the following signature.
   
 ```cs
 LONG WINAPI RegOpenKeyEx(
