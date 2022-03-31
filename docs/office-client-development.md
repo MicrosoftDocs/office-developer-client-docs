@@ -18,15 +18,15 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [Get started](/office/dev/add-ins/)
   
-- [Platform overview](/office/dev/add-ins/overview/office-add-ins.md)
+- [Platform overview](/office/dev/add-ins/overview/core-concepts-office-add-ins)
   
 ## SharePoint Add-ins
   
-- [Get started](/sharepoint/dev/sp-add-ins/sharepoint-add-ins.md)
+- [Get started](/sharepoint/dev/sp-add-ins/get-started-creating-sharepoint-hosted-sharepoint-add-ins)
   
 ## Visual Studio Tools for Office
   
-- [VSTO add-ins for Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio.md)
+- [VSTO add-ins for Office](/visualstudio/vsto/getting-started-programming-vsto-add-ins)
   
 ## Office client VBA references
   
@@ -36,9 +36,9 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [InfoPath](infopath/infopath-home.md)
   
-- [Office VBA Object library reference](/office/vba/api/overview/library-reference.md)
+- [Office VBA Object library reference](/office/vba/library-reference/concepts/concepts-object-library-reference-for-office)
   
-- [Office VBA language reference](/office/vba/api/overview/language-reference.md)
+- [Office VBA language reference](/office/vba/api/overview/language-reference)
   
 - [Office shared](shared/office-shared.md)
   
@@ -64,4 +64,4 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ## Other resources
   
-- [Open XML SDK](/office/open-xml/open-xml-sdk.md)
+- [Open XML SDK](/office/open-xml/how-do-i)
