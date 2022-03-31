@@ -242,7 +242,7 @@ The parameters are defined as:
 |samDesired [in]  <br/> |A mask that specifies the desired access rights to the key. |
 |phkResult [out]  <br/> |A *pointer* to a variable that receives a handle to the opened key. |
 
-In [Win32API_PtrSafe.txt](/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support.md), the **Declare** statement is defined as:
+In [Win32API_PtrSafe.txt](/office/troubleshoot/office/win32api_ptrsafe-with-64-bit-support), the **Declare** statement is defined as:
   
 ```vb
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
