@@ -19,13 +19,13 @@ Learn how to create a solution in Visual Studio 2012 to read the new file format
 
 <a name="vis15_ManipulateFF_Essentials"> </a>
 
-Previous versions of Visio saved files in a proprietary binary file format (.vsd) or a single-document Visio XML Drawing file format (.vdx). Visio 2013 introduces a new file format (.vsdx), which is based on XML and ZIP archive technologies. Just as in previous versions of Visio, files are saved in a single container. Unlike legacy files, however, the new file format can be opened, read, updated, changed, and constructed without automating the Visio 2013 application. Developers who are familiar with manipulating XML or working with the [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8) namespace can quickly get started working with the new file format programmatically. Developers who have worked with the Visio XML Drawing format from previous versions can find that many of the structures from that format have been retained in the new file format.
+Previous versions of Visio saved files in a proprietary binary file format (.vsd) or a single-document Visio XML Drawing file format (.vdx). Visio 2013 introduces a new file format (.vsdx), which is based on XML and ZIP archive technologies. Just as in previous versions of Visio, files are saved in a single container. Unlike legacy files, however, the new file format can be opened, read, updated, changed, and constructed without automating the Visio 2013 application. Developers who are familiar with manipulating XML or working with the [System.IO.Packaging](/dotnet/api/system.io.packaging?view=netframework-4.8) namespace can quickly get started working with the new file format programmatically. Developers who have worked with the Visio XML Drawing format from previous versions can find that many of the structures from that format have been retained in the new file format.
   
 In this article, we examine how to work with the Visio 2013 file format programmatically, using the Microsoft .NET Framework 4.5, C# or Visual Basic, and Visual Studio 2012. You can see how to open a Visio 2013 file, select document parts within the file, change data in parts, and create a new document part.
   
 > [!NOTE]
-> The code samples in this article assume that you have a rudimentary understanding of the classes in the [System.Xml.Linq](https://docs.microsoft.com/dotnet/api/system.xml.linq?view=netframework-4.8) and [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8) namespaces. 
-> This article also assumes that you understand the concepts and terminology of the Open Packaging Conventions. You should have some familiarity with the concepts of packages, document parts or package parts, and relationships. For more information, see [OPC: A New Standard for Packaging Your Data](https://docs.microsoft.com/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data). 
+> The code samples in this article assume that you have a rudimentary understanding of the classes in the [System.Xml.Linq](/dotnet/api/system.xml.linq?view=netframework-4.8) and [System.IO.Packaging](/dotnet/api/system.io.packaging?view=netframework-4.8) namespaces. 
+> This article also assumes that you understand the concepts and terminology of the Open Packaging Conventions. You should have some familiarity with the concepts of packages, document parts or package parts, and relationships. For more information, see [OPC: A New Standard for Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data). 
 > The code demonstrates how to create LINQ (Language-Integrated Query) queries to select XML. Most of the code samples use the query syntax for building LINQ queries. You can rewrite any of the LINQ queries provided in the code by using the LINQ method syntax, if necessary. For more information about LINQ query syntax and method syntax, see [LINQ Query Syntax versus Method Syntax (C#)](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq.md)> Table 1 shows the essential topics that you should be familiar with before you work through this article.
   
 **Table 1. Core concepts for manipulating the Visio 2013 file format**
@@ -34,7 +34,7 @@ In this article, we examine how to work with the Visio 2013 file format programm
 |:-----|:-----|
 |[Introduction to the Visio file format (.vsdx)](introduction-to-the-visio-file-formatvsdx.md) <br/> |This high-level overview describes some of the major features of the Visio 2013 file format. It discusses the Open Packaging Conventions (OPC) as they have been applied to the Visio 2013 file format. It also lists some differences between the Visio 2013 file format and the previous Visio XML Drawing file format (.vdx). |
 |[OPC: A New Standard for Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data) <br/> |This MSDN Magazine article describes the Open Packaging Conventions as a concept. |
-|[Essentials of the Open Packaging Conventions](https://docs.microsoft.com/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Introducing the Office (2007) Open XML File Formats](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |These two articles discuss how the Open Packaging Conventions have been applied to Microsoft Office files. They contain descriptions of how relationships work in a package and also include some code examples. |
+|[Essentials of the Open Packaging Conventions](/previous-versions/office/office-12/ee361919(v=office.12)) <br/> [Introducing the Office (2007) Open XML File Formats](/previous-versions/office/developer/office-2007/aa338205(v=office.12)) <br/> |These two articles discuss how the Open Packaging Conventions have been applied to Microsoft Office files. They contain descriptions of how relationships work in a package and also include some code examples. |
 
 ## Create a .vsdx file and a new Visual Studio solution
 
@@ -128,12 +128,12 @@ These procedures use a Windows console application to manipulate the "Visio Pack
 
 <a name="vis15_ManipulateFF_OpenPackage"> </a>
 
-Before you can manipulate any of the data within the file, you need to first open the file within a [Package](https://docs.microsoft.com/dotnet/api/system.io.packaging.package?view=netframework-4.8) object, which is contained within the [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8) namespace. The **Package** object represents the Visio file as a whole. It exposes members that allow you to select individual document parts within the file package. In particular, the **Package** class exposes the static [Open(String, FileMode, FileAccess)](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.open?view=netframework-4.8) method that you use to open a file as a package. It also exposes a [Close()](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.close?view=netframework-4.8) method for closing the package once you've finished with it.
+Before you can manipulate any of the data within the file, you need to first open the file within a [Package](/dotnet/api/system.io.packaging.package?view=netframework-4.8) object, which is contained within the [System.IO.Packaging](https://docs.microsoft.com/dotnet/api/system.io.packaging?view=netframework-4.8) namespace. The **Package** object represents the Visio file as a whole. It exposes members that allow you to select individual document parts within the file package. In particular, the **Package** class exposes the static [Open(String, FileMode, FileAccess)](/dotnet/api/system.io.packaging.package.open?view=netframework-4.8) method that you use to open a file as a package. It also exposes a [Close()](/dotnet/api/system.io.packaging.package.close?view=netframework-4.8) method for closing the package once you've finished with it.
   
 > [!TIP]
 > As a best practice, use a **using** block to open the Visio file in the **Package** object so that you don't have to explicitly close the file package when you're done with it. You can also explicitly call the **Package.Close** method in the **finally** block of a **try/catch/finally** construction.
   
-Use the following code to get the full path for the "Visio Package.vsdx" file by using a [FileInfo](https://docs.microsoft.com/dotnet/api/system.io.fileinfo?view=netframework-4.8) object, pass the path as an argument to the **Package.Open** method, and then return a **Package** object to the calling code.
+Use the following code to get the full path for the "Visio Package.vsdx" file by using a [FileInfo](/dotnet/api/system.io.fileinfo?view=netframework-4.8) object, pass the path as an argument to the **Package.Open** method, and then return a **Package** object to the calling code.
   
 ### To open a .vsdx file as a package
 
@@ -217,7 +217,7 @@ Use the following code to get the full path for the "Visio Package.vsdx" file by
 
 <a name="vis15_ManipulateFF_SelectPart"> </a>
 
-Once you have the Visio 2013 file open as a package, you can access the document parts within it using the [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) class included in the **System.IO.Packaging** namespace. **PackagePart** objects can be instantiated individually or as a collection. The **Package** class exposes a [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) method and a [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) method for getting **PackagePart** objects out of the **Package**. The **Package.GetParts** method returns an instance of the [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) class, which you can then interact with like any other collection that implements the [IEnumerator\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2) interface.
+Once you have the Visio 2013 file open as a package, you can access the document parts within it using the [PackagePart](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePart.aspx) class included in the **System.IO.Packaging** namespace. **PackagePart** objects can be instantiated individually or as a collection. The **Package** class exposes a [GetParts()](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetParts.aspx) method and a [GetPart(Uri)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetPart.aspx) method for getting **PackagePart** objects out of the **Package**. The **Package.GetParts** method returns an instance of the [PackagePartCollection](https://msdn.microsoft.com/library/System.IO.Packaging.PackagePartCollection.aspx) class, which you can then interact with like any other collection that implements the [IEnumerator\<T\>](/dotnet/api/system.collections.generic.ienumerator-1?redirectedfrom=MSDN&view=netframework-4.7.2) interface.
   
 Use the code in the following procedure to get a **PackagePartCollection** object from the **Package** as a collection, iterate through the **PackagePart** objects in the collection, and write the URI and content type of each **PackagePart** to the console.
   
@@ -1192,10 +1192,10 @@ For more information about Al's work with the Visio file format, see the links i
 
 - [Visio Developer Center](https://developer.microsoft.com/visio)
 
-- [Manipulate Office Open XML Formats Documents](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa982683(v=office.12))
+- [Manipulate Office Open XML Formats Documents](/previous-versions/office/developer/office-2007/aa982683(v=office.12))
 
-- [Create a Document with Namespaces (C#) (LINQ to XML)](https://docs.microsoft.com/previous-versions/bb387075(v=vs.140))
+- [Create a Document with Namespaces (C#) (LINQ to XML)](/previous-versions/bb387075(v=vs.140))
 
-- [Add Custom XML Parts to Documents Without Starting Microsoft Office](https://docs.microsoft.com/previous-versions/visualstudio/visual-studio-2008/bb608597(v=vs.90))
+- [Add Custom XML Parts to Documents Without Starting Microsoft Office](/previous-versions/visualstudio/visual-studio-2008/bb608597(v=vs.90))
 
 -
