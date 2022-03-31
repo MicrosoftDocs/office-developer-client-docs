@@ -276,7 +276,7 @@ For more information about scenarios that the object model and PIA support, see 
 In general, use the object model or the PIA if your solution customizes the Outlook user interface or relies on Outlook's business logic. Following are the major baseline scenarios for which Outlook solutions use the object model or the PIA. 
   
 - [Customize the Outlook user interface](#OLSelectAPI_CustomizeTheOutlookInterface)
-- [Add, remove, read, write, filter, search, or sort Outlook items](/office/vba/outlook/how-to/items-folders-and-stores/outlook-item-objects.md)
+- [Add, remove, read, write, filter, search, or sort Outlook items](/office/vba/outlook/how-to/items-folders-and-stores/outlook-item-objects)
 - [Customize item properties, fields, and forms](#OLSelectAPI_ItemPropFieldsForms)
 - [Process Outlook events such as switching folders or opening an item](#OLSelectAPI_Events)
 - [Automate Outlook and integrate with other Office applications](#OLSelectAPI_AutomateOutlook)
