@@ -67,7 +67,7 @@ The combination of VBA and type libraries gives you lots of functionality to cre
   
 > [!NOTE]
 > Microsoft provides a Win32API.txt file that contains 1,500 Declare statements and a tool to copy the **Declare** statement that you want into your code. However, these statements are for 32-bit systems and must be converted to 64-bit by using the information discussed later in this article. Existing **Declare** statements won't compile in 64-bit VBA until they've been marked as safe for 64-bit by using the **PtrSafe** attribute. You can find examples of this type of conversion at Excel MVP Jan Karel Pieterse's website at [https://www.jkp-ads.com/articles/apideclarations.asp](https://www.jkp-ads.com/articles/apideclarations.asp).
-> The [Office Code Compatibility Inspector user's guide](https://docs.microsoft.com/previous-versions/office/office-2010/ee833946(v=office.14)) is a useful tool to inspect the syntax of API **Declare** statements for the **PtrSafe** attribute, if needed, and the appropriate return type.
+> The [Office Code Compatibility Inspector user's guide](/previous-versions/office/office-2010/ee833946(v=office.14)) is a useful tool to inspect the syntax of API **Declare** statements for the **PtrSafe** attribute, if needed, and the appropriate return type.
   
 **Declare** statements resemble one of the following, depending on whether you are calling a subroutine (which has no return value) or a function (which does have a return value).
   
@@ -271,4 +271,4 @@ You should use these functions to retrieve pointers to strings, variables and ob
 
 <a name="odc_office_Compatibility32bit64bit_AdditionalResources"> </a>
 
-- [Anatomy of a Declare Statement](https://docs.microsoft.com/previous-versions/aa671659(v=vs.71))
+- [Anatomy of a Declare Statement](/previous-versions/aa671659(v=vs.71))
