@@ -26,7 +26,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ## Visual Studio Tools for Office
   
-- [VSTO add-ins for Office](/visualstudio/vsto/getting-started-programming-vsto-add-ins?view=vs-2022)
+- [VSTO add-ins for Office](/visualstudio/vsto/getting-started-programming-vsto-add-ins)
   
 ## Office client VBA references
   
