@@ -112,7 +112,7 @@ In the following API reference documentation:
 
 - The parameters are not case-sensitive.
 
-- For more information, see [Information about Office Click-to-Run installations and about related anti-malware applications](/office/troubleshoot/office-suite-issues/office-click-to-run-installation.md).
+- For more information, see [Information about Office Click-to-Run installations and about related anti-malware applications](/office/troubleshoot/office-suite-issues/office-click-to-run-installation).
 
 - Summary of IUpdateNotify2 interface is now included.
 
