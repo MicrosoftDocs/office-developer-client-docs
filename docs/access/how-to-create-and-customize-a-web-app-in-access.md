@@ -22,7 +22,7 @@ To follow the steps in this example, you need the following:
 - Access
 - A SharePoint development environment
 
-For more information about setting up your SharePoint development environment, see [Set up a general development environment for SharePoint](/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint.md).
+For more information about setting up your SharePoint development environment, see [Set up a general development environment for SharePoint](/sharepoint/dev/general-development/set-up-a-general-development-environment-for-sharepoint).
   
 For more information about obtaining Access and SharePoint, see [Downloads](https://msdn.microsoft.com/office/apps/fp123627).
 
