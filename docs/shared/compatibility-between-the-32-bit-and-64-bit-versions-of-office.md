@@ -98,7 +98,7 @@ In previous versions of VBA, there was no specific pointer data type so the **Lo
 To resolve this, VBA includes a true *pointer* data type: **LongPtr**. This new data type enables you to write the original **Declare** statement correctly as:
   
 ```vb
-Declare PtrSafe Function RegOpenKeyA Lib "advapire32.dll" (ByVal hKey as LongPtr, ByVal lpSubKey As String, phkResult As LongPtr) As Long
+Declare PtrSafe Function RegOpenKeyA Lib "advapi32.dll" (ByVal hKey as LongPtr, ByVal lpSubKey As String, phkResult As LongPtr) As Long
 ```
 
 This data type and the new **PtrSafe** attribute enable you to use this **Declare** statement on either 32-bit or 64-bit systems. The **PtrSafe** attribute indicates to the VBA compiler that the **Declare** statement is targeted for the 64-bit version of Office. Without this attribute, using the **Declare** statement in a 64-bit system will result in a compile-time error. The **PtrSafe** attribute is optional on the 32-bit version of Office. This enables existing **Declare** statements to work as they always have.
