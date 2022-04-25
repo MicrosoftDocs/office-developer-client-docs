@@ -35,6 +35,8 @@ Contains a value that indicates the message sender's opinion of the sensitivity 
 
 It is recommended that message objects expose this property.
   
+The remarks for [SPropertyRestriction](spropertyrestriction.md) specify that MAPI programs ought to use an additional SExistRestriction to avoid undefined results. Outlook (up to at least 16.0.15028.20204 (v2203)) fails to follow this very guideline when it retrieves a folder's content table. As a result, Outlook exhibits undefined results when a message object lacks the PR_SENSITIVITY property.
+  
 This property can have exactly one of the following values:
   
 SENSITIVITY_NONE 
