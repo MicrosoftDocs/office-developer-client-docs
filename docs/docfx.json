@@ -47,7 +47,7 @@
       "ms.topic": "conceptual",
       "uhfHeaderId": "MSDocsHeader-Dev_Office",
       "ms.suite": "office",
-      "ms.prod": "office365",
+      "ms.service": "office-365",
       "description": "Office developer client VBA reference"
     },
     "fileMetadata": {
