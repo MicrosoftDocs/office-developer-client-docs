@@ -1,6 +1,6 @@
 ---
 title: "Develop solutions and customize Excel"
-ms.date: 03/18/2022
+ms.date: 05/18/2022
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
@@ -32,7 +32,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Other resources
   
-- [Tips for optimizing performance obstructions](/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions.md)
+- [Tips for optimizing performance obstructions](/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions)
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference.md)  
 - [Office VBA language reference](/office/vba/api/overview/language-reference.md)  
 - [Open XML SDK](/office/open-xml/open-xml-sdk.md)  
