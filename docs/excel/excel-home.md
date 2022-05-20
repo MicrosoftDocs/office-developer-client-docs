@@ -22,9 +22,9 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Office Add-ins
   
-- [Get started with Excel add-ins](/office/dev/add-ins/excel/excel-add-ins-get-started-overview.md)  
-- [Platform overview](/office/dev/add-ins/overview/office-add-ins.md)
-- [JavaScript custom functions](/office/dev/add-ins/excel/custom-functions-overview.md)
+- [Get started with Excel add-ins](/office/dev/add-ins/excel/excel-add-ins-get-started-overview)  
+- [Platform overview](/office/dev/add-ins/overview/office-add-ins)
+- [JavaScript custom functions](/office/dev/add-ins/excel/custom-functions-overview)
   
 ### Code samples
   
@@ -32,10 +32,11 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Other resources
   
-- [Tips for optimizing performance obstructions](/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions.md)
-- [Office VBA Object library reference](/office/vba/api/overview/library-reference.md)  
-- [Office VBA language reference](/office/vba/api/overview/language-reference.md)  
-- [Open XML SDK](/office/open-xml/open-xml-sdk.md)  
+- [Excel Dev Center](https://developer.microsoft.com/excel)
+- [Tips for optimizing performance obstructions](/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions)
+- [Office VBA Object library reference](/office/vba/api/overview/library-reference)  
+- [Office VBA language reference](/office/vba/api/overview/language-reference)  
+- [Open XML SDK](/office/open-xml/open-xml-sdk)  
 - [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 ### Support
