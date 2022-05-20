@@ -17,7 +17,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Viewed most
   
-- [Excel VBA reference](/office/vba/api/overview/excel.md)  
+- [Excel VBA reference](/office/vba/api/overview/excel)  
 - [Excel 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ee658205(v=office.14))
   
 ### Office Add-ins
