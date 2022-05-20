@@ -1,6 +1,6 @@
 ---
 title: "Develop solutions and customize Excel"
-ms.date: 03/18/2022
+ms.date: 05/20/2022
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
@@ -18,14 +18,14 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Viewed most
   
-- [Excel VBA reference](/office/vba/api/overview/excel.md)  
+- [Excel VBA reference](/office/vba/api/overview/excel)  
 - [Excel 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ee658205(v=office.14))
   
 ### Office Add-ins
   
-- [Get started with Excel add-ins](/office/dev/add-ins/excel/excel-add-ins-get-started-overview.md)  
-- [Platform overview](/office/dev/add-ins/overview/office-add-ins.md)
-- [JavaScript custom functions](/office/dev/add-ins/excel/custom-functions-overview.md)
+- [Get started with Excel add-ins](/office/dev/add-ins/excel/excel-add-ins-get-started-overview)  
+- [Platform overview](/office/dev/add-ins/overview/office-add-ins)
+- [JavaScript custom functions](/office/dev/add-ins/excel/custom-functions-overview)
   
 ### Code samples
   
@@ -33,11 +33,12 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Other resources
   
-- [Tips for optimizing performance obstructions](/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions.md)
-- [Office VBA Object library reference](/office/vba/api/overview/library-reference.md)  
-- [Office VBA language reference](/office/vba/api/overview/language-reference.md)  
-- [Open XML SDK](/office/open-xml/open-xml-sdk.md)  
-- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true)
+- [Excel Dev Center](https://developer.microsoft.com/excel)
+- [Tips for optimizing performance obstructions](/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions)
+- [Office VBA Object library reference](/office/vba/api/overview/library-reference)  
+- [Office VBA language reference](/office/vba/api/overview/language-reference)  
+- [Open XML SDK](/office/open-xml/open-xml-sdk)  
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 ### Support
   
