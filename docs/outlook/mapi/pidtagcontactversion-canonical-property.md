@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 849d33e0-922f-49fe-bf2a-460329f0570d
-description: "Last modified: March 09, 2015"
+description: "Contains the version of a recipient's contact information. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagContactVersion Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the version of a recipient's contact information.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTACT_VERSION  <br/> |
 |Identifier:  <br/> |0x3A52  <br/> |

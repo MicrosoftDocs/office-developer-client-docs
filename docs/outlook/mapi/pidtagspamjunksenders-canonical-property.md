@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3c5182a7-7d7a-48e8-b9cb-5abd7739f0fd
-description: "Last modified: March 09, 2015"
+description: "Contains a semicolon-delimited list of email addresses and domains that comprise blocked senders."
 ---
 
 # PidTagSpamJunkSenders Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a semicolon-delimited list of email addresses and domains that comprise blocked senders.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SPAM_JUNK_SENDERS_W  <br/> |
 |Long ID (LID):  <br/> |0x041A  <br/> |

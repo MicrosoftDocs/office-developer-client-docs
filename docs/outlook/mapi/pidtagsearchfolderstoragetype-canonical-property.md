@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ec21942-47db-43a5-a6ee-ec6fd2135e8b
-description: "Last modified: March 09, 2015"
+description: "Contains flags that specify the Binary Large Object (BLOB) data that appears in the PR_WB_SF_DEFINITION property."
 ---
 
 # PidTagSearchFolderStorageType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains flags that specify the Binary Large Object (BLOB) data that appears in the **PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)) property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WB_SF_STORAGE_TYPE  <br/> |
 |Identifier:  <br/> |0x6846  <br/> |

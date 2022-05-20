@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the rich text format of the contact's other fax address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFax3RTF  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

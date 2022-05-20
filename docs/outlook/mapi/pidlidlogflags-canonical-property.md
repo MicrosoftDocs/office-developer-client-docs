@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains metadata about the journal.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidLogFlags  <br/> |
 |Property set:  <br/> |PSETID_Log  <br/> |

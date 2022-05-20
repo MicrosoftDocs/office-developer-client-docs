@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of state or province used in the other address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OTHER_ADDRESS_STATE_OR_PROVINCE, PR_OTHER_ADDRESS_STATE_OR_PROVINCE_A, PR_OTHER_ADDRESS_STATE_OR_PROVINCE_W  <br/> |
 |Identifier:  <br/> |0x3A62  <br/> |

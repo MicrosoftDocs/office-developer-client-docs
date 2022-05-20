@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of identifiers for address book providers in the current profile. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AB_PROVIDERS  <br/> |
 |Identifier:  <br/> |0x3D01  <br/> |

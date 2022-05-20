@@ -25,16 +25,16 @@ Determines whether a fill gradient rotates with a shape in 2D rotation, as a boo
 
 To get a reference to the **RotateGradientWithShape** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | RotateGradientWithShape  <br/> |
+| **Cell name:**  <br/> | RotateGradientWithShape  <br/> |
    
 To get a reference to the **RotateGradientWithShape** cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowGradientProperties** <br/> |
-| Cell index:  <br/> |**visRotateGradientWithShape** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowGradientProperties** <br/> |
+| **Cell index:**  <br/> |**visRotateGradientWithShape** <br/> |
    
 

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 234c797c-4a3c-4e05-be22-2a2fa377871f
-description: "Last modified: March 09, 2015"
+description: "Contains the search key for the messaging user represented by the receiving user. This property is set by the incoming transport provider."
 ---
 
 # PidTagReceivedRepresentingSearchKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the search key for the messaging user represented by the receiving user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RCVD_REPRESENTING_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x0052  <br/> |

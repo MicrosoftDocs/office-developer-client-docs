@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4ec3100f-7cf1-4702-b326-e6da586a7bb2
-description: "Last modified: March 09, 2015"
+description: "Contains the display name for the recipient that should get reports for this message. A client application should set this property at submission time."
 ---
 
 # PidTagReportName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name for the recipient that should get reports for this message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_NAME, PR_REPORT_NAME_A, PR_REPORT_NAME_W  <br/> |
 |Identifier:  <br/> |0x003A  <br/> |

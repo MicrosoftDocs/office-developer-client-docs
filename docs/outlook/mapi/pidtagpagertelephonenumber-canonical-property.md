@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4206b003-2304-4215-9844-8ff4305cc2f4
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient's pager telephone number. These properties are defined by the recipient and their organization. "
 ---
 
 # PidTagPagerTelephoneNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's pager telephone number.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PAGER_TELEPHONE_NUMBER, PR_PAGER_TELEPHONE_NUMBER_A, PR_PAGER_TELEPHONE_NUMBER_W, PR_BEEPER_TELEPHONE_NUMBER, PR_BEEPER_TELEPHONE_NUMBER_A, PR_BEEPER_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A21  <br/> |

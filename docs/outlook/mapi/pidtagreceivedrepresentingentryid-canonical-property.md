@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2ae2266c-f093-41e5-b4d0-e12aa0f03190
-description: "Last modified: March 09, 2015"
+description: "Contains the entry identifier for the messaging user who is represented by the receiving user. This property is set by the incoming transport provider."
 ---
 
 # PidTagReceivedRepresentingEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the entry identifier for the messaging user who is represented by the receiving user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RCVD_REPRESENTING_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0043  <br/> |

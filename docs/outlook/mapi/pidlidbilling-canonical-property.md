@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the billing information associated with an item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidBilling  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07631ae1-981e-4c8e-a30b-1213904fe079
-description: "Last modified: March 09, 2015"
+description: "Describes a comment restriction, which is used to annotate a restriction. Comment restrictions are unlike other restrictions because they are not evaluated."
 ---
 
 # SCommentRestriction
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a comment restriction, which is used to annotate a restriction. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the format for an editor to use to display a message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MSG_EDITOR_FORMAT  <br/> |
 |Identifier:  <br/> |0x5909  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that indicates the sharing capabilities of the item.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_INTERNET_HEADERS  <br/> |

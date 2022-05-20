@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an index that identifies one of a set of pre-defined text strings associated with the flag.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFlagStringEnum  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

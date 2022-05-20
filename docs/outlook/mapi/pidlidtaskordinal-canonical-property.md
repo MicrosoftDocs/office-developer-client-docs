@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides an aid to custom sorting tasks.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskOrdinal  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

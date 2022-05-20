@@ -16,7 +16,7 @@ description: "Last modified: March 09, 2015"
   
  Creates a MAPI offline object that is used by the provider and store in order to notify MAPI when the object goes online and offline, 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Exported by:  <br/> |Msmapi32.dll  <br/> |
 |Implemented by:  <br/> |Outlook  <br/> |

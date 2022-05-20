@@ -246,7 +246,7 @@ The following elements were added to the WordprocessingML Open XML File Format s
 
 |**Element**|**Description**|
 |:-----|:-----|
-|\<w:appearance\>  <br/> |\<w:appearance\> is a child element of \<w:sdtPr\>. The following values are valid for the val attribute:  <br/> \<w:appearance val= boundingBox|tags|hidden. The default value is boundingBox. |
+|\<w:appearance\>  <br/> |\<w:appearance\> is a child element of \<w:sdtPr\>. The following values are valid for the val attribute:  <br/> \<w:appearance val= boundingBox\|tags\|hidden. The default value is boundingBox. |
 |\<w:color\>  <br/> |\<w:color\> is a child element of \<w:sdtPr\>. The content model matches the existing CT_Color complex type. The default value is the color used in Word 2010. |
 
 ## New Word 2013 content control object model members

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df4be986-62a8-49d6-8eca-25b55c74f830
-description: "Last modified: March 09, 2015"
+description: "Contains a list of the files that belong to the message service. MAPI works only with filenames, and other strings passed to it, in the ANSI character set."
 ---
 
 # PidTagServiceSupportFiles Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of the files that belong to the message service.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICE_SUPPORT_FILES, PR_SERVICE_SUPPORT_FILES_A, PR_SERVICE_SUPPORT_FILES_W  <br/> |
 |Identifier:  <br/> |0x3D0F  <br/> |

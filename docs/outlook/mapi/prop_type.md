@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 746d63fa-bfb7-479f-94dc-ba40011c1ec9
-description: "Last modified: March 09, 2015"
+description: "Returns the property type of a specified property tag for Outlook 2013 and Outlook 2016."
 ---
 
 # PROP_TYPE
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Returns the property type of a specified property tag.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |[SPropValue](spropvalue.md) <br/> |

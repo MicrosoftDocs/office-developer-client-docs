@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
-description: "Last modified: March 09, 2015"
+description: "Describes a MAPI property for Outlook 2013 and Outlook 2016."
 ---
 
 # SPropValue
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a MAPI property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related macros:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |

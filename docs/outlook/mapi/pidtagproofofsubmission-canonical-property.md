@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
-description: "Last modified: March 09, 2015"
+description: "This property contains TRUE if a message sender requests proof that the message transfer system submitted a message for delivery to the intended recipient."
 ---
 
 # PidTagProofOfSubmission Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains TRUE if a message sender requests proof that the message transfer system has submitted a message for delivery to the originally intended recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
 |Identifier:  <br/> |0x0E26  <br/> |

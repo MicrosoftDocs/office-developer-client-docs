@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the original value of the **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) property before a meeting update.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidOldWhenEndWhole  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

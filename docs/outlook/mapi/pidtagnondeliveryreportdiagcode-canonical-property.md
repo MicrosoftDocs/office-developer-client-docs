@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
-description: "Last modified: March 09, 2015"
+description: "Contains a diagnostic code that forms part of a nondelivery report for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagNonDeliveryReportDiagCode Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a diagnostic code that forms part of a nondelivery report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NDR_DIAG_CODE  <br/> |
 |Identifier:  <br/> |0x0C05  <br/> |

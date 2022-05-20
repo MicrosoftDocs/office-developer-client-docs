@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the existence of a photo attachment for a contact.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACHMENT_CONTACTPHOTO  <br/> |
 |Identifier:  <br/> |0x7FFF  <br/> |

@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: dee566ad-b46d-1015-4b0b-6c3313060142
-description: "Last modified: March 09, 2015"
+description: "This topic describes what happens during the upload delete status state of the replication state machine."
  
  
 ---
@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |State Identifier:  <br/> |**LR_SYNC_UPLOAD_MESSAGE_DEL** <br/> |
 |Related Data Structure:  <br/> |**[UPDEL](updel.md)** <br/> |

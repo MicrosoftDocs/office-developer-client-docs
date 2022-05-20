@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a message length, in bytes, passed to a client application or service provider to determine if a message of that length can be delivered. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTENT_LENGTH  <br/> |
 |Identifier:  <br/> |0x0009  <br/> |

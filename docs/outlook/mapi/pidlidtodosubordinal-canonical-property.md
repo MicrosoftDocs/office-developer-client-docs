@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Acts as a tie breaker when the **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate](pidlidtodoordinaldate-canonical-property.md)) property sorts objects and the result in a tie.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidToDoSubOrdinal  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

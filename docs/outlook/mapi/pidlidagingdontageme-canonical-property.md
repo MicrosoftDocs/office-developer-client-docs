@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb5936a2-6f78-428e-8900-dc7f2f1d67b0
-description: "Last modified: March 09, 2015"
+description: "Specifies a value of TRUE if the item will not be automatically archived for Outlook 2013 and Outlook 2016."
 ---
 
 # PidLidAgingDontAgeMe Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies a value of TRUE if the item will not be automatically archived.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidAgingDontAgeMe  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a long that represents the build number of the Outlook application for an item.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidCurrentVersion  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30d23c19-e0da-4511-9361-761153259216
-description: "Last modified: March 09, 2015"
+description: "Contains a folder's conflict resolution value for Outlook 2013 or Outlook 2016. This property is not required. "
 ---
 
 # PidTagResolveMethod Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a folder's conflict resolution value.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RESOLVE_METHOD  <br/> |
 |Identifier:  <br/> |0x3FE7  <br/> |
@@ -35,7 +35,7 @@ Contains a folder's conflict resolution value.
 
 This property on the folder containing the conflict resolution message will indicate how to resolve the conflict. This property is not required. However, if it is set, flags other than the following must not be present:
   
-|||
+|Flag |Description |
 |:-----|:-----|
 |RESOLVE_METHOD_DEFAULT (0x00000000)  <br/> |Conflict resolve message should be generated. |
 |RESOLVE_METHOD_LAST_WRITER_WINS (0x00000001)  <br/> |Overwrite target message with current changes being applied. |

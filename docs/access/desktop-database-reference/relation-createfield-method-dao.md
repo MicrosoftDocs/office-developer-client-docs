@@ -25,10 +25,10 @@ Creates a new **[Field](field-object-dao.md)** object (Microsoft Access workspac
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

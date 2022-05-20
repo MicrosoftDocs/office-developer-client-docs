@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the message transfer system (MTS) identifier used in correlating reports with sent messages.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CORRELATE_MTSID  <br/> |
 |Identifier:  <br/> |0x0E0D  <br/> |

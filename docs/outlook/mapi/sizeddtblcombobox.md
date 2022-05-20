@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
-description: "Last modified: March 09, 2015"
+description: "Creates a named structure that includes DTBLCOMBOBOX as a combo box control and the maximum number of characters that can be entered in the edit control."
 ---
 
 # SizedDtblComboBox
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named structure that includes a [DTBLCOMBOBOX](dtblcombobox.md) structure for describing a combo box control and the maximum number of characters that can be entered in the associated edit control. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLCOMBOBOX** <br/> |

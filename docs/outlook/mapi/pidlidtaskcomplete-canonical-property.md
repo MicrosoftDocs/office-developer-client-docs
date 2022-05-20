@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the task is complete.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskComplete  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

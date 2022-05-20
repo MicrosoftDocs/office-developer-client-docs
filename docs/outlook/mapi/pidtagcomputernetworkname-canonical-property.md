@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the network used to transmit the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_COMPUTER_NETWORK_NAME, PR_COMPUTER_NETWORK_NAME_A, PR_COMPUTER_NETWORK_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A49  <br/> |

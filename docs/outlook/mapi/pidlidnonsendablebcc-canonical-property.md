@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of all the unsendable attendees who are resources.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidNonSendableBCC  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

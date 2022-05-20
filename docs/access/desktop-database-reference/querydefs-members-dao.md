@@ -20,8 +20,8 @@ A QueryDefs collection contains all QueryDef objects of a Database object in a M
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -50,8 +50,8 @@ A QueryDefs collection contains all QueryDef objects of a Database object in a M
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

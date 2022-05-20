@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the MIME sequence number of a MIME message attachment.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_MIME_SEQUENCE  <br/> |
 |Identifier:  <br/> |0x3710  <br/> |

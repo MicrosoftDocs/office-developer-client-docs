@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
-description: "Last modified: March 09, 2015"
+description: "Contains a value that indicates the message sender's opinion of the sensitivity of a message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSensitivity Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that indicates the message sender's opinion of the sensitivity of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENSITIVITY  <br/> |
 |Identifier:  <br/> |0x0036  <br/> |
@@ -34,6 +34,8 @@ Contains a value that indicates the message sender's opinion of the sensitivity 
 ## Remarks
 
 It is recommended that message objects expose this property.
+  
+The remarks for [SPropertyRestriction](spropertyrestriction.md) specify that MAPI programs ought to use an additional SExistRestriction to avoid undefined results. Outlook (up to at least 16.0.15028.20204 (v2203)) fails to follow this very guideline when it retrieves a folder's content table. As a result, Outlook exhibits undefined results when a message object lacks the PR_SENSITIVITY property.
   
 This property can have exactly one of the following values:
   

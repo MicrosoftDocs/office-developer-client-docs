@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains flags that indicating whether the providers will support multiple email addresses per contact item.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_MULTI_ADDR_FLAGS  <br/> |
 |Identifier:  <br/> |0x6625  <br/> |

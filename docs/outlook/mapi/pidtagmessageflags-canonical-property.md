@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags that indicate the origin and current state of a message. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MESSAGE_FLAGS  <br/> |
 |Identifier:  <br/> |0x0E07  <br/> |

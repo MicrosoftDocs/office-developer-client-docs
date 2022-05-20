@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8c8a882e-62c1-4c57-8c63-ee5849f656b0
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of flags indicating the operations that are available to the client for the object."
 ---
 
 # PidTagAccess Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags indicating the operations that are available to the client for the object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ACCESS  <br/> |
 |Identifier:  <br/> |0x0FF4  <br/> |

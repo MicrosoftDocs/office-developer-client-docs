@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Supports the administration of profiles. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapix.h  <br/> |
 |Exposed by:  <br/> |Profile administration object  <br/> |
@@ -35,7 +35,7 @@ Supports the administration of profiles.
    
 ## Vtable order
 
-|||
+|Member|Description|
 |:-----|:-----|
 |[GetLastError](iprofadmin-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous error that occurred to a profile administration object. |
 |[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |Provides access to the profile table, a table that contains information about all of the available profiles. |

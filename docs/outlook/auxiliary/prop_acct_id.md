@@ -17,7 +17,7 @@ Returns an identifier that uniquely identifies an account within the profile in 
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0001  <br/> |
 |Property type:  <br/> |PT_LONG  <br/> |

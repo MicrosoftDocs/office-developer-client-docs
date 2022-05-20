@@ -20,8 +20,8 @@ A Field2 object represents a column of data with a common data type and a common
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,8 +58,8 @@ A Field2 object represents a column of data with a common data type and a common
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

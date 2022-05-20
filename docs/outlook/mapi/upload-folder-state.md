@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 270b1df0-c5cd-0d0f-7b57-2726dee978ab
-description: "Last modified: March 09, 2015"
+description: "This topic describes what happens during the upload folder state of the replication state machine."
  
  
 ---
@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |State Identifier:  <br/> |**LR_SYNC_UPLOAD_FOLDER** <br/> |
 |Related Data Structure:  <br/> |**[UPFLD](upfld.md)** <br/> |

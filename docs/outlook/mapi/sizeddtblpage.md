@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47b2a69d-e902-429f-8b31-166b51aeaf7f
-description: "Last modified: March 09, 2015"
+description: "Creates a named structure that includes DTBLPAGE for describing a tabbed page control, a label, and a Help file entry of a specified length."
 ---
 
 # SizedDtblPage
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Creates a named structure that includes a [DTBLPAGE](dtblpage.md) structure for describing a tabbed page control, a label of a specified length, and a Help file entry of a specified length. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**DTBLPAGE** <br/> |

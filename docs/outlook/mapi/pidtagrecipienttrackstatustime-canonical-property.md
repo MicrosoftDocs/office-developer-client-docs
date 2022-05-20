@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f14dfe47-a9f8-4475-bb26-7da3411d8c6f
-description: "Last modified: March 09, 2015"
+description: "Contains the date and time when the attendee responded for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagRecipientTrackStatusTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time when the attendee responded.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_TRACKSTATUS_TIME  <br/> |
 |Identifier:  <br/> |0x5FFB  <br/> |

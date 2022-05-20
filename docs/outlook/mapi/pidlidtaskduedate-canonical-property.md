@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the date when the user expects to complete the task.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskDueDate  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b8c0c871-51d8-4752-ad4b-607463a9f837
-description: "Last modified: March 09, 2015"
+description: "Represents the start date and time, in UTC, for the journal message for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidLogStart Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the start date and time for the journal message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidLogStart  <br/> |
 |Property set:  <br/> |PSETID_Log  <br/> |

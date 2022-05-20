@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: fe167c90-c817-b627-0728-5c6393477c22
-description: "Last modified: March 09, 2015"
+description: "This topic describes what happens during the upload table state of the replication state machine."
  
  
 ---
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |State Identifier:  <br/> |**LR_SYNC_UPLOAD_TABLE** <br/> |
 |Related Data Structure:  <br/> |**[UPTBL](uptbl.md)** <br/> |

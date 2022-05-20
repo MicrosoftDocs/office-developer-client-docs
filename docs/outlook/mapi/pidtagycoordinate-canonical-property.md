@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
-description: "Last modified: March 09, 2015"
+description: "Contains the y coordinate of the starting position (the upper-left corner) of a dialog box control, in standard Windows dialog units."
 ---
 
 # PidTagYCoordinate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the y coordinate of the starting position (the upper-left corner) of a dialog box control, in standard Windows dialog units.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_YPOS  <br/> |
 |Identifier:  <br/> |0x3F06  <br/> |

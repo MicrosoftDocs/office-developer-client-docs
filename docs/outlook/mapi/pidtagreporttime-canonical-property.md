@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b3646505-a9f0-4a72-8277-b238c909f66f
-description: "Last modified: March 09, 2015"
+description: "Contains the date and time when the messaging system generated a report for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReportTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time when the messaging system generated a report.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPORT_TIME  <br/> |
 |Identifier:  <br/> |0x0032  <br/> |

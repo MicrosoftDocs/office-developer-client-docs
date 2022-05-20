@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name for a given MAPI object. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DISPLAY_NAME, PR_DISPLAY_NAME_A, PR_DISPLAY_NAME_W  <br/> |
 |Identifier:  <br/> |0x3001  <br/> |

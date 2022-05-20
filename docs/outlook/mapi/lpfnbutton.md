@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a callback function that MAPI calls to activate an optional button control in an address book dialog box. This button is typically a **Details** button.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Defined function implemented by:  <br/> |Service providers  <br/> |

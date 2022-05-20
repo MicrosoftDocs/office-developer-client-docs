@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
-description: "Last modified: March 09, 2015"
+description: "Defines an ADRLIST structure with the specified name that contains a specified number of ADRENTRY structures."
 ---
 
 # SizedADRLIST
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Defines an [ADRLIST](adrlist.md) structure with the specified name that contains a specified number of [ADRENTRY](adrentry.md) structures. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Related structure:  <br/> |**ADRLIST** <br/> |

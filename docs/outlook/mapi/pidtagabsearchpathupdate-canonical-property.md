@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of entry identifiers for address book containers explicitly configured by the user. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AB_SEARCH_PATH_UPDATE  <br/> |
 |Identifier:  <br/> |0x3D11  <br/> |

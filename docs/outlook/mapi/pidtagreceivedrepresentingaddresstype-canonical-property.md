@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c342bb2a-157e-4748-bf21-0926f95e5312
-description: "Last modified: March 09, 2015"
+description: "Contains the address type for the messaging user who is represented by the user actually receiving the message. This property is set by the incoming transport provider."
 ---
 
 # PidTagReceivedRepresentingAddressType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the address type for the messaging user who is represented by the user actually receiving the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RCVD_REPRESENTING_ADDRTYPE, PR_RCVD_REPRESENTING_ADDRTYPE_A, PR_RCVD_REPRESENTING_ADDRTYPE_W  <br/> |
 |Identifier:  <br/> |0x0077  <br/> |

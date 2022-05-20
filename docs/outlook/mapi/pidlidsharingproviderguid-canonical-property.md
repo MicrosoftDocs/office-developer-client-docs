@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 103c9cf2-42fb-4fa5-b9c2-8a92725d3097
-description: "Last modified: March 09, 2015"
+description: "Specifies the sharing provider globally unique identifier (GUID). This is a property of a sharing message."
 ---
 
 # PidLidSharingProviderGuid Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the sharing provider globally unique identifier (GUID). This is a property of a sharing message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingProviderGuid  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

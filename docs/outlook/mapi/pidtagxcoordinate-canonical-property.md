@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 030d5c21-ab02-4047-bf2d-9a402a1e9102
-description: "Last modified: March 09, 2015"
+description: "Contains the x coordinate of the starting position (the upper-left corner) of a dialog box control, in standard Windows dialog units."
 ---
 
 # PidTagXCoordinate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the x coordinate of the starting position (the upper-left corner) of a dialog box control, in standard Windows dialog units.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_XPOS  <br/> |
 |Identifier:  <br/> |0x3F05  <br/> |

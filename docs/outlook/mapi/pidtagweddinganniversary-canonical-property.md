@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 815dfc6e-dbc7-4981-9ad3-c1f127a3ee92
-description: "Last modified: March 09, 2015"
+description: "Contains the date of a user's wedding anniversary. This property is defined by the user or the user's organization."
 ---
 
 # PidTagWeddingAnniversary Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date of a user's wedding anniversary.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_WEDDING_ANNIVERSARY  <br/> |
 |Identifier:  <br/> |0x3A41  <br/> |

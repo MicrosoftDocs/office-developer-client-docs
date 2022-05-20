@@ -35,9 +35,9 @@ The **Access Connectivity Engine\\ISAM Formats\\Outlook 9.0** folder contains th
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -103,9 +103,9 @@ The **Access Connectivity Engine\\ISAM Formats\\Exchange 4.0** folder contains t
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

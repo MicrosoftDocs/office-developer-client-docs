@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the mapping signature for named properties of a particular MAPI object. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MAPPING_SIGNATURE  <br/> |
 |Identifier:  <br/> |0x0FF8  <br/> |

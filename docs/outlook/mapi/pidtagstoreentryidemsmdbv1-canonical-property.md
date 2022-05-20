@@ -9,7 +9,7 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 40161358-4d41-43cf-83c7-fdd843bec87b
-description: "Last modified: March 09, 2015"
+description: "Contains the old style (Outlook 2002 and earlier versions) of the entry identifier of a Microsoft Exchange Server 2010 or Exchange Server 2013 message store."
 ---
 
 # PidTagStoreEntryIdEmsmdbV1 Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the old style (Microsoft Outlook 2002 and earlier versions) of the entry identifier of a Microsoft Exchange Server 2010 or Exchange Server 2013 message store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STORE_ENTRYID_EMSMDB_V1  <br/> |
 |Identifier:  <br/> |0x65F60102  <br/> |

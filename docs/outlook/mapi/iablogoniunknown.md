@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Accesses resources in an address book provider.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Exposed by:  <br/> |Address book logon objects  <br/> |
@@ -35,7 +35,7 @@ Accesses resources in an address book provider.
    
 ## Vtable order
 
-|||
+|Member | Description |
 |:-----|:-----|
 |[GetLastError](iablogon-getlasterror.md) <br/> |Returns a [MAPIERROR](mapierror.md) structure that contains information about the previous address book provider error. |
 |[Logoff](iablogon-logoff.md) <br/> |Initiates the logoff process. |

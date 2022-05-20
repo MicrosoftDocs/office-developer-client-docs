@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the country code portion of the contact's work address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidWorkAddressCountryCode  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time the message sender submitted a message. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CLIENT_SUBMIT_TIME  <br/> |
 |Identifier:  <br/> |0x0039  <br/> |

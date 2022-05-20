@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43263f91-ccab-481a-8491-5189cfa1217d
-description: "Last modified: March 09, 2015"
+description: "Contains the user's spouse name. These properties are defined by the user or the user's organization."
 ---
 
 # PidTagSpouseName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the user's spouse name.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SPOUSE_NAME, PR_SPOUSE_NAME_A, PR_SPOUSE_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A48  <br/> |

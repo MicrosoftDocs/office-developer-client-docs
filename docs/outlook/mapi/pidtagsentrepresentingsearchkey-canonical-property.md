@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a49b944-cef1-4642-9208-b137fd61171a
-description: "Last modified: March 09, 2015"
+description: "Contains the search key for the messaging user represented by the sender for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSentRepresentingSearchKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the search key for the messaging user represented by the sender.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENT_REPRESENTING_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x003B  <br/> |

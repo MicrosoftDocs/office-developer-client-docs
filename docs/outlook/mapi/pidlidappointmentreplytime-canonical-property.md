@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the date and time when the attendee responded to a received meeting request or meeting update.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptReplyTime  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

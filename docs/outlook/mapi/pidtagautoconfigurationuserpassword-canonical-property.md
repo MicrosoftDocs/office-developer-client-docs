@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the user's password.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AUTOCFG_USER_PASSWORD_W  <br/> |
 |Identifier:  <br/> |0x67FC  <br/> |

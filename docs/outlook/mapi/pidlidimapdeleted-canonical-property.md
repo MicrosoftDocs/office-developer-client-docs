@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Denotes Internet Mail Access Protocol (IMAP) items that are marked for deletion.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidImapDeleted  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

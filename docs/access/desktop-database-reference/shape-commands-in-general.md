@@ -19,8 +19,8 @@ A shaped **Recordset** may consist of the following types of columns.
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c4712133-6fbd-4c50-a258-5f4317120476
-description: "Last modified: March 09, 2015"
+description: "Indicates the page of a display template to display first. This property must not be defined for any objects in an Offline Address Book."
 ---
 
 # PidTagInitialDetailsPane Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the page of a display template to display first.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INITIAL_DETAILS_PANE  <br/> |
 |Identifier:  <br/> |0x3F08  <br/> |

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8d9557ba-7919-42c6-9e2f-f10214437d53
-description: "Last modified: March 09, 2015"
+description: "Adds a FNIDLE function-based idle routine to the MAPI system. If FtgRegisterIdleRoutine cannot register the idle routine, it returns NULL."
 ---
 
 # FtgRegisterIdleRoutine
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Adds a [FNIDLE](fnidle.md) function-based idle routine to the MAPI system. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

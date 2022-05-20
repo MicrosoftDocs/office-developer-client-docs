@@ -22,8 +22,8 @@ Instant Search is a feature of Microsoft Outlook that enables you to search by i
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

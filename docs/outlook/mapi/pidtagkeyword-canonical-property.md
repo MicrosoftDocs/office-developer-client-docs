@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a keyword that identifies the recipient to the recipient's system administrator.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_KEYWORD, PR_KEYWORD_A, PR_KEYWORD_W  <br/> |
 |Identifier:  <br/> |0x3A0B  <br/> |

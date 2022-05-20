@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 48d5ab42-ee70-4f6e-9184-18d22b08ea1b
-description: "Last modified: March 09, 2015"
+description: "Describes an exist restriction which is used to test whether a particular property exists as a column in the table."
 ---
 
 # SExistRestriction
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes an exist restriction which is used to test whether a particular property exists as a column in the table. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

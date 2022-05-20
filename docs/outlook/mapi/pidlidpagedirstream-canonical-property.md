@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents information about pages of the custom form associated with the message.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidPageDirStream  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

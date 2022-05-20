@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: d57ce5c8-1f60-4709-b86a-4468c4208dfe
-description: "Last modified: March 09, 2015"
+description: "Contains a value that indicates the type of a row in a table for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRowType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that indicates the type of a row in a table.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ROW_TYPE  <br/> |
 |Identifier:  <br/> |0x0FF5  <br/> |

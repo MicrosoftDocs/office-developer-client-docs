@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f23dd6f4-915b-4fe8-ab3f-6d625c7d6061
-description: "Last modified: March 09, 2015"
+description: "Searches for a specified property in a property set for Outlook 2013 and Outlook 2016."
 ---
 
 # PpropFindProp
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Searches for a specified property in a property set.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

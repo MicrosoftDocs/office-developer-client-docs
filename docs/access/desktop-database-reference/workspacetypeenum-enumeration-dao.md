@@ -18,9 +18,9 @@ Used with the **CreateWorkspace** method to specify the type of workspace to cre
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -20,8 +20,8 @@ A Workspace object defines a named session for a user. It contains open database
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -67,8 +67,8 @@ A Workspace object defines a named session for a user. It contains open database
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

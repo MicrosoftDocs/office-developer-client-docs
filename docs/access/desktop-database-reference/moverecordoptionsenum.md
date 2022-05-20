@@ -18,9 +18,9 @@ Specifies the behavior of the [Record](record-object-ado.md) object [MoveRecord]
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

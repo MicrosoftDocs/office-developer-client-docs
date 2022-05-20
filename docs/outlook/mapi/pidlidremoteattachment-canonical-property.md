@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether a remote item has an attachment associated with it.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRemoteAttachment  <br/> |
 |Property set:  <br/> |PSETID_Remote  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the latest date and time when a message transfer agent (MTA) should deliver a message. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LATEST_DELIVERY_TIME  <br/> |
 |Identifier:  <br/> |0x0019  <br/> |

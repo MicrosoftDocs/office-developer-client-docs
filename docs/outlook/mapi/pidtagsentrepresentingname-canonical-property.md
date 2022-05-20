@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bfee6c5e-d4c6-442e-af71-23156569fed5
-description: "Last modified: March 09, 2015"
+description: "Contains the display name for the messaging user represented by the sender for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagSentRepresentingName Canonical Property
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name for the messaging user represented by the sender.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENT_REPRESENTING_NAME, PR_SENT_REPRESENTING_NAME_A, PR_SENT_REPRESENTING_NAME_W  <br/> |
 |Identifier:  <br/> |0x0042  <br/> |

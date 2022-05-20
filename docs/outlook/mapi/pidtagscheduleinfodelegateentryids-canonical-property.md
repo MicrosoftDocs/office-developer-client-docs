@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c178a4e4-6f4c-409c-9db3-f6338bd4f40f
-description: "Last modified: March 09, 2015"
+description: "Contains the EntryIDs of the delegates. Each entry must contain the value of the PR_ENTRYID property of each delegate's address book entry."
 ---
 
 # PidTagScheduleInfoDelegateEntryIds Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the **EntryIDs** of the delegates. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SCHDINFO_DELEGATE_ENTRYIDS  <br/> |
 |Identifier:  <br/> |0x6845  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the unique identifier of the calendar object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |LID_GLOBAL_OBJID  <br/> |
 |Property set:  <br/> |PSETID_Meeting  <br/> |

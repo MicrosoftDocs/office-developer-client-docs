@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 784c8a5a-493e-48e6-8784-ba8122c76e3d
-description: "Last modified: March 09, 2015"
+description: "Describes a content restriction, which is used to limit a table view to only those rows that include a column with contents matching a search string."
 ---
 
 # SContentRestriction
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a content restriction, which is used to limit a table view to only those rows that include a column with contents matching a search string. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

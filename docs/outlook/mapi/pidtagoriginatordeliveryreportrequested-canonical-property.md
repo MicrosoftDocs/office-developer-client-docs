@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message sender requests a delivery report for a particular recipient from the messaging system before the message is placed in the message store.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0023  <br/> |

@@ -17,7 +17,7 @@ Represents the Entry ID of the default delivery folder for the account.
 
 See [IOlkAccount](iolkaccount.md).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Identifier:  <br/> |0x0019  <br/> |
 |Property type:  <br/> |PT_BINARY  <br/> |

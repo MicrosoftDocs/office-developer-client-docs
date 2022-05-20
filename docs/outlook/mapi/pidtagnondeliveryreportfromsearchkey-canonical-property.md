@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c3f10e61-1a6e-47f3-afd1-1c2a7836871b
-description: "Last modified: March 09, 2015"
+description: "If set on a nondelivery report, denotes the search key of the failed Send-As user for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagNonDeliveryReportFromSearchKey Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 If set on a nondelivery report, denotes the search key of the failed Send-As user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NDR_FROM_SEARCH_KEY  <br/> |
 |Identifier:  <br/> |0x6906  <br/> |

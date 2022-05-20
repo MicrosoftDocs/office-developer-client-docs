@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 403324b8-c992-4823-aa0f-0414b283debc
-description: "Last modified: March 09, 2015"
+description: "Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's List-Help header field."
 ---
 
 # PidTagListHelp Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the value of a Multipurpose Internet Mail Extensions (MIME) message's List-Help header field.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_LIST_HELP, PR_LIST_HELP_A, PR_LIST_HELP_W  <br/> |
 |Identifier:  <br/> |0x1043  <br/> |

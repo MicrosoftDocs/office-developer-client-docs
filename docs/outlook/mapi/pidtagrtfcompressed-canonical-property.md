@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd0ccb88-55ce-4d7c-9573-6e5d6239b6a8
-description: "Last modified: March 09, 2015"
+description: "Contains the Rich Text Format (RTF) version of the message text, usually in compressed form for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRtfCompressed Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the Rich Text Format (RTF) version of the message text, usually in compressed form. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RTF_COMPRESSED  <br/> |
 |Identifier:  <br/> |0x1009  <br/> |

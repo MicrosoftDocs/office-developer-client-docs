@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether the client should respect the values of the **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) and **dispidReminderFileParam** ( [ PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)) properties.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidReminderOverride  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the count of items in the associated contents table of the folder.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |Identifier:  <br/> |0x3617  <br/> |

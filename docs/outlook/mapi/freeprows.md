@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0f8f9fc4-4940-4c0a-92cc-2a6409b9a13f
-description: "Last modified: March 09, 2015"
+description: "Destroys an SRowSet structure and frees associated memory, including memory allocated for all member arrays and structures."
 ---
 
 # FreeProws
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Destroys an [SRowSet](srowset.md) structure and frees associated memory, including memory allocated for all member arrays and structures. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

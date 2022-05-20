@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
-description: "Last modified: March 09, 2015"
+description: "This topic describes what happens during the upload message state of the replication state machine."
  
  
 ---
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |State Identifier:  <br/> |**LR_SYNC_UPLOAD_MESSAGE** <br/> |
 |Related Data Structure:  <br/> |**[UPMSG](upmsg.md)** <br/> |

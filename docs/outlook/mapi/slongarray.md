@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 57435634-202d-4998-9931-4562f1a66f5f
-description: "Last modified: March 09, 2015"
+description: "Contains an array of LONG value types that are used to describe a property of type PT_MV_LONG."
 ---
 
 # SLongArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of LONG value types that are used to describe a property of type PT_MV_LONG. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

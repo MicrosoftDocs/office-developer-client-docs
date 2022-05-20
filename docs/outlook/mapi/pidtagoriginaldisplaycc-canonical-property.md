@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f48d723c-3ad8-4617-952a-ba5216b2129c
-description: "Last modified: March 09, 2015"
+description: "Contains the display names of any carbon copy (CC) recipients of the original message. It is furnished by MAPI and is copied directly from PR_DISPLAY_CC."
 ---
 
 # PidTagOriginalDisplayCc Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display names of any carbon copy (CC) recipients of the original message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_DISPLAY_CC, PR_ORIGINAL_DISPLAY_CC_A, PR_ORIGINAL_DISPLAY_CC_W  <br/> |
 |Identifier:  <br/> |0x0073  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an [RFC3282] Content-Type header field value.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_INTERNET_HEADERS  <br/> |

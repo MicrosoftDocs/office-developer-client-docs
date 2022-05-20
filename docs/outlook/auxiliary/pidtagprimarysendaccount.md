@@ -15,7 +15,7 @@ Specifies the primary account "send" stamp for a message.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PRIMARY_SEND_ACCOUNT  <br/> |
 |Identifier:  <br/> |0x0E28  <br/> |

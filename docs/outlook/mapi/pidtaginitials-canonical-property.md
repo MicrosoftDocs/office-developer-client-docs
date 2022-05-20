@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the initials for parts of the full name of the recipient. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INITIALS, PR_INITIALS_A, PR_INITIALS_W  <br/> |
 |Identifier:  <br/> |0x3A0A  <br/> |

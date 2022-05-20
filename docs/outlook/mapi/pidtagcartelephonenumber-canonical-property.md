@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2cf1f651-31dd-4f92-8c23-cc83e1989bc2
-description: "Last modified: March 09, 2015"
+description: "Contains the recipient's car telephone number. These properties are defined by the recipient and the recipient's organization."
 ---
 
 # PidTagCarTelephoneNumber Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the recipient's car telephone number. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CAR_TELEPHONE_NUMBER, PR_CAR_TELEPHONE_NUMBER_A, PR_CAR_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A1E  <br/> |

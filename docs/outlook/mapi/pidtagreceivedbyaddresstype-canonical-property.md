@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0eef299d-6923-4dae-9a18-91ea82ea0f3e
-description: "Last modified: March 09, 2015"
+description: "Contains the email address type, such as SMTP, for the messaging user who actually receives the message."
 ---
 
 # PidTagReceivedByAddressType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the email address type, such as SMTP, for the messaging user who actually receives the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECEIVED_BY_ADDRTYPE, PR_RECEIVED_BY_ADDRTYPE_A, PR_RECEIVED_BY_ADDRTYPE_W  <br/> |
 |Identifier:  <br/> |0x0075  <br/> |

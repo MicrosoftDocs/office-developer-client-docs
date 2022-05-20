@@ -31,8 +31,8 @@ The setting or return value is a **String** or **Boolean** that indicates which 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

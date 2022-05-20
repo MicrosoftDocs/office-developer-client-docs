@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the names of contacts associated with the item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidContacts  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

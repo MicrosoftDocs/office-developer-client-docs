@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 176245d9-724d-44f1-b7a3-eddf652533b2
-description: "Last modified: March 09, 2015"
+description: "Contains the original display name for an entry copied from an address book to a personal address book or other writable address book."
 ---
 
 # PidTagOriginalDisplayName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the original display name for an entry copied from an address book to a personal address book or other writable address book.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINAL_DISPLAY_NAME, PR_ORIGINAL_DISPLAY_NAME_A, PR_ORIGINAL_DISPLAY_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A13  <br/> |

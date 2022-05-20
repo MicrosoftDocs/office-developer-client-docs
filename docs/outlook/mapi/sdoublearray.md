@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
-description: "Last modified: March 09, 2015"
+description: "Contains an array of doubles used to describe a property of type PT_MV_DOUBLE for Outlook 2013 or Outlook 2016."
 ---
 
 # SDoubleArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of doubles used to describe a property of type PT_MV_DOUBLE.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

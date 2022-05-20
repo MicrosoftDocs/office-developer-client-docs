@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Manages high-level operations on container objects such as address books, distribution lists, and folders. The [IMAPIFolder : IMAPIContainer](imapifolderimapicontainer.md), [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md), and [IDistList : IMAPIContainer](idistlistimapicontainer.md) interfaces are derived from **IMAPIContainer**.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Folder, address book container, and distribution list objects  <br/> |
@@ -36,7 +36,7 @@ Manages high-level operations on container objects such as address books, distri
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[GetContentsTable](imapicontainer-getcontentstable.md) <br/> |Returns a pointer to the container's contents table. |
 |[GetHierarchyTable](imapicontainer-gethierarchytable.md) <br/> |Returns a pointer to the container's hierarchy table. |

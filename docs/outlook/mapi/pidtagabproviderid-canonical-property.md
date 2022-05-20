@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an address book provider's [MAPIUID](mapiuid.md) structure. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_AB_PROVIDER_ID  <br/> |
 |Identifier:  <br/> |0x3615  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if this message is an incomplete copy of another message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INCOMPLETE_COPY  <br/> |
 |Identifier:  <br/> |0x0035  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6b7ff0c-19a0-4cad-8868-c05397fcebf4
-description: "Last modified: March 09, 2015"
+description: "Contains an identifier for the message transfer agent (MTA) that originated the message. This property is available on sent messages in the Sent Items folder."
 ---
 
 # PidTagOriginatingMtaCertificate Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an identifier for the message transfer agent (MTA) that originated the message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINATING_MTA_CERTIFICATE  <br/> |
 |Identifier:  <br/> |0x0E25  <br/> |

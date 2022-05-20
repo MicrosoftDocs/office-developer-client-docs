@@ -15,7 +15,7 @@ Performs post-send categorization on a mail item based on its [PidTagConversatio
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Exported by:  <br/> |Outlook.exe  <br/> |
 |Called by:  <br/> |Client  <br/> |

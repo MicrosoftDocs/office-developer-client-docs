@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates that a message is classified.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidClassified  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

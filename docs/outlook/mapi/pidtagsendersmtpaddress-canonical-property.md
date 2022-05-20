@@ -9,7 +9,7 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 321cde5a-05db-498b-a9b8-cb54c8a14e34
-description: "Last modified: March 09, 2015"
+description: "Contains the format of the Simple Mail Transport Protocol (SMTP) email address of the sending mailbox owner."
 ---
 
 # PidTagSenderSmtpAddress Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the format of the Simple Mail Transport Protocol (SMTP) email address of the sending mailbox owner.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENDER_SMTP_ADDRESS, PR_SENDER_SMTP_ADDRESS_A, PR_SENDER_SMTP_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x5D01  <br/> |

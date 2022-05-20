@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7db0645b-f3ab-4fc4-b865-68c952aeb359
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if a message sender wants the messaging system to generate a read report when the recipient has read a message."
 ---
 
 # PidTagReadReceiptRequested Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message sender wants the messaging system to generate a read report when the recipient has read a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_READ_RECEIPT_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0029  <br/> |

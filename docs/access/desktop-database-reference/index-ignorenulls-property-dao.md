@@ -36,9 +36,9 @@ The **IgnoreNulls** property setting and the **[Required](field-required-propert
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the value of the **dispidSharingRemoteUid** ([PidLidSharingRemoteUid](pidlidsharingremoteuid-canonical-property.md)) property.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_INTERNET_HEADERS  <br/> |

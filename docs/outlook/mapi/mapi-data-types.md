@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 The following alphabetized entries contain documentation for the data types used in MAPI methods, functions, and structures. 
   
-||
+|Data Types|
 |:-----|
 |[BOOKMARK](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |

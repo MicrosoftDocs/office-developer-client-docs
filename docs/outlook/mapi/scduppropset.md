@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 165ffbd0-54aa-4692-8bd1-09e6ff3762df
-description: "Last modified: March 09, 2015"
+description: "Duplicates a property value array in a single block of MAPI memory combining the operations of the ScCopyProps and ScCountProps functions."
 ---
 
 # ScDupPropset
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Duplicates a property value array in a single block of MAPI memory combining the operations of the [ScCopyProps](sccopyprops.md) and [ScCountProps](sccountprops.md) functions. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

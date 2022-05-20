@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Initializes an address book provider for operation.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Implemented by:  <br/> |Address book providers  <br/> |

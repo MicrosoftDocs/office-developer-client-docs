@@ -20,8 +20,8 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -64,8 +64,8 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -84,8 +84,8 @@ A chapter-alias may be fully qualified, consisting of each chapter column name l
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -106,8 +106,8 @@ The *field-type* passed with the NEW keyword can be any of the following data ty
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

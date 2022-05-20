@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the subcategory of a form, as defined by a client application. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W  <br/> |
 |Identifier:  <br/> |0x3305  <br/> |

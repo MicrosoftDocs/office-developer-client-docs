@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4db6cae-4730-45d0-8b8a-9bd484c8bd3f
-description: "Last modified: March 09, 2015"
+description: "Indicates that the value of the dispidLocation property is set to the PR_DISPLAY_NAME property from the RecipientRow that represents a resource."
 ---
 
 # PidLidAutoFillLocation Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates that the value of the **dispidLocation** ([PidLidLocation](pidlidlocation-canonical-property.md)) property is set to the **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) property from the RecipientRow that represents a resource.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidAutoFillLocation  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

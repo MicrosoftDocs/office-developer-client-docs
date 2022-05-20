@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the elements of the **dispidContacts** ([PidLidContacts](pidlidcontacts-canonical-property.md)) property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidContactLinkName  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the common name of the message handling system.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_MHS_COMMON_NAME, PR_MHS_COMMON_NAME_A, PR_MHS_COMMON_NAME_W  <br/> |
 |Identifier:  <br/> |0x3A0F  <br/> |

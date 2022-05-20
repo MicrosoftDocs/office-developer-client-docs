@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Provides file type information for a non-Windows attachment.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_ADDITIONAL_INFO  <br/> |
 |Identifier:  <br/> |0x370F  <br/> |

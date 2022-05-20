@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 42981aac-f9e7-45dd-91a2-15d9784f30aa
-description: "Last modified: March 09, 2015"
+description: "Indicates special handling for this Attachment object Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagAttachmentFlags Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates special handling for this Attachment object.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACHMENT_FLAGS  <br/> |
 |Identifier:  <br/> |0x7FFD  <br/> |

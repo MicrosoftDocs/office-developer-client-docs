@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: b483dd42-92c0-42c2-b6f9-621daeee1659
-description: "Last modified: March 09, 2015"
+description: "Contains a value that's used by the MAPI spooler in assigning delivery responsibility among transport providers."
 ---
 
 # PidTagRecipientStatus Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a value that is used by the MAPI spooler in assigning delivery responsibility among transport providers.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_STATUS  <br/> |
 |Identifier:  <br/> |0x0E15  <br/> |

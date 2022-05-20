@@ -41,9 +41,9 @@ The following macro demonstrates how to create a temporary variable, use it in a
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

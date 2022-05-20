@@ -18,9 +18,9 @@ Used with the **OpenRecordset** method to specify characteristics of a new **Rec
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

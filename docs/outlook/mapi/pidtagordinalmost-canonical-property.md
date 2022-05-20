@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c18de08b-8c28-4cdf-bd2e-b9c650cd6da6
-description: "Last modified: March 09, 2015"
+description: "Contains a positive number whose negative is less than or equal to the value of the dispidTaskOrdinal property of all tasks in the folder."
 ---
 
 # PidTagOrdinalMost Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a positive number whose negative is less than or equal to the value of the **dispidTaskOrdinal** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) property of all tasks in the folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORDINAL_MOST  <br/> |
 |Identifier:  <br/> |0x36E2  <br/> |

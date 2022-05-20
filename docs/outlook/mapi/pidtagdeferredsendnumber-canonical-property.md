@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a number that can be used to compute the deferment of sending a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_DEFERRED_SEND_NUMBER  <br/> |
 |Identifier:  <br/> |0x3FEB  <br/> |

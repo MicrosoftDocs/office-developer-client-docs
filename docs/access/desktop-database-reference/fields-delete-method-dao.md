@@ -29,10 +29,10 @@ Deletes a **[Field](field-object-dao.md)** from the **[Fields](fields-collection
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

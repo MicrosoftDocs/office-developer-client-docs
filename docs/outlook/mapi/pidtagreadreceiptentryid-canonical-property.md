@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 141d49c8-87cf-4d80-a33b-ccbf3eeae19e
-description: "Last modified: March 09, 2015"
+description: "Contains an entry identifier for the messaging user where the messaging system should direct a read report for this message."
 ---
 
 # PidTagReadReceiptEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an entry identifier for the messaging user where the messaging system should direct a read report for this message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_READ_RECEIPT_ENTRYID  <br/> |
 |Identifier:  <br/> |0x0046  <br/> |

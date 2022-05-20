@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c6cd2f4-e769-4786-b9cc-c02641fecc4f
-description: "Last modified: March 09, 2015"
+description: "Contains the date and time a delivery report is generated. This property is set by the message store provider receiving the message and generating the report."
 ---
 
 # PidTagReceiptTime Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the date and time a delivery report is generated.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECEIPT_TIME  <br/> |
 |Identifier:  <br/> |0x002A  <br/> |

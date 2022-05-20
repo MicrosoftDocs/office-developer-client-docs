@@ -19,12 +19,12 @@ To get a reference to the **UseGroupGradient** cell by name from another formula
   
 |**Value**|**Description**|
 |:-----|:-----|
-| Cell name:  <br/> | UseGroupGradient  <br/> |
+| **Cell name:**  <br/> | UseGroupGradient  <br/> |
 
 To get a reference to the **UseGroupGradient** cell by index from a program, use the **CellsSRC** property with the following arguments:
   
 |**Value**|**Description**|
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowGradientProperties** <br/> |
-| Cell index:  <br/> |**visUseGroupGradient** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowGradientProperties** <br/> |
+| **Cell index:**  <br/> |**visUseGroupGradient** <br/> |

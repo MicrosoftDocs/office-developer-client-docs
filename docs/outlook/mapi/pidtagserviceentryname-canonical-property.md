@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 783f08aa-fb5a-432d-b8bd-48d69f0e5c38
-description: "Last modified: March 09, 2015"
+description: "Contains the name of the entry point function for configuration of a message service for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagServiceEntryName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the name of the entry point function for configuration of a message service.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICE_ENTRY_NAME  <br/> |
 |Identifier:  <br/> |0x3D0B  <br/> |

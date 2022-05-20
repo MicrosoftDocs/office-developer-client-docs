@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a String that indicates the major and minor version number of the Outlook application for an item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidCurrentVersionName  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

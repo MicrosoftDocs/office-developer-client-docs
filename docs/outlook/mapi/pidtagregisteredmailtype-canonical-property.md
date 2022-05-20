@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: f75f2a21-a17c-4d8b-9055-c51d4c1888d0
-description: "Last modified: March 09, 2015"
+description: "This property contains the type of registration used for physical delivery of a message."
 ---
 
 # PidTagRegisteredMailType Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains the type of registration used for physical delivery of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REGISTERED_MAIL_TYPE  <br/> |
 |Identifier:  <br/> |0x0C16  <br/> |

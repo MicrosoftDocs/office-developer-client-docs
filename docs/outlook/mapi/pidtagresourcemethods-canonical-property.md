@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
-description: "Last modified: March 09, 2015"
+description: "Contains a bitmask of flags that indicate the methods in the IMAPIStatus interface that are supported by the status object."
 ---
 
 # PidTagResourceMethods Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags that indicate the methods in the **IMAPIStatus** interface that are supported by the status object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RESOURCE_METHODS  <br/> |
 |Identifier:  <br/> |0x3E02  <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e8ccef1-db0a-4230-9bd0-87540b53e890
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if some transport provider has already accepted responsibility for delivering the message to this recipient."
 ---
 
 # PidTagResponsibility Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if some transport provider has already accepted responsibility for delivering the message to this recipient, and FALSE if the MAPI spooler considers that this transport provider should accept responsibility.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RESPONSIBILITY  <br/> |
 |Identifier:  <br/> |0x0E0F  <br/> |

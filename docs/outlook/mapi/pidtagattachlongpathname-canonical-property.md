@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an attachment's fully-qualified long path and filename. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ATTACH_LONG_PATHNAME, PR_ATTACH_LONG_PATHNAME_A, PR_ATTACH_LONG_PATHNAME_W  <br/> |
 |Identifier:  <br/> |0x370D  <br/> |

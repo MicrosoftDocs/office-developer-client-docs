@@ -24,14 +24,14 @@ description: "Last modified: March 09, 2015"
   
 Allows conversions between MIME objects and MAPI messages. This can be useful in transporting messages across the Internet.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Provided by:  <br/> |CLSID_IConverterSession  <br/> |
 |Interface identifier:  <br/> |IID_IConverterSession  <br/> |
    
 ## Vtable order
 
-|||
+|Member |Value |
 |:-----|:-----|
 |**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Specifies an optional MAPI Address Book that the MAPI to MIME converter uses to resolve ambiguous addresses when converting a MAPI message to a MIME stream. |
 |**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Initializes the encoding to use during conversion. |

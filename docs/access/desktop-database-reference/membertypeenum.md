@@ -18,9 +18,9 @@ Specifies the setting for the [Type](type-property-ado-md.md) property of a [Mem
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

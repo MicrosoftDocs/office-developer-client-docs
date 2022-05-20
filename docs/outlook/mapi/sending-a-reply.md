@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 90dafeae-6b61-40e3-8341-d6a11799d0f2
-description: "Last modified: March 09, 2015"
+description: "Client applications support two types of replies: one that is sent only to the sender of the original message and one that is sent to all other recipients."
 ---
 
 # Sending a reply
@@ -38,7 +38,7 @@ The main difference between creating a reply and creating an original message is
     
 5. Do not include the following properties in your call to **IMAPIProp::CopyTo**:
     
-    |||
+    |Property |... |
     |:-----|:-----|
     |**PR\_CLIENT\_SUBMIT\_TIME** <br/> |**PR\_MESSAGE\_DELIVERY\_TIME** <br/> |
     |**PR\_MESSAGE\_DOWNLOAD\_TIME** <br/> |**PR\_MESSAGE\_FLAGS** <br/> |

@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
-description: "Last modified: March 09, 2015"
+description: "One of the required columns in most tables is an entry identifier that can be used to open the object that represents the row."
  
  
 ---
@@ -28,7 +28,7 @@ One of the required columns in most tables is an entry identifier — the **PR_E
   
 Clients and service providers can make one of the following calls to retrieve rows:
   
-|||
+|Call |Description |
 |:-----|:-----|
 |[IMAPITable::QueryRows](imapitable-queryrows.md) <br/> |Retrieves a specified number of rows starting with the current row in either a forward or backward direction. |
 |[HrQueryAllRows](hrqueryallrows.md) <br/> |Retrieves all of the rows in a table. |

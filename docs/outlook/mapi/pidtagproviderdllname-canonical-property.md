@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ddb38eb-9a32-4dbe-b42c-6ea9db98acd2
-description: "Last modified: March 09, 2015"
+description: "Contains the base file name of the MAPI service provider dynamic-link library (DLL). These properties should specify the base name."
 ---
 
 # PidTagProviderDllName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the base file name of the MAPI service provider dynamic-link library (DLL).
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PROVIDER_DLL_NAME, PR_PROVIDER_DLL_NAME_A, PR_PROVIDER_DLL_NAME_W  <br/> |
 |Identifier:  <br/> |0x300A  <br/> |

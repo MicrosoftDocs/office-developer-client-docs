@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
-description: "Last modified: March 09, 2015"
+description: "Adjusts the pointers in an SPropValue array after the array and its data have been copied or moved to a new location."
 ---
 
 # ScRelocProps
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Adjusts the pointers in an [SPropValue](spropvalue.md) array after the array and its data have been copied or moved to a new location. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

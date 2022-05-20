@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3645e7a6-ef30-494f-bf71-fa06f819bc0c
-description: "Last modified: March 09, 2015"
+description: "Contains the globally unique identifier (GUID) for the reply template for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagReplyTemplateId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the globally unique identifier (GUID) for the reply template.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_REPLY_TEMPLATE_ID  <br/> |
 |Identifier:  <br/> |0x65C2  <br/> |

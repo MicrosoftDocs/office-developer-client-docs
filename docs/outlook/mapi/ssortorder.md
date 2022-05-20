@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe181b9a-5903-4cc0-bcd5-2061b440b5b1
-description: "Last modified: March 09, 2015"
+description: "Defines how to sort the rows of a table, what column to use as the sort key, and the direction of the sort."
 ---
 
 # SSortOrder
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Defines how to sort the rows of a table, what column to use as the sort key, and the direction of the sort.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 

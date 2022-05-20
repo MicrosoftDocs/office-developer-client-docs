@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Adds or moves columns to the beginning of an existing table. 
   
-|||
+||Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

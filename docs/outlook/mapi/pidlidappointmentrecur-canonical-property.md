@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the dates and times when a recurring series occurs by using one of the recurrence patterns and ranges that are specified in [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx).
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptRecur  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

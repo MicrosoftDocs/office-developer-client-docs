@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Closes a message session and all the messages created within that session. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

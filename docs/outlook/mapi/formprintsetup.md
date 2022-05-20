@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6e82fe94-47bd-4a25-b25b-0ab6fe2db274
-description: "Last modified: March 09, 2015"
+description: "Describes the print setup information for the form object. Implementations of IMAPIViewContext::GetPrintSetup fill in the FORMPRINTSETUP structure and return it."
 ---
 
 # FORMPRINTSETUP
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes the print setup information for the form object. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    

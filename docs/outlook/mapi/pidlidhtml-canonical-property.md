@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5598cbaf-cb9a-4d3a-b123-9108a7aa7c1c
-description: "Last modified: March 09, 2015"
+description: "Specifies the contact's business Web page URL. The value of this property, if present, should be the same as the value of the PR_BUSINESS_HOME_PAGE property."
 ---
 
 # PidLidHtml Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the contact's business Web page URL.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidHTML  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

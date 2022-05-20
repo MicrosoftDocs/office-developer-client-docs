@@ -11,7 +11,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: "Last modified: April 27, 2021"
+description: "The following alphabetic entries contain documentation for the MAPI functions, callbacks, and macros."
 ---
 
 # MAPI Functions, Callbacks, and Macros
@@ -22,7 +22,7 @@ description: "Last modified: April 27, 2021"
   
 The following alphabetic entries contain documentation for the MAPI functions, callbacks, and macros. 
   
-|||
+|Entry |... |
 |:-----|:-----|
 |[ABProviderInit](abproviderinit.md) <br/> |[ACCELERATEABSDI](accelerateabsdi.md) <br/> |
 |[BuildDisplayTable](builddisplaytable.md) <br/> |[CALLERRELEASE](callerrelease.md) <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0c38a59f-597c-4f1b-bdbb-788d4f8b1c9c
-description: "Last modified: March 09, 2015"
+description: "Specifies the number of notes in the file that is attached to the document for Outlook 2013 or Outlook 2016."
 ---
 
 # PidNameNoteCount Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the number of notes in the file that is attached to the document.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Friendly names:  <br/> |None  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

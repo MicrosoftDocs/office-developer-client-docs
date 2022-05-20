@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e0c04f98-3d66-4ab5-ba05-69f9df539fcf
-description: "Last modified: March 09, 2015"
+description: "Contains extended flags about a folder. This property is a binary stream that contains encoded sub-properties for the folder."
 ---
 
 # PidTagExtendedFolderFlags Canonical Property
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Contains extended flags about a folder.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_EXTENDED_FOLDER_FLAGS  <br/> |
 |Identifier:  <br/> |0x36DA  <br/> |

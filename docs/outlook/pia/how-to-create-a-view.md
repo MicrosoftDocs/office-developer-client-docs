@@ -23,8 +23,8 @@ You can create customizable views that allow you to sort, group, and view data o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 070377ca-ba9e-42ef-ac6b-ff7548b5ccf5
-description: "Last modified: March 09, 2015"
+description: "An outgoing queue table contains information about outgoing messages for a message store. Providers implement outgoing queue tables for the MAPI spooler to use."
  
  
 ---
@@ -30,7 +30,7 @@ The outgoing queue table must send notifications when the contents of the queue 
   
 The following properties make up the required column set in outgoing queue tables:
   
-|||
+|Property |... |
 |:-----|:-----|
 |**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> |
 |**PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> |**PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |

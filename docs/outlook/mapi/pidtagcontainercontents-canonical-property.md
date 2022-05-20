@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an embedded contents table object that provides information about a container.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAINER_CONTENTS  <br/> |
 |Identifier:  <br/> |0x360F  <br/> |

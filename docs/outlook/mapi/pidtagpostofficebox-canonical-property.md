@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the number or identifier of the recipient's post office box.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_POST_OFFICE_BOX, PR_POST_OFFICE_BOX_A, PR_POST_OFFICE_BOX_W, PR_BUSINESS_ADDRESS_POST_OFFICE_BOX, PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_A, PR_BUSINESS_ADDRESS_POST_OFFICE_BOX_W  <br/> |
 |Identifier:  <br/> |0x3A2B  <br/> |

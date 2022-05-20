@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 061c83ae-f561-41d8-a575-ef27e65c7f97
-description: "Last modified: March 09, 2015"
+description: "Indicates whether the item is an internet fax item for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidIsInterpersonalFax Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether the item is an internet fax item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidIsIPFax  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

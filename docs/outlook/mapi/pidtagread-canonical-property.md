@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2dcd9ff3-f380-48c7-ae9e-d4c717a9e41f
-description: "Last modified: March 09, 2015"
+description: "Indicates whether a table row has been read for Outlook 2013 or Outlook 2016."
 ---
 
 # PidTagRead Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether a table row has been read.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_READ  <br/> |
 |Identifier:  <br/> |0x0E69  <br/> |

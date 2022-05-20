@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e78287ff-f8cc-45ea-8da8-e7a7359e651c
-description: "Last modified: March 09, 2015"
+description: "Indicates whether new occurrences must be generated. When a pattern's final instance is in the past or after a number of instances, it is no longer in effect."
 ---
 
 # PidLidTaskDeadOccurrence Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates whether new occurrences must be generated.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskDeadOccur  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

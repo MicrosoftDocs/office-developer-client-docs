@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c20e4ff2-ef55-4455-86ab-3bd47ddfefb2
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the messaging system should use a fax bureau for physical delivery of this message."
 ---
 
 # PidTagPhysicalDeliveryBureauFaxDelivery Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the messaging system should use a fax bureau for physical delivery of this message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY  <br/> |
 |Identifier:  <br/> |0x0C0A  <br/> |

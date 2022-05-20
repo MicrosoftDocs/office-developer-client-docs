@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the names of the hobbies of the messaging user.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOBBIES, PR_HOBBIES_A, PR_HOBBIES_W  <br/> |
 |Identifier:  <br/> |0x3A43  <br/> |

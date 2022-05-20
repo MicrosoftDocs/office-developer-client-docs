@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 636c1e75-3024-43ca-a7dd-1bb480dfbb5b
-description: "Last modified: March 09, 2015"
+description: "This property contains a message recipient's telephone number to call to advise of the physical delivery of a message."
 ---
 
 # PidTagRecipientNumberForAdvice Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 This property contains a message recipient's telephone number to call to advise of the physical delivery of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_RECIPIENT_NUMBER_FOR_ADVICE, PR_RECIPIENT_NUMBER_FOR_ADVICE_A, PR_RECIPIENT_NUMBER_FOR_ADVICE_W  <br/> |
 |Identifier:  <br/> |0x0C14  <br/> |

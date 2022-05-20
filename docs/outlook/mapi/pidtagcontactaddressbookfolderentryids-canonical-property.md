@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains identifiers for the Contacts folders in the message stores where mail users are kept.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTAB_FOLDER_ENTRYIDS  <br/> |
 |Identifier:  <br/> |0x6620  <br/> |

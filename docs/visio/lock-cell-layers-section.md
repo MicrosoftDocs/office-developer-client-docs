@@ -29,16 +29,16 @@ You can also set this value by selecting **Lock** in the **Layer Properties** di
   
 To get a reference to the Lock cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |Layers.Locked[ *i*  ] where  *i*  = <1>, 2, 3... |
+|**Cell name:**  <br/> |Layers.Locked[ *i*  ] where  *i*  = <1>, 2, 3... |
    
 To get a reference to the Lock cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionLayer** <br/> |
-|Row index:  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
-|Cell index:  <br/> |**visLayerLock** <br/> |
+|**Section index:**  <br/> |**visSectionLayer** <br/> |
+|**Row index:**  <br/> |**visRowLayer** +  *i*  where  *i*  = 0, 1, 2... |
+|**Cell index:**  <br/> |**visLayerLock** <br/> |
    
 

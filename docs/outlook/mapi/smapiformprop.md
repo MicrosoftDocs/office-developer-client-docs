@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80f1c2e0-3567-4b16-86cb-d5e6ac95c2ee
-description: "Last modified: March 09, 2015"
+description: "Describes a named property used with a form for Outlook 2013 and Outlook 2016."
 ---
 
 # SMAPIFormProp
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a named property used with a form. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiform.h  <br/> |
    

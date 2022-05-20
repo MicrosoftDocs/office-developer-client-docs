@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6ad2aedc-405b-475e-ac76-7ecbbef28f73
-description: "Last modified: March 09, 2015"
+description: "Specifies a list of categories for an item."
 ---
 
 # PidLidCategories Canonical Property
@@ -22,9 +22,9 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Specifies a list of categories for an item.
+Specifies a list of categories for an item. To generate a keywords header field, clients must set the value of this property to the desired values.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidCategories  <br/> |
 |Property set:  <br/> |PS_PUBLIC_STRINGS  <br/> |

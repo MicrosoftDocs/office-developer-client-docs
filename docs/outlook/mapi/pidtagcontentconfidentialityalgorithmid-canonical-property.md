@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an identifier for the algorithm used to confirm message content confidentiality.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONTENT_CONFIDENTIALITY_ALGORITHM_ID  <br/> |
 |Identifier:  <br/> |0x0006  <br/> |

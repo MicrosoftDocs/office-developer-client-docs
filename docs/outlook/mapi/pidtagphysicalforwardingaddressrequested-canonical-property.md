@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message sender requests the message transfer agent to attach a physical forwarding address for a message recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PHYSICAL_FORWARDING_ADDRESS_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0C0E  <br/> |

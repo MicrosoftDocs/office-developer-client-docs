@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the state of the contact's electronic addresses and represents a set of bit flags.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidABPArrayType  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

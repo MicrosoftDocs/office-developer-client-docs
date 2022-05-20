@@ -34,16 +34,16 @@ Setting the UIVisibility cell to **visUIVHidden** prevents the page from appeari
   
 To get a reference to the UIVisibility cell by name from another formula, or from a program by using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-|Cell name:  <br/> |UIVisibility  <br/> |
+|**Cell name:**  <br/> |UIVisibility  <br/> |
    
 To get a reference to the UIVisibility cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-|Section index:  <br/> |**visSectionObject** <br/> |
-|Row index:  <br/> |**visRowPage** <br/> |
-|Cell index:  <br/> |**visPageUIVisibility** <br/> |
+|**Section index:**  <br/> |**visSectionObject** <br/> |
+|**Row index:**  <br/> |**visRowPage** <br/> |
+|**Cell index:**  <br/> |**visPageUIVisibility** <br/> |
    
 

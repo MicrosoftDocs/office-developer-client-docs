@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Implements a progress object that provides client applications with a progress indicator. A progress indicator is a user-interface display that shows the percentage of completion of an operation, such as copying folders between message stores. MAPI and client applications implement progress objects and service providers use them. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 |Exposed by:  <br/> |Progress objects  <br/> |
@@ -35,7 +35,7 @@ Implements a progress object that provides client applications with a progress i
    
 ## Vtable order
 
-|||
+|Member |Description |
 |:-----|:-----|
 |[Progress](imapiprogress-progress.md) <br/> |Updates the progress indicator with a display of the progress as it is made toward completion of the operation. |
 |[GetFlags](imapiprogress-getflags.md) <br/> |Returns flag settings from the progress object for the level of operation on which progress information is calculated. |

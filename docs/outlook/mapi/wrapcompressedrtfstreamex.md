@@ -7,18 +7,18 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
-description: "Last modified: March 09, 2015"
+description: "Decompresses the body of an email message that's in compressed RTF indicates the format of the stream, and returns the decompressed or converted native stream."
 ---
 
 # WrapCompressedRTFStreamEx
 
 **Applies to**: Outlook 2013 | Outlook 2016
   
-Decompresses the the body of an email message that is in compressed Rich Text Format (RTF), indicates the format of the decompressed stream, optionally converts the decompressed stream to its native format, and returns either the decompressed stream or the converted native stream.
+Decompresses the body of an email message that is in compressed Rich Text Format (RTF), indicates the format of the decompressed stream, optionally converts the decompressed stream to its native format, and returns either the decompressed stream or the converted native stream.
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |Exported by:  <br/> |msmapi32.dll  <br/> |
 |Called by:  <br/> |Client  <br/> |

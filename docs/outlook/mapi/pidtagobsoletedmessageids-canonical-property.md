@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
-description: "Last modified: March 09, 2015"
+description: "Contains the identifiers of messages that this message supersedes. The identifiers are standard search keys using the format of the PR_SEARCH_KEY property."
 ---
 
 # PidTagObsoletedMessageIds Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the identifiers of messages that this message supersedes.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_OBSOLETED_IPMS  <br/> |
 |Identifier:  <br/> |0x001F  <br/> |

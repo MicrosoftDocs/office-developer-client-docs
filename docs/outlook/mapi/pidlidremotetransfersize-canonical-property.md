@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 853e8d91-b599-45bb-8ac7-f7a85e8a8419
-description: "Last modified: March 09, 2015"
+description: "Indicates the transfer size, in bytes, for a remote item for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidRemoteTransferSize Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the transfer size, in bytes, for a remote item.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRemoteXferSize  <br/> |
 |Property set:  <br/> |PSETID_Remote  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the postal code for the user's home address.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_HOME_ADDRESS_POSTAL_CODE, PR_HOME_ADDRESS_POSTAL_CODE_A, PR_HOME_ADDRESS_POSTAL_CODE_W  <br/> |
 |Identifier:  <br/> |0x3A5B  <br/> |

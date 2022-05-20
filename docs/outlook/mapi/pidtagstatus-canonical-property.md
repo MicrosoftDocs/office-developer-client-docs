@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a 32-bit bitmask of flags that define folder status.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_STATUS  <br/> |
 |Identifier:  <br/> |0x360B  <br/> |

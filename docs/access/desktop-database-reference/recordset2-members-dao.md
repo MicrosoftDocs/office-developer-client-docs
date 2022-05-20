@@ -20,8 +20,8 @@ A Recordset2 object represents the records in a base table or the records that r
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -137,8 +137,8 @@ A Recordset2 object represents the records in a base table or the records that r
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

@@ -20,8 +20,8 @@ A TableDef object represents the stored definition of a base table or a linked t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -58,8 +58,8 @@ A TableDef object represents the stored definition of a base table or a linked t
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

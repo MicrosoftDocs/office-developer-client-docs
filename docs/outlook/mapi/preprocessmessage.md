@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: dda50325-74b3-445e-986e-115f6536561f
-description: "Last modified: March 09, 2015"
+description: "Defines a function that preprocesses message contents or the format of a message for Outlook 2013 and Outlook 2016."
 ---
 
 # PreprocessMessage
@@ -22,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Defines a function that preprocesses message contents or the format of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Defined function implemented by:  <br/> |Transport providers  <br/> |

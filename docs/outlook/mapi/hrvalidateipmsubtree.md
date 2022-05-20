@@ -19,7 +19,7 @@ ms.assetid: 6454c1fa-5216-4934-a908-48c634ac4a07
   
 Adds standard interpersonal message (IPM) folders to a message store. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file: |Mapiutil.h |
 |Implemented by: |MAPI |

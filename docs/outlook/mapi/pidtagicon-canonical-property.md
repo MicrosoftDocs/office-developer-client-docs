@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmap of a full size icon for a form. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ICON  <br/> |
 |Identifier:  <br/> |0x0FFD  <br/> |

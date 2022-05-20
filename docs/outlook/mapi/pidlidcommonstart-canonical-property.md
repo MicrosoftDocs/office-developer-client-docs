@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Represents the start date and time of a message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidCommonStart  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

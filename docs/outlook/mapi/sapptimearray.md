@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
-description: "Last modified: March 09, 2015"
+description: "Contains an array of time values. The SAppTimeArray structure is used to define properties of type PT_MV_APPTIME."
 ---
 
 # SAppTimeArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of time values.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

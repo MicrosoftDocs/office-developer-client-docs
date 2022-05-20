@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: be975f74-4b95-45a4-bbee-959fa8e4ad45
-description: "Last modified: March 09, 2015"
+description: "Specifies the name of the remote folder that is being shared. This is a property of a sharing message."
 ---
 
 # PidLidSharingRemoteName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the name of the remote folder that is being shared. This is a property of a sharing message.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidSharingRemoteName  <br/> |
 |Property set:  <br/> |PSETID_Sharing  <br/> |

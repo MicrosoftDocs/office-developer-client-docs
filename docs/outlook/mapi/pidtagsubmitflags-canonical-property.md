@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ea1c029-d53c-4c28-b413-560083b6215a
-description: "Last modified: March 09, 2015"
+description: "Contains flags indicating details about a message submission, including whether the MAPI spooler has the message locked and whether it needs preprocessing."
 ---
 
 # PidTagSubmitFlags Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a bitmask of flags indicating details about a message submission.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SUBMIT_FLAGS  <br/> |
 |Identifier:  <br/> |0x0E14  <br/> |

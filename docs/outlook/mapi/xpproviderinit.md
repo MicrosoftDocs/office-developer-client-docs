@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: df6eacf4-1cf9-4c25-806f-f87c38dad597
-description: "Last modified: March 09, 2015"
+description: "Initializes a transport provider for operation. XPProviderInit is called once for each transport provider specified in the client's profile."
 ---
 
 # XPProviderInit
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Initializes a transport provider for operation.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapispi.h  <br/> |
 |Implemented by:  <br/> |Transport providers  <br/> |

@@ -24,16 +24,16 @@ Determines the  *y*  -coordinate of the text block's center of rotation in relat
 
 To get a reference to the TxtPinY cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | TxtPinY  <br/> |
+| **Cell name:**  <br/> | TxtPinY  <br/> |
    
 To get a reference to the TxtPinY cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowTextXForm** <br/> |
-| Cell index:  <br/> |**visXFormPinY** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowTextXForm** <br/> |
+| **Cell index:**  <br/> |**visXFormPinY** <br/> |
    
 

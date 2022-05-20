@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
-description: "Last modified: March 09, 2015"
+description: "Contains an array of unsigned integer values that are used to describe a property of type PT_MV_SHORT."
 ---
 
 # SShortArray
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an array of unsigned integer values that are used to describe a property of type PT_MV_SHORT.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
    

@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a98b0b26-9b19-44ca-9b4e-0ad4d1c54325
-description: "Last modified: March 09, 2015"
+description: "Builds a new IMessage object on top of an existing OLE IStorage object, to be used within a message session."
 ---
 
 # OpenIMsgOnIStg
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Builds a new [IMessage](imessageimapiprop.md) object on top of an existing OLE **IStorage** object, to be used within a message session.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Imessage.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

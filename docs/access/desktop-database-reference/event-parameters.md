@@ -35,8 +35,8 @@ When the event-handler routine is called, the *Status* parameter is set to one o
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -67,8 +67,8 @@ If you no longer want to process an event, you can set *Status* to **adStatusUnw
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

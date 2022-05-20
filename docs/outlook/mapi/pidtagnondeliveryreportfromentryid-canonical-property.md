@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 38cbf1bf-ac7c-4459-af3e-919b77818b25
-description: "Last modified: March 09, 2015"
+description: "If set on a nondelivery report, denotes the entry ID of the failed Send-As user for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagNonDeliveryReportFromEntryId Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 If set on a nondelivery report, denotes the entry ID of the failed Send-As user.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NDR_FROM_ENTRYID  <br/> |
 |Identifier:  <br/> |0x6904  <br/> |

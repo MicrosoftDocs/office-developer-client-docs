@@ -20,8 +20,8 @@ A Relations collection contains stored Relation objects of a Database object (Mi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -50,8 +50,8 @@ A Relations collection contains stored Relation objects of a Database object (Mi
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

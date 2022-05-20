@@ -5,7 +5,7 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 270ff414-514c-b1fc-db48-761bf6de8867
-description: "Last modified: March 09, 2015"
+description: "This topic describes what happens during the synchronize state of the replication state machine."
  
  
 ---
@@ -18,7 +18,7 @@ description: "Last modified: March 09, 2015"
   
 ## Quick info
 
-|||
+|Property |Value |
 |:-----|:-----|
 |State Identifier:  <br/> |**LR_SYNC** <br/> |
 |Related Data Structure:  <br/> |**[SYNC](sync.md)** <br/> |

@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 53325ba2-0b4d-4495-b262-1781117c69a2
-description: "Last modified: March 09, 2015"
+description: "Specifies the fourth field on the contact that is intended for use for the contact. This property contains text unrelated to any contact-specific property."
 ---
 
 # PidLidContactUserField4 Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the fourth field on the contact that is intended for miscellaneous use for the contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidContactUserField4  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the sender permits auto forwarding of this message. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ALTERNATE_RECIPIENT_ALLOWED  <br/> |
 |Identifier:  <br/> |0x0002  <br/> |

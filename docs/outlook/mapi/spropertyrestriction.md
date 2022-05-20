@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2bbf13e9-05b3-4498-8e08-d9e07505190d
-description: "Last modified: March 09, 2015"
+description: "Describes a property restriction that is used to match a constant with the value of a property."
 ---
 
 # SPropertyRestriction
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 Describes a property restriction that is used to match a constant with the value of a property.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapidefs.h  <br/> |
 

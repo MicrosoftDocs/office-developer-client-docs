@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the telephone number of the recipient's administrative assistant. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ASSISTANT_TELEPHONE_NUMBER, PR_ASSISTANT_TELEPHONE_NUMBER_A, PR_ASSISTANT_TELEPHONE_NUMBER_W  <br/> |
 |Identifier:  <br/> |0x3A2E  <br/> |

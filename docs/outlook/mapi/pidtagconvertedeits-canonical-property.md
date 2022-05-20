@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains an identifier for the types of text in a message after conversion.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONVERTED_EITS  <br/> |
 |Identifier:  <br/> |0x000E  <br/> |

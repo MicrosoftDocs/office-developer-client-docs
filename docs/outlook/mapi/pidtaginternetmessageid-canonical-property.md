@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Corresponds to the message ID field as specified in [RFC2822].
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_INTERNET_MESSAGE_ID, PR_INTERNET_MESSAGE_ID_A, PR_INTERNET_MESSAGE_ID_W  <br/> |
 |Identifier:  <br/> |0x1035  <br/> |

@@ -26,7 +26,7 @@ Clients access the message store table by calling the [IMAPISession::GetMsgStore
   
 The following properties make up the required column set in the message store table:
   
-|||
+|Properties|Properties (continued)|
 |:-----|:-----|
 |**PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md))  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
 |**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |

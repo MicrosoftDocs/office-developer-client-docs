@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the date and time at which this property was last modified.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidApptSeqTime  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

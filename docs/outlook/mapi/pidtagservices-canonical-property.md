@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a067455f-c67e-4434-83bf-5acc320865d0
-description: "Last modified: March 09, 2015"
+description: "Contains a list of identifiers of message services in the current profile. Do not use this property. It is reserved for use by MAPI."
 ---
 
 # PidTagServices Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a list of identifiers of message services in the current profile.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SERVICES  <br/> |
 |Identifier:  <br/> |0x3D0E  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the recurrence type of the recurring series.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRecurType  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the display name of the journaling application (for example, "MSWord"), and is typically a free-form attribute of a journal message, usually a string.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidLogType  <br/> |
 |Property set:  <br/> |PSETID_Log  <br/> |

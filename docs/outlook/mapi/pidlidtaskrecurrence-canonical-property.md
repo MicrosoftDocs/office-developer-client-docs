@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: e675bfdd-7598-45f3-a5aa-23b4734670dc
-description: "Last modified: March 09, 2015"
+description: "Contains a RecurrencePattern structure that provides information about recurring tasks for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidTaskRecurrence Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains a RecurrencePattern structure that provides information about recurring tasks.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskRecur  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

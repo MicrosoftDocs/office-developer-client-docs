@@ -27,16 +27,16 @@ Locks the aspect ratio of the shape so that the shape can only be sized proporti
 
 To get a reference to the LockAspect cell by name from another formula, or from a program using the **CellsU** property, use: 
   
-|||
+||Value |
 |:-----|:-----|
-| Cell name:  <br/> | LockAspect  <br/> |
+| **Cell name:**  <br/> | LockAspect  <br/> |
    
 To get a reference to the LockAspect cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
-|||
+||Value |
 |:-----|:-----|
-| Section index:  <br/> |**visSectionObject** <br/> |
-| Row index:  <br/> |**visRowLock** <br/> |
-| Cell index:  <br/> |**visLockAspect** <br/> |
+| **Section index:**  <br/> |**visSectionObject** <br/> |
+| **Row index:**  <br/> |**visRowLock** <br/> |
+| **Cell index:**  <br/> |**visLockAspect** <br/> |
    
 

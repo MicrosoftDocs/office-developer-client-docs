@@ -30,8 +30,8 @@ For a **Property** object, the possible settings and return values are described
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">

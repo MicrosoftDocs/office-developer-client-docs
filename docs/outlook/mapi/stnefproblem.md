@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3fe651b7-0ddf-42fd-8277-9224505be1a8
-description: "Last modified: March 09, 2015"
+description: "Contains information about a property or attribute processing problem that occurred during the encoding or decoding of a TNEF stream."
 ---
 
 # STnefProblem
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains information about a property or attribute processing problem that occurred during the encoding or decoding of a Transport Neutral Encapsulation Format (TNEF) stream.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Header file:  <br/> |Tnef.h  <br/> |
    

@@ -32,7 +32,7 @@ Also in these topics, you will find a discussion of the nickname cache, which is
 
 Profiles are divided into sections that clients and service providers access to display profile properties to users or to make configuration changes. A profile section is a MAPI object that implements the **IProfSect** interface, an interface that derives from **IMAPIProp** and has no additional methods. For more information, see [IProfSect : IMAPIProp](iprofsectimapiprop.md). Its only purpose is to manipulate the properties of a profile section. To retrieve an **IProfSect** pointer to a particular profile section, clients and service providers call the following methods. 
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Clients can call:  <br/> |[IMAPISession::OpenProfileSection](imapisession-openprofilesection.md) <br/> |
 |Service providers can call:  <br/> |[IMAPISupport::OpenProfileSection](imapisupport-openprofilesection.md) <br/> |

@@ -35,9 +35,9 @@ This next table suggests appropriate values for the control's type, its **PR_CON
 |**Control**|**Type**|**Flags**|
 |:-----|:-----|:-----|
 |Display name label  <br/> |DTCT_LABEL  <br/> |0  <br/> |
-|Display name edit box  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
+|Display name edit box  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE \| DT_REQUIRED  <br/> |
 |Email address label  <br/> |DTCT_LABEL  <br/> |0  <br/> |
-|Email address edit box  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE | DT_REQUIRED  <br/> |
+|Email address edit box  <br/> |DTCT_EDIT  <br/> |DT_EDITABLE \| DT_REQUIRED  <br/> |
 |Check box  <br/> |DTCT_CHECKBOX  <br/> |DT_EDITABLE  <br/> |
    
 The final table lists each control with the contents of its associated control structure. Notice that the value for each of the label controls appears in memory directly following the structure.

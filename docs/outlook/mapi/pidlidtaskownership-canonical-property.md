@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 805dcb6c-f405-4c4d-8bca-af4bd9cd44fa
-description: "Last modified: March 09, 2015"
+description: "Indicates the role of the current user relative to the task for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidTaskOwnership Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates the role of the current user relative to the task.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidTaskOwnership  <br/> |
 |Property set:  <br/> |PSETID_Task  <br/> |

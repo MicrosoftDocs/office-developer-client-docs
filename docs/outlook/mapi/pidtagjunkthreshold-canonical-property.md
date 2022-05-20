@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Indicates how aggressively incoming mail should be sent to the Junk Email folder.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_JUNK_THRESHOLD  <br/> |
 |Identifier:  <br/> |0x6101  <br/> |

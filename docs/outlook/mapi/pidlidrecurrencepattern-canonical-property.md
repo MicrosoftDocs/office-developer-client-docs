@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies a description of the recurrence pattern of the calendar object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidRecurPattern  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

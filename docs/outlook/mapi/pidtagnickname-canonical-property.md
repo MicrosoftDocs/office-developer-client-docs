@@ -13,7 +13,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 088ffc58-d456-471b-af2f-7961e9c701f3
-description: "Last modified: March 09, 2015"
+description: "Contains the nickname of the contact. These properties are optional. Their contents are defined by the user."
 ---
 
 # PidTagNickname Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains the nickname of the contact.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_NICKNAME, PR_NICKNAME_A, PR_NICKNAME_W  <br/> |
 |Identifier:  <br/> |0x3A4F  <br/> |

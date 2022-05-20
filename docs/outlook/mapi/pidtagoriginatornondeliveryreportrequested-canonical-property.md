@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a19ba44-abb0-4868-9d7d-75184058d4c0
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if a message sender requests a nondelivery report for a particular recipient for Outlook 2013 and Outlook 2016."
 ---
 
 # PidTagOriginatorNonDeliveryReportRequested Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if a message sender requests a nondelivery report for a particular recipient.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED  <br/> |
 |Identifier:  <br/> |0x0C08  <br/> |

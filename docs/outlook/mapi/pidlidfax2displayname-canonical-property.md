@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: 413d302b-e973-4cb8-acc9-47da8959881c
-description: "Last modified: March 09, 2015"
+description: "Specifies the display name of the contact's home fax address for Outlook 2013 or Outlook 2016."
 ---
 
 # PidLidFax2DisplayName Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the display name of the contact's home fax address.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |dispidFax2DisplayName  <br/> |
 |Property set:  <br/> |PSETID_Address  <br/> |

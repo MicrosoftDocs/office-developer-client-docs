@@ -13,7 +13,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
-description: "Last modified: March 09, 2015"
+description: "Contains TRUE if the message requires preprocessing. Do not use this property. It is reserved for use by MAPI."
 ---
 
 # PidTagPreprocess Canonical Property
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Contains TRUE if the message requires preprocessing.
   
-|||
+|Property |Value |
 |:-----|:-----|
 |Associated properties:  <br/> |PR_PREPROCESS  <br/> |
 |Identifier:  <br/> |0x0E22  <br/> |
