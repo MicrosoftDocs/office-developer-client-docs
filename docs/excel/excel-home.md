@@ -32,7 +32,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Other resources
   
-- [Tips for optimizing performance obstructions](/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions)
+- [Tips for optimizing performance obstructions](/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions.md)
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference.md)  
 - [Office VBA language reference](/office/vba/api/overview/language-reference.md)  
 - [Open XML SDK](/office/open-xml/open-xml-sdk.md)  
