@@ -1,7 +1,6 @@
 ---
 title: "PidTagInternetReferences Canonical Property"
- 
- 
+description: Outlines the PidTagInternetReferences canonical property, which contains the value of a MIME message's References header field.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 645fe61d-414a-455e-b034-db3cfd003b9d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagInternetReferences Canonical Property

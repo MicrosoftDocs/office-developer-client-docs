@@ -1,7 +1,6 @@
 ---
 title: "PidTagImportance Canonical Property"
- 
- 
+description: Outlines the PidTagImportance canonical property, which contains a value that indicates the message sender's opinion of the importance of a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 274dd444-a863-4b53-bdbc-3763c375c43c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagImportance Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagInternetLines Canonical Property"
- 
- 
+description: This article outlines the PidTagInternetLines canonical property, which maps to the MIME Lines header.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bfbbbb76-796a-4ee8-8410-0d17edb349b5
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagInternetLines Canonical Property

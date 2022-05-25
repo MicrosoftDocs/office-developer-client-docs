@@ -1,7 +1,6 @@
 ---
 title: "PidTagInReplyToId Canonical Property"
- 
- 
+description: Outlines the PidTagInReplyToId canonical property, which contains the original message's PR_INTERNET_MESSAGE_ID (PidTagInternetMessageId) property value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d435a65a-de01-4fb0-bc54-a87a2c4462ac
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagInReplyToId Canonical Property

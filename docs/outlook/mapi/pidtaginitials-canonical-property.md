@@ -1,7 +1,6 @@
 ---
 title: "PidTagInitials Canonical Property"
- 
- 
+description: This article outlines the PidTagInitials canonical property, which contains the initials for parts of the full name of the recipient.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db9e0115-99fb-4fa7-8726-0be991505506
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagInitials Canonical Property

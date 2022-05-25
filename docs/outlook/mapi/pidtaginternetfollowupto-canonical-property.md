@@ -1,7 +1,6 @@
 ---
 title: "PidTagInternetFollowupTo Canonical Property"
- 
- 
+description: This article outlines the PidTagInternetFollowupTo canonical property, which maps to the MIME Followup-To header.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 15a91ba5-f317-4f62-826b-4d6f9b41cd4a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagInternetFollowupTo Canonical Property
