@@ -12,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4c327336-4ce0-490d-9016-945305f18b16
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagInternetCodepage Canonical Property

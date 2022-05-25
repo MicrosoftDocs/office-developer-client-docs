@@ -12,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db9e0115-99fb-4fa7-8726-0be991505506
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagInitials Canonical Property
