@@ -1,7 +1,6 @@
 ---
 title: "PidTagInstanceKey Canonical Property"
- 
- 
+description: This article outlines the PidTagInstanceKey canonical property, which contains a value that uniquely identifies a row in a table.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

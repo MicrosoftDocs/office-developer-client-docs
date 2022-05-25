@@ -1,7 +1,6 @@
 ---
 title: "PidTagInConflict Canonical Property"
- 
- 
+description: This article outlines the PidTagInConflict canonical property, which contains TRUE when an attachment represents an alternate replica.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
