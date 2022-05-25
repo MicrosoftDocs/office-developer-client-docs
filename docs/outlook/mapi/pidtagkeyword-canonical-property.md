@@ -1,7 +1,6 @@
 ---
 title: "PidTagKeyword Canonical Property"
- 
- 
+description: Outlines the PidTagKeyword canonical property, which contains a keyword that identifies the recipient to the recipient's system administrator.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8dbfb22d-93db-468c-b2a4-eaa2b545bd61
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagKeyword Canonical Property

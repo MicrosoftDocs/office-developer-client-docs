@@ -1,7 +1,6 @@
 ---
 title: "PidTagJunkPhishingEnableLinks Canonical Property"
- 
- 
+description: Outlines the PidTagJunkPhishingEnableLinks canonical property, which signifies, if TRUE, that the phishing stamp on the message should be ignored.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6b885c36-6e27-4f74-95c3-ce1cdc8a808a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagJunkPhishingEnableLinks Canonical Property
