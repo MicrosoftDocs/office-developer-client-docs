@@ -1,7 +1,6 @@
 ---
 title: "PidTagRuleProviderData Canonical Property"
- 
- 
+description: Outlines the PidTagRuleProviderData canonical property, which is an opaque property that the client sets for the exclusive use of the client.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b04a277c-b483-4f54-b360-311034b9a7ee
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagRuleProviderData Canonical Property

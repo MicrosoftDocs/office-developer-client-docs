@@ -1,7 +1,6 @@
 ---
 title: "PidTagRecipientProposedEndTime Canonical Property"
- 
- 
+description: Outlines the PidTagRecipientProposedEndTime canonical property, which indicates a proposed end time of a meeting.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 08dc1f81-964b-4059-9167-e517391b26e9
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagRecipientProposedEndTime Canonical Property

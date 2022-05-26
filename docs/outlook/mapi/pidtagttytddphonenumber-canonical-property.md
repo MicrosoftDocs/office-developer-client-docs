@@ -1,7 +1,6 @@
 ---
 title: "PidTagTtyTddPhoneNumber Canonical Property"
- 
- 
+description: Outlines the PidTagTtyTddPhoneNumber canonical property, which contains the telephone number for the contact's TTY or TDD.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0471b331-7c8e-4b48-996c-276bdd61f522
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagTtyTddPhoneNumber Canonical Property
