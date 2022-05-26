@@ -1,7 +1,6 @@
 ---
 title: "PidTagLastVerbExecutionTime Canonical Property"
- 
- 
+description: Outlines the PidTagLastVerbExecutionTime canonical property, which contains the time when the last verb was executed.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e4fc8bd9-2ec4-462e-b6cb-e533b323bd05
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagLastVerbExecutionTime Canonical Property

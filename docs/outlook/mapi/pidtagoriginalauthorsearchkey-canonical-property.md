@@ -1,7 +1,6 @@
 ---
 title: "PidTagOriginalAuthorSearchKey Canonical Property"
- 
- 
+description: Outlines the PidTagOriginalAuthorSearchKey canonical property, which contains the search key of the author of the first version of a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4a10cf99-c5e6-4a24-b531-3aebb7800bfe
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagOriginalAuthorSearchKey Canonical Property

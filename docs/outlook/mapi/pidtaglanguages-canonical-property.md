@@ -1,7 +1,6 @@
 ---
 title: "PidTagLanguages Canonical Property"
- 
- 
+description: Outlines the PidTagLanguages canonical property, which contains an ASCII list of the languages that are incorporated in a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 16d4e92d-d48e-4e06-9886-2d21f3d10640
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagLanguages Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageFlags Canonical Property"
- 
- 
+description: Outlines the PidTagMessageFlags canonical property, which contains a bitmask of flags that indicate the origin and current state of a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7561112b-ca72-4c49-a8a0-cc1879a4e151
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageFlags Canonical Property

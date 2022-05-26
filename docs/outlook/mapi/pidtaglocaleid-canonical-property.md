@@ -1,7 +1,6 @@
 ---
 title: "PidTagLocaleId Canonical Property"
- 
- 
+description: Outlines the PidTagLocaleId canonical property, which establishes the language locale for translating system-generated messages, such as delivery reports.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9e4d1554-a47f-461c-8f79-0604d5542e8d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagLocaleId Canonical Property

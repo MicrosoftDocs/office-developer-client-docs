@@ -1,7 +1,6 @@
 ---
 title: "PidTagLatestDeliveryTime Canonical Property"
- 
- 
+description: Outlines the PidTagLatestDeliveryTime canonical property, which contains the latest date and time when a message transfer agent (MTA) should deliver a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6c2e64bc-786e-4867-a504-46f4d1214337
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagLatestDeliveryTime Canonical Property

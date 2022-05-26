@@ -1,7 +1,6 @@
 ---
 title: "PidTagOriginalSenderName Canonical Property"
- 
- 
+description: Outlines the PidTagOriginalSenderName canonical property, which contains the display name of the sender of the first version of a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e3b7764-b122-4405-be4f-7fec571c7dfc
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagOriginalSenderName Canonical Property

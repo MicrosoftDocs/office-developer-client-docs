@@ -1,7 +1,6 @@
 ---
 title: "PidTagManagerName Canonical Property"
- 
- 
+description: Outlines the PidTagManagerName canonical property, which contains the name of the recipient's manager.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 564c01fa-a0df-4095-8e87-e75a409c67eb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagManagerName Canonical Property
