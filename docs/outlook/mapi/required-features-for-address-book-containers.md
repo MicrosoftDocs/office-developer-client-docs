@@ -1,5 +1,6 @@
 ---
 title: "Required Features for Address Book Containers"
+description: Describes features that are required of address book providers that have containers, modifiable or read-only, and how you implement them.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3e221944-5dc9-4cce-8b47-73af84427aea
-description: "Last modified: March 09, 2015"
  
  
 ---

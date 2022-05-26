@@ -1,5 +1,6 @@
 ---
 title: "Releasing the Transport Provider"
+description: Outlines the steps when MAPI or the MAPI spooler finishes using a transport logon object. This topic applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e0f37485-55c9-40f0-bc8c-48f7297f9f50
-description: "Last modified: December 07, 2015"
  
  
 ---

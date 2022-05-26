@@ -1,11 +1,11 @@
 ---
 title: "PropertyDefinition stream structure"
+description: Outlines PropertyDefinition stream structure, an array of FieldDefinition stream structures that can be programmatically manipulated.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
-description: "Last modified: March 09, 2015"
  
  
 ---

@@ -1,7 +1,6 @@
 ---
 title: "PidTagRecipientCertificate Canonical Property"
- 
- 
+description: Outlines the PidTagRecipientCertificate canonical property, which contains a message recipient's ASN.1 certificate for use in a report.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagRecipientCertificate Canonical Property

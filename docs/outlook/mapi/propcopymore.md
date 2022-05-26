@@ -1,7 +1,6 @@
 ---
 title: "PropCopyMore"
- 
- 
+description: Outlines PropCopyMore, which copies a single property value from a source location to a destination location.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
-description: "Last modified: March 09, 2015"
 ---
 
 # PropCopyMore

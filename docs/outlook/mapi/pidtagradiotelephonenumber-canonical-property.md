@@ -1,7 +1,6 @@
 ---
 title: "PidTagRadioTelephoneNumber Canonical Property"
- 
- 
+description: Outlines the PidTagRadioTelephoneNumber canonical property, which contains the recipient's radio telephone number.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6c9b30c-1eb3-45e8-b50a-e664610bc346
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagRadioTelephoneNumber Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagProviderOrdinal Canonical Property"
- 
- 
+description: Outlines the PidTagProviderOrdinal canonical property, which contains the zero-based index of a service provider's position in the provider table.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagProviderOrdinal Canonical Property

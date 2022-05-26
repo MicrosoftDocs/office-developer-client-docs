@@ -1,7 +1,6 @@
 ---
 title: "PidTagTelexNumber Canonical Property"
- 
- 
+description: Outlines the PidTagTelexNumber canonical property, which  provide identification and access information for a recipient. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49311177-17a5-415c-bcb2-dfeb48a5b491
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagTelexNumber Canonical Property
