@@ -1,7 +1,6 @@
 ---
 title: "PidTagOriginallyIntendedRecipEmailAddress Canonical Property"
- 
- 
+description: Outlines the PidTagOriginallyIntendedRecipEmailAddress canonical property, which holds the email address of the intended recipient of an autoforwarded message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6a85b695-731a-4401-9c9c-fda6bc308558
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagOriginallyIntendedRecipEmailAddress Canonical Property

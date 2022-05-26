@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageEditorFormat Canonical Property"
- 
- 
+description: Outlines the PidTagMessageEditorFormat canonical property, which specifies the format for an editor to use to display a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 197b21ed-9f2f-425f-a6ed-cae1208fa2ca
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageEditorFormat Canonical Property

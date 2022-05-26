@@ -1,7 +1,6 @@
 ---
 title: "PidTagMemberRights Canonical Property"
- 
- 
+description: Outlines the PidTagMemberRights canonical property, which contains a set of bits that indicated the rights of this member on a folder or mailbox.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3e526b93-1f64-41ea-b43c-5b03fe1c56ed
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMemberRights Canonical Property

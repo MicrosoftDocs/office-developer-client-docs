@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageDeliveryId Canonical Property"
- 
- 
+description: Outlines the PidTagMessageDeliveryId canonical property, which contains an MTS identifier for a message delivered to a client application.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageDeliveryId Canonical Property

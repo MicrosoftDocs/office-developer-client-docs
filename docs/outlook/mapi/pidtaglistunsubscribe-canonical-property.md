@@ -1,7 +1,6 @@
 ---
 title: "PidTagListUnsubscribe Canonical Property"
- 
- 
+description: Outlines the PidTagListUnsubscribe canonical property, which contains the value of a MIME message's List-Unsubscribe header field.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4e6bfbc7-7586-43cc-9380-daa0fe3d85a5
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagListUnsubscribe Canonical Property

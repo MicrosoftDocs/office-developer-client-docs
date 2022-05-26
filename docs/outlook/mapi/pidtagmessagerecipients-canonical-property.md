@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageRecipients Canonical Property"
- 
- 
+description: Outlines the PidTagMessageRecipients canonical property, which contains a table of restrictions that can be applied to a contents table.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7f8b0d96-99d6-4f1c-8ac4-4dbb83626382
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageRecipients Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagMemberId Canonical Property"
- 
- 
+description: Outlines the PidTagMemberId canonical property, which contains the identifier of a table member that has described rights.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 64faef3c-27b2-49d2-9d0c-8b9d33f1cb71
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMemberId Canonical Property

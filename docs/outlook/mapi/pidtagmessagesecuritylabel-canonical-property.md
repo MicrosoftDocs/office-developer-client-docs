@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageSecurityLabel Canonical Property"
- 
- 
+description: Outlines the PidTagMessageSecurityLabel canonical property, which contains a security label for a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: aae41f1b-19bb-40c7-8564-0c87a5a4e47c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageSecurityLabel Canonical Property

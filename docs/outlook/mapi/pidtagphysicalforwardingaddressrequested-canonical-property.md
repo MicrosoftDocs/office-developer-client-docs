@@ -1,7 +1,6 @@
 ---
 title: "PidTagPhysicalForwardingAddressRequested Canonical Property"
- 
- 
+description: Outlines the PidTagPhysicalForwardingAddressRequested canonical property, which applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 633e71e6-fdab-4453-8921-9bc0d5752b26
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagPhysicalForwardingAddressRequested Canonical Property

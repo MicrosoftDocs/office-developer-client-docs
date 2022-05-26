@@ -1,7 +1,6 @@
 ---
 title: "PidTagMappingSignature Canonical Property"
- 
- 
+description: Outlines the PidTagMappingSignature canonical property, which contains the mapping signature for named properties of a particular MAPI object. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a5e9f807-12a9-4bc9-a6a5-17579e747ffa
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMappingSignature Canonical Property
