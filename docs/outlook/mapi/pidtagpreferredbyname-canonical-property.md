@@ -1,7 +1,6 @@
 ---
 title: "PidTagPreferredByName Canonical Property"
- 
- 
+description: Outlines the PidTagPreferredByName canonical property, which contains the name that the recipient prefers to be called.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 102f840c-5cd7-4507-ba42-20ba3669cd05
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagPreferredByName Canonical Property

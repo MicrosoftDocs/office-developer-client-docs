@@ -1,7 +1,6 @@
 ---
 title: "PidTagJunkPermanentlyDelete Canonical Property"
- 
- 
+description: Outlines the PidTagJunkPermanentlyDelete canonical property, which signifies, if set to 1, that messages identified as spam may be permanently deleted.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5f06ad00-7205-48d8-a9ff-f5c6b5e38c5e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagJunkPermanentlyDelete Canonical Property

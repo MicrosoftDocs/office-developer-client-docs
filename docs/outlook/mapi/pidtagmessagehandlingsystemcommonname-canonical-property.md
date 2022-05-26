@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageHandlingSystemCommonName Canonical Property"
- 
- 
+description: Outlines the PidTagMessageHandlingSystemCommonName canonical property, which contains the common name of the message handling system.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c6ba2fe9-c183-4d26-854c-f3ac893e75cc
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageHandlingSystemCommonName Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagIpmDraftsEntryId Canonical Property"
- 
- 
+description: This article outlines the PidTagIpmDraftsEntryId canonical property, which contains the EntryID of the Outlook Drafts folder.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 17d64211-6265-41f4-b016-3677d75af966
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagIpmDraftsEntryId Canonical Property

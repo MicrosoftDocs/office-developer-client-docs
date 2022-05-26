@@ -1,5 +1,6 @@
 ---
 title: "Receiving Messages by Using TNEF Custom Attachment Processing"
+description: Outlines how to receive a TNEF message with customized attachment processing. This topic applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bb5082fa-8fe3-46fe-b2de-b6dd1af79ea7
-description: "Last modified: December 07, 2015"
  
  
 ---

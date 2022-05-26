@@ -1,7 +1,6 @@
 ---
 title: "PidTagPhysicalForwardingProhibited Canonical Property"
- 
- 
+description: Outlines the PidTagPhysicalForwardingProhibited canonical property, which applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2651759d-914b-4376-92b2-6d5d4ffb5530
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagPhysicalForwardingProhibited Canonical Property

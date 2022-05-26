@@ -1,7 +1,6 @@
 ---
 title: "PidTagRecipientProposed Canonical Property"
- 
- 
+description: Outlines the PidTagRecipientProposed canonical property, which indicates whether a meeting attendee has responded.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8cb0e46c-0937-482f-be78-1f2e5261b210
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagRecipientProposed Canonical Property

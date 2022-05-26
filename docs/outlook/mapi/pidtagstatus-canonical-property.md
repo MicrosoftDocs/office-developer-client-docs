@@ -1,7 +1,6 @@
 ---
 title: "PidTagStatus Canonical Property"
- 
- 
+description: Outlines the PidTagStatus canonical property, which contains a 32-bit bitmask of flags that define folder status.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b947660-eafe-47e1-9595-bd3ab7d455bf
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagStatus Canonical Property

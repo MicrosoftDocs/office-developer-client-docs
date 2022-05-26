@@ -1,7 +1,6 @@
 ---
 title: "PidTagOriginatorDeliveryReportRequested Canonical Property"
- 
- 
+description: Outlines the PidTagOriginatorDeliveryReportRequested canonical property, which is used to direct the messaging system in handling delivered messages. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4461b35d-e2b9-41ff-b079-31bfef02e2bb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagOriginatorDeliveryReportRequested Canonical Property

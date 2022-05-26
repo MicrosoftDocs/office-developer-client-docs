@@ -1,7 +1,6 @@
 ---
 title: "PidTagOriginalSentRepresentingAddressType Canonical Property"
- 
- 
+description: Outlines the PidTagOriginalSentRepresentingAddressType canonical property, which is used in a conversation thread.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93f40161-d4e5-4ef9-a55f-cee62529fc04
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagOriginalSentRepresentingAddressType Canonical Property

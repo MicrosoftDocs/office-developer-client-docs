@@ -1,7 +1,6 @@
 ---
 title: "PidTagProofOfSubmissionRequested Canonical Property"
- 
- 
+description: Outlines the PidTagProofOfSubmissionRequested canonical property, which contains an ASN.1 proof of submission value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c7b21c90-7fdc-48e4-8197-7675978c5d3b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagProofOfSubmissionRequested Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagJunkIncludeContacts Canonical Property"
- 
- 
+description: Outlines the PidTagJunkIncludeContacts canonical property, which indicates whether email addresses of the contacts in the Contacts folder are treated specially.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 25368f6c-4fba-4381-840c-ca122bd31b5f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagJunkIncludeContacts Canonical Property

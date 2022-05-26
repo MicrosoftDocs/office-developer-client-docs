@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageClass Canonical Property"
- 
- 
+description: Outlines the PidTagMessageClass canonical property, which contains a text string that identifies the sender-defined message class, such as IPM.Note.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1e704023-1992-4b43-857e-0a7da7bc8e87
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageClass Canonical Property

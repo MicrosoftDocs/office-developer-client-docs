@@ -1,7 +1,6 @@
 ---
 title: "PidTagSearchFolderEfpFlags Canonical Property"
- 
- 
+description: Outlines the PidTagSearchFolderEfpFlags canonical property, which contains extended folder flags that apply to the search folder container.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ef82a75f-a09f-4880-ba6a-e739b16422a3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagSearchFolderEfpFlags Canonical Property

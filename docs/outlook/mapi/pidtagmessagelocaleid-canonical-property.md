@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageLocaleId Canonical Property"
- 
- 
+description: Outlines the PidTagMessageLocaleId canonical property, which contains the Windows LCID of the end user who created this message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4ba2b0a8-9f87-4a5e-ada2-e8c2399a9d94
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageLocaleId Canonical Property

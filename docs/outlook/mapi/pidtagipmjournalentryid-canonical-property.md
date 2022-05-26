@@ -1,7 +1,6 @@
 ---
 title: "PidTagIpmJournalEntryId Canonical Property"
- 
- 
+description: This article outlines the canonical property, which contains the EntryID of the Outlook Journal folder.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a3765b9d-a108-46d7-a97c-a825ae3980be
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagIpmJournalEntryId Canonical Property

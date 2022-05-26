@@ -1,7 +1,6 @@
 ---
 title: "PidTagIpmSentMailEntryId Canonical Property"
- 
- 
+description: Outlines the PidTagIpmSentMailEntryId canonical property, which contains the entry identifier of the standard interpersonal message (IPM) Sent Items folder.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagIpmSentMailEntryId Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagLastVerbExecuted Canonical Property"
- 
- 
+description: Outlines the PidTagLastVerbExecuted canonical property, which contains the last verb executed. There are also links to reference materials.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 502f0261-697f-41bf-8530-75e1d0f503e5
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagLastVerbExecuted Canonical Property

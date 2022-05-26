@@ -1,7 +1,6 @@
 ---
 title: "PidTagProfileType Canonical Property"
- 
- 
+description: Outlines the PidTagProfileType canonical property, which contains the type of information store.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9cc1a1fa-62a7-411b-9b2b-c49d24a38a61
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagProfileType Canonical Property

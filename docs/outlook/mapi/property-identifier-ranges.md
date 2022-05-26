@@ -1,5 +1,6 @@
 ---
 title: "Property Identifier Ranges"
+description: Summarizes the different ranges for property identifiers, describing the owner for the properties in each range.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c01e95bb-be25-490d-880b-60674f890258
-description: "Last modified: March 09, 2015"
  
  
 ---

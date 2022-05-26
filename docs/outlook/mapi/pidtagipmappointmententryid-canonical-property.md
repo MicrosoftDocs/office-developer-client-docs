@@ -1,7 +1,6 @@
 ---
 title: "PidTagIpmAppointmentEntryId Canonical Property"
- 
- 
+description: This article outlines the PidTagIpmAppointmentEntryId canonical property, which contains the EntryID of the Outlook Calendar folder.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a6e8c8fb-b76a-4a73-b112-6399e4d94233
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagIpmAppointmentEntryId Canonical Property

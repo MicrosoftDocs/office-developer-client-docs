@@ -1,5 +1,6 @@
 ---
 title: "Property Types"
+description: Outlines the single-value and multiple-value property types that MAPI supports in a table outlining property type, hex value, and a short description.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
-description: "Last modified: March 09, 2015"
  
  
 ---

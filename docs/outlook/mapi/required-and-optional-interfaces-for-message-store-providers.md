@@ -1,5 +1,6 @@
 ---
 title: "Required and Optional Interfaces for Message Store Providers"
+description: Outlines required and optional interfaces for message store providers. MAPI defines a set of interfaces that relate to message store providers.
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cc62e57e-82a4-4f37-8d1b-7cdf828b951e
-description: "Last modified: December 07, 2015"
  
  
 ---

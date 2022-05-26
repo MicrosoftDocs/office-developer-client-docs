@@ -1,7 +1,6 @@
 ---
 title: "PidTagIpmTaskEntryId Canonical Property"
- 
- 
+description: This article outlines the PidTagIpmTaskEntryId canonical property, which contains the EntryID of the Outlook Tasks folder.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ec8b7486-b547-4a4e-96e5-1fc825b23f3d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagIpmTaskEntryId Canonical Property

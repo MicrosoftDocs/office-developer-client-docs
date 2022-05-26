@@ -1,7 +1,6 @@
 ---
 title: "PidTagInternetDistribution Canonical Property"
- 
- 
+description: This article outlines the PidTagInternetDistribution canonical property, which maps to the MIME Distribution header.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a1b4d27d-d1ef-4462-bbe8-5ec965883a6e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagInternetDistribution Canonical Property

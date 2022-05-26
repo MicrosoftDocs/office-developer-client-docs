@@ -1,7 +1,6 @@
 ---
 title: "PidTagPostOfficeBox Canonical Property"
- 
- 
+description: Outlines the PidTagPostOfficeBox canonical property, which contains the number or identifier of the recipient's post office box.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c2968bb-9625-4ebe-a8a0-cce8ef1651f4
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagPostOfficeBox Canonical Property

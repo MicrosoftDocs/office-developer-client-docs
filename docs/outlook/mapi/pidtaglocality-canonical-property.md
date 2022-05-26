@@ -1,7 +1,6 @@
 ---
 title: "PidTagLocality Canonical Property"
- 
- 
+description: Outlines the PidTagLocality canonical property, which contains the name of the recipient's locality, such as the town or city.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a918b596-a335-47a0-9d1c-109a0b0812a2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagLocality Canonical Property

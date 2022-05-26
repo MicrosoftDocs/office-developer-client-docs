@@ -1,7 +1,6 @@
 ---
 title: "PidTagMessageCcMe Canonical Property"
- 
- 
+description: Outlines the PidTagMessageCcMe canonical property, which is a convenient way to determine whether the user name appears explicitly in the CC recipient list.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7310a0f2-a109-40a4-99bf-e963d754a067
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagMessageCcMe Canonical Property

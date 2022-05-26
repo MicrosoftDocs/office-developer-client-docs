@@ -1,7 +1,6 @@
 ---
 title: "PidTagLanguage Canonical Property"
- 
- 
+description: Outlines the PidTagLanguage canonical property, which contains a value that indicates the language in which the messaging user is writing messages.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 74b7bdd0-89d1-4013-a6f1-8ea102974f19
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagLanguage Canonical Property
