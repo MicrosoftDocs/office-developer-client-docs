@@ -7,7 +7,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 57219d96-bd9e-4e9a-b34a-dd3aad97bfd9
-description: "Last modified: March 09, 2015"
+description: This article provides information about asynchronous table operations.
 ---
 
 # About asynchronous table operations
