@@ -1,7 +1,6 @@
 ---
 title: "PidTagIdentityDisplay Canonical Property"
- 
- 
+description: Outlines the PidTagIdentityDisplay canonical property, which contains the display name for a service provider's identity as defined within a messaging system. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ad9756c1-c1f9-4ab3-a58a-31e574dd9530
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagIdentityDisplay Canonical Property

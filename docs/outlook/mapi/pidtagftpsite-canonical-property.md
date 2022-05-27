@@ -1,7 +1,6 @@
 ---
 title: "PidTagFtpSite Canonical Property"
- 
- 
+description: Outlines the PidTagFtpSite canonical property, which contains the contact's File Transfer Protocol (FTP) URL.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d94087c2-a996-45b0-b5ed-0293d8a47d9b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFtpSite Canonical Property

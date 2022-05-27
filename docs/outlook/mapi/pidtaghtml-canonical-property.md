@@ -1,7 +1,6 @@
 ---
 title: "PidTagHtml Canonical Property"
- 
- 
+description: This article outlines the PidTagHtml canonical property, which contains the message body text in HTML format.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bde195cd-ca24-4715-8db7-04ab83ba8a3c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagHtml Canonical Property

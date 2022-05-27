@@ -1,7 +1,6 @@
 ---
 title: "PidTagFormMessageBehavior Canonical Property"
- 
- 
+description: Outlines the PidTagFormMessageBehavior canonical property, which contains TRUE if a message should be composed in the current folder. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFormMessageBehavior Canonical Property

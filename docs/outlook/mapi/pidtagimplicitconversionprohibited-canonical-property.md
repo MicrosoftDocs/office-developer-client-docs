@@ -1,7 +1,6 @@
 ---
 title: "PidTagImplicitConversionProhibited Canonical Property"
- 
- 
+description: Outlines the PidTagImplicitConversionProhibited canonical property, which contains TRUE if an MTA is prohibited from making implicit message text conversions.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagImplicitConversionProhibited Canonical Property

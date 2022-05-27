@@ -1,7 +1,6 @@
 ---
 title: "PidTagFormHostMap Canonical Property"
- 
- 
+description: This article outlines the PidTagFormHostMap canonical property, which contains a host map of available forms. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 92742747-cce0-4c54-9ece-1fcf652ac498
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFormHostMap Canonical Property

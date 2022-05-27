@@ -1,7 +1,6 @@
 ---
 title: "PidTagFormHidden Canonical Property"
- 
- 
+description: Outlines the PidTagFormHidden canonical property, which contains TRUE if a form is to be suppressed from display by compose menus and dialog boxes. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 79cb1fa5-9a32-4872-9806-ecd664022234
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFormHidden Canonical Property

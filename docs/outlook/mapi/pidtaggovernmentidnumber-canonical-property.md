@@ -1,7 +1,6 @@
 ---
 title: "PidTagGovernmentIdNumber Canonical Property"
- 
- 
+description: Outlines the PidTagGovernmentIdNumber canonical property, which contains a government identifier for the recipient. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fa265d37-a1ea-4812-8fe9-21dac374cd7c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagGovernmentIdNumber Canonical Property

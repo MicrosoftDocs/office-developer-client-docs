@@ -1,7 +1,6 @@
 ---
 title: "PidTagHasAttachments Canonical Property"
- 
- 
+description: Outlines the PidTagHasAttachments canonical property, which contains TRUE if a message contains at least one attachment. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fd236d74-2868-46a8-bb3d-17f8365931b6
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagHasAttachments Canonical Property

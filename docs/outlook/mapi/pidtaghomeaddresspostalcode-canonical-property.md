@@ -1,7 +1,6 @@
 ---
 title: "PidTagHomeAddressPostalCode Canonical Property"
- 
- 
+description: Outlines the PidTagHomeAddressPostalCode canonical property, which contains the postal code for the user's home address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f89fd4ab-61b1-4405-89de-dfe599117a24
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagHomeAddressPostalCode Canonical Property

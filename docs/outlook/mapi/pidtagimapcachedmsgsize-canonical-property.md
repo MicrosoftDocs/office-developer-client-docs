@@ -1,7 +1,6 @@
 ---
 title: "PidTagImapCachedMsgsize Canonical Property"
- 
- 
+description: Outlines the PidTagImapCachedMsgsize canonical property, which contains the size of the cached Internet Message Access Protocol message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: fe2e511b-e2f4-4784-a178-f7f5bc3579dd
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagImapCachedMsgsize Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagHome2TelephoneNumber Canonical Property"
- 
- 
+description: Outlines the PidTagHome2TelephoneNumber canonical property, which contains a secondary telephone number at the recipient's home. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9755c342-87ba-47bb-9970-91f7eb796b4d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagHome2TelephoneNumber Canonical Property
