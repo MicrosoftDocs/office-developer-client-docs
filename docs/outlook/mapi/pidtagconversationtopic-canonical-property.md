@@ -22,7 +22,7 @@ ms.assetid: db852b99-ce04-49bf-a714-7549571502e2
   
 Contains the topic of the first message in a conversation thread. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |PR_CONVERSATION_TOPIC, PR_CONVERSATION_TOPIC_A, PR_CONVERSATION_TOPIC_W  <br/> |
 |Identifier:  <br/> |0x0070  <br/> |
