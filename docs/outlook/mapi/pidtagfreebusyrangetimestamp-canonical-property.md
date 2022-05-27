@@ -1,7 +1,6 @@
 ---
 title: "PidTagFreeBusyRangeTimestamp Canonical Property"
- 
- 
+description: Outlines the PidTagFreeBusyRangeTimestamp canonical property, which contains the time when the data was published.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 142d955f-f92d-485a-80c9-9c72e82af0f2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFreeBusyRangeTimestamp Canonical Property

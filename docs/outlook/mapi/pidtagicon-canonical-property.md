@@ -1,7 +1,6 @@
 ---
 title: "PidTagIcon Canonical Property"
- 
- 
+description: Outlines the PidTagIcon canonical property, which contains a bitmap of a full size icon for a form. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 815dabf3-3cac-40e1-b6ff-51db2ff5096a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagIcon Canonical Property

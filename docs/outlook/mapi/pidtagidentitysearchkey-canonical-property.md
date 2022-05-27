@@ -1,7 +1,6 @@
 ---
 title: "PidTagIdentitySearchKey Canonical Property"
- 
- 
+description: Outlines the PidTagIdentitySearchKey canonical property, which contains the search key for a service provider's identity as defined within a messaging system. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5fe55ba7-4ecd-4a43-ab5b-2ef595c2cdd9
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagIdentitySearchKey Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagFolderType Canonical Property"
- 
- 
+description: Outlines the PidTagFolderType canonical property, which contains a constant that indicates the folder type.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2ab4681e-0013-4ba0-ba26-50517bbf3f5b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFolderType Canonical Property

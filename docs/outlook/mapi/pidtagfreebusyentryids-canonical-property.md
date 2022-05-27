@@ -1,7 +1,6 @@
 ---
 title: "PidTagFreeBusyEntryIds Canonical Property"
- 
- 
+description: Outlines the PidTagFreeBusyEntryIds canonical property, which applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8bc40ebf-76f2-49dd-af4b-4095bc07c639
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFreeBusyEntryIds Canonical Property
