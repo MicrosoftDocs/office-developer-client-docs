@@ -1,7 +1,6 @@
 ---
 title: "CbMAPIVerbArray"
- 
- 
+description: "CbMAPIVerbArray computes the number of bytes in an existing SMAPIVerbArray structure that contains a specified number of SMAPIVerb structures."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
-description: "Last modified: March 09, 2015"
 ---
 
 # CbMAPIVerbArray

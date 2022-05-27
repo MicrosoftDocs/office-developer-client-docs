@@ -1,5 +1,6 @@
 ---
 title: "ACCELERATEABSDI"
+description: "ACCELERATEABSDI defines a callback function to process accelerator keys in a modeless address book dialog box."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
-description: "Last modified: March 09, 2015"
 ---
 
 # ACCELERATEABSDI

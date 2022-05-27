@@ -1,7 +1,6 @@
 ---
 title: "CbNewENTRYID"
- 
- 
+description: "CbNewENTRYID computes the number of bytes that should be allocated for a new ENTRYID structure of a specified size."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewENTRYID

@@ -1,5 +1,6 @@
 ---
 title: "Accessing Objects by Using the Session"
+description: "Describes how to access objects by using the session pointer that is received from the call to MAPILogonEx."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ecada707-2960-41ec-be7e-619cad257c57
-description: "Last modified: March 09, 2015"
  
  
 ---

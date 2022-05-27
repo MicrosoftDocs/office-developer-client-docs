@@ -1,7 +1,6 @@
 ---
 title: "BOOKMARK"
- 
- 
+description: "Describes the syntax and remarks about BOOKMARK, which defines bookmarks data for remembering a position in a table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
-description: "Last modified: March 09, 2015"
 ---
 
 # BOOKMARK
