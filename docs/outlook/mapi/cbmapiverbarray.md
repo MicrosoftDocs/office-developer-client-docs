@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1b746e6-c9df-4e92-a8b8-7a00b2de53e7
-description: "Last modified: March 09, 2015"
 ---
 
 # CbMAPIVerbArray

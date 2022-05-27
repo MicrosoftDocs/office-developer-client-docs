@@ -12,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: da67dcf4-1411-4fc9-992c-115485019bd3
-description: "Last modified: March 09, 2015"
 ---
 
 # ACCELERATEABSDI

@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 449a94d3-6610-4434-a705-4a739339053d
-description: "Last modified: March 09, 2015"
 ---
 
 # CbMAPIFormInfoArray

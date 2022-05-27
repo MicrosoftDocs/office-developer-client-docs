@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 500437a4-e0bc-4368-b572-8aecded2621d
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewFLATENTRY

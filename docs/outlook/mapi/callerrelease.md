@@ -12,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 80ba893d-3380-4db1-9175-f5b84cb57def
-description: "Last modified: March 09, 2015"
 ---
 
 # CALLERRELEASE

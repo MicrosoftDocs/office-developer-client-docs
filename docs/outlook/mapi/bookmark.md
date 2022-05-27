@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 678bdc52-3404-48b2-9154-64ce2a941555
-description: "Last modified: March 09, 2015"
 ---
 
 # BOOKMARK

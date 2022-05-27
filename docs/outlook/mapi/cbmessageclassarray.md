@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
-description: "Last modified: March 09, 2015"
 ---
 
 # CbMessageClassArray

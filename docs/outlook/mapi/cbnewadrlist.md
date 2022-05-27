@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewADRLIST

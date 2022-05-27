@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ecc7c15-ca8a-4af2-9256-b572b70be093
-description: "Last modified: March 09, 2015"
 ---
 
 # CbFLATMTSIDLIST
