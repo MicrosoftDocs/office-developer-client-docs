@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.localizationpriority: medium
 ms.assetid: 7ba98948-b16d-4df5-8d59-7c9e2fdd2367
-description: ""
+description: This article describes and provides reference links for logical operators (access custom web app).
 ---
 
 # Logical Operators (Access custom web app)

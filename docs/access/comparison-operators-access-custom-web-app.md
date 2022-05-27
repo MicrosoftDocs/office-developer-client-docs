@@ -9,7 +9,7 @@ ms.audience: Developer
   
 ms.localizationpriority: medium
 ms.assetid: e47e1182-e44b-43a2-8254-cc39a9ba1269
-description: ""
+description: This article provides a description and reference links for comparison operators (access custom web app).
 ---
 
 # Comparison Operators (Access custom web app)

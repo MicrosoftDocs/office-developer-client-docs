@@ -95,7 +95,7 @@ To use a service provider, you must supply a keyword. You should also be aware o
 
 The [Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) service component supplements the cursor support functions of data providers. It also requires a keyword and has dynamic properties.
 
-For more information about providers, see the documentation for Microsoft OLE DB in the Microsoft Data Access Components SDK or visit the [Data Platform Developer Center](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
+For more information about providers, see the documentation for Microsoft OLE DB in the Microsoft Data Access Components SDK or visit the [Data Platform Developer Center](/sql/connect/sql-data-developer?view=sql-server-2017&preserve-view=true).
 
 ## Provider commands
 

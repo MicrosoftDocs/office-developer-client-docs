@@ -9,7 +9,7 @@ ms.audience: Developer
   
 ms.localizationpriority: medium
 ms.assetid: 069dc9eb-2136-4a9f-9a43-4ca7ce50f9c8
-description: ""
+description: This article provides a description and reference links for database objects (access custom web app).
 ---
 
 # Database objects (Access custom web app)

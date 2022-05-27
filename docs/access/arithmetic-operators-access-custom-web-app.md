@@ -9,7 +9,7 @@ ms.audience: Developer
   
 ms.localizationpriority: medium
 ms.assetid: bb790002-a56e-4a0f-8091-d861d6b2b5fb
-description: ""
+description: This article provides a description and reference links for arithmetic operators (access custom web app).
 ---
 
 # Arithmetic Operators (Access custom web app)

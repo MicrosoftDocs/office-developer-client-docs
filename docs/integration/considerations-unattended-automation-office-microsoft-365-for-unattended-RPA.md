@@ -20,7 +20,7 @@ If you want to use Office without a user present, be aware of the following area
 
 ### Interactive UI elements
 
-Office applications assume that they are being run interactively. If an unexpected error occurs, or if an unspecified parameter is needed to complete a function, Office is designed to prompt the user with a dialog box that asks the user how they want to proceed. In unattended automation, this might result in the application appearing to “hang” as the application stops until it receives this input. If you’re automating Office via its public APIs, you can suppress many of these alerts by configuring properties like [Application.DisplayAlerts](https://docs.microsoft.com/office/vba/api/word.application.displayalerts) and [Application.AutomationSecurity](https://docs.microsoft.com/office/vba/api/word.application.automationsecurity) appropriately. Your code should be designed to identify and process blocking alerts at any time.
+Office applications assume that they are being run interactively. If an unexpected error occurs, or if an unspecified parameter is needed to complete a function, Office is designed to prompt the user with a dialog box that asks the user how they want to proceed. In unattended automation, this might result in the application appearing to “hang” as the application stops until it receives this input. If you’re automating Office via its public APIs, you can suppress many of these alerts by configuring properties like [Application.DisplayAlerts](/office/vba/api/word.application.displayalerts) and [Application.AutomationSecurity](/office/vba/api/word.application.automationsecurity) appropriately. Your code should be designed to identify and process blocking alerts at any time.
 
 ### User identity
 
@@ -30,11 +30,11 @@ Office applications require a user identity when the applications are run, even 
 - Files that cannot be opened and/or edited based on per-user access permissions.
 - Unexpected changes to the metadata of the file (for example, certain file properties will be updated based on the identity of the user identity of the automated application instance).
 
-Various approaches can help to mitigate these issues; for example, running the [Document Inspector](https://docs.microsoft.com/office/vba/library-reference/concepts/using-the-document-inspector) to remove metadata. Consider whether these approaches are appropriate based on your scenario.
+Various approaches can help to mitigate these issues; for example, running the [Document Inspector](/office/vba/library-reference/concepts/using-the-document-inspector) to remove metadata. Consider whether these approaches are appropriate based on your scenario.
 
 ### Server-side security
 
-When running Office unattended and processing arbitrary file content, no additional protections specific in that environment are available to prevent macros stored in those files from loading and running. Office does not protect you from unintentionally running macros from your code, or from starting another server that might run macros. You can use properties like [Application.AutomationSecurity](https://docs.microsoft.com/office/vba/api/word.application.automationsecurity) to mitigate this risk, but you should ensure that you are only loading trusted content.
+When running Office unattended and processing arbitrary file content, no additional protections specific in that environment are available to prevent macros stored in those files from loading and running. Office does not protect you from unintentionally running macros from your code, or from starting another server that might run macros. You can use properties like [Application.AutomationSecurity](/office/vba/api/word.application.automationsecurity) to mitigate this risk, but you should ensure that you are only loading trusted content.
 
 Additionally, Office uses many components (such as Simple MAPI, WinInet, and MSDAIPP) that can cache client authentication information to speed processing. When Office is being automated server-side and processing multiple files, if authentication information has been cached for that session, one client can use the cached credentials of another client. Therefore, the client can gain non-granted access permissions by impersonating other users.
 
@@ -60,10 +60,10 @@ Microsoft strongly recommends a few alternatives that do not require Office to b
 
 The Microsoft Graph API provides access to the services, data, and intelligence that are available to users and solutions as part of the Microsoft cloud, including many services supporting the needs of unattended automation: access to users’ mail / calendar / contacts / files, document conversion, Excel workbook calculation, and more. These services are designed for unattended use and high-scale access, and utilize a standard RESTful API syntax. For more information on Microsoft Graph and how to use it to work with users’ data, visit the following:
 
-- [Overview of Microsoft Graph](https://docs.microsoft.com/graph/overview) 
+- [Overview of Microsoft Graph](/graph/overview) 
 - [Get started with Microsoft Graph](https://developer.microsoft.com/graph/get-started)
-- [Download a file in another format](https://docs.microsoft.com/graph/api/driveitem-get-content-format?view=graph-rest-1.0&tabs=http) (file conversion)
-- [Working with Excel in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/excel?view=graph-rest-1.0) (workbook details)
+- [Download a file in another format](/graph/api/driveitem-get-content-format?view=graph-rest-1.0&tabs=http&preserve-view=true) (file conversion)
+- [Working with Excel in Microsoft Graph](/graph/api/resources/excel) (workbook details)
 
 ### Open XML file formats
 
@@ -71,5 +71,5 @@ Many automation tasks involve document creation or editing. Office supports Open
 
 Microsoft provides an SDK for manipulating Open XML file formats from the .NET 3.x Framework. For more information about the SDK and how to use the SDK to create or edit Open XML files, visit the following:
 
-- [Understanding the Open XML file formats](https://docs.microsoft.com/office/open-xml/understanding-the-open-xml-file-formats)
-- [Welcome to the Open XML SDK 2.5 for Office](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
+- [Understanding the Open XML file formats](/office/open-xml/understanding-the-open-xml-file-formats)
+- [Welcome to the Open XML SDK 2.5 for Office](/office/open-xml/open-xml-sdk)

@@ -9,7 +9,7 @@ ms.audience: Developer
   
 ms.localizationpriority: medium
 ms.assetid: 1eb9fafe-4916-4ec5-8ea5-861abd48e5e2
-description: ""
+description: This article provides a description and reference links for data actions (access custom web app).
 ---
 
 # Data actions (Access custom web app)
