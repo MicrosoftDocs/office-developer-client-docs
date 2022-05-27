@@ -5,7 +5,7 @@ ms.date: 08/18/2017
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 3dcb0228-9f44-4261-93ea-df519b0ebe38
-description: ""
+description: This article provides a description and reference links for conversion functions (access custom web app).
 ---
 
 # Conversion functions (Access custom web app)

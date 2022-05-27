@@ -1,7 +1,6 @@
 ---
 title: "PidTagContactAddressTypes Canonical Property"
- 
- 
+description: Outlines the PidTagContactAddressTypes canonical property, which contains a list of address types for a contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContactAddressTypes Canonical Property

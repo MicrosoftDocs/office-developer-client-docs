@@ -1,7 +1,6 @@
 ---
 title: "PidTagEntryId Canonical Property"
- 
- 
+description: Outlines the PidTagEntryId canonical property, which contains a MAPI entry identifier used to open and edit properties of a particular MAPI object. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ca02e873-c2d2-4d58-8df8-c05fbcdc8fba
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagEntryId Canonical Property

@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.localizationpriority: medium
 ms.assetid: 0c7a1d4f-6cb3-4901-a7aa-4e8002785a50
-description: ""
+description: This article describes and provides reference links for macro commands (access custom web app).
 ---
 
 # Macro commands (Access custom web app)

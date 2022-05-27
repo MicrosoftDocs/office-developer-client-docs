@@ -1,5 +1,6 @@
 ---
 title: "attConversationID and attParentID"
+description: "Describes the ConversationID and ParentID attributes."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bed36900-e44d-434b-a4f2-d10f2d6f70da
-description: "Last modified: March 12, 2013"
 ---
 
 # attConversationID and attParentID

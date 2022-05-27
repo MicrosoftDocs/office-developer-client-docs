@@ -1,7 +1,6 @@
 ---
 title: "PidTagFormDesignerGuid Canonical Property"
- 
- 
+description: Outlines the PidTagFormDesignerGuid canonical property, which contains the unique identifier for the object that is used to design a form.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8d7f5789-610c-47f6-a109-5513d677ef60
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFormDesignerGuid Canonical Property

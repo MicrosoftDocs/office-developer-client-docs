@@ -1,7 +1,6 @@
 ---
 title: "CbNewADRLIST"
- 
- 
+description: "CbNewADRLIST computes the number of bytes that should be allocated for a new ADRLIST structure that contains a specified number of recipients represented by ADRENTRY structures."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewADRLIST

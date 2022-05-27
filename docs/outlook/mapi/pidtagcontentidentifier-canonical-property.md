@@ -1,7 +1,6 @@
 ---
 title: "PidTagContentIdentifier Canonical Property"
- 
- 
+description: Outlines the PidTagContentIdentifier canonical property, which contains a key value that enables the message recipient to identify its content.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 33bf8251-37d5-47d0-88d2-5088bfaa147a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContentIdentifier Canonical Property

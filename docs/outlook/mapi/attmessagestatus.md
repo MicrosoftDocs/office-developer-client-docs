@@ -1,5 +1,6 @@
 ---
 title: "attMessageStatus"
+description: "Describes the MessageStatus attribute and provides a list of MAPI message and TNEF flags."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8f55470a-65b3-4210-a7d2-9031cb17ca80
-description: "Last modified: March 09, 2015"
  
  
 ---

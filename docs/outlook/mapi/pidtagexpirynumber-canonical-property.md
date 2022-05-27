@@ -1,7 +1,6 @@
 ---
 title: "PidTagExpiryNumber Canonical Property"
- 
- 
+description: Outlines the PidTagExpiryNumber canonical property, which defines the expiry send time in conjunction with the PR_EXPIRY_UNITS property.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 644e8d3d-1792-4417-95a1-e978d0e6cd8e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagExpiryNumber Canonical Property

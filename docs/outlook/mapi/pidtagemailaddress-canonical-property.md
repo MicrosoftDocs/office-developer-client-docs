@@ -1,7 +1,6 @@
 ---
 title: "PidTagEmailAddress Canonical Property"
- 
- 
+description: Outlines the PidTagEmailAddress canonical property, which contains the messaging user's email address. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bbd1e187-172e-4612-9efe-7c8e52967dfe
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagEmailAddress Canonical Property

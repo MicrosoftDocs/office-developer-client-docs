@@ -1,7 +1,6 @@
 ---
 title: "PidTagHomeAddressStreet Canonical Property"
- 
- 
+description: Outlines the PidTagHomeAddressStreet canonical property, which contains the street portion of a user's address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 557fd222-8513-4e8a-b605-3def955107dc
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagHomeAddressStreet Canonical Property

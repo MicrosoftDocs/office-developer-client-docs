@@ -1,7 +1,6 @@
 ---
 title: "PidTagExchangeProfileSectionId Canonical Property"
- 
- 
+description: Outlines the PidTagExchangeProfileSectionId canonical property, which contains a dynamically generated GUID.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4ad2f417-be8f-4fc8-9321-82097289074b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagExchangeProfileSectionId Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagContentCount Canonical Property"
- 
- 
+description: Outlines the PidTagContentCount canonical property, which contains the number of messages in a folder, as computed by the message store.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 27c75031-a968-4636-98a6-4a5b7422f57c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContentCount Canonical Property

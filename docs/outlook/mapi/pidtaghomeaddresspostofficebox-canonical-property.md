@@ -1,7 +1,6 @@
 ---
 title: "PidTagHomeAddressPostOfficeBox Canonical Property"
- 
- 
+description: Outlines the PidTagHomeAddressPostOfficeBox canonical property, which contains the post office box information for a user's address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c30377d3-6184-4c8a-8819-dd12c6b08ad4
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagHomeAddressPostOfficeBox Canonical Property

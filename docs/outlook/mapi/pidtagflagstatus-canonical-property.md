@@ -1,7 +1,6 @@
 ---
 title: "PidTagFlagStatus Canonical Property"
- 
- 
+description: Outlines the PidTagFlagStatus canonical property, which specifies the flag state of the message object.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b5117360-0939-4535-83fe-3b4a240b5217
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFlagStatus Canonical Property

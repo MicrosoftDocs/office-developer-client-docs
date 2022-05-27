@@ -1,7 +1,6 @@
 ---
 title: "PidTagExtendedRuleMessageActions Canonical Property"
- 
- 
+description: Outlines the PidTagExtendedRuleMessageActions canonical property, which contains additional information about the named properties used in an FAI message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1cf277d4-76ec-4902-9e54-f1780cee49bf
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagExtendedRuleMessageActions Canonical Property

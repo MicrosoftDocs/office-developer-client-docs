@@ -1,7 +1,6 @@
 ---
 title: "PidTagFollowupIcon Canonical Property"
- 
- 
+description: Outlines the PidTagFollowupIcon canonical property, which specifies the flag color of the message object.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 374cef41-141a-491b-8dd1-eaf1a2044204
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagFollowupIcon Canonical Property

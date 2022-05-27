@@ -5,7 +5,7 @@ ms.date: 08/18/2017
 ms.audience: Developer 
 ms.localizationpriority: medium
 ms.assetid: acd4e050-c3a4-4bcf-bd35-a06e7a93bbb1
-description: ""
+description: This article provides a description and reference links for date/time functions (access custom web app).
 ---
 
 # Date/time functions (Access custom web app)

@@ -1,7 +1,6 @@
 ---
 title: "PidTagContainerFlags Canonical Property"
- 
- 
+description: Outlines the PidTagContainerFlags canonical property, which contains a bitmask of flags describing capabilities of an address book container.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 66b8d333-227e-464d-8cf9-cd8a5ff15efb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContainerFlags Canonical Property

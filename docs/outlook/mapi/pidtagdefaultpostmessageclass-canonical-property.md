@@ -1,7 +1,6 @@
 ---
 title: "PidTagDefaultPostMessageClass Canonical Property"
- 
- 
+description: Outlines the PidTagDefaultPostMessageClass canonical property, which contains the name of a custom form Message class.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 231c288f-547b-4463-9442-1499661b925e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDefaultPostMessageClass Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "CbFLATMTSIDLIST"
- 
- 
+description: "CbFLATMTSIDLIST computes the number of bytes in an existing FLATMTSIDLIST structure."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1ecc7c15-ca8a-4af2-9256-b572b70be093
-description: "Last modified: March 09, 2015"
 ---
 
 # CbFLATMTSIDLIST

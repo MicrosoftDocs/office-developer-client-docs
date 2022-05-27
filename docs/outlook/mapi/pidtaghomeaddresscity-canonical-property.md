@@ -1,7 +1,6 @@
 ---
 title: "PidTagHomeAddressCity Canonical Property"
- 
- 
+description: Outlines the PidTagHomeAddressCity canonical property, which contains the city for the recipient's home address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9b94b8f6-4a40-4467-a115-4467daf782b9
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagHomeAddressCity Canonical Property

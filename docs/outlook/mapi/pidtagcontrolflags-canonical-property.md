@@ -1,7 +1,6 @@
 ---
 title: "PidTagControlFlags Canonical Property"
- 
- 
+description: Outlines the PidTagControlFlags canonical property, which contains a bitmask of flags governing the behavior of a control.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b97a9e72-fbb7-49ab-a19d-5e9bd1b8a80d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagControlFlags Canonical Property

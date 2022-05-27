@@ -28,4 +28,4 @@ Business objects can be executable files (.exe) or dynamic-link libraries (.dll)
 
 ## See also
 
-- [Running Business Objects in Component Services (SQL Server)](https://docs.microsoft.com/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017)
+- [Running Business Objects in Component Services (SQL Server)](/sql/ado/guide/remote-data-service/running-business-objects-in-component-services?view=sql-server-2017&preserve-view=true)

@@ -1,7 +1,6 @@
 ---
 title: "PidTagDeferredDeliveryTime Canonical Property"
- 
- 
+description: Outlines the PidTagDeferredDeliveryTime canonical property, which contains the date and time when a message sender wants a message delivered. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 263ac923-692f-40d4-bdd5-116dc5c49766
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDeferredDeliveryTime Canonical Property

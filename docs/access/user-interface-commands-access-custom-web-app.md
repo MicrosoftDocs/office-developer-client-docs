@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.localizationpriority: medium
 ms.assetid: 67c3bdd1-ffe3-4fed-ad7f-d47a2d646e21
-description: ""
+description: Describes and provides reference links for string operators (access custom web app).
 ---
 
 # User interface commands (Access custom web app)
