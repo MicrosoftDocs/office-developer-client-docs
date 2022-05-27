@@ -1,7 +1,6 @@
 ---
 title: "PidTagExceptionEndTime Canonical Property"
- 
- 
+description: Outlines the PidTagExceptionEndTime canonical property, which indicates the end date and time of the exception in the local time zone.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f57f20d5-5a63-42d1-be59-9880456bb05c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagExceptionEndTime Canonical Property

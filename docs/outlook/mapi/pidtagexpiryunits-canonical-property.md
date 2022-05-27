@@ -1,7 +1,6 @@
 ---
 title: "PidTagExpiryUnits Canonical Property"
- 
- 
+description: Outlines the PidTagExpiryUnits canonical property, which describes the unit of time when the PR_EXPIRY_NUMBER property multiplies.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f6a1ca22-cf4c-4e59-8846-6bd937fa8f6e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagExpiryUnits Canonical Property

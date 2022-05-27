@@ -1,7 +1,6 @@
 ---
 title: "PidTagDeferredSendNumber Canonical Property"
- 
- 
+description: Outlines the PidTagDeferredSendNumber canonical property, which contains a number that can be used to compute the deferment of sending a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8ada5c9b-bec5-42d8-bc58-f0411ec4e88b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDeferredSendNumber Canonical Property

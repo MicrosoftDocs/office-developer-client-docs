@@ -1,7 +1,6 @@
 ---
 title: "PidTagDisplayName Canonical Property"
- 
- 
+description: Outlines the PidTagDisplayName canonical property, which contains the display name for a given MAPI object. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd094e00-5c60-4bb3-9a45-b943fab52876
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDisplayName Canonical Property

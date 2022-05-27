@@ -1,7 +1,6 @@
 ---
 title: "PidTagDisplayBcc Canonical Property"
- 
- 
+description: Outlines the PidTagDisplayBcc canonical property, which contains an ASCII list of the display names of any BCC message recipients.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ab5bcd67-d54e-46e9-b94e-a652aac3e81c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDisplayBcc Canonical Property

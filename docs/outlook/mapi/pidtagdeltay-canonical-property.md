@@ -1,7 +1,6 @@
 ---
 title: "PidTagDeltaY Canonical Property"
- 
- 
+description: Outlines the PidTagDeltaY canonical property, which contains the height of a dialog box control in standard Windows dialog units. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDeltaY Canonical Property

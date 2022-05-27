@@ -1,7 +1,6 @@
 ---
 title: "PidTagDistributionListExpansionProhibited Canonical Property"
- 
- 
+description: Outlines the PidTagDistributionListExpansionProhibited canonical property, which contains TRUE if an MTA is prohibited from expanding distribution lists.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 80c11dd3-775b-4c66-afc2-b31d7bbcad9f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDistributionListExpansionProhibited Canonical Property

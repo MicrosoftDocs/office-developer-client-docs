@@ -1,7 +1,6 @@
 ---
 title: "PidTagDefaultViewEntryId Canonical Property"
- 
- 
+description: Outlines the PidTagDefaultViewEntryId canonical property, which contains the entry identifier of a folder's default view.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1b4e82ed-c207-4828-8a5b-0ef312962355
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDefaultViewEntryId Canonical Property

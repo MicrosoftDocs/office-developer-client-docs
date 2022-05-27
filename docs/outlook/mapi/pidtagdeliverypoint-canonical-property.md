@@ -1,7 +1,6 @@
 ---
 title: "PidTagDeliveryPoint Canonical Property"
- 
- 
+description: Outlines the PidTagDeliveryPoint canonical property, which specifies the nature of the functional entity by means of which a message was delivered.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 715a9dbd-78f8-41e1-a76e-29448d06ec19
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDeliveryPoint Canonical Property
