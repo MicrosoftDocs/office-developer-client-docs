@@ -1,7 +1,6 @@
 ---
 title: "PidTagConversationIndex Canonical Property"
- 
- 
+description: Outlines the PidTagConversationIndex canonical property, which contains a binary value that indicates the position of this message within a conversation thread.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c65cdda7-9515-4da9-be75-43ebf45a02df
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagConversationIndex Canonical Property

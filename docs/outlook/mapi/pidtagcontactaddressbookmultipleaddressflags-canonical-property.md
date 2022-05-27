@@ -1,7 +1,6 @@
 ---
 title: "PidTagContactAddressBookMultipleAddressFlags Canonical Property"
- 
- 
+description: Outlines the PidTagContactAddressBookMultipleAddressFlags canonical property, which applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ed3bc585-13f6-46a5-9e71-9c8513ddfc0a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContactAddressBookMultipleAddressFlags Canonical Property

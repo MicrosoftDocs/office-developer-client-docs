@@ -1,7 +1,6 @@
 ---
 title: "PidTagContentIntegrityCheck Canonical Property"
- 
- 
+description: Outlines the PidTagContentIntegrityCheck canonical property, which provides for non-repudiation of message content.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c7f10b8a-6b20-44cf-bde6-8d2b711c1c14
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContentIntegrityCheck Canonical Property

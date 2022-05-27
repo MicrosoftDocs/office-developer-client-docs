@@ -1,7 +1,6 @@
 ---
 title: "PidTagContentUnreadCount Canonical Property"
- 
- 
+description: Outlines the PidTagContentUnreadCount canonical property, which contains the number of unread messages in a folder, as computed by the message store.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 4fe207e9-a77f-46b9-b51d-d989847a9d02
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContentUnreadCount Canonical Property

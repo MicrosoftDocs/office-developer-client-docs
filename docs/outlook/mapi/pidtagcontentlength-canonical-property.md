@@ -1,7 +1,6 @@
 ---
 title: "PidTagContentLength Canonical Property"
- 
- 
+description: Outlines the canonical property, which contains a message length, in bytes, passed to a client application or service provider.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContentLength Canonical Property
