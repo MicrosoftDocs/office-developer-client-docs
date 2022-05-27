@@ -30,6 +30,6 @@ Find how-to content, technical articles, reference content, and blog posts for d
   
 - [Open XML SDK](/office/open-xml/open-xml-sdk)
   
-- [VSTO Add-ins for Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [VSTO Add-ins for Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true)
   
 
