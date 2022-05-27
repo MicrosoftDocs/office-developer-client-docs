@@ -1,7 +1,6 @@
 ---
 title: "PidTagConversionProhibited Canonical Property"
- 
- 
+description: Outlines the PidTagConversionProhibited canonical property, which contains TRUE if message conversions are prohibited by default.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9bd67185-9449-4db2-b3ee-93ea513e10e2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagConversionProhibited Canonical Property

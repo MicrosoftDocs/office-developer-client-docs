@@ -1,7 +1,6 @@
 ---
 title: "PidTagConversationTopic Canonical Property"
- 
- 
+description: Outlines the PidTagConversationTopic canonical property, which contains the topic of the first message in a conversation thread.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db852b99-ce04-49bf-a714-7549571502e2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagConversationTopic Canonical Property

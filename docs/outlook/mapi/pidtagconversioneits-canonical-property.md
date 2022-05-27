@@ -1,7 +1,6 @@
 ---
 title: "PidTagConversionEits Canonical Property"
- 
- 
+description: Outlines the PidTagConversionEits canonical property, which contains the encoded information types (EITs).
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f75ea086-9d65-4396-a2e3-1751351e56d3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagConversionEits Canonical Property

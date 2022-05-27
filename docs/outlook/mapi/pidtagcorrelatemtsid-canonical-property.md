@@ -1,7 +1,6 @@
 ---
 title: "PidTagCorrelateMtsid Canonical Property"
- 
- 
+description: Outlines the PidTagCorrelateMtsid canonical property, which contains the MTS identifier used in correlating reports with sent messages.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d0fc4e91-ed90-4d27-bd23-f01e99728e2d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagCorrelateMtsid Canonical Property

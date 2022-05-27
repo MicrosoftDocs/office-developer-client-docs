@@ -1,7 +1,6 @@
 ---
 title: "PidTagContainerClass Canonical Property"
- 
- 
+description: Outlines the PidTagContainerClass canonical property, which contains a text string describing the type of a folder.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: db249e9e-f1f0-4b95-8cd9-daa7c53ddb32
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContainerClass Canonical Property

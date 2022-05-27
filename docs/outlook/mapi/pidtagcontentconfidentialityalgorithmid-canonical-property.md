@@ -1,7 +1,6 @@
 ---
 title: "PidTagContentConfidentialityAlgorithmId Canonical Property"
- 
- 
+description: Outlines the PidTagContentConfidentialityAlgorithmId canonical property, which contains an identifier used to confirm message content confidentiality.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 18324a5d-aedc-4456-b2f0-6bc42b6ab882
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContentConfidentialityAlgorithmId Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagContactAddressBookStoreName Canonical Property"
- 
- 
+description: Outlines the PidTagContactAddressBookStoreName canonical property, which contains the display name of the store associated with the Address Book provider.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 84c1b0cb-91aa-4238-ac74-a129a6e2cdd6
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContactAddressBookStoreName Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagControlType Canonical Property"
- 
- 
+description: Outlines the PidTagControlType canonical property, which contains a value indicating a control type for a control used in a dialog box.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7728fa2f-4a59-4e86-90f1-4384824598aa
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagControlType Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagCountry Canonical Property"
- 
- 
+description: Outlines the PidTagCountry canonical property, which contains the name of the recipient's country/region.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c9470496-fb37-4019-ae1b-b4f93ac55048
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagCountry Canonical Property
