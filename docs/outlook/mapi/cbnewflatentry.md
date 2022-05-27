@@ -1,7 +1,6 @@
 ---
 title: "CbNewFLATENTRY"
- 
- 
+description: "CbNewFLATENTRY computes the number of bytes that should be allocated for a new FLATENTRY structure that contains an entry identifier of a specified byte size."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

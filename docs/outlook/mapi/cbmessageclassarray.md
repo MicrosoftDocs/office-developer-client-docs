@@ -1,7 +1,6 @@
 ---
 title: "CbMessageClassArray"
- 
- 
+description: "CbMessageClassArray computes the number of bytes in an existing SMessageClassArray structure that contains a specified number of string pointers to message classes."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

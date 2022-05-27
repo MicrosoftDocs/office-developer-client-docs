@@ -1,5 +1,6 @@
 ---
 title: "About the Store API"
+description: "The Store API provides miscellaneous store functionality to store providers. This article describes related definitions, data types, properties, and interfaces."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

@@ -1,5 +1,6 @@
 ---
 title: "About the Sample Wrapped PST Store Provider"
+description: "Describes the Sample Wrapped PST Store Provider, which uses the Personal Folders file (PST) provider as the back end for storing data."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

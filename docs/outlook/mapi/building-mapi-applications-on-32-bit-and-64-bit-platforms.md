@@ -1,5 +1,6 @@
 ---
 title: "Building MAPI applications on 32-bit and 64-bit platforms"
+description: "Describes the actions that MAPI developers should take to change and rebuild 32-bit MAPI applications to run on a 64-bit platform, and 64-bit applications to run on a 32-bit platform."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

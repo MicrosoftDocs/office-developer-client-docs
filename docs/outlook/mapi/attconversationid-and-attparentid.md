@@ -1,5 +1,6 @@
 ---
 title: "attConversationID and attParentID"
+description: "Describes the ConversationID and ParentID attributes."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

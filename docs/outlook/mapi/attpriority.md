@@ -1,5 +1,6 @@
 ---
 title: "attPriority"
+description: "Shows how MAPI message priorities are mapped to TNEF values for backward compatibility."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

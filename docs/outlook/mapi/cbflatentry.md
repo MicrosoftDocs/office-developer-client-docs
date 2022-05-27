@@ -1,7 +1,6 @@
 ---
 title: "CbFLATENTRY"
- 
- 
+description: "CbFLATENTRY computes the number of bytes in an existing FLATENTRY structure."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

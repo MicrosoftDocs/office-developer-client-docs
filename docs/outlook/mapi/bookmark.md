@@ -1,7 +1,6 @@
 ---
 title: "BOOKMARK"
- 
- 
+description: "Describes the syntax and remarks about BOOKMARK, which defines bookmarks data for remembering a position in a table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

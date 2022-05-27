@@ -1,7 +1,6 @@
 ---
 title: "CbMAPIFormInfoArray"
- 
- 
+description: "CbMAPIFormInfoArray computes the number of bytes in an existing SMAPIFormInfoArray structure that contains a specified number of form information objects."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

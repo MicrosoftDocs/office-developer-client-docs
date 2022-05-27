@@ -1,5 +1,6 @@
 ---
 title: "API Elements Deprecated in This Edition"
+description: "Describes API elements that are no longer supported and should not be used in Microsoft Outlook 2013."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

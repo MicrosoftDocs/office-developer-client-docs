@@ -1,5 +1,6 @@
 ---
 title: "Avoiding Certain Methods at Startup"
+description: "Describes how to improve performance at startup time in Outlook by avoiding certain methods."
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer

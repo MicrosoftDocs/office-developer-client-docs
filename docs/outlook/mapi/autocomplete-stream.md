@@ -1,5 +1,6 @@
 ---
 title: "Autocomplete Stream"
+description: "Describes the autocomplete stream, which is a set of recipient property rows that are saved as a binary stream together with some bookkeeping metadata that is used only by certain versions of Microsoft Outlook."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

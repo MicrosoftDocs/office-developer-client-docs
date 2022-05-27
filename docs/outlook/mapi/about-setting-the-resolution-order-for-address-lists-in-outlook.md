@@ -1,5 +1,6 @@
 ---
 title: "About Setting the Resolution Order for Address Lists in Outlook"
+description: "Describes how to set the resolution order for address lists by which recipients in email messages and attendees in meeting requests are resolved in Microsoft Outlook."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
