@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 **Applies to**: Access 2013, Office 2013
 
-ADO is a COM automation interface component that can be used with many programming languages, including Microsoft Visual Basic, VBScript, JScript, Visual C++, and Visual J++. A version of ADO is installed with each of these tools and other applications, such as Microsoft Office and Microsoft SQL Server. See the [Data Platform Developer Center](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017) for more information.
+ADO is a COM automation interface component that can be used with many programming languages, including Microsoft Visual Basic, VBScript, JScript, Visual C++, and Visual J++. A version of ADO is installed with each of these tools and other applications, such as Microsoft Office and Microsoft SQL Server. See the [Data Platform Developer Center](/sql/connect/sql-data-developer?view=sql-server-2017) for more information.
 
 The library for ADO is msado15.dll and the program ID (ProgID) prefix is "ADODB." For example, to explicitly refer to an ADO [Recordset](recordset-object-ado.md), use .
 

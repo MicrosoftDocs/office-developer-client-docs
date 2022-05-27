@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.localizationpriority: medium
 ms.assetid: 9ddc9d58-3d6e-4d0e-b189-5b1e9f899ad2
-description: ""
+description: This article describes and provides reference links for operators (access custom web app).
 ---
 
 # Operators (Access custom web app)

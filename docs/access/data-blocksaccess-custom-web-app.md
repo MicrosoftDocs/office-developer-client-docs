@@ -9,7 +9,7 @@ ms.audience: Developer
   
 ms.localizationpriority: medium
 ms.assetid: 5d16f744-0ba2-4db8-9be8-55611c1b69d2
-description: ""
+description: This article provides a description and reference links for data blocks (access custom web app).
 ---
 
 # Data blocks (Access custom web app)

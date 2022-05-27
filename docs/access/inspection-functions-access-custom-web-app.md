@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.localizationpriority: medium
 ms.assetid: 89e72599-cf1a-43ec-9210-18febaea89af
-description: ""
+description: This article describes and provides reference links for inspection functions (access custom web app).
 ---
 
 # Inspection functions (Access custom web app)

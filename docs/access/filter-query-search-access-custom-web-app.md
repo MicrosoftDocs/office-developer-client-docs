@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.localizationpriority: medium
 ms.assetid: 1a570735-7aa6-45ed-922e-c659a266de76
-description: ""
+description: This article describes and provides reference links for filter/query/search (access custom web app).
 ---
 
 # Filter/query/search (Access custom web app)

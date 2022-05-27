@@ -5,7 +5,7 @@ ms.date: 08/18/2017
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: f2bfd27a-e6cd-4d07-b03f-071ed40c15a6
-description: ""
+description: This article provides a description and reference links for database functions (access custom web app).
 ---
 
 # Database functions (Access custom web app)

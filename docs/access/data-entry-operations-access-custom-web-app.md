@@ -9,7 +9,7 @@ ms.audience: Developer
   
 ms.localizationpriority: medium
 ms.assetid: a63197ca-f2ff-49de-9b1b-11a2a7925d0f
-description: ""
+description: This article provides a description and reference links for data entry operations (access custom web app).
 ---
 
 # Data entry operations (Access custom web app)

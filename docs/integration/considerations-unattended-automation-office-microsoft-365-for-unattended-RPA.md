@@ -62,8 +62,8 @@ The Microsoft Graph API provides access to the services, data, and intelligence 
 
 - [Overview of Microsoft Graph](https://docs.microsoft.com/graph/overview) 
 - [Get started with Microsoft Graph](https://developer.microsoft.com/graph/get-started)
-- [Download a file in another format](https://docs.microsoft.com/graph/api/driveitem-get-content-format?view=graph-rest-1.0&tabs=http) (file conversion)
-- [Working with Excel in Microsoft Graph](https://docs.microsoft.com/graph/api/resources/excel?view=graph-rest-1.0) (workbook details)
+- [Download a file in another format](/graph/api/driveitem-get-content-format?view=graph-rest-1.0&tabs=http) (file conversion)
+- [Working with Excel in Microsoft Graph](/graph/api/resources/excel?view=graph-rest-1.0) (workbook details)
 
 ### Open XML file formats
 

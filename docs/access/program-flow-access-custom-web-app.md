@@ -9,7 +9,7 @@ ms.topic: reference
   
 ms.localizationpriority: medium
 ms.assetid: bfc3548e-f4e5-4e07-896e-6884269085e5
-description: ""
+description: This article describes and provides reference links for program flow (access custom web app).
 ---
 
 # Program flow (Access custom web app)

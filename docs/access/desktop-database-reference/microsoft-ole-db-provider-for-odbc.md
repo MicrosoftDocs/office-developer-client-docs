@@ -1441,5 +1441,5 @@ The following properties are added to the **Command** object's **Properties** co
 
 ## See also
 
-For details regarding specific implementation and functional information about the Microsoft OLE DB Provider for ODBC, consult the [OLE DB Programmer's Guide](https://docs.microsoft.com/previous-versions/windows/desktop/ms713643(v=vs.85)) or visit the [Data Platform Developer Center](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017).
+For details regarding specific implementation and functional information about the Microsoft OLE DB Provider for ODBC, consult the [OLE DB Programmer's Guide](/previous-versions/windows/desktop/ms713643(v=vs.85)) or visit the [Data Platform Developer Center](/sql/connect/sql-data-developer?view=sql-server-2017).
 
