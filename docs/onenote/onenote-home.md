@@ -16,7 +16,7 @@ Find how-to content, technical articles, reference content, and blog posts for d
 > The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](https://dev.onenote.com/). 
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins).  
+> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).  
   
 ## Contents
   
@@ -24,11 +24,11 @@ Find how-to content, technical articles, reference content, and blog posts for d
    
 ## Other resources
   
-- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
+- [Office VBA Object library reference]/office/vba/api/overview/library-reference)
   
-- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference)
+- [Office VBA language reference](/office/vba/api/overview/language-reference)
   
-- [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
+- [Open XML SDK](/office/open-xml/open-xml-sdk)
   
 - [VSTO Add-ins for Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
