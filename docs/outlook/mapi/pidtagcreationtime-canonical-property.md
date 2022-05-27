@@ -1,7 +1,6 @@
 ---
 title: "PidTagCreationTime Canonical Property"
- 
- 
+description: Outlines the PidTagCreationTime canonical property, which contains the creation date and time of a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 13122af2-06c8-4342-983d-e38178743d8f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagCreationTime Canonical Property

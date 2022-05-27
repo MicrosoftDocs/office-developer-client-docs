@@ -1,7 +1,6 @@
 ---
 title: "PidTagExceptionReplaceTime Canonical Property"
- 
- 
+description: Outlines the PidTagExceptionReplaceTime canonical property, which applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bd4d1311-15e4-4275-a967-c6d11d2e48d2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagExceptionReplaceTime Canonical Property

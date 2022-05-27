@@ -1,7 +1,6 @@
 ---
 title: "PidTagDisplayTo Canonical Property"
- 
- 
+description: Outlines the PidTagDisplayTo canonical property, which contains a list of the display names of the primary (To) message recipients.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 700cc03b-5d98-40ce-adb5-a11fdac8aa28
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagDisplayTo Canonical Property

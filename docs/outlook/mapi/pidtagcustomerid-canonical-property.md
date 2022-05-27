@@ -1,7 +1,6 @@
 ---
 title: "PidTagCustomerId Canonical Property"
- 
- 
+description: This article outlines the PidTagCustomerId canonical property, which contains the contact's customer ID number.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 85d1c44d-caab-48dc-a6a0-ad201cc365f7
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagCustomerId Canonical Property
