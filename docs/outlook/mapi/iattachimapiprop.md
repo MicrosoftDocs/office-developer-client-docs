@@ -1,7 +1,6 @@
 ---
 title: "IAttach  IMAPIProp"
 description: This article describes IAttach IMAPIProp providing access to the properties of attachments in messages.
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

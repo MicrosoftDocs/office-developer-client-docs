@@ -1,8 +1,6 @@
 ---
 title: "HrIStorageFromStream"
 description: This article describes HrIStorageFromStream provides syntax, parameters, return value, and additional remarks.
- 
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

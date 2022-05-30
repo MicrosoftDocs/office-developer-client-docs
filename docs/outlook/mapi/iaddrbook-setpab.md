@@ -1,7 +1,6 @@
 ---
 title: "IAddrBookSetPAB"
 description: This article describes the IAddrBookSetPAB function and  provides syntax, parameters, return value, and additional remarks.
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

@@ -1,7 +1,6 @@
 ---
 title: "IAddrBookGetPAB"
 description: The IAddrBookGetPAB returns the entry identifier of the container that is designated as the personal address book (PAB).
- 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
