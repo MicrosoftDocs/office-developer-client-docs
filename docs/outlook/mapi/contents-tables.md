@@ -1,5 +1,6 @@
 ---
 title: "Contents Tables"
+description: "Describes contents tables, which contain information about objects in a MAPI container."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7b8efb4e-b5be-41b8-81bb-9aa1da421433
-description: "Last modified: March 09, 2015"
  
  
 ---

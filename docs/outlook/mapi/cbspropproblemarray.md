@@ -1,7 +1,6 @@
 ---
 title: "CbSPropProblemArray"
- 
- 
+description: "CbSPropProblemArray computes the number of bytes in an existing SPropProblemArray structure."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
-description: "Last modified: March 09, 2015"
 ---
 
 # CbSPropProblemArray

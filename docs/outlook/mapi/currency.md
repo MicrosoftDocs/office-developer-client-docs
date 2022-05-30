@@ -1,7 +1,6 @@
 ---
 title: "CURRENCY"
- 
- 
+description: "CURRENCY contains a signed 64-bit integer representing a currency value. This article describes its members and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cffc05a0-95e4-4b9f-bf8f-c4272a75afa8
-description: "Last modified: March 09, 2015"
 ---
 
 # CURRENCY

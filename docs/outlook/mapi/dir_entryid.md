@@ -1,7 +1,6 @@
 ---
 title: "DIR_ENTRYID"
- 
- 
+description: "DIR_ENTRYID describes the properties of a directory entry id. This article describes its members and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
-description: "Last modified: March 09, 2015"
 ---
 
 # DIR_ENTRYID

@@ -1,5 +1,6 @@
 ---
 title: "Client Naming Responsibilities"
+description: "All properties to be translated should be created as named properties in one of the five sets designated to hold mappable properties."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
-description: "Last modified: March 09, 2015"
  
  
 ---

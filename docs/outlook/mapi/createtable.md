@@ -1,7 +1,6 @@
 ---
 title: "CreateTable"
- 
- 
+description: "CreateTable creates structures and an object handle for an ITableData object which can be used to create table contents."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
-description: "Last modified: March 09, 2015"
 ---
 
 # CreateTable

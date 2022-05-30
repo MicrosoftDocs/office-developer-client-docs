@@ -1,5 +1,6 @@
 ---
 title: "Copying or moving a message or a folder"
+description: "Describes the four methods used to copy or move a message or a folder in Microsoft Outlook."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 72290fd3-00d7-4055-bbfa-0c47b6e0f62d
-description: "Last modified: November 08, 2011"
 ---
 
 # Copying or moving a message or a folder

@@ -1,7 +1,6 @@
 ---
 title: "CbNewSSortOrderSet"
- 
- 
+description: "CbNewSSortOrderSet computes the number of bytes to be allocated for a new SizedSSortOrderSet structure that contains a specified number of sort orders represented by SSortOrder structures."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2fb67e0-ccdb-4eb0-9f8c-75213442159f
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewSSortOrderSet

@@ -1,7 +1,6 @@
 ---
 title: "CbNewFLATMTSIDLIST"
- 
- 
+description: "CbNewFLATMTSIDLIST computes the number of bytes that should be allocated for a new FLATMTSIDLIST structure that contains several MTSID structures of a specified size."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 26628646-7948-4341-aaef-5c476a857a52
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewFLATMTSIDLIST

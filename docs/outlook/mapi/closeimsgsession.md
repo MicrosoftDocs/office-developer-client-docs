@@ -1,7 +1,6 @@
 ---
 title: "CloseIMsgSession"
- 
- 
+description: "CloseIMsgSession closes a message session and all the messages created within that session."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0a17309-fc59-4822-be9b-b6f623b68bb1
-description: "Last modified: March 09, 2015"
 ---
 
 # CloseIMsgSession

@@ -1,7 +1,6 @@
 ---
 title: "CbSPropAttrArray"
- 
- 
+description: "CbSPropAttrArray computes the number of bytes in an existing SPropAttrArray structure."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5c64258f-6828-43d7-be69-b294b0773717
-description: "Last modified: March 09, 2015"
 ---
 
 # CbSPropAttrArray

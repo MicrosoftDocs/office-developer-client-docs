@@ -1,7 +1,6 @@
 ---
 title: "CreateIProp"
- 
- 
+description: "CreateIProp creates a property data object, that is, an IPropData object. This article describes its parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9bf68814-2564-433d-b762-3d2c83ca3c60
-description: "Last modified: March 09, 2015"
 ---
 
 # CreateIProp
