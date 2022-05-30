@@ -1,11 +1,11 @@
 ---
 title: "Download Message Header State"
+description: "This topic describes what happens during the download message header state of the replication state machine."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
-description: "Last modified: March 09, 2015"
  
  
 ---

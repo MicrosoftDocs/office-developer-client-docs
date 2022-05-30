@@ -1,5 +1,6 @@
 ---
 title: "DNTBL"
+description: "DNTBL provides information for downloading the contents of a folder from the server during the download table state, as part of a full synchronization for contents on a store."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
-description: "Last modified: July 05, 2012"
 ---
 
 # DNTBL

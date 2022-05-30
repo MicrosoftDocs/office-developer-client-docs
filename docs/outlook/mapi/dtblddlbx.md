@@ -1,7 +1,6 @@
 ---
 title: "DTBLDDLBX"
- 
- 
+description: "DTBLDDLBX describes a drop-down list control that will be used in a dialog box built from a display table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cf60584c-4357-44c7-9d51-f30f7e510c0c
-description: "Last modified: March 09, 2015"
 ---
 
 # DTBLDDLBX
