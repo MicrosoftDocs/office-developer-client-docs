@@ -1,6 +1,6 @@
 ---
 title: "HrComposeEID"
-description: Describes HrComposeEID and provides syntax, parameters, and return value.
+description: The HrComposeEID function creates a compound entry identifier for an object, usually a message in a message store.
  
 manager: soliver
 ms.date: 03/09/2015

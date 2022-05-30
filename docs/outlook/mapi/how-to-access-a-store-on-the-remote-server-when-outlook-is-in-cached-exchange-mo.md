@@ -1,6 +1,6 @@
 ---
 title: "Access a message store on the remote server when Outlook is in Cached Exchange Mode"
-description: Describes how to access a message store on the remote server when Outlook is in Cached Exchange Mode.
+description: This article describes how to access a message store on the remote server when Outlook is in Cached Exchange Mode.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

@@ -1,6 +1,6 @@
 ---
 title: "Detect the version of Exchange Server in an Outlook profile"
-description: This article describes how to detect the version of Exchange Server in an Outlook profile.
+description: This topic includes a code sample in C++ that shows how to detect the version of Exchange Server in an Outlook profile.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

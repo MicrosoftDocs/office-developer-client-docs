@@ -1,6 +1,6 @@
 ---
 title: "Link to MAPI functions"
-description: This article describes the three methods of linking to MAPI functions.
+description: Describes the three methods of linking; implicit linking, explicit linking, and a new hybrid model using the MAPI Stub Library.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

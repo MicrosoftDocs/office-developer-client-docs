@@ -1,6 +1,6 @@
 ---
 title: "HrAllocAdviseSink"
-description: Describes HrAllocAdviseSink and provides syntax, parameters, and return value.
+description: This article describes the HrAllocAdviseSink function and provides syntax, parameters, and return value.
  
  
 manager: soliver

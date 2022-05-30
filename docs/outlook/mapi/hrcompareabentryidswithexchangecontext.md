@@ -1,6 +1,6 @@
 ---
 title: "HrCompareABEntryIDsWithExchangeContext"
-description: Describes HrCompareABEntryIDsWithExchangeContext and provides syntax, parameters, and return value.
+description: The HrCompareABEntryIDsWithExchangeContext function compares two address book entryIDs safely in a Multiple Exchange profile.
  
 manager: soliver
 ms.date: 03/09/2015

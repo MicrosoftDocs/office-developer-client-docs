@@ -1,6 +1,6 @@
 ---
 title: "Get the email address of a Contact item"
-description: Describes how to get the email address of a Contact item and provides syntax.
+description: Shows how to obtain the value of a named property that represents the email address of an Microsoft Outlook 2010 or Microsoft Outlook 2013 Contact item.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

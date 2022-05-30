@@ -1,6 +1,6 @@
 ---
 title: "HrDoABDetailsWithExchangeContext"
-description: Describes HrDoABDetailsWithExchangeContext and provides syntax and parameters.
+description: This article describes the HrDoABDetailsWithExchangeContext function and provides syntax and parameters.
  
 manager: soliver
 ms.date: 03/09/2015

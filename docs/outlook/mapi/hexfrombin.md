@@ -1,6 +1,6 @@
 ---
 title: "HexFromBin"
-description: Describes HexFromBin and provides syntax, parameters, and return value.
+description: The HexFromBin function converts a binary number into a string representation of a hexadecimal number.
  
 manager: soliver
 ms.date: 03/09/2015

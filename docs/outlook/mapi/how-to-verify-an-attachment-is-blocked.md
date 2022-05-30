@@ -1,6 +1,6 @@
 ---
 title: "Verify an attachment is blocked"
-description: Describes how to verify an attachment is blocked and provides syntax.
+description: This article describes how to verify an attachment is blocked by Microsoft Outlook 2010 or Microsoft Outlook 2013 for viewing and indexing and provides syntax.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

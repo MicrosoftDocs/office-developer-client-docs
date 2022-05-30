@@ -1,6 +1,6 @@
 ---
 title: "Programmatically set the resolution order for address lists"
-description: This article describes how to programmatically set the resolution order for address lists.
+description: This article describes how to programmatically set the resolution order for address lists with code sample.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

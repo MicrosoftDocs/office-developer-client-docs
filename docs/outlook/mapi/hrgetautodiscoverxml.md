@@ -1,6 +1,6 @@
 ---
 title: "HrGetAutoDiscoverXML" 
-description: Describes HrGetAutoDiscoverXML and provides syntax, parameters, and return value.
+description: This article describes the HrGetAutoDiscoverXML function and provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

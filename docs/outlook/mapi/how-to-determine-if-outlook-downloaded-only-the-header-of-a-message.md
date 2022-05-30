@@ -1,6 +1,6 @@
 ---
 title: "Determine if Outlook downloaded only the header of a message"
-description: This article describes how to determine if Outlook is downloaded only in the header of a message.
+description: This topic shows a code sample in Visual C++ to determine if Outlook is downloaded only in the header of a message.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

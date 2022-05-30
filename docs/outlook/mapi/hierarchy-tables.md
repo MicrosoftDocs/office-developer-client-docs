@@ -1,6 +1,6 @@
 ---
 title: "Hierarchy Tables"
-description: This article provides a detailed overview and interaction with hierarchy tables.
+description: A hierarchy table contains information about the folders in a message store or the containers in an address book container.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

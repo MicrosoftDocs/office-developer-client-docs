@@ -1,6 +1,6 @@
 ---
 title: "HrDoABDetailsWithProviderUID"
-description: Describes HrDoABDetailsWithProviderUID and provides syntax and parameters.
+description: The HrDoABDetailsWithProviderUID function ensures that the OpenEntry method is opened by the expected Exchange address book provider.
  
  
 manager: soliver
