@@ -1,6 +1,6 @@
 ---
 title: "FtSubFt"
- 
+description: Describes FtSubFt and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6619fc41-5518-44ce-85c1-6b0077ed5cb9
-description: "Last modified: March 09, 2015"
 ---
 
 # FtSubFt

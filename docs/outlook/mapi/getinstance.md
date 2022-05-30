@@ -1,6 +1,6 @@
 ---
 title: "GetInstance"
- 
+description: Describes GetInstance and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb432d52-6c96-45d2-bbde-45b0de3f915c
-description: "Last modified: March 09, 2015"
 ---
 
 # GetInstance

@@ -1,5 +1,6 @@
 ---
 title: "FBadSortOrderSet"
+description: Describes FBadSortOrderSet and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
-description: "Last modified: March 09, 2015"
 ---
 
 # FBadSortOrderSet

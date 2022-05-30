@@ -1,5 +1,6 @@
 ---
 title: "Gateway mappable properties"
+description: This article provides an overview of gateway mappable properties.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3a51ee7e-d030-4f04-915b-ff8bd351207d
-description: "Last modified: March 09, 2015"
 ---
 
 # Gateway mappable properties

@@ -1,5 +1,6 @@
 ---
 title: "HandsOffAfterSave State"
+description: This article describes allowed transitions of the HandsOffAfterSave state.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,9 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ffdfed49-2c52-445c-8051-6e566f61eedc
-description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # HandsOffAfterSave State

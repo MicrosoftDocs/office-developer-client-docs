@@ -1,5 +1,6 @@
 ---
 title: "FILETIME"
+description: Describes FILETIME and provides syntax, members, and additional remarks.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4af8e79a-697e-44a1-8576-fdc57726e9ef
-description: "Last modified: March 09, 2015"
 ---
 
 # FILETIME

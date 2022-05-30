@@ -1,6 +1,6 @@
 ---
 title: "FPropExists"
- 
+ description: Describes FPropExists and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
-description: "Last modified: March 09, 2015"
 ---
 
 # FPropExists

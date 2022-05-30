@@ -1,6 +1,6 @@
 ---
 title: "FLATENTRY"
- 
+description: Describes FLATENTRY and provides syntax, members, and additional remarks.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
-description: "Last modified: March 09, 2015"
 ---
 
 # FLATENTRY

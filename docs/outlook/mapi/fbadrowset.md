@@ -1,5 +1,6 @@
 ---
 title: "FBadRowSet"
+description: Describes FBadRowSet and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3890dd50-e6ca-4859-bada-f6752ab61d41
-description: "Last modified: March 09, 2015"
 ---
 
 # FBadRowSet

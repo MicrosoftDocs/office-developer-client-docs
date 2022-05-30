@@ -1,5 +1,6 @@
 ---
 title: "Forwarding a message"
+description: This article provides a detailed overview of forwarding messages.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
-description: "Last modified: March 09, 2015"
 ---
 
 # Forwarding a message
