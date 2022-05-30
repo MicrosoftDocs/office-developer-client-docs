@@ -24,7 +24,7 @@ ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
   
 Adds or moves columns to the beginning of an existing table. 
   
-||Value |
+|Property|Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
