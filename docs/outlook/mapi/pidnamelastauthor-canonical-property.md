@@ -1,7 +1,6 @@
 ---
 title: "PidNameLastAuthor Canonical Property"
- 
- 
+description: Outlines the PidNameLastAuthor canonical property, which specifies the most recent author of the attached file.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 50bb6ece-212f-472a-bb37-20ca984c5ef4
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameLastAuthor Canonical Property

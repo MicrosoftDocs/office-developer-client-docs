@@ -1,7 +1,6 @@
 ---
 title: "PidNameCreateDateTimeReadOnly Canonical Property"
- 
- 
+description: Outlines the PidNameCreateDateTimeReadOnly canonical property, which specifies the time when the file was created.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb48743f-1f7f-47fb-b339-223d9bbf7072
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameCreateDateTimeReadOnly Canonical Property

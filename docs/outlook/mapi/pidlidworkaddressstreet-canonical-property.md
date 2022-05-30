@@ -1,7 +1,6 @@
 ---
 title: "PidLidWorkAddressStreet Canonical Property"
- 
- 
+description: Outlines the canonical property, which specifies the street portion of the contact's work mailing address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 97000013-1950-4e15-8e58-35d793a5faca
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidWorkAddressStreet Canonical Property

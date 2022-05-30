@@ -1,7 +1,6 @@
 ---
 title: "PidNameComments Canonical Property"
- 
- 
+description: Outlines the PidNameComments canonical property, which specifies the comments of the file that is attached to the document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bc9b00b6-6337-411b-9219-067dd6c1add3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameComments Canonical Property

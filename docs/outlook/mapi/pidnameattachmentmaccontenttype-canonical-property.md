@@ -1,7 +1,6 @@
 ---
 title: "PidNameAttachmentMacContentType Canonical Property"
- 
- 
+description: Outlines the PidNameAttachmentMacContentType canonical property, which contains an [RFC3282] Content-Type header field value for attachments.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d345324d-83a1-40e7-a6af-16cfc67a4932
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameAttachmentMacContentType Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidNameAuthor Canonical Property"
- 
- 
+description: Outlines the PidNameAuthor canonical property, which represents the author of the file that is attached to the document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d45ea1e4-727e-434a-b6b7-73179baa3e5b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameAuthor Canonical Property
