@@ -1,6 +1,6 @@
 ---
 title: "IABLogon  IUnknown"
-description: Describes IABLogon and provides methods and properties.
+description: This article describes the IABLogon IUnknown and provides methods, properties, and additional remarks.
  
 manager: soliver
 ms.date: 03/09/2015

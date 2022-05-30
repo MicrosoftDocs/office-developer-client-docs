@@ -1,6 +1,6 @@
 ---
 title: "IAddrBookResolveName"
-description: Describes IAddrBookResolveName provides syntax, parameters, and return value.
+description: The IAddrBookResolveName function performs name resolution, assigning entry identifiers to recipients in a recipient list.
  
 manager: soliver
 ms.date: 03/09/2015

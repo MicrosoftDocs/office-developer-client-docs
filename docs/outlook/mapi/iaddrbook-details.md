@@ -1,6 +1,6 @@
 ---
 title: "IAddrBookDetails" 
-description: Describes IAddrBookDetails provides syntax, parameters, and return value.
+description: The IAddrBookDetails function displays a dialog box that shows details about a particular address book entry.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

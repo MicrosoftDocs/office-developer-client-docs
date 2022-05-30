@@ -1,6 +1,6 @@
 ---
 title: "IAddrBookAddress"
-description: Describes IAddrBookAddress provides syntax, parameters, and return value.
+description: This article describes the IAddrBookAddress function and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015

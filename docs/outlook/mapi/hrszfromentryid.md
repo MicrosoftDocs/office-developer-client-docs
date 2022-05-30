@@ -1,6 +1,6 @@
 ---
 title: "HrSzFromEntryID"
-description: Describes HrSzFromEntryID provides syntax, parameters, and return value.
+description: This article describes the HrSzFromEntryID function provides syntax, parameters, return value, and additional remarks.
  
 manager: soliver
 ms.date: 03/09/2015

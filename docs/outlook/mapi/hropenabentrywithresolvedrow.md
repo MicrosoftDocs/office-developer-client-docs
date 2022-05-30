@@ -1,6 +1,6 @@
 ---
 title: "HrOpenABEntryWithResolvedRow" 
-description: Describes HrOpenABEntryWithResolvedRow provides syntax and parameters.
+description: The HrOpenABEntryWithResolvedRow automatically gets the emsabpUID from the resolved row and opens the entryID.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

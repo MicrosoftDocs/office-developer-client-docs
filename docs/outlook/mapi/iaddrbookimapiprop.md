@@ -1,6 +1,6 @@
 ---
 title: "IAddrBook  IMAPIProp"
-description: This article describes IAddrBook IMAPIProp and provides properties and methods.
+description: The IAddrBook IMAPIProp supports access to the MAPI address book and includes operations such as displaying common dialog boxes.
  
 manager: soliver
 ms.date: 03/09/2015

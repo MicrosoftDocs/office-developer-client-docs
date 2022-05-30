@@ -1,6 +1,6 @@
 ---
 title: "HrOpenABEntryWithExchangeContext" 
-description: Describes HrOpenABEntryWithExchangeContext provides syntax and parameters.
+description: This article describes HrOpenABEntryWithExchangeContext which opens the entryID using the Exchange Address Book identified by pEmsmdbUID.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

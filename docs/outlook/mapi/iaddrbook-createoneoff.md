@@ -1,6 +1,6 @@
 ---
 title: "IAddrBookCreateOneOff"
-description: Describes IAddrBookCreateOneOff provides syntax, parameters, and return value.
+description: This article describes the IAddrBookCreateOneOff function and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015

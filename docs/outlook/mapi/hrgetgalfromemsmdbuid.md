@@ -1,6 +1,6 @@
 ---
 title: "HrGetGALFromEmsmdbUID"
-description: Describes HrGetGALFromEmsmdbUID and provides syntax and parameters.
+description: Returns the entry identifier of the global address book for the Exchange service identified by pEmsmdbUID. 
  
 manager: soliver
 ms.date: 03/09/2015

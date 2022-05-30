@@ -1,7 +1,6 @@
 ---
 title: "HrOpenABEntryWithProviderUIDSupport"
-description: Describes HrOpenABEntryWithProviderUIDSupport provides syntax and parameters.
- 
+description: The HrOpenABEntryWithProviderUIDSupport function opens the entry using the given support object instead of using the session and the address book.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

@@ -1,8 +1,6 @@
 ---
 title: "HrGetOneProp"
-description: Describes HrGetOnePropand provides syntax, parameters, and return value.
- 
- 
+description: Retrieves the value of a single property from a property interface, that is, an interface derived from IMAPIProp.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

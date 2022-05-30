@@ -1,6 +1,6 @@
 ---
 title: "HrOpenOfflineObj"
-description: Describes HrOpenOfflineObj provides syntax, parameters, and return value.
+description: This article describes the HrOpenOfflineObj function and provides syntax, parameters, return value, and additional remarks.
  
 manager: soliver
 ms.date: 03/09/2015

@@ -1,6 +1,6 @@
 ---
 title: "IABProvider  IUnknown"
-description: Describes IABProvider and provides methods and properties.
+description: Provides a method to log on to an address book provider object and a method to invalidate an address book provider object.
  
 manager: soliver
 ms.date: 03/09/2015

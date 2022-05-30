@@ -1,6 +1,6 @@
 ---
 title: "IABContainer  IMAPIContainer"
-description: Describes IABContainer and provides methods and required properties.
+description: This article describes the IABContainer IMAPIContainer and provides methods and required properties.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

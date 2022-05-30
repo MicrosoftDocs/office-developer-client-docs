@@ -1,6 +1,6 @@
 ---
 title: "IABContainerDeleteEntries"
-description: Describes IABContainerDeleteEntries provides syntax, parameters, and return value.
+description: This article describes the IABContainerDeleteEntries function and provides syntax, parameters, and return value.
  
  
 manager: soliver

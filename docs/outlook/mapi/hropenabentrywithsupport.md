@@ -1,6 +1,6 @@
 ---
 title: "HrOpenABEntryWithSupport" 
-description: Describes HrOpenABEntryWithSupport provides syntax and parameters.
+description: This article describes the HrOpenABEntryWithSupport function and provides syntax and parameters. Do not use this function.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
