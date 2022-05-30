@@ -1,6 +1,6 @@
 ---
 title: "DTBLBUTTON"
-description: "DTBLBUTTON contains information about a button control for a dialog box built from a display table."
+description: "The DTBLBUTTON contains information about a button control for a dialog box built from a display table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

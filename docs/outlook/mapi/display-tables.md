@@ -1,6 +1,6 @@
 ---
 title: "Display Tables"
-description: "Describes display tables. A display table describes how to show a specific type of dialog box — one having one or more tabbed property pages dedicated to displaying and possibly editing one or more properties."
+description: "A display table describes how to show a type of dialog box — having one or more tabbed property pages dedicated to displaying or editing one or more properties."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
