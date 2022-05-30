@@ -8,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 83821a86-abff-460c-bb8e-9fd9d232dc6b
-description: "Last modified: March 09, 2015"
 ---
 
 # HrOpenABEntryWithProviderUID
