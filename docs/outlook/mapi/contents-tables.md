@@ -1,6 +1,6 @@
 ---
 title: "Contents Tables"
-description: "Describes contents tables, which contain information about objects in a MAPI container."
+description: "Describes contents tables (standard and associated), which contain information about objects in a MAPI container."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

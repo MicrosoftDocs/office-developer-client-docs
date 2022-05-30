@@ -1,6 +1,6 @@
 ---
 title: "Commonly Used Objects"
-description: "Describes commonly used MAPI objects and interfaces."
+description: "Describes commonly used MAPI objects and interfaces (which are exposed by the objects) for Microsoft Outlook."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

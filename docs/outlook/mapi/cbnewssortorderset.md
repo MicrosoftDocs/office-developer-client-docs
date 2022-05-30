@@ -1,6 +1,6 @@
 ---
 title: "CbNewSSortOrderSet"
-description: "CbNewSSortOrderSet computes the number of bytes to be allocated for a new SizedSSortOrderSet structure that contains a specified number of sort orders represented by SSortOrder structures."
+description: "CbNewSSortOrderSet computes the number of bytes for a new SizedSSortOrderSet structure that contains a specified number of sort orders."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

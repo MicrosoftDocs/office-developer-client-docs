@@ -1,6 +1,6 @@
 ---
 title: "CbNewFLATMTSIDLIST"
-description: "CbNewFLATMTSIDLIST computes the number of bytes that should be allocated for a new FLATMTSIDLIST structure that contains several MTSID structures of a specified size."
+description: "CbNewFLATMTSIDLIST computes the number of bytes that should be allocated for a new FLATMTSIDLIST structure that contains several MTSID structures."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

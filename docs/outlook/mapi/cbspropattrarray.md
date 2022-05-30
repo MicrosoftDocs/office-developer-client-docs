@@ -1,6 +1,6 @@
 ---
 title: "CbSPropAttrArray"
-description: "CbSPropAttrArray computes the number of bytes in an existing SPropAttrArray structure."
+description: "CbSPropAttrArray computes the number of bytes in an existing SPropAttrArray structure. This article describes its syntax and parameters."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

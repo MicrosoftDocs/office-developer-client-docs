@@ -1,6 +1,6 @@
 ---
 title: "Commonly Used Properties"
-description: "Lists of required and optional MAPI properties that are documented in several places."
+description: "Lists of required and optional Microsoft Outlook MAPI properties that are documented in several places."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
