@@ -24,7 +24,7 @@ ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
   
 Multiplies one unsigned 32-bit integer by another.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

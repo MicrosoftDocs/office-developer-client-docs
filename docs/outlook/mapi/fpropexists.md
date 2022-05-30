@@ -1,6 +1,6 @@
 ---
 title: "FPropExists"
- description: Describes FPropExists and provides syntax, parameters, and return value.
+description: Describes FPropExists and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
