@@ -1,5 +1,6 @@
 ---
 title: "PidTagAgingPeriod Canonical Property" 
+description: Outlines the PidTagAgingPeriod canonical property, which represents a number of time units determining the length of time before an item is archived.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 762020d1-4bc8-d60d-0f66-3929aae24bfb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAgingPeriod Canonical Property

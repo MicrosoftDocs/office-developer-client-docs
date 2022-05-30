@@ -1,7 +1,6 @@
 ---
 title: "PidTagAccount Canonical Property"
- 
- 
+description: Outlines the PidTagAccount canonical property, which contains the recipient's account name and applies to Outlook 2013 and 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: bec199b5-abfd-4686-ad59-21092212e1a5
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAccount Canonical Property

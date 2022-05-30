@@ -1,7 +1,6 @@
 ---
 title: "PidTagAssistantTelephoneNumber Canonical Property"
- 
- 
+description: Outlines the PidTagAssistantTelephoneNumber canonical property, which contains the telephone number of the recipient's administrative assistant. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: edb0782c-6671-4e98-9028-a2f9ad547c1d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAssistantTelephoneNumber Canonical Property

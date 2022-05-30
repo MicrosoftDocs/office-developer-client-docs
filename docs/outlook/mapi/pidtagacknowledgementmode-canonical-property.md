@@ -1,7 +1,6 @@
 ---
 title: "PidTagAcknowledgementMode Canonical Property"
- 
- 
+description: Outlines the PidTagAcknowledgementMode canonical property, which contains the identifier of the mode for message acknowledgment.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAcknowledgementMode Canonical Property

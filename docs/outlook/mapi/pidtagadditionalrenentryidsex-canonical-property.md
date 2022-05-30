@@ -1,7 +1,6 @@
 ---
 title: "PidTagAdditionalRenEntryIdsEx Canonical Property"
- 
- 
+description: Outlines the PidTagAdditionalRenEntryIdsEx canonical property, which contains special folder entry IDs for a store object.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b5e896e7-c0c6-4ad1-bf91-9daba3a1e4d4
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAdditionalRenEntryIdsEx Canonical Property

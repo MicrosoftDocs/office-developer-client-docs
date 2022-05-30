@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachDataObject Canonical Property"
- 
- 
+description: Outlines the PidTagAttachDataObject canonical property, which contains an attachment object typically accessed through the OLE IStorage interface. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b76312c6-7682-4ded-be25-55e21b0b091b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachDataObject Canonical Property

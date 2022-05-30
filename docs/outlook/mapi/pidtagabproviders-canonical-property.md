@@ -1,7 +1,6 @@
 ---
 title: "PidTagAbProviders Canonical Property"
- 
- 
+description: Outlines the PidTagAbProviders canonical property, which contains a list of identifiers for address book providers in the current profile. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 26195406-dcef-4504-bb74-d0705d952897
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAbProviders Canonical Property

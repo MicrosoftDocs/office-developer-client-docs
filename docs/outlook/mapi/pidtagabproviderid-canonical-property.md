@@ -1,7 +1,6 @@
 ---
 title: "PidTagAbProviderId Canonical Property"
- 
- 
+description: Outlines the PidTagAbProviderId canonical property, which contains an address book provider's MAPIUID structure. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 23cfd1d0-8e9d-4508-93dd-a88c0ef77c51
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAbProviderId Canonical Property

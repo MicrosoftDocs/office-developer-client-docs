@@ -1,7 +1,6 @@
 ---
 title: "PidTag7BitDisplayName Canonical Property"
- 
- 
+description: Outlines the PidTag7BitDisplayName canonical property, which contains a 7-bit ASCII representation of a messaging user's name. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 803d7c4e-ed80-4d5b-988f-27068a8ccd63
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTag7BitDisplayName Canonical Property
