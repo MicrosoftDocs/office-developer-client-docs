@@ -1,6 +1,6 @@
 ---
 title: "FreePadrlist"
-description: Describes FPropExists and provides syntax, parameters, and return value.
+description: Describes FreePadrlist and provides syntax, parameters, and return value.
  
  
 manager: soliver
