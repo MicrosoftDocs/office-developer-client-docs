@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFolderDeleteMessages"
- 
- 
+description: "IMAPIFolderDeleteMessages deletes one or more messages. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5a16e62b-9d33-41cd-af2b-9abd403b6f2e
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder::DeleteMessages

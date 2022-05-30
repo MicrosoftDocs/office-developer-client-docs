@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFolderCreateMessage"
- 
- 
+description: "IMAPIFolderCreateMessage creates a new message. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder::CreateMessage

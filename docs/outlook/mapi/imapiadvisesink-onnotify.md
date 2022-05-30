@@ -1,7 +1,6 @@
 ---
 title: "IMAPIAdviseSinkOnNotify"
- 
- 
+description: "IMAPIAdviseSinkOnNotify responds to a notification by performing one or more tasks, which depend on the type of event and object that generate the notification."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIAdviseSink::OnNotify

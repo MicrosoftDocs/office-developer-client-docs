@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFolder  IMAPIContainer"
- 
- 
+description: "IMAPIFolderIMAPIContainer performs operations on the messages and subfolders in a folder. This article describes the related properties and members."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bc2e8d17-7687-43c2-8f01-b677703f7288
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder : IMAPIContainer

@@ -1,7 +1,6 @@
 ---
 title: "IExchangeModifyTableGetTable"
- 
- 
+description: "IExchangeModifyTableGetTable returns a pointer to an interface for a MAPI table object. This article describes its syntax, parameters, and a sample code."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
-description: "Last modified: March 09, 2015"
 ---
 
 # IExchangeModifyTable::GetTable

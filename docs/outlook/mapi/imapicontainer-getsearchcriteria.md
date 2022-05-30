@@ -1,7 +1,6 @@
 ---
 title: "IMAPIContainerGetSearchCriteria"
- 
- 
+description: "IMAPIContainerGetSearchCriteria obtains the search criteria for the container. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIContainer::GetSearchCriteria

@@ -1,7 +1,6 @@
 ---
 title: "IMAPIClientShutdown  IUnknown"
- 
- 
+description: "IMAPIClientShutdownIUnknown enables a MAPI client to carry out a fast shutdown of the client process."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6a5096f-ad27-48b3-b569-f33efc20fa72
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIClientShutdown : IUnknown

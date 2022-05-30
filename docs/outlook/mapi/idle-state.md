@@ -1,11 +1,11 @@
 ---
 title: "Idle State"
+description: "This topic describes what happens during the idle state of the replication state machine. Related properties and their corresponding values are provided."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 46976bea-c6bb-2e37-2e67-4cbccaa03aec
-description: "Last modified: March 09, 2015"
  
  
 ---
