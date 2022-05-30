@@ -1,7 +1,6 @@
 ---
 title: "ENTRYID"
- 
- 
+description: "ENTRYID contains an entry identifier for a MAPI object. This article describes its syntax, members, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8ebb21ca-5ad1-4dcc-97b6-2390664b5d8d
-description: "Last modified: March 09, 2015"
 ---
 
 # ENTRYID

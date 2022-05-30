@@ -1,7 +1,6 @@
 ---
 title: "DTBLMVDDLBOX"
- 
- 
+description: "DTBLMVDDLBOX describes a drop-down list that will be used in a dialog box that is built from a display table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e6283dc-9a08-460f-9400-03f0ceb4081c
-description: "Last modified: March 09, 2015"
 ---
 
 # DTBLMVDDLBOX

@@ -1,7 +1,6 @@
 ---
 title: "DTBLMVLISTBOX"
- 
- 
+description: "DTBLMVLISTBOX describes a multi-valued list that will be displayed in a dialog box that is built from a display table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
-description: "Last modified: March 09, 2015"
 ---
 
 # DTBLMVLISTBOX

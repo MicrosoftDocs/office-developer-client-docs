@@ -1,7 +1,6 @@
 ---
 title: "FBadPropTag"
- 
- 
+description: "FBadPropTag validates a specified property tag. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 143bd3c6-5a55-4122-8522-9c48473aa781
-description: "Last modified: March 09, 2015"
 ---
 
 # FBadPropTag

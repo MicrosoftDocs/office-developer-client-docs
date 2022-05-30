@@ -1,7 +1,6 @@
 ---
 title: "DTPAGE"
- 
- 
+description: "DTPAGE describes the dialog box that is built from a display table by the BuildDisplayTable function."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
-description: "Last modified: March 09, 2015"
 ---
 
 # DTPAGE

@@ -1,7 +1,6 @@
 ---
 title: "EXTENDED_NOTIFICATION"
- 
- 
+description: "EXTENDED_NOTIFICATION describes information that relates to an event that is service provider-specific."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f01fce7b-a038-4002-8bad-0e6a51ae9d05
-description: "Last modified: March 09, 2015"
 ---
 
 # EXTENDED_NOTIFICATION

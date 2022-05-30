@@ -1,7 +1,6 @@
 ---
 title: "DTBLPAGE"
- 
- 
+description: "DTBLPAGE describes a tabbed page that will be used in a dialog box that is built from a display table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f899f434-a5d7-4b4f-98f9-c14c9f21b24b
-description: "Last modified: March 09, 2015"
 ---
 
 # DTBLPAGE

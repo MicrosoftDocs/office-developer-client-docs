@@ -1,12 +1,12 @@
 ---
 title: "Fast shutdown user options"
+description: "This topic describes the three Windows registry settings that are available in Microsoft Outlook 2010 and 2013, for fast shutdown of a user's MAPI clients."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 api_type:
 - COM
 ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
-description: "Last modified: June 26, 2012"
 ms.localizationpriority: high
 ---
 
