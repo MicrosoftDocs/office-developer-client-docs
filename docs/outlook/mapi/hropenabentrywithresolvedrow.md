@@ -1,5 +1,6 @@
 ---
 title: "HrOpenABEntryWithResolvedRow" 
+description: Describes HrOpenABEntryWithResolvedRow provides syntax and parameters.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: ce3a583c-16a9-4268-9476-926d2780eae5
-description: "Last modified: March 09, 2015"
 ---
 
 # HrOpenABEntryWithResolvedRow

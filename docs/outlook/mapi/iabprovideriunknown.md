@@ -1,6 +1,6 @@
 ---
 title: "IABProvider  IUnknown"
- 
+description: Describes IABProvider and provides methods and properties.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f98d982-156d-43d7-8b0b-94d8c24debef
-description: "Last modified: March 09, 2015"
 ---
 
 # IABProvider : IUnknown

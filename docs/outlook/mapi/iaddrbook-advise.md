@@ -1,6 +1,6 @@
 ---
 title: "IAddrBookAdvise"
- 
+description: Describes IAddrBookAdvise provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::Advise

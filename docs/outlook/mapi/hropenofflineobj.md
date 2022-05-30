@@ -1,6 +1,6 @@
 ---
 title: "HrOpenOfflineObj"
- 
+description: Describes HrOpenOfflineObj provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
-description: "Last modified: March 09, 2015"
 ---
 
 # HrOpenOfflineObj

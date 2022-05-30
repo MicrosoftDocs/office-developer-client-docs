@@ -1,6 +1,6 @@
 ---
 title: "HrThisThreadAdviseSink"
- 
+description: Describes HrThisThreadAdviseSink provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
-description: "Last modified: March 09, 2015"
 ---
 
 # HrThisThreadAdviseSink

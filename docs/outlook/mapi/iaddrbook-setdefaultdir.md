@@ -1,6 +1,6 @@
 ---
 title: "IAddrBookSetDefaultDir"
- 
+description: Describes IAddrBookSetDefaultDir provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::SetDefaultDir

@@ -1,6 +1,6 @@
 ---
 title: "IABLogonAdvise"
- 
+description: Describes IABLogonAdvise provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 375d65b1-607d-4e2a-8052-9bcbf08fc2ac
-description: "Last modified: March 09, 2015"
 ---
 
 # IABLogon::Advise

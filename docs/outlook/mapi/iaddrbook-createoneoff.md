@@ -1,6 +1,6 @@
 ---
 title: "IAddrBookCreateOneOff"
- 
+description: Describes IAddrBookCreateOneOff provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::CreateOneOff

@@ -1,5 +1,6 @@
 ---
 title: "HrOpenABEntryWithExchangeContext" 
+description: Describes HrOpenABEntryWithExchangeContext provides syntax and parameters.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: b640a5aa-4e36-4983-bf11-9428809e830b
-description: "Last modified: March 09, 2015"
 ---
 
 # HrOpenABEntryWithExchangeContext

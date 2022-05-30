@@ -1,5 +1,6 @@
 ---
 title: "IAddrBookDetails" 
+description: Describes IAddrBookDetails provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4eee4382-98c3-4714-8920-8d72edef00b8
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::Details

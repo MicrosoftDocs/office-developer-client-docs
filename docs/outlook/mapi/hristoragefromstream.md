@@ -1,5 +1,6 @@
 ---
 title: "HrIStorageFromStream"
+description: Describes HrIStorageFromStream provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1cdc95b8-a156-4600-9e20-caaa02680e87
-description: "Last modified: March 09, 2015"
 ---
 
 # HrIStorageFromStream

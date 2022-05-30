@@ -1,6 +1,6 @@
 ---
 title: "IAddrBook  IMAPIProp"
- 
+description: This article describes IAddrBook IMAPIProp and provides properties and methods.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook : IMAPIProp

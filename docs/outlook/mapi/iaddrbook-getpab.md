@@ -1,6 +1,6 @@
 ---
 title: "IAddrBookGetPAB"
- 
+description: Describes IAddrBookGetPAB provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::GetPAB

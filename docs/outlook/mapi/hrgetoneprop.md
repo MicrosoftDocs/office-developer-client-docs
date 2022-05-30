@@ -1,5 +1,6 @@
 ---
 title: "HrGetOneProp"
+description: Describes HrGetOnePropand provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
-description: "Last modified: March 09, 2015"
 ---
 
 # HrGetOneProp

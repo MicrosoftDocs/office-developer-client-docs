@@ -1,6 +1,6 @@
 ---
 title: "IAttach  IMAPIProp"
- 
+description: This article describes IAttach IMAPIProp providing access to the properties of attachments in messages.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
-description: "Last modified: March 09, 2015"
 ---
 
 # IAttach : IMAPIProp

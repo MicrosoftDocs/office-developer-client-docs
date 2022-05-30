@@ -1,5 +1,6 @@
 ---
 title: "IAddrBookOpenEntry"
+description: Describes IAddrBookOpenEntry provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd7746f4-8070-4cc5-8b8e-c527c5847545
-description: "Last modified: February 01, 2013"
 ---
 
 # IAddrBook::OpenEntry
