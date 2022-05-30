@@ -8,8 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
- 
- 
 ---
 
 # Hierarchy Tables
