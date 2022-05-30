@@ -1,7 +1,6 @@
 ---
 title: "PidTagComment Canonical Property"
- 
- 
+description: Outlines the PidTagComment canonical property, which contains a comment about the purpose or content of an object. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5750cf95-8581-43a7-a465-f4114b2939f2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagComment Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachFlags Canonical Property"
- 
- 
+description: Outlines the PidTagAttachFlags canonical property, which contains a bitmask of flags for an attachment. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47e01131-f399-43cb-9815-aba69638c3fb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachFlags Canonical Property

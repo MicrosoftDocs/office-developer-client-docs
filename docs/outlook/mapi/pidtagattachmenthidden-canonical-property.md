@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachmentHidden Canonical Property"
- 
- 
+description: Outlines the PidTagAttachmentHidden canonical property, which indicates whether an attachment is hidden from the end user.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d92a01e3-9bc4-4985-aeb6-c23636cb8b2e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachmentHidden Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagChildrensNames Canonical Property"
- 
- 
+description: Outlines the PidTagChildrensNames canonical property, which contains a list of names of children.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 5e09c078-b8e4-46ef-9ee7-e2ba937d53cf
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagChildrensNames Canonical Property

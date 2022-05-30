@@ -1,5 +1,6 @@
 ---
 title: "PidTagConflictItems Canonical Property" 
+description: Outlines the PidTagConflictItems canonical property, which contains one or more entry IDs of items that have been involved in an automatic conflict resolution.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 0d147827-f0e2-dcc1-4427-c4a2f48ca801
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagConflictItems Canonical Property

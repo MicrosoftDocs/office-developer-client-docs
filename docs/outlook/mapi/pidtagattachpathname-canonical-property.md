@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachPathname Canonical Property"
- 
- 
+description: Outlines the PidTagAttachPathname canonical property, which contains an attachment's fully-qualified path and filename.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e19c7cd1-7c56-4f63-8736-d6971c7c5f4d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachPathname Canonical Property

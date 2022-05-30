@@ -1,7 +1,6 @@
 ---
 title: "PidTagBody Canonical Property"
- 
- 
+description: Outlines the PidTagBody canonical property, which contains message text and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 47c0d0fe-4d57-4b81-bdb5-336de85c194c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagBody Canonical Property

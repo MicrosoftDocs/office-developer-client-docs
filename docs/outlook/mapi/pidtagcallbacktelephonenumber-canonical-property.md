@@ -1,7 +1,6 @@
 ---
 title: "PidTagCallbackTelephoneNumber Canonical Property"
- 
- 
+description: Outlines the PidTagCallbackTelephoneNumber canonical property, which contains a telephone number that the message recipient can use to reach the sender. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e78d7e65-23a4-4359-b057-e06131cabf25
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagCallbackTelephoneNumber Canonical Property

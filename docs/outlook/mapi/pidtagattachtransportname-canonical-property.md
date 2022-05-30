@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachTransportName Canonical Property"
- 
- 
+description: Outlines the PidTagAttachTransportName canonical property, which contains the name of an attachment file modified so it can be associated with TNEF messages. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 701fca52-0f96-4019-80cd-c0ccd059ff9b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachTransportName Canonical Property

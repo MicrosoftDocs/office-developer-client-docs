@@ -1,7 +1,6 @@
 ---
 title: "PidTagBusiness2TelephoneNumbers Canonical Property"
- 
- 
+description: Outlines the PidTagBusiness2TelephoneNumbers canonical property, which contains a list of telephone numbers for a business.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 2973ff42-213f-43ce-a358-159b6c5381ef
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagBusiness2TelephoneNumbers Canonical Property

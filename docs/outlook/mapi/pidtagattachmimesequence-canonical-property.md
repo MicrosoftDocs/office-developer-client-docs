@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachMimeSequence Canonical Property"
- 
- 
+description: Outlines the PidTagAttachMimeSequence canonical property, which contains the MIME sequence number of a MIME message attachment.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachMimeSequence Canonical Property

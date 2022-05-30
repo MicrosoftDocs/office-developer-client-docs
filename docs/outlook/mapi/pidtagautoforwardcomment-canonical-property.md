@@ -1,7 +1,6 @@
 ---
 title: "PidTagAutoForwardComment Canonical Property"
- 
- 
+description: Outlines the PidTagAutoForwardComment canonical property, which contains a comment added by the auto-forwarding agent.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a07c0ee3-f6f9-4ae3-81c0-accc939ca99a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAutoForwardComment Canonical Property
