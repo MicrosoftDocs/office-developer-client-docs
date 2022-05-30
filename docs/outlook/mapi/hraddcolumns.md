@@ -1,6 +1,6 @@
 ---
 title: "HrAddColumns"
- 
+description: Describes HrAddColumns and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8c980257-9372-4478-b635-bd91d0a66af9
-description: "Last modified: March 09, 2015"
 ---
 
 # HrAddColumns

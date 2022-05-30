@@ -1,6 +1,6 @@
 ---
 title: "HrEntryIDFromSz"
- 
+description: Describes HrEntryIDFromSz and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14c171ec-0aec-43ab-8be8-e6bc0ce28a58
-description: "Last modified: March 09, 2015"
 ---
 
 # HrEntryIDFromSz

@@ -1,11 +1,11 @@
 ---
 title: "Remove custom form definition saved with a message"
+description: This article describes how to convert a message that has been saved with a custom form definition to a regular message without the form definition.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
-description: "Last modified: June 25, 2012"
 ---
 
 # Remove custom form definition saved with a message

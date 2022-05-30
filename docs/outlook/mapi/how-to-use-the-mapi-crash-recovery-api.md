@@ -1,11 +1,11 @@
 ---
 title: "Use the MAPI Crash Recovery API"
+description: This article describes how to use the MAPICrashRecovery API and provides syntax.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 1a9871c2-b9bb-332e-b67e-85c50f7f685c
-description: "Last modified: June 25, 2012"
 ---
 
 # Use the MAPI Crash Recovery API

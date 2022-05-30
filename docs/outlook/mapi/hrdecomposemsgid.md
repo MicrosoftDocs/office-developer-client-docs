@@ -1,5 +1,6 @@
 ---
-title: "HrDecomposeMsgID" 
+title: "HrDecomposeMsgID"
+description: Describes HrDecomposeMsgID and provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e6a9f3e-79be-4ffd-9d42-3a14cabb1435
-description: "Last modified: March 09, 2015"
 ---
 
 # HrDecomposeMsgID

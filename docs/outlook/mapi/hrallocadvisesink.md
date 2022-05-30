@@ -1,5 +1,6 @@
 ---
 title: "HrAllocAdviseSink"
+description: Describes HrAllocAdviseSink and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1dd460e6-ce95-4fef-bb5e-8d778c9716d5
-description: "Last modified: March 09, 2015"
 ---
 
 # HrAllocAdviseSink

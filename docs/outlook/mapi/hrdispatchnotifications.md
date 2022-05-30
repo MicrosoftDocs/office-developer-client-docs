@@ -1,6 +1,6 @@
 ---
 title: "HrDispatchNotifications"
- 
+description: Describes HrDispatchNotifications and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42ec4266-67b9-416e-8b9b-163c95011626
-description: "Last modified: March 09, 2015"
 ---
 
 # HrDispatchNotifications

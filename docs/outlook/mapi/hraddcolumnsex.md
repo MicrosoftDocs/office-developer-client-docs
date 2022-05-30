@@ -1,5 +1,6 @@
 ---
 title: "HrAddColumnsEx"
+description: Describes HrAddColumnsEx and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
-description: "Last modified: March 09, 2015"
 ---
 
 # HrAddColumnsEx

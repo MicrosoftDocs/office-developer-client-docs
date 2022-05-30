@@ -1,5 +1,6 @@
 ---
 title: "HrComposeMsgID"
+description: Describes HrComposeMsgID and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb76b147-6552-4cc4-920f-699170aea17f
-description: "Last modified: March 09, 2015"
 ---
 
 # HrComposeMsgID

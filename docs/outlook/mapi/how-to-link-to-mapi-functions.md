@@ -1,5 +1,6 @@
 ---
 title: "Link to MAPI functions"
+description: This article describes the three methods of linking to MAPI functions.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
-description: "Last modified: March 09, 2015"
 ---
 
 # Link to MAPI functions

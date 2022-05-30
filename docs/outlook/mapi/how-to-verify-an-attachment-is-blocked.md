@@ -1,11 +1,11 @@
 ---
 title: "Verify an attachment is blocked"
+description: Describes how to verify an attachment is blocked and provides syntax.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
-description: "Last modified: June 25, 2012"
 ---
 
 # Verify an attachment is blocked
