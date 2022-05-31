@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormDoVerb"
- 
- 
+description: "Describes the parameters, return value, and remarks for IMAPIFormDoVerb, which requests that the form perform whatever tasks it associates with a specific verb."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8b582571-b448-4476-91d9-4cc94dbec710
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIForm::DoVerb

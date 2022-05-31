@@ -1,7 +1,6 @@
 ---
 title: "IMAPIForm  IUnknown"
- 
- 
+description: "IMAPIFormIUnknown enables form viewers to work with form view contexts and form notification, to perform form verbs, and to shut down forms."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIForm : IUnknown

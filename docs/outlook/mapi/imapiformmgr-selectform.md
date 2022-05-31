@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormMgrSelectForm"
- 
- 
+description: "IMAPIFormMgrSelectForm presents a dialog box that enables the user to select a form, and returns a form information object that describes that form."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c1cfe71b-01f3-429a-8b4c-73191a2ffea0
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormMgr::SelectForm

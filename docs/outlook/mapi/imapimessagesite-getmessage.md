@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteGetMessage"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteGetMessage, which returns the current message."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49d12c49-84f8-44ac-bc4a-2ee44a46f8c1
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::GetMessage

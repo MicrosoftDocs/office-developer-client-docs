@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormAdviseSink  IUnknown"
- 
- 
+description: "IMAPIFormAdviseSinkIUnknown enables form servers to receive notifications from form viewers. This article describes its syntax, Vtable order, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 180022af-4c1c-408c-a3fe-ed075cef79ab
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormAdviseSink : IUnknown

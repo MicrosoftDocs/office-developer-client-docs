@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteGetFolder"
- 
- 
+description: "IMAPIMessageSiteGetFolder returns the folder in which the current message was created or opened, if such a folder exists."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::GetFolder

@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormSetViewContext"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIFormSetViewContext, which establishes a view context for the form."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a7b10007-42d8-4755-8362-f8ad9a8dad68
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIForm::SetViewContext

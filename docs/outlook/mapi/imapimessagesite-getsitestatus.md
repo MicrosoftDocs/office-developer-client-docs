@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteGetSiteStatus"
- 
- 
+description: "IMAPIMessageSiteGetSiteStatus returns information from a message site object about the message site's capabilities for the current message."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02718898-7857-4e43-8f46-622269f812e6
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::GetSiteStatus

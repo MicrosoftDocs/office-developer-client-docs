@@ -1,5 +1,6 @@
 ---
-title: "IMAPIFormContainerResolveMessageClass" 
+title: "IMAPIFormContainerResolveMessageClass"
+description: "IMAPIFormContainerResolveMessageClass resolves a message class to its form in a form container and returns a form information object for that form."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ce13f11-5787-4ea5-a84f-b1e3824529ee
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormContainer::ResolveMessageClass

@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormContainer  IUnknown"
- 
- 
+description: "IMAPIFormContainerIUnknown manages forms in form libraries. This interface is used to create application-specific form libraries."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 437c8a75-1121-4919-8bd4-d57c0d6f4b9a
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormContainer : IUnknown
