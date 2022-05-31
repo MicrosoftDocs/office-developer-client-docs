@@ -1,7 +1,6 @@
 ---
 title: "PidLidPageDirStream Canonical Property"
- 
- 
+description: Outlines the PidLidPageDirStream canonical property, which represents information about pages of the custom form associated with the message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e94f0daf-fccb-41b6-b38b-5ef4167a6e9d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidPageDirStream Canonical Property

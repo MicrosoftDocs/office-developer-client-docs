@@ -1,7 +1,6 @@
 ---
 title: "PidLidLogDuration Canonical Property"
- 
- 
+description: Outlines the PidLidLogDuration canonical property, which represents the duration, in minutes, of a journal message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 012a3f6e-fd16-4dc9-845d-2bf4cebeaa42
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidLogDuration Canonical Property

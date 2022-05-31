@@ -1,7 +1,6 @@
 ---
 title: "PidLidPropertyDefinitionStream Canonical Property"
- 
- 
+description: Outlines the PidLidPropertyDefinitionStream canonical property, which is saved as part of the custom form definition for the message. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ead35049-e60e-4b46-bf12-f73d77cd36b2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidPropertyDefinitionStream Canonical Property

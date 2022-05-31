@@ -1,7 +1,6 @@
 ---
 title: "PidLidNoteY Canonical Property"
- 
- 
+description: Outlines the PidLidNoteY canonical property, which specifies the distance, in pixels, from the top edge of the screen where a user interface displays a note.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ad6a7dc2-506e-4e22-b2a6-9dd6d0a5dd9f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidNoteY Canonical Property

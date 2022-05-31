@@ -1,7 +1,6 @@
 ---
 title: "PidLidMeetingWorkspaceUrl Canonical Property"
- 
- 
+description: Outlines the PidLidMeetingWorkspaceUrl canonical property, which specifies the URL of the meeting workspace that is associated with a calendar object.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30d7b5e5-be59-4c04-b4dc-4fb59abac2b6
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidMeetingWorkspaceUrl Canonical Property

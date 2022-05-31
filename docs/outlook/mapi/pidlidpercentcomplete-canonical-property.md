@@ -1,7 +1,6 @@
 ---
 title: "PidLidPercentComplete Canonical Property"
- 
- 
+description: Outlines the PidLidPercentComplete canonical property, which indicates the progress the user has made on a task. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e63792b1-9580-4702-a6d7-dd3ae5007a4a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidPercentComplete Canonical Property

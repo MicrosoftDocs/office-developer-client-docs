@@ -1,7 +1,6 @@
 ---
 title: "PidLidOwnerCriticalChange Canonical Property"
- 
- 
+description: Outlines the PidLidOwnerCriticalChange canonical property, which specifies the date and time when a meeting request was sent by the organizer.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b79aa2b7-b6e0-46dc-89f1-f801a6b5737a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidOwnerCriticalChange Canonical Property
