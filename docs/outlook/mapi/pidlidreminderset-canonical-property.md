@@ -22,7 +22,7 @@ ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
   
 Specifies whether a reminder is set on the object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidReminderSet  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |
