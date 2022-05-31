@@ -1,7 +1,6 @@
 ---
 title: "PidLidSharingProviderName Canonical Property"
- 
- 
+description: Outlines the PidLidSharingProviderName canonical property, which specifies the user-displayable name of the sharing provider.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 67e6497c-e053-4b2d-a81c-c6cf6017f8bd
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidSharingProviderName Canonical Property

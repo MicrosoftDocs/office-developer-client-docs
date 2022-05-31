@@ -1,7 +1,6 @@
 ---
 title: "PidLidSharingConfigurationUrl Canonical Property"
- 
- 
+description: Outlines the PidLidSharingConfigurationUrl canonical property, which designates as a property of a sharing message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 548b4ded-1610-4fe1-8f19-ee57d5d0f606
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidSharingConfigurationUrl Canonical Property

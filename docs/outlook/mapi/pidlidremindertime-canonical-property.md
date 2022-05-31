@@ -1,7 +1,6 @@
 ---
 title: "PidLidReminderTime Canonical Property"
- 
- 
+description: Outlines the PidLidReminderTime canonical property, which specifies the initial signal time for a reminder.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f4068ff0-2aa2-4332-be7d-ecebda30dfff
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidReminderTime Canonical Property

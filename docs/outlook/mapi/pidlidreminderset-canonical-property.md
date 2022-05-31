@@ -1,7 +1,6 @@
 ---
 title: "PidLidReminderSet Canonical Property"
- 
- 
+description: Outlines the PidLidReminderSet canonical property, which specifies whether a reminder is set on the object.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 06b7792c-1b43-4e20-9a3b-44f2664b2125
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidReminderSet Canonical Property
@@ -24,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies whether a reminder is set on the object.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidReminderSet  <br/> |
 |Property set:  <br/> |PSETID_Common  <br/> |

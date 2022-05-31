@@ -1,7 +1,6 @@
 ---
 title: "PidLidRecurrenceType Canonical Property"
- 
- 
+description: Outlines the PidLidRecurrenceType canonical property, which specifies the recurrence type of the recurring series.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 81ad2e8a-661f-4fc7-bee4-848db3285e31
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidRecurrenceType Canonical Property
