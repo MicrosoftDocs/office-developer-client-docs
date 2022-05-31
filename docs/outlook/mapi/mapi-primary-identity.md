@@ -1,5 +1,6 @@
 ---
 title: "MAPI Primary Identity"
+description: Provides information about the MAPI primary identity configuration file and lists the entries that appear in the message service and service provider sections.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,9 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8787a873-6752-4b17-8ea3-8fed793e1371
-description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # MAPI Primary Identity

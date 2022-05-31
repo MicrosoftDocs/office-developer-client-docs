@@ -1,7 +1,6 @@
 ---
 title: "MAPIAllocateBuffer"
- 
- 
+description: Describes the MAPIAllocateBuffer function and provides, syntax, parameters, return value, and additional remarks. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: f1fc7fc5-c71f-44f7-930a-571773eb6809
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIAllocateBuffer

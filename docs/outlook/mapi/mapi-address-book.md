@@ -1,5 +1,6 @@
 ---
 title: "MAPI Address Book"
+description: The address book can be accessed programmatically, without user intervention, or interactively through the use of common dialog boxes.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,9 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
-description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # MAPI Address Book

@@ -1,7 +1,6 @@
 ---
 title: "MAPIINIT_0"
- 
- 
+description: Describes the MAPIINIT_0 property and provides syntax, members, remarks, and additional resource links.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70739711-ff43-407d-bc8b-6baf7a476fef
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIINIT_0

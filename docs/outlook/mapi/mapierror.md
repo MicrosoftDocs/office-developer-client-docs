@@ -1,7 +1,6 @@
 ---
 title: "MAPIERROR"
- 
- 
+description: Describes the MAPIERROR function and provides syntax, members, additional remarks, and links to additional resources.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIERROR

@@ -1,7 +1,6 @@
 ---
 title: "MAPIInitialize"
- 
- 
+description: Describes the MAPIInitialize function and provides syntax, parameters, remarks, and MFCMAPI references.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: b9584226-79d2-4d83-8f31-dbfbc50f16c5
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIInitialize

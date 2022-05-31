@@ -1,5 +1,6 @@
 ---
 title: "MAPI Form Interfaces"
+description: This article provides links and descriptions to the different MAPI form interfaces and methods with additional notes.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,9 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 611213c9-e758-4366-b193-fc62181d3d1f
-description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # MAPI Form Interfaces

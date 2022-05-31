@@ -1,5 +1,6 @@
 ---
 title: "MAPI Idle Engine"
+description: Provides a detailed overview of the MAPI idle engine and provides links to the idle engine functions. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,9 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 755d096a-2a61-44d2-a765-5d464a857756
-description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # MAPI Idle Engine
