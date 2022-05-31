@@ -1,7 +1,6 @@
 ---
 title: "IMAPIViewContextGetViewStatus"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIViewContextGetViewStatus, which retrieves the current viewer status."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2e5ec914-7171-41ce-a6fe-78dd80ac32ff
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIViewContext::GetViewStatus

@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableGetStatus"
- 
- 
+description: "Desribes the syntax, parameters, and return value of IMAPITableGetStatus, which returns the table's status and type."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::GetStatus

@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionOpenEntry"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPISessionOpenEntry, which opens an object and returns an interface pointer for additional access."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a4df4860-cf4f-4e97-97c4-fcd89b7f1f91
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::OpenEntry

@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionPrepareForm"
- 
- 
+description: "IMAPISessionPrepareForm creates a numeric token that the IMAPISessionShowForm method uses to access a message."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::PrepareForm

@@ -1,7 +1,6 @@
 ---
 title: "IMAPISync  IUnknown"
- 
- 
+description: "IMAPISyncIUnknown provides a mechanism for synchronizing email instead of using the Transport API. This interface is exposed on a store object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c14d1012-f3d4-47eb-8a90-3160331f94e8
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISync : IUnknown

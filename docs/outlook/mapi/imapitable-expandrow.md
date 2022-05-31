@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableExpandRow"
- 
- 
+description: "IMAPITableExpandRow expands a collapsed table category, adding the leaf or lower-level heading rows belonging to the category to the table view."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b96dd8f6-e648-4014-8a1d-ae1da771c439
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::ExpandRow

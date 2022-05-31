@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionSetDefaultStore"
- 
- 
+description: "IMAPISessionSetDefaultStore establishes a message store as the default message store for the session."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::SetDefaultStore

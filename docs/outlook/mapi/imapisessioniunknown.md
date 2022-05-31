@@ -1,7 +1,6 @@
 ---
 title: "IMAPISession  IUnknown"
- 
- 
+description: "Describes the properties and vtable order of members for IMAPISessionIUnknown, which manages objects associated with a MAPI logon session."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5650fa2a-6e62-451c-964e-363f7bee2344
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession : IUnknown

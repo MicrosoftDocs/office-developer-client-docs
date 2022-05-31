@@ -1,7 +1,6 @@
 ---
 title: "IMAPISupportCopyFolder"
- 
- 
+description: "IMAPISupportCopyFolder copies or moves a folder from its current parent folder to another parent folder."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2e0939f-0668-473f-856c-a27af094070b
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISupport::CopyFolder
