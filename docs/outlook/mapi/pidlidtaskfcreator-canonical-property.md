@@ -1,6 +1,6 @@
 ---
 title: "PidLidTaskFCreator Canonical Property"
-description: Outlines the PidLidTaskFCreator canonical property, which indicates the task was  created by the current user or user agent.
+description: Outlines the PidLidTaskFCreator canonical property, which indicates the task was created by the current user or user agent.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

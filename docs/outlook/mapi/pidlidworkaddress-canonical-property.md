@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fc3c0ab3-6920-4e82-bc69-6c083159628f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidWorkAddress Canonical Property

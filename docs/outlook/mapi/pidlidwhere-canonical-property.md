@@ -11,7 +11,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b21a3aa4-7536-4728-b4a4-273cfb25c57e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidWhere Canonical Property
