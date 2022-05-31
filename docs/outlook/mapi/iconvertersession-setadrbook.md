@@ -1,7 +1,6 @@
 ---
 title: "IConverterSessionSetAdrBook"
- 
- 
+description: "IConverterSessionSetAdrBook specifies an optional MAPI Address Book that the MAPI to MIME converter uses to resolve ambiguous addresses."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d276ab19-17f4-01c7-4b44-b578e631b5fe
-description: "Last modified: March 09, 2015"
 ---
 
 # IConverterSession::SetAdrBook

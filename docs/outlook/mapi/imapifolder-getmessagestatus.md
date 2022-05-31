@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFolderGetMessageStatus"
- 
- 
+description: "IMAPIFolderGetMessageStatus obtains the status associated with a message in a particular folder (for example, whether that message is marked for deletion)."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ddbb129-5d6b-4eca-aba0-3620609ed0c1
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder::GetMessageStatus

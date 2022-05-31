@@ -1,7 +1,6 @@
 ---
 title: "IMAPIContainerSetSearchCriteria"
- 
- 
+description: "IMAPIContainerSetSearchCriteria establishes search criteria for the container. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5eb1841-e450-4024-aeaa-3b5a492ddb99
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIContainer::SetSearchCriteria

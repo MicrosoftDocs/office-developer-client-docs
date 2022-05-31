@@ -1,7 +1,6 @@
 ---
 title: "IMAPIContainerGetHierarchyTable"
- 
- 
+description: "IMAPIContainerGetHierarchyTable returns a pointer to the container's hierarchy table. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d0c54092-86a3-47e0-8133-72e119e74b65
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIContainer::GetHierarchyTable
