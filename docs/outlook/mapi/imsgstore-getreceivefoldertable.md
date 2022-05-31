@@ -1,7 +1,6 @@
 ---
 title: "IMsgStoreGetReceiveFolderTable"
- 
- 
+description: "IMsgStore GetReceiveFolderTable provides access to the receive folder table, which includes information about all of the receive folders for the message store."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d115ab58-07d2-4b49-8e08-2881c2924102
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore::GetReceiveFolderTable

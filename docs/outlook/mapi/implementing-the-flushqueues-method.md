@@ -1,5 +1,6 @@
 ---
 title: "Implementing the FlushQueues Method"
+description: "The MAPI spooler uses the IXPLogon FlushQueues method to download and upload any pending messages to and from a transport provider."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 8719f8aa-a537-4253-b67d-c4d38c40472b
-description: "Last modified: March 09, 2015"
  
  
 ---

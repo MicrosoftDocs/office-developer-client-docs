@@ -1,5 +1,6 @@
 ---
 title: "Implementing the IClassFactory Interface for Form Servers"
+description: "IClassFactory is the OLE interface that client applications use to create new form objects of your form server's message class."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 22402261-c0fc-49bd-a222-e31989d6ff30
-description: "Last modified: March 09, 2015"
  
  
 ---

@@ -1,7 +1,6 @@
 ---
 title: "IMsgStoreAbortSubmit"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMsgStore AbortSubmit, which attempts to remove a message from the outgoing queue."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9be6b88e-2510-4b82-8b35-5f20a0f99fc0
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore::AbortSubmit

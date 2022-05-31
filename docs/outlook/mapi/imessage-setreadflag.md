@@ -1,5 +1,6 @@
 ---
 title: "IMessageSetReadFlag"
+description: "IMessageSetReadFlag sets or clears the MSGFLAG_READ flag in the PR_MESSAGE_FLAGS property of the message and manages the sending of read reports."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2d02ebf6-bb8b-42bb-9bd0-870dbae9aeb4
-description: "Last modified: March 09, 2015"
 ---
 
 # IMessage::SetReadFlag

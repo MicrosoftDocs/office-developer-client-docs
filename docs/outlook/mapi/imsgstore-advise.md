@@ -1,7 +1,6 @@
 ---
 title: "IMsgStoreAdvise"
- 
- 
+description: "IMsgStore Advise registers to receive notification of specified events that affect the message store."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c57e743-a798-4e39-a61a-46dff8b1ac7c
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore::Advise

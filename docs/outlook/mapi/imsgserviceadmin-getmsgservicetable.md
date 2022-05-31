@@ -1,7 +1,6 @@
 ---
 title: "IMsgServiceAdminGetMsgServiceTable"
- 
- 
+description: "IMsgServiceAdmin GetMsgServiceTable provides access to the message service table, a list of the message services in the profile."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 064dd5ca-0108-4045-b17b-0bb29cb93346
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgServiceAdmin::GetMsgServiceTable

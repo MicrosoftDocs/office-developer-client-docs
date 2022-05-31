@@ -1,7 +1,6 @@
 ---
 title: "IMsgServiceAdminOpenProfileSection"
- 
- 
+description: "IMsgServiceAdmin OpenProfileSection opens a section of the current profile and returns an IProfSect pointer for further access."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f24910a-e14e-44a1-8477-d8968130ba74
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgServiceAdmin::OpenProfileSection

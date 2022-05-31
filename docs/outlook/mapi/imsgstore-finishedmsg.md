@@ -1,7 +1,6 @@
 ---
 title: "IMsgStoreFinishedMsg"
- 
- 
+description: "IMsgStore FinishedMsg enables the message store provider to perform processing on a sent message. It is called only by the MAPI spooler."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c32493fa-aa42-485b-9ea4-f93b835906df
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore::FinishedMsg
