@@ -22,7 +22,7 @@ ms.assetid: b8a4f87c-1d7c-46be-88e6-f09aa1525423
   
 Specifies the distance, in pixels, from the left edge of the screen where a user interface displays a note.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidNoteX  <br/> |
 |Property set:  <br/> |PSETID_Note  <br/> |

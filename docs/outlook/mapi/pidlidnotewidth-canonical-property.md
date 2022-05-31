@@ -22,7 +22,7 @@ ms.assetid: 20788f40-a7a4-44f7-8e43-efd3a34e6b10
   
 Specifies the width of the visible message window in pixels. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidNoteWidth  <br/> |
 |Property set:  <br/> |PSETID_Note  <br/> |

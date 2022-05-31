@@ -22,7 +22,7 @@ ms.assetid: 2d8ca0e1-6849-4e27-a26f-e77d0df608fd
   
 Specifies the height of the visible message window in pixels. 
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidNoteHeight  <br/> |
 |Property set:  <br/> |PSETID_Note  <br/> |
