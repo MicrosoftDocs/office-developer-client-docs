@@ -78,7 +78,7 @@ The following table describes the conditions that affect the actions you should 
 |The form is in one of the HandsOff states and the  _pMessage_ parameter is set to NULL. |Return E_INVALIDARG. |
 |The form is in a state other than one of the HandsOff states or the NoScribble state. |Return E_UNEXPECTED. |
    
-For more information about saving storage objects, see the documentation for the [IPersistStorage::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) or [IPersistFile::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) methods. 
+For more information about saving storage objects, see the documentation for the [IPersistStorage::SaveCompleted](/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) or [IPersistFile::SaveCompleted](/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) methods. 
   
 ## See also
 
