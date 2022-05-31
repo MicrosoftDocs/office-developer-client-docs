@@ -1,7 +1,6 @@
 ---
 title: "PidNameApplicationName Canonical Property"
- 
- 
+description: Outlines the PidNameApplicationName canonical property, which specifies the application that might open the file that is attached to the document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9f7e91f5-63a8-4529-9fb4-6275027af145
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameApplicationName Canonical Property

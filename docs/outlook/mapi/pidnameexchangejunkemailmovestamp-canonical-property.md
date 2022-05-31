@@ -1,7 +1,6 @@
 ---
 title: "PidNameExchangeJunkEmailMoveStamp Canonical Property"
- 
- 
+description: Outlines the PidNameExchangeJunkEmailMoveStamp canonical property, which is stamped on every message that is moved by the Junk E-Mail Rule or is trusted.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameExchangeJunkEmailMoveStamp Canonical Property

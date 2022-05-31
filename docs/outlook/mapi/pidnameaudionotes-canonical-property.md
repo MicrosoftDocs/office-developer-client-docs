@@ -1,7 +1,6 @@
 ---
 title: "PidNameAudioNotes Canonical Property"
- 
- 
+description: Outlines the PidNameAudioNotes canonical property, which specifies the textual notes that are attached to a voice message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: aec4d328-c192-4672-a478-b08442352794
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameAudioNotes Canonical Property

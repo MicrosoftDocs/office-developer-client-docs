@@ -1,7 +1,6 @@
 ---
 title: "PidNameEditTime Canonical Property"
- 
- 
+description: Outlines the PidNameEditTime canonical property, which specifies the time when the file was last edited.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3f079f46-dd6e-422d-9490-20be39a1dfca
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameEditTime Canonical Property

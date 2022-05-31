@@ -1,7 +1,6 @@
 ---
 title: "PidNameXSharingFlavor Canonical Property"
- 
- 
+description: Outlines the PidNameXSharingFlavor canonical property, which represents the value of the dispidSharingFlavor property.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7757fde1-564b-4f3a-9b9e-f80a143690ea
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameXSharingFlavor Canonical Property

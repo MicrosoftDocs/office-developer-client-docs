@@ -1,7 +1,6 @@
 ---
 title: "PidNameXSharingConfigUrl Canonical Property"
- 
- 
+description: Outlines the PidNameXSharingConfigUrl canonical property, which represents the value of the dispidSharingConfigUrl property.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b5c833de-db5d-4b3d-ad9a-6a64d046618e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameXSharingConfigUrl Canonical Property
