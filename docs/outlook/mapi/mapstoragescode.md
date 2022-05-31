@@ -1,7 +1,6 @@
 ---
 title: "MapStorageSCode"
- 
- 
+description: "Describes the syntax, parameters, and return value of MapStorageSCode, which maps an SCODE return value from an OLE storage object to an HRESULT type."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f686a2bc-aba5-4ea3-9963-76d0e96eab50
-description: "Last modified: March 09, 2015"
 ---
 
 # MapStorageSCode

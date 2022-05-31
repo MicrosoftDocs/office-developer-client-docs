@@ -1,7 +1,6 @@
 ---
 title: "MAPI Structures"
- 
- 
+description: "Provides alphabetized entries that describe MAPI structures. Cross references to other publications or to other topics in this documentation are also included."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +10,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPI Structures

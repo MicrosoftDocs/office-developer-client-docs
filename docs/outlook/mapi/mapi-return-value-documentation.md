@@ -1,5 +1,6 @@
 ---
 title: "MAPI Return Value Documentation"
+description: "Documents only MAPI return values that require handling by client applications. Describes error values that are commonly returned from methods and functions."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c32ee53c-b063-4a00-a6bf-75ce5e07f56a
-description: "Last modified: March 09, 2015"
  
  
 ---

@@ -1,7 +1,6 @@
 ---
 title: "MAPIUID"
- 
- 
+description: "MAPIUID is a byte-order independent version of a GUID structure that is used to uniquely identify a service provider."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIUID

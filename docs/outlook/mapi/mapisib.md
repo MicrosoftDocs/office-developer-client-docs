@@ -1,7 +1,6 @@
 ---
 title: "MAPISIB"
- 
- 
+description: "Describes the syntax and members of MAPISIB, which is a structure used with IMAPISync SynchronizeInBackground."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 16452798-7a95-43da-b95e-908debcea050
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPISIB
