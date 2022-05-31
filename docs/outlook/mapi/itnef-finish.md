@@ -1,7 +1,6 @@
 ---
 title: "ITnefFinish"
- 
- 
+description: "ITnefFinish finishes processing for all Transport-Neutral Encapsulation Format (TNEF) operations that are queued and waiting."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01a868f4-afda-43ba-bc17-c33ae56b7b7d
-description: "Last modified: March 09, 2015"
 ---
 
 # ITnef::Finish

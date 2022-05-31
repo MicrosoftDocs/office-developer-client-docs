@@ -1,7 +1,6 @@
 ---
 title: "IProfAdminAdminServices"
- 
- 
+description: "IProfAdmin AdminServices provides access to a message service administration object for making changes to the message services in a profile."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 87235fd2-6527-41a1-98ba-b951632a1c81
-description: "Last modified: March 09, 2015"
 ---
 
 # IProfAdmin::AdminServices

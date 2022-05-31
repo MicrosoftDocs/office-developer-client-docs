@@ -1,7 +1,6 @@
 ---
 title: "IPropDataHrSetPropAccess"
- 
- 
+description: "IPropData HrSetPropAccess sets the access level or status for one or more of the object's properties."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 02365050-5e8b-437c-925f-4eb0df646356
-description: "Last modified: March 09, 2015"
 ---
 
 # IPropData::HrSetPropAccess

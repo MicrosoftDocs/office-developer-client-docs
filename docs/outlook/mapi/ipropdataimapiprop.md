@@ -1,7 +1,6 @@
 ---
 title: "IPropData  IMAPIProp"
- 
- 
+description: "IPropData IMAPIProp provides the ability to retrieve and change the access for an object's properties."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
-description: "Last modified: March 09, 2015"
 ---
 
 # IPropData : IMAPIProp

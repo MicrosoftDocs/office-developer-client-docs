@@ -1,5 +1,6 @@
 ---
 title: "IPersistMessageSaveCompleted"
+description: "Describes the syntax, parameters, and return value of IPersistMessage SaveCompleted, which notifies the form that a save operation has been completed."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
-description: "Last modified: March 09, 2015"
 ---
 
 # IPersistMessage::SaveCompleted

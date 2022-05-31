@@ -1,7 +1,6 @@
 ---
 title: "IProfAdmin  IUnknown"
- 
- 
+description: "Describes the properties and vtable order of members for IProfAdmin IUnknown, which supports the administration of profiles."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
-description: "Last modified: March 09, 2015"
 ---
 
 # IProfAdmin : IUnknown
