@@ -30,7 +30,7 @@ Provides information for an offline object.
    
 ## Vtable order
 
-||Value |
+|Member|Value |
 |:-----|:-----|
 |**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Sets the current state of an offline object to online or offline. |
 |**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Gets the conditions for which callbacks are supported by an offline object. |
