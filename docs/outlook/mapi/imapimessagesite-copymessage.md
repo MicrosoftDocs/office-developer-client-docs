@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteCopyMessage"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteCopyMessage, which copies the current message to a folder."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::CopyMessage

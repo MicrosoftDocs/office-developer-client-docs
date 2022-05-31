@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteGetFormManager"
- 
- 
+description: "IMAPIMessageSiteGetFormManager returns a form manager interface, which a form server can use to open another form server."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::GetFormManager

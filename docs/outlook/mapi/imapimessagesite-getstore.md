@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteGetStore"
- 
- 
+description: "IMAPIMessageSiteGetStore returns the message store that contains the current message, if such a store exists."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::GetStore

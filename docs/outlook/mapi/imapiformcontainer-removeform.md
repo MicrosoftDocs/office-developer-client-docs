@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormContainerRemoveForm"
- 
- 
+description: "Describes the syntax, parameters, return value, and sample code of IMAPIFormContainerRemoveForm, which removes a particular form from a form container."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormContainer::RemoveForm

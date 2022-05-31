@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormFactory  IUnknown"
- 
- 
+description: "IMAPIFormFactoryIUnknown supports the use of configurable run-time forms in distributed computing environments."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 637be364-c393-430a-84b3-2c96aa553c22
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormFactory : IUnknown

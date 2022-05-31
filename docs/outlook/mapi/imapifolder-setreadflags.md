@@ -1,5 +1,6 @@
 ---
 title: "IMAPIFolderSetReadFlags"
+description: "IMAPIFolderSetReadFlags sets or clears the MSGFLAG_READ flag in the PR_MESSAGE_FLAGS property of one or more of the folder's messages."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder::SetReadFlags

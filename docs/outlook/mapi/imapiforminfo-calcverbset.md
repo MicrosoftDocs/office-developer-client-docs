@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormInfoCalcVerbSet"
- 
- 
+description: "Describes the syntax, parameters, and return value for IMAPIFormInfoCalcVerbSet, which returns a pointer to the complete set of verbs that a form uses."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0170dc9d-dc72-48e2-a522-374f199b18ea
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormInfo::CalcVerbSet

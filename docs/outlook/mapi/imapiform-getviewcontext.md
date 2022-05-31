@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormGetViewContext"
- 
- 
+description: "Describes the syntax, parameters, return value, and remarks for IMAPIFormGetViewContext, which returns the current view context for the form."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIForm::GetViewContext

@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormMgrSelectFormContainer"
- 
- 
+description: "IMAPIFormMgrSelectFormContainer presents a dialog box that enables the user to select a form container, and returns an interface for the container object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c33daad6-52c4-4968-ac56-415178c9bf12
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormMgr::SelectFormContainer
