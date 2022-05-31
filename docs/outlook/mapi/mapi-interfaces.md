@@ -1,7 +1,6 @@
 ---
 title: "MAPI Interfaces"
- 
- 
+description: Provides a detailed description of how documentation for MAPI interfaces and their associated properties are structured.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +10,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 34a66cf0-b4e0-4fd5-b937-cd157888961d
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPI Interfaces

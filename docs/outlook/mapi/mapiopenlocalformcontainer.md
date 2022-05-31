@@ -1,7 +1,6 @@
 ---
 title: "MAPIOpenLocalFormContainer"
- 
- 
+description: Describes the MAPIOpenLocalFormContainer function and provides syntax, parameters, return value, remarks, and MFCMAPI reference.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c53170f-03a6-4a05-913e-de8eeadea692
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIOpenLocalFormContainer

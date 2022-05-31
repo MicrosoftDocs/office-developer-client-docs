@@ -1,5 +1,6 @@
 ---
-title: "LPFNBUTTON" 
+title: "LPFNBUTTON"
+description: Describes the LPFNBUTTON function and provides syntax, parameters, return value, and additional remarks. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cb91ae1d-1ea8-4f02-a1f1-f2a356a71477
-description: "Last modified: March 09, 2015"
 ---
 
 # LPFNBUTTON

@@ -1,7 +1,6 @@
 ---
 title: "MAPIInitIdle"
- 
- 
+description: Describes the MAPIInitIdle function and provides syntax, parameters, return value, and additional remarks.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b6de7c6a-f2e7-4248-adea-d354924a8bbf
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIInitIdle

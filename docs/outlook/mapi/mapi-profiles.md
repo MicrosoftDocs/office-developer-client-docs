@@ -1,5 +1,6 @@
 ---
 title: "MAPI Profiles"
+description: MAPI profiles are divided into sections that clients and service providers access to display profile properties to users or to make configuration changes.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,9 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 493c87a4-317d-47ec-850b-342cac59594b
-description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # MAPI Profiles

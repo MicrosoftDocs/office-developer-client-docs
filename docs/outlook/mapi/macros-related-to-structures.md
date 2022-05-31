@@ -1,7 +1,6 @@
 ---
 title: "Macros Related to Structures"
- 
- 
+description: The topics in this section describe the macros related to MAPI structures and provides links to additional resources.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +10,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e58c4954-e6b5-469d-898b-cef0a8fd612c
-description: "Last modified: March 09, 2015"
 ---
 
 # Macros Related to Structures
