@@ -1,7 +1,6 @@
 ---
 title: "PidTagAnr Canonical Property"
- 
- 
+description: Outlines the PidTagAnr canonical property, which contains a string value for use in a property restriction on an address book container contents table. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: eca3d4ff-2e92-4d20-a498-98e0773c1962
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAnr Canonical Property

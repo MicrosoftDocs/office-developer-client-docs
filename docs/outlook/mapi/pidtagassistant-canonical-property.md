@@ -1,7 +1,6 @@
 ---
 title: "PidTagAssistant Canonical Property"
- 
- 
+description: Outlines the PidTagAssistant canonical property, which contains the name of the recipient's administrative assistant. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 24892aff-5a98-4d61-b740-17f74f8ae95d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAssistant Canonical Property

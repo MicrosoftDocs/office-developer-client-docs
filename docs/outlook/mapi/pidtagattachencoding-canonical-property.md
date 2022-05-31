@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachEncoding Canonical Property"
- 
- 
+description: Outlines the PidTagAttachEncoding canonical property, which contains an ASN.1 object identifier that specifies the encoding for an attachment. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3b30cec6-da1e-4ef1-8c17-24b66f31cf0a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachEncoding Canonical Property

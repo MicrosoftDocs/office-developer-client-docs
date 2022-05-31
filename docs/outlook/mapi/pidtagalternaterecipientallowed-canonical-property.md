@@ -1,7 +1,6 @@
 ---
 title: "PidTagAlternateRecipientAllowed Canonical Property"
- 
- 
+description: Outlines the PidTagAlternateRecipientAllowed canonical property, which contains TRUE if the sender permits auto forwarding of this message. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: dbbdeb54-3d14-4601-a77b-55ee31f33416
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAlternateRecipientAllowed Canonical Property

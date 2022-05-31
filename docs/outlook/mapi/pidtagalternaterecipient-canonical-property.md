@@ -1,7 +1,6 @@
 ---
 title: "PidTagAlternateRecipient Canonical Property"
- 
- 
+description: Outlines the PidTagAlternateRecipient canonical property, which contains a list of entry identifiers for alternate recipients.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: df787b60-2f53-42ac-89b5-1b52c906f472
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAlternateRecipient Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidNameXSharingProviderUrl Canonical Property"
- 
- 
+description: Outlines the PidNameXSharingProviderUrl canonical property, which represents the value of the dispidSharingProviderUrl property.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f44acaa6-1747-4b74-bf48-bb6f72b258ed
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameXSharingProviderUrl Canonical Property

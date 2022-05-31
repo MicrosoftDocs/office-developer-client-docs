@@ -1,7 +1,6 @@
 ---
 title: "PidTagAbDefaultPab Canonical Property"
- 
- 
+description: Outlines the PidTagAbDefaultPab canonical property, which contains the entry identifier of the address book container to use as the personal address book.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAbDefaultPab Canonical Property

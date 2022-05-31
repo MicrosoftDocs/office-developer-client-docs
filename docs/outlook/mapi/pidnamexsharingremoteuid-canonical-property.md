@@ -1,7 +1,6 @@
 ---
 title: "PidNameXSharingRemoteUid Canonical Property"
- 
- 
+description: Outlines the PidNameXSharingRemoteUid canonical property, which represents the value of the dispidSharingRemoteUid property.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a99bc2f3-03ff-4997-9d00-28be0a75b7f6
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameXSharingRemoteUid Canonical Property
