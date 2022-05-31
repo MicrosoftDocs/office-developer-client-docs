@@ -1,7 +1,6 @@
 ---
 title: "MTSID"
- 
- 
+description: "Describes the properties, members, and remarks for MTSID, which contains an X.400 message transport system (MTS) entry identifier."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3d9bc643-332f-4c8e-83e6-ce9b15711945
-description: "Last modified: March 09, 2015"
 ---
 
 # MTSID
