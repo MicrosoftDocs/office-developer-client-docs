@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskStartDate Canonical Property"
- 
- 
+description: Outlines the PidLidTaskStartDate canonical property, which contains the date when the user expects to begin the task.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe87eb3d-21d1-45bb-b848-e141ce1be6a0
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskStartDate Canonical Property

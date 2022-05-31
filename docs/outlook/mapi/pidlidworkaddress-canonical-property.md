@@ -1,7 +1,6 @@
 ---
 title: "PidLidWorkAddress Canonical Property"
- 
- 
+description: Outlines the PidLidWorkAddress canonical property, which specifies the contact's complete work address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fc3c0ab3-6920-4e82-bc69-6c083159628f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidWorkAddress Canonical Property

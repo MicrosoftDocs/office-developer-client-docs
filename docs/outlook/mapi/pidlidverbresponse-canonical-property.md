@@ -1,7 +1,6 @@
 ---
 title: "PidLidVerbResponse Canonical Property"
- 
- 
+description: Outlines the PidLidVerbResponse canonical property, which specifies the voting option that a respondent selected.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f3db5ac-f1cb-4c55-ab88-c126dd5f48ee
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidVerbResponse Canonical Property

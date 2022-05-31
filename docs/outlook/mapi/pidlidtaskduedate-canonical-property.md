@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskDueDate Canonical Property"
- 
- 
+description: Outlines the PidLidTaskDueDate canonical property, which represents the date when the user expects to complete the task.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69ed3d48-3741-4a9a-8f98-51382b850c27
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskDueDate Canonical Property

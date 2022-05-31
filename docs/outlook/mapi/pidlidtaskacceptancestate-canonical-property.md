@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskAcceptanceState Canonical Property"
- 
- 
+description: Outlines the PidLidTaskAcceptanceState canonical property, which indicates the acceptance state of the task.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7012f524-bc66-48ea-85b5-163e05029d35
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskAcceptanceState Canonical Property
