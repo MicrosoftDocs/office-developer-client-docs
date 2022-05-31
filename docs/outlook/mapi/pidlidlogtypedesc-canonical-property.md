@@ -1,7 +1,6 @@
 ---
 title: "PidLidLogTypeDesc Canonical Property"
- 
- 
+description: Outlines the PidLidLogTypeDesc canonical property, which describes the activity that is being recorded.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 39ccc69a-0226-4dd7-9068-53b496b50e0f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidLogTypeDesc Canonical Property

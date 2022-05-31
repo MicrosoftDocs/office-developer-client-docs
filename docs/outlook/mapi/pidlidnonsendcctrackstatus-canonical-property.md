@@ -1,7 +1,6 @@
 ---
 title: "PidLidNonSendCcTrackStatus Canonical Property"
- 
- 
+description: Outlines the PidLidNonSendCcTrackStatus canonical property, which contains the value for each attendee listed in the dispidNonSendableCC property.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e2654fad-444b-45bc-976d-3c5cbbc81b84
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidNonSendCcTrackStatus Canonical Property

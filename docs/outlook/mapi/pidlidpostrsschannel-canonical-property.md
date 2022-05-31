@@ -1,7 +1,6 @@
 ---
 title: "PidLidPostRssChannel Canonical Property"
- 
- 
+description: Outlines the PidLidPostRssChannel canonical property, which contains the contents of the \<title\> field from the XML of the Atom \<feed\> or RSS \<channel\>.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 249966ee-0d00-4d2d-89b0-fb7525a89735
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidPostRssChannel Canonical Property

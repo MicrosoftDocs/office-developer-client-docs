@@ -1,7 +1,6 @@
 ---
 title: "PidLidOldLocation Canonical Property"
- 
- 
+description: Outlines the PidLidOldLocation canonical property, which indicates the original value of the dispidLocation property before a meeting update.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5d31791b-c30d-4a97-b2d3-18cbe0e98792
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidOldLocation Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidLidLogType Canonical Property"
- 
- 
+description: Outlines the PidLidLogType canonical property, which contains the display name of the journaling application.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6cfcc048-03b9-4e34-bb92-480fe808e910
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidLogType Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidLidNoteColor Canonical Property"
- 
- 
+description: Outlines the PidLidNoteColor canonical property, which specifies the suggested background color of the note. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d4b8f5f-1789-497c-8010-f83da9ba5966
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidNoteColor Canonical Property

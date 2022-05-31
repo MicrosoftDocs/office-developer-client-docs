@@ -1,7 +1,6 @@
 ---
 title: "PidLidNoteX Canonical Property"
- 
- 
+description: Outlines the PidLidNoteX canonical property, which specifies the distance, in pixels, from the left edge of the screen where a user interface displays a note.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b8a4f87c-1d7c-46be-88e6-f09aa1525423
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidNoteX Canonical Property
@@ -24,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Specifies the distance, in pixels, from the left edge of the screen where a user interface displays a note.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidNoteX  <br/> |
 |Property set:  <br/> |PSETID_Note  <br/> |
