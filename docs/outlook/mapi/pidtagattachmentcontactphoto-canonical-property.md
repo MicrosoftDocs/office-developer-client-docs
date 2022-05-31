@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachmentContactPhoto Canonical Property"
- 
- 
+description: Outlines the PidTagAttachmentContactPhoto canonical property, which indicates the existence of a photo attachment for a contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: ea5b77b7-8440-4e54-abd2-c475138c8f63
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachmentContactPhoto Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidTagAutoForwarded Canonical Property"
- 
- 
+description: Outlines the PidTagAutoForwarded canonical property, which contains TRUE if the client requests an X-MS-Exchange-Organization-AutoForwarded header field.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAutoForwarded Canonical Property

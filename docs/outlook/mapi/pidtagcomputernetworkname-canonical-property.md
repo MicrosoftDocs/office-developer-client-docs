@@ -1,7 +1,6 @@
 ---
 title: "PidTagComputerNetworkName Canonical Property"
- 
- 
+description: Outlines the PidTagComputerNetworkName canonical property, which contains the name of the network used to transmit the message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 69467594-0d88-43e5-a6ab-9987a24cc846
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagComputerNetworkName Canonical Property

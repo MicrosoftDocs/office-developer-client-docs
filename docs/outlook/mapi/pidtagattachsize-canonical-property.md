@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachSize Canonical Property"
- 
- 
+description: Outlines the PidTagAttachSize canonical property, which contains the sum, in bytes, of the sizes of all properties on an attachment. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 768b3215-dd9f-4aa0-b52c-178ca81a7b07
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachSize Canonical Property

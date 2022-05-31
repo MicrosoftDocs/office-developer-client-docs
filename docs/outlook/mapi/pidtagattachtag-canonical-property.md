@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachTag Canonical Property"
- 
- 
+description: Outlines the PidTagAttachTag canonical property, which contains an ASN.1 object identifier specifying the application that supplied an attachment. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3d223809-b697-47c6-bc3c-2206aff7ad33
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachTag Canonical Property

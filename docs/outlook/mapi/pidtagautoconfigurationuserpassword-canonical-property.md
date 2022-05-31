@@ -1,7 +1,6 @@
 ---
 title: "PidTagAutoConfigurationUserPassword Canonical Property"
- 
- 
+description: Outlines the PidTagAutoConfigurationUserPassword canonical property, which represents the user's password.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d33e7c45-55d8-4dc1-ade9-605542d87e61
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAutoConfigurationUserPassword Canonical Property

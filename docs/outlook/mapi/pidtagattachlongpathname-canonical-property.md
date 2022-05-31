@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachLongPathname Canonical Property"
- 
- 
+description: Outlines the PidTagAttachLongPathname canonical property, which contains an attachment's fully-qualified long path and filename.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 3262cf95-48b5-4764-a96e-d752ce35b2dc
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachLongPathname Canonical Property
