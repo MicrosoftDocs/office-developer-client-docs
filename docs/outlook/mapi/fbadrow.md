@@ -1,7 +1,6 @@
 ---
 title: "FBadRow"
- 
- 
+description: "FBadRow validates a row in a table. This article describes its syntax, parameters, and return value."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 205d00df-488d-4888-8782-a1f70f54d720
-description: "Last modified: March 09, 2015"
 ---
 
 # FBadRow

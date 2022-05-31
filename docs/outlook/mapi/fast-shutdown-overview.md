@@ -1,5 +1,6 @@
 ---
 title: "Fast Shutdown Overview"
+description: "Fast shutdown is a mechanism for a MAPI client to initiate a quick shutdown of the client process, notifying all providers to save data and settings."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
-description: "Last modified: June 26, 2012"
 ---
 
 # Fast Shutdown Overview

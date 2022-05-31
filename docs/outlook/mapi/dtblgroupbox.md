@@ -1,7 +1,6 @@
 ---
 title: "DTBLGROUPBOX"
- 
- 
+description: "DTBLGROUPBOX describes a group box control that will be used in a dialog box built from a display table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e444b62-d6b6-4cfc-8601-d34aa004c1e6
-description: "Last modified: March 09, 2015"
 ---
 
 # DTBLGROUPBOX

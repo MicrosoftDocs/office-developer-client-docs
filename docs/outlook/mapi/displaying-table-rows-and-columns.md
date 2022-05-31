@@ -1,5 +1,6 @@
 ---
 title: "Displaying Table Rows and Columns"
+description: "Describes how to display table rows and columns, which can be used by an address book provider to enable users to define new email recipients."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 49567a8d-b58d-4636-bead-a1f84b4f111d
-description: "Last modified: March 09, 2015"
  
  
 ---

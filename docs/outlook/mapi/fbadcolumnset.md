@@ -1,7 +1,6 @@
 ---
 title: "FBadColumnSet"
- 
- 
+description: "FBadColumnSet tests the validity of a table column set for use by a service provider in a subsequent call to the IMAPITableSetColumns method."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
-description: "Last modified: March 09, 2015"
 ---
 
 # FBadColumnSet
