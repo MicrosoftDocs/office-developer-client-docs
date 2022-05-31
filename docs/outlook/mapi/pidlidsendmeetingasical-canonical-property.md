@@ -1,7 +1,6 @@
 ---
 title: "PidLidSendMeetingAsIcal Canonical Property"
- 
- 
+description: Outlines the PidLidSendMeetingAsIcal canonical property, which specifies if a meeting request should be sent as an iCal message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d643bf62-62e5-41c7-ab88-5c4c358e5460
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidSendMeetingAsIcal Canonical Property

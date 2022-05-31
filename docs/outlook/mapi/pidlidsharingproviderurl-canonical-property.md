@@ -1,7 +1,6 @@
 ---
 title: "PidLidSharingProviderUrl Canonical Property"
- 
- 
+description: Outlines the PidLidSharingProviderUrl canonical property, which specifies the URL that is related to the sharing provider.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d217ab33-d697-4d27-a962-08d551d301f0
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidSharingProviderUrl Canonical Property

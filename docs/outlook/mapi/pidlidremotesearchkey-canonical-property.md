@@ -1,7 +1,6 @@
 ---
 title: "PidLidRemoteSearchKey Canonical Property"
- 
- 
+description: Outlines the PidLidRemoteSearchKey canonical property, which indicates the search key of a remote item.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 299627fe-8fbc-43e9-95aa-daf5c6e31ffb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidRemoteSearchKey Canonical Property

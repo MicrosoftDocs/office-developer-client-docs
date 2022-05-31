@@ -1,7 +1,6 @@
 ---
 title: "PidTagContactAddressBookMultipleAddressFlag Canonical Property"
- 
- 
+description: Outlines the PidTagContactAddressBookMultipleAddressFlag canonical property, which is TRUE if the provider does not allow contacts without email addresses. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: aefc34c5-1beb-44cf-a455-90f466e157ce
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContactAddressBookMultipleAddressFlag Canonical Property

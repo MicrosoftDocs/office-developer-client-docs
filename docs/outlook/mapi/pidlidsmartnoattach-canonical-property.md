@@ -1,7 +1,6 @@
 ---
 title: "PidLidSmartNoAttach Canonical Property"
- 
- 
+description: Outlines the PidLidSmartNoAttach canonical property, which represents whether the attachments on a message are considered as hidden.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60299c1b-1b46-4c3a-8fb9-a2b4d3383aac
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidSmartNoAttach Canonical Property

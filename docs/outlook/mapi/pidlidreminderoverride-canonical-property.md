@@ -1,7 +1,6 @@
 ---
 title: "PidLidReminderOverride Canonical Property"
- 
- 
+description: Outlines the PidLidReminderOverride canonical property, which specifies whether the client should respect the values of the dispidReminderPlaySound properties.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ad7e37e1-bd12-409f-87e5-ebc0c298a072
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidReminderOverride Canonical Property

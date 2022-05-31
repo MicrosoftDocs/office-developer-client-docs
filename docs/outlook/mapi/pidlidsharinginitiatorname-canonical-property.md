@@ -1,7 +1,6 @@
 ---
 title: "PidLidSharingInitiatorName Canonical Property"
- 
- 
+description: Outlines the PidLidSharingInitiatorName canonical property, which designates as a property of a sharing message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f2b126fc-41fa-4dc4-9f13-07bc4f621d0b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidSharingInitiatorName Canonical Property

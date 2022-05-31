@@ -1,7 +1,6 @@
 ---
 title: "PidLidSharingRemoteStoreUid Canonical Property"
- 
- 
+description: Outlines the PidLidSharingRemoteStoreUid canonical property, which is a property of a sharing message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6773bba-45ef-4aef-90da-acad8ff64615
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidSharingRemoteStoreUid Canonical Property
