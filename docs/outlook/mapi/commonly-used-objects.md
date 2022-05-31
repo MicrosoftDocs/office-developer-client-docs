@@ -1,5 +1,6 @@
 ---
 title: "Commonly Used Objects"
+description: "Describes commonly used MAPI objects and interfaces (which are exposed by the objects) for Microsoft Outlook."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 24d4bc7e-db85-48e7-b840-0b67e319376f
-description: "Last modified: June 25, 2012"
  
  
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Commonly Used Properties"
+description: "Lists of required and optional Microsoft Outlook MAPI properties that are documented in several places."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 887c5e82-170f-4c3c-986f-465c05fbbdbe
-description: "Last modified: November 08, 2011"
  
  
 ---

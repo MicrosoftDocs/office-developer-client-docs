@@ -1,7 +1,6 @@
 ---
 title: "CbNewMTSID"
- 
- 
+description: "CbNewMTSID computes the number of bytes that should be allocated for a new MTSID structure with a message transfer agent identifier of a specified size."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fd5ef226-39e6-4604-a751-2f6cc49c4895
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewMTSID

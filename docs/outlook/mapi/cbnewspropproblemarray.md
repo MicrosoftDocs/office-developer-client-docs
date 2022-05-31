@@ -1,7 +1,6 @@
 ---
 title: "CbNewSPropProblemArray"
- 
- 
+description: "CbNewSPropProblemArray computes the number of bytes for a new SPropProblemArray structure that contains a specified number of SPropProblem structures."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce018fb0-4e23-4451-a31a-52bd0977a061
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewSPropProblemArray

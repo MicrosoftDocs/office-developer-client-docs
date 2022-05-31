@@ -1,7 +1,6 @@
 ---
 title: "CONTAB_ENTRYID"
- 
- 
+description: "CONTAB_ENTRYID contains the entry ID of the contacts folder. This article describes its members and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 84251222-dac4-4f4d-97b9-aa0e2cd26c44
-description: "Last modified: March 09, 2015"
 ---
 
 # CONTAB_ENTRYID

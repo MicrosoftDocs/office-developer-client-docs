@@ -1,5 +1,6 @@
 ---
 title: "Commonly Used Header Files"
+description: "Describes the MAPI header files (where the API element is defined) that developers frequently use and includes a description of each file."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
-description: "Last modified: March 09, 2015"
  
  
 ---

@@ -1,7 +1,6 @@
 ---
 title: "CheckParms"
- 
- 
+description: "CheckParms calls an internal function to validate debugging parameters on service provider methods called by MAPI."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 328f12f0-e4e7-407f-8eb8-0d4bf543962d
-description: "Last modified: March 09, 2015"
 ---
 
 # CheckParms

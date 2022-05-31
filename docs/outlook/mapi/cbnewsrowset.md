@@ -1,7 +1,6 @@
 ---
 title: "CbNewSRowSet"
- 
- 
+description: "CbNewSRowSet computes the number of bytes to be allocated for a new SRowSet structure that contains a specified number of rows represented by SRow structures."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewSRowSet

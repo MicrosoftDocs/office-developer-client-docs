@@ -1,7 +1,6 @@
 ---
 title: "CHANGE_PROP_TYPE"
- 
- 
+description: "CHANGE_PROP_TYPE updates the property type of a property tag to a specified value. The property identifier is unchanged."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95513b5a-fd3b-46f2-a6c0-094500ae4ca7
-description: "Last modified: March 09, 2015"
 ---
 
 # CHANGE_PROP_TYPE
