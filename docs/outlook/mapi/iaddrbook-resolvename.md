@@ -1,7 +1,6 @@
 ---
 title: "IAddrBookResolveName"
- 
- 
+description: The IAddrBookResolveName function performs name resolution, assigning entry identifiers to recipients in a recipient list.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::ResolveName

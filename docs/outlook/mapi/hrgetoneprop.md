@@ -1,7 +1,6 @@
 ---
 title: "HrGetOneProp"
- 
- 
+description: Retrieves the value of a single property from a property interface, that is, an interface derived from IMAPIProp.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
-description: "Last modified: March 09, 2015"
 ---
 
 # HrGetOneProp

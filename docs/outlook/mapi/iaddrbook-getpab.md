@@ -1,7 +1,6 @@
 ---
 title: "IAddrBookGetPAB"
- 
- 
+description: The IAddrBookGetPAB returns the entry identifier of the container that is designated as the personal address book (PAB).
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9830e09c-700f-469b-a54d-4e4e0583aa84
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::GetPAB

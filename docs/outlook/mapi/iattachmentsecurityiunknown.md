@@ -1,7 +1,6 @@
 ---
 title: "IAttachmentSecurity  IUnknown"
- 
- 
+description: Allows Microsoft Outlook 2010 and Microsoft Outlook 2013 solutions to find out if an attachment is considered unsafe and blocked for viewing and indexing.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69609f73-5884-9e2b-ab78-a2e0ece3a1d1
-description: "Last modified: March 09, 2015"
 ---
 
 # IAttachmentSecurity : IUnknown

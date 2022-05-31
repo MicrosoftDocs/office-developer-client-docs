@@ -1,7 +1,6 @@
 ---
 title: "IAddrBookCreateOneOff"
- 
- 
+description: This article describes the IAddrBookCreateOneOff function and provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcacfbdf-edff-4810-a985-e6d2c9271901
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::CreateOneOff

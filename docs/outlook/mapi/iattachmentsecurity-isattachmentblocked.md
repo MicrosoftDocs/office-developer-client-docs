@@ -1,5 +1,6 @@
 ---
 title: "IAttachmentSecurityIsAttachmentBlocked" 
+description: Checks if a specified attachment is blocked by Microsoft Outlook 2010 or Microsoft Outlook 2013 for viewing and indexing.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6986d27a-9602-e44a-0797-4c47f2184ef7
-description: "Last modified: June 25, 2012"
 ---
 
 # IAttachmentSecurity::IsAttachmentBlocked

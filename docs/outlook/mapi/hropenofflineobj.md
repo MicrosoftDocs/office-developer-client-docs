@@ -1,7 +1,6 @@
 ---
 title: "HrOpenOfflineObj"
- 
- 
+description: This article describes the HrOpenOfflineObj function and provides syntax, parameters, return value, and additional remarks.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: cee1a940-fe01-d364-5d7c-c9e9dfeb8979
-description: "Last modified: March 09, 2015"
 ---
 
 # HrOpenOfflineObj

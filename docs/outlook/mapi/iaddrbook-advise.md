@@ -1,7 +1,6 @@
 ---
 title: "IAddrBookAdvise"
- 
- 
+description: Registers a client or service provider to receive notifications about changes to one or more entries in the address book.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2def89ed-e4ce-446a-8b80-132d11ae8f8b
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::Advise
