@@ -1,7 +1,6 @@
 ---
 title: "IConverterSession  IUnknown"
- 
- 
+description: "IConverterSession IUnknown allows conversions between MIME objects and MAPI messages, which can be useful in transporting messages across the Internet."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
-description: "Last modified: March 09, 2015"
 ---
 
 # IConverterSession : IUnknown

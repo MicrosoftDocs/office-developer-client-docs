@@ -1,5 +1,6 @@
 ---
 title: "HrDecomposeEID" 
+description: This article describes the HrDecomposeEID function and provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4847838a-2ad8-4927-8f78-7fa5c8eb54eb
-description: "Last modified: March 09, 2015"
 ---
 
 # HrDecomposeEID

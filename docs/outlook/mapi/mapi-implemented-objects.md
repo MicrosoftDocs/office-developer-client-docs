@@ -1,5 +1,6 @@
 ---
 title: "MAPI-implemented objects"
+description: Provides a detailed overview of the MAPI-implemented objects for use by clients and service providers.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5d07c259-0ceb-4ea5-98b4-b01720edfe2a
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPI-implemented objects

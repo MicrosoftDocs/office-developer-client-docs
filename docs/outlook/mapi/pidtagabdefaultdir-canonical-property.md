@@ -1,7 +1,6 @@
 ---
 title: "PidTagAbDefaultDir Canonical Property"
- 
- 
+description: Outlines the PidTagAbDefaultDir canonical property, which contains the entry identifier of the address book container to display first. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: c7092375-c945-4f2a-94e0-6d969c6edd27
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAbDefaultDir Canonical Property

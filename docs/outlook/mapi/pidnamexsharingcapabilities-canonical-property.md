@@ -1,7 +1,6 @@
 ---
 title: "PidNameXSharingCapabilities Canonical Property"
- 
- 
+description: Outlines the PidNameXSharingCapabilities canonical property, which contains a value that indicates the sharing capabilities of the item.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 62319e45-b627-4e5a-b76d-2517bf515956
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameXSharingCapabilities Canonical Property

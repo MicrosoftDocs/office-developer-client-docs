@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteDeleteMessage"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteDeleteMessage, which deletes the current message."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 09955996-b904-4c0d-8ba5-954a8875c055
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::DeleteMessage

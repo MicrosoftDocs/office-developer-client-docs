@@ -1,7 +1,6 @@
 ---
 title: "IAddrBook  IMAPIProp"
- 
- 
+description: The IAddrBook IMAPIProp supports access to the MAPI address book and includes operations such as displaying common dialog boxes.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ccacbc0-10d5-40f9-a12b-d090a21d0d49
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook : IMAPIProp

@@ -1,7 +1,6 @@
 ---
 title: "PidNameLastSaveDateTime Canonical Property"
- 
- 
+description: Outlines the PidNameLastSaveDateTime canonical property, which specifies the time when the file was last saved.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f1c87aa-70b7-4c36-8840-04e70327bda7
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameLastSaveDateTime Canonical Property

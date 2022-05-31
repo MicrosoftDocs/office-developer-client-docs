@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSite  IUnknown"
- 
- 
+description: "IMAPIMessageSiteIUnknown manipulates messages and is implemented by the form viewer code (typically a client application) that responds to such manipulation."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 883448f5-0d3f-486d-80a3-7b961c209cd0
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite : IUnknown

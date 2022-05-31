@@ -1,7 +1,6 @@
 ---
 title: "MAPIOpenFormMgr"
- 
- 
+description: Describes the MAPIOpenFormMgr function and provides syntax, parameters, return value, remarks, and MFCMAPI reference. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b624954-d975-4d5e-84d7-74e096ac30af
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIOpenFormMgr

@@ -1,7 +1,6 @@
 ---
 title: "IABContainerDeleteEntries"
- 
- 
+description: This article describes the IABContainerDeleteEntries function and provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 70a24811-0c41-4b44-8c63-7ef807bc9051
-description: "Last modified: March 09, 2015"
 ---
 
 # IABContainer::DeleteEntries

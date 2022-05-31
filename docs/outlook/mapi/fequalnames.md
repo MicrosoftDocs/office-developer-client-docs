@@ -1,5 +1,6 @@
 ---
 title: "FEqualNames"
+description: Describes FEqualNames and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4dd58b0b-dc39-4782-a9ec-05e353c90927
-description: "Last modified: March 09, 2015"
 ---
 
 # FEqualNames

@@ -1,7 +1,6 @@
 ---
 title: "FBadEntryList"
- 
- 
+description: "FBadEntryList validates a list of MAPI entry identifiers. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 270c47c3-ae68-4995-b304-27f861b350d6
-description: "Last modified: March 09, 2015"
 ---
 
 # FBadEntryList

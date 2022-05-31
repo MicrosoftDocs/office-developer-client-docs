@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFolderCopyMessages"
- 
- 
+description: "IMAPIFolderCopyMessages copies or moves one or more messages. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4c7d2110-3fcb-4b9f-bf20-1dc1a611161d
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder::CopyMessages

@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFolderDeleteFolder"
- 
- 
+description: "IMAPIFolderDeleteFolder deletes a subfolder. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6c3e883c-80c0-4eda-8f81-8277d933a74b
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder::DeleteFolder

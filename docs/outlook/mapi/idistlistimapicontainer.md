@@ -1,7 +1,6 @@
 ---
 title: "IDistList  IMAPIContainer"
- 
- 
+description: "IDistList IMAPIContainer provides access to distribution lists in modifiable address book containers and can create, copy, and delete distribution lists."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
-description: "Last modified: March 09, 2015"
 ---
 
 # IDistList : IMAPIContainer

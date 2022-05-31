@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskMode Canonical Property"
- 
- 
+description: Outlines the PidLidTaskMode canonical property, which specifies the assignment status of the task and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 185db683-301a-4d91-a583-6959853fa1ad
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskMode Canonical Property

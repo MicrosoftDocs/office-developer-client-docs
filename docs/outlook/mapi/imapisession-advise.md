@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionAdvise"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPISessionAdvise, which registers to receive the notification of events that affect the session."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a6a6b6b1-31e2-4899-a5fe-74d5d1c2ccfc
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::Advise

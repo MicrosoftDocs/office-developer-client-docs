@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskFCreator Canonical Property"
- 
- 
+description: Outlines the PidLidTaskFCreator canonical property, which indicates the task was created by the current user or user agent.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb88750b-4773-4241-aa38-462a2634dbcb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskFCreator Canonical Property

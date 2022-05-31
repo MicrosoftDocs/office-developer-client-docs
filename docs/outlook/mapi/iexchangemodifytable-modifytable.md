@@ -1,7 +1,6 @@
 ---
 title: "IExchangeModifyTableModifyTable"
- 
- 
+description: "IExchangeModifyTableModifyTable updates a MAPI table object. This article describes its syntax, parameters, and provides a sample code."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
-description: "Last modified: March 09, 2015"
 ---
 
 # IExchangeModifyTable::ModifyTable

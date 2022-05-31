@@ -1,7 +1,6 @@
 ---
 title: "DTBLBUTTON"
- 
- 
+description: "The DTBLBUTTON contains information about a button control for a dialog box built from a display table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6058c78b-05d4-45a3-988c-1fbf8322125e
-description: "Last modified: March 09, 2015"
 ---
 
 # DTBLBUTTON

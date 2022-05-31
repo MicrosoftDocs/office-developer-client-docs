@@ -1,7 +1,6 @@
 ---
 title: "IAddrBookSetDefaultDir"
- 
- 
+description: This article describes the IAddrBookSetDefaultDir function and provides syntax, parameters, return value, and additional remarks.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d5d60150-15e4-41ff-bfb0-0c67e2abcacc
-description: "Last modified: March 09, 2015"
 ---
 
 # IAddrBook::SetDefaultDir

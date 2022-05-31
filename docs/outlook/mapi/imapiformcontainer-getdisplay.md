@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormContainerGetDisplay"
- 
- 
+description: "IMAPIFormContainerGetDisplay returns the display name of a form container. This article describes its syntax, parameters, and return value."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormContainer::GetDisplay

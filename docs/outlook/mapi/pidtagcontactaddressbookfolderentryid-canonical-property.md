@@ -1,7 +1,6 @@
 ---
 title: "PidTagContactAddressBookFolderEntryId Canonical Property"
- 
- 
+description: Outlines the PidTagContactAddressBookFolderEntryId canonical property, which  is a property on a Contact Address Book container.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 54361b61-de14-4409-b120-7a01a401be49
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContactAddressBookFolderEntryId Canonical Property

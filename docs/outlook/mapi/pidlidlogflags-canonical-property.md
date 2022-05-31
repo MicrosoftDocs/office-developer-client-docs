@@ -1,7 +1,6 @@
 ---
 title: "PidLidLogFlags Canonical Property"
- 
- 
+description: Outlines the PidLidLogFlags canonical property, which contains metadata about the journal and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3174d931-e045-44db-a203-a27c9c00f4fc
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidLogFlags Canonical Property

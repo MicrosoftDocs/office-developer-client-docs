@@ -1,7 +1,6 @@
 ---
 title: "FBadRestriction"
- 
- 
+description: "FBadRestriction validates a restriction used to limit a table view. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6ad3638c-d088-4a89-9b0d-f5b672162203
-description: "Last modified: March 09, 2015"
 ---
 
 # FBadRestriction

@@ -1,5 +1,6 @@
 ---
 title: "Handling message store notification"
+description: This article describes registering and handling message store notifications.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3e0cc2f9-a88d-4cec-bef5-b60f2ec80f1c
-description: "Last modified: March 09, 2015"
 ---
 
 # Handling message store notification

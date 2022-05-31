@@ -1,7 +1,6 @@
 ---
 title: "PidTagClientSubmitTime Canonical Property"
- 
- 
+description: Outlines the PidTagClientSubmitTime canonical property, which contains the date and time the message sender submitted a message. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagClientSubmitTime Canonical Property

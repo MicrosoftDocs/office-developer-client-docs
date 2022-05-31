@@ -1,7 +1,6 @@
 ---
 title: "IMAPIOffline  IUnknown"
- 
- 
+description: "Describes the properties, vtable order, and remarks for IMAPIOfflineIUnknown, which provides information for an offline object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 211281ff-3c22-1b51-4b72-ca1e313c7202
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIOffline : IUnknown
@@ -32,7 +30,7 @@ Provides information for an offline object.
    
 ## Vtable order
 
-||Value |
+|Member|Value |
 |:-----|:-----|
 |**[SetCurrentState](imapioffline-setcurrentstate.md)** <br/> |Sets the current state of an offline object to online or offline. |
 |**[GetCapabilities](imapioffline-getcapabilities.md)** <br/> |Gets the conditions for which callbacks are supported by an offline object. |

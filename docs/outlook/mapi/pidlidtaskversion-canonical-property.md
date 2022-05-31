@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskVersion Canonical Property"
- 
- 
+description: Outlines the PidLidTaskVersion canonical property, which indicates which copy is the latest update of a task.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3ab77f25-ad11-4501-8d35-ef560c07e2f2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskVersion Canonical Property

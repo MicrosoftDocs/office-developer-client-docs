@@ -1,7 +1,6 @@
 ---
 title: "IMAPIPropGetProps"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIPropGetProps, which retrieves the property value of one or more properties of an object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1c7a9cd2-d765-4218-9aee-52df1a2aae6c
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProp::GetProps

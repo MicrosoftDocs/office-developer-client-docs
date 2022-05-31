@@ -1,6 +1,6 @@
 ---
 title: "GetDefCachedModeDownloadPubFoldFavs"
- 
+description: Describes GetDefCachedModeDownloadPubFoldFavs and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2dd95561-ed8f-8a3b-6532-b53556f16666
-description: "Last modified: March 09, 2015"
 ---
 
 # GetDefCachedModeDownloadPubFoldFavs

@@ -1,7 +1,6 @@
 ---
 title: "PidLidToAttendeesString Canonical Property"
- 
- 
+description: Outlines the PidLidToAttendeesString canonical property, which contains a list of all the sendable attendees who are also required attendees.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca1eedba-c617-4403-8490-315ab75f2edb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidToAttendeesString Canonical Property

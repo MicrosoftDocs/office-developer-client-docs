@@ -1,7 +1,6 @@
 ---
 title: "PidLidReminderDelta Canonical Property"
- 
- 
+description: Outlines the PidLidReminderDelta canonical property, which specifies an interval in minutes and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 011d73d0-8b38-4a4e-a56f-92dec451946a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidReminderDelta Canonical Property

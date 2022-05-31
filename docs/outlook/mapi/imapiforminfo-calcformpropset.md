@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormInfoCalcFormPropSet"
- 
- 
+description: "Describes the syntax, parameters, and return value for IMAPIFormInfoCalcFormPropSet, which returns a pointer to the complete set of properties that a form uses."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cc3ffb8d-9cc4-47d3-9aa9-02c3a5b7775c
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormInfo::CalcFormPropSet

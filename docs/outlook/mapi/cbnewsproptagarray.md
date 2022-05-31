@@ -1,7 +1,6 @@
 ---
 title: "CbNewSPropTagArray"
- 
- 
+description: "CbNewSPropTagArray computes the number of bytes to be allocated for a new SPropTagArray structure that contains a specified number of property tags."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
-description: "Last modified: March 09, 2015"
 ---
 
 # CbNewSPropTagArray

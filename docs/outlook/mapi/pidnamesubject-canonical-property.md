@@ -1,7 +1,6 @@
 ---
 title: "PidNameSubject Canonical Property"
- 
- 
+description: Outlines the PidNameSubject canonical property, which specifies the subject of the file that is attached to the document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d7bae17b-f1f3-4a29-bfa6-0a0658234eec
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameSubject Canonical Property

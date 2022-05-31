@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachExtension Canonical Property"
- 
- 
+description: Outlines the PidTagAttachExtension canonical property, which contains a file name extension that indicates the document type of an attachment. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 667da30b-e11c-4040-aecf-bb35eed23722
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachExtension Canonical Property

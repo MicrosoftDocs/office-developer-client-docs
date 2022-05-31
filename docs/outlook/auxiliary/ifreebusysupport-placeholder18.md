@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 ms.localizationpriority: medium
 ms.assetid: ed275dfe-8ba0-ed23-4d9f-837af90cc800
-description: "This member is a placeholder and is not supported."
+description: Describes the IFreeBusySupportPlaceholder18 and provides syntax, return value, and additional remarks. This member is a placeholder and is not supported.
 ---
 
 # IFreeBusySupport::Placeholder18

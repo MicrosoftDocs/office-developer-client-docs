@@ -1,7 +1,6 @@
 ---
 title: "PidNameKeywords Canonical Property"
- 
- 
+description: Outlines the PidNameKeywords canonical property, which contains keywords or categories for the message object.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameKeywords Canonical Property

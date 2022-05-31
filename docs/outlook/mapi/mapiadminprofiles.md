@@ -1,7 +1,6 @@
 ---
 title: "MAPIAdminProfiles"
- 
- 
+description: Describes the MAPIAdminProfiles function and provides syntax, parameters, return value, and MFCMAPI references.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 82a9e379-39e4-4257-8cba-a6758f431cdc
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIAdminProfiles

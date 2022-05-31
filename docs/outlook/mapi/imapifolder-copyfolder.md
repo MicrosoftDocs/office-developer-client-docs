@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFolderCopyFolder"
- 
- 
+description: "IMAPIFolderCopyFolder copies or moves a subfolder. This article describes its parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2c1c25c6-1aec-4d9e-a2a3-bf1b4a2908b8
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder::CopyFolder

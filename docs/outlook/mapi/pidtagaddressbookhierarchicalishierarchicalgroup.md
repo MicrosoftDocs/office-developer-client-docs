@@ -1,7 +1,6 @@
 ---
 title: "PidTagAddressBookHierarchicalIsHierarchicalGroup"
- 
- 
+description: Outlines the PidTagAddressBookHierarchicalIsHierarchicalGroup canonical property, which contains TRUE if the distribution list is also a departmental group.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: d5d289b2-d4d6-49ab-bf8b-945cb35272fc
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAddressBookHierarchicalIsHierarchicalGroup

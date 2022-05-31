@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormContainerInstallForm"
- 
- 
+description: "IMAPIFormContainerInstallForm installs a form into a form library. This article describes its syntax, parameters, and return value."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b39ca52c-4dbe-41c0-9e1b-3998a9dc9742
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormContainer::InstallForm

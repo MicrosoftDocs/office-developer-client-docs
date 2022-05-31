@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskState Canonical Property"
- 
- 
+description: Outlines the PidLidTaskState canonical property, which indicates the current assignment state of the task.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 06d1f8a3-53e1-4c9a-9703-75de7a11a772
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskState Canonical Property

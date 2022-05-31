@@ -1,5 +1,6 @@
 ---
 title: "IConverterSessionSetEncoding"
+description: "IConverterSessionSetEncoding initializes the encoding to be used during conversion. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
-description: "Last modified: March 09, 2015"
 ---
 
 # IConverterSession::SetEncoding

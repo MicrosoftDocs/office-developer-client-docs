@@ -1,7 +1,6 @@
 ---
 title: "PidNameAcceptLanguage Canonical Property"
- 
- 
+description: Outlines the PidNameAcceptLanguage canonical property, which contains an [RFC3282] Accept-Language header field value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameAcceptLanguage Canonical Property

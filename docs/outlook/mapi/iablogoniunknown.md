@@ -1,7 +1,6 @@
 ---
 title: "IABLogon  IUnknown"
- 
- 
+description: This article describes the IABLogon IUnknown and provides methods, properties, and additional remarks.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fe340182-f41e-42e7-b8e8-cc005b1e9a5f
-description: "Last modified: March 09, 2015"
 ---
 
 # IABLogon : IUnknown

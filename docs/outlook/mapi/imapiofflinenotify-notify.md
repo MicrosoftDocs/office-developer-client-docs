@@ -1,7 +1,6 @@
 ---
 title: "IMAPIOfflineNotifyNotify"
- 
- 
+description: "Describes the syntax, parameters, and remarks for IMAPIOfflineNotifyNotify, which sends notifications to the client about changes in connection state."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 10c7cb9d-2e9d-72eb-6b07-31eed892e646
-description: "Last modified: June 25, 2012"
 ---
 
 # IMAPIOfflineNotify::Notify

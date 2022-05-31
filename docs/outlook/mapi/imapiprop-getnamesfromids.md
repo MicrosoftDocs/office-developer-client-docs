@@ -1,7 +1,6 @@
 ---
 title: "IMAPIPropGetNamesFromIDs"
- 
- 
+description: "IMAPIPropGetNamesFromIDs provides the property names that correspond to one or more property identifiers."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProp::GetNamesFromIDs

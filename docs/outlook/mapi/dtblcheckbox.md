@@ -1,7 +1,6 @@
 ---
 title: "DTBLCHECKBOX"
- 
- 
+description: "DTBLCHECKBOX contains information about a check box that will be used in a dialog box built from a display table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
-description: "Last modified: March 09, 2015"
 ---
 
 # DTBLCHECKBOX

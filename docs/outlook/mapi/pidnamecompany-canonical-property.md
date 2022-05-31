@@ -1,7 +1,6 @@
 ---
 title: "PidNameCompany Canonical Property"
- 
- 
+description: Outlines the PidNameCompany canonical property, which specifies the company for which the file was created.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4546dd8d-b901-4381-a715-887a31cea2b9
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameCompany Canonical Property

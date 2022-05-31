@@ -1,7 +1,6 @@
 ---
 title: "IMAPIProp  IUnknown"
- 
- 
+description: "IMAPIPropIUnknown enables clients, service providers, and MAPI to work with properties. All objects that support properties implement this interface."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProp : IUnknown

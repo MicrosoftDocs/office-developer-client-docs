@@ -1,5 +1,6 @@
 ---
-title: "IMAPIFormMgrLoadForm" 
+title: "IMAPIFormMgrLoadForm"
+description: "Describes the syntax, parameters, and return value of IMAPIFormMgrLoadForm, which starts a form to open an existing message."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5ca500c3-c737-45a5-b0fc-473b75c1d68d
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormMgr::LoadForm

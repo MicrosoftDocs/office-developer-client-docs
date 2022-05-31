@@ -1,5 +1,6 @@
 ---
 title: "FLATMTSIDLIST"
+description: Describes FLATMTSIDLIST and provides syntax, members, and additional remarks.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b66c2815-72bc-4535-b34c-899bb830f29e
-description: "Last modified: March 09, 2015"
 ---
 
 # FLATMTSIDLIST

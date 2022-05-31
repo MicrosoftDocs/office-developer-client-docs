@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 9cb35f0a-267e-2d85-1701-02d52578a0b8
-description: "Last modified: November 08, 2011"
+description: This article provides a detailed description about MAPI URL's for notification-based indexing.
 ---
 
 # About MAPI URLs for Notification-Based Indexing

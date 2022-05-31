@@ -1,7 +1,6 @@
 ---
 title: "IMAPIContainer  IMAPIProp"
- 
- 
+description: "IMAPIContainerIMAPIProp manages high-level operations on container objects such as address books, distribution lists, and folders."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIContainer : IMAPIProp

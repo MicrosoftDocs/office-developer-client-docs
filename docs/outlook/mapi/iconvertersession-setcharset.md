@@ -1,7 +1,6 @@
 ---
 title: "IConverterSessionSetCharSet"
- 
- 
+description: "IConverterSessionSetCharSet specifies an optional character set that the MAPI to MIME converter use when converting a MAPI message to a MIME stream."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 25af3683-3a65-2d39-6f6e-76c8d36f866d
-description: "Last modified: March 09, 2015"
 ---
 
 # IConverterSession::SetCharSet

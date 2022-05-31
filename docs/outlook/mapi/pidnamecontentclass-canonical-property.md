@@ -1,7 +1,6 @@
 ---
 title: "PidNameContentClass Canonical Property"
- 
- 
+description: Outlines the PidNameContentClass canonical property, which contains an [RFC3282] Content-Class header field value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6f623345-b30e-452f-a822-9308b455697a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameContentClass Canonical Property

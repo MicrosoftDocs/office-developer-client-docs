@@ -1,5 +1,6 @@
 ---
 title: "IMAPIPropOpenProperty"
+description: "Describes the syntax, parameters, and return value of IMAPIPropOpenProperty, which returns a pointer to an interface that can be used to access a property."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e400e6cc-4e36-43fc-9304-b688a0a7fd77
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProp::OpenProperty

@@ -1,7 +1,6 @@
 ---
 title: "PidLidScriptStream Canonical Property"
- 
- 
+description: Outlines the PidLidScriptStream canonical property, which represents the code written in VBScript behind the custom form associated with the message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9d54f937-c8de-4789-b134-56835f21aec2
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidScriptStream Canonical Property

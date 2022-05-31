@@ -1,7 +1,6 @@
 ---
 title: "IMAPIContainerGetContentsTable"
- 
- 
+description: "IMAPIContainerGetContentsTable returns a pointer to the container's contents table. This article describes its syntax, parameters, return value, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 88c7a666-875d-473a-b126-dbbb7009f7d9
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIContainer::GetContentsTable

@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormMgr  IUnknown"
- 
- 
+description: "Describes the properties and vtable order of members for IMAPIFormMgrIUnknown, which enables form viewers to obtain information about and activate form servers."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormMgr : IUnknown

@@ -1,6 +1,6 @@
 ---
 title: "GetAttribIMsgOnIStg"
- 
+description: Describes GetAttribIMsgOnIStg and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bb27b28a-b2bd-4d4a-b0bb-0692f3de8e16
-description: "Last modified: March 09, 2015"
 ---
 
 # GetAttribIMsgOnIStg

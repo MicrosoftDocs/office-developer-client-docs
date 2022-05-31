@@ -1,7 +1,6 @@
 ---
 title: "PidNameLineCount Canonical Property"
- 
- 
+description: Outlines the PidNameLineCount canonical property, which specifies the number of lines in the file that is attached to the document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 733e07b6-da9f-4ec0-80e4-2267213fceae
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameLineCount Canonical Property

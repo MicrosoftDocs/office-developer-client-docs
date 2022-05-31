@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskAssigner Canonical Property"
- 
- 
+description: Outlines the canonical property, which names the user who was last assigned the task and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f7047e4e-0fb3-476b-9568-8f1135e6d970
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskAssigner Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "IMAPIOfflineMgr  IMAPIOffline"
- 
- 
+description: "IMAPIOfflineMgrIMAPIOffline supports registering for notification callbacks about connection state changes of a user account."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 3e430308-190c-c9bb-fffc-c26ffecb73a5
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIOfflineMgr : IMAPIOffline

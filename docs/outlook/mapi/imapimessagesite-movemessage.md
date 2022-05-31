@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteMoveMessage"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteMoveMessage, which moves the current message to a folder."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::MoveMessage

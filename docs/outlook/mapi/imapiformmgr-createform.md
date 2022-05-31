@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFormMgrCreateForm"
- 
- 
+description: "Describes the syntax, parameters, and return value for IMAPIFormMgrCreateForm, which opens a form to create a new message based on the form's message class."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7d4d50f8-3904-4e93-a535-ac7decceb1a3
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFormMgr::CreateForm

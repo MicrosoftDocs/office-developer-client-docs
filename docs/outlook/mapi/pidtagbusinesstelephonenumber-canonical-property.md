@@ -1,7 +1,6 @@
 ---
 title: "PidTagBusinessTelephoneNumber Canonical Property"
- 
- 
+description: Outlines the PidTagBusinessTelephoneNumber canonical property, which contains the primary telephone number of the recipient's place of business. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: e691f428-fdb2-4ec5-b6e6-33fe01725c5c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagBusinessTelephoneNumber Canonical Property

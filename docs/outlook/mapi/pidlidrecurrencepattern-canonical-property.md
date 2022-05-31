@@ -1,7 +1,6 @@
 ---
 title: "PidLidRecurrencePattern Canonical Property"
- 
- 
+description: Outlines the PidLidRecurrencePattern canonical property, which specifies a description of the recurrence pattern of the calendar object.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ac21ba98-f16b-4365-9134-bca7748189ee
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidRecurrencePattern Canonical Property

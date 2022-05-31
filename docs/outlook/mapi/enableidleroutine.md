@@ -1,7 +1,6 @@
 ---
 title: "EnableIdleRoutine"
- 
- 
+description: "EnableIdleRoutine enables or disables a FNIDLE based idle routine. This article describes its syntax, parameters, and remarks."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 332ea831-bdf9-4dbd-b9c7-a80f8ba11b3b
-description: "Last modified: March 09, 2015"
 ---
 
 # EnableIdleRoutine

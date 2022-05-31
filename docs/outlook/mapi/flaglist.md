@@ -1,5 +1,6 @@
 ---
 title: "FLAGLIST"
+description: Describes FLAGLIST and provides syntax, members, and additional remarks.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b4c0655c-1a3a-4f89-a977-0431db596512
-description: "Last modified: March 09, 2015"
 ---
 
 # FLAGLIST

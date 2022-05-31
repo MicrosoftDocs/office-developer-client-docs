@@ -1,7 +1,6 @@
 ---
 title: "PidLidVerbStream Canonical Property"
- 
- 
+description: Outlines the PidLidVerbStream canonical property, which specifies what voting responses the user can make in response to the message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e24c183c-8c20-4d9c-a3c6-f26dc0cd0135
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidVerbStream Canonical Property

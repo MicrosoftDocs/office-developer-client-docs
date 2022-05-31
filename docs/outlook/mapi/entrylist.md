@@ -1,7 +1,6 @@
 ---
 title: "ENTRYLIST"
- 
- 
+description: "ENTRYLIST provides an array of entry identifiers representing MAPI object that uses the same implementation as the SBinaryArray structure."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b2b5d6e6-201b-4ad7-8de2-e40f09165e62
-description: "Last modified: March 09, 2015"
 ---
 
 # ENTRYLIST

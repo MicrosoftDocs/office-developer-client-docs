@@ -1,7 +1,6 @@
 ---
 title: "PidTagAttachContentId Canonical Property"
- 
- 
+description: Outlines the PidTagAttachContentId canonical property, which contains the content identification header of a MIME message attachment. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAttachContentId Canonical Property

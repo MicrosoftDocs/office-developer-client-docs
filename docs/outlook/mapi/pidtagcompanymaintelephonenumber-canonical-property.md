@@ -1,7 +1,6 @@
 ---
 title: "PidTagCompanyMainTelephoneNumber Canonical Property"
- 
- 
+description: Outlines the PidTagCompanyMainTelephoneNumber canonical property, which contains the main telephone number for a company.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 6b0baa18-135d-4cf3-b265-ad873131f036
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagCompanyMainTelephoneNumber Canonical Property

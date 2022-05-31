@@ -1,7 +1,6 @@
 ---
 title: "IMailUser  IMAPIProp"
- 
- 
+description: "IMailUserIMAPIProp provides access to the many properties that are associated with messaging users. The interface is implemented by messaging user objects."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 74c25870-62d9-484a-9a99-4dc35c52479e
-description: "Last modified: March 09, 2015"
 ---
 
 # IMailUser : IMAPIProp

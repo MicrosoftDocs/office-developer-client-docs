@@ -1,7 +1,6 @@
 ---
 title: "PidLidReferenceEntryId Canonical Property"
- 
- 
+description: Outlines the PidLidReferenceEntryId canonical property, which specifies the reference ENTRYID for the contact. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 42e7c3ac-1a04-4e3f-bf99-ef3f8fc45892
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidReferenceEntryId Canonical Property

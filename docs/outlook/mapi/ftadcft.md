@@ -1,6 +1,6 @@
 ---
 title: "FtAdcFt"
- 
+description: Describes FtAdcFt and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
-description: "Last modified: March 09, 2015"
 ---
 
 # FtAdcFt

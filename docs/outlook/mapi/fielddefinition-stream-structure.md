@@ -1,11 +1,11 @@
 ---
 title: "FieldDefinition stream structure"
+description: This article describes the FieldDefinition stream structure and interaction with data elements.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 93acdbc8-381f-45d5-be6c-0cad066269fe
-description: "Last modified: March 09, 2015"
 ---
 
 # FieldDefinition stream structure

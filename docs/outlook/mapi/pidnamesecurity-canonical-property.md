@@ -1,7 +1,6 @@
 ---
 title: "PidNameSecurity Canonical Property"
- 
- 
+description: Outlines the PidNameSecurity canonical property, which specifies the security level of the file that is attached to the document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6e42163-494d-4787-ad83-54452d26b815
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameSecurity Canonical Property

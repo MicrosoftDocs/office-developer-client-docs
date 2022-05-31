@@ -1,7 +1,6 @@
 ---
 title: "MAPIFreeBuffer"
- 
- 
+description: Describes the MAPIFreeBuffer function and provides syntax, parameters, return value, and additional remarks.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 9412594f-8acc-4c7e-a668-4ec1da0ad9cf
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPIFreeBuffer

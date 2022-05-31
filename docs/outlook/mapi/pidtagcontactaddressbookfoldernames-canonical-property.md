@@ -1,7 +1,6 @@
 ---
 title: "PidTagContactAddressBookFolderNames Canonical Property"
- 
- 
+description: Outlines the PidTagContactAddressBookFolderNames canonical property, which contains the names of the Contacts folders where mail users are kept.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagContactAddressBookFolderNames Canonical Property

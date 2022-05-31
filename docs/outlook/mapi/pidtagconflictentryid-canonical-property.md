@@ -1,7 +1,6 @@
 ---
 title: "PidTagConflictEntryId Canonical Property"
- 
- 
+description: Outlines the PidTagConflictEntryId canonical property, which contains the EntryID of the conflict resolution message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 69d56a0e-4cac-4fef-81fb-2cc5874ec799
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagConflictEntryId Canonical Property

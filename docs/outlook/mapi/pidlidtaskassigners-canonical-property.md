@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskAssigners Canonical Property"
- 
- 
+description: Outlines the PidLidTaskAssigners canonical property, which contains a stack of entries that represent task assigners.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 07500bd0-bcff-4b03-8ed3-80508875e253
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskAssigners Canonical Property

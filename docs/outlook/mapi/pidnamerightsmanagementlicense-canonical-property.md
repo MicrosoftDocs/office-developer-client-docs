@@ -1,7 +1,6 @@
 ---
 title: "PidNameRightsManagementLicense Canonical Property"
- 
- 
+description: Outlines the PidNameRightsManagementLicense canonical property, which caches the use license for the rights-managed email message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca3c9317-7873-4f37-b78f-b35467c81c29
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNameRightsManagementLicense Canonical Property

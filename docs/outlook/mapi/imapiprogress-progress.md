@@ -1,7 +1,6 @@
 ---
 title: "IMAPIProgressProgress"
- 
- 
+description: "IMAPIProgressProgress updates the progress indicator with a display of the progress as it is made toward completion of the operation."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: edbf7623-a64e-43b8-8379-e3cde2433d91
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProgress::Progress

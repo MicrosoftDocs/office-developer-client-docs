@@ -1,5 +1,6 @@
 ---
 title: "IABContainer  IMAPIContainer"
+description: This article describes the IABContainer IMAPIContainer and provides methods and required properties.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f5ce6e0-b79a-4da2-b014-8c00cd72912e
-description: "Last modified: March 09, 2015"
 ---
 
 # IABContainer : IMAPIContainer

@@ -1,7 +1,6 @@
 ---
 title: "HrAddColumnsEx"
- 
- 
+description: This article describes the HrAddColumnsEx function and provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
-description: "Last modified: March 09, 2015"
 ---
 
 # HrAddColumnsEx
@@ -24,7 +22,7 @@ description: "Last modified: March 09, 2015"
   
 Adds or moves columns to the beginning of an existing table. 
   
-||Value |
+|Property|Value |
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |

@@ -1,7 +1,6 @@
 ---
 title: "PidLidSharingCapabilities Canonical Property"
- 
- 
+description: Outlines the PidLidSharingCapabilities canonical property, which designates as a property of a sharing message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 86b3eab2-2594-4204-aedf-8ce2ee3b81ce
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidSharingCapabilities Canonical Property

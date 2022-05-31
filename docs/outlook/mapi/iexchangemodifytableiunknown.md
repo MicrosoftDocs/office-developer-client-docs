@@ -1,7 +1,6 @@
 ---
 title: "IExchangeModifyTable  IUnknown"
- 
- 
+description: "IExchangeModifyTableIUnknown supports access to Microsoft Exchange Server table objects, specifically SACL table objects and rule table objects."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 45a73c7b-5855-4b70-866b-facb41cb3c32
-description: "Last modified: March 09, 2015"
 ---
 
 # IExchangeModifyTable : IUnknown

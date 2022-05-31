@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionGetMsgStoresTable"
- 
- 
+description: "IMAPISessionGetMsgStoresTable provides access to the message store table that contains information about all the message stores in the session profile."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::GetMsgStoresTable

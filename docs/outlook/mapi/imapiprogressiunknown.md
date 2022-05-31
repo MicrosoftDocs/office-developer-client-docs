@@ -1,7 +1,6 @@
 ---
 title: "IMAPIProgress  IUnknown"
- 
- 
+description: "IMAPIProgressIUnknown implements a progress object that provides client applications with a progress indicator."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7a872296-0378-456f-b4d6-cb4d96b09d6e
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProgress : IUnknown

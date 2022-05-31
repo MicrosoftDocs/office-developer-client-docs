@@ -1,5 +1,6 @@
 ---
 title: "FPropContainsProp"
+description: Describes FPropContainsProp and provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43da5b59-7691-49aa-b83c-753d43bfd8fd
-description: "Last modified: March 09, 2015"
 ---
 
 # FPropContainsProp

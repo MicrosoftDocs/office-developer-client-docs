@@ -1,7 +1,6 @@
 ---
 title: "PidLidRemoteMessageClass Canonical Property"
- 
- 
+description: Outlines the PidLidRemoteMessageClass canonical property, which indicates the message class of a remote item.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdc3d9a1-c29c-4fbe-893e-0bc7aaa25edc
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidRemoteMessageClass Canonical Property

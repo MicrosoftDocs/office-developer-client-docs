@@ -1,5 +1,6 @@
 ---
 title: "HrGetAutoDiscoverXML" 
+description: This article describes the HrGetAutoDiscoverXML function and provides syntax, parameters, and return value.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 03691187-7c65-620b-576f-6ebe62a80830
-description: "Last modified: March 09, 2015"
 ---
 
 # HrGetAutoDiscoverXML

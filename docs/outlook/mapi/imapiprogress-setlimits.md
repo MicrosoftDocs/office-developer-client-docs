@@ -1,5 +1,6 @@
 ---
-title: "IMAPIProgressSetLimits" 
+title: "IMAPIProgressSetLimits"
+description: "IMAPIProgressSetLimits sets the limits for the number of items in the operation, and the flags that control how progress information is calculated."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 63c9e316-ee53-4065-8154-449639643ff7
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProgress::SetLimits

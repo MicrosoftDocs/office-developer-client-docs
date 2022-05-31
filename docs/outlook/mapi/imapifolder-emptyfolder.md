@@ -1,7 +1,6 @@
 ---
 title: "IMAPIFolderEmptyFolder"
- 
- 
+description: "IMAPIFolderEmptyFolder deletes all messages and subfolders from a folder without deleting the folder itself."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cfcb498-9182-4906-bd6f-d9bc387bc88b
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIFolder::EmptyFolder

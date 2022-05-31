@@ -1,7 +1,6 @@
 ---
 title: "PidTagAbSearchPath Canonical Property"
- 
- 
+description: Outlines the PidTagAbSearchPath canonical property, which contains a list of entry identifiers for address book containers.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: dfb7ce1b-8e2f-4360-a7d3-876ff5163c34
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagAbSearchPath Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidNamePageCount Canonical Property"
- 
- 
+description: Outlines the PidNamePageCount canonical property, which specifies the page count of the file attached to the document.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2f5b6961-69c0-4103-bac7-cc0b22ab2c4f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidNamePageCount Canonical Property

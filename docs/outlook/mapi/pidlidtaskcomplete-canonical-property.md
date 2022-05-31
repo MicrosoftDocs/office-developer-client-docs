@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskComplete Canonical Property"
- 
- 
+description: Outlines the PidLidTaskComplete canonical property, which indicates the task is complete and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5b02d149-e4c7-41ad-aa13-4268d82f4c42
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskComplete Canonical Property

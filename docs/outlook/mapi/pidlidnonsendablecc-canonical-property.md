@@ -1,7 +1,6 @@
 ---
 title: "PidLidNonSendableCc Canonical Property"
- 
- 
+description: Outlines the PidLidNonSendableCc canonical property, which contains a list of all the unsendable attendees who are also optional attendees.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 170afe1f-1223-4689-825c-d21ab14b213b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidNonSendableCc Canonical Property

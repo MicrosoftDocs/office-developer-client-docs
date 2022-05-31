@@ -1,7 +1,6 @@
 ---
 title: "PidLidLogEnd Canonical Property"
- 
- 
+description: Outlines the PidLidLogEnd canonical property, which represents the end date and time for the journal message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 621459ea-adf5-4420-9f0f-6f31b9b95508
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidLogEnd Canonical Property

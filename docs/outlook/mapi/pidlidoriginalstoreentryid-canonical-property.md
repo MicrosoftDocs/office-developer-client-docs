@@ -1,7 +1,6 @@
 ---
 title: "PidLidOriginalStoreEntryId Canonical Property"
- 
- 
+description: Outlines the PidLidOriginalStoreEntryId canonical property, which specifies the entry ID of the delegator's store.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1b1fc008-9cd5-49f6-9f91-b59e305a1e82
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidOriginalStoreEntryId Canonical Property

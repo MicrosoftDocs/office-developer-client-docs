@@ -1,7 +1,6 @@
 ---
 title: "PidTagBodyContentLocation Canonical Property"
- 
- 
+description: Outlines the PidTagBodyContentLocation canonical property, which contains the value of a MIME Content-Location header field.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a66d1c64-5c5a-4980-9acd-72448108fd2c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidTagBodyContentLocation Canonical Property

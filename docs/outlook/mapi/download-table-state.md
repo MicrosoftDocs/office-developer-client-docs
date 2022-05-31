@@ -1,11 +1,11 @@
 ---
 title: "Download Table State"
+description: "This topic describes what happens during the download table state of the replication state machine."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 5bcc8b0a-0ab7-6c3e-8334-9e83cf2882a7
-description: "Last modified: March 09, 2015"
  
  
 ---
