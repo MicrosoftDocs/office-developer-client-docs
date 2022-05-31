@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionAdminServices"
- 
- 
+description: "IMAPISessionAdminServices returns an IMsgServiceAdmin pointer for making changes to message services."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 487fab39-5c2c-4e1a-9f90-4da64f5e198b
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::AdminServices

@@ -1,7 +1,6 @@
 ---
 title: "IMAPIPropDeleteProps"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIPropDeleteProps, which deletes one or more properties from an object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5cc642de-21f0-4826-bf21-aac4bcfc1328
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProp::DeleteProps

@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionCompareEntryIDs"
- 
- 
+description: "IMAPISessionCompareEntryIDs compares two entry identifiers to determine whether they refer to the same object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::CompareEntryIDs

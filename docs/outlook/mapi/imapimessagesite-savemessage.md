@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteSaveMessage"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteSaveMessage, which requests that the current message be saved."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 94c44952-d297-4705-9778-90373dfa5ad6
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::SaveMessage

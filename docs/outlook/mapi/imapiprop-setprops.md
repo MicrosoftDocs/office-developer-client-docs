@@ -1,7 +1,6 @@
 ---
 title: "IMAPIPropSetProps"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIPropSetProps, which updates one or more properties."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49f007c9-42e5-4391-8b83-988c9b0ebdba
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProp::SetProps

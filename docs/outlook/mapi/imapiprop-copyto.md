@@ -1,7 +1,6 @@
 ---
 title: "IMAPIPropCopyTo"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIPropCopyTo, which copies or moves all properties, except for specifically excluded properties."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e56042e9-5bb7-4a99-b6de-1546d4ca07f0
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProp::CopyTo
