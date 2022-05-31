@@ -1,5 +1,6 @@
 ---
 title: "FBinFromHex"
+description: Describes FBinFromHex and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
-description: "Last modified: March 09, 2015"
 ---
 
 # FBinFromHex

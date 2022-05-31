@@ -1,5 +1,6 @@
 ---
 title: "Form Configuration File [Platforms] Section"
+description: This article provides a detailed overview of form configuration file [platforms].
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 3b9b3dc0-4f82-468b-8e77-0374c5b196f4
-description: "Last modified: March 09, 2015"
 ---
 
 # Form Configuration File [Platforms] Section

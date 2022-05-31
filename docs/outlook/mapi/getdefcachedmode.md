@@ -1,6 +1,6 @@
 ---
 title: "GetDefCachedMode"
- 
+description: Describes GetDefCachedMode and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -9,7 +9,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
-description: "Last modified: March 09, 2015"
 ---
 
 # GetDefCachedMode

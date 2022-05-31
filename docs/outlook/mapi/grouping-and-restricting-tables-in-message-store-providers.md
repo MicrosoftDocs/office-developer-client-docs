@@ -1,5 +1,6 @@
 ---
 title: "Grouping and Restricting Tables in Message Store Providers"
+description: This article describes grouping and restricting tables in message store providers.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 01df4be4-98a1-4159-a06d-9ccf4337198f
-description: "Last modified: March 09, 2015"
  
  
 ---

@@ -1,6 +1,6 @@
 ---
 title: "FtNegFt"
- 
+description: Describes FtNegFt and provides syntax, parameters, and return value.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 639a408c-aed1-456b-9f75-9d6fb8dcb33b
-description: "Last modified: March 09, 2015"
 ---
 
 # FtNegFt

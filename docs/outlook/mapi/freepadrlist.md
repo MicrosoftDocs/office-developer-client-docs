@@ -1,5 +1,6 @@
 ---
 title: "FreePadrlist"
+description: Describes FreePadrlist and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca8fbac6-b6f1-46ab-90a1-fc16f0d5824c
-description: "Last modified: March 09, 2015"
 ---
 
 # FreePadrlist

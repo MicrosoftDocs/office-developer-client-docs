@@ -1,5 +1,6 @@
 ---
 title: "FtMulDwDw"
+description: Describes FtMulDwDw and provides syntax, parameters, and return value.
  
  
 manager: soliver
@@ -13,7 +14,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
-description: "Last modified: March 09, 2015"
 ---
 
 # FtMulDwDw
@@ -24,7 +24,7 @@ description: "Last modified: March 09, 2015"
   
 Multiplies one unsigned 32-bit integer by another.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Header file:  <br/> |Mapiutil.h  <br/> |
 |Implemented by:  <br/> |MAPI  <br/> |
