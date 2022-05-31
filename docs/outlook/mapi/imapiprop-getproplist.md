@@ -1,5 +1,6 @@
 ---
-title: "IMAPIPropGetPropList" 
+title: "IMAPIPropGetPropList"
+description: "Describes the syntax, parameters, and return value of IMAPIPropGetPropList, which returns property tags for all properties."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0069c223-32bb-4286-b763-39fd45dc263b
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProp::GetPropList

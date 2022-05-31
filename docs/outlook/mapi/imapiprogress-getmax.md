@@ -1,7 +1,6 @@
 ---
 title: "IMAPIProgressGetMax"
- 
- 
+description: "IMAPIProgressGetMax returns the maximum number of items in the operation for which progress information is displayed."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 88a910ed-b55a-4e5b-a43d-eb3ea795a70e
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProgress::GetMax

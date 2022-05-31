@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteNewMessage"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteNewMessage, which creates a new message."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::NewMessage

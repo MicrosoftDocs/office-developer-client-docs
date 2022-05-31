@@ -1,7 +1,6 @@
 ---
 title: "IMAPIMessageSiteSubmitMessage"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteSubmitMessage, which requests that the current message be queued for delivery."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6b14c383-8bc6-4e86-bd92-0500272af40d
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIMessageSite::SubmitMessage

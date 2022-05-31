@@ -1,7 +1,6 @@
 ---
 title: "IMAPIOfflineNotify  IUnknown"
- 
- 
+description: "IMAPIOfflineNotifyIUnknown supports Microsoft Outlook 2010 and Microsoft Outlook 2013 in sending notification callbacks to a client."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a593d2a1-29f8-7e23-85bf-02fa3cfebe1b
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIOfflineNotify : IUnknown

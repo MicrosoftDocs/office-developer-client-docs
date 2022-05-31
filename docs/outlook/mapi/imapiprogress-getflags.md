@@ -1,7 +1,6 @@
 ---
 title: "IMAPIProgressGetFlags"
- 
- 
+description: "IMAPIProgressGetFlags returns flag settings from the progress object for the level of operation on which progress information is calculated."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7af74fcc-c0df-4f58-a2d4-0a79c96b2e81
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIProgress::GetFlags
