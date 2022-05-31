@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskResetReminder Canonical Property"
- 
- 
+description: Outlines the PidLidTaskResetReminder canonical property, which indicates whether future instances of recurring tasks need reminders.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f6da69ff-a913-4a65-bb07-8ad3c5685e5e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskResetReminder Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskLastDelegate Canonical Property"
- 
- 
+description: Outlines the PidLidTaskLastDelegate canonical property, which names the user who most recently assigned or was assigned the task. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5eb8c1ce-063f-4273-acba-e6f9c994e7d3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskLastDelegate Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskEstimatedEffort Canonical Property"
- 
- 
+description: Outlines the PidLidTaskEstimatedEffort canonical property, which indicates the amount of time, in minutes, that the user expects to perform a task.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c84167d8-f726-45c6-9b21-bcde64473148
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskEstimatedEffort Canonical Property

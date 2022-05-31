@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskOrdinal Canonical Property"
- 
- 
+description: Outlines the PidLidTaskOrdinal canonical property, which provides an aid to custom sorting tasks. This property may be left unset.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1021860e-4c40-4c22-aa68-b568d046aaf7
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskOrdinal Canonical Property

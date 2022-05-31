@@ -1,7 +1,6 @@
 ---
 title: "PidLidWorkAddressCountry Canonical Property"
- 
- 
+description: Outlines the PidLidWorkAddressCountry canonical property, which specifies the country or region portion of the contact's work address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 15b9db35-7038-40b0-9692-d93ed8ca76ba
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidWorkAddressCountry Canonical Property

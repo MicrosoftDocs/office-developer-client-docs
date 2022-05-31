@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskFRecurring Canonical Property"
- 
- 
+description: Outlines the PidLidTaskFRecurring canonical property, which indicates whether the task includes a recurrence pattern.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 47c9ccbb-161c-4829-8ffb-201f3b54cd45
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskFRecurring Canonical Property

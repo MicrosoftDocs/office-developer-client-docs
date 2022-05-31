@@ -1,8 +1,6 @@
 ---
 title: "PidLidWhere Canonical Property"
- 
- 
-manager: soliver
+description: Outlines the PidLidWhere canonical property, which specifies the location of an event and applies to Outlook 2013 and Outlook 2016.
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

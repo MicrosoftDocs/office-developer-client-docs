@@ -1,7 +1,6 @@
 ---
 title: "PidLidTaskActualEffort Canonical Property"
- 
- 
+description: Outlines the PidLidTaskActualEffort canonical property, which indicates the number of minutes that the user performed a task.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8e9a9432-bf50-4333-82ec-fba19dff8006
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidTaskActualEffort Canonical Property
