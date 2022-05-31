@@ -1,6 +1,6 @@
 ---
 title: "HexFromBin"
- 
+description: The HexFromBin function converts a binary number into a string representation of a hexadecimal number.
  
 manager: soliver
 ms.date: 03/09/2015
@@ -13,7 +13,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 12b95657-1926-4a24-be63-40305ea6f990
-description: "Last modified: March 09, 2015"
 ---
 
 # HexFromBin

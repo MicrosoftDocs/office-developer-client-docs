@@ -1,7 +1,6 @@
 ---
 title: "HrAddColumns"
- 
- 
+description: This article describes the HrAddColumns function and provides syntax, parameters, return value, and additional remarks.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8c980257-9372-4478-b635-bd91d0a66af9
-description: "Last modified: March 09, 2015"
 ---
 
 # HrAddColumns

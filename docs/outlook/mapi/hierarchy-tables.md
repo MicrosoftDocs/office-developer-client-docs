@@ -1,5 +1,6 @@
 ---
 title: "Hierarchy Tables"
+description: A hierarchy table contains information about the folders in a message store or the containers in an address book container.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,9 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: b8aa6b36-d6e5-4e1f-8ac5-5d6a78a70bf8
-description: "Last modified: March 09, 2015"
- 
- 
 ---
 
 # Hierarchy Tables

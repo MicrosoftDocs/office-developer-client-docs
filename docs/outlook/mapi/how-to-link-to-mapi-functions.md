@@ -1,5 +1,6 @@
 ---
 title: "Link to MAPI functions"
+description: Describes the three methods of linking; implicit linking, explicit linking, and a new hybrid model using the MAPI Stub Library.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: be72a893-a3bc-4dea-8234-47f3e1db4515
-description: "Last modified: March 09, 2015"
 ---
 
 # Link to MAPI functions

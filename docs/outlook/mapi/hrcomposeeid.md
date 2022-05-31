@@ -1,7 +1,6 @@
 ---
 title: "HrComposeEID"
- 
- 
+description: The HrComposeEID function creates a compound entry identifier for an object, usually a message in a message store.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 8aba90d8-ea1f-4636-af80-17bfeadbdfa0
-description: "Last modified: March 09, 2015"
 ---
 
 # HrComposeEID
