@@ -12,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e7a36e6-2e93-4aa5-bef8-66fd5c407700
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFreeBusyLocation Canonical Property
