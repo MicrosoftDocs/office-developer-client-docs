@@ -1,7 +1,6 @@
 ---
 title: "MAPI Properties"
- 
- 
+description: "This section contains canonical properties that are supported by MAPI, each of which corresponds to one or multiple related MAPI properties."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -10,7 +9,6 @@ ms.prod: office-online-server
 api_type:
 - COM
 ms.assetid: 3b980217-b65b-442b-8c18-b8b9f3ff487a
-description: "Last modified: March 12, 2013"
 ms.localizationpriority: high
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "MAPI Programming Overview"
+description: "This Microsoft Outlook Messaging API (MAPI) Reference is written for C and C++ developers with a variety of needs and experience with messaging."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 30ac637a-874f-4660-b5d0-d28d69486f64
-description: "Last modified: June 25, 2012"
  
  
 ---

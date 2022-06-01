@@ -1,5 +1,6 @@
 ---
 title: "MAPI Service Provider Overview"
+description: "Gives an overview of the MAPI service providers, which are like drivers that connect MAPI client applications to an underlying messaging system."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: e7cbc79f-3d60-4f21-a378-7b0088ee8ad3
-description: "Last modified: June 25, 2012"
  
  
 ---

@@ -1,7 +1,6 @@
 ---
 title: "MNLS_lstrcpyW"
- 
- 
+description: "Describes the syntax, parameters, return value, and remarks for NLS_lstrcpyW, which copies a string to a buffer."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a0f92c2d-b5ba-4558-b8a2-484b2db32bec
-description: "Last modified: June 18, 2012"
 ---
 
 # MNLS_lstrcpyW

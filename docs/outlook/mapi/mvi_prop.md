@@ -1,7 +1,6 @@
 ---
 title: "MVI_PROP"
- 
- 
+description: "Describes the properties, parameters, and remarks for MVI_PROP, which sets the MVI_FLAG for a specified property."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
-description: "Last modified: March 09, 2015"
 ---
 
 # MVI_PROP

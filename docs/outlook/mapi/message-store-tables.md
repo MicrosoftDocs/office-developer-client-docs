@@ -1,5 +1,6 @@
 ---
 title: "Message Store Tables"
+description: "The message store table contains information about message store providers in the current profile. There is one message store table for every MAPI session."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
-description: "Last modified: March 09, 2015"
  
  
 ---

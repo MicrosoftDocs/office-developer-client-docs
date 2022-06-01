@@ -1,5 +1,6 @@
 ---
 title: "MAPI Report Messages"
+description: "MAPI report messages present status information about a message to its sender. The two types are read status reports and delivery status reports."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 824eb670-16b7-49bf-9992-39fe0586a552
-description: "Last modified: March 09, 2015"
  
  
 ---

@@ -1,7 +1,6 @@
 ---
 title: "MNLS_lstrlenW"
- 
- 
+description: "MNLS_lstrlenW determines the length of the specified Unicode string, excluding the terminating null character."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d342a956-1164-4c9c-b0bb-7a0b72dc97fc
-description: "Last modified: February 21, 2012"
 ---
 
 # MNLS_lstrlenW

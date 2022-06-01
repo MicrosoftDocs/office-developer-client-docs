@@ -1,7 +1,6 @@
 ---
 title: "MSGSERVICEENTRY"
- 
- 
+description: "MSGSERVICEENTRY defines a prototype for a message service entry point function to support message service configuration."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 655774a6-588c-44c7-903b-4497b7eccbc2
-description: "Last modified: March 09, 2015"
 ---
 
 # MSGSERVICEENTRY
