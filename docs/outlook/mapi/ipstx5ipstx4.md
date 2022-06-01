@@ -1,7 +1,6 @@
 ---
 title: "IPSTX5  IPSTX4"
- 
- 
+description: "IPSTX5 IPSTX4 provides helper functionality when performing replication through the IOSTX interface."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 43052e57-4712-410a-eb07-2a7c5bc124bd
-description: "Last modified: March 09, 2015"
 ---
 
 # IPSTX5 : IPSTX4

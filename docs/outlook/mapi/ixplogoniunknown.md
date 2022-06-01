@@ -1,7 +1,6 @@
 ---
 title: "IXPLogon  IUnknown"
- 
- 
+description: "Describes the properties and vtable order of members for IXPLogon IUnknown, which gives the MAPI spooler access to a transport provider."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4d24ecaf-11d0-4362-8207-be3407736d7b
-description: "Last modified: March 09, 2015"
 ---
 
 # IXPLogon : IUnknown

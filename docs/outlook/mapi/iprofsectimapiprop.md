@@ -1,7 +1,6 @@
 ---
 title: "IProfSect  IMAPIProp"
- 
- 
+description: "Describes the properties and vtable order of required properties for IProfSect IMAPIProp, which works with the properties of profile section objects."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4e704044-5230-4521-a0d2-b7c2f981c954
-description: "Last modified: March 09, 2015"
 ---
 
 # IProfSect : IMAPIProp

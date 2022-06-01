@@ -1,7 +1,6 @@
 ---
 title: "IsEqualMAPIUID"
- 
- 
+description: "Describes the syntax, parameters, and remarks for IsEqualMAPIUID, which tests two MAPIUID structures to determine whether they contain the same identifier."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
-description: "Last modified: March 09, 2015"
 ---
 
 # IsEqualMAPIUID

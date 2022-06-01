@@ -1,7 +1,6 @@
 ---
 title: "IPSTOVERRIDE1  IUnknown"
- 
- 
+description: "IPSTOVERRIDE1 IUnknown allows a Personal Folders file (PST) store provider to override the PSTDisableGrow policy."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d26cee81-45ea-4fd3-8a54-5f35264b5d6a
-description: "Last modified: March 09, 2015"
 ---
 
 # IPSTOVERRIDE1 : IUnknown

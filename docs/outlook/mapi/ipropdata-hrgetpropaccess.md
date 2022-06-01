@@ -1,7 +1,6 @@
 ---
 title: "IPropDataHrGetPropAccess"
- 
- 
+description: "IPropData HrGetPropAccess retrieves the access level and status for one or more of the object's properties."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0101d291-00ca-4f66-b857-75d74b9f91a1
-description: "Last modified: March 09, 2015"
 ---
 
 # IPropData::HrGetPropAccess

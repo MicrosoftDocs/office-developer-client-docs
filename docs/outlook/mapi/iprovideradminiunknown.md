@@ -1,7 +1,6 @@
 ---
 title: "IProviderAdmin  IUnknown"
- 
- 
+description: "Describes the properties and vtable order of members for IProviderAdmin IUnknown, which works with service providers in a message service."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
-description: "Last modified: March 09, 2015"
 ---
 
 # IProviderAdmin : IUnknown
