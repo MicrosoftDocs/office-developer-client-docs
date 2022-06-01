@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableCollapseRow"
- 
- 
+description: "IMAPITableCollapseRow collapses an expanded table category, removing any lower-level headings and leaf rows belonging to the category from the table view."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1a23e555-be26-43fb-a715-cfc4ffa623cd
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::CollapseRow

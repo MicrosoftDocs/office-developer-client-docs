@@ -1,5 +1,6 @@
 ---
 title: "IPSTOVERRIDE1SetPersistedRegistrations"
+description: "IPSTOVERRIDE1 SetPersistedRegistrations registers Personal Folders (.pst) files for automatic unlocking."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5f4b62db-a759-41a2-9bea-29fc04b2962b
-description: "Last modified: November 08, 2011"
 ---
 
 # IPSTOVERRIDE1::SetPersistedRegistrations

@@ -1,5 +1,6 @@
 ---
-title: "MSProviderInit" 
+title: "MSProviderInit"
+description: "Describes the syntax, parameters, return value, and remarks for MSProviderInit, which initializes a message store provider for operation."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
-description: "Last modified: March 09, 2015"
 ---
 
 # MSProviderInit

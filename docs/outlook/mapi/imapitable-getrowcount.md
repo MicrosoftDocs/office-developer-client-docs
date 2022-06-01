@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableGetRowCount"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPITableGetRowCount, which returns the total number of rows in the table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 44a12c92-7462-4acf-9520-5d4c2d7f1d47
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::GetRowCount

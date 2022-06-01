@@ -1,5 +1,6 @@
 ---
 title: "MAPI Service Providers"
+description: "Describes the three MAPI service providers: Address book providers, message store providers, and transport providers."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 6511e1b5-697e-4ed1-80af-aa8ca56fd045
-description: "Last modified: March 09, 2015"
  
  
 ---

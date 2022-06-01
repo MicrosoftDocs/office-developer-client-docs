@@ -1,7 +1,6 @@
 ---
 title: "IMSLogonAdvise"
- 
- 
+description: "IMSLogonAdvise registers an object with a message store provider for notifications about changes in the message store."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a3c5d937-642b-463b-b5a0-5d099e651895
-description: "Last modified: March 09, 2015"
 ---
 
 # IMSLogon::Advise

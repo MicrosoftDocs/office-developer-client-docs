@@ -1,5 +1,6 @@
 ---
-title: "IMSProvider  IUnknown" 
+title: "IMSProvider  IUnknown"
+description: "IMSProvider IUnknown provides access to a message store provider through a message store provider object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0f17aa44-abcb-4732-b013-d91652847cf6
-description: "Last modified: March 09, 2015"
 ---
 
 # IMSProvider : IUnknown

@@ -1,5 +1,6 @@
 ---
 title: "Implementing a Service Provider Entry Point Function"
+description: "Every service provider DLL has an entry point function that MAPI calls to load it. It conforms to a certain prototype depending on the type of your provider."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 83ff54c4-86ce-4529-ae45-260dfb763b30
-description: "Last modified: March 09, 2015"
  
  
 ---

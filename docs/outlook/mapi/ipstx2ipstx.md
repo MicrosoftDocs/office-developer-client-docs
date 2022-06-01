@@ -1,7 +1,6 @@
 ---
 title: "IPSTX2  IPSTX"
- 
- 
+desciption: "IPSTX2 IPSTX provides helper functionality when performing replication through the IOSTX interface."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f8858fcf-315e-dc62-60ad-f9782676e51d
-description: "Last modified: March 09, 2015"
 ---
 
 # IPSTX2 : IPSTX

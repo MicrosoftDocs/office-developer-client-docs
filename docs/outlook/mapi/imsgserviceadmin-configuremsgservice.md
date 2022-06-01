@@ -1,7 +1,6 @@
 ---
 title: "IMsgServiceAdminConfigureMsgService"
- 
- 
+description: "Describes the syntax, parameters, return value, and remarks for IMsgServiceAdminConfigureMsgService, which reconfigures a message service."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgServiceAdmin::ConfigureMsgService

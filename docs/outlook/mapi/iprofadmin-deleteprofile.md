@@ -1,7 +1,6 @@
 ---
 title: "IProfAdminDeleteProfile"
- 
- 
+description: "Describes the syntax, parameters, return value, and remarks for IProfAdmin DeleteProfile, which deletes a profile."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 730af2da-4c4a-42a7-9d52-56d914107d64
-description: "Last modified: March 09, 2015"
 ---
 
 # IProfAdmin::DeleteProfile

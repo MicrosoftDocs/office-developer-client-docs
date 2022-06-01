@@ -1,5 +1,6 @@
 ---
 title: "IMAPIStatusValidateState"
+description: "IMAPIStatusValidateState confirms the external status information available for the MAPI resource or the service provider."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 036b9b15-86e1-4a37-8e4b-e37b2963d8fb
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPIStatus::ValidateState

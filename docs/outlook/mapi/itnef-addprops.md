@@ -1,7 +1,6 @@
 ---
 title: "ITnefAddProps"
- 
- 
+description: "ITnefAddProps enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e85641fb-6d3c-494a-981c-01781c7bf5bb
-description: "Last modified: March 09, 2015"
 ---
 
 # ITnef::AddProps
@@ -49,7 +47,7 @@ TNEF_PROP_CONTAINED
     
 TNEF_PROP_CONTAINED_TNEF 
   
-> Encodes only properties from the message or attachment specified by the  _ulElemID_ parameter. If this flag is set, the value in  _lpvData_ must be an [IStream](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream) pointer. 
+> Encodes only properties from the message or attachment specified by the  _ulElemID_ parameter. If this flag is set, the value in  _lpvData_ must be an [IStream](/windows/desktop/api/objidl/nn-objidl-istream) pointer. 
     
 TNEF_PROP_EXCLUDE 
   

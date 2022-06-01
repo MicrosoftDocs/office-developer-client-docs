@@ -1,5 +1,6 @@
 ---
 title: "Implementing an Advise Sink Object"
+description: "A client can implement its own advise sink object or use the function HrAllocAdviseSink, which creates an advise sink object with an implementation of OnNotify."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7461c4f6-7030-4ba2-ada4-26ebfbbfa001
-description: "Last modified: March 09, 2015"
  
  
 ---

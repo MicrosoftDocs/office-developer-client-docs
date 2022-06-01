@@ -1,7 +1,6 @@
 ---
 title: "IProviderAdminOpenProfileSection"
- 
- 
+description: "IProviderAdmin OpenProfileSection opens a profile section from the current profile and returns an IProfSect pointer for further access."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b73cf770-8817-4a23-bd14-7b76fedef214
-description: "Last modified: March 09, 2015"
 ---
 
 # IProviderAdmin::OpenProfileSection

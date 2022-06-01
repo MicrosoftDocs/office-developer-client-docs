@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableSetColumns"
- 
- 
+description: "IMAPITableSetColumns defines the particular properties and order of properties to appear as columns in the table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9a39cf8d-df0f-493c-b272-f15c65b3f15e
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::SetColumns

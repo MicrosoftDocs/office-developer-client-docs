@@ -1,7 +1,6 @@
 ---
 title: "IPSTX4  IPSTX3"
- 
- 
+description: "IPSTX4 IPSTX3 provides helper functionality when performing replication through the IOSTX interface."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: fc9116b6-a525-daff-9068-c5653d278ab2
-description: "Last modified: March 09, 2015"
 ---
 
 # IPSTX4 : IPSTX3

@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableFindRow"
- 
- 
+description: "IMAPITableFindRow finds the next row in a table that matches specific search criteria and moves the cursor to that row."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6511368c-9777-497e-9eea-cf390c04b92e
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::FindRow

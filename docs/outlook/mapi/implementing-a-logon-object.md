@@ -1,5 +1,6 @@
 ---
 title: "Implementing a Logon Object"
+description: "Every address book, message store, and transport provider instantiates a logon object as part of its implementation of IABProvider, IMSProvider, or IXPProvider."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
-description: "Last modified: March 09, 2015"
  
  
 ---

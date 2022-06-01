@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableQueryColumns"
- 
- 
+description: "Describes the syntax, parameters, and return value of IMAPITable QueryColumns, which returns a list of columns for the table."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d6341acc-c6ca-4605-93af-77230040339d
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::QueryColumns

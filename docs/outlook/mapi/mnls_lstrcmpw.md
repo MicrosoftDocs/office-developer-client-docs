@@ -1,7 +1,6 @@
 ---
 title: "MNLS_lstrcmpW"
- 
- 
+description: "Describes the syntax, parameters, return value, and remarks for MNLS_lstrcmpW, which compares two Unicode strings."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d26c59d7-c839-426f-8693-727fc6bef67e
-description: "Last modified: June 18, 2012"
 ---
 
 # MNLS_lstrcmpW

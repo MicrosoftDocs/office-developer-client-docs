@@ -1,7 +1,6 @@
 ---
 title: "IPersistMessage  IUnknown"
- 
- 
+description: "IPersistMessage IUnknown enables form viewers to handle the storage of a form and to transition between the various states."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 40ec6dd4-2206-4e59-aafe-53aaf693f973
-description: "Last modified: March 09, 2015"
 ---
 
 # IPersistMessage : IUnknown

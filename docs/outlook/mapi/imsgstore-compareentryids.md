@@ -1,7 +1,6 @@
 ---
 title: "IMsgStoreCompareEntryIDs"
- 
- 
+description: "IMsgStore CompareEntryIDs compares two entry identifiers to determine whether they refer to the same entry in a message store."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore::CompareEntryIDs

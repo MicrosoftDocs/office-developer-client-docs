@@ -1,5 +1,6 @@
 ---
 title: "MAPI tables"
+description: "A MAPI table is a MAPI object that is used to view a collection of properties belonging to other MAPI objects of a particular type."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
-description: "Last modified: March 09, 2015"
 ---
 
 # MAPI tables

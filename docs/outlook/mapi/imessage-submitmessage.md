@@ -1,7 +1,6 @@
 ---
 title: "IMessageSubmitMessage"
- 
- 
+description: "IMessageSubmitMessage saves all of the message's properties and marks the message as ready to be sent."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9ce93469-c55d-48d1-9abb-a637716ed4f2
-description: "Last modified: March 09, 2015"
 ---
 
 # IMessage::SubmitMessage

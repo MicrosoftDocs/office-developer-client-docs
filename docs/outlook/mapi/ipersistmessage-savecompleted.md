@@ -1,5 +1,6 @@
 ---
 title: "IPersistMessageSaveCompleted"
+description: "Describes the syntax, parameters, and return value of IPersistMessage SaveCompleted, which notifies the form that a save operation has been completed."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83161011-90b4-49cb-9bcd-153a21a10977
-description: "Last modified: March 09, 2015"
 ---
 
 # IPersistMessage::SaveCompleted
@@ -78,7 +78,7 @@ The following table describes the conditions that affect the actions you should 
 |The form is in one of the HandsOff states and the  _pMessage_ parameter is set to NULL. |Return E_INVALIDARG. |
 |The form is in a state other than one of the HandsOff states or the NoScribble state. |Return E_UNEXPECTED. |
    
-For more information about saving storage objects, see the documentation for the [IPersistStorage::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) or [IPersistFile::SaveCompleted](https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) methods. 
+For more information about saving storage objects, see the documentation for the [IPersistStorage::SaveCompleted](/windows/desktop/api/objidl/nf-objidl-ipersiststorage-savecompleted) or [IPersistFile::SaveCompleted](/windows/desktop/api/objidl/nf-objidl-ipersistfile-savecompleted) methods. 
   
 ## See also
 

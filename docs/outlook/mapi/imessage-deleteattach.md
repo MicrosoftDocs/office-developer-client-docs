@@ -1,7 +1,6 @@
 ---
 title: "IMessageDeleteAttach"
- 
- 
+description: "Describes the syntax, parameters, return value, and remarks for IMessageDeleteAttach, which deletes an attachment."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0a5cb49f-c4f3-4893-8616-80d6332efcfc
-description: "Last modified: March 09, 2015"
 ---
 
 # IMessage::DeleteAttach

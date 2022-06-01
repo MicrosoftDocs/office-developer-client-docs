@@ -1,7 +1,6 @@
 ---
 title: "IMsgStoreGetReceiveFolder"
- 
- 
+description: "IMsgStore GetReceiveFolder obtains the folder that was established as the destination for incoming messages of a specified message class."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ccd9d623-a3cb-4e66-9649-78c3887cb726
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore::GetReceiveFolder
