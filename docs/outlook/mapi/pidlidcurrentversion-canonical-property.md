@@ -1,7 +1,6 @@
 ---
 title: "PidLidCurrentVersion Canonical Property"
- 
- 
+description: Outlines the PidLidCurrentVersion canonical property, which contains a long that represents the build number of the Outlook application for an item.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5894b98c-7d42-416d-b1b7-fb9a18abaaa3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidCurrentVersion Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidLidContactUserField1 Canonical Property"
- 
- 
+description: Outlines the PidLidContactUserField1 canonical property, which specifies the first field on the contact that is intended for miscellaneous use for the contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f9652a6f-5081-4472-830b-9f611bbbb1fa
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidContactUserField1 Canonical Property

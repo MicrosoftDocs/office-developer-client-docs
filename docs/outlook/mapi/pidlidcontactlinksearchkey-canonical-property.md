@@ -1,5 +1,6 @@
 ---
 title: "PidLidContactLinkSearchKey Canonical Property"
+description: Outlines the PidLidContactLinkSearchKey canonical property, which contains the list of SearchKeys for the contact linked to by this message object. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidContactLinkSearchKey Canonical Property

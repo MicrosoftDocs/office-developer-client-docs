@@ -1,7 +1,6 @@
 ---
 title: "PidLidAutoLog Canonical Property"
- 
- 
+description: Outlines the PidLidAutoLog canonical property, which specifies whether to create a journal for each action associated with this contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 60b7a411-a884-4836-8aca-a205bd503fef
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAutoLog Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidLidClassificationGuid Canonical Property"
- 
- 
+description: Outlines the PidLidClassificationGuid canonical property, which specifies a globally unique identifier (GUID) of an existing message classification.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e95c2445-7711-4683-8c39-3979b64fe100
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidClassificationGuid Canonical Property

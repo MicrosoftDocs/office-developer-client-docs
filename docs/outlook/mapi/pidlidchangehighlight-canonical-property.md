@@ -1,7 +1,6 @@
 ---
 title: "PidLidChangeHighlight Canonical Property"
- 
- 
+description: Outlines the PidLidChangeHighlight canonical property, which specifies a bit field that indicates how the meeting object changed.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cd57a5be-5550-4492-acb9-52255fac9014
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidChangeHighlight Canonical Property

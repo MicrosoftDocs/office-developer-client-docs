@@ -1,7 +1,6 @@
 ---
 title: "PidLidContactUserField2 Canonical Property"
- 
- 
+description: Outlines the PidLidContactUserField2 canonical property, which specifies the second field on the contact that is intended for miscellaneous use for the contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 32e33d84-3d75-47e6-9109-d670f9e63d2e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidContactUserField2 Canonical Property

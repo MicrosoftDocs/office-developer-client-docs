@@ -1,7 +1,6 @@
 ---
 title: "PidLidContactLinkName Canonical Property"
- 
- 
+description: Outlines the PidLidContactLinkName canonical property, which contains the elements of the dispidContacts property.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7b9be1cd-e81e-42f3-b391-036afa2ae1b4
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidContactLinkName Canonical Property

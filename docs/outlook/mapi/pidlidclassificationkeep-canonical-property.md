@@ -1,7 +1,6 @@
 ---
 title: "PidLidClassificationKeep Canonical Property"
- 
- 
+description: Outlines the PidLidClassificationKeep canonical property, which indicates whether the message classification persist with the message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 83a4d458-9982-4857-8d4a-7ce4a0d97668
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidClassificationKeep Canonical Property

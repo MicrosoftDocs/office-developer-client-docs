@@ -1,7 +1,6 @@
 ---
 title: "PidLidCommonStart Canonical Property"
- 
- 
+description: Outlines the PidLidCommonStart canonical property, which represents the start date and time of a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: d999852d-ce98-4c3c-a772-87f5db4aa04e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidCommonStart Canonical Property

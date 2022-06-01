@@ -1,7 +1,6 @@
 ---
 title: "PidLidCommonEnd Canonical Property"
- 
- 
+description: Outlines the PidLidCommonEnd canonical property, which represents the end date and time of a message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c89f388a-1585-4bed-91b4-1b0c268292f3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidCommonEnd Canonical Property
