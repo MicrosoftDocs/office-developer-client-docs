@@ -1,6 +1,6 @@
 ---
 title: "IMsgServiceAdminCreateMsgService"
-description: "IMsgServiceAdmin CreateMsgService is deprecated, and the use of  IMsgServiceAdmin2 CreateMsgServiceEx is recommended."
+description: "IMsgServiceAdmin CreateMsgService is deprecated, and the use of IMsgServiceAdmin2 CreateMsgServiceEx is recommended."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
