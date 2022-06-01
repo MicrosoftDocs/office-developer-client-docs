@@ -1,7 +1,6 @@
 ---
 title: "IMsgServiceAdminAdminProviders"
- 
- 
+description: "IMsgServiceAdminAdminProviders returns a pointer that provides access to a provider administration object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0d605e2c-10db-46e1-95d5-12fabd524baa
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgServiceAdmin::AdminProviders

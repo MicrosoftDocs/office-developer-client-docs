@@ -1,5 +1,6 @@
 ---
-title: "IMessageOpenAttach" 
+title: "IMessageOpenAttach"
+description: "Describes the syntax, parameters, return value, and remarks for IMessage OpenAttach, which opens an attachment."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: b680f5a7-0df3-4e7b-bf3b-f149eb42be8d
-description: "Last modified: March 09, 2015"
 ---
 
 # IMessage::OpenAttach

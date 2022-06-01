@@ -1,7 +1,6 @@
 ---
 title: "IMsgStore  IMAPIProp"
- 
- 
+description: "Describes the properties and vtable order of members for IMsgStore IMAPIProp, which provides access to message store information and to messages and folders."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 20090114-b183-4767-8971-a304a9aa47e6
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore : IMAPIProp

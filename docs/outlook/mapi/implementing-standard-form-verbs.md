@@ -1,5 +1,6 @@
 ---
 title: "Implementing Standard Form Verbs"
+description: "MAPI defines a set of standard verbs, or actions, taken when a user makes a menu selection or clicks a button."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f89f7c58-6358-4523-9788-676f189b5e69
-description: "Last modified: March 09, 2015"
  
  
 ---

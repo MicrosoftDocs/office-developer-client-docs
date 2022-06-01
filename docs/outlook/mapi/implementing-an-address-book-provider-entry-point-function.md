@@ -1,5 +1,6 @@
 ---
 title: "Implementing an Address Book Provider Entry Point Function"
+description: "Describes how to implement an address book provider entry point function, which instantiates a provider object and returns to MAPI a pointer to that object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 9375b351-1c84-4728-bcdf-e3e7a44820ed
-description: "Last modified: March 09, 2015"
  
  
 ---

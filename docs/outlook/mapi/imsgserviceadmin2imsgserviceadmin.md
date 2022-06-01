@@ -1,7 +1,6 @@
 ---
 title: "IMsgServiceAdmin2  IMsgServiceAdmin"
- 
- 
+description: "Describes the properties and vtable order of members for IMsgServiceAdmin2 IMsgServiceAdmin, which makes changes to a message service in a profile."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 14654259-e884-46bf-84ff-9e3c1a8cd60d
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgServiceAdmin2 : IMsgServiceAdmin

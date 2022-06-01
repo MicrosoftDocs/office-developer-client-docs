@@ -1,11 +1,11 @@
 ---
 title: "Initializing a wrapped PST store provider"
+description: "The MSProviderInit function and the MSGSERVICEENTRY function are demonstrated by using code examples from the Sample Wrapped PST Store Provider."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 07633717-ba4c-b146-ad65-60b37ab98ab6
-description: "Last modified: October 05, 2012"
 ---
 
 # Initializing a wrapped PST store provider

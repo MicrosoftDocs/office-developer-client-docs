@@ -1,7 +1,6 @@
 ---
 title: "IMsgStoreOpenEntry"
- 
- 
+description: "IMsgStoreOpenEntry opens a folder or message and returns an interface pointer for further access."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a63c42cf-36af-466b-b41e-d6b53ce1c9fb
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore::OpenEntry

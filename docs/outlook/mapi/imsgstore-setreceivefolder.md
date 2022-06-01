@@ -1,7 +1,6 @@
 ---
 title: "IMsgStoreSetReceiveFolder"
- 
- 
+description: "IMsgStore SetReceiveFolder establishes a folder as the destination for incoming messages of a particular message class."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 469f0412-1343-47ce-b6e8-e0d5e56c29bb
-description: "Last modified: March 09, 2015"
 ---
 
 # IMsgStore::SetReceiveFolder
