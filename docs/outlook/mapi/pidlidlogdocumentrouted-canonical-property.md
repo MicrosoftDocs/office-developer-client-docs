@@ -1,7 +1,6 @@
 ---
 title: "PidLidLogDocumentRouted Canonical Property"
- 
- 
+description: Outlines the PidLidLogDocumentRouted canonical property, which indicates whether the document was sent to a routing recipient during journaling.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 604f8859-469f-4745-b4b5-8f69737867a3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidLogDocumentRouted Canonical Property

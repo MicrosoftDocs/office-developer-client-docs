@@ -1,7 +1,6 @@
 ---
 title: "PidLidIsSilent Canonical Property"
- 
- 
+description: Outlines the PidLidIsSilent canonical property, which indicates that the user did not include any text in the body of the meeting response.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e00d8887-0db4-422d-96db-84cefe65dfc1
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidIsSilent Canonical Property

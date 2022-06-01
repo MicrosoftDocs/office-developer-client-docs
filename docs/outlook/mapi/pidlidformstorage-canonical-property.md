@@ -1,7 +1,6 @@
 ---
 title: "PidLidFormStorage Canonical Property"
- 
- 
+description: Outlines the PidLidFormStorage canonical property, which represents the properties of the form that is associated with the message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4f6847f3-157d-4ff0-abab-90d73a893ecf
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFormStorage Canonical Property

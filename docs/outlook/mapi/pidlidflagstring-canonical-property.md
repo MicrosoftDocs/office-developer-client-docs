@@ -1,7 +1,6 @@
 ---
 title: "PidLidFlagString Canonical Property"
- 
- 
+description: Outlines the PidLidFlagString canonical property, which contains an index that identifies one of a set of pre-defined text strings associated with the flag.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4cf1e08b-c869-4965-a1e4-512a0684700f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFlagString Canonical Property

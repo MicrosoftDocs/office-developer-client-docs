@@ -1,7 +1,6 @@
 ---
 title: "PidLidIntendedBusyStatus Canonical Property"
- 
- 
+description: Outlines the PidLidIntendedBusyStatus canonical property, which specifies the value of the dispidBusyStatus property.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 84221dd3-de71-4c10-abd7-9f15aefd02ed
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidIntendedBusyStatus Canonical Property

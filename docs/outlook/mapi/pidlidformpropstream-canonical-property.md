@@ -1,7 +1,6 @@
 ---
 title: "PidLidFormPropStream Canonical Property"
- 
- 
+description: Outlines the PidLidFormPropStream canonical property, which represents data in custom properties that are saved with the message.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 9c4590b2-631e-4a57-a779-eed8268233da
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFormPropStream Canonical Property
