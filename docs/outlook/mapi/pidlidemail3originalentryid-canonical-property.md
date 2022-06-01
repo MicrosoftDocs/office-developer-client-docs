@@ -1,6 +1,6 @@
 ---
 title: "PidLidEmail3OriginalEntryId Canonical Property"
-description: Outlines the PidLidEmail3OriginalEntryId canonical property, which specifies the **EntryId** of the object that corresponds to the third email address. 
+description: Outlines the PidLidEmail3OriginalEntryId canonical property, which specifies the EntryId of the object that corresponds to the third email address. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
