@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableRestrict"
- 
- 
+description: "IMAPITableRestrict applies a filter to a table, reducing the row set to only those rows matching the specified criteria."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a5bfc190-b58f-44c3-893c-8727df14ee58
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::Restrict

@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableQueryRows"
- 
- 
+description: "IMAPITableQueryRows returns one or more rows from a table, beginning at the current cursor position."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f26384f1-467e-4343-92b3-0425da9d2123
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::QueryRows

@@ -1,7 +1,6 @@
 ---
 title: "IMAPITableUnadvise"
- 
- 
+description: "IMAPITable Unadvise cancels the sending of notifications previously set up with a call to the IMAPITable Advise method."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 19f0dad9-9704-4bbe-a689-9531e7198351
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable::Unadvise

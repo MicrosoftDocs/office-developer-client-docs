@@ -1,7 +1,6 @@
 ---
 title: "IMAPISupport  IUnknown"
- 
- 
+description: "IMAPISupportIUnknown provides implementations for tasks that are typically performed by service providers and message service entry point functions."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 92bfe604-18dd-46a1-9ae8-0b04167606bd
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISupport : IUnknown

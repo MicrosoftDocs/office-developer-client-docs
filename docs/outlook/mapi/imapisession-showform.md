@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionShowForm"
- 
- 
+description: "Describes the syntax, parameters, return value, and remarks for IMAPISessionShowForm, which displays a form."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 233cf936-34db-42d4-b5e3-17a93acb2009
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::ShowForm

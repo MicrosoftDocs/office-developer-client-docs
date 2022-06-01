@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionQueryIdentity"
- 
- 
+description: "IMAPISessionQueryIdentity returns the entry identifier of the object that provides the primary identity for the session."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a2cdda90-5457-49a7-b98c-7273ffe5cbbc
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::QueryIdentity

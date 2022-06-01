@@ -1,5 +1,6 @@
 ---
 title: "IMAPISessionOpenMsgStore"
+description: "Describes the syntax, parameters, and return value of IMAPISessionOpenMsgStore, which opens a message store and returns an IMsgStore pointer for further access."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::OpenMsgStore

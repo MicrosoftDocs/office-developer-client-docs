@@ -1,7 +1,6 @@
 ---
 title: "IMAPITable  IUnknown"
- 
- 
+description: "IMAPITable IUnknown provides a read-only view of a table. IMAPITable is used by clients and service providers to manipulate the way a table appears."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPITable : IUnknown

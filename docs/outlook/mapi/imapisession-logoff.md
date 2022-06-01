@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionLogoff"
- 
- 
+description: "Describes the syntax, parameters, return value, and remarks for IMAPISessionLogoff, which ends a MAPI session."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 93e38f6c-4b67-4f2d-bc94-631efec86852
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::Logoff

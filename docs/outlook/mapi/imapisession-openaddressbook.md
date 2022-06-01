@@ -1,7 +1,6 @@
 ---
 title: "IMAPISessionOpenAddressBook"
- 
- 
+description: "IMAPISessionOpenAddressBook opens the MAPI integrated address book, returning an IAddrBook pointer for further access."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2b6a4c6a-bb71-4ea1-a3b6-90a2722880fb
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISession::OpenAddressBook

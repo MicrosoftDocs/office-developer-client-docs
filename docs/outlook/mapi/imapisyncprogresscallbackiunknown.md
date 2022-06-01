@@ -1,7 +1,6 @@
 ---
 title: "IMAPISyncProgressCallback  IUnknown"
- 
- 
+description: "IMAPISync ProgressCallbackIUnknown passes the store provider as a field on the MAPISIB structure during a call to IMAPISync SynchronizeInBackground."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 146b5e36-8d73-4949-9fed-1074f707423d
-description: "Last modified: March 09, 2015"
 ---
 
 # IMAPISyncProgressCallback : IUnknown
