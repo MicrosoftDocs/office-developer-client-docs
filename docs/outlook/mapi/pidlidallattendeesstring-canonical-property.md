@@ -22,7 +22,7 @@ ms.assetid: 2ffc0609-341d-4e35-8f53-ed3096c6fa7f
   
 Specifies a list of all the attendees except for the organizer, including resources and unsendable attendees.
   
-|||
+|Property|Value|
 |:-----|:-----|
 |Associated properties:  <br/> |dispidAllAttendeesString  <br/> |
 |Property set:  <br/> |PSETID_Appointment  <br/> |

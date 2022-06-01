@@ -38,7 +38,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
 
-> [in] Pointer to a memory allocator object exposing the OLE [IMalloc](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) interface. MAPI needs to use this allocation method when working with the OLE [IStorage](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) interface.
+> [in] Pointer to a memory allocator object exposing the OLE [IMalloc](/windows/desktop/api/objidl/nn-objidl-imalloc) interface. MAPI needs to use this allocation method when working with the OLE [IStorage](/windows/desktop/api/objidl/nn-objidl-istorage) interface.
 
  _ulFlags_
 
