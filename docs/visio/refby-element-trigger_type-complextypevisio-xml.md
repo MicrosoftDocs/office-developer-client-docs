@@ -1,15 +1,12 @@
 ---
 title: "RefBy element (Trigger_Type complexType) (Visio XML)"
- 
- 
+description: "Describes description and parent/child element information for RefBy element (Trigger_Type complexType), which specifies a reference to a page in the drawing."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: 09f2430a-184d-eaa2-2cb9-51bb24345c51
-description: "Specifies a reference to a page in the drawing."
 ---
 
 # RefBy element (Trigger_Type complexType) (Visio XML)

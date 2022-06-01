@@ -1,17 +1,14 @@
 ---
 title: "ScaleX Cell (Print Properties Section)"
- 
- 
+description: "ScaleX Cell (Print Properties Section) specifies the percentage of magnification of the drawing page on the printer page."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm60072
- 
 ms.localizationpriority: medium
 ms.assetid: 5916eadc-37f8-47af-fe54-f6062aea318f
-description: "Specifies the percentage of magnification of the drawing page on the printer page."
 ---
 
 # ScaleX Cell (Print Properties Section)

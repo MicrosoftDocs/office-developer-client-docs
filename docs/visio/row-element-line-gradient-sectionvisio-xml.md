@@ -1,15 +1,12 @@
 ---
 title: "Row element (Line Gradient Section) (Visio XML)"
- 
- 
+description: "Row element (Line Gradient Section) (Visio XML) contains the color, transparency, and position of a gradient stop for a line gradient."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: 4d823766-5cb0-925c-f622-18025f44426c
-description: "Contains the color, transparency, and position of a gradient stop for a line gradient."
 ---
 
 # Row element (Line Gradient Section) (Visio XML)

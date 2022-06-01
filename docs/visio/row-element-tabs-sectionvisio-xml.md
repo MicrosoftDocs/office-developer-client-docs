@@ -1,15 +1,12 @@
 ---
 title: "Row element (Tabs Section) (Visio XML)"
- 
- 
+description: "Row element (Tabs Section) (Visio XML) contains cells for shapes or styles that control tab stop position and alignment."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
-description: "Contains cells for shapes or styles that control tab stop position and alignment."
 ---
 
 # Row element (Tabs Section) (Visio XML)
