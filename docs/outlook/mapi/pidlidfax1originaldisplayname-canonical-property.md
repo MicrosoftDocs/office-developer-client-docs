@@ -1,7 +1,6 @@
 ---
 title: "PidLidFax1OriginalDisplayName Canonical Property"
- 
- 
+description: Outlines the PidLidFax1OriginalDisplayName canonical property, which specifies the original display name of the contact's business fax address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1520e27f-e261-4a94-be06-31cd47bea4a0
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFax1OriginalDisplayName Canonical Property

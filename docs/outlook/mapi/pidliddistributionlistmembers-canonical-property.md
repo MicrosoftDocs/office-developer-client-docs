@@ -1,7 +1,6 @@
 ---
 title: "PidLidDistributionListMembers Canonical Property"
- 
- 
+description: Outlines the PidLidDistributionListMembers canonical property, which specifies a list of EntryIds and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 029767ab-de72-4402-9cc3-31b006591042
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidDistributionListMembers Canonical Property
