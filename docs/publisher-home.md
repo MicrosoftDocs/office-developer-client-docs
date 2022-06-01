@@ -35,4 +35,4 @@ Find how-to content, technical articles, and references for developing solutions
 
 - [Open XML SDK](https://docs.microsoft.com/office/open-xml/open-xml-sdk)
 
-- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true)

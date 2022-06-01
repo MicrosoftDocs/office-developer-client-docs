@@ -1,15 +1,11 @@
 ---
 title: "Microsoft Project 2013 SDK copyright notice"
-
- 
+description: "Document that describes all legal rights associated with the Microsoft Project 2013 SDK copyright notice."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
- 
- 
 ms.localizationpriority: medium
 ms.assetid: 6f041970-780b-48b4-a277-20e8289134cd
-description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it."
 ---
 
 # Microsoft Project 2013 SDK copyright notice

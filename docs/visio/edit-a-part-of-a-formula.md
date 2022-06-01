@@ -1,17 +1,14 @@
 ---
 title: "Edit a Part of a Formula"
- 
- 
+description: "Provides a list of keyboard shortcuts used to edit a part of a formula in the formula bar or in the cell."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251811
- 
 ms.localizationpriority: medium
 ms.assetid: 6d1ed913-8329-3bb9-d275-9b76597781ee
-description: ""
 ---
 
 # Edit a Part of a Formula

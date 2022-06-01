@@ -1,15 +1,12 @@
 ---
 title: "Data3 element (ShapeSheet_Type complexType) (Visio XML)"
- 
- 
+description: "Data3 element (ShapeSheet_Type complexType) (Visio XML) contains an arbitrary string value that is used to supply additional information about a shape."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: 63493467-af55-fa62-6c39-6b5896895952
-description: "Contains an arbitrary string value that is used to supply additional information about a shape."
 ---
 
 # Data3 element (ShapeSheet_Type complexType) (Visio XML)
