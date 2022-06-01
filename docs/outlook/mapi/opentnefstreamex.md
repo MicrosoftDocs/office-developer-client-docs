@@ -1,5 +1,6 @@
 ---
 title: "OpenTnefStreamEx"
+description: "OpenTnefStreamEx creates a TNEF object that can be used to encode or decode a message object into a TNEF data stream."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: eb84c408-2d8b-453b-92f4-5fd8851b84ca
-description: "Last modified: March 09, 2015"
 ---
 
 # OpenTnefStreamEx

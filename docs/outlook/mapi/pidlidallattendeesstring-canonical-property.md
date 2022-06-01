@@ -1,7 +1,6 @@
 ---
 title: "PidLidAllAttendeesString Canonical Property"
- 
- 
+description: "PidLidAllAttendeesString Canonical Property specifies a list of all the attendees except for the organizer, including resources and unsendable attendees."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2ffc0609-341d-4e35-8f53-ed3096c6fa7f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAllAttendeesString Canonical Property

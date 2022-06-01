@@ -1,7 +1,6 @@
 ---
 title: "OpenIMsgSession"
- 
- 
+description: "Describes the syntax, parameters, and return value of OpenIMsgSession, which creates and opens a message session that groups the messages created within it."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
-description: "Last modified: March 09, 2015"
 ---
 
 # OpenIMsgSession

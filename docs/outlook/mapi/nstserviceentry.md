@@ -1,7 +1,6 @@
 ---
 title: "NSTServiceEntry"
- 
- 
+description: "NSTServiceEntry is the message service entry point function for a MAPI store provider to wrap a PST-based local store as an NST store."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5ada6363-2406-4c0a-8326-a299a8bbefe1
-description: "Last modified: March 09, 2015"
 ---
 
 # NSTServiceEntry

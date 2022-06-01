@@ -1,5 +1,6 @@
 ---
 title: "Opening a message store folder"
+description: "Describes the entry identifier folders and properties, which must be available before any folder can be opened."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d858e4fe-822e-4330-9ed3-4b7d22fa51dc
-description: "Last modified: March 09, 2015"
 ---
 
 # Opening a message store folder

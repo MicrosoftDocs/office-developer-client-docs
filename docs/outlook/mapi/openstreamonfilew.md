@@ -1,5 +1,6 @@
 ---
-title: "OpenStreamOnFileW" 
+title: "OpenStreamOnFileW"
+description: "OpenStreamOnFileW allocates and initializes an OLE IStream object to access the contents of a file. This function takes UNICODE strings as arguments."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 263b9f24-eac8-4d34-8f66-dc87024b94b9
-description: "Allocates and initializes an OLE IStream object to access the contents of a file."
 ---
 
 # OpenStreamOnFileW

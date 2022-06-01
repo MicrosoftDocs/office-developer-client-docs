@@ -1,5 +1,6 @@
 ---
 title: "OpenTnefStream"
+description: "OpenTnefStream called by a transport provider to initiate a MAPI Transport Neutral Encapsulation Format (TNEF) session."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 912d7799-53ce-42a7-9fbd-f9a6a3a56047
-description: "Last modified: March 09, 2015"
 ---
 
 # OpenTnefStream
