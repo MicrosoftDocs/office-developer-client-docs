@@ -29,7 +29,7 @@ The **Rules** object model does not support all rules that you can create by usi
 A rule can execute on the Exchange server or on the Outlook client, provided that the current user’s mailbox is hosted on an Exchange server. The [IsLocalRule](https://msdn.microsoft.com/library/bb647386\(v=office.15\)) property of the **Rule** object returns **true** to indicate that the rule executes on a client, and Outlook must be running for the rule to execute. If the rule executes on the server, Outlook does not have to be running for the rule conditions to be evaluated and the rule actions to be completed.
 
 > [!NOTE]
-> There is no separate collection that represents rule exception conditions. Use the [Exceptions](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook._rule.exceptions) property of the **Rule** object to get a [RuleConditions](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.ruleconditions) collection that represents rule exception conditions.
+> There is no separate collection that represents rule exception conditions. Use the [Exceptions](/dotnet/api/microsoft.office.interop.outlook._rule.exceptions) property of the **Rule** object to get a [RuleConditions](/dotnet/api/microsoft.office.interop.outlook.ruleconditions) collection that represents rule exception conditions.
 
 To create rules through the Outlook object model, follow these steps:
 
