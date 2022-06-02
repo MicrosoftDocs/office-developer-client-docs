@@ -193,5 +193,5 @@ Using one of the schema templates included with is a good way to jump start the 
   
 ## See also
 
-- [What's new for Access 2013 developers](/office/vba/access/concepts/miscellaneous/new-in-access-for-developers.md)
+- [What's new for Access 2013 developers](/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)
 - [Access custom web app reference](access-custom-web-app-reference.md)

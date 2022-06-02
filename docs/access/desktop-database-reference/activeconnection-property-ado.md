@@ -31,7 +31,7 @@ Use the **ActiveConnection** property to determine the **Connection** object ove
 
 For **Command** objects, the **ActiveConnection** property is read/write.
 
-If you attempt to call the [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-command.md) method on a **Command** object before setting this property to an open **Connection** object or valid connection string, an error occurs.
+If you attempt to call the [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method on a **Command** object before setting this property to an open **Connection** object or valid connection string, an error occurs.
 
 **Microsoft Visual Basic**: Setting the **ActiveConnection** property to *Nothing* disassociates the **Command** object from the current **Connection** and causes the provider to release any associated resources on the data source. You can then associate the **Command** object with the same or another **Connection** object. Some providers allow you to change the property setting from one **Connection** to another, without having to first set the property to *Nothing*.
 

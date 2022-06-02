@@ -20,4 +20,4 @@ This section of the ActiveX Data Objects (ADO) MD documentation contains topics 
 - [ADO MD properties](ado-md-properties.md)
 - [ADO MD methods](ado-md-methods.md)
 - [ADO MD enumerated constants](ado-md-enumerated-constants.md)
-- [ADO MD examples](/office/vba/access/concepts/miscellaneous/ado-md-code-examples.md)- 
+- [ADO MD examples](/office/vba/access/concepts/miscellaneous/ado-md-code-examples)
