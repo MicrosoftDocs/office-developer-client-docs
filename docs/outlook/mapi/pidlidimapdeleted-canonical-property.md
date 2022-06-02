@@ -1,7 +1,6 @@
 ---
 title: "PidLidImapDeleted Canonical Property"
- 
- 
+description: Outlines the PidLidImapDeleted canonical property, which denotes Internet Mail Access Protocol (IMAP) items that are marked for deletion.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee929306-8962-494d-bc47-9b4069f01267
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidImapDeleted Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidLidEmail3OriginalDisplayName Canonical Property"
- 
- 
+description: Outlines the PidLidEmail3OriginalDisplayName canonical property, which specifies a third display name.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f3fa392a-c3b1-46dd-bf9b-5ce310719542
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidEmail3OriginalDisplayName Canonical Property

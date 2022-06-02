@@ -1,5 +1,6 @@
 ---
 title: "ISocialProfileGetActivitiesOfFriendsAndColleagues"
+description: "ISocialProfile GetActivitiesOfFriendsAndColleagues has been deprecated in Outlook Social Connector 2013."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.topic: reference
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 4aaf7417-0a03-42a4-a282-599327ec5381
-description: "This method has been deprecated in Outlook Social Connector 2013."
 ---
 
 # ISocialProfile::GetActivitiesOfFriendsAndColleagues

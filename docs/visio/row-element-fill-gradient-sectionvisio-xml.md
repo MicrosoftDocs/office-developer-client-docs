@@ -1,15 +1,12 @@
 ---
 title: "Row element (Fill Gradient Section) (Visio XML)"
- 
- 
+description: "Row element (Fill Gradient Section) (Visio XML) contains the color, transparency, and position of a gradient stop for a fill gradient."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: f216afb5-4393-6e1c-54c2-3c184a26d934
-description: "Contains the color, transparency, and position of a gradient stop for a fill gradient."
 ---
 
 # Row element (Fill Gradient Section) (Visio XML)

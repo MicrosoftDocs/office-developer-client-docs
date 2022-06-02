@@ -1,7 +1,6 @@
 ---
 title: "PidLidHomeAddress Canonical Property"
- 
- 
+description: Outlines the PidLidHomeAddress canonical property, which specifies the complete address of the contact's home address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 5e9c4258-46de-476e-8a64-be9e35a23a8b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidHomeAddress Canonical Property

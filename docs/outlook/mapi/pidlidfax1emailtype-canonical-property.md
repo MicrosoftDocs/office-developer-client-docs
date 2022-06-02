@@ -1,7 +1,6 @@
 ---
 title: "PidLidFax1EmailType Canonical Property"
- 
- 
+description: Outlines the PidLidFax1EmailType canonical property, which specifies the email type of the contact's business fax address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 54436af4-b851-49ab-875a-c52f5da6b776
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFax1EmailType Canonical Property

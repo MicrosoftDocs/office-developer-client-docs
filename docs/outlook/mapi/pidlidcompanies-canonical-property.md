@@ -1,7 +1,6 @@
 ---
 title: "PidLidCompanies Canonical Property"
- 
- 
+description: Outlines the PidLidCompanies canonical property, which contains the names of the companies that are associated with an item.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 987b680a-4b9d-47f1-8ae4-9b7ae556ccf0
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidCompanies Canonical Property

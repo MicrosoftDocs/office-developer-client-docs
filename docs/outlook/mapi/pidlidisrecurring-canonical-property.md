@@ -1,7 +1,6 @@
 ---
 title: "PidLidIsRecurring Canonical Property"
- 
- 
+description: Outlines the PidLidIsRecurring canonical property, which specifies whether or not the object is associated with a recurring series.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1f8ecc22-badc-4278-a3c6-fcd398f5bf24
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidIsRecurring Canonical Property

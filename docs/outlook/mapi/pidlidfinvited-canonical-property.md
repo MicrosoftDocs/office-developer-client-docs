@@ -1,7 +1,6 @@
 ---
 title: "PidLidFInvited Canonical Property"
- 
- 
+description: Outlines the PidLidFInvited canonical property, which indicates whether or not invitations have been sent for the meeting that this meeting represents.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ca1ea5ec-20d5-4b70-95de-c2246a10beae
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFInvited Canonical Property

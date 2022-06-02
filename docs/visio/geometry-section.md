@@ -1,17 +1,14 @@
 ---
 title: "Geometry Section"
- 
- 
+description: "The Geometry section contains rows that list the coordinates of the vertices for the lines and arcs that make up the shape."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm2055
- 
 ms.localizationpriority: medium
 ms.assetid: 75601a1e-6b1a-27ee-a2bd-69e569315982
-description: "Contains rows that list the coordinates of the vertices for the lines and arcs that make up the shape."
 ---
 
 # Geometry Section

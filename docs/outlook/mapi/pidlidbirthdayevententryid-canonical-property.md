@@ -1,7 +1,6 @@
 ---
 title: "PidLidBirthdayEventEntryId Canonical Property"
- 
- 
+description: Outlines the PidLidBirthdayEventEntryId canonical property, which specifies the EntryId of an optional appointment that represents the contact's birthday. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6807dcfc-d9bd-48a1-a093-3097b2cb107c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidBirthdayEventEntryId Canonical Property

@@ -1,17 +1,14 @@
 ---
 title: "Display Formulas or Values in Cells"
- 
- 
+description: "Describes the two steps to take to display formulas or values in cells using the ShapeSheet Tools tab in the ShapeSheet window."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm82251813
- 
 ms.localizationpriority: medium
 ms.assetid: 757861ab-7b92-b67a-67ea-8dcbc2ea7573
-description: ""
 ---
 
 # Display Formulas or Values in Cells

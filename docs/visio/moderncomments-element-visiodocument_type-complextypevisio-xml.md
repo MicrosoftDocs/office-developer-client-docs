@@ -1,9 +1,7 @@
 ---
 title: "ModernComments element (VisioDocument_Type complexType) (Visio XML)"
- 
-
+description: "ModernComments (VisioDocument_Type complexType) specifies properties used to identify the parent comment and mentions present in a drawing comment."
 ms.date: 02/18/2022
-description: "Specifies properties used to identify the parent comment and mentions present in the comments in a drawing."
 ---
 
 # ModernComments element (VisioDocument_Type complexType) (Visio XML)

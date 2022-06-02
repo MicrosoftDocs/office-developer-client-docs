@@ -1,17 +1,14 @@
 ---
 title: "Transparency Cell (Layers Section)"
- 
- 
+description: "Describes the remarks for the Transparency Cell (Layers Section), which determines the transparency level for a layer color."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm50130
- 
 ms.localizationpriority: medium
 ms.assetid: 7382e2aa-5e18-19d2-88d8-c4a19a385106
-description: "Determines the transparency level for a layer color."
 ---
 
 # Transparency Cell (Layers Section)

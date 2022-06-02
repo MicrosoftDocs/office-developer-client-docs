@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentRecur Canonical Property"
- 
- 
+description: "PidLidAppointmentRecur Canonical Property specifies the dates and times when a recurring series occurs by using one of the recurrence patterns and ranges."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56d6240f-d07b-48d1-aef0-bf57078ea6c3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentRecur Canonical Property

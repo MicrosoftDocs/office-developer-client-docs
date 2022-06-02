@@ -1,7 +1,6 @@
 ---
 title: "PidLidBusyStatus Canonical Property"
- 
- 
+description: Outlines the PidLidBusyStatus canonical property, which represents the user's availability for an appointment.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 50c91fe6-2a61-4348-a16d-fd5c501b0715
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidBusyStatus Canonical Property

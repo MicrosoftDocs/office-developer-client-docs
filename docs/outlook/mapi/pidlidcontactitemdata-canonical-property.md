@@ -1,7 +1,6 @@
 ---
 title: "PidLidContactItemData Canonical Property"
- 
- 
+description: Outlines the PidLidContactItemData canonical property, which is used to display the contact information.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 411e8f81-c2b9-440a-9e9a-d6add5e4be63
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidContactItemData Canonical Property

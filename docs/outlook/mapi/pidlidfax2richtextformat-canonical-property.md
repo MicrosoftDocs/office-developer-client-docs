@@ -1,7 +1,6 @@
 ---
 title: "PidLidFax2RichTextFormat Canonical Property"
- 
- 
+description: Outlines the PidLidFax2RichTextFormat canonical property, which specifies the rich text format of the home contact's fax address. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 4569b418-72db-4ba1-8184-e7a0cbac100f
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFax2RichTextFormat Canonical Property

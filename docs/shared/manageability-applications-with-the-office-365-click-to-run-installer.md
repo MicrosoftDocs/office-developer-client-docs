@@ -550,14 +550,14 @@ In the following example, the file list API is embedded in the MoreInfoURL and s
   
 ### Additional metadata for automating content staging
 
-**Release History API**
+**Release Discovery API**
   
-The Microsoft 365 Apps release history API is used to retrieve details for each of the updates published to the CDN along with the channel names and other channel attributes.
+The Microsoft 365 Apps release discovery API is used to retrieve details for each of the updates published to the CDN along with the channel names and other channel attributes.
 
 HTTP Request
 
 ```http
-GET https://config.office.com/api/filelist/channels 
+GET [https://config.office.com/api/filelist/channels](https://clients.config.office.net/releases/v1.0/OfficeReleases) 
 ```
 
 Do not supply a request body for this method.
@@ -575,7 +575,7 @@ The SKUs API returns information that is useful for determining which products a
 HTTP Request
 
 ```http
-GET https://config.office.com/api/filelist/skus 
+GET [https://config.office.com/api/filelist/skus](https://config.office.com/api/filelist/skus) 
 ```
 
 Do not supply a request body for this method.

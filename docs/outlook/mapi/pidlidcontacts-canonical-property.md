@@ -1,7 +1,6 @@
 ---
 title: "PidLidContacts Canonical Property"
- 
- 
+description: Outlines the PidLidContacts canonical property, which contains the names of contacts associated with the item.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 709e701f-b24e-4cd5-8c55-3f9e67f67a4a
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidContacts Canonical Property

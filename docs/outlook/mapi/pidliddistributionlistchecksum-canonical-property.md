@@ -1,7 +1,6 @@
 ---
 title: "PidLidDistributionListChecksum Canonical Property"
- 
- 
+description: Outlines the PidLidDistributionListChecksum canonical property, which specifies the CRC-32 polynomial checksum for a personal distribution list.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd50ab34-caae-4258-8afc-769e3cbc5220
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidDistributionListChecksum Canonical Property

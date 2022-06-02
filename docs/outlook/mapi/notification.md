@@ -1,5 +1,6 @@
 ---
 title: "NOTIFICATION"
+description: "NOTIFICATION contains information about an event that has occurred and the data that has been affected by the event."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 01b6e695-a649-4efd-a893-7586b476467e
-description: "Last modified: March 09, 2015"
 ---
 
 # NOTIFICATION

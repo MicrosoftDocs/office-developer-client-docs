@@ -1,5 +1,6 @@
 ---
 title: "Opening an address book container"
+description: "After opening the MAPI integrated address book, one or more address book containers must be opened to access the recipients within them."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 89383b27-618c-4ccb-9e16-f66235c98bfe
-description: "Last modified: November 08, 2011"
 ---
 
 # Opening an address book container

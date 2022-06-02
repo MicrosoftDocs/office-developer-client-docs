@@ -1,5 +1,6 @@
 ---
 title: "One-Off Tables"
+description: "A one-off table contains information about the templates that an address book provider supports for creating new recipients."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0f2040b7-9b6c-4eae-aa68-29c4f7b8bd76
-description: "Last modified: November 08, 2011"
  
  
 ---

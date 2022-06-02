@@ -1,15 +1,12 @@
 ---
 title: "GlueSettings element (Window_Type complexType) (Visio XML)"
- 
- 
+description: "GlueSettings element (Window_Type complexType) (Visio XML) specifies the objects that shapes glue to when glue is enabled in the document."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: b5292f82-f299-ea96-6101-ebb799bbec9a
-description: "Specifies the objects that shapes glue to when glue is enabled in the document."
 ---
 
 # GlueSettings element (Window_Type complexType) (Visio XML)

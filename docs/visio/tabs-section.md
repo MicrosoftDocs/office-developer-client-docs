@@ -1,17 +1,14 @@
 ---
 title: "Tabs Section"
- 
- 
+description: "Describes remarks for the Tabs Section, which contains cells for shapes or styles that control tab stop position and alignment."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - vis_sdr.chm2145
- 
 ms.localizationpriority: medium
 ms.assetid: 6c6485c6-629c-9aef-d3da-117f34e71cde
-description: "Contains cells for shapes or styles that control tab stop position and alignment."
 ---
 
 # Tabs Section

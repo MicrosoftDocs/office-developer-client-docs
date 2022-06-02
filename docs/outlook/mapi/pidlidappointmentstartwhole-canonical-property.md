@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentStartWhole Canonical Property"
- 
- 
+description: "PidLidAppointmentStartWhole Canonical Property represents the date and time when an appointment begins."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e5e8ed98-57af-40d0-85c4-9d9832626e6b
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentStartWhole Canonical Property

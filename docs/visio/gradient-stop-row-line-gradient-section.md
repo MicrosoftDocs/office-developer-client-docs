@@ -1,15 +1,12 @@
 ---
 title: "Gradient Stop Row (Line Gradient Section)"
- 
- 
+description: "Gradient Stop Row (Line Gradient Section) contains the color, transparency, and position of a gradient stop for a line gradient."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: 1236a59e-2a25-449f-8e20-8553518d79ec
-description: "Contains the color, transparency, and position of a gradient stop for a line gradient."
 ---
 
 # Gradient Stop Row (Line Gradient Section)

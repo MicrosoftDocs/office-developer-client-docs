@@ -1,7 +1,6 @@
 ---
 title: "PidLidCleanGlobalObjectId Canonical Property"
- 
- 
+description: Outlines the PidLidCleanGlobalObjectId canonical property, which specifies the clean global ObjectID.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 59b85997-7972-492e-9786-3f0f367dc3e3
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidCleanGlobalObjectId Canonical Property

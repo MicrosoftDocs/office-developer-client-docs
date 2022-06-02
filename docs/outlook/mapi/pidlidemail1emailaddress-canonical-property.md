@@ -1,7 +1,6 @@
 ---
 title: "PidLidEmail1EmailAddress Canonical Property"
- 
- 
+description: Outlines the PidLidEmail1EmailAddress canonical property, which specifies the first email address of the contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 790800a0-34a2-4223-8b75-b50c57881022
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidEmail1EmailAddress Canonical Property

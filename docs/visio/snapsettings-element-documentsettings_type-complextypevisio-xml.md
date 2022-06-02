@@ -1,15 +1,12 @@
 ---
 title: "SnapSettings element (DocumentSettings_Type complexType) (Visio XML)"
- 
- 
+description: "SnapSettings element (DocumentSettings_Type complexType) (Visio XML) specifies the objects that shapes snap to when snap is active in the window."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: 6e86e943-bd29-0a7b-3d6a-d91281f98777
-description: "Specifies the objects that shapes snap to when snap is active in the window."
 ---
 
 # SnapSettings element (DocumentSettings_Type complexType) (Visio XML)

@@ -1,5 +1,6 @@
 ---
 title: "Optional Report Message Properties"
+description: "Describes the properties that sometimes appear with report messages and gives a description of each."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 5a473c40-6e94-48aa-b040-8308d17efbe8
-description: "Last modified: March 09, 2015"
  
  
 ---
@@ -20,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 The following properties sometimes appear with report messages:
   
-**Table Title**
+**Optional Report Message Properties**
 
 |**Property**|**Description**|
 |:-----|:-----|

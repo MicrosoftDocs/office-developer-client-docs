@@ -1,5 +1,6 @@
 ---
 title: "Opening OLE attachments with IStreamDocfile"
+description: "IStreamDocfile provides direct access to the object using structured storage, eliminating the need to perform a copy operation and reducing overhead."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: f91df63c-ff6d-4c63-a665-5bcfdabe7e0e
-description: "Last modified: July 06, 2012"
 ---
 
 # Opening OLE attachments with IStreamDocfile
