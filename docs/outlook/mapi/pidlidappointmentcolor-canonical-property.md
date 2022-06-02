@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentColor Canonical Property"
- 
- 
+description: "PidLidAppointmentColor Canonical Property specifies the color to use when displaying the calendar."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentColor Canonical Property

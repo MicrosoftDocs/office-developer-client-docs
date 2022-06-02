@@ -1,7 +1,6 @@
 ---
 title: "NEWMAIL_NOTIFICATION"
- 
- 
+description: "Provides the property info, members, and remarks for NEWMAIL_NOTIFICATION, which describes information that relates to the arrival of a new message."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
-description: "Last modified: March 09, 2015"
 ---
 
 # NEWMAIL_NOTIFICATION
@@ -22,7 +20,7 @@ description: "Last modified: March 09, 2015"
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Describes information that relate to the arrival of a new message. 
+Describes information that relates to the arrival of a new message. 
   
 |Property |Value |
 |:-----|:-----|

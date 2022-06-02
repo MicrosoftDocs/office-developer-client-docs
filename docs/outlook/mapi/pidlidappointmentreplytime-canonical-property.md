@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentReplyTime Canonical Property"
- 
- 
+description: "PidLidAppointmentReplyTime Canonical Property specifies the date and time when the attendee responded to a received meeting request or meeting update."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 80a2608b-fc44-455a-86be-d6235caba99e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentReplyTime Canonical Property

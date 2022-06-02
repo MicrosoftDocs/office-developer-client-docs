@@ -1,12 +1,12 @@
 ---
 title: "Outlook MAPI Reference Overview"
+description: "This topic provides overview information about the Microsoft Outlook 2013 MAPI Reference documentation."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 api_type:
 - COM
 ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
-description: "Last modified: February 01, 2013"
 ms.localizationpriority: high
 ---
 

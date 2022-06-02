@@ -1,7 +1,6 @@
 ---
 title: "NOTIFKEY"
- 
- 
+description: "Describes the syntax, members, and remarks for NOTIFKEY, which uniquely identifies a connection between an advise sink, an advise source, and MAPI."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
-description: "Last modified: March 09, 2015"
 ---
 
 # NOTIFKEY

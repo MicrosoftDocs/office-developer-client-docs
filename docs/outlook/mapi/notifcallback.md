@@ -1,7 +1,6 @@
 ---
 title: "NOTIFCALLBACK"
- 
- 
+description: "NOTIFCALLBACK defines a callback function that MAPI calls to send an event notification. It can only be used when wrapped in an advise sink object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 416008b4-13aa-4387-8c12-f8f2ca252391
-description: "Last modified: March 09, 2015"
 ---
 
 # NOTIFCALLBACK

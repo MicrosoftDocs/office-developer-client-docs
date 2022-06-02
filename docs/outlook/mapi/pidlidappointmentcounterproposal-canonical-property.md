@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentCounterProposal Canonical Property"
- 
- 
+description: "PidLidAppointmentCounterProposal Canonical Property indicates that this meeting response is a counter proposal."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f510af2d-92b3-4c98-bdf4-8aca8e8b80d1
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentCounterProposal Canonical Property

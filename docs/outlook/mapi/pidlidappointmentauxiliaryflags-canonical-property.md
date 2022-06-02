@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentAuxiliaryFlags Canonical Property"
- 
- 
+description: "PidLidAppointmentAuxiliaryFlags Canonical Property specifies a bit field that describes the auxiliary state of the object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 56c64e23-4a99-4f80-ba06-dfae2a5fe961
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentAuxiliaryFlags Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "OpenIMsgSession"
- 
- 
+description: "Describes the syntax, parameters, and return value of OpenIMsgSession, which creates and opens a message session that groups the messages created within it."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f75229e3-5f44-4298-8706-9eddf0ef124c
-description: "Last modified: March 09, 2015"
 ---
 
 # OpenIMsgSession
@@ -40,7 +38,7 @@ SCODE OpenIMsgSession(
 
  _lpMalloc_
 
-> [in] Pointer to a memory allocator object exposing the OLE [IMalloc](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-imalloc) interface. MAPI needs to use this allocation method when working with the OLE [IStorage](https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istorage) interface.
+> [in] Pointer to a memory allocator object exposing the OLE [IMalloc](/windows/desktop/api/objidl/nn-objidl-imalloc) interface. MAPI needs to use this allocation method when working with the OLE [IStorage](/windows/desktop/api/objidl/nn-objidl-istorage) interface.
 
  _ulFlags_
 

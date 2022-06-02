@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentStateFlags Canonical Property"
- 
- 
+description: "PidLidAppointmentStateFlags Canonical Property specifies a bit field that describes the state of the object."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1e5f0f83-c40b-4b3a-8492-61d1b53b1e3c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentStateFlags Canonical Property

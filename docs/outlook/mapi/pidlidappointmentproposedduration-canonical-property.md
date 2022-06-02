@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentProposedDuration Canonical Property"
- 
- 
+description: "PidLidAppointmentProposedDuration Canonical Property indicates the proposed value for the dispidApptDuration property for a counter proposal."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 37806778-a19a-4905-a845-525d3912bf9e
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentProposedDuration Canonical Property
