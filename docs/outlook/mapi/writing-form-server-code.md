@@ -1,5 +1,6 @@
 ---
 title: "Writing Form Server Code"
+description: Outlines how to write form server code in Outlook 2013 and Outlook 2016, with additional reference materials.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: ff33badc-ceed-4364-b99c-8af3af83ceb6
-description: "Last modified: March 09, 2015"
  
  
 ---

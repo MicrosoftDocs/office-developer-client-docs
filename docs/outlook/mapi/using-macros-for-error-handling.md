@@ -1,5 +1,6 @@
 ---
 title: "Using Macros for Error Handling"
+description: Outlines several macros for making it easier to work with HRESULT values in Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 351405ca-b72b-4e9e-bc8e-947344588970
-description: "Last modified: March 09, 2015"
  
  
 ---

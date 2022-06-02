@@ -1,11 +1,11 @@
 ---
 title: "Using a wrapped PST store provider"
+description: Outlines how to use a wrapped Personal Folders file (PST) store provider in Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
-description: "Last modified: July 03, 2012"
 ---
 
 # Using a wrapped PST store provider
