@@ -1,7 +1,6 @@
 ---
 title: "PidLidContactLinkEntry Canonical Property"
- 
- 
+description: Outlines the PidLidContactLinkEntry canonical property, which contains the list of Address Book EntryIDs linked to by this message object. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2de48f49-53a4-4117-b5bd-c1db9b5a4d7d
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidContactLinkEntry Canonical Property

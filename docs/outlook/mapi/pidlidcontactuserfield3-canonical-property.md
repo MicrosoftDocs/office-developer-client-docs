@@ -1,7 +1,6 @@
 ---
 title: "PidLidContactUserField3 Canonical Property"
- 
- 
+description: Outlines the PidLidContactUserField3 canonical property, which specifies the third field on the contact that is intended for miscellaneous use for the contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 22084d78-c606-4ca9-baa7-09438456d547
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidContactUserField3 Canonical Property

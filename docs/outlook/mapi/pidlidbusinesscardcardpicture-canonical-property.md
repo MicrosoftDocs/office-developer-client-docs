@@ -1,7 +1,6 @@
 ---
 title: "PidLidBusinessCardCardPicture Canonical Property"
- 
- 
+description: Outlines the PidLidBusinessCardCardPicture canonical property, which contains the image to use on a business card.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2c7af147-f7eb-41ef-8403-93584a2041ba
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidBusinessCardCardPicture Canonical Property

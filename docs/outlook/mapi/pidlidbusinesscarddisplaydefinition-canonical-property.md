@@ -1,7 +1,6 @@
 ---
 title: "PidLidBusinessCardDisplayDefinition Canonical Property"
- 
- 
+description: Outlines the PidLidBusinessCardDisplayDefinition canonical property, which contains user-customization details for displaying a contact as a business card.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0b956dd-7139-49e3-a32a-d70bfb11e0b1
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidBusinessCardDisplayDefinition Canonical Property

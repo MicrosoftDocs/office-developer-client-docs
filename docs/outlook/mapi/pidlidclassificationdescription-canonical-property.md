@@ -1,7 +1,6 @@
 ---
 title: "PidLidClassificationDescription Canonical Property"
- 
- 
+description: Outlines the PidLidClassificationDescription canonical property, which describes what the message classification intends to achieve.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e4b85b92-abf7-4e4f-b612-2e20af3c1611
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidClassificationDescription Canonical Property

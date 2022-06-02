@@ -1,7 +1,6 @@
 ---
 title: "PidLidClassified Canonical Property"
- 
- 
+description: Outlines the PidLidClassified canonical property, which indicates that a message is classified and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e869a583-2b8f-4782-8c23-74c20a895d8c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidClassified Canonical Property
