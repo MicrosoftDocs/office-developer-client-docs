@@ -1,16 +1,13 @@
 ---
 title: "Change the Name and View the ID of a Shape"
- 
- 
+description: "Describes the four steps to take to change the name and view the ID of a shape in the Developer tab."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 f1_keywords:
 - Vis_DSS.chm82251816
- 
 ms.assetid: 81ebd41f-a6a7-af63-b6cf-dd3d5c371a61
-description: ""
 ms.localizationpriority: high
 ---
 

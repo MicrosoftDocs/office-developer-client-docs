@@ -1,5 +1,6 @@
 ---
 title: "Forms-based authentication"
+description: "Describes the calling sequence that the Outlook Social Connector can make to allow a user to log on to the social network."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 282b2377-45ba-4f0c-a7d9-830fa3505c93
-description: "The Outlook Social Connector (OSC) calls the ISocialProvider::GetCapabilities method to determine the capabilities of the OSC provider for a social network."
 ---
 
 # Forms-based authentication

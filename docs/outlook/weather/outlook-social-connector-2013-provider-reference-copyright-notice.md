@@ -1,7 +1,6 @@
 ---
 title: "Outlook Social Connector 2013 provider reference copyright notice, Weather"
- 
- 
+description: "Describes all legal rights associated with the Microsoft Outlook Social Connector 2013 provider reference copyright notice for Weather."
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,7 +8,6 @@ ms.topic: overview
 ms.prod: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 1425b9f2-606a-4522-b97c-0875d45eb175
-description: "This document is providedas-is. Information and views expressed in this document, including URL and other Internet website references, may change without notice. You bear the risk of using it."
 ---
 
 # Outlook Social Connector 2013 provider reference copyright notice, Weather
