@@ -1,5 +1,6 @@
 ---
 title: "Required Report Message Properties"
+description: Outlines in a table properties that clients can expect to see supported on report messages in Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 68b14538-332d-4bdb-9a5c-8bb27272e089
-description: "Last modified: March 09, 2015"
  
  
 ---

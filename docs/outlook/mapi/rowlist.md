@@ -1,7 +1,6 @@
 ---
 title: "ROWLIST"
- 
- 
+description: Outlines how ROWLIST contains an array of ROWENTRY structures representing rows and the operations that are performed on those rows.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ce0be0d5-4962-4d53-828f-c93d1c5aae32
-description: "Last modified: March 09, 2015"
 ---
 
 # ROWLIST

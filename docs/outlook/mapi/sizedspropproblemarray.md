@@ -1,5 +1,6 @@
 ---
 title: "SizedSPropProblemArray"
+description: Outlines SizedSPropProblemArray, which creates a named SPropProblemArray structure that contains a specified number of SPropProblem structures. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 2fc3febb-8c69-4315-a112-a28eee98013d
-description: "Last modified: March 09, 2015"
 ---
 
 # SizedSPropProblemArray

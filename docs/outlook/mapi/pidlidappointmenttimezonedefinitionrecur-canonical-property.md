@@ -1,7 +1,6 @@
 ---
 title: "PidLidAppointmentTimeZoneDefinitionRecur Canonical Property"
- 
- 
+description: Outlines the PidLidAppointmentTimeZoneDefinitionRecur canonical property, which contains a stream that maps to the persisted format of a structure.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 52fd57a0-9e34-4452-9ecd-2acb454446c9
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidAppointmentTimeZoneDefinitionRecur Canonical Property

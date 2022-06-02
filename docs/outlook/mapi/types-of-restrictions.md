@@ -1,5 +1,6 @@
 ---
 title: "Types of Restrictions"
+description: Outlines types of restrictions, some that focus on specific columns. This applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 0d3bd58b-7100-4117-91ac-27139715c85b
-description: "Last modified: March 09, 2015"
  
  
 ---

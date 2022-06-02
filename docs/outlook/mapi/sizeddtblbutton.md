@@ -1,7 +1,6 @@
 ---
 title: "SizedDtblButton"
- 
- 
+description: Outlines SizedDtblButton, which creates a named structure that includes a DTBLBUTTON structure for describing a button and a label of a specified length. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
-description: "Last modified: March 09, 2015"
 ---
 
 # SizedDtblButton

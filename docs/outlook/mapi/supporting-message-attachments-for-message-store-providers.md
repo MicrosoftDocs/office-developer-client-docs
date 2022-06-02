@@ -1,5 +1,6 @@
 ---
 title: "Supporting Message Attachments for Message Store Providers"
+description: Outlines five types of attachments that MAPI supports, including file attachments, data attachments, message attachments, OLE object attachments, and links.
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d5fabc40-71e8-4afa-9846-533da605ce6c
-description: "Last modified: December 07, 2015"
  
  
 ---

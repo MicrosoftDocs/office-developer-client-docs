@@ -1,5 +1,6 @@
 ---
 title: "TNEF Processing"
+description: Outlines TNEF processing and describes how transports use TNEF methods to process outgoing and incoming messages.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 4d324fb3-d917-4502-b3a4-179c479deb79
-description: "Last modified: July 05, 2012"
  
  
 ---

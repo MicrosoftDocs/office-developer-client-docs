@@ -1,5 +1,6 @@
 ---
 title: "Starting a Service Provider"
+description: Outlines starting a service provider in Outlook 2013 and Outlook 2016, with links to reference materials.
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: c4b61cc3-d9fe-4616-a05c-d1e4096b5abd
-description: "Last modified: December 07, 2015"
  
  
 ---

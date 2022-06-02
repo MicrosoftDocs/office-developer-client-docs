@@ -1,5 +1,6 @@
 ---
 title: "ROWENTRY"
+description: Outlines how ROWENTRY contains a row and the operation that is performed on that row in a table through the IExchangeModifyTable interface. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: bd6c0d8e-68cc-4d60-9029-13ed81c816cd
-description: "Last modified: March 09, 2015"
 ---
 
 # ROWENTRY
