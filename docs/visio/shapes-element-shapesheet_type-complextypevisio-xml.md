@@ -1,15 +1,12 @@
 ---
 title: "Shapes element (ShapeSheet_Type complexType) (Visio XML)"
- 
- 
+description: "Describes the definition and element information for Shapes element (ShapeSheet_Type complexType), which contains a collection of Shape elements."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: 85aa7df3-d9bd-acb3-61b3-2bd5fa256435
-description: "Contains a collection of Shape elements."
 ---
 
 # Shapes element (ShapeSheet_Type complexType) (Visio XML)

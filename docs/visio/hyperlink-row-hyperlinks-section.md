@@ -1,17 +1,14 @@
 ---
 title: "Hyperlink Row (Hyperlinks Section)"
- 
- 
+description: "Hyperlink Row (Hyperlinks Section) contains the information for a single hyperlink associated with a shape."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 f1_keywords:
 - Vis_DSS.chm3065
- 
 ms.localizationpriority: medium
 ms.assetid: e3c7ae27-2e54-a174-4fb3-d16093faf759
-description: "Contains the information for a single hyperlink associated with a shape. A shape will contain one Hyperlink row for each hyperlink."
 ---
 
 # Hyperlink Row (Hyperlinks Section)

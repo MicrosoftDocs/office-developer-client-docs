@@ -1,15 +1,12 @@
 ---
 title: "RefBy element (Cell_Type complexType) (Visio XML)"
- 
- 
+description: "Describes description and parent/child element information for RefBy element (Cell_Type complexType), which specifies a reference to a page in the drawing."
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
- 
 ms.localizationpriority: medium
 ms.assetid: ea2a63d3-d319-4420-1929-013dc832b308
-description: "Specifies a reference to a page in the drawing."
 ---
 
 # RefBy element (Cell_Type complexType) (Visio XML)
