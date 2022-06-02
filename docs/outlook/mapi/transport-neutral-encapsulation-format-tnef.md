@@ -1,6 +1,6 @@
 ---
 title: "Transport-Neutral Encapsulation Format (TNEF)"
-description: Outlines TNEF, a format for converting a set of MAPI properties—a MAPI message—into a serial data stream.
+description: Outlines TNEF, a format for converting a set of MAPI properties —a MAPI message— into a serial data stream.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer

@@ -1,6 +1,6 @@
 ---
 title: "Required Report Message Properties"
-description: Outlines in a table properties that clients can expect to see supported on report messages in Outlook 2013 and Outlook 2016.
+description: Outlines in a table the properties that clients can expect to see supported on report messages in Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
