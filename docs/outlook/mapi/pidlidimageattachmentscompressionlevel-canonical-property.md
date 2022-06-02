@@ -1,7 +1,6 @@
 ---
 title: "PidLidImageAttachmentsCompressionLevel Canonical Property"
- 
- 
+description: Outlines the PidLidImageAttachmentsCompressionLevel canonical property, which defines a compression level to apply on image attachments.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: cc169ba8-e9b7-42ad-8f0e-77b0843f95ea
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidImageAttachmentsCompressionLevel Canonical Property

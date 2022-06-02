@@ -1,7 +1,6 @@
 ---
 title: "PidLidHeaderItem Canonical Property"
- 
- 
+description: Outlines the PidLidHeaderItem canonical property, which applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 69b308dd-d3f5-44fe-8976-e4ed9a433ad8
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidHeaderItem Canonical Property

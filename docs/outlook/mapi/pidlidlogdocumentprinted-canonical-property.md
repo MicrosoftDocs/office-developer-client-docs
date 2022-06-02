@@ -1,7 +1,6 @@
 ---
 title: "PidLidLogDocumentPrinted Canonical Property"
- 
- 
+description: Outlines the PidLidLogDocumentPrinted canonical property, which indicates whether the document was printed during journaling.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: e01bf0d9-62cf-4fba-8cec-232a46025feb
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidLogDocumentPrinted Canonical Property

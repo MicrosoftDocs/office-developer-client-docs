@@ -1,7 +1,6 @@
 ---
 title: "PidLidLocation Canonical Property"
- 
- 
+description: Outlines the PidLidLocation canonical property, which represents the location of an appointment and applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c0db4b9e-ab84-4f45-9dbf-9514d306119c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidLocation Canonical Property
