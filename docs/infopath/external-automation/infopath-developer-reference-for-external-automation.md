@@ -21,7 +21,7 @@ Publish date of this reference: October 2012
 ## See also
 
 - [InfoPath Developer Center](https://msdn.microsoft.com/office/aa905434.aspx)  
-- [Microsoft Office Developer Center](https://msdn.microsoft.com/office/default.aspx)
+- [Microsoft Office Developer Center](/office/developer-program/microsoft-365-developer-program)
 - [Document Conventions in Office Developer Documentation](https://msdn.microsoft.com/office/aa905365.aspx)
 - [Microsoft Accessibility](https://www.microsoft.com/ENABLE/)
 
