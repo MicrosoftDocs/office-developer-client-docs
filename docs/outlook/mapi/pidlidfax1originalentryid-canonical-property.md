@@ -1,7 +1,6 @@
 ---
 title: "PidLidFax1OriginalEntryId Canonical Property"
- 
- 
+description: Outlines the PidLidFax1OriginalEntryId canonical property, which specifies the original EntryID of the contact's business fax address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0e02dfcd-918e-4d0c-b701-505dee1b32d4
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidFax1OriginalEntryId Canonical Property

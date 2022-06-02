@@ -1,7 +1,6 @@
 ---
 title: "PidLidEmail2EmailAddress Canonical Property"
- 
- 
+description: Outlines the PidLidEmail2EmailAddress canonical property, which specifies the second email address of the contact.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 89b33a24-395a-4a3f-bc05-a44529399d7c
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidEmail2EmailAddress Canonical Property

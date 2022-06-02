@@ -1,7 +1,6 @@
 ---
 title: "PidLidEmail3DisplayName Canonical Property"
- 
- 
+description: Outlines the PidLidEmail3DisplayName canonical property, which specifies the user-readable display name for the third email address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: a42fb112-7be5-4b7b-a2e0-7e7f7f58b9a4
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidEmail3DisplayName Canonical Property

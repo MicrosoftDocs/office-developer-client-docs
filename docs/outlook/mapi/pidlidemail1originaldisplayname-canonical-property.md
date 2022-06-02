@@ -1,7 +1,6 @@
 ---
 title: "PidLidEmail1OriginalDisplayName Canonical Property"
- 
- 
+description: Outlines the PidLidEmail1OriginalDisplayName canonical property, which specifies the first display name that corresponds to a contact's email address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 991c2969-0180-4c7d-95ee-e62fd24d67ef
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidEmail1OriginalDisplayName Canonical Property

@@ -1,7 +1,6 @@
 ---
 title: "PidLidDistributionListOneOffMembers Canonical Property"
- 
- 
+description: Outlines the PidLidDistributionListOneOffMembers canonical property, which specifies a list of one-off EntryIds.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 0b92e654-9e2d-4c2e-9a63-d5fac603b0c0
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidDistributionListOneOffMembers Canonical Property

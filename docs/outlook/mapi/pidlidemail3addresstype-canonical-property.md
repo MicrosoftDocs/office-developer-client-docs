@@ -1,7 +1,6 @@
 ---
 title: "PidLidEmail3AddressType Canonical Property"
- 
- 
+description: Outlines the PidLidEmail3AddressType canonical property, which specifies the address type of the third email address.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: c2bf94d9-0524-4a9d-8e30-1adbecd8f3dd
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidEmail3AddressType Canonical Property

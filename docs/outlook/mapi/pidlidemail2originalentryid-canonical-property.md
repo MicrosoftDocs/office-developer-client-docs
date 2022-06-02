@@ -1,7 +1,6 @@
 ---
 title: "PidLidEmail2OriginalEntryId Canonical Property"
- 
- 
+description: Outlines the PidLidEmail2OriginalEntryId canonical property, which specifies the EntryId of the object that corresponds to the second email address. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 10d45a99-54aa-4721-8847-1c7033a8a5b5
-description: "Last modified: March 09, 2015"
 ---
 
 # PidLidEmail2OriginalEntryId Canonical Property
