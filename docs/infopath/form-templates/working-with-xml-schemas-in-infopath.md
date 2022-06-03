@@ -146,7 +146,7 @@ Similarly to the element case, you can declare an attribute with an **anyAttribu
 
 ## Storing XML Signatures in the Data Source
 
-To enable users to digitally sign a form at run time, the schema of the data source must declare an element named signature for storing the XML Signatures (digital signature) information that is created when a user signs the form. You make this declaration by using the **xsd:any** element with the namespace attribute specified as the XML Signatures namespace with a wildcard character, as follows: "<https://www.w3c.org/2000/09/xmldsig>#"
+To enable users to digitally sign a form at run time, the schema of the data source must declare an element named signature for storing the XML Signatures (digital signature) information that is created when a user signs the form. You make this declaration by using the **xsd:any** element with the namespace attribute specified as the XML Signatures namespace with a wildcard character, as follows: "<https://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd>"
   
 ```XML
 <xsd:element name="signature"> 

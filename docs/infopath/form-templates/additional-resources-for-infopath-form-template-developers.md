@@ -22,7 +22,7 @@ Developers working on Microsoft InfoPath managed-code projects can find more inf
     
 - **Microsoft SharePoint Server 2010 Software Developers Kit (SDK)**: Conceptual, procedural, and programming information for developers working with InfoPath Forms Services that is included as part of Microsoft SharePoint Server 2010. For more information, see the [SharePoint Developer Center](https://msdn.microsoft.com/sharepoint/default.aspx).
     
-- [Office Developer Center](https://go.microsoft.com/fwlink?LinkID=27128): Information about using programs in the Microsoft Office System as a development platform. 
+- [Office Developer Center](/office/developer-program/microsoft-365-developer-program): Information about using programs in the Microsoft Office System as a development platform. 
     
 - [Microsoft Developer Network (MSDN)](https://go.microsoft.com/fwlink?LinkId=61826): Information about a variety of Microsoft development platforms and tools.
     
@@ -30,6 +30,6 @@ Developers working on Microsoft InfoPath managed-code projects can find more inf
     
 - [.NET Framework Developer Center](https://go.microsoft.com/fwlink/?LinkId=61829): Information about developing programs and services that use the .NET Framework.
     
-- [InfoPath Solution Center](https://support.microsoft.com/ph/11303): Information about InfoPath, such as Knowledge Base articles, provided by Microsoft Support Services.
+- [InfoPath Solution Center](/office/client-developer/infopath/infopath-home): Information about InfoPath, such as Knowledge Base articles, provided by Microsoft Support Services.
     
 

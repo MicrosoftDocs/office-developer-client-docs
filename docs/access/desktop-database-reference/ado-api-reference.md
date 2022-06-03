@@ -25,4 +25,4 @@ For more information, search for a specific topic in the index or refer to the f
 - [ADO events](ado-events.md)
 - [ADO enumerated constants](ado-enumerated-constants.md)
 - [ADO code examples](ado-code-examples.md)
-- [ADO syntax indexes](/office/vba/access/concepts/miscellaneous/ado-syntax-indexes.md)
+- [ADO syntax indexes](/office/vba/access/concepts/miscellaneous/ado-syntax-indexes)

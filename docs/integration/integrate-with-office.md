@@ -36,6 +36,6 @@ If you are a cloud storage provider, you can register for our [partner program](
     
 - [Office development](https://msdn.microsoft.com/library/7f24db34-c1ad-4a83-a9bd-3c85a39c0bd8%28Office.15%29.aspx)
     
-- [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/)
+- [Integrating with Office Online](/microsoft-365/cloud-storage-partner-program/online/overview)
     
 
