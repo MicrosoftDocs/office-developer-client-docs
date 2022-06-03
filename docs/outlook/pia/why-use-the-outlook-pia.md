@@ -23,7 +23,7 @@ It is possible for developers to create managed Outlook solutions outside of Vis
 
 Visual Studio 2012 installs the add-in templates for Office 2010 by default. To use Office Developer Tools for Visual Studio to develop managed add-ins for Outlook 2013, you must [download](https://aka.ms/officedevtoolsforvs2012) the templates for Office 2013.
 
-For more information about Office Developer Tools for Visual Studio, see [Configure a computer to develop Office solutions](https://docs.microsoft.com/visualstudio/vsto/how-to-configure-a-computer-to-develop-office-solutions?view=vs-2017). For more information about programming managed add-ins for Outlook, see [Get started programming VSTO Add-ins](https://docs.microsoft.com/visualstudio/vsto/getting-started-programming-vsto-add-ins?view=vs-2017).
+For more information about Office Developer Tools for Visual Studio, see [Configure a computer to develop Office solutions](https://docs.microsoft.com/visualstudio/vsto/how-to-configure-a-computer-to-develop-office-solutions). For more information about programming managed add-ins for Outlook, see [Get started programming VSTO Add-ins](https://docs.microsoft.com/visualstudio/vsto/getting-started-programming-vsto-add-ins).
 
 ## See also
 
