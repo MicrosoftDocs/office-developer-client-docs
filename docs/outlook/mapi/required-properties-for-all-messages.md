@@ -1,5 +1,6 @@
 ---
 title: "Required Properties for All Messages"
+description: Outlines properties in Outlook 2013 and Outlook 2016 that clients can expect to set or see supported on messages of all classes.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
-description: "Last modified: March 09, 2015"
  
  
 ---

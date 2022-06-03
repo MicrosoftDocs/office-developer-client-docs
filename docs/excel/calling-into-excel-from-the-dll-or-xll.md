@@ -45,7 +45,7 @@ For the DLL to be able to call **Excel4**, **Excel4v**, **Excel12**, or **Excel1
 
 You cannot call the Excel C API in the following scenarios:
   
-- From an operating system event (for example, from the [DllMain](/windows/win32/dlls/dllmain.md) function).
+- From an operating system event (for example, from the [DllMain](/windows/win32/dlls/dllmain) function).
 
 - From a background thread that your DLL created.
 

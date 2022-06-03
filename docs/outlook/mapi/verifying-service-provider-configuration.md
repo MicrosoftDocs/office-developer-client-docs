@@ -1,5 +1,6 @@
 ---
 title: "Verifying service provider configuration"
+description: Outlines how to verify service provider configuration in Outlook 2013 and Outlook 2016, with additional reference materials.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
-description: "Last modified: March 09, 2015"
 ---
 
 # Verifying service provider configuration

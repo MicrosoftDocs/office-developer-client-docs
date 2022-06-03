@@ -1,5 +1,6 @@
 ---
 title: "Structured Storage in MAPI"
+description: Outlines how in a structured storage environment, storage is organized into two or three types of objects.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 642a678b-4bf2-4246-85cb-c798de23e36f
-description: "Last modified: March 09, 2015"
  
  
 ---

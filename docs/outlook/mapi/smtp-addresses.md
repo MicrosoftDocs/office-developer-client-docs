@@ -1,5 +1,6 @@
 ---
 title: "SMTP Addresses"
+description: Outlines a particular form of RFC 822 address that best encodes MAPI addresses in Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,8 +8,7 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 42015740-a94f-4628-bf32-b7fc2fdb9ff6
-description: "Last modified: March 09, 2015"
- 
+
  
 ---
 

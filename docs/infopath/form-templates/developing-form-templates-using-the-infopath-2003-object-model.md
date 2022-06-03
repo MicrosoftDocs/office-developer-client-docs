@@ -49,7 +49,7 @@ Microsoft InfoPath continues to support form template projects created with Micr
   
 > Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom InfoPath solutions.
     
-[Microsoft Office Developer Center](https://go.microsoft.com/fwlink?LinkID=27128)
+[Microsoft Office Developer Center](/office/developer-program/microsoft-365-developer-program)
   
 > Contains links to technical articles, code samples, downloads, support, and other MSDN documentation on building custom Office solutions.
     

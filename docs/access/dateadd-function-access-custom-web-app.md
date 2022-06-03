@@ -15,7 +15,7 @@ Returns a specified date with the specified number interval (positive or negativ
 > [!NOTE]
 > The cloud storage feature described in this article is no longer supported in Office 2013 and Office 2016 and may result in the following error:
 > *Sorry, we're having server problems, so we can't add \<service\> right now. Please try again later.*
-> For cloud storage for Office Online, Office for iOS, and Office for Android, look into our [Office Cloud Storage Partner Program](https://dev.office.com/programs/officecloudstorage).
+> For cloud storage for Office Online, Office for iOS, and Office for Android, look into our [Office Cloud Storage Partner Program](/microsoft-365/cloud-storage-partner-program/online/overview).
   
 ## Syntax
 
