@@ -1,5 +1,6 @@
 ---
 title: "SizedSPropTagArray"
+description: Outlines SizedSPropTagArray, which creates a named SPropTagArray structure that includes a specified number of property tags. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -11,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
-description: "Last modified: March 09, 2015"
 ---
 
 # SizedSPropTagArray

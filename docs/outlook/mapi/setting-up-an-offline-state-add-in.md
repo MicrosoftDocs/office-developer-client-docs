@@ -1,11 +1,11 @@
 ---
 title: "Setting up an offline state add-in"
+description: Outlines that to implement an offline state add-in, you must implement connection, initialization, and other setup functions.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium
 ms.assetid: 2a326e93-fe8c-e3a5-1e92-30b75b6cb1d2
-description: "Last modified: July 05, 2012"
 ---
 
 # Setting up an offline state add-in

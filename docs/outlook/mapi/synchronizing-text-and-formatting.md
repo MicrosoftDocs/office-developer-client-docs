@@ -1,5 +1,6 @@
 ---
 title: "Synchronizing Text and Formatting"
+description: Outlines solutions to the main challenge in sending Rich Text Format (RTF) messages, keeping the text synchronized with the formatting.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: d7e166f0-1214-4571-b9a8-366960772a7a
-description: "Last modified: March 09, 2015"
  
  
 ---

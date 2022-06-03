@@ -1,5 +1,6 @@
 ---
 title: "TNEF Correlation"
+description: Outlines how some messaging systems perform a correlation check on any TNEF stream attached to an inbound message for verification.
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 93d1716d-a0be-45aa-85d2-6c9be65f5fd2
-description: "Last modified: March 12, 2013"
  
  
 ---

@@ -1,7 +1,6 @@
 ---
 title: "SBinary"
- 
- 
+description: Outlines SBinary, including a description of property type PT_BINARY. This applies to Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
-description: "Last modified: March 09, 2015"
 ---
 
 # SBinary
