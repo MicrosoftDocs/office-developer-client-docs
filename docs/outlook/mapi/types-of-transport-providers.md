@@ -1,5 +1,6 @@
 ---
 title: "Types of Transport Providers"
+description: Outlines how transport providers support a range of standard features in Outlook 2013 and Outlook 2016.
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +8,6 @@ ms.localizationpriority: medium
 api_type:
 - COM
 ms.assetid: 772ecab1-7e91-415b-bae8-af8ffb7b7ed9
-description: "Last modified: March 09, 2015"
  
  
 ---
