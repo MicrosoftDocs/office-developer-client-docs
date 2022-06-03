@@ -30,7 +30,7 @@ With the collections, methods, and properties of a **Command** object, you can d
 
   - Define parameterized queries or stored-procedure arguments with [Parameter](parameter-object-ado.md) objects and the [Parameters](parameters-collection-ado.md) collection.
 
-  - Execute a command and return a **Recordset** object if appropriate with the [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method.
+  - Execute a command and return a **Recordset** object if appropriate with the [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-command) method.
 
   - Specify the type of command with the [CommandType](commandtype-property-ado.md) property prior to execution to optimize performance.
 
@@ -47,7 +47,7 @@ With the collections, methods, and properties of a **Command** object, you can d
   - Access provider-specific attributes with the [Properties](properties-collection-ado.md) collection.
 
 > [!NOTE]
-> To execute a query without using a **Command** object, pass a query string to the [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) method of a **Connection** object or to the [Open](open-method-ado-recordset.md) method of a **Recordset** object. However, a **Command** object is required when you want to persist the command text and re-execute it, or use query parameters.
+> To execute a query without using a **Command** object, pass a query string to the [Execute](/office/vba/access/concepts/miscellaneous/execute-method-ado-connection) method of a **Connection** object or to the [Open](open-method-ado-recordset.md) method of a **Recordset** object. However, a **Command** object is required when you want to persist the command text and re-execute it, or use query parameters.
 
 To create a **Command** object independently of a previously defined **Connection** object, set its **ActiveConnection** property to a valid connection string. ADO still creates a **Connection** object, but it doesn't assign that object to an object variable. However, if you are associating multiple **Command** objects with the same connection, you should explicitly create and open a **Connection** object; this assigns the **Connection** object to an object variable. If you do not set the **Command** object's **ActiveConnection** property to this object variable, ADO creates a new **Connection** object for each **Command** object, even if you use the same connection string.
 
@@ -56,4 +56,3 @@ To execute a **Command**, simply call it by its [Name](name-property-ado.md) pro
 If two or more **Command** objects are executed on the same connection and either **Command** object is a stored procedure with output parameters, an error occurs. To execute each **Command** object, use separate connections or disconnect all other **Command** objects from the connection.
 
 The **Parameters** collection is the default member of the **Command** object. As a result, the following two code statements are equivalent.
-

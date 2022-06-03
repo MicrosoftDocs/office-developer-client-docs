@@ -56,7 +56,7 @@ The following table lists the settings to use when creating the **USysRibbons** 
 
 ### Load ribbon extensibility XML programmatically
 
-You can use the **[LoadCustomUI](https://docs.microsoft.com/office/vba/api/Access.Application.LoadCustomUI)** method to load ribbon customizations programmatically. Typically, to create and make the ribbon available to the application, you first create a module in the database with a procedure that calls the **LoadCustomUI** method, passing in the name of the ribbon and the XML customization markup.
+You can use the **[LoadCustomUI](/office/vba/api/Access.Application.LoadCustomUI)** method to load ribbon customizations programmatically. Typically, to create and make the ribbon available to the application, you first create a module in the database with a procedure that calls the **LoadCustomUI** method, passing in the name of the ribbon and the XML customization markup.
 
 The XML markup can come from a **Recordset** object created from a table, from a source external to the database such as an XML file that you parse into a string, or from XML markup embedded directly inside the procedure. You can make different ribbons using multiple calls to the **LoadCustomUI** method, passing in different XML markup as long as the name of each ribbon and the **id** attribute of the tabs that make up the ribbon are unique.
 
@@ -77,6 +77,4 @@ To apply a custom UI so that it is available when the application starts, use th
 5.  Now close and restart the application. The UI you selected is displayed.
 
 > [!NOTE]
-> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
-
-
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).

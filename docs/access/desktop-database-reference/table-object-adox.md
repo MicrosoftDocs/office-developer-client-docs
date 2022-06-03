@@ -25,7 +25,7 @@ With the properties and collections of a **Table** object, you can:
 
 - Identify the table with the [Name](name-property-adox.md) property.
 
-- Determine the type of table with the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox) property.
+- Determine the type of table with the [Type](/office/vba/access/concepts/miscellaneous/type-property-tableadox) property.
 
 - Access the database columns of the table with the [Columns](columns-collection-adox.md) collection.
 
@@ -44,4 +44,3 @@ With the properties and collections of a **Table** object, you can:
 > Your data provider may not support all properties of **Table** objects. An error will occur if you have set a value for a property that the provider does not support. For new **Table** objects, the error will occur when the object is appended to the collection. For existing objects, the error will occur when setting the property.
 
 When creating **Table** objects, the existence of an appropriate default value for an optional property does not guarantee that your provider supports the property. For more information about which properties your provider supports, see your provider documentation.
-

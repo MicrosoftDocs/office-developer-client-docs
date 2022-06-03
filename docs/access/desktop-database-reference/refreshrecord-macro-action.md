@@ -28,7 +28,7 @@ The behavior of this macro action depends on whether you are calling it in a cli
 
 ## Client database
 
-In a client database, you can use the **RefreshRecord** action to update the underlying record source for the active form or datasheet to reflect changes made to the data in the current set. Changes include those made by the current user or by other users in a multiuser environment. It is equivalent to the **[Refresh](https://docs.microsoft.com/office/vba/api/Access.Form.Refresh)** method.
+In a client database, you can use the **RefreshRecord** action to update the underlying record source for the active form or datasheet to reflect changes made to the data in the current set. Changes include those made by the current user or by other users in a multiuser environment. It is equivalent to the **[Refresh](/office/vba/api/Access.Form.Refresh)** method.
 
 The **RefreshRecord** macro action does the following in a client database:
 
@@ -53,4 +53,3 @@ The **RefreshRecord** macro action does the following in a web database:
 3.  Refreshes the active form or datasheet to display any changed records and any \#Deleted records, in the current set.
 
 4.  Requeries any subforms and subreports on the active form or datasheet.
-

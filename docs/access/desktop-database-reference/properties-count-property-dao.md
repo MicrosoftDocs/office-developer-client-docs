@@ -30,6 +30,5 @@ You can use the **Count** property to determine the number of items in a specifi
 
 - [Properties collection](properties-collection-dao.md)
 - [Properties members](properties-members-dao.md)
-- [Properties object (Access VBA)](https://docs.microsoft.com/office/vba/api/Access.Properties)
-- [Properties members (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
-
+- [Properties object (Access VBA)](/office/vba/api/Access.Properties)
+- [Properties members (Access VBA)](/previous-versions/office/ff836991(v=office.15))

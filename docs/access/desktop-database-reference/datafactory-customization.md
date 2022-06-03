@@ -31,5 +31,5 @@ See the following topics for more information about customizing the **DataFactor
 - [Customization File SQL section](customization-file-sql-section.md)
 - [Customization File UserList section](customization-file-userlist-section.md)
 - [Customization File Logs section](customization-file-logs-section.md)
-- [Required client settings](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/required-client-settings)
-- [Writing your own customized handler](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)
+- [Required client settings](/office/vba/access/concepts/miscellaneous/required-client-settings)
+- [Writing your own customized handler](/office/vba/access/concepts/miscellaneous/writing-your-own-customized-handler)

@@ -24,7 +24,7 @@ Adds a new [Key](key-object-adox.md) object to the [Keys](keys-collection-adox.m
 |Parameter|Description|
 |:--------|:----------|
 |*Key* |The **Key** object to append or the name of the key to create and append.|
-|*KeyType* |Optional. A **Long** value that specifies the type of key. The *Key* parameter corresponds to the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) property of a **Key** object.|
+|*KeyType* |Optional. A **Long** value that specifies the type of key. The *Key* parameter corresponds to the [Type](/office/vba/access/concepts/miscellaneous/type-property-keyadox) property of a **Key** object.|
 |*Column* |Optional. A **String** value that specifies the name of the column to be indexed. The *Columns* parameter corresponds to the value of the [Name](name-property-adox.md) property of a [Column](column-object-adox.md) object.|
 |*RelatedTable* |Optional. A **String** value that specifies the name of the related table. The *RelatedTable* parameter corresponds to the value of the **Name** property of a [Table](table-object-adox.md) object.|
 |*RelatedColumn* |Optional. A **String** value that specifies the name of the related column for a foreign key. The RelatedColumn parameter corresponds to the value of the **Name** property of a **Column** object.|
@@ -32,4 +32,3 @@ Adds a new [Key](key-object-adox.md) object to the [Keys](keys-collection-adox.m
 ## Remarks
 
 The *Columns* parameter can take either the name of a column or an array of column names.
-
