@@ -29,7 +29,7 @@ All security settings are Office-wide and are set in the **Trust Center** (click
     
 In previous versions of Visio, settings were made in the **Security** dialog box and the **Security** tab of the **Options** dialog box (**Tools** menu). As of Office Visio 2007, these dialog boxes have been eliminated, and as of Microsoft Visio 2010, Visio toolbars and menus have been replaced by the ribbon. 
   
-For more information about settings in the Office **Trust Center**, see [Security Notes for Microsoft Office Solution Developers](https://docs.microsoft.com/previous-versions/office/developer/office-2007/aa433259(v=office.12)).
+For more information about settings in the Office **Trust Center**, see [Security Notes for Microsoft Office Solution Developers](/previous-versions/office/developer/office-2007/aa433259(v=office.12)).
   
  For information about digitally signing code and trusted sources and publishers, search for "code signing" on MSDN, the Microsoft Developer Network website. 
   
@@ -37,8 +37,7 @@ For more information about good security design practices and technologies, sear
   
 ## Additional Visio resources
 
-- To learn more about Visio add-ons and COM add-ins, see the MSDN article, [Overview of Add-ons and COM Add-ins in Visio 2007](https://docs.microsoft.com/previous-versions/office/developer/office-2007/bb851468(v=office.12)).
+- To learn more about Visio add-ons and COM add-ins, see the MSDN article, [Overview of Add-ons and COM Add-ins in Visio 2007](/previous-versions/office/developer/office-2007/bb851468(v=office.12)).
     
-- To learn more about the RUNADDON function and the **AddonName** property, see the MSDN article [Changes in the RUNADDON Function and the AddOnName Property for Visio 2002](https://docs.microsoft.com/previous-versions/office/developer/office-xp/aa140368(v=office.10)).
+- To learn more about the RUNADDON function and the **AddonName** property, see the MSDN article [Changes in the RUNADDON Function and the AddOnName Property for Visio 2002](/previous-versions/office/developer/office-xp/aa140368(v=office.10)).
     
-

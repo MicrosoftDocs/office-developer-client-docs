@@ -29,11 +29,11 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [Get started](https://developer.microsoft.com/office/docs)
   
-- [Platform overview](https://docs.microsoft.com/previous-versions/office/office-365-api/)
+- [Platform overview](/previous-versions/office/office-365-api/)
   
 ### Office Add-ins
   
-- [Get started](https://docs.microsoft.com/office/dev/add-ins/)
+- [Get started](/office/dev/add-ins/)
 
 - [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
   
@@ -57,4 +57,3 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [Office 365 forum on stack overflow](https://stackoverflow.com/questions/tagged/office365)
   
-
