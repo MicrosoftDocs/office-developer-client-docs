@@ -110,7 +110,7 @@ If your application primarily reads data from Project Server, you can use the re
 
 The PSI enables full-trust client applications, including Project Professional 2013, Project Web App, and LOB applications, to access Project Server data within a SharePoint farm. The PSI is built and used with .NET Framework 4 and provides advantages such as a well-known development environment with built-in security, error handling, and garbage collection.
   
-The PSI is accessed through WCF services or ASMX web services. The ASMX interface is based on WCF. Each PSI service typically contains a base class with CRUD methods for items within that class. Items are specified by related **DataSet** classes. For example, the **CustomFields** service contains the **CustomFields** class with methods such as [CreateCustomFields2](https://docs.microsoft.com/previous-versions/office/ee767959(v=office.14)). Data for one or more enterprise custom fields are specified in the **CustomFieldDataSet**.
+The PSI is accessed through WCF services or ASMX web services. The ASMX interface is based on WCF. Each PSI service typically contains a base class with CRUD methods for items within that class. Items are specified by related **DataSet** classes. For example, the **CustomFields** service contains the **CustomFields** class with methods such as [CreateCustomFields2](/previous-versions/office/ee767959(v=office.14)). Data for one or more enterprise custom fields are specified in the **CustomFieldDataSet**.
   
 > [!NOTE]
 > The ASMX web services interface of the PSI is deprecated in Project Server 2013. Although the ASMX interface is still available, new applications that use the PSI should use the WCF interface, or if possible, new applications should use the CSOM instead of the PSI. Future versions of Project Server will require an upgrade of existing ASMX-based applications to use the WCF interface of the PSI or to use the CSOM.
@@ -154,7 +154,7 @@ Applications developed for the PDS are not compatible with later versions of Pro
 > [!NOTE]
 > Because PDS applications must be completely redesigned for Project Server 2013, we recommend that you use the CSOM.
   
-For more information about PDS compatibility and guidelines for porting PDS extensions to the PSI, see [PDS Parity in PSI Web Services](https://docs.microsoft.com/previous-versions/office/developer/office-2007/ms197081(v=office.12)).
+For more information about PDS compatibility and guidelines for porting PDS extensions to the PSI, see [PDS Parity in PSI Web Services](/previous-versions/office/developer/office-2007/ms197081(v=office.12)).
   
 ### Porting applications built for Project Server 2007 and Project Server 2010
 
@@ -170,16 +170,16 @@ The PSI in Project Server 2013 is a superset of the PSI object model in Office P
 
 - For applications that modify project scheduling, use the CSOM, or change the application to use the [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) PSI method.
 
-- Local or web applications that log on users to different instances of Project Web App should use programmatic settings for WCF endpoints of the CSOM or the PSI. The methods are deprecated. Apps should use OAuth authentication in place of Forms authentication and for use with Project Online. For more information, see [Authorization and authentication for apps in SharePoint 2013](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins).
+- Local or web applications that log on users to different instances of Project Web App should use programmatic settings for WCF endpoints of the CSOM or the PSI. The methods are deprecated. Apps should use OAuth authentication in place of Forms authentication and for use with Project Online. For more information, see [Authorization and authentication for apps in SharePoint 2013](/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins).
 
 - Applications that rely on or modify specific Project Server security settings.
 
   > [!NOTE]
-  > A default on-premises installation of Project Server 2013 uses the SharePoint permission mode, where Project Server security settings are not accessible through the PSI. To change to the Project permission mode, see the _SharePoint Permission Mode_  section in [What's new for IT pros in Project Server 2013](https://docs.microsoft.com/project/what-s-new-for-it-pros-in-project-server-2016).
+  > A default on-premises installation of Project Server 2013 uses the SharePoint permission mode, where Project Server security settings are not accessible through the PSI. To change to the Project permission mode, see the _SharePoint Permission Mode_  section in [What's new for IT pros in Project Server 2013](/project/what-s-new-for-it-pros-in-project-server-2016).
   
-- For many custom Project Server workflows, you can use SharePoint Designer 2013 to create declarative workflows. For custom workflows that require additional programming, you should _not_  directly use classes or members in the **Microsoft.Office.Project.Server.Workflow** namespace. Instead, use the [Microsoft.ProjectServer.Client.WorkflowActivities](https://docs.microsoft.com/previous-versions/office/mt780562(v=office.15)) class in the CSOM.
+- For many custom Project Server workflows, you can use SharePoint Designer 2013 to create declarative workflows. For custom workflows that require additional programming, you should _not_  directly use classes or members in the **Microsoft.Office.Project.Server.Workflow** namespace. Instead, use the [Microsoft.ProjectServer.Client.WorkflowActivities](/previous-versions/office/mt780562(v=office.15)) class in the CSOM.
 
-- In general, applications that use impersonation should be rewritten to use the WCF interface of the PSI. Applications that do simple status updates for other users do not require impersonation. They can use the [StatusAssignment.SubmitStatusUpdates](https://docs.microsoft.com/previous-versions/office/project-class/jj235883(v=office.15)) method in the CSOM or the [Statusing.SubmitStatusForResource](https://docs.microsoft.com/previous-versions/office/ee755393(v=office.14)) method in the PSI.
+- In general, applications that use impersonation should be rewritten to use the WCF interface of the PSI. Applications that do simple status updates for other users do not require impersonation. They can use the [StatusAssignment.SubmitStatusUpdates](/previous-versions/office/project-class/jj235883(v=office.15)) method in the CSOM or the [Statusing.SubmitStatusForResource](/previous-versions/office/ee755393(v=office.14)) method in the PSI.
 
 - Middleware components that run on the Project Server computer can be installed only for on-premises use, and must use the WCF interface of the PSI. For example, a middleware component that uses the ASMX interface to exchange data between Project Web App on-premises and an external timesheet application would have to be rewritten to use the WCF interface of the PSI. To work with Project Online, the component would have to be redesigned as an app and use the CSOM.
 
@@ -217,7 +217,7 @@ When you migrate a solution to Project Server 2013, or if a solution does not wo
 
 <a name="pj15_Programmability_Scheduling"> </a>
 
-Project Server 2013 has two scheduling engines. The newer scheduling engine is the same as the scheduling engine in Project Professional 2013. When you make scheduling changes and publish the changes by using the Scheduling web part (Project Details page) in Project Web App or a project site, or by using the CSOM, the calculation of dates, costs, duration, remaining work, baselines, and other changes related to scheduling are the same as if you made the changes and published the project by using Project Professional 2013. However, except for the [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) method, PSI methods use the older scheduling engine that was migrated from Project Server 2010. The reason is to ensure that legacy applications behave the same in Project Server 2013 as they previously did.
+Project Server 2013 has two scheduling engines. The newer scheduling engine is the same as the scheduling engine in Project Professional 2013. When you make scheduling changes and publish the changes by using the Scheduling web part (Project Details page) in Project Web App or a project site, or by using the CSOM, the calculation of dates, costs, duration, remaining work, baselines, and other changes related to scheduling are the same as if you made the changes and published the project by using Project Professional 2013. However, except for the [QueueUpdateProject2](/previous-versions/office/project-class/jj236245(v=office.15)) method, PSI methods use the older scheduling engine that was migrated from Project Server 2010. The reason is to ensure that legacy applications behave the same in Project Server 2013 as they previously did.
   
 > [!NOTE]
 > To use the updated scheduling engine in Project Server 2013, applications can use the CSOM.
@@ -237,7 +237,7 @@ Both the older and the newer scheduling engines have the following limitations:
   
 Following are issues and limitations of PSI programming with the older Project Server scheduling engine:
   
-- **Changing the active status of a task** The older Project Server scheduling engine can show inconsistent start or finish times when you use the [QueueUpdateProject](https://docs.microsoft.com/previous-versions/office/ms471014(v=office.14)) method to change the active status of a task, if there are multiple changes in the **ProjectDataSet** object for the _dataset_ parameter. If the **TASK_IS_ACTIVE** property is the only change in the _dataset_ parameter of **QueueUpdateProject**, you can update the project.
+- **Changing the active status of a task** The older Project Server scheduling engine can show inconsistent start or finish times when you use the [QueueUpdateProject](/previous-versions/office/ms471014(v=office.14)) method to change the active status of a task, if there are multiple changes in the **ProjectDataSet** object for the _dataset_ parameter. If the **TASK_IS_ACTIVE** property is the only change in the _dataset_ parameter of **QueueUpdateProject**, you can update the project.
 
     For more information about inactive tasks and the older scheduling engine, see the blog articles [Introducing inactive tasks in Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx) and [Project Server 2010: Scheduling on the web, the PSI and Project Professional](https://blogs.msdn.com/b/brismith/archive/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional.aspx?wa=wsignin1.0). For a comparison of scheduling in Project Professional 2010 and Project Web App in Project Server 2010, see [Web-based schedule management comparison](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/).
 
@@ -280,7 +280,7 @@ Applications that directly access the draft, published, or archive tables and vi
   
 For all of these reasons, Project Professional and Project Web App do not make direct calls to the draft, published, or archive tables; neither should any other application that integrates with Project Server.
   
-The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)).
+The schemas for the draft, published, and archive tables are not documented. You can use the reporting tables to help generate reports, and the schema for the reporting tables and views is documented in the Project 2013 SDK download. For the OData schema of the reporting data, see [ProjectData - Project OData service reference](/previous-versions/office/project-odata/jj163015(v=office.15)).
   
 ## See also
 
@@ -292,6 +292,6 @@ The schemas for the draft, published, and archive tables are not documented. You
 - [Getting started developing Project Server workflows](getting-started-developing-project-server-workflows.md)
 - [Project 2013 programming references](project-2013-programming-references.md)
 - [Project PSI reference overview](project-psi-reference-overview.md)
-- [Create custom actions to deploy with apps for SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins)
+- [Create custom actions to deploy with apps for SharePoint](/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins)
 - [Introducing Inactive Tasks in Project 2010](https://blogs.msdn.com/b/project/archive/2010/06/10/introducing-inactive-tasks-in-project-2010.aspx)
 - [Project Server 2010: Scheduling on the Web, the PSI and Project Professional](https://blogs.msdn.microsoft.com/brismith/2010/09/10/project-server-2010-scheduling-on-the-web-the-psi-and-project-professional/)

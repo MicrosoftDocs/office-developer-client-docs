@@ -32,7 +32,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## Miscellaneous dispatch identifiers
 
-Outlook exposes the following dispatch identifiers (dispids) so that developers can use [IDispatch::Invoke](/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke.md) to access the corresponding property or method, or listen to the corresponding event. 
+Outlook exposes the following dispatch identifiers (dispids) so that developers can use [IDispatch::Invoke](/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) to access the corresponding property or method, or listen to the corresponding event. 
   
 |**Associated constant**|**Dispid value**|**Description**|**Applicable interface**|
 |:-----|:-----|:-----|:-----|
@@ -46,5 +46,5 @@ Outlook exposes the following dispatch identifiers (dispids) so that developers 
 - [Outlook exported APIs](outlook-exported-apis.md)
 - [About APIs exported by Outlook](about-apis-exported-by-outlook.md)
 - [Determine whether an Outlook item has been modified but not saved (Outlook Auxiliary Reference)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
-- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](https://docs.microsoft.com/previous-versions/office/gg262879(v=office.15))
+- [Specify whether to display a contact's picture in Outlook (Outlook Auxiliary Reference)](/previous-versions/office/gg262879(v=office.15))
 - [Available events and their dispids (Outlook exported APIs)](available-events-and-their-dispids-outlook-exported-apis.md)

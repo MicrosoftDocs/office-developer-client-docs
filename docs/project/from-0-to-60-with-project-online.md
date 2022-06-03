@@ -110,7 +110,7 @@ You can run the sample in a few steps:
     
    Project Online examines both the application scope of the add-in and the user permissions to govern access to information on the Project Online host. If access is explicitly denied in either or both settings, Project Online denies access to the information. Otherwise, access is granted.
     
-3. Enable [sideloading](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) on your site. 
+3. Enable [sideloading](/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) on your site. 
     
 4. Build the project.
     
@@ -164,4 +164,3 @@ Each sample application has an article to explain the highlights of working with
 
 For documentation and samples related to Project Online and application development using CSOM, see the [Project Development Portal](https://developer.microsoft.com/project).
     
-

@@ -290,7 +290,7 @@ In general, use the object model or the PIA if your solution customizes the Outl
 
 ### Scenarios supported by the object model or PIA since Outlook 2007
 
-In addition to the baseline scenarios, if your Outlook solution supports any of the scenarios shown in the following list, and your solution is intended to run on Outlook 2007 or a later version but not earlier versions, you can use the object model or the PIA as well. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md&preserve-view=true) interface in the Visual Studio automation object model, and the [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility.md) interface in the Office object model, which you can integrate with the Outlook object model). 
+In addition to the baseline scenarios, if your Outlook solution supports any of the scenarios shown in the following list, and your solution is intended to run on Outlook 2007 or a later version but not earlier versions, you can use the object model or the PIA as well. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md&preserve-view=true) interface in the Visual Studio automation object model, and the [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility) interface in the Office object model, which you can integrate with the Outlook object model). 
 
 - [Customize the Outlook UI: Office Fluent Ribbon, Navigation pane, Task pane](#OLSelectAPI_CustomizeTheOutlookInterface)
 - [Customize forms as form regions and deploy them by add-ins](#OLSelectAPI_CustomFormRegions)
@@ -322,14 +322,14 @@ In addition to the baseline scenarios, if your Outlook solution supports any of 
 
 ### Scenarios supported by the object model or PIA since Outlook 2010
 
-If your Outlook solution is intended to run on Outlook 2010 and not earlier versions, you can choose to use the object model or the PIA to support the scenarios shown in this next section. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IRibbonControl](/office/vba/api/Office.IRibbonControl.md), [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility.md), and [IRibbonUI](/office/vba/api/Office.IRibbonUI.md) interfaces that are in the Office object model, which you can integrate with the Outlook object model). 
+If your Outlook solution is intended to run on Outlook 2010 and not earlier versions, you can choose to use the object model or the PIA to support the scenarios shown in this next section. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IRibbonControl](/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility), and [IRibbonUI](/office/vba/api/Office.IRibbonUI) interfaces that are in the Office object model, which you can integrate with the Outlook object model). 
    
 - [Customize the Outlook 2010 UI such as the Office Backstage view and context menus](#OLSelectAPI_CustomizingUIOutlook2010)
 - [Manage and access heterogeneous items in a conversation](#OLSelectAPI_Conversations)
 - [Manage selection of items in an explorer or locate a selection](#OLSelectAPI_ItemSelection)
 - [Manage selection of attachments in an inspector](#OLSelectAPI_AttachmentSelection)
 - [Support multiple Exchange accounts in one profile](#OLSelectAPI_MultipleAccounts)
-- [Create a contact card for an address entry](/office/vba/api/Outlook.NameSpace.CreateContactCard.md)
+- [Create a contact card for an address entry](/office/vba/api/Outlook.NameSpace.CreateContactCard)
 - [Organize solution-specific folders in the Solutions module](#OLSelectAPI_Folders)
 
 <!--more removed images:
@@ -346,10 +346,10 @@ If your Outlook solution is intended to run on Outlook 2010 and not earlier vers
 
 If your solution is intended to run on Outlook 2013 and not any earlier version, you can use the object model or the PIA to support the scenarios shown in the following resources.
 
-- [Display a view for all contacts in the current folder](/office/vba/api/Outlook.peopleview.md)
+- [Display a view for all contacts in the current folder](/office/vba/api/Outlook.peopleview)
 - [Select inline response in reading pane](#OLSelectAPI_InlineResponse)
 - [Show check address or full name dialog for contact](#OLSelectAPI_ContactCheckDialogs)
-- [Detecting reading item properties is complete](/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects.md)
+- [Detecting reading item properties is complete](/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects)
 
 <!--more removed images:
 ![Display view for all contacts in current folder](media/odc_ol15_ta_SelectingAPI_Fig5-1.gif)
@@ -483,7 +483,7 @@ Once you have decided on the APIs or technologies to use in your solution, you c
 
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
-[Office Add-ins platform overview](/office/dev/add-ins/overview/office-add-ins.md) provides a good introduction of Office Add-ins, including the architecture and development life cycle. 
+[Office Add-ins platform overview](/office/dev/add-ins/overview/office-add-ins) provides a good introduction of Office Add-ins, including the architecture and development life cycle. 
   
 See [Outlook add-ins](/outlook/add-ins/) for a detailed roadmap of resources about developing mail apps. 
   
@@ -493,10 +493,10 @@ The following resources provide more information about using the object model an
 
 <a name="OLSelectAPI_PrimaryAccount"> </a>
 
-- [Account](/office/vba/api/Outlook.Account.md) object 
+- [Account](/office/vba/api/Outlook.Account) object 
 
     
-- [NameSpace.Accounts](/office/vba/api/Outlook.NameSpace.Accounts.md) property 
+- [NameSpace.Accounts](/office/vba/api/Outlook.NameSpace.Accounts) property 
 
 <a name="OLSelectAPI_MultipleAccounts"> </a>
 
@@ -582,7 +582,7 @@ The following resources provide more information about using the object model an
     
 - [Best practices in developing managed Outlook add-ins](https://msdn.microsoft.com/library/a03246f6-2ca5-4fcb-8e63-a11cfbc8d9a0%28Office.15%29.aspx)
     
-- [Obtain and Log On to an Instance of Outlook ](https://msdn.microsoft.com/library/ef369364-6500-2759-3ef4-ed4411112e96%28Office.15%29.aspx)
+- [Obtain and Log On to an Instance of Outlook](https://msdn.microsoft.com/library/ef369364-6500-2759-3ef4-ed4411112e96%28Office.15%29.aspx)
     
 - [Automating Outlook from a Visual Basic Application](https://msdn.microsoft.com/library/623f91af-cd50-1ff0-9519-5a39cbcf5d18%28Office.15%29.aspx)
     
@@ -766,7 +766,7 @@ See the following task-related properties in some item objects such as the [Mail
 
 ### Solutions: storing data
 
-- [Storing Data for Solutions ](https://msdn.microsoft.com/library/58e69983-5718-4dde-64fc-858abd80c9e5%28Office.15%29.aspx)
+- [Storing Data for Solutions](https://msdn.microsoft.com/library/58e69983-5718-4dde-64fc-858abd80c9e5%28Office.15%29.aspx)
     
 - [StorageItem](https://msdn.microsoft.com/library/41776bc3-b838-2755-fd6b-3b5012fb9ae5%28Office.15%29.aspx) object 
 
@@ -780,7 +780,7 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [Create a Form Region](https://msdn.microsoft.com/library/695b95a5-c795-cb4a-8d35-ba12b0007b1f%28Office.15%29.aspx)
     
-- [Walkthrough: Add a Form Region to an Existing Page on a Form ](https://msdn.microsoft.com/library/3c988dac-f171-966d-cf9a-17139353d604%28Office.15%29.aspx)
+- [Walkthrough: Add a Form Region to an Existing Page on a Form](https://msdn.microsoft.com/library/3c988dac-f171-966d-cf9a-17139353d604%28Office.15%29.aspx)
     
 - [Building an Outlook 2007 Form Region with a Managed Add-In](https://msdn.microsoft.com/library/cc8503c2-9e17-4718-a757-9f0b7d42f0ee%28Office.15%29.aspx)
     
@@ -902,23 +902,23 @@ The following resources provide more information about the primary Outlook refer
   
 ### Major references and resources
 
-- [Office Add-ins](/office/dev/add-ins/overview/office-add-ins.md)   
-- [Outlook 2013 developer reference](/office/vba/api/overview/outlook.md)   
-- [Outlook 2010 Primary Interop Assembly Reference](/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference.md)   
-- [Outlook MAPI Reference](/office/client-developer/outlook/mapi/outlook-mapi-reference.md)   
+- [Office Add-ins](/office/dev/add-ins/overview/office-add-ins)   
+- [Outlook 2013 developer reference](/office/vba/api/overview/outlook)   
+- [Outlook 2010 Primary Interop Assembly Reference](/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference)   
+- [Outlook MAPI Reference](/office/client-developer/outlook/mapi/outlook-mapi-reference)   
 - [Outlook 2013 Auxiliary Reference](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
 - [Outlook Social Connector provider reference](social-connector/outlook-social-connector-provider-reference.md)   
 - [Extending the Weather Bar in Outlook](weather/extending-the-weather-bar-in-outlook.md)   
 - [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
 - [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
-- [What's New in XML Schemas for Outlook 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
+- [What's New in XML Schemas for Outlook 2010](/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
 - [Outlook 2010: XML Schema Reference](https://www.microsoft.com/download/details.aspx?id=22609)   
-- [Developing Outlook 2010 Solutions for 32-Bit and 64-Bit Systems](https://docs.microsoft.com/previous-versions/office/developer/office-2010/gg549122(v=office.14))
+- [Developing Outlook 2010 Solutions for 32-Bit and 64-Bit Systems](/previous-versions/office/developer/office-2010/gg549122(v=office.14))
     
 ### Code samples
 
 - [Mail apps samples](https://developer.microsoft.com/outlook/gallery/?filterBy=Outlook,Samples)   
-- Object model code samples: [How Do I ... in Outlook](/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference.md)  
-- PIA code samples: [How Do I... (Outlook Reference)](/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference.md)  
-- [MAPI Samples](/office/client-developer/outlook/mapi/mapi-samples.md)
+- Object model code samples: [How Do I ... in Outlook](/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference)  
+- PIA code samples: [How Do I... (Outlook Reference)](/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference)  
+- [MAPI Samples](/office/client-developer/outlook/mapi/mapi-samples)
 - Auxiliary API code samples: [Sample tasks](auxiliary/sample-tasks.md)
