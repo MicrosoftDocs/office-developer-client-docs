@@ -14,5 +14,5 @@ ms.localizationpriority: medium
 The interfaces and members of the **Microsoft.Office.Interop.Outlook** namespace provide support for interoperability between the COM object model of Outlook 2013 and managed applications that automate Outlook. For more information on the interoperability, see [Why Use the Outlook PIA](why-use-the-outlook-pia.md).
 
 View the 
-[Microsoft.Office.Interop.Outlook Namespace](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook).
+[Microsoft.Office.Interop.Outlook Namespace](/dotnet/api/microsoft.office.interop.outlook).
 

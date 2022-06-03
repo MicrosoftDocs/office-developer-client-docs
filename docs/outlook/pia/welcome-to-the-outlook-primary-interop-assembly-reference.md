@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 
 # Outlook Primary Interop Assembly reference
 
-The Outlook 2013 Primary Interop Assembly (PIA) reference provides help for developing managed applications for Outlook 2013. It extends the [Outlook 2013 Developer Reference](https://docs.microsoft.com/office/vba/api/overview/outlook) from the COM environment to the managed environment and focuses on how to use the PIA. It includes all the additions and changes to the object model in Outlook 2013, and provides many code samples in C\# and Visual Basic to show how to perform common tasks in Outlook.
+The Outlook 2013 Primary Interop Assembly (PIA) reference provides help for developing managed applications for Outlook 2013. It extends the [Outlook 2013 Developer Reference](/office/vba/api/overview/outlook) from the COM environment to the managed environment and focuses on how to use the PIA. It includes all the additions and changes to the object model in Outlook 2013, and provides many code samples in C\# and Visual Basic to show how to perform common tasks in Outlook.
 
 If you are new to developing solutions for Outlook, see [Selecting an API or technology for developing solutions for Outlook](../selecting-an-api-or-technology-for-developing-solutions-for-outlook.md) to identify the APIs and technologies that are most appropriate for your needs.
 
@@ -30,9 +30,9 @@ If you are just beginning to write add-ins for Outlook, you should first refer t
 
 If you have a basic understanding of the Outlook object model and are learning to develop managed Outlook add-ins, see [Setting up to use the Outlook PIA](setting-up-to-use-the-outlook-pia.md). 
 
-For information about developing managed Office solutions by using Office Developer Tools for Visual Studio 2013, see [Office Development in Visual Studio](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio). 
+For information about developing managed Office solutions by using Office Developer Tools for Visual Studio 2013, see [Office Development in Visual Studio](/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio). 
 
-For information about how to program some basic Outlook tasks in both Visual Basic and C\#, see [Outlook solutions](https://docs.microsoft.com/visualstudio/vsto/outlook-solutions). 
+For information about how to program some basic Outlook tasks in both Visual Basic and C\#, see [Outlook solutions](/visualstudio/vsto/outlook-solutions). 
 
 For more advanced code examples, see [How do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md) in this reference.
 
@@ -49,12 +49,12 @@ If you use Office Developer Tools for Visual Studio 2013 and you are connected t
 - [Architecture of the Outlook PIA](architecture-of-the-outlook-pia.md)
 - [Developing managed Outlook add-ins using the Outlook PIA](developing-managed-outlook-add-ins-using-the-outlook-pia.md)
 - [How do I... (Outlook 2013 PIA Reference)](how-do-i-outlook-2013-pia-reference.md)
-- [Class library](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook)
+- [Class library](/dotnet/api/microsoft.office.interop.outlook)
 
 ## See also
 
 - [Outlook Developer Center](../outlook-home.md)
 - [COM and .NET Interoperability](https://www.apress.com/us/book/9781590590119)
-- [Office Development in Visual Studio](https://docs.microsoft.com/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio)
+- [Office Development in Visual Studio](/visualstudio/vsto/office-and-sharepoint-development-in-visual-studio)
 - [Accessibility in Microsoft Products](https://www.microsoft.com/accessibility/)
 
