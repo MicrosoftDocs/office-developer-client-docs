@@ -64,7 +64,7 @@ Customization of the code in ASPX pages, or customization of Project Web App mas
 
 Because Project Web App is a SharePoint application, and project sites are SharePoint sites, you can add custom apps, Web Parts, event handlers, custom fields, and other features by using SharePoint packages (.wsp files) or SharePoint apps (.spapp files). A SharePoint package or an app package can include multiple Project Server entities, where entity definitions are specified in an elements.xml file within the package.
   
-For Project Online, you can add buttons to the Project Web App ribbon, but you can't remove or rename existing product buttons, and you can't create new ribbon tabs. For more information, see [Create custom actions to deploy with apps for SharePoint](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins).
+For Project Online, you can add buttons to the Project Web App ribbon, but you can't remove or rename existing product buttons, and you can't create new ribbon tabs. For more information, see [Create custom actions to deploy with apps for SharePoint](/sharepoint/dev/sp-add-ins/create-custom-actions-to-deploy-with-sharepoint-add-ins).
   
 > [!CAUTION]
 > When you install a SharePoint package or an app package, the types of Project Server entities must appear in the order that the PSEntityProvision.xsd schema specifies or schema validation of the package fails and installation is not completed.
@@ -102,7 +102,7 @@ When you upgrade an application that was developed for a previous version of Pro
 > [!NOTE]
 > If the CSOM includes the functionality you require, we recommend that you upgrade applications to use the CSOM. The CSOM enables applications to be used for both on-premises and online installations of Project Server 2013.
   
-If your application primarily reads data from Project Server, you can use the reporting tables and views in the Project Server database for an on-premises scenario. If you intend to use the application with Project Online, you can use the OData protocol for the **ProjectData** service, which provides both on-premises and online access to the reporting data. For more information, see [ProjectData - Project OData service reference](https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15))
+If your application primarily reads data from Project Server, you can use the reporting tables and views in the Project Server database for an on-premises scenario. If you intend to use the application with Project Online, you can use the OData protocol for the **ProjectData** service, which provides both on-premises and online access to the reporting data. For more information, see [ProjectData - Project OData service reference](/previous-versions/office/project-odata/jj163015(v=office.15))
   
 ### Using the PSI
 
@@ -133,7 +133,7 @@ The CSOM can be used by copying the following resources to your local developmen
   
 - For .NET Framework 4 development, copy the `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\ISAPI\Microsoft.ProjectServer.Client.dll` assembly.
 
-  For documentation of the CSOM classes and members, see the [Microsoft.ProjectServer.Client](https://docs.microsoft.com/previous-versions/office/dn529530(v=office.15)) namespace. For an example application, see [Getting started with the CSOM and .NET](getting-started-with-the-project-server-csom-and-net.md).
+  For documentation of the CSOM classes and members, see the [Microsoft.ProjectServer.Client](/previous-versions/office/dn529530(v=office.15)) namespace. For an example application, see [Getting started with the CSOM and .NET](getting-started-with-the-project-server-csom-and-net.md).
 
 - For Microsoft Silverlight development, copy the `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\ClientBin\Microsoft.ProjectServer.Client.Silverlight.dll` assembly.
 
@@ -168,7 +168,7 @@ The PSI in Project Server 2013 is a superset of the PSI object model in Office P
 
 - Use the CSOM for applications that are available as apps in the Office Store or a private app catalog.
 
-- For applications that modify project scheduling, use the CSOM, or change the application to use the [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) PSI method.
+- For applications that modify project scheduling, use the CSOM, or change the application to use the [QueueUpdateProject2](/previous-versions/office/project-class/jj236245(v=office.15)) PSI method.
 
 - Local or web applications that log on users to different instances of Project Web App should use programmatic settings for WCF endpoints of the CSOM or the PSI. The methods are deprecated. Apps should use OAuth authentication in place of Forms authentication and for use with Project Online. For more information, see [Authorization and authentication for apps in SharePoint 2013](/sharepoint/dev/sp-add-ins/authorization-and-authentication-of-sharepoint-add-ins).
 
@@ -209,7 +209,7 @@ When you migrate a solution to Project Server 2013, or if a solution does not wo
   
 - If you change from using the ASMX interface of the PSI to the WCF interface, you can initialize the client classes either programmatically or by using WCF endpoints in app.config. Use programmatic initialization when you have to quickly switch to different instances of Project Web App, or when you are developing a web part that uses the PSI.
 
-- There are several new methods and datasets in the PSI services in Project Server 2013 and some **DataRow** classes contain new properties. For example, the [QueueUpdateProject2](https://docs.microsoft.com/previous-versions/office/project-class/jj236245(v=office.15)) method in the PSI uses the Project Server scheduling engine to reschedule an updated project without you having to open the project in Project Professional 2013, and also allows adding or deleting project entities in the same call.
+- There are several new methods and datasets in the PSI services in Project Server 2013 and some **DataRow** classes contain new properties. For example, the [QueueUpdateProject2](/previous-versions/office/project-class/jj236245(v=office.15)) method in the PSI uses the Project Server scheduling engine to reschedule an updated project without you having to open the project in Project Professional 2013, and also allows adding or deleting project entities in the same call.
 
 - Compile and test the solution.
 

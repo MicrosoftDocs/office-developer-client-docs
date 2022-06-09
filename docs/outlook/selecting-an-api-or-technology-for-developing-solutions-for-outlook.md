@@ -290,7 +290,7 @@ In general, use the object model or the PIA if your solution customizes the Outl
 
 ### Scenarios supported by the object model or PIA since Outlook 2007
 
-In addition to the baseline scenarios, if your Outlook solution supports any of the scenarios shown in the following list, and your solution is intended to run on Outlook 2007 or a later version but not earlier versions, you can use the object model or the PIA as well. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md&preserve-view=true) interface in the Visual Studio automation object model, and the [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility) interface in the Office object model, which you can integrate with the Outlook object model). 
+In addition to the baseline scenarios, if your Outlook solution supports any of the scenarios shown in the following list, and your solution is intended to run on Outlook 2007 or a later version but not earlier versions, you can use the object model or the PIA as well. This section specifies the main objects or members that you can use in the Outlook object model to extend each scenario (with the exception of the [IDTExtensibility2](/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017.md&preserve-view=true) interface in the Visual Studio automation object model, and the [IRibbonExtensibility](/office/vba/api/Office.IRibbonExtensibility) interface in the Office object model, which you can integrate with the Outlook object model).
 
 - [Customize the Outlook UI: Office Fluent Ribbon, Navigation pane, Task pane](#OLSelectAPI_CustomizeTheOutlookInterface)
 - [Customize forms as form regions and deploy them by add-ins](#OLSelectAPI_CustomFormRegions)
@@ -485,7 +485,7 @@ Once you have decided on the APIs or technologies to use in your solution, you c
 
 [Office Add-ins platform overview](/office/dev/add-ins/overview/office-add-ins) provides a good introduction of Office Add-ins, including the architecture and development life cycle. 
   
-See [Outlook add-ins](/outlook/add-ins/) for a detailed roadmap of resources about developing mail apps. 
+See [Outlook add-ins](/office/dev/add-ins/outlook/outlook-add-ins-overview) for a detailed roadmap of resources about developing mail apps. 
   
 ## See also: Object model and PIA
 
@@ -904,8 +904,8 @@ The following resources provide more information about the primary Outlook refer
 
 - [Office Add-ins](/office/dev/add-ins/overview/office-add-ins)   
 - [Outlook 2013 developer reference](/office/vba/api/overview/outlook)   
-- [Outlook 2010 Primary Interop Assembly Reference](/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference)   
-- [Outlook MAPI Reference](/office/client-developer/outlook/mapi/outlook-mapi-reference)   
+- [Outlook 2010 Primary Interop Assembly Reference](./pia/welcome-to-the-outlook-primary-interop-assembly-reference.md)   
+- [Outlook MAPI Reference](./mapi/outlook-mapi-reference.md)   
 - [Outlook 2013 Auxiliary Reference](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
 - [Outlook Social Connector provider reference](social-connector/outlook-social-connector-provider-reference.md)   
 - [Extending the Weather Bar in Outlook](weather/extending-the-weather-bar-in-outlook.md)   
@@ -919,6 +919,6 @@ The following resources provide more information about the primary Outlook refer
 
 - [Mail apps samples](https://developer.microsoft.com/outlook/gallery/?filterBy=Outlook,Samples)   
 - Object model code samples: [How Do I ... in Outlook](/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference)  
-- PIA code samples: [How Do I... (Outlook Reference)](/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference)  
-- [MAPI Samples](/office/client-developer/outlook/mapi/mapi-samples)
+- PIA code samples: [How Do I... (Outlook Reference)](./pia/how-do-i-outlook-2013-pia-reference.md)  
+- [MAPI Samples](./mapi/mapi-samples.md)
 - Auxiliary API code samples: [Sample tasks](auxiliary/sample-tasks.md)

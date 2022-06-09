@@ -32,7 +32,7 @@ const WORD  TZDEFINITION_FLAG_VALID_KEYNAME = 0x0002;
    
 ## Miscellaneous dispatch identifiers
 
-Outlook exposes the following dispatch identifiers (dispids) so that developers can use [IDispatch::Invoke](/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke) to access the corresponding property or method, or listen to the corresponding event. 
+Outlook exposes the following dispatch identifiers (dispids) so that developers can use [IDispatch::Invoke](/windows/win32/api/oaidl/nf-oaidl-idispatch-invoke) to access the corresponding property or method, or listen to the corresponding event.
   
 |**Associated constant**|**Dispid value**|**Description**|**Applicable interface**|
 |:-----|:-----|:-----|:-----|

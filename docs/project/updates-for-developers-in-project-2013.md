@@ -19,7 +19,7 @@ The Project Server databases are combined into a single database; you can access
 For diagrams and more information about major changes in Project Server 2013, see [Project Server 2013 architecture](project-server-2013-architecture.md).
   
 > [!NOTE]
-> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins), [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins), and [SharePoint 2013 development overview](https://msdn.microsoft.com/library/jj164084%28office.15%29.aspx).
+> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins), [Office Add-ins](/office/dev/add-ins/overview/office-add-ins), and [SharePoint 2013 development overview](https://msdn.microsoft.com/library/jj164084%28office.15%29.aspx).
   
 ## Major new features in Project 2013
 
@@ -75,7 +75,7 @@ In Office Developer Tools for Visual Studio 2012, the AppManifext.xml file has a
 > [!NOTE]
 > Project Server 2013 and Project Online do not use the app-only authentication model in SharePoint 2013 (see [Add-in authorization policy types in SharePoint 2013](https://msdn.microsoft.com/library/124879c7-a746-4c10-96a7-da76ad5327f0%28Office.15%29.aspx)).
   
-For information about developing, distributing, hosting, and managing add-ins, see [SharePoint Add-ins](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins), and related topics in the SharePoint Server 2013 and Office 2013 developer documentation. For information about permission request scope for other SharePoint Add-ins, see [Add-in permissions in SharePoint 2013](https://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx).
+For information about developing, distributing, hosting, and managing add-ins, see [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Office Add-ins](/office/dev/add-ins/overview/office-add-ins), and related topics in the SharePoint Server 2013 and Office 2013 developer documentation. For information about permission request scope for other SharePoint Add-ins, see [Add-in permissions in SharePoint 2013](https://msdn.microsoft.com/library/5f7a8440-3c09-4cf8-83ec-c236bfa2d6c4%28Office.15%29.aspx).
   
 ### Integrating with SharePoint Server
 
@@ -231,7 +231,7 @@ For general information about events, see [Handling events in apps for SharePoin
   
 Deprecated features are still available in Project 2013 for some solutions, but should not be used for new development. Most of the following features and practices do not work with Project Online, or with the default on-premises installation of Project Server 2013 in SharePoint permission mode. Existing solutions that use these features may not work for an upgrade of Project Server 2010 to Project Server 2013. Although solutions that use deprecated features may continue to work in some cases, they are not fully supported for all Project 2013 installations.
   
-If your solutions use deprecated features, they should be tested thoroughly before deployment, and you should modify them to use supported features as soon as is practical. For information about configuring on-premises Project Server 2013 security for Project permission mode, see the _SharePoint Permission Mode_ section in [What's new for IT pros in Project Server 2013](https://docs.microsoft.com/project/what-s-new-for-it-pros-in-project-server-2016).
+If your solutions use deprecated features, they should be tested thoroughly before deployment, and you should modify them to use supported features as soon as is practical. For information about configuring on-premises Project Server 2013 security for Project permission mode, see the _SharePoint Permission Mode_ section in [What's new for IT pros in Project Server 2013](/project/what-s-new-for-it-pros-in-project-server-2016).
   
 - **Extensions** [PSI extension scenarios](/previous-versions/office/developer/office-2010/ff843378(v=office.14)) are deprecated, and will not be supported in future releases. These on-premises Project Server 2013 scenarios enabled integration by using custom Windows Communication Foundation (WCF) services.
   
