@@ -20,7 +20,7 @@ With such a proliferation of Office solutions, upgrading versions of Office can 
   
 The Telemetry Log for Office 2013, a tool built upon Excel 2013, helps developers and experienced users diagnose compatibility issues by displaying events that occur within select Office 2013 applications. Using this tool, users can determine potential issues with add-ins that they use in their work environment, giving enterprise decision-makers the information that they need to decide whether to upgrade to Office 2013. The Telemetry Log also gives detailed feedback about specific changes or deprecations in the object models for the Office 2013 applications, which helps developers quickly identify and refactor problematic code or controls. IT professionals can view trends in solution health across multiple clients by using the Telemetry Dashboard for Office 2013, a companion tool to the Telemetry Log.
   
-For more information, see [Deploy Office Telemetry Dashboard](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard).
+For more information, see [Deploy Office Telemetry Dashboard](/DeployOffice/compat/deploy-telemetry-dashboard).
   
 ## How the Telemetry Log works
 
