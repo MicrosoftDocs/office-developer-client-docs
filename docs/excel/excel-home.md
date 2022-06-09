@@ -14,7 +14,7 @@ adobe-target: true
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Excel.
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Excel add-ins model](/office/dev/add-ins/excel/excel-add-ins-overview). 
+> Interested in developing solutions that extend the Office experience across [multiple platforms](/javascript/api/requirement-sets)? Check out the new [Excel add-ins model](/office/dev/add-ins/excel/excel-add-ins-overview).
   
 ### Viewed most
   
@@ -23,7 +23,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Office Add-ins
   
-- [Get started with Excel add-ins](/office/dev/add-ins/excel/excel-add-ins-get-started-overview)  
+- [Get started with Excel add-ins](/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
 - [Platform overview](/office/dev/add-ins/overview/office-add-ins)
 - [JavaScript custom functions](/office/dev/add-ins/excel/custom-functions-overview)
   

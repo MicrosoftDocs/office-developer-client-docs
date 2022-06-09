@@ -17,7 +17,7 @@ ms.localizationpriority: high
 
 **Applies to**: Access 2013, Office 2013
 
-Creates a delete query that removes records from one or more of the tables listed in the [FROM](/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) clause that satisfy the [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) clause.
+Creates a delete query that removes records from one or more of the tables listed in the [FROM](/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) clause that satisfy the [WHERE](/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) clause.
 
 ## Syntax
 

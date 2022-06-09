@@ -26,7 +26,7 @@
      - name: Office shared
        items:
        - name: Overview
-         href: shared/office-shared.md        
+         href: shared/office-shared.md
        - name: Handle high DPI and DPI scaling in your Office solution
          href: ddpi/handle-high-dpi-and-dpi-scaling-in-your-office-solution.md
        - name: Compatibility between the 32-bit and 64-bit versions of Office
@@ -44,13 +44,13 @@
          - name: Compatibility issues in Office
            href: shared/compatibility-issues-in-office.md
        - name: Office VBA object library reference
-         href: https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference
+         href: /office/vba/Library-Reference/Concepts/office-vba-object-library-reference
        - name: Office VBA language reference
-         href: https://docs.microsoft.com/office/vba/api/overview/language-reference
+         href: /office/vba/api/overview/language-reference
        - name: Office Primary Interop Assembly reference
-         href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
+         href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
        - name: Open XML SDK 2.5
-         href: https://docs.microsoft.com/office/open-xml/open-xml-sdk
+         href: /office/open-xml/open-xml-sdk
        - name: Using CSISyncClient to control the ODC
          href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
      - name: Access
@@ -58,7 +58,7 @@
         - name: Overview
           href: access/access-home.md
         - name: Access VBA reference
-          href: https://docs.microsoft.com/office/vba/api/overview/access
+          href: /office/vba/api/overview/access
         - name: Access custom web app reference
           items:
           - name: Overview
@@ -4014,7 +4014,7 @@
         - name: Excel VBA reference
           href: /office/vba/api/overview/excel
         - name: Excel Primary Interop Assembly reference
-          href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
+          href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
         - name: Excel XLL SDK
           items:
           - name: Overview
@@ -4498,7 +4498,7 @@
                   - name: Automating InfoPath from an external application
                     href: infopath/external-automation/automating-infopath-from-an-external-application.md
                 - name: Class library reference for InfoPath external automation
-                  href: https://docs.microsoft.com/previous-versions/office/project-class/ee767707(v=office.15)          
+                  href: /previous-versions/office/project-class/ee767707(v=office.15)
      - name: OneNote
        items:
        - name: Overview
@@ -4524,7 +4524,7 @@
           - name: Selecting an API or technology for developing solutions for Outlook
             href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
           - name: Outlook VBA reference
-            href: https://docs.microsoft.com/office/vba/api/overview/outlook
+            href: /office/vba/api/overview/outlook
           - name: Outlook Primary Interop Assembly reference
             items:
             - name: Overview
@@ -4884,7 +4884,7 @@
               - name: Overview
                 href: outlook/pia/outlook-2013-interop-assembly-class-library.md              
               - name: Microsoft.Office.Interop.Outlook Namespace
-                href: https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
+                href: /dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
           - name: Outlook Social Connector provider reference
             items:
             - name: Overview
@@ -10480,9 +10480,9 @@
                      - name: Project Server error codes
                        href: project/project-server-error-codes.md
                      - name: ProjectData - OData service reference
-                       href: https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)
+                       href: /previous-versions/office/project-odata/jj163015(v=office.15)
                  - name: Class library and web service reference
-                   href: https://docs.microsoft.com/previous-versions/office/project-class/ee767707(v=office.15)
+                   href: /previous-versions/office/project-class/ee767707(v=office.15)
                  - name: JavaScript API reference
                    href: /previous-versions/office/project-javascript-api/jj712612(v=office.15)
      - name: Publisher
