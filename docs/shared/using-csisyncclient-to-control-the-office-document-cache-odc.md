@@ -200,7 +200,7 @@ Identifies the consumer and which cache to use. Must be non-empty with a maximum
   
  _bstrProgID_
   
-Identifies the consumer's COM object for two-way communication. Must be non-empty with a maximum of 39 characters. See [\<ProgID\> Key](https://docs.microsoft.com/windows/desktop/com/-progid--key) for more information about ProgIDs.
+Identifies the consumer's COM object for two-way communication. Must be non-empty with a maximum of 39 characters. See [\<ProgID\> Key](/windows/win32/com/-progid--key) for more information about ProgIDs.
   
  _bstrFileSystemDirectoryHint_
   

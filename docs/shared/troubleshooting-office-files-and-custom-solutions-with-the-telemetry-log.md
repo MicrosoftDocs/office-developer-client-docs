@@ -20,7 +20,7 @@ With such a proliferation of Office solutions, upgrading versions of Office can 
   
 The Telemetry Log for Office 2013, a tool built upon Excel 2013, helps developers and experienced users diagnose compatibility issues by displaying events that occur within select Office 2013 applications. Using this tool, users can determine potential issues with add-ins that they use in their work environment, giving enterprise decision-makers the information that they need to decide whether to upgrade to Office 2013. The Telemetry Log also gives detailed feedback about specific changes or deprecations in the object models for the Office 2013 applications, which helps developers quickly identify and refactor problematic code or controls. IT professionals can view trends in solution health across multiple clients by using the Telemetry Dashboard for Office 2013, a companion tool to the Telemetry Log.
   
-For more information, see [Deploy Office Telemetry Dashboard](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard).
+For more information, see [Deploy Office Telemetry Dashboard](/DeployOffice/compat/deploy-telemetry-dashboard).
   
 ## How the Telemetry Log works
 
@@ -144,7 +144,7 @@ Use the following table (Table 2) to interpret the records that are displayed in
 |19  <br/> |Add-in encountered runtime error  <br/> |Critical  <br/> |The Office Add-in had a problem that caused it to fail. For more details, look at the Microsoft Office Alerts log using the Windows Event Viewer on the computer that encountered the error. |
 |20  <br/> |Add-in failed to verify licensing  <br/> |Critical  <br/> |The licensing information for the Office Add-in could not be verified and may have expired. For more details, look at the Microsoft Office Alerts log using the Windows Event Viewer on the computer that encountered the error. |
 |21 <br/>|Macro encountered a compile error <br/>|Warning <br/>| The file contains a macro that failed to compile and couldn't be run. For more details, review the error message presented when attempting to compile the macro from the macro editor.<br/>|
-|22 <br/>|Macro encountered a runtime error<br/>| Warning <br/>| The file contains a macro that encountered a runtime error. For more details, review the error message presented when attempting to execute the macro from the macro editor and see the [Visual Basic for Applications Trappable Errors Reference](https://docs.microsoft.com/previous-versions/visualstudio/visual-basic-6/aa264975(v=vs.60)).<br/>|
+|22 <br/>|Macro encountered a runtime error<br/>| Warning <br/>| The file contains a macro that encountered a runtime error. For more details, review the error message presented when attempting to execute the macro from the macro editor and see the [Visual Basic for Applications Trappable Errors Reference](/previous-versions/visualstudio/visual-basic-6/aa264975(v=vs.60)).<br/>|
 |Various  <br/> |"OM Behavior Change: ..."  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that behaves differently from previous versions of Office.<br/><br/> For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md). |
 |Various  <br/> |"OM Removed: …"  <br/> |Critical  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the object model.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md). |
 |Various  <br/> |"OM Hidden: …"  <br/> |Informative  <br/> |The add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been hidden in the object model.<br/><br/>For more information, see [Compatibility issues in Office](compatibility-issues-in-office.md). |
@@ -162,4 +162,4 @@ The Telemetry Log provides large enterprises, individual users, and developers w
 
 - [Office Developer Center](https://developer.microsoft.com/office)
 - [Compatibility issues in Office](compatibility-issues-in-office.md)
-- [Deploy Office Telemetry Dashboard](https://docs.microsoft.com/DeployOffice/compat/deploy-telemetry-dashboard)
+- [Deploy Office Telemetry Dashboard](/DeployOffice/compat/deploy-telemetry-dashboard)
