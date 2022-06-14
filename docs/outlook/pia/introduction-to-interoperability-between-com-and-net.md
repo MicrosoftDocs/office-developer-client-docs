@@ -13,9 +13,9 @@ ms.localizationpriority: medium
 
 The Component Object Model (COM) and .NET development have vastly different type systems and mechanisms for object lifetime management, interface creation, and interface inheritance. 
 
-For example, a **Variant** type in COM is a **System.Object** data type in the .NET Framework. To create an object, a COM client calls [CoCreateInstance](https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance), whereas a managed client can use keywords such as new or New that are built in to a managed programming language. 
+For example, a **Variant** type in COM is a **System.Object** data type in the .NET Framework. To create an object, a COM client calls [CoCreateInstance](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance), whereas a managed client can use keywords such as new or New that are built in to a managed programming language. 
 
-While COM does not support classical inheritance and a COM client manages an internal reference count provided by [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) to free a coclass, a managed client relies on the common language runtime (CLR) garbage collector provided by the .NET Framework to free an object. 
+While COM does not support classical inheritance and a COM client manages an internal reference count provided by [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) to free a coclass, a managed client relies on the common language runtime (CLR) garbage collector provided by the .NET Framework to free an object. 
 
 Given such differences between COM and .NET development, developing a managed client on a COM object model requires a mechanism that resolves these differences. The Runtime Callable Wrapper (RCW) is a mechanism that promotes transparent communication between COM and the managed programming model.
 
@@ -58,4 +58,3 @@ Figure 2 illustrates an RCW intercepting an API call from a managed client at ru
 
 - [Why use the Outlook PIA](why-use-the-outlook-pia.md)
 - [Installing and referencing the Outlook PIA](installing-and-referencing-the-outlook-pia.md)
-
