@@ -15,7 +15,7 @@ This section contains procedural tasks topics and code examples in Visual Basic 
 
 To run these code examples, you must have installed Outlook 2010 and Visual Studio 2008, or a later version of these products.
 
-The code examples in this section do not require that you have installed Office Developer Tools for Visual Studio. However, you can refer to the [Getting started with Office development](https://developer.microsoft.com/office/docs) portal for information about using the tools, and refer to [Outlook solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/outlook-solutions?view=vs-2017) for some basic how-to tasks written in managed code.
+The code examples in this section do not require that you have installed Office Developer Tools for Visual Studio. However, you can refer to the [Getting started with Office development](https://developer.microsoft.com/office/docs) portal for information about using the tools, and refer to [Outlook solutions](/visualstudio/vsto/outlook-solutions) for some basic how-to tasks written in managed code.
 
 Code examples in this section range from the beginner to the intermediate levels, and some of them are adapted from the book [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=utf8%26tag=msmsdn-20%26linkcode=as2%26camp=1789%26creative=9325%26creativeasin=0735622493).
 
@@ -202,3 +202,6 @@ The Office Developer Documentation team welcomes your task ideas and code sample
 - [Create a view](how-to-create-a-view.md)
 - [Add fields to a view](how-to-add-fields-to-a-view.md)
 - [Enumerate items in a table view](how-to-enumerate-items-in-a-table-view.md)
+
+
+
