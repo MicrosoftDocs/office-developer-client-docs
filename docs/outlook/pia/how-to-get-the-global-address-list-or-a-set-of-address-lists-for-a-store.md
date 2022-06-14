@@ -81,10 +81,9 @@ public Outlook.AddressList GetGlobalAddressList(Outlook.Store store)
 }
 ```
 
-The second code example contains the EnumerateAddressListsForStore method and GetAddressLists function. The EnumerateAddressListsForStore method displays the type and resolution order of each address list defined for the current store. EnumerateAddressListsForStore first obtains the current store, and then calls GetAddressLists to obtain a .NET Framework generic [List\<T\>](/dotnet/api/system.collections.generic.list-1) object that contains AddressList objects for the current store.
+The second code example contains the EnumerateAddressListsForStore method and GetAddressLists function. The EnumerateAddressListsForStore method displays the type and resolution order of each address list defined for the current store. EnumerateAddressListsForStore first obtains the current store, and then calls GetAddressLists to obtain a .NET Framework generic [List\<T\>](/dotnet/api/system.collections.generic.list-1) object that contains AddressList objects for the current store. 
 
 GetAddressLists enumerates each address list defined for the session, uses the PropertyAccessor object and the MAPI named property `https://schemas.microsoft.com/mapi/proptag/0x3D150102` to obtain the PR\_EMSMDB\_SECTION\_UID property of an address list, and the PR\_EMSMDB\_SECTION\_UID property of a current store. GetGlobalAddressList identifies an address list as associated with a store if their PR\_EMSMDB\_SECTION\_UID properties match, and returns a set of address lists for the current store. EnumerateAddressListsForStore then uses the [AddressListType](/dotnet/api/microsoft.office.interop.outlook.addresslist.addresslisttype) and [ResolutionOrder](/dotnet/api/microsoft.office.interop.outlook.addresslist.resolutionorder) properties of the **AddressList** object to display the type and resolution order for each returned address list.
-
 
 ```csharp
 private void EnumerateAddressListsForStore()

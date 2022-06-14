@@ -1,7 +1,6 @@
 ---
 title: "UlRelease"
- 
- 
+description: Outlines UlRelease, including how it provides an alternative way to invoke the OLE method IUnknown::Release. 
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +12,6 @@ api_name:
 api_type:
 - COM
 ms.assetid: 95db96ef-f95f-41da-b216-f717c23bffd2
-description: "Last modified: March 09, 2015"
 ---
 
 # UlRelease

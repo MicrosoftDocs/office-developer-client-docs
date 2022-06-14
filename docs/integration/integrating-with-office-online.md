@@ -14,6 +14,6 @@ description: "This content is no longer available at this location. To continue,
 
 # Integrating with Office Online
 
-This content is no longer available at this location. To continue, see [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/) on GitHub. 
+This content is no longer available at this location. To continue, see [Integrating with Office Online](/microsoft-365/cloud-storage-partner-program/online/overview). 
   
 

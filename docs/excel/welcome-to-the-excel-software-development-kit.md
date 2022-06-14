@@ -54,7 +54,7 @@ The following subjects are not covered:
 
 [Excel Developer Center](https://msdn.microsoft.com/office/aa905411.aspx)
   
-[Microsoft Office Developer Center](https://msdn.microsoft.com/office/default.aspx)
+[Microsoft Office Developer Center](/office/developer-program/microsoft-365-developer-program)
   
 [Excel 2010 SDK: Excel 2010 XLL Software Development Kit](https://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
   
