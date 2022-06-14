@@ -25,5 +25,4 @@ If you are viewing the content on docs.microsoft.com, you can use the table of c
 
 ## See also
 
-- [Access VBA reference](https://docs.microsoft.com/office/vba/api/overview/access)
-
+- [Access VBA reference](/office/vba/api/overview/access)

@@ -20,7 +20,7 @@ In an Access app on SharePoint Server, when you create a table, a query, or a da
 
 With Office 365 and Access, you can build applications that reach your users without having to worry about deployment challenges, software installation issues, or operating system compatibilities. Build your app in one location and share it across the web with the power of SQL Azure and SQL Server.
 
-[SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview), the cloud version of SQL Server, does not support features that Access Data Projects (ADPs) rely on to operate. To support ADPs on SQL Azure, Access would require significant changes.
+[SQL Azure](/azure/azure-sql/database/sql-database-paas-overview), the cloud version of SQL Server, does not support features that Access Data Projects (ADPs) rely on to operate. To support ADPs on SQL Azure, Access would require significant changes.
 
 For these reasons, Access does not support ADPs. ADPs have been a great tool for working with SQL Server in an on-premises environment; however, much has changed since ADPs were introduced in Access 2000. Users now expect their database to be available wherever they are.
 
@@ -44,6 +44,4 @@ Access is designed to connect databases with the cloud by building on SharePoint
 
 ## See also
 
-- [New in Access 2013 for developers](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)
-
-
+- [New in Access 2013 for developers](/office/vba/access/concepts/miscellaneous/new-in-access-for-developers)

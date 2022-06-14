@@ -179,7 +179,7 @@ This example creates a new table called `~~Kitsch'n Sync` that demonstrates all 
                 & ",[Double]                FLOAT" _
                 & ",[Decimal]               DECIMAL(18,5)" _
                 & ",[Currency]              MONEY" _
-                & ",[ShortText]             CHAR" _
+                & ",[ShortText]             VARCHAR" _
                 & ",[LongText]              MEMO" _
                 & ",[PlaceHolder1]          MEMO" _
                 & ",[DateTime]              DATETIME" _

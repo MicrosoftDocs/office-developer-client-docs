@@ -13,7 +13,7 @@ ms.localizationpriority: medium
 
 **Applies to**: Access 2013, Office 2013
 
-Unless you are programming in Visual Basic, all event handlers for **Connection** and **Recordset** events must be implemented, regardless of whether you actually process all of the events. The amount of implementation work you have to do depends on your programming language. For more information, see [ADO Event Instantiation by Language](https://docs.microsoft.com/office/client-developer/access/desktop-database-reference/ado-event-instantiation-by-language-ado).
+Unless you are programming in Visual Basic, all event handlers for **Connection** and **Recordset** events must be implemented, regardless of whether you actually process all of the events. The amount of implementation work you have to do depends on your programming language. For more information, see [ADO Event Instantiation by Language](./ado-event-instantiation-by-language-ado.md).
 
 ## Paired event handlers
 
@@ -43,5 +43,3 @@ The flexibility of a programming language like Microsoft Visual C++ enables you 
 
 > [!NOTE]
 > This technique cannot be used in Visual Basic because that language can correlate only one object to an event handler.
-
-

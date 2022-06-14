@@ -14,16 +14,16 @@ adobe-target: true
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Excel.
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability.md)? Check out the new [Excel add-ins model](/office/dev/add-ins/excel/excel-add-ins-overview.md). 
+> Interested in developing solutions that extend the Office experience across [multiple platforms](/javascript/api/requirement-sets)? Check out the new [Excel add-ins model](/office/dev/add-ins/excel/excel-add-ins-overview).
   
 ### Viewed most
   
 - [Excel VBA reference](/office/vba/api/overview/excel)  
-- [Excel 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ee658205(v=office.14))
+- [Excel 2010](/previous-versions/office/developer/office-2010/ee658205(v=office.14))
   
 ### Office Add-ins
   
-- [Get started with Excel add-ins](/office/dev/add-ins/excel/excel-add-ins-get-started-overview)  
+- [Get started with Excel add-ins](/office/dev/add-ins/quickstarts/excel-quickstart-jquery)
 - [Platform overview](/office/dev/add-ins/overview/office-add-ins)
 - [JavaScript custom functions](/office/dev/add-ins/excel/custom-functions-overview)
   
@@ -38,7 +38,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference)  
 - [Office VBA language reference](/office/vba/api/overview/language-reference)  
 - [Open XML SDK](/office/open-xml/open-xml-sdk)  
-- [VSTO Add-ins for Office](https://docs.microsoft.com/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
+- [VSTO Add-ins for Office](/previous-versions/visualstudio/visual-studio-2017/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017)
   
 ### Support
   

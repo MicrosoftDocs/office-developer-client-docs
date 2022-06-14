@@ -51,7 +51,7 @@ You can customize an IM client application so that it communicates with Office. 
 
 ![The People Card in Office 2013](media/ocom15_peoplecard.png "The People Card in Office 2013")
   
-To enable this integration with Office, an IM client application must implement a set of interfaces that Office provides to connect to it. The APIs for this integration are included in the [UCCollborationLib](https://docs.microsoft.com/previous-versions/office/communications/ff398475(v=ocs.14)) namespace that is contained in the Microsoft.Office.UC.dll file, which is installed with versions of Office 2013 that include Lync / Skype for Business. The **UCCollaborationLib** namespace includes the interfaces that you must implement to integrate with Office.
+To enable this integration with Office, an IM client application must implement a set of interfaces that Office provides to connect to it. The APIs for this integration are included in the [UCCollborationLib](/previous-versions/office/communications/ff398475(v=ocs.14)) namespace that is contained in the Microsoft.Office.UC.dll file, which is installed with versions of Office 2013 that include Lync / Skype for Business. The **UCCollaborationLib** namespace includes the interfaces that you must implement to integrate with Office.
   
 > [!IMPORTANT]
 > The type library for the required interfaces is embedded in Lync 2013/Skype for Business. For third-party integrators, this works only when both Lync 2013 and Skype for Business are installed on the target machine. If you are integrating using Office Standard, you need to extract the type library and install it on the target machine. The [Lync 2013 SDK](https://www.microsoft.com/download/details.aspx?id=36824) includes the Microsoft.Office.UC.dll file.

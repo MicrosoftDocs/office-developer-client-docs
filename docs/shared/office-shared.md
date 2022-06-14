@@ -13,33 +13,33 @@ ms.localizationpriority: high
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Office.
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins). 
+> Interested in developing solutions that extend the Office experience across [multiple platforms](/javascript/api/requirement-sets)? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).
   
 ### Viewed most
   
-- [Office VBA Object library reference](https://docs.microsoft.com/office/vba/api/overview/library-reference)
+- [Office VBA Object library reference](/office/vba/api/overview/library-reference)
   
-- [Office VBA language reference](https://docs.microsoft.com/office/vba/api/overview/language-reference)
+- [Office VBA language reference](/office/vba/api/overview/language-reference)
   
-- [Office 365 APIs reference](https://docs.microsoft.com/previous-versions/office/office-365-api/)
+- [Office 365 APIs reference](/previous-versions/office/office-365-api/)
   
-- [Office 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/cc313152(v=office.12))
+- [Office 2010](/previous-versions/office/developer/office-2010/cc313152(v=office.12))
   
 ### Office 365 APIs
   
 - [Get started](https://developer.microsoft.com/office/docs)
   
-- [Platform overview](https://docs.microsoft.com/previous-versions/office/office-365-api/)
+- [Platform overview](/previous-versions/office/office-365-api/)
   
 ### Office Add-ins
   
-- [Get started](https://docs.microsoft.com/office/dev/add-ins/)
+- [Get started](/office/dev/add-ins/)
 
-- [Platform overview](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)
+- [Platform overview](/office/dev/add-ins/overview/office-add-ins)
   
 ### SharePoint Add-ins
   
-- [Get started](https://docs.microsoft.com/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
+- [Get started](/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
   
 ### Code samples
   
@@ -56,5 +56,3 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Office forum on stack overflow](https://stackoverflow.com/questions/tagged/ms-office)
   
 - [Office 365 forum on stack overflow](https://stackoverflow.com/questions/tagged/office365)
-  
-
