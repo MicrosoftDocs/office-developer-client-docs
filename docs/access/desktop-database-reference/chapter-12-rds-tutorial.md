@@ -68,7 +68,7 @@ If you weren't using [RDSServer.DataFactory](datafactory-object-rdsserver.md) in
 
 2. Set the [Connect](connect-property-rds.md) property to specify the connect string to access the data source.
 
-3. Set the [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) property to specify the query command text. 
+3. Set the [SQL](/office/vba/access/concepts/miscellaneous/sql-property-ado) property to specify the query command text. 
 
 4. Issue the [Refresh](refresh-method-rds.md) method to cause the server program to connect to the data source, retrieve rows specified by the query, and return a **Recordset** object to the client.
 
@@ -354,7 +354,7 @@ End Sub
 
 ADO/WFC does not completely follow the RDS object model in that it does not implement the [RDS.DataControl](datacontrol-object-rds.md) object. ADO/WFC only implements the client-side class, [RDS.DataSpace](dataspace-object-rds.md).
 
-The **DataSpace** class implements one method, [CreateObject](createobject-method-rds.md), which returns an [ObjectProxy](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/objectproxy-ado-wfc-syntax) object. The **DataSpace** class also implements the [InternetTimeout](internettimeout-property-rds.md) property.
+The **DataSpace** class implements one method, [CreateObject](createobject-method-rds.md), which returns an [ObjectProxy](/office/vba/access/concepts/miscellaneous/objectproxy-ado-wfc-syntax) object. The **DataSpace** class also implements the [InternetTimeout](internettimeout-property-rds.md) property.
 
 The **ObjectProxy** class implements one method, call, which can invoke any server-side business object.
 
@@ -385,6 +385,3 @@ public class RDSTutorial
  } 
 } 
 ```
-
-
-

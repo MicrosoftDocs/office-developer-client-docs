@@ -15,11 +15,10 @@ ms.localizationpriority: high
 
 Using the SQL aggregate functions, you can determine various statistics on sets of values. You can use these functions in a query and aggregate expressions in the **SQL** property of a **QueryDef** object or when creating a **Recordset** object based on an SQL query.
 
-- [Avg function](https://docs.microsoft.com/office/vba/access/concepts/criteria-expressions/avg-function-microsoft-access-sql)
-- [Count function](https://docs.microsoft.com/office/vba/access/concepts/criteria-expressions/count-function-microsoft-access-sql)
-- [First, Last functions](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/first-last-functions-microsoft-access-sql)
-- [Min, Max functions](https://docs.microsoft.com/office/vba/access/concepts/criteria-expressions/min-max-functions-microsoft-access-sql)
-- [StDev, StDevP functions](https://docs.microsoft.com/office/vba/access/concepts/criteria-expressions/stdev-stdevp-functions-microsoft-access-sql)
-- [Sum function](https://docs.microsoft.com/office/vba/access/concepts/criteria-expressions/sum-function-microsoft-access-sql)
-- [Var, VarP functions](https://docs.microsoft.com/office/vba/access/concepts/criteria-expressions/var-varp-functions-microsoft-access-sql)
-
+- [Avg function](/office/vba/access/concepts/criteria-expressions/avg-function-microsoft-access-sql)
+- [Count function](/office/vba/access/concepts/criteria-expressions/count-function-microsoft-access-sql)
+- [First, Last functions](/office/vba/access/concepts/miscellaneous/first-last-functions-microsoft-access-sql)
+- [Min, Max functions](/office/vba/access/concepts/criteria-expressions/min-max-functions-microsoft-access-sql)
+- [StDev, StDevP functions](/office/vba/access/concepts/criteria-expressions/stdev-stdevp-functions-microsoft-access-sql)
+- [Sum function](/office/vba/access/concepts/criteria-expressions/sum-function-microsoft-access-sql)
+- [Var, VarP functions](/office/vba/access/concepts/criteria-expressions/var-varp-functions-microsoft-access-sql)

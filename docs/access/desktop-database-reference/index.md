@@ -21,4 +21,4 @@ ms.localizationpriority: high
 
 ## See also
 
-- [Object model (Access VBA reference)](https://docs.microsoft.com/office/vba/api/overview/Access/object-model)
+- [Object model (Access VBA reference)](/office/vba/api/overview/Access/object-model)

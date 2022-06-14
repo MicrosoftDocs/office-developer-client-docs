@@ -24,5 +24,5 @@ For information about using ADO with Visual C++, see the following sections:
 
 ## See also
 
-- [ADO for Visual C++ Syntax Index for COM](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
-- [ADO for Visual C++ Syntax Index with \#import](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)
+- [ADO for Visual C++ Syntax Index for COM](/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-for-com)
+- [ADO for Visual C++ Syntax Index with \#import](/office/vba/access/concepts/miscellaneous/ado-for-visual-c-plus-plus-syntax-index-with-import)

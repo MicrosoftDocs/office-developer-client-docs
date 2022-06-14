@@ -20,10 +20,8 @@ To implement RDS efficiently, be sure you are familiar with the various configur
 - [Enabling a DLL to run on DCOM](enabling-a-dll-to-run-on-dcom.md)
 - [Granting guest privileges to a web server computer](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 - [Marking business objects as safe for scripting](marking-business-objects-as-safe-for-scripting.md)
-- [Registering a custom business object](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object)
+- [Registering a custom business object](/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object)
 - [Registering business objects on the client for use with DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
 - [Securing RDS applications](securing-rds-applications.md)
 - [Setting DCOM stream marshaling format](setting-dcom-stream-marshaling-format.md)
 - [Specifying threads per processor on IIS](specifying-threads-per-processor-on-iis.md)
-
-

@@ -64,7 +64,7 @@ If the declaration includes more than one parameter, separate them with commas. 
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-You can use *name* but not *datatype* in a [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) or [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) clause. The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:
+You can use *name* but not *datatype* in a [WHERE](/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) or [HAVING](/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) clause. The following example expects two parameters to be provided and then applies the criteria to records in the Orders table:
 
 ```sql
 PARAMETERS [Low price] Currency, 

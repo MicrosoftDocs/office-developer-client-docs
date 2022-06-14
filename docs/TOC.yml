@@ -22,11 +22,11 @@
      - name: Office Online Server
        href: excel/configure-udfs-in-excel-online-in-office-online-server-preview.md
      - name: Office for Mac
-       href: https://docs.microsoft.com/office/vba/api/overview/office-mac
+       href: /office/vba/api/overview/office-mac
      - name: Office shared
        items:
        - name: Overview
-         href: shared/office-shared.md        
+         href: shared/office-shared.md
        - name: Handle high DPI and DPI scaling in your Office solution
          href: ddpi/handle-high-dpi-and-dpi-scaling-in-your-office-solution.md
        - name: Compatibility between the 32-bit and 64-bit versions of Office
@@ -44,13 +44,13 @@
          - name: Compatibility issues in Office
            href: shared/compatibility-issues-in-office.md
        - name: Office VBA object library reference
-         href: https://docs.microsoft.com/office/vba/Library-Reference/Concepts/office-vba-object-library-reference
+         href: /office/vba/Library-Reference/Concepts/office-vba-object-library-reference
        - name: Office VBA language reference
-         href: https://docs.microsoft.com/office/vba/api/overview/language-reference
+         href: /office/vba/api/overview/language-reference
        - name: Office Primary Interop Assembly reference
-         href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
+         href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
        - name: Open XML SDK 2.5
-         href: https://docs.microsoft.com/office/open-xml/open-xml-sdk
+         href: /office/open-xml/open-xml-sdk
        - name: Using CSISyncClient to control the ODC
          href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
      - name: Access
@@ -58,7 +58,7 @@
         - name: Overview
           href: access/access-home.md
         - name: Access VBA reference
-          href: https://docs.microsoft.com/office/vba/api/overview/access
+          href: /office/vba/api/overview/access
         - name: Access custom web app reference
           items:
           - name: Overview
@@ -4012,9 +4012,9 @@
         - name: Overview
           href: excel/excel-home.md      
         - name: Excel VBA reference
-          href: https://docs.microsoft.com/office/vba/api/overview/excel
+          href: /office/vba/api/overview/excel
         - name: Excel Primary Interop Assembly reference
-          href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
+          href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
         - name: Excel XLL SDK
           items:
           - name: Overview
@@ -4276,7 +4276,7 @@
               - name: ShowOptions
                 href: excel/showoptions.md 
         - name: Tips for optimizing performance obstructions (VBA)
-          href: https://docs.microsoft.com/office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
+          href: /office/vba/excel/concepts/excel-performance/excel-tips-for-optimizing-performance-obstructions
      - name: Infopath
        items:
             - name: Overview
@@ -4474,7 +4474,7 @@
                     - name: Troubleshooting form templates at design time
                       href: infopath/form-templates/troubleshoot-form-templates-that-use-infopath-object-model-at-design-time.md
                 - name: Class library reference for InfoPath form templates
-                  href: https://docs.microsoft.com/previous-versions/office/infopath-form/ee526341(v=office.15)
+                  href: /previous-versions/office/infopath-form/ee526341(v=office.15)
             - name: InfoPath developer reference for external automation
               items:
                 - name: Overview
@@ -4498,7 +4498,7 @@
                   - name: Automating InfoPath from an external application
                     href: infopath/external-automation/automating-infopath-from-an-external-application.md
                 - name: Class library reference for InfoPath external automation
-                  href: https://docs.microsoft.com/previous-versions/office/project-class/ee767707(v=office.15)          
+                  href: /previous-versions/office/project-class/ee767707(v=office.15)
      - name: OneNote
        items:
        - name: Overview
@@ -4524,7 +4524,7 @@
           - name: Selecting an API or technology for developing solutions for Outlook
             href: outlook/selecting-an-api-or-technology-for-developing-solutions-for-outlook.md
           - name: Outlook VBA reference
-            href: https://docs.microsoft.com/office/vba/api/overview/outlook
+            href: /office/vba/api/overview/outlook
           - name: Outlook Primary Interop Assembly reference
             items:
             - name: Overview
@@ -4884,7 +4884,7 @@
               - name: Overview
                 href: outlook/pia/outlook-2013-interop-assembly-class-library.md              
               - name: Microsoft.Office.Interop.Outlook Namespace
-                href: https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
+                href: /dotnet/api/microsoft.office.interop.outlook?view=outlook-pia
           - name: Outlook Social Connector provider reference
             items:
             - name: Overview
@@ -10402,13 +10402,13 @@
         - name: Overview
           href: powerpoint-home.md     
         - name: PowerPoint VBA reference
-          href: https://docs.microsoft.com/office/vba/api/overview/powerpoint
+          href: /office/vba/api/overview/powerpoint
      - name: Project
        items:
            - name: Overview
              href: project/project-home.md     
            - name: Project VBA reference
-             href: https://docs.microsoft.com/office/vba/api/overview/project
+             href: /office/vba/api/overview/project
            - name: Developer documentation
              items:
                  - name: Overview
@@ -10480,27 +10480,27 @@
                      - name: Project Server error codes
                        href: project/project-server-error-codes.md
                      - name: ProjectData - OData service reference
-                       href: https://docs.microsoft.com/previous-versions/office/project-odata/jj163015(v=office.15)
+                       href: /previous-versions/office/project-odata/jj163015(v=office.15)
                  - name: Class library and web service reference
-                   href: https://docs.microsoft.com/previous-versions/office/project-class/ee767707(v=office.15)
+                   href: /previous-versions/office/project-class/ee767707(v=office.15)
                  - name: JavaScript API reference
-                   href: https://docs.microsoft.com/previous-versions/office/project-javascript-api/jj712612(v=office.15)
+                   href: /previous-versions/office/project-javascript-api/jj712612(v=office.15)
      - name: Publisher
        items: 
         - name: Overview
           href: publisher-home.md   
         - name: Publisher VBA reference
-          href: https://docs.microsoft.com/office/vba/api/overview/publisher
+          href: /office/vba/api/overview/publisher
      - name: Visio
        items:
        - name: Overview
          href: visio/visio-home.md
        - name: Visio VBA reference
-         href: https://docs.microsoft.com/office/vba/api/overview/visio
+         href: /office/vba/api/overview/visio
        - name: Visio Save as Web reference (VBA)
-         href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-save-as-web-reference
+         href: /office/vba/api/overview/Visio/visio-save-as-web-reference
        - name: Visio Viewer reference (VBA)
-         href: https://docs.microsoft.com/office/vba/api/overview/Visio/visio-viewer-reference
+         href: /office/vba/api/overview/Visio/visio-viewer-reference
        - name: Visio ShapeSheet reference
          items:
          - name: Overview
@@ -12654,11 +12654,10 @@
           - name: Content controls in Word
             href: word/content-controls-in-word.md
           - name: Word VBA reference
-            href: https://docs.microsoft.com/office/vba/api/overview/word
+            href: /office/vba/api/overview/word
           - name: Word Primary Interop Assembly reference
-            href: https://docs.microsoft.com/visualstudio/vsto/office-primary-interop-assemblies?view=vs-2017
+            href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
      - name: Sway URI scheme
        href: swayuri.md
      - name: Office URI schemes
        href: office-uri-schemes.md
-
