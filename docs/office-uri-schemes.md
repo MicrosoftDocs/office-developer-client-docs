@@ -26,7 +26,7 @@ These URI schemes allow for office productivity applications to be invoked with 
   
 A URI as defined in this document may have one or more command arguments, each of which must include both the < *command-argument-descriptor* > and the < *command-argument* > elements and be delimited by the vertical bar ("|") character. When more than one command argument is included in a URI there must be a vertical bar ("|") character separating each command argument from the following command argument.
   
-These schemes do not include an authority component as defined in section 3.2 of RFC 3986. Invocation of the commands specified in this document takes place in the context of the system invoking the command. For example, when the URI "ms-excel:ofv|u|<https://contoso/Q4/budget.xls>" is invoked from a personal computer running Microsoft Windows with Microsoft Office 2013 installed the expected result is that the local installation of Microsoft Excel will be launched and passed arguments to open the file at *https://contoso/Q4/budget.xls* in read-only mode. Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
+These schemes do not include an authority component as defined in section 3.2 of RFC 3986. Invocation of the commands specified in this document takes place in the context of the system invoking the command. For example, when the URI "ms-excel:ofv|u|`<https://contoso/Q4/budget.xls>`" is invoked from a personal computer running Microsoft Windows with Microsoft Office 2013 installed the expected result is that the local installation of Microsoft Excel will be launched and passed arguments to open the file at *`https://contoso/Q4/budget.xls`* in read-only mode. Note that the vertical bar used as a delimiter in this specification is not among those characters identified in section 2.2 of RFC 3986 as reserved for potential use as delimiters. This is done intentionally to maximize the set of characters the URI command argument can support without a need to percent-encode those characters.
   
 The scheme syntax includes the following:
   
@@ -88,7 +88,7 @@ The following command will cause the application to open the document referenced
 
 > Command argument: a URI to the document, based on the http or https scheme
 
-> Example:  *ms-excel:ofv|u|<https://contoso/Q4/budget.xls>*
+> Example:  *ms-excel:ofv|u|`<https://contoso/Q4/budget.xls>`*
 
 ### Edit Document
 
@@ -116,7 +116,7 @@ The following command will cause the application to create and open a new docume
 
 > Optional Command argument 2: URI to specify the default save folder
 
-> Example:  *ms-word:nft|u|<https://cohowinery/templates/elegance.pot|s|https://cohowinery/presentations>*
+> Example:  *ms-word:nft|u|`<https://cohowinery/templates/elegance.pot|s|https://cohowinery/presentations>`*
 
 As a note, if the optional default save location is supplied, it must be pointing to the same host name as the template.
   

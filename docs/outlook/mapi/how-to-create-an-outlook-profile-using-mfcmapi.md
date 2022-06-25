@@ -18,7 +18,7 @@ For non-developers, it is recommended that you use the Outlook user interface to
   
 ## Configure an Outlook profile using MFCMAPI
 
-1. Open [MFCMAPI](https://mfcmapi.codeplex.com/), and on the **Profile** menu, click **Show Profiles**.
+1. Open [MFCMAPI](https://www.howto-outlook.com/downloads/mfcmapi.htm), and on the **Profile** menu, click **Show Profiles**.
 
 2. On the **Actions** menu, click **Create Profile**.
 
