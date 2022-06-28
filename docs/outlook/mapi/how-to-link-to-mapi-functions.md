@@ -116,7 +116,7 @@ Some of the new functions linked from this library that are not available in Map
     
 An alternate method of incorporating the MAPI Stub Library is to copy the source files, MapiStubLibrary.cpp and StubUtils.cpp, directly into your project and remove any linkage to Mapi32.lib and any code that explicitly links to MAPI.
   
-To access the MAPI Stub Library files and for information about how to build and integrate it into your project, as well as questions about this library such as when and why to use it, see the [MAPI Stub Library](https://mapistublibrary.codeplex.com/documentation) on the CodePlex site. 
+To access the MAPI Stub Library files and for information about how to build and integrate it into your project, as well as questions about this library such as when and why to use it, see the MAPI Stub Library <!--(https://mapistublibrary.codeplex.com/documentation)--> on the CodePlex site. 
   
 ## See also
 

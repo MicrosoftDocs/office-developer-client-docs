@@ -50,7 +50,7 @@ When **FixMAPI** makes a backup copy of the current copy of mapi32.dll on the co
 
 
 
-[KB 256946: You receive a program conflict error message when you start Outlook 2000](https://support.microsoft.com/kb/256946)
+<!-- [KB 256946: You receive a program conflict error message when you start Outlook 2000](https://support.microsoft.com/kb/256946)
   
-[KB 228457: Description of the Fixmapi.exe Tool Included with Internet Explorer 5](https://support.microsoft.com/kb/228457)
+[KB 228457: Description of the Fixmapi.exe Tool Included with Internet Explorer 5](https://support.microsoft.com/kb/228457) -->
 
