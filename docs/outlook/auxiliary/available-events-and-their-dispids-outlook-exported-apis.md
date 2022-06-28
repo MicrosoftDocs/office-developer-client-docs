@@ -13,7 +13,7 @@ description: "Describes the dispatch identifiers for the events that Outlook mak
 
 This section describes the dispatch identifiers for the events that Outlook makes available.
   
-Outlook exposes the following dispatch identifiers (dispids) to allow C++ add-ins to listen to and handle the corresponding events from the [IDispatch::Invoke](/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke.md) function.
+Outlook exposes the following dispatch identifiers (dispids) to allow C++ add-ins to listen to and handle the corresponding events from the IDispatch::Invoke <!--(/previous-versions/windows/desktop/api/oaidl/nf-oaidl-idispatch-invoke.md)--> function.
   
 |**Constant**|**Dispid for event**|**Description**|**Parameters**|**Remarks**|
 |:-----|:-----|:-----|:-----|:-----|

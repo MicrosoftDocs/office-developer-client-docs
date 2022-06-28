@@ -16,7 +16,7 @@ Provides extra information about the last error.
 
 |Property |Value |
 |:-----|:-----|
-|Inherits from:   |[IUnknown](/windows/desktop/api/unknwn/nn-unknwn-iunknown.md) |
+|Inherits from:   |[IUnknown](/cpp/atl/iunknown) |
 |Provided by:   |Client  |
 |Interface identifier:   |IID_IOlkErrorUnknown  |
    

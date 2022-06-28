@@ -311,7 +311,7 @@ Cleanup:
 
 ## Use MFCMAPI to configure Outlook profiles
 
-[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development. 
+[MFCMAPI](https://www.howto-outlook.com/downloads/mfcmapi.htm) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development. 
   
 ## See also
 
