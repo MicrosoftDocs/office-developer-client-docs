@@ -202,7 +202,7 @@ The following tables show evaluation criteria for MAPI.
 |Languages and tools  <br/> |You can directly access MAPI by using C or C++. Other languages that can access the C/C++ calling convention may be able to access MAPI. The use of managed languages, such as Visual Basic or C#, is not supported. You must compile separate MAPI solutions for 32-bit and 64-bit versions of Outlook. |
 |Managed implementation  <br/> |MAPI is an unmanaged component. Use of MAPI is not supported under the COM interoperability layer of Visual Studio and the .NET Framework. For more information about MAPI support for managed components, see Knowledge Base article [266353: The support guidelines for client-side messaging development](https://go.microsoft.com/fwlink/?LinkId=133254). |
 |Scriptable  <br/> |MAPI cannot be directly used in scripts. |
-|Test and debug Tools  <br/> |No special debugging tools are needed to debug applications that use MAPI. On the other hand, you can use [MFCMAPI](https://mfcmapi.codeplex.com/). MFCMAPI uses MAPI to provide access to MAPI stores through a graphical user interface, and facilitates investigation of issues when you extend Outlook by using MAPI. |
+|Test and debug Tools  <br/> |No special debugging tools are needed to debug applications that use MAPI. On the other hand, you can use [MFCMAPI](https://stephenegriffin.github.io/mfcmapi/). MFCMAPI uses MAPI to provide access to MAPI stores through a graphical user interface, and facilitates investigation of issues when you extend Outlook by using MAPI. |
 |Expert availability  <br/> |Expert MAPI programmers can be difficult to find, and learning the technology can take a significant amount of time. In addition to the Microsoft communities, there are only a small number of high-quality third-party websites that provide helpful MAPI development information. |
 |Available information  <br/> |Both Microsoft and third-party books that describe MAPI programming are available. |
 |Developer and deployment licensing  <br/> |No special licensing is required for developing applications that use MAPI. |
@@ -376,7 +376,7 @@ In general, you use MAPI to access data on a MAPI-based server such as the Micro
     
 - Run tasks on a background thread. For example, enumerating numerous items in a folder and modifying the items' properties in a background thread can optimize performance.
     
-For more information and code samples, see the [Outlook MAPI Reference](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx) and [MFCMAPI](https://mfcmapi.codeplex.com/).
+For more information and code samples, see the [Outlook MAPI Reference](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx) and [MFCMAPI](https://stephenegriffin.github.io/mfcmapi/).
   
 In addition, if your solution runs on a version of Outlook earlier than Outlook 2007, and scenarios such as the following apply to your solution, you should use MAPI to extend those scenarios.
   
@@ -912,7 +912,7 @@ The following resources provide more information about the primary Outlook refer
 - [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
 - [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
 - [What's New in XML Schemas for Outlook 2010](/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
-- [Outlook 2010: XML Schema Reference](https://www.microsoft.com/download/details.aspx?id=22609)   
+- [Outlook 2010: XML Schema Reference](/office/client-developer/outlook/social-connector/outlook-social-connector-provider-xml-schema)   
 - [Developing Outlook 2010 Solutions for 32-Bit and 64-Bit Systems](/previous-versions/office/developer/office-2010/gg549122(v=office.14))
     
 ### Code samples

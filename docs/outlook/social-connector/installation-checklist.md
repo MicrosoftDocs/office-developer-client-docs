@@ -31,7 +31,7 @@ Third parties, including OSC providers, cannot redistribute the OSC. However, if
   
 For example, the g-link to install the latest version of the OSC for Outlook 2003 or Outlook 2007 for the LCID 1033 (US English) is as follows:
   
-<https://g.live.com/0CR1033/80>
+<`https://g.live.com/0CR1033/80`>
   
 For details about  _Glink_ values for different versions and bitness of Outlook, and  _LCID_ values for supported locales, see #7 in the section [Installation Checklist](#olosc_InstallationOverview_InstallationChecklist) below.
 
@@ -140,7 +140,7 @@ The following procedure describes the installation checks outlined in Figure 1.
 
    Refer to Table 1 below for the supported  _LCID_ values, and Table 2 for the supported  _Glink_ values. For example, the g-link to install the latest version of the 32-bit OSC for 32-bit Outlook Social Connector 2013 (US English) is as follows:
 
-   <https://g.live.com/0CR1033/82>
+   <`https://g.live.com/0CR1033/82`>
 
 8. Install the provider. The provider installation procedure must register the programmatic identifier (ProgID) in the appropriate Windows registry location. For more information, see [Registering a Provider](registering-a-provider.md). Also, be sure that the bitness of the provider to be installed is the same as the bitness of the version of Outlook present on the client computer. For example, install a 32-bit provider if 32-bit Outlook 2013 is present, and a 64-bit provider if 64-bit Outlook 2013 is installed. For Outlook 2003 or 2007, only the 32-bit version of your provider applies.
 
