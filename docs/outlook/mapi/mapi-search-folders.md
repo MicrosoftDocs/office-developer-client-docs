@@ -23,7 +23,7 @@ A search-results folder holds links to messages in generic folders rather than t
   
 Search-results folders have the following limits:
   
-- The only way that the contents of a search-results folder can be modified is through a call to **SetSearchCriteria**. For more information about the implementation of **SetSearchCriteria**, see Knowledge Base article [260322: How To Search Folders with the SetSearchCriteria Method](https://go.microsoft.com/fwlink/?LinkId=123603).
+- The only way that the contents of a search-results folder can be modified is through a call to **SetSearchCriteria**. For more information about the implementation of **SetSearchCriteria**, see Knowledge Base article [260322: How To Search Folders with the SetSearchCriteria Method](/office/client-developer/outlook/mapi/imapicontainer-setsearchcriteria).
     
 - Messages cannot be moved or copied into search-results folders.
     
