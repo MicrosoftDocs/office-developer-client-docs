@@ -26,7 +26,8 @@ In this article, we examine how to work with the Visio 2013 file format programm
 > [!NOTE]
 > The code samples in this article assume that you have a rudimentary understanding of the classes in the [System.Xml.Linq](/dotnet/api/system.xml.linq?view=netframework-4.8&preserve-view=true) and [System.IO.Packaging](/dotnet/api/system.io.packaging?view=netframework-4.8&preserve-view=true) namespaces. 
 > This article also assumes that you understand the concepts and terminology of the Open Packaging Conventions. You should have some familiarity with the concepts of packages, document parts or package parts, and relationships. For more information, see [OPC: A New Standard for Packaging Your Data](/archive/msdn-magazine/2007/august/opc-a-new-standard-for-packaging-your-data). 
-> The code demonstrates how to create LINQ (Language-Integrated Query) queries to select XML. Most of the code samples use the query syntax for building LINQ queries. You can rewrite any of the LINQ queries provided in the code by using the LINQ method syntax, if necessary. For more information about LINQ query syntax and method syntax, see [LINQ Query Syntax versus Method Syntax (C#)](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq.md)> Table 1 shows the essential topics that you should be familiar with before you work through this article.
+> The code demonstrates how to create LINQ (Language-Integrated Query) queries to select XML. Most of the code samples use the query syntax for building LINQ queries. You can rewrite any of the LINQ queries provided in the code by using the LINQ method syntax, if necessary. For more information about LINQ query syntax and method syntax, see [LINQ Query Syntax versus Method Syntax (C#)](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq)
+> Table 1 shows the essential topics that you should be familiar with before you work through this article.
   
 **Table 1. Core concepts for manipulating the Visio 2013 file format**
 
@@ -302,9 +303,9 @@ The console application produces output similar to the following (some of the ou
   
  `Press any key to continue …`
   
-More often than not, you need to select one **PackagePart** without having to iterate over all of them. You can get a **PackagePart** object from a **Package** by using its relationship to the **Package** or another **PackagePart**. A relationship in the Visio 2013 file format is a discrete entity that describes how a document part relates to the file package or how two document parts relate to each other. For example, the Visio 2013 file package itself has a relationship to its Visio Document part, and the Visio Document part has a relationship to the Windows part. These relationships are represented as instances of the [PackageRelationship](/dotnet/api/system.io.packaging.packagerelationship) or [PackageRelationshipCollection](/dotnet/api/system.io.packaging.packagerelationshipcollection.md) classes.
+More often than not, you need to select one **PackagePart** without having to iterate over all of them. You can get a **PackagePart** object from a **Package** by using its relationship to the **Package** or another **PackagePart**. A relationship in the Visio 2013 file format is a discrete entity that describes how a document part relates to the file package or how two document parts relate to each other. For example, the Visio 2013 file package itself has a relationship to its Visio Document part, and the Visio Document part has a relationship to the Windows part. These relationships are represented as instances of the [PackageRelationship](/dotnet/api/system.io.packaging.packagerelationship) or [PackageRelationshipCollection](/dotnet/api/system.io.packaging.packagerelationshipcollection) classes.
 
-The **Package** class exposes several methods for getting the relationships that it contains as **PackageRelationship** or **PackageRelationshipCollection** objects. You can use the [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) method to instantiate a **PackageRelationshipCollection** object that contains **PackageRelationship** objects of a single specific type. Of course, using the **Package.GetRelationshipsByType** method requires that you already know the relationship type that you need. Relationship types are strings in XML namespace format. For example, the relationship type of the Visio Document part is <https://schemas.microsoft.com/visio/2010/relationships/document>.
+The **Package** class exposes several methods for getting the relationships that it contains as **PackageRelationship** or **PackageRelationshipCollection** objects. You can use the [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) method to instantiate a **PackageRelationshipCollection** object that contains **PackageRelationship** objects of a single specific type. Of course, using the **Package.GetRelationshipsByType** method requires that you already know the relationship type that you need. Relationship types are strings in XML namespace format. For example, the relationship type of the Visio Document part is <`https://schemas.microsoft.com/visio/2010/relationships/document`>.
   
 Once you know the relationship of a **PackagePart** to the **Package** or to another **PackagePart** (that is, you have a **PackageRelationship** object that references the **PackagePart** that you want), you can use that relationship to get the URI of that **PackagePart**. You then pass the URI to the **Package.GetPart** method to return the **PackagePart**.
   
@@ -1184,7 +1185,7 @@ For more information about Al's work with the Visio file format, see the links i
 
 - By Al Edlund:
 
-  - [pkgVisio - Visio 2013 XML manipulation](https://pkgvisio.codeplex.com/documentation) project on CodePlex.
+  - pkgVisio - Visio 2013 XML manipulation (`https://pkgvisio.codeplex.com/documentation`) project on CodePlex.
 
   - [pkgVisio_pt1](https://www.youtube.com/watch?v=7LvDKJuP9oQ&amp;feature=youtu.be) video on YouTube.
 
