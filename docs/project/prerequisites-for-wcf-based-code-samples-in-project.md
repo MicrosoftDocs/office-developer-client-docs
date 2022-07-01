@@ -168,7 +168,7 @@ The following steps show how to set a service reference by using Visual Studio 2
 
 2. In **Solution Explorer**, right-click the **References** folder, and then choose **Add Service Reference**.
 
-3. In the **Add Service Reference** dialog box, in the **Address** text box, type <https://localhost:32843/> _GUID_/psi/ _ServiceName_.svc, and then press **Enter**. Replace _GUID_ with the virtual directory name of the Project Server service application, such as 534c37eb00d74ccfadcecf9827e95239. Replace _ServiceName_ with the name of the service, such as Resource (see Figure 3).
+3. In the **Add Service Reference** dialog box, in the **Address** text box, type <`https://localhost:32843/`> _GUID_/psi/ _ServiceName_.svc, and then press **Enter**. Replace _GUID_ with the virtual directory name of the Project Server service application, such as 534c37eb00d74ccfadcecf9827e95239. Replace _ServiceName_ with the name of the service, such as Resource (see Figure 3).
 
    You can get the name of the Project Server Service virtual directory in one of the following ways:
 

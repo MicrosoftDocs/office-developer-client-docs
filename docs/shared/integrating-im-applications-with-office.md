@@ -61,7 +61,7 @@ To enable this integration with Office, an IM client application must implement 
 > There are several key differences in how Office 2010 integrates with an IM provider application:
 >
 > - Office 2010 does not display the contact's photo.
-> - You must download the Microsoft.Office.Uc.dll file separately from Office 2010. The [Lync 2010 SDK](https://www.microsoft.com/download/details.aspx?id=18898) includes the Microsoft.Office.UC.dll file for Office 2010.
+> - You must download the Microsoft.Office.Uc.dll file separately from Office 2010. The [Lync 2010 SDK](/previous-versions/office/developer/lync-2010/gg421054(v=office.14)) includes the Microsoft.Office.UC.dll file for Office 2010.
 > - When the Office application calls the [IUCOfficeIntegration.GetAuthenticationInfo](integrating-im-applications-with-office.md#off15_IMIntegration_ImplementRequired_IUCOfficeIntegration) method on the IM client application, it passes in the string "14.0.0.0".
 > - Office 2010 enumerates all groups and contacts as soon as it connects to an IM client application.
   

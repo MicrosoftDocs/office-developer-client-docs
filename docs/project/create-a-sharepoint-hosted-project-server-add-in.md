@@ -37,7 +37,7 @@ Development of Project Server apps with Visual Studio requires the following:
 
 - Verify that the Project Web App instance you will be using for development and testing is accessible in the browser.
 
-For information about using the online tools, see [Set up an environment for developing apps for SharePoint on Office 365](https://msdn.microsoft.com/library/fp161179.aspx). For a walkthrough of building a simple app for Project Server that uses the online tools, see the EPMSource blog series, [Building your first Project Server app](https://epmsource.com/2012/11/20/building-your-first-project-server-app-part-zerothe-introduction/).
+For information about using the online tools, see [Set up a development environment for SharePoint Add-ins on Microsoft 365](/sharepoint/dev/sp-add-ins/set-up-a-development-environment-for-sharepoint-add-ins-on-office-365.md). For a walkthrough of building a simple app for Project Server that uses the online tools, see the EPMSource blog series, [Building your first Project Server app](https://epmsource.com/2012/11/20/building-your-first-project-server-app-part-zerothe-introduction/).
 
 <a name="pj15_StatusingApp_UsingVisualStudio"> </a>
 
@@ -761,7 +761,7 @@ Every operation that a user might try in the **QuickStatus** app should be teste
 
       ![Testing the error message](media/pj15_CreateStatusingApp_Testing3Error.gif "Testing the error message")
   
-5. Update the previous task to 80% complete, and then choose **Exit**. The **exitToPwa** function changes the browser window location to the Tasks page in the SharePoint host application (that is, the URL changes to <https://ServerName/pwa/Tasks.aspx>). Figure 18 shows that the **T1** task and the **New task from PWA** task each show 80% complete.
+5. Update the previous task to 80% complete, and then choose **Exit**. The **exitToPwa** function changes the browser window location to the Tasks page in the SharePoint host application (that is, the URL changes to <`https://ServerName/pwa/Tasks.aspx`>). Figure 18 shows that the **T1** task and the **New task from PWA** task each show 80% complete.
 
       **Figure 18. Verifying the tasks are updated in Project Web App**
 
