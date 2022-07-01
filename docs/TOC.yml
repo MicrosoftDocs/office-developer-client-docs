@@ -44,7 +44,7 @@
          - name: Compatibility issues in Office
            href: shared/compatibility-issues-in-office.md
        - name: Office VBA object library reference
-         href: /office/vba/Library-Reference/Concepts/office-vba-object-library-reference
+         href: /office/vba/api/overview/library-reference/reference-object-library-reference-for-office
        - name: Office VBA language reference
          href: /office/vba/api/overview/language-reference
        - name: Office Primary Interop Assembly reference
