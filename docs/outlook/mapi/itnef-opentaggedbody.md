@@ -51,7 +51,7 @@ MAPI_MODIFY
     
  _lppStream_
   
-> [out] A pointer to a pointer to a stream object that contains the text from the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property of the passed-in encapsulated message and that supports the [IStream](/windows/desktop/api/objidl/nn-objidl-istream.md) interface. 
+> [out] A pointer to a pointer to a stream object that contains the text from the **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) property of the passed-in encapsulated message and that supports the [IStream](/windows/win32/stg/istream-compound-file-implementation) interface. 
     
 ## Return value
 
