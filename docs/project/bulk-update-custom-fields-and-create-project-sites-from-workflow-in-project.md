@@ -20,7 +20,7 @@ To help customers get the most out of Project Online and improve our service ext
 In addition to providing more flexibility, these methods also offer significant performance improvements when saving and publishing projects in a workflow. This article describes how to use the methods in the REST API and provides instructions for creating a workflow that bulk updates custom fields and a workflow that creates a Project site.
   
 > [!NOTE]
-> To learn more about calling REST APIs from SharePoint 2013 workflows, see Using SharePoint REST services from workflow with POST method (`https://mysharepointinsight.blogspot.com/2013/05/using-sharepoint-rest-services-from.mdl`) and [Calling the SharePoint 2013 Rest API from a SharePoint Designer Workflow](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/).
+> To learn more about calling REST APIs from SharePoint 2013 workflows, see [Understanding and Using the SharePoint 2013 REST Interface](/archive/msdn-magazine/2013/may/sharepoint-2013-understanding-and-using-the-sharepoint-2013-rest-interface.md) and [Calling the SharePoint 2013 Rest API from a SharePoint Designer Workflow](https://sergeluca.wordpress.com/2013/04/09/calling-the-sharepoint-2013-rest-api-from-a-sharepoint-designer-workflow/).
   
 ## Bulk update project custom fields from a workflow
 
