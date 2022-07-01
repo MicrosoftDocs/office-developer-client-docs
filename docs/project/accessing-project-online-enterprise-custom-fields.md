@@ -201,7 +201,7 @@ The method does not check to see whether a project uses a specific ECF.
 ## See also
 
 - [Project Development Portal](https://developer.microsoft.com/project)
-- [Overview: Enterprise custom fields and lookup tables](https://support.office.com/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [Overview: Enterprise custom fields and lookup tables](project/enterprise-custom-fields-and-lookup-tables-in-project-web-app)
 - [Local and Enterprise Custom Fields](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Add or edit enterprise custom fields in Project Server 2013](/project/add-or-edit-enterprise-custom-fields-in-project-server)
     

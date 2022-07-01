@@ -43,7 +43,7 @@ Task pane add-ins and other add-ins for Office and SharePoint can be sold in the
 ## See also
 
 - [Project for developers](https://msdn.microsoft.com/office/aa905469)
-- [Office developer center](https://dev.office.com)
+- [Office developer center](https://developer.microsoft.com/en-us/office)
 - [Visual Studio developer center](https://msdn.microsoft.com/vstudio/aa718325.aspx)
 - [ClickOnce Security and Deployment](https://msdn.microsoft.com/library/t71a733d.aspx)
 - [Available fields reference](https://support.office.com/article/available-fields-reference-615a4563-1cc3-40f4-b66f-1b17e793a460)

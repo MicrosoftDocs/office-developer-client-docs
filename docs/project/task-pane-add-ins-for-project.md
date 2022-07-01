@@ -19,7 +19,7 @@ For example, a Project add-in can summarize data in the active project and show 
 > [!NOTE]
 > Task pane Project Add-ins can access data from Project Online by using OAuth authentication. With Project Professional 2013, you can develop task pane add-ins that access both on-premises installations of Project Server 2013 and on-premises or online SharePoint 2013. For example, see [Connecting a Project Task Pane add-in to PWA](https://blogs.msdn.com/b/project_programmability/archive/2012/11/02/connecting-a-project-task-pane-app-to-pwa.aspx) in the Project Programmibility blog. > Project Standard 2013 does not support direct integration with Project Server data or SharePoint task lists that are synchronized with Project Server.
   
-For more information about add-ins for Office 2013, see [Office and SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp161507%28v=office.15%29).
+For more information about add-ins for Office 2013, see [Office and SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
   
 ## Developing task pane add-ins
 
@@ -39,6 +39,6 @@ The **HelloProject_OData** sample add-in for Project Professional 2013 was devel
 
 - [Project 2013 SDK download](https://www.microsoft.com/download/details.aspx?id=30435%20)
 
-- [Office and SharePoint Add-ins](https://msdn.microsoft.com/library/office/fp161507%28v=office.15%29)
+- [Office and SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
 
 - [Office Add-ins](https://msdn.microsoft.com/library/office/apps/jj220060%28v=office.15%29)
