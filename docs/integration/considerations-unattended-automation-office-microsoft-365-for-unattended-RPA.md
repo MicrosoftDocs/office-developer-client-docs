@@ -18,6 +18,9 @@ This article outlines some of the considerations for unattended automation of Of
 
 If you want to use Office without a user present, be aware of the following areas in which Office can behave differently than expected. For your solution to run successfully, it must address these issues and minimize their effects as much as possible. Consider these issues carefully when you build your application.
 
+> [!IMPORTANT]
+> Microsoft does not currently recommend, and does not support, Automation of Microsoft Office applications from any unattended, non-interactive client application or component (including ASP, ASP.NET, DCOM, and NT Services), because Office may exhibit unstable behavior and/or deadlock when Office is run in this environment. For more information, see [Considerations for server side automation of Office](/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
+
 ### Interactive UI elements
 
 Office applications assume that they are being run interactively. If an unexpected error occurs, or if an unspecified parameter is needed to complete a function, Office is designed to prompt the user with a dialog box that asks the user how they want to proceed. In unattended automation, this might result in the application appearing to “hang” as the application stops until it receives this input. If you’re automating Office via its public APIs, you can suppress many of these alerts by configuring properties like [Application.DisplayAlerts](/office/vba/api/word.application.displayalerts) and [Application.AutomationSecurity](/office/vba/api/word.application.automationsecurity) appropriately. Your code should be designed to identify and process blocking alerts at any time.
