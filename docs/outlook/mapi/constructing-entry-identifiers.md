@@ -36,7 +36,7 @@ MAPI_DIM is a constant that is defined in the MapiDefs.h header file.
   
 The first byte of the 4-byte **abFlags** member describes the type and use of the entry identifier and can have the following values: 
   
-- MAPI_NOTRECI — Indicates the entry identifier cannot be used as a recipient on a message.
+- MAPI_NOTRECIP — Indicates the entry identifier cannot be used as a recipient on a message.
     
 - MAPI_NOTRESERVED — Indicates that other users cannot access the entry identifier.
     
