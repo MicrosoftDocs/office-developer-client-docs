@@ -15,7 +15,7 @@ ms.assetid: 464b1297-9d90-47bd-afc4-3dc63b106cb7
   
 MAPI provides a facility for assigning names to properties, for mapping these names to unique identifiers, and for making this mapping persistent. Persistent name to identifier mapping ensures that property names remain valid across sessions.
   
-To define a named property, a client or service provider makes up a name and stores it in a [MAPINAMEID](mapinameid.md) structure. Because names are made up of a 32-bit globally unique identifier, or GUID, and either a Unicode character string or numeric value, creators of named properties can create meaningful names without fear of duplication. Names are unique and they can be used without regard to the value of their identifiers. 
+To define a named property, a client or service provider makes up a name and stores it in a [MAPINAMEID](mapinameid.md) structure. Because names are made up of a 128-bit globally unique identifier, or GUID, and either a Unicode character string or 32-bit numeric value, creators of named properties can create meaningful names without fear of duplication. Names are unique and they can be used without regard to the value of their identifiers. 
   
 To support named properties, a service provider implements two methods — [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) and [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) — to translate between names and identifiers and to allow its [IMAPIProp::GetProps](imapiprop-getprops.md)[IMAPIProp::SetProps](imapiprop-setprops.md) methods to retrieve and modify properties with identifiers in the named property range. The range for named property identifiers is between 0x8000 and 0xFFFE. 
   
