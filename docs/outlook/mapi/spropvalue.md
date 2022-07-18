@@ -83,7 +83,7 @@ typedef struct _SPropValue
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
 |PT_NULL or PT_OBJECT  <br/> |**x** <br/> |LONG  <br/> |
-|PT_PTR  <br/> |**lpv** <br/> |VOID \*  <br/> |
+|PT_PTR or PT_FILE_HANDLE  <br/> |**lpv** <br/> |VOID \*  <br/> |
    
 ## Remarks
 
