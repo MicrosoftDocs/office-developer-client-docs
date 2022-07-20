@@ -540,13 +540,13 @@ Any callbacks from Office for custom ribbon controls will be in a DPI thread awa
 
 When an OLE server is hosted within an OLE client container, you currently can’t provide current or supported DPI information. This can cause problems because some combinations of parent to child window mixed modes are not supported by the current Windows architecture.
 
-#### Before Office 365 version 2109 for Excel and PowerPoint and version 2203 for Word
+#### Before Office 365 version 2109 for Excel and PowerPoint, and version 2203 for Word
 
 If Excel, PowerPoint, or Word detect that there are multiple monitors with different DPI scales, they will not support in-place activation. Your OLE server will activate out-of-place. If you are experiencing issues with OLE server interactions, the user will need to use [Office DPI compatibility mode](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d).
 
-#### After Office 365 version 2109 for Excel and PowerPoint and version 2203 for Word
+#### After Office 365 version 2109 for Excel and PowerPoint, and version 2203 for Word
 
-Starting with version 2109 for Excel and PowerPoint and version 2203 for Word, all three applications allow in-place activation in Per Monitor DPI Aware modes when certain conditions are met. When in-place activated as OLE servers, Office applications will check the `DPI_AWARENESS_CONTEXT` of the parent window provided by the container and allow in-place activation depending on which of the following [Office DPI display modes](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) is selected by the user:
+Starting with version 2109 for Excel and PowerPoint, and version 2203 for Word, all three applications allow in-place activation in Per Monitor DPI Aware modes when certain conditions are met. When in-place activated as OLE servers, Office applications will check the `DPI_AWARENESS_CONTEXT` of the parent window provided by the container and allow in-place activation depending on which of the following [Office DPI display modes](https://support.office.com/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d) is selected by the user:
 
 - "Optimize for best appearance" will allow in-place activation if the window provided by the container is Per Monitor DPI Aware (`DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE` or `DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2`).
 - "Optimize for compatibility" will allow in-place activation if the window provided by the container is System DPI Aware (`DPI_AWARENESS_CONTEXT_SYSTEM_AWARE`) and both the container application and the Office application have the same system DPI.
