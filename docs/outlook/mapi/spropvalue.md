@@ -56,8 +56,8 @@ typedef struct _SPropValue
 |**Property type**|**Value**|**Data type of Value**|
 |:-----|:-----|:-----|
 |PT_I2 or PT_SHORT  <br/> |**i** <br/> |short int  <br/> |
-|PT_I4 or PT_LONG (signed)  <br/> |**l** <br/> |LONG  <br/> |
-|PT_I4 or PT_LONG (unsigned)  <br/> |**ul** <br/> |ULONG  <br/> |
+|PT_I4 or PT_LONG  <br/> |**l** <br/> |LONG  <br/> |
+|-  <br/> |**ul** <br/> |ULONG  <br/> |
 |PT_R4 or PT_FLOAT  <br/> |**flt** <br/> |float  <br/> |
 |PT_R8 or PT_DOUBLE  <br/> |**dbl** <br/> |double  <br/> |
 |PT_BOOLEAN  <br/> |**b** <br/> |unsigned short int  <br/> |
@@ -83,7 +83,7 @@ typedef struct _SPropValue
 |PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
 |PT_NULL or PT_OBJECT  <br/> |**x** <br/> |LONG  <br/> |
-|PT_PTR  <br/> |**lpv** <br/> |VOID \*  <br/> |
+|PT_PTR or PT_FILE_HANDLE  <br/> |**lpv** <br/> |VOID \*  <br/> |
    
 ## Remarks
 
@@ -100,9 +100,10 @@ The type indicates the format for the property's value. MAPI defines constants f
 For a complete list of the valid property ranges for identifiers and property types, see the [Property Identifiers and Types](property-identifiers-and-types.md) appendix. 
   
 The **dwAlignPad** member is used as padding to make sure proper alignment on computers that require 8-byte alignment for 8-byte values. Developers who write code on such computers should use memory allocation routines that allocate the **SPropValue** arrays on 8-byte boundaries. 
-  
-For more information, see [MAPI Property Type Overview](mapi-property-type-overview.md) and [Updating MAPI Properties](updating-mapi-properties.md). 
-  
+
+The ``SPropValue::ul`` member has no corresponding MAPI property type, since OLE's VT_UI4 is not mapped to MAPI. For more information, see [MAPI Property Type Overview](mapi-property-type-overview.md) and [Updating MAPI Properties](updating-mapi-properties.md).
+When the property type of an SPropValue indicates PT_LONG, the active member of the UPV union is generally ``l``, and accessing ``ul`` constitutes undefined behavior per the C standard. 
+
 ## See also
 
 
