@@ -1,7 +1,7 @@
 ---
 title: "Property Types"
 description: Outlines the single-value and multiple-value property types that MAPI supports in a table outlining property type, hex value, and a short description.
-manager: soliver
+manager: lindalu
 ms.date: 08/22/2022
 ms.audience: Developer
 ms.localizationpriority: medium
@@ -46,5 +46,5 @@ The single-value and multiple-value property types that MAPI supports are descri
 > [!NOTE]
 > To determine the Hex value for the multi-valued property type, OR the PT_MV flag (0x00001000) to the Hex value for the property type. For example, the Hex value for PT_MV_UNICODE is 0x101F and the Hex value for PT_MV_BINARY is 0x1102. 
   
-MAPI shares the value type numbers with [[OLE variants]](https://docs.microsoft.com/openspecs/windows_protocols/ms-oaut/3fe7db9f-5803-4dc4-9d14-5425d3f5461f). However, not all OLE types are specified for MAPI. In particular, unsigned types such as VT_UI4 have no counterpart in MAPI. 
-Comparison of PT_I2/I4/I8 property values, e.g. during the evaluation of [[restrictions]](https://docs.microsoft.com/office/client-developer/outlook/mapi/spropertyrestriction) (filters), are performed as a signed comparison. 
+MAPI shares the value type numbers with [[OLE variants]](/openspecs/windows_protocols/ms-oaut/3fe7db9f-5803-4dc4-9d14-5425d3f5461f). However, not all OLE types are specified for MAPI. In particular, unsigned types such as VT_UI4 have no counterpart in MAPI. 
+Comparison of PT_I2/I4/I8 property values, e.g. during the evaluation of [[restrictions]](/office/client-developer/outlook/mapi/spropertyrestriction) (filters), are performed as a signed comparison. 
