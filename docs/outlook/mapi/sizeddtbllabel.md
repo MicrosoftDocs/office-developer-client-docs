@@ -33,7 +33,7 @@ SizedDtblLabel (n, u)
 
 _n_
   
-> Length of the label. This includes the ending NULL character. 
+> Length of the label. This includes the ending null character. 
     
 _u_
   
