@@ -70,6 +70,8 @@ The comparison order is  _(property value) (relational operator) (constant value
   
 When a property restriction is passed to **IMAPITable::Restrict** or **IMAPITable::FindRow** and the target property does not exist, the results of the restriction are undefined. By creating an **AND** restriction that joins the property restriction with an **EXIST** restriction, a caller can be guaranteed accurate results. Use an [SExistRestriction](sexistrestriction.md) structure to define the **EXIST** restriction and an [SAndRestriction](sandrestriction.md) structure to define the **AND** restriction.
   
+In the specific case of Exchange Server 2019, comparisons that are performed on the server exhibit a behavior such that absent properties are treated as if they were present and had a value that is less than the minimum possible data type value. In other words, if a MAPI object which lacks e.g. a PR_SENSITIVITY property and which is being tested with a ``SPropertyRestriction{RELOP_LT, PR_SENSITIVITY, {PR_SENSITIVITY, 0, {.l = INT_MIN}}`` structure, the comparison yields "true". (This is consistent with the the "is undefined" specifiation above.)
+  
 Multi-valued property tags can be used in property restrictions if the service provider implementing the table supports them. If supported, multi-valued property tags can be used anywhere single-valued property tags can be used.
   
 Multi-valued property tags can be used in the following methods:
