@@ -32,7 +32,7 @@ Acts as a tie breaker when the **dispidToDoOrdinalDate** ([PidLidToDoOrdinalDate
    
 ## Remarks
 
-If used, this property must be sorted lexicographically. The component characters of the string must consist of only the numerals zero through nine. This property should be initially set to "5555555". The length of this property must not exceed 254 characters (excluding the terminating NULL character).
+If used, this property must be sorted lexicographically. The component characters of the string must consist of only the numerals zero through nine. This property should be initially set to "5555555". The length of this property must not exceed 254 characters (excluding the terminating null character).
   
 ## Related resources
 
