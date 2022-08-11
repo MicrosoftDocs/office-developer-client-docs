@@ -53,7 +53,7 @@ The INSERT INTO statement has these parts:
 </tr>
 <tr class="odd">
 <td><p><em>externaldatabase</em></p></td>
-<td><p>The path to an external database. For a description of the path, see the <a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a> clause.</p></td>
+<td><p>The path to an external database. For a description of the path, see the <a href="/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql">IN</a> clause.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>source</em></p></td>

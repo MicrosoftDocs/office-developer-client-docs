@@ -79,7 +79,7 @@ ms.localizationpriority: medium
 <td><p>Returns the permissions for a group or user on an object.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox">SetObjectOwner</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox">SetObjectOwner</a></p></td>
 <td><p>Specifies the owner of an object in a catalog.</p></td>
 </tr>
 <tr class="odd">

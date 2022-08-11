@@ -22,7 +22,7 @@ Project Server 2013 is based on the Project Server Interface (PSI) web service f
   
 - [Client-side object model (CSOM) for Project 2013](client-side-object-model-csom-for-project-2013.md) includes topics for getting started with CSOM development by using JavaScript and the .NET Framework. 
   
-- [Project client programming](project-client-programming.md) includes an introduction to task pane add-ins in Project Professional 2013. A separate SDK includes articles and references for add-ins in Project and the other Office 2013 clients. For more information, see the [Office Add-ins](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins) developer documentation. 
+- [Project client programming](project-client-programming.md) includes an introduction to task pane add-ins in Project Professional 2013. A separate SDK includes articles and references for add-ins in Project and the other Office 2013 clients. For more information, see the [Office Add-ins](/office/dev/add-ins/overview/office-add-ins) developer documentation. 
   
 - [Project programming tasks](project-programming-tasks.md) shows how to develop add-ins for Project 2013, create workflows for demand management, customize the Project Web App ribbon, create Web Parts, and more. 
   

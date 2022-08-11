@@ -249,7 +249,7 @@ ms.localizationpriority: medium
 <td><p>Indicates the maximum size, in bytes or characters, of a <strong>Parameter</strong> object.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size (ADO Stream)</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Size (ADO Stream)</a></p></td>
 <td><p>Indicates the total size of the stream in number of bytes.</p></td>
 </tr>
 <tr class="even">

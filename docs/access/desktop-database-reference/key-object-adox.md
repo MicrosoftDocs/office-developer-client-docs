@@ -26,7 +26,7 @@ With the properties and collections of a **Key** object, you can:
 
 - Identify the key with the [Name](name-property-adox.md) property.
 
-- Determine whether the key is primary, foreign, or unique with the [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) property.
+- Determine whether the key is primary, foreign, or unique with the [Type](/office/vba/access/concepts/miscellaneous/type-property-keyadox) property.
 
 - Access the database columns of the key with the [Columns](columns-collection-adox.md) collection.
 

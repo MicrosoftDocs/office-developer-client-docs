@@ -14,7 +14,7 @@ ms.localizationpriority: medium
 
 **Applies to**: Access 2013, Office 2013
 
-This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods. This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system). The owner of the Categories table is set to Accounting.
+This example demonstrates the [GetObjectOwner](getobjectowner-method-adox.md) and [SetObjectOwner](/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox) methods. This code assumes the existence of the group Accounting (see the [Groups and Users Append, ChangePassword methods example (VB)](groups-and-users-append-changepassword-methods-example-vb.md) to see how to add this group to the system). The owner of the Categories table is set to Accounting.
 
 ```vb 
  
