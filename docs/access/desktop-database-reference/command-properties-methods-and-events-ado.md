@@ -30,7 +30,7 @@ ms.localizationpriority: medium
 
 - [Cancel method](cancel-method-ado.md)
 - [CreateParameter method](createparameter-method-ado.md)
-- [Execute method (ADO Command)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
+- [Execute method (ADO Command)](/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
 
 ## Events
 

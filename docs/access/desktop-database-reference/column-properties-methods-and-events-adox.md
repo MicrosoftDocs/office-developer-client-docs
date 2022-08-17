@@ -25,7 +25,7 @@ ms.localizationpriority: medium
 - [Properties collection](properties-collection-ado.md)
 - [RelatedColumn property](relatedcolumn-property-adox.md)
 - [SortOrder property](sortorder-property-adox.md)
-- [Type property (Column)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
+- [Type property (Column)](/office/vba/access/concepts/miscellaneous/type-property-columnadox)
 
 ## Methods
 

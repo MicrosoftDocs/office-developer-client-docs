@@ -35,7 +35,7 @@ ms.localizationpriority: medium
 - [BeginTrans, CommitTrans, and RollbackTrans methods](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Cancel method](cancel-method-ado.md)
 - [Close method](close-method-ado.md)
-- [Execute method (ADO Connection)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
+- [Execute method (ADO Connection)](/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Open method (ADO Connection)](open-method-ado-connection.md)
 - [OpenSchema method](openschema-method-ado.md)
 

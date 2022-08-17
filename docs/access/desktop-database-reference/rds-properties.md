@@ -77,7 +77,7 @@ ms.localizationpriority: medium
 <td><p>Indicates whether a sort order is ascending or descending.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
 <td><p>Indicates the query string used to retrieve the <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">

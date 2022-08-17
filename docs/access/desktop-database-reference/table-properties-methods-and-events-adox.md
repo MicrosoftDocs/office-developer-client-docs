@@ -21,7 +21,7 @@ ms.localizationpriority: medium
 - [Keys collection](keys-collection-adox.md)
 - [Name property](name-property-adox.md)
 - [ParentCatalog property](parentcatalog-property-adox.md)
-- [Type property (Table)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
+- [Type property (Table)](/office/vba/access/concepts/miscellaneous/type-property-tableadox)
 
 
 ## Methods

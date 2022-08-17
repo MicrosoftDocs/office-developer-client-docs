@@ -101,7 +101,7 @@ The following table lists the Microsoft products, tools, and technologies discus
 </tr>
 <tr class="odd">
 <td><p>Windows 2000</p></td>
-<td><p><a href="system-requirements-for-the-address-book-application.md">System Requirements for the Address Book Application</a><br/><br/><a href="granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md">Granting Guest Privileges to a Web Server Computer</a><br/><br/><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object">Registering a Custom Business Object</a><br/><br/><a href="securing-rds-applications.md">Securing RDS Applications</a><br/><br/><a href="configuring-rds-on-windows-2000.md">Configuring RDS on Windows 2000</a><br/><br/></p></td>
+<td><p><a href="system-requirements-for-the-address-book-application.md">System Requirements for the Address Book Application</a><br/><br/><a href="granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md">Granting Guest Privileges to a Web Server Computer</a><br/><br/><a href="/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object">Registering a Custom Business Object</a><br/><br/><a href="securing-rds-applications.md">Securing RDS Applications</a><br/><br/><a href="configuring-rds-on-windows-2000.md">Configuring RDS on Windows 2000</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>XML</p></td>

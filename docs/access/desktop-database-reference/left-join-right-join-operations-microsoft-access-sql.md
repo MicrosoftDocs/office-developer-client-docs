@@ -15,7 +15,7 @@ ms.localizationpriority: high
 
 **Applies to**: Access 2013, Office 2013
 
-Combines source-table records when used in any [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) clause.
+Combines source-table records when used in any [FROM](/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) clause.
 
 ## Syntax
 

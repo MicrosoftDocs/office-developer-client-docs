@@ -28,7 +28,7 @@ ms.localizationpriority: medium
 - [Server property (RDS)](server-property-rds.md)
 - [SortColumn property (RDS)](sortcolumn-property-rds.md)
 - [SortDirection property (RDS)](sortdirection-property-rds.md)
-- [SQL property (RDS)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado)
+- [SQL property (RDS)](/office/vba/access/concepts/miscellaneous/sql-property-ado)
 - [URL property (RDS)](url-property-rds.md)
 
 

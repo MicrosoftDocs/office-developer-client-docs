@@ -26,7 +26,7 @@ ms.localizationpriority: medium
 
 - [Create method](create-method-adox.md)
 - [GetObjectOwner method](getobjectowner-method-adox.md)
-- [SetObjectOwner method](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
+- [SetObjectOwner method](/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox)
 
 ## Events
 
