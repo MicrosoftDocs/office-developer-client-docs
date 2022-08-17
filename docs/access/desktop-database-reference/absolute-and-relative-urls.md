@@ -34,7 +34,7 @@ A *relative URL* locates a resource using an absolute URL as a starting point. I
 
 If a provider supports URLs, it will register for one or more URL schemes. This means that any URLs using this scheme will automatically invoke the registered provider. For example, the *http* scheme is registered to the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md). ADO assumes all URLs prefixed with "http" represent web folders or files to be used with the Internet Publishing Provider. For information about the schemes registered by your provider, see your provider documentation.
 
-## Defining context with a URL
+## Define context with a URL
 
 One function of an open connection, represented by a [Connection](connection-object-ado.md) object, is to restrict subsequent operations to the data source represented by that connection. That is, the connection defines the context for subsequent operations.
 
@@ -77,4 +77,3 @@ recordset.Open "", "URL=https://YourServer/Winnt/",,,adCmdTableDirect
 The leading part of a fully-qualified URL is the *scheme* used to access the resource identified by the remainder of the URL. Examples are HTTP (HyperText Transfer Protocol) and FTP (File Transfer Protocol).
 
 ADO supports OLE DB providers that recognize their own URL schemes. For example, the [Microsoft OLE DB Provider for Internet Publishing](microsoft-ole-db-provider-for-internet-publishing.md), which accesses "published" Windows 2000 files, recognizes the existing HTTP scheme.
-
