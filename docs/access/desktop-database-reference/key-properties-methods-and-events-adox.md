@@ -19,7 +19,7 @@ ms.localizationpriority: medium
 - [DeleteRule property](deleterule-property-adox.md)
 - [Name property](name-property-adox.md)
 - [RelatedTable property](relatedtable-property-adox.md)
-- [Type property (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
+- [Type property (Key)](/office/vba/access/concepts/miscellaneous/type-property-keyadox)
 - [UpdateRule property](updaterule-property-adox.md)
 
 ## Methods

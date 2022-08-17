@@ -50,7 +50,7 @@ With the methods and properties of a **Stream** object, you can do the following
 
   - Halt an asynchronous **Stream** operation with the [Cancel](cancel-method-ado.md) method.
 
-  - Determine the number of bytes in a **Stream** with the [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) property.
+  - Determine the number of bytes in a **Stream** with the [Size](/office/vba/access/concepts/miscellaneous/size-property-ado-stream) property.
 
   - Control the current position within a **Stream** with the [Position](position-property-ado.md) property.
 

@@ -73,6 +73,6 @@ To apply a custom ribbon so that it is available when the application starts, us
 5.  Close and then restart the application.
 
 > [!NOTE]
-> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](https://docs.microsoft.com/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
+> For more information about the ribbon UI in other Office applications, see [Overview of the Office Fluent Ribbon](/office/vba/Library-Reference/Concepts/overview-of-the-office-fluent-ribbon).
 
 

@@ -20,7 +20,7 @@ ms.localizationpriority: medium
 - [LineSeparator property](lineseparator-property-ado.md)
 - [Mode property](mode-property-ado.md)
 - [Position property](position-property-ado.md)
-- [Size property (ADO Stream)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
+- [Size property (ADO Stream)](/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [State property](state-property-ado.md)
 - [Type property (ADO Stream)](type-property-ado-stream.md)
 
