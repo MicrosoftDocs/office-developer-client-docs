@@ -15,7 +15,7 @@ ms.localizationpriority: high
 
 This section provides important concepts for developing custom Access solutions.
 
-If you are viewing the content on docs.microsoft.com, you can use the table of contents located to the left of the topic to navigate through the documentation.
+If you're viewing the content on Microsoft Docs, use the table of contents on the left navigation pane to discover how-to content, sample code, SDK and API documentation, VBA references, training, and articles for developing solutions and customizing Office.
 
 - [ActiveX controls](activex-controls-access.md)
 - [Conversion](conversion.md)
