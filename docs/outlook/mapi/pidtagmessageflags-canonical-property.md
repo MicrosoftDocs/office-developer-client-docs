@@ -65,6 +65,10 @@ MSGFLAG_ORIGIN_X400
   
 > The incoming message arrived over an X.400 link. It originated either outside the organization or from a source the gateway cannot consider trusted. The client should display an appropriate message to the user. Transport providers set this flag; the client has read-only access. 
     
+MSGFLAG_ORIGIN_EXT_SEND
+
+> The message originated outside the organization. The client should display an appropriate message to the user. Transport providers set this flag; the client has read-only access.
+
 MSGFLAG_READ 
   
 > The message is marked as having been read. This can occur as the result of a call at any time to [IMessage::SetReadFlag](imessage-setreadflag.md) or [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md). Clients can also set this flag by calling a message's **IMAPIProp::SetProps** method before the message has been saved for the first time. This flag is ignored if the **MSGFLAG_ASSOCIATED** flag is set. 
@@ -101,7 +105,7 @@ When the message is given to a transport provider for delivery, the transport pr
   
 For an incoming message, a message store provider clears the MSGFLAG_READ flag to reset its read status. A client can set or clear the MSGFLAG_READ flag when it is necessary to change the read status and control the sending of read and nonread reports, by calling either the message's [IMessage::SetReadFlag](imessage-setreadflag.md) method or its folder's [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md) method. The main difference between these methods, other than the object implementing them, is that the folder method can affect one, several, or all of the messages in the folder. The message method affects a single message. 
   
-A client should also test an incoming message for the MSGFLAG_ORIGIN_X400, MSGFLAG_ORIGIN_INTERNET, and MSGFLAG_ORIGIN_MISC_EXT flags. These flags are set by the inbound transport provider and indicate that the message arrived from a source that the gateway cannot consider trusted. This means the message originated either outside the organization, or internally but from a workstation not known to the gateway. In any case, the identity of the sender may not be confirmed, and there is a risk of introducing a computer virus into the organization. The client should display a warning message to the user and offer an option of deleting the message without opening it. 
+A client should also test an incoming message for the MSGFLAG_ORIGIN_X400, MSGFLAG_ORIGIN_INTERNET, MSGFLAG_ORIGIN_MISC_EXT and MSGFLAG_ORIGIN_EXT_SEND flags. These flags are set by the inbound transport provider and indicate that the message arrived from a source that the gateway cannot consider trusted. This means the message originated either outside the organization, or internally but from a workstation not known to the gateway. In any case, the identity of the sender may not be confirmed, and there is a risk of introducing a computer virus into the organization. The client should display a warning message to the user and offer an option of deleting the message without opening it. 
   
 Message store providers set the MSGFLAG_UNMODIFIED flag for incoming messages. MSGFLAG_UNMODIFIED indicates that a message has not been changed since delivery. A client cannot clear this value after it has been set by a message store provider. 
   
