@@ -10,7 +10,7 @@ description: "MFCMAPI provides access to MAPI stores to facilitate investigation
 
 # Create an Outlook profile using MFCMAPI
 
-MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers with support for MAPI development.
+MFCMAPI provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers with support for MAPI development. Downlaod 
 
 **Applies to**: Office 365 | Outlook | Outlook 2016
   
@@ -18,29 +18,31 @@ For non-developers, it is recommended that you use the Outlook user interface to
   
 ## Configure an Outlook profile using MFCMAPI
 
-1. Open [MFCMAPI](https://www.howto-outlook.com/downloads/mfcmapi.htm), and on the **Profile** menu, click **Show Profiles**.
+1. Download the [latest MFCMAPI release](https://github.com/stephenegriffin/mfcmapi/releases) from GitHub.
 
-2. On the **Actions** menu, click **Create Profile**.
+1. On the **Profile** menu, select **Show Profiles**.
 
-3. Create a new name for the profile, and then click **OK**.
+1. On the **Actions** menu, select **Create Profile**.
 
-4. Right-click the new profile, and then on the **Services** menu, click **Add Service**.
+1. Create a new name for the profile, and then choose **OK**.
 
-5. Uncheck the"Display Service UI" box, and then click **OK**.
+1. Right-click the new profile, and then on the **Services** menu, select **Add Service**.
 
-6. Double-click the newly created profile, and then click the **MSEMS** service.
+1. Uncheck the "Display Service UI" box, and then choose **OK**.
 
-7. Locate the Exchange Profile section.
+1. Double-click the newly created profile, and then select the **MSEMS** service.
 
-   This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need this value in step 9.
+1. Locate the Exchange Profile section.
 
-8. Double-click the **MSEMS** service.
+   This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You'll need this value in step 10.
 
-9. Find the **Exchange** profile section by using the UID from step 7, and then single-click to select the row.
+1. Double-click the **MSEMS** service.
 
-10. On the Property menu, click **Additional Properties**.
+1. Find the **Exchange** profile section by using the UID from step 7, and then single-click to select the row.
 
-11. Click **Add**, and then add the following properties:
+1. On the **Property** menu, select **Additional Properties**.
+
+1. Select **Add**, and then add the following properties:
 
     **For Outlook 2016**: `PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)` and `PR_DISPLAY_NAME_W`
 
@@ -48,9 +50,9 @@ For non-developers, it is recommended that you use the Outlook user interface to
 
     **For Exchange 2013**: `PR_PROFILE_UNRESOLVED_NAME`, `PR_PROFILE_UNRESOLVED_SERVER`, `PR_ROH_PROXY_SERVER`, `PR_ROH_FLAGS`, `PR_ROH_PROXY_AUTH_SCHEME`, and `PR_PROFILE_AUTH_PACKAGE`.
 
-12. Click **OK**, and then configure each property according to the table below, depending on the version you are connecting to.
+1. Choose **OK**, and then configure each property according to the table below, depending on the version you are connecting to.
 
-13. On the **Session** menu, click **Logon and Display Store**, and then select the profile (if it is not already selected).
+1. On the **Session** menu, select **Logon and Display Store**, and then select the profile (if it's not already selected).
 
 ### Outlook 2016
   
@@ -93,9 +95,9 @@ For non-developers, it is recommended that you use the Outlook user interface to
 > - <sup>2</sup> For Outlook 2010, you will need to use the EXPR protocol. Outlook 2013 uses the EXHTTP protocol.
 > - <sup>3</sup> This value may not be in the Autodiscover response. If not specified, the client should use Kerberos or NTLM.
 
-For Troubleshooting tips, see [How to configure an Outlook profile using MFCMAPI for Exchange 2013](https://blogs.msdn.microsoft.com/dvespa/2014/01/16/how-to-configure-an-outlook-profile-using-mfcmapi-for-exchange-2013).
+For Troubleshooting tips, see [How to configure an Outlook profile using MFCMAPI for Exchange 2013](/archive/blogs/dvespa/how-to-configure-an-outlook-profile-using-mfcmapi-for-exchange-2013).
   
 ## See also
 
-- [Outlook MAPI Reference](https://msdn.microsoft.com/library/office/cc765775.aspx)  
-- [Programmatically Create a Profile in Outlook](https://msdn.microsoft.com/library/office/mt707568.aspx)
+- [Outlook MAPI Reference](/office/client-developer/outlook/mapi/outlook-mapi-reference)
+- [Programmatically Create a Profile in Outlook](/office/client-developer/outlook/mapi/how-to-programmatically-create-a-profile-in-outlook)
