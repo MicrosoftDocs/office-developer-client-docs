@@ -108,5 +108,4 @@ A simple description of the process for resolving multiple Exchange accounts is 
 [PidTagExchangeProfileSectionId Canonical Property](pidtagexchangeprofilesectionid-canonical-property.md)
 
 
-[How To Open the Global Profile Section](/learn/paths/configure-user-device-profiles/)
-
+[How To Open the Global Profile Section](/training/paths/configure-user-device-profiles/)

@@ -2,7 +2,7 @@
 title: Get the email address of a recipient
 TOCTitle: Get the email address of a recipient
 ms:assetid: e585811b-a298-496f-ba79-df7d46526169
-ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-get-the-e-mail-address-of-a-recipient?redirectedfrom=MSDN
+ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-get-the-e-mail-address-of-a-recipient?redirectedfrom=MSDN
 ms:contentKeyID: 55119879
 ms.date: 12/03/2019
 mtps_version: v=office.15
@@ -43,4 +43,3 @@ private void GetSMTPAddressForRecipients(Outlook.MailItem mail)
 ## See also
 
 - [Recipients](recipients.md)
-
