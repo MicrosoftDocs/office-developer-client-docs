@@ -2,7 +2,7 @@
 title: Get and sign in to an instance of Outlook
 TOCTitle: Get and sign in to an instance of Outlook
 ms:assetid: 7f5057dc-4232-4dc7-b597-16ff5f7bcd7d
-ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-get-and-log-on-to-an-instance-of-outlook?redirectedfrom=MSDN
+ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-get-and-log-on-to-an-instance-of-outlook?redirectedfrom=MSDN
 ms:contentKeyID: 55119926
 ms.date: 12/03/2019
 mtps_version: v=office.15
@@ -120,4 +120,3 @@ namespace OutlookAddIn1
 ## See also
 
 - [Sessions](sessions.md)
-
