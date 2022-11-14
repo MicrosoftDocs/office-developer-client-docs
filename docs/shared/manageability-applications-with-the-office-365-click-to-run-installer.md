@@ -468,7 +468,7 @@ The Microsoft 365 Apps file list API is used to retrieve the names of the files 
 
 HTTP Request
 
-GET <https://config.office.com/api/filelist>
+GET <https://clients.config.office.net/releases/v1.0/filelist>
 
 Do not supply a request body for this method.
 
@@ -497,7 +497,7 @@ Note: File objects with the attribute "lcid": "0" are language neutral files and
 The following example retrieves the file list for the Current Channel and version 16.0.4229.1004 for 64bit and includes the French and English language files.
 
 ```http
-Get https://config.office.com/api/filelist?Channel=Current&Version=16.0.4229.1004&Arch=x64&Lid=fr-fr&Lid=en-US
+Get https://clients.config.office.net/releases/v1.0/filelist?Channel=Current&Version=16.0.4229.1004&Arch=x64&Lid=fr-fr&Lid=en-US
 ```
 
 ### Hash verification of .dat files
@@ -546,7 +546,7 @@ Each Microsoft 365 Apps Update that is published includes metadata about the upd
 
 In the following example, the file list API is embedded in the MoreInfoURL and starts with “ServicePath=”
 
-<https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Insiders&Arch=64&XMLVer=1.6&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml>& ServicePath=<https://config.office.com/api/filelist?Channel=Insiders&Version=16.0.12527.21104&Arch=64&AllLanguages=True>
+<https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Insiders&Arch=64&XMLVer=1.6&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml>& ServicePath=<https://go.microsoft.com/fwlink/?linkid=2190568&Channel=Insiders&Version=16.0.12527.21104&Arch=64&AllLanguages=True>
   
 ### Additional metadata for automating content staging
 
@@ -557,7 +557,7 @@ The Microsoft 365 Apps release discovery API is used to retrieve details for eac
 HTTP Request
 
 ```http
-GET [https://config.office.com/api/filelist/channels](https://clients.config.office.net/releases/v1.0/OfficeReleases) 
+GET [https://clients.config.office.net/releases/v1.0/filelist/channels](https://clients.config.office.net/releases/v1.0/filelist/channels)
 ```
 
 Do not supply a request body for this method.
@@ -575,7 +575,7 @@ The SKUs API returns information that is useful for determining which products a
 HTTP Request
 
 ```http
-GET [https://config.office.com/api/filelist/skus](https://config.office.com/api/filelist/skus) 
+GET [https://clients.config.office.net/releases/v1.0/filelist/skus](https://clients.config.office.net/releases/v1.0/filelist/skus) 
 ```
 
 Do not supply a request body for this method.
