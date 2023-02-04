@@ -62,6 +62,10 @@ DEL_MESSAGES
   
 > All messages in the subfolder pointed to by  _lpEntryID_ should be deleted. 
     
+DELETE_HARD_DELETE
+  
+> Permanently removes the folder.
+    
 FOLDER_DIALOG 
   
 > A progress indicator should be displayed while the operation proceeds.
@@ -87,6 +91,8 @@ MAPI_W_PARTIAL_COMPLETION
 ## Remarks
 
 The **IMAPIFolder::DeleteFolder** method deletes a subfolder. By default, **DeleteFolder** operates only on empty folders, but you can use it successfully on non-empty folders by setting two flags: DEL_FOLDERS and DEL_MESSAGES. Only empty folders or folders that set both the DEL_FOLDERS and DEL_MESSAGES flags on the **DeleteFolder** call can be deleted. DEL_FOLDERS enables all of the folder's subfolders to be removed; DEL_MESSAGES enables all of the folder's messages to be removed. 
+  
+The MFCMAPI program allows to choose between folder soft-delete vs. folder hard-delete. Exchange Server 2019 does not implement folder soft-delete in private stores either, and treats deletion requests for folders within private stores (cf. the [[ropOpenFolder]](/openspecs/exchange_server_protocols/ms-oxcfold/9a9402e4-0694-4043-aee0-bcb9737cc8c0) request) as if DELETE_HARD_DELETE was set.
   
 ## Notes to implementers
 
