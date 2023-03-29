@@ -65,7 +65,7 @@ typedef struct _dir_entryid
     
 ## Remarks
 
-The structures **DIR_ENTRYID** and [CONTAB_ENTRYID](contab_entryid.md) are identical, except for the **ulType** member. The contents of the **ulType** member determine which structure is appropriate for the remaining fields. 
+The **DIR_ENTRYID** structure is a prefix of [CONTAB_ENTRYID](contab_entryid.md). The contents of the **ulType** member determine which structure is appropriate for the remaining fields. 
   
 ## See also
 
