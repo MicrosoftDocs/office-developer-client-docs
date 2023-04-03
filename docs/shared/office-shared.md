@@ -43,7 +43,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Code samples
   
-- [Code samples](https://developer.microsoft.com/office/gallery/?filterBy=Samples)
+- [Code samples](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=Samples)
   
 - [OfficeDev on GitHub](https://github.com/OfficeDev)
   

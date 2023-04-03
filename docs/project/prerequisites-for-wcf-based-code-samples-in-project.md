@@ -330,7 +330,7 @@ You can edit an app.config file by using the **WCF Service Configuration Editor*
 
 ![Using the WCF Service Configuration Editor](media/pj15_PrerequisitesWCF_ServiceConfigurationEditor.gif "Using the WCF Service Configuration Editor")
   
-If the solution is using a service proxy file, such as wcfResource.cs, compile the application and then open the executable file in the `bin\debug` directory. For more information about editing the app.config file, see [Walkthrough: Developing PSI applications using WCF](https://msdn.microsoft.com/library/65707234-c3da-44e4-8364-32a6be28f645%28Office.15%29.aspx).
+If the solution is using a service proxy file, such as wcfResource.cs, compile the application and then open the executable file in the `bin\debug` directory. For more information about editing the app.config file, see [Walkthrough: Developing PSI applications using WCF](/previous-versions/office/developer/office-2010/ee767691(v=office.14)).
   
 **Figure 5. Using the Contract Type Browser in the WCF Service Configuration Editor**
 

@@ -13,7 +13,7 @@ description: "Find how-to content, sample code, SDK and API documentation, VBA r
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing PowerPoint.
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](/office/dev/add-ins/).
+> Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/).
   
 ## Viewed most
   
@@ -29,7 +29,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ## Code samples
   
-- [PowerPoint code samples in the Office Dev Center](https://developer.microsoft.com/office/gallery/?filterBy=Samples,PowerPoint)
+- [PowerPoint code samples in the Office Dev Center](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=PowerPoint,Samples&search=)
   
 ## Other resources
 
