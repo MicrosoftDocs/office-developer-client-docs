@@ -13,7 +13,7 @@ ms.localizationpriority: high
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Outlook. 
 
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins). 
+> Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins). 
   
 ### Viewed most
   

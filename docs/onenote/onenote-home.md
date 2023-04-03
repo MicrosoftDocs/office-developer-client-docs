@@ -16,7 +16,7 @@ Find how-to content, technical articles, reference content, and blog posts for d
 > The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](https://dev.onenote.com/). 
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).  
+> Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).  
   
 ## Contents
   
