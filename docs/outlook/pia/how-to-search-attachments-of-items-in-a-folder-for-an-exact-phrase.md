@@ -2,7 +2,7 @@
 title: Search attachments of items in a folder for an exact phrase
 TOCTitle: Search attachments of items in a folder for an exact phrase
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
-ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase?redirectedfrom=MSDN
+ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase
 ms:contentKeyID: 55119889
 ms.date: 09/14/2021
 mtps_version: v=office.15

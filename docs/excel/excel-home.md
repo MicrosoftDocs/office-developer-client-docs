@@ -29,7 +29,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Code samples
   
-- [Excel code samples in the Office Dev Center](https://developer.microsoft.com/excel/gallery/?filterBy=Samples)
+- [Excel code samples in the Office Dev Center](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=Excel,Samples&search=)
   
 ### Other resources
   

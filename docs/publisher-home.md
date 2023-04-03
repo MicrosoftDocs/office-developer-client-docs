@@ -13,7 +13,7 @@ description: "Find how-to content, technical articles, and references for develo
 Find how-to content, technical articles, and references for developing solutions and customizing Publisher.
 
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across [multiple platforms](/office/dev/add-ins/overview/office-add-in-availability)? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).
+> Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).
 
 ## Viewed most
 

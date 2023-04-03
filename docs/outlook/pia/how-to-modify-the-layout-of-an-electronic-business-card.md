@@ -2,7 +2,7 @@
 title: Modify the layout of an electronic business card
 TOCTitle: Modify the layout of an electronic business card
 ms:assetid: f387c4a7-59c5-4b6a-b33a-1bfa7d499bbf
-ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card?redirectedfrom=MSDN
+ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card
 ms:contentKeyID: 55119838
 ms.date: 12/03/2019
 mtps_version: v=office.15
@@ -15,7 +15,7 @@ This example shows how to modify the layout of an electronic business card by us
 
 ## Example
 
-> [!NOTE] 
+> [!NOTE]
 > The following code example is an excerpt from [Programming Applications for Microsoft Office Outlook 2007](https://www.amazon.com/gp/product/0735622493?ie=UTF8&tag=msmsdn-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735622493).
 
 An electronic business card provides a contact view that captures specific information from that contact. The **ContactItem** interface provides specific members that pertain to electronic business cards. These members are **BusinessCardLayoutXml**, [BusinessCardType](/dotnet/api/microsoft.office.interop.outlook._contactitem.businesscardtype), [AddBusinessCardLogoPicture(String)](/dotnet/api/microsoft.office.interop.outlook._contactitem.addbusinesscardlogopicture), [ForwardAsBusinessCard()](/dotnet/api/microsoft.office.interop.outlook._contactitem.forwardasbusinesscard), [ResetBusinessCard()](/dotnet/api/microsoft.office.interop.outlook._contactitem.resetbusinesscard), [SaveBusinessCardImage(String)](/dotnet/api/microsoft.office.interop.outlook._contactitem.savebusinesscardimage), and [ShowBusinessCardEditor()](/dotnet/api/microsoft.office.interop.outlook._contactitem.showbusinesscardeditor).

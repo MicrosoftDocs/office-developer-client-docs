@@ -44,37 +44,37 @@ HRESULT HrCreateApptRebaser(
 _ulFlags_
   
 > [in] Required. A bitmask of flags used to control how rebasing is performed. The following flags can be set and are defined in tzmovelib.h:
-    
-   - **REBASE_FLAG_UPDATE_ORGANIZED_MEETINGS** —Appointment items in which the user is the meeting organizer are rebased. Note that by default, this causes Outlook to send meeting updates to all attendees of any meeting being rebased. You can combine this flag with either **REBASE_FLAG_FORCE_NO_EX_UPDATES** or **REBASE_FLAG_FORCE_NO_UPDATES** to change how meeting updates are handled.
-    
-   - **REBASE_FLAG_UPDATE_UNMARKED** —Update appointment items that have not been marked with a time zone. If this flag is specified, the *pTZMissing* value is used as the time zone that an item is created in for all items that do not have time zone data.
-    
-   - **REBASE_FLAG_UPDATE_ONLYRECURRING** —Update only recurring appointment items.
-    
-   - **REBASE_FLAG_NO_UI** —Do not show any user interface (UI), including logon dialog boxes generally displayed when opening a message store.
-    
-   - **REBASE_FLAG_UPDATE_MINIMIZEAPPTS** —Do not rebase appointment items that occur in the past.
-    
-   - **REBASE_FLAG_FORCE_REBASE** —Do not check the organizer for rebasing decisions, but rebase appointment items in which the user is an attendee.
-    
-   - **REBASE_FLAG_FORCE_NO_EX_UPDATES** —Send updates only if the user is the organizer and recipient is not connected to an Exchange Server.
-    
-   - **REBASE_FLAG_FORCE_NO_UPDATES** —Never send updates.
-    
-   - **REBASE_FLAG_ONLY_CREATED_PRE_PATCH** —Rebase only single-instance appointment items created before the patch was applied.
-    
-   - **REBASE_FLAG_REPORTING_MODE** —Do not actually rebase, just report appointment items that would be rebased.
-    
-   - **REBASE_FLAG_SEND_RESOURCE_UPDATES** —Send meeting updates to resources.
-    
+
+- **REBASE_FLAG_UPDATE_ORGANIZED_MEETINGS** —Appointment items in which the user is the meeting organizer are rebased. Note that by default, this causes Outlook to send meeting updates to all attendees of any meeting being rebased. You can combine this flag with either **REBASE_FLAG_FORCE_NO_EX_UPDATES** or **REBASE_FLAG_FORCE_NO_UPDATES** to change how meeting updates are handled.
+
+- **REBASE_FLAG_UPDATE_UNMARKED** —Update appointment items that have not been marked with a time zone. If this flag is specified, the _pTZMissing_ value is used as the time zone that an item is created in for all items that do not have time zone data.
+
+- **REBASE_FLAG_UPDATE_ONLYRECURRING** —Update only recurring appointment items.
+
+- **REBASE_FLAG_NO_UI** —Do not show any user interface (UI), including logon dialog boxes generally displayed when opening a message store.
+
+- **REBASE_FLAG_UPDATE_MINIMIZEAPPTS** —Do not rebase appointment items that occur in the past.
+
+- **REBASE_FLAG_FORCE_REBASE** —Do not check the organizer for rebasing decisions, but rebase appointment items in which the user is an attendee.
+
+- **REBASE_FLAG_FORCE_NO_EX_UPDATES** —Send updates only if the user is the organizer and recipient is not connected to an Exchange Server.
+
+- **REBASE_FLAG_FORCE_NO_UPDATES** —Never send updates.
+
+- **REBASE_FLAG_ONLY_CREATED_PRE_PATCH** —Rebase only single-instance appointment items created before the patch was applied.
+
+- **REBASE_FLAG_REPORTING_MODE** —Do not actually rebase, just report appointment items that would be rebased.
+
+- **REBASE_FLAG_SEND_RESOURCE_UPDATES** —Send meeting updates to resources.
+
 _pSession_
   
 > [in] Required. A pointer to a MAPI session interface.
-    
+
 _pCalendarMsgStore_
   
 > [in] Required. A pointer to a message store containing appointment items to be rebased.
-    
+
 _pCalendarFolder_
   
 > [in] Required. A pointer to a calendar folder containing appointment items to be rebased.
@@ -115,7 +115,7 @@ S_OK if the call succeeded; otherwise, an error code.
 
 When using [GetProcAddress](https://msdn.microsoft.com/library/a0d7fc09-f888-4f46-a571-d3719a627597%28Office.15%29.aspx) to look for the address of this function in tzmovelib.dll, specify **HrCreateApptRebaser@44** as the procedure name. Not all of the flags are valid in combination with each other.
   
-For more information about the various options, see the section "Glossary of command-line options for the Outlook Time Zone Data Update tool" in [KB 931667: How to address time zone changes by using the Time Zone Data Update Tool for Microsoft Office Outlook](https://support.microsoft.com/kb/931667/en-us).
+For more information about the various options, see the section "Glossary of command-line options for the Outlook Time Zone Data Update tool" in [KB 931667: How to address time zone changes by using the Time Zone Data Update Tool for Microsoft Office Outlook](https://support.microsoft.com/office/add-remove-or-change-time-zones-5ab3e10e-5a6c-46af-ab48-156fedf70c04).
   
 ## See also
 
