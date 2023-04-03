@@ -29,7 +29,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 ### Code samples
   
-- [Word code samples in the Office Dev Center](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
+- [Word code samples in the Office Dev Center](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=Word,Samples&search=)
   
 ### Other resources
   
@@ -41,4 +41,3 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [VSTO Add-ins for Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true)
   
-
