@@ -2,7 +2,7 @@
 title: Modify the layout of an electronic business card
 TOCTitle: Modify the layout of an electronic business card
 ms:assetid: f387c4a7-59c5-4b6a-b33a-1bfa7d499bbf
-ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card?redirectedfrom=MSDN
+ms:mtpsurl: https://learn.microsoft.com/office/client-developer/outlook/pia/how-to-modify-the-layout-of-an-electronic-business-card
 ms:contentKeyID: 55119838
 ms.date: 12/03/2019
 mtps_version: v=office.15
