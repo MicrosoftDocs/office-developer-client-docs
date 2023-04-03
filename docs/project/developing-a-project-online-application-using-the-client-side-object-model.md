@@ -56,7 +56,7 @@ Start with a base system running Windows 10, and add the following items:
 
 In developing a desktop application for SharePoint, the preferred interface is the Project client side object model (CSOM).
   
-You can download the [Project CSOM samples](https://developer.microsoft.com/project/gallery/?filterBy=Samples,Project) from the Project Developer resource gallery on the Office Dev Center.
+You can download the [Project CSOM samples](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=Samples,Project) from the Project Developer resource gallery on the Office Dev Center.
   
 The first two topics cover basic issues: creating a Visual Studio project with appropriate namespaces and assemblies, and accessing the hosting server. The remaining topics deal with retrieving information through the CSOM, from one and many objects.
   

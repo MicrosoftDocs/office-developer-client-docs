@@ -904,7 +904,7 @@ The following resources provide more information about the primary Outlook refer
 
 ### Code samples
 
-- [Mail apps samples](https://developer.microsoft.com/outlook/gallery/?filterBy=Outlook,Samples)
+- [Mail apps samples](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=Outlook,Samples)
 - Object model code samples: [How Do I ... in Outlook](/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference)  
 - PIA code samples: [How Do I... (Outlook Reference)](./pia/how-do-i-outlook-2013-pia-reference.md)  
 - [MAPI Samples](./mapi/mapi-samples.md)
