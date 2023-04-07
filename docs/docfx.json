@@ -51,6 +51,12 @@
       "description": "Office developer client VBA reference"
     },
     "fileMetadata": {
+      "ms.subservice": {
+        "outlook/**.md": "dev-overview"
+      },
+      "ms.service": {
+        "outlook/**.md": "outlook"
+      },
       "ms.technology": {
         "project/**.md": "dev-overview",
         "excel/**.md": "excel-xll",
@@ -61,7 +67,6 @@
         "infopath/external-automation/**.md": "external-automation",
         "infopath/form-templates/**.md": "form-templates",
         "onenote/**.md": "dev-overview",
-        "outlook/**.md": "dev-overview",
         "outlook/pia/**.md": "pia",
         "outlook/mapi/**.md": "mapi",
         "outlook/social-connector/**.md": "social-connector",
@@ -75,7 +80,6 @@
         "word/**.md": "word",
         "infopath/**.md": "infopath",
         "onenote/**.md": "onenote",
-        "outlook/**.md": "outlook",
         "visio/**.md": "visio"
       },
       "feedback_system": {
