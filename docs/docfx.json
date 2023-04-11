@@ -58,10 +58,7 @@
         "outlook/pia/**.md": "pia"
       },
       "ms.service": {
-        "outlook/**.md": "outlook",
-        "outlook/auxiliary/**.md": "outlook",
-        "outlook/mapi/**.md": "outlook",
-        "outlook/pia/**.md": "outlook"
+        "outlook/**.md": "outlook"
       },
       "ms.technology": {
         "project/**.md": "dev-overview",
