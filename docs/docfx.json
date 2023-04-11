@@ -69,9 +69,7 @@
         "shared/**.md": "telemetry",
         "infopath/external-automation/**.md": "external-automation",
         "infopath/form-templates/**.md": "form-templates",
-        "onenote/**.md": "dev-overview",
-        "outlook/social-connector/**.md": "social-connector",
-        "outlook/weather/**.md": "weather"
+        "onenote/**.md": "dev-overview"
       },
       "ms.prod": {
         "project/**.md": "project",
