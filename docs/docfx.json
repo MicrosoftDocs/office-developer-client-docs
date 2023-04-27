@@ -55,13 +55,14 @@
         "outlook/**.md": "dev-overview",
         "outlook/auxiliary/**.md": "auxiliary",
         "outlook/mapi/**.md": "mapi",
-        "outlook/pia/**.md": "pia"
+        "outlook/pia/**.md": "pia",
+        "project/**.md": "dev-overview"
       },
       "ms.service": {
-        "outlook/**.md": "outlook"
+        "outlook/**.md": "outlook",
+        "project/**.md": "project"
       },
       "ms.technology": {
-        "project/**.md": "dev-overview",
         "excel/**.md": "excel-xll",
         "access/**.md": "custom-web-app",
         "word/**.md": "content-controls",
@@ -72,7 +73,6 @@
         "onenote/**.md": "dev-overview"
       },
       "ms.prod": {
-        "project/**.md": "project",
         "excel/**.md": "excel",
         "access/**.md": "access",
         "word/**.md": "word",
