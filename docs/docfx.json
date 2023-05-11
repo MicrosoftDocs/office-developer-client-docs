@@ -61,11 +61,20 @@
       "ms.service": {
         "outlook/**.md": "outlook",
         "onenote/**.md": "onenote"
+
+      },
+      "ms.technology": {
+        "project/**.md": "dev-overview",
+        "access/**.md": "custom-web-app",
+        "access/**.md": "custom-web-app"
+      },
+      "ms.service": {
+        "outlook/**.md": "outlook",
+        "access/**.md": "access"
       },
       "ms.technology": {
         "project/**.md": "dev-overview",
         "excel/**.md": "excel-xll",
-        "access/**.md": "custom-web-app",
         "word/**.md": "content-controls",
         "integration/**.md": "integration",
         "shared/**.md": "telemetry",
@@ -74,8 +83,8 @@
       },
       "ms.prod": {
         "project/**.md": "project",
-        "excel/**.md": "excel",
         "access/**.md": "access",
+        "excel/**.md": "excel",
         "word/**.md": "word",
         "infopath/**.md": "infopath",
         "outlook/**.md": "outlook",
