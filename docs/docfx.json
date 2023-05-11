@@ -56,12 +56,11 @@
         "outlook/auxiliary/**.md": "auxiliary",
         "outlook/mapi/**.md": "mapi",
         "outlook/pia/**.md": "pia",
-        "word/**.md": "content-controls"
+        "onenote/**.md": "dev-overview"
       },
       "ms.service": {
         "outlook/**.md": "outlook",
-        "word/**.md": "word"
-
+        "onenote/**.md": "onenote"
       },
       "ms.technology": {
         "project/**.md": "dev-overview",
@@ -79,8 +78,7 @@
         "integration/**.md": "integration",
         "shared/**.md": "telemetry",
         "infopath/external-automation/**.md": "external-automation",
-        "infopath/form-templates/**.md": "form-templates",
-        "onenote/**.md": "dev-overview"
+        "infopath/form-templates/**.md": "form-templates"
       },
       "ms.prod": {
         "project/**.md": "project",
@@ -88,7 +86,6 @@
         "excel/**.md": "excel",
         "word/**.md": "word",
         "infopath/**.md": "infopath",
-        "onenote/**.md": "onenote",
         "outlook/**.md": "outlook",
         "visio/**.md": "visio"
       },
