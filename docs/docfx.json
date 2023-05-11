@@ -56,6 +56,15 @@
         "outlook/auxiliary/**.md": "auxiliary",
         "outlook/mapi/**.md": "mapi",
         "outlook/pia/**.md": "pia",
+        "excel/**.md": "excel-xll"
+      },
+      "ms.service": {
+        "outlook/**.md": "outlook",
+        "excel/**.md": "excel"
+      },
+      "ms.technology": {
+        "project/**.md": "dev-overview",
+        "access/**.md": "custom-web-app",
         "access/**.md": "custom-web-app"
       },
       "ms.service": {
@@ -74,6 +83,7 @@
       },
       "ms.prod": {
         "project/**.md": "project",
+        "access/**.md": "access",
         "excel/**.md": "excel",
         "word/**.md": "word",
         "infopath/**.md": "infopath",
