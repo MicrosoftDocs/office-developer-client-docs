@@ -61,7 +61,6 @@
       "ms.service": {
         "outlook/**.md": "outlook",
         "onenote/**.md": "onenote"
-
       },
       "ms.technology": {
         "project/**.md": "dev-overview",
