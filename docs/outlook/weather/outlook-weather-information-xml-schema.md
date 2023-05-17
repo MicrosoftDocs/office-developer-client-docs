@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 91a8ec9b-fb42-8081-cc23-172aa55531e1
 description: "This section contains the Outlook 2013 schema reference for the Outlook Weather Information XML Schema. This schema enables weather service providers to send weather forecast information for a specified location as a web service response to Outlook, so that Outlook can display the information in the Weather Bar."

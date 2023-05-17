@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5d41a536-81ff-733c-2fd7-460798e057c8
 description: "Specifies the version of Exchange Server to which accounts in an Outlook profile are connected. A profile can specify accounts that connect to an Exchange Server."

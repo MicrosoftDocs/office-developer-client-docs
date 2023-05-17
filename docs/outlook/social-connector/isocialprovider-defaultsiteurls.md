@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 322ea2e9-d6c9-48f9-a927-7162346d16a4
 description: "Returns an array of strings that specify site URLs for the Outlook Social Connector (OSC) provider."

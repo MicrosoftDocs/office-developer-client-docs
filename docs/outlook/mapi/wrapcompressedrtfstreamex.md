@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 45abee1c-d7fb-b0f9-522d-8ba34caf1094
 description: "Decompresses the body of an email message that's in compressed RTF indicates the format of the stream, and returns the decompressed or converted native stream."

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8cac444b-0e81-44ff-a7a0-87793b533e26
 description: "Logs on to the social network site by using cached credentials."

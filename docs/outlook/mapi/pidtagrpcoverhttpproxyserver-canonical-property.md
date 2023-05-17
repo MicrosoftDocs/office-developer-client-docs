@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 25787ee0-0cd3-e448-a54e-a6aa03b8b718
 description: "Contains the URL of the proxy server that's used to connect Outlook to Exchange Server without the HTTP or HTTPS protocol that comes before the URL."

@@ -4,7 +4,7 @@ manager: lindalu
 ms.date: 02/22/2022
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: e03c5a87-4513-2133-ae0a-11d242f80e4b
 ---

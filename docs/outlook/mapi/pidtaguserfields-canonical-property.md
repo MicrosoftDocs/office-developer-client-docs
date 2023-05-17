@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
 description: "Contains the name, data type, and other information about a user-defined field for Outlook 2013 and Outlook 2016."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 5ed122a2-0967-4de3-a2ee-69f81ae77b16
 description: "Contains the Simple Mail Transport Protocol (SMTP) email address for the messaging user who is represented by the sender."

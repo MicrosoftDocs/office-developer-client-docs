@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8b51675f-77b7-4df0-8496-b1e8958c6544
 description: "Returns an array of bytes that represents the icon for the social network."

@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: e9356257-4581-44fe-8efa-172964e4c8d4
 description: "Store property controlling Inference logging for Outlook 2013 or Outlook 2016."

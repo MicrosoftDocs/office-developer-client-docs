@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 02fcaf25-42b5-4584-95c6-d44a3d035128
 description: "Gets an array of bytes that contains the picture resource for the person."

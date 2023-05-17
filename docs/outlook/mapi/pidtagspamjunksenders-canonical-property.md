@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3c5182a7-7d7a-48e8-b9cb-5abd7739f0fd
 description: "Contains a semicolon-delimited list of email addresses and domains that comprise blocked senders."

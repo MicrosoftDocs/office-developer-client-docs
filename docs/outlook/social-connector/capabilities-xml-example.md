@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: ae1abafe-160c-47c0-b4d5-4a689c8c4cb1
 description: "The XML example in this topic is an XML string returned to the Outlook Social Connector (OSC) after it calls the ISocialProvider::GetCapabilities method for a social network. The XML shows how an OSC provider specifies its capabilities and requirements for the OSC."
