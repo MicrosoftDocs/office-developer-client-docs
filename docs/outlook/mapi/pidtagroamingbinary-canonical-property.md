@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f06bf063-fc95-46f9-b5fa-3f127a59ebda
 description: "Contains a message stream associated with a subclass of the IPM.Configuration class. The format of the stream depends on the message class."

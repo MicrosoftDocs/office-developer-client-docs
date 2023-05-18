@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f4217030-5fd1-4ec4-a83f-752717fbb787
 description: "Logs on to the social network site by using forms-based authentication."

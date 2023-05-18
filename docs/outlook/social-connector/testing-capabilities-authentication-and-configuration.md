@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 69e1f5bc-354c-4c33-84a1-b1aa10d4b650
 description: "This topic describes tests for getting capabilities, and scenarios around configuring an account and authenticating a user for a social network."

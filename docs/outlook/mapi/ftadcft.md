@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 ---

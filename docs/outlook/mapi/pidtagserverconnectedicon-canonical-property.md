@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8adbc29b-8fb1-474f-b128-b8fc58283b92
 description: "Specifies the icon displayed in the status bar for Outlook 2013 or Outlook 2016."

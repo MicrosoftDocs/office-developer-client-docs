@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/05/2015
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: b60b3634-4c8b-4273-97a0-0a8a5a8a5342
 description: "This topic describes the Windows registry locations that are used when you install an Outlook Social Connector (OSC) provider."

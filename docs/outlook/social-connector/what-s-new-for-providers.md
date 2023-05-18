@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
 description: "This topic lists the major changes in Outlook Social Connector 2013 (OSC). It presents a comparison of the features available between Outlook Social Connector 2013 and Outlook Social Connector 1.1."

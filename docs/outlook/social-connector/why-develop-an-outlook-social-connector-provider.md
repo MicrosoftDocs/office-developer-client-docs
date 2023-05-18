@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3e8cf5a1-31d1-4d69-8db3-511b6880eb89
 description: "An Outlook Social Connector (OSC) provider allows Office users to view within an Office client application an aggregation of social information updates applied on a professional or social network site."

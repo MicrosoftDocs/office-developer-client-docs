@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 74662f25-5e18-4d0b-999c-a144427ad9e3
 description: "An activityTemplateContainer element is a template that allows you to format your activity feed items and reuse XML that specifies a layout."

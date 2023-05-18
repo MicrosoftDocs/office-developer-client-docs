@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 1c9f4dd4-65f6-446f-8b86-a375ce402658
 description: "Represents an instance of an Outlook Social Connector (OSC) provider."

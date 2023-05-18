@@ -4,7 +4,7 @@ manager: lindalu
 ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 api_name:
 - ADRLIST

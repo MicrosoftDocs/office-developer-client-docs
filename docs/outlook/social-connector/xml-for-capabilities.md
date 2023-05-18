@@ -4,7 +4,7 @@ manager: lindalu
 ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: edad1223-a55f-4e4a-8e90-3471f2f559ac
 description: "The capabilities element in the (OSC) provider XML schema allows an OSC provider to specify its functionality. Such functionality includes the following:"

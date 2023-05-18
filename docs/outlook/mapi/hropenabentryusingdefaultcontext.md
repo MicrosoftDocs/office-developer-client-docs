@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 17cba69b-2b25-4b99-99d9-ec68fb8a35b5
 description: "Performs the same function as HrOpenABEntryWithExchangeContext except that it uses the legacy emsmdbUID as the _pEmsmdbUID_ parameter."

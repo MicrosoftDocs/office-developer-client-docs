@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 80273b50-bc16-4be2-8471-1a127b6786bb
 description: "Enables Kerberos authentication of a profile configuration. Setting this property to the Domain Name of the user's directory server allows direct connection to the Domain Controller."

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d8d41ced-c2bb-482e-b0bc-1b46c82121bd
 description: "Gets an automatically configured ISocialSession interface."

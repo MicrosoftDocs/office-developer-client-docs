@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 14e0c469-31dc-fbe2-0d45-da602df04f13
 description: "Defines the weather element."

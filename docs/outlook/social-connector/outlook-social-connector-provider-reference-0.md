@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 157aed97-1cb9-465d-b7eb-343771cc0cba
 description: "This section contains reference topics for Outlook Social Connector (OSC) provider extensibility."

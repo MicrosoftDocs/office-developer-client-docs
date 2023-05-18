@@ -5,7 +5,7 @@ manager: lindalu
 ms.date: 09/09/2021
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 api_name:
 - MAPI.PidTagOrgEmailAddress

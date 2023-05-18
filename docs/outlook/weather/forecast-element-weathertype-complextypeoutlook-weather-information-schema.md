@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
 description: "Specifies the future weather conditions of at least three days ahead including today: Today, Tomorrow, Day after Tomorrow."

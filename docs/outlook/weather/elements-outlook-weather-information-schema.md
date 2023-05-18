@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 45fbc451-06f0-133d-9818-55574e202091
 description: "This topic lists the elements in the Outlook Weather Information XML schema."

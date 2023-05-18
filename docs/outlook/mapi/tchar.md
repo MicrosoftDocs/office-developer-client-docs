@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 api_name:
 - MAPI.TCHAR
 api_type:

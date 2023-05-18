@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 8c88a625-da57-3b1d-9887-0a898b722766
 description: "Specifies complete version and build information about the Microsoft Exchange Server to which accounts in a profile are connected."

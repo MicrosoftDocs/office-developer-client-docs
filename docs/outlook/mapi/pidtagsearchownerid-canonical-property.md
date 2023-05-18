@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 01ac66b3-1868-6b1e-7026-ab61380c8cc5
 description: "Contains the process ID of the process that is sending notifications to the indexer about objects ready for indexing."

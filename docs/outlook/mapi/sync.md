@@ -4,7 +4,7 @@ manager: lindalu
 ms.date: 02/22/2022
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 3f07fddf-4c42-6ea7-162d-57022166a83f
 description: "Information for starting synchronization between a local store and a server."

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 6f8f6af2-c7fa-4135-9532-7af5fc643b0d
 description: "Instances of template variables (represented by a templateVariable element) specify the data of an activity feed item in an activity template."

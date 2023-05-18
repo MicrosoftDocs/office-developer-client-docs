@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 6e91b765-a207-4d8c-8763-5d643ca4d0c0
 description: "The Outlook Social Connector (OSC) supports displaying information from a social network about a person in the Contact Card or in the Outlook People Pane. SharePoint Server, SharePoint Workspace, Lync client, and all Office client applications that support presence information support the Contact Card."
