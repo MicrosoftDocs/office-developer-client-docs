@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 22e3de8a-c4f2-41a4-a5b1-c5b1bf06f724
 description: "You should adhere to the following practices when you develop an Outlook Social Connector 2013 (OSC) provider:"

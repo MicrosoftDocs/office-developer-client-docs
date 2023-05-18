@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: c103d48d-53ca-4b19-b16f-2862379587ef
 description: "The activityDetails element stores the raw data for a single activity feed item. Each activity feed item must have its own activityDetails element. Data in the activityDetails element is referenced in activity templates by using name elements."

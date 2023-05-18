@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
 description: "This structure provides information about a stream in native format returned from decompressing the body of a message that is encapsulated in compressed RTF."

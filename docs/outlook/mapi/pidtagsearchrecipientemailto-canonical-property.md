@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f5de77c3-5912-f7bc-8e8c-3a053545c359
 description: "Contains a Unicode string that is being queried in the email addresses or display names of recipients that are addressed in the To line of messages."

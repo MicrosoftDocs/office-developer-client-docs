@@ -55,29 +55,37 @@
         "outlook/**.md": "dev-overview",
         "outlook/auxiliary/**.md": "auxiliary",
         "outlook/mapi/**.md": "mapi",
-        "outlook/pia/**.md": "pia"
+        "outlook/pia/**.md": "pia",
+        "onenote/**.md": "dev-overview"
       },
       "ms.service": {
-        "outlook/**.md": "outlook"
+        "outlook/**.md": "outlook",
+        "onenote/**.md": "onenote"
+      },
+      "ms.technology": {
+        "project/**.md": "dev-overview",
+        "access/**.md": "custom-web-app",
+        "access/**.md": "custom-web-app"
+      },
+      "ms.service": {
+        "outlook/**.md": "outlook",
+        "access/**.md": "access"
       },
       "ms.technology": {
         "project/**.md": "dev-overview",
         "excel/**.md": "excel-xll",
-        "access/**.md": "custom-web-app",
         "word/**.md": "content-controls",
         "integration/**.md": "integration",
         "shared/**.md": "telemetry",
         "infopath/external-automation/**.md": "external-automation",
-        "infopath/form-templates/**.md": "form-templates",
-        "onenote/**.md": "dev-overview"
+        "infopath/form-templates/**.md": "form-templates"
       },
       "ms.prod": {
         "project/**.md": "project",
-        "excel/**.md": "excel",
         "access/**.md": "access",
+        "excel/**.md": "excel",
         "word/**.md": "word",
         "infopath/**.md": "infopath",
-        "onenote/**.md": "onenote",
         "outlook/**.md": "outlook",
         "visio/**.md": "visio"
       },

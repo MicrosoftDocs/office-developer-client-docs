@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
 description: "This section suggests tests you can do before you release your Outlook Social Connector (OSC) provider."

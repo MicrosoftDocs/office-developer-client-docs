@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 55268188-8432-4145-9527-f5888949fc24
 description: "Outlook Social Connector (OSC) providers can set the getActivities and dynamicActivitiesLookupEx elements to have the OSC store activity items in memory."

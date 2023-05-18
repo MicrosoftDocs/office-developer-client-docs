@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: d9561d13-8d52-500c-5369-15a2cf5c92c3
 description: "Contains a Unicode string that is being queried in the email addresses or display names of recipients that are addressed in the BCC line of messages."

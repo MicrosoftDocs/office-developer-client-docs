@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: fb4837d1-b8b9-4773-84f1-3a10cda616da
 description: "Specifies the icon displayed in the Account Picker for Outlook 2013 or Outlook 2016."

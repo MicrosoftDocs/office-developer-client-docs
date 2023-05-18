@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 534c3881-e12f-f228-7760-788fe2b72ae8
 description: "Contains a Unicode string that is being queried in attachment contents on the store for Outlook 2013 or Outlook 2016."

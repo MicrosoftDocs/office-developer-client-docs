@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 2b2d6b8e-e3dd-4a9b-8bb5-53add675605d
 description: "A long value that indicates the level of spam filtering for Outlook 2013 or Outlook 2016."

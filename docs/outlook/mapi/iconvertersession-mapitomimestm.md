@@ -3,7 +3,7 @@ title: "IConverterSessionMAPIToMIMEStm"
 ms.date: 9/20/2017
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 api_name:
 - IConverterSession.MAPIToMIMEStm

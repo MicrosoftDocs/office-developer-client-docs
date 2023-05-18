@@ -4,7 +4,7 @@ description: Outlines the PidLidWhere canonical property, which specifies the lo
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 api_name:
 - PidLidWhere

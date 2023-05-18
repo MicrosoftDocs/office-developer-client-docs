@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: 6da78f1a-6423-460c-b3a9-fd6441df9cef
 description: "Represents the authentication protocol to be used for this profile. This property can be set for either basic authentication or NT LAN Manager authentication."

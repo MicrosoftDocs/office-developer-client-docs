@@ -4,4 +4,5 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 
 Access the [Office client development](/office/client-developer/office-client-development) documentation for this repo on Microsoft Learn.
 
-For information about how to contribute to this documentation, see [Contributing](contributing.md).
+This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer.
+For additional information about how to contribute to this documentation, see [Contributing](contributing.md).

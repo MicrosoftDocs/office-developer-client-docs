@@ -4,7 +4,7 @@ manager: lindalu
 ms.date: 03/09/2022
 ms.audience: Developer
 ms.topic: overview
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: acc4a555-a3bf-4a79-86dc-aba6477733b8
 description: "This topic contains an example scenario that shows the Outlook Social Connector (OSC) provider extensibility API calls that an OSC provider implements and the OSC makes to obtain activities information. Information is expressed in XML strings that conform to the OSC provider XML schema."

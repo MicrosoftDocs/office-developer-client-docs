@@ -6,7 +6,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 ms.assetid: f8054fd9-85ba-fcf6-c96d-a54095d5238c
 description: "Defines the parameters about the weather conditions of a location."

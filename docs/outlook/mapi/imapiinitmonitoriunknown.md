@@ -3,7 +3,7 @@ title: "IMAPIInitMonitor : IUnknown"
 manager: lindalu
 26ms.audience: Developer
 ms.topic: reference
-ms.prod: office-online-server
+ms.service: office-online-server
 ms.localizationpriority: medium
 api_name:
 - IMAPIInitMonitor
