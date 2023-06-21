@@ -24,7 +24,7 @@ Find how-to content, technical articles, reference content, and blog posts for d
    
 ## Other resources
   
-- [Office VBA Object library reference]/office/vba/api/overview/library-reference)
+- [Office VBA Object library reference](/office/vba/api/overview/library-reference)
   
 - [Office VBA language reference](/office/vba/api/overview/language-reference)
   
