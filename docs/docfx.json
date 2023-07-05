@@ -59,6 +59,7 @@
         "onenote/**.md": "dev-overview",
         "project/**.md": "dev-overview",
         "excel/**.md": "excel-xll"
+        "word/**.md": "content-controls"
       },
       "ms.service": {
         "outlook/**.md": "outlook",
@@ -77,6 +78,10 @@
       },
       "ms.technology": {
         "word/**.md": "content-controls",
+        "word/**.md": "word"
+      },
+      "ms.technology": {
+        "excel/**.md": "excel-xll",
         "integration/**.md": "integration",
         "shared/**.md": "telemetry",
         "infopath/external-automation/**.md": "external-automation",
@@ -85,6 +90,7 @@
       "ms.prod": {
         "access/**.md": "access",
         "word/**.md": "word",
+        "excel/**.md": "excel",
         "infopath/**.md": "infopath",
         "outlook/**.md": "outlook",
         "visio/**.md": "visio"
