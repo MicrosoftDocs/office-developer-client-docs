@@ -58,6 +58,7 @@
         "outlook/pia/**.md": "pia",
         "onenote/**.md": "dev-overview",
         "project/**.md": "dev-overview",
+        "excel/**.md": "excel-xll"
         "word/**.md": "content-controls"
       },
       "ms.service": {
@@ -73,6 +74,10 @@
         "outlook/**.md": "outlook",
         "access/**.md": "access",
         "project/**.md": "project",
+        "excel/**.md": "excel"
+      },
+      "ms.technology": {
+        "word/**.md": "content-controls",
         "word/**.md": "word"
       },
       "ms.technology": {
@@ -84,6 +89,7 @@
       },
       "ms.prod": {
         "access/**.md": "access",
+        "word/**.md": "word",
         "excel/**.md": "excel",
         "infopath/**.md": "infopath",
         "outlook/**.md": "outlook",
