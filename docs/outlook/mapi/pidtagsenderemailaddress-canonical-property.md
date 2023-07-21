@@ -28,7 +28,7 @@ Contains the message sender's email address.
 |:-----|:-----|
 |Associated properties:  <br/> |PR_SENDER_EMAIL_ADDRESS, PR_SENDER_EMAIL_ADDRESS_A, PR_SENDER_EMAIL_ADDRESS_W  <br/> |
 |Identifier:  <br/> |0x0C1F  <br/> |
-|Data type:  <br/> |PT_UNICOIDE, PT_STRING8  <br/> |
+|Data type:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Area:  <br/> |Address  <br/> |
    
 ## Remarks
