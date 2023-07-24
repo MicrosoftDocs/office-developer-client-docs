@@ -58,7 +58,7 @@
         "outlook/pia/**.md": "pia",
         "onenote/**.md": "dev-overview",
         "project/**.md": "dev-overview",
-        "excel/**.md": "excel-xll"
+        "excel/**.md": "excel-xll",
         "word/**.md": "content-controls"
       },
       "ms.service": {
