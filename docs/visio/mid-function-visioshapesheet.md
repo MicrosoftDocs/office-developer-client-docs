@@ -44,7 +44,7 @@ If  *start_num*  is:
 
 - Less than 1, MID returns the #VALUE! error value.
 
-If  *num_chars*  is negative, MID returns the #VALUE! error value.
+If  *num_chars*  is negative, MID returns the characters up to the end of *text*.
   
 ## Example
 
