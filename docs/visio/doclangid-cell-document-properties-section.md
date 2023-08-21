@@ -34,8 +34,8 @@ The following table contains a list of languages and their corresponding LCIDs.
 |Arabic  <br/> |1025  <br/> |
 |Armenian  <br/> |1067  <br/> |
 |Assamese  <br/> |1101  <br/> |
-|Azeri (Cyrillic)  <br/> |2092  <br/> |
-|Azeri (Latin)  <br/> |1068  <br/> |
+|Azerbaijani (Cyrillic)  <br/> |2092  <br/> |
+|Azerbaijani (Latin)  <br/> |1068  <br/> |
 |Basque (Basque)  <br/> |1069  <br/> |
 |Belarusian  <br/> |1059  <br/> |
 |Bengali  <br/> |1093  <br/> |
@@ -92,7 +92,7 @@ The following table contains a list of languages and their corresponding LCIDs.
 |Latin  <br/> |1142  <br/> |
 |Latvian  <br/> |1062  <br/> |
 |Lithuanian  <br/> |1063  <br/> |
-|Macedonian (F.Y.R.O. Macedonia)  <br/> |1071  <br/> |
+|Macedonian (North Macedonia)  <br/> |1071  <br/> |
 |Malay  <br/> |1086  <br/> |
 |Malayalam  <br/> |1100  <br/> |
 |Maltese  <br/> |1082  <br/> |
