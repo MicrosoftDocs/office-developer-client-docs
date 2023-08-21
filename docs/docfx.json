@@ -92,7 +92,6 @@
         "word/**.md": "word",
         "excel/**.md": "excel",
         "infopath/**.md": "infopath",
-        "outlook/**.md": "outlook",
         "visio/**.md": "visio"
       },
       "feedback_system": {

@@ -143,7 +143,7 @@ If you show currency symbols for nonlocal currencies, and the system does not kn
 | 127  <br/> | ERN  <br/> | Nakfa (added in Visio 2002)  <br/> |
 | 128  <br/> | EEK  <br/> | Kroon (added in Visio 2002)  <br/> |
 | 129  <br/> | ETB  <br/> | Ethiopian Birr (added in Visio 2002)  <br/> |
-| 130  <br/> | FKP  <br/> | Falkland Islands (Islas Malvinas) Pound (added in Visio 2002)  <br/> |
+| 130  <br/> | FKP  <br/> | Falkland Islands Pound (added in Visio 2002)  <br/> |
 | 131  <br/> | FJD  <br/> | Fijian Dollar (added in Visio 2002)  <br/> |
 | 132  <br/> | XPF  <br/> | CFP Franc (added in Visio 2002)  <br/> |
 | 133  <br/> | GMD  <br/> | Dalasi (added in Visio 2002)  <br/> |
