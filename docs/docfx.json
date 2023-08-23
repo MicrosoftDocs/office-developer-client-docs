@@ -73,8 +73,7 @@
       "ms.service": {
         "outlook/**.md": "outlook",
         "access/**.md": "access",
-        "project/**.md": "project",
-        "excel/**.md": "excel"
+        "project/**.md": "project"
       },
       "ms.technology": {
         "word/**.md": "content-controls",
