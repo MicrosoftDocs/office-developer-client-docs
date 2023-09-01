@@ -197,6 +197,12 @@ Specifies the operational data type of an object.
 <td><p>17</p></td>
 <td><p>Variable Binary data (ODBCDirect only)</p>
 
+</td>
+</tr>
+<tr class="even">
+<td><p>dbDateTimeExtended</p></td>
+<td><p>26</p></td>
+<td><p>Date/Time Extended</p>
 
 
 </td>
