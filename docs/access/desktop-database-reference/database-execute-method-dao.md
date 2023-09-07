@@ -89,7 +89,7 @@ You can use the following **[RecordsetOptionEnum](recordsetoptionenum-enumeratio
 </tr>
 <tr class="odd">
 <td><p><strong>dbFailOnError</strong></p></td>
-<td><p>Rolls back updates if an error occurs (Microsoft Access workspaces only).</p></td>
+<td><p>Does not roll back updates if an error occurs (Microsoft Access workspaces only).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbSeeChanges</strong></p></td>
