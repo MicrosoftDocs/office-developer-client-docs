@@ -35,3 +35,10 @@ Boolean, which represents if the given file is from some trusted location.
 ## Remarks
 
 A trusted location is where to store a file when you don’t want that file to be checked by the Office Trust Center.
+
+## Requirements
+
+|  |  |
+|---------------------------------|--------------------------------|
+|DLL                              |MSO.DLL                         |
+|Minimum supported application    |Microsoft Office 2007 system    |

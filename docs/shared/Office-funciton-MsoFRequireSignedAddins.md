@@ -31,3 +31,10 @@ BOOL _MsoFRequireSignedAddins()
 ## Return value
 
 Boolean, which represents if Office Trust Center requires Application Add-ins to be signed by Trusted Publishers.
+
+## Requirements
+
+|  |  |
+|---------------------------------|--------------------------------|
+|DLL                              |MSO.DLL                         |
+|Minimum supported application    |Microsoft Office 2010 system    |
