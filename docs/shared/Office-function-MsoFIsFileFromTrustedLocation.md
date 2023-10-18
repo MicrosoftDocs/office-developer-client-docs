@@ -6,6 +6,11 @@ manager: lijia
 ms.date: 10/11/2023
 ms.audience: Developer
  
+APILocation: mso.dll
+APIName: MsoFIsFileFromTrustedLocation
+APIName: _MsoFIsFileFromTrustedLocation
+APIType: DLLExport
+APIPlatform: Office
  
 ms.localizationpriority: low
 ms.assetid: 
