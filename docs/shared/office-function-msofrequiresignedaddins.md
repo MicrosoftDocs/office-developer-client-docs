@@ -1,17 +1,9 @@
 ---
-title: "MsoFRequireSignedAddins functions"
- 
- 
+title: "MsoFRequireSignedAddins function"
 manager: lijia
 ms.date: 10/11/2023
 ms.audience: Developer
- 
-APILocation: mso.dll
-APIName: MsoFRequireSignedAddins
-APIName: _MsoFRequireSignedAddins
-APIType: DLLExport
 APIPlatform: Office 
- 
 ms.localizationpriority: low
 ms.assetid: 
 description: "Find information about the MsoFRequireSignedAddins function."
