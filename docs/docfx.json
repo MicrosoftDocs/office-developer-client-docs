@@ -42,7 +42,6 @@
       "breadcrumb_path": "/office/client-developer/breadcrumb/toc.json",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/office-developer-client-docs",
-      "extendBreadcrumb": true,
       "ms.author": "o365devx",
       "author": "o365devx",
       "ms.topic": "conceptual",
