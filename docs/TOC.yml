@@ -49,10 +49,18 @@
          href: /office/vba/api/overview/language-reference
        - name: Office Primary Interop Assembly reference
          href: /previous-versions/visualstudio/visual-studio-2017/vsto/office-primary-interop-assemblies?view=vs-2017
-       - name: Open XML SDK 2.5
-         href: /office/open-xml/open-xml-sdk
        - name: Using CSISyncClient to control the ODC
          href: shared/using-csisyncclient-to-control-the-office-document-cache-odc.md
+       - name: Open XML SDK 2.5
+         href: /office/open-xml/open-xml-sdk
+       - name: Office functions
+         items:
+          - name: Overview
+          - href: shared/office-functions-Overview.md
+          - name: MsoFRequireSignedAddins function
+          - href: shared/Office-funciton-MsoFRequireSignedAddins.md
+          - name: MsoFIsFileFromTrustedLocation function
+          - href: /shared/Office-function-MsoFIsFileFromTrustedLocation.md       
      - name: Access
        items:
         - name: Overview
