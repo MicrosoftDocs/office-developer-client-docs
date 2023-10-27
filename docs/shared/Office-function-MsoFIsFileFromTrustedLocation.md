@@ -14,7 +14,7 @@ APIPlatform: Office
  
 ms.localizationpriority: low
 ms.assetid: 
-description: "Find information about the MsoFIsFileFromTrustedLocation funciton."
+description: "Find information about the MsoFIsFileFromTrustedLocation function."
 ---
 
 # MsoFIsFileFromTrustedLocation function

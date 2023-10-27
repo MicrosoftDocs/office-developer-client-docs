@@ -1,5 +1,5 @@
 ---
-title: "MsoFRequireSignedAddins functions"
+title: "MsoFRequireSignedAddins function"
  
  
 manager: lijia
