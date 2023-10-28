@@ -60,7 +60,7 @@
           - name: MsoFRequireSignedAddins function
             href: /shared/office-function-msofrequiresignedaddins.md
           - name: MsoFIsFileFromTrustedLocation function
-            href: /shared/office-function-msofisfilefromtrustedlocation.md       
+            href: /shared/office-function-msofisfilefromtrustedlocation.md     
      - name: Access
        items:
         - name: Overview
