@@ -1,3 +1,7 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Microsoft 365
+  tocHref: /office/
+  topicHref: /microsoft-365/index
+  items:
+  - name: Office Add-ins
+    tocHref: /office/client-developer/
+    topicHref: /office/dev/add-ins/index

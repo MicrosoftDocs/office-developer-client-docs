@@ -1,20 +1,12 @@
 ---
-title: "MsoFIsFileFromTrustedLocation function"
- 
- 
+title: "MsoFIsFileFromTrustedLocation function" 
 manager: lijia
 ms.date: 10/11/2023
 ms.audience: Developer
- 
-APILocation: mso.dll
-APIName: MsoFIsFileFromTrustedLocation
-APIName: _MsoFIsFileFromTrustedLocation
-APIType: DLLExport
 APIPlatform: Office
- 
 ms.localizationpriority: low
 ms.assetid: 
-description: "Find information about the MsoFIsFileFromTrustedLocation funciton."
+description: "Find information about the MsoFIsFileFromTrustedLocation function."
 ---
 
 # MsoFIsFileFromTrustedLocation function
