@@ -56,9 +56,9 @@
        - name: Office functions
          items:
           - name: Overview
-            href: shared/office-functions-overview.md
+            href: /shared/office-functions-overview.md
           - name: MsoFRequireSignedAddins function
-            href: shared/office-function-msofrequiresignedaddins.md
+            href: /shared/office-function-msofrequiresignedaddins.md
           - name: MsoFIsFileFromTrustedLocation function
             href: /shared/office-function-msofisfilefromtrustedlocation.md       
      - name: Access
