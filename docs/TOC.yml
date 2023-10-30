@@ -56,11 +56,11 @@
        - name: Office functions
          items:
           - name: Overview
-            href: /office/client-developer/shared/office-functions-overview.md
+            href: shared/office-functions-overview.md
           - name: MsoFRequireSignedAddins function
-            href: /office/client-developer/shared/office-function-msofrequiresignedaddins.md
+            href: shared/office-function-msofrequiresignedaddins.md
           - name: MsoFIsFileFromTrustedLocation function
-            href: /office/client-developer/shared/office-function-msofisfilefromtrustedlocation.md     
+            href: shared/office-function-msofisfilefromtrustedlocation.md     
      - name: Access
        items:
         - name: Overview
