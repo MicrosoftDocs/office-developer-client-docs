@@ -8,6 +8,7 @@ keywords:
 ms.assetid: c0e6dd3b-fae1-453d-a9b4-7f456b5172db
 description: "Learn how Microsoft Word 2013 content controls enable a larger range of structured document scenarios."
 ms.localizationpriority: high
+ms.service: word
 ---
 
 # Content controls in Word
