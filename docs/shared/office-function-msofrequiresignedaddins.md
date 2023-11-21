@@ -3,6 +3,13 @@ title: "MsoFRequireSignedAddins function"
 manager: lijia
 ms.date: 10/11/2023
 ms.audience: Developer
+api_name:
+- MsoFRequireSignedAddins
+- _MsoFRequireSignedAddins
+api_type:
+- DLLExport
+api_location:
+- mso.dll
 APIPlatform: Office 
 ms.localizationpriority: low
 ms.assetid: 

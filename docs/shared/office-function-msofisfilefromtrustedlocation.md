@@ -3,6 +3,13 @@ title: "MsoFIsFileFromTrustedLocation function"
 manager: lijia
 ms.date: 10/11/2023
 ms.audience: Developer
+api_name:
+- MsoFIsFileFromTrustedLocation
+- _MsoFIsFileFromTrustedLocation
+api_type:
+- DLLExport
+api_location:
+- mso.dll
 APIPlatform: Office
 ms.localizationpriority: low
 ms.assetid: 
