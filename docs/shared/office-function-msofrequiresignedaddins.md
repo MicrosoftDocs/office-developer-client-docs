@@ -10,6 +10,9 @@ api_type:
 - DLLExport
 api_location:
 - mso.dll
+topic_type:
+- APIRef
+- kbSyntax
 APIPlatform: Office 
 ms.localizationpriority: low
 ms.assetid: 
