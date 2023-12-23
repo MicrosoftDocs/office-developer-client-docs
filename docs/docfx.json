@@ -86,7 +86,6 @@
       },
       "ms.prod": {
         "access/**.md": "access",
-        "word/**.md": "word",
         "infopath/**.md": "infopath",
         "visio/**.md": "visio"
       },
