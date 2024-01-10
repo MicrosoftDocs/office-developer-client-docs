@@ -137,7 +137,6 @@ This example demonstrates **Recordset** objects and the **Recordsets** collectio
     End Sub 
 ```
 
-
 This example uses the **OpenRecordset** method to open five different **Recordset** objects and display their contents. The OpenRecordsetOutput procedure is required for this procedure to run.
 
 ```vb
@@ -150,7 +149,7 @@ This example uses the **OpenRecordset** method to open five different **Recordse
        Dim rstTemp As Recordset 
        Dim rstTemp2 As Recordset 
      
-       ' Open Microsoft Access and ODBCDirect workspaces, Microsoft  
+       ' Open Microsoft Access and ODBCDirect workspaces, Microsoft
        ' Access database, and ODBCDirect connection. 
        Set wrkAcc = CreateWorkspace("", "admin", "", dbUseJet) 
        Set wrkODBC = CreateWorkspace("", "admin", "", dbUseODBC) 
@@ -223,7 +222,6 @@ This example uses the **OpenRecordset** method to open five different **Recordse
     End Sub 
 ```
 
-
 This example opens a dynamic-type **Recordset** object and enumerates its records.
 
 ```vb
@@ -272,7 +270,6 @@ This example opens a dynamic-type **Recordset** object and enumerates its record
     End Sub 
 ```
 
-
 This example opens a dynaset-type **Recordset** and shows the extent to which its fields are updatable.
 
 ```vb
@@ -311,10 +308,9 @@ This example opens a dynaset-type **Recordset** and shows the extent to which it
     End Sub 
 ```
 
-
 This example opens a forward-only-type **Recordset**, demonstrates its read-only characteristics, and steps through the **Recordset** with the **MoveNext** method.
 
-```vb 
+```vb
 Sub dbOpenForwardOnlyX() 
  
    Dim dbsNorthwind As Database 
@@ -357,7 +353,6 @@ Sub dbOpenForwardOnlyX()
 End Sub 
 ```
 
-
 This example opens a snapshot-type **Recordset** and demonstrates its read-only characteristics.
 
 ```vb
@@ -395,7 +390,6 @@ This example opens a snapshot-type **Recordset** and demonstrates its read-only 
     End Sub 
 ```
 
-
 This example opens a table-type **Recordset**, sets its **Index** property, and enumerates its records.
 
 ```vb
@@ -431,11 +425,9 @@ This example opens a table-type **Recordset**, sets its **Index** property, and 
     End Sub 
 ```
 
-
 The following example shows how to use the Seek method to find a record in a linked table.
 
 **Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
-
 
 ```vb
     Sub TestSeek()
@@ -481,7 +473,6 @@ The following example shows how to use the Seek method to find a record in a lin
     End Sub
 ```
 
-
 The following example shows how to open a Recordset that is based on a parameter query.
 
 ```vb
@@ -502,7 +493,6 @@ The following example shows how to open a Recordset that is based on a parameter
     Set rst = qdf.OpenRecordset()
 ```
 
-
 The following example shows how to open a Recordset based on a table or a query.
 
 ```vb
@@ -519,7 +509,6 @@ The following example shows how to open a Recordset based on a table or a query.
     Set rsQuery = dbs.OpenRecordset("qryMyQuery", dbOpenDynaset)
 ```
 
-
 The following example shows how to open a Recordset based on a Structured Query Language (SQL) statement.
 
 ```vb
@@ -533,7 +522,6 @@ The following example shows how to open a Recordset based on a Structured Query 
     strSQL = "SELECT * FROM Table1 WHERE Field2 = 33"
     Set rsSQL = dbs.OpenRecordset(strSQL, dbOpenSnapshot)
 ```
-
 
 The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.
 
@@ -572,7 +560,6 @@ The following example shows how to use the FindFirst and FindNext methods to fin
     End Sub
 ```
 
-
 The following example shows how to copy the results of a query to a worksheet in a new Microsoft Excel workbook.
 
 ```vb
@@ -602,4 +589,3 @@ The following example shows how to copy the results of a query to a worksheet in
     
     End Sub
 ```
-

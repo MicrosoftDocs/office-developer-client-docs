@@ -42,7 +42,7 @@ MessageBox.Show("Main data source XML: " &amp; _
 ```
 
 > [!NOTE]
-> Calling the [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) method directly from the **this** or **Me** keyword is equivalent to calling [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) method by using the [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) property (  `this.MainDataSource.CreateNavigator()`) or by passing an empty string to the [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) property of the [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) class (  `this.DataSources[""].CreateNavigator()`).
+> Calling the [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) method directly from the **this** or **Me** keyword is equivalent to calling [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx) method by using the [MainDataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.MainDataSource.aspx) property (  `this.MainDataSource.CreateNavigator()`) or by passing an empty string to the [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) property of the [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) class ( `this.DataSources[""].CreateNavigator()`).
   
 ## Selecting and Setting the XML Nodes for Fields in the Main Data Source
 
@@ -57,7 +57,7 @@ The overloaded **SelectSingleNode** method that you must use has an _xpath_ para
 > [!TIP]
 > The easiest way to create an XPath expression for selecting a node in the form's data source is to right-click the field or group in the **Fields** task pane, and then click **Copy XPath**. To create and test hand-edited XPath expressions for accessing nodes in a complex or heavily nested XML schema, add an **Expression Box** control to the form, specify the XPath expression for the control, and then preview the form to display the results.
   
-The following example uses the **SelectSingleNode** method to select the single node for the  `EmailAlias` field. Then it uses the **SetValue** method of the **XPathNavigator** class and the [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) property of the [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) class to set the value of the field to the current user's alias.
+The following example uses the **SelectSingleNode** method to select the single node for the `EmailAlias` field. Then it uses the **SetValue** method of the **XPathNavigator** class and the [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) property of the [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) class to set the value of the field to the current user's alias.
   
 ```cs
 XPathNavigator emailAlias = 
@@ -153,7 +153,7 @@ myDate.SetValue(strCurDate)
 
 To specify a set of repeating fields or groups that are of an indeterminate number, use the **Select** method of the **XPathNavigator** class. This method returns an XPathNodeIterator object that you can use to iterate over the specified collection of nodes.
   
-The following example assumes that your form template contains a **Bulleted List** or similar repeating control that is bound to a repeating element named  `field1`. The XPath of the field is passed to the **Select** method, and the returned **XPathNodeIterator** is assigned to the  `nodes` variable. You use the MoveNext method to iterate over the collection of nodes, and the Current property to return an **XPathNavigator** object positioned on the current node. Finally, use the **Value** property to retrieve and display the value of each repeating field.
+The following example assumes that your form template contains a **Bulleted List** or similar repeating control that is bound to a repeating element named `field1`. The XPath of the field is passed to the **Select** method, and the returned **XPathNodeIterator** is assigned to the `nodes` variable. You use the MoveNext method to iterate over the collection of nodes, and the Current property to return an **XPathNavigator** object positioned on the current node. Finally, use the **Value** property to retrieve and display the value of each repeating field.
   
 ```cs
 string message = String.Empty;

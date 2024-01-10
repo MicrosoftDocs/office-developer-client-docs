@@ -18,7 +18,7 @@ description: "When you want to extend the functionality of an InfoPath form, it 
 
 When you want to extend the functionality of an InfoPath form, it is often necessary to programmatically access information about the form's underlying XML document, access the data that the XML document contains, or perform some action on the XML document. The InfoPath object model supports accessing and manipulating a form's underlying XML document through the use of the [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) interface in association with the [XDocumentsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollection.aspx) interface. 
   
-The **XDocument** interface is one of the most useful types within the InfoPath object model because it provides a variety of properties, methods, and events that not only interact with a form's underlying XML document, but also perform many of the actions that are available in the InfoPath user interface. In a managed-code project created using the InfoPath 2003-compatible object model, a variable of type **XDocument** that is named  `thisXDocument` is automatically defined in the  `_StartUp` method of the class that contains event handlers in your project's form code. You can use the  `thisXDocument` variable in your form's code to access the **XDocument** interface and its members. 
+The **XDocument** interface is one of the most useful types within the InfoPath object model because it provides a variety of properties, methods, and events that not only interact with a form's underlying XML document, but also perform many of the actions that are available in the InfoPath user interface. In a managed-code project created using the InfoPath 2003-compatible object model, a variable of type **XDocument** that is named `thisXDocument` is automatically defined in the `_StartUp` method of the class that contains event handlers in your project's form code. You can use the `thisXDocument` variable in your form's code to access the **XDocument** interface and its members. 
   
 ## Overview of the XDocumentsCollection Interface
 
@@ -68,7 +68,7 @@ The **XDocument** interface provides the following methods and properties, which
    
 ## Using the XDocuments Collection and the XDocument Interfaces
 
-The **XDocumentsCollection** interface is accessed through the [XDocuments](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.XDocuments.aspx) property of the [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) interface. In a managed-code project created using the InfoPath 2003-compatible object model, you can access the **XDocumentsCollection** interface by using the  `thisApplication` variable that is instantiated in the  `_StartUp` method of your project's form code. The following lines of code create a variable that references the **XDocumentsCollection** interface of the current project. 
+The **XDocumentsCollection** interface is accessed through the [XDocuments](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.XDocuments.aspx) property of the [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) interface. In a managed-code project created using the InfoPath 2003-compatible object model, you can access the **XDocumentsCollection** interface by using the `thisApplication` variable that is instantiated in the `_StartUp` method of your project's form code. The following lines of code create a variable that references the **XDocumentsCollection** interface of the current project. 
   
 ```cs
 XDocumentsCollection xdocs;
@@ -82,7 +82,7 @@ xdocs = thisApplication.XDocuments
 ' Write code here to work with the XDocumentsCollection.
 ```
 
-In a managed-code project created using the InfoPath 2003-compatible object model, you can access the **XDocument** interface by using the  `thisXDocument` variable that is instantiated in the  `StartUp` method of your project's form code. The following line of code uses the  `thisXDocument` variable to access the **XDocument** interface of the current project to display the URI of the currently open form in an alert message. 
+In a managed-code project created using the InfoPath 2003-compatible object model, you can access the **XDocument** interface by using the `thisXDocument` variable that is instantiated in the `StartUp` method of your project's form code. The following line of code uses the `thisXDocument` variable to access the **XDocument** interface of the current project to display the URI of the currently open form in an alert message. 
   
 ```cs
 thisXDocument.UI.Alert(thisXDocument.URI);

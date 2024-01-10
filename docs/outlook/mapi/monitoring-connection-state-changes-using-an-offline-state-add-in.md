@@ -24,7 +24,7 @@ When the offline state add-in is disconnected, you must implement functions to p
 For the client to be notified when a connection state change occurs, you must call the **[HrOpenOfflineObj](hropenofflineobj.md)** function. This function opens an offline object that supports **[IMAPIOfflineMgr](imapiofflinemgrimapioffline.md)**. The **HrOpenOfflineObj** function is defined in the ConnectionState.h header file. 
   
 > [!NOTE]
-> The **HrOpenOfflineObj** function is declared in the ImportProcs.h header file as follows:  `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;`. 
+> The **HrOpenOfflineObj** function is declared in the ImportProcs.h header file as follows: `extern HROPENOFFLINEOBJ* pfnHrOpenOfflineObj;`. 
   
 ### HrOpenOfflineObj example
 
@@ -40,7 +40,7 @@ typedef HRESULT (STDMETHODCALLTYPE HROPENOFFLINEOBJ)(
 
 ## Initialize Monitor routine
 
-The  `InitMonitor` function calls the **HrOpenOfflineObj** function. The  `InitMonitor` function calls **CMyOfflineNotify** so that Outlook can send callback notifications to the client, and registers the callback through the **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** variable  `AdviseInfo`.
+The `InitMonitor` function calls the **HrOpenOfflineObj** function. The `InitMonitor` function calls **CMyOfflineNotify** so that Outlook can send callback notifications to the client, and registers the callback through the **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** variable `AdviseInfo`.
   
 ### InitMonitor() example
 
@@ -111,7 +111,7 @@ void InitMonitor(LPCWSTR szProfile)
 
 ## Get Current State routine
 
-The  `GetCurrentState` function calls the **HrOpenOfflineObj** function, and then uses the offline object to get the current connection state. The current state is returned in the  `ulCurState` variable, which is used in the  `CButtonEventHandler::Click` function to display the current state to the user. 
+The `GetCurrentState` function calls the **HrOpenOfflineObj** function, and then uses the offline object to get the current connection state. The current state is returned in the `ulCurState` variable, which is used in the `CButtonEventHandler::Click` function to display the current state to the user. 
   
 ### GetCurrentState() example
 
@@ -168,7 +168,7 @@ ULONG (LPCWSTR szProfile)
 
 ## Set Current State routine
 
-The  `SetCurrentState` function calls the **HrOpenOfflineObj** function, and then uses the offline object to set the current connection state. The  `CButtonEventHandler::Click` function calls the  `SetCurrentState` function and the new state is passed in through the  `ulState` variable. 
+The `SetCurrentState` function calls the **HrOpenOfflineObj** function, and then uses the offline object to set the current connection state. The `CButtonEventHandler::Click` function calls the `SetCurrentState` function and the new state is passed in through the `ulState` variable. 
   
 ### SetCurrentState() example
 

@@ -19,11 +19,11 @@ ms.assetid: eee97982-29be-4dcf-ae11-8a38f0080ea7
   
 Every messaging user is associated with an address type, a character string describing the format of the user's address that is stored in the **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) property. Address types map to address formats. That is, by looking at a recipient's address type, client applications can determine how to format an address appropriate for the recipient. 
   
-For example, the  `SMTP` address type specifies the standard Internet address: 
+For example, the `SMTP` address type specifies the standard Internet address: 
   
  `username@companyname.com.`
   
-And, the  `EX` address type specifies an Exchange Server address. 
+And, the `EX` address type specifies an Exchange Server address. 
   
 All address book entries must have a valid address type. Clients require their users to specify an address type when creating a type of custom recipient unsupported by the address book provider. For the entries that they support, address book providers are required to supply valid address types. 
   

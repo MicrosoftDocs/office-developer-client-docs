@@ -1,7 +1,7 @@
 ---
 title: "AND (Access custom web app)"  
-manager: kelbow
-ms.date: 09/05/2017
+manager: lindalu
+ms.date: 01/10/2024
 ms.audience: Developer  
 ms.localizationpriority: medium
 ms.assetid: 44c11a0b-abca-4ea8-8770-f5c1375d8d76

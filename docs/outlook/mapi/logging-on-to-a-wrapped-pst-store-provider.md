@@ -22,7 +22,7 @@ After MAPI and the MAPI spooler are logged on to the wrapped PST store provider,
   
 ## MAPI Logon routine
 
-After the wrapped PST store provider is initialized, you must implement the **[IMSProvider::Logon](imsprovider-logon.md)** function to log on MAPI to the wrapped PST store. This function validates user credentials and gets the configuration properties for the provider. You must also implement the  `SetOLFIInOST` function to set the Offline File Info (**[OLFI](olfi.md)** ). **OLFI** is a queue of long-term ID structures that is used by the wrapped PST store provider to assign an Entry ID for a new message or folder in offline mode. Finally, the **IMSProvider::Logon** function returns a message store object that the MAPI spooler and client applications can log on to in the  `ppMDB` parameter. 
+After the wrapped PST store provider is initialized, you must implement the **[IMSProvider::Logon](imsprovider-logon.md)** function to log on MAPI to the wrapped PST store. This function validates user credentials and gets the configuration properties for the provider. You must also implement the `SetOLFIInOST` function to set the Offline File Info (**[OLFI](olfi.md)** ). **OLFI** is a queue of long-term ID structures that is used by the wrapped PST store provider to assign an Entry ID for a new message or folder in offline mode. Finally, the **IMSProvider::Logon** function returns a message store object that the MAPI spooler and client applications can log on to in the `ppMDB` parameter. 
   
 ### CMSProvider::Logon() example
 
@@ -98,7 +98,7 @@ STDMETHODIMP CMSProvider::Logon(
 
 ## MAPI Spooler Logon routine
 
-Similar to **IMSProvider::Logon**, you must implement the **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** function to log the MAPI spooler on to the wrapped PST store. A message store object that the MAPI spooler and client applications can log on to is returned in the  `ppMDB` parameter. 
+Similar to **IMSProvider::Logon**, you must implement the **[IMSProvider::SpoolerLogon](imsprovider-spoolerlogon.md)** function to log the MAPI spooler on to the wrapped PST store. A message store object that the MAPI spooler and client applications can log on to is returned in the `ppMDB` parameter. 
   
 ### CMSProvider::SpoolerLogon() example
 
