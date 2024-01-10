@@ -1,7 +1,8 @@
 ---
 title: "Access" 
 description: Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Access.
-ms.date: 9/20/2021
+manager: lindalu
+ms.date: 1/10/2024
 ms.audience: Developer
 ms.assetid: 9858d097-d1d1-48df-8344-e7b46afbe0d1
 ms.localizationpriority: high
