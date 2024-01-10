@@ -28,7 +28,7 @@ The following procedures describe how to open a managed code form template creat
     
 2. In the **Open in Design Mode** dialog box, navigate to the project folder where the InfoPath Toolkit form template project is saved. 
     
-    By default, this will be a folder in  `C:\Users\` *username*  `\Documents\Visual Studio Projects` on the computer where the project was created. Or, you can move the folder to the location where InfoPath stores Visual Studio 2012 projects, which by default is  `C:\Users\` *username*  `\Documents\InfoPath Projects`
+    By default, this will be a folder in `C:\Users\` *username* `\Documents\Visual Studio Projects` on the computer where the project was created. Or, you can move the folder to the location where InfoPath stores Visual Studio 2012 projects, which by default is `C:\Users\` *username* `\Documents\InfoPath Projects`
     
 3. Click the file that is named manifest.xsf, and then click **Open**.
     
@@ -56,7 +56,7 @@ The following procedures describe how to open a managed code form template creat
     
 3. In the **Open in Design Mode** dialog box, navigate to the project folder where the InfoPath Toolkit form template project is saved. 
     
-    By default this will be a folder in  `C:\Users\` *username*  `\Documents\Visual Studio Projects` on the computer where the project was created. Or, you can move the folder to the location where InfoPath stores Visual Studio 2012 projects, which by default is  `C:\Users\` *username*  `\Documents\InfoPath Projects`
+    By default this will be a folder in `C:\Users\` *username* `\Documents\Visual Studio Projects` on the computer where the project was created. Or, you can move the folder to the location where InfoPath stores Visual Studio 2012 projects, which by default is `C:\Users\` *username* `\Documents\InfoPath Projects`
     
 4. Click the file that is named manifest.xsf, and then click **Open**.
     

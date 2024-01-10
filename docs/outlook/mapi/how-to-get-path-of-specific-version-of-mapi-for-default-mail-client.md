@@ -26,7 +26,7 @@ The following steps describe how `GetMAPISVCPath` does this.
 
 3. If getting the address from mapistub.dll fails, it tries to get the address from mapi32.dll.
 
-4. If getting the address of **FGetComponentPath** succeeds, it opens the registry and uses the  `HrGetRegMultiSZValueA` function to read the registry values under **HKLM\Software\Clients\Mail\Microsoft Outlook**.
+4. If getting the address of **FGetComponentPath** succeeds, it opens the registry and uses the `HrGetRegMultiSZValueA` function to read the registry values under **HKLM\Software\Clients\Mail\Microsoft Outlook**.
 
 5. Calls **FGetComponentPath**, specifying the value, `{FF1D0740-D227-11D1-A4B0-006008AF820E}`, to obtain the path to the version of MAPI that Outlook 2007 uses.
 

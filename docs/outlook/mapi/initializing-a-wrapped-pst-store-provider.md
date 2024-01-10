@@ -130,7 +130,7 @@ typedef struct                              // Long format to support Unicode pa
   
 ## Service Entry routine
 
-The **[MSGSERVICEENTRY](msgserviceentry.md)** function is the message service entry point where the wrapped PST store provider is configured. The function calls  `GetMemAllocRoutines()` to get the MAPI memory management routines. The function uses the  `lpProviderAdmin` parameter to locate the profile section for the provider and sets the properties in the profile.
+The **[MSGSERVICEENTRY](msgserviceentry.md)** function is the message service entry point where the wrapped PST store provider is configured. The function calls  `GetMemAllocRoutines()` to get the MAPI memory management routines. The function uses the `lpProviderAdmin` parameter to locate the profile section for the provider and sets the properties in the profile.
   
 ### ServiceEntry() example
 

@@ -25,7 +25,7 @@ When debugging an InfoPath form template, it is often useful to log values direc
 2. In the Code Editor, add the following three helper functions to the public class in the form code file.
     
    > [!IMPORTANT]
-   > Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure. 
+   > Make sure that you update the value set for the `debugFieldXpath` variable in the `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure. 
   
     ```cs
         private void AddToDebugField(string valueToAdd)
@@ -71,7 +71,7 @@ When debugging an InfoPath form template, it is often useful to log values direc
     ```
 
 > [!NOTE] 
-> When using Visual Basic, add  `Imports Microsoft.VisualBasic.Constants` to the directives at the top of the form code file. 
+> When using Visual Basic, add `Imports Microsoft.VisualBasic.Constants` to the directives at the top of the form code file. 
   
 ## Test the AddToDebugField function
 
@@ -97,6 +97,6 @@ When debugging an InfoPath form template, it is often useful to log values direc
 
 3. On the **Home** tab, click **Preview**.
     
-   The debug field should display two entries: one indicating that the form is loaded, and another indicating the name of the view. These examples use event handlers for events that occur as the form is opened. However, after the form is loaded, you can call the  `AddToDebugField` function from other event handlers in addition to any other code running in the context of the form. 
+   The debug field should display two entries: one indicating that the form is loaded, and another indicating the name of the view. These examples use event handlers for events that occur as the form is opened. However, after the form is loaded, you can call the `AddToDebugField` function from other event handlers in addition to any other code running in the context of the form. 
   
 

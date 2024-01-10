@@ -476,7 +476,7 @@ DEFINE_GUID(IID_IFolderSupport, 0x00375ac3, 0xecaf, 0x4ef8, 0xa5, 0x27, 0x34, 0x
 DEFINE_PRXGUID(IID_IProxyStoreObject, 0x00000000L);
 ```
 
-Use the  `DEFINE_OLEGUID` macro defined in the Windows SDK header file guiddef.h to associate the following GUID symbolic name with its value.
+Use the `DEFINE_OLEGUID` macro defined in the Windows SDK header file guiddef.h to associate the following GUID symbolic name with its value.
   
 ```cpp
 //{00020393-0000-0000-C000-000000000046}
@@ -591,7 +591,7 @@ See the [PidTagRpcOverHttpProxyAuthScheme Canonical Property](pidtagrpcoverhttpp
   
 ### Identifiers
 
-Use the  `DEFINE_OLEGUID` macro defined in the Microsoft Windows Software Development Kit (SDK) header file guiddef.h to associate the following GUID symbolic names with their values.
+Use the `DEFINE_OLEGUID` macro defined in the Microsoft Windows Software Development Kit (SDK) header file guiddef.h to associate the following GUID symbolic names with their values.
   
 ```cpp
 //{0002038A-0000-0000-C000-000000000046}
