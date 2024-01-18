@@ -70,7 +70,7 @@ where the three folders marked with \* are the minimum set created even when the
     
  _lppProps_
   
-> [in, out] Pointer to a pointer to an array of **SPropValue** structures that contains property values for the **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) property and for the appropriate folder entry identifier properties. If **HrValidateIPMSubtree** creates an Inbox in the message store, the **SPropValue** array includes an Inbox entry identifier with a special property tag coded as  `PROP_TAG(PT_BINARY, PROP_ID_NULL)`. The  _lppProps_ parameter can be NULL, indicating that the calling implementation does not require that an **SPropValue** array be returned. 
+> [in, out] Pointer to a pointer to an array of **SPropValue** structures that contains property values for the **PR_VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) property and for the appropriate folder entry identifier properties. If **HrValidateIPMSubtree** creates an Inbox in the message store, the **SPropValue** array includes an Inbox entry identifier with a special property tag coded as `PROP_TAG(PT_BINARY, PROP_ID_NULL)`. The  _lppProps_ parameter can be NULL, indicating that the calling implementation does not require that an **SPropValue** array be returned. 
     
  _lppMapiError_
   

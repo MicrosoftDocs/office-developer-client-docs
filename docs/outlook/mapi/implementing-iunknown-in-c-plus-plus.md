@@ -38,7 +38,7 @@ HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
 
 ```
 
-The following code example shows how to implement the **AddRef** and **Release** methods for the  `CMyMAPIObject` object. Because implementing **AddRef** and **Release** is straightforward, many service providers choose to implement them inline. The calls to the Win32 functions **InterlockedIncrement** and **InterlockedDecrement** ensure thread safety. The memory for the object is freed by the destructor, which is called when the **Release** method deletes the object. 
+The following code example shows how to implement the **AddRef** and **Release** methods for the `CMyMAPIObject` object. Because implementing **AddRef** and **Release** is straightforward, many service providers choose to implement them inline. The calls to the Win32 functions **InterlockedIncrement** and **InterlockedDecrement** ensure thread safety. The memory for the object is freed by the destructor, which is called when the **Release** method deletes the object. 
   
 ```cpp
 ULONG CMyMAPIObject::AddRef()

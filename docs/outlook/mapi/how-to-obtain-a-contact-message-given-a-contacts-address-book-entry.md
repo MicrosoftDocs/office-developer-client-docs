@@ -26,7 +26,7 @@ This topic contains an example in C++, `HrOpenContact`, that shows how to use th
     
 -  *lpContactMessage*  is an output parameter representing a pointer to the MAPI Contact message.
     
-To open the underlying MAPI Contact message,  `HrOpenContact` first casts  *lpEntryID*  to a pointer to **CONTAB_ENTRYID**. It then calls [IMAPISession::OpenEntry](imapisession-openentry.md) to obtain the MAPI Contact message, passing as parameters the  *cbeid*  and  *abeid*  fields of the entry in the Contacts Address Book that identify respectively the size of the entry identifier and the entry identifier of the MAPI Contact message.
+To open the underlying MAPI Contact message, `HrOpenContact` first casts  *lpEntryID*  to a pointer to **CONTAB_ENTRYID**. It then calls [IMAPISession::OpenEntry](imapisession-openentry.md) to obtain the MAPI Contact message, passing as parameters the  *cbeid*  and  *abeid*  fields of the entry in the Contacts Address Book that identify respectively the size of the entry identifier and the entry identifier of the MAPI Contact message.
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

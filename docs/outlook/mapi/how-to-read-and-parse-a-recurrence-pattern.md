@@ -11,7 +11,7 @@ ms.assetid: 75113097-b3ae-4d20-9796-85c62a592ef0
 
 # Read and parse a recurrence pattern
   
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 MAPI can be used to read and parse a recurrence pattern for an appointment.
   
@@ -20,20 +20,20 @@ For information about how to download, view, and run the code from the MFCMAPI a
 ### To parse a recurrence blob
 
 1. Open an appointment item. For information about opening a message, see [Opening a Message](opening-a-message.md).
-    
+
 2. Retrieve the named property **dispidApptRecur** ([PidLidAppointmentRecur Canonical Property](pidlidappointmentrecur-canonical-property.md)). For information about retrieving named properties, see [MAPI Named Properties](mapi-named-properties.md).
-    
-3. Follow the guidance in [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) to read the appointment recurrence pattern structure. 
-    
-The MFCMAPI reference application demonstrates the last step with the  `BinToAppointmentRecurrencePatternStruct` function in the InterpretProp2.cpp source file of the MFCMapi project. The  `BinToAppointmentRecurrencePatternStruct` function takes a pointer to a buffer in memory as a parameter. The MFCMAPI application obtains this buffer by first mapping the **dispidApptRecur** named property to a property tag, then by requesting the property's value using the [IMAPIProp::GetProps](imapiprop-getprops.md) method. If the property is too large to retrieve using the **GetProps** method, MFCMAPI opens a stream interface to retrieve the property using the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method. The MFCMAPI application then reads the data out of the stream to build the buffer. 
+
+3. Follow the guidance in [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28EXCHG.80%29.aspx) to read the appointment recurrence pattern structure.
+
+The MFCMAPI reference application demonstrates the last step with the `BinToAppointmentRecurrencePatternStruct` function in the InterpretProp2.cpp source file of the MFCMapi project. The `BinToAppointmentRecurrencePatternStruct` function takes a pointer to a buffer in memory as a parameter. The MFCMAPI application obtains this buffer by first mapping the **dispidApptRecur** named property to a property tag, then by requesting the property's value using the [IMAPIProp::GetProps](imapiprop-getprops.md) method. If the property is too large to retrieve using the **GetProps** method, MFCMAPI opens a stream interface to retrieve the property using the [IMAPIProp::OpenProperty](imapiprop-openproperty.md) method. The MFCMAPI application then reads the data out of the stream to build the buffer.
   
-For information about the format of the buffer, see the [PidLidAppointmentRecur Canonical Property](pidlidappointmentrecur-canonical-property.md). The bulk of the data in the buffer consists of fields of a fixed number of bytes, which must be read one after another. Some fields are present only if other fields contain certain values, and the size of some fields may depend on the value of other fields. Parsing the buffer to read the various fields involves a lot of bookkeeping. MFCMAPI uses an internal helper class named  `CBinaryParser` to encapsulate this bookkeeping. For example, the  `CBinaryParser::GetDWORD` function checks whether enough bytes remain in the buffer to read a DWORD, and then reads the value and updates the pointers. 
+For information about the format of the buffer, see the [PidLidAppointmentRecur Canonical Property](pidlidappointmentrecur-canonical-property.md). The bulk of the data in the buffer consists of fields of a fixed number of bytes, which must be read one after another. Some fields are present only if other fields contain certain values, and the size of some fields may depend on the value of other fields. Parsing the buffer to read the various fields involves a lot of bookkeeping. MFCMAPI uses an internal helper class named `CBinaryParser` to encapsulate this bookkeeping. For example, the `CBinaryParser::GetDWORD` function checks whether enough bytes remain in the buffer to read a DWORD, and then reads the value and updates the pointers.
   
-After the buffer has been parsed into a structure, the MFCMAPI application uses the  `AppointmentRecurrencePatternStructToString` function to convert the structure to a string to display to the user. This is not the same string Outlook would display, but is instead a raw view of the data upon which Outlook builds its logic. 
+After the buffer has been parsed into a structure, the MFCMAPI application uses the `AppointmentRecurrencePatternStructToString` function to convert the structure to a string to display to the user. This is not the same string Outlook would display, but is instead a raw view of the data upon which Outlook builds its logic.
   
 It is possible to encounter a buffer which contains either corrupted data or more data than is needed to encode a recurrence pattern. To help identify those scenarios, the MFCMAPI application keeps track of how much data has been successfully parsed and how much remains in the buffer. If data remains in the buffer after parsing has completed, MFCMAPI includes this "junk data" in the structure so it can be examined.
   
-The following is the complete listing of the  `BinToAppointmentRecurrencePatternStruct` function. 
+The following is the complete listing of the `BinToAppointmentRecurrencePatternStruct` function.
   
 ```cpp
 AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULONG cbBin, LPBYTE lpBin)
@@ -207,4 +207,3 @@ AppointmentRecurrencePatternStruct* BinToAppointmentRecurrencePatternStruct(ULON
 ## See also
 
 - [Using MAPI to Create Outlook 2007 Items](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx)
-
