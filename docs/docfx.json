@@ -86,7 +86,6 @@
         "infopath/form-templates/**.md": "form-templates"
       },
       "ms.prod": {
-        "access/**.md": "access",
         "infopath/**.md": "infopath"
       },
       "feedback_system": {
