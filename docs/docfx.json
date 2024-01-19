@@ -75,7 +75,8 @@
         "outlook/**.md": "outlook",
         "access/**.md": "access",
         "project/**.md": "project",
-        "visio/**.md": "visio"
+        "visio/**.md": "visio",
+        "infopath/**.md": "infopath"
       },
       "ms.technology": {
         "word/**.md": "content-controls",
@@ -86,8 +87,7 @@
         "shared/**.md": "telemetry"
       },
       "ms.prod": {
-        "access/**.md": "access",
-        "infopath/**.md": "infopath"
+        "access/**.md": "access"
       },
       "feedback_system": {
         "ddpi/**/*.md": "GitHub",
