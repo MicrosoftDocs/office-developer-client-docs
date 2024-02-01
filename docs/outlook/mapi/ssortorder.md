@@ -81,7 +81,15 @@ Sorting on multi-valued columns is not universally supported by all table implem
   
 > [!IMPORTANT]
 > The **ulOrder** member values TABLE_SORT_CATEG_MAX and TABLE_SORT_CATEG_MIN might not be defined in the downloadable header file you currently have, in which case you can add it to your code using the following values:
-> `#define TABLE_SORT_CATEG_MAX ((ULONG) 0x00000004)`>  `#define TABLE_SORT_CATEG_MIN ((ULONG) 0x00000008)`
+> ```cpp
+> #ifndef TABLE_SORT_CATEG_MAX
+> #define TABLE_SORT_CATEG_MAX ((ULONG) 0x00000004)
+> #endif
+>
+> #ifndef TABLE_SORT_CATEG_MIN
+> #define TABLE_SORT_CATEG_MIN ((ULONG) 0x00000008)
+> #endif
+> ```
   
 For more information about standard and categorized sorting, see [Sorting and Categorization](sorting-and-categorization.md).
   
