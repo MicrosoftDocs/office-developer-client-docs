@@ -87,6 +87,7 @@
         "shared/**.md": "telemetry"
       },
       "ms.prod": {
+        "access/**.md": "access"
       },
       "feedback_system": {
         "ddpi/**/*.md": "GitHub",
