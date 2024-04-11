@@ -39,7 +39,7 @@ SCODE ScMAPIXFromSMAPI(
 
  _lhSimpleSession_ 
  
-> [in] The Simple MAPI session that was created by a call to MAPILOGON. 
+> [in] The simple MAPI session that was created by a call to MAPILOGON. 
 
 _ulFlags_ 
 
@@ -47,7 +47,7 @@ _ulFlags_
 
 _lpInterface_ 
 
-> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the session. Passing NULL causes the lppMAPISession parameter to return a pointer to the standard interface for an Extended MAPI Session (IMAPISession).
+> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the session. Passing NULL causes the lppMAPISession parameter to return a pointer to the standard interface for an extended MAPI session (IMAPISession).
 
 _lppMAPISession_
 
@@ -57,11 +57,11 @@ _lppMAPISession_
 
 _S_OK_
 
-> The Simple MAPI session was successfully converted to an Extended MAPI session. 
+> The simple MAPI session was successfully converted to an extended MAPI session. 
 
 _MAPI_E_INVALID_PARAMETER_
 
-> lhSimpleSession could not be converted to an Extended MAPI session. 
+> lhSimpleSession could not be converted to an extended MAPI session. 
 
 _MAPI_E_UNKNOWN_FLAGS_ 
 
