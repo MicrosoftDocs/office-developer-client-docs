@@ -22,13 +22,13 @@ The following alphabetic entries contain documentation for the MAPI functions, c
   
 |Entry |... |
 |:-----|:-----|
-|[ABProviderInit](abproviderinit.md) <br/> |[ACCELERATEABSDI](accelerateabsdi.md) <br/> |
+|[ABProviderInit](abproviderinit.md) <br/>       |[ACCELERATEABSDI](accelerateabsdi.md) <br/> |
 |[BuildDisplayTable](builddisplaytable.md) <br/> |[CALLERRELEASE](callerrelease.md) <br/> |
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |[CheckParameters](checkparms.md) <br/> |
-|[CheckParms](checkparms.md) <br/> |[CloseIMsgSession](closeimsgsession.md) <br/> |
+|[CheckParms](checkparms.md) <br/>   |[CloseIMsgSession](closeimsgsession.md) <br/> |
 |[CreateIProp](createiprop.md) <br/> |[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md) <br/> |
 |[CreateTable](createtable.md) <br/> | [DeregisterIdleRoutine](deregisteridleroutine.md)  <br/>|
-|[DeinitMapiUtil](deinitmapiutil.md) <br/> [EnableIdleRoutine](enableidleroutine.md)|<br/> |
+|[DeinitMapiUtil](deinitmapiutil.md) <br/> | [EnableIdleRoutine](enableidleroutine.md)|<br/> |
 |[DISMISSMODELESS](dismissmodeless.md) <br/> |[FBadEntryList](fbadentrylist.md) <br/> |
 |[FBadColumnSet](fbadcolumnset.md) <br/> | [FBadPropTag](fbadproptag.md) <br/> |
 |[FBadProp](fbadprop.md) <br/> | [FBadRglpNameID](fbadrglpnameid.md)<br/> |
@@ -39,7 +39,7 @@ The following alphabetic entries contain documentation for the MAPI functions, c
 |[FGetComponentPath](fgetcomponentpath.md) <br/> | [FPropCompareProp](fpropcompareprop.md) <br/> |
 |[FNIDLE](fnidle.md) <br/> | [FPropExists](fpropexists.md) <br/> |
 |[FPropContainsProp](fpropcontainsprop.md) <br/> | [FreeProws](freeprows.md) <br/> |
-|[FreePadrlist](freepadrlist.md) <br/> [FtAddFt](ftaddft.md)|<br/> |
+|[FreePadrlist](freepadrlist.md) <br/> | [FtAddFt](ftaddft.md)|<br/> |
 |[FtAdcFt](ftadcft.md) <br/> | [FtMulDw](ftmuldw.md)<br/> |
 |[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |[FtNegFt](ftnegft.md) <br/> |
 |[FtMulDwDw](ftmuldwdw.md) <br/> | [GetAttribIMsgOnIStg](getattribimsgonistg.md) <br/> |
