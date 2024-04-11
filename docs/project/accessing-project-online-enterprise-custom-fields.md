@@ -22,25 +22,25 @@ Project Online is an Office 365 service that companies can extend to meet busine
 |Position Role  <br/> |TEXT  <br/> |Resources  <br/> |Tester  <br/> |
 |Flag Status  <br/> |FLAG  <br/> |Task  <br/> |No  <br/> |
 |Health  <br/> |TEXT  <br/> |Task  <br/> |Not specified  <br/> |
-   
-ECFs are defined at the Project Web Application (PWA) instance, external from any project, resource, or task. Yet, they can become associated with a project, resource, or task. This article provides an introductory look at custom fields using a sample application and focuses on retrieving ECF values. 
+
+ECFs are defined at the Project Web Application (PWA) instance, external from any project, resource, or task. Yet, they can become associated with a project, resource, or task. This article provides an introductory look at custom fields using a sample application and focuses on retrieving ECF values.
   
-You can download the complete sample at https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields.
+You can download the complete sample at <https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields>.
   
-Additionally, Project Online supports local custom fields as read-only entities specific to the specific project, resource, or task. For more information on local custom fields, see the sample https://github.com/OfficeDev/Project-CSOM-Read-Local-CustomFields\.
+Additionally, Project Online supports local custom fields as read-only entities specific to the specific project, resource, or task. For more information on local custom fields, see the sample <https://github.com/OfficeDev/Project-CSOM-Read-Local-CustomFields\>.
   
 ## Background materials
 
 A previous article, [Developing a Project Online application using the client-side object model](developing-a-project-online-application-using-the-client-side-object-model.md), provides background and the initial orientation for developing applications using CSOM. Refer to this article for the following items:
   
-- Background information about Project, stand-alone and cloud-based editions 
-    
+- Background information about Project, stand-alone and cloud-based editions
+
 - Development environment (Visual Studio editions and software libraries)
-    
+
 - Visual Studio project setup for a .NET application using the CSOM library
-    
+
 - Connecting to the Project Online service
-    
+
 ## Preliminaries (class-level declarations)
 
 The class for this application defines two data items: the project context and the pwaECF dictionary.
@@ -53,9 +53,9 @@ private static ProjectContext projContext =
 
 ```
 
-The context needs the connection endpoint to create an instance in an application. The connection endpoint is the URL of your PWA instance. 
+The context needs the connection endpoint to create an instance in an application. The connection endpoint is the URL of your PWA instance.
   
-The pwaECF dictionary stores the project ECFs defined at the PWA level. The dictionary uses the ECF.InternalName as the key, and the CustomField object as the value. The dictionary is populated in the ListPWACustomFields method, and then used as a reference in the Main method. 
+The pwaECF dictionary stores the project ECFs defined at the PWA level. The dictionary uses the ECF.InternalName as the key, and the CustomField object as the value. The dictionary is populated in the ListPWACustomFields method, and then used as a reference in the Main method.
   
 ```cs
     //Dictionary of ECFs
@@ -65,22 +65,22 @@ The pwaECF dictionary stores the project ECFs defined at the PWA level. The dict
 
 ## Main method
 
-The Main method manages the application flow. As with other applications that use the Project Online CSOM, Main initializes the project context. 
+The Main method manages the application flow. As with other applications that use the Project Online CSOM, Main initializes the project context.
   
 1. Retrieve and list the ECFs in the Project Online PWA.
-    
+
    This functionality is implemented in the ListPWACustomFields method.
-    
+
 2. Retrieve projects with custom fields and non-custom fields.
-    
-   When retrieving projects with ECFs, the query request to the Project Online service needs to include the following items: 
-    
+
+   When retrieving projects with ECFs, the query request to the Project Online service needs to include the following items:
+
    - **IncludeCustomFields** &ndash; This item requests the service to return a collection of PublishedProjects where each published project includes an extension that supports custom fields. Unless this item is specified, Project Online returns PublishedProject objects that do not include Custom Field data.
-    
+
    - **IncludeCustomFields.CustomFields** &ndash; This item requests the service to populate the PublishedProject objects with CustomFields data.
-    
+
    The following request specifies the project Id and Name, as well as the object extension for custom fields and the custom field values.
-    
+
    ```cs
         var projBlk = projContext.LoadQuery(
         projContext.Projects.Include(
@@ -93,34 +93,34 @@ The Main method manages the application flow. As with other applications that us
    ```
 
 3. Examine each project.
-    
-   The project objects used in this application are the PublishedProject type because the values are retrieved and displayed. 
-    
+
+   The project objects used in this application are the PublishedProject type because the values are retrieved and displayed.
+
    If you need to update data values in one or more projects, the project undergoing the update would be checked out and the application would use a DraftProject object to retrieve the values and update the project.
-    
+
 4. Accessing the ECF entries for a project
-    
+
    Each ECF instance separates the field value from the rest of the ECF information. The field value is stored as part of a key/value pair. The rest of the information is stored in a CustomField object.
-    
+
    Accessing ECF values in a project consists of two parts:
-    
+
    - Cycling through the CustomFields collection
-    
+
    - Accessing the proper entry using two constructs.
-    
-   Each project stores associated ECF entries in two places, a CustomFields collection that is enumerable and and the field values as part of key/value pairs. In the key/value pairs, the internalName is the key and the field value is the value. Use a dictionary to hold and access the field values. 
-    
-   The ECF properties, other than the field values, are stored in CustomField objects, one object per project. Use a CustomFields collection to access the ECFs associated with an individual project. 
-    
+
+   Each project stores associated ECF entries in two places, a CustomFields collection that is enumerable and and the field values as part of key/value pairs. In the key/value pairs, the internalName is the key and the field value is the value. Use a dictionary to hold and access the field values.
+
+   The ECF properties, other than the field values, are stored in CustomField objects, one object per project. Use a CustomFields collection to access the ECFs associated with an individual project.
+
 5. Each project stores the associated ECFs in a collection where each ECF entry consists of a key--the internal name of the ECF--and an object that holds the value of the ECF. Transfer the collection to a dictionary to access individual entries. The declaration follows.
-    
+
    ```cs
     Dictionary<string, object> projDict = pubProj.IncludeCustomFields.FieldValues;
     
    ```
 
    The value in a dictionary entry corresponds to the data type of the ECF. The object for each ECF maps to one of a variety of types. Most ECFs use simple types that fit into standard variables. The following fragment shows that minimal processing is involved for several types:
-    
+
    ```cs
     switch (cf.FieldType)
     {
@@ -152,8 +152,8 @@ The Main method manages the application flow. As with other applications that us
     
    ```
 
-   The lookup table of TEXT values, however, requires additional processing. The application retrieves the appropriate lookup table from the service, and outputs the ECF instance (with single or multiple values) by traversing the lookup table. The following code fragment shows processing of TEXT ECFs, including those with simple values and those using lookup tables: 
-    
+   The lookup table of TEXT values, however, requires additional processing. The application retrieves the appropriate lookup table from the service, and outputs the ECF instance (with single or multiple values) by traversing the lookup table. The following code fragment shows processing of TEXT ECFs, including those with simple values and those using lookup tables:
+
    ```cs
     case CustomFieldType.TEXT:
         if (!cf.LookupTable.ServerObjectIsNull.HasValue ||
@@ -180,7 +180,7 @@ The Main method manages the application flow. As with other applications that us
    ```
 
    This application simply outputs the value(s); however, it is possible to get more meaning from the data value(s).
-    
+
 ## ListPWACustomFields
 
 The ListPWACustomFields method retrieves and lists the ECFs associated with projects. This method lists the ECFs registered on the PWA instance that can be associated with individual projects. The entry point for accessing the ECFs uses the CustomFields element of the project context, as in the following query request:
@@ -204,4 +204,3 @@ The method does not check to see whether a project uses a specific ECF.
 - [Overview: Enterprise custom fields and lookup tables](/project/enterprise-custom-fields-and-lookup-tables-in-project-web-app)
 - [Local and Enterprise Custom Fields](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Add or edit enterprise custom fields in Project Server 2013](/project/add-or-edit-enterprise-custom-fields-in-project-server)
-    

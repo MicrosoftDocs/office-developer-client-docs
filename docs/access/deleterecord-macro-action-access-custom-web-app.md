@@ -13,10 +13,8 @@ description: "You can use the DeleteRecord action to delete a record."
 > [!IMPORTANT]
 > Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
   
-You can use the **DeleteRecord** action to delete a record. 
+You can use the **DeleteRecord** action to delete a record.
   
 ## Setting
 
-The **DeleteRecord** action doesn't contain any arguments when used in a user interface (UI) macro. 
-  
-
+The **DeleteRecord** action doesn't contain any arguments when used in a user interface (UI) macro.

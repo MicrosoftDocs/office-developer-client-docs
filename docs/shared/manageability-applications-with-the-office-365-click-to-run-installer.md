@@ -12,7 +12,7 @@ description: "Learn how to integrate the Microsoft 365 Apps Click-to-Run install
 
 Learn how to integrate the Microsoft 365 Apps Click-to-Run installer with a software management solution.
   
-The Microsoft 365 Apps Click-to-Run installer provides a COM interface that allows IT Professionals and software management solutions programmatic control over update management. This interface provides additional management capabilities beyond what is provided by the Office Deployment Tool.
+The Microsoft 365 Apps Click-to-Run installer provides a COM interface that allows IT professionals and software management solutions programmatic control over update management. This interface provides additional management capabilities beyond what is provided by the Office Deployment Tool.
   
 > [!NOTE]
 > This article applies to Office apps that use the Click-to-Run installer.
