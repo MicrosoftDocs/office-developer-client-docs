@@ -11,14 +11,14 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: a3b98bcd-e4dd-4143-9ca6-0fe3bf5eafe6
-description: "Converts a simple MAPI session to an extended MAPI session"
+description: "Converts a simple MAPI session to a MAPI session"
 ---
 
 # ScMAPIXFromSMAPI
   
 **Applies to**: Outlook 2013 | Outlook 2016 
   
-Converts a simple MAPI session to an extended MAPI session. 
+Converts a simple MAPI session to a MAPI session. 
   
 |Property |Value |
 |:-----|:-----|
@@ -47,7 +47,7 @@ _ulFlags_
 
 _lpInterface_ 
 
-> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the session. Passing NULL causes the lppMAPISession parameter to return a pointer to the standard interface for an extended MAPI session (IMAPISession).
+> [in] A pointer to the interface identifier (IID) that represents the interface to be used to access the session. Passing NULL causes the lppMAPISession parameter to return a pointer to the standard interface for a MAPI session (IMAPISession).
 
 _lppMAPISession_
 
@@ -57,11 +57,11 @@ _lppMAPISession_
 
 _S_OK_
 
-> The simple MAPI session was successfully converted to an extended MAPI session. 
+> The simple MAPI session was successfully converted to a MAPI session. 
 
 _MAPI_E_INVALID_PARAMETER_
 
-> lhSimpleSession could not be converted to an extended MAPI session. 
+> lhSimpleSession could not be converted to a MAPI session. 
 
 _MAPI_E_UNKNOWN_FLAGS_ 
 
