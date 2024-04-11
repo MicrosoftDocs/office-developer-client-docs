@@ -77,6 +77,6 @@ There are no inverse functions for **ScMAPIXFromSMAPI** function, that is, a cli
 
 ## See also 
 
-[MAPILOGON](/windows/win32/api/mapi/nc-mapi-mapilogon.md)
+[MAPILOGON](/windows/win32/api/mapi/nc-mapi-mapilogon)
 
-[MAPILogonEx](/office/client-developer/outlook/mapi/mapilogonex,md)  
+[MAPILogonEx](/office/client-developer/outlook/mapi/mapilogonex)  
