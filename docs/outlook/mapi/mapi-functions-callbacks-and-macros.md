@@ -3,7 +3,7 @@ title: "MAPI Functions, Callbacks, and Macros"
  
  
 manager: lindalu
-ms.date: 04/27/2021
+ms.date: 04/10/2024
 ms.audience: Developer
 ms.topic: reference
 ms.service: office-online-server
@@ -15,8 +15,6 @@ description: "The following alphabetic entries contain documentation for the MAP
 ---
 
 # MAPI Functions, Callbacks, and Macros
-
- 
   
 **Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
   
@@ -24,73 +22,73 @@ The following alphabetic entries contain documentation for the MAPI functions, c
   
 |Entry |... |
 |:-----|:-----|
-|[ABProviderInit](abproviderinit.md) <br/> |[ACCELERATEABSDI](accelerateabsdi.md) <br/> |
+|[ABProviderInit](abproviderinit.md) <br/>       |[ACCELERATEABSDI](accelerateabsdi.md) <br/> |
 |[BuildDisplayTable](builddisplaytable.md) <br/> |[CALLERRELEASE](callerrelease.md) <br/> |
 |[ChangeIdleRoutine](changeidleroutine.md) <br/> |[CheckParameters](checkparms.md) <br/> |
-|[CheckParms](checkparms.md) <br/> |[CloseIMsgSession](closeimsgsession.md) <br/> |
+|[CheckParms](checkparms.md) <br/>   |[CloseIMsgSession](closeimsgsession.md) <br/> |
 |[CreateIProp](createiprop.md) <br/> |[CreateMAPIInitializationMonitor](createmapiinitializationmonitor.md) <br/> |
-|[CreateTable](createtable.md) <br/> |  <br/>|
-|[DeinitMapiUtil](deinitmapiutil.md) <br/> |[DeregisterIdleRoutine](deregisteridleroutine.md) <br/> |
-|[DISMISSMODELESS](dismissmodeless.md) <br/> |[EnableIdleRoutine](enableidleroutine.md) <br/> |
-|[FBadColumnSet](fbadcolumnset.md) <br/> |[FBadEntryList](fbadentrylist.md) <br/> |
-|[FBadProp](fbadprop.md) <br/> |[FBadPropTag](fbadproptag.md) <br/> |
-|[FBadRestriction](fbadrestriction.md) <br/> |[FBadRglpNameID](fbadrglpnameid.md) <br/> |
-|[FBadRglpszW](fbadrglpszw.md) <br/> |[FBadRow](fbadrow.md) <br/> |
-|[FBadRowSet](fbadrowset.md) <br/> |[FBadSortOrderSet](fbadsortorderset.md) <br/> |
-|[FBinFromHex](fbinfromhex.md) <br/> |[FEqualNames](fequalnames.md) <br/> |
-|[FGetComponentPath](fgetcomponentpath.md) <br/> |[FixMAPI](fixmapi.md) <br/> |
-|[FNIDLE](fnidle.md) <br/> |[FPropCompareProp](fpropcompareprop.md) <br/> |
-|[FPropContainsProp](fpropcontainsprop.md) <br/> |[FPropExists](fpropexists.md) <br/> |
-|[FreePadrlist](freepadrlist.md) <br/> |[FreeProws](freeprows.md) <br/> |
-|[FtAdcFt](ftadcft.md) <br/> |[FtAddFt](ftaddft.md) <br/> |
-|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |[FtMulDw](ftmuldw.md) <br/> |
-|[FtMulDwDw](ftmuldwdw.md) <br/> |[FtNegFt](ftnegft.md) <br/> |
-|[FtSubFt](ftsubft.md) <br/> |[GetAttribIMsgOnIStg](getattribimsgonistg.md) <br/> |
-|[GetDefCachedMode](getdefcachedmode.md) <br/> |[GetDefCachedModeDownloadPubFoldFavs](getdefcachedmodedownloadpubfoldfavs.md) <br/> |
-|[GetInstance](getinstance.md) <br/> |[GetTnefStreamCodepage](gettnefstreamcodepage.md) <br/> |
-|[HexFromBin](hexfrombin.md) <br/> |[HrAddColumns](hraddcolumns.md) <br/> |
-|[HrAddColumnsEx](hraddcolumnsex.md) <br/> |[HrAllocAdviseSink](hrallocadvisesink.md) <br/> |
-|[HrCompareABEntryIDsWithExchangeContext](hrcompareabentryidswithexchangecontext.md) <br/> |[HrComposeEID](hrcomposeeid.md) <br/> |
-|[HrComposeMsgID](hrcomposemsgid.md) <br/> |[HrCreateOfflineObj](hrcreateofflineobj.md) <br/> |
-|[HrDecomposeEID](hrdecomposeeid.md) <br/> |[HrDecomposeMsgID](hrdecomposemsgid.md) <br/> |
-|[HrDispatchNotifications](hrdispatchnotifications.md) <br/> |[HrDoABDetailsWithExchangeContext](hrdoabdetailswithexchangecontext.md) <br/> |
-|[HrDoABDetailsWithProviderUID](hrdoabdetailswithprovideruid.md) <br/> |[HrEntryIDFromSz](hrentryidfromsz.md) <br/> |
-|[HrGetAutoDiscoverXML](hrgetautodiscoverxml.md) <br/> |[HrGetGALFromEmsmdbUID](hrgetgalfromemsmdbuid.md) <br/> |
-|[HrGetOneProp](hrgetoneprop.md) <br/> |[HrIStorageFromStream](hristoragefromstream.md) <br/> |
-|[HrOpenABEntryUsingDefaultContext](hropenabentryusingdefaultcontext.md) <br/> |[HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md) <br/> |
-|[HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) <br/> |[HrOpenABEntryWithProviderUIDSupport](hropenabentrywithprovideruidsupport.md) <br/> |
-|[HrOpenABEntryWithResolvedRow](hropenabentrywithresolvedrow.md) <br/> |[HrOpenABEntryWithSupport](hropenabentrywithsupport.md) <br/> |
-|[HrOpenOfflineObj](hropenofflineobj.md) <br/> |[HrQueryAllRows](hrqueryallrows.md) <br/> |
-|[HrSetOneProp](hrsetoneprop.md) <br/> |[HrSzFromEntryID](hrszfromentryid.md) <br/> |
-|[HrThisThreadAdviseSink](hrthisthreadadvisesink.md) <br/> |[HrValidateIPMSubtree](hrvalidateipmsubtree.md) <br/> |
-|[IsBadBoundedStringPtr](isbadboundedstringptr.md) <br/> |[LAUNCHWIZARDENTRY](launchwizardentry.md) <br/> |
-|[LPFNBUTTON](lpfnbutton.md) <br/> |[LPropCompareProp](lpropcompareprop.md) <br/> |
-|[LpValFindProp](lpvalfindprop.md) <br/> |[MAPIAdminProfiles](mapiadminprofiles.md) <br/> |
-|[MAPIAllocateBuffer](mapiallocatebuffer.md) <br/> |[MAPIAllocateMore](mapiallocatemore.md) <br/> |
-|[MAPICrashRecovery](mapicrashrecovery.md) <br/> |[MAPIDeInitIdle](mapideinitidle.md) <br/> |
-|[MAPIFreeBuffer](mapifreebuffer.md) <br/> |[MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) <br/> |
-|[MAPIInitialize](mapiinitialize.md) <br/> |[MAPIInitIdle](mapiinitidle.md) <br/> |
-|[MAPILogonEx](mapilogonex.md) <br/> |[MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md) <br/> |
-|[MAPIOFFLINE_CREATEINFO](mapioffline_createinfo.md) <br/> |[MAPIOpenFormMgr](mapiopenformmgr.md) <br/> |
-|[MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) <br/> |[MAPIReallocateBuffer](mapireallocatebuffer.md) <br/> |
-|[MAPIUninitialize](mapiuninitialize.md) <br/> |[MapStorageSCode](mapstoragescode.md) <br/> |
-|[MNLS_CompareStringW](mnls_comparestringw.md) <br/> |[MNLS_IsBadStringPtrW](mnls_isbadstringptrw.md) <br/> |
-|[MNLS_lstrcmpW](mnls_lstrcmpw.md) <br/> |[MNLS_lstrcpyW](mnls_lstrcpyw.md) <br/> |
-|[MNLS_lstrlenW](mnls_lstrlenw.md) <br/> |[MNLS_MultiByteToWideChar](mnls_multibytetowidechar.md) <br/> |
-|[MNLS_WideCharToMultiByte](mnls_widechartomultibyte.md) <br/> |[MSGCALLRELEASE](msgcallrelease.md) <br/> |
-|[MSGSERVICEENTRY](msgserviceentry.md) <br/> |[MSProviderInit](msproviderinit.md) <br/> |
-|[NOTIFCALLBACK](notifcallback.md) <br/> |[NSTServiceEntry](nstserviceentry.md) <br/> |
-|[OpenIMsgOnIStg](openimsgonistg.md) <br/> |[OpenIMsgSession](openimsgsession.md) <br/> |
-|[OpenStreamOnFile](openstreamonfile.md) <br/> |[OpenStreamOnFileW](openstreamonfilew.md) <br/> |
-|[OpenTnefStream](opentnefstream.md) <br/> |[OpenTnefStreamEx](opentnefstreamex.md) <br/> |
-|[PpropFindProp](ppropfindprop.md) <br/> |[PreprocessMessage](preprocessmessage.md) <br/> |
-|[PropCopyMore](propcopymore.md) <br/> |[RemovePreprocessInfo](removepreprocessinfo.md) <br/> |
-|[RTFSync](rtfsync.md) <br/> |[ScBinFromHexBounded](scbinfromhexbounded.md) <br/> |
-|[ScCopyNotifications](sccopynotifications.md) <br/> |[ScCopyProps](sccopyprops.md) <br/> |
-|[ScCountNotifications](sccountnotifications.md) <br/> |[ScCountProps](sccountprops.md) <br/> |
-|[ScCreateConversationIndex](sccreateconversationindex.md) <br/> |[ScDupPropset](scduppropset.md) <br/> |
-|[ScInitMapiUtil](scinitmapiutil.md) <br/> |[ScLocalPathFromUNC](sclocalpathfromunc.md) <br/> |
-|[ScRelocNotifications](screlocnotifications.md) <br/> |[ScRelocProps](screlocprops.md) <br/> |
+|[CreateTable](createtable.md) <br/> | [DeregisterIdleRoutine](deregisteridleroutine.md)  <br/>|
+|[DeinitMapiUtil](deinitmapiutil.md) <br/> | [EnableIdleRoutine](enableidleroutine.md)|<br/> |
+|[DISMISSMODELESS](dismissmodeless.md) <br/> |[FBadEntryList](fbadentrylist.md) <br/> |
+|[FBadColumnSet](fbadcolumnset.md) <br/> | [FBadPropTag](fbadproptag.md) <br/> |
+|[FBadProp](fbadprop.md) <br/> | [FBadRglpNameID](fbadrglpnameid.md)<br/> |
+|[FBadRestriction](fbadrestriction.md) <br/> | [FBadRow](fbadrow.md) <br/> |
+|[FBadRglpszW](fbadrglpszw.md) <br/> | [FBadSortOrderSet](fbadsortorderset.md) <br/> |
+|[FBadRowSet](fbadrowset.md) <br/> | [FEqualNames](fequalnames.md) <br/> |
+|[FBinFromHex](fbinfromhex.md) <br/> | [FixMAPI](fixmapi.md)<br/> |
+|[FGetComponentPath](fgetcomponentpath.md) <br/> | [FPropCompareProp](fpropcompareprop.md) <br/> |
+|[FNIDLE](fnidle.md) <br/> | [FPropExists](fpropexists.md) <br/> |
+|[FPropContainsProp](fpropcontainsprop.md) <br/> | [FreeProws](freeprows.md) <br/> |
+|[FreePadrlist](freepadrlist.md) <br/> | [FtAddFt](ftaddft.md)|<br/> |
+|[FtAdcFt](ftadcft.md) <br/> | [FtMulDw](ftmuldw.md)<br/> |
+|[FtgRegisterIdleRoutine](ftgregisteridleroutine.md) <br/> |[FtNegFt](ftnegft.md) <br/> |
+|[FtMulDwDw](ftmuldwdw.md) <br/> | [GetAttribIMsgOnIStg](getattribimsgonistg.md) <br/> |
+|[FtSubFt](ftsubft.md) <br/> | [GetDefCachedModeDownloadPubFoldFavs](getdefcachedmodedownloadpubfoldfavs.md) <br/> |
+|[GetDefCachedMode](getdefcachedmode.md) <br/> | [GetTnefStreamCodepage](gettnefstreamcodepage.md) <br/> |
+|[GetInstance](getinstance.md) <br/> | [HrAddColumns](hraddcolumns.md)<br/> |
+|[HexFromBin](hexfrombin.md) <br/> | [HrAllocAdviseSink](hrallocadvisesink.md) <br/> |
+|[HrAddColumnsEx](hraddcolumnsex.md) <br/> | [HrComposeEID](hrcomposeeid.md)<br/> |
+|[HrCompareABEntryIDsWithExchangeContext](hrcompareabentryidswithexchangecontext.md) <br/> | [HrCreateOfflineObj](hrcreateofflineobj.md) <br/> |
+|[HrComposeMsgID](hrcomposemsgid.md) <br/> | [HrDecomposeMsgID](hrdecomposemsgid.md)<br/> |
+|[HrDecomposeEID](hrdecomposeeid.md) <br/> | [HrDoABDetailsWithExchangeContext](hrdoabdetailswithexchangecontext.md)<br/> |
+|[HrDispatchNotifications](hrdispatchnotifications.md) <br/> | [HrEntryIDFromSz](hrentryidfromsz.md) <br/> |
+|[HrDoABDetailsWithProviderUID](hrdoabdetailswithprovideruid.md) <br/> | [HrGetGALFromEmsmdbUID](hrgetgalfromemsmdbuid.md) <br/> |
+|[HrGetAutoDiscoverXML](hrgetautodiscoverxml.md) <br/> | [HrIStorageFromStream](hristoragefromstream.md) <br/> |
+|[HrGetOneProp](hrgetoneprop.md) <br/> | [HrOpenABEntryWithExchangeContext](hropenabentrywithexchangecontext.md)<br/> |
+|[HrOpenABEntryUsingDefaultContext](hropenabentryusingdefaultcontext.md) <br/> | [HrOpenABEntryWithProviderUIDSupport](hropenabentrywithprovideruidsupport.md)<br/> |
+|[HrOpenABEntryWithProviderUID](hropenabentrywithprovideruid.md) <br/> | [HrOpenABEntryWithSupport](hropenabentrywithsupport.md) <br/> |
+|[HrOpenABEntryWithResolvedRow](hropenabentrywithresolvedrow.md) <br/> |[ HrQueryAllRows](hrqueryallrows.md)<br/> |
+|[HrOpenOfflineObj](hropenofflineobj.md) <br/> |[HrSzFromEntryID](hrszfromentryid.md)  <br/> |
+|[HrSetOneProp](hrsetoneprop.md) <br/> | [HrValidateIPMSubtree](hrvalidateipmsubtree.md) <br/> |
+|[HrThisThreadAdviseSink](hrthisthreadadvisesink.md) <br/> | [LAUNCHWIZARDENTRY](launchwizardentry.md)<br/> |
+|[IsBadBoundedStringPtr](isbadboundedstringptr.md) <br/> | [LPropCompareProp](lpropcompareprop.md)  <br/> |
+|[LPFNBUTTON](lpfnbutton.md) <br/> | [MAPIAdminProfiles](mapiadminprofiles.md)<br/> |
+|[LpValFindProp](lpvalfindprop.md) <br/> | [MAPIAllocateMore](mapiallocatemore.md) <br/> |
+|[MAPIAllocateBuffer](mapiallocatebuffer.md) <br/> |  [MAPIDeInitIdle](mapideinitidle.md)<br/> |
+|[MAPICrashRecovery](mapicrashrecovery.md) <br/> | [MAPIGetDefaultMalloc](mapigetdefaultmalloc.md) <br/> |
+|[MAPIFreeBuffer](mapifreebuffer.md) <br/> |  [MAPIInitIdle](mapiinitidle.md)<br/> |
+|[MAPIInitialize](mapiinitialize.md) <br/> |  [MAPIOFFLINE_AGGREGATEINFO](mapioffline_aggregateinfo.md)<br/> |
+|[MAPILogonEx](mapilogonex.md) <br/> | [MAPIOpenFormMgr](mapiopenformmgr.md)  <br/> |
+|[MAPIOFFLINE_CREATEINFO](mapioffline_createinfo.md) <br/> | [MAPIReallocateBuffer](mapireallocatebuffer.md)<br/> |
+|[MAPIOpenLocalFormContainer](mapiopenlocalformcontainer.md) <br/> | [MapStorageSCode](mapstoragescode.md) <br/> |
+|[MAPIUninitialize](mapiuninitialize.md) <br/> |  [MNLS_IsBadStringPtrW](mnls_isbadstringptrw.md)<br/> |
+|[MNLS_CompareStringW](mnls_comparestringw.md) <br/> | [MNLS_lstrcpyW](mnls_lstrcpyw.md)   <br/> |
+|[MNLS_lstrcmpW](mnls_lstrcmpw.md) <br/> | [MNLS_MultiByteToWideChar](mnls_multibytetowidechar.md) <br/> |
+|[MNLS_lstrlenW](mnls_lstrlenw.md) <br/> | [MSGCALLRELEASE](msgcallrelease.md) <br/> |
+|[MNLS_WideCharToMultiByte](mnls_widechartomultibyte.md) <br/> |  [MSProviderInit](msproviderinit.md)<br/> |
+|[MSGSERVICEENTRY](msgserviceentry.md) <br/> | [NSTServiceEntry](nstserviceentry.md) <br/> |
+|[NOTIFCALLBACK](notifcallback.md) <br/> | [OpenIMsgSession](openimsgsession.md) <br/> |
+|[OpenIMsgOnIStg](openimsgonistg.md) <br/> |  [OpenStreamOnFileW](openstreamonfilew.md)<br/> |
+|[OpenStreamOnFile](openstreamonfile.md) <br/> |  [OpenTnefStreamEx](opentnefstreamex.md)<br/> |
+|[OpenTnefStream](opentnefstream.md) <br/> |  [PreprocessMessage](preprocessmessage.md)<br/> |
+|[PpropFindProp](ppropfindprop.md) <br/> | [RemovePreprocessInfo](removepreprocessinfo.md) <br/> |
+|[PropCopyMore](propcopymore.md) <br/> |  [ScBinFromHexBounded](scbinfromhexbounded.md)<br/> |
+|[RTFSync](rtfsync.md) <br/> | [ScCopyProps](sccopyprops.md) <br/> |
+|[ScCopyNotifications](sccopynotifications.md) <br/> |  [ScCountProps](sccountprops.md)<br/> |
+|[ScCountNotifications](sccountnotifications.md) <br/> | [ScCreateConversationIndex](sccreateconversationindex.md) <br/> |
+|[ScDupPropset](scduppropset.md)<br/> | [ScInitMapiUtil](scinitmapiutil.md) <br/>  |
+|[ScLocalPathFromUNC](sclocalpathfromunc.md) <br/> | [ScMAPIXFromSMAPI](scmapixfromsmapi.md)<br/> |
+|[ScRelocNotifications](screlocnotifications.md) <br/> | [ScRelocProps](screlocprops.md) <br/> |
 |[ScUNCFromLocalPath](scuncfromlocalpath.md) <br/> |[SERVICEWIZARDDLGPROC](servicewizarddlgproc.md) <br/> |
 |[SetAttribIMsgOnIStg](setattribimsgonistg.md) <br/> |[SzFindCh](szfindch.md) <br/> |
 |[SzFindLastCh](szfindlastch.md) <br/> |[SzFindSz](szfindsz.md) <br/> |
@@ -99,6 +97,5 @@ The following alphabetic entries contain documentation for the MAPI functions, c
 |[UlRelease](ulrelease.md) <br/> |[UlValidateParameters](ulvalidateparameters.md) <br/> |
 |[UlValidateParms](ulvalidateparms.md) <br/> |[ValidateParameters](validateparameters.md) <br/> |
 |[ValidateParms](validateparms.md) <br/> |[WIZARDENTRY](wizardentry.md) <br/> |
-|[WrapStoreEntryID](wrapstoreentryid.md) <br/> |[XPProviderInit](xpproviderinit.md) <br/> |
-   
+|[WrapStoreEntryID](wrapstoreentryid.md) <br/> |[XPProviderInit](xpproviderinit.md) <br/> | 
 
