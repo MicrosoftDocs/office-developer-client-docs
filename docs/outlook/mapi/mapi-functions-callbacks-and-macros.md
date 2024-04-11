@@ -3,7 +3,7 @@ title: "MAPI Functions, Callbacks, and Macros"
  
  
 manager: lindalu
-ms.date: 04/27/2021
+ms.date: 04/10/2024
 ms.audience: Developer
 ms.topic: reference
 ms.service: office-online-server
@@ -15,8 +15,6 @@ description: "The following alphabetic entries contain documentation for the MAP
 ---
 
 # MAPI Functions, Callbacks, and Macros
-
- 
   
 **Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
   
