@@ -1,7 +1,7 @@
 ---
 title: "PidLidEmail3OriginalDisplayName Canonical Property"
 description: Outlines the PidLidEmail3OriginalDisplayName canonical property, which specifies a third display name.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

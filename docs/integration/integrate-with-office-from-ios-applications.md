@@ -1,6 +1,6 @@
 ---
 title: "Integrate with Office from iOS applications"
-manager: soliver
+manager: lindalu
 ms.date: 06/04/2015
 ms.audience: Developer
 ms.localizationpriority: medium

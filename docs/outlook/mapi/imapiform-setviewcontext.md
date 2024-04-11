@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormSetViewContext"
 description: "Describes the syntax, parameters, and return value of IMAPIFormSetViewContext, which establishes a view context for the form."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

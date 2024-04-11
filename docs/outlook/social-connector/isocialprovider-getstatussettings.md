@@ -1,7 +1,7 @@
 ---
 title: "ISocialProviderGetStatusSettings"
 description: "Provides the syntax and references for ISocialProvider GetStatusSettings, but this method is currently not supported."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

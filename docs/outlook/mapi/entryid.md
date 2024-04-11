@@ -1,7 +1,7 @@
 ---
 title: "ENTRYID"
 description: "ENTRYID contains an entry identifier for a MAPI object. This article describes its syntax, members, and remarks."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

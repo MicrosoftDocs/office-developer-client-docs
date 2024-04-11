@@ -1,7 +1,7 @@
 ---
 title: "Type a New Formula for a Cell"
 description: "Describes the three steps to take to type a new formula for a cell in Microsoft Visio, including how to resolve an error."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

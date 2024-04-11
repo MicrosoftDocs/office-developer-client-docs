@@ -2,7 +2,7 @@
 title: "About Date, Time, and Duration Values"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview

@@ -1,7 +1,7 @@
 ---
 title: "MAPIReallocateBuffer"
 description: "MAPIReallocateBuffer reallocates a memory buffer, and it is used with the MAPIAllocateBuffer function."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "CheckParameters"
 description: "CheckParameters calls an internal function to validate debugging parameters on service provider methods called by MAPI."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

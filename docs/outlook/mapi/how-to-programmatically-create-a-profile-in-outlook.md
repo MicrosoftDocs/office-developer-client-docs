@@ -1,6 +1,6 @@
 ---
 title: "Programmatically create a profile in Outlook"
-manager: soliver
+manager: lindalu
 ms.date: 06/02/2016
 ms.audience: Developer
 ms.localizationpriority: medium

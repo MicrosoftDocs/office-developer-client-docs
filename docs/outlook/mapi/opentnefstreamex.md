@@ -1,7 +1,7 @@
 ---
 title: "OpenTnefStreamEx"
 description: "OpenTnefStreamEx creates a TNEF object that can be used to encode or decode a message object into a TNEF data stream."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

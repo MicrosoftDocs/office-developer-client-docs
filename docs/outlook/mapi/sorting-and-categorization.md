@@ -1,7 +1,7 @@
 ---
 title: "Sorting and Categorization"
 description: Outlines sorting and configuration in Outlook 2013 and 2016. There are also links to reference materials.
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

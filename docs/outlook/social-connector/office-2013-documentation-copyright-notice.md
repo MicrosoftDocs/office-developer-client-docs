@@ -1,7 +1,7 @@
 ---
 title: "Office 2013 documentation copyright notice, Outlook Social Connector"
 description: "Provides the Microsoft Office 2013 documentation copyright notice for the Microsoft Outlook Social Connector."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

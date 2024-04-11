@@ -1,7 +1,7 @@
 ---
 title: "EXTENDED_NOTIFICATION"
 description: "EXTENDED_NOTIFICATION describes information that relates to an event that is service provider-specific."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

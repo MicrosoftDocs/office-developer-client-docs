@@ -1,7 +1,7 @@
 ---
 title: "PidTagHobbies Canonical Property"
 description: Outlines the PidTagHobbies canonical property, which contains the names of the hobbies of the messaging user.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

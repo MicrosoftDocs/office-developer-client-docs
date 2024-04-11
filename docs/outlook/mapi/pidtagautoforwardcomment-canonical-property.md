@@ -1,7 +1,7 @@
 ---
 title: "PidTagAutoForwardComment Canonical Property"
 description: Outlines the PidTagAutoForwardComment canonical property, which contains a comment added by the auto-forwarding agent.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

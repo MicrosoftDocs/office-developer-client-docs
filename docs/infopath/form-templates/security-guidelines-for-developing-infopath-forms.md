@@ -2,7 +2,7 @@
 title: "Security Guidelines for Developing InfoPath Forms"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
  

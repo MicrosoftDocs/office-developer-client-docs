@@ -1,7 +1,7 @@
 ---
 title: "PidTagMessageSecurityLabel Canonical Property"
 description: Outlines the PidTagMessageSecurityLabel canonical property, which contains a security label for a message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

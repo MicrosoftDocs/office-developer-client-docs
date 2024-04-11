@@ -1,7 +1,7 @@
 ---
 title: "PidLidNonSendableBccTrackStatus Canonical Property"
 description: Outlines the PidLidNonSendableBccTrackStatus canonical property, which contains the value for each attendee that is listed in the dispidNonSendableBCC property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidCompanies Canonical Property"
 description: Outlines the PidLidCompanies canonical property, which contains the names of the companies that are associated with an item.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

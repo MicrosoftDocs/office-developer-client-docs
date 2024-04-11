@@ -1,7 +1,7 @@
 ---
 title: "PidTagRemindersOnlineEntryId Canonical Property"
 description: Outlines the PidTagRemindersOnlineEntryId canonical property, which contains the EntryID of the reminders folder.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

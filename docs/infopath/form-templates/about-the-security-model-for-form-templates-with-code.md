@@ -1,6 +1,6 @@
 ---
 title: "About the Security Model for Form Templates with Code"
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:

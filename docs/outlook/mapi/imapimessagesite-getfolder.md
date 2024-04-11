@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteGetFolder"
 description: "IMAPIMessageSiteGetFolder returns the folder in which the current message was created or opened, if such a folder exists."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagInReplyToId Canonical Property"
 description: Outlines the PidTagInReplyToId canonical property, which contains the original message's PR_INTERNET_MESSAGE_ID (PidTagInternetMessageId) property value.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

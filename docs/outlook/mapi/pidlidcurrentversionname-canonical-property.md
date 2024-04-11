@@ -1,7 +1,7 @@
 ---
 title: "PidLidCurrentVersionName Canonical Property"
 description: Outlines the PidLidCurrentVersionName canonical property, which contains a String that indicates the major and minor version number.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidNoteX Canonical Property"
 description: Outlines the PidLidNoteX canonical property, which specifies the distance, in pixels, from the left edge of the screen where a user interface displays a note.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

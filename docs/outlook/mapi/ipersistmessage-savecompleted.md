@@ -1,7 +1,7 @@
 ---
 title: "IPersistMessageSaveCompleted"
 description: "Describes the syntax, parameters, and return value of IPersistMessage SaveCompleted, which notifies the form that a save operation has been completed."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

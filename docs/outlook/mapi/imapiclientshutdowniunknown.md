@@ -1,7 +1,7 @@
 ---
 title: "IMAPIClientShutdown  IUnknown"
 description: "IMAPIClientShutdownIUnknown enables a MAPI client to carry out a fast shutdown of the client process."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

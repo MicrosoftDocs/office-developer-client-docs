@@ -1,7 +1,7 @@
 ---
 title: "IDistList  IMAPIContainer"
 description: "IDistList IMAPIContainer provides access to distribution lists in modifiable address book containers and can create, copy, and delete distribution lists."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

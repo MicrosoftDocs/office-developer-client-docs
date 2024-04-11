@@ -1,7 +1,7 @@
 ---
 title: "PidTagDefaultProfile Canonical Property"
 description: Outlines the PidTagDefaultProfile canonical property, which contains TRUE if a messaging user profile is the MAPI default profile.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

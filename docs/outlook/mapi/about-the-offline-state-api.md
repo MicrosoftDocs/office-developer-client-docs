@@ -1,7 +1,7 @@
 ---
 title: "About the Offline State API"
 description: "Describes the Offline State API, which supports callbacks indicating changes in a user's connection state in Microsoft Outlook 2013 and 2010."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

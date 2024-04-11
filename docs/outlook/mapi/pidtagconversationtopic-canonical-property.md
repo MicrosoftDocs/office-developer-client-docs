@@ -1,7 +1,7 @@
 ---
 title: "PidTagConversationTopic Canonical Property"
 description: Outlines the PidTagConversationTopic canonical property, which contains the topic of the first message in a conversation thread.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

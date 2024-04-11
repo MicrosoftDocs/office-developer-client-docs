@@ -1,7 +1,7 @@
 ---
 title: "PidTagLanguage Canonical Property"
 description: Outlines the PidTagLanguage canonical property, which contains a value that indicates the language in which the messaging user is writing messages.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

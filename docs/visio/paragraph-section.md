@@ -1,7 +1,7 @@
 ---
 title: "Paragraph Section"
 description: "Paragraph Section shows the paragraph formatting attributes for the shape's text, such as indents, line spacing, bullets, and horizontal alignment of paragraphs."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

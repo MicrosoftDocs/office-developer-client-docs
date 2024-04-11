@@ -1,7 +1,7 @@
 ---
 title: "PidLidValidFlagStringProof Canonical Property"
 description: Outlines the PidLidValidFlagStringProof canonical property, which validates whether a property's value was set by an agent who knew another property's value.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

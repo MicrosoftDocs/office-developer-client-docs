@@ -1,7 +1,7 @@
 ---
 title: "CbFLATMTSIDLIST"
 description: "CbFLATMTSIDLIST computes the number of bytes in an existing FLATMTSIDLIST structure."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

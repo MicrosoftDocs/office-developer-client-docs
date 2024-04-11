@@ -1,7 +1,7 @@
 ---
 title: "PidLidTaskAccepted Canonical Property"
 description: Outlines the PidLidTaskAccepted canonical property, which indicates whether a task assignee has replied to a task request.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

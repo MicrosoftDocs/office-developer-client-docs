@@ -1,7 +1,7 @@
 ---
 title: "MAPI File Formats"
 description: Describes the different MAPI file formats and provides configuration file names and additional resource links.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

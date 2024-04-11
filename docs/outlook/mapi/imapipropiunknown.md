@@ -1,7 +1,7 @@
 ---
 title: "IMAPIProp  IUnknown"
 description: "IMAPIPropIUnknown enables clients, service providers, and MAPI to work with properties. All objects that support properties implement this interface."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

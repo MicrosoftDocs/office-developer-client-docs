@@ -1,7 +1,7 @@
 ---
 title: "PidLidReminderSignalTime Canonical Property"
 description: Outlines the PidLidReminderSignalTime canonical property, which specifies the point in time when a reminder transitions from pending to overdue.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

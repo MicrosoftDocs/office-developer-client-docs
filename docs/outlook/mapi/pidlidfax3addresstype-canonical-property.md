@@ -1,7 +1,7 @@
 ---
 title: "PidLidFax3AddressType Canonical Property"
 description: Outlines the PidLidFax3AddressType canonical property, which specifies the address type for the other contact's fax address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

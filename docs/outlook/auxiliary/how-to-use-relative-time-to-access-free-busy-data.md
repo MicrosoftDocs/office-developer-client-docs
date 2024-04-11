@@ -1,6 +1,6 @@
 ---
 title: "Use relative time to access free/busy data"
-manager: soliver
+manager: lindalu
 ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: overview

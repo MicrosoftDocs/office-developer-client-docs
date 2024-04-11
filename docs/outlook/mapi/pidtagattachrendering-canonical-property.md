@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachRendering Canonical Property"
 description: Outlines the PidTagAttachRendering canonical property, which contains a Microsoft Windows metafile with rendering information for an attachment. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

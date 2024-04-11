@@ -1,7 +1,7 @@
 ---
 title: "PidLidContactUserField1 Canonical Property"
 description: Outlines the PidLidContactUserField1 canonical property, which specifies the first field on the contact that is intended for miscellaneous use for the contact.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

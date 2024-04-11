@@ -1,7 +1,7 @@
 ---
 title: "PidTagClientSubmitTime Canonical Property"
 description: Outlines the PidTagClientSubmitTime canonical property, which contains the date and time the message sender submitted a message. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

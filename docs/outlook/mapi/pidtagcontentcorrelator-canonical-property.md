@@ -1,7 +1,7 @@
 ---
 title: "PidTagContentCorrelator Canonical Property"
 description: Outlines the PidTagContentCorrelator canonical property, which contains a value the message sender can use to match a report with the original message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

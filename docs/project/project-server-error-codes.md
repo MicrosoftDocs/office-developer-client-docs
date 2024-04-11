@@ -1,6 +1,6 @@
 ---
 title: "Project Server error codes"
-manager: soliver
+manager: lindalu
 ms.date: 09/17/2015
 ms.audience: Developer
 f1_keywords:

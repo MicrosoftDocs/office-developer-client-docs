@@ -1,7 +1,7 @@
 ---
 title: "PidTagCreateTemplates Canonical Property"
 description: Outlines the PidTagCreateTemplates canonical property, which contains an embedded table object that contains dialog box template entry identifiers.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

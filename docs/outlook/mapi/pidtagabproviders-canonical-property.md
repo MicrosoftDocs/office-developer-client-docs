@@ -1,7 +1,7 @@
 ---
 title: "PidTagAbProviders Canonical Property"
 description: Outlines the PidTagAbProviders canonical property, which contains a list of identifiers for address book providers in the current profile. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

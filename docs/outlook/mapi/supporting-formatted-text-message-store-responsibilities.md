@@ -1,7 +1,7 @@
 ---
 title: "Supporting Formatted Text Message Store Responsibilities"
 description: Outlines supporting formatted text message store responsibilities. This applies to Outlook 2013 and Outlook 2016.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

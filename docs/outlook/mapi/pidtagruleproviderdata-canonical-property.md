@@ -1,7 +1,7 @@
 ---
 title: "PidTagRuleProviderData Canonical Property"
 description: Outlines the PidTagRuleProviderData canonical property, which is an opaque property that the client sets for the exclusive use of the client.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

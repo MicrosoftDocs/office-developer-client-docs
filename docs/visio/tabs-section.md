@@ -1,7 +1,7 @@
 ---
 title: "Tabs Section"
 description: "Describes remarks for the Tabs Section, which contains cells for shapes or styles that control tab stop position and alignment."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "OpenStreamOnFile"
 description: "OpenStreamOnFile allocates and initializes an OLE IStream object to access the contents of a file. This function takes an ANSI string as the file name."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

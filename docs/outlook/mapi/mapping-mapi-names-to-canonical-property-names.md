@@ -1,7 +1,7 @@
 ---
 title: "Mapping MAPI Names to Canonical Property Names"
 description: "This topic contains three tables that map each MAPI property to the corresponding canonical property name."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

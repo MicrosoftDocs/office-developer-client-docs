@@ -1,6 +1,6 @@
 ---
 title: "IFreeBusyDataGetFBPublishRange"
-manager: soliver
+manager: lindalu
 ms.date: 09/23/2016
 ms.audience: Developer
 ms.topic: reference

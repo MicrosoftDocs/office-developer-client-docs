@@ -1,7 +1,7 @@
 ---
 title: "PidTagDeferredDeliveryTime Canonical Property"
 description: Outlines the PidTagDeferredDeliveryTime canonical property, which contains the date and time when a message sender wants a message delivered. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

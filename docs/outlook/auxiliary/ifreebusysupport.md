@@ -1,6 +1,6 @@
 ---
 title: "IFreeBusySupport"
-manager: soliver
+manager: lindalu
 ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: reference

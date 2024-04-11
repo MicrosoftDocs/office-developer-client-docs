@@ -1,7 +1,7 @@
 ---
 title: "PidLidContactUserField2 Canonical Property"
 description: Outlines the PidLidContactUserField2 canonical property, which specifies the second field on the contact that is intended for miscellaneous use for the contact.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

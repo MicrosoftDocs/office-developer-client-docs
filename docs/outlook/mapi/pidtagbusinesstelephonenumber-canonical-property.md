@@ -1,7 +1,7 @@
 ---
 title: "PidTagBusinessTelephoneNumber Canonical Property"
 description: Outlines the PidTagBusinessTelephoneNumber canonical property, which contains the primary telephone number of the recipient's place of business. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

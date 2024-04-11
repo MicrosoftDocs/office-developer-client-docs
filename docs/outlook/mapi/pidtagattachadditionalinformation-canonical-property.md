@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachAdditionalInformation Canonical Property"
 description: Outlines the PidTagAttachAdditionalInformation canonical property, which provides file type information for a non-Windows attachment.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

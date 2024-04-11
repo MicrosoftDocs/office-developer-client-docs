@@ -1,7 +1,7 @@
 ---
 title: "PidLidPostalAddressId Canonical Property"
 description: Outlines the PidLidPostalAddressId canonical property, which specifies which physical address is the contact's mailing address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

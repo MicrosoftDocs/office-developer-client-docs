@@ -1,7 +1,7 @@
 ---
 title: "PidLidSharingResponseType Canonical Property"
 description: Outlines the PidLidSharingResponseType canonical property, which specifies the type of response with which the recipient of the sharing request responded.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

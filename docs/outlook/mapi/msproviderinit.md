@@ -1,7 +1,7 @@
 ---
 title: "MSProviderInit"
 description: "Describes the syntax, parameters, return value, and remarks for MSProviderInit, which initializes a message store provider for operation."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

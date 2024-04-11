@@ -1,7 +1,7 @@
 ---
 title: "PidLidRecurring Canonical Property"
 description: Outlines the PidLidRecurring canonical property, which specifies whether an appointment message is recurrent.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

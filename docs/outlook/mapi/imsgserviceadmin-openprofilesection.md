@@ -1,7 +1,7 @@
 ---
 title: "IMsgServiceAdminOpenProfileSection"
 description: "IMsgServiceAdmin OpenProfileSection opens a section of the current profile and returns an IProfSect pointer for further access."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

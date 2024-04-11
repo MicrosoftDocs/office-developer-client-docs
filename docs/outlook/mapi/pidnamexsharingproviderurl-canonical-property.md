@@ -1,7 +1,7 @@
 ---
 title: "PidNameXSharingProviderUrl Canonical Property"
 description: Outlines the PidNameXSharingProviderUrl canonical property, which represents the value of the dispidSharingProviderUrl property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Client Shutdown in MAPI"
 description: "The topics in this section describe MAPI support for a client to perform fast shutdown."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

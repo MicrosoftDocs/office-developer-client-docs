@@ -1,7 +1,7 @@
 ---
 title: "Retrieving MAPI Properties"
 description: Outlines how clients and service providers can retrieve an object's properties by calling IMAPIProp::GetProps, IMAPIProp::OpenProperty, or HrGetOneProp.
-manager: soliver
+manager: lindalu
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.localizationpriority: medium

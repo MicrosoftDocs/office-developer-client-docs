@@ -2,7 +2,7 @@
 title: "What the PSI does and does not do"
 
  
-manager: soliver
+manager: lindalu
 ms.date: 09/17/2015
 ms.audience: Developer
  

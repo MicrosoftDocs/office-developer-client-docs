@@ -1,7 +1,7 @@
 ---
 title: "IMsgStoreAbortSubmit"
 description: "Describes the syntax, parameters, and return value of IMsgStore AbortSubmit, which attempts to remove a message from the outgoing queue."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

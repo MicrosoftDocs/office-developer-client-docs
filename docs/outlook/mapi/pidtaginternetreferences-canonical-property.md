@@ -1,7 +1,7 @@
 ---
 title: "PidTagInternetReferences Canonical Property"
 description: Outlines the PidTagInternetReferences canonical property, which contains the value of a MIME message's References header field.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

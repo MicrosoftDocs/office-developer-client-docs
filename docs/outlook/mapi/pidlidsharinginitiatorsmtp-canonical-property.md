@@ -1,7 +1,7 @@
 ---
 title: "PidLidSharingInitiatorSmtp Canonical Property"
 description: Outlines the PidLidSharingInitiatorSmtp canonical property, which specifies the SMTP address of the user who initiated the sharing message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

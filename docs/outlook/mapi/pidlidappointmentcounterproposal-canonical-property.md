@@ -1,7 +1,7 @@
 ---
 title: "PidLidAppointmentCounterProposal Canonical Property"
 description: "PidLidAppointmentCounterProposal Canonical Property indicates that this meeting response is a counter proposal."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

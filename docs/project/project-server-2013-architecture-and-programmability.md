@@ -2,7 +2,7 @@
 title: "Project Server 2013 architecture and programmability"
 
  
-manager: soliver
+manager: lindalu
 ms.date: 09/17/2015
 ms.audience: Developer
  

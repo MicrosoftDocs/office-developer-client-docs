@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteSaveMessage"
 description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteSaveMessage, which requests that the current message be saved."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

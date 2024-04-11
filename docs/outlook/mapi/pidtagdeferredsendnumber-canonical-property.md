@@ -1,7 +1,7 @@
 ---
 title: "PidTagDeferredSendNumber Canonical Property"
 description: Outlines the PidTagDeferredSendNumber canonical property, which contains a number that can be used to compute the deferment of sending a message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

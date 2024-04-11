@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionOpenMsgStore"
 description: "Describes the syntax, parameters, and return value of IMAPISessionOpenMsgStore, which opens a message store and returns an IMsgStore pointer for further access."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

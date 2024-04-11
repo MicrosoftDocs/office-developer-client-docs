@@ -1,7 +1,7 @@
 ---
 title: "MAPI Report Messages"
 description: "MAPI report messages present status information about a message to its sender. The two types are read status reports and delivery status reports."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

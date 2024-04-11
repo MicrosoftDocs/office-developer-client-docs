@@ -1,6 +1,6 @@
 ---
 title: "Outlook 2013 auxiliary reference copyright"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

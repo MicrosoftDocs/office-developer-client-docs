@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteGetStore"
 description: "IMAPIMessageSiteGetStore returns the message store that contains the current message, if such a store exists."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

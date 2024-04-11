@@ -1,7 +1,7 @@
 ---
 title: "MAPI Service Provider Objects"
 description: "Describes all the MAPI service provider objects, which are strictly for bookkeeping; they are used by MAPI to control the startup and shutdown processes."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

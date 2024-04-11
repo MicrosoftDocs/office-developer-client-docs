@@ -2,7 +2,7 @@
 title: "Guidelines for Improving the Performance of InfoPath Forms"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
  

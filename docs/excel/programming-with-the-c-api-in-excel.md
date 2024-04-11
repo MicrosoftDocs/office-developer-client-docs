@@ -2,7 +2,7 @@
 title: "Programming with the C API in Excel"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

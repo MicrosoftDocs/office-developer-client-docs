@@ -1,7 +1,7 @@
 ---
 title: "PidTagMessageLocaleId Canonical Property"
 description: Outlines the PidTagMessageLocaleId canonical property, which contains the Windows LCID of the end user who created this message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

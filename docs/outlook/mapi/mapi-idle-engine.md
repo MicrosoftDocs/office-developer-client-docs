@@ -1,7 +1,7 @@
 ---
 title: "MAPI Idle Engine"
 description: Provides a detailed overview of the MAPI idle engine and provides links to the idle engine functions. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

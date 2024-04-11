@@ -1,7 +1,7 @@
 ---
 title: "TNEF Stream Structure"
 description: Outlines TNEF stream structure. This article applies to Outlook 2013 and Outlook 2016.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

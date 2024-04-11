@@ -1,7 +1,7 @@
 ---
 title: "PidLidContacts Canonical Property"
 description: Outlines the PidLidContacts canonical property, which contains the names of contacts associated with the item.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

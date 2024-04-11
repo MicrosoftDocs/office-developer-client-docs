@@ -1,7 +1,7 @@
 ---
 title: "PidLidLinkedTaskItems Canonical Property"
 description: Outlines the PidLidLinkedTaskItems canonical property, which specifies a list of the PR_ENTRYID property of tasks that are related to the calendar. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: "Get the path of a specific version of MAPI for the default mail client"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

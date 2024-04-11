@@ -1,7 +1,7 @@
 ---
 title: "PidTagMessageClass Canonical Property"
 description: Outlines the PidTagMessageClass canonical property, which contains a text string that identifies the sender-defined message class, such as IPM.Note.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

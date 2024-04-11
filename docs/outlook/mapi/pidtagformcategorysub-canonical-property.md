@@ -1,7 +1,7 @@
 ---
 title: "PidTagFormCategorySub Canonical Property"
 description: Outlines the PidTagFormCategorySub canonical property, which contains the subcategory of a form, as defined by a client application. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

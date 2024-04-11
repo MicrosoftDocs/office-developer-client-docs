@@ -1,7 +1,7 @@
 ---
 title: "PidTagContentLength Canonical Property"
 description: Outlines the canonical property, which contains a message length, in bytes, passed to a client application or service provider.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

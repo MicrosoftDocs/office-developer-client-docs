@@ -1,6 +1,6 @@
 ---
 title: "Providing Read and Nonread Reports for Message Store Providers"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

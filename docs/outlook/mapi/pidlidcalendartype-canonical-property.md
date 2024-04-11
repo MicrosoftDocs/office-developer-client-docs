@@ -1,7 +1,7 @@
 ---
 title: "PidLidCalendarType Canonical Property"
 description: Outlines the PidLidCalendarType canonical property, which specifies the value of the CalendarType field from the dispidApptRecur property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

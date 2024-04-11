@@ -1,7 +1,7 @@
 ---
 title: "PidTagAgingGranularity Canonical Property"
 description: Outlines the PidTagAgingGranularity canonical property, which represents a unit of time used in determining the length of time an item remains in a folder.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

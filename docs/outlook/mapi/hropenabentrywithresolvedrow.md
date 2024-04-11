@@ -1,7 +1,7 @@
 ---
 title: "HrOpenABEntryWithResolvedRow" 
 description: The HrOpenABEntryWithResolvedRow automatically gets the emsabpUID from the resolved row and opens the entryID.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

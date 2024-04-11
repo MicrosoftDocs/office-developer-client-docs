@@ -1,7 +1,7 @@
 ---
 title: "PidTagContainerFlags Canonical Property"
 description: Outlines the PidTagContainerFlags canonical property, which contains a bitmask of flags describing capabilities of an address book container.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: "About APIs exported by Outlook"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

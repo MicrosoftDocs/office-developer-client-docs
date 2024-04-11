@@ -1,7 +1,7 @@
 ---
 title: "Shapes element (PageContents_Type complexType) (Visio XML)"
 description: "Shapes element (PageContents_Type complexType) (Visio XML) contains a collection of Shape elements."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

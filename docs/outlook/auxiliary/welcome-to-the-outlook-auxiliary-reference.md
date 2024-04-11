@@ -1,6 +1,6 @@
 ---
 title: "Welcome to the Outlook Auxiliary Reference"
-manager: soliver
+manager: lindalu
 ms.date: 09/10/2015
 ms.audience: Developer
 ms.topic: overview

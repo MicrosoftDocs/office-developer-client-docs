@@ -1,7 +1,7 @@
 ---
 title: "IMAPIPropCopyProps"
 description: "Describes the syntax, parameters, and return value of IMAPIPropCopyProps, which copies or moves selected properties."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

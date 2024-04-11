@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachExtension Canonical Property"
 description: Outlines the PidTagAttachExtension canonical property, which contains a file name extension that indicates the document type of an attachment. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

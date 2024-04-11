@@ -1,7 +1,7 @@
 ---
 title: "MAPI Address Book"
 description: The address book can be accessed programmatically, without user intervention, or interactively through the use of common dialog boxes.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

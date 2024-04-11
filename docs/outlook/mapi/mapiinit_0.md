@@ -1,7 +1,7 @@
 ---
 title: "MAPIINIT_0"
 description: Describes the MAPIINIT_0 property and provides syntax, members, remarks, and additional resource links.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

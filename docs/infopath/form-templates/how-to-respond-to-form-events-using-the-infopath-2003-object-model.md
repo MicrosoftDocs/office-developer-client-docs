@@ -2,7 +2,7 @@
 title: "Respond to Form Events Using the InfoPath 2003 Object Model"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
  

@@ -1,6 +1,6 @@
 ---
 title: "Locating the message download history for a POP3 account"
-manager: soliver
+manager: lindalu
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.topic: overview

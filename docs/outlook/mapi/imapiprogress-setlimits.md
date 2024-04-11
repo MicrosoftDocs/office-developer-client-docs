@@ -1,7 +1,7 @@
 ---
 title: "IMAPIProgressSetLimits"
 description: "IMAPIProgressSetLimits sets the limits for the number of items in the operation, and the flags that control how progress information is calculated."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

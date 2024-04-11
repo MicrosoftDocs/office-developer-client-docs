@@ -1,7 +1,7 @@
 ---
 title: "PidTagMemberRights Canonical Property"
 description: Outlines the PidTagMemberRights canonical property, which contains a set of bits that indicated the rights of this member on a folder or mailbox.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

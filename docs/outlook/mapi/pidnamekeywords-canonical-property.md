@@ -1,7 +1,7 @@
 ---
 title: "PidNameKeywords Canonical Property"
 description: Outlines the PidNameKeywords canonical property, which contains keywords or categories for the message object.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagAcknowledgementMode Canonical Property"
 description: Outlines the PidTagAcknowledgementMode canonical property, which contains the identifier of the mode for message acknowledgment.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

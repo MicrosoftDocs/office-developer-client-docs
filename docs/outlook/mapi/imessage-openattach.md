@@ -1,7 +1,7 @@
 ---
 title: "IMessageOpenAttach"
 description: "Describes the syntax, parameters, return value, and remarks for IMessage OpenAttach, which opens an attachment."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

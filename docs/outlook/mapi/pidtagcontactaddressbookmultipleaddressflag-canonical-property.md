@@ -1,7 +1,7 @@
 ---
 title: "PidTagContactAddressBookMultipleAddressFlag Canonical Property"
 description: Outlines the PidTagContactAddressBookMultipleAddressFlag canonical property, which is TRUE if the provider does not allow contacts without email addresses. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

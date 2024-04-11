@@ -1,7 +1,7 @@
 ---
 title: "IMAPITableQueryRows"
 description: "IMAPITableQueryRows returns one or more rows from a table, beginning at the current cursor position."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

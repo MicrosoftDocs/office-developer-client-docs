@@ -1,6 +1,6 @@
 ---
 title: "Troubleshoot form templates that use the InfoPath object model at run time"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:

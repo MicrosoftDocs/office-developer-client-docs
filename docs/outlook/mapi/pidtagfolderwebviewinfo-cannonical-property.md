@@ -1,7 +1,7 @@
 ---
 title: "PidTagFolderWebViewInfo Cannonical Property"
 description: Outlines the PidTagFolderWebViewInfo canonical property, which contains the URL for the home page of a folder in Microsoft Outlook.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

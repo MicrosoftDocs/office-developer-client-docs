@@ -1,7 +1,7 @@
 ---
 title: "IOSTXSyncHdrEnd"
 description: "Describes the syntax, parameters, and remarks for IOSTX SyncHdrEnd, which ends synchronization for a message header."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

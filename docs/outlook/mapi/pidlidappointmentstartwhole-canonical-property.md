@@ -1,7 +1,7 @@
 ---
 title: "PidLidAppointmentStartWhole Canonical Property"
 description: "PidLidAppointmentStartWhole Canonical Property represents the date and time when an appointment begins."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

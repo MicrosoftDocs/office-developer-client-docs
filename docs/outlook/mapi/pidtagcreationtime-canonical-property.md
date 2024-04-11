@@ -1,7 +1,7 @@
 ---
 title: "PidTagCreationTime Canonical Property"
 description: Outlines the PidTagCreationTime canonical property, which contains the creation date and time of a message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

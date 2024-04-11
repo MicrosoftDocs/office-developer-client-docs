@@ -1,7 +1,7 @@
 ---
 title: "MTSID"
 description: "Describes the properties, members, and remarks for MTSID, which contains an X.400 message transport system (MTS) entry identifier."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

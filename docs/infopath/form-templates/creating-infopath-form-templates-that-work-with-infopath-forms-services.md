@@ -1,6 +1,6 @@
 ---
 title: "Creating InfoPath Form Templates That Work With InfoPath Forms Services"
-manager: soliver
+manager: lindalu
 ms.date: 03/20/2015
 ms.audience: Developer
 keywords:

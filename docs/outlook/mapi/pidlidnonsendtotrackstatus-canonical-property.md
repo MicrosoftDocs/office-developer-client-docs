@@ -1,7 +1,7 @@
 ---
 title: "PidLidNonSendToTrackStatus Canonical Property"
 description: Outlines the PidLidNonSendToTrackStatus canonical property, which contains the value for each attendee listed in the dispidNonSendableTo property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

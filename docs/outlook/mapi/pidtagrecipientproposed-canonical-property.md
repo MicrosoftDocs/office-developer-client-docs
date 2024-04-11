@@ -1,7 +1,7 @@
 ---
 title: "PidTagRecipientProposed Canonical Property"
 description: Outlines the PidTagRecipientProposed canonical property, which indicates whether a meeting attendee has responded.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

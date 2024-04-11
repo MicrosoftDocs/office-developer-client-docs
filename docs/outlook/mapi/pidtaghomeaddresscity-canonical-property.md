@@ -1,7 +1,7 @@
 ---
 title: "PidTagHomeAddressCity Canonical Property"
 description: Outlines the PidTagHomeAddressCity canonical property, which contains the city for the recipient's home address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IMAPIForm  IUnknown"
 description: "IMAPIFormIUnknown enables form viewers to work with form view contexts and form notification, to perform form verbs, and to shut down forms."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "HandsOffFromNormal State"
 description: This article describes allowed transitions of the HandsOffFromNormal state.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

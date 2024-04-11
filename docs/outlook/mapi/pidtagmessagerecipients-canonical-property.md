@@ -1,7 +1,7 @@
 ---
 title: "PidTagMessageRecipients Canonical Property"
 description: Outlines the PidTagMessageRecipients canonical property, which contains a table of restrictions that can be applied to a contents table.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

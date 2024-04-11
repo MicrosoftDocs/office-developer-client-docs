@@ -1,7 +1,7 @@
 ---
 title: "About the MAPI Crash Recovery API"
 description: "Describes the MAPI Crash Recovery API, which checks the state of the Personal Folders file (PST) or Offline Folders file (OST) shared memory to verify that the data is in a consistent state."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

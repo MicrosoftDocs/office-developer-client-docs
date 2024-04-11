@@ -1,7 +1,7 @@
 ---
 title: "PidTagConflictEntryId Canonical Property"
 description: Outlines the PidTagConflictEntryId canonical property, which contains the EntryID of the conflict resolution message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

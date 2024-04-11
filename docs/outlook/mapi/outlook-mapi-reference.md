@@ -1,6 +1,6 @@
 ---
 title: "Outlook MAPI Reference"
-manager: soliver
+manager: lindalu
 ms.date: 04/04/2016
 ms.audience: Developer
 ms.assetid: 3d980b86-7001-4869-9780-121c6bfc7275

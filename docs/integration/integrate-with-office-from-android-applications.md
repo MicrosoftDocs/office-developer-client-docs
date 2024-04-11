@@ -2,7 +2,7 @@
 title: "Integrate with Office from Android applications"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 06/18/2015
 ms.audience: Developer
  

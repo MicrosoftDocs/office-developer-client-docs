@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFolderEmptyFolder"
 description: "IMAPIFolderEmptyFolder deletes all messages and subfolders from a folder without deleting the folder itself."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

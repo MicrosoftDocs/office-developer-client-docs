@@ -1,7 +1,7 @@
 ---
 title: "PidTagDeliveryPoint Canonical Property"
 description: Outlines the PidTagDeliveryPoint canonical property, which specifies the nature of the functional entity by means of which a message was delivered.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

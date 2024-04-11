@@ -2,7 +2,7 @@
 title: "Preview and Debug Form Templates that Require Full Trust"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
  

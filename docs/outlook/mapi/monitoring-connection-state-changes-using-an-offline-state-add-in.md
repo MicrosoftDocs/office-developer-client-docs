@@ -1,6 +1,6 @@
 ---
 title: "Monitoring connection state changes using an offline state add-in"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

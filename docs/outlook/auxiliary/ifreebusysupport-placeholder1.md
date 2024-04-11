@@ -1,6 +1,6 @@
 ---
 title: "IFreeBusySupportPlaceholder1"
-manager: soliver
+manager: lindalu
 ms.date: 09/23/2016
 ms.audience: Developer
 ms.topic: reference

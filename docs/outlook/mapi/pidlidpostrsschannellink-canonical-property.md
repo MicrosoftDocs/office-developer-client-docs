@@ -1,7 +1,7 @@
 ---
 title: "PidLidPostRssChannelLink Canonical Property"
 description: Outlines the PidLidPostRssChannelLink canonical property, which contains the URL of the RSS or Atom feed from which the XML file came.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteGetFormManager"
 description: "IMAPIMessageSiteGetFormManager returns a form manager interface, which a form server can use to open another form server."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

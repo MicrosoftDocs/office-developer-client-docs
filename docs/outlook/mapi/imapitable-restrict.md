@@ -1,7 +1,7 @@
 ---
 title: "IMAPITableRestrict"
 description: "IMAPITableRestrict applies a filter to a table, reducing the row set to only those rows matching the specified criteria."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

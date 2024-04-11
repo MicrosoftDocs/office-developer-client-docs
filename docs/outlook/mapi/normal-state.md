@@ -1,7 +1,7 @@
 ---
 title: "Normal State"
 description: "The Normal state is where the form object spends most of its time, waiting for client applications to initiate an action, like saving changes or closing a form."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "PidTagConversationIndex Canonical Property"
 description: Outlines the PidTagConversationIndex canonical property, which contains a binary value that indicates the position of this message within a conversation thread.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

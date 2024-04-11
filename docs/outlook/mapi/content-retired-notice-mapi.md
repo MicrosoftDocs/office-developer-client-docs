@@ -1,7 +1,7 @@
 ---
 title: "Content Retired Notice (MAPI)"
 description: "This content for Microsoft Outlook has been retired. Provides resources to Microsoft Outlook 2013 Messaging API content."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

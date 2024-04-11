@@ -1,7 +1,7 @@
 ---
 title: "CreateTable"
 description: "CreateTable creates structures and an object handle for an ITableData object which can be used to create table contents."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

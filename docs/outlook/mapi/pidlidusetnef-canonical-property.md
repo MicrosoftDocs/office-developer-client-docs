@@ -1,7 +1,7 @@
 ---
 title: "PidLidUseTnef Canonical Property"
 description: Outlines the PidLidUseTnef canonical property, which specifies whether TNEF should be included on a message when it's converted from MAPI to MIME or SMTP.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

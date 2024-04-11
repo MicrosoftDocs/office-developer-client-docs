@@ -1,6 +1,6 @@
 ---
 title: "IConverterSessionMIMEToMAPI" 
-manager: soliver
+manager: lindalu
 ms.date: 09/06/2019
 ms.audience: Developer
 ms.topic: reference

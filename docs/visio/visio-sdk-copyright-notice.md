@@ -1,7 +1,7 @@
 ---
 title: "Visio SDK copyright notice"
 description: "Describes legal information for the Microsoft Visio SDK copyright notice, including all associated trademarks."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

@@ -2,7 +2,7 @@
 title: "Integrate with Office from Win32 sync clients"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 07/29/2015
 ms.audience: Developer
  

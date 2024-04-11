@@ -1,7 +1,7 @@
 ---
 title: "FBadColumnSet"
 description: "FBadColumnSet tests the validity of a table column set for use by a service provider in a subsequent call to the IMAPITableSetColumns method."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

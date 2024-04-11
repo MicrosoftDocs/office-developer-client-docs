@@ -1,7 +1,7 @@
 ---
 title: "PidTagMessageEditorFormat Canonical Property"
 description: Outlines the PidTagMessageEditorFormat canonical property, which specifies the format for an editor to use to display a message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

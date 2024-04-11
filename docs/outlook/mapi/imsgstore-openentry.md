@@ -1,7 +1,7 @@
 ---
 title: "IMsgStoreOpenEntry"
 description: "IMsgStoreOpenEntry opens a folder or message and returns an interface pointer for further access."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

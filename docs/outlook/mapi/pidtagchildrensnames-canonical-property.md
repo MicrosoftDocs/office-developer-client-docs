@@ -1,7 +1,7 @@
 ---
 title: "PidTagChildrensNames Canonical Property"
 description: Outlines the PidTagChildrensNames canonical property, which contains a list of names of children.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidOldLocation Canonical Property"
 description: Outlines the PidLidOldLocation canonical property, which indicates the original value of the dispidLocation property before a meeting update.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

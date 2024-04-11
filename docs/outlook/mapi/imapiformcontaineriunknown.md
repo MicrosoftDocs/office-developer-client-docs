@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormContainer  IUnknown"
 description: "IMAPIFormContainerIUnknown manages forms in form libraries. This interface is used to create application-specific form libraries."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

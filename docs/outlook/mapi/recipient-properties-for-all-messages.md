@@ -1,7 +1,7 @@
 ---
 title: "Recipient Properties for All Messages"
 description: Outlines properties that are typically present for all message recipients. This topic applies to Outlook 2013 and Outlook 2016.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

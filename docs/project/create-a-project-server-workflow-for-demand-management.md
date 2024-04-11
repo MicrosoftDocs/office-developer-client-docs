@@ -1,6 +1,6 @@
 ---
 title: "Create a Project Server workflow for demand management"
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 ms.localizationpriority: medium

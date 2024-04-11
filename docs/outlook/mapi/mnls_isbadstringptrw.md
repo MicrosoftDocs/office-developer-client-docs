@@ -1,7 +1,7 @@
 ---
 title: "MNLS_IsBadStringPtrW"
 description: "Describes the syntax, parameters, return value, and remarks for MNLS_IsBadStringPtrW, which verifies that a pointer to a wide string is valid."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: InfoPath 2003 compatible object models
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:

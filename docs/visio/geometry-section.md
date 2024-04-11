@@ -1,7 +1,7 @@
 ---
 title: "Geometry Section"
 description: "The Geometry section contains rows that list the coordinates of the vertices for the lines and arcs that make up the shape."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

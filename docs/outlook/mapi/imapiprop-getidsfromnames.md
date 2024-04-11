@@ -1,7 +1,7 @@
 ---
 title: "IMAPIPropGetIDsFromNames"
 description: "IMAPIPropGetIDsFromNames provides the property identifiers that correspond to one or more property names."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

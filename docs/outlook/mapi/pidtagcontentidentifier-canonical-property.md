@@ -1,7 +1,7 @@
 ---
 title: "PidTagContentIdentifier Canonical Property"
 description: Outlines the PidTagContentIdentifier canonical property, which contains a key value that enables the message recipient to identify its content.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

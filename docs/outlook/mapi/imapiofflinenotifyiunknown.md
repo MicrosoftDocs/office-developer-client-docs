@@ -1,7 +1,7 @@
 ---
 title: "IMAPIOfflineNotify  IUnknown"
 description: "IMAPIOfflineNotifyIUnknown supports Microsoft Outlook 2010 and Microsoft Outlook 2013 in sending notification callbacks to a client."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

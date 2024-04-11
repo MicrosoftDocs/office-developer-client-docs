@@ -1,6 +1,6 @@
 ---
 title: "Accessing Project Online enterprise custom fields"
-manager: soliver
+manager: lindalu
 ms.date: 11/08/2016
 ms.audience: Developer
 ms.assetid: 25509631-fa14-49d8-b594-cfacf5355c38

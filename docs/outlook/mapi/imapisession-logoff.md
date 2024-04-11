@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionLogoff"
 description: "Describes the syntax, parameters, return value, and remarks for IMAPISessionLogoff, which ends a MAPI session."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

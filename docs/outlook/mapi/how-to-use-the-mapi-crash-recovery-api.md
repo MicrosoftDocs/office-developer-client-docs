@@ -1,7 +1,7 @@
 ---
 title: "Use the MAPI Crash Recovery API"
 description: This topic contains a code sample in C++ that shows how to call the MAPICrashRecovery function from the UnhandledExceptionFilter function. 
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

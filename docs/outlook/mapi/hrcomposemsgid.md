@@ -1,7 +1,7 @@
 ---
 title: "HrComposeMsgID"
 description: The HrComposeMsgID function creates an ASCII string representing a compound entry identifier for an object, usually a message in a message store.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

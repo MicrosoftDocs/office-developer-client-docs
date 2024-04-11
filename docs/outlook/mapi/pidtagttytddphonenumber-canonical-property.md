@@ -1,7 +1,7 @@
 ---
 title: "PidTagTtyTddPhoneNumber Canonical Property"
 description: Outlines the PidTagTtyTddPhoneNumber canonical property, which contains the telephone number for the contact's TTY or TDD.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidNameAttachmentMacInfo Canonical Property"
 description: Outlines the PidNameAttachmentMacInfo canonical property, which contains an [RFC3282] attachment value.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

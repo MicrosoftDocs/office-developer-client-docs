@@ -1,7 +1,7 @@
 ---
 title: "SizedSPropTagArray"
 description: Outlines SizedSPropTagArray, which creates a named SPropTagArray structure that includes a specified number of property tags. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

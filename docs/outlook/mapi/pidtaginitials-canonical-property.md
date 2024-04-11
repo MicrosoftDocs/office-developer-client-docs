@@ -1,7 +1,7 @@
 ---
 title: "PidTagInitials Canonical Property"
 description: This article outlines the PidTagInitials canonical property, which contains the initials for parts of the full name of the recipient.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Open Each ShapeSheet in the Same Window"
 description: "Describes the three steps to open each ShapeSheet in the same window by going to Options in the File tab."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

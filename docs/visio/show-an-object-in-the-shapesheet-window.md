@@ -2,7 +2,7 @@
 title: "Show an Object in the ShapeSheet Window"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

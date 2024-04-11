@@ -1,7 +1,7 @@
 ---
 title: "IsBadBoundedStringPtr"
 description: "IsBadBoundedStringPtr verifies that the calling process has read access to the specified range of memory."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

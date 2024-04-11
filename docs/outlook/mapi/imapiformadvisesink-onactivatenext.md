@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormAdviseSinkOnActivateNext"
 description: "IMAPIFormAdviseSinkOnActivateNext indicates whether the form can handle the message class of the next message to display."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

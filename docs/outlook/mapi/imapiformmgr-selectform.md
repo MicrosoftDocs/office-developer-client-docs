@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormMgrSelectForm"
 description: "IMAPIFormMgrSelectForm presents a dialog box that enables the user to select a form, and returns a form information object that describes that form."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

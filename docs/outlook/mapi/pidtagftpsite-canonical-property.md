@@ -1,7 +1,7 @@
 ---
 title: "PidTagFtpSite Canonical Property"
 description: Outlines the PidTagFtpSite canonical property, which contains the contact's File Transfer Protocol (FTP) URL.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

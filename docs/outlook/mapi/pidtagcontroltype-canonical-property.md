@@ -1,7 +1,7 @@
 ---
 title: "PidTagControlType Canonical Property"
 description: Outlines the PidTagControlType canonical property, which contains a value indicating a control type for a control used in a dialog box.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IMAPITableCollapseRow"
 description: "IMAPITableCollapseRow collapses an expanded table category, removing any lower-level headings and leaf rows belonging to the category from the table view."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "HrOpenABEntryWithExchangeContext" 
 description: This article describes HrOpenABEntryWithExchangeContext which opens the entryID using the Exchange Address Book identified by pEmsmdbUID.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

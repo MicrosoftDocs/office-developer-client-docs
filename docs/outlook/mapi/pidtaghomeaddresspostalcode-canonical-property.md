@@ -1,7 +1,7 @@
 ---
 title: "PidTagHomeAddressPostalCode Canonical Property"
 description: Outlines the PidTagHomeAddressPostalCode canonical property, which contains the postal code for the user's home address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

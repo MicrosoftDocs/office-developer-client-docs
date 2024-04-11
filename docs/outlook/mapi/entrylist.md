@@ -1,7 +1,7 @@
 ---
 title: "ENTRYLIST"
 description: "ENTRYLIST provides an array of entry identifiers representing MAPI object that uses the same implementation as the SBinaryArray structure."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

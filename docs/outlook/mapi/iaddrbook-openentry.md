@@ -1,7 +1,7 @@
 ---
 title: "IAddrBookOpenEntry"
 description: Opens an address book entry and returns a pointer to an interface that can be used to access the entry.
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

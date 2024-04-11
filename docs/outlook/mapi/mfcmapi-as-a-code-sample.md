@@ -1,7 +1,7 @@
 ---
 title: "MFCMAPI as a code sample"
 description: "The MFCMAPI sample uses the Messaging API to provide access to MAPI stores through a graphical user interface."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

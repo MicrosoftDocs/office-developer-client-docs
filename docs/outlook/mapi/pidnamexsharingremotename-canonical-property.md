@@ -1,7 +1,7 @@
 ---
 title: "PidNameXSharingRemoteName Canonical Property"
 description: Outlines the PidNameXSharingRemoteName canonical property, which represents the value of the dispidSharingRemoteName property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

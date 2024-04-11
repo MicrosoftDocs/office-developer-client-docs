@@ -1,7 +1,7 @@
 ---
 title: "attMessageStatus"
 description: "Describes the MessageStatus attribute and provides a list of MAPI message and TNEF flags."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

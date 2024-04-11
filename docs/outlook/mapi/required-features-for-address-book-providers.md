@@ -1,7 +1,7 @@
 ---
 title: "Required Features for Address Book Providers"
 description: Outlines features that are required of all address book providers and the steps that you need to take to implement them.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

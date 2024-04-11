@@ -1,6 +1,6 @@
 ---
 title: OneNote developer reference
-manager: soliver
+manager: lindalu
 ms.date: 05/16/2016
 ms.audience: Developer
 ms.assetid: 4c4ef9e8-6b30-481b-8023-2e1280bcbcc9

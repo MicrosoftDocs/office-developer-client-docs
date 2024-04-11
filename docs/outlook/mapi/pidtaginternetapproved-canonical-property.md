@@ -1,7 +1,7 @@
 ---
 title: "PidTagInternetApproved Canonical Property"
 description: This article outlines the PidTagInternetApproved canonical property, which maps to the MIME Approved header.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

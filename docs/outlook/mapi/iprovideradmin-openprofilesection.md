@@ -1,7 +1,7 @@
 ---
 title: "IProviderAdminOpenProfileSection"
 description: "IProviderAdmin OpenProfileSection opens a profile section from the current profile and returns an IProfSect pointer for further access."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

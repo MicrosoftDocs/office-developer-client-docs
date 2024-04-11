@@ -1,7 +1,7 @@
 ---
 title: "MAPI client objects"
 description: Describes and summarizes the MAPI objects implemented by standard messaging clients and by clients that support the viewing of custom forms.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

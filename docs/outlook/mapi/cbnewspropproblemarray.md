@@ -1,7 +1,7 @@
 ---
 title: "CbNewSPropProblemArray"
 description: "CbNewSPropProblemArray computes the number of bytes for a new SPropProblemArray structure that contains a specified number of SPropProblem structures."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

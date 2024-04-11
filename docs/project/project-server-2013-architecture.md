@@ -1,6 +1,6 @@
 ---
 title: "Project Server architecture"
-manager: soliver
+manager: lindalu
 ms.date: 05/17/2019
 ms.audience: Developer
 ms.assetid: 2cfa5a6e-2f5c-440c-b35a-bc7a34648f9c

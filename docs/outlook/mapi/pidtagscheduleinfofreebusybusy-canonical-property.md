@@ -1,7 +1,7 @@
 ---
 title: "PidTagScheduleInfoFreeBusyBusy Canonical Property"
 description: Outlines the PidTagScheduleInfoFreeBusyBusy canonical property, which contains the blocks of time for which the status is busy.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

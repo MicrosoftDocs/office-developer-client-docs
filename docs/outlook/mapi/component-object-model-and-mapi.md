@@ -1,7 +1,7 @@
 ---
 title: "Component Object Model and MAPI"
 description: "Describes the rules for implementing objects that conform to the Component Object Model and the MAPI variations of those rules."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

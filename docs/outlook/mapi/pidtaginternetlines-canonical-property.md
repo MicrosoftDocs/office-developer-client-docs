@@ -1,7 +1,7 @@
 ---
 title: "PidTagInternetLines Canonical Property"
 description: This article outlines the PidTagInternetLines canonical property, which maps to the MIME Lines header.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

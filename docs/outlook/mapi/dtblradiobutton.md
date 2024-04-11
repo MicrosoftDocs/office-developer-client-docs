@@ -1,7 +1,7 @@
 ---
 title: "DTBLRADIOBUTTON"
 description: "DTBLRADIOBUTTON describes one radio button that will be part of a radio button group, which will be used in a dialog box that is built from a display table."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

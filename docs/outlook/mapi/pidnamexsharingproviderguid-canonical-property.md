@@ -1,7 +1,7 @@
 ---
 title: "PidNameXSharingProviderGuid Canonical Property"
 description: Outlines the PidNameXSharingProviderGuid canonical property, which represents the value of the dispidSharingProviderGuid property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

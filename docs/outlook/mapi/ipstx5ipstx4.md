@@ -1,7 +1,7 @@
 ---
 title: "IPSTX5  IPSTX4"
 description: "IPSTX5 IPSTX4 provides helper functionality when performing replication through the IOSTX interface."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

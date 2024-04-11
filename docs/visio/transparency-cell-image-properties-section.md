@@ -1,7 +1,7 @@
 ---
 title: "Transparency Cell (Image Properties Section)"
 description: "Describes the remarks for the Transparency Cell (Image Properties Section), which determines the transparency level for a layer color."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

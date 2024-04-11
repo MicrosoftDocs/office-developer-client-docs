@@ -1,7 +1,7 @@
 ---
 title: "Open a store on the remote server when Outlook is in Cached Exchange Mode"
 description: This article describes how to open a store on the remote server when Outlook is in Cached Exchange Mode with syntax.
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormFactory  IUnknown"
 description: "IMAPIFormFactoryIUnknown supports the use of configurable run-time forms in distributed computing environments."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

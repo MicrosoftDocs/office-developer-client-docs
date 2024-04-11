@@ -1,7 +1,7 @@
 ---
 title: "IMAPIViewContextActivateNext"
 description: "Describes the syntax, parameters, and return value of IMAPIViewContext ActivateNext, which activates the next or previous message in the view order."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

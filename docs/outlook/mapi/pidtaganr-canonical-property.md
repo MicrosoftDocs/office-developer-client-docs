@@ -1,7 +1,7 @@
 ---
 title: "PidTagAnr Canonical Property"
 description: Outlines the PidTagAnr canonical property, which contains a string value for use in a property restriction on an address book container contents table. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

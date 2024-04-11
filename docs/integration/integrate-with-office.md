@@ -1,6 +1,6 @@
 ---
 title: "Integrate with Office"
-manager: soliver
+manager: lindalu
 ms.date: 07/29/2015
 ms.audience: Developer
 ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0

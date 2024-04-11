@@ -1,7 +1,7 @@
 ---
 title: "Error handling in MAPI"
 description: "Describes error handling in MAPI, which, on 32-bit platforms, works solely with HRESULT values. Descriptions of the fields encoded in those values are provided."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

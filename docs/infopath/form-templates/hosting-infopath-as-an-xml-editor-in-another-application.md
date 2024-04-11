@@ -1,6 +1,6 @@
 ---
 title: "Hosting InfoPath as an XML Editor in Another Application"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

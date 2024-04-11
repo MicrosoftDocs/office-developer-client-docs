@@ -1,7 +1,7 @@
 ---
 title: "PidLidTaskLastUpdate Canonical Property"
 description: Outlines the PidLidTaskLastUpdate canonical property, which indicates the UTC and date of the most recent change that was made to the task.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

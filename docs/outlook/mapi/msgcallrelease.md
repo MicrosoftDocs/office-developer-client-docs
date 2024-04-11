@@ -1,7 +1,7 @@
 ---
 title: "MSGCALLRELEASE"
 description: "MSGCALLRELEASE defines a callback function that can free an IStorage interface after the final release of an IMessage object."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

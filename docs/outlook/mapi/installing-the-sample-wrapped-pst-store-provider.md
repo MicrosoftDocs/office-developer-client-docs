@@ -1,7 +1,7 @@
 ---
 title: "Installing the Sample Wrapped PST Store Provider"
 description: "The Sample Wrapped PST Store Provider, WrapPST, implements a wrapped PST store provider that is intended to be used in conjunction with the Replication API."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

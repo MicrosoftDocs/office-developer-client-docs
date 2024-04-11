@@ -1,6 +1,6 @@
 ---
 title: "Commonly used property sets"
-manager: soliver
+manager: lindalu
 ms.date: 09/03/2019
 ms.audience: Developer
 ms.localizationpriority: medium

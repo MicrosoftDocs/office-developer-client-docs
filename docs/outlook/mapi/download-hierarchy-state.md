@@ -1,7 +1,7 @@
 ---
 title: "Download Hierarchy State"
 description: "This topic describes what happens during the download hierarchy state of the replication state machine."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "PidLidToDoSubOrdinal Canonical Property"
 description: Outlines the PidLidToDoSubOrdinal canonical property, which acts as a tie breaker when the dispidToDoOrdinalDate property sorts objects and the result in a tie.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

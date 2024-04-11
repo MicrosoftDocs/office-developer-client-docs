@@ -1,7 +1,7 @@
 ---
 title: "Managing Memory in MAPI"
 description: MAPI provides both functions and macros that your client or service provider can use to manage memory in a consistent way.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

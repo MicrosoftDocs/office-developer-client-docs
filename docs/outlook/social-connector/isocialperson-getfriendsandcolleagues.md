@@ -1,7 +1,7 @@
 ---
 title: "ISocialPersonGetFriendsAndColleagues"
 description: "Describes the syntax, parameters, and remarks for ISocialPersonGetFriendsAndColleagues, which gets a string that represents a collection of people."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

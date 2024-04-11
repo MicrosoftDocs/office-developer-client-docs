@@ -1,6 +1,6 @@
 ---
 title: "MAPI samples"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.assetid: 641659f2-3c0a-43af-96f1-2521b4b06680

@@ -1,7 +1,7 @@
 ---
 title: "IMAPIContainer  IMAPIProp"
 description: "IMAPIContainerIMAPIProp manages high-level operations on container objects such as address books, distribution lists, and folders."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

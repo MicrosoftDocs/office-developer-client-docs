@@ -1,7 +1,7 @@
 ---
 title: "PidTagInternetMessageId Canonical Property"
 description: This article outlines the PidTagInternetMessageId canonical property, which corresponds to the message ID field as specified in [RFC2822].
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

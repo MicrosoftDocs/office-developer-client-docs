@@ -1,6 +1,6 @@
 ---
 title: "Generating and using entry identifiers in message store providers"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

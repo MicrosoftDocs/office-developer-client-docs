@@ -1,7 +1,7 @@
 ---
 title: "PidTagIcon Canonical Property"
 description: Outlines the PidTagIcon canonical property, which contains a bitmap of a full size icon for a form. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

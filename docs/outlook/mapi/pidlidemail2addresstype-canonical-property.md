@@ -1,7 +1,7 @@
 ---
 title: "PidLidEmail2AddressType Canonical Property"
 description: Outlines the PidLidEmail2AddressType canonical property, which specifies the address type of the second email address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagProfileType Canonical Property"
 description: Outlines the PidTagProfileType canonical property, which contains the type of information store.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

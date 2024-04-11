@@ -1,7 +1,7 @@
 ---
 title: "ITnefAddProps"
 description: "ITnefAddProps enables the calling service provider or gateway to add properties to the encapsulation of a message or an attachment."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

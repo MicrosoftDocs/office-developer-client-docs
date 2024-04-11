@@ -1,7 +1,7 @@
 ---
 title: "IMAPIProgressGetMax"
 description: "IMAPIProgressGetMax returns the maximum number of items in the operation for which progress information is displayed."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

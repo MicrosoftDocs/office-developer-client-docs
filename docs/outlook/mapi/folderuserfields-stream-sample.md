@@ -1,7 +1,7 @@
 ---
 title: "FolderUserFields stream sample"
 description: This article provides a FolderUserFields stream sample with sample data.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

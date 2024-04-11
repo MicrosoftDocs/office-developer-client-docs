@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionShowForm"
 description: "Describes the syntax, parameters, return value, and remarks for IMAPISessionShowForm, which displays a form."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

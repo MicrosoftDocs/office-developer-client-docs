@@ -1,7 +1,7 @@
 ---
 title: "PidNameRightsManagementLicense Canonical Property"
 description: Outlines the PidNameRightsManagementLicense canonical property, which caches the use license for the rights-managed email message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

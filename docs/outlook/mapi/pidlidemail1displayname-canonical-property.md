@@ -1,7 +1,7 @@
 ---
 title: "PidLidEmail1DisplayName Canonical Property"
 description: Outlines the PidLidEmail1DisplayName canonical property, which specifies the user-readable display name for the first email address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "HrGetOneProp"
 description: Retrieves the value of a single property from a property interface, that is, an interface derived from IMAPIProp.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

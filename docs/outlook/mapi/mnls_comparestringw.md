@@ -1,7 +1,7 @@
 ---
 title: "MNLS_CompareStringW"
 description: "Describes the syntax, parameters, return value, and remarks for MNLS_CompareStringW, which compares two Unicode strings."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

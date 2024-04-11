@@ -1,7 +1,7 @@
 ---
 title: "Outlook auxiliary reference copyright notice"
 description: "Describes all legal rights associated with the Microsoft Outlook auxiliary reference copyright notice."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

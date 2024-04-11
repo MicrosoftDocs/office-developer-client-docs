@@ -1,7 +1,7 @@
 ---
 title: "IConverterSession  IUnknown"
 description: "IConverterSession IUnknown allows conversions between MIME objects and MAPI messages, which can be useful in transporting messages across the Internet."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagMemberName Canonical Property"
 description: Outlines the PidTagMemberName canonical property, which contains the display name of a member of the access control list (ACL) table.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

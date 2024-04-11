@@ -1,7 +1,7 @@
 ---
 title: "PidTagControlId Canonical Property"
 description: Outlines the PidTagControlId canonical property, which contains a unique identifier for a control used in a dialog box.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

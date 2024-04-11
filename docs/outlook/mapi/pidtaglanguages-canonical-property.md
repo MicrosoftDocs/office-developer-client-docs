@@ -1,7 +1,7 @@
 ---
 title: "PidTagLanguages Canonical Property"
 description: Outlines the PidTagLanguages canonical property, which contains an ASCII list of the languages that are incorporated in a message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

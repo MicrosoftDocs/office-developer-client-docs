@@ -1,7 +1,7 @@
 ---
 title: "PidLidGlobalObjectId Canonical Property"
 description: Outlines the PidLidGlobalObjectId canonical property, which specifies the unique identifier of the calendar object.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

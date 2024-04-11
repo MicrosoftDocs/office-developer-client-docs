@@ -1,7 +1,7 @@
 ---
 title: "PidLidAppointmentProposalNumber Canonical Property"
 description: "PidLidAppointmentProposalNumber Canonical Property specifies the number of attendees who have sent counter proposals not accepted or rejected by the organizer."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

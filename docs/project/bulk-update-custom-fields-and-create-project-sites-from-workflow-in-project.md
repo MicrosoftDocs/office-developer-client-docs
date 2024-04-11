@@ -1,6 +1,6 @@
 ---
 title: "Bulk update custom fields and create project sites in Project Online"
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 ms.localizationpriority: medium

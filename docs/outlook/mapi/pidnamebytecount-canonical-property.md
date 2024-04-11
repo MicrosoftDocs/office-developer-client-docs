@@ -1,7 +1,7 @@
 ---
 title: "PidNameByteCount Canonical Property"
 description: Outlines the PidNameByteCount canonical property, which specifies the size, in bytes, of the file that is attached to the document.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

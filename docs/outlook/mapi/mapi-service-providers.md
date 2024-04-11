@@ -1,7 +1,7 @@
 ---
 title: "MAPI Service Providers"
 description: "Describes the three MAPI service providers: Address book providers, message store providers, and transport providers."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

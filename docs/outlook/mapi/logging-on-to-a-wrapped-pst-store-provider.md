@@ -1,7 +1,7 @@
 ---
 title: "Logging on to a wrapped PST store provider"
 description: "The IMSProvider Logon function and the IMSProvider SpoolerLogon function are demonstrated by using code examples from the Sample Wrapped PST Store Provider."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

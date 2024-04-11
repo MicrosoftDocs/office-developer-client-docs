@@ -1,7 +1,7 @@
 ---
 title: "Address Book Provider Sample"
 description: "An address book provider sample that supports a single read-only container for display names and email addresses, which are read from a flat binary file."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "PidLidNonSendableTo Canonical Property"
 description: Outlines the PidLidNonSendableTo canonical property, which contains a list of all the unsendable attendees who are also required attendees.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

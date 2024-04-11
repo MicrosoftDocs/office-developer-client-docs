@@ -1,7 +1,7 @@
 ---
 title: "PidLidResendTime Canonical Property"
 description: Outlines the PidLidResendTime canonical property, which if set on a nondelivery report, denotes the time the message was resent.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IProfAdminAdminServices"
 description: "IProfAdmin AdminServices provides access to a message service administration object for making changes to the message services in a profile."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

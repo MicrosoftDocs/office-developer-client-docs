@@ -1,6 +1,6 @@
 ---
 title: "Prerequisites for WCF-based code samples in Project"
-manager: soliver
+manager: lindalu
 ms.date: 09/17/2015
 ms.audience: Developer
 ms.localizationpriority: medium

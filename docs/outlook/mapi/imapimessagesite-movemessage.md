@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteMoveMessage"
 description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteMoveMessage, which moves the current message to a folder."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

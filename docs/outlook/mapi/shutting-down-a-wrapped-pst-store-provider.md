@@ -1,7 +1,7 @@
 ---
 title: "Shutting Down a Wrapped PST Store Provider"
 description: Outlines how to properly shut down the wrapped PST store provider after you finish using a wrapped PST store provider.
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

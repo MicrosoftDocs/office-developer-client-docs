@@ -1,7 +1,7 @@
 ---
 title: "PidNameApplicationName Canonical Property"
 description: Outlines the PidNameApplicationName canonical property, which specifies the application that might open the file that is attached to the document.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

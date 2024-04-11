@@ -1,7 +1,7 @@
 ---
 title: "Folder Fields Stream Structures"
 description: This article describes folder fields stream structures and provides data elements.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

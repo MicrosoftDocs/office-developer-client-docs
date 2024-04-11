@@ -1,7 +1,7 @@
 ---
 title: "Hide Meeting Update Option Property"
 description: This article provides a detailed overview of the hide meeting update option property with additional remarks.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

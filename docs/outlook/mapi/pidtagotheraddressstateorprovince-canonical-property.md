@@ -1,7 +1,7 @@
 ---
 title: "PidTagOtherAddressStateOrProvince Canonical Property"
 description: Outlines the PidTagOtherAddressStateOrProvince canonical property, which contains the name of state or province used in the other address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

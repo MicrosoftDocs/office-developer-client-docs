@@ -1,6 +1,6 @@
 ---
 title: "Common tasks for developing form templates using the InfoPath object model"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:

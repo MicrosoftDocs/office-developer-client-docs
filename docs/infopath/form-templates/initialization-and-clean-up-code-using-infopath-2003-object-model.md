@@ -2,7 +2,7 @@
 title: "Initialization and Clean-up Code Using InfoPath 2003 Object Model"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
  

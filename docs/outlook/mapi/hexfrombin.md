@@ -2,7 +2,7 @@
 title: "HexFromBin"
 description: The HexFromBin function converts a binary number into a string representation of a hexadecimal number.
  
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

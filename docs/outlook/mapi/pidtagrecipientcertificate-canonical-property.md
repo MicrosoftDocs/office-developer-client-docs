@@ -1,7 +1,7 @@
 ---
 title: "PidTagRecipientCertificate Canonical Property"
 description: Outlines the PidTagRecipientCertificate canonical property, which contains a message recipient's ASN.1 certificate for use in a report.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

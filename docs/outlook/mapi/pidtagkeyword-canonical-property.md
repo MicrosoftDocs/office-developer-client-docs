@@ -1,7 +1,7 @@
 ---
 title: "PidTagKeyword Canonical Property"
 description: Outlines the PidTagKeyword canonical property, which contains a keyword that identifies the recipient to the recipient's system administrator.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

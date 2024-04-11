@@ -1,7 +1,7 @@
 ---
 title: "MAPIAdminProfiles"
 description: Describes the MAPIAdminProfiles function and provides syntax, parameters, return value, and MFCMAPI references.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

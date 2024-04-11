@@ -2,7 +2,7 @@
 title: "Integrate an InfoPath Form with a Microsoft Access Database"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
  

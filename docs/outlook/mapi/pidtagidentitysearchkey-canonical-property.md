@@ -1,7 +1,7 @@
 ---
 title: "PidTagIdentitySearchKey Canonical Property"
 description: Outlines the PidTagIdentitySearchKey canonical property, which contains the search key for a service provider's identity as defined within a messaging system. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

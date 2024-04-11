@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionPrepareForm"
 description: "IMAPISessionPrepareForm creates a numeric token that the IMAPISessionShowForm method uses to access a message."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

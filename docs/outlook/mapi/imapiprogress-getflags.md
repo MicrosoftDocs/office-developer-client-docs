@@ -1,7 +1,7 @@
 ---
 title: "IMAPIProgressGetFlags"
 description: "IMAPIProgressGetFlags returns flag settings from the progress object for the level of operation on which progress information is calculated."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

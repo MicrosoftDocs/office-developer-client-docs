@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachFlags Canonical Property"
 description: Outlines the PidTagAttachFlags canonical property, which contains a bitmask of flags for an attachment. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidBilling Canonical Property"
 description: Outlines the PidLidBilling canonical property, which contains the billing information associated with an item.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

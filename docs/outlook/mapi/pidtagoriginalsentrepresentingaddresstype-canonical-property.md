@@ -1,7 +1,7 @@
 ---
 title: "PidTagOriginalSentRepresentingAddressType Canonical Property"
 description: Outlines the PidTagOriginalSentRepresentingAddressType canonical property, which is used in a conversation thread.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

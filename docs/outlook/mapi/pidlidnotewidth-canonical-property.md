@@ -1,7 +1,7 @@
 ---
 title: "PidLidNoteWidth Canonical Property"
 description: Outlines the PidLidNoteWidth canonical property, which specifies the width of the visible message window in pixels. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

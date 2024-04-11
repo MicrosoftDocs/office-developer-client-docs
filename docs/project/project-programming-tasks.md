@@ -2,7 +2,7 @@
 title: "Project programming tasks"
 
  
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
  

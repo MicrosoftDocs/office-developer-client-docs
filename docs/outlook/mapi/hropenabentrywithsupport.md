@@ -1,7 +1,7 @@
 ---
 title: "HrOpenABEntryWithSupport" 
 description: This article describes the HrOpenABEntryWithSupport function and provides syntax and parameters. Do not use this function.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IExchangeModifyTableModifyTable"
 description: "IExchangeModifyTableModifyTable updates a MAPI table object. This article describes its syntax, parameters, and provides a sample code."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

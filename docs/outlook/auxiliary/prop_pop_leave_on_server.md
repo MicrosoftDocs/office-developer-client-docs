@@ -1,6 +1,6 @@
 ---
 title: "PROP_POP_LEAVE_ON_SERVER"
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview

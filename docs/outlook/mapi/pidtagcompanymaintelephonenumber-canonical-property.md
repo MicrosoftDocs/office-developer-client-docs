@@ -1,7 +1,7 @@
 ---
 title: "PidTagCompanyMainTelephoneNumber Canonical Property"
 description: Outlines the PidTagCompanyMainTelephoneNumber canonical property, which contains the main telephone number for a company.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

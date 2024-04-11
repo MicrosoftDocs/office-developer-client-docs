@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachEncoding Canonical Property"
 description: Outlines the PidTagAttachEncoding canonical property, which contains an ASN.1 object identifier that specifies the encoding for an attachment. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

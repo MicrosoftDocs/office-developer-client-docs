@@ -1,7 +1,7 @@
 ---
 title: "PidTagDiscreteValues Canonical Property"
 description: Outlines the PidTagDiscreteValues canonical property, used in a nondelivery report when the message couldn't be delivered to members of a distribution list.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

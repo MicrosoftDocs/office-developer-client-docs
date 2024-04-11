@@ -1,7 +1,7 @@
 ---
 title: "Displaying Table Rows and Columns"
 description: "Describes how to display table rows and columns, which can be used by an address book provider to enable users to define new email recipients."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

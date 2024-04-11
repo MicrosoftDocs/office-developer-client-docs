@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionOpenAddressBook"
 description: "IMAPISessionOpenAddressBook opens the MAPI integrated address book, returning an IAddrBook pointer for further access."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

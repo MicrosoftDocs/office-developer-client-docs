@@ -1,7 +1,7 @@
 ---
 title: "DNHIER"
 description: "DNHIER provides information for downloading a hierarchy from the server during the download hierarchy state, which is part of a full hierarchy synchronization."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

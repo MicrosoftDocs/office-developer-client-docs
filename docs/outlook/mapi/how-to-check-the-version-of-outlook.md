@@ -1,7 +1,7 @@
 ---
 title: "Check the version of Outlook"
 description: This topic provides a code sample that checks version information of installed versions of Microsoft Outlook.
-manager: soliver
+manager: lindalu
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.localizationpriority: medium

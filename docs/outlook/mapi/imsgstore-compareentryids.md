@@ -1,7 +1,7 @@
 ---
 title: "IMsgStoreCompareEntryIDs"
 description: "IMsgStore CompareEntryIDs compares two entry identifiers to determine whether they refer to the same entry in a message store."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

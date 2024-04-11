@@ -1,7 +1,7 @@
 ---
 title: "One-off addresses"
 description: "One-off addresses are used to send messages to one-off recipients, recipients that do not have a corresponding entry in the session's address book containers."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

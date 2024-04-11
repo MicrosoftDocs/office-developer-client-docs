@@ -1,6 +1,6 @@
 ---
 title: "PROP_ACCT_USER_EMAIL_ADDR"
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

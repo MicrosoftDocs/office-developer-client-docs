@@ -1,7 +1,7 @@
 ---
 title: "PidTagIpmSentMailEntryId Canonical Property"
 description: Outlines the PidTagIpmSentMailEntryId canonical property, which contains the entry identifier of the standard interpersonal message (IPM) Sent Items folder.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

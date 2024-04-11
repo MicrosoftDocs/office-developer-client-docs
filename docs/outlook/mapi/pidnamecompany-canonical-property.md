@@ -1,7 +1,7 @@
 ---
 title: "PidNameCompany Canonical Property"
 description: Outlines the PidNameCompany canonical property, which specifies the company for which the file was created.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

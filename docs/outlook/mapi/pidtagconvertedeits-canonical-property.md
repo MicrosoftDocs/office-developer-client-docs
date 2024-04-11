@@ -1,7 +1,7 @@
 ---
 title: "PidTagConvertedEits Canonical Property"
 description: Outlines the PidTagConvertedEits canonical property, which contains an identifier for the types of text in a message after conversion.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

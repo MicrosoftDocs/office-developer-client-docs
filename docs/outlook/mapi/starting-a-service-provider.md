@@ -1,7 +1,7 @@
 ---
 title: "Starting a Service Provider"
 description: Outlines starting a service provider in Outlook 2013 and Outlook 2016, with links to reference materials.
-manager: soliver
+manager: lindalu
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.localizationpriority: medium

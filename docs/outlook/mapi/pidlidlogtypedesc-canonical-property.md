@@ -1,7 +1,7 @@
 ---
 title: "PidLidLogTypeDesc Canonical Property"
 description: Outlines the PidLidLogTypeDesc canonical property, which describes the activity that is being recorded.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

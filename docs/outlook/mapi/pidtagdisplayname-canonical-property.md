@@ -1,7 +1,7 @@
 ---
 title: "PidTagDisplayName Canonical Property"
 description: Outlines the PidTagDisplayName canonical property, which contains the display name for a given MAPI object. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

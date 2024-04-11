@@ -1,7 +1,7 @@
 ---
 title: "IMsgStoreGetReceiveFolderTable"
 description: "IMsgStore GetReceiveFolderTable provides access to the receive folder table, which includes information about all of the receive folders for the message store."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

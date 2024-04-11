@@ -1,7 +1,7 @@
 ---
 title: "Sending Messages Message Store Provider Tasks"
 description: Outlines how a message store provider gets involved with the message sending process when a client calls the message's IMessage::SubmitMessage method.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

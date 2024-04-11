@@ -1,7 +1,7 @@
 ---
 title: "IMAPITableQueryColumns"
 description: "Describes the syntax, parameters, and return value of IMAPITable QueryColumns, which returns a list of columns for the table."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

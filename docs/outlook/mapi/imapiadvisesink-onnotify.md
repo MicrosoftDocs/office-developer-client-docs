@@ -1,7 +1,7 @@
 ---
 title: "IMAPIAdviseSinkOnNotify"
 description: "IMAPIAdviseSinkOnNotify responds to a notification by performing one or more tasks, which depend on the type of event and object that generate the notification."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

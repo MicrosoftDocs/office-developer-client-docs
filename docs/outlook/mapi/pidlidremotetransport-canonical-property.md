@@ -1,7 +1,7 @@
 ---
 title: "PidLidRemoteTransport Canonical Property"
 description: Outlines the PidLidRemoteTransport canonical property, which identifies what account the header item is associated with.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

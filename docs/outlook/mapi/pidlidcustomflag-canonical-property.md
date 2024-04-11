@@ -1,7 +1,7 @@
 ---
 title: "PidLidCustomFlag Canonical Property"
 description: Outlines the PidLidCustomFlag canonical property, which is a bitmask that specifies how a message is customized, for example, saved with custom properties.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

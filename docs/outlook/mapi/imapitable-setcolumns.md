@@ -1,7 +1,7 @@
 ---
 title: "IMAPITableSetColumns"
 description: "IMAPITableSetColumns defines the particular properties and order of properties to appear as columns in the table."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

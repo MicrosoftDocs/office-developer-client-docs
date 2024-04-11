@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteCopyMessage"
 description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteCopyMessage, which copies the current message to a folder."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

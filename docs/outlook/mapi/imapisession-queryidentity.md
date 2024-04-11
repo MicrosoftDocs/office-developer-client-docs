@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionQueryIdentity"
 description: "IMAPISessionQueryIdentity returns the entry identifier of the object that provides the primary identity for the session."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

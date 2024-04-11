@@ -1,6 +1,6 @@
 ---
 title: "Managing message downloads for POP3 accounts"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

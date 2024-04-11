@@ -1,7 +1,7 @@
 ---
 title: "PidLidSharingCapabilities Canonical Property"
 description: Outlines the PidLidSharingCapabilities canonical property, which designates as a property of a sharing message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

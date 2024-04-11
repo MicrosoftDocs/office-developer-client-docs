@@ -1,7 +1,7 @@
 ---
 title: "PidLidRecurrencePattern Canonical Property"
 description: Outlines the PidLidRecurrencePattern canonical property, which specifies a description of the recurrence pattern of the calendar object.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

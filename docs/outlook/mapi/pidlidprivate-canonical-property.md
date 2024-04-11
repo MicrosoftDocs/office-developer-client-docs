@@ -1,7 +1,7 @@
 ---
 title: "PidLidPrivate Canonical Property"
 description: Outlines the PidLidPrivate canonical property, which indicates if the end-user wants the message object hidden from other users who have access to it.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

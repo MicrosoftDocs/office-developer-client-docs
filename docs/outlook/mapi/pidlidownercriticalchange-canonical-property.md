@@ -1,7 +1,7 @@
 ---
 title: "PidLidOwnerCriticalChange Canonical Property"
 description: Outlines the PidLidOwnerCriticalChange canonical property, which specifies the date and time when a meeting request was sent by the organizer.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

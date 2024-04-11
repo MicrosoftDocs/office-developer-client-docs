@@ -1,7 +1,7 @@
 ---
 title: "IMAPITableUnadvise"
 description: "IMAPITable Unadvise cancels the sending of notifications previously set up with a call to the IMAPITable Advise method."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

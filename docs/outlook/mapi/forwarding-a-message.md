@@ -1,7 +1,7 @@
 ---
 title: "Forwarding a message"
 description: This article provides a detailed overview of forwarding messages.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

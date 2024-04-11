@@ -1,7 +1,7 @@
 ---
 title: "PidTagCorrelate Canonical Property"
 description: Outlines the PidTagCorrelate canonical property, which is used to request the correlation of incoming reports with the original sent message. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

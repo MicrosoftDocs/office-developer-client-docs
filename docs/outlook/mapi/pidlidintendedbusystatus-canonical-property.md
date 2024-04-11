@@ -1,7 +1,7 @@
 ---
 title: "PidLidIntendedBusyStatus Canonical Property"
 description: Outlines the PidLidIntendedBusyStatus canonical property, which specifies the value of the dispidBusyStatus property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

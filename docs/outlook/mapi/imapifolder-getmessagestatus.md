@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFolderGetMessageStatus"
 description: "IMAPIFolderGetMessageStatus obtains the status associated with a message in a particular folder (for example, whether that message is marked for deletion)."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

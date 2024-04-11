@@ -1,7 +1,7 @@
 ---
 title: "MSGSERVICEENTRY"
 description: "MSGSERVICEENTRY defines a prototype for a message service entry point function to support message service configuration."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

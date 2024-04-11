@@ -1,7 +1,7 @@
 ---
 title: "IXPProvider  IUnknown"
 description: "IXPProvider IUnknown initializes a transport provider object and shuts down the object when it is no longer needed."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

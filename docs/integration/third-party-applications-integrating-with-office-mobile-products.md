@@ -1,6 +1,6 @@
 ---
 title: "Third-party applications integrating with Office Mobile products on Windows, Android, and iOS"
-manager: soliver
+manager: lindalu
 ms.date: 06/04/2015
 ms.audience: ITPro
 ms.localizationpriority: medium

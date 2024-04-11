@@ -1,6 +1,6 @@
 ---
 title: "PROP_SMTP_USE_SPA"
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview

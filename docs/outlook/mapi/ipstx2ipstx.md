@@ -1,7 +1,7 @@
 ---
 title: "IPSTX2  IPSTX"
 desciption: "IPSTX2 IPSTX provides helper functionality when performing replication through the IOSTX interface."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

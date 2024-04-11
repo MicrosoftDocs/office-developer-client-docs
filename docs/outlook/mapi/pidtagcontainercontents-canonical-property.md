@@ -1,7 +1,7 @@
 ---
 title: "PidTagContainerContents Canonical Property"
 description: Outlines the PidTagContainerContents canonical property, which contains an embedded contents table object that provides information about a container.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

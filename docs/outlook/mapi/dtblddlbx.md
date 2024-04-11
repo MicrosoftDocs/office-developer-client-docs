@@ -1,7 +1,7 @@
 ---
 title: "DTBLDDLBX"
 description: "DTBLDDLBX describes a drop-down list control that will be used in a dialog box built from a display table."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

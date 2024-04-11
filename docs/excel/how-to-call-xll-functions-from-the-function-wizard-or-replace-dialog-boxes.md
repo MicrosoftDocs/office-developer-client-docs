@@ -2,7 +2,7 @@
 title: "Call XLL Functions from the Function Wizard or Replace Dialog Boxes"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

@@ -1,7 +1,7 @@
 ---
 title: "IMAPIProgress  IUnknown"
 description: "IMAPIProgressIUnknown implements a progress object that provides client applications with a progress indicator."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

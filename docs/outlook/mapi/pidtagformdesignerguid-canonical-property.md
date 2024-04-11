@@ -1,7 +1,7 @@
 ---
 title: "PidTagFormDesignerGuid Canonical Property"
 description: Outlines the PidTagFormDesignerGuid canonical property, which contains the unique identifier for the object that is used to design a form.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

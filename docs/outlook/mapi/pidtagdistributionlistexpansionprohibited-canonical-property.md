@@ -1,7 +1,7 @@
 ---
 title: "PidTagDistributionListExpansionProhibited Canonical Property"
 description: Outlines the PidTagDistributionListExpansionProhibited canonical property, which contains TRUE if an MTA is prohibited from expanding distribution lists.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

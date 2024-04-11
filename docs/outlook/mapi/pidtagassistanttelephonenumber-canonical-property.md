@@ -1,7 +1,7 @@
 ---
 title: "PidTagAssistantTelephoneNumber Canonical Property"
 description: Outlines the PidTagAssistantTelephoneNumber canonical property, which contains the telephone number of the recipient's administrative assistant. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

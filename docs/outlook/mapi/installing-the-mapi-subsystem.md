@@ -1,7 +1,7 @@
 ---
 title: "Installing the MAPI Subsystem"
 description: "Describes the process of installing the MAPI subsystem, including system requirements and how to retrieve version information."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 api_type:

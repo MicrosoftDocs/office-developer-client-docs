@@ -1,6 +1,6 @@
 ---
 title: 'Walkthrough: Create and debug a basic form template using the InfoPath object model'
-manager: soliver
+manager: lindalu
 ms.date: 01/13/2015
 ms.audience: Developer
 keywords:

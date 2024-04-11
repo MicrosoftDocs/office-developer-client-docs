@@ -1,7 +1,7 @@
 ---
 title: "DNTBLE"
 description: "DNTBLE provides information for downloading the contents of a folder from the server during the download table state."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

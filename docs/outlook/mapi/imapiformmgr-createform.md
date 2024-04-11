@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormMgrCreateForm"
 description: "Describes the syntax, parameters, and return value for IMAPIFormMgrCreateForm, which opens a form to create a new message based on the form's message class."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

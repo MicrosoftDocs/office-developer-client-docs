@@ -1,7 +1,7 @@
 ---
 title: "IAddrBookGetDefaultDir"
 description: The IAddrBookGetDefaultDir function returns the entry identifier for the initial address book container. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

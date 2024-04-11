@@ -1,7 +1,7 @@
 ---
 title: "PidTagComputerNetworkName Canonical Property"
 description: Outlines the PidTagComputerNetworkName canonical property, which contains the name of the network used to transmit the message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

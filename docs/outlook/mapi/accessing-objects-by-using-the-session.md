@@ -1,7 +1,7 @@
 ---
 title: "Accessing Objects by Using the Session"
 description: "Describes how to access objects by using the session pointer that is received from the call to MAPILogonEx."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

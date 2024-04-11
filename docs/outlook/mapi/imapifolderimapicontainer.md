@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFolder  IMAPIContainer"
 description: "IMAPIFolderIMAPIContainer performs operations on the messages and subfolders in a folder. This article describes the related properties and members."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

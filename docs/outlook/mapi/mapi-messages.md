@@ -1,7 +1,7 @@
 ---
 title: "MAPI Messages"
 description: Provides a detailed overview of MAPI messages and transmission from one client application to another through the MAPI spooler and service providers.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

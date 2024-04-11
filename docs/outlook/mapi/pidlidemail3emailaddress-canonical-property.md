@@ -1,7 +1,7 @@
 ---
 title: "PidLidEmail3EmailAddress Canonical Property"
 description: Outlines the PidLidEmail3EmailAddress canonical property, which specifies the third email address of the contact.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

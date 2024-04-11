@@ -1,7 +1,7 @@
 ---
 title: "PidTagExtendedRuleSizeLimit Canonical Property"
 description: Outlines the PidTagExtendedRuleSizeLimit canonical property, which contains the maximum size the user is allowed to accumulate for a single "extended" rule.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

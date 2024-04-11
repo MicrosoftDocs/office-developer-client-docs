@@ -2,7 +2,7 @@
 title: "weather element (weatherdata element) (Outlook Weather Information Schema)"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

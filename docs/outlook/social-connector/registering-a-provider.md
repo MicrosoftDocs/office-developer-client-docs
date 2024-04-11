@@ -1,6 +1,6 @@
 ---
 title: "Registering a provider"
-manager: soliver
+manager: lindalu
 ms.date: 03/05/2015
 ms.audience: Developer
 ms.topic: overview

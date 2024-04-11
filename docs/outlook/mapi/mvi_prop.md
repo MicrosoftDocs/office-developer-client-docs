@@ -1,7 +1,7 @@
 ---
 title: "MVI_PROP"
 description: "Describes the properties, parameters, and remarks for MVI_PROP, which sets the MVI_FLAG for a specified property."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
