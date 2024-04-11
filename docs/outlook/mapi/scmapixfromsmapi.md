@@ -73,7 +73,7 @@ _E_NOINTERFACE_
 
 ## Remarks
 
-There are no inverse functions for *ScMAPIXFromSMAPI* function, that is, a client cannot convert to a simple MAPI session from a MAPI session.
+There are no inverse functions for **ScMAPIXFromSMAPI** function, that is, a client cannot convert to a simple MAPI session from a MAPI session.
 
 ## See also 
 
