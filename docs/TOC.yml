@@ -8059,6 +8059,8 @@
                   href: outlook/mapi/scinitmapiutil.md
                 - name: ScLocalPathFromUNC
                   href: outlook/mapi/sclocalpathfromunc.md
+                - name: ScMAPIXFromSMAPI
+                  href: outlook/mapi/scmapixfromsmapi.md
                 - name: ScRelocNotifications
                   href: outlook/mapi/screlocnotifications.md
                 - name: ScRelocProps
