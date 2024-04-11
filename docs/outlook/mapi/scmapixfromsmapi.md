@@ -37,8 +37,12 @@ SCODE ScMAPIXFromSMAPI(
 
 ## Parameters
 
- _lhSimpleSession_
-[in] The Simple MAPI session that was created by a call to MAPILOGON. 
-_ulFlags_
-[in] must be zero. 
-_lpInterface_
+ _lhSimpleSession_ 
+ 
+> [in] The Simple MAPI session that was created by a call to MAPILOGON. <br/>
+
+_ulFlags_ 
+
+> [in] must be zero. <br/>
+
+_lpInterface_ <br/>
