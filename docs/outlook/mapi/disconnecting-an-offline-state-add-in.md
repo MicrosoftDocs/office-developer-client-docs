@@ -1,7 +1,7 @@
 ---
 title: "Disconnecting an Offline State Add-in"
 description: "In this topic, the disconnection, terminate, and clean-up functions are demonstrated by using code examples from the Sample Offline State Add-in."
-manager: soliver
+manager: lindalu
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.localizationpriority: medium

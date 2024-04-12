@@ -1,7 +1,7 @@
 ---
 title: "MAPI Properties"
 description: "This section contains canonical properties that are supported by MAPI, each of which corresponds to one or multiple related MAPI properties."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachFilename Canonical Property"
 description: Outlines the PidTagAttachFilename canonical property, which contains an attachment's base file name and extension, excluding path.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

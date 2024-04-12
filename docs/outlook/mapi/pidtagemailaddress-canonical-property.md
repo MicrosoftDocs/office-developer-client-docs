@@ -1,7 +1,7 @@
 ---
 title: "PidTagEmailAddress Canonical Property"
 description: Outlines the PidTagEmailAddress canonical property, which contains the messaging user's email address. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

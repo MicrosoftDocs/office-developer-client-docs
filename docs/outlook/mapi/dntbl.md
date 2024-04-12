@@ -1,7 +1,7 @@
 ---
 title: "DNTBL"
 description: "DNTBL provides information for downloading the contents of a folder from the server during the download table state, as part of a full synchronization for contents on a store."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

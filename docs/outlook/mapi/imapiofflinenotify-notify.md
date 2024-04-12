@@ -1,7 +1,7 @@
 ---
 title: "IMAPIOfflineNotifyNotify"
 description: "Describes the syntax, parameters, and remarks for IMAPIOfflineNotifyNotify, which sends notifications to the client about changes in connection state."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

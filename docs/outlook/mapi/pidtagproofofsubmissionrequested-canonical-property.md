@@ -1,7 +1,7 @@
 ---
 title: "PidTagProofOfSubmissionRequested Canonical Property"
 description: Outlines the PidTagProofOfSubmissionRequested canonical property, which contains an ASN.1 proof of submission value.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

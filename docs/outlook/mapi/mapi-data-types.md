@@ -1,7 +1,7 @@
 ---
 title: "MAPI Data Types"
 description: Provides alphabetized links to documentation for the data types used in MAPI methods, function, and structures.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

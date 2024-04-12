@@ -1,6 +1,6 @@
 ---
 title: "JavaScript library and REST reference for Project Server"
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -2,7 +2,7 @@
 title: "C API Callback Functions Excel4, Excel12"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

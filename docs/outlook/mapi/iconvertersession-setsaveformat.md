@@ -1,7 +1,7 @@
 ---
 title: "IConverterSessionSetSaveFormat"
 description: "IConverterSessionSetSaveFormat sets the format in which the converter will return a MIME stream in IConverterSession::MAPIToMIMEStm."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

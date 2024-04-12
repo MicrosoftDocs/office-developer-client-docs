@@ -1,6 +1,6 @@
 ---
 title: "What the CSOM does and does not do" 
-manager: soliver
+manager: lindalu
 ms.date: 09/17/2015
 ms.audience: Developer 
 ms.assetid: 6828485c-040b-4278-923f-4cc7c8fe0fb1

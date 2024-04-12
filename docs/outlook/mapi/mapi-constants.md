@@ -1,6 +1,6 @@
 ---
 title: "MAPI constants"
-manager: soliver
+manager: lindalu
 ms.date: 10/02/2018
 ms.audience: Developer
 ms.topic: reference

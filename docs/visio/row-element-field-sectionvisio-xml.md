@@ -1,7 +1,7 @@
 ---
 title: "Row element (Field Section) (Visio XML)"
 description: "Row element (Field Section) (Visio XML) displays functions and formulas inserted in the shape's text by using the Field dialog box."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

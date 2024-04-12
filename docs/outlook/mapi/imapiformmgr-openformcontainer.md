@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormMgrOpenFormContainer"
 description: "Describes the syntax, parameters, and return value of IMAPIFormMgrOpenFormContainer, which opens an IMAPIFormContainer interface for a specific form container."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

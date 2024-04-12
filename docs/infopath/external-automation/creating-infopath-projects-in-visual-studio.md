@@ -1,6 +1,6 @@
 ---
 title: "Creating InfoPath projects in Visual Studio"
-manager: soliver
+manager: lindalu
 ms.date: 11/10/2016
 ms.audience: Developer
 keywords:

@@ -1,6 +1,6 @@
 ---
 title: About the Microsoft Office InfoPath Primary Interop Assembly
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: "PidTagIdentityDisplay Canonical Property"
 description: Outlines the PidTagIdentityDisplay canonical property, which contains the display name for a service provider's identity as defined within a messaging system. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

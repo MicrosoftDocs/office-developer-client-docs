@@ -1,7 +1,7 @@
 ---
 title: "PidTagIdentityEntryId Canonical Property"
 description: Outlines the PidTagIdentityEntryId canonical property, which contains the entry identifier for a service provider's identity.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

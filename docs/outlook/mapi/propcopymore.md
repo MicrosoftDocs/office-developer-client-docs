@@ -1,7 +1,7 @@
 ---
 title: "PropCopyMore"
 description: Outlines PropCopyMore, which copies a single property value from a source location to a destination location.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

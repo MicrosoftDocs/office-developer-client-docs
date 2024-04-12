@@ -1,7 +1,7 @@
 ---
 title: "PidTag7BitDisplayName Canonical Property"
 description: Outlines the PidTag7BitDisplayName canonical property, which contains a 7-bit ASCII representation of a messaging user's name. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

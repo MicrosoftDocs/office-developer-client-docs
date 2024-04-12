@@ -1,7 +1,7 @@
 ---
 title: "MAPIERROR"
 description: Describes the MAPIERROR function and provides syntax, members, additional remarks, and links to additional resources.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

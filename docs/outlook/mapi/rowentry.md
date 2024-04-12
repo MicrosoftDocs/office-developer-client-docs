@@ -1,7 +1,7 @@
 ---
 title: "ROWENTRY"
 description: Outlines how ROWENTRY contains a row and the operation that is performed on that row in a table through the IExchangeModifyTable interface. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

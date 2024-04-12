@@ -1,7 +1,7 @@
 ---
 title: "CreateIProp"
 description: "CreateIProp creates a property data object, that is, an IPropData object. This article describes its parameters, return value, and remarks."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

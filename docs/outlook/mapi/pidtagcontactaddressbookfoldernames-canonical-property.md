@@ -1,7 +1,7 @@
 ---
 title: "PidTagContactAddressBookFolderNames Canonical Property"
 description: Outlines the PidTagContactAddressBookFolderNames canonical property, which contains the names of the Contacts folders where mail users are kept.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

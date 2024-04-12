@@ -1,7 +1,7 @@
 ---
 title: "IContabAdmin  IUnknown"
 description: "IContabAdmin IUnknown removes contact folders from the Microsoft Outlook 2010 and Microsoft Outlook 2013 address book."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

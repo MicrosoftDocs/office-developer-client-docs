@@ -1,7 +1,7 @@
 ---
 title: "PidLidFreeBusyLocation Canonical Property"
 description: Outlines the PidLidFreeBusyLocation canonical property, which specifies a URL path a client can retrieve free/busy information for the contact as an iCal file.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

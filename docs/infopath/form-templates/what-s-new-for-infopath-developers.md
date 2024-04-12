@@ -2,7 +2,7 @@
 title: "What's New for InfoPath Developers"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
  

@@ -1,7 +1,7 @@
 ---
 title: "PidTagEndDate Canonical Property"
 description: Outlines the PidTagEndDate canonical property, which contains the ending date and time of an appointment as managed by a scheduling application. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

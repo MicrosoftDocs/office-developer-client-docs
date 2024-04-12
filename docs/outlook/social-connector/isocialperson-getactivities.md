@@ -1,7 +1,7 @@
 ---
 title: "ISocialPersonGetActivities"
 description: "ISocialPersonGetActivities has been deprecated in Outlook Social Connector 2013. Provides references to Synchronizing Friends and Activities."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

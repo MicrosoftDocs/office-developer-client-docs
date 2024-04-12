@@ -1,7 +1,7 @@
 ---
 title: "PidTagCallbackTelephoneNumber Canonical Property"
 description: Outlines the PidTagCallbackTelephoneNumber canonical property, which contains a telephone number that the message recipient can use to reach the sender. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagMessageDeliveryId Canonical Property"
 description: Outlines the PidTagMessageDeliveryId canonical property, which contains an MTS identifier for a message delivered to a client application.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

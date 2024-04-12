@@ -1,7 +1,7 @@
 ---
 title: "PidLidFax1EmailAddress Canonical Property"
 description: Outlines the PidLidFax1EmailAddress canonical property, which specifies the email address of the contact's business fax.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

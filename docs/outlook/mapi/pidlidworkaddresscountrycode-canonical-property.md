@@ -1,7 +1,7 @@
 ---
 title: "PidLidWorkAddressCountryCode Canonical Property"
 description: Outlines the PidLidWorkAddressCountryCode canonical property, which specifies the country code portion of the contact's work address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

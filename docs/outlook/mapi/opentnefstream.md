@@ -1,7 +1,7 @@
 ---
 title: "OpenTnefStream"
 description: "OpenTnefStream called by a transport provider to initiate a MAPI Transport Neutral Encapsulation Format (TNEF) session."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

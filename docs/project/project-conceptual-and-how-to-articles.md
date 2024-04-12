@@ -1,6 +1,6 @@
 ---
 title: "Project conceptual and how-to articles"
-manager: soliver
+manager: lindalu
 ms.date: 09/15/2015
 ms.audience: Developer
 ms.localizationpriority: medium

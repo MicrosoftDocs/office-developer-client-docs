@@ -1,7 +1,7 @@
 ---
 title: "PidTagControlStructure Canonical Property"
 description: Outlines the PidTagControlStructure canonical property, which contains a pointer to a structure for a control used in a dialog box.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

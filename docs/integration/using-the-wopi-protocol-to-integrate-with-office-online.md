@@ -2,7 +2,7 @@
 title: "Using the WOPI protocol to integrate with Office Online"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 05/20/2015
 ms.audience: Developer
  

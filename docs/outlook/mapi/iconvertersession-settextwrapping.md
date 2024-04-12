@@ -1,7 +1,7 @@
 ---
 title: "IConverterSessionSetTextWrapping"
 description: "IConverterSessionSetTextWrapping sets the text wrapping width for a MIME stream that the converter will return in IConverterSessionMAPIToMIMEStm." 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidEmail1OriginalEntryId Canonical Property"
 description: Outlines the PidLidEmail1OriginalEntryId canonical property, which specifies the EntryId of the object that corresponds to the first email address. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

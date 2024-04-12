@@ -1,7 +1,7 @@
 ---
 title: "PidLidAppointmentUnsendableRecipients Canonical Property"
 description: Outlines the PidLidAppointmentUnsendableRecipients canonical property, which contains a list of unsendable attendees.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

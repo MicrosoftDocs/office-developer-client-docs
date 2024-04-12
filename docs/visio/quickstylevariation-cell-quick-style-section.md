@@ -2,7 +2,7 @@
 title: "QuickStyleVariation Cell (Quick Style Section)"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview

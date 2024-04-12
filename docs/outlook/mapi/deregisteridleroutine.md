@@ -1,7 +1,7 @@
 ---
 title: "DeregisterIdleRoutine"
 description: "DeregisterIdleRoutine removes a FNIDLE based idle routine from the MAPI system. This article describes its parameters, return value, and remarks."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

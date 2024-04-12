@@ -1,7 +1,7 @@
 ---
 title: "PidTagDisplayBcc Canonical Property"
 description: Outlines the PidTagDisplayBcc canonical property, which contains an ASCII list of the display names of any BCC message recipients.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

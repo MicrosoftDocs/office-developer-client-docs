@@ -1,7 +1,7 @@
 ---
 title: "PidLidOfflineStatus Canonical Property"
 description: Outlines the PidLidOfflineStatus canonical property, which determines the state of a document file on a server that implements [MS-LISTSWS].
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

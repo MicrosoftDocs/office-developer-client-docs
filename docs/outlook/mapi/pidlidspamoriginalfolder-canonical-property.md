@@ -1,7 +1,7 @@
 ---
 title: "PidLidSpamOriginalFolder Canonical Property"
 description: Outlines the PidLidSpamOriginalFolder canonical property, which indicates which folder a message was in before it was filtered into the junk email folder.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

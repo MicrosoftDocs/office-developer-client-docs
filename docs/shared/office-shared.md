@@ -1,6 +1,6 @@
 ---
 title: "Office shared"
-manager: soliver
+manager: lindalu
 ms.date: 04/20/2016
 ms.audience: Developer
 ms.assetid: 1c4937c4-0998-4f81-a994-50d3dd54727c

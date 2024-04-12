@@ -1,7 +1,7 @@
 ---
 title: "PidLidLogEnd Canonical Property"
 description: Outlines the PidLidLogEnd canonical property, which represents the end date and time for the journal message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

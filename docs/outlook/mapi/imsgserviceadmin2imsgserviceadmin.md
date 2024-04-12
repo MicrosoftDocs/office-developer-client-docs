@@ -1,7 +1,7 @@
 ---
 title: "IMsgServiceAdmin2  IMsgServiceAdmin"
 description: "Describes the properties and vtable order of members for IMsgServiceAdmin2 IMsgServiceAdmin, which makes changes to a message service in a profile."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

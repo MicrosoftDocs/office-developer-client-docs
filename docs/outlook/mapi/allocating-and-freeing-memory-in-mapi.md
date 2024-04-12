@@ -1,7 +1,7 @@
 ---
 title: "Allocating and Freeing Memory in MAPI"
 description: "Describes how to allocate and free memory in MAPI following the rules of input parameters, output parameters, or input-output parameters."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "Threading in MAPI"
 description: Outlines threading in MAPI, including how MAPI clients use generic threading models. This applies to Outlook 2013 and Outlook 2016.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

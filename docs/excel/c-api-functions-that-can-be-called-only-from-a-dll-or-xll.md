@@ -2,7 +2,7 @@
 title: "C API Functions That Can Be Called Only from a DLL or XLL"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

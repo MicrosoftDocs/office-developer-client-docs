@@ -1,7 +1,7 @@
 ---
 title: "DTPAGE"
 description: "DTPAGE describes the dialog box that is built from a display table by the BuildDisplayTable function."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

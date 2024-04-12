@@ -1,7 +1,7 @@
 ---
 title: "PidLidSharingRemoteUid Canonical Property"
 description: Outlines the PidLidSharingRemoteUid canonical property, which specifies the entry ID of the remote folder being shared.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

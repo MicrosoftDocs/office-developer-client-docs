@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionGetMsgStoresTable"
 description: "IMAPISessionGetMsgStoresTable provides access to the message store table that contains information about all the message stores in the session profile."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

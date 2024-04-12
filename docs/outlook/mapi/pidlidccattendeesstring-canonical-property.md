@@ -1,7 +1,7 @@
 ---
 title: "PidLidCcAttendeesString Canonical Property"
 description: Outlines the PidLidCcAttendeesString canonical property, which contains a list of all the sendable attendees who are also optional attendees.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

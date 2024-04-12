@@ -1,7 +1,7 @@
 ---
 title: "PidTagRadioTelephoneNumber Canonical Property"
 description: Outlines the PidTagRadioTelephoneNumber canonical property, which contains the recipient's radio telephone number.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "About Named Properties Used by Outlook"
 description: "Describes named properties in Outlook, which are identified by a name and a globally unique identifier (GUID) for a property set."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

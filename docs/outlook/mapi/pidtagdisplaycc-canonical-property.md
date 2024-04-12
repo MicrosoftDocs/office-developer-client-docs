@@ -1,7 +1,7 @@
 ---
 title: "PidTagDisplayCc Canonical Property"
 description: Outlines the PidTagDisplayCc canonical property, which contains an ASCII list of the display names of any carbon copy (CC) message recipients.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

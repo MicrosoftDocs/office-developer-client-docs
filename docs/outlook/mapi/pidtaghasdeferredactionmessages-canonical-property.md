@@ -1,7 +1,7 @@
 ---
 title: "PidTagHasDeferredActionMessages Canonical Property"
 description: Outlines the PidTagHasDeferredActionMessages canonical property, which contains TRUE if a message has at least one deferred action rule.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

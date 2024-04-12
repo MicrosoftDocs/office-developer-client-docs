@@ -1,7 +1,7 @@
 ---
 title: "PidTagFreeBusyRangeTimestamp Canonical Property"
 description: Outlines the PidTagFreeBusyRangeTimestamp canonical property, which contains the time when the data was published.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

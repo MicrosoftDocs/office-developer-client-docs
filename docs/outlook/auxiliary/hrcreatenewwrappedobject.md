@@ -1,6 +1,6 @@
 ---
 title: "HrCreateNewWrappedObject"
-manager: soliver
+manager: lindalu
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.topic: overview

@@ -1,7 +1,7 @@
 ---
 title: "PidLidYomiCompanyName Canonical Property"
 description: Outlines the PidLidYomiCompanyName canonical property, which specifies the phonetic pronunciation of the contact's company name.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

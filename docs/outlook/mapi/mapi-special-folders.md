@@ -1,7 +1,7 @@
 ---
 title: "MAPI Special Folders"
 description: "MAPI defines a few folders that are special because they serve predefined roles as default folders for certain types of messages."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

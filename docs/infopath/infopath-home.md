@@ -1,6 +1,6 @@
 ---
 title: "InfoPath"
-manager: soliver
+manager: lindalu
 ms.date: 09/09/2015
 ms.audience: Developer
 ms.topic: overview

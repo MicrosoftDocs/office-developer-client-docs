@@ -1,6 +1,6 @@
 ---
 title: "Add an event handler using the InfoPath object model"
-manager: soliver
+manager: lindalu
 ms.date: 01/20/2015
 ms.audience: Developer
 keywords:

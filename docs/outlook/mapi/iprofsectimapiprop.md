@@ -1,7 +1,7 @@
 ---
 title: "IProfSect  IMAPIProp"
 description: "Describes the properties and vtable order of required properties for IProfSect IMAPIProp, which works with the properties of profile section objects."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

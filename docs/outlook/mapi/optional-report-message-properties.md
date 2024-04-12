@@ -1,7 +1,7 @@
 ---
 title: "Optional Report Message Properties"
 description: "Describes the properties that sometimes appear with report messages and gives a description of each."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

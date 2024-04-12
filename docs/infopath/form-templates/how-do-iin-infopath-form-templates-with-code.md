@@ -2,7 +2,7 @@
 title: "How Do I...In InfoPath Form Templates with Code"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
  

@@ -1,7 +1,7 @@
 ---
 title: "IPropData  IMAPIProp"
 description: "IPropData IMAPIProp provides the ability to retrieve and change the access for an object's properties."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: "Security levels, email deployment, and remote form templates"
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,6 +1,6 @@
 ---
 title: "Client-side object model (CSOM) for Project 2013" 
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer 
 ms.assetid: 716325eb-b092-4934-921f-84129d0a1f5f

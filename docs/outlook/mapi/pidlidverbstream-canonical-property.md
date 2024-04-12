@@ -1,7 +1,7 @@
 ---
 title: "PidLidVerbStream Canonical Property"
 description: Outlines the PidLidVerbStream canonical property, which specifies what voting responses the user can make in response to the message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

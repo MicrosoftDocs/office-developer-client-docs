@@ -1,7 +1,7 @@
 ---
 title: "PidTagItemTemporaryflags Canonical Property"
 description: Outlines the PidTagItemTemporaryflags canonical property, which contains a flag that indicates that a message has been read, but not marked as read.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

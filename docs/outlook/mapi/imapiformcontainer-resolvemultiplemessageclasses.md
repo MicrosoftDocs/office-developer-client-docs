@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormContainerResolveMultipleMessageClasses"
 description: "IMAPIFormContainerResolveMultipleMessageClasses resolves a group of message classes to their forms in a form container and returns form information objects."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IPropDataHrSetPropAccess"
 description: "IPropData HrSetPropAccess sets the access level or status for one or more of the object's properties."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidFax2EmailAddress Canonical Property"
 description: Outlines the PidLidFax2EmailAddress canonical property, which specifies the email address of the contact's home fax address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

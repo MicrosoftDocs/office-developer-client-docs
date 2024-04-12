@@ -1,7 +1,7 @@
 ---
 title: "ROWLIST"
 description: Outlines how ROWLIST contains an array of ROWENTRY structures representing rows and the operations that are performed on those rows.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

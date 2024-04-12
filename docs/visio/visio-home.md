@@ -1,6 +1,6 @@
 ---
 title: "Visio"
-manager: soliver
+manager: lindalu
 ms.date: 08/22/2018
 ms.audience: Developer
 ms.topic: overview

@@ -1,7 +1,7 @@
 ---
 title: "PidLidLogDocumentPosted Canonical Property"
 description: Outlines the PidLidLogDocumentPosted canonical property, which indicates whether the document was sent by email or posted to a server folder during journaling.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

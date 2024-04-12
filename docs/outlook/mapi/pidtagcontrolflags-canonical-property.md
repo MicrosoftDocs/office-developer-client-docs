@@ -1,7 +1,7 @@
 ---
 title: "PidTagControlFlags Canonical Property"
 description: Outlines the PidTagControlFlags canonical property, which contains a bitmask of flags governing the behavior of a control.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

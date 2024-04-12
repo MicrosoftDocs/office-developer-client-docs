@@ -1,7 +1,7 @@
 ---
 title: "PidLidOldWhenEndWhole Canonical Property"
 description: Outlines the PidLidOldWhenEndWhole canonical property, which indicates the original value of the dispidApptEndWhole property before a meeting update.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

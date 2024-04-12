@@ -1,7 +1,7 @@
 ---
 title: "IMsgStoreFinishedMsg"
 description: "IMsgStore FinishedMsg enables the message store provider to perform processing on a sent message. It is called only by the MAPI spooler."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

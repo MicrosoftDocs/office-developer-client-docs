@@ -1,7 +1,7 @@
 ---
 title: "MAPI Structures"
 description: "Provides alphabetized entries that describe MAPI structures. Cross references to other publications or to other topics in this documentation are also included."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

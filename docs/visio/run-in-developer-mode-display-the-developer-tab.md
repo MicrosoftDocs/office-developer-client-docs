@@ -2,7 +2,7 @@
 title: "Run in Developer Mode (Display the Developer Tab)"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

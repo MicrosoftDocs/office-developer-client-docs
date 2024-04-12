@@ -1,7 +1,7 @@
 ---
 title: "Copy and Paste a Formula from One Cell into Another"
 description: "Describes the four steps to take to copy and paste a formula from one cell into another using CTRL+C and CTRL+V."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

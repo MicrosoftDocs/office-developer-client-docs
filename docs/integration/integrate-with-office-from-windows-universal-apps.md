@@ -1,6 +1,6 @@
 ---
 title: "Integrate with Office from Windows universal apps"
-manager: soliver
+manager: lindalu
 ms.date: 02/06/2017
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "PidTagExceptionEndTime Canonical Property"
 description: Outlines the PidTagExceptionEndTime canonical property, which indicates the end date and time of the exception in the local time zone.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

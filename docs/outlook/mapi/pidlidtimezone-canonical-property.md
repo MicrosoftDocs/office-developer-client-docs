@@ -1,7 +1,7 @@
 ---
 title: "PidLidTimeZone Canonical Property"
 description: Outlines the PidLidTimeZone canonical property, which specifies information about the time zone of a recurring meeting.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

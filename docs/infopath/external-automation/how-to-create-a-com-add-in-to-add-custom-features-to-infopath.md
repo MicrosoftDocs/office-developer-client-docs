@@ -1,6 +1,6 @@
 ---
 title: "Create a COM Add-in to Add Custom Features to InfoPath"
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:

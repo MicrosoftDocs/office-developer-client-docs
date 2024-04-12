@@ -2,7 +2,7 @@
 title: "Office for iOS support for the iOS Document Picker"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 02/09/2015
 ms.audience: Developer
  

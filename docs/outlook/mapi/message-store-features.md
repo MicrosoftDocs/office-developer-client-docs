@@ -1,7 +1,7 @@
 ---
 title: "Message Store Features"
 description: "Describes the major features that message store providers can implement and whether each feature is required or optional for certain store providers."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

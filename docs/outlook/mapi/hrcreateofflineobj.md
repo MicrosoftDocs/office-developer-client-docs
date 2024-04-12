@@ -1,7 +1,7 @@
 ---
 title: "HrCreateOfflineObj"
 description: Creates a MAPI offline object that is used by the provider and store in order to notify MAPI when the object goes online and offline.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

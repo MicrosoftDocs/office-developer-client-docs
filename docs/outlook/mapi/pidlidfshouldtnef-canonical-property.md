@@ -1,7 +1,7 @@
 ---
 title: "PidLidFShouldTNEF Canonical Property"
 description: Outlines the PidLidFShouldTNEF canonical property, which indicates whether to encode an item with Transport Neutral Encapsulation Format (TNEF). 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

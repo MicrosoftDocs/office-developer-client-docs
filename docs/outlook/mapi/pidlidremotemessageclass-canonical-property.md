@@ -1,7 +1,7 @@
 ---
 title: "PidLidRemoteMessageClass Canonical Property"
 description: Outlines the PidLidRemoteMessageClass canonical property, which indicates the message class of a remote item.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

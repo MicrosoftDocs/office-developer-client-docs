@@ -1,7 +1,7 @@
 ---
 title: "OpenIMsgSession"
 description: "Describes the syntax, parameters, and return value of OpenIMsgSession, which creates and opens a message session that groups the messages created within it."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

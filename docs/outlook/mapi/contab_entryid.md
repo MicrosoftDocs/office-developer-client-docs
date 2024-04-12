@@ -1,7 +1,7 @@
 ---
 title: "CONTAB_ENTRYID"
 description: "CONTAB_ENTRYID contains the entry ID of the contacts folder. This article describes its members and remarks."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

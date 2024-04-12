@@ -1,7 +1,7 @@
 ---
 title: "PidLidSharingRemoteType Canonical Property"
 description: Outlines the PidLidSharingRemoteType canonical property, which specifies the type of the remote shared folder. This is a property of a sharing message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

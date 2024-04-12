@@ -1,7 +1,7 @@
 ---
 title: "Optional Features for Address Book Providers"
 description: "Describes the optional features for address book providers in Microsoft Outlook and how to implement them."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

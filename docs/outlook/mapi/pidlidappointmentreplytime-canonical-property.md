@@ -1,7 +1,7 @@
 ---
 title: "PidLidAppointmentReplyTime Canonical Property"
 description: "PidLidAppointmentReplyTime Canonical Property specifies the date and time when the attendee responded to a received meeting request or meeting update."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

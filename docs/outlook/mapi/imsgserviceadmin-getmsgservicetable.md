@@ -1,7 +1,7 @@
 ---
 title: "IMsgServiceAdminGetMsgServiceTable"
 description: "IMsgServiceAdmin GetMsgServiceTable provides access to the message service table, a list of the message services in the profile."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

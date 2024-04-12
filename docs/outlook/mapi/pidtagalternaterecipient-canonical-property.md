@@ -1,7 +1,7 @@
 ---
 title: "PidTagAlternateRecipient Canonical Property"
 description: Outlines the PidTagAlternateRecipient canonical property, which contains a list of entry identifiers for alternate recipients.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidOtherAddress Canonical Property"
 description: Outlines the PidLidOtherAddress canonical property, which specifies the complete address of the contact's other address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

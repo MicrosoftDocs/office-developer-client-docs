@@ -1,7 +1,7 @@
 ---
 title: "IMAPIContainerSetSearchCriteria"
 description: "IMAPIContainerSetSearchCriteria establishes search criteria for the container. This article describes its syntax, parameters, return value, and remarks."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

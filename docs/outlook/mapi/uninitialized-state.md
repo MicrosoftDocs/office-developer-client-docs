@@ -1,7 +1,7 @@
 ---
 title: "Uninitialized State"
 description: Outlines how the Uninitialized state is the initial state form objects should be in when they are first created.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

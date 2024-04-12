@@ -1,7 +1,7 @@
 ---
 title: "Retrieve body of message in compressed RTF and convert to its native format"
 description: This article describes how to retrieve the body of a message in compressed RTF and convert to its native format.
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

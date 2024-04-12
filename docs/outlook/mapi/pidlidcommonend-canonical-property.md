@@ -1,7 +1,7 @@
 ---
 title: "PidLidCommonEnd Canonical Property"
 description: Outlines the PidLidCommonEnd canonical property, which represents the end date and time of a message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

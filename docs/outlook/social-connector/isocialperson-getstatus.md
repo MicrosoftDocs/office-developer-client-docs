@@ -1,7 +1,7 @@
 ---
 title: "ISocialPersonGetStatus"
 description: "Provides the syntax and references for ISocialPerson GetStatus, but the method is currently not supported."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

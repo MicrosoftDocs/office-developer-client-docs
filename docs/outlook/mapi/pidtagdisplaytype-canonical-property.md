@@ -1,7 +1,7 @@
 ---
 title: "PidTagDisplayType Canonical Property"
 description: Outlines the PidTagDisplayType canonical property, which contains a value used to associate an icon with a particular row of a table. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

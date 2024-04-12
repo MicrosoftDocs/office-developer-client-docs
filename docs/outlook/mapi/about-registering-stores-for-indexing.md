@@ -1,7 +1,7 @@
 ---
 title: "About Registering Stores for Indexing"
 description: "Describes how to register stores for indexing in Instant Search which is in Microsoft Office Outlook."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "PidLidEmail1AddressType Canonical Property"
 description: Outlines the PidLidEmail1AddressType canonical property, which specifies the address type of the first email address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

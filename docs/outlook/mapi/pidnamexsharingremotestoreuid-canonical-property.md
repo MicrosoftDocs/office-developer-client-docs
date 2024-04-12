@@ -1,7 +1,7 @@
 ---
 title: "PidNameXSharingRemoteStoreUid Canonical Property"
 description: Outlines the PidNameXSharingRemoteStoreUid canonical property, which represents the value of the dispidSharingRemoteStoreUid property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

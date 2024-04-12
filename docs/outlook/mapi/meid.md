@@ -1,7 +1,7 @@
 ---
 title: "MEID"
 description: "MEID is an identifier for an Outlook item. It contains an entry identifier and other relevant information."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

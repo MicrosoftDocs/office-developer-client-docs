@@ -2,7 +2,7 @@
 title: "RotationZAngle Cell (3-D Rotation Properties Section)"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

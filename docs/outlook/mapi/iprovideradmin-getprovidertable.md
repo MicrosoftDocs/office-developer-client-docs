@@ -1,7 +1,7 @@
 ---
 title: "IProviderAdminGetProviderTable"
 description: "IProviderAdmin GetProviderTable provides access to the message service's provider table, a list of the service providers in the message service."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

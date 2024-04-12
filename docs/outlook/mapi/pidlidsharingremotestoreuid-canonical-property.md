@@ -1,7 +1,7 @@
 ---
 title: "PidLidSharingRemoteStoreUid Canonical Property"
 description: Outlines the PidLidSharingRemoteStoreUid canonical property, which is a property of a sharing message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

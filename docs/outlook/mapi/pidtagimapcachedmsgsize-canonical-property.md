@@ -1,7 +1,7 @@
 ---
 title: "PidTagImapCachedMsgsize Canonical Property"
 description: Outlines the PidTagImapCachedMsgsize canonical property, which contains the size of the cached Internet Message Access Protocol message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

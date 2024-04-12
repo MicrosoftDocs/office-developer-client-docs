@@ -1,7 +1,7 @@
 ---
 title: "CURRENCY"
 description: "CURRENCY contains a signed 64-bit integer representing a currency value. This article describes its members and remarks."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachContentId Canonical Property"
 description: Outlines the PidTagAttachContentId canonical property, which contains the content identification header of a MIME message attachment. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagDefaultStore Canonical Property"
 description: Outlines the PidTagDefaultStore canonical property, which contains TRUE if a message store is the default message store in the message store table. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

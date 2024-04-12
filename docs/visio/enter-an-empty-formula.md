@@ -1,7 +1,7 @@
 ---
 title: "Enter an Empty Formula"
 description: "Describes the two steps to take to enter an empty formula. Provides addition information on how to use this process in a Scratch cell."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

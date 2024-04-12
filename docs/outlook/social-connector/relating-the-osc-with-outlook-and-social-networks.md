@@ -1,6 +1,6 @@
 ---
 title: "Relating the OSC with Outlook and social networks"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

@@ -1,7 +1,7 @@
 ---
 title: "PidLidAppointmentTimeZoneDefinitionStartDisplay Canonical Property"
 description: Outlines the PidLidAppointmentTimeZoneDefinitionStartDisplay canonical property, which contains a stream that maps to the persisted format of a structure.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

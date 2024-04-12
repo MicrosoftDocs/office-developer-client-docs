@@ -1,7 +1,7 @@
 ---
 title: "IMsgServiceAdminConfigureMsgService"
 description: "Describes the syntax, parameters, return value, and remarks for IMsgServiceAdminConfigureMsgService, which reconfigures a message service."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

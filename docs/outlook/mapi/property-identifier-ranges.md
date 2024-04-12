@@ -1,7 +1,7 @@
 ---
 title: "Property Identifier Ranges"
 description: Summarizes the different ranges for property identifiers, describing the owner for the properties in each range.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

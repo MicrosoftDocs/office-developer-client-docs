@@ -1,7 +1,7 @@
 ---
 title: "PidNameAuthor Canonical Property"
 description: Outlines the PidNameAuthor canonical property, which represents the author of the file that is attached to the document.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

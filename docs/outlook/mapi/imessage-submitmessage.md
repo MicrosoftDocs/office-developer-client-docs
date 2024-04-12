@@ -1,7 +1,7 @@
 ---
 title: "IMessageSubmitMessage"
 description: "IMessageSubmitMessage saves all of the message's properties and marks the message as ready to be sent."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

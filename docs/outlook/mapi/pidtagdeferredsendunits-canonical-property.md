@@ -1,7 +1,7 @@
 ---
 title: "PidTagDeferredSendUnits Canonical Property"
 description: Outlines the PidTagDeferredSendUnits canonical property, which specifies the unit of time by which the PR_DEFERRED_SEND_NUMBER value should be multiplied.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

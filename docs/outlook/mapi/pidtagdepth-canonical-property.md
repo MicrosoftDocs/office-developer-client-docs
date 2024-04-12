@@ -1,7 +1,7 @@
 ---
 title: "PidTagDepth Canonical Property"
 description: Outlines the PidTagDepth canonical property, which contains an integer showing the relative level of indentation, or depth, of an object in a hierarchy table.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

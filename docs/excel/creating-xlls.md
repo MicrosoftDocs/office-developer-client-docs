@@ -2,7 +2,7 @@
 title: "Creating XLLs"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

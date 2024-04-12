@@ -1,7 +1,7 @@
 ---
 title: "PidTagOriginalAuthorSearchKey Canonical Property"
 description: Outlines the PidTagOriginalAuthorSearchKey canonical property, which contains the search key of the author of the first version of a message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

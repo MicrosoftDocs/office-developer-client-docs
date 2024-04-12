@@ -1,7 +1,7 @@
 ---
 title: "Outlook developer reference copyright notice, Social Connector"
 description: "Describes all legal rights associated with the Microsoft Outlook developer reference copyright notice for the Social Connector."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

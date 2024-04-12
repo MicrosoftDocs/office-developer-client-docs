@@ -1,7 +1,7 @@
 ---
 title: "Types of Tables"
 description: Outlines different types of tables, each type differentiated by the information that it presents, in Outlook 2013 and Outlook 2016.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

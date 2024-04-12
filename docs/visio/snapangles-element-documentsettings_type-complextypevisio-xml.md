@@ -1,7 +1,7 @@
 ---
 title: "SnapAngles element (DocumentSettings_Type complexType) (Visio XML)"
 description: "Describes the definition and element information for SnapAngles element (DocumentSettings_Type complexType), which contains a collection of SnapAngle elements."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IMAPITableSeekRow"
 description: "Describes the syntax, parameters, and return value of IMAPITableSeekRow, which moves the cursor to a specific position in the table."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "CALLERRELEASE"
 description: "CALLERRELEASE defines a callback function that can release a table data object when a table view is being released."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

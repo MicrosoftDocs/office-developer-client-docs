@@ -1,7 +1,7 @@
 ---
 title: "One-Off Tables"
 description: "A one-off table contains information about the templates that an address book provider supports for creating new recipients."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

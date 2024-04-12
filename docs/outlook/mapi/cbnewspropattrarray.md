@@ -1,7 +1,7 @@
 ---
 title: "CbNewSPropAttrArray"
 description: "CbNewSPropAttrArray computes the number of bytes to be allocated for a new SPropAttrArray structure that contains a specified number of property attributes."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

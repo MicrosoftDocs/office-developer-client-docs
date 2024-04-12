@@ -1,7 +1,7 @@
 ---
 title: "PidTagGender Canonical Property"
 description: This article outlines the PidTagGender canonical property, which contains the gender of the messaging user.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

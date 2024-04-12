@@ -1,7 +1,7 @@
 ---
 title: "PidLidSharingProviderUrl Canonical Property"
 description: Outlines the PidLidSharingProviderUrl canonical property, which specifies the URL that is related to the sharing provider.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

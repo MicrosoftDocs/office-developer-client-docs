@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteSubmitMessage"
 description: "Describes the syntax, parameters, and return value of IMAPIMessageSiteSubmitMessage, which requests that the current message be queued for delivery."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidTimeZoneStruct Canonical Property"
 description: Outlines the PidLidTimeZoneStruct canonical property, which contains a stream that maps to the persisted format of a TZREG structure.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

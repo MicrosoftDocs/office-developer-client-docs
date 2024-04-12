@@ -2,7 +2,7 @@
 title: "Getting started developing Project Server workflows"
 
  
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
  

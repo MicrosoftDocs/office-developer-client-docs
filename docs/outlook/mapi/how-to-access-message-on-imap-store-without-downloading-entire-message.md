@@ -1,6 +1,6 @@
 ---
 title: "Access a message on an IMAP store without downloading the entire message"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

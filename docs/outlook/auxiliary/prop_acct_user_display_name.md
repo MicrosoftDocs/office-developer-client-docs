@@ -1,6 +1,6 @@
 ---
 title: "PROP_ACCT_USER_DISPLAY_NAME"
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

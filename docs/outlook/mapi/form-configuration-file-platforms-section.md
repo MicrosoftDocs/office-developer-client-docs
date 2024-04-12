@@ -1,7 +1,7 @@
 ---
 title: "Form Configuration File [Platforms] Section"
 description: This article provides a detailed overview of form configuration file [platforms].
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

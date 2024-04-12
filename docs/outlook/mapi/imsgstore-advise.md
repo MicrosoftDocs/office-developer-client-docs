@@ -1,7 +1,7 @@
 ---
 title: "IMsgStoreAdvise"
 description: "IMsgStore Advise registers to receive notification of specified events that affect the message store."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Installing the Sample Offline State Add-in"
 description: "The Sample Offline State Add-in is a COM add-in that adds an Offline State menu to Outlook and utilizes the Offline State API."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

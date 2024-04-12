@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Project 2013 SDK copyright notice"
 description: "Document that describes all legal rights associated with the Microsoft Project 2013 SDK copyright notice."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "PidLidAttendeeCriticalChange Canonical Property"
 description: Outlines the PidLidAttendeeCriticalChange canonical property, which specifies the date and time when the meeting-related object was sent.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "MAPIInitialize"
 description: Describes the MAPIInitialize function and provides syntax, parameters, remarks, and MFCMAPI references.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

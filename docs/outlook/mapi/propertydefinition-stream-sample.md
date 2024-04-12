@@ -1,7 +1,7 @@
 ---
 title: "PropertyDefinition stream sample"
 description: This topic describes an example of a PropertyDefinition stream, which contains a definition of a user-defined field.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

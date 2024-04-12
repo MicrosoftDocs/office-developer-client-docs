@@ -1,7 +1,7 @@
 ---
 title: "IPSTOVERRIDE1SetPersistedRegistrations"
 description: "IPSTOVERRIDE1 SetPersistedRegistrations registers Personal Folders (.pst) files for automatic unlocking."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

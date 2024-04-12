@@ -1,7 +1,7 @@
 ---
 title: "PidLidAppointmentSequence Canonical Property"
 description: "The PidLidAppointmentSequence Canonical Property specifies the sequence number of a Meeting object."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

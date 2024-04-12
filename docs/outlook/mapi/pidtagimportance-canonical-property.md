@@ -1,7 +1,7 @@
 ---
 title: "PidTagImportance Canonical Property"
 description: Outlines the PidTagImportance canonical property, which contains a value that indicates the message sender's opinion of the importance of a message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

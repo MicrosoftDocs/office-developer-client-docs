@@ -1,7 +1,7 @@
 ---
 title: "PidTagAlternateRecipientAllowed Canonical Property"
 description: Outlines the PidTagAlternateRecipientAllowed canonical property, which contains TRUE if the sender permits auto forwarding of this message. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

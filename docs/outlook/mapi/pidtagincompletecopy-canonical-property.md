@@ -1,7 +1,7 @@
 ---
 title: "PidTagIncompleteCopy Canonical Property"
 description: This article outlines the PidTagIncompleteCopy canonical property, which contains TRUE if a message is an incomplete copy of another message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

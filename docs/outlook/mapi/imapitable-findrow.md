@@ -1,7 +1,7 @@
 ---
 title: "IMAPITableFindRow"
 description: "IMAPITableFindRow finds the next row in a table that matches specific search criteria and moves the cursor to that row."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

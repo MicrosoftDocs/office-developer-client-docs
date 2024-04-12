@@ -1,7 +1,7 @@
 ---
 title: "HrOpenABEntryWithProviderUID" 
 description: This article describes HrOpenABEntryWithProviderUID which opens the entryID using the Exchange Address Book identified by pEmsabpUID.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "MAPI Receive Folders"
 description: "A receive folder holds inbound messages of a particular message class. The associations can be established by clients, the message store provider, or by MAPI."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

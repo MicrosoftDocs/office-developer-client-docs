@@ -1,7 +1,7 @@
 ---
 title: "PidTagFolderType Canonical Property"
 description: Outlines the PidTagFolderType canonical property, which contains a constant that indicates the folder type.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

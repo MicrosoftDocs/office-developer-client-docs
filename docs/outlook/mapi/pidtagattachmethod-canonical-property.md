@@ -2,7 +2,7 @@
 title: "PidTagAttachMethod Canonical Property"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 9/7/2016
 ms.audience: Developer
 ms.topic: reference

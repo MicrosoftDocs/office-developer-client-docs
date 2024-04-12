@@ -1,7 +1,7 @@
 ---
 title: "Gateway mappable properties"
 description: This article provides an overview of gateway mappable properties.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

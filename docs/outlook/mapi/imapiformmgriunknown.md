@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormMgr  IUnknown"
 description: "Describes the properties and vtable order of members for IMAPIFormMgrIUnknown, which enables form viewers to obtain information about and activate form servers."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

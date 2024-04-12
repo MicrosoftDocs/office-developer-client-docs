@@ -1,7 +1,7 @@
 ---
 title: "IMAPIPropOpenProperty"
 description: "Describes the syntax, parameters, and return value of IMAPIPropOpenProperty, which returns a pointer to an interface that can be used to access a property."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

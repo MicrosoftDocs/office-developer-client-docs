@@ -1,6 +1,6 @@
 ---
 title: "Getting started with the Project Server 2013 JavaScript object model"
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 ms.localizationpriority: medium

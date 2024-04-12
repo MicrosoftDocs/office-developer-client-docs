@@ -1,7 +1,7 @@
 ---
 title: "Outlook MAPI Reference Overview"
 description: "This topic provides overview information about the Microsoft Outlook 2013 MAPI Reference documentation."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 api_type:

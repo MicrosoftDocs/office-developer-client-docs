@@ -1,7 +1,7 @@
 ---
 title: "Using Multiple Exchange Accounts"
 description: Outlines how to use multiple exchange accounts in Outlook 2013 and Outlook 2016, with links to reference materials.
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

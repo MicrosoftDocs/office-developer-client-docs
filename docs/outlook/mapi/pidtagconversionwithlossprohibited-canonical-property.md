@@ -1,7 +1,7 @@
 ---
 title: "PidTagConversionWithLossProhibited Canonical Property"
 description: Outlines the PidTagConversionWithLossProhibited canonical property, which contains TRUE if an MTA is prohibited from making message text conversions.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

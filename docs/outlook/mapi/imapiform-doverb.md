@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormDoVerb"
 description: "Describes the parameters, return value, and remarks for IMAPIFormDoVerb, which requests that the form perform whatever tasks it associates with a specific verb."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

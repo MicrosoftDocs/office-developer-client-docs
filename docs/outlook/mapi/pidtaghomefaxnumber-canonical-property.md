@@ -1,7 +1,7 @@
 ---
 title: "PidTagHomeFaxNumber Canonical Property"
 description: Outlines the PidTagHomeFaxNumber canonical property, which contains the telephone number of the recipient's home fax machine. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

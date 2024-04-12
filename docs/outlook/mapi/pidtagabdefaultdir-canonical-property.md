@@ -1,7 +1,7 @@
 ---
 title: "PidTagAbDefaultDir Canonical Property"
 description: Outlines the PidTagAbDefaultDir canonical property, which contains the entry identifier of the address book container to display first. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

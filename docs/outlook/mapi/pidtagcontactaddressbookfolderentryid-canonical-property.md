@@ -1,7 +1,7 @@
 ---
 title: "PidTagContactAddressBookFolderEntryId Canonical Property"
 description: Outlines the PidTagContactAddressBookFolderEntryId canonical property, which  is a property on a Contact Address Book container.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

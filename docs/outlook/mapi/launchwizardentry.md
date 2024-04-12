@@ -1,7 +1,7 @@
 ---
 title: "LAUNCHWIZARDENTRY"
 description: "LAUNCHWIZARDENTRY defines a function that starts the Profile Wizard application for the purpose of adding one or more message services to a profile."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

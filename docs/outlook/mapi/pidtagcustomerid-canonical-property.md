@@ -1,7 +1,7 @@
 ---
 title: "PidTagCustomerId Canonical Property"
 description: This article outlines the PidTagCustomerId canonical property, which contains the contact's customer ID number.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

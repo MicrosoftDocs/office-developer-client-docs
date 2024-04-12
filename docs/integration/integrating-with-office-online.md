@@ -2,7 +2,7 @@
 title: "Integrating with Office Online"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 05/20/2015
 ms.audience: Developer
  

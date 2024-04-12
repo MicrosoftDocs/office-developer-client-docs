@@ -1,7 +1,7 @@
 ---
 title: "PidTagInternetArticleNumber Canonical Property"
 description: This article outlines the PidTagInternetArticleNumber canonical property, which is a number associated with an item in a message store.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

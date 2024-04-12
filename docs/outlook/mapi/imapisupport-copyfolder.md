@@ -1,7 +1,7 @@
 ---
 title: "IMAPISupportCopyFolder"
 description: "IMAPISupportCopyFolder copies or moves a folder from its current parent folder to another parent folder."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

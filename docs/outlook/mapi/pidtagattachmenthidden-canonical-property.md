@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachmentHidden Canonical Property"
 description: Outlines the PidTagAttachmentHidden canonical property, which indicates whether an attachment is hidden from the end user.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

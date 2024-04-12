@@ -1,6 +1,6 @@
 ---
 title: "Getting and setting properties with GetProps and SetProps"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

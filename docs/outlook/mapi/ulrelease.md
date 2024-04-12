@@ -1,7 +1,7 @@
 ---
 title: "UlRelease"
 description: Outlines UlRelease, including how it provides an alternative way to invoke the OLE method IUnknown::Release. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

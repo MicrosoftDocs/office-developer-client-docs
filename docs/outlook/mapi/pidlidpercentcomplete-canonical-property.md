@@ -1,7 +1,7 @@
 ---
 title: "PidLidPercentComplete Canonical Property"
 description: Outlines the PidLidPercentComplete canonical property, which indicates the progress the user has made on a task. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

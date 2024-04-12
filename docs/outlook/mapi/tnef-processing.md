@@ -1,7 +1,7 @@
 ---
 title: "TNEF Processing"
 description: Outlines TNEF processing and describes how transports use TNEF methods to process outgoing and incoming messages.
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "PidNameAudioNotes Canonical Property"
 description: Outlines the PidNameAudioNotes canonical property, which specifies the textual notes that are attached to a voice message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

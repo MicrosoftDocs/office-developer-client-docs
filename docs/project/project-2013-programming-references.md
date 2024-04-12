@@ -2,7 +2,7 @@
 title: "Project 2013 programming references"
 
  
-manager: soliver
+manager: lindalu
 ms.date: 09/17/2015
 ms.audience: Developer
  

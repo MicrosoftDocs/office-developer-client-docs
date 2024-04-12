@@ -1,7 +1,7 @@
 ---
 title: "PidLidNonSendableBcc Canonical Property"
 description: Outlines the PidLidNonSendableBcc canonical property, which contains a list of all the unsendable attendees who are resources.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "NOTIFICATION"
 description: "NOTIFICATION contains information about an event that has occurred and the data that has been affected by the event."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

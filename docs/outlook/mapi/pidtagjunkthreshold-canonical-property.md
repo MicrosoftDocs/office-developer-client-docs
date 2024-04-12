@@ -1,7 +1,7 @@
 ---
 title: "PidTagJunkThreshold Canonical Property"
 description: Outlines the PidTagJunkThreshold canonical property, which indicates how aggressively incoming mail should be sent to the Junk Email folder.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

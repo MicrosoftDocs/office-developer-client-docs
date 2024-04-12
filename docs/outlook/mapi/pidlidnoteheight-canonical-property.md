@@ -1,7 +1,7 @@
 ---
 title: "PidLidNoteHeight Canonical Property"
 description: Outlines the PidLidNoteHeight canonical property, which specifies the height of the visible message window in pixels. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionCompareEntryIDs"
 description: "IMAPISessionCompareEntryIDs compares two entry identifiers to determine whether they refer to the same object."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

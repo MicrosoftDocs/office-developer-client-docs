@@ -1,7 +1,7 @@
 ---
 title: "PidTagAccessControlListTable Canonical Property"
 description: Outlines the PidTagAccessControlListTable canonical property, which contains a table that consists of all the SACL applied to a folder.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

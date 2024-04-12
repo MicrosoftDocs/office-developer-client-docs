@@ -1,7 +1,7 @@
 ---
 title: "IMsgStoreSetReceiveFolder"
 description: "IMsgStore SetReceiveFolder establishes a folder as the destination for incoming messages of a particular message class."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

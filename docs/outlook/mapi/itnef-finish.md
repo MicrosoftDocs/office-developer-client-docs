@@ -1,7 +1,7 @@
 ---
 title: "ITnefFinish"
 description: "ITnefFinish finishes processing for all Transport-Neutral Encapsulation Format (TNEF) operations that are queued and waiting."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

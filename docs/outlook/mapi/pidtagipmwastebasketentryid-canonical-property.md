@@ -1,7 +1,7 @@
 ---
 title: "PidTagIpmWastebasketEntryId Canonical Property"
 description: Outlines the PidTagIpmWastebasketEntryId canonical property, which contains the entry identifier of the standard IPM Deleted Items folder.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

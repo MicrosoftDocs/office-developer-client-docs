@@ -2,7 +2,7 @@
 title: "Permitting User Breaks in Lengthy Operations"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

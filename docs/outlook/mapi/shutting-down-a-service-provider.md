@@ -1,7 +1,7 @@
 ---
 title: "Shutting Down a Service Provider"
 description: Outlines MAPI-called methods when a client calls the IMAPISession::Logoff method to end the session and shut down all active service providers. 
-manager: soliver
+manager: lindalu
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.localizationpriority: medium

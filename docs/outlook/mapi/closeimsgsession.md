@@ -1,7 +1,7 @@
 ---
 title: "CloseIMsgSession"
 description: "CloseIMsgSession closes a message session and all the messages created within that session."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

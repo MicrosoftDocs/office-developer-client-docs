@@ -1,7 +1,7 @@
 ---
 title: "MAPI Interfaces"
 description: Provides a detailed description of how documentation for MAPI interfaces and their associated properties are structured.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagAbDefaultPab Canonical Property"
 description: Outlines the PidTagAbDefaultPab canonical property, which contains the entry identifier of the address book container to use as the personal address book.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidInternetAccountName Canonical Property"
 description: Outlines the PidLidInternetAccountName canonical property, which specifies the user-visible email account name through which the email message is sent.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

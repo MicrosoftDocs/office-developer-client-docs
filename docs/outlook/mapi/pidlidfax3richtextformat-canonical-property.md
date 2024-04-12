@@ -1,7 +1,7 @@
 ---
 title: "PidLidFax3RichTextFormat Canonical Property"
 description: Outlines the PidLidFax3RichTextFormat canonical property, which specifies the rich text format of the contact's other fax address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

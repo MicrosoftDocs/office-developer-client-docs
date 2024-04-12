@@ -1,6 +1,6 @@
 ---
 title: "Add a definition for a new user-defined field"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

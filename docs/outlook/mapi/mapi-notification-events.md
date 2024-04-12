@@ -1,7 +1,7 @@
 ---
 title: "MAPI Notification Events"
 description: Describes the ten types of notifications that clients and service providers can register for, each represented by a constant.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "CbSPropProblemArray"
 description: "CbSPropProblemArray computes the number of bytes in an existing SPropProblemArray structure. This article describes its syntax and parameters."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

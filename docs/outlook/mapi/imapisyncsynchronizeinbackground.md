@@ -1,7 +1,7 @@
 ---
 title: "IMAPISync  SynchronizeInBackground"
 description: "IMAPISync SynchronizeInBackground initiates a synchronization. It is called by Microsoft Outlook 2010 and 2013 and implemented by message store providers."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

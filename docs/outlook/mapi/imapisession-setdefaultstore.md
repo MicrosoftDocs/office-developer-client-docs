@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionSetDefaultStore"
 description: "IMAPISessionSetDefaultStore establishes a message store as the default message store for the session."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: "Use Microsoft.Office.Interop.InfoPath.SemiTrust members not compatible with InfoPath"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer 
 keywords:

@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionGetStatusTable"
 description: "IMAPISessionGetStatusTable provides access to the status table, a table that contains information about all the MAPI resources in the session."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

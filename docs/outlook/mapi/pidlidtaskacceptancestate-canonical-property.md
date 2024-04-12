@@ -1,7 +1,7 @@
 ---
 title: "PidLidTaskAcceptanceState Canonical Property"
 description: Outlines the PidLidTaskAcceptanceState canonical property, which indicates the acceptance state of the task.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidLidClassificationGuid Canonical Property"
 description: Outlines the PidLidClassificationGuid canonical property, which specifies a globally unique identifier (GUID) of an existing message classification.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

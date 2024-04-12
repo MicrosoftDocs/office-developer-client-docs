@@ -1,7 +1,7 @@
 ---
 title: "IMSProvider  IUnknown"
 description: "IMSProvider IUnknown provides access to a message store provider through a message store provider object."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

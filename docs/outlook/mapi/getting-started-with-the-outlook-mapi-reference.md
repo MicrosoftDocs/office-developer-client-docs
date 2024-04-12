@@ -1,6 +1,6 @@
 ---
 title: "Getting started with the Outlook MAPI reference"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.assetid: a191f5e0-2a60-4d01-9010-892360b3bfa6

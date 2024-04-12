@@ -1,7 +1,7 @@
 ---
 title: "PidTagOtherAddressCountry Canonical Property"
 description: Outlines the PidTagOtherAddressCountry canonical property, which contains the mail user's other country/region.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

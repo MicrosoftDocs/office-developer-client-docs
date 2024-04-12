@@ -2,7 +2,7 @@
 title: "Excel4v/Excel12v"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

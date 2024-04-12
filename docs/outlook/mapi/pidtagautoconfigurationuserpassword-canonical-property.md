@@ -1,7 +1,7 @@
 ---
 title: "PidTagAutoConfigurationUserPassword Canonical Property"
 description: Outlines the PidTagAutoConfigurationUserPassword canonical property, which represents the user's password.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

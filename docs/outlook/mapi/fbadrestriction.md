@@ -1,7 +1,7 @@
 ---
 title: "FBadRestriction"
 description: "FBadRestriction validates a restriction used to limit a table view. This article describes its syntax, parameters, return value, and remarks."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

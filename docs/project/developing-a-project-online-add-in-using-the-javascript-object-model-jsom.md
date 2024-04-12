@@ -1,6 +1,6 @@
 ---
 title: "Developing a Project Online add-in using the JavaScript Object Model (JSOM)"
-manager: soliver
+manager: lindalu
 ms.date: 11/08/2016
 ms.audience: Developer
 ms.localizationpriority: medium

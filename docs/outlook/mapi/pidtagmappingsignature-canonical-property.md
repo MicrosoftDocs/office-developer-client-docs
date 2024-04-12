@@ -1,7 +1,7 @@
 ---
 title: "PidTagMappingSignature Canonical Property"
 description: Outlines the PidTagMappingSignature canonical property, which contains the mapping signature for named properties of a particular MAPI object. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

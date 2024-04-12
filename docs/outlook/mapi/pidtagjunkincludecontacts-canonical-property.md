@@ -1,7 +1,7 @@
 ---
 title: "PidTagJunkIncludeContacts Canonical Property"
 description: Outlines the PidTagJunkIncludeContacts canonical property, which indicates whether email addresses of the contacts in the Contacts folder are treated specially.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

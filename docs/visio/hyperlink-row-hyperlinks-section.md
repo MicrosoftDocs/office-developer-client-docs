@@ -1,7 +1,7 @@
 ---
 title: "Hyperlink Row (Hyperlinks Section)"
 description: "Hyperlink Row (Hyperlinks Section) contains the information for a single hyperlink associated with a shape."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

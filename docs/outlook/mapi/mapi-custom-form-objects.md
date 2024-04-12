@@ -1,7 +1,7 @@
 ---
 title: "MAPI custom form objects"
 description: Describes how objects for custom forms are implemented by three different components; form server, form library provider, and form viewer.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

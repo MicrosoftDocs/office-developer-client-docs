@@ -1,7 +1,7 @@
 ---
 title: "NoScribble State"
 description: "NoScribble state indicates that changes to a message are being saved. The actual saving of values is when the form object's IPersistMessageSave method is called."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

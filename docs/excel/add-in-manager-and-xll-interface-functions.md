@@ -2,7 +2,7 @@
 title: "Add-in Manager and XLL Interface Functions"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

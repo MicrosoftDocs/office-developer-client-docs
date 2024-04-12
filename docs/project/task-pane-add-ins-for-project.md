@@ -1,6 +1,6 @@
 ---
 title: "Task pane add-ins for Project" 
-manager: soliver
+manager: lindalu
 ms.date: 09/10/2015
 ms.audience: Developer 
 ms.localizationpriority: medium

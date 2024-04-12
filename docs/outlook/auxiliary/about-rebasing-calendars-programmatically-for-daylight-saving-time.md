@@ -1,6 +1,6 @@
 ---
 title: "About rebasing calendars programmatically for Daylight Saving Time"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

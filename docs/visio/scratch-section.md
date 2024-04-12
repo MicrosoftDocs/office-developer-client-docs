@@ -1,7 +1,7 @@
 ---
 title: "Scratch Section" 
 description: "Describes remarks for the Scratch Section, which is a work area for entering and testing formulas that can be referred to by other cells."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

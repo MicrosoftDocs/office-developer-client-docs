@@ -1,7 +1,7 @@
 ---
 title: "Getting friends information"
 description: "Describes how the OSC calls methods in a sequence to get information and pictures for friends on the social network."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

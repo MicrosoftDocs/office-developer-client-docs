@@ -1,7 +1,7 @@
 ---
 title: "PidTagJunkAddRecipientsToSafeSendersList Canonical Property"
 description: Outlines the PidTagJunkAddRecipientsToSafeSendersList canonical property, which indicates whether mail recipients are to be added to the safe senders list.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

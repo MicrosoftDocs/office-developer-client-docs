@@ -1,7 +1,7 @@
 ---
 title: "NEWMAIL_NOTIFICATION"
 description: "Provides the property info, members, and remarks for NEWMAIL_NOTIFICATION, which describes information that relates to the arrival of a new message."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagMemberId Canonical Property"
 description: Outlines the PidTagMemberId canonical property, which contains the identifier of a table member that has described rights.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

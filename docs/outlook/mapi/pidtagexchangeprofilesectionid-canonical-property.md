@@ -1,7 +1,7 @@
 ---
 title: "PidTagExchangeProfileSectionId Canonical Property"
 description: Outlines the PidTagExchangeProfileSectionId canonical property, which contains a dynamically generated GUID.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

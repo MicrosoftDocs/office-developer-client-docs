@@ -1,7 +1,7 @@
 ---
 title: "PidNameXSharingLocalType Canonical Property"
 description: Outlines the PidNameXSharingLocalType canonical property, which represents the string version of the dispidSharingLocalType property.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

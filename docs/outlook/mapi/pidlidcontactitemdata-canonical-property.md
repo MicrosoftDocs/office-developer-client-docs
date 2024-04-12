@@ -1,7 +1,7 @@
 ---
 title: "PidLidContactItemData Canonical Property"
 description: Outlines the PidLidContactItemData canonical property, which is used to display the contact information.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

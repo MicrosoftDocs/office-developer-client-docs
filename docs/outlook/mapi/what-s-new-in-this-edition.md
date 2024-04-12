@@ -1,6 +1,6 @@
 ---
 title: "What's New in This Edition"
-manager: soliver
+manager: lindalu
 ms.date: 2/09/2020
 ms.audience: Developer
 ms.localizationpriority: medium

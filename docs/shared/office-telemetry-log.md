@@ -2,7 +2,7 @@
 title: "Office telemetry log"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 09/18/2015
 ms.audience: Developer
  

@@ -1,7 +1,7 @@
 ---
 title: "PidTagAssociatedSharingProvider Canonical Property"
 description: Outlines the PidTagAssociatedSharingProvider canonical property, which determines whether a PST store provider is configured as a Microsoft SharePoint 2010 PST.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

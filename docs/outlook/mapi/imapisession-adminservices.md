@@ -1,7 +1,7 @@
 ---
 title: "IMAPISessionAdminServices"
 description: "IMAPISessionAdminServices returns an IMsgServiceAdmin pointer for making changes to message services."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Sending Messages by Using TNEF Custom Attachment Processing"
 description: Outlines sending messages by using TNEF custom attachment processing in Outlook 2013 and Outlook 2016.
-manager: soliver
+manager: lindalu
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.localizationpriority: medium

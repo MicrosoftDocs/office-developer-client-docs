@@ -1,7 +1,7 @@
 ---
 title: "IMAPISession  IUnknown"
 description: "Describes the properties and vtable order of members for IMAPISessionIUnknown, which manages objects associated with a MAPI logon session."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

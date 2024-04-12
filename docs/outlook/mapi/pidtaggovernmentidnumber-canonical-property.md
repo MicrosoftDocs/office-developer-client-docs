@@ -1,7 +1,7 @@
 ---
 title: "PidTagGovernmentIdNumber Canonical Property"
 description: Outlines the PidTagGovernmentIdNumber canonical property, which contains a government identifier for the recipient. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

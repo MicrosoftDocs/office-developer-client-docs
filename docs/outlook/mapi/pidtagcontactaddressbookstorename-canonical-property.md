@@ -1,7 +1,7 @@
 ---
 title: "PidTagContactAddressBookStoreName Canonical Property"
 description: Outlines the PidTagContactAddressBookStoreName canonical property, which contains the display name of the store associated with the Address Book provider.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

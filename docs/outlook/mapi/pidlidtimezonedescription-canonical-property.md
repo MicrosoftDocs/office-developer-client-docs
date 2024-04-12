@@ -1,7 +1,7 @@
 ---
 title: "PidLidTimeZoneDescription Canonical Property"
 description: Outlines the PidLidTimeZoneDescription canonical property, which specifies a string description of the time zone.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

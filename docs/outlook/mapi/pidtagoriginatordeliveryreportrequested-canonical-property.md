@@ -1,7 +1,7 @@
 ---
 title: "PidTagOriginatorDeliveryReportRequested Canonical Property"
 description: Outlines the PidTagOriginatorDeliveryReportRequested canonical property, which is used to direct the messaging system in handling delivered messages. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

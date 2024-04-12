@@ -1,7 +1,7 @@
 ---
 title: "PidTagHomeTelephoneNumber Canonical Property"
 description: Outlines the PidTagHomeTelephoneNumber canonical property, which contains the primary telephone number of the recipient's home. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

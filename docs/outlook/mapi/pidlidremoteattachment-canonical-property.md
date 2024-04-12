@@ -1,7 +1,7 @@
 ---
 title: "PidLidRemoteAttachment Canonical Property"
 description: Outlines the PidLidRemoteAttachment canonical property, which indicates whether a remote item has an attachment associated with it.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "MAPI Profiles"
 description: MAPI profiles are divided into sections that clients and service providers access to display profile properties to users or to make configuration changes.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

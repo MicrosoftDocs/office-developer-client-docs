@@ -2,7 +2,7 @@
 title: "Understanding the InfoPath Object Model and Common Developer Tasks"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
  

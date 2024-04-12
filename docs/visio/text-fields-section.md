@@ -1,7 +1,7 @@
 ---
 title: "Text Fields Section"
 description: "The Text Fields Section displays functions and formulas inserted in the shape's text by using the Field dialog box."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

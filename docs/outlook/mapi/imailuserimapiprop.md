@@ -1,7 +1,7 @@
 ---
 title: "IMailUser  IMAPIProp"
 description: "IMailUserIMAPIProp provides access to the many properties that are associated with messaging users. The interface is implemented by messaging user objects."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

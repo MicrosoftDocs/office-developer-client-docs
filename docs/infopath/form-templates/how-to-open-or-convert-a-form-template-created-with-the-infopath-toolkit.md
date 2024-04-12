@@ -2,7 +2,7 @@
 title: "Open or Convert a Form Template Created with the InfoPath Toolkit"
  
  
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
  

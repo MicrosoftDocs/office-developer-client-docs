@@ -1,7 +1,7 @@
 ---
 title: "PidTagIpmSubtreeEntryId Canonical Property"
 description: Outlines the PidTagIpmSubtreeEntryId canonical property, which represents the root of the IPM hierarchy.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

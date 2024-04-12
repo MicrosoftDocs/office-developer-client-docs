@@ -1,7 +1,7 @@
 ---
 title: "PidTagHomeAddressStreet Canonical Property"
 description: Outlines the PidTagHomeAddressStreet canonical property, which contains the street portion of a user's address.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

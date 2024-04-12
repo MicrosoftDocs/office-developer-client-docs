@@ -1,7 +1,7 @@
 ---
 title: "PidTagAssociatedContentCount Canonical Property"
 description: Outlines the PidTagAssociatedContentCount canonical property, which contains the count of items in the associated contents table of the folder.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

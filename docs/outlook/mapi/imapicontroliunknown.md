@@ -1,7 +1,7 @@
 ---
 title: "IMAPIControl  IUnknown"
 description: "IMAPIControlIUnknown enables and disables a button control, and performs tasks when a user of a client application clicks the enabled control."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

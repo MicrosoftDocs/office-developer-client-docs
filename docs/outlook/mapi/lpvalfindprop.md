@@ -1,7 +1,7 @@
 ---
 title: "LpValFindProp"
 description: Describes the LpValFindProp function and provides, syntax, parameters, return value, and additional remarks.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

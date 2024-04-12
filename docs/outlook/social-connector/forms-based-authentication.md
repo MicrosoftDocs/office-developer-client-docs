@@ -1,7 +1,7 @@
 ---
 title: "Forms-based authentication"
 description: "Describes the calling sequence that the Outlook Social Connector can make to allow a user to log on to the social network."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

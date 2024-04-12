@@ -1,6 +1,6 @@
 ---
 title: "Get the project ID in an add-in part on a Project Details Page"
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 ms.localizationpriority: medium

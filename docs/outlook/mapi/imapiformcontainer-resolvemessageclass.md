@@ -1,7 +1,7 @@
 ---
 title: "IMAPIFormContainerResolveMessageClass"
 description: "IMAPIFormContainerResolveMessageClass resolves a message class to its form in a form container and returns a form information object for that form."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

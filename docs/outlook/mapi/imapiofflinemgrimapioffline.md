@@ -1,7 +1,7 @@
 ---
 title: "IMAPIOfflineMgr  IMAPIOffline"
 description: "IMAPIOfflineMgrIMAPIOffline supports registering for notification callbacks about connection state changes of a user account."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

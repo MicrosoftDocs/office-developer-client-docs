@@ -1,7 +1,7 @@
 ---
 title: "PidTagInternetCodepage Canonical Property"
 description: Outlines the PidTagInternetCodepage canonical property, which indicates the code page used for PR_BODY (PidTagBody) or PR_BODY_HTML (PidTagBodyHtml) properties.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IMsgStoreGetReceiveFolder"
 description: "IMsgStore GetReceiveFolder obtains the folder that was established as the destination for incoming messages of a specified message class."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

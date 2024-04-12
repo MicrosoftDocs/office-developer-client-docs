@@ -1,7 +1,7 @@
 ---
 title: "IProfAdminGetProfileTable"
 description: "IProfAdmin GetProfileTable provides access to the profile table, a table that contains information about all of the available profiles."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

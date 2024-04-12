@@ -1,7 +1,7 @@
 ---
 title: "Setting Properties on Incoming Messages"
 description: Outlines how the client applications within the MAPI subsystem expect a number of properties in any received message. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

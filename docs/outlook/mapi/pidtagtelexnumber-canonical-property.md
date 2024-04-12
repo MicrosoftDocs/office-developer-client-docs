@@ -1,7 +1,7 @@
 ---
 title: "PidTagTelexNumber Canonical Property"
 description: Outlines the PidTagTelexNumber canonical property, which  provide identification and access information for a recipient. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

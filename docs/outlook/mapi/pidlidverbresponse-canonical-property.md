@@ -1,7 +1,7 @@
 ---
 title: "PidLidVerbResponse Canonical Property"
 description: Outlines the PidLidVerbResponse canonical property, which specifies the voting option that a respondent selected.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,6 +1,6 @@
 ---
 title: "Parse a stream from a binary property to read the TZDEFINITION structure"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview 

@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteGetSession"
 description: "IMAPIMessageSiteGetSession returns the MAPI session in which the current message was created or opened."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

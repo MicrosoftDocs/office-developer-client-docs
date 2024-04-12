@@ -1,7 +1,7 @@
 ---
 title: "PidLidRecurrenceType Canonical Property"
 description: Outlines the PidLidRecurrenceType canonical property, which specifies the recurrence type of the recurring series.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Gradient Stop Row (Fill Gradient Section)"
 description: "Gradient Stop Row (Fill Gradient Section) contains the color, transparency, and position of a gradient stop for a fill gradient."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

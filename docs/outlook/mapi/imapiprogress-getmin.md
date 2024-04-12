@@ -1,7 +1,7 @@
 ---
 title: "IMAPIProgressGetMin"
 description: "IMAPIProgressGetMin returns the minimum value in the IMAPIProgressSetLimits method for which progress information is displayed."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

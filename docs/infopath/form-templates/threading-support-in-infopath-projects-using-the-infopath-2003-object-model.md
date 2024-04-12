@@ -1,6 +1,6 @@
 ---
 title: "Threading Support in InfoPath Projects Using the InfoPath 2003 Object Model"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:

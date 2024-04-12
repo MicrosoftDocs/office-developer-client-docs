@@ -1,6 +1,6 @@
 ---
 title: "Using an Advanced Search Dialog Box"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.localizationpriority: medium

@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachmentContactPhoto Canonical Property"
 description: Outlines the PidTagAttachmentContactPhoto canonical property, which indicates the existence of a photo attachment for a contact.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

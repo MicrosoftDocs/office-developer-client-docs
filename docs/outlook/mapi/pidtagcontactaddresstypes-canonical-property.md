@@ -1,7 +1,7 @@
 ---
 title: "PidTagContactAddressTypes Canonical Property"
 description: Outlines the PidTagContactAddressTypes canonical property, which contains a list of address types for a contact.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

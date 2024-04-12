@@ -1,7 +1,7 @@
 ---
 title: "PidTagConflictItems Canonical Property" 
 description: Outlines the PidTagConflictItems canonical property, which contains one or more entry IDs of items that have been involved in an automatic conflict resolution.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

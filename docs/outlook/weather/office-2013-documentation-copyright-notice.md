@@ -1,7 +1,7 @@
 ---
 title: "Office 2013 documentation copyright notice, Outlook Weather"
 description: "Describes all legal rights associated with the Microsoft Office 2013 documentation copyright notice for Outlook Weather."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

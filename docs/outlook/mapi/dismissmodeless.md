@@ -1,7 +1,7 @@
 ---
 title: "DISMISSMODELESS"
 description: "DISMISSMODELESS defines a callback function that MAPI calls when it has dismissed a modeless address book dialog box."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

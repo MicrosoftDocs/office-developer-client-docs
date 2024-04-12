@@ -1,7 +1,7 @@
 ---
 title: "PidTagAccount Canonical Property"
 description: Outlines the PidTagAccount canonical property, which contains the recipient's account name and applies to Outlook 2013 and 2016.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

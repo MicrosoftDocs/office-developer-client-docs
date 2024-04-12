@@ -1,7 +1,7 @@
 ---
 title: "MAPI-implemented objects"
 description: Provides a detailed overview of the MAPI-implemented objects for use by clients and service providers.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

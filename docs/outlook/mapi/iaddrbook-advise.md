@@ -1,7 +1,7 @@
 ---
 title: "IAddrBookAdvise"
 description: Registers a client or service provider to receive notifications about changes to one or more entries in the address book.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

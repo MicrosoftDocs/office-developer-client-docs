@@ -1,7 +1,7 @@
 ---
 title: "PidLidFExceptionalAttendees Canonical Property"
 description: Outlines the PidLidFExceptionalAttendees canonical property, which indicates whether this property is a recurring calendar object with one or more exceptions.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

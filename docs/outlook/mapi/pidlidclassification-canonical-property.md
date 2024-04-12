@@ -1,7 +1,7 @@
 ---
 title: "PidLidClassification Canonical Property"
 description: Outlines the PidLidClassification canonical property, which indicates the name of the message classification.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

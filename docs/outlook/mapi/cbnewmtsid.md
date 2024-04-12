@@ -1,7 +1,7 @@
 ---
 title: "CbNewMTSID"
 description: "CbNewMTSID computes the number of bytes that should be allocated for a new MTSID structure with a message transfer agent identifier of a specified size."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

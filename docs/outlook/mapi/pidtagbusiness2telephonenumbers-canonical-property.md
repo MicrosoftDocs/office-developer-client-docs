@@ -1,7 +1,7 @@
 ---
 title: "PidTagBusiness2TelephoneNumbers Canonical Property"
 description: Outlines the PidTagBusiness2TelephoneNumbers canonical property, which contains a list of telephone numbers for a business.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

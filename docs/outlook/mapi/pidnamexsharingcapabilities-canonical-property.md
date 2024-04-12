@@ -1,7 +1,7 @@
 ---
 title: "PidNameXSharingCapabilities Canonical Property"
 description: Outlines the PidNameXSharingCapabilities canonical property, which contains a value that indicates the sharing capabilities of the item.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

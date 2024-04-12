@@ -1,7 +1,7 @@
 ---
 title: "PidTagLocality Canonical Property"
 description: Outlines the PidTagLocality canonical property, which contains the name of the recipient's locality, such as the town or city.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

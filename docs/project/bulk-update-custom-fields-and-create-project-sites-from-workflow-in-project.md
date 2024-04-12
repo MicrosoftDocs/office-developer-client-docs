@@ -1,6 +1,6 @@
 ---
 title: "Bulk update custom fields and create project sites in Project Online"
-manager: soliver
+manager: lindalu
 ms.date: 08/10/2016
 ms.audience: Developer
 ms.localizationpriority: medium
@@ -37,19 +37,19 @@ The REST method can be found at the following endpoint:
   
 This section describes how to create a workflow that bulk updates custom fields for a project. The workflow follows these high-level steps:
   
-- Wait for the project that you want to update to get checked in
+- Wait for the project that you want to update to get checked in.
 
-- Build a data set that defines all your custom field updates for the project
+- Build a data set that defines all your custom field updates for the project.
 
-- Check out the project
+- Check out the project.
 
-- Call **UpdateCustomFields** to apply the custom field updates to the project
+- Call **UpdateCustomFields** to apply the custom field updates to the project.
 
-- Log relevant information to the workflow history list (if required)
+- Log relevant information to the workflow history list (if required).
 
-- Publish the project
+- Publish the project.
 
-- Check in the project
+- Check in the project.
 
 The final, end-to-end workflow looks like this:
   

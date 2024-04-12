@@ -1,6 +1,6 @@
 ---
 title: "New in Visio for developers" 
-manager: soliver
+manager: lindalu
 ms.date: 09/18/2015
 ms.audience: Developer
 ms.topic: overview 

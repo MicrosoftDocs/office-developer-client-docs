@@ -1,7 +1,7 @@
 ---
 title: "PidTagContentIntegrityCheck Canonical Property"
 description: Outlines the PidTagContentIntegrityCheck canonical property, which provides for non-repudiation of message content.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

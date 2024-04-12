@@ -1,7 +1,7 @@
 ---
 title: "CbNewFLATENTRYLIST"
 description: "CbNewFLATENTRYLIST computes the number of bytes that should be allocated for a new FLATENTRYLIST structure that contains several FLATENTRY structures of a specified size."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "Row element (Paragraph Section) (Visio XML)"
 description: "Row element (Paragraph Section) (Visio XML) shows the paragraph formatting attributes for the shape's text."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

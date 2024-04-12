@@ -1,7 +1,7 @@
 ---
 title: "PidTagAttachTag Canonical Property"
 description: Outlines the PidTagAttachTag canonical property, which contains an ASN.1 object identifier specifying the application that supplied an attachment. 
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "IMAPITable  IUnknown"
 description: "IMAPITable IUnknown provides a read-only view of a table. IMAPITable is used by clients and service providers to manipulate the way a table appears."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

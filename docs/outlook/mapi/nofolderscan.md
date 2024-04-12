@@ -1,7 +1,7 @@
 ---
 title: "NoFolderScan"
 description: "Describes property information and remarks for NoFolderScan, which specifies whether Microsoft Office Outlook should scan Contacts folders on a store."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

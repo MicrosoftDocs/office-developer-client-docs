@@ -1,7 +1,7 @@
 ---
 title: "HrDoABDetailsWithProviderUID"
 description: The HrDoABDetailsWithProviderUID function ensures that the OpenEntry method is opened by the expected Exchange address book provider.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

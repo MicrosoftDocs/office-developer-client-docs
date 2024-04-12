@@ -1,7 +1,7 @@
 ---
 title: "IAddrBookResolveName"
 description: The IAddrBookResolveName function performs name resolution, assigning entry identifiers to recipients in a recipient list.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

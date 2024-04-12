@@ -1,7 +1,7 @@
 ---
 title: "IProfAdminDeleteProfile"
 description: "Describes the syntax, parameters, return value, and remarks for IProfAdmin DeleteProfile, which deletes a profile."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

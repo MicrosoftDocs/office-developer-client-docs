@@ -1,7 +1,7 @@
 ---
 title: "PidTagMessageCcMe Canonical Property"
 description: Outlines the PidTagMessageCcMe canonical property, which is a convenient way to determine whether the user name appears explicitly in the CC recipient list.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

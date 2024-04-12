@@ -1,7 +1,7 @@
 ---
 title: "IXPLogon  IUnknown"
 description: "Describes the properties and vtable order of members for IXPLogon IUnknown, which gives the MAPI spooler access to a transport provider."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

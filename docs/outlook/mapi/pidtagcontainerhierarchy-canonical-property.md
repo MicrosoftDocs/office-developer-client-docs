@@ -1,7 +1,7 @@
 ---
 title: "PidTagContainerHierarchy Canonical Property"
 description: Outlines the PidTagContainerHierarchy canonical property, which contains an embedded hierarchy table object that provides information about child containers.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

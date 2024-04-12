@@ -1,7 +1,7 @@
 ---
 title: "PidTagAgingPeriod Canonical Property" 
 description: Outlines the PidTagAgingPeriod canonical property, which represents a number of time units determining the length of time before an item is archived.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

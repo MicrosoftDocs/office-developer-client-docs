@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSite  IUnknown"
 description: "IMAPIMessageSiteIUnknown manipulates messages and is implemented by the form viewer code (typically a client application) that responds to such manipulation."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

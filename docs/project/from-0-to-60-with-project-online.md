@@ -1,6 +1,6 @@
 ---
 title: "From 0 to 60 with Project Online"
-manager: soliver
+manager: lindalu
 ms.date: 11/08/2016
 ms.audience: Developer
 ms.localizationpriority: medium

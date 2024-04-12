@@ -1,7 +1,7 @@
 ---
 title: "IMAPIStatusValidateState"
 description: "IMAPIStatusValidateState confirms the external status information available for the MAPI resource or the service provider."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

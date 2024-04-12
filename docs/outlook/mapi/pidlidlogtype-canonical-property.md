@@ -1,7 +1,7 @@
 ---
 title: "PidLidLogType Canonical Property"
 description: Outlines the PidLidLogType canonical property, which contains the display name of the journaling application.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

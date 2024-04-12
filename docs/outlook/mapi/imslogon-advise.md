@@ -1,7 +1,7 @@
 ---
 title: "IMSLogonAdvise"
 description: "IMSLogonAdvise registers an object with a message store provider for notifications about changes in the message store."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

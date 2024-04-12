@@ -1,7 +1,7 @@
 ---
 title: "IMsgStore  IMAPIProp"
 description: "Describes the properties and vtable order of members for IMsgStore IMAPIProp, which provides access to message store information and to messages and folders."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

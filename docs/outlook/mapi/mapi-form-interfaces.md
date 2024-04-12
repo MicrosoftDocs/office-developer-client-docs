@@ -1,7 +1,7 @@
 ---
 title: "MAPI Form Interfaces"
 description: This article provides links and descriptions to the different MAPI form interfaces and methods with additional notes.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

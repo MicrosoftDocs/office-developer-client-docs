@@ -1,7 +1,7 @@
 ---
 title: "CHANGE_PROP_TYPE"
 description: "CHANGE_PROP_TYPE updates the property type of a property tag to a specified value. The property identifier is unchanged."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

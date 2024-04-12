@@ -1,7 +1,7 @@
 ---
 title: "IMAPIViewContextSetAdviseSink"
 description: "IMAPIViewContext SetAdviseSink manages a form's registration to receive notifications about changes in the viewer."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

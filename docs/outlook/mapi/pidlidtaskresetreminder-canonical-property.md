@@ -1,7 +1,7 @@
 ---
 title: "PidLidTaskResetReminder Canonical Property"
 description: Outlines the PidLidTaskResetReminder canonical property, which indicates whether future instances of recurring tasks need reminders.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

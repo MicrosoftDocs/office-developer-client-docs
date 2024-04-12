@@ -1,7 +1,7 @@
 ---
 title: "MNLS_WideCharToMultiByte"
 description: "MNLS_WideCharToMultiByte maps a UTF-16 (wide character) string to a new character string, which is not necessarily from a multibyte character set."
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference

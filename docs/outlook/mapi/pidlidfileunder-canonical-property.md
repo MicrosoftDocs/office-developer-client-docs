@@ -1,7 +1,7 @@
 ---
 title: "PidLidFileUnder Canonical Property"
 description: Outlines the PidLidFileUnder canonical property, which specifies the name under which the contact is filed when displaying a list of contacts.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

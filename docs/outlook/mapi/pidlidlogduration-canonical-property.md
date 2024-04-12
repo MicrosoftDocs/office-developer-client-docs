@@ -1,7 +1,7 @@
 ---
 title: "PidLidLogDuration Canonical Property"
 description: Outlines the PidLidLogDuration canonical property, which represents the duration, in minutes, of a journal message.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

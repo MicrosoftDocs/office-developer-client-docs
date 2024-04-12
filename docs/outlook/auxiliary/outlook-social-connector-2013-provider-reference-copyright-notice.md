@@ -1,6 +1,6 @@
 ---
 title: "Outlook Social Connector 2013 provider reference copyright"
-manager: soliver
+manager: lindalu
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview

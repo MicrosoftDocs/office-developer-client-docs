@@ -1,7 +1,7 @@
 ---
 title: "PidLidAddressBookProviderArrayType Canonical Property"
 description: "PidLidAddressBookProviderArrayType Canonical Property specifies the state of the contact's electronic addresses and represents a set of bit flags."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

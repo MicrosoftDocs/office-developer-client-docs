@@ -1,7 +1,7 @@
 ---
 title: "IsEqualMAPIUID"
 description: "Describes the syntax, parameters, and remarks for IsEqualMAPIUID, which tests two MAPIUID structures to determine whether they contain the same identifier."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

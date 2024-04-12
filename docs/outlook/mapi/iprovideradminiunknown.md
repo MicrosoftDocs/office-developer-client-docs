@@ -1,7 +1,7 @@
 ---
 title: "IProviderAdmin  IUnknown"
 description: "Describes the properties and vtable order of members for IProviderAdmin IUnknown, which works with service providers in a message service."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

@@ -1,7 +1,7 @@
 ---
 title: "PidTagContentReturnRequested Canonical Property"
 description: Outlines the PidTagContentReturnRequested canonical property, which contains TRUE if a message should be returned with a nondelivery report.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

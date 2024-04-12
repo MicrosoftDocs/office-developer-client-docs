@@ -1,6 +1,6 @@
 ---
 title: "About the last update time of an Offline Address Book"
-manager: soliver
+manager: lindalu
 ms.date: 12/08/2015
 ms.audience: Developer
 ms.topic: overview

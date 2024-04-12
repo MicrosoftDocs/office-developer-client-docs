@@ -1,7 +1,7 @@
 ---
 title: "Handling message store notification"
 description: This article describes registering and handling message store notifications.
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.localizationpriority: medium

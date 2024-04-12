@@ -1,7 +1,7 @@
 ---
 title: "IMAPIMessageSiteGetSiteStatus"
 description: "IMAPIMessageSiteGetSiteStatus returns information from a message site object about the message site's capabilities for the current message."
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference

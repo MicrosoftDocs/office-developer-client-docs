@@ -1,7 +1,7 @@
 ---
 title: "PidTagPstConfigurationFlags Canonical Property"
 description: Outlines the PidTagPstConfigurationFlags canonical property, which specifies configuration flags for a personal storage table (.pst file).
-manager: soliver
+manager: lindalu
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
