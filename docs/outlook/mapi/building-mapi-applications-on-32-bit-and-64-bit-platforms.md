@@ -48,7 +48,7 @@ MAPI applications compiled for a 32-bit MAPI subsystem that is available in 32-b
   
 ### 32-bit MAPI application and 64-bit Outlook
 
-32-bit MAPI applications are not supported to run on a computer installed with 64-bit Outlook and 64-bit Windows. The application developer must update and rebuild the application as a 64-bit application for the 64-bit platform. This is because a 32-bit application cannot load a 64-bit Msmapi32.dll file. There are a small number of API changes that application developers must incorporate to build their code successfully for a 64-bit environment. MAPI header files have been updated with these changes to support the 64-bit platform. You can download these header files at [Outlook 2010: MAPI Header Files](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Developers can use this same set of MAPI header files to build both 32-bit and 64-bit MAPI applications.
+32-bit MAPI applications are not supported to run on a computer installed with 64-bit Outlook and 64-bit Windows. The application developer must update and rebuild the application as a 64-bit application for the 64-bit platform. This is because a 32-bit application cannot load a 64-bit Msmapi32.dll file. There are a small number of API changes that application developers must incorporate to build their code successfully for a 64-bit environment. MAPI header files have been updated with these changes to support the 64-bit platform. You can download these header files at [Outlook 2010: MAPI Header Files](how-to-install-mapi-header-files.md). Developers can use this same set of MAPI header files to build both 32-bit and 64-bit MAPI applications.
   
 ### 64-bit MAPI application and 64-bit Outlook
 
@@ -56,7 +56,7 @@ MAPI applications compiled for a 32-bit MAPI subsystem that is available in 32-b
   
 ### 64-bit MAPI application and 32-bit Outlook
 
-64-bit MAPI applications are not supported to run on a computer installed with 32-bit Outlook and 32-bit or 64-bit Windows. The application developer must update and rebuild the application as a 32-bit application to work with 32-bit Outlook. Use the updated MAPI header files, which you can download at [Outlook 2010: MAPI Header Files](https://www.microsoft.com/downloads/details.aspx?FamilyID=f8d01fc8-f7b5-4228-baa3-817488a66db1). Developers can use this same set of MAPI header files to build both 32-bit and 64-bit MAPI applications.
+64-bit MAPI applications are not supported to run on a computer installed with 32-bit Outlook and 32-bit or 64-bit Windows. The application developer must update and rebuild the application as a 32-bit application to work with 32-bit Outlook. Use the updated MAPI header files, which you can download at [Outlook 2010: MAPI Header Files](how-to-install-mapi-header-files.md). Developers can use this same set of MAPI header files to build both 32-bit and 64-bit MAPI applications.
   
 ### Exception: MAPISendMail
 
