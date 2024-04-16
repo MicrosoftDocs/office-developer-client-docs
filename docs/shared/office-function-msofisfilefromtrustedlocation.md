@@ -45,7 +45,6 @@ A trusted location is where to store a file when you don’t want that file to b
 
 ## Requirements
 
-|  |  |
-|---------------------------------|--------------------------------|
-|DLL                              |MSO.DLL                         |
-|Minimum supported application    |Microsoft Office 2007 system    |
+| DLL                          | MSO.DLL                         |
+|------------------------------| --------------------------------|
+|Minimum supported application |Microsoft Office 2007 system     |
