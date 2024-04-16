@@ -115,6 +115,6 @@ The **Conceptual and how-to articles** section includes the following:
 - [Office Developer Documentation](/office/dev/add-ins/)
 - [Getting Started with Development for Project 2010](/previous-versions/office/developer/office-2010/gg607685(v=office.14))
 - [Document conventions](https://msdn.microsoft.com/library/6b38829f-1a9d-4fb6-ad3b-01182628080a.aspx)
-- [Accessibility in SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/accessibility-in-sharepoint)
+- [Accessibility in SharePoint 2013](/sharepoint/dev/general-development/accessibility-in-sharepoint)
 - [Accessibility in Microsoft Office 365](https://www.microsoft.com/enable/products/office365/)
 - [Microsoft online privacy notice](https://privacy.microsoft.com/privacystatement)
