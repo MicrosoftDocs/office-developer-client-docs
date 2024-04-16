@@ -51,7 +51,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [Office support](https://support.office.com/)
   
-- [Office developer forums](https://social.msdn.microsoft.com/Forums/office/home?category=officedev)
+- [Office developer forums on Microsoft Q&A](/answers/tags/321/office-development)
   
 - [Office forum on stack overflow](https://stackoverflow.com/questions/tagged/ms-office)
   

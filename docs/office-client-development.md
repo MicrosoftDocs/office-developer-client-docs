@@ -65,6 +65,6 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 ## Other resources
   
 - [Open XML SDK for Microsoft Office](https://www.nuget.org/packages/DocumentFormat.OpenXml)
-- [Microsoft Office Developer Center](https://developer.microsoft.com/office/docs)
+- [Office Developer Center](https://developer.microsoft.com/office)
 - [Samples on GitHub](https://github.com/OfficeDev)
 - [Open XML SDK copyright notice](/previous-versions/office/bb509417(v=office.15))
