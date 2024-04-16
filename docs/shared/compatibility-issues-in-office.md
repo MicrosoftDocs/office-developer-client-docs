@@ -127,4 +127,4 @@ These messages can appear if the add-in or macro-enabled document code uses an o
 - [Compatibility and telemetry in Office](/previous-versions/office/office-2013-resource-kit/ff394407(v=office.15))
 - [Office Developer Center](https://developer.microsoft.com/office)
 - [Troubleshooting Office files and custom solutions with the telemetry log](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
-- [Office Application Compatibility on Microsoft Q&A Forum](https://answers.microsoft.com/msoffice/forum/all/365-compatibility-with-older-office-software/a45a905c-4541-477d-966f-a3442fe07d5d)
+- [Office Development on Microsoft Q&A Forum](/answers/tags/321/office-development)
