@@ -19,7 +19,7 @@ This article outlines some of the considerations for unattended automation of Of
 If you want to use Office without a user present, be aware of the following areas in which Office can behave differently than expected. For your solution to run successfully, it must address these issues and minimize their effects as much as possible. Consider these issues carefully when you build your application.
 
 > [!IMPORTANT]
-> Microsoft does not currently recommend, and does not support, Automation of Microsoft Office applications from any unattended, non-interactive client application or component (including ASP, ASP.NET, DCOM, and NT Services), because Office may exhibit unstable behavior and/or deadlock when Office is run in this environment. For more information, see [Considerations for server-side Automation of Office](/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
+> Microsoft does not currently recommend, and does not support, Automation of Microsoft Office applications from any unattended, non-interactive client application or component (including ASP, ASP.NET, DCOM, and NT Services), because Office may exhibit unstable behavior and/or deadlock when Office is run in this environment. For more information, see [Considerations for server-side Automation of Office](https://support.microsoft.com/topic/considerations-for-server-side-automation-of-office-48bcfe93-8a89-47f1-0bce-017433ad79e2).
 
 ### Interactive UI elements
 
@@ -74,5 +74,5 @@ Many automation tasks involve document creation or editing. Office supports Open
 
 Microsoft provides an SDK for manipulating Open XML file formats from the .NET 3.x Framework. For more information about the SDK and how to use the SDK to create or edit Open XML files, visit the following:
 
-- [Understanding the Open XML file formats](/office/open-xml/understanding-the-open-xml-file-formats)
+- [Understanding the Open XML file formats](https://support.microsoft.com/office/open-xml-formats-and-file-name-extensions-5200d93c-3449-4380-8e11-31ef14555b18)
 - [Welcome to the Open XML SDK 2.5 for Office](/office/open-xml/open-xml-sdk)
