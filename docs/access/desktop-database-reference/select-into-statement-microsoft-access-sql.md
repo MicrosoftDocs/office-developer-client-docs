@@ -25,7 +25,7 @@ The SELECT…INTO statement has these parts:
 |:-------|:--------------|
 | _field1,field2_ | The name of the fields to be copied into the new table.</br>|
 | _newtable_ | The name of the table to be created. It must conform to standard naming conventions. If <em>newtable</em> is the same as the name of an existing table, a trappable error occurs.</p></td>
-| _externaldatabase_ | The path to an external database. For a description of the path, see the [IN](/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql.md) clause.</br>|
+| _externaldatabase_ | The path to an external database. For a description of the path, see the [IN](/office/vba/access/concepts/miscellaneous/in-clause-microsoft-access-sql) clause.</br>|
 | _source_ | The name of the existing table from which records are selected. This can be single or multiple tables or a query.</br>|
 
 ## Remarks
