@@ -1,7 +1,7 @@
 ---
 title: "Getting started with developing an Outlook Social Connector provider"
 manager: lindalu
-ms.date: 11/16/2014
+ms.date: 04/16/2024
 ms.audience: Developer
 ms.topic: overview
 ms.service: office-online-server
@@ -50,8 +50,6 @@ This section gives an overview of the OSC, how an OSC provider can be useful, qu
   
 ## See also
 
-- [Microsoft Outlook Social Connector 32-bit](https://www.microsoft.com/downloads/details.aspx?FamilyID=b638cc14-11e5-448a-b5a6-4f553ce81b94)
-- [Update for Outlook Social Connector (KB983403), 32-Bit Edition](https://www.microsoft.com/downloads/details.aspx?FamilyID=9886faca-f1c5-4579-83e2-c872c7abc61a)
-- [Update for Outlook Social Connector (KB983403), 64-bit Edition](https://www.microsoft.com/downloads/details.aspx?FamilyID=72a506a7-8a91-4d56-8b27-bf3b3f58fe9a)
-- [Outlook Social Connector 2013: Provider templates](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
-
+- [Turn on the Outlook Social Connector](https://support.microsoft.com/office/turn-on-the-outlook-social-connector-255447e8-82cd-48e7-9b79-1dd8721a2907)
+- [Microsoft Outlook Social Connector for Facebook](https://www.microsoft.com/en-us/download/details.aspx?id=5039)
+- [Update for Outlook Social Connector (KB983403)](https://support.microsoft.com/en-us/topic/description-of-the-outlook-social-connector-update-july-13-2010-838a309f-531e-e90a-5030-242306541763)
