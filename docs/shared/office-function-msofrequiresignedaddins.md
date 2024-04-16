@@ -41,7 +41,6 @@ Boolean, which represents if Office Trust Center requires Application Add-ins to
 
 ## Requirements
 
-|  |  |
-|---------------------------------|--------------------------------|
-|DLL                              |MSO.DLL                         |
-|Minimum supported application    |Microsoft Office 2010 system    |
+| DLL   | MSO.DLL    |
+|-------------------------------|--------------------------------|
+| Minimum supported application  | Microsoft Office 2010 system  |
