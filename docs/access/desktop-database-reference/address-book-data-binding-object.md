@@ -43,7 +43,7 @@ The following table describes the parameters associated with the OBJECT tag.
 
 |**Parameter**|**Description**|
 |:------------|:--------------|
-|**_CLASSID_**|A unique, 128-bit number that identifies the type of embedded object to the system. This identifier is maintained in the local computer's system registry. (For the class IDs of the **RDS.DataControl** object, see [RDS.DataControl Object](/office/client-developer/access/desktop-database-reference/datacontrol-object-rds.md). |
+|**_CLASSID_**|A unique, 128-bit number that identifies the type of embedded object to the system. This identifier is maintained in the local computer's system registry. (For the class IDs of the **RDS.DataControl** object, see [RDS.DataControl Object](/office/client-developer/access/desktop-database-reference/datacontrol-object-rds). |
 |**_ID_**     |Defines a document-wide identifier for the embedded object that is used to identify it in code.  |
 
 ## RDS.DataControl Tag Parameters
@@ -52,6 +52,6 @@ The following table describes the parameters specific to the **RDS.DataControl**
 
 |**Parameter**|**Description**|
 |:------------|:--------------|
-|[SERVER](/office/client-developer/access/desktop-database-reference/server-property-rds.md)| If you are using HTTP, the value is the name of the server computer preceded by https:// </br>|
-|[CONNECT](/office/client-developer/access/desktop-database-reference/connect-property-rds.md)| Provides the necessary connection information for the <strong>RDS.DataControl</strong> to connect to SQL Server. </br>|
-|[SQL](/office/vba/access/concepts/miscellaneous/sql-property-ado.md)| Sets or returns the query string used to retrieve the [Recordset](/office/client-developer/access/desktop-database-reference/recordset-object-ado.md)|
+|[SERVER](/office/client-developer/access/desktop-database-reference/server-property-rds)| If you are using HTTP, the value is the name of the server computer preceded by https:// </br>|
+|[CONNECT](/office/client-developer/access/desktop-database-reference/connect-property-rds)| Provides the necessary connection information for the <strong>RDS.DataControl</strong> to connect to SQL Server. </br>|
+|[SQL](/office/vba/access/concepts/miscellaneous/sql-property-ado)| Sets or returns the query string used to retrieve the [Recordset](/office/client-developer/access/desktop-database-reference/recordset-object-ado)|
