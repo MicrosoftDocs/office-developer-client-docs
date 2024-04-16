@@ -15,12 +15,12 @@ Represents the password of the SMTP account.
   
 ## Quick info
 
-|Item|Code|
-|:-----|:-----|
-|Identifier:  <br/> |0x0205  <br/> |
-|Property type:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
-|Property tag:  <br/> |0x0205801F  <br/> |
-|Access:  <br/> |Read-only  <br/> |
+| Item                  | Code          |
+| :---------------------| :-------------|
+| Identifier:  <br/>    | 0x0205  <br/> |
+| Property type:  <br/> | PT_UNICODE|SECURE_FLAG  <br/> |
+| Property tag:  <br/>  | 0x0205801F <br/> |
+| Access:  <br/>        | Read-only  <br/> |
    
 ## See also
 
