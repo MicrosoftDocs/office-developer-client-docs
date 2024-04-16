@@ -1,5 +1,7 @@
 ---
-title: "MAPI functions, callbacks, and macros" 
+title: "MAPI Functions, Callbacks, and Macros"
+ 
+ 
 manager: lindalu
 ms.date: 04/10/2024
 ms.audience: Developer
@@ -12,14 +14,14 @@ ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
 description: "The following alphabetic entries contain documentation for the MAPI functions, callbacks, and macros."
 ---
 
-# MAPI functions, callbacks, and macros
+# MAPI Functions, Callbacks, and Macros
   
 **Applies to**: Outlook 2013 | Outlook 2016 | Outlook 2019
   
 The following alphabetic entries contain documentation for the MAPI functions, callbacks, and macros. 
   
-| Entry                                           | ... |
-| :---------------------------------------------- | :------------------------------------------ |
+| Entry                                           | Entry |
+| :---------------------------------------------- | :-------------------------------------------|
 | [ABProviderInit](abproviderinit.md) <br/>       | [ACCELERATEABSDI](accelerateabsdi.md) <br/> |
 | [BuildDisplayTable](builddisplaytable.md) <br/> | [CALLERRELEASE](callerrelease.md) <br/> |
 | [ChangeIdleRoutine](changeidleroutine.md) <br/> | [CheckParameters](checkparms.md) <br/> |
