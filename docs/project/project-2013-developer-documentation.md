@@ -23,7 +23,7 @@ ms.localizationpriority: high
 Find documentation, code samples, how-to articles, and programming references to help build apps for AppSource. Learn how to customize and integrate Project Server and the Project clients with a wide variety of other desktop and business applications for enterprise project management (EPM).
 
 > [!NOTE]
-> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins.md) and [Office Add-ins](/office/dev/add-ins/overview/office-add-ins.md).
+> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Office Add-ins](/office/dev/add-ins/overview/office-add-ins).
 
 ## Introduction to the Project Software Development Kit (SDK)
 
@@ -41,7 +41,7 @@ We would like to hear from you. In the online topics on MSDN, you can add commen
 
 ### Download
 
-The Project 2013 SDK download is available in the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=30435%20) ( `https://www.microsoft.com/download/details.aspx?id=30435%20`). The download includes Project2013SDK.HxS (the file that includes this article), related code samples, redistributable assemblies, and other resources. The Project 2013 SDK does not yet include the Reporting datatables reference.
+The Project 2013 SDK download is available in the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=30435) The download includes Project2013SDK.HxS (the file that includes this article), related code samples, redistributable assemblies, and other resources. The Project 2013 SDK does not yet include the Reporting datatables reference.
 
 ### What's new in the Project SDK
 
