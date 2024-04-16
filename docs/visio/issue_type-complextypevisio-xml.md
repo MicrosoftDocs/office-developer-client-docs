@@ -15,7 +15,7 @@ ms.assetid: d6768062-37aa-5658-f068-dae8d3a24717
 
 | Type | Info |
 | :------------------------|:----------------------------------|
-| **Namespace** <br/>      | https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+| **Namespace** <br/>      | `http://schemas.microsoft.com/office/visio/2011/1/core`  <br/> |
 | **Schema file** <br/>    | VisioSchema15-2012-06-05.xsd  <br/> |
 | **Extension base** <br/> | None  <br/> |
    
@@ -67,4 +67,5 @@ If the schema defines specific requirements, such as **sequence**, **minOccurs**
 | ID  <br/>      | xsd:unsignedInt <br/>  | required <br/>  | Values of the xsd:unsignedInt type. |
 | Ignored <br/>  | xsd:boolean <br/>      | optional <br/>  | Values of the xsd:boolean type. |
    
-
+### See also
+[Introduction to the Visio file format (.vsdx)](/office/client-developer/visio/introduction-to-the-visio-file-formatvsdx)
