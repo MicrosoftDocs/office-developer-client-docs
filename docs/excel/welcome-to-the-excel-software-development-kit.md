@@ -16,7 +16,7 @@ ms.localizationpriority: high
 
 # Welcome to the Excel Software Development Kit
 
- **Applies to**: Excel 2013 | Office 2013 | Visual Studio 
+ **Applies to**: Excel 2013 | Office 2013 | Visual Studio
   
 Welcome to the Excel 2013 XLL Software Development Kit (SDK) documentation. This reference contains conceptual overviews, programming tasks, and samples to help you develop Microsoft Excel 2013 XLLs.
   
@@ -27,35 +27,34 @@ Download the [Excel 2013 XLL SDK](https://go.microsoft.com/fwlink/?LinkID=251082
 The Excel 2013 XLL SDK includes the following:
   
 - **C application programming interface (API)**—Includes header and source files that enable DLLs to access Excel 2013 functionality, and a description of the interface that a DLL should expose to work with the Excel Add-in Manager.
-    
+
 - **Microsoft Visual Studio projects**—Includes C/C++ source code and shows how to use the C API. These sample projects provide examples and they serve as a starting point for your own add-in development.
-    
+
 The SDK documentation contains the following sections:
   
 - [Getting Started with the Excel XLL SDK](getting-started-with-the-excel-xll-sdk.md)
-    
+
 - [Developing Excel XLLs](developing-excel-xlls.md)
-    
+
 - [Developing Excel Cluster Connectors](developing-excel-cluster-connectors.md)
-    
+
 - [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md)
-    
+
 ## Functionality Not Covered
 
 The following subjects are not covered:
   
 - Developing user-defined functions and commands in Excel macro (XLM) sheets.
-    
+
 - Creating user-defined functions in DLLs that control the flow of execution of an XLM macro.
-    
+
     Such functions work by returning a special flow control data type, which is also not described in this documentation.
-    
+
 ## Related Links
 
-[Excel Developer Center](https://msdn.microsoft.com/office/aa905411.aspx)
+[Excel Developer Center](https://developer.microsoft.com/excel)
   
-[Microsoft Office Developer Center](/office/developer-program/microsoft-365-developer-program)
+[Office Developer Center](https://developer.microsoft.com/office)
   
 [Excel 2010 SDK: Excel 2010 XLL Software Development Kit](https://go.microsoft.com/fwlink/?LinkID=186435&amp;clcid=0x409)
   
-

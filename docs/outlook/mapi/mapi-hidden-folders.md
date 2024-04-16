@@ -8,14 +8,11 @@ api_type:
 - COM
 ms.assetid: 8b3b9c80-f7f4-4f37-bd6b-323469d020f1
  
- 
 ---
 
 # MAPI Hidden Folders
-
   
-  
-**Applies to**: Outlook 2013 | Outlook 2016 
+**Applies to**: Outlook 2013 | Outlook 2016
   
 Hidden folders are generic folders that clients create in the root folder of the message store, rather than in the root folder of an interpersonal message (IPM) subtree. Because these folders are not placed in an IPM subtree, they are generally hidden from the user's view by the message store provider. Hidden folders typically contain information that is relevant to the message store but irrelevant to the user. Clients create hidden folders to store, for example, additional information to be saved with the rest of the folder hierarchy.
   
@@ -23,7 +20,4 @@ MAPI expects all clients to be able to display, create, modify, and delete folde
   
 ## See also
 
-
-
 [MAPI Folders](mapi-folders.md)
-
