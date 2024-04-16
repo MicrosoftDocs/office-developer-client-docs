@@ -64,5 +64,5 @@ To write an appointment rebasing tool by using the calendar rebasing APIs, you c
 - [Parse a stream from a binary property to read the TZREG structure](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
 - [Read time zone properties from an appointment](how-to-read-time-zone-properties-from-an-appointment.md)
 - [Daylight Saving Time Help and Support Center](https://support.microsoft.com/gp/cp_dst)
-- [How to address daylight saving time by using the Exchange Calendar Update Tool](https://support.microsoft.com/kb/941018)
+- [How to address daylight saving time by using the Exchange Calendar Update Tool](https://mskb.pkisolutions.com/kb/930879)
 - [How to address time zone changes by using the Time Zone Data Update Tool for Microsoft Office Outlook](https://support.microsoft.com/kb/931667)
