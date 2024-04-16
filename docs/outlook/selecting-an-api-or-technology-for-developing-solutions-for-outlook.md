@@ -202,7 +202,7 @@ The following tables show evaluation criteria for MAPI.
 |Languages and tools |You can directly access MAPI by using C or C++. Other languages that can access the C/C++ calling convention may be able to access MAPI. The use of managed languages, such as Visual Basic or C#, is not supported. You must compile separate MAPI solutions for 32-bit and 64-bit versions of Outlook. |
 |Managed implementation |MAPI is an unmanaged component. Use of MAPI is not supported under the COM interoperability layer of Visual Studio and the .NET Framework.  |
 |Scriptable |MAPI cannot be directly used in scripts. |
-|Test and debug Tools |No special debugging tools are needed to debug applications that use MAPI. On the other hand, you can use [MFCMAPI](https://stephenegriffin.github.io/mfcmapi/). MFCMAPI uses MAPI to provide access to MAPI stores through a graphical user interface, and facilitates investigation of issues when you extend Outlook by using MAPI. |
+|Test and debug Tools |No special debugging tools are needed to debug applications that use MAPI. On the other hand, you can use [MFCMAPI](https://github.com/microsoft/mfcmapi/releases). MFCMAPI uses MAPI to provide access to MAPI stores through a graphical user interface, and facilitates investigation of issues when you extend Outlook by using MAPI. |
 |Expert availability |Expert MAPI programmers can be difficult to find, and learning the technology can take a significant amount of time. In addition to the Microsoft communities, there are only a small number of high-quality third-party websites that provide helpful MAPI development information. |
 |Available information |Both Microsoft and third-party books that describe MAPI programming are available. |
 |Developer and deployment licensing |No special licensing is required for developing applications that use MAPI. |
@@ -373,7 +373,7 @@ In general, you use MAPI to access data on a MAPI-based server such as the Micro
 
 - Run tasks on a background thread. For example, enumerating numerous items in a folder and modifying the items' properties in a background thread can optimize performance.
 
-For more information and code samples, see the [Outlook MAPI Reference](/office/client-developer/outlook/mapi/outlook-mapi-reference) and [MFCMAPI](https://stephenegriffin.github.io/mfcmapi/).
+For more information and code samples, see the [Outlook MAPI Reference](/office/client-developer/outlook/mapi/outlook-mapi-reference) and [MFCMAPI](https://github.com/microsoft/mfcmapi/releases).
   
 In addition, if your solution runs on a version of Outlook earlier than Outlook 2007, and scenarios such as the following apply to your solution, you should use MAPI to extend those scenarios.
   
