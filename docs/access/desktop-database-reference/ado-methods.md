@@ -101,7 +101,7 @@ ms.localizationpriority: medium
 <td><p>Executes the query, SQL statement, or stored procedure specified in the <strong>CommandText</strong> property.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href=/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute (ADO Connection)</a></p></td>
+<td><p><a href="/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute (ADO Connection)</a></p></td>
 <td><p>Executes the specified query, SQL statement, stored procedure, or provider-specific text.</p></td>
 </tr>
 <tr class="odd">

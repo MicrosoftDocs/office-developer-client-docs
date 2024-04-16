@@ -25,7 +25,7 @@ The SELECT statement has these parts:
 
 |**Part**|**Description**|
 |:-----------|:-----------|
-| *predicate* | One of the following predicates: [ALL, DISTINCT, DISTINCTROW, or TOP](/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql.md). Use the predicate to restrict the number of records returned. If none is specified, the default is ALL.</br>|
+| *predicate* | One of the following predicates: [ALL, DISTINCT, DISTINCTROW, or TOP](/office/vba/access/Concepts/Structured-Query-Language/all-distinct-distinctrow-top-predicates-microsoft-access-sql). Use the predicate to restrict the number of records returned. If none is specified, the default is ALL.</br>|
 | * | Specifies that all fields from the specified table or tables are selected.</br>|
 | *table* | The name of the table containing the fields from which records are selected.</br>|
 | *field1, field2* |The names of the fields containing the data you want to retrieve. If you include more than one field, they are retrieved in the order listed.</br>|
