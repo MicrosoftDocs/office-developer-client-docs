@@ -51,5 +51,5 @@ This section gives an overview of the OSC, how an OSC provider can be useful, qu
 ## See also
 
 - [Turn on the Outlook Social Connector](https://support.microsoft.com/office/turn-on-the-outlook-social-connector-255447e8-82cd-48e7-9b79-1dd8721a2907)
-- [Microsoft Outlook Social Connector for Facebook](https://www.microsoft.com/en-us/download/details.aspx?id=5039)
-- [Update for Outlook Social Connector (KB983403)](https://support.microsoft.com/en-us/topic/description-of-the-outlook-social-connector-update-july-13-2010-838a309f-531e-e90a-5030-242306541763)
+- [Microsoft Outlook Social Connector for Facebook](https://www.microsoft.com/download/details.aspx?id=5039)
+- [Update for Outlook Social Connector (KB983403)](https://support.microsoft.com/topic/description-of-the-outlook-social-connector-update-july-13-2010-838a309f-531e-e90a-5030-242306541763)

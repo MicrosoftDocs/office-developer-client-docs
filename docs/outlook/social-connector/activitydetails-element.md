@@ -12,9 +12,9 @@ description: "The activityDetails element stores the raw data for a single activ
 
 # activityDetails Element
 
-The **activityDetails** element stores the raw data for a single activity feed item. Each activity feed item must have its own **activityDetails** element. Data in the **activityDetails** element is referenced in activity templates by using **name** elements. Every piece of data in the **activityDetails** element must have a **name** element. 
+The **activityDetails** element stores the raw data for a single activity feed item. Each activity feed item must have its own **activityDetails** element. Data in the **activityDetails** element is referenced in activity templates by using **name** elements. Every piece of data in the **activityDetails** element must have a **name** element.
   
-The following table describes the six elements that the **activityDetails** element requires. 
+The following table describes the six elements that the **activityDetails** element requires.
   
 |**Element**|**Description**|
 |:-----|:-----|
@@ -24,16 +24,15 @@ The following table describes the six elements that the **activityDetails** elem
 |**templateId** <br/> |The second unique ID that is used to match the activity feed item with its template. This can be used as a second-tier template organizer. |
 |**publishDate** <br/> |The date and time that the activity feed item was published. |
 |**templateVariables** <br/> |The data to be used in the tokens for the activity feed item template. |
-   
+
 For an example of activity feed XML, see [Activity Feed XML Example](activity-feed-xml-example.md)
   
 ## See also
 
 - [Overview of XML for an Activity Feed Item](overview-of-xml-for-an-activity-feed-item.md)  
 - [activityTemplateContainer Element](activitytemplatecontainer-element.md)  
-- [Template Variables](template-variables.md) 
+- [Template Variables](template-variables.md)
 - [Guidelines for Properly Displaying Activities](guidelines-for-properly-displaying-activities.md)  
 - [XML for Activities](xml-for-activities.md)  
 - [Outlook Social Connector Provider XML Schema](outlook-social-connector-provider-xml-schema.md)
 - [Developing a Provider with the OSC XML Schema](developing-a-provider-with-the-osc-xml-schema.md)
-

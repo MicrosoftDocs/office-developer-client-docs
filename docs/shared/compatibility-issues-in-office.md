@@ -17,6 +17,7 @@ The following tables list information about issues presented in the telemetry lo
 For information about features that have been changed or removed since Office 2013, see [Changes in Office 2016 for Windows](/DeployOffice/office2016/changes-in-office-2016-for-windows-desktop).
   
 ## Controls
+
 <a name="OEV_CompatIssues_Controls"> </a>
 
 These messages can appear if the file contains a control that may not be supported in Office or on the computer operating system.
@@ -31,11 +32,12 @@ These messages can appear if the file contains a control that may not be support
 |10003  <br/> |Office 2013  <br/> |All Office 2013  <br/> |[Link](/previous-versions/office/office-2010/cc179181(v=office.14)) <br/> |Controls: Microsoft Calendar Control  <br/> |The file uses the Microsoft Calendar control (Mscal.ocx), a feature of previous versions of Access that is not available in Office 2013. The control will not work because it is not installed on the host computer. Use other date picker controls as an alternative, like the **Date Picker Content Control** (in Word 2013) or the Windows **DatePicker** control (in the Windows Common Controls). For more information, see [Replacing the Calendar Control in Access 2010 Applications](/previous-versions/office/developer/office-2010/gg251104(v=office.14)). |
 |10004  <br/> |Office 2013  <br/> |All Office 2013  <br/> |[Link](https://social.msdn.microsoft.com/Forums/6497460b-db0b-4ae1-8b15-3ab14f08ab68/vba-spreadsheet-control-doesnt-work-on-excel-2013?forum=officegeneral) <br/> |Office Web Components  <br/> |The file uses an Office Web Components (MSOWC.dll) control. The control will not work because the Office Web Components are not installed on this computer and are not included with Office 2013. To use this control, install the Office Web Components separately. For more information, see [Find Office Web Components Programming Documentation and Samples](https://support.microsoft.com/help/319793/how-to-find-office-web-components-owc-programming-documentation-and-sa) <br/> |
 |10005  <br/> |Office 2013  <br/> |All Office 2013  <br/> |[Link](https://support.office.com/article/embedded-object-and-activex-control-policy-settings-error-acb9e88e-88fa-4440-96af-50490a301fc4) <br/> |Controls: Unregistered ActiveX Control  <br/> |The file uses ActiveX controls that are not registered on the host computer. To use the control, register it on the host computer. |
-   
+
 ## Removed and deprecated members in the Object Model
+
 <a name="OEV_CompatIssues_Removed"> </a>
 
-These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the application's object model. 
+These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the application's object model.
   
 **Table 2. Issues displayed in the telemetry log about removed and deprecated members**
 
@@ -51,8 +53,9 @@ These messages can appear if the add-in or macro-enabled document code uses an o
 |10154  <br/> |Office 2013  <br/> |Excel 2013  <br/> ||OM Removed: Smart Tag Feature  <br/> | The SmartTags feature is removed from Excel. The following properties are hidden, and if accessed, always returns FALSE:  <br/>- **Application.SmartTagRecognizers** property  <br/><br/>The following objects, methods, and properties are hidden, and if accessed, return a runtime error:  <br/>- **SmartTag** object and members  <br/>- **SmartTags** collection and members  <br/>- **SmartTagAction** object and members  <br/>- **SmartTagActions** collection and members  <br/>- **SmartTagOptions** collection and members  <br/>- **SmartTagRecognizer** object and members  <br/>- **SmartTagRecognizers** collection and members  <br/><br/>  The following methods are hidden, and if accessed, fail silently:  <br/>- **Workbook.RecheckSmartTags** method  <br/><br/>The following properties are hidden, and if accessed, always returns an empty collection:  <br/>- **Workbook.SmartTagOptions** property  <br/>- **Worksheet.SmartTags** property  <br/>- **Range.SmartTags** property  <br/>- **IRange.SmartTags** property  <br/>- **DialogSheet.SmartTags** property  <br/>- **IDialogSheet.SmartTags** property  <br/> |
 |10155  <br/> |Office 2013  <br/> |All Office 2013  <br/> ||OM Removed: ToolbarButton.Edit Method  <br/> |The CommandBar Button Editor has been removed. If called, the method silently fails. Custom images can be applied to legacy CommandBar buttons using the [CommandBarButton.PasteFace](/office/vba/api/Office.CommandBarButton.PasteFace) method, or the [CommandBarButton.Picture](/office/vba/api/Office.CommandBarButton.Picture) and the [CommandBarButton.Mask](/office/vba/api/Office.CommandBarButton.Mask) properties. |
 |10159  <br/> |Office 2016  <br/> |Word  <br/> ||OM Deprecated: SkyDriveSignInOption  <br/> |SkyDriveSignInOption has been deprecated. Use CloudSignInOption instead. |
-   
+
 ## Behavior changes in the Object Model
+
 <a name="OEV_CompatIssues_Changed"> </a>
 
 These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that behaves differently from previous versions of Office.
@@ -68,8 +71,9 @@ These messages can appear if the add-in or macro-enabled document code uses an o
 |10106  <br/> |Office 2013  <br/> |Excel 2013  <br/> ||OM Behavior Change: Application.FormulaBarHeight Property  <br/> |The [Application.FormulaBarHeight Property (Excel)](/office/vba/api/Excel.Application.FormulaBarHeight) property is changed. If accessed, the property reads and writes the height of the formula bar associated with the active window in Excel. To change formula bar height for another window in Excel, set the **Application.FormulaBarHeight** property after activating the window. |
 |10107  <br/> |Office 2013  <br/> |Excel 2013  <br/> ||OM Behavior Change: Workbook.Protect Method  <br/> |Window structure (height, width, minimized or maximized state) cannot be protected in Excel. If called, the [Workbook.Protect Method (Excel)](/office/vba/api/Excel.Workbook.Protect) method does not protect the workbook window structure regardless of the value of the Windows parameter. |
 |10140  <br/> |Office 2013  <br/> |Word 2013, Outlook 2013  <br/> ||OM Behavior Change: Table.AllowPageBreaks  <br/> |The **Table.AllowPageBreaks** property is hidden, and always returns TRUE. To achieve the same behavior, use the [ParagraphFormat.KeepTogether Property (Word)](/office/vba/api/Word.ParagraphFormat.KeepTogether) and [ParagraphFormat.KeepWithNext Property (Word)](/office/vba/api/Word.ParagraphFormat.KeepWithNext) properties. |
-   
+
 ## Hidden members in the Object Model
+
 <a name="OEV_CompatIssues_Hidden"> </a>
 
 These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been hidden in the application's object model.
@@ -117,11 +121,10 @@ These messages can appear if the add-in or macro-enabled document code uses an o
 |10151  <br/> |Office 2013  <br/> |Excel 2013  <br/> ||OM Hidden: _Application.AnswerWizard  <br/> |The property **\_Application.Assistant** has been hidden. If accessed, the property returns a runtime error. |
 |10152  <br/> |Office 2013  <br/> |Excel 2013  <br/> ||OM Hidden: _Global.Assistant  <br/> |The property **\_Global.Assistant** has been hidden. It remains part of the object model for backward compatibility, but you should not use it in new applications. |
 |10153  <br/> |Office 2013  <br/> |Excel 2013  <br/> ||OM Hidden: Shapes.AddChart  <br/> |The **Shapes.AddChart** method is hidden. It remains part of the object model for backward compatibility, but you should not use it in new applications. Use the **Shapes.AddChart2** method instead. <br/>**NOTE**: The **Shapes.AddChart2** method applies a default title to the new chart. If you need to change the title of the chart after it has been added to the file, use the **Chart.ChartTitle** property or edit the title manually.           |
-   
+
 ## See also
 
-- [Compatibility and telemetry in Office](/previous-versions/office/office-2013-resource-kit/ff394407(v=office.15)) 
+- [Compatibility and telemetry in Office](/previous-versions/office/office-2013-resource-kit/ff394407(v=office.15))
 - [Office Developer Center](https://developer.microsoft.com/office)
 - [Troubleshooting Office files and custom solutions with the telemetry log](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
-- [Office Application Compatibility Forum](https://social.technet.microsoft.com/Forums/officesetupdeploy/threads)
-    
+- [Office Application Compatibility on Microsoft Q&A Forum](https://answers.microsoft.com/msoffice/forum/all/365-compatibility-with-older-office-software/a45a905c-4541-477d-966f-a3442fe07d5d)

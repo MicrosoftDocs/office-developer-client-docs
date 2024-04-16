@@ -1,7 +1,5 @@
 ---
 title: "InfoPath developer reference for form templates"
-ms.author: lindalu
-author: lindalu
 manager: lindalu
 ms.date: 11/16/2019
 ms.audience: Developer
@@ -22,10 +20,6 @@ Publish date of this reference: October 2012
   
 ## Related links
 
-[Microsoft Office Developer Center: Docs](https://developer.microsoft.com/office/docs)
+[Office Developer Documentation](/office/dev/add-ins/)
   
-
 [Microsoft Accessibility](https://www.microsoft.com/accessibility/)
-
-  
-
