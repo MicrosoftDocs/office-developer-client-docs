@@ -67,4 +67,4 @@ In the following example, only if the user ID is ADMIN can records be updated. T
 
 ## See also
 
-- [Form object (Access)](/vba-docs/api/Access.Form)
+- [Form object (Access)](/office/vba/api/Access.Form)

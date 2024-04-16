@@ -23,7 +23,7 @@ ms.localizationpriority: high
 Find documentation, code samples, how-to articles, and programming references to help build apps for AppSource. Learn how to customize and integrate Project Server and the Project clients with a wide variety of other desktop and business applications for enterprise project management (EPM).
 
 > [!NOTE]
-> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins.md) and [Office Add-ins](/office/dev/add-ins/overview/office-add-ins.md).
+> Project Server 2013 is built on the SharePoint Server 2013 platform, and Project 2013 includes much of the same infrastructure as the other Office 2013 applications. For documentation of the model for SharePoint Add-ins, SharePoint-based workflows, Web Parts, development with other SharePoint features, and documentation of Office Add-ins, see [SharePoint Add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins) and [Office Add-ins](/office/dev/add-ins/overview/office-add-ins).
 
 ## Introduction to the Project Software Development Kit (SDK)
 
@@ -41,7 +41,7 @@ We would like to hear from you. In the online topics on MSDN, you can add commen
 
 ### Download
 
-The Project 2013 SDK download is available in the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=30435%20) ( `https://www.microsoft.com/download/details.aspx?id=30435%20`). The download includes Project2013SDK.HxS (the file that includes this article), related code samples, redistributable assemblies, and other resources. The Project 2013 SDK does not yet include the Reporting datatables reference.
+The Project 2013 SDK download is available in the [Microsoft Download Center](https://www.microsoft.com/download/details.aspx?id=30435) The download includes Project2013SDK.HxS (the file that includes this article), related code samples, redistributable assemblies, and other resources. The Project 2013 SDK does not yet include the Reporting datatables reference.
 
 ### What's new in the Project SDK
 
@@ -109,12 +109,12 @@ The **Conceptual and how-to articles** section includes the following:
 
 - [Updates for developers in Project 2013](updates-for-developers-in-project-2013.md)
 - [Project Server 2013 architecture](project-server-2013-architecture.md)
-- [Project 2013 SDK download](https://www.microsoft.com/download/details.aspx?id=30435%20)
+- [Project 2013 SDK download](https://www.microsoft.com/download/details.aspx?id=30435)
 - [SharePoint Server 2013 Client Components SDK](https://www.microsoft.com/download/details.aspx?id=35585)
-- [Project for developers](https://msdn.microsoft.com/project)
-- [Office Developer Documentation](https://msdn.microsoft.com/office)
-- [Getting Started with Development for Project 2010](https://msdn.microsoft.com/library/gg607685.aspx)
+- [Project for developers](/previous-versions/dynamics/ax-2012/application-classes/dn562695(v=ax.60))
+- [Office Developer Documentation](/office/dev/add-ins/)
+- [Getting Started with Development for Project 2010](/previous-versions/office/developer/office-2010/gg607685(v=office.14))
 - [Document conventions](https://msdn.microsoft.com/library/6b38829f-1a9d-4fb6-ad3b-01182628080a.aspx)
-- [Accessibility in SharePoint 2013](https://msdn.microsoft.com/library/jj841103.aspx)
+- [Accessibility in SharePoint 2013](/sharepoint/dev/general-development/accessibility-in-sharepoint)
 - [Accessibility in Microsoft Office 365](https://www.microsoft.com/enable/products/office365/)
 - [Microsoft online privacy notice](https://privacy.microsoft.com/privacystatement)
