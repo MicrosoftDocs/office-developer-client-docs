@@ -50,7 +50,7 @@ ULONG CMyMAPIObject::Release()
 {
     // Decrement the object's internal counter.
     ULONG ulRefCount = InterlockedDecrement(m_cRef);
-    if (0 == m_cRef)
+    if (0 == ulRefCount)
     {
         delete this;
     }
