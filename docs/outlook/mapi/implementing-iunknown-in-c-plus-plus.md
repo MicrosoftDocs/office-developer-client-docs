@@ -43,8 +43,7 @@ The following code example shows how to implement the **AddRef** and **Release**
 ```cpp
 ULONG CMyMAPIObject::AddRef()
 {
-    InterlockedIncrement(m_cRef);
-    return m_cRef;
+    return InterlockedIncrement(m_cRef);
 }
 ULONG CMyMAPIObject::Release()
 {
