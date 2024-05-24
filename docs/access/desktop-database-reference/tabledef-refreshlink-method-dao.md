@@ -15,7 +15,7 @@ ms.localizationpriority: medium
 
 # TableDef.RefreshLink method (DAO)
 
-**Applies to**: Access 2013, Office 2013
+**Applies to**: Access 365, Access 2021, Access 2019, Access 2016
  
 Updates the connection information for a linked table (Microsoft Access workspaces only).
 
@@ -30,6 +30,8 @@ Updates the connection information for a linked table (Microsoft Access workspac
 To change the connection information for a linked table, reset the **[Connect](connection-connect-property-dao.md)** property of the corresponding **TableDef** object and then use the **RefreshLink** method to update the information. Using **RefreshLink** method doesn't change the linked table's properties and **[Relation](relation-object-dao.md)** objects.
 
 For this connection information to exist in all collections associated with the **TableDef** object that represents the linked table, you must use the **[Refresh](tabledefs-refresh-method-dao.md)** method on each collection.
+
+Starting with Access 365 Version 2403, the RefreshLink method preserves existing table indexes. If you previously had a linked table that would lose the primary key after running the RefreshLink method and you added code to explicitly recreate the index after the RefreshLink, this will now result in error 3283, “Primary key already exists”. 
 
 ## Example
 
