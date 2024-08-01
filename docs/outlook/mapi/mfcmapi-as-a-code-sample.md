@@ -22,7 +22,7 @@ The MFCMAPI sample uses the Messaging API to provide access to MAPI stores throu
    
 ### To download MFCMAPI
   
-1. On the [MFCMAPI](https://codeplex.com/MFCMAPI) page, click the **Source Code** tab. 
+1. On the [MFCMAPI](https://github.com/microsoft/mfcmapi) page, click the **Source Code** tab. 
     
 2. Under **Recent Check-Ins**, click **Download** for the most recent build. 
     
