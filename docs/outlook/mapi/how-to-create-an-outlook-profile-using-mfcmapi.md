@@ -18,7 +18,7 @@ For non-developers, it is recommended that you use the Outlook user interface to
   
 ## Configure an Outlook profile using MFCMAPI
 
-1. Download the [latest MFCMAPI release](https://github.com/stephenegriffin/mfcmapi/releases) from GitHub.
+1. Download the [latest MFCMAPI release](https://github.com/microsoft/mfcmapi/releases/latest) from GitHub.
 
 1. On the **Profile** menu, select **Show Profiles**.
 

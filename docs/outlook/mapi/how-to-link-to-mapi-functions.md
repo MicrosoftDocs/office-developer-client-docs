@@ -103,7 +103,7 @@ For more information about explicit linking, see Linking Explicitly.
 
 ## MAPIStubLibrary.lib
 
-The advent of Microsoft Outlook 2010 and 64-bit MAPI, now extending to the Microsoft Outlook 2013, requires more than the traditional 32-bit API for full implementation. A new project, the MAPI Stub Library, posted on the CodePlex website provides a drop-in replacement for Mapi32.lib that supports building both 32-bit and 64-bit MAPI applications. MAPIStubLibrary.lib eliminates the need to explicitly link to MAPI, and having built it, you can remove Mapi32.lib from your linker settings, replacing it with MAPIStubLibrary.lib; no further modifications to your code should be needed. It also eliminates the need to write **LoadLibrary**, **GetProcAddress**, and **FreeLibrary** code to handle newer exports included in this library file but not in Mapi32.lib, which would be needed if you used explicit linking. 
+The advent of Microsoft Outlook 2010 and 64-bit MAPI, now extending to the Microsoft Outlook 2013, requires more than the traditional 32-bit API for full implementation. A new project, the [MAPI Stub Library](https://github.com/microsoft/MAPIStubLibrary) posted on GitHub, provides a drop-in replacement for Mapi32.lib that supports building both 32-bit and 64-bit MAPI applications. MAPIStubLibrary.lib eliminates the need to explicitly link to MAPI, and having built it, you can remove Mapi32.lib from your linker settings, replacing it with MAPIStubLibrary.lib; no further modifications to your code should be needed. It also eliminates the need to write **LoadLibrary**, **GetProcAddress**, and **FreeLibrary** code to handle newer exports included in this library file but not in Mapi32.lib, which would be needed if you used explicit linking. 
   
 Some of the new functions linked from this library that are not available in Mapi32.lib include the following:
   
@@ -116,7 +116,7 @@ Some of the new functions linked from this library that are not available in Map
     
 An alternate method of incorporating the MAPI Stub Library is to copy the source files, MapiStubLibrary.cpp and StubUtils.cpp, directly into your project and remove any linkage to Mapi32.lib and any code that explicitly links to MAPI.
   
-To access the MAPI Stub Library files and for information about how to build and integrate it into your project, as well as questions about this library such as when and why to use it, see the MAPI Stub Library <!--(https://mapistublibrary.codeplex.com/documentation)--> on the CodePlex site. 
+To access the MAPI Stub Library files and for information about how to build and integrate it into your project, as well as questions about this library such as when and why to use it, see the [MAPI Stub Library](https://github.com/microsoft/MAPIStubLibrary) on GitHub. 
   
 ## See also
 

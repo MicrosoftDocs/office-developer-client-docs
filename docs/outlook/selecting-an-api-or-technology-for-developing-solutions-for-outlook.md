@@ -373,7 +373,7 @@ In general, you use MAPI to access data on a MAPI-based server such as the Micro
 
 - Run tasks on a background thread. For example, enumerating numerous items in a folder and modifying the items' properties in a background thread can optimize performance.
 
-For more information and code samples, see the [Outlook MAPI Reference](/office/client-developer/outlook/mapi/outlook-mapi-reference) and [MFCMAPI](https://github.com/microsoft/mfcmapi/releases).
+For more information and code samples, see the [Outlook MAPI Reference](/office/client-developer/outlook/mapi/outlook-mapi-reference) and [MFCMAPI](https://github.com/microsoft/mfcmapi).
   
 In addition, if your solution runs on a version of Outlook earlier than Outlook 2007, and scenarios such as the following apply to your solution, you should use MAPI to extend those scenarios.
   
