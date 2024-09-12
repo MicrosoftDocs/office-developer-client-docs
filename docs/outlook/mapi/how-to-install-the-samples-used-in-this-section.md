@@ -64,7 +64,7 @@ Some topics refer to source code from the MFCMAPI application itself. The follow
 
 ### To download and view the MFCMAPI application source code
 
-1. Download the source code for the current version of the [MFCMAPI](https://go.microsoft.com/fwlink/?LinkID=124154) application to a folder on your system. 
+1. Download the source code for the current version of the [MFCMAPI](https://github.com/microsoft/mfcmapi/releases/latest) application to a folder on your system. 
     
 2. Extract the files in MFCMAPI- _changeset_.zip to an empty folder on your hard drive.
     

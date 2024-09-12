@@ -53,6 +53,6 @@ The following illustration shows the communication between advise sink objects, 
   
 ![Event notification calls](media/amapi_51.gif "Event notification calls")
   
-The MFCMAPI **CAdviseSink** class (using the AdviseSink.h and AdviseSink.cpp files) implements the advise sink object for all calls to **Advise**. For more information about MFCMAPI, see [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md) and [MFCMAPI](https://go.microsoft.com/fwlink/?LinkId=124154).
+The MFCMAPI **CAdviseSink** class (using the AdviseSink.h and AdviseSink.cpp files) implements the advise sink object for all calls to **Advise**. For more information about MFCMAPI, see [MFCMAPI as a Code Sample](mfcmapi-as-a-code-sample.md) and [MFCMAPI](https://github.com/microsoft/mfcmapi).
   
 

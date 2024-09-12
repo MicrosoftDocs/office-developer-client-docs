@@ -15,7 +15,7 @@ ms.assetid: 8aaabe65-b0bc-4481-b00b-16dbe74bd8ae
   
 This topic describes how to obtain and install MAPI header files and library files.
 
-<!-- MAPI header files are available as a download at [Outlook 2010: MAPI Header Files](https://www.microsoft.com/download/details.aspx?id=12905). By default, MAPI header files are installed in the following folder: C:\Program Files\Microsoft SDKs\Office\14.0\Include. -->
+MAPI header files are available as a download at [MAPIStubLibrary](https://github.com/microsoft/MAPIStubLibrary). By default, MAPI header files are installed in the following folder: `C:\Program Files\Microsoft SDKs\Office\14.0\Include`.
   
 For a list of MAPI header files, see [Commonly Used Header Files](commonly-used-header-files.md).
   
