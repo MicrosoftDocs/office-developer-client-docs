@@ -55,6 +55,16 @@ This property, if it exists, is a hint to the client. The client may ignore the 
 |Recall_S mail  <br/> |0x0000010C  <br/> |
 |Recall_F mail  <br/> |0x0000010D  <br/> |
 |Tracking mail  <br/> |0x0000010E  <br/> |
+|Signed mail  <br/> |0x0000010F  <br/> |
+|Encrypted mail  <br/> |0x00000110  <br/> |
+|S/MIME signed mail  <br/> |0x00000111  <br/> |
+|S/MIME receipt  <br/> |0x00000112  <br/> |
+|Encrypted replied mail  <br/> |0x00000113  <br/> |
+|S/MIME signed replied mail  <br/> |0x00000114  <br/> |
+|Encrypted forwarded mail  <br/> |0x00000115  <br/> |
+|S/MIME signed forwarded mail  <br/> |0x00000116  <br/> |
+|Encrypted read mail  <br/> |0x00000117  <br/> |
+|S/MIME signed read mail  <br/> |0x00000118  <br/> |
 |Out of office mail  <br/> |0x0000011B  <br/> |
 |Recall mail  <br/> |0x0000011C  <br/> |
 |Tracked mail  <br/> |0x00000130  <br/> |
