@@ -34,7 +34,7 @@ The following table lists each property set with its GUID and functional area.
 |RSS feed  <br/> |PSETID_PostRss{00062041-0000-0000-C000-000000000046}  <br/> |
 |Sharing  <br/> |PSETID_Sharing{00062040-0000-0000-C000-000000000046}  <br/> |
 |Sticky note  <br/> |PSETID_Note{0006200E-0000-0000-C000-000000000046}  <br/> |
-|Sync  <br/> |SETID_AirSync{71035549-0739-4DCB-9163-00F0580DBBDF}  <br/> |
+|Sync  <br/> |PSETID_AirSync{71035549-0739-4DCB-9163-00F0580DBBDF}  <br/> |
 |Task  <br/> |PSETID_Task{00062003-0000-0000-C000-000000000046}  <br/> |
 |Unified messaging  <br/> |PSETID_UnifiedMessaging{4442858E-A9E3-4E80-B900-317A210CC15B}  <br/> |
    
