@@ -38,7 +38,7 @@ To get a reference to the ShdwType cell by name from another formula, or from a 
 |:-----|:-----|
 | **Cell name:**  <br/> | ShdwType  <br/> |
    
-To get a reference to the ShapeShdwOffsetX cell by index from a program, use the **CellsSRC** property with the following arguments: 
+To get a reference to the ShdwType cell by index from a program, use the **CellsSRC** property with the following arguments: 
   
 ||Value |
 |:-----|:-----|
