@@ -5,7 +5,7 @@ manager: lijia
 ms.date: 10/11/2023
 ms.audience: Developer
  
-ms.localizationpriority: low
+ms.localizationpriority: medium
 ms.assetid: 
 description: "Overview of public Office MSO functions."
 ---
