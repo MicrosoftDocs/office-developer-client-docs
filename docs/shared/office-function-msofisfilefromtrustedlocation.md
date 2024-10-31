@@ -14,7 +14,7 @@ topic_type:
 - APIRef
 - kbSyntax
 APIPlatform: Office
-ms.localizationpriority: low
+ms.localizationpriority: medium
 ms.assetid: 
 description: "Find information about the MsoFIsFileFromTrustedLocation function."
 ---
