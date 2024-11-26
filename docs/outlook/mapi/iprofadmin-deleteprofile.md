@@ -37,14 +37,21 @@ HRESULT DeleteProfile(
     
  _ulFlags_
   
-> [in] Always NULL. 
-    
+> [in] A bitmask of flags that controls how a profile is deleted.  The following flags can be set:
+
+MAPI_APP_PROFILE
+
+> Allows deleting an "app" profile.  This flag must be set if the profile to be deleted is an "app" profile.
+
 ## Return value
 
 S_OK 
   
 > The profile was successfully deleted.
-    
+MAPI_E_NO_ACCESS
+  
+> The existing profile is an "app" profile, and the MAPI_APP_PROFILE flag was not set.  The profile is not deleted.
+
 MAPI_E_NOT_FOUND 
   
 > The specified profile does not exist.
