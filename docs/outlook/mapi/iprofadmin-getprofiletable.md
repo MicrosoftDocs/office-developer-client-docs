@@ -33,8 +33,12 @@ HRESULT GetProfileTable(
 
  _ulFlags_
   
-> [in] Always NULL.
-    
+> [in] A bitmask of flags that controls the profiles that are returned in the table.  The following flags can be set:
+
+MAPI_APP_PROFILE
+
+> Include "app" profiles in the profile table.
+
  _lppTable_
   
 > [out] A pointer to a pointer to the profile table.
@@ -49,8 +53,8 @@ S_OK
 
 The **IProfAdmin::GetProfileTable** method provides access to the profile table, which contains one row for every available profile. There are only two columns in each row: the profile's display name, and a flag that indicates whether the profile is the default. 
   
-Profiles that have been deleted, or that are in use but have been marked for deletion, are not included in the profile table. The profile table is static; subsequent additions and deletions of profiles are not reflected in the table. 
-  
+Profiles that have been deleted, or that are in use but have been marked for deletion, are not included in the profile table. If the MAPI_APP_PROFILE flag is set, "app" profiles are included in the profile table; Otherwise, "app" profiles are not included. The profile table is static; subsequent additions and deletions of profiles are not reflected in the table. 
+
 If no profiles exist, **GetProfileTable** returns a table with zero rows. 
   
 For more information about the profile table, see [Profile Tables](profile-tables.md). 
