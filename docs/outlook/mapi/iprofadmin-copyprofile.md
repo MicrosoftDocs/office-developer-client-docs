@@ -53,16 +53,14 @@ HRESULTCopyProfile(
   
 > [in] A bitmask of flags that controls how the profile is copied. The following flags can be set:
 
-MAPI_DIALOG
-  
-> Displays a dialog box that prompts the user for the correct password of the profile to copy. If this flag is not set, no dialog box is displayed.
-
 MAPI_APP_PROFILE
 
 > Allows copying an "app" profile.  This flag must be set if the existing profile is an "app" profile.
 
-## Return value
+MAPI_DIALOG
 
+> Displays a dialog box that prompts the user for the correct password of the profile to copy. If this flag is not set, no dialog box is displayed.
+## Return value
 S_OK
   
 > The profile was successfully copied.
