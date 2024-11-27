@@ -49,7 +49,11 @@ HRESULT CreateProfile(
  _ulFlags_
   
 > [in] A bitmask of flags that controls how the profile is created. The following flags can be set:
-    
+
+MAPI_APP_PROFILE
+
+> MAPI should create this profile as an "app" profile, which limits discoverability and interactions.
+
 MAPI_DEFAULT_SERVICES 
   
 > MAPI should populate the new profile with the message services that are included in the [Default Services] section of the Mapisvc.inf file.
@@ -87,7 +91,10 @@ The name of the new profile and its password can be up to 64 characters in lengt
 - Embedded spaces, but not leading or trailing spaces.
     
 The  _lpszPassword_ parameter must be NULL or a pointer to a zero-length string. 
-  
+
+> [!CAUTION]
+> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
+
 ## See also
 
 
