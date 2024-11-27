@@ -64,15 +64,15 @@ MAPI_APP_PROFILE
 S_OK 
   
 > The profile was successfully renamed.
-    
-MAPI_E_NO_ACCESS
-
-> The profile is an "app" profile, and the MAPI_APP_PROFILE flag was not set.
 
 MAPI_E_LOGON_FAILED 
 
 > The profile password is incorrect.
-    
+
+MAPI_E_NO_ACCESS
+
+> The profile is an "app" profile, and the MAPI_APP_PROFILE flag was not set.
+
 MAPI_E_USER_CANCEL 
   
 > The user canceled the operation, typically by clicking the **Cancel** button in a dialog box. 
