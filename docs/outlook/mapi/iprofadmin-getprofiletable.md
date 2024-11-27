@@ -33,7 +33,7 @@ HRESULT GetProfileTable(
 
  _ulFlags_
   
-> [in] A bitmask of flags that controls the profiles that are returned in the table.  The following flags can be set:
+> [in] A bitmask of flags that controls the profiles that are returned in the table.  The following flag can be set:
 
 MAPI_APP_PROFILE
 
@@ -58,7 +58,12 @@ Profiles that have been deleted, or that are in use but have been marked for del
 If no profiles exist, **GetProfileTable** returns a table with zero rows. 
   
 For more information about the profile table, see [Profile Tables](profile-tables.md). 
-  
+
+## Notes to callers
+
+> [!CAUTION]
+> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
+
 ## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
