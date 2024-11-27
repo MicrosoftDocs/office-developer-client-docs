@@ -37,7 +37,7 @@ HRESULT DeleteProfile(
     
  _ulFlags_
   
-> [in] A bitmask of flags that controls how a profile is deleted.  The following flags can be set:
+> [in] A bitmask of flags that controls how a profile is deleted.  The following flag can be set:
 
 MAPI_APP_PROFILE
 
@@ -50,7 +50,7 @@ S_OK
 > The profile was successfully deleted.
 MAPI_E_NO_ACCESS
   
-> The existing profile is an "app" profile, and the MAPI_APP_PROFILE flag was not set.  The profile is not deleted.
+> The profile is an "app" profile, and the MAPI_APP_PROFILE flag was not set.
 
 MAPI_E_NOT_FOUND 
   
@@ -63,7 +63,14 @@ The **IProfAdmin::DeleteProfile** method deletes a profile. If the profile to de
 The entry point function for each message service in the profile is called with the MSG_SERVICE_DELETE value set in the _ulContext_ parameter. First, the function deletes the service, and then it deletes the service's profile section. The message service entry point function is not called again after the service has been deleted. 
   
 No password is required to delete a profile.
-  
+
+
+
+## Notes to callers
+
+> [!CAUTION]
+> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
+
 ## MFCMAPI reference
 
 For MFCMAPI sample code, see the following table.
