@@ -102,6 +102,11 @@ If  _lpszOldPassword_ is set to NULL, the profile to be copied requires a passwo
 
 If the existing profile is an "app" profile, and the MAPI_APP_PROFILE flag is not set, **CopyProfile** returns MAPI_E_NO_ACCESS.  If the existing profile is an "app" profile, and the MAPI_APP_PROFILE is set, the new profile will also be an "app" profile.  If the existing profile is not an "app" profile, the new profile will not be an "app" profile regardless of the MAPI_APP_PROFILE flag.
 
+## Notes to callers
+
+> [!CAUTION]
+> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
+
 ## See also
 
 [IProfAdmin : IUnknown](iprofadminiunknown.md)
