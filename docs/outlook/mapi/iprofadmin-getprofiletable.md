@@ -38,6 +38,8 @@ HRESULT GetProfileTable(
 MAPI_APP_PROFILE
 
 > Include "app" profiles in the profile table.
+> 
+> This flag may not be recognized or supported in all MAPI implementations.
 
  _lppTable_
   
@@ -58,11 +60,6 @@ Profiles that have been deleted, or that are in use but have been marked for del
 If no profiles exist, **GetProfileTable** returns a table with zero rows. 
   
 For more information about the profile table, see [Profile Tables](profile-tables.md). 
-
-## Notes to callers
-
-> [!CAUTION]
-> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
 
 ## MFCMAPI reference
 
