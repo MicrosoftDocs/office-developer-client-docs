@@ -50,7 +50,9 @@ MAPI_APP_PROFILE
 S_OK 
   
 > The profile was successfully deleted.
+
 MAPI_E_NO_ACCESS
+
 > The profile is an "app" profile, and the MAPI_APP_PROFILE flag was not set.
 
 MAPI_E_NOT_FOUND 
