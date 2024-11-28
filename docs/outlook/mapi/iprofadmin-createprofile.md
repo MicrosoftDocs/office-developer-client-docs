@@ -53,6 +53,8 @@ HRESULT CreateProfile(
 MAPI_APP_PROFILE
 
 > MAPI should create this profile as an "app" profile, which limits discoverability and interactions.
+> 
+> This flag may not be recognized or supported in all MAPI implementations.
 
 MAPI_DEFAULT_SERVICES 
   
@@ -91,9 +93,6 @@ The name of the new profile and its password can be up to 64 characters in lengt
 - Embedded spaces, but not leading or trailing spaces.
     
 The  _lpszPassword_ parameter must be NULL or a pointer to a zero-length string. 
-
-> [!CAUTION]
-> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
 
 ## See also
 
