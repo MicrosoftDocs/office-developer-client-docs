@@ -58,6 +58,8 @@ HRESULT RenameProfile(
 MAPI_APP_PROFILE
 
 > Allows renaming an "app" profile. This flag must be set if the profile is an "app" profile.
+> 
+> This flag may not be recognized or supported in all MAPI implementations.
 
 ## Return value
 
@@ -88,11 +90,6 @@ The old and new names of the profile can be up to 64 characters in length and ca
 - Embedded spaces, but not leading or trailing spaces.
     
 The  _lpszPassword_ should always be NULL or a pointer to a zero-length string. 
-
-## Notes to callers
-
-> [!CAUTION]
-> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
 
 ## See also
 
