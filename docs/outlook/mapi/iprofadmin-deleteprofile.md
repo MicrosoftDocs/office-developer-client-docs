@@ -42,6 +42,8 @@ HRESULT DeleteProfile(
 MAPI_APP_PROFILE
 
 > Allows deleting an "app" profile.  This flag must be set if the profile to be deleted is an "app" profile.
+> 
+> This flag may not be recognized or supported in all MAPI implementations.
 
 ## Return value
 
@@ -65,11 +67,6 @@ The entry point function for each message service in the profile is called with 
 No password is required to delete a profile.
 
 
-
-## Notes to callers
-
-> [!CAUTION]
-> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
 
 ## MFCMAPI reference
 
