@@ -56,6 +56,8 @@ HRESULTCopyProfile(
 MAPI_APP_PROFILE
 
 > Allows copying an "app" profile.  This flag must be set if the existing profile is an "app" profile.
+> 
+> This flag may not be recognized or supported in all MAPI implementations.
 
 MAPI_DIALOG
 
@@ -99,11 +101,6 @@ Profile passwords are not supported on all operating systems. On operating syste
 If  _lpszOldPassword_ is set to NULL, the profile to be copied requires a password, and the MAPI_DIALOG flag is set; a dialog box that prompts the user to provide the password is displayed. If a password is required, but  _lpszOldPassword_ is set to NULL and the MAPI_DIALOG flag is not set, **CopyProfile** returns MAPI_E_LOGON_FAILED.
 
 If the existing profile is an "app" profile, and the MAPI_APP_PROFILE flag is not set, **CopyProfile** returns MAPI_E_NO_ACCESS.  If the existing profile is an "app" profile, and the MAPI_APP_PROFILE is set, the new profile will also be an "app" profile.  If the existing profile is not an "app" profile, the new profile will not be an "app" profile regardless of the MAPI_APP_PROFILE flag.
-
-## Notes to callers
-
-> [!CAUTION]
-> The MAPI_APP_PROFILE flag is only supported in versions 2405 and newer.  Using this flag in earlier versions may fail.
 
 ## See also
 
