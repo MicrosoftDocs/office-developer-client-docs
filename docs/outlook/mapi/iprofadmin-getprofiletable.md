@@ -33,7 +33,7 @@ HRESULT GetProfileTable(
 
  _ulFlags_
   
-> [in] A bitmask of flags that controls the profiles that are returned in the table.  The following flag can be set:
+> [in] A bitmask of flags that controls how the profile table is populated. The following flag can be set:
 
 MAPI_APP_PROFILE
 
