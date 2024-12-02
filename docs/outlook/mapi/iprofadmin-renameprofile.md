@@ -53,18 +53,28 @@ HRESULT RenameProfile(
     
  _ulFlags_
   
-> [in] Always NULL.
-    
+> [in] A bitmask of flags that controls how the profile is renamed.  The following flag can be set:
+
+MAPI_APP_PROFILE
+
+> Allows renaming an "app" profile. This flag must be set if the profile is an "app" profile.
+> 
+> This flag may not be recognized or supported in all MAPI implementations.
+
 ## Return value
 
 S_OK 
   
 > The profile was successfully renamed.
-    
+
 MAPI_E_LOGON_FAILED 
-  
+
 > The profile password is incorrect.
-    
+
+MAPI_E_NO_ACCESS
+
+> The profile is an "app" profile, and the MAPI_APP_PROFILE flag was not set.
+
 MAPI_E_USER_CANCEL 
   
 > The user canceled the operation, typically by clicking the **Cancel** button in a dialog box. 
@@ -80,7 +90,7 @@ The old and new names of the profile can be up to 64 characters in length and ca
 - Embedded spaces, but not leading or trailing spaces.
     
 The  _lpszPassword_ should always be NULL or a pointer to a zero-length string. 
-  
+
 ## See also
 
 
