@@ -53,12 +53,16 @@ HRESULTCopyProfile(
   
 > [in] A bitmask of flags that controls how the profile is copied. The following flags can be set:
 
+MAPI_APP_PROFILE
+
+> Allows copying an "app" profile.  This flag must be set if the existing profile is an "app" profile.
+> 
+> This flag may not be recognized or supported in all MAPI implementations.
+
 MAPI_DIALOG
-  
+
 > Displays a dialog box that prompts the user for the correct password of the profile to copy. If this flag is not set, no dialog box is displayed.
-
 ## Return value
-
 S_OK
   
 > The profile was successfully copied.
@@ -70,6 +74,10 @@ MAPI_E_ACCESS_DENIED
 MAPI_E_LOGON_FAILED
   
 > The password for the profile to copy is incorrect, and a dialog box could not be displayed to the user to request the correct password because MAPI_DIALOG was not set in the _ulFlags_ parameter.
+
+MAPI_E_NO_ACCESS
+
+> The existing profile is an "app" profile, and the MAPI_APP_PROFILE flag was not set.
 
 MAPI_E_NOT_FOUND
   
@@ -91,7 +99,9 @@ The name of the original profile, its password, and the copy can be up to 64 cha
 Profile passwords are not supported on all operating systems. On operating systems that do not support profile passwords, _lpszOldPassword_ can be NULL or a pointer to a zero-length string.
   
 If  _lpszOldPassword_ is set to NULL, the profile to be copied requires a password, and the MAPI_DIALOG flag is set; a dialog box that prompts the user to provide the password is displayed. If a password is required, but  _lpszOldPassword_ is set to NULL and the MAPI_DIALOG flag is not set, **CopyProfile** returns MAPI_E_LOGON_FAILED.
-  
+
+If the existing profile is an "app" profile, and the MAPI_APP_PROFILE flag is not set, **CopyProfile** returns MAPI_E_NO_ACCESS.  If the existing profile is an "app" profile, and the MAPI_APP_PROFILE is set, the new profile will also be an "app" profile.  If the existing profile is not an "app" profile, the new profile will not be an "app" profile regardless of the MAPI_APP_PROFILE flag.
+
 ## See also
 
 [IProfAdmin : IUnknown](iprofadminiunknown.md)

@@ -59,7 +59,12 @@ HRESULT MAPILogonEx(
 MAPI_ALLOW_OTHERS 
   
 > The shared session should be returned, which allows later clients to obtain the session without providing any user credentials. 
-    
+
+MAPI_APP_PROFILE
+
+> Include "app" profiles in the logon dialog list. If this flag is not set, "app" profiles are not included.
+> This flag may not be recognized or supported in all MAPI implementations.
+
 MAPI_BG_SESSION
   
 > Log on to a session and run any operations in the background. In general, if a client intends to do processing on a background thread or in a separate process in a manner that is unobtrusive to the foreground thread, it should call with the MAPI_BG_SESSION flag. A client application such as an indexing engine or opening a Personal Folders File (PST) for background type access are some examples of where to use MAPI_BG_SESSION.MAPILogonEx.
@@ -135,7 +140,7 @@ MAPI_E_USER_CANCEL
 MAPI client applications call the MAPILogonEx function to log on to a session with the messaging system. All strings that are passed in and returned to and from MAPI calls are null-terminated and must be specified in the current character set or code page of the calling client or provider's operating system.
   
 The  _lpszProfileName_ parameter is ignored if there is an existing previous session that called MapiLogonEx with the MAPI_ALLOW_OTHERS flag set and if the flag MAPI_NEW_SESSION is not set. If the  _lpszProfileName_ parameter is NULL or points to an empty string, and the  _flFlags_ parameter includes the MAPI_LOGON_UI flag, the MAPILogonEx function generates a logon dialog box that has an empty field for the profile name. 
-  
+
 When logging on to a specific profile, a client should pass the MAPI_NEW_SESSION flag into MAPILogonEx in addition to the profile name. Otherwise, if another client has established a shared session by logging on with MAPI_ALLOW_OTHERS, the client will be logged on to the shared session instead of to the profile requested. 
   
 The MAPI_EXPLICIT_PROFILE flag does not cause the default profile name to be used when  _lpszProfileName_ is NULL or empty unless the MAPI_USE_DEFAULT flag is also present. 

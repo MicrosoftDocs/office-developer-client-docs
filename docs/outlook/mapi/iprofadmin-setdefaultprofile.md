@@ -50,14 +50,17 @@ S_OK
   
 > A default profile was successfully established or removed.
     
+E_FAIL
+
+> The specified profile cannot be set as the default profile.
+
 MAPI_E_NOT_FOUND 
-  
+
 > The specified profile does not exist.
-    
 ## Remarks
 
-The **IProfAdmin::SetDefaultProfile** method either establishes a particular profile as the client's default profile or clears the current default profile. The default profile is the profile that is automatically used whenever the client begins a MAPI session. **SetDefaultProfile** also sets the new default profile's **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) property to TRUE.
-  
+The **IProfAdmin::SetDefaultProfile** method either establishes a particular profile as the client's default profile or clears the current default profile. An "app" profile cannot be set as the default profile. The default profile is the profile that is automatically used whenever the client begins a MAPI session. **SetDefaultProfile** also sets the new default profile's **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) property to TRUE.
+
 ## Notes to callers
 
 To start a session with the default profile, pass the MAPI_USE_DEFAULT flag to the [MAPILogonEx](mapilogonex.md) function. 
