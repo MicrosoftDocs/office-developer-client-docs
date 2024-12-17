@@ -13,7 +13,7 @@ ms.localizationpriority: high
 Find how-to content, technical articles, reference content, and blog posts for developing solutions and customizing OneNote desktop client applications.
   
 > [!NOTE]
-> The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](https://dev.onenote.com/). 
+> The APIs described in this documentation are intended only for OneNote Win32 desktop client solutions in unconnected scenarios. For connected scenarios, use the recommended OneNote service APIs. To learn more, visit [dev.onenote.com](https://dev.onenote.com/).
   
 > [!NOTE]
 > Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).  

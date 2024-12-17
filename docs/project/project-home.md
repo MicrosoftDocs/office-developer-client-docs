@@ -8,26 +8,26 @@ description: "Find how-to content, sample code, SDK and API documentation, VBA r
 ms.localizationpriority: high
 ---
 
-# Project 
+# Project
 
 Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Project.
   
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins). 
+> Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).
   
-### Viewed most
+## Viewed most
   
 - [Project VBA reference](/office/vba/api/overview/project)
   
 - [Project 2010](/previous-versions/office/project-server-2010/cc303399(v=office.14))
   
-### Office Add-ins
+## Office Add-ins
   
 - [Get started with Project add-ins](/office/dev/add-ins/quickstarts/project-quickstart)
   
 - [Platform overview](/office/dev/add-ins/overview/office-add-ins)
   
-### Other resources
+## Other resources
   
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference)
   
@@ -36,5 +36,3 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Open XML SDK](/office/open-xml/open-xml-sdk)
   
 - [VSTO Add-ins for Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio?view=vs-2017&preserve-view=true)
-  
-

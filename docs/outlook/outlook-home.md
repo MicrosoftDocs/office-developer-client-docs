@@ -10,28 +10,28 @@ ms.localizationpriority: high
 
 # Outlook
 
-Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Outlook. 
+Find how-to content, sample code, SDK and API documentation, VBA references, training, and technical articles for developing solutions and customizing Outlook.
 
 > [!NOTE]
-> Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins). 
-  
-### Viewed most
+> Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).
+
+## Viewed most
   
 - [Outlook VBA reference](/office/vba/api/overview/outlook)
   
 - [Outlook 2010](/previous-versions/office/developer/office-2010/cc313152(v=office.12))
   
-### Office Add-ins
+## Office Add-ins
   
 - [Get started with Outlook add-ins](/outlook/add-ins/quick-start?tabs=visual-studio)
   
 - [Platform overview](/office/dev/add-ins/overview/office-add-ins)
   
-### Code samples
+## Code samples
   
 - [Outlook code samples on Office Dev Center](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=Outlook,Samples&search=)
   
-### Other resources
+## Other resources
   
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference)
   
@@ -40,5 +40,3 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 - [Open XML SDK](/office/open-xml/open-xml-sdk)
   
 - [VSTO Add-ins for Office](/visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio)
-  
-
