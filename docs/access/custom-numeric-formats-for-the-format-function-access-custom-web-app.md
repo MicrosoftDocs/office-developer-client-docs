@@ -1,6 +1,6 @@
 ---
 title: "Custom numeric formats for the Format function (Access custom web app)"
-manager: kelbow
+manager: lindalu
 ms.date: 08/18/2017
 ms.audience: Developer 
 ms.assetid: 97efe972-d873-47d7-be81-8ae3461870c4

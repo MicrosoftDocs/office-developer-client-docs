@@ -1,6 +1,6 @@
 ---
 title: "Project"
-manager: kelbow
+manager: lindalu
 ms.date: 12/13/2017
 ms.audience: Developer
 ms.assetid: 71d3ae83-3b5d-47c1-b618-4acf13470afb

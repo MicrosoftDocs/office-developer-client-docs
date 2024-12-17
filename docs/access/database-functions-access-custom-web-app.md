@@ -1,6 +1,6 @@
 ---
 title: "Database functions (Access custom web app)"  
-manager: kelbow
+manager: lindalu
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.localizationpriority: medium

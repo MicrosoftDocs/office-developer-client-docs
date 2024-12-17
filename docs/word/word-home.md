@@ -1,6 +1,6 @@
 ---
 title: "Word"
-manager: kelbow
+manager: lindalu
 ms.date: 12/13/2017
 ms.audience: Developer
 ms.assetid: 9eeb591e-b040-4a53-beef-f69913543fb4

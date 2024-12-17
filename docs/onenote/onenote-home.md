@@ -1,6 +1,6 @@
 ---
 title: "OneNote"
-manager: kelbow
+manager: lindalu
 ms.date: 12/13/2017
 ms.audience: Developer
 ms.assetid: c3eccf27-c8a3-4fb3-8fb4-7177474389a5

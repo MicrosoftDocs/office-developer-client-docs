@@ -1,7 +1,7 @@
 ---
 title: "Var Function (Access custom web app)"
   
-manager: kelbow
+manager: lindalu
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference  

@@ -1,6 +1,6 @@
 ---
 title: "Outlook"
-manager: kelbow
+manager: lindalu
 ms.date: 12/13/2017
 ms.audience: Developer
 ms.assetid: 59d639e4-d171-4556-a1b9-bf9ecb1f85cf

@@ -1,6 +1,6 @@
 ---
 title: "Custom date and time formats for the Format function (Access custom web app)" 
-manager: kelbow
+manager: lindalu
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.assetid: f7d15fe6-bdad-4f1f-aa18-12a21fc111c4
