@@ -13,11 +13,11 @@ ms.localizationpriority: high
 Learn how to control how a date or time is displayed by creating a custom formatting.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices.
   
 ## Format specifications
 
-The following table lists characters you can use with the [Format Function (Access custom web app)](format-function-access-custom-web-app.md) function to create custom date and time formats. 
+The following table lists characters you can use with the [Format Function (Access custom web app)](format-function-access-custom-web-app.md) function to create custom date and time formats.
   
 |**Format specification**|**Description**|
 |:-----|:-----|
@@ -52,14 +52,12 @@ The following table lists characters you can use with the [Format Function (Acce
 |z  <br/> |Displays the timezone offset with a leading zero (for example, -08). |
 |zz  <br/> |Displays the timezone offset with a leading zero (for example, -08)  <br/> |
 |zzz  <br/> |Displays the full timezone offset (for example, -08:00)  <br/> |
-   
+
 ## Remarks
 
 Formatting strings are case-sensitive. Different formatting can be obtained by using a different case. For example, when formatting a date value with the string "D" you get the date in the long format (according to your current locale). However, if you change the case to "d" you get the date in the short format. Also, unexpected results or an error might occur if the intended formatting does not match the case of any defined format string.
   
 ## See also
 
-- [Format function (Access custom web app)](format-function-access-custom-web-app.md) 
+- [Format function (Access custom web app)](format-function-access-custom-web-app.md)
 - [Custom numeric formats for the Format function (Access custom web app)](custom-numeric-formats-for-the-format-function-access-custom-web-app.md)
-  
-

@@ -36,7 +36,7 @@ The following table lists characters you can use to create user-defined number f
 |**- + $ ( )** <br/> |Literal characters. These characters are displayed exactly as typed in the format string. To display a character other than one of those listed, precede it with a backslash (\) or enclose it in double quotation marks (" "). |
 |\ (backward slash character)  <br/> |Displays the next character in the format string. To display a character that has special meaning as a literal character, precede it with a backslash (\). The backslash itself isn't displayed. By using a backslash is the same as enclosing the next character in double quotation marks. To display a backslash, use two backslashes (\\). Examples of characters that can't be displayed as literal characters are the date-formatting and time-formatting characters (a, c, d, h, m, n, p, q, s, t, w, y, /, and :), the numeric-formatting characters (#, 0, %, E, e, comma, and period), and the string-formatting characters (@, &amp;, \<, \>, and !). |
 |"ABC"  <br/> |Displays the string inside the double quotation marks (" "). To include a string in the style argument within code, you must use Chr(34) to enclose the text (34 is the character code for a quotation mark (")). |
-   
+
 The following table contains some sample format expressions for numbers. (These examples all assume that your system's locale setting is English-U.S.) The first column contains the format strings for the Format function. The other columns contain the resulting output if the formatted data has the value given in the column headings.
   
 |**Format (Style)**|**"5" formatted as**|**"-5" formatted as**|**"0.5" formatted as**|**"0" formatted as**|
@@ -52,7 +52,7 @@ The following table contains some sample format expressions for numbers. (These 
 |0.00E+00  <br/> |5.00E+00  <br/> |-5.00E+00  <br/> |5.00E-01  <br/> |0.00E+00  <br/> |
 |0.00E-00  <br/> |5.00E00  <br/> |-5.00E00  <br/> |5.00E-01  <br/> |0.00E00  <br/> |
 |"$#,##0;;\Z\e\r\o"  <br/> |$5  <br/> |$-5  <br/> |$1  <br/> |Zero  <br/> |
-   
+
 ## Remarks
 <a name="bk_addresources"> </a>
 
@@ -62,5 +62,4 @@ If you include semicolons with nothing between them, the missing section is disp
 
 - [Format Function (Access custom web app)](format-function-access-custom-web-app.md) 
 - [Custom date and time formats for the Format function (Access custom web app)](custom-date-and-time-formats-for-the-format-function-access-custom-web-app.md)
-  
-
+- 

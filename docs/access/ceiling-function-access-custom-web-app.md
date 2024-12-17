@@ -13,16 +13,14 @@ description: "Returns the smallest integer greater than, or equal to, the specif
 Returns the smallest integer greater than, or equal to, the specified numeric expression.
   
 > [!IMPORTANT]
-> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices. 
+> Microsoft no longer recommends creating and using Access web apps in SharePoint. As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/) to build no-code business solutions for the web and mobile devices.
   
 ## Syntax
 
-**Ceiling** (*NumericExpression*) 
+**Ceiling** (*NumericExpression*)
   
 The Ceiling function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
 | *NumericExpression*  <br/> |A numeric expression. |
-   
-

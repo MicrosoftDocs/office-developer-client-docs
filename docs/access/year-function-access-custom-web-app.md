@@ -1,12 +1,9 @@
 ---
-title: "Year Function (Access custom web app)"
- 
- 
+title: "Year Function (Access custom web app)" 
 manager: lindalu
 ms.date: 09/05/2017
 ms.audience: Developer
-ms.topic: reference
-  
+ms.topic: reference  
 ms.localizationpriority: medium
 ms.assetid: a70751eb-bfde-4f7d-ad90-a1e4cca25dbc
 description: "Returns a numeric value that represents the year of the specified date in the Gregorian calendar."

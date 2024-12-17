@@ -22,7 +22,7 @@ For information about features that have been changed or removed since Office 20
 
 These messages can appear if the file contains a control that may not be supported in Office or on the computer operating system.
   
-**Table 1. Issues displayed in the telemetry log about controls**
+The following table contains issues displayed in the telemetry log about controls.
 
 |**Event ID**|**Introduced in version**|**Applications affected**|**Additional information**|**Title**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -39,7 +39,7 @@ These messages can appear if the file contains a control that may not be support
 
 These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been removed from the application's object model.
   
-**Table 2. Issues displayed in the telemetry log about removed and deprecated members**
+The following table contains issues displayed in the telemetry log about removed and deprecated members.
 
 |**Event ID**|**Introduced in version**|**Applications affected**|**Additional Information**|**Title**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -60,7 +60,7 @@ These messages can appear if the add-in or macro-enabled document code uses an o
 
 These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that behaves differently from previous versions of Office.
   
-**Table 3. Issues displayed in the telemetry log about behavior changes**
+The following table contains issues displayed in the telemetry log about behavior changes.
 
 |**Event ID**|**Introduced in version**|**Applications affected**|**Additional Information**|**Title**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -78,7 +78,7 @@ These messages can appear if the add-in or macro-enabled document code uses an o
 
 These messages can appear if the add-in or macro-enabled document code uses an object, member, collection, enumeration, or constant that has been hidden in the application's object model.
   
-**Table 4. Issues displayed in the telemetry log about hidden members**
+The following table contains issues displayed in the telemetry log about hidden members.
 
 |**Event ID**|**Introduced in version**|**Applications affected**|**Additional Information**|**Title**|**Description**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
