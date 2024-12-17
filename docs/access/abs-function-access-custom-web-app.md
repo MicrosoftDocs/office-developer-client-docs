@@ -1,12 +1,8 @@
 ---
 title: "Abs Function (Access custom web app)"
-  
-  
-manager: kelbow
+manager: lindalu
 ms.date: 09/05/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer  
 ms.localizationpriority: medium
 ms.assetid: c880a662-dc4b-4b37-bbd4-3cb681dc1d1c
 description: "Returns the absolute (positive) value of the specified numeric expression."
@@ -21,12 +17,10 @@ Returns the absolute (positive) value of the specified numeric expression.
   
 ## Syntax
 
- **Abs** (*NumericExpression*) 
+ **Abs** (*NumericExpression*)
   
-The **Abs** function contains the following argument. 
+The **Abs** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |A numeric expression. |
-   
-
+| *NumericExpression* |A numeric expression. |
