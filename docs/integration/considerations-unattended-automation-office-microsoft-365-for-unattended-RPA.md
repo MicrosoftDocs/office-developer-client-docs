@@ -1,9 +1,8 @@
 ---
 title: "Considerations for unattended automation of Office in the Microsoft 365 for unattended RPA environment"
-
+manager: lindalu
 ms.date: 03/30/2020
-ms.audience: Developer
- 
+ms.audience: Developer 
 ms.localizationpriority: medium
 description: "Considerations for unattended automation of Office in the Microsoft 365 for unattended RPA environment."
 ---
@@ -63,7 +62,7 @@ Microsoft strongly recommends a few alternatives that do not require Office to b
 
 The Microsoft Graph API provides access to the services, data, and intelligence that are available to users and solutions as part of the Microsoft cloud, including many services supporting the needs of unattended automation: access to users’ mail / calendar / contacts / files, document conversion, Excel workbook calculation, and more. These services are designed for unattended use and high-scale access, and utilize a standard RESTful API syntax. For more information on Microsoft Graph and how to use it to work with users’ data, visit the following:
 
-- [Overview of Microsoft Graph](/graph/overview) 
+- [Overview of Microsoft Graph](/graph/overview)
 - [Get started with Microsoft Graph](https://developer.microsoft.com/graph/get-started)
 - [Download a file in another format](/graph/api/driveitem-get-content-format?view=graph-rest-1.0&tabs=http&preserve-view=true) (file conversion)
 - [Working with Excel in Microsoft Graph](/graph/api/resources/excel) (workbook details)

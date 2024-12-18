@@ -1,12 +1,8 @@
 ---
-title: "Integrate with Office from Android applications"
- 
- 
+title: "Integrate with Office from Android applications" 
 manager: lindalu
 ms.date: 06/18/2015
-ms.audience: Developer
- 
- 
+ms.audience: Developer 
 ms.localizationpriority: medium
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
 description: "Office for Android provides an extensible solution that enables integration with third-party applications. You can integrate with Office from your Android application by passing users from your application to Office."
@@ -25,11 +21,11 @@ When a user is done editing a file, they can choose the back key on the device t
 Your referring application will first need to verify that a particular Office application is installed. The following Office applications can be installed on Android devices for document viewing and editing: 
   
 - Excel
-    
+
 - PowerPoint
-    
+
 - Word
-    
+
 Use Android PackageManager to determine whether a particular Office application is installed on the device. The following table lists the package names for the Office applications that you can use in this process.
   
 |**Application**|**Package name**|
@@ -37,7 +33,7 @@ Use Android PackageManager to determine whether a particular Office application 
 |Excel  <br/> |com.microsoft.office.excel  <br/> |
 |PowerPoint  <br/> |com.microsoft.office.powerpoint  <br/> |
 |Word  <br/> |com.microsoft.office.word  <br/> |
-   
+
 ### Prompt the user to install Office
 
 If a particular Office application is not installed, you can prompt the user to install the application. The following table lists the available install locations for Office applications.
@@ -47,17 +43,17 @@ If a particular Office application is not installed, you can prompt the user to 
 |Excel  <br/> |[https://play.google.com/store/apps/details?id=com.microsoft.office.excel](https://play.google.com/store/apps/details?id=com.microsoft.office.excel) <br/> |
 |PowerPoint  <br/> |[https://play.google.com/store/apps/details?id=com.microsoft.office.powerpoint](https://play.google.com/store/apps/details?id=com.microsoft.office.powerpoint) <br/> |
 |Word  <br/> |[https://play.google.com/store/apps/details?id=com.microsoft.office.word](https://play.google.com/store/apps/details?id=com.microsoft.office.word) <br/> |
-   
+
 ## Invoke Office
 
 When the Office application is installed, your referring application can invoke Office by passing the following details:
   
 - Office protocol
-    
+
 - Open mode
-    
+
 - URL
-    
+
 Schema format:
   
  `<Office protocol><open mode>|u|<URL>`
@@ -89,11 +85,11 @@ Schema format:
 The URL includes three parts:
   
 - The declaration that the file will be opened for edit (ofe)
-    
+
 - The URL descriptor (|u|)
-    
+
 - The URL
-    
+
 The URL has to be encoded and must be a direct link to the file (not a redirect). If the URL is in a format that Office cannot handle, or the download simply fails, Office will not return the user to the invoking application.
   
 Schema format:
@@ -101,12 +97,11 @@ Schema format:
  `|u|<document URL>`
   
 ## See also
+
 <a name="bk_addresources"> </a>
 
 - [Integrate with Office](integrate-with-office.md)
-    
-- [PackageManager](https://developer.android.com/reference/android/content/pm/PackageManager.html)
-    
-- [GetPackageManager()](https://developer.android.com/reference/android/content/Context.html)
-    
 
+- [PackageManager](https://developer.android.com/reference/android/content/pm/PackageManager.html)
+
+- [GetPackageManager()](https://developer.android.com/reference/android/content/Context.html)
