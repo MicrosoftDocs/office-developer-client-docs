@@ -15,7 +15,7 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 > [!NOTE]
 > Interested in developing solutions that extend the Office experience across [multiple platforms](/javascript/api/requirement-sets)? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).
   
-### Viewed most
+## Viewed most
   
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference)
   
@@ -25,29 +25,29 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
   
 - [Office 2010](/previous-versions/office/developer/office-2010/cc313152(v=office.12))
   
-### Office 365 APIs
+## Office 365 APIs
   
 - [Get started](https://developer.microsoft.com/office/docs)
   
 - [Platform overview](/previous-versions/office/office-365-api/)
   
-### Office Add-ins
+## Office Add-ins
   
 - [Get started](/office/dev/add-ins/)
 
 - [Platform overview](/office/dev/add-ins/overview/office-add-ins)
   
-### SharePoint Add-ins
+## SharePoint Add-ins
   
 - [Get started](/sharepoint/dev/sp-add-ins/sharepoint-add-ins)
   
-### Code samples
+## Code samples
   
 - [Code samples](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=Samples)
   
 - [OfficeDev on GitHub](https://github.com/OfficeDev)
   
-### Support
+## Support
   
 - [Office support](https://support.office.com/)
   

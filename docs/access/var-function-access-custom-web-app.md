@@ -1,7 +1,6 @@
 ---
-title: "Var Function (Access custom web app)"
-  
-manager: kelbow
+title: "Var Function (Access custom web app)"  
+manager: lindalu
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference  
@@ -25,8 +24,8 @@ The **Var** function contains the following argument.
   
 |**Argument name**|**Description**|
 |:-----|:-----|
-| *NumericExpression*  <br/> |A text expression identifying the field that contains the numeric data you want to evaluate or an expression that performs a calculation using the data in that field. Operands in *NumericExpression* can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions). |
+| *NumericExpression* |A text expression identifying the field that contains the numeric data you want to evaluate or an expression that performs a calculation using the data in that field. Operands in *NumericExpression* can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions). |
 
 ## Remarks
 
- **Var** can be used with numeric columns only. Null values are ignored. 
+ **Var** can be used with numeric columns only. Null values are ignored.

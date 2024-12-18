@@ -1,6 +1,6 @@
 ---
 title: "Word"
-manager: kelbow
+manager: lindalu
 ms.date: 12/13/2017
 ms.audience: Developer
 ms.assetid: 9eeb591e-b040-4a53-beef-f69913543fb4
@@ -16,23 +16,23 @@ Find how-to content, sample code, SDK and API documentation, VBA references, tra
 > [!NOTE]
 > Interested in developing solutions that extend the Office experience across multiple platforms? Check out the new [Office Add-ins model](/office/dev/add-ins/overview/office-add-ins).  
   
-### Viewed most
+## Viewed most
   
 - [Word VBA reference](/office/vba/api/overview/word)
   
 - [Word 2010](/previous-versions/office/developer/office-2010/ff601860(v=office.14))
   
-### Office Add-ins
+## Office Add-ins
   
 - [Get started with Word add-ins](/office/dev/add-ins/quickstarts/word-quickstart)
   
 - [Platform overview](/office/dev/add-ins/overview/office-add-ins)
   
-### Code samples
+## Code samples
   
 - [Word code samples in the Office Dev Center](https://developer.microsoft.com/microsoft-365/gallery/?filterBy=Word,Samples&search=)
   
-### Other resources
+## Other resources
   
 - [Office VBA Object library reference](/office/vba/api/overview/library-reference)
   

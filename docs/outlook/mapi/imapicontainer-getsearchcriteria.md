@@ -53,22 +53,50 @@ MAPI_UNICODE
   
 > [out] A pointer to a bitmask of flags used to indicate the current state of the search. If a client passes NULL in the _lpulSearchState_ parameter, **GetSearchCriteria** returns no flags. The following flags can be set: 
     
-SEARCH_FOREGROUND 
+SEARCH_FOREGROUND (0x1)
   
 > The search should run at high priority relative to other searches. If this flag is not set, the search runs at normal priority relative to other searches.
     
-SEARCH_REBUILD 
+SEARCH_REBUILD (0x2)
   
 > The search is in the CPU-intensive mode of its operation, trying to locate messages that match the criteria. If this flag is not set, the CPU-intensive part of the search's operation is over. This flag has meaning only if the search is active (that is, if the SEARCH_RUNNING flag is set).
     
-SEARCH_RECURSIVE 
+SEARCH_RECURSIVE (0x4)
   
 > The search is looking in specified containers and all their child containers for matching entries. If this flag is not set, only the containers explicitly included in the last call to the [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) method are being searched. 
     
-SEARCH_RUNNING 
+SEARCH_RUNNING (0x8)
   
 > The search is active and the container's contents table is being updated to reflect changes in the message store or address book. If this flag is not set, the search is inactive and the contents table is static.
-    
+
+SEARCH_COMPLETE (0x1000)
+
+> The search results are complete.
+
+SEARCH_PARTIAL (0x2000)
+
+> Only some parts of messages were included.
+
+SEARCH_STATIC (0x10000)
+
+> The search is static.
+
+SEARCH_MAYBE_STATIC (0x20000)
+
+> The search is still being evaluated.
+
+CI_TOTALLY (0x1000000)
+
+> The search is done using content indexing exclusively.
+
+CI_WITH_TWIR_RESIDUAL (0x2000000)
+
+TWIR_MOSTLY (0x4000000)
+
+TWIR_TOTALLY (0x8000000)
+
+> The search is done without using content indexing, and using tables with restrictions exclusively.
+
 ## Return value
 
 S_OK 

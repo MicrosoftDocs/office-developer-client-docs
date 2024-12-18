@@ -1,6 +1,6 @@
 ---
 title: "CreateRecord Data Block (Access custom web app)" 
-manager: kelbow
+manager: lindalu
 ms.date: 09/05/2017
 ms.audience: Developer 
 ms.localizationpriority: medium
@@ -31,7 +31,7 @@ The **CreateRecord** data block has the following arguments.
 
 ## Remarks
 
-The record created by **CreateRecord** automatically becomes the current record. 
+The record created by **CreateRecord** automatically becomes the current record.
 
 After **CreateRecord** statement, you can insert a block of commands that will execute before the new record is committed. The following actions are available in a **CreateRecord** data block.
   

@@ -1,12 +1,8 @@
 ---
-title: "Data blocks (Access custom web app)"
-  
-  
-manager: kelbow
+title: "Data blocks (Access custom web app)"  
+manager: lindalu
 ms.date: 09/05/2017
-ms.audience: Developer
- 
-  
+ms.audience: Developer  
 ms.localizationpriority: medium
 ms.assetid: 5d16f744-0ba2-4db8-9be8-55611c1b69d2
 description: This article provides a description and reference links for data blocks (access custom web app).
@@ -20,11 +16,9 @@ description: This article provides a description and reference links for data bl
 ## In this section
 
 - [CreateRecord Data Block (Access custom web app)](createrecord-data-block-access-custom-web-app.md)
-    
-- [EditRecord Data Block (Access custom web app)](editrecord-data-block-access-custom-web-app.md)
-    
-- [ForEachRecord Data Block (Access custom web app)](foreachrecord-data-block-access-custom-web-app.md)
-    
-- [LookupRecord Data Block (Access custom web app)](lookuprecord-data-block-access-custom-web-app.md)
-    
 
+- [EditRecord Data Block (Access custom web app)](editrecord-data-block-access-custom-web-app.md)
+
+- [ForEachRecord Data Block (Access custom web app)](foreachrecord-data-block-access-custom-web-app.md)
+
+- [LookupRecord Data Block (Access custom web app)](lookuprecord-data-block-access-custom-web-app.md)

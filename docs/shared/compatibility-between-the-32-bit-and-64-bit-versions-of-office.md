@@ -1,5 +1,6 @@
 ---
 title: "Compatibility between the 32-bit and 64-bit versions of Office"
+manager: lindalu
 ms.date: 10/27/2021
 ms.audience: ITPro
 ms.assetid: ff49dc9e-daf8-43cf-8802-51c2537ed561
@@ -210,15 +211,15 @@ End Sub
 
 ## Frequently asked questions
 
-#### When should I use the 64-bit version of Office?
+### When should I use the 64-bit version of Office?
   
 This is more a matter of which host application (Excel, Word, and so forth) you are using. For example, Excel is able to handle much larger worksheets with the 64-bit version of Microsoft Office.
   
-#### Can I install 64-bit and 32-bit versions of Office side-by-side?
+### Can I install 64-bit and 32-bit versions of Office side-by-side?
   
 No.
   
-#### When should I convert Long parameters to LongPtr?
+### When should I convert Long parameters to LongPtr?
   
 You need to check the Windows API documentation on the Microsoft Developers Network for the function you want to call. Handles and pointers need to be converted to **LongPtr**. As an example, the documentation for [RegOpenKeyA](/windows/win32/api/winreg/nf-winreg-regopenkeyexa) provides the following signature.
   
@@ -248,7 +249,7 @@ In [Win32API_PtrSafe.txt](/office/troubleshoot/office/win32api_ptrsafe-with-64-b
 Declare PtrSafe Function RegOpenKeyEx Lib "advapi32.dll" Alias "RegOpenKeyExA" (ByVal hKey As LongPtr , ByVal lpSubKey As String, ByVal ulOptions As Long, ByVal samDesired As Long, phkResult As LongPtr ) As Long
 ```
 
-#### Should I convert pointers and handles in structures?
+### Should I convert pointers and handles in structures?
   
 Yes. See the **MSG** type in Win32API_PtrSafe.txt:
   
@@ -263,7 +264,7 @@ Type MSG
 End TypeF
 ```
 
-#### When should I use strptr, varpt, and objptr?
+### When should I use strptr, varpt, and objptr?
   
 You should use these functions to retrieve pointers to strings, variables and objects, respectively. On the 64-bit version of Office, these functions will return a 64-bit **LongPtr**, which can be passed to **Declare** statements. The use of these functions has not changed from previous versions of VBA. The only difference is that they now return a **LongPtr**.
   
