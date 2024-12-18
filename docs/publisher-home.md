@@ -1,6 +1,6 @@
 ---
 title: "Publisher"
-manager: kelbow
+manager: lindalu
 ms.date: 12/13/2017
 ms.audience: Developer
 ms.localizationpriority: medium

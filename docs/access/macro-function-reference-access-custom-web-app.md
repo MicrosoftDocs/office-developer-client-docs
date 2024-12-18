@@ -2,7 +2,7 @@
 title: "Macro function reference (Access custom web app)"
  
  
-manager: kelbow
+manager: lindalu
 ms.date: 08/17/2017
 ms.audience: Developer
 ms.topic: reference
