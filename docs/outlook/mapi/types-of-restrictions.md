@@ -39,6 +39,7 @@ Each of the specialized restriction structures in the union represents a differe
 |Exist |[SExistRestriction](sexistrestriction.md) |Tests whether an object has a value for a property. |
 |Subobject |[SSubRestriction](ssubrestriction.md) |Used for searching through subobjects, or objects that cannot be accessed with an entry identifier, such as recipients and attachments. Can be used, for example, to look for messages for a particular recipient. |
 |Comment |[SCommentRestriction](scommentrestriction.md) |Associates an object with a set of named properties. |
+|Count |[SCountRestriction](scountrestriction.md) |Used for limiting results returned from evaluation of another restriction. |
    
 Some restrictions use regular expressions, and MAPI supports a limited form of regular expression notation in the style that is used many text applications.
   
