@@ -87,7 +87,7 @@ Some of the following examples assume the existence of a hypothetical Salary fie
 
 This example creates a dynaset-type **Recordset** based on an SQL statement that selects the LastName and FirstName fields of all records in the Employees table. It calls the EnumFields procedure, which prints the contents of a **Recordset** object to the **Debug** window.
 
-```sql
+```vb
     Sub SelectX1() 
      
         Dim dbs As Database, rst As Recordset 
@@ -115,7 +115,7 @@ This example creates a dynaset-type **Recordset** based on an SQL statement that
 
 This example counts the number of records that have an entry in the PostalCode field and names the returned field Tally.
 
-```sql
+```vb
     Sub SelectX2() 
      
         Dim dbs As Database, rst As Recordset 
@@ -143,7 +143,7 @@ This example counts the number of records that have an entry in the PostalCode f
 
 This example shows the number of employees and the average and maximum salaries.
 
-```sql
+```vb
     Sub SelectX3() 
      
         Dim dbs As Database, rst As Recordset 
@@ -174,7 +174,7 @@ This example shows the number of employees and the average and maximum salaries.
 
 The **Sub** procedure EnumFields is passed a **Recordset** object from the calling procedure. The procedure then formats and prints the fields of the **Recordset** to the **Debug** window. The variable is the desired printed field width. Some fields may be truncated.
 
-```sql
+```vb
     Sub EnumFields(rst As Recordset, intFldLen As Integer) 
      
         Dim lngRecords As Long, lngFields As Long 
