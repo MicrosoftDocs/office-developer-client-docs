@@ -18,7 +18,7 @@ description: "This sample uses files and directories to transmit and receive mes
   
 This sample uses files and directories to transmit and receive messages. It implements and registers a very simple preprocessor that appends a line of text to each outbound message. The sample illustrates how to split message content between Transport Neutral Encapsulation Format (TNEF) and text. It also supports all configuration options (property sheets, wizards, and programmatic configuration) and message options. It does not support the remote transport interfaces.
   
-You can download this sample from [Outlook Messaging API (MAPI) Code Samples](https://go.microsoft.com/fwlink/?LinkId=129740).
+You can download this sample from [Outlook Messaging API (MAPI) Code Samples](https://github.com/microsoft/Outlook2010CodeSamples).
   
 |Property |Value |
 |:-----|:-----|
