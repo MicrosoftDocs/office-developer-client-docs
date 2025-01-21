@@ -20,8 +20,7 @@ ms.assetid: 2ccf1643-5604-4fee-92cc-3d6af00e7f98
   
 This sample supports a single read-only container for display names and email addresses, which are read from a flat binary file. The sample supports one-off templates and all configuration options except the Profile Wizard.
   
-You can download this sample from [Outlook Messaging API (MAPI) Code Samples](https://go.microsoft.com/fwlink/?LinkId=129740
-).
+You can download this sample from [Outlook Messaging API (MAPI) Code Samples](https://github.com/microsoft/Outlook2010CodeSamples).
   
 |Property |Value |
 |:-----|:-----|

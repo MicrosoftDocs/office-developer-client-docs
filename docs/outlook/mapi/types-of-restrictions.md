@@ -28,17 +28,18 @@ Each of the specialized restriction structures in the union represents a differe
   
 |**Type of restriction**|**Associated data structure**|**Description**|
 |:-----|:-----|:-----|
-|Compare property  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |Compares two properties of the same type. |
-|**AND** <br/> |[SAndRestriction](sandrestriction.md) <br/> |Performs a logical **AND** operation on two or more restrictions. |
-|**OR** <br/> |[SOrRestriction](sorrestriction.md) <br/> |Performs a logical **OR** operation on two or more restrictions. |
-|**NOT** <br/> |[SNotRestriction](snotrestriction.md) <br/> |Performs a logical **NOT** operation on two or more restrictions. |
-|Content  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |Locates specified data. |
-|Property  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |Specifies a particular property value as criteria for matching. Can be used, for example, to search for a particular type of attachment. |
-|Bitmask  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |Applies a bitmask to a PT_LONG property, typically to determine whether particular flags are set. |
-|Size  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |Tests the size of a property using standard relational operators. |
-|Exist  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |Tests whether an object has a value for a property. |
-|Subobject  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |Used for searching through subobjects, or objects that cannot be accessed with an entry identifier, such as recipients and attachments. Can be used, for example, to look for messages for a particular recipient. |
-|Comment  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |Associates an object with a set of named properties. |
+|Compare property |[SComparePropsRestriction](scomparepropsrestriction.md) |Compares two properties of the same type. |
+|**AND** |[SAndRestriction](sandrestriction.md) |Performs a logical **AND** operation on two or more restrictions. |
+|**OR** |[SOrRestriction](sorrestriction.md) |Performs a logical **OR** operation on two or more restrictions. |
+|**NOT** |[SNotRestriction](snotrestriction.md) |Performs a logical **NOT** operation on two or more restrictions. |
+|Content |[SContentRestriction](scontentrestriction.md) |Locates specified data. |
+|Property |[SPropertyRestriction](spropertyrestriction.md) |Specifies a particular property value as criteria for matching. Can be used, for example, to search for a particular type of attachment. |
+|Bitmask |[SBitMaskRestriction](sbitmaskrestriction.md) |Applies a bitmask to a PT_LONG property, typically to determine whether particular flags are set. |
+|Size |[SSizeRestriction](ssizerestriction.md) |Tests the size of a property using standard relational operators. |
+|Exist |[SExistRestriction](sexistrestriction.md) |Tests whether an object has a value for a property. |
+|Subobject |[SSubRestriction](ssubrestriction.md) |Used for searching through subobjects, or objects that cannot be accessed with an entry identifier, such as recipients and attachments. Can be used, for example, to look for messages for a particular recipient. |
+|Comment |[SCommentRestriction](scommentrestriction.md) |Associates an object with a set of named properties. |
+|Count |[SCountRestriction](scountrestriction.md) |Used for limiting results returned from evaluation of another restriction. |
    
 Some restrictions use regular expressions, and MAPI supports a limited form of regular expression notation in the style that is used many text applications.
   
