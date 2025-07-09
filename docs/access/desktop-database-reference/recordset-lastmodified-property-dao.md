@@ -18,7 +18,7 @@ ms.localizationpriority: medium
 
 **Applies to**: Access 2013, Office 2013 
 
-Returns a bookmark indicating the most recently added or changed record.
+Returns a bookmark indicating the most recently added or modified record.
 
 ## Syntax
 
@@ -35,121 +35,125 @@ You can use the **LastModified** property to move to the most recently added or 
 This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.
 
 ```vb
-    Sub LastModifiedX() 
-     
-     Dim dbsNorthwind As Database 
-     Dim rstEmployees As Recordset 
-     Dim strFirst As String 
-     Dim strLast As String 
-     
-     Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
-     Set rstEmployees = _ 
-     dbsNorthwind.OpenRecordset("Employees", _ 
-     dbOpenDynaset) 
-     
-     With rstEmployees 
-     ' Store current data. 
-     strFirst = !FirstName 
-     strLast = !LastName 
-     ' Change data in current record. 
-     .Edit 
-     !FirstName = "Julie" 
-     !LastName = "Warren" 
-     .Update 
-     ' Move current record pointer to the most recently 
-     ' changed or added record. 
-     .Bookmark = .LastModified 
-     Debug.Print _ 
-     "Data in LastModified record after Edit: " & _ 
-     !FirstName & " " & !LastName 
-     
-     ' Restore original data because this is a demonstration. 
-     .Edit 
-     !FirstName = strFirst 
-     !LastName = strLast 
-     .Update 
-     
-     ' Add new record. 
-     .AddNew 
-     !FirstName = "Roger" 
-     !LastName = "Harui" 
-     .Update 
-     ' Move current record pointer to the most recently 
-     ' changed or added record. 
-     .Bookmark = .LastModified 
-     Debug.Print _ 
-     "Data in LastModified record after AddNew: " & _ 
-     !FirstName & " " & !LastName 
-     
-     ' Delete new record because this is a demonstration. 
-     .Delete 
-     .Close 
-     End With 
-     
-     dbsNorthwind.Close 
-     
-    End Sub 
+Public Sub LastModifiedDemo() 
+    
+    Dim Northwind           As DAO.Database 
+    Dim Employees           As DAO.Recordset 
+    Dim CurrentFirstName    As String 
+    Dim CurrentLastName     As String 
+    
+    Set Northwind = OpenDatabase("Northwind.mdb") 
+    Set Employees = Northwind.OpenRecordset("Employees", dbOpenDynaset) 
+    
+    With Employees 
+        ' Store current data. 
+        CurrentFirstName = !FirstName 
+        CurrentLastName = !LastName 
+
+        ' Modify the data in the current record. 
+        .Edit 
+            !FirstName = "Julie" 
+            !LastName = "Warren" 
+        .Update 
+        ' Move the current record pointer to the most recently 
+        ' modified or added record. 
+        .Bookmark = .LastModified 
+        Debug.Print _ 
+            "Data in LastModified record after Edit: " & _ 
+            !FirstName & " " & !LastName 
+        
+        ' Restore the original data because this is a demonstration. 
+        .Edit 
+            !FirstName = CurrentFirstName 
+            !LastName = CurrentLastName 
+        .Update 
+        
+        ' Add new record. 
+        .AddNew 
+            !FirstName = "Roger" 
+            !LastName = "Harui" 
+        .Update 
+        ' Move the current record pointer to the most recently 
+        ' modified or added record. 
+        .Bookmark = .LastModified 
+        Debug.Print _ 
+            "Data in LastModified record after AddNew: " & _ 
+            !FirstName & " " & !LastName 
+        
+        ' Delete the new record because this is a demonstration. 
+        .Delete 
+        .Close 
+    End With 
+    Set Employees = Nothing
+
+    Northwind.Close 
+    Set Northwind = Nothing
+ 
+End Sub 
 ```
 
 
-This example uses the **AddNew** method to create a new record with the specified name. The AddName function is required for this procedure to run.
+This example uses the **AddNew** method to create a new record with the specified name. The AddName sub is required for this procedure to run.
 
 ```vb
-    Sub AddNewX() 
-     
-     Dim dbsNorthwind As Database 
-     Dim rstEmployees As Recordset 
-     Dim strFirstName As String 
-     Dim strLastName As String 
-     
-     Set dbsNorthwind = OpenDatabase("Northwind.mdb") 
-     Set rstEmployees = _ 
-     dbsNorthwind.OpenRecordset("Employees", dbOpenDynaset) 
-     
-     ' Get data from the user. 
-     strFirstName = Trim(InputBox( _ 
-     "Enter first name:")) 
-     strLastName = Trim(InputBox( _ 
-     "Enter last name:")) 
-     
-     ' Proceed only if the user actually entered something 
-     ' for both the first and last names. 
-     If strFirstName <> "" and strLastName <> "" Then 
-     
-     ' Call the function that adds the record. 
-     AddName rstEmployees, strFirstName, strLastName 
-     
-     ' Show the newly added data. 
-     With rstEmployees 
-     Debug.Print "New record: " & !FirstName & _ 
-     " " & !LastName 
-     ' Delete new record because this is a demonstration. 
-     .Delete 
-     End With 
-     
-     Else 
-     Debug.Print _ 
-     "You must input a string for first and last name!" 
-     End If 
-     
-     rstEmployees.Close 
-     dbsNorthwind.Close 
-     
-    End Sub 
-     
-    Function AddName(rstTemp As Recordset, _ 
-     strFirst As String, strLast As String) 
-     
-     ' Adds a new record to a Recordset using the data passed 
-     ' by the calling procedure. The new record is then made 
-     ' the current record. 
-     With rstTemp 
-     .AddNew 
-     !FirstName = strFirst 
-     !LastName = strLast 
-     .Update 
-     .Bookmark = .LastModified 
-     End With 
-     
-    End Function
+Public Sub AddNewDemo() 
+ 
+    Dim Northwind       As DAO.Database 
+    Dim Employees       As DAO.Recordset 
+    Dim FirstName       As String 
+    Dim LastName        As String 
+    
+    Set Northwind = OpenDatabase("Northwind.mdb") 
+    Set Employees = Northwind.OpenRecordset("Employees", dbOpenDynaset) 
+    
+    ' Get data from the user. 
+    FirstName = Trim(InputBox("Enter first name:")) 
+    LastName = Trim(InputBox("Enter last name:")) 
+    
+    ' Proceed only if the user actually entered something 
+    ' for both the first and last names. 
+    If FirstName <> "" And LastName <> "" Then        
+        ' Call the sub that adds the record. 
+        AddName Employees, FirstName, LastName 
+        
+        ' Show the newly added data. 
+        With Employees 
+            Debug.Print _ 
+                "New record: " & !FirstName & " " & !LastName 
+            ' Delete the new record because this is a demonstration. 
+            .Delete 
+        End With             
+    Else 
+        MsgBox _ 
+            "You must input values for both first and last name.", _
+            vbInformation + vbOKOnly, _
+            "Add new name" 
+    End If 
+    
+    Employees.Close 
+    Set Employees = Nothing
+
+    Northwind.Close 
+    Set Northwind = Nothing
+ 
+End Sub 
+
+ 
+Public Sub AddName( _ 
+    ByRef Records As DAO.Recordset, _ 
+    ByVal FirstName As String, _ 
+    ByVal LastName As String) 
+    
+    ' Adds a new record to a Recordset using the data 
+    ' passed by the calling procedure. 
+    ' The new record is then made the current record. 
+    With Records 
+        .AddNew 
+            !FirstName = FirstName 
+            !LastName = LastName 
+        .Update 
+        .Bookmark = .LastModified 
+    End With 
+ 
+End Function
 ```
