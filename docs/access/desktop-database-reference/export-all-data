@@ -1,0 +1,26 @@
+---
+title: Export all data from a Microsoft Access Database
+TOCTitle: Export all data
+ms:assetid: 79a1f793-7154-1c13-7dfe-a1b8cd64e1ea
+ms:mtpsurl: https://msdn.microsoft.com/library/JJ249501(v=office.15)
+ms:contentKeyID: 48545774
+ms.date: 10/17/2018
+mtps_version: v=office.15
+ms.localizationpriority: medium
+---
+
+# Absolute and relative URLs
+
+# Export all data from a Microsoft Access database
+
+**Applies to**: Access 2024, Access 2021 
+
+This topic explains how an IT administrator can export all data and objects from a Microsoft Access database to text files, enabling use with other tools and supporting data portability.
+
+For data stored in Tables, data can be exported to a variety of other formats using Access Wizards, such as Excel, see [Export data to Excel](https://support.microsoft.com/office/export-data-to-excel-64e974e6-ae43-4301-a53e-20463655b1a9), or text, see [Export data to a text file](https://support.microsoft.com/office/export-data-to-a-text-file-f72dfc38-a8a0-4c5b-8c2c-bf2950814140).
+
+The following instructions demonstrate how to export objects using VBA code, using the [DoCmd.TransferText method (Access)](https://learn.microsoft.com/office/vba/api/Access.DoCmd.TransferText) command to export table data, and the [Application.SaveAsText](/application-save-as-text) command for other objects. 
+
+The code provided will create a function that can be called with the full path to a database and a destination folder. It will then create a text file for each object in the database, which will contain the data from tables, and the definitions of all user created objects such as forms or reports.
+
+Since this process uses OLE automation, the code could also be written using PowerShell or using a .NET language such as C#.
