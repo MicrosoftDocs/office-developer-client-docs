@@ -23,18 +23,17 @@ Since this process uses OLE automation, the code could also be written using Pow
 1. Create a new database.
 1. Create a new module.
 1. Copy and paste the following export database code into the module.
-1. For each database that you wish to export, enter the following command in the immediate window:<br>ExportAccessDatabase "_Full path to database_", "_Folder to contain exported objects_".
+1. For each database that you wish to export, enter the following command in the immediate window:<br><br>`ExportAccessDatabase "_Full path to database_", "_Folder to contain exported objects_"`<br>
     1. Note that a new folder will be created in the target folder with the name of the exported database. This is to allow exporting multiple databases to the same target folder while keeping the contents of each exported database in a separate folder.
     1. If the database to be exported contains a startup form, or an AutoExec macro, startup actions may interfere with the export process, so you should reset the Startup Form property for the database, and remove or rename the AutoExec macro before attempting to call ExportAccessDatabase.
-1. If you wish to further automate this process, you could write a function that, given the path to a folder, enumerates all the databases in the folder, and calls teh ExportAccessDatabase function to export each Microsoft Access database to a target folder.
+1. If you wish to further automate this process, you could write a function that, given the path to a folder, enumerates all the databases in the folder, and calls the ExportAccessDatabase function to export each Microsoft Access database to a target folder.
 
 ## Export database code (VBA)
 
 ```vba
-
 Option Compare Database
 Option Explicit
- \
+
 ' Pass in the location of the database to export, and the folder to export to
 Sub ExportAccessDatabase(strDBPath As String, exportFolder As String)
     Dim objAccess As Object
@@ -113,5 +112,4 @@ Err_ExportDatabase:
  
 Exit_Sub:
 End Sub
-
 ```
