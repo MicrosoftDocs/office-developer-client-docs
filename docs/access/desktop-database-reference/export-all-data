@@ -1,7 +1,7 @@
 ---
 title: Export all data from a Microsoft Access Database
 TOCTitle: Export all data
-ms.assetid: 79a1f793-7154-1c13-7dfe-a1b8cd64e1ea
+ms:assetid: 79a1f793-7154-1c13-7dfe-a1b8cd64e1ea
 ms.date: 08/06/2024
 ms.localizationpriority: medium
 ---
@@ -23,7 +23,7 @@ Since this process uses OLE automation, the code could also be written using Pow
 1.	Create a new database.
 2.	Create a new module.
 3.	Copy and paste the following export database code into the module.
-4.	For each database that you wish to export, enter the following command in the immediate window:<br>ExportAccessDatabase "*Full path to database*", "*Folder to contain exported objects*".
+4.	For each database that you wish to export, enter the following command in the immediate window:<br>ExportAccessDatabase "_Full path to database_", "*Folder to contain exported objects*".
   a.	Note that a new folder will be created in the target folder with the name of the exported database. This is to allow exporting multiple databases to the same target folder while keeping the contents of each exported database in a separate folder.
   b.	If the database to be exported contains a startup form, or an AutoExec macro, startup actions may interfere with the export process, so you should reset the Startup Form property for the database, and remove or rename the AutoExec macro before attempting to call ExportAccessDatabase.
 5.	If you wish to further automate this process, you could write a function that, given the path to a folder, enumerates all the databases in the folder, and calls teh ExportAccessDatabase function to export each Microsoft Access database to a target folder.
