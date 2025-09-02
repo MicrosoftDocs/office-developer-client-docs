@@ -11,13 +11,9 @@ ms.localizationpriority: medium
 
 # ExitForEachRecord macro action
 
-
 **Applies to**: Access 2013, Office 2013
 
 Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block.md)** data block.
 
-
 > [!NOTE]
 > The **ExitForEachRecord** action is available only in Data Macros.
-
-

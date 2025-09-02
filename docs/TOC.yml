@@ -431,6 +431,8 @@
                 href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
             - name: Set form, report, and control properties
               href: access/desktop-database-reference/set-form-report-and-control-properties.md
+            - name: Export all data from a Microsoft Access database
+              href: access/desktop-database-reference/export-all-data.md
           - name: Microsoft Data Access Objects reference
             items:
             - name: Overview
