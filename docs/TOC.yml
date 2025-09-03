@@ -431,8 +431,6 @@
                 href: access/desktop-database-reference/use-microsoft-access-as-a-dde-server.md
             - name: Set form, report, and control properties
               href: access/desktop-database-reference/set-form-report-and-control-properties.md
-            - name: Export all data from a Microsoft Access database
-              href: access/desktop-database-reference/export-all-data.md
           - name: Microsoft Data Access Objects reference
             items:
             - name: Overview
@@ -3782,7 +3780,9 @@
             - name: Data import/export
               items:
               - name: Overview
-                href: access/desktop-database-reference/data-import-export.md              
+                href: access/desktop-database-reference/data-import-export.md
+              - name: Export all data from a Microsoft Access database
+                href: access/desktop-database-reference/export-all-data.md
               - name: RunSavedImportExport macro action
                 href: access/desktop-database-reference/runsavedimportexport-macro-action.md
               - name: EMailDatabaseObject macro action
@@ -3797,6 +3797,10 @@
                 href: access/desktop-database-reference/importexporttext-macro-action.md
               - name: ImportSharePointList macro action
                 href: access/desktop-database-reference/importsharepointlist-macro-action.md
+              - name: SaveAsText method
+                href: access/desktop-database-reference/application-save-as-text.md
+              - name: LoadFromText method
+                href: access/desktop-database-reference/application-load-from-text.md
             - name: Database objects
               items:
               - name: Overview
