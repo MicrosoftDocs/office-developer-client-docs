@@ -6315,7 +6315,7 @@
                 - name: Error handling
                   items:
                   - name: Overview
-                    href: outlook/mapi/error-handling-in-mapi.md                
+                    href: outlook/mapi/error-handling-in-mapi.md
                   - name: Return value naming convention
                     href: outlook/mapi/return-value-naming-convention.md
                   - name: Using Macros for error handling
@@ -6328,6 +6328,8 @@
                     href: outlook/mapi/mapi-extended-errors.md
                   - name: Deferring errors
                     href: outlook/mapi/deferring-mapi-errors.md
+                  - name: Troubleshoot an application that can't open messages in the online archive store
+                    href: outlook/mapi/troubleshoot-messages-in-online-archive-store.md
                 - name: Sending messages by using MAPI
                   items:
                   - name: Overview
