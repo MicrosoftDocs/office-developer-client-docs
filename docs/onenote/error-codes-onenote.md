@@ -69,8 +69,9 @@ The following lists the new error codes for OneNote 2013.
   
 |**HResult**|**Value**|**Description**|
 |:-----|:-----|:-----|
-|hrIMConversationTypeInvalid  <br/> |0x8004202F  <br/> |Returned by **UpdatePageContent** if **IMConversationType** page node property was to a value other than 0,1,2 or 3  <br/> |
+|hrIMConversationTypeInvalid  <br/> |0x8004202F  <br/> |Returned by **UpdatePageContent** if **IMConversationType** page node property was to a value other than 0,1,2 or 3. |
 |hrAppInModalUI  <br/> |0x80042030  <br/> |A modal dialog is blocking the app. |
+|hrPublishFormatUnsupportedForLabels  <br/> |0x80042031  <br/> |The publish format does not support sensitivity labeling. |
    
 ## See also
 
