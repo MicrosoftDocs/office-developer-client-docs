@@ -87,7 +87,7 @@ The following table lists the primary data types. The synonyms are identified in
 </tr>
 <tr class="odd">
 <td><p>DECIMAL</p></td>
-<td><p>17 bytes</p></td>
+<td><p>12 bytes</p></td>
 <td><p>An exact numeric data type that holds values from 1028 - 1 through - 1028 - 1. You can define both precision (1 - 28) and scale (0 - defined precision). The default precision and scale are 18 and 0, respectively.</p></td>
 </tr>
 <tr class="even">
